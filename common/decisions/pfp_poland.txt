@@ -1,0 +1,67 @@
+pfp_category = {
+	pfp_poland = {
+		allowed = {
+			NOT = {
+				original_tag = POL #Poland
+				original_tag = P34 #Poland
+			}
+		}
+		available = {
+			is_subject = no
+			#Warszawa
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_required_states_warszawa
+				has_full_control_of_state = 10 #Warszawa
+			}
+
+			#Lodz
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_required_states_lodz
+				has_full_control_of_state = 87 #Lodz
+			}
+			#Kielce
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_required_states_kielce
+				has_full_control_of_state = 90 #Kielce
+			}
+			#Lublin
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_required_states_lublin
+				has_full_control_of_state = 92 #Lublin
+			}
+			#Płock
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_required_states_plock
+				has_full_control_of_state = 98 #Płock
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 10 #Warszawa
+				has_full_control_of_state = 11 #Kaunas
+			}
+			NOT = { has_global_flag = pfp_poland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 10 #Warszawa
+				state = 87 #Lodz
+				state = 90 #Kielce
+				state = 92 #Lublin
+				state = 98 #Płock
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_poland_coring_states
+			custom_effect_tooltip = pfp_poland_transfer_states
+			custom_effect_tooltip = pfp_poland_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_poland = yes
+				set_autonomy = { target = P34 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -33,7 +33,7 @@ P30 - North Africa \
 P31 - West Germany \
 P32 - East Germany \
 P33 - Prussia \
-P34 - Poland-Lithuania \
+P34 - Poland \
 P35 - West Africa \
 P36 - South Africa \
 P37 - South Asia \

@@ -36,6 +36,5 @@ l_english:
  pfp_category_territories_west_germany:0 "Transfer Territory to West Germany"
  pfp_category_territories_west_germany_desc:0 ""
  pfp_west_germany_schleswig:0 "Transfer Schleswig"
- pfp_west_germany_required_states_schleswig:0 "Controls §YSchleswig§!."
  pfp_west_germany_coring_states_schleswig:0 "§YNorth Germany§! gains core on §YSchleswig§!.\n"
  pfp_west_germany_transfer_states_schleswig:0 "§YNorth Germany§! becomes owner and controller of §YSchleswig§!.\n"

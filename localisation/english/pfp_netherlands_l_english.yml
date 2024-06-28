@@ -30,6 +30,5 @@ l_english:
  pfp_category_territories_netherlands:0 "Transfer Territory to the Netherlands"
  pfp_category_territories_netherlands_desc:0 ""
  pfp_netherlands_luxemburg:0 "Transfer Luxemburg"
- pfp_netherlands_required_states_luxemburg:0 "Controls §YLuxemburg§!."
  pfp_netherlands_coring_states_luxemburg:0 "§YNetherlands§! gains core on §YLuxemburg§!.\n"
  pfp_netherlands_transfer_states_luxemburg:0 "§YNetherlands§! becomes owner and controller of §YLuxemburg§!.\n"

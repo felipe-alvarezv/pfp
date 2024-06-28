@@ -1,6 +1,6 @@
 characters={
 	P42_communism_leader={
-		name="Military Council"
+		name="Military Junta"
 		portraits={
 			civilian={
 				large="gfx/leaders/PFP/pfp_communism.dds"
@@ -13,7 +13,7 @@ characters={
 		}
 	}
 	P42_democratic_leader={
-		name="Military Council"
+		name="Military Junta"
 		portraits={
 			civilian={
 				large="gfx/leaders/PFP/pfp_democratic.dds"
@@ -26,7 +26,7 @@ characters={
 		}
 	}
 	P42_neutrality_leader={
-		name="Military Council"
+		name="Military Junta"
 		portraits={
 			civilian={
 				large="gfx/leaders/PFP/pfp_neutrality.dds"
@@ -39,7 +39,7 @@ characters={
 		}
 	}
 	P42_fascism_leader={
-		name="Military Council"
+		name="Military Junta"
 		portraits={
 			civilian={
 				large="gfx/leaders/PFP/pfp_fascism.dds"

@@ -238,11 +238,7 @@ pfp_category_territories_north_germany = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				has_global_flag = pfp_south_germany_flag
-				has_global_flag = pfp_south_germany_schleswig_flag
-				has_global_flag = pfp_north_germany_schleswig_flag
-			}
+			NOT = { has_global_flag = pfp_north_germany_schleswig_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 909 } #Schleswig
