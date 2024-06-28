@@ -1,0 +1,123 @@
+pfp_category = {
+	pfp_east_africa = {
+		allowed = {
+			NOT = {
+				original_tag = ETH #Ethiopia
+				original_tag = ERI #Eritrea
+				original_tag = SOM #Somalia
+				original_tag = P10 #PFP East Africa
+			}
+		}
+		available = {
+			is_subject = no
+			#Shewa
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_shewa
+				has_full_control_of_state = 271 #Shewa
+			}
+			#Eritrea
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_eritrea
+				has_full_control_of_state = 550 #Eritrea
+			}
+			#Somaliland
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_somaliland
+				has_full_control_of_state = 559 #Somaliland
+			}
+			#Hararghe
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_hararghe
+				has_full_control_of_state = 835 #Hararghe
+			}
+			#Bale
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_bale
+				has_full_control_of_state = 836 #Bale
+			}
+			#Sidamo
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_sidamo
+				has_full_control_of_state = 837 #Sidamo
+			}
+			#Illubabor-Kaffa
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_illubabor_kaffa
+				has_full_control_of_state = 838 #Illubabor-Kaffa
+			}
+			#Welega
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_welega
+				has_full_control_of_state = 839 #Welega
+			}
+			#Gojjam
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_gojjam
+				has_full_control_of_state = 840 #Gojjam
+			}
+			#Begemender
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_begemender
+				has_full_control_of_state = 841 #Begemender
+			}
+			#Tigray
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_tigray
+				has_full_control_of_state = 842 #Tigray
+			}
+			#Wello
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_wello
+				has_full_control_of_state = 843 #Wello
+			}
+			#Jubaland
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_jubaland
+				has_full_control_of_state = 844 #Jubaland
+			}
+			#Afar
+			custom_trigger_tooltip = {
+				tooltip = pfp_east_africa_required_states_afar
+				has_full_control_of_state = 908 #Afar
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 271 #Shewa
+				has_full_control_of_state = 550 #Eritrea
+				has_full_control_of_state = 559 #Somaliland
+			}
+			NOT = { has_global_flag = pfp_east_africa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 271 #Shewa
+				state = 550 #Eritrea
+				state = 559 #Somaliland
+				state = 835 #Hararghe
+				state = 836 #Bale
+				state = 837 #Sidamo
+				state = 838 #Illubabor-Kaffa
+				state = 839 #Welega
+				state = 840 #Gojjam
+				state = 841 #Begemender
+				state = 842 #Tigray
+				state = 843 #Wello
+				state = 844 #Jubaland
+				state = 908 #Afar
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_east_africa_coring_states
+			custom_effect_tooltip = pfp_east_africa_transfer_states
+			custom_effect_tooltip = pfp_east_africa_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_east_africa = yes
+				set_autonomy = { target = P10 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

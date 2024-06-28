@@ -1,0 +1,26 @@
+#Scripted effect to release Bulgaria (P49)
+pfp_release_bulgaria = {
+	hidden_effect = {
+		#Add cores to Bulgaria territory
+		48 = { add_core_of = P49 } #Sofia
+		211 = { add_core_of = P49 } #Burgas
+		212 = { add_core_of = P49 } #Plovdiv
+		801 = { add_core_of = P49 } #Moesia
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P49 }
+			transfer_state_to = P49
+		}
+
+		#Transfer all technology to formable puppet
+		P49 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_bulgaria_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P49 }
+		news_event = { id = pfp_news.01 }
+	}
+}

@@ -1,0 +1,69 @@
+pfp_category = {
+	pfp_northeastern_us = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = P20 #Northeastern U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			#New England
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_new_england
+				has_full_control_of_state = 357 #New England
+			}
+			#New York
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_new_york
+				has_full_control_of_state = 358 #New York
+			}
+			#New Jersey
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_new_jersey
+				has_full_control_of_state = 359 #New Jersey
+			}
+			#Pennsylvania
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_pennsylvania
+				has_full_control_of_state = 360 #Pennsylvania
+			}
+			#Maryland
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_maryland
+				has_full_control_of_state = 361 #Maryland
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 357 #New England
+				has_full_control_of_state = 358 #New York
+				has_full_control_of_state = 359 #New Jesey
+				has_full_control_of_state = 360 #Pennsylvania
+				has_full_control_of_state = 361 #Maryland
+			}
+			NOT = { has_global_flag = pfp_northeastern_us_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 357 #New England
+				state = 358 #New York
+				state = 359 #New Jersey
+				state = 360 #Pennsylvania
+				state = 361 #Maryland
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_northeastern_us_coring_states
+			custom_effect_tooltip = pfp_northeastern_us_transfer_states
+			custom_effect_tooltip = pfp_northeastern_us_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_northeastern_us = yes
+				set_autonomy = { target = P20 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

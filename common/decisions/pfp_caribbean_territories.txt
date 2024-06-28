@@ -1,0 +1,290 @@
+pfp_category_territories_caribbean = {
+	pfp_caribbean_leeward_islands = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 308 #Leeward Islands
+
+			308 = { #Leeward Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_leeward_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 308 } #Leeward Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_leeward_islands
+			custom_effect_tooltip = pfp_caribbean_transfer_states_leeward_islands
+			hidden_effect = {
+				#Leeward Islands
+				308 = { add_core_of = P06 }
+				P06 = { transfer_state = 308 }
+				set_global_flag = pfp_caribbean_leeward_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_caribbean_puerto_rico = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 686 #Puerto Rico
+
+			686 = { #Puerto Rico
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_puerto_rico_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 686 } #Puerto Rico
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_puerto_rico
+			custom_effect_tooltip = pfp_caribbean_transfer_states_puerto_rico
+			hidden_effect = {
+				#Puerto Rico
+				686 = { add_core_of = P06 }
+				P06 = { transfer_state = 686 }
+				set_global_flag = pfp_caribbean_puerto_rico_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_caribbean_northern_bahamas = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 690 #Northern Bahamas
+
+			690 = { #Caribbean
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_northern_bahamas_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 690 } #Northern Bahamas
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_northern_bahamas
+			custom_effect_tooltip = pfp_caribbean_transfer_states_northern_bahamas
+			hidden_effect = {
+				#Northern Bahamas
+				690 = { add_core_of = P06 }
+				P06 = { transfer_state = 690 }
+				set_global_flag = pfp_caribbean_northern_bahamas_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_caribbean_trinidad = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 691 #Trinidad
+
+			691 = { #Trinidad
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_trinidad_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 691 } #Trinidad
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_trinidad
+			custom_effect_tooltip = pfp_caribbean_transfer_states_trinidad
+			hidden_effect = {
+				#Trinidad
+				691 = { add_core_of = P06 }
+				P06 = { transfer_state = 691 }
+				set_global_flag = pfp_caribbean_trinidad_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_caribbean_windward_islands = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 692 #Windward Islands
+
+			692 = { #Windward Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_windward_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 692 } #Windward Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_windward_islands
+			custom_effect_tooltip = pfp_caribbean_transfer_states_windward_islands
+			hidden_effect = {
+				#Windward Islands
+				692 = { add_core_of = P06 }
+				P06 = { transfer_state = 692 }
+				set_global_flag = pfp_caribbean_windward_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_caribbean_french_caribbean = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 694 #French Caribbean
+
+			694 = { #French Caribbean
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_french_caribbean_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 694 } #French Caribbean
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_french_caribbean
+			custom_effect_tooltip = pfp_caribbean_transfer_states_french_caribbean
+			hidden_effect = {
+				#French Caribbean
+				694 = { add_core_of = P06 }
+				P06 = { transfer_state = 694 }
+				set_global_flag = pfp_caribbean_french_caribbean_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_caribbean_curacao = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 695 #Curacao
+
+			695 = { #Curacao
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_curacao_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 695 } #Curacao
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_curacao
+			custom_effect_tooltip = pfp_caribbean_transfer_states_curacao
+			hidden_effect = {
+				#Curacao
+				695 = { add_core_of = P06 }
+				P06 = { transfer_state = 695 }
+				set_global_flag = pfp_caribbean_curacao_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_caribbean_southern_bahamas = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 693 #Southern Bahamas
+
+			693 = { #Southern Bahamas
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_southern_bahamas_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 693 } #Southern Bahamas
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_southern_bahamas
+			custom_effect_tooltip = pfp_caribbean_transfer_states_southern_bahamas
+			hidden_effect = {
+				#Southern Bahamas
+				693 = { add_core_of = P06 }
+				P06 = { transfer_state = 693 }
+				set_global_flag = pfp_caribbean_southern_bahamas_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_caribbean_bermuda = {
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			has_full_control_of_state = 696 #Bermuda
+
+			696 = { #Bermuda
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #Caribbean
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_caribbean_bermuda_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 696 } #Bermuda
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_bermuda
+			custom_effect_tooltip = pfp_caribbean_transfer_states_bermuda
+			hidden_effect = {
+				#Bermuda
+				696 = { add_core_of = P06 }
+				P06 = { transfer_state = 696 }
+				set_global_flag = pfp_caribbean_bermuda_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

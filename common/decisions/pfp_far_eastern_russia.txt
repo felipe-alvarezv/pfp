@@ -1,0 +1,108 @@
+pfp_category = {
+	pfp_far_eastern_russia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = P46 #PFP Far Eastern Russia
+			}
+		}
+		available = {
+			is_subject = no
+			#Vladivostok
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_vladivostok
+				has_full_control_of_state = 408 #Vladivostok
+			}
+			#Khabarovsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_khabarovsk
+				has_full_control_of_state = 409 #Khabarovsk
+			}
+			#Nikolayevsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_nikolayevsk
+				has_full_control_of_state = 560 #Nikolayevsk
+			}
+			#Amur
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_amur
+				has_full_control_of_state = 561 #Amur
+			}
+			#Okhotsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_okhotsk
+				has_full_control_of_state = 562 #Okhotsk
+			}
+			#Yakutsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_yakutsk
+				has_full_control_of_state = 574 #Yakutsk
+			}
+			#Kamchatka
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_kamchatka
+				has_full_control_of_state = 637 #Kamchatka
+			}
+			#Kolyma
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_kolyma
+				has_full_control_of_state = 644 #Kolyma
+			}
+			#Birobidzhan
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_birobidzhan
+				has_full_control_of_state = 657 #Birobidzhan
+			}
+			#Chukotka
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_chukotka
+				has_full_control_of_state = 822 #Chukotka
+			}
+			#Magadan
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_magadan
+				has_full_control_of_state = 874 #Magadan
+			}
+			#Verkhoyansk
+			custom_trigger_tooltip = {
+				tooltip = pfp_far_eastern_russia_required_states_verkhoyansk
+				has_full_control_of_state = 877 #Verkhoyansk
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 408 #Vladivostok
+				has_full_control_of_state = 561 #Amur
+			}
+			NOT = { has_global_flag = pfp_far_eastern_russia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 408 #Vladivostok
+				state = 409 #Khabarovsk
+				state = 560 #Nikolayevsk
+				state = 561 #Amur
+				state = 562 #Okhotsk
+				state = 574 #Yakutsk
+				state = 637 #Kamchatka
+				state = 644 #Kolyma
+				state = 657 #Birobidzhan
+				state = 822 #Chukotka
+				state = 874 #Magadan
+				state = 877 #Verkhoyansk
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_far_eastern_russia_coring_states
+			custom_effect_tooltip = pfp_far_eastern_russia_transfer_states
+			custom_effect_tooltip = pfp_far_eastern_russia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_far_eastern_russia = yes
+				set_autonomy = { target = P46 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

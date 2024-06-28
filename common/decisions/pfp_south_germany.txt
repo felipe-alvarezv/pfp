@@ -1,0 +1,54 @@
+pfp_category = {
+	pfp_south_germany = {
+		allowed = {
+			NOT = { original_tag = GER } #Germany
+		}
+		available = {
+			is_subject = no
+			#Wurttemberg
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_germany_required_states_wurttemberg
+				has_full_control_of_state = 50 #Wurttemberg
+			}
+			#Oberbayern
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_germany_required_states_oberbayern
+				has_full_control_of_state = 52 #Oberbayern
+			}
+			#Niederbayern
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_germany_required_states_niederbayern
+				has_full_control_of_state = 53 #Niederbayern
+			}
+			#Franken
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_germany_required_states_franken
+				has_full_control_of_state = 54 #Franken
+			}
+		}
+		visible = {
+			has_full_control_of_state = 52 #Oberbayern
+			NOT = { has_global_flag = pfp_south_germany_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 50 #Wurttemberg
+				state = 52 #Oberbayern
+				state = 53 #Niederbayern
+				state = 54 #Franken
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_germany_coring_states
+			custom_effect_tooltip = pfp_south_germany_transfer_states
+			custom_effect_tooltip = pfp_south_germany_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_south_germany = yes
+				set_autonomy = { target = P25 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -1,0 +1,55 @@
+pfp_category = {
+	pfp_pacific_us = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = P21 #Pacific U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			#California
+			custom_trigger_tooltip = {
+				tooltip = pfp_pacific_us_required_states_california
+				has_full_control_of_state = 378 #California
+			}
+			#Oregon
+			custom_trigger_tooltip = {
+				tooltip = pfp_pacific_us_required_states_oregon
+				has_full_control_of_state = 385 #Oregon
+			}
+			#Washington
+			custom_trigger_tooltip = {
+				tooltip = pfp_pacific_us_required_states_washington
+				has_full_control_of_state = 386 #Washington
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 378 #California
+				has_full_control_of_state = 385 #Oregon
+				has_full_control_of_state = 386 #Washington
+			}
+			NOT = { has_global_flag = pfp_pacific_us_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 378 #California
+				state = 385 #Oregon
+				state = 386 #Washington
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pacific_us_coring_states
+			custom_effect_tooltip = pfp_pacific_us_transfer_states
+			custom_effect_tooltip = pfp_pacific_us_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_pacific_us = yes
+				set_autonomy = { target = P21 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

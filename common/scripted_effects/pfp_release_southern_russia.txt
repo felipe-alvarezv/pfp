@@ -1,0 +1,29 @@
+#Scripted effect to release Southern Russia (P40)
+pfp_release_southern_russia = {
+	hidden_effect = {
+		#Add cores to Southern Russian territory
+		217 = { add_core_of = P40 } #Stalingrad
+		218 = { add_core_of = P40 } #Rostov
+		236 = { add_core_of = P40 } #Astrakhan
+		237 = { add_core_of = P40 } #Kalmykia
+		238 = { add_core_of = P40 } #Volgodonsk
+		245 = { add_core_of = P40 } #Millerovo
+		265 = { add_core_of = P40 } #Mikhaylovka
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P40 }
+			transfer_state_to = P40
+		}
+
+		#Transfer all technology to formable puppet
+		P40 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_southern_russia_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P40 }
+		news_event = { id = pfp_news.01 }
+	}
+}

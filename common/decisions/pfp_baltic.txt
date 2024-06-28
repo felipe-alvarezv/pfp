@@ -1,0 +1,97 @@
+pfp_category = {
+	pfp_baltic = {
+		allowed = {
+			NOT = {
+				original_tag = EST #Estonia
+				original_tag = LAT #Latvia
+				original_tag = P04 #PFP Baltic
+			}
+		}
+		available = {
+			is_subject = no
+			#Vidzeme
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_vidzeme
+				has_full_control_of_state = 12 #Vidzeme
+			}
+			#Parnu
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_parnu
+				has_full_control_of_state = 13 #Parnu
+			}
+			#Kurzeme
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_kurzeme
+				has_full_control_of_state = 190 #Kurzeme
+			}
+			#Tartu
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_tartu
+				has_full_control_of_state = 191 #Tartu
+			}
+			#Riga
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_riga
+				has_full_control_of_state = 808 #Riga
+			}
+			#Zemgale
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_zemgale
+				has_full_control_of_state = 809 #Zemgale
+			}
+			#Latgale
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_latgale
+				has_full_control_of_state = 810 #Latgale
+			}
+			#Saaremaa
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_saaremaa
+				has_full_control_of_state = 811 #Saaremaa
+			}
+			#Harju
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_harju
+				has_full_control_of_state = 812 #Harju
+			}
+			#Virumaa
+			custom_trigger_tooltip = {
+				tooltip = pfp_baltic_required_states_virumaa
+				has_full_control_of_state = 813 #Virumaa
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 808 #Riga
+				has_full_control_of_state = 812 #Harju
+			}
+			NOT = { has_global_flag = pfp_baltic_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 12 #Vidzeme
+				state = 13 #Parnu
+				state = 190 #Kurzeme
+				state = 191 #Tartu
+				state = 808 #Riga
+				state = 809 #Zemgale
+				state = 810 #Latgale
+				state = 811 #Saaremaa
+				state = 812 #Harju
+				state = 813 #Virumaa
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states
+			custom_effect_tooltip = pfp_baltic_transfer_states
+			custom_effect_tooltip = pfp_baltic_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_baltic = yes
+				set_autonomy = { target = P04 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -1,0 +1,32 @@
+#Scripted effect to release Baltic (P04)
+pfp_release_baltic = {
+	hidden_effect = {
+		#Add cores to Baltic territory
+		12 = { add_core_of = P04 } #Vidzeme
+		13 = { add_core_of = P04 } #Parnu
+		190 = { add_core_of = P04 } #Kurzeme
+		191 = { add_core_of = P04 } #Tartu
+		808 = { add_core_of = P04 } #Riga
+		809 = { add_core_of = P04 } #Zemgale
+		810 = { add_core_of = P04 } #Latgale
+		811 = { add_core_of = P04 } #Saaremaa
+		812 = { add_core_of = P04 } #Harju
+		813 = { add_core_of = P04 } #Virumaa
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P04 }
+			transfer_state_to = P04
+		}
+
+		#Transfer all technology to formable puppet
+		P04 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_baltic_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P04 }
+		news_event = { id = pfp_news.01 }
+	}
+}

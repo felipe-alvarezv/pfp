@@ -1,0 +1,72 @@
+pfp_category = {
+	pfp_quebec = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = P22 #Quebec
+			}
+		}
+		available = {
+			is_subject = no
+			#Nord du Quebec
+			custom_trigger_tooltip = {
+				tooltip = pfp_quebec_required_states_nord_du_quebec
+				has_full_control_of_state = 466 #Nord du Quebec
+			}
+			#Saint Lawrence
+			custom_trigger_tooltip = {
+				tooltip = pfp_quebec_required_states_saint_lawrence
+				has_full_control_of_state = 468 #Saint Lawrence
+			}
+			#Cote-Nord
+			custom_trigger_tooltip = {
+				tooltip = pfp_quebec_required_states_cote_nord
+				has_full_control_of_state = 860 #Cote-Nord
+			}
+			#Saguenay
+			custom_trigger_tooltip = {
+				tooltip = pfp_quebec_required_states_saguenay
+				has_full_control_of_state = 861 #Saguenay
+			}
+			#Ouest du Quebec
+			custom_trigger_tooltip = {
+				tooltip = pfp_quebec_required_states_ouest_du_quebec
+				has_full_control_of_state = 862 #Ouest du Quebec
+			}
+			#Maurice
+			custom_trigger_tooltip = {
+				tooltip = pfp_quebec_required_states_maurice
+				has_full_control_of_state = 863 #Maurice
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 466 #Nord du Quebec
+				has_full_control_of_state = 468 #Saint Lawrence
+			}
+			NOT = { has_global_flag = pfp_quebec_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 466 #Nord du Quebec
+				state = 468 #Saint Lawrence
+				state = 860 #Cote-Nord
+				state = 861 #Saguenay
+				state = 862 #Ouest du Quebec
+				state = 863 #Maurice
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states
+			custom_effect_tooltip = pfp_quebec_transfer_states
+			custom_effect_tooltip = pfp_quebec_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_quebec = yes
+				set_autonomy = { target = P22 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

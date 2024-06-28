@@ -1,0 +1,123 @@
+pfp_category = {
+	pfp_central_russia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = P39 #PFP Central Russia
+			}
+		}
+		available = {
+			is_subject = no
+			#Kaluga
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_kaluga
+				has_full_control_of_state = 205 #Kaluga
+			}
+			#Moscow
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_moscow
+				has_full_control_of_state = 219 #Moscow
+			}
+			#Kursk
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_kursk
+				has_full_control_of_state = 220 #Kursk
+			}
+			#Orel
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_orel
+				has_full_control_of_state = 222 #Orel
+			}
+			#Tula
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_tula
+				has_full_control_of_state = 223 #Tula
+			}
+			#Bryansk
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_bryansk
+				has_full_control_of_state = 224 #Bryansk
+			}
+			#Belgorod
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_belgorod
+				has_full_control_of_state = 240 #Belgorod
+			}
+			#Rzhev
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_rzhev
+				has_full_control_of_state = 246 #Rzhev
+			}
+			#Kalinin
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_kalinin
+				has_full_control_of_state = 247 #Kalinin
+			}
+			#Yaroslavl
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_yaroslavl
+				has_full_control_of_state = 248 #Yaroslavl
+			}
+			#Ivanovo
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_ivanovo
+				has_full_control_of_state = 253 #Ivanovo
+			}
+			#Ryazan
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_ryazan
+				has_full_control_of_state = 254 #Ryazan
+			}
+			#Tambov
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_tambov
+				has_full_control_of_state = 257 #Tambov
+			}
+			#Lipetsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_lipetsk
+				has_full_control_of_state = 258 #Lipetsk
+			}
+			#Voronezh
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_russia_required_states_voronezh
+				has_full_control_of_state = 260 #Voronezh
+			}
+		}
+		visible = {
+			has_full_control_of_state = 219 #Moscow
+			NOT = { has_global_flag = pfp_central_russia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 205 #Kaluga
+				state = 219 #Moscow
+				state = 220 #Kursk
+				state = 222 #Orel
+				state = 223 #Tula
+				state = 224 #Bryansk
+				state = 240 #Belgorod
+				state = 246 #Rzhev
+				state = 247 #Kalinin
+				state = 248 #Yaroslavl
+				state = 253 #Ivanovo
+				state = 254 #Ryazan
+				state = 257 #Tambov
+				state = 258 #Lipetsk
+				state = 260 #Voronezh
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_central_russia_coring_states
+			custom_effect_tooltip = pfp_central_russia_transfer_states
+			custom_effect_tooltip = pfp_central_russia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_central_russia = yes
+				set_autonomy = { target = P39 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

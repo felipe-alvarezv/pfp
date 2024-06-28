@@ -1,0 +1,112 @@
+pfp_category = {
+	pfp_west_africa = {
+		allowed = {
+			NOT = { original_tag = LIB } #Liberia
+		}
+		available = {
+			is_subject = no
+			#Senegal
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_senegal
+				has_full_control_of_state = 272 #Senegal
+			}
+			#Southern Sahara
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_southern_sahara
+				has_full_control_of_state = 515 #Southern Sahara
+			}
+			#Bamako
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_bamako
+				has_full_control_of_state = 556 #Bamako
+			}
+			#Dahomey
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_dahomey
+				has_full_control_of_state = 776 #Dahomey
+			}
+			#Upper Volta
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_upper_volta
+				has_full_control_of_state = 778 #Upper Volta
+			}
+			#Ivory Coast
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_ivory_coast
+				has_full_control_of_state = 779 #Ivory Coast
+			}
+			#Guinea
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_guinea
+				has_full_control_of_state = 780 #Guinea
+			}
+			#Niger
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_niger
+				has_full_control_of_state = 781 #Niger
+			}
+			#Tombouctou
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_tombouctou
+				has_full_control_of_state = 782 #Tombouctou
+			}
+			#Gao
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_gao
+				has_full_control_of_state = 898 #Gao
+			}
+			#Kayes-Koulikoro
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_kayes_koulikoro
+				has_full_control_of_state = 899 #Kayes-Koulikoro
+			}
+			#Mauritania
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_mauritania
+				has_full_control_of_state = 557 #Mauritania
+			}
+			#Mauritanian Desert
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_africa_required_states_mauritanian_desert
+				has_full_control_of_state = 786 #Mauritanian Desert
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 272 #Senegal
+				has_full_control_of_state = 556 #Bamako
+				has_full_control_of_state = 779 #Ivory Coast
+			}
+			NOT = { has_global_flag = pfp_west_africa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 272 #Senegal
+				state = 515 #Southern Sahara
+				state = 556 #Bamako
+				state = 776 #Dahomey
+				state = 778 #Upper Volta
+				state = 779 #Ivory Coast
+				state = 780 #Guinea
+				state = 781 #Niger
+				state = 782 #Tombouctou
+				state = 898 #Gao
+				state = 899 #Kayues-Koulikoro
+				state = 557 #Mauritania
+				state = 786 #Mauritanian Desert
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_west_africa_coring_states
+			custom_effect_tooltip = pfp_west_africa_transfer_states
+			custom_effect_tooltip = pfp_west_africa_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_west_africa = yes
+				set_autonomy = { target = P35 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

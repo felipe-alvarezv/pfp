@@ -1,0 +1,63 @@
+pfp_category = {
+	pfp_mongolia = {
+		allowed = {
+			NOT = {
+				original_tag = MON #Mongolia
+				original_tag = P47 #PFP Mongolia
+			}
+		}
+		available = {
+			is_subject = no
+			#Ulaanbaatar
+			custom_trigger_tooltip = {
+				tooltip = pfp_mongolia_required_states_ulaanbaatar
+				has_full_control_of_state = 330 #Ulaanbaatar
+			}
+			#Gobi
+			custom_trigger_tooltip = {
+				tooltip = pfp_mongolia_required_states_gobi
+				has_full_control_of_state = 817 #Gobi
+			}
+			#Khovd
+			custom_trigger_tooltip = {
+				tooltip = pfp_mongolia_required_states_khovd
+				has_full_control_of_state = 818 #Khovd
+			}
+			#Dornod
+			custom_trigger_tooltip = {
+				tooltip = pfp_mongolia_required_states_dornod
+				has_full_control_of_state = 819 #Dornod
+			}
+			#Khovsgol
+			custom_trigger_tooltip = {
+				tooltip = pfp_mongolia_required_states_khovsgol
+				has_full_control_of_state = 820 #Khovsgol
+			}
+		}
+		visible = {
+			has_full_control_of_state = 330 #Ulaanbaatar
+			NOT = { has_global_flag = pfp_mongolia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 330 #Ulaanbaatar
+				state = 817 #Gobi
+				state = 818 #Khovd
+				state = 819 #Dornod
+				state = 820 #Khovsgol
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_mongolia_coring_states
+			custom_effect_tooltip = pfp_mongolia_transfer_states
+			custom_effect_tooltip = pfp_mongolia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_mongolia = yes
+				set_autonomy = { target = P47 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

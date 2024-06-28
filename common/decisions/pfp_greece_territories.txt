@@ -1,0 +1,450 @@
+pfp_category_territories_greece = {
+	pfp_greece_dodecanese = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 164 #Dodecanese
+
+			164 = { #Dodecanese
+				NOT = { is_core_of = FROM }
+			}
+			
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_dodecanese_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 164 } #Dodecanese
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_dodecanese
+			custom_effect_tooltip = pfp_greece_transfer_states_dodecanese
+			hidden_effect = {
+				#Dodecanese
+				164 = { add_core_of = P14 }
+				P14 = { transfer_state = 164 }
+				set_global_flag = pfp_greece_dodecanese_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_crete = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 182 #Crete
+
+			182 = { #Crete
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_crete_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 182 } #Crete
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_crete
+			custom_effect_tooltip = pfp_greece_transfer_states_crete
+			hidden_effect = {
+				#Crete
+				182 = { add_core_of = P14 }
+				P14 = { transfer_state = 182 }
+				set_global_flag = pfp_greece_crete_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_cyprus = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 183 #Cyprus
+
+			183 = { #Cyprus
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_cyprus_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 183 } #Cyprus
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_cyprus
+			custom_effect_tooltip = pfp_greece_transfer_states_cyprus
+			hidden_effect = {
+				#Cyprus
+				183 = { add_core_of = P14 }
+				P14 = { transfer_state = 183 }
+				set_global_flag = pfp_greece_cyprus_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_thrace = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 184 #Thrace
+
+			184 = { #Thrace
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_thrace_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 184 } #Thrace
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_thrace
+			custom_effect_tooltip = pfp_greece_transfer_states_thrace
+			hidden_effect = {
+				#Thrace
+				184 = { add_core_of = P14 }
+				P14 = { transfer_state = 184 }
+				set_global_flag = pfp_greece_thrace_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_aegean_islands = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 187 #Aegean Islands
+
+			187 = { #Aegean Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_aegean_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 187 } #Aegean Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_aegean_islands
+			custom_effect_tooltip = pfp_greece_transfer_states_aegean_islands
+			hidden_effect = {
+				#Aegean Islands
+				187 = { add_core_of = P14 }
+				P14 = { transfer_state = 187 }
+				set_global_flag = pfp_greece_aegean_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_izmir = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 339 #Izmir
+
+			339 = { #Izmir
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_izmir_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 339 } #Izmir
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_izmir
+			custom_effect_tooltip = pfp_greece_transfer_states_izmir
+			hidden_effect = {
+				#Izmir
+				339 = { add_core_of = P14 }
+				P14 = { transfer_state = 339 }
+				set_global_flag = pfp_greece_izmir_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_bursa = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 340 #Bursa
+
+			340 = { #Bursa
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_bursa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 340 } #Bursa 
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_bursa
+			custom_effect_tooltip = pfp_greece_transfer_states_bursa
+			hidden_effect = {
+				#Bursa
+				340 = { add_core_of = P14 }
+				P14 = { transfer_state = 340 }
+				set_global_flag = pfp_greece_bursa_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_edirne = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 341 #Edirne
+
+			341 = { #Edirne
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_edirne_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 341 } #Edirne
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_edirne
+			custom_effect_tooltip = pfp_greece_transfer_states_edirne
+			hidden_effect = {
+				#Edirne
+				341 = { add_core_of = P14 }
+				P14 = { transfer_state = 341 }
+				set_global_flag = pfp_greece_edirne_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_antalya = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 342 #Antalya
+
+			342 = { #Antalya
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM 
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_antalya_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 342 } #Antalya
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_antalya
+			custom_effect_tooltip = pfp_greece_transfer_states_antalya
+			hidden_effect = {
+				#Antalya
+				342 = { add_core_of = P14 }
+				P14 = { transfer_state = 342 }
+				set_global_flag = pfp_greece_antalya_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_mersin = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 345 #Mersin
+
+			345 = { #Mersin
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_mersin_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 345 } #Mersin
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_mersin
+			custom_effect_tooltip = pfp_greece_transfer_states_mersin
+			hidden_effect = {
+				#Mersin
+				345 = { add_core_of = P14 }
+				P14 = { transfer_state = 345 }
+				set_global_flag = pfp_greece_mersin_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_izmit = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 347 #Izmit
+
+			347 = { #Izmit
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_izmit_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 347 } #Izmit
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_izmit
+			custom_effect_tooltip = pfp_greece_transfer_states_izmit
+			hidden_effect = {
+				#Izmit
+				347 = { add_core_of = P14 }
+				P14 = { transfer_state = 347 }
+				set_global_flag = pfp_greece_izmit_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_central_macedonia = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 731 #Central Macedonia
+
+			731 = { #Central Macedonia
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_central_macedonia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 731 } #Central Macedonia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_central_macedonia
+			custom_effect_tooltip = pfp_greece_transfer_states_central_macedonia
+			hidden_effect = {
+				#Central Macedonia
+				731 = { add_core_of = P14 }
+				P14 = { transfer_state = 731 }
+				set_global_flag = pfp_greece_central_macedonia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_istanbul = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 797 #Istanbul
+
+			797 = { #Istanbul
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_istanbul_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 797 } #Istanbul
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_istanbul
+			custom_effect_tooltip = pfp_greece_transfer_states_istanbul
+			hidden_effect = {
+				#Istanbul
+				797 = { add_core_of = P14 }
+				P14 = { transfer_state = 797 }
+				set_global_flag = pfp_greece_istanbul_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_greece_northern_epirus = {
+		visible = {
+			has_global_flag = pfp_greece_flag
+			has_full_control_of_state = 805 #Northern Epirus
+
+			805 = { #Northern Epirus
+				NOT = { is_core_of = FROM }
+			}
+
+			P14 = { #Greece
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_greece_northern_epirus_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 805 } #Northern Epirus
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states_northern_epirus
+			custom_effect_tooltip = pfp_greece_transfer_states_northern_epirus
+			hidden_effect = {
+				#Northern Epirus
+				805 = { add_core_of = P14 }
+				P14 = { transfer_state = 805 }
+				set_global_flag = pfp_greece_northern_epirus_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

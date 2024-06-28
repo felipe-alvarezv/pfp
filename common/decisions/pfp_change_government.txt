@@ -1,0 +1,33 @@
+pfp_change_government = {
+	pfp_change_government_ideology = {
+		allowed = { }
+		available = { }
+		visible = {
+			is_subject = no #FROM must not be a subject
+			num_subjects > 0 #FROM must have at least one subject
+
+			any_subject_country  = {
+				has_autonomy_state = autonomy_military_administration
+				NOT = {
+					has_government = FROM
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_change_government_ideology_information
+			hidden_effect = {
+				every_subject_country = {
+					if = {
+						limit = { has_autonomy_state = autonomy_military_administration }
+						set_politics = {
+							ruling_party = FROM
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

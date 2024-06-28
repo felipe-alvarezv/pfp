@@ -1,0 +1,11 @@
+﻿#Himalayas
+P52 = {
+	male = {
+		names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher"  }
+	}
+	female = {
+		names = { Devaladevi Kaushalyawati Rajendralakshmi Maiya Nanu Nani Maya Pragya Anu Chameli Nirmala Anushka Sarmila Komal }
+	}
+	surnames = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana"  }
+	callsigns = { }
+}

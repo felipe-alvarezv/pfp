@@ -1,0 +1,34 @@
+#Scripted effect to release Midwestern U.S. (P18)
+pfp_release_midwestern_us = {
+	hidden_effect = {
+		#Add cores to Midwestern U.S. territory
+		261 = { add_core_of = P18 } #Ohio
+		373 = { add_core_of = P18 } #Missouri
+		383 = { add_core_of = P18 } #Kansas
+		384 = { add_core_of = P18 } #Nebraska
+		389 = { add_core_of = P18 } #North Dakota
+		390 = { add_core_of = P18 } #South Dakota
+		391 = { add_core_of = P18 } #Minnesota
+		392 = { add_core_of = P18 } #Iowa
+		393 = { add_core_of = P18 } #Michigan
+		394 = { add_core_of = P18 } #Wisconsin
+		395 = { add_core_of = P18 } #Illinois
+		396 = { add_core_of = P18 } #Indiana
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P18 }
+			transfer_state_to = P18
+		}
+
+		#Transfer all technology to formable puppet
+		P18 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_midwestern_us_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P18 }
+		news_event = { id = pfp_news.01 }
+	}
+}

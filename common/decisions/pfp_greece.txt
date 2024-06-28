@@ -1,0 +1,51 @@
+pfp_category = {
+	pfp_greece = {
+		allowed = {
+			NOT = {
+				original_tag = GRE #Greece
+				original_tag = P14 #PFP Greece
+			}
+		}
+		available = {
+			is_subject = no
+			#Attica
+			custom_trigger_tooltip = {
+				tooltip = pfp_greece_required_states_attica
+				has_full_control_of_state = 47 #Attica
+			}
+			#Epirus
+			custom_trigger_tooltip = {
+				tooltip = pfp_greece_required_states_epirus
+				has_full_control_of_state = 185 #Epirus
+			}
+			#Peloponnese
+			custom_trigger_tooltip = {
+				tooltip = pfp_greece_required_states_peloponnese
+				has_full_control_of_state = 186 #Peloponnese
+			}
+		}
+		visible = {
+			has_full_control_of_state = 47 #Attica
+			NOT = { has_global_flag = pfp_greece_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 47 #Attica
+				state = 185 #Epirus
+				state = 186 #Peloponnese
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_greece_coring_states
+			custom_effect_tooltip = pfp_greece_transfer_states
+			custom_effect_tooltip = pfp_greece_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_greece = yes
+				set_autonomy = { target = P14 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

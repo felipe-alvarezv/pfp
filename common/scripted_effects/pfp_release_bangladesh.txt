@@ -1,0 +1,23 @@
+#Scripted effect to release Bangladesh (P38)
+pfp_release_bangladesh = {
+	hidden_effect = {
+		#Add cores to Bengali territory
+		430 = { add_core_of = P38 } #East Bengal
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P38 }
+			transfer_state_to = P38
+		}
+
+		#Transfer all technology to formable puppet
+		P38 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_bangladesh_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P38 }
+		news_event = { id = pfp_news.01 }
+	}
+}

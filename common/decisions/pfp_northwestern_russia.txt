@@ -1,0 +1,120 @@
+pfp_category = {
+	pfp_northwestern_russia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = P43 #Northwestern Russia
+			}
+		}
+		available = {
+			is_subject = no
+			#Leningrad
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_leningrad
+				has_full_control_of_state = 195 #Leningrad
+			}
+			#Luga
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_luga
+				has_full_control_of_state = 208 #Luga
+			}
+			#Pskov
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_pskov
+				has_full_control_of_state = 209 #Pskov
+			}
+			#Nevel
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_nevel
+				has_full_control_of_state = 210 #Nevel
+			}
+			#Arkhangelsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_arkhangelsk
+				has_full_control_of_state = 214 #Arkhangelsk
+			}
+			#Volkhov
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_volkhov
+				has_full_control_of_state = 244 #Volkhov
+			}
+			#Pechora
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_pechora
+				has_full_control_of_state = 262 #Pechora
+			}
+			#Novgorod
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_novgorod
+				has_full_control_of_state = 263 #Novgorod
+			}
+			#Tikhvin
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_tikhvin
+				has_full_control_of_state = 264 #Tikhvin
+			}
+			#Vologda
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_vologda
+				has_full_control_of_state = 351 #Vologda
+			}
+			#Syktyvkar
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_syktyvkar
+				has_full_control_of_state = 397 #Syktyvkar
+			}
+			#Nenets
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_nenets
+				has_full_control_of_state = 825 #Nenets
+			}
+			#Kargopol
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_kargopol
+				has_full_control_of_state = 879 #Kargopol
+			}
+			#Kotlas
+			custom_trigger_tooltip = {
+				tooltip = pfp_northwestern_russia_required_states_kotlas
+				has_full_control_of_state = 880 #Kotlas
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 195 #Leningrad
+				has_full_control_of_state = 214 #Arkhangelsk
+			}
+			NOT = { has_global_flag = pfp_northwestern_russia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 195 #Leningrad
+				state = 208 #Luga
+				state = 209 #Pksov
+				state = 210 #Nevel
+				state = 214 #Arkhangelsk
+				state = 244 #Volkhov
+				state = 262 #Pechora
+				state = 263 #Novgorod
+				state = 264 #Tikhvin
+				state = 351 #Vologda
+				state = 397 #Syktyvkar
+				state = 825 #Nenets
+				state = 879 #Kargopol
+				state = 880 #Kotlas
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_northwestern_russia_coring_states
+			custom_effect_tooltip = pfp_northwestern_russia_transfer_states
+			custom_effect_tooltip = pfp_northwestern_russia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_northwestern_russia = yes
+				set_autonomy = { target = P43 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

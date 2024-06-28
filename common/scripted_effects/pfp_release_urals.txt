@@ -1,0 +1,32 @@
+#Scripted effect to release Urals (P44)
+pfp_release_urals = {
+	hidden_effect = {
+		#Add cores to Urals territory
+		403 = { add_core_of = P44 } #Tyumen
+		572 = { add_core_of = P44 } #Chelyabinsk
+		573 = { add_core_of = P44 } #Zlatoust
+		577 = { add_core_of = P44 } #Surgut
+		579 = { add_core_of = P44 } #Salekhard
+		580 = { add_core_of = P44 } #Tobolsk
+		581 = { add_core_of = P44 } #Northern Urals
+		582 = { add_core_of = P44 } #Magnitogorsk
+		653 = { add_core_of = P44 } #Sverdlovsk
+		824 = { add_core_of = P44 } #Yamalia
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P44 }
+			transfer_state_to = P44
+		}
+
+		#Transfer all technology to formable puppet
+		P44 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_urals_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P44 }
+		news_event = { id = pfp_news.01 }
+	}
+}

@@ -1,0 +1,70 @@
+pfp_category = {
+	pfp_netherlands = {
+		allowed = {
+			NOT = {
+				original_tag = BEL #Belgium
+				original_tag = HOL #Holland
+				original_tag = LUX #Luxemburg
+				original_tag = P05 #Netherlands
+			}
+		}
+		available = {
+			is_subject = no
+			#Vlaanderen
+			custom_trigger_tooltip = {
+				tooltip = pfp_netherlands_required_states_vlaanderen
+				has_full_control_of_state = 6 #Vlaanderen
+			}
+			#Holland
+			custom_trigger_tooltip = {
+				tooltip = pfp_netherlands_required_states_holland
+				has_full_control_of_state = 7 #Holland
+			}
+			#Wallonie
+			custom_trigger_tooltip = {
+				tooltip = pfp_netherlands_required_states_wallonie
+				has_full_control_of_state = 34 #Wallonie
+			}
+			#Brabant
+			custom_trigger_tooltip = {
+				tooltip = pfp_netherlands_required_states_brabant
+				has_full_control_of_state = 35 #Brabant
+			}
+			#Friesland
+			custom_trigger_tooltip = {
+				tooltip = pfp_netherlands_required_states_friesland
+				has_full_control_of_state = 36 #Friesland
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 6 #Vlaanderen
+				has_full_control_of_state = 7 #Holland
+			}
+			NOT = { has_global_flag = pfp_netherlands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 6 #Vlaanderen
+				state = 7 #Holland
+				state = 34 #Wallonie
+				state = 35 #Brabant
+				state = 36 #Friesland
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_netherlands_coring_states
+			custom_effect_tooltip = pfp_netherlands_transfer_states
+			custom_effect_tooltip = pfp_netherlands_puppet
+
+			hidden_effect = {
+				#Create formable puppet with all its states and then puppet
+				hidden_effect = {
+					pfp_release_netherlands = yes
+					set_autonomy = { target = P05 autonomy_state = autonomy_military_administration }
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

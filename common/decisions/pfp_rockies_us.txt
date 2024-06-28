@@ -1,0 +1,86 @@
+pfp_category = {
+	pfp_rockies_us = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = P23 #Rockies U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			#New Mexico
+			custom_trigger_tooltip = {
+				tooltip = pfp_rockies_us_required_states_new_mexico
+				has_full_control_of_state = 376 #New Mexico
+			}
+			#Arizona
+			custom_trigger_tooltip = {
+				tooltip = pfp_rockies_us_required_states_arizona
+				has_full_control_of_state = 377 #Arizona
+			}
+			#Nevada
+			custom_trigger_tooltip = {
+				tooltip = pfp_rockies_us_required_states_nevada
+				has_full_control_of_state = 379 #Nevada
+			}
+			#Utah
+			custom_trigger_tooltip = {
+				tooltip = pfp_rockies_us_required_states_utah
+				has_full_control_of_state = 380 #Utah
+			}
+			#Wyoming
+			custom_trigger_tooltip = {
+				tooltip = pfp_rockies_us_required_states_wyoming
+				has_full_control_of_state = 381 #Wyoming
+			}
+			#Colorado
+			custom_trigger_tooltip = {
+				tooltip = pfp_rockies_us_required_states_colorado
+				has_full_control_of_state = 382 #Colorado
+			}
+			#Montana
+			custom_trigger_tooltip = {
+				tooltip = pfp_rockies_us_required_states_montana
+				has_full_control_of_state = 388 #Montana
+			}
+			#Idaho
+			custom_trigger_tooltip = {
+				tooltip = pfp_rockies_us_required_states_idaho
+				has_full_control_of_state = 387 #Idaho
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 379 #Nevada
+				has_full_control_of_state = 380 #Utah
+				has_full_control_of_state = 382 #Colorado
+				has_full_control_of_state = 388 #Montana
+			}
+			NOT = { has_global_flag = pfp_rockies_us_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 376 #New Mexico
+				state = 377 #Arizona
+				state = 379 #Nevada
+				state = 380 #Utah
+				state = 381 #Wyoming
+				state = 382 #Colorado
+				state = 388 #Montana
+				state = 387 #Idaho
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_rockies_us_coring_states
+			custom_effect_tooltip = pfp_rockies_us_transfer_states
+			custom_effect_tooltip = pfp_rockies_us_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_rockies_us = yes
+				set_autonomy = { target = P23 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

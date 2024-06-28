@@ -1,0 +1,63 @@
+pfp_category = {
+	pfp_indochina = {
+		allowed = {
+			NOT = {
+				original_tag = CAM #Cambodia
+				original_tag = LAO #Laos
+				original_tag = VIN #Vietnam
+				original_tag = P16 #PFP Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			#Southern Indochina
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_southern_indochina
+				has_full_control_of_state = 286 #Southern Indochina
+			}
+			#Laos
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_laos
+				has_full_control_of_state = 670 #Laos
+			}
+			#Tonkin
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_tonkin
+				has_full_control_of_state = 671 #Tonkin
+			}
+			#Cambodia
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_cambodia
+				has_full_control_of_state = 741 #Cambodia
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 670 #Southern Indochina
+				has_full_control_of_state = 671 #Tonkin
+				has_full_control_of_state = 741 #Cambodia
+			}
+			NOT = { has_global_flag = pfp_indochina_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 286 #Southern Indochina
+				state = 670 #Laos
+				state = 671 #Tonkin
+				state = 741 #Cambodia
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states
+			custom_effect_tooltip = pfp_indochina_transfer_states
+			custom_effect_tooltip = pfp_indochina_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_indochina = yes
+				set_autonomy = { target = P16 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

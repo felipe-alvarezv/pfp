@@ -1,0 +1,35 @@
+#Scripted effect to release Southern U.S. (P26)
+pfp_release_southern_us = {
+	hidden_effect = {
+		#Add cores to Southern U.S. territory
+		362 = { add_core_of = P26 } #Virginia
+		363 = { add_core_of = P26 } #North Carolina
+		364 = { add_core_of = P26 } #South Carolina
+		365 = { add_core_of = P26 } #Georgia
+		366 = { add_core_of = P26 } #Florida
+		367 = { add_core_of = P26 } #Alabama
+		368 = { add_core_of = P26 } #Tennessee
+		369 = { add_core_of = P26 } #Kentucky
+		370 = { add_core_of = P26 } #Mississippi
+		371 = { add_core_of = P26 } #Louisiana
+		372 = { add_core_of = P26 } #Arkansas
+		374 = { add_core_of = P26 } #Oklahoma
+		375 = { add_core_of = P26 } #Texas
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P26 }
+			transfer_state_to = P26
+		}
+
+		#Transfer all technology to formable puppet
+		P26 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_southern_us_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P26 }
+		news_event = { id = pfp_news.01 }
+	}
+}

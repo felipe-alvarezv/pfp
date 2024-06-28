@@ -1,0 +1,258 @@
+pfp_category_territories_quebec = {
+	pfp_quebec_southern_ontario = {
+		visible = {
+			has_global_flag = pfp_quebec_flag
+			has_full_control_of_state = 276 #Southern Ontario
+
+			276 = { #Southern Ontario
+				NOT = { is_core_of = FROM }
+			}
+
+			P22 = { #Quebec
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_quebec_southern_ontario_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 276 } #Southern Ontario
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states_southern_ontario
+			custom_effect_tooltip = pfp_quebec_transfer_states_southern_ontario
+			hidden_effect = {
+				#Southern Ontario
+				276 = { add_core_of = P22 }
+				P22 = { transfer_state = 276 }
+				set_global_flag = pfp_quebec_southern_ontario_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_quebec_newfoundland = {
+		visible = {
+			has_global_flag = pfp_quebec_flag
+			has_full_control_of_state = 331 #Newfoundland
+
+			331 = { #Newfoundland
+				NOT = { is_core_of = FROM }
+			}
+
+			P22 = { #Quebec
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_quebec_newfoundland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 331 } #Newfoundland
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states_newfoundland
+			custom_effect_tooltip = pfp_quebec_transfer_states_newfoundland
+			hidden_effect = {
+				#Newfoundland
+				331 = { add_core_of = P22 }
+				P22 = { transfer_state = 331 }
+				set_global_flag = pfp_quebec_newfoundland_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_quebec_labrador = {
+		visible = {
+			has_global_flag = pfp_quebec_flag
+			has_full_control_of_state = 332 #Labrador
+
+			332 = { #Labrador
+				NOT = { is_core_of = FROM }
+			}
+
+			P22 = { #Quebec
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_quebec_labrador_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 332 } #Labrador
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states_labrador
+			custom_effect_tooltip = pfp_quebec_transfer_states_labrador
+			hidden_effect = {
+				#Labrador
+				332 = { add_core_of = P22 }
+				P22 = { transfer_state = 332 }
+				set_global_flag = pfp_quebec_labrador_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_quebec_nova_scotia = {
+		visible = {
+			has_global_flag = pfp_quebec_flag
+			has_full_control_of_state = 464 #Nova Scotia
+
+			464 = { #Nova Scotia
+				NOT = { is_core_of = FROM }
+			}
+
+			P22 = { #Quebec
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_quebec_nova_scotia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 464 } #Nova Scotia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states_nova_scotia
+			custom_effect_tooltip = pfp_quebec_transfer_states_nova_scotia
+			hidden_effect = {
+				#Nova Scotia
+				464 = { add_core_of = P22 }
+				P22 = { transfer_state = 464 }
+				set_global_flag = pfp_quebec_nova_scotia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_quebec_new_brunswick = {
+		visible = {
+			has_global_flag = pfp_quebec_flag
+			has_full_control_of_state = 465 #New Brunswick
+
+			465 = { #New Brunswick
+				NOT = { is_core_of = FROM }
+			}
+
+			P22 = { #Quebec
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_quebec_new_brunswick_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 465 } #New Brunswick
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states_new_brunswick
+			custom_effect_tooltip = pfp_quebec_transfer_states_new_brunswick
+			hidden_effect = {
+				#New Brunswick
+				465 = { add_core_of = P22 }
+				P22 = { transfer_state = 465 }
+				set_global_flag = pfp_quebec_new_brunswick_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_quebec_northern_ontario = {
+		visible = {
+			has_global_flag = pfp_quebec_flag
+			has_full_control_of_state = 682 #Northern Ontario
+
+			682 = { #Northern Ontario
+				NOT = { is_core_of = FROM }
+			}
+
+			P22 = { #Quebec
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_quebec_northern_ontario_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 682 } #Northern Ontario
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states_northern_ontario
+			custom_effect_tooltip = pfp_quebec_transfer_states_northern_ontario
+			hidden_effect = {
+				#Northern Ontario
+				682 = { add_core_of = P22 }
+				P22 = { transfer_state = 682 }
+				set_global_flag = pfp_quebec_northern_ontario_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_quebec_st_pierre_and_miquelon = {
+		visible = {
+			has_global_flag = pfp_quebec_flag
+			has_full_control_of_state = 730 #St. Pierre and Miquelon
+
+			730 = { #St. Pierre and Miquelon
+				NOT = { is_core_of = FROM }
+			}
+
+			P22 = { #Quebec
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_quebec_st_pierre_and_miquelon_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 730 } #St. Pierre and Miquelon
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states_st_pierre_and_miquelon
+			custom_effect_tooltip = pfp_quebec_transfer_states_st_pierre_and_miquelon
+			hidden_effect = {
+				#St. Pierre and Miquelon
+				730 = { add_core_of = P22 }
+				P22 = { transfer_state = 730 }
+				set_global_flag = pfp_quebec_st_pierre_and_miquelon_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_quebec_districts_of_ontario = {
+		visible = {
+			has_global_flag = pfp_quebec_flag
+			has_full_control_of_state = 866 #Districts of Ontario
+
+			866 = { #Districts of Ontario
+				NOT = { is_core_of = FROM }
+			}
+
+			P22 = { #Quebec
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_quebec_districts_of_ontario_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 866 } #Districts of Ontario
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_quebec_coring_states_districts_of_ontario
+			custom_effect_tooltip = pfp_quebec_transfer_states_districts_of_ontario
+			hidden_effect = {
+				#Districts of Ontario
+				866 = { add_core_of = P22 }
+				P22 = { transfer_state = 866 }
+				set_global_flag = pfp_quebec_districts_of_ontario_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

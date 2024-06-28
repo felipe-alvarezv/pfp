@@ -1,0 +1,86 @@
+pfp_category = {
+	pfp_indonesia = {
+		allowed = {
+			NOT = {
+				original_tag = INS #Dutch East Indies
+				original_tag = MAL #Malaysia
+				original_tag = P17 #PFP Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			#North Borneo
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_north_borneo
+				has_full_control_of_state = 333 #North Borneo
+			}
+			#Kalimantan
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_kalimantan
+				has_full_control_of_state = 334 #Kalimantan
+			}
+			#Java
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_java
+				has_full_control_of_state = 335 #Java
+			}
+			#Lesser Sunda Islands
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_lesser_sunda_islands
+				has_full_control_of_state = 667 #Lesser Sunda Islands
+			}
+			#The Moluccas
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_the_moluccas
+				has_full_control_of_state = 668 #The Moluccas
+			}
+			#Sumatra
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_sumatra
+				has_full_control_of_state = 672 #Sumatra
+			}
+			#Sulawesi
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_sulawesi
+				has_full_control_of_state = 673 #Sulawesi
+			}
+			#Aru Islads
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_aru_islands
+				has_full_control_of_state = 738 #Aru Islands
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 333 #North Borneo
+				has_full_control_of_state = 335 #Java
+				has_full_control_of_state = 672 #Sumatra
+			}
+			NOT = { has_global_flag = pfp_indonesia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 333 #North Borneo
+				state = 334 #Kalimantan
+				state = 335 #Java
+				state = 667 #Lesser Sunda Islands
+				state = 668 #The Moluccas
+				state = 672 #Sumatra
+				state = 673 #Sulawesi
+				state = 738 #Aru Islands
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states
+			custom_effect_tooltip = pfp_indonesia_transfer_states
+			custom_effect_tooltip = pfp_indonesia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_indonesia = yes
+				set_autonomy = { target = P17 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

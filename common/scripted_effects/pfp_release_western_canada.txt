@@ -1,0 +1,29 @@
+#Scripted effect to release Western Canada (P29)
+pfp_release_western_canada = {
+	hidden_effect = {
+		#Add cores to Western Canada territory
+		467 = { add_core_of = P29 } #Manitoba
+		469 = { add_core_of = P29 } #Saskatchewan
+		470 = { add_core_of = P29 } #Alberta
+		472 = { add_core_of = P29 } #Northwest Territories
+		683 = { add_core_of = P29 } #Nunavut
+		865 = { add_core_of = P29 } #Northern Saskatchewan
+		867 = { add_core_of = P29 } #Northern Manitoba
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P29 }
+			transfer_state_to = P29
+		}
+
+		#Transfer all technology to formable puppet
+		P29 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_western_canada_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P29 }
+		news_event = { id = pfp_news.01 }
+	}
+}

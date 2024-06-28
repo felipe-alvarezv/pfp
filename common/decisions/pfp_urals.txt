@@ -1,0 +1,93 @@
+pfp_category = {
+	pfp_urals = {
+		allowed = {
+			NOT = { original_tag = SOV } #Soviet Union
+		}
+		available = {
+			is_subject = no
+			#Tyumen
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_tyumen
+				has_full_control_of_state = 403 #Tyumen
+			}
+			#Chelyabinsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_chelyabinsk
+				has_full_control_of_state = 572 #Chelyabinsk
+			}
+			#Zlatoust
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_zlatoust
+				has_full_control_of_state = 573 #Zlatoust
+			}
+			#Surgut
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_surgut
+				has_full_control_of_state = 577 #Surgut
+			}
+			#Salekhard
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_salekhard
+				has_full_control_of_state = 579 #Salekhard
+			}
+			#Tobolsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_tobolsk
+				has_full_control_of_state = 580 #Tobolsk
+			}
+			#Northern Urals
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_northern_urals
+				has_full_control_of_state = 581 #Northern Urals
+			}
+			#Magnitogorsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_magnitogorsk
+				has_full_control_of_state = 582 #Magnitogorsk
+			}
+			#Sverdlovsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_sverdlovsk
+				has_full_control_of_state = 653 #Sverdlovsk
+			}
+			#Yamalia
+			custom_trigger_tooltip = {
+				tooltip = pfp_urals_required_states_yamalia
+				has_full_control_of_state = 824 #Yamalia
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 403 #Tyumen
+				has_full_control_of_state = 653 #Sverdlovsk
+			}
+			NOT = { has_global_flag = pfp_urals_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 403 #Tyumen
+				state = 572 #Chelyabinsk
+				state = 573 #Zlatoust
+				state = 577 #Surgut
+				state = 579 #Salekhard
+				state = 580 #Tobolsk
+				state = 581 #Northern Urals
+				state = 582 #Magnitogorsk
+				state = 653 #Sverdlovsk
+				state = 824 #Yamalia
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_urals_coring_states
+			custom_effect_tooltip = pfp_urals_transfer_states
+			custom_effect_tooltip = pfp_urals_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_urals = yes
+				set_autonomy = { target = P44 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

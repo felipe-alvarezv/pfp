@@ -1,0 +1,121 @@
+pfp_category = {
+	pfp_north_africa = {
+		allowed = {
+			NOT = {
+				original_tag = EGY #Egypt
+				original_tag = LBA #Libya
+				original_tag = P30 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			#Libyan Desert
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_libyan_desert
+				has_full_control_of_state = 273 #Libyan Desert
+			}
+			#Alexandria
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_alexandria
+				has_full_control_of_state = 447 #Alexandria
+			}
+			#Tripoli
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_tripoli
+				has_full_control_of_state = 448 #Tripoli
+			}
+			#El Agheila
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_el_agheila
+				has_full_control_of_state = 449 #El Agheila
+			}
+			#Benghasi
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_benghasi
+				has_full_control_of_state = 450 #Benghasi
+			}
+			#Derna
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_derna
+				has_full_control_of_state = 451 #Derna
+			}
+			#Matrouh
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_marsa_matruh
+				has_full_control_of_state = 452 #Matrouh
+			}
+			#Aswan
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_aswan
+				has_full_control_of_state = 456 #Aswan
+			}
+			#Eastern Desert
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_eastern_desert
+				has_full_control_of_state = 457 #Eastern Desert
+			}
+			#Western Desert
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_western_desert
+				has_full_control_of_state = 552 #Western Desert
+			}
+			#Tripolitania
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_tripolitania
+				has_full_control_of_state = 661 #Tripolitania
+			}
+			#Sirte
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_sirte
+				has_full_control_of_state = 662 #Sirte
+			}
+			#Cyrenaica
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_cyrenaica
+				has_full_control_of_state = 663 #Cyrenaica
+			}
+			#Cairo
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_cairo
+				has_full_control_of_state = 907 #Cairo
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 448 #Tripoli
+				has_full_control_of_state = 907 #Cairo
+			}
+			NOT = { has_global_flag = pfp_north_africa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 273 #Libyan Desert
+				state = 447 #Alexandria
+				state = 448 #Tripoli
+				state = 449 #El Agheila
+				state = 450 #Benghasi
+				state = 451 #Derna
+				state = 452 #Matrouh
+				state = 456 #Aswan
+				state = 457 #Eastern Desert
+				state = 552 #Western Desert
+				state = 661 #Tripolitania
+				state = 662 #Sirte
+				state = 663 #Cyrenaica
+				state = 907 #Cairo
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_north_africa_coring_states
+			custom_effect_tooltip = pfp_north_africa_transfer_states
+			custom_effect_tooltip = pfp_north_africa_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_north_africa = yes
+				set_autonomy = { target = P30 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

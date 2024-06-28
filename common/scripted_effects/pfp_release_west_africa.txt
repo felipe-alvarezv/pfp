@@ -1,0 +1,35 @@
+#Scripted effect to release West Africa (P35)
+pfp_release_west_africa = {
+	hidden_effect = {
+		#Add cores to West African territory
+		272 = { add_core_of = P35 } #Senegal
+		515 = { add_core_of = P35 } #Southern Sahara
+		556 = { add_core_of = P35 } #Bamako
+		776 = { add_core_of = P35 } #Dahomey
+		778 = { add_core_of = P35 } #Upper Volta
+		779 = { add_core_of = P35 } #Ivory Coast
+		780 = { add_core_of = P35 } #Guinea
+		781 = { add_core_of = P35 } #Niger
+		782 = { add_core_of = P35 } #Tombouctou
+		898 = { add_core_of = P35 } #Gao
+		899 = { add_core_of = P35 } #Kayes-Koulikoro
+		557 = { add_core_of = P35 } #Mauritania
+		786 = { add_core_of = P35 } #Mauritanian Desert
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P35 }
+			transfer_state_to = P35
+		}
+
+		#Transfer all technology to formable puppet
+		P35 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_west_africa_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P35 }
+		news_event = { id = pfp_news.01 }
+	}
+}

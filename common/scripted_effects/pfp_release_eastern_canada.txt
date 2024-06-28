@@ -1,0 +1,25 @@
+#Scripted effect to release Eastern Canada (P11)
+pfp_release_eastern_canada = {
+	hidden_effect = {
+		#Add cores to Eastern Canada territory
+		276 = { add_core_of = P11 } #Southern Ontario
+		682 = { add_core_of = P11 } #Northern Ontario
+		866 = { add_core_of = P11 } #Districts of Ontario
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P11 }
+			transfer_state_to = P11
+		}
+
+		#Transfer all technology to formable puppet
+		P11 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_eastern_canada_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P11 }
+		news_event = { id = pfp_news.01 }
+	}
+}

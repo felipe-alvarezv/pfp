@@ -1,0 +1,62 @@
+pfp_category = {
+	pfp_bulgaria = {
+		allowed = {
+			NOT = {
+				original_tag = BUL #Bulgaria
+				original_tag = P49 #PFP Bulgaria
+			}
+		}
+		available = {
+			is_subject = no
+			#Sofia
+			custom_trigger_tooltip = {
+				tooltip = pfp_bulgaria_required_states_sofia
+				has_full_control_of_state = 48 #Sofia
+			}
+			#Burgas
+			custom_trigger_tooltip = {
+				tooltip = pfp_bulgaria_required_states_burgas
+				has_full_control_of_state = 211 #Burgas
+			}
+			#Plovdiv
+			custom_trigger_tooltip = {
+				tooltip = pfp_bulgaria_required_states_plovdiv
+				has_full_control_of_state = 212 #Plovdiv
+			}
+			#Moesia
+			custom_trigger_tooltip = {
+				tooltip = pfp_bulgaria_required_states_moesia
+				has_full_control_of_state = 801 #Moesia
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 48 #Sofia
+				has_full_control_of_state = 211 #Burgas
+				has_full_control_of_state = 212 #Plovdiv
+				has_full_control_of_state = 801 #Moesia
+			}
+			NOT = { has_global_flag = pfp_bulgaria_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 48 #Sofia
+				state = 211 #Burgas
+				state = 212 #Plovdiv
+				state = 801 #Moesia 
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bulgaria_coring_states
+			custom_effect_tooltip = pfp_bulgaria_transfer_states
+			custom_effect_tooltip = pfp_bulgaria_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_bulgaria = yes
+				set_autonomy = { target = P49 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

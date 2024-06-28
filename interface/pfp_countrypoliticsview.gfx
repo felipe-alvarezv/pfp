@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	# PFP Icon
+	spriteType = {
+		name = "GFX_autonomy_military_administration_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
+	}
+}

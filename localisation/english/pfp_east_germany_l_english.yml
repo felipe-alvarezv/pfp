@@ -1,0 +1,29 @@
+﻿#East Germany = P32 - Localisation
+l_english:
+ # Country Information
+ P32_communism:0 "East Germany"
+ P32_communism_DEF:0 "East Germany"
+ P32_democratic:0 "East Germany"
+ P32_democratic_DEF:0 "East Germany"
+ P32_neutrality:1 "East Germany"
+ P32_neutrality_DEF:1 "East Germany"
+ P32_fascism:0 "East Germany"
+ P32_fascism_DEF:0 "East Germany"
+ P32_communism_ADJ:0 "East German"
+ P32_democratic_ADJ:0 "East German"
+ P32_neutrality_ADJ:0 "East German"
+ P32_fascism_ADJ:0 "East German"
+ P32:0 "East Germany"
+ P32_DEF:0 "East Germany"
+ P32_ADJ:0 "East German"
+
+ #Decisions Localisation
+ pfp_east_germany:0 "Establish Military Administration in East Germany"
+ pfp_east_germany_required_states_thuringen:0 "Controls §YThüringen§!."
+ pfp_east_germany_required_states_mecklenburg:0 "Controls §YMecklenburg§!."
+ pfp_east_germany_required_states_vorpommern:0 "Controls §YVorpommern§!."
+ pfp_east_germany_required_states_brandenburg:0 "Controls §YBrandenburg§!."
+ pfp_east_germany_required_states_sachsen:0 "Controls §YSachsen§!."
+ pfp_east_germany_coring_states:0 "§YEast Germany§! gains cores on all listed states.\n"
+ pfp_east_germany_transfer_states:0 "§YEast Germany§! becomes owner and controller of all listed states.\n"
+ pfp_east_germany_puppet:0 "§YEast Germany§! becomes a puppet of §Y[Root.GetName]§!.\n"

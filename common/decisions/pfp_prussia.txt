@@ -1,0 +1,84 @@
+pfp_category = {
+	pfp_prussia = {
+		allowed = {
+			NOT = {
+				original_tag = GER #Germany
+				original_tag = P33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			#Ermland-Masuren
+			custom_trigger_tooltip = {
+				tooltip = pfp_prussia_required_states_ermland_masuren
+				has_full_control_of_state = 5 #Ermland-Masuren
+			}
+			#Vorpommern
+			custom_trigger_tooltip = {
+				tooltip = pfp_prussia_required_states_vorpommern
+				has_full_control_of_state = 62 #Vorpommern
+			}
+			#Hinterpommern
+			custom_trigger_tooltip = {
+				tooltip = pfp_prussia_required_states_hinterpommern
+				has_full_control_of_state = 63 #Hinterpommern
+			}
+			#Brandenburg
+			custom_trigger_tooltip = {
+				tooltip = pfp_prussia_required_states_brandenburg
+				has_full_control_of_state = 64 #Brandenburg
+			}
+			#Niederschlesien
+			custom_trigger_tooltip = {
+				tooltip = pfp_prussia_required_states_niederschlesien
+				has_full_control_of_state = 66 #Niederschlesien
+			}
+			#Oberschlesien
+			custom_trigger_tooltip = {
+				tooltip = pfp_prussia_required_states_oberschlesien
+				has_full_control_of_state = 67 #Oberschlesien
+			}
+			#Ostmark
+			custom_trigger_tooltip = {
+				tooltip = pfp_prussia_required_states_ostmark
+				has_full_control_of_state = 68 #Ostmark
+			}
+			#Konigsberg
+			custom_trigger_tooltip = {
+				tooltip = pfp_prussia_required_states_konigsberg
+				has_full_control_of_state = 763 #Konigsberg
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 64 #Brandenburg
+				has_full_control_of_state = 763 #Konigsberg
+			}
+			NOT = { has_global_flag = pfp_prussia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 5 #Ermland-Masuren
+				state = 62 #Vorpommern
+				state = 63 #Hinterpommern
+				state = 64 #Brandenburg
+				state = 66 #Niederschlesien
+				state = 67 #Oberschlesien
+				state = 68 #Ostmark
+				state = 763 #Konigsberg
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_prussia_coring_states
+			custom_effect_tooltip = pfp_prussia_transfer_states
+			custom_effect_tooltip = pfp_prussia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_prussia = yes
+				set_autonomy = { target = P33 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -1,0 +1,340 @@
+pfp_category = {
+    pfp_western_russia = {
+        allowed = {
+            NOT = { original_tag = SOV } #Soviet Union
+        }
+        available = {
+            is_subject = no
+            #Leningrad
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_leningrad
+                has_full_control_of_state = 195 #Leningrad
+            }
+            #Kaluga
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kaluga
+                has_full_control_of_state = 205 #Kaluga
+            }
+            #Luga
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_luga
+                has_full_control_of_state = 208 #Luga
+            }
+            #Pskov
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_pskov
+                has_full_control_of_state = 209 #Pskov
+            }
+            #Nevel
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_nevel
+                has_full_control_of_state = 210 #Nevel
+            }
+            #Arkhangelsk
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_arkhangelsk
+                has_full_control_of_state = 214 #Arkhangelsk
+            }
+            #Stalingrad
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_stalingrad
+                has_full_control_of_state = 217 #Stalingrad
+            }
+            #Rostov
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_rostov
+                has_full_control_of_state = 218 #Rostov
+            }
+            #Moscow
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_moscow
+                has_full_control_of_state = 219 #Moscow
+            }
+            #Kursk
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kursk
+                has_full_control_of_state = 220 #Kursk
+            }
+            #Orel
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_orel
+                has_full_control_of_state = 222 #Orel
+            }
+            #Tula
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_tula
+                has_full_control_of_state = 223 #Tula
+            }
+            #Bryansk
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_bryansk
+                has_full_control_of_state = 224 #Bryansk
+            }
+            #Astrakhan
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_astrakhan
+                has_full_control_of_state = 236 #Astrakhan
+            }
+            #Kalmykia
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kalmykia
+                has_full_control_of_state = 237 #Kalmykia
+            }
+            #Volgodonsk
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_volgodonsk
+                has_full_control_of_state = 238 #Volgodonsk
+            }
+            #Saratov
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_saratov
+                has_full_control_of_state = 239 #Saratov
+            }
+            #Belgorod
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_belgorod
+                has_full_control_of_state = 240 #Belgorod
+            }
+            #Volkhov
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_volkhov
+                has_full_control_of_state = 244 #Volkhov
+            }
+            #Millerovo
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_millerovo
+                has_full_control_of_state = 245 #Millerovo
+            }
+            #Rzhev
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_rzhev
+                has_full_control_of_state = 246 #Rzhev
+            }
+            #Kalinin
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kalinin
+                has_full_control_of_state = 247 #Kalinin
+            }
+            #Yaroslavl
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_yaroslavl
+                has_full_control_of_state = 248 #Yaroslavl
+            }
+            #Kazan
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kazan
+                has_full_control_of_state = 249 #Kazan
+            }
+            #Ulyanovsky
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_ulyanovsky
+                has_full_control_of_state = 250 #Ulyanovsky
+            }
+            #Kuybyshev
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kuybyshev
+                has_full_control_of_state = 251 #Kuybyshev
+            }
+            #Gorky
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_gorky
+                has_full_control_of_state = 252 #Gorky
+            }
+            #Ivanovo
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_ivanovo
+                has_full_control_of_state = 253 #Ivanovo
+            }
+            #Ryazan
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_ryazan
+                has_full_control_of_state = 254 #Ryazan
+            }
+            #Penza
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_penza
+                has_full_control_of_state = 255 #Penza
+            }
+            #Chuvashia
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_chuvashia
+                has_full_control_of_state = 256 #Chuvashia
+            }
+            #Tambov
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_tambov
+                has_full_control_of_state = 257 #Tambov
+            }
+            #Lipetsk
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_lipetsk
+                has_full_control_of_state = 258 #Lipetsk
+            }
+            #Voronezh
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_voronezh
+                has_full_control_of_state = 260 #Voronezh
+            }
+            #Pechora
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_pechora
+                has_full_control_of_state = 262 #Pechora
+            }
+            #Novgorod
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_novgorod
+                has_full_control_of_state = 263 #Novgorod
+            }
+            #Tikhvin
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_tikhvin
+                has_full_control_of_state = 264 #Tikhvin
+            }
+            #Mikhaylovka
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_mikhaylovka
+                has_full_control_of_state = 265 #Mikhaylovka
+            }
+            #Vologda
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_vologda
+                has_full_control_of_state = 351 #Vologda
+            }
+            #Syktyvkar
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_syktyvkar
+                has_full_control_of_state = 397 #Syktyvkar
+            }
+            #Perm
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_perm
+                has_full_control_of_state = 398 #Perm
+            }
+            #Udmurtia
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_udmurtia
+                has_full_control_of_state = 399 #Udmurtia
+            }
+            #Kirov
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kirov
+                has_full_control_of_state = 400 #Kirov
+            }
+            #Balakovo
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_balakovo
+                has_full_control_of_state = 401 #Balakovo
+            }
+            #Ufa
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_ufa
+                has_full_control_of_state = 651 #Ufa
+            }
+            #Orenburg
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_orenburg
+                has_full_control_of_state = 652 #Orenburg
+            }
+            #Nenets
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_nenets
+                has_full_control_of_state = 825 #Nenets
+            }
+            #Engels-Marxstadt
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_engels_marxstadt
+                has_full_control_of_state = 829 #Engels-Marxstadt
+            }
+            #Mari El
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_mari_el
+                has_full_control_of_state = 833 #Mari El
+            }
+            #Kargopol
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kargopol
+                has_full_control_of_state = 879 #Kargopol
+            }
+            #Kotlas
+            custom_trigger_tooltip = {
+                tooltip = pfp_western_russia_required_states_kotlas
+                has_full_control_of_state = 880 #Kotlas
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 195 #Leningrad
+                has_full_control_of_state = 217 #Stalingrad
+                has_full_control_of_state = 219 #Moscow
+            }
+            NOT = { has_global_flag = pfp_western_russia_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = { 
+                state = 195 #Leningrad
+                state = 205 #Kaluga
+                state = 208 #Luga
+                state = 209 #Pskov
+                state = 210 #Nevel
+                state = 214 #Arkhangelsk
+                state = 217 #Stalingrad
+                state = 218 #Rostov
+                state = 219 #Moscow
+                state = 220 #Kursk
+                state = 222 #Orel
+                state = 223 #Tula
+                state = 224 #Bryansk
+                state = 236 #Astrakhan
+                state = 237 #Kalmykia
+                state = 238 #Volgodonsk
+                state = 239 #Saratov
+                state = 240 #Belgorod
+                state = 244 #Volkhov
+                state = 245 #Millerovo
+                state = 246 #Rzhev
+                state = 247 #Kalinin
+                state = 248 #Yaroslavl
+                state = 249 #Kazan
+                state = 250 #Ulyanovsky
+                state = 251 #Kuybyshev
+                state = 252 #Gorky
+                state = 253 #Ivanovo
+                state = 254 #Ryazan
+                state = 255 #Penza
+                state = 256 #Chuvashia
+                state = 257 #Tambov
+                state = 258 #Lipetsk
+                state = 260 #Voronezh
+                state = 262 #Pechora
+                state = 263 #Novgorod
+                state = 264 #Tikhvin
+                state = 265 #Mikhaylovka
+                state = 351 #Vologda
+                state = 397 #Syktyvkar
+                state = 398 #Perm
+                state = 399 #Udmurtia
+                state = 400 #Kirov
+                state = 401 #Balakovo
+                state = 651 #Ufa
+                state = 652 #Orenburg
+                state = 825 #Nenets
+                state = 829 #Engels-Marxstadt
+                state = 833 #Mari El
+                state = 879 #Kargopol
+                state = 880 #Kotlas
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = pfp_western_russia_coring_states
+            custom_effect_tooltip = pfp_western_russia_transfer_states
+            custom_effect_tooltip = pfp_western_russia_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_western_russia = yes
+                set_autonomy = { target = P48 autonomy_state = autonomy_military_administration }
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

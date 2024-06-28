@@ -1,0 +1,34 @@
+#Scripted effect to release Siberia (P45)
+pfp_release_siberia = {
+	hidden_effect = {
+		#Add cores to Siberian territory
+		40 = { add_core_of = P45 } #Altai Krai
+		516 = { add_core_of = P45 } #Dudinka
+		566 = { add_core_of = P45 } #Irkutsk
+		567 = { add_core_of = P45 } #Bratsk
+		568 = { add_core_of = P45 } #Krasnoyarsk
+		569 = { add_core_of = P45 } #Khakassia
+		570 = { add_core_of = P45 } #Novosibirsk
+		571 = { add_core_of = P45 } #Omsk
+		575 = { add_core_of = P45 } #Kirensk
+		576 = { add_core_of = P45 } #Yeniseisk
+		578 = { add_core_of = P45 } #Tomsk
+		878 = { add_core_of = P45 } #Khatangsky
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P45 }
+			transfer_state_to = P45
+		}
+
+		#Transfer all technology to formable puppet
+		P45 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_siberia_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P45 }
+		news_event = { id = pfp_news.01 }
+	}
+}

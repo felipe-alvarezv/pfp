@@ -1,0 +1,30 @@
+#Scripted effect to release Prussia (P33)
+pfp_release_prussia = {
+	hidden_effect = {
+		#Add cores to Prussian territory
+		5 = { add_core_of = P33 } #Ermland-Masuren
+		62 = { add_core_of = P33 } #Vorpommern
+		63 = { add_core_of = P33 } #Hinterpommern
+		64 = { add_core_of = P33 } #Brandenburg
+		66 = { add_core_of = P33 } #Niederschlesien
+		67 = { add_core_of = P33 } #Oberschlesien
+		68 = { add_core_of = P33 } #Ostmark
+		763 = { add_core_of = P33 } #Konigsberg
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P33 }
+			transfer_state_to = P33
+		}
+
+		#Transfer all technology to formable puppet
+		P33 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_prussia_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P33 }
+		news_event = { id = pfp_news.01 }
+	}
+}

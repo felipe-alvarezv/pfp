@@ -1,0 +1,25 @@
+#Scripted effect to release Greece (P14)
+pfp_release_greece = {
+	hidden_effect = {
+		#Add cores to Greek territory
+		47 = { add_core_of = P14 } #Attica
+		185 = { add_core_of = P14 } #Epirus
+		186 = { add_core_of = P14 } #Peloponnese
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P14 }
+			transfer_state_to = P14
+		}
+
+		#Transfer all technology to formable puppet
+		P14 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_greece_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P14 }
+		news_event = { id = pfp_news.01 }
+	}
+}

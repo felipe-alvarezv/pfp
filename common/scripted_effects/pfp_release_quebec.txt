@@ -1,0 +1,28 @@
+#Scripted effect to release Quebec (P22)
+pfp_release_quebec = {
+	hidden_effect = {
+		#Add cores to Quebecois territory
+		466 = { add_core_of = P22 } #Nord du Quebec
+		468 = { add_core_of = P22 } #Saint Lawrence
+		860 = { add_core_of = P22 } #Cote-Nord
+		861 = { add_core_of = P22 } #Saguenay
+		862 = { add_core_of = P22 } #Ouest du Quebec
+		863 = { add_core_of = P22 } #Maurice
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P22 }
+			transfer_state_to = P22
+		}
+
+		#Transfer all technology to formable puppet
+		P22 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_quebec_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P22 }
+		news_event = { id = pfp_news.01 }
+	}
+}

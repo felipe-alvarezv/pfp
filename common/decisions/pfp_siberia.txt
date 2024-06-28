@@ -1,0 +1,108 @@
+pfp_category = {
+	pfp_siberia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = P45 #Siberia
+			}
+		}
+		available = {
+			is_subject = no
+			#Altai Krai
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_altai_krai
+				has_full_control_of_state = 40 #Altai Krai
+			}
+			#Dudinka
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_dudinka
+				has_full_control_of_state = 516 #Dudinka
+			}
+			#Irkutsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_irkutsk
+				has_full_control_of_state = 566 #Irkutsk
+			}
+			#Bratsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_bratsk
+				has_full_control_of_state = 567 #Bratsk
+			}
+			#Krasnoyarsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_krasnoyarsk
+				has_full_control_of_state = 568 #Krasnoyarsk
+			}
+			#Khakassia
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_khakassia
+				has_full_control_of_state = 569 #Khakassia
+			}
+			#Novosibirsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_novosibirsk
+				has_full_control_of_state = 570 #Novosibirsk
+			}
+			#Omsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_omsk
+				has_full_control_of_state = 571 #Omsk
+			}
+			#Kirensk
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_kirensk
+				has_full_control_of_state = 575 #Kirensk
+			}
+			#Yeniseisk
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_yeniseisk
+				has_full_control_of_state = 576 #Yeniseisk
+			}
+			#Tomsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_tomsk
+				has_full_control_of_state = 578 #Tomsk
+			}
+			#Khatangsky
+			custom_trigger_tooltip = {
+				tooltip = pfp_siberia_required_states_khatangsky
+				has_full_control_of_state = 878 #Khatangsky
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 567 #Bratsk
+				has_full_control_of_state = 568 #Krasnoyarsk
+			}
+			NOT = { has_global_flag = pfp_siberia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 40 #Altai Krai
+				state = 516 #Duidinka
+				state = 566 #Irkutsk
+				state = 567 #Bratsk
+				state = 568 #Krasnoyarsk
+				state = 569 #Khakassia
+				state = 570 #Novosibirsk
+				state = 571 #Omsk
+				state = 575 #Kirensk
+				state = 576 #Yeniseisk
+				state = 578 #Tomsk
+				state = 878 #Khatangsky
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_siberia_coring_states
+			custom_effect_tooltip = pfp_siberia_transfer_states
+			custom_effect_tooltip = pfp_siberia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_siberia = yes
+				set_autonomy = { target = P45 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

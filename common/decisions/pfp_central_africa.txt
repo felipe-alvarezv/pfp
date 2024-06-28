@@ -1,0 +1,73 @@
+pfp_category = {
+	pfp_central_africa = {
+		allowed = {
+			NOT = {
+				original_tag = COG #Zaire
+				original_tag = P07 #PFP Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			#Leopoldville
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_africa_required_states_leopoldville
+				has_full_control_of_state = 295 #Leopoldville
+			}
+			#Coquilhatville
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_africa_required_states_coquilhatville
+				has_full_control_of_state = 538 #Coquilhatville
+			}
+			#Stanleyville
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_africa_required_states_stanleyville
+				has_full_control_of_state = 718 #Stanleyville
+			}
+			#Lusambo
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_africa_required_states_lusambo
+				has_full_control_of_state = 888 #Lusambo
+			}
+			#Elisabethville
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_africa_required_states_elisabethville
+				has_full_control_of_state = 889 #Elisabethville
+			}
+			#Costermansville
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_africa_required_states_costermansville
+				has_full_control_of_state = 890 #Costermansville
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 295 #Leopoldville
+				has_full_control_of_state = 538 #Coquilhatville
+				has_full_control_of_state = 718 #Stanleyville
+			}
+			NOT = { has_global_flag = pfp_central_africa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 295 #Leopoldville
+				state = 538 #Coquilhatville
+				state = 718 #Stanleyville
+				state = 888 #Lusambo
+				state = 889 #Elisabethville
+				state = 890 #Costermansville
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_central_africa_coring_states
+			custom_effect_tooltip = pfp_central_africa_transfer_states
+			custom_effect_tooltip = pfp_central_africa_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_central_africa = yes
+				set_autonomy = { target = P07 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

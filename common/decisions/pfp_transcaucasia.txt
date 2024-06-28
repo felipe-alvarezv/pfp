@@ -1,0 +1,59 @@
+pfp_category = {
+	pfp_transcaucasia = {
+		allowed = {
+			NOT = { original_tag = SOV } #Soviet Union
+		}
+		available = {
+			is_subject = no
+			#Azerbaijan
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_azerbaijan
+				has_full_control_of_state = 229 #Azerbaijan
+			}
+			#Armenia
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_armenia
+				has_full_control_of_state = 230 #Armenia
+			}
+			#Georgia
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_georgia
+				has_full_control_of_state = 231 #Georgia
+			}
+			#Abkhazia
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_abkhazia
+				has_full_control_of_state = 826 #Abkhazia
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 229 #Azerbaijan
+				has_full_control_of_state = 230 #Armenia
+				has_full_control_of_state = 231 #Georgia
+				has_full_control_of_state = 826 #Abkhazia
+			}
+			NOT = { has_global_flag = pfp_transcaucasia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 229 #Azerbaijan
+				state = 230 #Armenia
+				state = 231 #Georgia
+				state = 826 #Abkhazia
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_transcaucasia_coring_states
+			custom_effect_tooltip = pfp_transcaucasia_transfer_states
+			custom_effect_tooltip = pfp_transcaucasia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_transcaucasia = yes
+				set_autonomy = { target = P28 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

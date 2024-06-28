@@ -1,0 +1,194 @@
+pfp_category_territories_baltic = {
+	pfp_baltic_kaunas = {
+		visible = {
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 11 #Kaunas
+
+			11 = { #Kaunas
+				NOT = { is_core_of = FROM }
+			}
+
+			P04 = { #Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_kaunas_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 11 } #Kaunas
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_kaunas
+			custom_effect_tooltip = pfp_baltic_transfer_states_kaunas
+			hidden_effect = {
+				#Kaunas
+				11 = { add_core_of = P04 }
+				P04 = { transfer_state = 11 }
+				set_global_flag = pfp_baltic_kaunas_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_memel = {
+		visible = {
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 188 #Memel
+
+			188 = { #Memel
+				NOT = { is_core_of = FROM }
+			}
+
+			P04 = { #Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_memel_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 188 } #Memel
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_memel
+			custom_effect_tooltip = pfp_baltic_transfer_states_memel
+			hidden_effect = {
+				#Memel
+				188 = { add_core_of = P04 }
+				P04 = { transfer_state = 188 }
+				set_global_flag = pfp_baltic_memel_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_zemaitija = {
+		visible = {
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 189 #Zamaitija
+
+			189 = { #Zemaitija
+				NOT = { is_core_of = FROM }
+			}
+
+			P04 = { #Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_zemaitija_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 189 } #Zamaitija
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_zemaitija
+			custom_effect_tooltip = pfp_baltic_transfer_states_zemaitija
+			hidden_effect = {
+				#Zemaitija
+				189 = { add_core_of = P04 }
+				P04 = { transfer_state = 189 }
+				set_global_flag = pfp_baltic_zemaitija_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_wilno = {
+		visible = {
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 784 #Wilno
+
+			784 = { #Wilno
+				NOT = { is_core_of = FROM }
+			}
+
+			P04 = { #Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_wilno_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 784 } #Wilno
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_wilno
+			custom_effect_tooltip = pfp_baltic_transfer_states_wilno
+			hidden_effect = {
+				#Wilno
+				784 = { add_core_of = P04 }
+				P04 = { transfer_state = 784 }
+				set_global_flag = pfp_baltic_wilno_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_suduva = {
+		visible = {
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 814 #Suduva
+
+			814 = { #Suduva
+				NOT = { is_core_of = FROM }
+			}
+
+			P04 = { #Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_suduva_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 814 } #Suduva
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_suduva
+			custom_effect_tooltip = pfp_baltic_transfer_states_suduva
+			hidden_effect = {
+				#Suduva
+				814 = { add_core_of = P04 }
+				P04 = { transfer_state = 814 }
+				set_global_flag = pfp_baltic_suduva_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_aukstaitija = {
+		visible = {
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 815 #Aukstaitija
+
+			815 = { #Aukstaitija
+				NOT = { is_core_of = FROM }
+			}
+
+			P04 = { #Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_aukstaitija_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 815 } #Aukstaitija
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_aukstaitija
+			custom_effect_tooltip = pfp_baltic_transfer_states_aukstaitija
+			hidden_effect = {
+				#Aukstaitija
+				815 = { add_core_of = P04 }
+				P04 = { transfer_state = 815 }
+				set_global_flag = pfp_baltic_aukstaitija_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

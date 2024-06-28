@@ -1,0 +1,226 @@
+pfp_category_territories_indochina = {
+	pfp_indochina_burma = {
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			has_full_control_of_state = 288 #Burma
+
+			288 = { #Burma
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #Indochina
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_indochina_burma_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 288 } #Burma
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_burma
+			custom_effect_tooltip = pfp_indochina_transfer_states_burma
+			hidden_effect = {
+				#Burma
+				288 = { add_core_of = P16 }
+				P16 = { transfer_state = 288 }
+				set_global_flag = pfp_indochina_burma_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_indochina_siam = {
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			has_full_control_of_state = 289 #Siam
+
+			289 = { #Siam
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #Indochina
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_indochina_siam_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 289 } #Siam
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_siam
+			custom_effect_tooltip = pfp_indochina_transfer_states_siam
+			hidden_effect = {
+				#Siam
+				289 = { add_core_of = P16 }
+				P16 = { transfer_state = 289 }
+				set_global_flag = pfp_indochina_siam_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_indochina_singapore = {
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			has_full_control_of_state = 336 #Singapore
+
+			336 = { #Singapore
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #Indochina
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_indochina_singapore_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 336 } #Singapore
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_singapore
+			custom_effect_tooltip = pfp_indochina_transfer_states_singapore
+			hidden_effect = {
+				#Singapore
+				336 = { add_core_of = P16 }
+				P16 = { transfer_state = 336 }
+				set_global_flag = pfp_indochina_singapore_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_indochina_mandalay = {
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			has_full_control_of_state = 640 #Mandalay
+
+			640 = { #Mandalay
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #Indochina
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_indochina_mandalay_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 640 } #Mandalay
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_mandalay
+			custom_effect_tooltip = pfp_indochina_transfer_states_mandalay
+			hidden_effect = {
+				#Mandalay
+				640 = { add_core_of = P16 }
+				P16 = { transfer_state = 640 }
+				set_global_flag = pfp_indochina_mandalay_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_indochina_northern_malay = {
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			has_full_control_of_state = 724 #Northern Malay
+
+			724 = { #Northern Malay
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #Indochina
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_indochina_northern_malay_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 724 } #Northern Malay
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_northern_malay
+			custom_effect_tooltip = pfp_indochina_transfer_states_northern_malay
+			hidden_effect = {
+				#Northern Malay
+				724 = { add_core_of = P16 }
+				P16 = { transfer_state = 724 }
+				set_global_flag = pfp_indochina_northern_malay_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_indochina_isan = {
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			has_full_control_of_state = 868 #Isan
+
+			868 = { #Isan
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #Indochina
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_indochina_isan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 868 } #Isan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_isan
+			custom_effect_tooltip = pfp_indochina_transfer_states_isan
+			hidden_effect = {
+				#Isan
+				868 = { add_core_of = P16 }
+				P16 = { transfer_state = 868 }
+				set_global_flag = pfp_indochina_isan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_indochina_lanna = {
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			has_full_control_of_state = 869 #Lanna
+
+			869 = { #Lanna
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #Indochina
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_indochina_lanna_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 869 } #Lanna
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_lanna
+			custom_effect_tooltip = pfp_indochina_transfer_states_lanna
+			hidden_effect = {
+				#Lanna
+				869 = { add_core_of = P16 }
+				P16 = { transfer_state = 869 }
+				set_global_flag = pfp_indochina_lanna_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

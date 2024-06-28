@@ -1,0 +1,90 @@
+pfp_category = {
+	pfp_finland = {
+		allowed = {
+			NOT = {
+				original_tag = FIN #Finland
+				original_tag = P12 #Greater Finland
+			}
+		}
+		available = {
+			is_subject = no
+			#Uusimaa
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_uusimaa
+				has_full_control_of_state = 111 #Uusimaa
+			}
+			#Lappi
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_lappi
+				has_full_control_of_state = 148 #Lappi
+			}
+			#Vaasa
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_vaasa
+				has_full_control_of_state = 149 #Vaasa
+			}
+			#Kuopio
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_kuopio
+				has_full_control_of_state = 150 #Kuopio
+			}
+			#Turku
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_turku
+				has_full_control_of_state = 926 #Turku
+			}
+			#Häme
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_hame
+				has_full_control_of_state = 927 #Häme
+			}
+			#Kymi
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_kymi
+				has_full_control_of_state = 928 #Kymi
+			}
+			#Oulu
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_oulu
+				has_full_control_of_state = 929 #Oulu
+			}
+			#Mikkeli
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_mikkeli
+				has_full_control_of_state = 930 #Mikkeli
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 111 #Uusimaa
+				has_full_control_of_state = 150 #Kuopio
+			}
+			NOT = { has_global_flag = pfp_finland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 111 #Uusimaa
+				state = 148 #Lappi
+				state = 149 #Vaasa
+				state = 150 #Kuopio
+				state = 926 #Turku
+				state = 927 #Hame
+				state = 928 #Kymi
+				state = 929 #Oulu
+				state = 930 #Mikkeli
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_finland_coring_states
+			custom_effect_tooltip = pfp_finland_transfer_states
+			custom_effect_tooltip = pfp_finland_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_finland = yes
+				set_autonomy = { target = P12 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

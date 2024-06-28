@@ -1,0 +1,34 @@
+#Scripted effect to release Far Eastern Russia (P46)
+pfp_release_far_eastern_russia = {
+	hidden_effect = {
+		#Add cores to Far Eastern Russian territory
+		408 = { add_core_of = P46 } #Vladivostok
+		409 = { add_core_of = P46 } #Khabarovsk
+		560 = { add_core_of = P46 } #Nikolayevsk
+		561 = { add_core_of = P46 } #Amur
+		562 = { add_core_of = P46 } #Okhotsk
+		574 = { add_core_of = P46 } #Yakutsk
+		637 = { add_core_of = P46 } #Kamchatka
+		644 = { add_core_of = P46 } #Kolyma
+		657 = { add_core_of = P46 } #Birobidzhan
+		822 = { add_core_of = P46 } #Chukotka
+		874 = { add_core_of = P46 } #Magadan
+		877 = { add_core_of = P46 } #Verkhoyansk
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P46 }
+			transfer_state_to = P46
+		}
+
+		#Transfer all technology to formable puppet
+		P46 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_far_eastern_russia_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P46 }
+		news_event = { id = pfp_news.01 }
+	}
+}

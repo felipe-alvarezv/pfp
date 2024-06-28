@@ -1,0 +1,81 @@
+pfp_category = {
+	pfp_central_america = {
+		allowed = {
+			NOT = {
+				original_tag = COS #Costa Rica
+				original_tag = ELS #El Salvador
+				original_tag = GUA #Guatemala
+				original_tag = HON #Honduras
+				original_tag = NIC #Nicaragua
+				original_tag = PAN #Panama
+				original_tag = P08 #PFP Central America
+			}
+		}
+		available = {
+			is_subject = no
+			#Panama
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_america_required_states_panama
+				has_full_control_of_state = 304 #Panama
+			}
+			#Honduras
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_america_required_states_honduras
+				has_full_control_of_state = 312 #Honduras
+			}
+			#Guatemala
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_america_required_states_guatemala
+				has_full_control_of_state = 313 #Guatemala
+			}
+			#El Salvador
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_america_required_states_el_salvador
+				has_full_control_of_state = 314 #El Salvador
+			}
+			#Costa Rica
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_america_required_states_costa_rica
+				has_full_control_of_state = 316 #Costa Rica
+			}
+			#Nicaragua
+			custom_trigger_tooltip = {
+				tooltip = pfp_central_america_required_states_nicaragua
+				has_full_control_of_state = 317 #Nicaragua
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 304 #Panama
+				has_full_control_of_state = 312 #Honduras
+				has_full_control_of_state = 313 #Guatemala
+				has_full_control_of_state = 314 #El Salvador
+				has_full_control_of_state = 316 #Costa Rica
+				has_full_control_of_state = 317 #Nicaragua
+			}
+			NOT = { has_global_flag = pfp_central_america_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 304 #Panama
+				state = 312 #Honduras
+				state = 313 #Guatemala
+				state = 314 #El Salvador
+				state = 316 #Costa Rica
+				state = 317 #Nicaragua
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_central_america_coring_states
+			custom_effect_tooltip = pfp_central_america_transfer_states
+			custom_effect_tooltip = pfp_central_america_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_central_america = yes
+				set_autonomy = { target = P08 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

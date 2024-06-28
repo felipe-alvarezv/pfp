@@ -1,0 +1,12 @@
+﻿#Decision Description Localisation
+l_english:
+ pfp_category:0 "Pipe's Formable Puppets"
+ pfp_category_desc:0 "As we gain more territory, it has become a complicated problem to administer all of it. To address this problem, puppet governments loyal to our nation should be established in the regions we have conquered. This will allow us to place our attetion elsewhere, while the region helps our cause."
+
+ pfp_change_government:0 "PFP - Ruling Party"
+ pfp_change_government_desc:0 "After the latest political shakeup, the ruling party of our nation has changed. The previous government, appointed several leaders to our military administration(s) which served their agenda and are not needed anymore. We must make sure to reassign the leadership in these subjects to maintain power."
+ pfp_change_government_ideology:0 "Appoint New Ruling Party"
+ pfp_change_government_ideology_information:0 "All military administrations will adopt our current ruling party"
+
+ pfp_category_leaders:0 "PFP - Leaders"
+ pfp_category_leaders_desc:0 "After scouting several individuals, we have determined some of them would be great assets if placed in charge of our military administrations."

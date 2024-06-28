@@ -1,0 +1,66 @@
+pfp_category_territories_central_america = {
+	pfp_central_america_british_honduras = {
+		visible = {
+			has_global_flag = pfp_central_america_flag
+			has_full_control_of_state = 311 #British Honduras
+
+			311 = { #British Honduras
+				NOT = { is_core_of = FROM }
+			}
+
+			P08 = { #Central America
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_central_america_british_honduras_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 311 } #British Honduras
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_central_america_coring_states_british_honduras
+			custom_effect_tooltip = pfp_central_america_transfer_states_british_honduras
+			hidden_effect = {
+				#British Honduras
+				311 = { add_core_of = P08 }
+				P08 = { transfer_state = 311 }
+				set_global_flag = pfp_central_america_british_honduras_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_central_america_panama_canal = {
+		visible = {
+			has_global_flag = pfp_central_america_flag
+			has_full_control_of_state = 685 #Panama Canal
+
+			685 = { #Panama Canal
+				NOT = { is_core_of = FROM }
+			}
+
+			P08 = { #Central America
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_central_america_panama_canal_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 685 } #Panama Canal
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_central_america_coring_states_panama_canal
+			custom_effect_tooltip = pfp_central_america_transfer_states_panama_canal
+			hidden_effect = {
+				#Panama Canal
+				685 = { add_core_of = P08 }
+				P08 = { transfer_state = 685 }
+				set_global_flag = pfp_central_america_panama_canal_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -1,0 +1,514 @@
+pfp_category_territories_south_asia = {
+	pfp_south_asia_kabul = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 267 #Kabul
+
+			267 = { #Kabul
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_kabul_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 267 } #Kabul
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_kabul
+			custom_effect_tooltip = pfp_south_asia_transfer_states_kabul
+			hidden_effect = {
+				#Kabul
+				267 = { add_core_of = P37 }
+				P37 = { transfer_state = 267 }
+				set_global_flag = pfp_south_asia_kabul_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_maldives = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 281 #Maldives
+
+			281 = { #Maldives
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_maldives_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 281 } #Maldives
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_maldives
+			custom_effect_tooltip = pfp_south_asia_transfer_states_maldives
+			hidden_effect = {
+				#Maldives
+				281 = { add_core_of = P37 }
+				P37 = { transfer_state = 281 }
+				set_global_flag = pfp_south_asia_maldives_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_french_india = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 320 #French India
+
+			320 = { #French India
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_french_india_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 320 } #French India
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_french_india
+			custom_effect_tooltip = pfp_south_asia_transfer_states_french_india
+			hidden_effect = {
+				#French India
+				320 = { add_core_of = P37 }
+				P37 = { transfer_state = 320 }
+				set_global_flag = pfp_south_asia_french_india_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_goa = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 321 #Goa
+
+			321 = { #Goa
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_goa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 321 } #Goa
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_goa
+			custom_effect_tooltip = pfp_south_asia_transfer_states_goa
+			hidden_effect = {
+				#Goa
+				321 = { add_core_of = P37 }
+				P37 = { transfer_state = 321 }
+				set_global_flag = pfp_south_asia_goa_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_nepal = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 323 #Nepal
+
+			323 = { #Nepal
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_nepal_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 323 } #Nepal
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_nepal
+			custom_effect_tooltip = pfp_south_asia_transfer_states_nepal
+			hidden_effect = {
+				#Nepal
+				323 = { add_core_of = P37 }
+				P37 = { transfer_state = 323 }
+				set_global_flag = pfp_south_asia_nepal_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_bhutan = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 324 #Bhutan
+
+			324 = { #Bhutan
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_bhutan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 324 } #Bhutan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_bhutan
+			custom_effect_tooltip = pfp_south_asia_transfer_states_bhutan
+			hidden_effect = {
+				#Bhutan
+				324 = { add_core_of = P37 }
+				P37 = { transfer_state = 324 }
+				set_global_flag = pfp_south_asia_bhutan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_herat = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 415 #Herat
+
+			415 = { #Herat
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_herat_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 415 } #Herat
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_herat
+			custom_effect_tooltip = pfp_south_asia_transfer_states_herat
+			hidden_effect = {
+				#Herat
+				415 = { add_core_of = P37 }
+				P37 = { transfer_state = 415 }
+				set_global_flag = pfp_south_asia_herat_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_ceylon = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 422 #Ceylon
+
+			422 = { #Ceylon
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_ceylon_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 422 } #Ceylon
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_ceylon
+			custom_effect_tooltip = pfp_south_asia_transfer_states_ceylon
+			hidden_effect = {
+				#Ceylon
+				422 = { add_core_of = P37 }
+				P37 = { transfer_state = 422 }
+				set_global_flag = pfp_south_asia_ceylon_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_assam = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 432 #Assam
+
+			432 = { #Assam
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_assam_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 432 } #Assam
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_assam
+			custom_effect_tooltip = pfp_south_asia_transfer_states_assam
+			hidden_effect = {
+				#Assam
+				432 = { add_core_of = P37 }
+				P37 = { transfer_state = 432 }
+				set_global_flag = pfp_south_asia_assam_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_east_bengal = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 430 #East Bengal
+
+			430 = { #East Bengal
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_east_bengal_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 430 } #East Bengal
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_east_bengal
+			custom_effect_tooltip = pfp_south_asia_transfer_states_east_bengal
+			hidden_effect = {
+				#East Bengal
+				430 = { add_core_of = P37 }
+				P37 = { transfer_state = 430 }
+				set_global_flag = pfp_south_asia_east_bengal_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_west_bengal = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 431 #West Bengal
+
+			431 = { #West Bengal
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_west_bengal_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 431 } #West Bengal
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_west_bengal
+			custom_effect_tooltip = pfp_south_asia_transfer_states_west_bengal
+			hidden_effect = {
+				#West Bengal
+				431 = { add_core_of = P37 }
+				P37 = { transfer_state = 431 }
+				set_global_flag = pfp_south_asia_west_bengal_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_arunachal_pradesh = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 434 #Arunachal Pradesh
+
+			434 = { #Arunachal Pradesh
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_arunachal_pradesh_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 434 } #Arunachal Pradesh
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_arunachal_pradesh
+			custom_effect_tooltip = pfp_south_asia_transfer_states_arunachal_pradesh
+			hidden_effect = {
+				#Arunachal Pradesh
+				434 = { add_core_of = P37 }
+				P37 = { transfer_state = 434 }
+				set_global_flag = pfp_south_asia_arunachal_pradesh_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_bihar = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 435 #Bihar
+
+			435 = { #Bihar
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_bihar_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 435 } #Bihar
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_bihar
+			custom_effect_tooltip = pfp_south_asia_transfer_states_bihar
+			hidden_effect = {
+				#Bihar
+				435 = { add_core_of = P37 }
+				P37 = { transfer_state = 435 }
+				set_global_flag = pfp_south_asia_bihar_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_andaman = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 733 #Andaman
+
+			733 = { #Andaman
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_andaman_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 733 } #Andaman
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_andaman
+			custom_effect_tooltip = pfp_south_asia_transfer_states_andaman
+			hidden_effect = {
+				#Andaman
+				733 = { add_core_of = P37 }
+				P37 = { transfer_state = 733 }
+				set_global_flag = pfp_south_asia_andaman_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_kashmir = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 441 #Kashmir
+
+			441 = { #Kashmir
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_kashmir_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 441 } #Kashmir
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_kashmir
+			custom_effect_tooltip = pfp_south_asia_transfer_states_kashmir
+			hidden_effect = {
+				#Kashmir
+				441 = { add_core_of = P37 }
+				P37 = { transfer_state = 441 }
+				set_global_flag = pfp_south_asia_kashmir_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_asia_northern_kashmir = {
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			has_full_control_of_state = 787 #Northern Kashmir
+
+			787 = { #Northern Kashmir
+				NOT = { is_core_of = FROM }
+			}
+
+			P37 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_asia_northern_kashmir_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 787 } #Northern Kashmir
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_northern_kashmir
+			custom_effect_tooltip = pfp_south_asia_transfer_states_northern_kashmir
+			hidden_effect = {
+				#Northern Kashmir
+				787 = { add_core_of = P37 }
+				P37 = { transfer_state = 787 }
+				set_global_flag = pfp_south_asia_northern_kashmir_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

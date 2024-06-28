@@ -1,0 +1,190 @@
+pfp_category = {
+	pfp_iberia = {
+		allowed = {
+			NOT = {
+				original_tag = POR #Portugal
+				original_tag = SPR #Spain
+				original_tag = P15 #PFP Iberia
+			}
+		}
+		available = {
+			is_subject = no
+			#Madrid
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_madrid
+				has_full_control_of_state = 41 #Madrid
+			}
+			#Lisbon
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_lisbon
+				has_full_control_of_state = 112 #Lisbon
+			}
+			#Cataluna
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_cataluna
+				has_full_control_of_state = 165 #Cataluna
+			}
+			#Western Aragon
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_western_aragon
+				has_full_control_of_state = 166 #Western Aragon
+			}
+			#Valencia
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_valencia
+				has_full_control_of_state = 167 #Valencia
+			}
+			#Murcia
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_murcia
+				has_full_control_of_state = 168 #Murcia
+			}
+			#Sevilla
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_sevilla
+				has_full_control_of_state = 169 #Sevilla
+			}
+			#Extremadura
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_extremadura
+				has_full_control_of_state = 170 #Extremadura
+			}
+			#Galicia
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_galicia
+				has_full_control_of_state = 171 #Galicia
+			}
+			#Navarra
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_navarra
+				has_full_control_of_state = 172 #Navarra
+			}
+			#Granada
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_granada
+				has_full_control_of_state = 173 #Granada
+			}
+			#Leon
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_leon
+				has_full_control_of_state = 174 #Leon
+			}
+			#Ciudad Real
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_ciudad_real
+				has_full_control_of_state = 175 #Ciudad Real
+			}
+			#Burgos
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_burgos
+				has_full_control_of_state = 176 #Burgos
+			}
+			#Beja
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_beja
+				has_full_control_of_state = 179 #Beja
+			}
+			#Porto
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_porto
+				has_full_control_of_state = 180 #Porto
+			}
+			#Guarda
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_guarda
+				has_full_control_of_state = 181 #Guarda
+			}
+			#Salamanca
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_salamanca
+				has_full_control_of_state = 788 #Salamanca
+			}
+			#Cordoba
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_cordoba
+				has_full_control_of_state = 789 #Cordoba
+			}
+			#Asturias
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_asturias
+				has_full_control_of_state = 790 #Asturias
+			}
+			#Valladolid
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_valladolid
+				has_full_control_of_state = 791 #Valladolid
+			}
+			#Pais Vasco
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_pais_vasco
+				has_full_control_of_state = 792 #Pais Vasco
+			}
+			#Guadalajara
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_guadalajara
+				has_full_control_of_state = 793 #Guadalajara
+			}
+			#Eastern Aragon
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_eastern_aragon
+				has_full_control_of_state = 794 #Eastern Aragon
+			}
+			#Santarem
+			custom_trigger_tooltip = {
+				tooltip = pfp_iberia_required_states_santarem
+				has_full_control_of_state = 795 #Santarem
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 41 #Madrid
+				has_full_control_of_state = 112 #Lisbon
+				has_full_control_of_state = 165 #Cataluna
+				has_full_control_of_state = 171 #Galicia
+				has_full_control_of_state = 792 #Pais Vasco
+			}
+			NOT = { has_global_flag = pfp_iberia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 41 #Madrid
+				state = 112 #Lisbon
+				state = 165 #Cataluna
+				state = 166 #Western Aragon
+				state = 167 #Valencia
+				state = 168 #Murcia
+				state = 169 #Sevilla
+				state = 170 #Extremadura
+				state = 171 #Galicia
+				state = 172 #Navarra
+				state = 173 #Granada
+				state = 174 #Leon
+				state = 175 #Ciudad Real
+				state = 176 #Burgos
+				state = 179 #Beja
+				state = 180 #Porto
+				state = 181 #Guarda
+				state = 788 #Salamanca
+				state = 789 #Cordoba
+				state = 790 #Asturias
+				state = 791 #Valladolid
+				state = 792 #Pais Vasco
+				state = 793 #Guadalajara
+				state = 794 #Eastern Aragon
+				state = 795 #Santarem
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iberia_coring_states
+			custom_effect_tooltip = pfp_iberia_transfer_states
+			custom_effect_tooltip = pfp_iberia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_iberia = yes
+				set_autonomy = { target = P15 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

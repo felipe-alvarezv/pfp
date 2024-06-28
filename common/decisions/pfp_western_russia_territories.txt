@@ -1,0 +1,611 @@
+pfp_category_territories_western_russia = {
+	pfp_western_russia_crimea = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 137 #Crimea
+
+			137 = { #Crimea
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_crimea_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 137 } #Crimea
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_crimea
+			custom_effect_tooltip = pfp_western_russia_transfer_states_crimea
+			hidden_effect = {
+				#Crimea
+				137 = { add_core_of = P48 }
+				P48 = { transfer_state = 137 }
+				set_global_flag = pfp_western_russia_crimea_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_karjala = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 146 #Karjala
+
+			146 = { #Karjala
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_karjala_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 146 } #Karjala
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_karjala
+			custom_effect_tooltip = pfp_western_russia_transfer_states_karjala
+			hidden_effect = {
+				#Karjala
+				146 = { add_core_of = P48 }
+				P48 = { transfer_state = 146 }
+				set_global_flag = pfp_western_russia_karjala_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_salla = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 147 #Salla
+
+			147 = { #Salla
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_salla_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 147 } #Salla
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_salla
+			custom_effect_tooltip = pfp_western_russia_transfer_states_salla
+			hidden_effect = {
+				#Salla
+				147 = { add_core_of = P48 }
+				P48 = { transfer_state = 147 }
+				set_global_flag = pfp_western_russia_salla_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_murmansk = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 213 #Murmansk
+
+			213 = { #Murmansk
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_murmansk_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 213 } #Murmansk
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_murmansk
+			custom_effect_tooltip = pfp_western_russia_transfer_states_murmansk
+			hidden_effect = {
+				#Murmansk
+				213 = { add_core_of = P48 }
+				P48 = { transfer_state = 213 }
+				set_global_flag = pfp_western_russia_murmansk_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_onega = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 215 #Onega
+
+			215 = { #Onega
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_onega_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 215 } #Onega
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_onega
+			custom_effect_tooltip = pfp_western_russia_transfer_states_onega
+			hidden_effect = {
+				#Onega
+				215 = { add_core_of = P48 }
+				P48 = { transfer_state = 215 }
+				set_global_flag = pfp_western_russia_onega_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_olonets = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 216 #Olonets
+
+			216 = { #Olonets
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_olonets_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 216 } #Olonets
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_olonets
+			custom_effect_tooltip = pfp_western_russia_transfer_states_olonets
+			hidden_effect = {
+				#Olonets
+				216 = { add_core_of = P48 }
+				P48 = { transfer_state = 216 }
+				set_global_flag = pfp_western_russia_olonets_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_dagestan = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 232 #Dagestan
+
+			232 = { #Dagestan
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_dagestan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 232 } #Dagestan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_dagestan
+			custom_effect_tooltip = pfp_western_russia_transfer_states_dagestan
+			hidden_effect = {
+				#Dagestan
+				232 = { add_core_of = P48 }
+				P48 = { transfer_state = 232 }
+				set_global_flag = pfp_western_russia_dagestan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_sochi = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 233 #Sochi
+
+			233 = { #Sochi
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_sochi_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 233 } #Sochi
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_sochi
+			custom_effect_tooltip = pfp_western_russia_transfer_states_sochi
+			hidden_effect = {
+				#Sochi
+				233 = { add_core_of = P48 }
+				P48 = { transfer_state = 233 }
+				set_global_flag = pfp_western_russia_sochi_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_krasnodar = {
+
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 234 #Krasnodar
+
+			234 = { #Krasnodar
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_krasnodar_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 234 } #Krasnodar
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_krasnodar
+			custom_effect_tooltip = pfp_western_russia_transfer_states_krasnodar
+			hidden_effect = {
+				#Krasnodar
+				234 = { add_core_of = P48 }
+				P48 = { transfer_state = 234 }
+				set_global_flag = pfp_western_russia_krasnodar_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_stavropol = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 235 #Stavropol
+
+			235 = { #Stavropol
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_stavropol_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 235 } #Stavropol
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_stavropol
+			custom_effect_tooltip = pfp_western_russia_transfer_states_stavropol
+			hidden_effect = {
+				#Stavropol
+				235 = { add_core_of = P48 }
+				P48 = { transfer_state = 235 }
+				set_global_flag = pfp_western_russia_stavropol_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_smolensk = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 242 #Smolensk
+
+			242 = { #Smolensk
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_smolensk_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 242 } #Smolensk
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_smolensk
+			custom_effect_tooltip = pfp_western_russia_transfer_states_smolensk
+			hidden_effect = {
+				#Smolensk
+				242 = { add_core_of = P48 }
+				P48 = { transfer_state = 242 }
+				set_global_flag = pfp_western_russia_smolensk_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_roslavl = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 243 #Roslavl
+
+			243 = { #Roslavl
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_roslavl_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 243 } #Roslavl
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_roslavl
+			custom_effect_tooltip = pfp_western_russia_transfer_states_roslavl
+			hidden_effect = {
+				#Roslavl
+				243 = { add_core_of = P48 }
+				P48 = { transfer_state = 243 }
+				set_global_flag = pfp_western_russia_roslavl_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_zlatoust = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 573 #Zlatoust
+
+			573 = { #Zlatoust
+				NOT = { is_core_of = FROM }
+			}
+			
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_zlatoust_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 573 } #Zlatoust
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_zlatoust
+			custom_effect_tooltip = pfp_western_russia_transfer_states_zlatoust
+			hidden_effect = {
+				#Zlatoust
+				573 = { add_core_of = P48 }
+				P48 = { transfer_state = 573 }
+				set_global_flag = pfp_western_russia_zlatoust_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_northern_urals = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 581 #Northern Urals
+
+			581 = { #Northern Urals
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_northern_urals_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 581 } #Northern Urals
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_northern_urals
+			custom_effect_tooltip = pfp_western_russia_transfer_states_northern_urals
+			hidden_effect = {
+				#Northern Urals
+				581 = { add_core_of = P48 }
+				P48 = { transfer_state = 581 }
+				set_global_flag = pfp_western_russia_northern_urals_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_magnitogorsk = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 582 #Magnitogorsk
+
+			582 = { #Magnitogorsk
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_magnitogorsk_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 582 } #Magnitogorsk
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_magnitogorsk
+			custom_effect_tooltip = pfp_western_russia_transfer_states_magnitogorsk
+			hidden_effect = {
+				#Magnitogorsk
+				582 = { add_core_of = P48 }
+				P48 = { transfer_state = 582 }
+				set_global_flag = pfp_western_russia_magnitogorsk_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_petsamo = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 722 #Petsamo
+
+			722 = { #Petsamo
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_petsamo_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 722 } #Petsamo
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_petsamo
+			custom_effect_tooltip = pfp_western_russia_transfer_states_petsamo
+			hidden_effect = {
+				#Petsamo
+				722 = { add_core_of = P48 }
+				P48 = { transfer_state = 722 }
+				set_global_flag = pfp_western_russia_petsamo_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_chechnya_ingushetia = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 821 #Chechnya-Ingushetia
+
+			821 = { #Chechnya-Ingushetia
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_chechnya_ingushetia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 821 } #Chechnya-Ingushetia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_chechnya_ingushetia
+			custom_effect_tooltip = pfp_western_russia_transfer_states_chechnya_ingushetia
+			hidden_effect = {
+				#Chechnya-Ingushetia
+				821 = { add_core_of = P48 }
+				P48 = { transfer_state = 821 }
+				set_global_flag = pfp_western_russia_chechnya_ingushetia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_kabardino_balkaria = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 827 #Kabardino-Balkaria
+
+			827 = { #Kabardino-Balkaria
+				NOT = { is_core_of = FROM }
+			}
+				
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_kabardino_balkaria_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 827 } #Kabardino-Balkaria
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_kabardino_balkaria
+			custom_effect_tooltip = pfp_western_russia_transfer_states_kabardino_balkaria
+			hidden_effect = {
+				#Kabardino-Balkaria
+				827 = { add_core_of = P48 }
+				P48 = { transfer_state = 827 }
+				set_global_flag = pfp_western_russia_kabardino_balkaria_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_western_russia_north_ossetia = {
+		visible = {
+			has_global_flag = pfp_western_russia_flag
+			has_full_control_of_state = 828 #North Ossetia
+
+			828 = { #North Ossetia
+				NOT = { is_core_of = FROM }
+			}
+
+			P48 = { #Western Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_western_russia_north_ossetia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 828 } #North Ossetia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_western_russia_coring_states_north_ossetia
+			custom_effect_tooltip = pfp_western_russia_transfer_states_north_ossetia
+			hidden_effect = {
+				#North Ossetia
+				828 = { add_core_of = P48 }
+				P48 = { transfer_state = 828 }
+				set_global_flag = pfp_western_russia_north_ossetia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

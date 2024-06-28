@@ -1,0 +1,109 @@
+pfp_category = {
+	pfp_midwestern_us = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = P18 #PFP Midwestern U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			#Ohio
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_ohio
+				has_full_control_of_state = 261 #Ohio
+			}
+			#Missouri
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_missouri
+				has_full_control_of_state = 373 #Missouri
+			}
+			#Kansas
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_kansas
+				has_full_control_of_state = 383 #Kansas
+			}
+			#Nebraska
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_nebraska
+				has_full_control_of_state = 384 #Nebraska
+			}
+			#North Dakota
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_north_dakota
+				has_full_control_of_state = 389 #North Dakota
+			}
+			#South Dakota
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_south_dakota
+				has_full_control_of_state = 390 #South Dakota
+			}
+			#Minnesota
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_minnesota
+				has_full_control_of_state = 391 #Minnesota
+			}
+			#Iowa
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_iowa
+				has_full_control_of_state = 392 #Iowa
+			}
+			#Michigan
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_michigan
+				has_full_control_of_state = 393 #Michigan
+			}
+			#Wisconsin
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_wisconsin
+				has_full_control_of_state = 394 #Wisconsin
+			}
+			#Illinois
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_illinois
+				has_full_control_of_state = 395 #Illinois
+			}
+			#Indiana
+			custom_trigger_tooltip = {
+				tooltip = pfp_midwestern_us_required_states_indiana
+				has_full_control_of_state = 396 #Indiana
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 261 #Ohio
+				has_full_control_of_state = 395 #Illinois
+				has_full_control_of_state = 396 #Indiana
+			}
+			NOT = { has_global_flag = pfp_midwestern_us_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 261 #Ohio
+				state = 373 #Missouri
+				state = 383 #Kansas
+				state = 384 #Nebraska
+				state = 389 #North Dakota
+				state = 390 #South Dakota
+				state = 391 #Minnesota
+				state = 392 #Iowa
+				state = 393 #Michigan
+				state = 394 #Wisconsin
+				state = 395 #Illinois
+				state = 396 #Indiana
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_midwestern_us_coring_states
+			custom_effect_tooltip = pfp_midwestern_us_transfer_states
+			custom_effect_tooltip = pfp_midwestern_us_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_midwestern_us = yes
+				set_autonomy = { target = P18 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -1,0 +1,72 @@
+pfp_category = {
+	pfp_northern_caucasus = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = P41 #Northern Caucasus
+			}
+		}
+		available = {
+			is_subject = no
+			#Dagestan
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_caucasus_required_states_dagestan
+				has_full_control_of_state = 232 #Dagestan
+			}
+			#Sochi
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_caucasus_required_states_sochi
+				has_full_control_of_state = 233 #Sochi
+			}
+			#Stavropol
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_caucasus_required_states_stavropol
+				has_full_control_of_state = 235 #Stavropol
+			}
+			#Chechnya-Ingushetia
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_caucasus_required_states_chechnya_ingushetia
+				has_full_control_of_state = 821 #Chechnya-Ingushetia
+			}
+			#Kabardino-Balkaria
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_caucasus_required_states_kabardino_balkaria
+				has_full_control_of_state = 827 #Kabardino-Balkaria
+			}
+			#North Ossetia
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_caucasus_required_states_north_ossetia
+				has_full_control_of_state = 828 #North Ossetia
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 233 #Sochi
+				has_full_control_of_state = 235 #Stavropol
+			}
+			NOT = { has_global_flag = pfp_northern_caucasus_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 232 #Dagestan
+				state = 233 #Sochi
+				state = 235 #Stavropol
+				state = 821 #Chechnya-Ingushetia
+				state = 827 #Kabardino-Balkaria
+				state = 828 #North Ossetia
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_northern_caucasus_coring_states
+			custom_effect_tooltip = pfp_northern_caucasus_transfer_states
+			custom_effect_tooltip = pfp_northern_caucasus_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_northern_caucasus = yes
+				set_autonomy = { target = P41 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

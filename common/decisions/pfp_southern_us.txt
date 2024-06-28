@@ -1,0 +1,113 @@
+pfp_category = {
+	pfp_southern_us = {
+		allowed = {
+			NOT = { original_tag = USA } #United States
+		}
+		available = {
+			is_subject = no
+			#Virginia
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_virginia
+				has_full_control_of_state = 362 #Virginia
+			}
+			#North Carolina
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_north_carolina
+				has_full_control_of_state = 363 #North Carolina
+			}
+			#South Carolina
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_south_carolina
+				has_full_control_of_state = 364 #South Carolina
+			}
+			#Georgia
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_georgia
+				has_full_control_of_state = 365 #Georgia
+			}
+			#Florida
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_florida
+				has_full_control_of_state = 366 #Florida
+			}
+			#Alabama
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_alabama
+				has_full_control_of_state = 367 #Alabama
+			}
+			#Tennessee
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_tennessee
+				has_full_control_of_state = 368 #Tennessee
+			}
+			#Kentucky
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_kentucky
+				has_full_control_of_state = 369 #Kentucky
+			}
+			#Mississippi
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_mississippi
+				has_full_control_of_state = 370 #Mississippi
+			}
+			#Louisiana
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_louisiana
+				has_full_control_of_state = 371 #Louisiana
+			}
+			#Arkansas
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_arkansas
+				has_full_control_of_state = 372 #Arkansas
+			}
+			#Oklahoma
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_oklahoma
+				has_full_control_of_state = 374 #Oklahoma
+			}
+			#Texas
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_us_required_states_texas
+				has_full_control_of_state = 375 #Texas
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 362 #Virginia
+				has_full_control_of_state = 365 #Georgia
+				has_full_control_of_state = 366 #Florida
+				has_full_control_of_state = 371 #Louisiana
+			}
+			NOT = { has_global_flag = pfp_southern_us_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 362 #Virginia
+				state = 363 #North Carolina
+				state = 364 #South Carolina
+				state = 365 #Georgia
+				state = 366 #Florida
+				state = 367 #Alabama
+				state = 368 #Tennessee
+				state = 369 #Kentucky
+				state = 370 #Mississippi
+				state = 371 #Louisiana
+				state = 372 #Arkansas
+				state = 374 #Oklahoma
+				state = 375 #Texas
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_southern_us_coring_states
+			custom_effect_tooltip = pfp_southern_us_transfer_states
+			custom_effect_tooltip = pfp_southern_us_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_southern_us = yes
+				set_autonomy = { target = P26 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

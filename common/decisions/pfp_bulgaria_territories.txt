@@ -1,0 +1,226 @@
+pfp_category_territories_bulgaria = {
+	pfp_bulgaria_dobrudja = {
+		visible = {
+			has_global_flag = pfp_bulgaria_flag
+			has_full_control_of_state = 77 #Dobrudja
+
+			77 = { #Dobrudja
+				NOT = { is_core_of = FROM }
+			}
+
+			P49 = { #Bulgaria
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_bulgaria_dobrudja_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 77 } #Dobrudja
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bulgaria_coring_states_dobrudja
+			custom_effect_tooltip = pfp_bulgaria_transfer_states_dobrudja
+			hidden_effect = {
+				#Dobrudja
+				77 = { add_core_of = P49 }
+				P49 = { transfer_state = 77 }
+				set_global_flag = pfp_bulgaria_dobrudja_flsag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_bulgaria_macedonia = {
+		visible = {
+			has_global_flag = pfp_bulgaria_flag
+			has_full_control_of_state = 106 #Macedonia
+
+			106 = { #Macedonia
+				NOT = { is_core_of = FROM }
+			}
+
+			P49 = { #Bulgaria
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_bulgaria_macedonia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 106 } #Macedonia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bulgaria_coring_states_macedonia
+			custom_effect_tooltip = pfp_bulgaria_transfer_states_macedonia
+			hidden_effect = {
+				#Macedonia
+				106 = { add_core_of = P49 }
+				P49 = { transfer_state = 106 }
+				set_global_flag = pfp_bulgaria_macedonia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_bulgaria_thrace = {
+		visible = {
+			has_global_flag = pfp_bulgaria_flag
+			has_full_control_of_state = 184 #Thrace
+
+			184 = { #Thrace
+				NOT = { is_core_of = FROM }
+			}
+
+			P49 = { #Bulgaria
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_bulgaria_thrace_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 184 } #Thrace
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bulgaria_coring_states_thrace
+			custom_effect_tooltip = pfp_bulgaria_transfer_states_thrace
+			hidden_effect = {
+				#Thrace
+				184 = { add_core_of = P49 }
+				P49 = { transfer_state = 184 }
+				set_global_flag = pfp_bulgaria_thrace_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_bulgaria_edirne = {
+		visible = {
+			has_global_flag = pfp_bulgaria_flag
+			has_full_control_of_state = 341 #Edirne
+
+			341 = { #Edirne
+				NOT = { is_core_of = FROM }
+			}
+
+			P49 = { #Bulgaria
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_bulgaria_edirne_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 341 } #Edirne
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bulgaria_coring_states_edirne
+			custom_effect_tooltip = pfp_bulgaria_transfer_states_edirne
+			hidden_effect = {
+				#Edirne
+				341 = { add_core_of = P49 }
+				P49 = { transfer_state = 341 }
+				set_global_flag = pfp_bulgaria_edirne_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_bulgaria_central_macedonia = {
+		visible = {
+			has_global_flag = pfp_bulgaria_flag
+			has_full_control_of_state = 731 #Central Macedonia
+
+			731 = { #Central Macedonia
+				NOT = { is_core_of = FROM }
+			}
+
+			P49 = { #Bulgaria
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_bulgaria_central_macedonia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 731 } #Central Macedonia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bulgaria_coring_states_central_macedonia
+			custom_effect_tooltip = pfp_bulgaria_transfer_states_central_macedonia
+			hidden_effect = {
+				#Central Macedonia
+				731 = { add_core_of = P49 }
+				P49 = { transfer_state = 731 }
+				set_global_flag = pfp_bulgaria_central_macedonia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_bulgaria_istanbul = {
+		visible = {
+			has_global_flag = pfp_bulgaria_flag
+			has_full_control_of_state = 797 #Istanbul
+
+			797 = { #Istanbul
+				NOT = { is_core_of = FROM }
+			}
+
+			P49 = { #Bulgaria
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_bulgaria_istanbul_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 797 } #Istanbul
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bulgaria_coring_states_istanbul
+			custom_effect_tooltip = pfp_bulgaria_transfer_states_istanbul
+			hidden_effect = {
+				#Istanbul
+				797 = { add_core_of = P49 }
+				P49 = { transfer_state = 797 }
+				set_global_flag = pfp_bulgaria_istanbul_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_bulgaria_southern_serbia = {
+		visible = {
+			has_global_flag = pfp_bulgaria_flag
+			has_full_control_of_state = 803 #Southern Serbia
+
+			803 = { #Southern Serbia
+				NOT = { is_core_of = FROM }
+			}
+
+			P49 = { #Bulgaria
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_bulgaria_southern_serbia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 803 } #Southern Serbia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bulgaria_coring_states_southern_serbia
+			custom_effect_tooltip = pfp_bulgaria_transfer_states_southern_serbia
+			hidden_effect = {
+				#Southern Serbia
+				803 = { add_core_of = P49 }
+				P49 = { transfer_state = 803 }
+				set_global_flag = pfp_bulgaria_southern_serbia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

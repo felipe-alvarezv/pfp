@@ -1,0 +1,27 @@
+#Scripted effect to release Mongolia (P47)
+pfp_release_mongolia = {
+	hidden_effect = {
+		#Add cores to Mongolian territory
+		330 = { add_core_of = P47 } #Ulaanbaatar
+		817 = { add_core_of = P47 } #Gobi
+		818 = { add_core_of = P47 } #Khovd
+		819 = { add_core_of = P47 } #Dornod
+		820 = { add_core_of = P47 } #Khovsgol
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P47 }
+			transfer_state_to = P47
+		}
+
+		#Transfer all technology to formable puppet
+		P47 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_mongolia_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P47 }
+		news_event = { id = pfp_news.01 }
+	}
+}

@@ -1,0 +1,226 @@
+pfp_category_territories_south_germany = {
+	pfp_south_germany_lower_austria = {
+		visible = {
+			has_global_flag = pfp_south_germany_flag
+			has_full_control_of_state = 4 #Lower Austria
+
+			4 = { #Lower Austria
+				NOT = { is_core_of = FROM }
+			}
+
+			P25 = { #South Germany
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_germany_lower_austria_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 4 } #Lower Austria
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_germany_coring_states_lower_austria
+			custom_effect_tooltip = pfp_south_germany_transfer_states_lower_austria
+			hidden_effect = {
+				#Lower Austria
+				4 = { add_core_of = P25 }
+				P25 = { transfer_state = 4 }
+				set_global_flag = pfp_south_germany_lower_austria_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_germany_alto_adige = {
+		visible = {
+			has_global_flag = pfp_south_germany_flag
+			has_full_control_of_state = 39 #Alto Adige
+
+			39 = { #Alto Adige
+				NOT = { is_core_of = FROM }
+			}
+
+			P25 = { #South Germany
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_germany_alto_adige_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 39 } #Alto Adige
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_germany_coring_states_alto_adige
+			custom_effect_tooltip = pfp_south_germany_transfer_states_alto_adige
+			hidden_effect = {
+				#Alto Adige
+				39 = { add_core_of = P25 }
+				P25 = { transfer_state = 39 }
+				set_global_flag = pfp_south_germany_alto_adige_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_germany_north_slovenia = {
+		visible = {
+			has_global_flag = pfp_south_germany_flag
+			has_full_control_of_state = 102 #North Slovenia
+
+			102 = { #North Slovenia
+				NOT = { is_core_of = FROM }
+			}
+
+			P25 = { #South Germany
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_germany_north_slovenia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 102 } #North Slovenia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_germany_coring_states_north_slovenia
+			custom_effect_tooltip = pfp_south_germany_transfer_states_north_slovenia
+			hidden_effect = {
+				#North Slovenia
+				102 = { add_core_of = P25 }
+				P25 = { transfer_state = 102 }
+				set_global_flag = pfp_south_germany_north_slovenia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_germany_upper_austria = {
+		visible = {
+			has_global_flag = pfp_south_germany_flag
+			has_full_control_of_state = 152 #Upper Austria
+
+			152 = { #Upper Austria
+				NOT = { is_core_of = FROM }
+			}
+
+			P25 = { #South Germany
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_germany_upper_austria_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 152 } #Upper Austria
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_germany_coring_states_upper_austria
+			custom_effect_tooltip = pfp_south_germany_transfer_states_upper_austria
+			hidden_effect = {
+				 #Upper Austria
+				152 = { add_core_of = P25 }
+				P25 = { transfer_state = 152 }
+				set_global_flag = pfp_south_germany_upper_austria_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_germany_tyrol = {
+		visible = {
+			has_global_flag = pfp_south_germany_flag
+			has_full_control_of_state = 153 #Tyrol
+
+			153 = { #Tyrol
+				NOT = { is_core_of = FROM }
+			}
+
+			P25 = { #South Asia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_germany_tyrol_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 153 } #Tyrol
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_germany_coring_states_tyrol
+			custom_effect_tooltip = pfp_south_germany_transfer_states_tyrol
+			hidden_effect = {
+				#Tyrol
+				153 = { add_core_of = P25 }
+				P25 = { transfer_state = 153 }
+				set_global_flag = pfp_south_germany_tyrol_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_germany_vorarlberg = {
+		visible = {
+			has_global_flag = pfp_south_germany_flag
+			has_full_control_of_state = 848 #Vorarlberg
+
+			848 = { #Vorarlberg
+				NOT = { is_core_of = FROM }
+			}
+
+			P25 = { #South Germany
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_germany_vorarlberg_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 848 } #Vorarlberg
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_germany_coring_states_vorarlberg
+			custom_effect_tooltip = pfp_south_germany_transfer_states_vorarlberg
+			hidden_effect = {
+				#Vorarlberg
+				848 = { add_core_of = P25 }
+				P25 = { transfer_state = 848 }
+				set_global_flag = pfp_south_germany_vorarlberg_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_south_germany_ljubljana = {
+		visible = {
+			has_global_flag = pfp_south_germany_flag
+			has_full_control_of_state = 853 #Ljubljana
+
+			853 = { #Ljubljana
+				NOT = { is_core_of = FROM }
+			}
+
+			P25 = { #South Germany
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_south_germany_ljubljana_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 853 } #Ljubljana
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_germany_coring_states_ljubljana
+			custom_effect_tooltip = pfp_south_germany_transfer_states_ljubljana
+			hidden_effect = {
+				#Ljubljana
+				853 = { add_core_of = P25 }
+				P25 = { transfer_state = 853 }
+				set_global_flag = pfp_south_germany_ljubljana_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

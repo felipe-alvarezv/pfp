@@ -1,0 +1,514 @@
+pfp_category_territories_arabia = {
+	pfp_arabia_baghdad = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 291 #Baghdad
+
+			291 = { #Baghdad
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_baghdad_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 291 } #Baghdad
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_baghdad
+			custom_effect_tooltip = pfp_arabia_transfer_states_baghdad
+			hidden_effect = {
+				#Baghdad
+				291 = { add_core_of = P03 }
+				P03 = { transfer_state = 291 }
+				set_global_flag = pfp_arabia_baghdad_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_sinai = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 453 #Sinai
+
+			453 = { #Sinai
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_sinai_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 453 } #Sinai
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_sinai
+			custom_effect_tooltip = pfp_arabia_transfer_states_sinai
+			hidden_effect = {
+				#Sinai
+				453 = { add_core_of = P03 }
+				P03 = { transfer_state = 453 }
+				set_global_flag = pfp_arabia_sinai_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_palestine = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 454 #Palestine
+
+			454 = { #Palestine
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_palestine_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 454 } #Palestine
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_palestine
+			custom_effect_tooltip = pfp_arabia_transfer_states_palestine
+			hidden_effect = {
+				#Palestine
+				454 = { add_core_of = P03 }
+				P03 = { transfer_state = 454 }
+				set_global_flag = pfp_arabia_palestine_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_jordan = {
+		visible = {
+			has_full_control_of_state = 455 #Jordan
+			has_global_flag = pfp_arabia_flag
+
+			455 = { #Jordan
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_jordan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 455 } #Jordan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_jordan
+			custom_effect_tooltip = pfp_arabia_transfer_states_jordan
+			hidden_effect = {
+				#Jordan
+				455 = { add_core_of = P03 }
+				P03 = { transfer_state = 455 }
+				set_global_flag = pfp_arabia_jordan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_damascus = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 554 #Damascus
+
+			554 = { #Damascus
+    			NOT = { is_core_of = FROM }
+			}
+			
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_damascus_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 554 } #Damascus
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_damascus
+			custom_effect_tooltip = pfp_arabia_transfer_states_damascus
+			hidden_effect = {
+				#Damascus
+				554 = { add_core_of = P03 }
+				P03 = { transfer_state = 554 }
+				set_global_flag = pfp_arabia_damascus_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_lebanon = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 553 #Lebanon
+
+			553 = { #Lebanon
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_lebanon_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 553 } #Lebanon
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_lebanon
+			custom_effect_tooltip = pfp_arabia_transfer_states_lebanon
+			hidden_effect = {
+				#Lebanon
+				553 = { add_core_of = P03 }
+				P03 = { transfer_state = 553 }
+				set_global_flag = pfp_arabia_lebanon_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_kuwait = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 656 #Kuwait
+
+			656 = { #Kuwait
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_kuwait_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 656 }
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_kuwait
+			custom_effect_tooltip = pfp_arabia_transfer_states_kuwait
+			hidden_effect = {
+				#Kuwait
+				656 = { add_core_of = P03 }
+				P03 = { transfer_state = 656 }
+				set_global_flag = pfp_arabia_kuwait_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_abu_dhabi = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 658 #Abu Dhabi
+
+			658 = { #Abu Dhabi
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_abu_dhabi_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 658 } #Abu Dhabi
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_abu_dhabi
+			custom_effect_tooltip = pfp_arabia_transfer_states_abu_dhabi
+			hidden_effect = {
+				#Abu Dhabi
+				658 = { add_core_of = P03 }
+				P03 = { transfer_state = 658 }
+				set_global_flag = pfp_arabia_abu_dhabi_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_aden = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 659 #Aden
+
+			659 = { #Aden
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_aden_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 659 } #Aden
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_aden
+			custom_effect_tooltip = pfp_arabia_transfer_states_aden
+			hidden_effect = {
+				#Aden
+				659 = { add_core_of = P03 }
+				P03 = { transfer_state = 659 }
+				set_global_flag = pfp_arabia_aden_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_al_hajara = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 675 #Al Hajara
+
+			675 = { #Al Hajara
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_al_hajara_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 675 } #Al Hajara
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_al_hajara
+			custom_effect_tooltip = pfp_arabia_transfer_states_al_hajara
+			hidden_effect = {
+				#Al Hajara
+				675 = { add_core_of = P03 }
+				P03 = { transfer_state = 675 }
+				set_global_flag = pfp_arabia_al_hajara_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_mosul = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 676 #Mosul
+
+			676 = { #Mosul
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_mosul_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 676 } #Mosul
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_mosul
+			custom_effect_tooltip = pfp_arabia_transfer_states_mosul
+			hidden_effect = {
+				#Mosul
+				676 = { add_core_of = P03 }
+				P03 = { transfer_state = 676 }
+				set_global_flag = pfp_arabia_mosul_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_aleppo = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 677 #Aleppo
+
+			677 = { #Aleppo
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_aleppo_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 677 } #Aleppo
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_aleppo
+			custom_effect_tooltip = pfp_arabia_transfer_states_aleppo
+			hidden_effect = {
+				#Aleppo
+				677 = { add_core_of = P03 }
+				P03 = { transfer_state = 677 }
+				set_global_flag = pfp_arabia_aleppo_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_deir_az_zur = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 680 #Deir-Az-Zur
+
+			680 = { #Deir-Az-Zur
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_deir_az_zur_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 680 } #Deir-Az-Zur
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_deir_az_zur
+			custom_effect_tooltip = pfp_arabia_transfer_states_deir_az_zur
+			hidden_effect = {
+				#Deir-Az-Zur
+				680 = { add_core_of = P03 }
+				P03 = { transfer_state = 680 }
+				set_global_flag = pfp_arabia_deir_az_zur_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_qatar = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 765 #Qatar
+
+			765 = { #Qatar
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_qatar_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 765 } #Qatar
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_qatar
+			custom_effect_tooltip = pfp_arabia_transfer_states_qatar
+			hidden_effect = {
+				#Qatar
+				765 = { add_core_of = P03 }
+				P03 = { transfer_state = 765 }
+				set_global_flag = pfp_arabia_qatar_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_hatay = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 799 #Hatay
+
+			799 = { #Hatay
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_hatay_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 799 } #Hatay
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_hatay
+			custom_effect_tooltip = pfp_arabia_transfer_states_hatay
+			hidden_effect = {
+				#Hatay
+				799 = { add_core_of = P03 }
+				P03 = { transfer_state = 799 }
+				set_global_flag = pfp_arabia_hatay_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_socotra = {
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 906 #Socotra
+
+			906 = { #Socotra
+    			NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_socotra_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 906 } #Socotra
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_socotra
+			custom_effect_tooltip = pfp_arabia_transfer_states_socotra
+			hidden_effect = {
+				#Socotra
+				906 = { add_core_of = P03 }
+				P03 = { transfer_state = 906 }
+				set_global_flag = pfp_arabia_socotra_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

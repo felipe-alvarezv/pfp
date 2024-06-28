@@ -1,0 +1,121 @@
+pfp_category = {
+	pfp_oceania = {
+		allowed = {
+			NOT = {
+				original_tag = AST #Australia
+				original_tag = NZL #New Zealand
+				original_tag = P27 #Oceania
+			}
+		}
+		available = {
+			is_subject = no
+			#New South Wales
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_new_south_wales
+				has_full_control_of_state = 285 #New South Wales
+			}
+			#Victoria
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_victoria
+				has_full_control_of_state = 517 #Victoria
+			}
+			#Tasmania
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_tasmania
+				has_full_control_of_state = 518 #Tasmania
+			}
+			#South Australia
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_south_australia
+				has_full_control_of_state = 519 #South Australia
+			}
+			#Northern Territory
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_northern_territory
+				has_full_control_of_state = 520 #Northern Territory
+			}
+			#Queensland
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_queensland
+				has_full_control_of_state = 521 #Queensland
+			}
+			#West Australia
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_west_australia
+				has_full_control_of_state = 522 #West Australia
+			}
+			#Central Australia
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_central_australia
+				has_full_control_of_state = 674 #Central Australia
+			}
+			#North West Australia
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_north_west_australia
+				has_full_control_of_state = 870 #North West Australia
+			}
+			#South West Australia
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_south_west_australia
+				has_full_control_of_state = 871 #South West Australia
+			}
+			#North Queensland
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_north_queensland
+				has_full_control_of_state = 872 #North Queensland
+			}
+			#South West Queensland
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_south_west_queensland
+				has_full_control_of_state = 873 #South West Queensland
+			}
+			#North Island
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_north_island
+				has_full_control_of_state = 284 #North Island
+			}
+			#South Island
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_south_island
+				has_full_control_of_state = 723 #South Island
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 285 #New South Wales
+				has_full_control_of_state = 284 #North Island
+			}
+			NOT = { has_global_flag = pfp_oceania_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 285 #New South Wales
+				state = 517 #Victoria
+				state = 518 #Tasmania
+				state = 519 #South Australia
+				state = 520 #Northern Territory
+				state = 521 #Queensland
+				state = 522 #West Australia
+				state = 674 #Central Australia
+				state = 870 #North West Australia
+				state = 871 #South West Australia
+				state = 872 #North Queensland
+				state = 873 #South West Queensland
+				state = 284 #North Island
+				state = 723 #South Island
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states
+			custom_effect_tooltip = pfp_oceania_transfer_states
+			custom_effect_tooltip = pfp_oceania_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_oceania = yes
+				set_autonomy = { target = P27 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

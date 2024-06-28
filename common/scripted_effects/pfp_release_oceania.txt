@@ -1,0 +1,35 @@
+#Scripted effect to release Oceania (P27)
+pfp_release_oceania = {
+	hidden_effect = {
+		285 = { add_core_of = P27 } #New South Wales
+		517 = { add_core_of = P27 } #Victoria
+		518 = { add_core_of = P27 } #Tasmania
+		519 = { add_core_of = P27 } #South Australia
+		520 = { add_core_of = P27 } #Northern Territory
+		521 = { add_core_of = P27 } #Queensland
+		522 = { add_core_of = P27 } #West Australia
+		674 = { add_core_of = P27 } #Central Australia
+		870 = { add_core_of = P27 } #North West Australia
+		871 = { add_core_of = P27 } #South West Australia
+		872 = { add_core_of = P27 } #North Queensland
+		873 = { add_core_of = P27 } #South West Queensland
+		284 = { add_core_of = P27 } #North Island
+		723 = { add_core_of = P27 } #South Island
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P27 }
+			transfer_state_to = P27
+		}
+
+		#Transfer all technology to formable puppet
+		P27 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_oceania_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P27 }
+		news_event = { id = pfp_news.01 }
+	}
+}

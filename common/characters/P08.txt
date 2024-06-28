@@ -1,0 +1,54 @@
+characters={
+	P08_communism_leader={
+		name="Military Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PFP/pfp_communism.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	P08_democratic_leader={
+		name="Military Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PFP/pfp_democratic.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	P08_neutrality_leader={
+		name="Military Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PFP/pfp_neutrality.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	P08_fascism_leader={
+		name="Military Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PFP/pfp_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

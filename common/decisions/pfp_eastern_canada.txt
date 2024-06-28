@@ -1,0 +1,54 @@
+pfp_category = {
+	pfp_eastern_canada = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = P11 #PFP Eastern Canada
+			}
+		}
+		available = {
+			is_subject = no
+			#Southern Ontario
+			custom_trigger_tooltip = {
+				tooltip = pfp_eastern_canada_required_states_southern_ontario
+				has_full_control_of_state = 276 #Southern Ontario
+			}
+			#Northern Ontario
+			custom_trigger_tooltip = {
+				tooltip = pfp_eastern_canada_required_states_northern_ontario
+				has_full_control_of_state = 682 #Northern Ontario
+			}
+			#Districts of Ontario
+			custom_trigger_tooltip = {
+				tooltip = pfp_eastern_canada_required_states_districts_of_ontario
+				has_full_control_of_state = 866 #Districts of Ontario
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 276 #Southern Ontario
+				has_full_control_of_state = 682 #Northern Ontario
+			}
+			NOT = { has_global_flag = pfp_eastern_canada_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 276 #Southern Ontario
+				state = 682 #Northern Ontario
+				state = 866 #Districts of Ontario
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_eastern_canada_coring_states
+			custom_effect_tooltip = pfp_eastern_canada_transfer_states
+			custom_effect_tooltip = pfp_eastern_canada_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_eastern_canada = yes
+				set_autonomy = { target = P11 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

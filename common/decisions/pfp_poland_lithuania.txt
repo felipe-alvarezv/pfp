@@ -1,0 +1,103 @@
+pfp_category = {
+	pfp_poland_lithuania = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = P34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			#Warszawa
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_warszawa
+				has_full_control_of_state = 10 #Warszawa
+			}
+			#Kaunas
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_kaunas
+				has_full_control_of_state = 11 #Kaunas
+			}
+			#Lodz
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_lodz
+				has_full_control_of_state = 87 #Lodz
+			}
+			#Kielce
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_kielce
+				has_full_control_of_state = 90 #Kielce
+			}
+			#Lublin
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_lublin
+				has_full_control_of_state = 92 #Lublin
+			}
+			#Białystok
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_bialystok
+				has_full_control_of_state = 97 #Białystok
+			}
+			#Płock
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_plock
+				has_full_control_of_state = 98 #Płock
+			}
+			#Zemaitija
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_zemaitija
+				has_full_control_of_state = 189 #Zemaitija
+			}
+			#Wilno
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_wilno
+				has_full_control_of_state = 784 #Wilno
+			}
+			#Suduva
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_suduva
+				has_full_control_of_state = 814 #Suduva
+			}
+			#Aukstaitija
+			custom_trigger_tooltip = {
+				tooltip = pfp_poland_lithuania_required_states_aukstaitija
+				has_full_control_of_state = 815 #Aukstaitija
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 10 #Warszawa
+				has_full_control_of_state = 11 #Kaunas
+			}
+			NOT = { has_global_flag = pfp_poland_lithuania_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 10 #Warszawa
+				state = 11 #Kaunas
+				state = 87 #Lodz
+				state = 90 #Kielce
+				state = 92 #Lublin
+				state = 97 #Białystok
+				state = 98 #Płock
+				state = 189 #Zemaitija
+				state = 784 #Wilno
+				state = 814 #Suduva
+				state = 815 #Aukstaitija
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_poland_lithuania_coring_states
+			custom_effect_tooltip = pfp_poland_lithuania_transfer_states
+			custom_effect_tooltip = pfp_poland_lithuania_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_poland_lithuania = yes
+				set_autonomy = { target = P34 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

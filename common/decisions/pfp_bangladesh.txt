@@ -1,0 +1,38 @@
+pfp_category = {
+	pfp_bangladesh = {
+		allowed = {
+			NOT = {
+				original_tag = BAN #Bangladesh
+				original_tag = PAK #Pakistan
+				original_tag = P38 #PFP Bangladesh
+			}
+		}
+		available = {
+			is_subject = no
+			#East Bengal
+			custom_trigger_tooltip = {
+				tooltip = pfp_bangladesh_required_states_east_bengal
+				has_full_control_of_state = 430 #East Bengal
+			}
+		}
+		visible = {
+			has_full_control_of_state = 430 #East Bengal
+			NOT = { has_global_flag = pfp_bangladesh_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 430 } #East Bengal
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_bangladesh_coring_states
+			custom_effect_tooltip = pfp_bangladesh_transfer_states
+			custom_effect_tooltip = pfp_bangladesh_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_bangladesh = yes
+				set_autonomy = { target = P38 autonomy_state = autonomy_military_administration }
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

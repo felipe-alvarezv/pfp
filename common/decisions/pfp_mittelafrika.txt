@@ -1,0 +1,78 @@
+pfp_category = {
+	pfp_mittelafrika = {
+		allowed = {
+			NOT = {
+				original_tag = CMR #Cameroon
+				original_tag = NMB #Namibia
+				original_tag = TZN #Tanganyika
+				original_tag = P53 #PFP Mittelafrika
+			}
+		}
+		available = {
+			is_subject = no
+			#Khomas
+			custom_trigger_tooltip = {
+				tooltip = pfp_mittelafrika_required_states_khomas
+				has_full_control_of_state = 541 #Khomas
+			}
+			#Tanganyika
+			custom_trigger_tooltip = {
+				tooltip = pfp_mittelafrika_required_states_tanganyika
+				has_full_control_of_state = 546 #Tanganyika
+			}
+			#Cameroon
+			custom_trigger_tooltip = {
+				tooltip = pfp_mittelafrika_required_states_cameroon
+				has_full_control_of_state = 773 #Cameroon
+			}
+			#Kunene
+			custom_trigger_tooltip = {
+				tooltip = pfp_mittelafrika_required_states_kunene
+				has_full_control_of_state = 894 #Kunene
+			}
+			#Otjozondjupa
+			custom_trigger_tooltip = {
+				tooltip = pfp_mittelafrika_required_states_otjozondjupa
+				has_full_control_of_state = 895 #Otjozondjupa
+			}
+			#Karas
+			custom_trigger_tooltip = {
+				tooltip = pfp_mittelafrika_required_states_karas
+				has_full_control_of_state = 893 #Karas
+			}
+		}
+		visible = {
+			tag = GER #Check if player is Germany
+			OR = {
+				has_full_control_of_state = 541 #Khomas
+				has_full_control_of_state = 546 #Tanganyika
+				has_full_control_of_state = 773 #Cameroon
+			}
+			NOT = { has_global_flag = pfp_mittelafrika_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 541 #Khomas
+				state = 546 #Tanganyika
+				state = 773 #Cameroon
+				state = 894 #Kunene
+				state = 895 #Otjozondjupa
+				state = 893 #Karas
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_mittelafrika_coring_states
+			custom_effect_tooltip = pfp_mittelafrika_transfer_states
+			custom_effect_tooltip = pfp_mittelafrika_puppet
+
+			hidden_effect = {
+				#Create formable puppet with all its states and then puppet
+				hidden_effect = {
+					pfp_release_mittelafrika = yes
+					set_autonomy = { target = P53 autonomy_state = autonomy_military_administration }
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

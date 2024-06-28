@@ -1,0 +1,25 @@
+#Scripted effect to release Himalayas (P52)
+pfp_release_himalayas = {
+	hidden_effect = {
+		322 = { add_core_of = P52 } #Nagqu
+		323 = { add_core_of = P52 } #Nepal
+		757 = { add_core_of = P52 } #Shigatse
+		758 = { add_core_of = P52 } #Ngari
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P52 }
+			transfer_state_to = P52
+		}
+
+		#Transfer all technology to formable puppet
+		P52 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_himalayas_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P52 }
+		news_event = { id = pfp_news.01 }
+	}
+}

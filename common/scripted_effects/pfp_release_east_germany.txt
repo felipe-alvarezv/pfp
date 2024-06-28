@@ -1,0 +1,27 @@
+#Scripted effect to release East Germany (P32)
+pfp_release_east_germany = {
+	hidden_effect = {
+		#Add cores to East German territory
+		60 = { add_core_of = P32 } #Thuringen
+		61 = { add_core_of = P32 } #Mecklenburg
+		62 = { add_core_of = P32 } #Vorpommern
+		64 = { add_core_of = P32 } #Brandenburg
+		65 = { add_core_of = P32 } #Sachsen
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P32 }
+			transfer_state_to = P32
+		}
+
+		#Transfer all technology to formable puppet
+		P32 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_east_germany_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P32 }
+		news_event = { id = pfp_news.01 }
+	}
+}

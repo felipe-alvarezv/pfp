@@ -1,0 +1,27 @@
+#Scripted effect to release Mittelafrika (P53)
+pfp_release_mittelafrika = {
+	hidden_effect = {
+		541 = { add_core_of = P53 } #Khomas
+		546 = { add_core_of = P53 } #Tanganyika
+		773 = { add_core_of = P53 } #Cameroon
+		894 = { add_core_of = P53 } #Kuene
+		895 = { add_core_of = P53 } #Otjozondjupa
+		893 = { add_core_of = P53 } #Karas
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P53 }
+			transfer_state_to = P53
+		}
+
+		#Transfer all technology to formable puppet
+		P53 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_mittelafrika_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P53 }
+		news_event = { id = pfp_news.01 }
+	}
+}
