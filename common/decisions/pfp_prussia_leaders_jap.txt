@@ -40,7 +40,7 @@ pfp_category_leaders = {
 						limit = { has_government = democratic }
 						P33 = {
 							create_country_leader = {
-								name = "Military Administration"
+								name = "Military Junta"
 								desc = ""
 								picture = "gfx/leaders/PFP/pfp_democratic.dds"
 								ideology = conservatism
@@ -51,7 +51,7 @@ pfp_category_leaders = {
 						limit = { has_government = communism }
 						P33 = {
 							create_country_leader = {
-								name = "Military Administration"
+								name = "Military Junta"
 								desc = ""
 								picture = "gfx/leaders/PFP/pfp_communism.dds"
 								ideology = marxism
@@ -62,7 +62,7 @@ pfp_category_leaders = {
 						limit = { has_government = fascism }
 						P33 = {
 							create_country_leader = {
-								name = "Military Administration"
+								name = "Military Junta"
 								desc = ""
 								picture = "gfx/leaders/PFP/pfp_fascism.dds"
 								ideology = fascism_ideology
@@ -73,7 +73,7 @@ pfp_category_leaders = {
 						limit = { has_government = neutrality }
 						P33 = {
 							create_country_leader = {
-								name = "Military Administration"
+								name = "Military Junta"
 								desc = ""
 								picture = "gfx/leaders/PFP/pfp_neutrality.dds"
 								ideology = despotism
