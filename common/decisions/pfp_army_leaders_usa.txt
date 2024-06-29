@@ -1,0 +1,1888 @@
+pfp_category_leaders = {
+	#Dismiss Leader
+	pfp_army_leader_dismiss_usa = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				NOT = {
+					has_country_leader = { name = "Military Junta" } 
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_dismiss_usa_desc
+			hidden_effect = {
+				if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Dwight D. Eisenhower" } 
+						}
+					}
+					clr_global_flag = pfp_usa_dwight_d_eisenhower
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Douglas MacArthur" } 
+						}
+					}
+					clr_global_flag = pfp_usa_douglas_macarthur
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "George S. Patton" } 
+						}
+					}
+					clr_global_flag = pfp_usa_george_s_patton
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Omar Bradley" } 
+						}
+					}
+					clr_global_flag = pfp_usa_omar_bradley
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Mark W. Clark" } 
+						}
+					}
+					clr_global_flag = pfp_usa_mark_clark
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Courtney Hodges" } 
+						}
+					}
+					clr_global_flag = pfp_usa_courtney_hodges
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Lucian Truscott" } 
+						}
+					}
+					clr_global_flag = pfp_usa_lucian_truscott
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Walter Krueger" } 
+						}
+					}
+					clr_global_flag = pfp_usa_walter_krueger
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Leslie McNair" } 
+						}
+					}
+					clr_global_flag = pfp_usa_leslie_mcnair
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Leonard Gerow" } 
+						}
+					}
+					clr_global_flag = pfp_usa_leonard_gerow
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Alexander Patch" } 
+						}
+					}
+					clr_global_flag = pfp_usa_alexander_patch
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "William Simpson" } 
+						}
+					}
+					clr_global_flag = pfp_usa_william_simpson
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "J. Lawton Collins" } 
+						}
+					}
+					clr_global_flag = pfp_usa_j_lawton_collins
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Maurice Rose" } 
+						}
+					}
+					clr_global_flag = pfp_usa_maurice_rose
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Alexander Vandegrift" } 
+						}
+					}
+					clr_global_flag = pfp_usa_alexander_vandegrift
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Geoffrey Keyes" } 
+						}
+					}
+					clr_global_flag = pfp_usa_geoffrey_keyes
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Lloyd Fredendall" } 
+						}
+					}
+					clr_global_flag = pfp_usa_lloyd_fredendall
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Edward Brooks" } 
+						}
+					}
+					clr_global_flag = pfp_usa_edward_brooks
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Clarence Huebner" } 
+						}
+					}
+					clr_global_flag = pfp_usa_clarence_huebner
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Oscar Griswold" } 
+						}
+					}
+					clr_global_flag = pfp_usa_oscar_griswold
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Jonathan Wainwright" } 
+						}
+					}
+					clr_global_flag = pfp_usa_jonathan_wainwright
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Russell Hartle" } 
+						}
+					}
+					clr_global_flag = pfp_usa_russell_hartle
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Joseph Stilwell" } 
+						}
+					}
+					clr_global_flag = pfp_usa_joseph_stilwell
+				}
+				
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of selection
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_democratic.dds"
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_communism.dds"
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_fascism.dds"
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_neutrality.dds"
+								ideology = despotism
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Dwight D. Eisenhower
+	pfp_army_leader_usa_dwight_d_eisenhower = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_dwight_d_eisenhower } #Check if Dwight D. Eisenhower is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_dwight_d_eisenhower_desc
+			hidden_effect = {
+				#Dwight D. Eisenhower
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Dwight D. Eisenhower"
+								desc = ""
+								picture = GFX_portrait_USA_dwight_d_eisenhower
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Dwight D. Eisenhower"
+								desc = ""
+								picture = GFX_portrait_USA_dwight_d_eisenhower
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Dwight D. Eisenhower"
+								desc = ""
+								picture = GFX_portrait_USA_dwight_d_eisenhower
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Dwight D. Eisenhower"
+								desc = ""
+								picture = GFX_portrait_USA_dwight_d_eisenhower
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_dwight_d_eisenhower
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Douglas MacArthur
+	pfp_army_leader_usa_douglas_macarthur = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+			
+			NOT = { has_global_flag = pfp_usa_douglas_macarthur } #Check if Douglas MacArthur is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_douglas_macarthur_desc
+			hidden_effect = {
+				#Douglas MacArthur
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Douglas MacArthur"
+								desc = ""
+								picture = GFX_portrait_USA_douglas_macarthur
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Douglas MacArthur"
+								desc = ""
+								picture = GFX_portrait_USA_douglas_macarthur
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Douglas MacArthur"
+								desc = ""
+								picture = GFX_portrait_USA_douglas_macarthur
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Douglas MacArthur"
+								desc = ""
+								picture = GFX_portrait_USA_douglas_macarthur
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_douglas_macarthur
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#George S. Patton
+	pfp_army_leader_usa_george_s_patton = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+			
+			NOT = { has_global_flag = pfp_usa_george_s_patton } #Check if George S. Patton is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_george_s_patton_desc
+			hidden_effect = {
+				#George S. Patton
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "George S. Patton"
+								desc = ""
+								picture = GFX_portrait_USA_george_s_patton
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "George S. Patton"
+								desc = ""
+								picture = GFX_portrait_USA_george_s_patton
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "George S. Patton"
+								desc = ""
+								picture = GFX_portrait_USA_george_s_patton
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "George S. Patton"
+								desc = ""
+								picture = GFX_portrait_USA_george_s_patton
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_george_s_patton
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Omar Bradley
+	pfp_army_leader_usa_omar_bradley = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_usa_omar_bradley } #Check if Omar Bradley is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_omar_bradley_desc
+			hidden_effect = {
+				#Omar Bradley
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Omar Bradley"
+								desc = ""
+								picture = GFX_portrait_USA_omar_bradley
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Omar Bradley"
+								desc = ""
+								picture = GFX_portrait_USA_omar_bradley
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Omar Bradley"
+								desc = ""
+								picture = GFX_portrait_USA_omar_bradley
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Omar Bradley"
+								desc = ""
+								picture = GFX_portrait_USA_omar_bradley
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_omar_bradley
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Mark W. Clark
+	pfp_army_leader_usa_mark_clark = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_mark_clark } #Check if Mark W. Clark is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_mark_clark_desc
+			hidden_effect = {
+				#Mark W. Clark
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mark W. Clark"
+								desc = ""
+								picture = GFX_portrait_USA_mark_clark
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mark W. Clark"
+								desc = ""
+								picture = GFX_portrait_USA_mark_clark
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mark W. Clark"
+								desc = ""
+								picture = GFX_portrait_USA_mark_clark
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mark W. Clark"
+								desc = ""
+								picture = GFX_portrait_USA_mark_clark
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_mark_clark
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Courtney Hodges
+	pfp_army_leader_usa_courtney_hodges = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_courtney_hodges } #Check if Courtney Hodges is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_courtney_hodges_desc
+			hidden_effect = {
+				#Courtney Hodges
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Courtney Hodges"
+								desc = ""
+								picture = GFX_portrait_USA_courtney_hodges
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Courtney Hodges"
+								desc = ""
+								picture = GFX_portrait_USA_courtney_hodges
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Courtney Hodges"
+								desc = ""
+								picture = GFX_portrait_USA_courtney_hodges
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Courtney Hodges"
+								desc = ""
+								picture = GFX_portrait_USA_courtney_hodges
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_courtney_hodges
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Lucian Truscott
+	pfp_army_leader_usa_lucian_truscott = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_lucian_truscott } #Check if Lucian Truscott is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_lucian_truscott_desc
+			hidden_effect = {
+				#Lucian Truscott
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Lucian Truscott"
+								desc = ""
+								picture = GFX_portrait_USA_lucian_truscott
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Lucian Truscott"
+								desc = ""
+								picture = GFX_portrait_USA_lucian_truscott
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Lucian Truscott"
+								desc = ""
+								picture = GFX_portrait_USA_lucian_truscott
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Lucian Truscott"
+								desc = ""
+								picture = GFX_portrait_USA_lucian_truscott
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_lucian_truscott
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Walter Krueger
+	pfp_army_leader_usa_walter_krueger = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_walter_krueger } #Check if Walter Krueger is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_walter_krueger_desc
+			hidden_effect = {
+				#Walter Krueger
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Walter Krueger"
+								desc = ""
+								picture = GFX_portrait_USA_walter_krueger
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Walter Krueger"
+								desc = ""
+								picture = GFX_portrait_USA_walter_krueger
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Walter Krueger"
+								desc = ""
+								picture = GFX_portrait_USA_walter_krueger
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Walter Krueger"
+								desc = ""
+								picture = GFX_portrait_USA_walter_krueger
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_walter_krueger
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Leslie McNair
+	pfp_army_leader_usa_leslie_mcnair = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_leslie_mcnair } #Check if Leslie McNair is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_leslie_mcnair_desc
+			hidden_effect = {
+				#Leslie McNair
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leslie McNair"
+								desc = ""
+								picture = GFX_portrait_USA_leslie_mcnair
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leslie McNair"
+								desc = ""
+								picture = GFX_portrait_USA_leslie_mcnair
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leslie McNair"
+								desc = ""
+								picture = GFX_portrait_USA_leslie_mcnair
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leslie McNair"
+								desc = ""
+								picture = GFX_portrait_USA_leslie_mcnair
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_leslie_mcnair
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Leonard Gerow
+	pfp_army_leader_usa_leonard_gerow = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+			NOT = { has_global_flag = pfp_usa_leonard_gerow } #Check if Leonard Gerow is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_leonard_gerow_desc
+			hidden_effect = {
+				#Leonard Gerow
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leonard Gerow"
+								desc = ""
+								picture = GFX_portrait_USA_leonard_gerow
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leonard Gerow"
+								desc = ""
+								picture = GFX_portrait_USA_leonard_gerow
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leonard Gerow"
+								desc = ""
+								picture = GFX_portrait_USA_leonard_gerow
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leonard Gerow"
+								desc = ""
+								picture = GFX_portrait_USA_leonard_gerow
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_leonard_gerow
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Alexander Patch
+	pfp_army_leader_usa_alexander_patch = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_alexander_patch } #Check if Alexander Patch is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_alexander_patch_desc
+			hidden_effect = {
+				#Alexander Patch
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alexander Patch"
+								desc = ""
+								picture = GFX_portrait_USA_alexander_patch
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alexander Patch"
+								desc = ""
+								picture = GFX_portrait_USA_alexander_patch
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alexander Patch"
+								desc = ""
+								picture = GFX_portrait_USA_alexander_patch
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alexander Patch"
+								desc = ""
+								picture = GFX_portrait_USA_alexander_patch
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_alexander_patch
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#William Simpson
+	pfp_army_leader_usa_william_simpson = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_william_simpson } #Check if William Simpson is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_william_simpson_desc
+			hidden_effect = {
+				#William Simpson
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "William Simpson"
+								desc = ""
+								picture = GFX_portrait_USA_william_simpson
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "William Simpson"
+								desc = ""
+								picture = GFX_portrait_USA_william_simpson
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "William Simpson"
+								desc = ""
+								picture = GFX_portrait_USA_william_simpson
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "William Simpson"
+								desc = ""
+								picture = GFX_portrait_USA_william_simpson
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_william_simpson
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#J. Lawton Collins
+	pfp_army_leader_usa_j_lawton_collins = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_j_lawton_collins } #Check if J. Lawton Collins is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_j_lawton_collins_desc
+			hidden_effect = {
+				#J. Lawton Collins
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "J. Lawton Collins"
+								desc = ""
+								picture = GFX_portrait_USA_j_lawton_collins
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "J. Lawton Collins"
+								desc = ""
+								picture = GFX_portrait_USA_j_lawton_collins
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "J. Lawton Collins"
+								desc = ""
+								picture = GFX_portrait_USA_j_lawton_collins
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "J. Lawton Collins"
+								desc = ""
+								picture = GFX_portrait_USA_j_lawton_collins
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_j_lawton_collins
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Maurice Rose
+	pfp_army_leader_usa_maurice_rose = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_maurice_rose } #Check if Maurice Rose is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_maurice_rose_desc
+			hidden_effect = {
+				#Maurice Rose
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maurice Rose"
+								desc = ""
+								picture = GFX_portrait_USA_maurice_rose
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maurice Rose"
+								desc = ""
+								picture = GFX_portrait_USA_maurice_rose
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maurice Rose"
+								desc = ""
+								picture = GFX_portrait_USA_maurice_rose
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maurice Rose"
+								desc = ""
+								picture = GFX_portrait_USA_maurice_rose
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_maurice_rose
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Alexander Vandegrift
+	pfp_army_leader_usa_alexander_vandegrift = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_alexander_vandegrift } #Check if Alexander Vandegrift is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_alexander_vandegrift_desc
+			hidden_effect = {
+				#Alexander Vandegrift
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alexander Vandegrift"
+								desc = ""
+								picture = GFX_portrait_USA_alexander_vandegrift
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alexander Vandegrift"
+								desc = ""
+								picture = GFX_portrait_USA_alexander_vandegrift
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alexander Vandegrift"
+								desc = ""
+								picture = GFX_portrait_USA_alexander_vandegrift
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alexander Vandegrift"
+								desc = ""
+								picture = GFX_portrait_USA_alexander_vandegrift
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_alexander_vandegrift
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Geoffrey Keyes
+	pfp_army_leader_usa_geoffrey_keyes = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_geoffrey_keyes } #Check if Geoffrey Keyes is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_geoffrey_keyes_desc
+			hidden_effect = {
+				#Geoffrey Keyes
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Geoffrey Keyes"
+								desc = ""
+								picture = GFX_portrait_USA_geoffrey_keyes
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Geoffrey Keyes"
+								desc = ""
+								picture = GFX_portrait_USA_geoffrey_keyes
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Geoffrey Keyes"
+								desc = ""
+								picture = GFX_portrait_USA_geoffrey_keyes
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Geoffrey Keyes"
+								desc = ""
+								picture = GFX_portrait_USA_geoffrey_keyes
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_geoffrey_keyes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Lloyd Fredendall
+	pfp_army_leader_usa_lloyd_fredendall = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_lloyd_fredendall } #Check if Lloyd Fredendall is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_lloyd_fredendall_desc
+			hidden_effect = {
+				#Lloyd Fredendall
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Lloyd Fredendall"
+								desc = ""
+								picture = GFX_portrait_USA_lloyd_fredendall
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Lloyd Fredendall"
+								desc = ""
+								picture = GFX_portrait_USA_lloyd_fredendall
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Lloyd Fredendall"
+								desc = ""
+								picture = GFX_portrait_USA_lloyd_fredendall
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Lloyd Fredendall"
+								desc = ""
+								picture = GFX_portrait_USA_lloyd_fredendall
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_lloyd_fredendall
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Edward Brooks
+	pfp_army_leader_usa_edward_brooks = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_edward_brooks } #Check if Edward Brooks is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_edward_brooks_desc
+			hidden_effect = {
+				#Edward Brooks
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Edward Brooks"
+								desc = ""
+								picture = GFX_portrait_USA_edward_brooks
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Edward Brooks"
+								desc = ""
+								picture = GFX_portrait_USA_edward_brooks
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Edward Brooks"
+								desc = ""
+								picture = GFX_portrait_USA_edward_brooks
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Edward Brooks"
+								desc = ""
+								picture = GFX_portrait_USA_edward_brooks
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_edward_brooks
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Clarence Huebner
+	pfp_army_leader_usa_clarence_huebner = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_clarence_huebner } #Check if Clarence Huebner is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_clarence_huebner_desc
+			hidden_effect = {
+				#Clarence Huebner
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Clarence Huebner"
+								desc = ""
+								picture = GFX_portrait_USA_clarence_huebner
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Clarence Huebner"
+								desc = ""
+								picture = GFX_portrait_USA_clarence_huebner
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Clarence Huebner"
+								desc = ""
+								picture = GFX_portrait_USA_clarence_huebner
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Clarence Huebner"
+								desc = ""
+								picture = GFX_portrait_USA_clarence_huebner
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_clarence_huebner
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Oscar Griswold
+	pfp_army_leader_usa_oscar_griswold = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_oscar_griswold } #Check if Oscar Griswold is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_oscar_griswold_desc
+			hidden_effect = {
+				#Oscar Griswold
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Oscar Griswold"
+								desc = ""
+								picture = GFX_portrait_USA_oscar_griswold
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Oscar Griswold"
+								desc = ""
+								picture = GFX_portrait_USA_oscar_griswold
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Oscar Griswold"
+								desc = ""
+								picture = GFX_portrait_USA_oscar_griswold
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Oscar Griswold"
+								desc = ""
+								picture = GFX_portrait_USA_oscar_griswold
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_oscar_griswold
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Jonathan Wainwright
+	pfp_army_leader_usa_jonathan_wainwright = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_jonathan_wainwright } #Check if Jonathan Wainwright is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_jonathan_wainwright_desc
+			hidden_effect = {
+				#Jonathan Wainwright
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Jonathan Wainwright"
+								desc = ""
+								picture = GFX_portrait_USA_jonathan_wainwright
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Jonathan Wainwright"
+								desc = ""
+								picture = GFX_portrait_USA_jonathan_wainwright
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Jonathan Wainwright"
+								desc = ""
+								picture = GFX_portrait_USA_jonathan_wainwright
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Jonathan Wainwright"
+								desc = ""
+								picture = GFX_portrait_USA_jonathan_wainwright
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_jonathan_wainwright
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Russell Hartle
+	pfp_army_leader_usa_russell_hartle = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_russell_hartle } #Check if Russell Hartle is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_russell_hartle_desc
+			hidden_effect = {
+				#Russell Hartle
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Russell Hartle"
+								desc = ""
+								picture = GFX_portrait_USA_russell_hartle
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Russell Hartle"
+								desc = ""
+								picture = GFX_portrait_USA_russell_hartle
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Russell Hartle"
+								desc = ""
+								picture = GFX_portrait_USA_russell_hartle
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Russell Hartle"
+								desc = ""
+								picture = GFX_portrait_USA_russell_hartle
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_russell_hartle
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Joseph Stilwell
+	pfp_army_leader_usa_joseph_stilwell = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_usa_joseph_stilwell } #Check if Joseph Stilwell is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_usa_joseph_stilwell_desc
+			hidden_effect = {
+				#Joseph Stilwell
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Joseph Stilwell"
+								desc = ""
+								picture = GFX_portrait_USA_joseph_stilwell
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Joseph Stilwell"
+								desc = ""
+								picture = GFX_portrait_USA_joseph_stilwell
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Joseph Stilwell"
+								desc = ""
+								picture = GFX_portrait_USA_joseph_stilwell
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Joseph Stilwell"
+								desc = ""
+								picture = GFX_portrait_USA_joseph_stilwell
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_usa_joseph_stilwell
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
