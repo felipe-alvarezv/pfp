@@ -1,0 +1,238 @@
+pfp_category_leaders = {
+	#Dismiss Leader
+	pfp_prussia_leader_usa_dismiss = {
+		visible = {
+			original_tag = USA #Check if country is United States
+			is_subject = no #Country must not be a subject
+			has_global_flag = pfp_prussia_flag #Check if Prussia puppet has been made
+			has_global_flag =  pfp_prussia_leader_flag  #Check if leader was appointed
+			country_exists = P33 #Check if Prussia exists
+			P33 = {
+				is_puppet_of = FROM #Check if Prussia is puppet of FROM
+				has_government = FROM #Check if Prussia has same government as FROM
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_prussia_leader_usa_dismiss_desc
+			hidden_effect = {
+				clr_global_flag = pfp_prussia_leader_flag
+				if = {
+					limit = {
+						P33 = { #Prussia
+							has_country_leader = { name = "Dwight D. Eisenhower" } 
+						}
+					}
+					clr_global_flag = pfp_usa_dwight_d_eisenhower
+				}
+				else_if = {
+					limit = {
+						P33 = { #Prussia
+							has_country_leader = { name = "George S. Patton" } 
+						}
+					}
+					clr_global_flag = pfp_usa_george_s_patton
+				} 
+
+				P33 = { kill_country_leader = yes } #Retire the current leader of Prussia
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						P33 = {
+							create_country_leader = {
+								name = "Military Administration"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_democratic.dds"
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						P33 = {
+							create_country_leader = {
+								name = "Military Administration"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_communism.dds"
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						P33 = {
+							create_country_leader = {
+								name = "Military Administration"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_fascism.dds"
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						P33 = {
+							create_country_leader = {
+								name = "Military Administration"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_neutrality.dds"
+								ideology = despotism
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	#Dwight D. Eisenhower
+	pfp_prussia_leader_usa_dwight_d_eisenhower = {
+		visible = {
+			original_tag = USA #Check if country is United States
+			is_subject = no #Country must not be a subject
+			has_global_flag = pfp_prussia_flag #Check if Prussia puppet has been made
+			country_exists = P33 #Check if Prussia exists
+			P33 = {
+				is_puppet_of = FROM #Check if Prussia is puppet of FROM
+				has_government = FROM #Check if Prussia has same government as FROM
+			}
+			NOT = { 
+				has_global_flag = pfp_prussia_leader_flag #Check if leader was appointed
+				has_global_flag = pfp_usa_dwight_d_eisenhower #Check if Dwight D. Eisenhower is already a leader
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_prussia_leader_usa_dwight_d_eisenhower_desc
+			hidden_effect = {
+				#Dwight D. Eisenhower
+				P33 = { kill_country_leader = yes } #Retire the current leader of Prussia
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						P33 = {
+							create_country_leader = {
+								name = "Dwight D. Eisenhower"
+								desc = ""
+								picture = GFX_portrait_USA_dwight_d_eisenhower
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						P33 = {
+							create_country_leader = {
+								name = "Dwight D. Eisenhower"
+								desc = ""
+								picture = GFX_portrait_USA_dwight_d_eisenhower
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						P33 = {
+							create_country_leader = {
+								name = "Dwight D. Eisenhower"
+								desc = ""
+								picture = GFX_portrait_USA_dwight_d_eisenhower
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						P33 = {
+							create_country_leader = {
+								name = "Dwight D. Eisenhower"
+								desc = ""
+								picture = GFX_portrait_USA_dwight_d_eisenhower
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_prussia_leader_flag
+				set_global_flag = pfp_usa_dwight_d_eisenhower
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#George S. Patton
+	pfp_prussia_leader_usa_george_s_patton = {
+		visible = {
+			original_tag = USA #Check if country is United States
+			is_subject = no #Country must not be a subject
+			has_global_flag = pfp_prussia_flag #Check if Prussia puppet has been made
+			country_exists = P33 #Check if Prussia exists
+			P33 = {
+				is_puppet_of = FROM #Check if Prussia is puppet of FROM
+				has_government = FROM #Check if Prussia has same government as FROM
+			}
+			NOT = { 
+				has_global_flag = pfp_prussia_leader_flag #Check if leader was appointed
+				has_global_flag = pfp_usa_george_s_patton #Check if George S. Patton is already a leader
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_prussia_leader_usa_george_s_patton_desc
+			hidden_effect = {
+				#George S. Patton
+				P33 = { kill_country_leader = yes } #Retire the current leader of Prussia
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						P33 = {
+							create_country_leader = {
+								name = "George S. Patton"
+								desc = ""
+								picture = GFX_portrait_USA_george_s_patton
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						P33 = {
+							create_country_leader = {
+								name = "George S. Patton"
+								desc = ""
+								picture = GFX_portrait_USA_george_s_patton
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						P33 = {
+							create_country_leader = {
+								name = "George S. Patton"
+								desc = ""
+								picture = GFX_portrait_USA_george_s_patton
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						P33 = {
+							create_country_leader = {
+								name = "George S. Patton"
+								desc = ""
+								picture = GFX_portrait_USA_george_s_patton
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_prussia_leader_flag
+				set_global_flag = pfp_usa_george_s_patton
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+}

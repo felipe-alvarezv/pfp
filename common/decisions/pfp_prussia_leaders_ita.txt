@@ -1,0 +1,238 @@
+pfp_category_leaders = {
+	#Dismiss Leader
+	pfp_prussia_leader_ita_dismiss = {
+		visible = {
+			original_tag = ITA #Check if country is Italy
+			is_subject = no #Country must not be a subject
+			has_global_flag = pfp_prussia_flag #Check if Prussia puppet has been made
+			has_global_flag =  pfp_prussia_leader_flag  #Check if leader was appointed
+			country_exists = P33 #Check if Prussia exists
+			P33 = {
+				is_puppet_of = FROM #Check if Prussia is puppet of FROM
+				has_government = FROM #Check if Prussia has same government as FROM
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_prussia_leader_ita_dismiss_desc
+			hidden_effect = {
+				clr_global_flag = pfp_prussia_leader_flag
+				if = {
+					limit = {
+						P33 = { #Prussia
+							has_country_leader = { name = "Pietro Badoglio" } 
+						}
+					}
+					clr_global_flag = pfp_ita_pietro_badoglio
+				}
+				else_if = {
+					limit = {
+						P33 = { #Prussia
+							has_country_leader = { name = "Rodolfo Graziani" } 
+						}
+					}
+					clr_global_flag = pfp_ita_rodolfo_grazianii
+				} 
+
+				P33 = { kill_country_leader = yes } #Retire the current leader of Prussia
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						P33 = {
+							create_country_leader = {
+								name = "Military Administration"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_democratic.dds"
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						P33 = {
+							create_country_leader = {
+								name = "Military Administration"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_communism.dds"
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						P33 = {
+							create_country_leader = {
+								name = "Military Administration"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_fascism.dds"
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						P33 = {
+							create_country_leader = {
+								name = "Military Administration"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_neutrality.dds"
+								ideology = despotism
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	#Pietro Badoglio
+	pfp_prussia_leader_ita_pietro_badoglio = {
+		visible = {
+			original_tag = ITA #Check if country is Italy
+			is_subject = no #Country must not be a subject
+			has_global_flag = pfp_prussia_flag #Check if Prussia puppet has been made
+			country_exists = P33 #Check if Prussia exists
+			P33 = {
+				is_puppet_of = FROM #Check if Prussia is puppet of FROM
+				has_government = FROM #Check if Prussia has same government as FROM
+			}
+			NOT = { 
+				has_global_flag = pfp_prussia_leader_flag #Check if leader was appointed
+				has_global_flag = pfp_ita_pietro_badoglio #Check if Pietro Badoglio is already a leader
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_prussia_leader_ita_pietro_badoglio_desc
+			hidden_effect = {
+				#Pietro Badoglio
+				P33 = { kill_country_leader = yes } #Retire the current leader of Prussia
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						P33 = {
+							create_country_leader = {
+								name = "Pietro Badoglio"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_badoglio
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						P33 = {
+							create_country_leader = {
+								name = "Pietro Badoglio"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_badoglio
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						P33 = {
+							create_country_leader = {
+								name = "Pietro Badoglio"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_badoglio
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						P33 = {
+							create_country_leader = {
+								name = "Pietro Badoglio"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_badoglio
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_prussia_leader_flag
+				set_global_flag = pfp_ita_pietro_badoglio
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Rodolfo Graziani
+	pfp_prussia_leader_ita_rodolfo_graziani = {
+		visible = {
+			original_tag = ITA #Check if country is Italy
+			is_subject = no #Country must not be a subject
+			has_global_flag = pfp_prussia_flag #Check if Prussia puppet has been made
+			country_exists = P33 #Check if Prussia exists
+			P33 = {
+				is_puppet_of = FROM #Check if Prussia is puppet of FROM
+				has_government = FROM #Check if Prussia has same government as FROM
+			}
+			NOT = { 
+				has_global_flag = pfp_prussia_leader_flag #Check if leader was appointed
+				has_global_flag = pfp_ita_rodolfo_grazianii #Check if Rodolfo Graziani is already a leader
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_prussia_leader_ita_rodolfo_graziani_desc
+			hidden_effect = {
+				#Rodolfo Graziani
+				P33 = { kill_country_leader = yes } #Retire the current leader of Prussia
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						P33 = {
+							create_country_leader = {
+								name = "Rodolfo Graziani"
+								desc = ""
+								picture = GFX_portrait_ITA_rodolfo_graziani
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						P33 = {
+							create_country_leader = {
+								name = "Rodolfo Graziani"
+								desc = ""
+								picture = GFX_portrait_ITA_rodolfo_graziani
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						P33 = {
+							create_country_leader = {
+								name = "Rodolfo Graziani"
+								desc = ""
+								picture = GFX_portrait_ITA_rodolfo_graziani
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						P33 = {
+							create_country_leader = {
+								name = "Rodolfo Graziani"
+								desc = ""
+								picture = GFX_portrait_ITA_rodolfo_graziani
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_prussia_leader_flag
+				set_global_flag = pfp_ita_rodolfo_grazianii
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+}
