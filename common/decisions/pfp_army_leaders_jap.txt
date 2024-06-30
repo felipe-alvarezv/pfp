@@ -1,0 +1,2285 @@
+pfp_category_leaders = {
+	#Dismiss Leader
+	pfp_army_leader_dismiss_jap = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				NOT = {
+					has_country_leader = { name = "Military Junta" } 
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_dismiss_jap_desc
+			hidden_effect = {
+				if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Hisaichi Terauchi" } 
+						}
+					}
+					clr_global_flag = pfp_jap_hisaichi_terauchi
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Shunroku Hata" } 
+						}
+					}
+					clr_global_flag = pfp_jap_shunroku_hata
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Tomoyuki Yamashita" } 
+						}
+					}
+					clr_global_flag = pfp_jap_tomoyuki_yamashita
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Shizuichi Tanaka" } 
+						}
+					}
+					clr_global_flag = pfp_jap_shizuichi_tanaka
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kenkichi Ueda" } 
+						}
+					}
+					clr_global_flag = pfp_jap_kenkichi_ueda
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Toshizo Nishio" } 
+						}
+					}
+					clr_global_flag = pfp_jap_toshizo_nishio
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Rikichi Ando" } 
+						}
+					}
+					clr_global_flag = pfp_jap_rikichi_ando
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Naruhiko Higashikuni" } 
+						}
+					}
+					clr_global_flag = pfp_jap_naruhiko_higashikuni
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Seishiro Itagaki" } 
+						}
+					}
+					clr_global_flag = pfp_jap_seishiro_itagaki
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Takashi Sakai" } 
+						}
+					}
+					clr_global_flag = pfp_jap_takashi_sakai
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Yoshijiro Umezu" } 
+						}
+					}
+					clr_global_flag = pfp_jap_yoshijiro_umezu
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Otozo Yamada" } 
+						}
+					}
+					clr_global_flag = pfp_jap_otozo_yamada
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Keisuke Fujie" } 
+						}
+					}
+					clr_global_flag = pfp_jap_keisuke_fujie
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Harukichi Hyakutake" } 
+						}
+					}
+					clr_global_flag = pfp_jap_harukichi_hyakutake
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Hitoshi Imamura" } 
+						}
+					}
+					clr_global_flag = pfp_jap_hitoshi_imamura
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Akira Muto" } 
+						}
+					}
+					clr_global_flag = pfp_jap_akira_muto
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Hatazo Adachi" } 
+						}
+					}
+					clr_global_flag = pfp_jap_hatazo_adachi
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Sadao Araki" } 
+						}
+					}
+					clr_global_flag = pfp_jap_sadao_araki
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kiichiro Higuchi" } 
+						}
+					}
+					clr_global_flag = pfp_jap_kiichiro_higuchi
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Masaharu Homma" } 
+						}
+					}
+					clr_global_flag = pfp_jap_masaharu_homma
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Jo Iimura" } 
+						}
+					}
+					clr_global_flag = pfp_jap_jo_iimura
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Masatane Kanda" } 
+						}
+					}
+					clr_global_flag = pfp_jap_masatane_kanda
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kuniaki Koiso" } 
+						}
+					}
+					clr_global_flag = pfp_jap_kuniaki_koiso
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kanji Ishiwara" } 
+						}
+					}
+					clr_global_flag = pfp_jap_kanji_ishiwara
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Yasuji Okamura" } 
+						}
+					}
+					clr_global_flag = pfp_jap_yasuji_okamura
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kenji Doihara" } 
+						}
+					}
+					clr_global_flag = pfp_jap_kenji_doihara
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Shigeru Honjo" } 
+						}
+					}
+					clr_global_flag = pfp_jap_shigeru_honjo
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Iwane Matsui" } 
+						}
+					}
+					clr_global_flag = pfp_jap_iwane_matsui
+				}
+
+
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of selection
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_democratic.dds"
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_communism.dds"
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_fascism.dds"
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_neutrality.dds"
+								ideology = despotism
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Hisaichi Terauchi
+	pfp_army_leader_jap_hisaichi_terauchi = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_jap_hisaichi_terauchi } #Check if Hisaichi Terauchi is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_hisaichi_terauchi_desc
+			hidden_effect = {
+				#Hisaichi Terauchi
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hisaichi Terauchi"
+								desc = ""
+								picture = GFX_portrait_JAP_hisaichi_terauchi
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hisaichi Terauchi"
+								desc = ""
+								picture = GFX_portrait_JAP_hisaichi_terauchi
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hisaichi Terauchi"
+								desc = ""
+								picture = GFX_portrait_JAP_hisaichi_terauchi
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hisaichi Terauchi"
+								desc = ""
+								picture = GFX_portrait_JAP_hisaichi_terauchi
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_hisaichi_terauchi
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Shunroku Hata
+	pfp_army_leader_jap_shunroku_hata = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+			
+			NOT = { has_global_flag = pfp_jap_shunroku_hata } #Check if Shunroku Hata is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_shunroku_hata_desc
+			hidden_effect = {
+				#Shunroku Hata
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shunroku Hata"
+								desc = ""
+								picture = GFX_portrait_JAP_shunroku_hata
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shunroku Hata"
+								desc = ""
+								picture = GFX_portrait_JAP_shunroku_hata
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shunroku Hata"
+								desc = ""
+								picture = GFX_portrait_JAP_shunroku_hata
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shunroku Hata"
+								desc = ""
+								picture = GFX_portrait_JAP_shunroku_hata
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_shunroku_hata
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Tomoyuki Yamashita
+	pfp_army_leader_jap_tomoyuki_yamashita = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_tomoyuki_yamashita } #Check if Tomoyuki Yamashita is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_tomoyuki_yamashita_desc
+			hidden_effect = {
+				#Tomoyuki Yamashita
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Tomoyuki Yamashita"
+								desc = ""
+								picture = GFX_portrait_JAP_tomoyuki_yamashita
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Tomoyuki Yamashita"
+								desc = ""
+								picture = GFX_portrait_JAP_tomoyuki_yamashita
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Tomoyuki Yamashita"
+								desc = ""
+								picture = GFX_portrait_JAP_tomoyuki_yamashita
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Tomoyuki Yamashita"
+								desc = ""
+								picture = GFX_portrait_JAP_tomoyuki_yamashita
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_tomoyuki_yamashita
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Shizuichi Tanaka
+	pfp_army_leader_jap_shizuichi_tanaka = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_shizuichi_tanaka } #Check if Shizuichi Tanaka is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_shizuichi_tanaka_desc
+			hidden_effect = {
+				#Shizuichi Tanaka
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shizuichi Tanaka"
+								desc = ""
+								picture = GFX_portrait_JAP_shizuichi_tanaka
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shizuichi Tanaka"
+								desc = ""
+								picture = GFX_portrait_JAP_shizuichi_tanaka
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shizuichi Tanaka"
+								desc = ""
+								picture = GFX_portrait_JAP_shizuichi_tanaka
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shizuichi Tanaka"
+								desc = ""
+								picture = GFX_portrait_JAP_shizuichi_tanaka
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_shizuichi_tanaka
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kenkichi Ueda
+	pfp_army_leader_jap_kenkichi_ueda = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_kenkichi_ueda } #Check if Kenkichi Ueda is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_kenkichi_ueda_desc
+			hidden_effect = {
+				#Kenkichi Ueda
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kenkichi Ueda"
+								desc = ""
+								picture = GFX_portrait_JAP_kenkichi_ueda
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kenkichi Ueda"
+								desc = ""
+								picture = GFX_portrait_JAP_kenkichi_ueda
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kenkichi Ueda"
+								desc = ""
+								picture = GFX_portrait_JAP_kenkichi_ueda
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kenkichi Ueda"
+								desc = ""
+								picture = GFX_portrait_JAP_kenkichi_ueda
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_kenkichi_ueda
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Toshizo Nishio
+	pfp_army_leader_jap_toshizo_nishio = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_toshizo_nishio } #Check if Toshizo Nishio is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_toshizo_nishio_desc
+			hidden_effect = {
+				#Toshizo Nishio
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Toshizo Nishio"
+								desc = ""
+								picture = GFX_portrait_JAP_toshizo_nishio
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Toshizo Nishio"
+								desc = ""
+								picture = GFX_portrait_JAP_toshizo_nishio
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Toshizo Nishio"
+								desc = ""
+								picture = GFX_portrait_JAP_toshizo_nishio
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Toshizo Nishio"
+								desc = ""
+								picture = GFX_portrait_JAP_toshizo_nishio
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_toshizo_nishio
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Rikichi Ando
+	pfp_army_leader_jap_rikichi_ando = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_rikichi_ando } #Check if Rikichi Ando is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_rikichi_ando_desc
+			hidden_effect = {
+				#Rikichi Ando
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rikichi Ando"
+								desc = ""
+								picture = GFX_portrait_JAP_rikichi_ando
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rikichi Ando"
+								desc = ""
+								picture = GFX_portrait_JAP_rikichi_ando
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rikichi Ando"
+								desc = ""
+								picture = GFX_portrait_JAP_rikichi_ando
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rikichi Ando"
+								desc = ""
+								picture = GFX_portrait_JAP_rikichi_ando
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_rikichi_ando
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Naruhiko Higashikuni
+	pfp_army_leader_jap_naruhiko_higashikuni = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_naruhiko_higashikuni } #Check if Naruhiko Higashikuni is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_naruhiko_higashikuni_desc
+			hidden_effect = {
+				#Naruhiko Higashikuni
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Naruhiko Higashikuni"
+								desc = ""
+								picture = GFX_portrait_JAP_naruhiko_higashikuni
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Naruhiko Higashikuni"
+								desc = ""
+								picture = GFX_portrait_JAP_naruhiko_higashikuni
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Naruhiko Higashikuni"
+								desc = ""
+								picture = GFX_portrait_JAP_naruhiko_higashikuni
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Naruhiko Higashikuni"
+								desc = ""
+								picture = GFX_portrait_JAP_naruhiko_higashikuni
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_naruhiko_higashikuni
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Seishiro Itagaki
+	pfp_army_leader_jap_seishiro_itagaki = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_seishiro_itagaki } #Check if Seishiro Itagaki is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_seishiro_itagaki_desc
+			hidden_effect = {
+				#Seishiro Itagaki
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Seishiro Itagaki"
+								desc = ""
+								picture = GFX_portrait_JAP_seishiro_itagaki
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Seishiro Itagaki"
+								desc = ""
+								picture = GFX_portrait_JAP_seishiro_itagaki
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Seishiro Itagaki"
+								desc = ""
+								picture = GFX_portrait_JAP_seishiro_itagaki
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Seishiro Itagaki"
+								desc = ""
+								picture = GFX_portrait_JAP_seishiro_itagaki
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_seishiro_itagaki
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Takashi Sakai
+	pfp_army_leader_jap_takashi_sakai = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_takashi_sakai } #Check if Takashi Sakai is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_takashi_sakai_desc
+			hidden_effect = {
+				#Takashi Sakai
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Takashi Sakai"
+								desc = ""
+								picture = GFX_portrait_JAP_takashi_sakai
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Takashi Sakai"
+								desc = ""
+								picture = GFX_portrait_JAP_takashi_sakai
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Takashi Sakai"
+								desc = ""
+								picture = GFX_portrait_JAP_takashi_sakai
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Takashi Sakai"
+								desc = ""
+								picture = GFX_portrait_JAP_takashi_sakai
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_takashi_sakai
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Yoshijiro Umezu
+	pfp_army_leader_jap_yoshijiro_umezu = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_yoshijiro_umezu } #Check if Yoshijiro Umezu is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_yoshijiro_umezu_desc
+			hidden_effect = {
+				#Yoshijiro Umezu
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yoshijiro Umezu"
+								desc = ""
+								picture = GFX_portrait_JAP_yoshijiro_umezu
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yoshijiro Umezu"
+								desc = ""
+								picture = GFX_portrait_JAP_yoshijiro_umezu
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yoshijiro Umezu"
+								desc = ""
+								picture = GFX_portrait_JAP_yoshijiro_umezu
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yoshijiro Umezu"
+								desc = ""
+								picture = GFX_portrait_JAP_yoshijiro_umezu
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_yoshijiro_umezu
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Otozo Yamada
+	pfp_army_leader_jap_otozo_yamada = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_otozo_yamada } #Check if Otozo Yamada is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_otozo_yamada_desc
+			hidden_effect = {
+				#Otozo Yamada
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Otozo Yamada"
+								desc = ""
+								picture = GFX_portrait_JAP_otozo_yamada
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Otozo Yamada"
+								desc = ""
+								picture = GFX_portrait_JAP_otozo_yamada
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Otozo Yamada"
+								desc = ""
+								picture = GFX_portrait_JAP_otozo_yamada
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Otozo Yamada"
+								desc = ""
+								picture = GFX_portrait_JAP_otozo_yamada
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_otozo_yamada
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Keisuke Fujie
+	pfp_army_leader_jap_keisuke_fujie = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_keisuke_fujie } #Check if Keisuke Fujie is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_keisuke_fujie_desc
+			hidden_effect = {
+				#Keisuke Fujie
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Keisuke Fujie"
+								desc = ""
+								picture = GFX_portrait_JAP_keisuke_fujie
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Keisuke Fujie"
+								desc = ""
+								picture = GFX_portrait_JAP_keisuke_fujie
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Keisuke Fujie"
+								desc = ""
+								picture = GFX_portrait_JAP_keisuke_fujie
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Keisuke Fujie"
+								desc = ""
+								picture = GFX_portrait_JAP_keisuke_fujie
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_keisuke_fujie
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Harukichi Hyakutake
+	pfp_army_leader_jap_harukichi_hyakutake = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_harukichi_hyakutake} #Check if Harukichi Hyakutake is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_harukichi_hyakutake_desc
+			hidden_effect = {
+				#Harukichi Hyakutake
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Harukichi Hyakutake"
+								desc = ""
+								picture = GFX_portrait_JAP_harukichi_hyakutake
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Harukichi Hyakutake"
+								desc = ""
+								picture = GFX_portrait_JAP_harukichi_hyakutake
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Harukichi Hyakutake"
+								desc = ""
+								picture = GFX_portrait_JAP_harukichi_hyakutake
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Harukichi Hyakutake"
+								desc = ""
+								picture = GFX_portrait_JAP_harukichi_hyakutake
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_harukichi_hyakutake
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Hitoshi Imamura
+	pfp_army_leader_jap_hitoshi_imamura = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_hitoshi_imamura } #Check if Hitoshi Imamura is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_hitoshi_imamura_desc
+			hidden_effect = {
+				#Hitoshi Imamura
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hitoshi Imamura"
+								desc = ""
+								picture = GFX_portrait_JAP_hitoshi_imamura
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hitoshi Imamura"
+								desc = ""
+								picture = GFX_portrait_JAP_hitoshi_imamura
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hitoshi Imamura"
+								desc = ""
+								picture = GFX_portrait_JAP_hitoshi_imamura
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hitoshi Imamura"
+								desc = ""
+								picture = GFX_portrait_JAP_hitoshi_imamura
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_hitoshi_imamura
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Akira Muto
+	pfp_army_leader_jap_akira_muto = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_akira_muto } #Check if Akira Muto is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_akira_muto_desc
+			hidden_effect = {
+				#Akira Muto
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Akira Muto"
+								desc = ""
+								picture = GFX_portrait_JAP_akira_muto
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Akira Muto"
+								desc = ""
+								picture = GFX_portrait_JAP_akira_muto
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Akira Muto"
+								desc = ""
+								picture = GFX_portrait_JAP_akira_muto
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Akira Muto"
+								desc = ""
+								picture = GFX_portrait_JAP_akira_muto
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_akira_muto
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Hatazo Adachi
+	pfp_army_leader_jap_hatazo_adachi = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_hatazo_adachi } #Check if Hatazo Adachi is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_hatazo_adachi_desc
+			hidden_effect = {
+				#Hatazo Adachi
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hatazo Adachi"
+								desc = ""
+								picture = GFX_portrait_JAP_hatazo_adachi
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hatazo Adachi"
+								desc = ""
+								picture = GFX_portrait_JAP_hatazo_adachi
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hatazo Adachi"
+								desc = ""
+								picture = GFX_portrait_JAP_hatazo_adachi
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Hatazo Adachi"
+								desc = ""
+								picture = GFX_portrait_JAP_hatazo_adachi
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_hatazo_adachi
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Sadao Araki
+	pfp_army_leader_jap_sadao_araki = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_sadao_araki } #Check if Sadao Araki is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_sadao_araki_desc
+			hidden_effect = {
+				#Sadao Araki
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Sadao Araki"
+								desc = ""
+								picture = GFX_portrait_JAP_sadao_araki
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Sadao Araki"
+								desc = ""
+								picture = GFX_portrait_JAP_sadao_araki
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Sadao Araki"
+								desc = ""
+								picture = GFX_portrait_JAP_sadao_araki
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Sadao Araki"
+								desc = ""
+								picture = GFX_portrait_JAP_sadao_araki
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_sadao_araki
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kiichiro Higuchi
+	pfp_army_leader_jap_kiichiro_higuchi = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_kiichiro_higuchi } #Check if Kiichiro Higuchi is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_kiichiro_higuchi_desc
+			hidden_effect = {
+				#Kiichiro Higuchi
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kiichiro Higuchi"
+								desc = ""
+								picture = GFX_portrait_JAP_kiichiro_higuchi
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kiichiro Higuchi"
+								desc = ""
+								picture = GFX_portrait_JAP_kiichiro_higuchi
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kiichiro Higuchi"
+								desc = ""
+								picture = GFX_portrait_JAP_kiichiro_higuchi
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kiichiro Higuchi"
+								desc = ""
+								picture = GFX_portrait_JAP_kiichiro_higuchi
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_kiichiro_higuchi
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Masaharu Homma
+	pfp_army_leader_jap_masaharu_homma = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_masaharu_homma } #Check if Masaharu Homma is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_masaharu_homma_desc
+			hidden_effect = {
+				#Masaharu Homma
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Masaharu Homma"
+								desc = ""
+								picture = GFX_portrait_JAP_masaharu_homma
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Masaharu Homma"
+								desc = ""
+								picture = GFX_portrait_JAP_masaharu_homma
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Masaharu Homma"
+								desc = ""
+								picture = GFX_portrait_JAP_masaharu_homma
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Masaharu Homma"
+								desc = ""
+								picture = GFX_portrait_JAP_masaharu_homma
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_masaharu_homma
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Jo Iimura
+	pfp_army_leader_jap_jo_iimura = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_jo_iimura } #Check if Jo Iimura is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_jo_iimura_desc
+			hidden_effect = {
+				#Jo Iimura
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Jo Iimura"
+								desc = ""
+								picture = GFX_portrait_JAP_jo_iimura
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Jo Iimura"
+								desc = ""
+								picture = GFX_portrait_JAP_jo_iimura
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Jo Iimura"
+								desc = ""
+								picture = GFX_portrait_JAP_jo_iimura
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Jo Iimura"
+								desc = ""
+								picture = GFX_portrait_JAP_jo_iimura
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_jo_iimura
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Masatane Kanda
+	pfp_army_leader_jap_masatane_kanda = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_masatane_kanda } #Check if Masatane Kanda is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_masatane_kanda_desc
+			hidden_effect = {
+				#Masatane Kanda
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Masatane Kanda"
+								desc = ""
+								picture = GFX_portrait_JAP_masatane_kanda
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Masatane Kanda"
+								desc = ""
+								picture = GFX_portrait_JAP_masatane_kanda
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Masatane Kanda"
+								desc = ""
+								picture = GFX_portrait_JAP_masatane_kanda
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Masatane Kanda"
+								desc = ""
+								picture = GFX_portrait_JAP_masatane_kanda
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_masatane_kanda
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kuniaki Koiso
+	pfp_army_leader_jap_kuniaki_koiso = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_kuniaki_koiso } #Check if Kuniaki Koiso is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_kuniaki_koiso_desc
+			hidden_effect = {
+				#Kuniaki Koiso
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kuniaki Koiso"
+								desc = ""
+								picture = GFX_portrait_JAP_kuniaki_koiso
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kuniaki Koiso"
+								desc = ""
+								picture = GFX_portrait_JAP_kuniaki_koiso
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kuniaki Koiso"
+								desc = ""
+								picture = GFX_portrait_JAP_kuniaki_koiso
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kuniaki Koiso"
+								desc = ""
+								picture = GFX_portrait_JAP_kuniaki_koiso
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_kuniaki_koiso
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kanji Ishiwara
+	pfp_army_leader_jap_kanji_ishiwara = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_kanji_ishiwara } #Check if Kanji Ishiwara is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_kanji_ishiwara_desc
+			hidden_effect = {
+				#Kanji Ishiwara
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kanji Ishiwara"
+								desc = ""
+								picture = GFX_portrait_JAP_kanji_ishiwara
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kanji Ishiwara"
+								desc = ""
+								picture = GFX_portrait_JAP_kanji_ishiwara
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kanji Ishiwara"
+								desc = ""
+								picture = GFX_portrait_JAP_kanji_ishiwara
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kanji Ishiwara"
+								desc = ""
+								picture = GFX_portrait_JAP_kanji_ishiwara
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_kanji_ishiwara
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Yasuji Okamura
+	pfp_army_leader_jap_yasuji_okamura = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_yasuji_okamura } #Check if Yasuji Okamura is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_yasuji_okamura_desc
+			hidden_effect = {
+				#Yasuji Okamura
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yasuji Okamura"
+								desc = ""
+								picture = GFX_portrait_JAP_yasuji_okamura
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yasuji Okamura"
+								desc = ""
+								picture = GFX_portrait_JAP_yasuji_okamura
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yasuji Okamura"
+								desc = ""
+								picture = GFX_portrait_JAP_yasuji_okamura
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yasuji Okamura"
+								desc = ""
+								picture = GFX_portrait_JAP_yasuji_okamura
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_yasuji_okamura
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kenji Doihara
+	pfp_army_leader_jap_kenji_doihara = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_kenji_doihara } #Check if Kenji Doihara is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_kenji_doihara_desc
+			hidden_effect = {
+				#Kenji Doihara
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kenji Doihara"
+								desc = ""
+								picture = GFX_portrait_JAP_kenji_doihara
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kenji Doihara"
+								desc = ""
+								picture = GFX_portrait_JAP_kenji_doihara
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kenji Doihara"
+								desc = ""
+								picture = GFX_portrait_JAP_kenji_doihara
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kenji Doihara"
+								desc = ""
+								picture = GFX_portrait_JAP_kenji_doihara
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_kenji_doihara
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Shigeru Honjo
+	pfp_army_leader_jap_shigeru_honjo = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_shigeru_honjo } #Check if Shigeru Honjo is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_shigeru_honjo_desc
+			hidden_effect = {
+				#Shigeru Honjo
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shigeru Honjo"
+								desc = ""
+								picture = GFX_portrait_JAP_shigeru_honjo
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shigeru Honjo"
+								desc = ""
+								picture = GFX_portrait_JAP_shigeru_honjo
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shigeru Honjo"
+								desc = ""
+								picture = GFX_portrait_JAP_shigeru_honjo
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Shigeru Honjo"
+								desc = ""
+								picture = GFX_portrait_JAP_shigeru_honjo
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_shigeru_honjo
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Iwane Matsui
+	pfp_army_leader_jap_iwane_matsui = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = JAP #Check if country is Japan
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = {  has_global_flag = pfp_jap_iwane_matsui } #Check if Iwane Matsui is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_jap_iwane_matsui_desc
+			hidden_effect = {
+				#Iwane Matsui
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Iwane Matsui"
+								desc = ""
+								picture = GFX_portrait_JAP_iwane_matsui
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Iwane Matsui"
+								desc = ""
+								picture = GFX_portrait_JAP_iwane_matsui
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Iwane Matsui"
+								desc = ""
+								picture = GFX_portrait_JAP_iwane_matsui
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Iwane Matsui"
+								desc = ""
+								picture = GFX_portrait_JAP_iwane_matsui
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_jap_iwane_matsui
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
