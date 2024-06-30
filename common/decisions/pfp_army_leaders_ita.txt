@@ -1,0 +1,2126 @@
+pfp_category_leaders = {
+	#Dismiss Leader
+	pfp_army_leader_dismiss_ita = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				NOT = {
+					has_country_leader = { name = "Military Junta" } 
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_dismiss_ita_desc
+			hidden_effect = {
+				if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Rodolfo Graziani" } 
+						}
+					}
+					clr_global_flag = pfp_ita_rodolfo_graziani
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Pietro Badoglio" } 
+						}
+					}
+					clr_global_flag = pfp_ita_pietro_badoglio
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Emilio De Bono" } 
+						}
+					}
+					clr_global_flag = pfp_ita_emilio_de_bono
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Italo Balbo" } 
+						}
+					}
+					clr_global_flag = pfp_ita_italo_balbo
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Giovanni Messe" } 
+						}
+					}
+					clr_global_flag = pfp_ita_giovanni_messe
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ugo Cavallero" } 
+						}
+					}
+					clr_global_flag = pfp_ita_ugo_cavallero
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ettore Baldassarre" } 
+						}
+					}
+					clr_global_flag = pfp_ita_ettore_baldasarre
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Sebastiano Visconti Prasca" } 
+						}
+					}
+					clr_global_flag = pfp_ita_sebastiano_visconti_prasca
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ubaldo Soddu" } 
+						}
+					}
+					clr_global_flag = pfp_ita_ubaldo_soddu
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ettore Bastico" } 
+						}
+					}
+					clr_global_flag = pfp_ita_ettore_bastico
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Italo Gariboldi" } 
+						}
+					}
+					clr_global_flag = pfp_ita_italo_gariboldi
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Vittorio Ambrosio" } 
+						}
+					}
+					clr_global_flag = pfp_ita_vittorio_ambrosio
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Alfredo Guzzoni" } 
+						}
+					}
+					clr_global_flag = pfp_ita_alfredo_guzzoni
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Pietro Pintor" } 
+						}
+					}
+					clr_global_flag = pfp_ita_pietro_pintor
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Mario Berti" } 
+						}
+					}
+					clr_global_flag = pfp_ita_mario_berti
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Carlo Geloso" } 
+						}
+					}
+					clr_global_flag = pfp_ita_carlo_geloso
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Giuseppe Tellera" } 
+						}
+					}
+					clr_global_flag = pfp_ita_giuseppe_tellera
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Francesco Zingales" } 
+						}
+					}
+					clr_global_flag = pfp_ita_francesco_zingales
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ezio Rosi" } 
+						}
+					}
+					clr_global_flag = pfp_ita_ezio_rosi
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Mario Vercellino" } 
+						}
+					}
+					clr_global_flag = pfp_ita_mario_vercellino
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Prince Adalberto" } 
+						}
+					}
+					clr_global_flag = pfp_ita_prince_adalberto
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Prince Umberto" } 
+						}
+					}
+					clr_global_flag = pfp_ita_prince_umberto
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Alessandro Pirzio Biroli" } 
+						}
+					}
+					clr_global_flag = pfp_ita_alessandro_pirzio_biroli
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Carlo Vecchiarelli" } 
+						}
+					}
+					clr_global_flag = pfp_ita_carlo_vecchiarelli
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Mario Robotti" } 
+						}
+					}
+					clr_global_flag = pfp_ita_mario_robotti
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Mario Roatta" } 
+						}
+					}
+					clr_global_flag = pfp_ita_mario_roatta
+				}
+
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of selection
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_democratic.dds"
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_communism.dds"
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_fascism.dds"
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_neutrality.dds"
+								ideology = despotism
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Rodolfo Graziani
+	pfp_army_leader_ita_rodolfo_graziani = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_rodolfo_graziani } #Check if Rodolfo Graziani is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_rodolfo_graziani_desc
+			hidden_effect = {
+				#Rodolfo Graziani
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rodolfo Graziani"
+								desc = ""
+								picture = GFX_portrait_ITA_rodolfo_graziani
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rodolfo Graziani"
+								desc = ""
+								picture = GFX_portrait_ITA_rodolfo_graziani
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rodolfo Graziani"
+								desc = ""
+								picture = GFX_portrait_ITA_rodolfo_graziani
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rodolfo Graziani"
+								desc = ""
+								picture = GFX_portrait_ITA_rodolfo_graziani
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_rodolfo_graziani
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Pietro Badoglio
+	pfp_army_leader_ita_pietro_badoglio = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+			
+			NOT = { has_global_flag = pfp_ita_pietro_badoglio } #Check if Pietro Badoglio is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_pietro_badoglio_desc
+			hidden_effect = {
+				#Pietro Badoglio
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Pietro Badoglio"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_badoglio
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Pietro Badoglio"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_badoglio
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Pietro Badoglio"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_badoglio
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Pietro Badoglio"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_badoglio
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_pietro_badoglio
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Emilio De Bono
+	pfp_army_leader_ita_emilio_de_bono = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_emilio_de_bono } #Check if Emilio De Bono is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_emilio_de_bono_desc
+			hidden_effect = {
+				#Emilio De Bono
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Emilio De Bono"
+								desc = ""
+								picture = GFX_portrait_ITA_emilio_de_bono
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Emilio De Bono"
+								desc = ""
+								picture = GFX_portrait_ITA_emilio_de_bono
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Emilio De Bono"
+								desc = ""
+								picture = GFX_portrait_ITA_emilio_de_bono
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Emilio De Bono"
+								desc = ""
+								picture = GFX_portrait_ITA_emilio_de_bono
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_emilio_de_bono
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Italo Balbo
+	pfp_army_leader_ita_italo_balbo = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_italo_balbo } #Check if Italo Balbo is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_italo_balbo_desc
+			hidden_effect = {
+				#Italo Balbo
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Italo Balbo"
+								desc = ""
+								picture = GFX_portrait_ITA_italo_balbo
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Italo Balbo"
+								desc = ""
+								picture = GFX_portrait_ITA_italo_balbo
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Italo Balbo"
+								desc = ""
+								picture = GFX_portrait_ITA_italo_balbo
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Italo Balbo"
+								desc = ""
+								picture = GFX_portrait_ITA_italo_balbo
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_italo_balbo
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Giovanni Messe
+	pfp_army_leader_ita_giovanni_messe = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_giovanni_messe } #Check if Giovanni Messe is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_giovanni_messe_desc
+			hidden_effect = {
+				#Giovanni Messe
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Giovanni Messe"
+								desc = ""
+								picture = GFX_portrait_ITA_giovanni_messe
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Giovanni Messe"
+								desc = ""
+								picture = GFX_portrait_ITA_giovanni_messe
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Giovanni Messe"
+								desc = ""
+								picture = GFX_portrait_ITA_giovanni_messe
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Giovanni Messe"
+								desc = ""
+								picture = GFX_portrait_ITA_giovanni_messe
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_giovanni_messe
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Ugo Cavallero
+	pfp_army_leader_ita_ugo_cavallero = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_ugo_cavallero } #Check if Ugo Cavallero is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_ugo_cavallero_desc
+			hidden_effect = {
+				#Ugo Cavallero
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ugo Cavallero"
+								desc = ""
+								picture = GFX_portrait_ITA_ugo_cavallero
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ugo Cavallero"
+								desc = ""
+								picture = GFX_portrait_ITA_ugo_cavallero
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ugo Cavallero"
+								desc = ""
+								picture = GFX_portrait_ITA_ugo_cavallero
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ugo Cavallero"
+								desc = ""
+								picture = GFX_portrait_ITA_ugo_cavallero
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_ugo_cavallero
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Ettore Baldassarre
+	pfp_army_leader_ita_ettore_baldasarre = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_ettore_baldasarre } #Check if Ettore Baldassarre is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_ettore_baldasarre_desc
+			hidden_effect = {
+				#Ettore Baldassarre
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ettore Baldassarre"
+								desc = ""
+								picture = GFX_portrait_ITA_ettore_baldasarre
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ettore Baldassarre"
+								desc = ""
+								picture = GFX_portrait_ITA_ettore_baldasarre
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ettore Baldassarre"
+								desc = ""
+								picture = GFX_portrait_ITA_ettore_baldasarre
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ettore Baldassarre"
+								desc = ""
+								picture = GFX_portrait_ITA_ettore_baldasarre
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_ettore_baldasarre
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+		#Sebastiano Visconti Prasca
+	pfp_army_leader_ita_sebastiano_visconti_prasca = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_sebastiano_visconti_prasca } #Check if Sebastiano Visconti Prasca is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_sebastiano_visconti_prasca_desc
+			hidden_effect = {
+				#Sebastiano Visconti Prasca
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Sebastiano Visconti Prasca"
+								desc = ""
+								picture = GFX_portrait_ITA_sebastiano_visconti_prasca
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Sebastiano Visconti Prasca"
+								desc = ""
+								picture = GFX_portrait_ITA_sebastiano_visconti_prasca
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Sebastiano Visconti Prasca"
+								desc = ""
+								picture = GFX_portrait_ITA_sebastiano_visconti_prasca
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Sebastiano Visconti Prasca"
+								desc = ""
+								picture = GFX_portrait_ITA_sebastiano_visconti_prasca
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_sebastiano_visconti_prasca
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Ubaldo Soddu
+	pfp_army_leader_ita_ubaldo_soddu = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_ubaldo_soddu } #Check if Ubaldo Soddu is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_ubaldo_soddu_desc
+			hidden_effect = {
+				#Ubaldo Soddu
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ubaldo Soddu"
+								desc = ""
+								picture = GFX_portrait_ITA_ubaldo_soddu
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ubaldo Soddu"
+								desc = ""
+								picture = GFX_portrait_ITA_ubaldo_soddu
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ubaldo Soddu"
+								desc = ""
+								picture = GFX_portrait_ITA_ubaldo_soddu
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ubaldo Soddu"
+								desc = ""
+								picture = GFX_portrait_ITA_ubaldo_soddu
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_ubaldo_soddu
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Ettore Bastico
+	pfp_army_leader_ita_ettore_bastico = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_ettore_bastico } #Check if Ettore Bastico is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_ettore_bastico_desc
+			hidden_effect = {
+				#Ettore Bastico
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ettore Bastico"
+								desc = ""
+								picture = GFX_portrait_ITA_ettore_bastico
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ettore Bastico"
+								desc = ""
+								picture = GFX_portrait_ITA_ettore_bastico
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ettore Bastico"
+								desc = ""
+								picture = GFX_portrait_ITA_ettore_bastico
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ettore Bastico"
+								desc = ""
+								picture = GFX_portrait_ITA_ettore_bastico
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_ettore_bastico
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Italo Gariboldi
+	pfp_army_leader_ita_italo_gariboldi = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_italo_gariboldi } #Check if Italo Gariboldi is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_italo_gariboldi_desc
+			hidden_effect = {
+				#Italo Gariboldi
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Italo Gariboldi"
+								desc = ""
+								picture = GFX_portrait_ITA_italo_gariboldi
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Italo Gariboldi"
+								desc = ""
+								picture = GFX_portrait_ITA_italo_gariboldi
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Italo Gariboldi"
+								desc = ""
+								picture = GFX_portrait_ITA_italo_gariboldi
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Italo Gariboldi"
+								desc = ""
+								picture = GFX_portrait_ITA_italo_gariboldi
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_italo_gariboldi
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Vittorio Ambrosio
+	pfp_army_leader_ita_vittorio_ambrosio = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_vittorio_ambrosio } #Check if Vittorio Ambrosio is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_vittorio_ambrosio_desc
+			hidden_effect = {
+				#Vittorio Ambrosio
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vittorio Ambrosio"
+								desc = ""
+								picture = GFX_portrait_ITA_vittorio_ambrosio
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vittorio Ambrosio"
+								desc = ""
+								picture = GFX_portrait_ITA_vittorio_ambrosio
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vittorio Ambrosio"
+								desc = ""
+								picture = GFX_portrait_ITA_vittorio_ambrosio
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vittorio Ambrosio"
+								desc = ""
+								picture = GFX_portrait_ITA_vittorio_ambrosio
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_vittorio_ambrosio
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Alfredo Guzzoni
+	pfp_army_leader_ita_alfredo_guzzoni = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_alfredo_guzzoni } #Check if Alfredo Guzzoni is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_alfredo_guzzoni_desc
+			hidden_effect = {
+				#Alfredo Guzzoni
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alfredo Guzzoni"
+								desc = ""
+								picture = GFX_portrait_ITA_alfredo_guzzoni
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alfredo Guzzoni"
+								desc = ""
+								picture = GFX_portrait_ITA_alfredo_guzzoni
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alfredo Guzzoni"
+								desc = ""
+								picture = GFX_portrait_ITA_alfredo_guzzoni
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alfredo Guzzoni"
+								desc = ""
+								picture = GFX_portrait_ITA_alfredo_guzzoni
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_alfredo_guzzoni
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Pietro Pintor
+	pfp_army_leader_ita_pietro_pintor = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_pietro_pintor } #Check if Pietro Pintor is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_pietro_pintor_desc
+			hidden_effect = {
+				#Pietro Pintor
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Pietro Pintor"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_pintor
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Pietro Pintor"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_pintor
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Pietro Pintor"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_pintor
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Pietro Pintor"
+								desc = ""
+								picture = GFX_portrait_ITA_pietro_pintor
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_pietro_pintor
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Mario Berti
+	pfp_army_leader_ita_mario_berti = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_mario_berti } #Check if Mario Berti is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_mario_berti_desc
+			hidden_effect = {
+				#Mario Berti
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Berti"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_berti
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Berti"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_berti
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Berti"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_berti
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Berti"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_berti
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_mario_berti
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Carlo Geloso
+	pfp_army_leader_ita_carlo_geloso = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_carlo_geloso } #Check if Carlo Geloso is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_carlo_geloso_desc
+			hidden_effect = {
+				#Carlo Geloso
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Carlo Geloso"
+								desc = ""
+								picture = GFX_portrait_ITA_carlo_geloso
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Carlo Geloso"
+								desc = ""
+								picture = GFX_portrait_ITA_carlo_geloso
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Carlo Geloso"
+								desc = ""
+								picture = GFX_portrait_ITA_carlo_geloso
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Carlo Geloso"
+								desc = ""
+								picture = GFX_portrait_ITA_carlo_geloso
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_carlo_geloso
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Giuseppe Tellera
+	pfp_army_leader_ita_giuseppe_tellera = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_giuseppe_tellera } #Check if Giuseppe Tellera is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_giuseppe_tellera_desc
+			hidden_effect = {
+				#Giuseppe Tellera
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Giuseppe Tellera"
+								desc = ""
+								picture = GFX_portrait_ITA_giuseppe_tellera
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Giuseppe Tellera"
+								desc = ""
+								picture = GFX_portrait_ITA_giuseppe_tellera
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Giuseppe Tellera"
+								desc = ""
+								picture = GFX_portrait_ITA_giuseppe_tellera
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Giuseppe Tellera"
+								desc = ""
+								picture = GFX_portrait_ITA_giuseppe_tellera
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_giuseppe_tellera
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Francesco Zingales
+	pfp_army_leader_ita_francesco_zingales = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_francesco_zingales } #Check if Francesco Zingales is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_francesco_zingales_desc
+			hidden_effect = {
+				#Francesco Zingales
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Francesco Zingales"
+								desc = ""
+								picture = GFX_portrait_ITA_francesco_zingales
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Francesco Zingales"
+								desc = ""
+								picture = GFX_portrait_ITA_francesco_zingales
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Francesco Zingales"
+								desc = ""
+								picture = GFX_portrait_ITA_francesco_zingales
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Francesco Zingales"
+								desc = ""
+								picture = GFX_portrait_ITA_francesco_zingales
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_francesco_zingales
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Ezio Rosi
+	pfp_army_leader_ita_ezio_rosi = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_ezio_rosi } #Check if Ezio Rosi is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_ezio_rosi_desc
+			hidden_effect = {
+				#Ezio Rosi
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ezio Rosi"
+								desc = ""
+								picture = GFX_portrait_ITA_ezio_rosi
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ezio Rosi"
+								desc = ""
+								picture = GFX_portrait_ITA_ezio_rosi
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ezio Rosi"
+								desc = ""
+								picture = GFX_portrait_ITA_ezio_rosi
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ezio Rosi"
+								desc = ""
+								picture = GFX_portrait_ITA_ezio_rosi
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_ezio_rosi
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Mario Vercellino
+	pfp_army_leader_ita_mario_vercellino = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_mario_vercellino } #Check if Mario Vercellino is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_mario_vercellino_desc
+			hidden_effect = {
+				#Mario Vercellino
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Vercellino"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_vercellino
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Vercellino"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_vercellino
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Vercellino"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_vercellino
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Vercellino"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_vercellino
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_mario_vercellino
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Prince Adalberto
+	pfp_army_leader_ita_prince_adalberto = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_prince_adalberto } #Check if Prince Adalberto is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_prince_adalberto_desc
+			hidden_effect = {
+				#Prince Adalberto
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Prince Adalberto"
+								desc = ""
+								picture = GFX_portrait_ITA_prince_adalberto
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Prince Adalberto"
+								desc = ""
+								picture = GFX_portrait_ITA_prince_adalberto
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Prince Adalberto"
+								desc = ""
+								picture = GFX_portrait_ITA_prince_adalberto
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Prince Adalberto"
+								desc = ""
+								picture = GFX_portrait_ITA_prince_adalberto
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_prince_adalberto
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Prince Umberto
+	pfp_army_leader_ita_prince_umberto = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_prince_umberto } #Check if Prince Umberto is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_prince_umberto_desc
+			hidden_effect = {
+				#Prince Umberto
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Prince Umberto"
+								desc = ""
+								picture = GFX_portrait_ITA_prince_umberto
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Prince Umberto"
+								desc = ""
+								picture = GFX_portrait_ITA_prince_umberto
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Prince Umberto"
+								desc = ""
+								picture = GFX_portrait_ITA_prince_umberto
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Prince Umberto"
+								desc = ""
+								picture = GFX_portrait_ITA_prince_umberto
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_prince_umberto
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Alessandro Pirzio Biroli
+	pfp_army_leader_ita_alessandro_pirzio_biroli = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_alessandro_pirzio_biroli } #Check if Alessandro Pirzio Biroli is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_alessandro_pirzio_biroli_desc
+			hidden_effect = {
+				#Alessandro Pirzio Biroli
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alessandro Pirzio Biroli"
+								desc = ""
+								picture = GFX_portrait_ITA_alessandro_pirzio_biroli
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alessandro Pirzio Biroli"
+								desc = ""
+								picture = GFX_portrait_ITA_alessandro_pirzio_biroli
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alessandro Pirzio Biroli"
+								desc = ""
+								picture = GFX_portrait_ITA_alessandro_pirzio_biroli
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Alessandro Pirzio Biroli"
+								desc = ""
+								picture = GFX_portrait_ITA_alessandro_pirzio_biroli
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_alessandro_pirzio_biroli
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Carlo Vecchiarelli
+	pfp_army_leader_ita_carlo_vecchiarelli = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_carlo_vecchiarelli } #Check if Carlo Vecchiarelli is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_carlo_vecchiarelli_desc
+			hidden_effect = {
+				#Carlo Vecchiarelli
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Carlo Vecchiarelli"
+								desc = ""
+								picture = GFX_portrait_ITA_carlo_vecchiarelli
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Carlo Vecchiarelli"
+								desc = ""
+								picture = GFX_portrait_ITA_carlo_vecchiarelli
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Carlo Vecchiarelli"
+								desc = ""
+								picture = GFX_portrait_ITA_carlo_vecchiarelli
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Carlo Vecchiarelli"
+								desc = ""
+								picture = GFX_portrait_ITA_carlo_vecchiarelli
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_carlo_vecchiarelli
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Mario Robotti
+	pfp_army_leader_ita_mario_robotti = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_mario_robotti } #Check if Mario Robotti is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_mario_robotti_desc
+			hidden_effect = {
+				#Mario Robotti
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Robotti"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_robotti
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Robotti"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_robotti
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Robotti"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_robotti
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Robotti"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_robotti
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_mario_robotti
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Mario Roatta
+	pfp_army_leader_ita_mario_roatta = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = ITA #Check if country is Italy
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			NOT = { has_global_flag = pfp_ita_mario_roatta } #Check if Mario Roatta is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_ita_mario_roatta_desc
+			hidden_effect = {
+				#Mario Roatta
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Roatta"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_roatta
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Roatta"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_roatta
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Roatta"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_roatta
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mario Roatta"
+								desc = ""
+								picture = GFX_portrait_ITA_mario_roatta
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_ita_mario_roatta
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
