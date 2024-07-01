@@ -1,0 +1,3032 @@
+pfp_category_leaders = {
+	#Dismiss Leader
+	pfp_army_leader_dismiss_sov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				NOT = {
+					has_country_leader = { name = "Military Junta" } 
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_dismiss_sov_desc
+			hidden_effect = {
+				if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Mikhail Tukhachevsky" } 
+						}
+					}
+					clr_global_flag = pfp_sov_mikhail_tukhachevsky
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Aleksandr Yegorov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_aleksandr_yegorov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Vasily Blyukher" } 
+						}
+					}
+					clr_global_flag = pfp_sov_vasily_blyukher
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kliment Voroshilov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_kliment_voroshilov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Semyon Budyonny" } 
+						}
+					}
+					clr_global_flag = pfp_sov_semyon_budyonny
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Georgy Zhukov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_georgy_zhukov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ivan Konev" } 
+						}
+					}
+					clr_global_flag = pfp_sov_ivan_konev
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Konstantin Rokossovsky" } 
+						}
+					}
+					clr_global_flag = pfp_sov_konstantin_rokossovsky
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Aleksandr Vasilevsky" } 
+						}
+					}
+					clr_global_flag = pfp_sov_aleksandr_vasilevsky
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Boris Shaposhnikov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_boris_shaposhnikov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Nikolay Vatutin" } 
+						}
+					}
+					clr_global_flag = pfp_sov_nikolay_vatutin
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Semyon Timoshenko" } 
+						}
+					}
+					clr_global_flag = pfp_sov_semyon_timoshenko
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Leonid Govorov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_leonid_govorov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kirill Meretskov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_kirill_meretskov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Filipp Golikov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_filipp_golikov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Yakov Cherevichenko" } 
+						}
+					}
+					clr_global_flag = pfp_sov_yakov_cherevichenko
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Nikandr Chibisov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_nikandr_chibisov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Vasily Kuznetsov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_vasily_kuznetsov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Andrey Vlasov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_andrey_vlasov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Maksim Purkayev" } 
+						}
+					}
+					clr_global_flag = pfp_sov_maksim_purkayev
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Nikolay Berzarin" } 
+						}
+					}
+					clr_global_flag = pfp_sov_nikolay_berzarin
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Aleksandr Gorbatov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_aleksandr_gorbatov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kirill Moskalenko" } 
+						}
+					}
+					clr_global_flag = pfp_sov_kirill_moskalenko
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Andrey Grechko" } 
+						}
+					}
+					clr_global_flag = pfp_sov_andrey_grechko
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Vitaly Primakov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_vitaly_primakov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Markian Popov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_markian_popov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ivan Chernyakhovsky" } 
+						}
+					}
+					clr_global_flag = pfp_sov_ivan_chernyakhovsky
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Issa Pilyev" } 
+						}
+					}
+					clr_global_flag = pfp_sov_issa_pilyev
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Grigory Kulik" } 
+						}
+					}
+					clr_global_flag = pfp_sov_grigory_kulik
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Andrey Yeryomenko" } 
+						}
+					}
+					clr_global_flag = pfp_sov_andrey_yeryomenko
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Georgy Zakharov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_georgy_zakharov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Maks Reyter" } 
+						}
+					}
+					clr_global_flag = pfp_sov_maks_reyter
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ivan Fedyuninsky" } 
+						}
+					}
+					clr_global_flag = pfp_sov_ivan_fedyuninsky
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Kuzma Galitsky" } 
+						}
+					}
+					clr_global_flag = pfp_sov_kuzma_galitsky
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Dmitry Lelyushenko" } 
+						}
+					}
+					clr_global_flag = pfp_sov_dmitry_lelyushenko
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Rodion Malinovsky" } 
+						}
+					}
+					clr_global_flag = pfp_sov_rodion_malinovsky
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Vasily Chuykov" } 
+						}
+					}
+					clr_global_flag = pfp_sov_vasily_chuykov
+				}
+				
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of selection
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_democratic.dds"
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_communism.dds"
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_fascism.dds"
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Military Junta"
+								desc = ""
+								picture = "gfx/leaders/PFP/pfp_neutrality.dds"
+								ideology = despotism
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Mikhail Tukhachevsky
+	pfp_army_leader_sov_mikhail_tukhachevsky = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_mikhail_tukhachevsky #Check if country has character
+			NOT = { has_global_flag = pfp_sov_mikhail_tukhachevsky } #Check if Mikhail Tukhachevsky is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_mikhail_tukhachevsky_desc
+			hidden_effect = {
+				#Mikhail Tukhachevsky
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mikhail Tukhachevsky"
+								desc = ""
+								picture = GFX_portrait_SOV_mikhail_tukhachevsky
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mikhail Tukhachevsky"
+								desc = ""
+								picture = GFX_portrait_SOV_mikhail_tukhachevsky
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mikhail Tukhachevsky"
+								desc = ""
+								picture = GFX_portrait_SOV_mikhail_tukhachevsky
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Mikhail Tukhachevsky"
+								desc = ""
+								picture = GFX_portrait_SOV_mikhail_tukhachevsky
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_mikhail_tukhachevsky
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Aleksandr Yegorov
+	pfp_army_leader_sov_aleksandr_yegorov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+			
+			has_character = SOV_aleksandr_yegorov #Check if country has character
+			NOT = { has_global_flag = pfp_sov_aleksandr_yegorov } #Check if Aleksandr Yegorov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_aleksandr_yegorov_desc
+			hidden_effect = {
+				#Aleksandr Yegorov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Yegorov"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_yegorov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Yegorov"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_yegorov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Yegorov"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_yegorov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Yegorov"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_yegorov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_aleksandr_yegorov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Vasily Blyukher
+	pfp_army_leader_sov_vasily_blyukher = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+			
+			has_character = SOV_vasily_blyukher #Check if country has character
+			NOT = { has_global_flag = pfp_sov_vasily_blyukher } #Check if Vasily Blyukher is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_vasily_blyukher_desc
+			hidden_effect = {
+				#Vasily Blyukher
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Blyukher"
+								desc = ""
+								picture = GFX_portrait_SOV_blyukher
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Blyukher"
+								desc = ""
+								picture = GFX_portrait_SOV_blyukher
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Blyukher"
+								desc = ""
+								picture = GFX_portrait_SOV_blyukher
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Blyukher"
+								desc = ""
+								picture = GFX_portrait_SOV_blyukher
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_vasily_blyukher
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kliment Voroshilov
+	pfp_army_leader_sov_kliment_voroshilov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_kliment_voroshilov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_kliment_voroshilov } #Check if Kliment Voroshilov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_kliment_voroshilov_desc
+			hidden_effect = {
+				#Kliment Voroshilov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kliment Voroshilov"
+								desc = ""
+								picture = GFX_portrait_SOV_kliment_voroshilov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kliment Voroshilov"
+								desc = ""
+								picture = GFX_portrait_SOV_kliment_voroshilov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kliment Voroshilov"
+								desc = ""
+								picture = GFX_portrait_SOV_kliment_voroshilov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kliment Voroshilov"
+								desc = ""
+								picture = GFX_portrait_SOV_kliment_voroshilov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_kliment_voroshilov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Semyon Budyonny
+	pfp_army_leader_sov_semyon_budyonny = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_semyon_budyonny #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_semyon_budyonny } #Check if Semyon Budyonny is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_semyon_budyonny_desc
+			hidden_effect = {
+				#Semyon Budyonny
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Semyon Budyonny"
+								desc = ""
+								picture = GFX_portrait_SOV_semyon_budyonny
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Semyon Budyonny"
+								desc = ""
+								picture = GFX_portrait_SOV_semyon_budyonny
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Semyon Budyonny"
+								desc = ""
+								picture = GFX_portrait_SOV_semyon_budyonny
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Semyon Budyonny"
+								desc = ""
+								picture = GFX_portrait_SOV_semyon_budyonny
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_semyon_budyonny
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Georgy Zhukov
+	pfp_army_leader_sov_georgy_zhukov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_georgy_zhukov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_georgy_zhukov } #Check if Georgy Zhukov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_georgy_zhukov_desc
+			hidden_effect = {
+				#Georgy Zhukov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Georgy Zhukov"
+								desc = ""
+								picture = GFX_portrait_SOV_georgy_zhukov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Georgy Zhukov"
+								desc = ""
+								picture = GFX_portrait_SOV_georgy_zhukov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Georgy Zhukov"
+								desc = ""
+								picture = GFX_portrait_SOV_georgy_zhukov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Georgy Zhukov"
+								desc = ""
+								picture = GFX_portrait_SOV_georgy_zhukov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_georgy_zhukov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Ivan Konev
+	pfp_army_leader_sov_ivan_konev = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_ivan_konev #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_ivan_konev } #Check if Ivan Konev is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_ivan_konev_desc
+			hidden_effect = {
+				#Ivan Konev
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Konev"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_konev
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Konev"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_konev
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Konev"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_konev
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Konev"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_konev
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_ivan_konev
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Konstantin Rokossovsky
+	pfp_army_leader_sov_konstantin_rokossovsky = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_konstantin_rokossovsky #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_konstantin_rokossovsky } #Check if Konstantin Rokossovsky is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_konstantin_rokossovsky_desc
+			hidden_effect = {
+				#Konstantin Rokossovsky
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Konstantin Rokossovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_konstantin_rokossovsky
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Konstantin Rokossovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_konstantin_rokossovsky
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Konstantin Rokossovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_konstantin_rokossovsky
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Konstantin Rokossovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_konstantin_rokossovsky
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_konstantin_rokossovsky
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Aleksandr Vasilevsky
+	pfp_army_leader_sov_aleksandr_vasilevsky = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_aleksandr_vasilevsky #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_aleksandr_vasilevsky } #Check if Aleksandr Vasilevsky is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_aleksandr_vasilevsky_desc
+			hidden_effect = {
+				#Aleksandr Vasilevsky
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Vasilevsky"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_vasilevsky
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Vasilevsky"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_vasilevsky
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Vasilevsky"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_vasilevsky
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Vasilevsky"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_vasilevsky
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_aleksandr_vasilevsky
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Boris Shaposhnikov
+	pfp_army_leader_sov_boris_shaposhnikov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_boris_shaposhnikov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_boris_shaposhnikov } #Check if Boris Shaposhnikov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_boris_shaposhnikov_desc
+			hidden_effect = {
+				#Boris Shaposhnikov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Boris Shaposhnikov"
+								desc = ""
+								picture = GFX_portrait_SOV_boris_shaposhnikov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Boris Shaposhnikov"
+								desc = ""
+								picture = GFX_portrait_SOV_boris_shaposhnikov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Boris Shaposhnikov"
+								desc = ""
+								picture = GFX_portrait_SOV_boris_shaposhnikov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Boris Shaposhnikov"
+								desc = ""
+								picture = GFX_portrait_SOV_boris_shaposhnikov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_boris_shaposhnikov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Nikolay Vatutin
+	pfp_army_leader_sov_nikolay_vatutin = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_nikolay_vatutin #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_nikolay_vatutin } #Check if Nikolay Vatutin is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_nikolay_vatutin_desc
+			hidden_effect = {
+				#Nikolay Vatutin
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikolay Vatutin"
+								desc = ""
+								picture = GFX_portrait_SOV_nikolay_vatutin
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikolay Vatutin"
+								desc = ""
+								picture = GFX_portrait_SOV_nikolay_vatutin
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikolay Vatutin"
+								desc = ""
+								picture = GFX_portrait_SOV_nikolay_vatutin
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikolay Vatutin"
+								desc = ""
+								picture = GFX_portrait_SOV_nikolay_vatutin
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_nikolay_vatutin
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Semyon Timoshenko
+	pfp_army_leader_sov_semyon_timoshenko = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_semyon_timoshenko #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_semyon_timoshenko } #Check if Semyon Timoshenko is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_semyon_timoshenko_desc
+			hidden_effect = {
+				#Semyon Timoshenko
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Semyon Timoshenko"
+								desc = ""
+								picture = GFX_portrait_SOV_semyon_timoshenko
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Semyon Timoshenko"
+								desc = ""
+								picture = GFX_portrait_SOV_semyon_timoshenko
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Semyon Timoshenko"
+								desc = ""
+								picture = GFX_portrait_SOV_semyon_timoshenko
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Semyon Timoshenko"
+								desc = ""
+								picture = GFX_portrait_SOV_semyon_timoshenko
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_semyon_timoshenko
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Leonid Govorov
+	pfp_army_leader_sov_leonid_govorov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_leonid_govorov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_leonid_govorov } #Check if Leonid Govorov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_leonid_govorov_desc
+			hidden_effect = {
+				#Leonid Govorov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leonid Govorov"
+								desc = ""
+								picture = GFX_portrait_SOV_leonid_govorov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leonid Govorov"
+								desc = ""
+								picture = GFX_portrait_SOV_leonid_govorov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leonid Govorov"
+								desc = ""
+								picture = GFX_portrait_SOV_leonid_govorov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Leonid Govorov"
+								desc = ""
+								picture = GFX_portrait_SOV_leonid_govorov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_leonid_govorov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kirill Meretskov
+	pfp_army_leader_sov_kirill_meretskov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_kirill_meretskov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_kirill_meretskov } #Check if Kirill Meretskov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_kirill_meretskov_desc
+			hidden_effect = {
+				#Kirill Meretskov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kirill Meretskov"
+								desc = ""
+								picture = GFX_portrait_SOV_kirill_meretskov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kirill Meretskov"
+								desc = ""
+								picture = GFX_portrait_SOV_kirill_meretskov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kirill Meretskov"
+								desc = ""
+								picture = GFX_portrait_SOV_kirill_meretskov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kirill Meretskov"
+								desc = ""
+								picture = GFX_portrait_SOV_kirill_meretskov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_kirill_meretskov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Filipp Golikov
+	pfp_army_leader_sov_filipp_golikov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_filipp_golikov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_filipp_golikov } #Check if Filipp Golikov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_filipp_golikov_desc
+			hidden_effect = {
+				#Filipp Golikov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Filipp Golikov"
+								desc = ""
+								picture = GFX_portrait_SOV_filipp_golikov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Filipp Golikov"
+								desc = ""
+								picture = GFX_portrait_SOV_filipp_golikov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Filipp Golikov"
+								desc = ""
+								picture = GFX_portrait_SOV_filipp_golikov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Filipp Golikov"
+								desc = ""
+								picture = GFX_portrait_SOV_filipp_golikov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_filipp_golikov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Yakov Cherevichenko
+	pfp_army_leader_sov_yakov_cherevichenko = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_yakov_cherevichenko #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_yakov_cherevichenko } #Check if Yakov Cherevichenko is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_yakov_cherevichenko_desc
+			hidden_effect = {
+				#Yakov Cherevichenko
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yakov Cherevichenko"
+								desc = ""
+								picture = GFX_portrait_SOV_yakov_cherevichenko
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yakov Cherevichenko"
+								desc = ""
+								picture = GFX_portrait_SOV_yakov_cherevichenko
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yakov Cherevichenko"
+								desc = ""
+								picture = GFX_portrait_SOV_yakov_cherevichenko
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Yakov Cherevichenko"
+								desc = ""
+								picture = GFX_portrait_SOV_yakov_cherevichenko
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_yakov_cherevichenko
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Nikandr Chibisov
+	pfp_army_leader_sov_nikandr_chibisov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_nikandr_chibisov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_nikandr_chibisov } #Check if Nikandr Chibisov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_nikandr_chibisov_desc
+			hidden_effect = {
+				#Nikandr Chibisov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikandr Chibisov"
+								desc = ""
+								picture = GFX_portrait_SOV_nikandr_chibisov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikandr Chibisov"
+								desc = ""
+								picture = GFX_portrait_SOV_nikandr_chibisov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikandr Chibisov"
+								desc = ""
+								picture = GFX_portrait_SOV_nikandr_chibisov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikandr Chibisov"
+								desc = ""
+								picture = GFX_portrait_SOV_nikandr_chibisov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_nikandr_chibisov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Vasily Kuznetsov
+	pfp_army_leader_sov_vasily_kuznetsov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_vasily_kuznetsov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_vasily_kuznetsov } #Check if Vasily Kuznetsov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_vasily_kuznetsov_desc
+			hidden_effect = {
+				#Vasily Kuznetsov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Kuznetsov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_kuznetsov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Kuznetsov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_kuznetsov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Kuznetsov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_kuznetsov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Kuznetsov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_kuznetsov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_vasily_kuznetsov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Andrey Vlasov
+	pfp_army_leader_sov_andrey_vlasov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_andrey_vlasov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_andrey_vlasov } #Check if Andrey Vlasov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_andrey_vlasov_desc
+			hidden_effect = {
+				#Andrey Vlasov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Vlasov"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_vlasov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Vlasov"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_vlasov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Vlasov"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_vlasov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Vlasov"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_vlasov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_andrey_vlasov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Maksim Purkayev
+	pfp_army_leader_sov_maksim_purkayev = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_maksim_purkayev #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_maksim_purkayev } #Check if Maksim Purkayev is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_maksim_purkayev_desc
+			hidden_effect = {
+				#Maksim Purkayev
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maksim Purkayev"
+								desc = ""
+								picture = GFX_portrait_SOV_maksim_purkayev
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maksim Purkayev"
+								desc = ""
+								picture = GFX_portrait_SOV_maksim_purkayev
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maksim Purkayev"
+								desc = ""
+								picture = GFX_portrait_SOV_maksim_purkayev
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maksim Purkayev"
+								desc = ""
+								picture = GFX_portrait_SOV_maksim_purkayev
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_maksim_purkayev
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Nikolay Berzarin
+	pfp_army_leader_sov_nikolay_berzarin = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_nikolay_berzarin #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_nikolay_berzarin } #Check if Nikolay Berzarin is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_nikolay_berzarin_desc
+			hidden_effect = {
+				#Nikolay Berzarin
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikolay Berzarin"
+								desc = ""
+								picture = GFX_portrait_SOV_nikolay_berzarin
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikolay Berzarin"
+								desc = ""
+								picture = GFX_portrait_SOV_nikolay_berzarin
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikolay Berzarin"
+								desc = ""
+								picture = GFX_portrait_SOV_nikolay_berzarin
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Nikolay Berzarin"
+								desc = ""
+								picture = GFX_portrait_SOV_nikolay_berzarin
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_nikolay_berzarin
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Aleksandr Gorbatov
+	pfp_army_leader_sov_aleksandr_gorbatov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_aleksandr_gorbatov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_aleksandr_gorbatov } #Check if Aleksandr Gorbatov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_aleksandr_gorbatov_desc
+			hidden_effect = {
+				#Aleksandr Gorbatov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Gorbatov"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_gorbatov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Gorbatov"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_gorbatov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Gorbatov"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_gorbatov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Aleksandr Gorbatov"
+								desc = ""
+								picture = GFX_portrait_SOV_aleksandr_gorbatov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_aleksandr_gorbatov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kirill Moskalenko
+	pfp_army_leader_sov_kirill_moskalenko = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_kirill_moskalenko #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_kirill_moskalenko } #Check if Kirill Moskalenko is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_kirill_moskalenko_desc
+			hidden_effect = {
+				#Kirill Moskalenko
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kirill Moskalenko"
+								desc = ""
+								picture = GFX_portrait_SOV_kirill_moskalenko
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kirill Moskalenko"
+								desc = ""
+								picture = GFX_portrait_SOV_kirill_moskalenko
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kirill Moskalenko"
+								desc = ""
+								picture = GFX_portrait_SOV_kirill_moskalenko
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kirill Moskalenko"
+								desc = ""
+								picture = GFX_portrait_SOV_kirill_moskalenko
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_kirill_moskalenko
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Andrey Grechko
+	pfp_army_leader_sov_andrey_grechko = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_andrey_grechko #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_andrey_grechko } #Check if Andrey Grechko is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_andrey_grechko_desc
+			hidden_effect = {
+				#Andrey Grechko
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Grechko"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_grechko
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Grechko"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_grechko
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Grechko"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_grechko
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Grechko"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_grechko
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_andrey_grechko
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Vitaly Primakov
+	pfp_army_leader_sov_vitaly_primakov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_vitaly_primakov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_vitaly_primakov } #Check if Vitaly Primakov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_vitaly_primakov_desc
+			hidden_effect = {
+				#Vitaly Primakov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vitaly Primakov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_primakov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vitaly Primakov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_primakov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vitaly Primakov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_primakov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vitaly Primakov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_primakov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_vitaly_primakov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Markian Popov
+	pfp_army_leader_sov_markian_popov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_markian_popov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_markian_popov } #Check if Markian Popov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_markian_popov_desc
+			hidden_effect = {
+				#Markian Popov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Markian Popov"
+								desc = ""
+								picture = GFX_portrait_SOV_markian_popov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Markian Popov"
+								desc = ""
+								picture = GFX_portrait_SOV_markian_popov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Markian Popov"
+								desc = ""
+								picture = GFX_portrait_SOV_markian_popov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Markian Popov"
+								desc = ""
+								picture = GFX_portrait_SOV_markian_popov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_markian_popov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Ivan Chernyakhovsky
+	pfp_army_leader_sov_ivan_chernyakhovsky = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_ivan_chernyakhovsky #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_ivan_chernyakhovsky } #Check if Ivan Chernyakhovsky is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_ivan_chernyakhovsky_desc
+			hidden_effect = {
+				#Ivan Chernyakhovsky
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Chernyakhovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_chernyakhovsky
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Chernyakhovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_chernyakhovsky
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Chernyakhovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_chernyakhovsky
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Chernyakhovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_chernyakhovsky
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_ivan_chernyakhovsky
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Issa Pilyev
+	pfp_army_leader_sov_issa_pilyev = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_issa_pilyev #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_issa_pilyev } #Check if Issa Pilyev is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_issa_pilyev_desc
+			hidden_effect = {
+				#Issa Pilyev
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Issa Pilyev"
+								desc = ""
+								picture = GFX_portrait_SOV_issa_pilyev
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Issa Pilyev"
+								desc = ""
+								picture = GFX_portrait_SOV_issa_pilyev
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Issa Pilyev"
+								desc = ""
+								picture = GFX_portrait_SOV_issa_pilyev
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Issa Pilyev"
+								desc = ""
+								picture = GFX_portrait_SOV_issa_pilyev
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_issa_pilyev
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Grigory Kulik
+	pfp_army_leader_sov_grigory_kulik = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_grigory_kulik #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_grigory_kulik } #Check if Grigory Kulik is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_grigory_kulik_desc
+			hidden_effect = {
+				#Grigory Kulik
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Grigory Kulik"
+								desc = ""
+								picture = GFX_portrait_SOV_grigory_kulik
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Grigory Kulik"
+								desc = ""
+								picture = GFX_portrait_SOV_grigory_kulik
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Grigory Kulik"
+								desc = ""
+								picture = GFX_portrait_SOV_grigory_kulik
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Grigory Kulik"
+								desc = ""
+								picture = GFX_portrait_SOV_grigory_kulik
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_grigory_kulik
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Andrey Yeryomenko
+	pfp_army_leader_sov_andrey_yeryomenko = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_andrey_yeryomenko #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_andrey_yeryomenko } #Check if Andrey Yeryomenko is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_andrey_yeryomenko_desc
+			hidden_effect = {
+				#Andrey Yeryomenko
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Yeryomenko"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_yeryomenko
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Yeryomenko"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_yeryomenko
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Yeryomenko"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_yeryomenko
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Andrey Yeryomenko"
+								desc = ""
+								picture = GFX_portrait_SOV_andrey_yeryomenko
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_andrey_yeryomenko
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Georgy Zakharov
+	pfp_army_leader_sov_georgy_zakharov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_georgy_zakharov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_georgy_zakharov } #Check if Georgy Zakharov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_georgy_zakharov_desc
+			hidden_effect = {
+				#Georgy Zakharov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Georgy Zakharov"
+								desc = ""
+								picture = GFX_portrait_SOV_georgy_zakharov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Georgy Zakharov"
+								desc = ""
+								picture = GFX_portrait_SOV_georgy_zakharov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Georgy Zakharov"
+								desc = ""
+								picture = GFX_portrait_SOV_georgy_zakharov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Georgy Zakharov"
+								desc = ""
+								picture = GFX_portrait_SOV_georgy_zakharov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_georgy_zakharov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Maks Reyter
+	pfp_army_leader_sov_maks_reyter = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_maks_reyter #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_maks_reyter } #Check if Maks Reyter is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_maks_reyter_desc
+			hidden_effect = {
+				#Maks Reyter
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maks Reyter"
+								desc = ""
+								picture = GFX_portrait_SOV_maks_reyter
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maks Reyter"
+								desc = ""
+								picture = GFX_portrait_SOV_maks_reyter
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maks Reyter"
+								desc = ""
+								picture = GFX_portrait_SOV_maks_reyter
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Maks Reyter"
+								desc = ""
+								picture = GFX_portrait_SOV_maks_reyter
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_maks_reyter
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Ivan Fedyuninsky
+	pfp_army_leader_sov_ivan_fedyuninsky = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_ivan_fedyuninsky #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_ivan_fedyuninsky } #Check if Ivan Fedyuninsky is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_ivan_fedyuninsky_desc
+			hidden_effect = {
+				#Ivan Fedyuninsky
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Fedyuninsky"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_fedyuninsky
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Fedyuninsky"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_fedyuninsky
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Fedyuninsky"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_fedyuninsky
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Ivan Fedyuninsky"
+								desc = ""
+								picture = GFX_portrait_SOV_ivan_fedyuninsky
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_ivan_fedyuninsky
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Kuzma Galitsky
+	pfp_army_leader_sov_kuzma_galitsky = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_kuzma_galitsky #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_kuzma_galitsky } #Check if Kuzma Galitsky is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_kuzma_galitsky_desc
+			hidden_effect = {
+				#Kuzma Galitsky
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kuzma Galitsky"
+								desc = ""
+								picture = GFX_portrait_SOV_kuzma_galitsky
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kuzma Galitsky"
+								desc = ""
+								picture = GFX_portrait_SOV_kuzma_galitsky
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kuzma Galitsky"
+								desc = ""
+								picture = GFX_portrait_SOV_kuzma_galitsky
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Kuzma Galitsky"
+								desc = ""
+								picture = GFX_portrait_SOV_kuzma_galitsky
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_kuzma_galitsky
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Dmitry Lelyushenko
+	pfp_army_leader_sov_dmitry_lelyushenko = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_dmitry_lelyushenko #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_dmitry_lelyushenko } #Check if Dmitry Lelyushenko is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_dmitry_lelyushenko_desc
+			hidden_effect = {
+				#Dmitry Lelyushenko
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Dmitry Lelyushenko"
+								desc = ""
+								picture = GFX_portrait_SOV_dmitry_lelyushenko
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Dmitry Lelyushenko"
+								desc = ""
+								picture = GFX_portrait_SOV_dmitry_lelyushenko
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Dmitry Lelyushenko"
+								desc = ""
+								picture = GFX_portrait_SOV_dmitry_lelyushenko
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Dmitry Lelyushenko"
+								desc = ""
+								picture = GFX_portrait_SOV_dmitry_lelyushenko
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_dmitry_lelyushenko
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Rodion Malinovsky
+	pfp_army_leader_sov_rodion_malinovsky = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_rodion_malinovsky #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_rodion_malinovsky } #Check if Rodion Malinovsky is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_rodion_malinovsky_desc
+			hidden_effect = {
+				#Rodion Malinovsky
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rodion Malinovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_rodion_malinovsky
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rodion Malinovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_rodion_malinovsky
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rodion Malinovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_rodion_malinovsky
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Rodion Malinovsky"
+								desc = ""
+								picture = GFX_portrait_SOV_rodion_malinovsky
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_rodion_malinovsky
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Vasily Chuykov
+	pfp_army_leader_sov_vasily_chuykov = {
+		visible = {
+			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
+			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			original_tag = SOV #Check if country is Soviet Union
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+			}
+
+			has_character = SOV_vasily_chuykov #Check if country has character
+			NOT = {  has_global_flag = pfp_sov_vasily_chuykov } #Check if Vasily Chuykov is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_sov_vasily_chuykov_desc
+			hidden_effect = {
+				#Vasily Chuykov
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+
+				FROM = {
+					if = {
+						limit = { has_government = democratic }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Chuykov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_chuykov
+								ideology = conservatism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = communism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Chuykov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_chuykov
+								ideology = marxism
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = fascism }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Chuykov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_chuykov
+								ideology = fascism_ideology
+							}
+						}
+					}
+					else_if = {
+						limit = { has_government = neutrality }
+						var:FROM.pfp_puppet_selection = {
+							create_country_leader = {
+								name = "Vasily Chuykov"
+								desc = ""
+								picture = GFX_portrait_SOV_vasily_chuykov
+								ideology = despotism
+							}
+						}
+					}
+				}
+				set_global_flag = pfp_sov_vasily_chuykov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

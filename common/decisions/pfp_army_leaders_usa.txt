@@ -265,6 +265,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_dwight_d_eisenhower #Check if country has character
 			NOT = { has_global_flag = pfp_usa_dwight_d_eisenhower } #Check if Dwight D. Eisenhower is currently puppet leader
 		}
 		complete_effect = {
@@ -336,6 +337,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = USA_douglas_macarthur #Check if country has character
 			NOT = { has_global_flag = pfp_usa_douglas_macarthur } #Check if Douglas MacArthur is already a leader
 		}
 		complete_effect = {
@@ -407,6 +409,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = USA_george_s_patton #Check if country has character
 			NOT = { has_global_flag = pfp_usa_george_s_patton } #Check if George S. Patton is already a leader
 		}
 		complete_effect = {
@@ -478,6 +481,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_omar_bradley #Check if country has character
 			NOT = {  has_global_flag = pfp_usa_omar_bradley } #Check if Omar Bradley is already a leader
 		}
 		complete_effect = {
@@ -549,6 +553,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_mark_clark #Check if country has character
 			NOT = { has_global_flag = pfp_usa_mark_clark } #Check if Mark W. Clark is already a leader
 		}
 		complete_effect = {
@@ -620,6 +625,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_courtney_hodges #Check if country has character
 			NOT = { has_global_flag = pfp_usa_courtney_hodges } #Check if Courtney Hodges is already a leader
 		}
 		complete_effect = {
@@ -691,6 +697,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_lucian_truscott #Check if country has character
 			NOT = { has_global_flag = pfp_usa_lucian_truscott } #Check if Lucian Truscott is already a leader
 		}
 		complete_effect = {
@@ -762,6 +769,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_walter_krueger #Check if country has character
 			NOT = { has_global_flag = pfp_usa_walter_krueger } #Check if Walter Krueger is already a leader
 		}
 		complete_effect = {
@@ -833,6 +841,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_leslie_mcnair #Check if country has character
 			NOT = { has_global_flag = pfp_usa_leslie_mcnair } #Check if Leslie McNair is already a leader
 		}
 		complete_effect = {
@@ -903,6 +912,8 @@ pfp_category_leaders = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 			}
+
+			has_character = USA_leonard_gerow #Check if country has character
 			NOT = { has_global_flag = pfp_usa_leonard_gerow } #Check if Leonard Gerow is already a leader
 		}
 		complete_effect = {
@@ -974,6 +985,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_alexander_patch #Check if country has character
 			NOT = { has_global_flag = pfp_usa_alexander_patch } #Check if Alexander Patch is already a leader
 		}
 		complete_effect = {
@@ -1045,6 +1057,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_william_simpson #Check if country has character
 			NOT = { has_global_flag = pfp_usa_william_simpson } #Check if William Simpson is already a leader
 		}
 		complete_effect = {
@@ -1116,6 +1129,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_j_lawton_collins #Check if country has character
 			NOT = { has_global_flag = pfp_usa_j_lawton_collins } #Check if J. Lawton Collins is already a leader
 		}
 		complete_effect = {
@@ -1187,6 +1201,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_maurice_rose #Check if country has character
 			NOT = { has_global_flag = pfp_usa_maurice_rose } #Check if Maurice Rose is already a leader
 		}
 		complete_effect = {
@@ -1258,6 +1273,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_alexander_vandegrift #Check if country has character
 			NOT = { has_global_flag = pfp_usa_alexander_vandegrift } #Check if Alexander Vandegrift is already a leader
 		}
 		complete_effect = {
@@ -1329,6 +1345,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_geoffrey_keyes #Check if country has character
 			NOT = { has_global_flag = pfp_usa_geoffrey_keyes } #Check if Geoffrey Keyes is already a leader
 		}
 		complete_effect = {
@@ -1400,6 +1417,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_lloyd_fredendall #Check if country has character
 			NOT = { has_global_flag = pfp_usa_lloyd_fredendall } #Check if Lloyd Fredendall is already a leader
 		}
 		complete_effect = {
@@ -1471,6 +1489,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_edward_brooks #Check if country has character
 			NOT = { has_global_flag = pfp_usa_edward_brooks } #Check if Edward Brooks is already a leader
 		}
 		complete_effect = {
@@ -1542,6 +1561,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_clarence_huebner #Check if country has character
 			NOT = { has_global_flag = pfp_usa_clarence_huebner } #Check if Clarence Huebner is already a leader
 		}
 		complete_effect = {
@@ -1613,6 +1633,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_oscar_griswold #Check if country has character
 			NOT = { has_global_flag = pfp_usa_oscar_griswold } #Check if Oscar Griswold is already a leader
 		}
 		complete_effect = {
@@ -1684,6 +1705,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_jonathan_wainwright #Check if country has character
 			NOT = { has_global_flag = pfp_usa_jonathan_wainwright } #Check if Jonathan Wainwright is already a leader
 		}
 		complete_effect = {
@@ -1755,6 +1777,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_russell_hartle #Check if country has character
 			NOT = { has_global_flag = pfp_usa_russell_hartle } #Check if Russell Hartle is already a leader
 		}
 		complete_effect = {
@@ -1826,6 +1849,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = USA_joseph_stilwell #Check if country has character
 			NOT = { has_global_flag = pfp_usa_joseph_stilwell } #Check if Joseph Stilwell is already a leader
 		}
 		complete_effect = {

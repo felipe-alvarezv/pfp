@@ -282,6 +282,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_alan_brooke #Check if country has character
 			NOT = { has_global_flag = pfp_eng_alan_brooke } #Check if Alan Brooke is currently puppet leader
 		}
 		complete_effect = {
@@ -353,6 +354,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = ENG_bernard_montgomery #Check if country has character
 			NOT = { has_global_flag = pfp_eng_bernard_montgomery } #Check if Bernard Montgomery is already a leader
 		}
 		complete_effect = {
@@ -424,6 +426,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_claude_auchinleck #Check if country has character
 			NOT = { has_global_flag = pfp_eng_claude_auchinleck } #Check if Claude Auchinleck is currently puppet leader
 		}
 		complete_effect = {
@@ -495,6 +498,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_william_slim #Check if country has character
 			NOT = { has_global_flag = pfp_eng_william_slim } #Check if William Slim is currently puppet leader
 		}
 		complete_effect = {
@@ -566,6 +570,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_harold_alexander #Check if country has character
 			NOT = { has_global_flag = pfp_eng_harold_alexander } #Check if Harold Alexander is currently puppet leader
 		}
 		complete_effect = {
@@ -637,6 +642,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_neil_ritchie #Check if country has character
 			NOT = { has_global_flag = pfp_eng_neil_ritchie } #Check if Neil Ritchie is currently puppet leader
 		}
 		complete_effect = {
@@ -708,6 +714,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_alan_cunningham #Check if country has character
 			NOT = { has_global_flag = pfp_eng_alan_cunningham } #Check if Alan Cunningham is currently puppet leader
 		}
 		complete_effect = {
@@ -779,6 +786,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_richard_oconnor #Check if country has character
 			NOT = { has_global_flag = pfp_eng_richard_oconnor } #Check if Richard O'Connor is currently puppet leader
 		}
 		complete_effect = {
@@ -850,6 +858,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_john_vereker #Check if country has character
 			NOT = { has_global_flag = pfp_eng_john_vereker } #Check if John Vereker is currently puppet leader
 		}
 		complete_effect = {
@@ -921,6 +930,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_henry_wilson #Check if country has character
 			NOT = { has_global_flag = pfp_eng_henry_wilson } #Check if Henry Wilson is currently puppet leader
 		}
 		complete_effect = {
@@ -992,6 +1002,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_jock_campbell #Check if country has character
 			NOT = { has_global_flag = pfp_eng_jock_campbell } #Check if Jock Campbell is currently puppet leader
 		}
 		complete_effect = {
@@ -1063,6 +1074,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_oliver_leese #Check if country has character
 			NOT = { has_global_flag = pfp_eng_oliver_leese } #Check if Oliver Leese is currently puppet leader
 		}
 		complete_effect = {
@@ -1134,6 +1146,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_miles_dempsey #Check if country has character
 			NOT = { has_global_flag = pfp_eng_miles_dempsey } #Check if Miles Dempsey is currently puppet leader
 		}
 		complete_effect = {
@@ -1205,6 +1218,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_archibald_wavell #Check if country has character
 			NOT = { has_global_flag = pfp_eng_archibald_wavell } #Check if Archibald Wavell is currently puppet leader
 		}
 		complete_effect = {
@@ -1276,6 +1290,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_william_platt #Check if country has character
 			NOT = { has_global_flag = pfp_eng_william_platt } #Check if William Platt is currently puppet leader
 		}
 		complete_effect = {
@@ -1347,6 +1362,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_george_giffard #Check if country has character
 			NOT = { has_global_flag = pfp_eng_george_giffard } #Check if George Giffard is currently puppet leader
 		}
 		complete_effect = {
@@ -1418,6 +1434,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_william_gott #Check if country has character
 			NOT = { has_global_flag = pfp_eng_william_gott } #Check if William Gott is currently puppet leader
 		}
 		complete_effect = {
@@ -1489,6 +1506,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_brian_horrocks #Check if country has character
 			NOT = { has_global_flag = pfp_eng_brian_horrocks } #Check if Brian Horrocks is currently puppet leader
 		}
 		complete_effect = {
@@ -1560,6 +1578,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_thomas_jacomb_hutton #Check if country has character
 			NOT = { has_global_flag = pfp_eng_thomas_jacomb_hutton } #Check if Thomas Jacomb Hutton is currently puppet leader
 		}
 		complete_effect = {
@@ -1631,6 +1650,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_arthur_percival #Check if country has character
 			NOT = { has_global_flag = pfp_eng_arthur_percival } #Check if Arthur Percival is currently puppet leader
 		}
 		complete_effect = {
@@ -1702,6 +1722,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_henry_pownall #Check if country has character
 			NOT = { has_global_flag = pfp_eng_henry_pownall } #Check if Henry Pownall is currently puppet leader
 		}
 		complete_effect = {
@@ -1773,6 +1794,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_jackie_smyth #Check if country has character
 			NOT = { has_global_flag = pfp_eng_jackie_smyth } #Check if Jackie Smyth is currently puppet leader
 		}
 		complete_effect = {
@@ -1844,6 +1866,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_merton_beckwithsmith #Check if country has character
 			NOT = { has_global_flag = pfp_eng_merton_beckwithsmith } #Check if Merton Beckwith-Smith is currently puppet leader
 		}
 		complete_effect = {
@@ -1915,6 +1938,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ENG_thomas_moore #Check if country has character
 			NOT = { has_global_flag = pfp_eng_thomas_moore } #Check if Tom Moore is currently puppet leader
 		}
 		complete_effect = {

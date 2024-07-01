@@ -185,6 +185,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_maxime_weygand #Check if country has character
 			NOT = { has_global_flag = pfp_fra_maxime_weygand } #Check if Maxime Weygand is currently puppet leader
 		}
 		complete_effect = {
@@ -256,6 +257,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = FRA_alphonse_georges #Check if country has character
 			NOT = { has_global_flag = pfp_fra_alphonse_georges } #Check if Alphonse Georges is already a leader
 		}
 		complete_effect = {
@@ -327,6 +329,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_maurice_gamelin #Check if country has character
 			NOT = { has_global_flag = pfp_fra_maurice_gamelin } #Check if Maurice Gamelin is currently puppet leader
 		}
 		complete_effect = {
@@ -398,6 +401,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_antoinemariebenoit_besson #Check if country has character
 			NOT = { has_global_flag = pfp_fra_antoinemariebenoit_besson } #Check if Antoine-Marie-Benoit Besson is currently puppet leader
 		}
 		complete_effect = {
@@ -469,6 +473,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_jean_de_lattre_de_tassigny #Check if country has character
 			NOT = { has_global_flag = pfp_fra_jean_de_lattre_de_tassigny } #Check if Jean de Lattre de Tassigny is currently puppet leader
 		}
 		complete_effect = {
@@ -540,6 +545,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_alphonse_juin #Check if country has character
 			NOT = { has_global_flag = pfp_fra_alphonse_juin } #Check if Alphonese Juin is currently puppet leader
 		}
 		complete_effect = {
@@ -611,6 +617,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_charles_de_gaulle #Check if country has character
 			NOT = { has_global_flag = pfp_fra_charles_de_gaulle } #Check if Charles de Gaulle is currently puppet leader
 		}
 		complete_effect = {
@@ -682,6 +689,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_philippe_leclerc #Check if country has character
 			NOT = { has_global_flag = pfp_fra_philippe_leclerc } #Check if Philippe Leclerc is currently puppet leader
 		}
 		complete_effect = {
@@ -753,6 +761,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_henri_giraud #Check if country has character
 			NOT = { has_global_flag = pfp_fra_henri_giraud } #Check if Henri Giraud is currently puppet leader
 		}
 		complete_effect = {
@@ -824,6 +833,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_charles_huntziger #Check if country has character
 			NOT = { has_global_flag = pfp_fra_charles_huntziger } #Check if Charles Huntziger is currently puppet leader
 		}
 		complete_effect = {
@@ -895,6 +905,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_rene_olry #Check if country has character
 			NOT = { has_global_flag = pfp_fra_rene_olry } #Check if Rene Olry is currently puppet leader
 		}
 		complete_effect = {
@@ -966,6 +977,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_gastonhenri_billotte #Check if country has character
 			NOT = { has_global_flag = pfp_fra_gastonhenri_billotte } #Check if Gaston-Henri Billotte is currently puppet leader
 		}
 		complete_effect = {
@@ -1037,6 +1049,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = FRA_henry_freydenberg #Check if country has character
 			NOT = { has_global_flag = pfp_fra_henry_freydenberg } #Check if Henry Freydenberg is currently puppet leader
 		}
 		complete_effect = {

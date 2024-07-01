@@ -306,6 +306,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_hisaichi_terauchi #Check if country has character
 			NOT = { has_global_flag = pfp_jap_hisaichi_terauchi } #Check if Hisaichi Terauchi is currently puppet leader
 		}
 		complete_effect = {
@@ -377,6 +378,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = JAP_shunroku_hata #Check if country has character
 			NOT = { has_global_flag = pfp_jap_shunroku_hata } #Check if Shunroku Hata is already a leader
 		}
 		complete_effect = {
@@ -448,6 +450,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_tomoyuki_yamashita #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_tomoyuki_yamashita } #Check if Tomoyuki Yamashita is already a leader
 		}
 		complete_effect = {
@@ -519,6 +522,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_shizuichi_tanaka #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_shizuichi_tanaka } #Check if Shizuichi Tanaka is already a leader
 		}
 		complete_effect = {
@@ -590,6 +594,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_kenkichi_ueda #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_kenkichi_ueda } #Check if Kenkichi Ueda is already a leader
 		}
 		complete_effect = {
@@ -661,6 +666,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_toshizo_nishio #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_toshizo_nishio } #Check if Toshizo Nishio is already a leader
 		}
 		complete_effect = {
@@ -732,6 +738,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_rikichi_ando #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_rikichi_ando } #Check if Rikichi Ando is already a leader
 		}
 		complete_effect = {
@@ -803,6 +810,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_naruhiko_higashikuni #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_naruhiko_higashikuni } #Check if Naruhiko Higashikuni is already a leader
 		}
 		complete_effect = {
@@ -874,6 +882,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_seishiro_itagaki #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_seishiro_itagaki } #Check if Seishiro Itagaki is already a leader
 		}
 		complete_effect = {
@@ -945,6 +954,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_takashi_sakai #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_takashi_sakai } #Check if Takashi Sakai is already a leader
 		}
 		complete_effect = {
@@ -1016,6 +1026,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_yoshijiro_umezu #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_yoshijiro_umezu } #Check if Yoshijiro Umezu is already a leader
 		}
 		complete_effect = {
@@ -1087,6 +1098,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_otozo_yamada #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_otozo_yamada } #Check if Otozo Yamada is already a leader
 		}
 		complete_effect = {
@@ -1158,6 +1170,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_keisuke_fujie #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_keisuke_fujie } #Check if Keisuke Fujie is already a leader
 		}
 		complete_effect = {
@@ -1229,6 +1242,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_harukichi_hyakutake #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_harukichi_hyakutake} #Check if Harukichi Hyakutake is already a leader
 		}
 		complete_effect = {
@@ -1300,6 +1314,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_hitoshi_imamura #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_hitoshi_imamura } #Check if Hitoshi Imamura is already a leader
 		}
 		complete_effect = {
@@ -1371,6 +1386,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_akira_muto #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_akira_muto } #Check if Akira Muto is already a leader
 		}
 		complete_effect = {
@@ -1442,6 +1458,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_hatazo_adachi #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_hatazo_adachi } #Check if Hatazo Adachi is already a leader
 		}
 		complete_effect = {
@@ -1513,6 +1530,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_sadao_araki #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_sadao_araki } #Check if Sadao Araki is already a leader
 		}
 		complete_effect = {
@@ -1584,6 +1602,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_kiichiro_higuchi #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_kiichiro_higuchi } #Check if Kiichiro Higuchi is already a leader
 		}
 		complete_effect = {
@@ -1655,6 +1674,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_masaharu_homma #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_masaharu_homma } #Check if Masaharu Homma is already a leader
 		}
 		complete_effect = {
@@ -1726,6 +1746,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_jo_iimura #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_jo_iimura } #Check if Jo Iimura is already a leader
 		}
 		complete_effect = {
@@ -1797,6 +1818,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_masatane_kanda #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_masatane_kanda } #Check if Masatane Kanda is already a leader
 		}
 		complete_effect = {
@@ -1868,6 +1890,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_kuniaki_koiso #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_kuniaki_koiso } #Check if Kuniaki Koiso is already a leader
 		}
 		complete_effect = {
@@ -1939,6 +1962,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_kanji_ishiwara #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_kanji_ishiwara } #Check if Kanji Ishiwara is already a leader
 		}
 		complete_effect = {
@@ -2010,6 +2034,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_yasuji_okamura #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_yasuji_okamura } #Check if Yasuji Okamura is already a leader
 		}
 		complete_effect = {
@@ -2081,6 +2106,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_kenji_doihara #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_kenji_doihara } #Check if Kenji Doihara is already a leader
 		}
 		complete_effect = {
@@ -2152,6 +2178,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_shigeru_honjo #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_shigeru_honjo } #Check if Shigeru Honjo is already a leader
 		}
 		complete_effect = {
@@ -2223,6 +2250,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = JAP_iwane_matsui #Check if country has character
 			NOT = {  has_global_flag = pfp_jap_iwane_matsui } #Check if Iwane Matsui is already a leader
 		}
 		complete_effect = {

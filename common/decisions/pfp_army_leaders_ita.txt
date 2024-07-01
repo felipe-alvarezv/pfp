@@ -289,6 +289,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_rodolfo_graziani #Check if country has character
 			NOT = { has_global_flag = pfp_ita_rodolfo_graziani } #Check if Rodolfo Graziani is currently puppet leader
 		}
 		complete_effect = {
@@ -360,6 +361,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = ITA_pietro_badoglio #Check if country has character
 			NOT = { has_global_flag = pfp_ita_pietro_badoglio } #Check if Pietro Badoglio is already a leader
 		}
 		complete_effect = {
@@ -431,6 +433,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_emilio_de_bono #Check if country has character
 			NOT = { has_global_flag = pfp_ita_emilio_de_bono } #Check if Emilio De Bono is currently puppet leader
 		}
 		complete_effect = {
@@ -502,6 +505,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_italo_balbo #Check if country has character
 			NOT = { has_global_flag = pfp_ita_italo_balbo } #Check if Italo Balbo is currently puppet leader
 		}
 		complete_effect = {
@@ -573,6 +577,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_giovanni_messe #Check if country has character
 			NOT = { has_global_flag = pfp_ita_giovanni_messe } #Check if Giovanni Messe is currently puppet leader
 		}
 		complete_effect = {
@@ -644,6 +649,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_ugo_cavallero #Check if country has character
 			NOT = { has_global_flag = pfp_ita_ugo_cavallero } #Check if Ugo Cavallero is currently puppet leader
 		}
 		complete_effect = {
@@ -715,6 +721,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_ettore_baldassarre #Check if country has character
 			NOT = { has_global_flag = pfp_ita_ettore_baldasarre } #Check if Ettore Baldassarre is currently puppet leader
 		}
 		complete_effect = {
@@ -786,6 +793,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_sebastiano_visconti_prasca #Check if country has character
 			NOT = { has_global_flag = pfp_ita_sebastiano_visconti_prasca } #Check if Sebastiano Visconti Prasca is currently puppet leader
 		}
 		complete_effect = {
@@ -857,6 +865,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_ubaldo_soddu #Check if country has character
 			NOT = { has_global_flag = pfp_ita_ubaldo_soddu } #Check if Ubaldo Soddu is currently puppet leader
 		}
 		complete_effect = {
@@ -928,6 +937,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_ettore_bastico #Check if country has character
 			NOT = { has_global_flag = pfp_ita_ettore_bastico } #Check if Ettore Bastico is currently puppet leader
 		}
 		complete_effect = {
@@ -999,6 +1009,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_italo_gariboldi #Check if country has character
 			NOT = { has_global_flag = pfp_ita_italo_gariboldi } #Check if Italo Gariboldi is currently puppet leader
 		}
 		complete_effect = {
@@ -1070,6 +1081,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_vittorio_ambrosio #Check if country has character
 			NOT = { has_global_flag = pfp_ita_vittorio_ambrosio } #Check if Vittorio Ambrosio is currently puppet leader
 		}
 		complete_effect = {
@@ -1141,6 +1153,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_alfredo_guzzoni #Check if country has character
 			NOT = { has_global_flag = pfp_ita_alfredo_guzzoni } #Check if Alfredo Guzzoni is currently puppet leader
 		}
 		complete_effect = {
@@ -1212,6 +1225,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_pietro_pintor #Check if country has character
 			NOT = { has_global_flag = pfp_ita_pietro_pintor } #Check if Pietro Pintor is currently puppet leader
 		}
 		complete_effect = {
@@ -1283,6 +1297,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_mario_berti #Check if country has character
 			NOT = { has_global_flag = pfp_ita_mario_berti } #Check if Mario Berti is currently puppet leader
 		}
 		complete_effect = {
@@ -1354,6 +1369,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_carlo_geloso #Check if country has character
 			NOT = { has_global_flag = pfp_ita_carlo_geloso } #Check if Carlo Geloso is currently puppet leader
 		}
 		complete_effect = {
@@ -1425,6 +1441,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_giuseppe_tellera #Check if country has character
 			NOT = { has_global_flag = pfp_ita_giuseppe_tellera } #Check if Giuseppe Tellera is currently puppet leader
 		}
 		complete_effect = {
@@ -1496,6 +1513,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_francesco_zingales #Check if country has character
 			NOT = { has_global_flag = pfp_ita_francesco_zingales } #Check if Francesco Zingales is currently puppet leader
 		}
 		complete_effect = {
@@ -1567,6 +1585,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_ezio_rosi #Check if country has character
 			NOT = { has_global_flag = pfp_ita_ezio_rosi } #Check if Ezio Rosi is currently puppet leader
 		}
 		complete_effect = {
@@ -1638,6 +1657,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_mario_vercellino #Check if country has character
 			NOT = { has_global_flag = pfp_ita_mario_vercellino } #Check if Mario Vercellino is currently puppet leader
 		}
 		complete_effect = {
@@ -1709,6 +1729,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_prince_adalberto #Check if country has character
 			NOT = { has_global_flag = pfp_ita_prince_adalberto } #Check if Prince Adalberto is currently puppet leader
 		}
 		complete_effect = {
@@ -1780,6 +1801,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_prince_umberto #Check if country has character
 			NOT = { has_global_flag = pfp_ita_prince_umberto } #Check if Prince Umberto is currently puppet leader
 		}
 		complete_effect = {
@@ -1851,6 +1873,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_alessandro_pirzio_biroli #Check if country has character
 			NOT = { has_global_flag = pfp_ita_alessandro_pirzio_biroli } #Check if Alessandro Pirzio Biroli is currently puppet leader
 		}
 		complete_effect = {
@@ -1922,6 +1945,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_carlo_vecchiarelli #Check if country has character
 			NOT = { has_global_flag = pfp_ita_carlo_vecchiarelli } #Check if Carlo Vecchiarelli is currently puppet leader
 		}
 		complete_effect = {
@@ -1993,6 +2017,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_mario_robotti #Check if country has character
 			NOT = { has_global_flag = pfp_ita_mario_robotti } #Check if Mario Robotti is currently puppet leader
 		}
 		complete_effect = {
@@ -2064,6 +2089,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = ITA_mario_roatta #Check if country has character
 			NOT = { has_global_flag = pfp_ita_mario_roatta } #Check if Mario Roatta is currently puppet leader
 		}
 		complete_effect = {

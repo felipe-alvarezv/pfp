@@ -305,6 +305,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 
+			has_character = GER_gerd_von_rundstedt #Check if country has character
 			NOT = { has_global_flag = pfp_ger_gerd_von_rundstedt } #Check if Gerd von Rundstedt is currently puppet leader
 		}
 		complete_effect = {
@@ -376,6 +377,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_gunther_von_kluge #Check if country has character
 			NOT = { has_global_flag = pfp_ger_gunther_von_kluge } #Check if Gunther von Kluge is already a leader
 		}
 		complete_effect = {
@@ -447,6 +449,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_walter_model #Check if country has character
 			NOT = { has_global_flag = pfp_ger_walter_model } #Check if Walter Model is already a leader
 		}
 		complete_effect = {
@@ -518,6 +521,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_erwin_rommel #Check if country has character
 			NOT = { has_global_flag = pfp_ger_erwin_rommel } #Check if Erwin Rommel is already a leader
 		}
 		complete_effect = {
@@ -589,6 +593,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_erich_von_manstein #Check if country has character
 			NOT = { has_global_flag = pfp_ger_erich_von_manstein } #Check if Erich von Manstein is already a leader
 		}
 		complete_effect = {
@@ -660,6 +665,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_heinz_guderian #Check if country has character
 			NOT = { has_global_flag = pfp_ger_heinz_guderian } #Check if Heinz Guderian is already a leader
 		}
 		complete_effect = {
@@ -731,6 +737,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_fedor_von_bock #Check if country has character
 			NOT = { has_global_flag = pfp_ger_fedor_von_bock } #Check if Fedor von Bock is already a leader
 		}
 		complete_effect = {
@@ -802,6 +809,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_maximilian_von_weichs #Check if country has character
 			NOT = { has_global_flag = pfp_ger_maximilian_von_weichs } #Check if Maximilian von Weichs is already a leader
 		}
 		complete_effect = {
@@ -873,6 +881,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_kurt_student #Check if country has character
 			NOT = { has_global_flag = pfp_ger_kurt_student } #Check if Kurt Student is already a leader
 		}
 		complete_effect = {
@@ -944,6 +953,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_erwin_von_witzleben #Check if country has character
 			NOT = { has_global_flag = pfp_ger_erwin_von_witzleben } #Check if Erwin von Witzleben is already a leader
 		}
 		complete_effect = {
@@ -1015,6 +1025,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_paul_hausser #Check if country has character
 			NOT = { has_global_flag = pfp_ger_paul_hausser } #Check if Paul Hausser is already a leader
 		}
 		complete_effect = {
@@ -1086,6 +1097,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_georg_von_kuchler #Check if country has character
 			NOT = { has_global_flag = pfp_ger_georg_von_kuchler } #Check if Georg von Kuchler is already a leader
 		}
 		complete_effect = {
@@ -1157,6 +1169,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_sepp_dietrich #Check if country has character
 			NOT = { has_global_flag = pfp_ger_sepp_dietrich } #Check if Sepp Dietrich is already a leader
 		}
 		complete_effect = {
@@ -1228,6 +1241,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_hasso_von_manteuffel #Check if country has character
 			NOT = { has_global_flag = pfp_ger_hasso_von_manteuffel } #Check if Hasso von Manteuffel is already a leader
 		}
 		complete_effect = {
@@ -1299,6 +1313,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_albert_kesselring #Check if country has character
 			NOT = { has_global_flag = pfp_ger_albert_kesselring } #Check if Albert Kesselring is already a leader
 		}
 		complete_effect = {
@@ -1370,6 +1385,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_wilhelm_ritter_von_leeb #Check if country has character
 			NOT = { has_global_flag = pfp_ger_wilhelm_ritter_von_leeb } #Check if Wilhelm Ritter von Leeb is already a leader
 		}
 		complete_effect = {
@@ -1441,6 +1457,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_georghans_reinhardt #Check if country has character
 			NOT = { has_global_flag = pfp_ger_georghans_reinhardt } #Check if Georg-Hans Reinhardt is already a leader
 		}
 		complete_effect = {
@@ -1512,6 +1529,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_walter_kruger #Check if country has character
 			NOT = { has_global_flag = pfp_ger_walter_kruger } #Check if Walter Kruger is already a leader
 		}
 		complete_effect = {
@@ -1583,6 +1601,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_hermann_hoth #Check if country has character
 			NOT = { has_global_flag = pfp_ger_hermann_hoth } #Check if Hermann Hoth is already a leader
 		}
 		complete_effect = {
@@ -1654,6 +1673,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_johannes_blaskowitz #Check if country has character
 			NOT = { has_global_flag = pfp_ger_johannes_blaskowitz } #Check if Johannes Blaskowitz is already a leader
 		}
 		complete_effect = {
@@ -1725,6 +1745,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_friedrich_schulz #Check if country has character
 			NOT = { has_global_flag = pfp_ger_friedrich_schulz } #Check if Friedrich Schulz is already a leader
 		}
 		complete_effect = {
@@ -1796,6 +1817,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_alfred_jodl #Check if country has character
 			NOT = { has_global_flag = pfp_ger_alfred_jodl } #Check if Alfred Jodl is already a leader
 		}
 		complete_effect = {
@@ -1867,6 +1889,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_gotthard_heinrici #Check if country has character
 			NOT = { has_global_flag = pfp_ger_gotthard_heinrici } #Check if Gotthard Heinrici is already a leader
 		}
 		complete_effect = {
@@ -1938,6 +1961,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_ernsteberhard_hell #Check if country has character
 			NOT = { has_global_flag = pfp_ger_ernsteberhard_hell } #Check if Ernst-Eberhard Hell is already a leader
 		}
 		complete_effect = {
@@ -2009,6 +2033,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = ger_felix_steiner #Check if country has character
 			NOT = { has_global_flag = pfp_ger_felix_steiner } #Check if Felix Steiner is already a leader
 		}
 		complete_effect = {
@@ -2080,6 +2105,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_wilhelm_list #Check if country has character
 			NOT = { has_global_flag = pfp_ger_wilhelm_list } #Check if Wilhelm List is already a leader
 		}
 		complete_effect = {
@@ -2151,6 +2177,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_ewald_von_kleist #Check if country has character
 			NOT = { has_global_flag = pfp_ger_ewald_von_kleist } #Check if Ewald von Kleist is already a leader
 		}
 		complete_effect = {
@@ -2222,6 +2249,7 @@ pfp_category_leaders = {
 				has_country_leader = { name = "Military Junta" } 
 			}
 			
+			has_character = GER_friedrich_paulus #Check if country has character
 			NOT = { has_global_flag = pfp_ger_friedrich_paulus } #Check if Friedrich Paulus is already a leader
 		}
 		complete_effect = {
