@@ -183,6 +183,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_maxime_weygand #Check if country has character
@@ -192,7 +193,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_maxime_weygand_desc
 			hidden_effect = {
 				#Maxime Weygand
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -255,6 +256,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 			
 			has_character = FRA_alphonse_georges #Check if country has character
@@ -264,7 +266,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_alphonse_georges_desc
 			hidden_effect = {
 				#Alphonse Georges
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -327,6 +329,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_maurice_gamelin #Check if country has character
@@ -336,7 +339,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_maurice_gamelin_desc
 			hidden_effect = {
 				#Maurice Gamelin
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -399,6 +402,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_antoinemariebenoit_besson #Check if country has character
@@ -408,7 +412,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_antoinemariebenoit_besson_desc
 			hidden_effect = {
 				#Antoine-Marie-Benoit Besson
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -471,6 +475,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_jean_de_lattre_de_tassigny #Check if country has character
@@ -480,7 +485,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_jean_de_lattre_de_tassigny_desc
 			hidden_effect = {
 				#Jean de Lattre de Tassigny
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -543,6 +548,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_alphonse_juin #Check if country has character
@@ -552,7 +558,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_alphonse_juin_desc
 			hidden_effect = {
 				#Alphonese Juin
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -615,6 +621,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_charles_de_gaulle #Check if country has character
@@ -624,7 +631,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_charles_de_gaulle_desc
 			hidden_effect = {
 				#Charles de Gaulle
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -687,6 +694,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_philippe_leclerc #Check if country has character
@@ -696,7 +704,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_philippe_leclerc_desc
 			hidden_effect = {
 				#Philippe Leclerc
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -759,6 +767,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_henri_giraud #Check if country has character
@@ -768,7 +777,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_henri_giraud_desc
 			hidden_effect = {
 				#Henri Giraud
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -831,6 +840,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_charles_huntziger #Check if country has character
@@ -840,7 +850,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_charles_huntziger_desc
 			hidden_effect = {
 				#Charles Huntziger
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -903,6 +913,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_rene_olry #Check if country has character
@@ -912,7 +923,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_rene_olry_desc
 			hidden_effect = {
 				#Rene Olry
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -975,6 +986,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_gastonhenri_billotte #Check if country has character
@@ -984,7 +996,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_gastonhenri_billotte_desc
 			hidden_effect = {
 				#Gaston-Henri Billotte
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
@@ -1047,6 +1059,7 @@ pfp_category_leaders = {
 			var:FROM.pfp_puppet_selection = {
 				is_puppet_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
 			has_character = FRA_henry_freydenberg #Check if country has character
@@ -1056,7 +1069,7 @@ pfp_category_leaders = {
 			custom_effect_tooltip = pfp_army_leader_fra_henry_freydenberg_desc
 			hidden_effect = {
 				#Henry Freydenberg
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of West Germany
+				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
 
 				FROM = {
 					if = {
