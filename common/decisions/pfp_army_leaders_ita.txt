@@ -235,7 +235,7 @@ pfp_puppet_management = {
 							create_country_leader = {
 								name = "Military Junta"
 								desc = ""
-								picture = "gfx/leaders/PFP/pfp_democratic.dds"
+								picture = "gfx/leaders/PFP/pfp_american_portrait.dds.dds"
 								ideology = conservatism
 							}
 						}
@@ -246,7 +246,7 @@ pfp_puppet_management = {
 							create_country_leader = {
 								name = "Military Junta"
 								desc = ""
-								picture = "gfx/leaders/PFP/pfp_communism.dds"
+								picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
 								ideology = marxism
 							}
 						}
@@ -257,7 +257,7 @@ pfp_puppet_management = {
 							create_country_leader = {
 								name = "Military Junta"
 								desc = ""
-								picture = "gfx/leaders/PFP/pfp_fascism.dds"
+								picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
 								ideology = fascism_ideology
 							}
 						}
@@ -268,7 +268,7 @@ pfp_puppet_management = {
 							create_country_leader = {
 								name = "Military Junta"
 								desc = ""
-								picture = "gfx/leaders/PFP/pfp_neutrality.dds"
+								picture = "gfx/leaders/PFP/pfp_polish_portrait.dds"
 								ideology = despotism
 							}
 						}

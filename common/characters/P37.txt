@@ -3,7 +3,7 @@ characters={
 		name="Military Junta"
 		portraits={
 			civilian={
-				large="gfx/leaders/PFP/pfp_communism.dds"
+				large="gfx/leaders/PFP/pfp_soviet_portrait.dds"
 			}
 		}
 		country_leader={
@@ -16,7 +16,7 @@ characters={
 		name="Military Junta"
 		portraits={
 			civilian={
-				large="gfx/leaders/PFP/pfp_democratic.dds"
+				large="gfx/leaders/PFP/pfp_american_portrait.dds.dds"
 			}
 		}
 		country_leader={
@@ -29,7 +29,7 @@ characters={
 		name="Military Junta"
 		portraits={
 			civilian={
-				large="gfx/leaders/PFP/pfp_neutrality.dds"
+				large="gfx/leaders/PFP/pfp_polish_portrait.dds"
 			}
 		}
 		country_leader={
@@ -42,7 +42,7 @@ characters={
 		name="Military Junta"
 		portraits={
 			civilian={
-				large="gfx/leaders/PFP/pfp_fascism.dds"
+				large="gfx/leaders/PFP/pfp_german_portrait.dds"
 			}
 		}
 		country_leader={
