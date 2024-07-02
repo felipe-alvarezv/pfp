@@ -66,6 +66,8 @@ l_english:
  zz_pfp_puppet_management_options_back:0 "Deselect Option"
 
  #Appoint Puppet Administration
+ pfp_puppet_management_options_ideology:0 "Change Ruling Party"
+ pfp_puppet_management_no_custom_leader:0 "Does not have an appointed leader."
  pfp_army_leader_appoint_desc:0 "Appoint as head of the military administration."
  pfp_army_leader_dismiss_desc:0 "Dismiss as head of the military administration."
 

@@ -1,7 +1,14 @@
 pfp_puppet_management = {
 	pfp_puppet_management_options_ideology = {
 		allowed = { }
-		available = { }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = pfp_puppet_management_no_custom_leader
+				var:FROM.pfp_puppet_selection = {
+					has_country_leader = { name = "Military Junta" } 
+				}
+			}
+		 }
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
