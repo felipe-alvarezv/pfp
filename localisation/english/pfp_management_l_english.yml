@@ -97,6 +97,7 @@ l_english:
  pfp_army_leader_eng_thomas_moore:0 "Appoint Thomas Moore"
 
  #Appoint Puppet Administration - France
+ pfp_army_leader_dismiss_fra:0 "Dismiss Current Leader"
  pfp_army_leader_fra_maxime_weygand:0 "Appoint Maxime Weygand"
  pfp_army_leader_fra_alphonse_georges:0 "Appoint Alphone Georges"
  pfp_army_leader_fra_maurice_gamelin:0 "Appoint Maurice Gamelin"
@@ -112,6 +113,7 @@ l_english:
  pfp_army_leader_fra_henry_freydenberg:0 "Appoint Henry Freydenberg"
 
  #Appoint Puppet Administration - Germany
+ pfp_army_leader_dismiss_ger:0 "Dismiss Current Leader"
  pfp_army_leader_ger_gerd_von_rundstedt:0 "Appoint Gerd von Rundstedt"
  pfp_army_leader_ger_gunther_von_kluge:0 "Appoint Gunther von Kluge"
  pfp_army_leader_ger_walter_model:0 "Appoint Walter Model"
@@ -142,6 +144,7 @@ l_english:
  pfp_army_leader_ger_friedrich_paulus:0 "Appoint Friedrich Paulus"
  
  #Appoint Puppet Administration - Italy
+ pfp_army_leader_dismiss_ita:0 "Dismiss Current Leader"
  pfp_army_leader_ita_rodolfo_graziani:0 "Appoint Rodolfo Graziani"
  pfp_army_leader_ita_pietro_badoglio:0 "Appoint Pietro Badoglio"
  pfp_army_leader_ita_emilio_de_bono:0 "Appoint Emilio de Bono"
@@ -170,6 +173,7 @@ l_english:
  pfp_army_leader_ita_mario_roatta:0 "Appoint Mario Roatta"
 
  #Appoint Puppet Administration - Japan
+ pfp_army_leader_dismiss_jap:0 "Dismiss Current Leader"
  pfp_army_leader_jap_hisaichi_terauchi:0 "Appoint Hisaichi Terauchi"
  pfp_army_leader_jap_shunroku_hata:0 "Appoint Shunroku Hata"
  pfp_army_leader_jap_tomoyuki_yamashita:0 "Appoint Tomoyuki Yamashita"
@@ -200,6 +204,7 @@ l_english:
  pfp_army_leader_jap_iwane_matsui:0 "Appoint Iwane Matsui"
 
  #Appoint Puppet Administration - Soviet Union
+ pfp_army_leader_dismiss_sov:0 "Dismiss Current Leader"
  pfp_army_leader_sov_mikhail_tukhachevsky:0 "Appoint Mikhail Tukhachevsky"
  pfp_army_leader_sov_aleksandr_yegorov:0 "Appoint Aleksandr Yegorov"
  pfp_army_leader_sov_vasily_blyukher:0 "Appoint Vasily Blyukher"
@@ -238,6 +243,7 @@ l_english:
  pfp_army_leader_sov_vasily_chuykov:0 "Appoint Vasily Chuykov"
 
  #Appoint Puppet Administration - United States
+ pfp_army_leader_dismiss_usa:0 "Dismiss Current Leader"
  pfp_army_leader_usa_dwight_d_eisenhower:0 "Appoint Dwight D. Eisenhower"
  pfp_army_leader_usa_douglas_macarthur:0 "Appoint Douglas MacArthur"
  pfp_army_leader_usa_george_s_patton:0 "Appoint George S. Patton"
