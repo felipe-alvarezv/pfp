@@ -4,4 +4,4 @@ l_english:
  pfp_category_desc:0 "As we gain more territory, it has become a complicated problem to administer all of it. To address this problem, puppet governments loyal to our nation should be established in the regions we have conquered. This will allow us to place our attetion elsewhere, while the region helps our cause."
 
  pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
- pfp_puppet_management_desc:0 "After establishing our military administration, we may need to make adjustments regarding the administration and its leaders."
+ pfp_puppet_management_desc:0 "After establishing our military administration, we may need to make adjustments regarding the administration and its leaders.\n\nCurrent Selection - §R[?FROM.pfp_puppet_selection.GetOldName]§!"

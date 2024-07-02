@@ -15,7 +15,7 @@ pfp_puppet_management = {
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_ita_desc
+			custom_effect_tooltip = pfp_army_leader_dismiss_desc
 			hidden_effect = {
 				if = {
 					limit = {
@@ -296,7 +296,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_rodolfo_graziani } #Check if Rodolfo Graziani is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_rodolfo_graziani_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Rodolfo Graziani
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -370,7 +370,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_pietro_badoglio } #Check if Pietro Badoglio is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_pietro_badoglio_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Pietro Badoglio
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -444,7 +444,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_emilio_de_bono } #Check if Emilio De Bono is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_emilio_de_bono_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Emilio De Bono
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -518,7 +518,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_italo_balbo } #Check if Italo Balbo is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_italo_balbo_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Italo Balbo
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -592,7 +592,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_giovanni_messe } #Check if Giovanni Messe is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_giovanni_messe_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Giovanni Messe
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -666,7 +666,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_ugo_cavallero } #Check if Ugo Cavallero is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_ugo_cavallero_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ugo Cavallero
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -740,7 +740,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_ettore_baldasarre } #Check if Ettore Baldassarre is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_ettore_baldasarre_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ettore Baldassarre
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -814,7 +814,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_sebastiano_visconti_prasca } #Check if Sebastiano Visconti Prasca is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_sebastiano_visconti_prasca_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Sebastiano Visconti Prasca
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -888,7 +888,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_ubaldo_soddu } #Check if Ubaldo Soddu is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_ubaldo_soddu_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ubaldo Soddu
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -962,7 +962,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_ettore_bastico } #Check if Ettore Bastico is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_ettore_bastico_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ettore Bastico
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1036,7 +1036,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_italo_gariboldi } #Check if Italo Gariboldi is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_italo_gariboldi_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Italo Gariboldi
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1110,7 +1110,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_vittorio_ambrosio } #Check if Vittorio Ambrosio is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_vittorio_ambrosio_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Vittorio Ambrosio
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1184,7 +1184,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_alfredo_guzzoni } #Check if Alfredo Guzzoni is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_alfredo_guzzoni_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alfredo Guzzoni
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1258,7 +1258,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_pietro_pintor } #Check if Pietro Pintor is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_pietro_pintor_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Pietro Pintor
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1332,7 +1332,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_mario_berti } #Check if Mario Berti is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_mario_berti_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Mario Berti
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1406,7 +1406,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_carlo_geloso } #Check if Carlo Geloso is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_carlo_geloso_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Carlo Geloso
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1480,7 +1480,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_giuseppe_tellera } #Check if Giuseppe Tellera is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_giuseppe_tellera_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Giuseppe Tellera
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1554,7 +1554,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_francesco_zingales } #Check if Francesco Zingales is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_francesco_zingales_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Francesco Zingales
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1628,7 +1628,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_ezio_rosi } #Check if Ezio Rosi is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_ezio_rosi_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ezio Rosi
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1702,7 +1702,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_mario_vercellino } #Check if Mario Vercellino is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_mario_vercellino_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Mario Vercellino
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1776,7 +1776,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_prince_adalberto } #Check if Prince Adalberto is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_prince_adalberto_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Prince Adalberto
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1850,7 +1850,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_prince_umberto } #Check if Prince Umberto is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_prince_umberto_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Prince Umberto
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1924,7 +1924,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_alessandro_pirzio_biroli } #Check if Alessandro Pirzio Biroli is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_alessandro_pirzio_biroli_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alessandro Pirzio Biroli
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1998,7 +1998,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_carlo_vecchiarelli } #Check if Carlo Vecchiarelli is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_carlo_vecchiarelli_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Carlo Vecchiarelli
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2072,7 +2072,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_mario_robotti } #Check if Mario Robotti is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_mario_robotti_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Mario Robotti
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2146,7 +2146,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_ita_mario_roatta } #Check if Mario Roatta is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_ita_mario_roatta_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Mario Roatta
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader

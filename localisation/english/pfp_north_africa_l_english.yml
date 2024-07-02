@@ -75,15 +75,3 @@ l_english:
  pfp_north_africa_sidi_ifni:0 "Transfer Sidi Ifni"
  pfp_north_africa_coring_states_sidi_ifni:0 "§YNorth Africa§! gains core on §YSidi Ifni§!.\n"
  pfp_north_africa_transfer_states_sidi_ifni:0 "§YNorth Africa§! becomes owner and controller of §YSidi Ifni§!.\n"
-
- #Leader Localisation
- pfp_north_africa_leader_dismiss:0 "Dismiss Leader of North Africa"
- pfp_north_africa_leader_dismiss_information:0 "§YDismiss§! the current leader of North Africa."
- pfp_north_africa_leader_bernard_montgomery:0 "Appoint Bernard Montgomery as Leader of North Africa"
- pfp_north_africa_leader_appoint_bernard_montgomery:0 "§YBernard Montgomery§! is appointed as leader of North Africa."
- pfp_north_africa_leader_erwin_rommel:0 "Appoint Erwin Rommel as Leader of North Africa"
- pfp_north_africa_leader_appoint_erwin_rommel:0 "§YErwin Rommel§! is appointed as leader of North Africa."
- pfp_north_africa_leader_ettore_bastico:0 "Appoint Ettore Bastico as Leader of North Africa"
- pfp_north_africa_leader_appoint_ettore_bastico:0 "§YEttore Bastico§! is appointed as leader of North Africa."
- pfp_north_africa_leader_farouk_muhammad_ali:0 "Appoint Farouk Muhammad Ali as Leader of North Africa"
- pfp_north_africa_leader_appoint_farouk_muhammad_ali:0 "§YFarouk Muhammad Ali§! is appointed as leader of North Africa."

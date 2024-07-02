@@ -15,7 +15,7 @@ pfp_puppet_management = {
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_sov_desc
+			custom_effect_tooltip = pfp_army_leader_dismiss_desc
 			hidden_effect = {
 				if = {
 					limit = {
@@ -384,7 +384,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_sov_mikhail_tukhachevsky } #Check if Mikhail Tukhachevsky is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_mikhail_tukhachevsky_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Mikhail Tukhachevsky
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -458,7 +458,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_sov_aleksandr_yegorov } #Check if Aleksandr Yegorov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_aleksandr_yegorov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Aleksandr Yegorov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -532,7 +532,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_sov_vasily_blyukher } #Check if Vasily Blyukher is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_vasily_blyukher_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Vasily Blyukher
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -606,7 +606,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_kliment_voroshilov } #Check if Kliment Voroshilov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_kliment_voroshilov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kliment Voroshilov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -680,7 +680,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_semyon_budyonny } #Check if Semyon Budyonny is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_semyon_budyonny_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Semyon Budyonny
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -754,7 +754,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_georgy_zhukov } #Check if Georgy Zhukov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_georgy_zhukov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Georgy Zhukov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -828,7 +828,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_ivan_konev } #Check if Ivan Konev is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_ivan_konev_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ivan Konev
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -902,7 +902,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_konstantin_rokossovsky } #Check if Konstantin Rokossovsky is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_konstantin_rokossovsky_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Konstantin Rokossovsky
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -976,7 +976,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_aleksandr_vasilevsky } #Check if Aleksandr Vasilevsky is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_aleksandr_vasilevsky_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Aleksandr Vasilevsky
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1050,7 +1050,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_boris_shaposhnikov } #Check if Boris Shaposhnikov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_boris_shaposhnikov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Boris Shaposhnikov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1124,7 +1124,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_nikolay_vatutin } #Check if Nikolay Vatutin is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_nikolay_vatutin_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Nikolay Vatutin
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1198,7 +1198,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_semyon_timoshenko } #Check if Semyon Timoshenko is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_semyon_timoshenko_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Semyon Timoshenko
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1272,7 +1272,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_leonid_govorov } #Check if Leonid Govorov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_leonid_govorov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Leonid Govorov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1346,7 +1346,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_kirill_meretskov } #Check if Kirill Meretskov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_kirill_meretskov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kirill Meretskov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1420,7 +1420,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_filipp_golikov } #Check if Filipp Golikov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_filipp_golikov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Filipp Golikov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1494,7 +1494,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_yakov_cherevichenko } #Check if Yakov Cherevichenko is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_yakov_cherevichenko_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Yakov Cherevichenko
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1568,7 +1568,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_nikandr_chibisov } #Check if Nikandr Chibisov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_nikandr_chibisov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Nikandr Chibisov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1642,7 +1642,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_vasily_kuznetsov } #Check if Vasily Kuznetsov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_vasily_kuznetsov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Vasily Kuznetsov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1716,7 +1716,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_andrey_vlasov } #Check if Andrey Vlasov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_andrey_vlasov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Andrey Vlasov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1790,7 +1790,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_maksim_purkayev } #Check if Maksim Purkayev is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_maksim_purkayev_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Maksim Purkayev
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1864,7 +1864,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_nikolay_berzarin } #Check if Nikolay Berzarin is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_nikolay_berzarin_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Nikolay Berzarin
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1938,7 +1938,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_aleksandr_gorbatov } #Check if Aleksandr Gorbatov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_aleksandr_gorbatov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Aleksandr Gorbatov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2012,7 +2012,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_kirill_moskalenko } #Check if Kirill Moskalenko is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_kirill_moskalenko_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kirill Moskalenko
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2086,7 +2086,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_andrey_grechko } #Check if Andrey Grechko is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_andrey_grechko_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Andrey Grechko
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2160,7 +2160,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_vitaly_primakov } #Check if Vitaly Primakov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_vitaly_primakov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Vitaly Primakov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2234,7 +2234,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_markian_popov } #Check if Markian Popov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_markian_popov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Markian Popov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2308,7 +2308,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_ivan_chernyakhovsky } #Check if Ivan Chernyakhovsky is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_ivan_chernyakhovsky_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ivan Chernyakhovsky
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2382,7 +2382,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_issa_pilyev } #Check if Issa Pilyev is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_issa_pilyev_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Issa Pilyev
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2456,7 +2456,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_grigory_kulik } #Check if Grigory Kulik is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_grigory_kulik_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Grigory Kulik
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2530,7 +2530,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_andrey_yeryomenko } #Check if Andrey Yeryomenko is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_andrey_yeryomenko_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Andrey Yeryomenko
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2604,7 +2604,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_georgy_zakharov } #Check if Georgy Zakharov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_georgy_zakharov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Georgy Zakharov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2678,7 +2678,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_maks_reyter } #Check if Maks Reyter is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_maks_reyter_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Maks Reyter
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2752,7 +2752,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_ivan_fedyuninsky } #Check if Ivan Fedyuninsky is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_ivan_fedyuninsky_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ivan Fedyuninsky
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2826,7 +2826,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_kuzma_galitsky } #Check if Kuzma Galitsky is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_kuzma_galitsky_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kuzma Galitsky
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2900,7 +2900,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_dmitry_lelyushenko } #Check if Dmitry Lelyushenko is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_dmitry_lelyushenko_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Dmitry Lelyushenko
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -2974,7 +2974,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_rodion_malinovsky } #Check if Rodion Malinovsky is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_rodion_malinovsky_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Rodion Malinovsky
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -3048,7 +3048,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_sov_vasily_chuykov } #Check if Vasily Chuykov is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_sov_vasily_chuykov_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Vasily Chuykov
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader

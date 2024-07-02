@@ -15,7 +15,7 @@ pfp_puppet_management = {
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_fra_desc
+			custom_effect_tooltip = pfp_army_leader_dismiss_desc
 			hidden_effect = {
 				if = {
 					limit = {
@@ -192,7 +192,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_maxime_weygand } #Check if Maxime Weygand is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_maxime_weygand_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Maxime Weygand
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -266,7 +266,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_alphonse_georges } #Check if Alphonse Georges is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_alphonse_georges_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alphonse Georges
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -340,7 +340,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_maurice_gamelin } #Check if Maurice Gamelin is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_maurice_gamelin_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Maurice Gamelin
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -414,7 +414,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_antoinemariebenoit_besson } #Check if Antoine-Marie-Benoit Besson is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_antoinemariebenoit_besson_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Antoine-Marie-Benoit Besson
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -488,7 +488,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_jean_de_lattre_de_tassigny } #Check if Jean de Lattre de Tassigny is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_jean_de_lattre_de_tassigny_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Jean de Lattre de Tassigny
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -562,7 +562,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_alphonse_juin } #Check if Alphonese Juin is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_alphonse_juin_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alphonese Juin
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -636,7 +636,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_charles_de_gaulle } #Check if Charles de Gaulle is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_charles_de_gaulle_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Charles de Gaulle
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -710,7 +710,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_philippe_leclerc } #Check if Philippe Leclerc is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_philippe_leclerc_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Philippe Leclerc
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -784,7 +784,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_henri_giraud } #Check if Henri Giraud is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_henri_giraud_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Henri Giraud
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -858,7 +858,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_charles_huntziger } #Check if Charles Huntziger is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_charles_huntziger_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Charles Huntziger
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -932,7 +932,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_rene_olry } #Check if Rene Olry is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_rene_olry_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Rene Olry
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1006,7 +1006,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_gastonhenri_billotte } #Check if Gaston-Henri Billotte is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_gastonhenri_billotte_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Gaston-Henri Billotte
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1080,7 +1080,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_fra_henry_freydenberg } #Check if Henry Freydenberg is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_fra_henry_freydenberg_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Henry Freydenberg
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader

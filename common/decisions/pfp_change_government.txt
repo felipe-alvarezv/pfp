@@ -21,6 +21,10 @@ pfp_puppet_management = {
 			hidden_effect = {
 				var:FROM.pfp_puppet_selection = {
 						set_politics = { ruling_party = FROM }
+						set_political_party = {
+							ideology = FROM
+							popularity = 60
+						}
 				}
 			}
 		}

@@ -15,7 +15,7 @@ pfp_puppet_management = {
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_eng_desc
+			custom_effect_tooltip = pfp_army_leader_dismiss_desc
 			hidden_effect = {
 				if = {
 					limit = {
@@ -289,7 +289,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_alan_brooke } #Check if Alan Brooke is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_alan_brooke_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alan Brooke
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -363,7 +363,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_bernard_montgomery } #Check if Bernard Montgomery is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_bernard_montgomery_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Bernard Montgomery
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -437,7 +437,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_claude_auchinleck } #Check if Claude Auchinleck is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_claude_auchinleck_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Claude Auchinleck
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -511,7 +511,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_william_slim } #Check if William Slim is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_william_slim_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#William Slim
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -585,7 +585,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_harold_alexander } #Check if Harold Alexander is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_harold_alexander_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Harold Alexander
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -659,7 +659,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_neil_ritchie } #Check if Neil Ritchie is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_neil_ritchie_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Neil Ritchie
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -733,7 +733,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_alan_cunningham } #Check if Alan Cunningham is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_alan_cunningham_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alan Cunningham
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -807,7 +807,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_richard_oconnor } #Check if Richard O'Connor is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_richard_oconnor_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Richard O'Connor
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -881,7 +881,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_john_vereker } #Check if John Vereker is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_john_vereker_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#John Vereker
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -955,7 +955,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_henry_wilson } #Check if Henry Wilson is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_henry_wilson_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Henry Wilson
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1029,7 +1029,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_jock_campbell } #Check if Jock Campbell is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_jock_campbell_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Jock Campbell
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1103,7 +1103,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_oliver_leese } #Check if Oliver Leese is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_oliver_leese_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Oliver Leese
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1177,7 +1177,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_miles_dempsey } #Check if Miles Dempsey is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_miles_dempsey_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Miles Dempsey
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1251,7 +1251,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_archibald_wavell } #Check if Archibald Wavell is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_archibald_wavell_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Archibald Wavell
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1325,7 +1325,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_william_platt } #Check if William Platt is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_william_platt_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#William Platt
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1399,7 +1399,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_george_giffard } #Check if George Giffard is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_george_giffard_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#George Giffard
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1473,7 +1473,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_william_gott } #Check if William Gott is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_william_gott_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#William Gott
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1547,7 +1547,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_brian_horrocks } #Check if Brian Horrocks is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_brian_horrocks_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Brian Horrocks
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1621,7 +1621,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_thomas_jacomb_hutton } #Check if Thomas Jacomb Hutton is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_thomas_jacomb_hutton_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Thomas Jacomb Hutton
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1695,7 +1695,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_arthur_percival } #Check if Arthur Percival is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_arthur_percival_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Arthur Percival
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1769,7 +1769,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_henry_pownall } #Check if Henry Pownall is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_henry_pownall_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Henry Pownall
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1843,7 +1843,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_jackie_smyth } #Check if Jackie Smyth is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_jackie_smyth_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Jackie Smyth
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1917,7 +1917,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_merton_beckwithsmith } #Check if Merton Beckwith-Smith is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_merton_beckwithsmith_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Merton Beckwith-Smith
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany
@@ -1991,7 +1991,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_eng_thomas_moore } #Check if Tom Moore is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_eng_thomas_moore_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Tom Moore
 				var:FROM.pfp_puppet_selection = { retire_country_leader = yes } #Retire the current leader of West Germany

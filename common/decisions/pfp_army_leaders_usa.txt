@@ -15,7 +15,7 @@ pfp_puppet_management = {
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_usa_desc
+			custom_effect_tooltip = pfp_army_leader_dismiss_desc
 			hidden_effect = {
 				if = {
 					limit = {
@@ -272,7 +272,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_dwight_d_eisenhower } #Check if Dwight D. Eisenhower is currently puppet leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_dwight_d_eisenhower_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Dwight D. Eisenhower
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -346,7 +346,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_douglas_macarthur } #Check if Douglas MacArthur is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_douglas_macarthur_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Douglas MacArthur
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -420,7 +420,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_george_s_patton } #Check if George S. Patton is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_george_s_patton_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#George S. Patton
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -494,7 +494,7 @@ pfp_puppet_management = {
 			NOT = {  has_global_flag = pfp_usa_omar_bradley } #Check if Omar Bradley is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_omar_bradley_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Omar Bradley
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -568,7 +568,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_mark_clark } #Check if Mark W. Clark is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_mark_clark_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Mark W. Clark
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -642,7 +642,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_courtney_hodges } #Check if Courtney Hodges is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_courtney_hodges_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Courtney Hodges
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -716,7 +716,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_lucian_truscott } #Check if Lucian Truscott is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_lucian_truscott_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Lucian Truscott
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -790,7 +790,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_walter_krueger } #Check if Walter Krueger is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_walter_krueger_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Walter Krueger
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -864,7 +864,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_leslie_mcnair } #Check if Leslie McNair is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_leslie_mcnair_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Leslie McNair
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -938,7 +938,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_leonard_gerow } #Check if Leonard Gerow is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_leonard_gerow_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Leonard Gerow
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1012,7 +1012,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_alexander_patch } #Check if Alexander Patch is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_alexander_patch_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alexander Patch
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1086,7 +1086,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_william_simpson } #Check if William Simpson is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_william_simpson_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#William Simpson
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1160,7 +1160,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_j_lawton_collins } #Check if J. Lawton Collins is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_j_lawton_collins_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#J. Lawton Collins
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1234,7 +1234,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_maurice_rose } #Check if Maurice Rose is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_maurice_rose_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Maurice Rose
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1308,7 +1308,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_alexander_vandegrift } #Check if Alexander Vandegrift is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_alexander_vandegrift_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alexander Vandegrift
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1382,7 +1382,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_geoffrey_keyes } #Check if Geoffrey Keyes is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_geoffrey_keyes_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Geoffrey Keyes
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1456,7 +1456,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_lloyd_fredendall } #Check if Lloyd Fredendall is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_lloyd_fredendall_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Lloyd Fredendall
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1530,7 +1530,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_edward_brooks } #Check if Edward Brooks is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_edward_brooks_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Edward Brooks
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1604,7 +1604,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_clarence_huebner } #Check if Clarence Huebner is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_clarence_huebner_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Clarence Huebner
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1678,7 +1678,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_oscar_griswold } #Check if Oscar Griswold is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_oscar_griswold_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Oscar Griswold
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1752,7 +1752,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_jonathan_wainwright } #Check if Jonathan Wainwright is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_jonathan_wainwright_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Jonathan Wainwright
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1826,7 +1826,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_russell_hartle } #Check if Russell Hartle is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_russell_hartle_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Russell Hartle
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
@@ -1900,7 +1900,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_usa_joseph_stilwell } #Check if Joseph Stilwell is already a leader
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_usa_joseph_stilwell_desc
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Joseph Stilwell
 				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
