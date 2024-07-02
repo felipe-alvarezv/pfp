@@ -28,8 +28,6 @@ l_english:
   pfp_mittelafrika_coring_states:0 "§YMittelafrika§! gains cores on all listed states.\n"
   pfp_mittelafrika_transfer_states:0 "§YMittelafrika§! becomes owner and controller of all listed states.\n"
   pfp_mittelafrika_puppet:0 "§YMittelafrika§! becomes a puppet of §Y[Root.GetName]§!.\n"
-  pfp_category_territories_mittelafrika:0 "Transfer Territory to Mittelafrika"
-  pfp_category_territories_mittelafrika_desc:0 "" 
   pfp_mittelafrika_leopoldville:0 "Transfer Leopoldville"
   pfp_mittelafrika_coring_states_leopoldville:0 "§YMittelafrika§! gains core on §YLeopoldville§!.\n"
   pfp_mittelafrika_transfer_states_leopoldville:0 "§YMittelafrika§! becomes owner and controller of §YLeopoldville§!.\n"

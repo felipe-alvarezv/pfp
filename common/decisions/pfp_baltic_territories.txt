@@ -1,6 +1,10 @@
-pfp_category_territories_baltic = {
+pfp_puppet_management = {
 	pfp_baltic_kaunas = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
 			has_global_flag = pfp_baltic_flag
 			has_full_control_of_state = 11 #Kaunas
 
@@ -33,6 +37,10 @@ pfp_category_territories_baltic = {
 	}
 	pfp_baltic_memel = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
 			has_global_flag = pfp_baltic_flag
 			has_full_control_of_state = 188 #Memel
 
@@ -65,6 +73,10 @@ pfp_category_territories_baltic = {
 	}
 	pfp_baltic_zemaitija = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
 			has_global_flag = pfp_baltic_flag
 			has_full_control_of_state = 189 #Zamaitija
 
@@ -97,6 +109,10 @@ pfp_category_territories_baltic = {
 	}
 	pfp_baltic_wilno = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
 			has_global_flag = pfp_baltic_flag
 			has_full_control_of_state = 784 #Wilno
 
@@ -129,6 +145,10 @@ pfp_category_territories_baltic = {
 	}
 	pfp_baltic_suduva = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
 			has_global_flag = pfp_baltic_flag
 			has_full_control_of_state = 814 #Suduva
 
@@ -161,6 +181,10 @@ pfp_category_territories_baltic = {
 	}
 	pfp_baltic_aukstaitija = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
 			has_global_flag = pfp_baltic_flag
 			has_full_control_of_state = 815 #Aukstaitija
 

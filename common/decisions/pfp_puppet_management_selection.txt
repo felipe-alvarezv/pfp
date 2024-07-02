@@ -1,650 +1,599 @@
-pfp_puppet_leader_management = {
+pfp_puppet_management = {
     pfp_puppet_selection_colombia = { #Colombia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P01 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P01 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P01 }
         }
     }
     pfp_puppet_selection_great_britain_and_ireland = { #Great Britain and Ireland
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P02 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P02 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P02 }
         }
     }
     pfp_puppet_selection_arabia = { #Arabia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P03 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P03 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P03 }
         }
     }
     pfp_puppet_selection_baltic = { #Baltic
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P04 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P04 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P04 }
         }
     }
     pfp_puppet_selection_netherlands = { #Netherlands
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P05 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P05 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P05 }
         }
     }
     pfp_puppet_selection_caribbean = { #Caribbean
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P06 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P06 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P06 }
         }
     }
     pfp_puppet_selection_central_africa = { #Central Africa
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P07 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P07 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P07 }
         }
     }
     pfp_puppet_selection_central_america = { #Central America
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P08 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P08 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P08 }
         }
     }
     pfp_puppet_selection_danube = { #Danube
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P09 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P09 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P09 }
         }
     }
     pfp_puppet_selection_east_africa = { #East Africa
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P10 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P10 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P10 }
         }
     }
     pfp_puppet_selection_eastern_canada = { #Eastern Canada
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P11 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P11 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P11 }
         }
     }
     pfp_puppet_selection_finland = { #Finland
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P12 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P12 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P12 }
         }
     }
     pfp_puppet_selection_germany = { #Germany
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P13 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P13 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P13 }
         }
     }
     pfp_puppet_selection_greece = { #Greece
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P14 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P14 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P14 }
         }
     }
     pfp_puppet_selection_iberia = { #Iberia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P15 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P15 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P15 }
         }
     }
     pfp_puppet_selection_indochina = { #Indochina
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P16 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P16 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P16 }
         }
     }
     pfp_puppet_selection_indonesia = { #Indonesia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P17 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P17 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P17 }
         }
     }
     pfp_puppet_selection_midwestern_us = { #Midwestern U.S.
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P18 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P18 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P18 }
         }
     }
     pfp_puppet_selection_north_germany = { #North Germany
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P19 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P19 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P19 }
         }
     }
     pfp_puppet_selection_northeastern_us = { #Northeastern U.S.
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P20 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P20 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P20 }
         }
     }
     pfp_puppet_selection_pacific_us = { #Pacific U.S.
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P21 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P21 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P21 }
         }
     }
     pfp_puppet_selection_quebec = { #Quebec
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P22 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P22 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P22 }
         }
     }
     pfp_puppet_selection_us_rockies = { #U.S. Rockies
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P23 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P23 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P23 }
         }
     }
     pfp_puppet_selection_scandinavia = { #Scandinavia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P24 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P24 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P24 }
         }
     }
     pfp_puppet_selection_south_germany = { #South Germany
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P25 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P25 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P25 }
         }
     }
     pfp_puppet_selection_southern_us = { #Southern U.S.
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P26 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P26 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P26 }
         }
     }
     pfp_puppet_selection_oceania = { #Oceania
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P27 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P27 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P27 }
         }
     }
     pfp_puppet_selection_transcaucasia = { #Transcaucasia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P28 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P28 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P28 }
         }
     }
     pfp_puppet_selection_western_canada = { #Western Canada
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P29 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P29 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P29 }
         }
     }
     pfp_puppet_selection_north_africa = { #North Africa
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P30 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P30 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P30 }
         }
     }
     pfp_puppet_selection_west_germany = { #West Germany
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P31 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P31 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P31 }
         }
     }
     pfp_puppet_selection_east_germany = { #East Germany
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P32 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P32 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P32 }
         }
     }
     pfp_puppet_selection_prussia = { #Prussia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P33 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P33 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P33 }
         }
     }
     pfp_puppet_selection_poland = { #Poland
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P34 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P34 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P34 }
         }
     }
     pfp_puppet_selection_west_africa = { #West Africa
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P35 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P35 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P35 }
         }
     }
     pfp_puppet_selection_south_africa = { #South Africa
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P36 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P36 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P36 }
         }
     }
     pfp_puppet_selection_south_asia = { #South Asia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P37 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P37 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P37 }
         }
     }
     pfp_puppet_selection_bangladesh = { #Bangladesh
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P38 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P38 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P38 }
         }
     }
     pfp_puppet_selection_central_russia = { #Central Russia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P39 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P39 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P39 }
         }
     }
     pfp_puppet_selection_southern_russia = { #Southern Russia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P40 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P40 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P40 }
         }
     }
     pfp_puppet_selection_northern_caucasus = { #Northern Caucasus
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P41 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P41 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P41 }
         }
     }
     pfp_puppet_selection_volga = { #Volga
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P42 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P42 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P42 }
         }
     }
     pfp_puppet_selection_northwestern_russia = { #Northwestern Russia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P43 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P43 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P43 }
         }
     }
     pfp_puppet_selection_urals = { #Urals
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P44 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P44 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P44 }
         }
     }
     pfp_puppet_selection_siberia = { #Siberia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P45 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P45 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P45 }
         }
     }
     pfp_puppet_selection_far_eastern_russia = { #Far Eastern Russia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P46 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P46 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P46 }
         }
     }
     pfp_puppet_selection_mongolia = { #Mongolia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P47 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P47 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P47 }
         }
     }
     pfp_puppet_selection_western_russia = { #Western Russia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P48 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P48 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P48 }
         }
     }
     pfp_puppet_selection_bulgaria = { #Bulgaria
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P49 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P49 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P49 }
         }
     }
     pfp_puppet_selection_yugoslavia = { #Yugoslavia
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P50 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P50 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P50 }
         }
     }
     pfp_puppet_selection_turkestan = { #Turkestan
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P51 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P51 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P51 }
         }
     }
     pfp_puppet_selection_himalayas = { #Himalayas
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P52 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P52 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P52 }
         }
     }
     pfp_puppet_selection_mittelafrika = { #Mittelafrika
         visible = {
+            has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
             P53 = { is_puppet_of = FROM }
         }
         complete_effect = {
-            FROM = {
-                set_country_flag = pfp_puppet_selected
-                set_variable = { pfp_puppet_selection = P53 }
-            }
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P53 }
         }
     }
-    pfp_puppet_deselect = { #Deselect current puppet
+    zz_pfp_puppet_deselect = { #Deselect current puppet
         visible = {
+            has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
-            has_variable = FROM.pfp_puppet_selection
+            NOT = { 
+                has_country_flag = pfp_puppet_management_options_leadership
+                has_country_flag = pfp_puppet_management_options_territory 
+            }
         }
         complete_effect = {
-            FROM = {
-                clr_country_flag  = pfp_puppet_selected
-                clear_variable = pfp_puppet_selection
-            }
+            clr_country_flag  = pfp_puppet_selected
+            clear_variable = pfp_puppet_selection
         }
     }
 }

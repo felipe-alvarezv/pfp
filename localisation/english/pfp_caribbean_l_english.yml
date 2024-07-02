@@ -26,8 +26,6 @@ l_english:
  pfp_caribbean_coring_states:0 "§YCaribbean§! gains cores on all listed states.\n"
  pfp_caribbean_transfer_states:0 "§YCaribbean§! becomes owner and controller of all listed states.\n"
  pfp_caribbean_puppet:0 "§YCaribbean§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_caribbean:0 "Transfer Territory to the Caribbean"
- pfp_category_territories_caribbean_desc:0 ""
  pfp_caribbean_leeward_islands:0 "Transfer Leeward Islands"
  pfp_caribbean_coring_states_leeward_islands:0 "§YCaribbean§! gains core on §YLeeward Islands§!.\n"
  pfp_caribbean_transfer_states_leeward_islands:0 "§YCaribbean§! becomes owner and controller of §YLeeward Islands§!.\n"

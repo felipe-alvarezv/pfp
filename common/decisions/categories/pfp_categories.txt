@@ -1,4 +1,2 @@
 pfp_category = { }
-pfp_category_leaders = { }
-pfp_change_government = { }
-pfp_puppet_leader_management = { }
+pfp_puppet_management = { }

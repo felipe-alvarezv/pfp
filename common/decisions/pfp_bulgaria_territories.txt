@@ -1,6 +1,10 @@
-pfp_category_territories_bulgaria = {
+pfp_puppet_management = {
 	pfp_bulgaria_dobrudja = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P49 } 
 			has_global_flag = pfp_bulgaria_flag
 			has_full_control_of_state = 77 #Dobrudja
 
@@ -33,6 +37,10 @@ pfp_category_territories_bulgaria = {
 	}
 	pfp_bulgaria_macedonia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P49 } 
 			has_global_flag = pfp_bulgaria_flag
 			has_full_control_of_state = 106 #Macedonia
 
@@ -65,6 +73,10 @@ pfp_category_territories_bulgaria = {
 	}
 	pfp_bulgaria_thrace = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P49 } 
 			has_global_flag = pfp_bulgaria_flag
 			has_full_control_of_state = 184 #Thrace
 
@@ -97,6 +109,10 @@ pfp_category_territories_bulgaria = {
 	}
 	pfp_bulgaria_edirne = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P49 } 
 			has_global_flag = pfp_bulgaria_flag
 			has_full_control_of_state = 341 #Edirne
 
@@ -129,6 +145,10 @@ pfp_category_territories_bulgaria = {
 	}
 	pfp_bulgaria_central_macedonia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P49 } 
 			has_global_flag = pfp_bulgaria_flag
 			has_full_control_of_state = 731 #Central Macedonia
 
@@ -161,6 +181,10 @@ pfp_category_territories_bulgaria = {
 	}
 	pfp_bulgaria_istanbul = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P49 } 
 			has_global_flag = pfp_bulgaria_flag
 			has_full_control_of_state = 797 #Istanbul
 
@@ -193,6 +217,10 @@ pfp_category_territories_bulgaria = {
 	}
 	pfp_bulgaria_southern_serbia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P49 } 
 			has_global_flag = pfp_bulgaria_flag
 			has_full_control_of_state = 803 #Southern Serbia
 

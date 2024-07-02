@@ -1,6 +1,10 @@
-pfp_category_territories_west_africa = {
+pfp_puppet_management = {
 	pfp_west_africa_ghana = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 274 #Ghana
 
@@ -33,6 +37,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_portuguese_guinea = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 296 #Portuguese Guinea
 
@@ -65,6 +73,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_liberia = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 298 #Liberia
 
@@ -97,6 +109,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_lagos = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 558 #Lagos
 
@@ -129,6 +145,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_sierra_leone = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 700 #Sierra Leone
 
@@ -161,6 +181,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_gambia = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 701 #Gambia
 
@@ -193,6 +217,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_cape_verde = { 
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 702 #Cape Verde
 
@@ -225,6 +253,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_benue = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 900 #Benue
 
@@ -257,6 +289,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_borno = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 901 #Borno
 
@@ -289,6 +325,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_sokoto = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 902 #Sokoto
 
@@ -321,6 +361,10 @@ pfp_category_territories_west_africa = {
 	}
 	pfp_west_africa_togo = {
 		visible = {
+				has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P35 }
 			has_global_flag = pfp_west_africa_flag
 			has_full_control_of_state = 777 #Togo
 

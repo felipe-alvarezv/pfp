@@ -1,6 +1,10 @@
-pfp_category_territories_north_africa = {
+pfp_puppet_management = {
 	pfp_north_africa_spanish_africa = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 290 #Spanish Africa
 
@@ -34,6 +38,10 @@ pfp_category_territories_north_africa = {
 	pfp_north_africa_suez = {
 
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 446 #Suez
 
@@ -66,6 +74,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_sinai = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 453 #Sinai
 
@@ -98,6 +110,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_tunisia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 458 #Tunisia
 
@@ -130,6 +146,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_algiers = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 459 #Algiers
 
@@ -162,6 +182,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_constantine = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 460 #Constantine
 
@@ -194,6 +218,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_casablanca = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 461 #Casablanca
 
@@ -226,6 +254,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_marrakech = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 462 #Marrakech
 
@@ -258,6 +290,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_tlemcen = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 513 #Tlemcen
 
@@ -290,6 +326,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_algerian_desert = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 514 #Algerian Desert
 
@@ -322,6 +362,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_gabes = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 665 #Gabes
 
@@ -354,6 +398,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_rio_de_oro = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 699 #Rio de Oro
 
@@ -386,6 +434,10 @@ pfp_category_territories_north_africa = {
 	}
 	pfp_north_africa_sidi_ifni = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P30 }
 			has_global_flag = pfp_north_africa_flag
 			has_full_control_of_state = 783 #Sidi Ifni
 

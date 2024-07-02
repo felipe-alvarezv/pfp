@@ -36,8 +36,6 @@ l_english:
  pfp_northwestern_russia_coring_states:0 "§YNorthwestern Russia§! gains cores on all listed states.\n"
  pfp_northwestern_russia_transfer_states:0 "§YNorthwestern Russia§! becomes owner and controller of all listed states.\n"
  pfp_northwestern_russia_puppet:0 "§YNorthwestern Russia§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_northwestern_russia:0 "Transfer Territory to Northwestern Russia"
- pfp_category_territories_northwestern_russia_desc:0 ""
  pfp_northwestern_russia_karjala:0 "Transfer Karjala"
  pfp_northwestern_russia_coring_states_karjala:0 "§YNorthwestern Russia§! gains core on §YKarjala§!.\n"
  pfp_northwestern_russia_transfer_states_karjala:0 "§YNorthwestern Russia§! becomes owner and controller of §YKarjala§!.\n"

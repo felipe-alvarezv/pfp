@@ -33,8 +33,6 @@ l_english:
  pfp_arabia_coring_states:0 "§YArabia§! gains cores on all listed states.\n"
  pfp_arabia_transfer_states:0 "§YArabia§! becomes owner and controller of all listed states.\n"
  pfp_arabia_puppet:0 "§YArabia§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_arabia:0 "Transfer Territory to Arabia"
- pfp_category_territories_arabia_desc:0 ""
  pfp_arabia_baghdad:0 "Transfer Baghdad"
  pfp_arabia_coring_states_baghdad:0 "§YArabia§! gains core on §YBaghdad§!.\n"
  pfp_arabia_transfer_states_baghdad:0 "§YArabia§! becomes owner and controller of §YBaghdad§!.\n"

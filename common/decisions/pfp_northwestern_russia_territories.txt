@@ -1,6 +1,10 @@
-pfp_category_territories_northwestern_russia = {
+pfp_puppet_management = {
 	pfp_northwestern_russia_karjala = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P43 }
 			has_global_flag = pfp_northwestern_russia_flag
 			has_full_control_of_state = 146 #Karjala
 
@@ -33,6 +37,10 @@ pfp_category_territories_northwestern_russia = {
 	}
 	pfp_northwestern_russia_salla = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P43 }
 			has_global_flag = pfp_northwestern_russia_flag
 			has_full_control_of_state = 147 #Salla
 
@@ -66,6 +74,10 @@ pfp_category_territories_northwestern_russia = {
 	pfp_northwestern_russia_murmansk = {
 
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P43 }
 			has_global_flag = pfp_northwestern_russia_flag
 			has_full_control_of_state = 213 #Murmansk
 
@@ -98,6 +110,10 @@ pfp_category_territories_northwestern_russia = {
 	}
 	pfp_northwestern_russia_onega = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P43 }
 			has_global_flag = pfp_northwestern_russia_flag
 			has_full_control_of_state = 215 #Onega
 
@@ -130,6 +146,10 @@ pfp_category_territories_northwestern_russia = {
 	}
 	pfp_northwestern_russia_olonets = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P43 }
 			has_global_flag = pfp_northwestern_russia_flag
 			has_full_control_of_state = 216 #Olonets
 
@@ -162,6 +182,10 @@ pfp_category_territories_northwestern_russia = {
 	}
 	pfp_northwestern_russia_northern_urals = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P43 }
 			has_global_flag = pfp_northwestern_russia_flag
 			has_full_control_of_state = 581 #Northern Urals
 
@@ -194,6 +218,10 @@ pfp_category_territories_northwestern_russia = {
 	}
 	pfp_northwestern_russia_petsamo = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P43 }
 			has_global_flag = pfp_northwestern_russia_flag
 			has_full_control_of_state = 722 #Petsamo
 

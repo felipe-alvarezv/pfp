@@ -1,9 +1,10 @@
-pfp_category_leaders = {
+pfp_puppet_management = {
 	#Dismiss Leader
 	pfp_army_leader_dismiss_usa = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -256,8 +257,9 @@ pfp_category_leaders = {
 	#Dwight D. Eisenhower
 	pfp_army_leader_usa_dwight_d_eisenhower = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -329,8 +331,9 @@ pfp_category_leaders = {
 	#Douglas MacArthur
 	pfp_army_leader_usa_douglas_macarthur = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -402,8 +405,9 @@ pfp_category_leaders = {
 	#George S. Patton
 	pfp_army_leader_usa_george_s_patton = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -475,8 +479,9 @@ pfp_category_leaders = {
 	#Omar Bradley
 	pfp_army_leader_usa_omar_bradley = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -548,8 +553,9 @@ pfp_category_leaders = {
 	#Mark W. Clark
 	pfp_army_leader_usa_mark_clark = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -621,8 +627,9 @@ pfp_category_leaders = {
 	#Courtney Hodges
 	pfp_army_leader_usa_courtney_hodges = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -694,8 +701,9 @@ pfp_category_leaders = {
 	#Lucian Truscott
 	pfp_army_leader_usa_lucian_truscott = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -767,8 +775,9 @@ pfp_category_leaders = {
 	#Walter Krueger
 	pfp_army_leader_usa_walter_krueger = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -840,8 +849,9 @@ pfp_category_leaders = {
 	#Leslie McNair
 	pfp_army_leader_usa_leslie_mcnair = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -913,8 +923,9 @@ pfp_category_leaders = {
 	#Leonard Gerow
 	pfp_army_leader_usa_leonard_gerow = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -986,8 +997,9 @@ pfp_category_leaders = {
 	#Alexander Patch
 	pfp_army_leader_usa_alexander_patch = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1059,8 +1071,9 @@ pfp_category_leaders = {
 	#William Simpson
 	pfp_army_leader_usa_william_simpson = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1132,8 +1145,9 @@ pfp_category_leaders = {
 	#J. Lawton Collins
 	pfp_army_leader_usa_j_lawton_collins = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1205,8 +1219,9 @@ pfp_category_leaders = {
 	#Maurice Rose
 	pfp_army_leader_usa_maurice_rose = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1278,8 +1293,9 @@ pfp_category_leaders = {
 	#Alexander Vandegrift
 	pfp_army_leader_usa_alexander_vandegrift = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1351,8 +1367,9 @@ pfp_category_leaders = {
 	#Geoffrey Keyes
 	pfp_army_leader_usa_geoffrey_keyes = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1424,8 +1441,9 @@ pfp_category_leaders = {
 	#Lloyd Fredendall
 	pfp_army_leader_usa_lloyd_fredendall = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1497,8 +1515,9 @@ pfp_category_leaders = {
 	#Edward Brooks
 	pfp_army_leader_usa_edward_brooks = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1570,8 +1589,9 @@ pfp_category_leaders = {
 	#Clarence Huebner
 	pfp_army_leader_usa_clarence_huebner = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1643,8 +1663,9 @@ pfp_category_leaders = {
 	#Oscar Griswold
 	pfp_army_leader_usa_oscar_griswold = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1716,8 +1737,9 @@ pfp_category_leaders = {
 	#Jonathan Wainwright
 	pfp_army_leader_usa_jonathan_wainwright = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1789,8 +1811,9 @@ pfp_category_leaders = {
 	#Russell Hartle
 	pfp_army_leader_usa_russell_hartle = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {
@@ -1862,8 +1885,9 @@ pfp_category_leaders = {
 	#Joseph Stilwell
 	pfp_army_leader_usa_joseph_stilwell = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = USA #Check if country is United States
 
 			var:FROM.pfp_puppet_selection = {

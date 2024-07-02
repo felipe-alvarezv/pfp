@@ -1,33 +1,29 @@
-pfp_change_government = {
-	pfp_change_government_ideology = {
+pfp_puppet_management = {
+	pfp_puppet_management_options_ideology = {
 		allowed = { }
 		available = { }
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership #Check if managing puppet leadership
+
 			is_subject = no #FROM must not be a subject
 			num_subjects > 0 #FROM must have at least one subject
 
-			any_subject_country  = {
-				has_autonomy_state = autonomy_military_administration
-				NOT = {
-					has_government = FROM
-				}
+			var:FROM.pfp_puppet_selection = {
+				has_autonomy_state = autonomy_military_administration #Check to see if puppet is military administration
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				NOT = { has_government = FROM } #Check to see if puppet doesn't have same government as FROM
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_change_government_ideology_information
+			custom_effect_tooltip = pfp_puppet_management_ideology_information
 			hidden_effect = {
-				every_subject_country = {
-					if = {
-						limit = { has_autonomy_state = autonomy_military_administration }
-						set_politics = {
-							ruling_party = FROM
-						}
-					}
+				var:FROM.pfp_puppet_selection = {
+						set_politics = { ruling_party = FROM }
 				}
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

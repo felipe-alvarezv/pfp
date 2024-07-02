@@ -23,8 +23,6 @@ l_english:
  pfp_bangladesh_coring_states:0 "§YBangladesh§! gains cores on all listed states.\n"
  pfp_bangladesh_transfer_states:0 "§YBangladesh§! becomes owner and controller of all listed states.\n"
  pfp_bangladesh_puppet:0 "§YBangladesh§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_bangladesh:0 "Transfer Territory to Bangladesh"
- pfp_category_territories_bangladesh_desc:0 ""
  pfp_bangladesh_bhutan:0 "Transfer Bhutan"
  pfp_bangladesh_coring_states_bhutan:0 "§YBangladesh§! gains core on §YBhutan§!.\n"
  pfp_bangladesh_transfer_states_bhutan:0 "§YBangladesh§! becomes owner and controller of §YBhutan§!.\n"

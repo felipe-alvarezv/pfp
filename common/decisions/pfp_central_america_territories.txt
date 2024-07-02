@@ -1,6 +1,10 @@
-pfp_category_territories_central_america = {
+pfp_puppet_management = {
 	pfp_central_america_british_honduras = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P08 } 
 			has_global_flag = pfp_central_america_flag
 			has_full_control_of_state = 311 #British Honduras
 
@@ -33,6 +37,10 @@ pfp_category_territories_central_america = {
 	}
 	pfp_central_america_panama_canal = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P08 } 
 			has_global_flag = pfp_central_america_flag
 			has_full_control_of_state = 685 #Panama Canal
 

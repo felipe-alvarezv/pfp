@@ -1,6 +1,10 @@
-pfp_category_territories_yugoslavia = {
+pfp_puppet_management = {
 	pfp_yugoslavia_albania = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 44 #Albania
 
@@ -33,6 +37,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_sofia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 48 #Sofia
 
@@ -65,6 +73,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_dobrudja = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 77 #Dobrudja
 
@@ -97,6 +109,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_zara = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 163 #Zara
 
@@ -129,6 +145,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_thrace = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 184 #Thrace
 
@@ -161,6 +181,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_burgas = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 211 #Burgas
 
@@ -193,6 +217,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_plovdiv = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 212 #Plovdiv
 
@@ -225,6 +253,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_edirne = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 341 #Edirne
 
@@ -257,6 +289,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_central_macedonia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 731 #Central Macedonia
 
@@ -289,6 +325,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_litorale = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 736 #Litorale
 
@@ -321,6 +361,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_istanbul = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 797 #Istanbul
 
@@ -353,6 +397,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_moesia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 801 #Moesia
 
@@ -385,6 +433,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_northern_epirus = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 805 #Northern Epirus
 
@@ -417,6 +469,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_istria = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 852 #Istria
 
@@ -449,6 +505,10 @@ pfp_category_territories_yugoslavia = {
 	}
 	pfp_yugoslavia_shkoder = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P50 }
 			has_global_flag = pfp_yugoslavia_flag
 			has_full_control_of_state = 934 #Shkoder
 

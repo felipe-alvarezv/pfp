@@ -1,6 +1,10 @@
-pfp_category_territories_scandinavia = {
+pfp_puppet_management = {
 	pfp_scandinavia_iceland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P24 }
 			has_global_flag = pfp_scandinavia_flag
 			has_full_control_of_state = 100 #Iceland
 
@@ -33,6 +37,10 @@ pfp_category_territories_scandinavia = {
 	}
 	pfp_scandinavia_greenland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P24 }
 			has_global_flag = pfp_scandinavia_flag
 			has_full_control_of_state = 101 #Greenland
 
@@ -65,6 +73,10 @@ pfp_category_territories_scandinavia = {
 	}
 	pfp_scandinavia_gotland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P24 }
 			has_global_flag = pfp_scandinavia_flag
 			has_full_control_of_state = 124 #Gotland
 
@@ -97,6 +109,10 @@ pfp_category_territories_scandinavia = {
 	}
 	pfp_scandinavia_aland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P24 }
 			has_global_flag = pfp_scandinavia_flag
 			has_full_control_of_state = 145 #Aland
 
@@ -129,6 +145,10 @@ pfp_category_territories_scandinavia = {
 	}
 	pfp_scandinavia_faroe_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P24 }
 			has_global_flag = pfp_scandinavia_flag
 			has_full_control_of_state = 337 #Faroe Islands
 
@@ -161,6 +181,10 @@ pfp_category_territories_scandinavia = {
 	}
 	pfp_scandinavia_schleswig = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P24 }
 			has_global_flag = pfp_scandinavia_flag
 			has_full_control_of_state = 909 #Schleswig
 
@@ -193,6 +217,10 @@ pfp_category_territories_scandinavia = {
 	}
 	pfp_scandinavia_bornholm = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P24 }
 			has_global_flag = pfp_scandinavia_flag
 			has_full_control_of_state = 910 #Bornholm
 
@@ -225,6 +253,10 @@ pfp_category_territories_scandinavia = {
 	}
 	pfp_scandinavia_jan_mayen = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P24 }
 			has_global_flag = pfp_scandinavia_flag
 			has_full_control_of_state = 914 #Jan Mayen
 

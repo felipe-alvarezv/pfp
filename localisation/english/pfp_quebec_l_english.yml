@@ -28,8 +28,6 @@ l_english:
  pfp_quebec_coring_states:0 "§YQuebec§! gains cores on all listed states.\n"
  pfp_quebec_transfer_states:0 "§YQuebec§! becomes owner and controller of all listed states.\n"
  pfp_quebec_puppet:0 "§YQuebec§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_quebec:0 "Transfer Territory to Quebec"
- pfp_category_territories_quebec_desc:0 ""
  pfp_quebec_southern_ontario:0 "Transfer Southern Ontario"
  pfp_quebec_coring_states_southern_ontario:0 "§YQuebec§! gains core on §YSouthern Ontario§!.\n"
  pfp_quebec_transfer_states_southern_ontario:0 "§YQuebec§! becomes owner and controller of §YSouthern Ontario§!.\n"

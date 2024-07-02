@@ -27,8 +27,6 @@ l_english:
  pfp_northeastern_us_coring_states:0 "§YNortheastern U.S.§! gains cores on all listed states.\n"
  pfp_northeastern_us_transfer_states:0 "§YNortheastern U.S.§! becomes owner and controller of all listed states.\n"
  pfp_northeastern_us_puppet:0 "§YNortheastern U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_northeastern_us:0 "Transfer Territory to the Northeastern U.S."
- pfp_category_territories_northeastern_us_desc:0 ""
  pfp_northeastern_us_west_virginia:0 "Transfer West Virginia"
  pfp_northeastern_us_coring_states_west_virginia:0 "§YNortheastern U.S.§! gains core on §YWest Virginia§!.\n"
  pfp_northeastern_us_transfer_states_west_virginia:0 "§YNortheastern U.S.§! becomes owner and controller of §YWest Virginia§!.\n"

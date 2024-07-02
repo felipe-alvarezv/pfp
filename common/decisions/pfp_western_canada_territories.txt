@@ -1,6 +1,10 @@
-pfp_category_territories_western_canada = {
+pfp_puppet_management = {
 	pfp_western_canada_alaska = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P29 }
 			has_global_flag = pfp_western_canada_flag
 			has_full_control_of_state = 463 #Alaska
 
@@ -33,6 +37,10 @@ pfp_category_territories_western_canada = {
 	}
 	pfp_western_canada_upper_british_columbia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P29 }
 			has_global_flag = pfp_western_canada_flag
 			has_full_control_of_state = 471 #Upper British Columbia
 
@@ -65,6 +73,10 @@ pfp_category_territories_western_canada = {
 	}
 	pfp_western_canada_british_columbia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P29 }
 			has_global_flag = pfp_western_canada_flag
 			has_full_control_of_state = 473 #British Columbia
 
@@ -97,6 +109,10 @@ pfp_category_territories_western_canada = {
 	}
 	pfp_western_canada_haida_gwaii = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P29 }
 			has_global_flag = pfp_western_canada_flag
 			has_full_control_of_state = 739 #Haida Gwaii
 
@@ -129,6 +145,10 @@ pfp_category_territories_western_canada = {
 	}
 	pfp_western_canada_vancouver_island = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P29 }
 			has_global_flag = pfp_western_canada_flag
 			has_full_control_of_state = 740 #Vancouver Island
 
@@ -161,6 +181,10 @@ pfp_category_territories_western_canada = {
 	}
 	pfp_western_canada_yukon_territory = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P29 }
 			has_global_flag = pfp_western_canada_flag
 			has_full_control_of_state = 864 #Yukon Territory
 

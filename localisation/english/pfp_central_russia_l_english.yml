@@ -37,8 +37,6 @@ l_english:
  pfp_central_russia_coring_states:0 "§YCentral Russia§! gains cores on all listed states.\n"
  pfp_central_russia_transfer_states:0 "§YCentral Russia§! becomes owner and controller of all listed states.\n"
  pfp_central_russia_puppet:0 "§YCentral Russia§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_central_russia:0 "Transfer Territory to Central Russia"
- pfp_category_territories_central_russia_desc:0 ""
  pfp_central_russia_smolensk:0 "Transfer Smolensk"
  pfp_central_russia_coring_states_smolensk:0 "§YCentral Russia§! gains core on §YSmolensk§!.\n"
  pfp_central_russia_transfer_states_smolensk:0 "§YCentral Russia§! becomes owner and controller of §YSmolensk§!.\n"

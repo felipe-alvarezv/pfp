@@ -1,6 +1,10 @@
-pfp_category_territories_poland = {
+pfp_puppet_management = {
 	pfp_poland_ermland_masuren = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 5 #Ermland-Masuren
 
@@ -33,6 +37,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_vidzeme = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 12 #Vidzeme
 
@@ -65,6 +73,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_hinterpommern = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 63 #Hinterpommern
 
@@ -97,6 +109,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_niederschlesien = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 66 #Niederschlesien
 
@@ -129,6 +145,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_oberschlesien = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 67 #Oberschlesien
 
@@ -161,6 +181,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_ostmark = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 68 #Ostmark
 
@@ -193,6 +217,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_zaolzie = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 72 #Zaolzie
 
@@ -225,6 +253,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_danzig = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 85 #Danzig
 
@@ -257,6 +289,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_poznan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 86 #Poznan
 
@@ -289,6 +325,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_krakow = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 88 #Krakow
 
@@ -321,6 +361,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_stanislawow = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 89 #Stanislawow 
 
@@ -353,6 +397,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_lwow = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 91 #Lwow
 
@@ -385,6 +433,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_wolyn = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 93 #Wolyn
 
@@ -417,6 +469,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_polesie = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 94 #Polesie
 
@@ -449,6 +505,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_nowogrodek = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 95 #Nowogrodek
 
@@ -481,6 +541,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_wilejka = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 96 #Wilejka
 
@@ -513,6 +577,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_memel = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 188 #Memel
 
@@ -545,6 +613,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_kurzeme = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 190 #Kurzeme
 
@@ -577,6 +649,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_chernigov = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 193 #Chernigov
 
@@ -609,6 +685,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_mozyr = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 194 #Mozyr
 
@@ -641,6 +721,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_vinnytsia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 198 #Vinnytsia
 
@@ -673,6 +757,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_khmelnytskyi = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 199 #Khmelnytskyi
 
@@ -705,6 +793,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_zhytomyr = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 201 #Zhytomyr
 
@@ -737,6 +829,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_kiev = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 202 #Kiev
 
@@ -769,6 +865,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_cherkasy = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 203 #Cherkasy
 
@@ -801,6 +901,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_bobruysk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 204 #Bobruysk
 
@@ -833,6 +937,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_minsk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 206 #Minsk
 
@@ -865,6 +973,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_vitebsk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 207 #Vitebsk
 
@@ -897,6 +1009,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_gomel = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 241 #Gomel
 
@@ -929,6 +1045,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_smolensk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 242 #Smolensk
 
@@ -961,6 +1081,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_roslavl = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 243 #Roslavl
 
@@ -993,6 +1117,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_poltava = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 259 #Poltava
 
@@ -1025,6 +1153,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_katowice = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 762 #Katowice
 
@@ -1057,6 +1189,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_konigsberg = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 763 #Konigsberg
 
@@ -1089,6 +1225,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_gdynia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 807 #Gdynia
 
@@ -1121,6 +1261,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_riga = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 808 #Riga
 
@@ -1153,6 +1297,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_zemgale = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 809 #Zemgale
 
@@ -1185,6 +1333,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_latgale = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 810 #Latgale
 
@@ -1217,6 +1369,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_bialystok = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 97 #Białystok
 	
@@ -1249,6 +1405,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_suduva = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 814 #Suduva
 	
@@ -1281,6 +1441,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_wilno = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 784 #Wilno
 	
@@ -1313,6 +1477,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_kaunas = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 11 #Kaunas
 	
@@ -1345,6 +1513,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_aukstaitija = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 815 #Aukstaitija
 	
@@ -1377,6 +1549,10 @@ pfp_category_territories_poland = {
 	}
 	pfp_poland_zemaitija = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P34 }
 			has_global_flag = pfp_poland_flag
 			has_full_control_of_state = 189 #Zemaitija
 	

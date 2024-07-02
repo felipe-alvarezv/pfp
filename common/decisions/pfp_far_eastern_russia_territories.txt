@@ -1,6 +1,10 @@
-pfp_category_territories_far_eastern_russia = {
+pfp_puppet_management = {
 	pfp_far_eastern_russia_south_sakhalin = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P46 }
 			has_global_flag = pfp_far_eastern_russia_flag
 			has_full_control_of_state = 537 #South Sakhalin
 
@@ -33,6 +37,10 @@ pfp_category_territories_far_eastern_russia = {
 	}
 	pfp_far_eastern_russia_kuril_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P46 }
 			has_global_flag = pfp_far_eastern_russia_flag
 			has_full_control_of_state = 555 #Kuril Islands
 
@@ -65,6 +73,10 @@ pfp_category_territories_far_eastern_russia = {
 	}
 	pfp_far_eastern_russia_chita = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P46 }
 			has_global_flag = pfp_far_eastern_russia_flag
 			has_full_control_of_state = 563 #Chita
 
@@ -97,6 +109,10 @@ pfp_category_territories_far_eastern_russia = {
 	}
 	pfp_far_eastern_russia_buryatia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P46 }
 			has_global_flag = pfp_far_eastern_russia_flag
 			has_full_control_of_state = 564 #Buryatia
 
@@ -129,6 +145,10 @@ pfp_category_territories_far_eastern_russia = {
 	}
 	pfp_far_eastern_russia_bodaybo = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P46 }
 			has_global_flag = pfp_far_eastern_russia_flag
 			has_full_control_of_state = 565 #Bodaybo
 
@@ -161,6 +181,10 @@ pfp_category_territories_far_eastern_russia = {
 	}
 	pfp_far_eastern_russia_north_sakhalin = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P46 }
 			has_global_flag = pfp_far_eastern_russia_flag
 			has_full_control_of_state = 655 #North Sakhalin
 
@@ -193,6 +217,10 @@ pfp_category_territories_far_eastern_russia = {
 	}
 	pfp_far_eastern_russia_udachny = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P46 }
 			has_global_flag = pfp_far_eastern_russia_flag
 			has_full_control_of_state = 876 #Udachny
 

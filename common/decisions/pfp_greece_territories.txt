@@ -1,6 +1,10 @@
-pfp_category_territories_greece = {
+pfp_puppet_management = {
 	pfp_greece_dodecanese = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 164 #Dodecanese
 
@@ -33,6 +37,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_crete = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 182 #Crete
 
@@ -65,6 +73,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_cyprus = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 183 #Cyprus
 
@@ -97,6 +109,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_thrace = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 184 #Thrace
 
@@ -129,6 +145,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_aegean_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 187 #Aegean Islands
 
@@ -161,6 +181,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_izmir = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 339 #Izmir
 
@@ -193,6 +217,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_bursa = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 340 #Bursa
 
@@ -225,6 +253,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_edirne = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 341 #Edirne
 
@@ -257,6 +289,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_antalya = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 342 #Antalya
 
@@ -289,6 +325,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_mersin = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 345 #Mersin
 
@@ -321,6 +361,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_izmit = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 347 #Izmit
 
@@ -353,6 +397,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_central_macedonia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 731 #Central Macedonia
 
@@ -385,6 +433,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_istanbul = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 797 #Istanbul
 
@@ -417,6 +469,10 @@ pfp_category_territories_greece = {
 	}
 	pfp_greece_northern_epirus = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P14 }
 			has_global_flag = pfp_greece_flag
 			has_full_control_of_state = 805 #Northern Epirus
 

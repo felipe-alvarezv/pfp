@@ -1,6 +1,10 @@
-pfp_category_territories_south_africa = {
+pfp_puppet_management = {
 	pfp_south_africa_luanda = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 540 #Luanda
 
@@ -33,6 +37,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_lourenco_marques = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 544 #Lourenço Marques
 
@@ -65,6 +73,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_rhodesia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 545 #Rhodesia
 
@@ -97,6 +109,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_malawi = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 770 #Malawi
  
@@ -129,6 +145,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_zambia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 771 #Zambia
 
@@ -161,6 +181,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_north_angola = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 796 #North Angola
 
@@ -193,6 +217,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_zambesi = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 891 #Zambesi
 
@@ -225,6 +253,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_south_west_angola = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 892 #South West Angola
 
@@ -257,6 +289,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_manica_e_sofala = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 896 #Manica E Sofala
 
@@ -289,6 +325,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_zambezia_mocambique = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 897 #Zambezia-Moçambique
 
@@ -321,6 +361,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_kunene = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 894 #Kunene
 
@@ -353,6 +397,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_otjozondjupa = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 895 #Otjozondjupa
 
@@ -385,6 +433,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_khomas = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 541 #Khomas
 
@@ -417,6 +469,10 @@ pfp_category_territories_south_africa = {
 	}
 	pfp_south_africa_karas = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P36 }
 			has_global_flag = pfp_south_africa_flag
 			has_full_control_of_state = 893 #Karas
 

@@ -1,6 +1,10 @@
-pfp_category_territories_north_germany = {
+pfp_puppet_management = {
 	pfp_north_germany_ermland_masuren = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P19 }
 			has_global_flag = pfp_north_germany_flag
 			has_full_control_of_state = 5 #Ermland-Masuren
 
@@ -33,6 +37,10 @@ pfp_category_territories_north_germany = {
 	}
 	pfp_north_germany_danzig = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P19 }
 			has_global_flag = pfp_north_germany_flag
 			has_full_control_of_state = 85 #Danzig
 
@@ -65,6 +73,10 @@ pfp_category_territories_north_germany = {
 	}
 	pfp_north_germany_poznan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P19 }
 			has_global_flag = pfp_north_germany_flag
 			has_full_control_of_state = 86 #Poznan
 
@@ -97,6 +109,10 @@ pfp_category_territories_north_germany = {
 	}
 	pfp_north_germany_memel = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P19 }
 			has_global_flag = pfp_north_germany_flag
 			has_full_control_of_state = 188 #Memel
 
@@ -129,6 +145,10 @@ pfp_category_territories_north_germany = {
 	}
 	pfp_north_germany_katowice = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P19 }
 			has_global_flag = pfp_north_germany_flag
 			has_full_control_of_state = 762 #Katowice
 
@@ -161,6 +181,10 @@ pfp_category_territories_north_germany = {
 	}
 	pfp_north_germany_konigsberg = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P19 }
 			has_global_flag = pfp_north_germany_flag
 			has_full_control_of_state = 763 #Konigsberg
 
@@ -193,6 +217,10 @@ pfp_category_territories_north_germany = {
 	}
 	pfp_north_germany_gdynia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P19 }
 			has_global_flag = pfp_north_germany_flag
 			has_full_control_of_state = 807 #Gdynia
 
@@ -225,6 +253,10 @@ pfp_category_territories_north_germany = {
 	}
 	pfp_north_germany_schleswig = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P19 }
 			has_global_flag = pfp_north_germany_flag
 			has_full_control_of_state = 909 #Schleswig
 

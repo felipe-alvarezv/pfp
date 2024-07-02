@@ -1,6 +1,10 @@
-pfp_category_territories_southern_us = {
+pfp_puppet_management = {
 	pfp_southern_us_west_virginia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P26 }
 			has_global_flag = pfp_southern_us_flag
 			has_full_control_of_state = 816 #West Virginia
 

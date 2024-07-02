@@ -1,6 +1,10 @@
-pfp_category_territories_southern_russia = {
+pfp_puppet_management = {
 	pfp_southern_russia_crimea = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P40 }
 			has_global_flag = pfp_southern_russia_flag
 			has_full_control_of_state = 137 #Crimea
 
@@ -33,6 +37,10 @@ pfp_category_territories_southern_russia = {
 	}
 	pfp_southern_russia_krasnodar = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P40 }
 			has_global_flag = pfp_southern_russia_flag
 			has_full_control_of_state = 234 #Krasnodar
 

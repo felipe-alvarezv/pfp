@@ -1,6 +1,10 @@
-pfp_category_territories_indochina = {
+pfp_puppet_management = {
 	pfp_indochina_burma = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
 			has_full_control_of_state = 288 #Burma
 
@@ -33,6 +37,10 @@ pfp_category_territories_indochina = {
 	}
 	pfp_indochina_siam = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
 			has_full_control_of_state = 289 #Siam
 
@@ -65,6 +73,10 @@ pfp_category_territories_indochina = {
 	}
 	pfp_indochina_singapore = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
 			has_full_control_of_state = 336 #Singapore
 
@@ -97,6 +109,10 @@ pfp_category_territories_indochina = {
 	}
 	pfp_indochina_mandalay = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
 			has_full_control_of_state = 640 #Mandalay
 
@@ -129,6 +145,10 @@ pfp_category_territories_indochina = {
 	}
 	pfp_indochina_northern_malay = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
 			has_full_control_of_state = 724 #Northern Malay
 
@@ -161,6 +181,10 @@ pfp_category_territories_indochina = {
 	}
 	pfp_indochina_isan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
 			has_full_control_of_state = 868 #Isan
 
@@ -193,6 +217,10 @@ pfp_category_territories_indochina = {
 	}
 	pfp_indochina_lanna = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
 			has_full_control_of_state = 869 #Lanna
 

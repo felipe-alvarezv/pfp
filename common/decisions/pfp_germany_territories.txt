@@ -1,6 +1,10 @@
-pfp_category_territories_germany = {
+pfp_puppet_management = {
 	pfp_germany_ermland_masuren = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 5 #Ermland-Masuren
 
@@ -33,6 +37,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_hinterpommern = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 63 #Hinterpommern
 
@@ -65,6 +73,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_niederschlesien = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 66 #Niederschlesien
 
@@ -97,6 +109,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_oberschlesien = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 67 #Oberschlesien
 
@@ -129,6 +145,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_ostmark = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 68 #Ostmark
 
@@ -161,6 +181,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_danzig = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 85 #Danzig
 
@@ -193,6 +217,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_poznan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 86 #Poznan
 
@@ -225,6 +253,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_memel = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 188 #Memel
 
@@ -257,6 +289,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_katowice = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 762 #Katowice
 
@@ -289,6 +325,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_konigsberg = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 763 #Konigsberg
 
@@ -321,6 +361,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_lower_austria = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 4 #Lower Austria
 
@@ -353,6 +397,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_luxemburg = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 8 #Luxemburg
 
@@ -385,6 +433,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_bohemia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 9 #Bohemia
 
@@ -417,6 +469,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_alsace_lorraine = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 28 #Alsace-Lorraine
 
@@ -449,6 +505,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_alto_adige = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 39 #Alto Adige
 
@@ -481,6 +541,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_sudetenland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 69 #Sudetenland
 
@@ -513,6 +577,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_eastern_sudetenland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 74 #Eastern Sudetenland
 
@@ -545,6 +613,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_moravia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 75 #Moravia
 
@@ -577,6 +649,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_north_slovenia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 102 #North Slovenia
 
@@ -609,6 +685,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_upper_austria = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 152 #Upper Austria
 
@@ -641,6 +721,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_tyrol = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 153 #Tyrol
 
@@ -673,6 +757,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_gdynia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 807 #Gdynia
 
@@ -705,6 +793,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_vorarlberg = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 848 #Vorarlberg
 
@@ -737,6 +829,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_ljubljana = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 853 #Ljubljana
 
@@ -769,6 +865,10 @@ pfp_category_territories_germany = {
 	}
 	pfp_germany_schleswig = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P13 }
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 909 #Schleswig
 			

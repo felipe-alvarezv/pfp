@@ -1,6 +1,10 @@
-pfp_category_territories_south_asia = {
+pfp_puppet_management = {
 	pfp_south_asia_kabul = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 267 #Kabul
 
@@ -33,6 +37,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_maldives = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 281 #Maldives
 
@@ -65,6 +73,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_french_india = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 320 #French India
 
@@ -97,6 +109,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_goa = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 321 #Goa
 
@@ -129,6 +145,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_nepal = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 323 #Nepal
 
@@ -161,6 +181,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_bhutan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 324 #Bhutan
 
@@ -193,6 +217,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_herat = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 415 #Herat
 
@@ -225,6 +253,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_ceylon = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 422 #Ceylon
 
@@ -257,6 +289,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_assam = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 432 #Assam
 
@@ -289,6 +325,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_east_bengal = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 430 #East Bengal
 
@@ -321,6 +361,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_west_bengal = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 431 #West Bengal
 
@@ -353,6 +397,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_arunachal_pradesh = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 434 #Arunachal Pradesh
 
@@ -385,6 +433,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_bihar = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 435 #Bihar
 
@@ -417,6 +469,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_andaman = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 733 #Andaman
 
@@ -449,6 +505,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_kashmir = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 441 #Kashmir
 
@@ -481,6 +541,10 @@ pfp_category_territories_south_asia = {
 	}
 	pfp_south_asia_northern_kashmir = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P37 }
 			has_global_flag = pfp_south_asia_flag
 			has_full_control_of_state = 787 #Northern Kashmir
 

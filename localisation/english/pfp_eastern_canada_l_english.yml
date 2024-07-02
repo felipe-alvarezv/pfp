@@ -25,8 +25,6 @@ l_english:
  pfp_eastern_canada_coring_states:0 "§YEastern Canada§! gains cores on all listed states.\n"
  pfp_eastern_canada_transfer_states:0 "§YEastern Canada§! becomes owner and controller of all listed states.\n"
  pfp_eastern_canada_puppet:0 "§YEastern Canada§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_eastern_canada:0 "Transfer Territory to Eastern Canada"
- pfp_category_territories_eastern_canada_desc:0 ""
  pfp_eastern_canada_newfoundland:0 "Transfer Newfoundland"
  pfp_eastern_canada_coring_states_newfoundland:0 "§YEastern Canada§! gains core on §YNewfoundland§!.\n"
  pfp_eastern_canada_transfer_states_newfoundland:0 "§YEastern Canada§! becomes owner and controller of §YNewfoundland§!.\n"

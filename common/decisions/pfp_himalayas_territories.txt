@@ -1,6 +1,10 @@
-pfp_category_territories_himalayas = {
+pfp_puppet_management = {
 	pfp_himalayas_bhutan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P52 }
 			has_global_flag = pfp_himalayas_flag
 			has_full_control_of_state = 324 #Bhutan
 
@@ -33,6 +37,10 @@ pfp_category_territories_himalayas = {
 	}
 	pfp_himalayas_kashmir = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P52 }
 			has_global_flag = pfp_himalayas_flag
 			has_full_control_of_state = 441 #Kashmir
 
@@ -65,6 +73,10 @@ pfp_category_territories_himalayas = {
 	}
 	pfp_himalayas_northern_kashmir = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P52 }
 			has_global_flag = pfp_himalayas_flag
 			has_full_control_of_state = 787 #Northern Kashmir
 
@@ -97,6 +109,10 @@ pfp_category_territories_himalayas = {
 	}
 	pfp_himalayas_arunachal_pradesh = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P52 }
 			has_global_flag = pfp_himalayas_flag
 			has_full_control_of_state = 434 #Arunachal Pradesh
 
@@ -129,6 +145,10 @@ pfp_category_territories_himalayas = {
 	}
 	pfp_himalayas_xikang = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P52 }
 			has_global_flag = pfp_himalayas_flag
 			has_full_control_of_state = 601 #Xikang
 
@@ -161,6 +181,10 @@ pfp_category_territories_himalayas = {
 	}
 	pfp_himalayas_assam = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P52 }
 			has_global_flag = pfp_himalayas_flag
 			has_full_control_of_state = 432 #Assam
 

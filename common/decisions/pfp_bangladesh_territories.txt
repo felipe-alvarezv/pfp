@@ -1,6 +1,10 @@
-pfp_category_territories_bangladesh = {
+pfp_puppet_management = {
 	pfp_bangladesh_bhutan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P38 } 
 			has_global_flag = pfp_bangladesh_flag
 			has_full_control_of_state = 324 #Bhutan
 
@@ -33,6 +37,10 @@ pfp_category_territories_bangladesh = {
 	}
 	pfp_bangladesh_west_bengal = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P38 } 
 			has_global_flag = pfp_bangladesh_flag
 			has_full_control_of_state = 431 #West Bengal
 
@@ -65,6 +73,10 @@ pfp_category_territories_bangladesh = {
 	}
 	pfp_bangladesh_assam = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P38 } 
 			has_global_flag = pfp_bangladesh_flag
 			has_full_control_of_state = 432 #Assam
 
@@ -97,6 +109,10 @@ pfp_category_territories_bangladesh = {
 	}
 	pfp_bangladesh_arunachal_pradesh = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P38 } 
 			has_global_flag = pfp_bangladesh_flag
 			has_full_control_of_state = 434 #Arunachal Pradesh
 
@@ -129,6 +145,10 @@ pfp_category_territories_bangladesh = {
 	}
 	pfp_bangladesh_bihar = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P38 } 
 			has_global_flag = pfp_bangladesh_flag
 			has_full_control_of_state = 435 #Bihar
 

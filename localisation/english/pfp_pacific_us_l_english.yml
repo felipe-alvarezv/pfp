@@ -25,8 +25,6 @@ l_english:
  pfp_pacific_us_coring_states:0 "§YPacific U.S.§! gains cores on all listed states.\n"
  pfp_pacific_us_transfer_states:0 "§YPacific U.S.§! becomes owner and controller of all listed states.\n"
  pfp_pacific_us_puppet:0 "§YPacific U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_pacific_us:0 "Transfer Territory to the Pacific U.S."
- pfp_category_territories_pacific_us_desc:0 ""
  pfp_pacific_us_alaska:0 "Transfer Alaska"
  pfp_pacific_us_coring_states_alaska:0 "§YPacific U.S.§! gains core on §YAlaska§!.\n"
  pfp_pacific_us_transfer_states_alaska:0 "§YPacific U.S.§! becomes owner and controller of §YAlaska§!.\n"

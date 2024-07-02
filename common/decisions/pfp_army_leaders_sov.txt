@@ -1,9 +1,10 @@
-pfp_category_leaders = {
+pfp_puppet_management = {
 	#Dismiss Leader
 	pfp_army_leader_dismiss_sov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -368,8 +369,9 @@ pfp_category_leaders = {
 	#Mikhail Tukhachevsky
 	pfp_army_leader_sov_mikhail_tukhachevsky = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -441,8 +443,9 @@ pfp_category_leaders = {
 	#Aleksandr Yegorov
 	pfp_army_leader_sov_aleksandr_yegorov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -514,8 +517,9 @@ pfp_category_leaders = {
 	#Vasily Blyukher
 	pfp_army_leader_sov_vasily_blyukher = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -587,8 +591,9 @@ pfp_category_leaders = {
 	#Kliment Voroshilov
 	pfp_army_leader_sov_kliment_voroshilov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -660,8 +665,9 @@ pfp_category_leaders = {
 	#Semyon Budyonny
 	pfp_army_leader_sov_semyon_budyonny = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -733,8 +739,9 @@ pfp_category_leaders = {
 	#Georgy Zhukov
 	pfp_army_leader_sov_georgy_zhukov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -806,8 +813,9 @@ pfp_category_leaders = {
 	#Ivan Konev
 	pfp_army_leader_sov_ivan_konev = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -879,8 +887,9 @@ pfp_category_leaders = {
 	#Konstantin Rokossovsky
 	pfp_army_leader_sov_konstantin_rokossovsky = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -952,8 +961,9 @@ pfp_category_leaders = {
 	#Aleksandr Vasilevsky
 	pfp_army_leader_sov_aleksandr_vasilevsky = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1025,8 +1035,9 @@ pfp_category_leaders = {
 	#Boris Shaposhnikov
 	pfp_army_leader_sov_boris_shaposhnikov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1098,8 +1109,9 @@ pfp_category_leaders = {
 	#Nikolay Vatutin
 	pfp_army_leader_sov_nikolay_vatutin = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1171,8 +1183,9 @@ pfp_category_leaders = {
 	#Semyon Timoshenko
 	pfp_army_leader_sov_semyon_timoshenko = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1244,8 +1257,9 @@ pfp_category_leaders = {
 	#Leonid Govorov
 	pfp_army_leader_sov_leonid_govorov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1317,8 +1331,9 @@ pfp_category_leaders = {
 	#Kirill Meretskov
 	pfp_army_leader_sov_kirill_meretskov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1390,8 +1405,9 @@ pfp_category_leaders = {
 	#Filipp Golikov
 	pfp_army_leader_sov_filipp_golikov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1463,8 +1479,9 @@ pfp_category_leaders = {
 	#Yakov Cherevichenko
 	pfp_army_leader_sov_yakov_cherevichenko = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1536,8 +1553,9 @@ pfp_category_leaders = {
 	#Nikandr Chibisov
 	pfp_army_leader_sov_nikandr_chibisov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1609,8 +1627,9 @@ pfp_category_leaders = {
 	#Vasily Kuznetsov
 	pfp_army_leader_sov_vasily_kuznetsov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1682,8 +1701,9 @@ pfp_category_leaders = {
 	#Andrey Vlasov
 	pfp_army_leader_sov_andrey_vlasov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1755,8 +1775,9 @@ pfp_category_leaders = {
 	#Maksim Purkayev
 	pfp_army_leader_sov_maksim_purkayev = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1828,8 +1849,9 @@ pfp_category_leaders = {
 	#Nikolay Berzarin
 	pfp_army_leader_sov_nikolay_berzarin = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1901,8 +1923,9 @@ pfp_category_leaders = {
 	#Aleksandr Gorbatov
 	pfp_army_leader_sov_aleksandr_gorbatov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -1974,8 +1997,9 @@ pfp_category_leaders = {
 	#Kirill Moskalenko
 	pfp_army_leader_sov_kirill_moskalenko = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2047,8 +2071,9 @@ pfp_category_leaders = {
 	#Andrey Grechko
 	pfp_army_leader_sov_andrey_grechko = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2120,8 +2145,9 @@ pfp_category_leaders = {
 	#Vitaly Primakov
 	pfp_army_leader_sov_vitaly_primakov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2193,8 +2219,9 @@ pfp_category_leaders = {
 	#Markian Popov
 	pfp_army_leader_sov_markian_popov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2266,8 +2293,9 @@ pfp_category_leaders = {
 	#Ivan Chernyakhovsky
 	pfp_army_leader_sov_ivan_chernyakhovsky = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2339,8 +2367,9 @@ pfp_category_leaders = {
 	#Issa Pilyev
 	pfp_army_leader_sov_issa_pilyev = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2412,8 +2441,9 @@ pfp_category_leaders = {
 	#Grigory Kulik
 	pfp_army_leader_sov_grigory_kulik = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2485,8 +2515,9 @@ pfp_category_leaders = {
 	#Andrey Yeryomenko
 	pfp_army_leader_sov_andrey_yeryomenko = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2558,8 +2589,9 @@ pfp_category_leaders = {
 	#Georgy Zakharov
 	pfp_army_leader_sov_georgy_zakharov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2631,8 +2663,9 @@ pfp_category_leaders = {
 	#Maks Reyter
 	pfp_army_leader_sov_maks_reyter = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2704,8 +2737,9 @@ pfp_category_leaders = {
 	#Ivan Fedyuninsky
 	pfp_army_leader_sov_ivan_fedyuninsky = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2777,8 +2811,9 @@ pfp_category_leaders = {
 	#Kuzma Galitsky
 	pfp_army_leader_sov_kuzma_galitsky = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2850,8 +2885,9 @@ pfp_category_leaders = {
 	#Dmitry Lelyushenko
 	pfp_army_leader_sov_dmitry_lelyushenko = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2923,8 +2959,9 @@ pfp_category_leaders = {
 	#Rodion Malinovsky
 	pfp_army_leader_sov_rodion_malinovsky = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
@@ -2996,8 +3033,9 @@ pfp_category_leaders = {
 	#Vasily Chuykov
 	pfp_army_leader_sov_vasily_chuykov = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {

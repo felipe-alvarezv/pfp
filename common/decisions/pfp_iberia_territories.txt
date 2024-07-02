@@ -1,6 +1,10 @@
-pfp_category_territories_iberia = {
+pfp_puppet_management = {
 	pfp_iberia_gibraltar = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P15 }
 			has_global_flag = pfp_iberia_flag
 			has_full_control_of_state = 118 #Gibraltar
 
@@ -33,6 +37,10 @@ pfp_category_territories_iberia = {
 	}
 	pfp_iberia_islas_baleares = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P15 }
 			has_global_flag = pfp_iberia_flag
 			has_full_control_of_state = 177 #Islas Baleares
 
@@ -65,6 +73,10 @@ pfp_category_territories_iberia = {
 	}
 	pfp_iberia_islas_canarias = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P15 }
 			has_global_flag = pfp_iberia_flag
 			has_full_control_of_state = 178 #Islas Canarias
 
@@ -97,6 +109,10 @@ pfp_category_territories_iberia = {
 	}
 	pfp_iberia_madeira = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P15 }
 			has_global_flag = pfp_iberia_flag
 			has_full_control_of_state = 697 #Madeira
 
@@ -129,6 +145,10 @@ pfp_category_territories_iberia = {
 	}
 	pfp_iberia_azores = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P15 }
 			has_global_flag = pfp_iberia_flag
 			has_full_control_of_state = 698 #Azores
 

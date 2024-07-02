@@ -1,6 +1,10 @@
-pfp_category_territories_siberia = {
+pfp_puppet_management = {
 	pfp_siberia_tannu_tuva = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 329 #Tannu Tuva
 
@@ -33,6 +37,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_tyumen = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 403 #Tyumen
 
@@ -65,6 +73,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_chita = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 563 #Chita
 
@@ -97,6 +109,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_buryatia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 564 #Buryatia
 
@@ -129,6 +145,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_bodaybo = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 565 #Bodaybo
 
@@ -161,6 +181,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_chelyabinsk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 572 #Chelyabinsk
 
@@ -193,6 +217,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_zlatoust = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 573 #Zlatoust
 
@@ -225,6 +253,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_surgut = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 577 #Surgut
 
@@ -257,6 +289,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_salekhard = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 579 #Salekhard
 
@@ -289,6 +325,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_tobolsk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 580 #Tobolsk
 
@@ -321,6 +361,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_northern_urals = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 581 #Northern Urals
 
@@ -353,6 +397,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_magnitogorsk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 582 #Magnitogorsk
 
@@ -385,6 +433,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_sverdlovsk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 653 #Sverdlovsk
 
@@ -417,6 +469,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_oyrot_region = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 654 #Oyrot Region
 
@@ -449,6 +505,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_yamalia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 824 #Yamalia
 
@@ -481,6 +541,10 @@ pfp_category_territories_siberia = {
 	}
 	pfp_siberia_udachny = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P45 }
 			has_global_flag = pfp_siberia_flag
 			has_full_control_of_state = 876 #Udachny
 

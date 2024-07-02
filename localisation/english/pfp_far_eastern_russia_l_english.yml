@@ -34,8 +34,6 @@ l_english:
  pfp_far_eastern_russia_coring_states:0 "§YFar Eastern Russia§! gains cores on all listed states.\n"
  pfp_far_eastern_russia_transfer_states:0 "§YFar Eastern Russia§! becomes owner and controller of all listed states.\n"
  pfp_far_eastern_russia_puppet:0 "§YFar Eastern Russia§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_far_eastern_russia:0 "Transfer Territory to Far Eastern Russia"
- pfp_category_territories_far_eastern_russia_desc:0 ""
  pfp_far_eastern_russia_south_sakhalin:0 "Transfer South Sakhalin"
  pfp_far_eastern_russia_coring_states_south_sakhalin:0 "§YFar Eastern Russia§! gains core on §YSouth Sakhalin§!.\n"
  pfp_far_eastern_russia_transfer_states_south_sakhalin:0 "§YFar Eastern Russia§! becomes owner and controller of §YSouth Sakhalin§!.\n"

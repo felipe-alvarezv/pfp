@@ -1,6 +1,10 @@
-pfp_category_territories_caribbean = {
+pfp_puppet_management = {
 	pfp_caribbean_leeward_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 308 #Leeward Islands
 
@@ -33,6 +37,10 @@ pfp_category_territories_caribbean = {
 	}
 	pfp_caribbean_puerto_rico = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 686 #Puerto Rico
 
@@ -65,6 +73,10 @@ pfp_category_territories_caribbean = {
 	}
 	pfp_caribbean_northern_bahamas = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 690 #Northern Bahamas
 
@@ -97,6 +109,10 @@ pfp_category_territories_caribbean = {
 	}
 	pfp_caribbean_trinidad = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 691 #Trinidad
 
@@ -129,6 +145,10 @@ pfp_category_territories_caribbean = {
 	}
 	pfp_caribbean_windward_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 692 #Windward Islands
 
@@ -161,6 +181,10 @@ pfp_category_territories_caribbean = {
 	}
 	pfp_caribbean_french_caribbean = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 694 #French Caribbean
 
@@ -193,6 +217,10 @@ pfp_category_territories_caribbean = {
 	}
 	pfp_caribbean_curacao = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 695 #Curacao
 
@@ -225,6 +253,10 @@ pfp_category_territories_caribbean = {
 	}
 	pfp_caribbean_southern_bahamas = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 693 #Southern Bahamas
 
@@ -257,6 +289,10 @@ pfp_category_territories_caribbean = {
 	}
 	pfp_caribbean_bermuda = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 696 #Bermuda
 

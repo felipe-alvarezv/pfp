@@ -1,6 +1,10 @@
-pfp_category_territories_oceania = {
+pfp_puppet_management = {
 	pfp_oceania_papua = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 523 #Papua
 
@@ -33,6 +37,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_solomon_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 634 #Solomon Islands
 
@@ -65,6 +73,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_west_papua = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 669 #West Papua
 
@@ -97,6 +109,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_bismarck = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 737 #Bismarck
 
@@ -129,6 +145,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_new_caledonia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 635 #New Caledonia
 
@@ -161,6 +181,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_nendo = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 734 #Nendo
 
@@ -193,6 +217,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_palau = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 647 #Palau
 
@@ -225,6 +253,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_caroline_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 684 #Caroline Islands
 
@@ -257,6 +289,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_nauru = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 725 #Nauru
 
@@ -289,6 +325,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_fiji = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 636 #Fiji
 
@@ -321,6 +361,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_ellice_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 643 #Ellice Islands
 
@@ -353,6 +397,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_samoa = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 726 #Samoa
 
@@ -385,6 +433,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_gilbert_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 639 #Gilbert Islands
 
@@ -417,6 +469,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_guam = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 638 #Guam
 
@@ -449,6 +505,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_saipan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 646 #Saipan
 
@@ -481,6 +541,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_marcus_island = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 648 #Marcus Island
 
@@ -513,6 +577,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_marshall_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 633 #Marshall Islands
 
@@ -545,6 +613,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_wake_island = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 632 #Wake Island
 
@@ -577,6 +649,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_midway_island = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 631 #Midway Island
 
@@ -609,6 +685,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_johnston_atoll = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 630 #Johnston Atoll
 
@@ -641,6 +721,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_phoenix_island = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 642 #Phoenix Island
 
@@ -673,6 +757,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_line_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 727 #Line Islands
 
@@ -705,6 +793,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_tahiti = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 641 #Tahiti
 
@@ -737,6 +829,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_pitcairn_island = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 270 #Pitcairn Island
 
@@ -769,6 +865,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_easter_island = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 948 #Easter Island
 
@@ -801,6 +901,10 @@ pfp_category_territories_oceania = {
 	}
 	pfp_oceania_hawaii = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
 			has_global_flag = pfp_oceania_flag
 			has_full_control_of_state = 629 #Hawaii
 

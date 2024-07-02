@@ -36,8 +36,6 @@ l_english:
  pfp_east_africa_coring_states:0 "§YEast Africa§! gains cores on all listed states.\n"
  pfp_east_africa_transfer_states:0 "§YEast Africa§! becomes owner and controller of all listed states.\n"
  pfp_east_africa_puppet:0 "§YEast Africa§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_east_africa:0 "Transfer Territory to East Africa"
- pfp_category_territories_east_africa_desc:0 ""
  pfp_east_africa_british_somaliland:0 "Transfer British Somaliland"
  pfp_east_africa_coring_states_british_somaliland:0 "§YEast Africa§! gains core on §YBritish Somaliland§!.\n"
  pfp_east_africa_transfer_states_british_somaliland:0 "§YEast Africa§! becomes owner and controller of §YBritish Somaliland§!.\n"

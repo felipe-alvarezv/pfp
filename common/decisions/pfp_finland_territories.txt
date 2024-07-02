@@ -1,6 +1,10 @@
-pfp_category_territories_finland = {
+pfp_puppet_management = {
 	pfp_finland_aland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P12 }
 			has_global_flag = pfp_finland_flag
 			has_full_control_of_state = 145 #Aland
 
@@ -33,6 +37,10 @@ pfp_category_territories_finland = {
 	}
 	pfp_finland_salla = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P12 }
 			has_global_flag = pfp_finland_flag
 			has_full_control_of_state = 147 #Salla
 
@@ -65,6 +73,10 @@ pfp_category_territories_finland = {
 	}
 	pfp_finland_karjala = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P12 }
 			has_global_flag = pfp_finland_flag
 			has_full_control_of_state = 146 #Karjala
 
@@ -97,6 +109,10 @@ pfp_category_territories_finland = {
 	}
 	pfp_finland_murmansk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P12 }
 			has_global_flag = pfp_finland_flag
 			has_full_control_of_state = 213 #Murmansk
 
@@ -129,6 +145,10 @@ pfp_category_territories_finland = {
 	}
 	pfp_finland_onega = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P12 }
 			has_global_flag = pfp_finland_flag
 			has_full_control_of_state = 215 #Onega
 
@@ -161,6 +181,10 @@ pfp_category_territories_finland = {
 	}
 	pfp_finland_olonets = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P12 }
 			has_global_flag = pfp_finland_flag
 			has_full_control_of_state = 216 #Olonets
 
@@ -193,6 +217,10 @@ pfp_category_territories_finland = {
 	}
 	pfp_finland_petsamo = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P12 }
 			has_global_flag = pfp_finland_flag
 			has_full_control_of_state = 722 #Petsamo
 

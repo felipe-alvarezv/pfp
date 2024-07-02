@@ -1,6 +1,10 @@
-pfp_category_territories_east_africa = {
+pfp_puppet_management = {
 	pfp_east_africa_french_somaliland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 268 #French Somaliland
 
@@ -33,6 +37,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_british_somaliland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 269 #British Somaliland
 
@@ -65,6 +73,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_madagascar = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 543 #Madagascar
 
@@ -97,6 +109,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_tanganyika = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 546 #Tanganyika
 
@@ -129,6 +145,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_nairobi = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 547 #Nairobi
 
@@ -161,6 +181,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_uganda = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 548 #Uganda
 
@@ -193,6 +217,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_kurdufan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 549 #Kurdufan
 
@@ -225,6 +253,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_khartoum = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 551 #Khartoum
 
@@ -257,6 +289,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_reunion = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 706 #Reunion
 
@@ -289,6 +325,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_mauritius = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 707 #Mauritius
 
@@ -321,6 +361,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_comoro_islands = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 708 #Comoro Islands
 
@@ -353,6 +397,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_seychelles = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 709 #Seychelles
 
@@ -385,6 +433,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_north_darfur = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 767 #North Darfur
 
@@ -417,6 +469,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_rwanda = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 768 #Rwanda
 
@@ -449,6 +505,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_burundi = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 769 #Burundi
 
@@ -481,6 +541,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_kassala = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 883 #Kassala
 
@@ -513,6 +577,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_upper_nile = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 884 #Upper Nile
 
@@ -545,6 +613,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_bahr_al_ghazal = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 885 #Bahr Al Ghazal
 
@@ -577,6 +649,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_blue_nile = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 886 #Blue Nile
 
@@ -609,6 +685,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_south_darfur = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 887 #South Darfur
 
@@ -641,6 +721,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_garissa = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 903 #Garissa
 
@@ -673,6 +757,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_nyanza_rift_valley = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 904 #Nyanza-Rift Valley
 
@@ -705,6 +793,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_mombasa = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 905 #Mombasa
 
@@ -737,6 +829,10 @@ pfp_category_territories_east_africa = {
 	}
 	pfp_east_africa_socotra = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P10 }
 			has_global_flag = pfp_east_africa_flag
 			has_full_control_of_state = 906 #Socotra
 

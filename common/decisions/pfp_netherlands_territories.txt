@@ -1,6 +1,10 @@
-pfp_category_territories_netherlands = {
+pfp_puppet_management = {
 	pfp_netherlands_luxemburg = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P05 }
 			has_global_flag = pfp_netherlands_flag
 			has_full_control_of_state = 8 #Luxemburg
 

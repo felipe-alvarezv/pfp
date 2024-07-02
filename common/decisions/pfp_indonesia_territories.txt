@@ -1,6 +1,10 @@
-pfp_category_territories_indonesia = {
+pfp_puppet_management = {
 	pfp_indonesia_singapore = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P17 }
 			has_global_flag = pfp_indonesia_flag
 			has_full_control_of_state = 336 #Singapore
 
@@ -33,6 +37,10 @@ pfp_category_territories_indonesia = {
 	}
 	pfp_indonesia_west_papua = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P17 }
 			has_global_flag = pfp_indonesia_flag
 			has_full_control_of_state = 669 #West Papua
 
@@ -65,6 +73,10 @@ pfp_category_territories_indonesia = {
 	}
 	pfp_indonesia_portuguese_timor = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P17 }
 			has_global_flag = pfp_indonesia_flag
 			has_full_control_of_state = 721 #Portuguese Timor
 

@@ -31,8 +31,6 @@ l_english:
  pfp_finland_coring_states:0 "§YFinland§! gains cores on all listed states.\n"
  pfp_finland_transfer_states:0 "§YFinland§! becomes owner and controller of all listed states.\n"
  pfp_finland_puppet:0 "§YFinland§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_finland:0 "Transfer Territory to Finland"
- pfp_category_territories_finland_desc:0 ""
  pfp_finland_aland:0 "Transfer Åland"
  pfp_finland_coring_states_aland:0 "§YFinland§! gains core on §YÅland§!.\n"
  pfp_finland_transfer_states_aland:0 "§YFinland§! becomes owner and controller of §YÅland§!.\n"

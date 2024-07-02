@@ -1,6 +1,10 @@
-pfp_category_territories_central_africa = {
+pfp_puppet_management = {
 	pfp_central_africa_equatorial_guinea = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 297 #Equatorial Guinea
 
@@ -33,6 +37,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_gabon = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 539 #Gabon
 
@@ -65,6 +73,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_equatorial_africa = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 660 #Equatorial Africa
 
@@ -97,6 +109,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_sao_tome = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 705 #Sao Tome
 
@@ -129,6 +145,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_burundi = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 769 #Burundi
 
@@ -161,6 +181,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_rwanda = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 768 #Rwanda
 
@@ -193,6 +217,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_middle_congo = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 772 #Middle Congo
 
@@ -225,6 +253,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_cameroon = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 773 #Cameroon
 
@@ -257,6 +289,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_chad = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 774 #Chad
 
@@ -289,6 +325,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_bet = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 775 #B.E.T.
 
@@ -321,6 +361,10 @@ pfp_category_territories_central_africa = {
 	}
 	pfp_central_africa_north_angola = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_central_africa_flag
 			has_full_control_of_state = 796 #North Angola
 

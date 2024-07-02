@@ -1,9 +1,10 @@
-pfp_category_leaders = {
+pfp_puppet_management = {
 	#Dismiss Leader
 	pfp_army_leader_dismiss_jap = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -297,8 +298,9 @@ pfp_category_leaders = {
 	#Hisaichi Terauchi
 	pfp_army_leader_jap_hisaichi_terauchi = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -370,8 +372,9 @@ pfp_category_leaders = {
 	#Shunroku Hata
 	pfp_army_leader_jap_shunroku_hata = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -443,8 +446,9 @@ pfp_category_leaders = {
 	#Tomoyuki Yamashita
 	pfp_army_leader_jap_tomoyuki_yamashita = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -516,8 +520,9 @@ pfp_category_leaders = {
 	#Shizuichi Tanaka
 	pfp_army_leader_jap_shizuichi_tanaka = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -589,8 +594,9 @@ pfp_category_leaders = {
 	#Kenkichi Ueda
 	pfp_army_leader_jap_kenkichi_ueda = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -662,8 +668,9 @@ pfp_category_leaders = {
 	#Toshizo Nishio
 	pfp_army_leader_jap_toshizo_nishio = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -735,8 +742,9 @@ pfp_category_leaders = {
 	#Rikichi Ando
 	pfp_army_leader_jap_rikichi_ando = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -808,8 +816,9 @@ pfp_category_leaders = {
 	#Naruhiko Higashikuni
 	pfp_army_leader_jap_naruhiko_higashikuni = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -881,8 +890,9 @@ pfp_category_leaders = {
 	#Seishiro Itagaki
 	pfp_army_leader_jap_seishiro_itagaki = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -954,8 +964,9 @@ pfp_category_leaders = {
 	#Takashi Sakai
 	pfp_army_leader_jap_takashi_sakai = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1027,8 +1038,9 @@ pfp_category_leaders = {
 	#Yoshijiro Umezu
 	pfp_army_leader_jap_yoshijiro_umezu = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1100,8 +1112,9 @@ pfp_category_leaders = {
 	#Otozo Yamada
 	pfp_army_leader_jap_otozo_yamada = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1173,8 +1186,9 @@ pfp_category_leaders = {
 	#Keisuke Fujie
 	pfp_army_leader_jap_keisuke_fujie = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1246,8 +1260,9 @@ pfp_category_leaders = {
 	#Harukichi Hyakutake
 	pfp_army_leader_jap_harukichi_hyakutake = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1319,8 +1334,9 @@ pfp_category_leaders = {
 	#Hitoshi Imamura
 	pfp_army_leader_jap_hitoshi_imamura = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1392,8 +1408,9 @@ pfp_category_leaders = {
 	#Akira Muto
 	pfp_army_leader_jap_akira_muto = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1465,8 +1482,9 @@ pfp_category_leaders = {
 	#Hatazo Adachi
 	pfp_army_leader_jap_hatazo_adachi = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1538,8 +1556,9 @@ pfp_category_leaders = {
 	#Sadao Araki
 	pfp_army_leader_jap_sadao_araki = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1611,8 +1630,9 @@ pfp_category_leaders = {
 	#Kiichiro Higuchi
 	pfp_army_leader_jap_kiichiro_higuchi = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1684,8 +1704,9 @@ pfp_category_leaders = {
 	#Masaharu Homma
 	pfp_army_leader_jap_masaharu_homma = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1757,8 +1778,9 @@ pfp_category_leaders = {
 	#Jo Iimura
 	pfp_army_leader_jap_jo_iimura = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1830,8 +1852,9 @@ pfp_category_leaders = {
 	#Masatane Kanda
 	pfp_army_leader_jap_masatane_kanda = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1903,8 +1926,9 @@ pfp_category_leaders = {
 	#Kuniaki Koiso
 	pfp_army_leader_jap_kuniaki_koiso = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -1976,8 +2000,9 @@ pfp_category_leaders = {
 	#Kanji Ishiwara
 	pfp_army_leader_jap_kanji_ishiwara = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -2049,8 +2074,9 @@ pfp_category_leaders = {
 	#Yasuji Okamura
 	pfp_army_leader_jap_yasuji_okamura = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -2122,8 +2148,9 @@ pfp_category_leaders = {
 	#Kenji Doihara
 	pfp_army_leader_jap_kenji_doihara = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -2195,8 +2222,9 @@ pfp_category_leaders = {
 	#Shigeru Honjo
 	pfp_army_leader_jap_shigeru_honjo = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {
@@ -2268,8 +2296,9 @@ pfp_category_leaders = {
 	#Iwane Matsui
 	pfp_army_leader_jap_iwane_matsui = {
 		visible = {
-			has_country_flag = pfp_puppet_selected #Check if a puppet is selected
-			has_variable = FROM.pfp_puppet_selection #Check if puppet variable is set
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = JAP #Check if country is Japan
 
 			var:FROM.pfp_puppet_selection = {

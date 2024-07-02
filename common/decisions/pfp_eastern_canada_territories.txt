@@ -1,6 +1,10 @@
-pfp_category_territories_eastern_canada = {
+pfp_puppet_management = {
 	pfp_eastern_canada_newfoundland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 331 #Newfoundland
 
@@ -33,6 +37,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_labrador = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 332 #Labrador
 
@@ -65,6 +73,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_nova_scotia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 464 #Nova Scotia
 
@@ -97,6 +109,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_new_brunswick = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 465 #New Brunswick
 
@@ -129,6 +145,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_nord_du_quebec = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 466 #Nord du Quebec
 
@@ -161,6 +181,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_saint_lawrence = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 468 #Saint Lawrence
 
@@ -193,6 +217,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_st_pierre_and_miquelon = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 730 #St. Pierre and Miquelon
 
@@ -225,6 +253,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_cote_nord = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 860 #Cote-Nord
 
@@ -257,6 +289,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_saguenay = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 861 #Saguenay
 
@@ -289,6 +325,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_ouest_du_quebec = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 862 #Ouest du Quebec
 
@@ -321,6 +361,10 @@ pfp_category_territories_eastern_canada = {
 	}
 	pfp_eastern_canada_maurice = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P11 }
 			has_global_flag = pfp_eastern_canada_flag
 			has_full_control_of_state = 863 #Maurice
 

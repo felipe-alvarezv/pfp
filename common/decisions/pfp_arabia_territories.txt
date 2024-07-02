@@ -1,6 +1,10 @@
-pfp_category_territories_arabia = {
+pfp_puppet_management = {
 	pfp_arabia_baghdad = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 291 #Baghdad
 
@@ -33,6 +37,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_sinai = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 453 #Sinai
 
@@ -65,6 +73,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_palestine = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 454 #Palestine
 
@@ -98,6 +110,10 @@ pfp_category_territories_arabia = {
 	pfp_arabia_jordan = {
 		visible = {
 			has_full_control_of_state = 455 #Jordan
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 
 			455 = { #Jordan
@@ -129,6 +145,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_damascus = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 554 #Damascus
 
@@ -161,6 +181,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_lebanon = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 553 #Lebanon
 
@@ -193,6 +217,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_kuwait = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 656 #Kuwait
 
@@ -225,6 +253,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_abu_dhabi = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 658 #Abu Dhabi
 
@@ -257,6 +289,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_aden = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 659 #Aden
 
@@ -289,6 +325,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_al_hajara = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 675 #Al Hajara
 
@@ -321,6 +361,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_mosul = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 676 #Mosul
 
@@ -353,6 +397,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_aleppo = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 677 #Aleppo
 
@@ -385,6 +433,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_deir_az_zur = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 680 #Deir-Az-Zur
 
@@ -417,6 +469,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_qatar = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 765 #Qatar
 
@@ -449,6 +505,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_hatay = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 799 #Hatay
 
@@ -481,6 +541,10 @@ pfp_category_territories_arabia = {
 	}
 	pfp_arabia_socotra = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
 			has_full_control_of_state = 906 #Socotra
 

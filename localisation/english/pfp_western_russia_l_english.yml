@@ -73,8 +73,6 @@ l_english:
  pfp_western_russia_coring_states:0 "§YWestern Russia§! gains cores on all listed states.\n"
  pfp_western_russia_transfer_states:0 "§YWestern Russia§! becomes owner and controller of all listed states.\n"
  pfp_western_russia_puppet:0 "§YWestern Russia§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_western_russia:0 "Transfer Territory to Western Russia"
- pfp_category_territories_western_russia_desc:0 ""
  pfp_western_russia_crimea:0 "Transfer Crimea"
  pfp_western_russia_coring_states_crimea:0 "§YWestern Russia§! gains core on §YCrimea§!.\n"
  pfp_western_russia_transfer_states_crimea:0 "§YWestern Russia§! becomes owner and controller of §YCrimea§!.\n"

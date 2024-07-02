@@ -1,6 +1,10 @@
-pfp_category_territories_prussia = {
+pfp_puppet_management = {
 	pfp_prussia_moselland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 42 #Moselland
 
@@ -33,6 +37,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_rhineland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 51 #Rhineland
 
@@ -65,6 +73,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_hessen = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 55 #Hessen
 
@@ -97,6 +109,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_weser_ems = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 56 #Weser-Ems
 
@@ -129,6 +145,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_westfalen = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 57 #Westfalen
 
@@ -161,6 +181,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_holstein = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 58 #Holstein
 
@@ -193,6 +217,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_hannover = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 59 #Hannover
 
@@ -225,6 +253,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_thuringen = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 60 #Thuringen
 
@@ -257,6 +289,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_mecklenburg = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 61 #Mecklenburg
 
@@ -289,6 +325,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_sachsen = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 65 #Sachsen
 
@@ -321,6 +361,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_danzig = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 85 #Danzig
 
@@ -353,6 +397,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_poznan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 86 #Poznan
 
@@ -385,6 +433,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_memel = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 188 #Memel
 
@@ -417,6 +469,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_katowice = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 762 #Katowice
 
@@ -449,6 +505,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_gdynia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 807 #Gdynia
 
@@ -481,6 +541,10 @@ pfp_category_territories_prussia = {
 	}
 	pfp_prussia_schleswig = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P33 }
 			has_global_flag = pfp_prussia_flag
 			has_full_control_of_state = 909 #Schleswig
 

@@ -1,6 +1,10 @@
-pfp_category_territories_central_russia = {
+pfp_puppet_management = {
 	pfp_central_russia_smolensk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P39 }
 			has_global_flag = pfp_central_russia_flag
 			has_full_control_of_state = 242 #Smolensk
 
@@ -33,6 +37,10 @@ pfp_category_territories_central_russia = {
 	}
 	pfp_central_russia_roslavl = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P39 }
 			has_global_flag = pfp_central_russia_flag
 			has_full_control_of_state = 243 #Roslavl
 

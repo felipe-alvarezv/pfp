@@ -1,6 +1,10 @@
-pfp_category_territories_western_russia = {
+pfp_puppet_management = {
 	pfp_western_russia_crimea = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 137 #Crimea
 
@@ -33,6 +37,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_karjala = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 146 #Karjala
 
@@ -65,6 +73,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_salla = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 147 #Salla
 
@@ -97,6 +109,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_murmansk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 213 #Murmansk
 
@@ -129,6 +145,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_onega = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 215 #Onega
 
@@ -161,6 +181,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_olonets = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 216 #Olonets
 
@@ -193,6 +217,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_dagestan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 232 #Dagestan
 
@@ -225,6 +253,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_sochi = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 233 #Sochi
 
@@ -258,6 +290,10 @@ pfp_category_territories_western_russia = {
 	pfp_western_russia_krasnodar = {
 
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 234 #Krasnodar
 
@@ -290,6 +326,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_stavropol = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 235 #Stavropol
 
@@ -322,6 +362,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_smolensk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 242 #Smolensk
 
@@ -354,6 +398,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_roslavl = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 243 #Roslavl
 
@@ -386,6 +434,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_zlatoust = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 573 #Zlatoust
 
@@ -418,6 +470,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_northern_urals = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 581 #Northern Urals
 
@@ -450,6 +506,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_magnitogorsk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 582 #Magnitogorsk
 
@@ -482,6 +542,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_petsamo = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 722 #Petsamo
 
@@ -514,6 +578,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_chechnya_ingushetia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 821 #Chechnya-Ingushetia
 
@@ -546,6 +614,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_kabardino_balkaria = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 827 #Kabardino-Balkaria
 
@@ -578,6 +650,10 @@ pfp_category_territories_western_russia = {
 	}
 	pfp_western_russia_north_ossetia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P48 }
 			has_global_flag = pfp_western_russia_flag
 			has_full_control_of_state = 828 #North Ossetia
 

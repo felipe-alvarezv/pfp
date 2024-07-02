@@ -1,6 +1,10 @@
-pfp_category_territories_danube = {
+pfp_puppet_management = {
 	pfp_danube_lower_austria = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 4 #Lower Austria
 
@@ -33,6 +37,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_bohemia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 9 #Bohemia
 
@@ -65,6 +73,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_alto_adige = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 39 #Alto Adige
 
@@ -97,6 +109,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_vojvodina = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 45 #Vojvodina
 
@@ -129,6 +145,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_sudetenland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 69 #Sudetenland
 
@@ -161,6 +181,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_western_slovakia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 70 #Western Slovakia
 
@@ -193,6 +217,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_eastern_slovakia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 71 #Eastern Slovakia
 
@@ -225,6 +253,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_zaolzie = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 72 #Zaolzie
 
@@ -257,6 +289,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_carpathian_ruthenia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 73 #Carpathian Ruthenia
 
@@ -289,6 +325,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_eastern_sudetenland = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 74 #Eastern Sudetenland
 
@@ -321,6 +361,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_moravia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 75 #Moravia
 
@@ -353,6 +397,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_bucovina = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 80 #Bucovina
 
@@ -385,6 +433,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_krakow = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 88 #Krakow
 
@@ -417,6 +469,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_stanislawow = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 89 #Stanislawow
 
@@ -449,6 +505,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_lwow = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 91 #Lwow
 
@@ -481,6 +541,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_north_slovenia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 102 #North Slovenia
 
@@ -513,6 +577,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_dalmatia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 103 #Dalmatia
 
@@ -545,6 +613,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_bosnia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 104 #Bosnia
 
@@ -577,6 +649,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_croatia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 109 #Croatia
 
@@ -609,6 +685,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_upper_austria = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 152 #Upper Austria
 
@@ -641,6 +721,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_tyrol = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 153 #Tyrol
 
@@ -673,6 +757,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_veneto = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 160 #Veneto
 
@@ -705,6 +793,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_zara = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 163 #Zara
 
@@ -737,6 +829,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_southern_slovakia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 664 #Southern Slovakia
 
@@ -769,6 +865,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_litorale = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 736 #Litorale
 
@@ -801,6 +901,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_west_banat = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 764 #West Banat
 
@@ -833,6 +937,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_herzegovina = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 804 #Herzegovina
 
@@ -865,6 +973,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_vorarlberg = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 848 #Vorarlberg
 
@@ -897,6 +1009,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_trentino = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 850 #Trentino
 
@@ -929,6 +1045,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_istria = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 852 #Istria
 
@@ -961,6 +1081,10 @@ pfp_category_territories_danube = {
 	}
 	pfp_danube_ljubljana = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_danube_flag
 			has_full_control_of_state = 853 #Ljubljana
 

@@ -1,6 +1,10 @@
-pfp_category_territories_mongolia = {
+pfp_puppet_management = {
 	pfp_mongolia_tannu_tuva = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 329 #Tannu Tuva
 
@@ -33,6 +37,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_chita = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 563 #Chita
 
@@ -65,6 +73,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_buryatia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 564 #Buryatia
 
@@ -97,6 +109,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_south_chahar = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 611 #South Chahar
 
@@ -129,6 +145,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_chahar = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 612 #Chahar
 
@@ -161,6 +181,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_ningxia = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 616 #Ningxia
 
@@ -193,6 +217,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_dzungaria = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 618 #Dzungaria
 
@@ -225,6 +253,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_suiyuan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 621 #Suiyuan
 
@@ -257,6 +289,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_oyrot_region = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 654 #Oyrot Region
 
@@ -290,6 +326,10 @@ pfp_category_territories_mongolia = {
 	pfp_mongolia_ordos = {
 
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 746 #Ordos
 
@@ -322,6 +362,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_jiuquan = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 756 #Jiuquan
 
@@ -354,6 +398,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_dabacheng = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 760 #Dabacheng
 
@@ -386,6 +434,10 @@ pfp_category_territories_mongolia = {
 	}
 	pfp_mongolia_hulunbuir = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P47 }
 			has_global_flag = pfp_mongolia_flag
 			has_full_control_of_state = 761 #Hulunbuir
 

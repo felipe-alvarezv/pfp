@@ -1,6 +1,10 @@
-pfp_category_territories_volga = {
+pfp_puppet_management = {
 	pfp_volga_zlatoust = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P42 }
 			has_global_flag = pfp_volga_flag
 			has_full_control_of_state = 573 #Zlatoust
 
@@ -33,6 +37,10 @@ pfp_category_territories_volga = {
 	}
 	pfp_volga_magnitogorsk = {
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P42 }
 			has_global_flag = pfp_volga_flag
 			has_full_control_of_state = 582 #Magnitogorsk
 

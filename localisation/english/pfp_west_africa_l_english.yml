@@ -35,8 +35,6 @@ l_english:
  pfp_west_africa_coring_states:0 "§YWest Africa§! gains cores on all listed states.\n"
  pfp_west_africa_transfer_states:0 "§YWest Africa§! becomes owner and controller of all listed states.\n"
  pfp_west_africa_puppet:0 "§YWest Africa§! becomes a puppet of §Y[Root.GetName]§!.\n"
- pfp_category_territories_west_africa:0 "Transfer Territory to West Africa"
- pfp_category_territories_west_africa_desc:0 ""
  pfp_west_africa_ghana:0 "Transfer Ghana"
  pfp_west_africa_coring_states_ghana:0 "§YWest Africa§! gains core on §YGhana§!.\n"
  pfp_west_africa_transfer_states_ghana:0 "§YWest Africa§! becomes owner and controller of §YGhana§!.\n"
