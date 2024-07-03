@@ -1,21 +1,21 @@
-﻿#Rio de la Plata - P54 - Localisation
+﻿#Rio de la Plata - P55 - Localisation
 l_english:
  #Country Information
- P54_communism:0 "Rio de la Plata"
- P54_communism_DEF:0 "Rio de la Plata"
- P54_democratic:0 "Rio de la Plata"
- P54_democratic_DEF:0 "Rio de la Plata"
- P54_neutrality:1 "Rio de la Plata"
- P54_neutrality_DEF:1 "Rio de la Plata"
- P54_fascism:0 "Rio de la Plata"
- P54_fascism_DEF:0 "Rio de la Plata"
- P54_communism_ADJ:0 "Argentinian"
- P54_democratic_ADJ:0 "Argentinian"
- P54_neutrality_ADJ:0 "Argentinian"
- P54_fascism_ADJ:0 "Argentinian"
- P54:0 "Rio de la Plata"
- P54_DEF:0 "Rio de la Plata"
- P54_ADJ:0 "Argentinian"
+ P55_communism:0 "Rio de la Plata"
+ P55_communism_DEF:0 "Rio de la Plata"
+ P55_democratic:0 "Rio de la Plata"
+ P55_democratic_DEF:0 "Rio de la Plata"
+ P55_neutrality:1 "Rio de la Plata"
+ P55_neutrality_DEF:1 "Rio de la Plata"
+ P55_fascism:0 "Rio de la Plata"
+ P55_fascism_DEF:0 "Rio de la Plata"
+ P55_communism_ADJ:0 "Argentinian"
+ P55_democratic_ADJ:0 "Argentinian"
+ P55_neutrality_ADJ:0 "Argentinian"
+ P55_fascism_ADJ:0 "Argentinian"
+ P55:0 "Rio de la Plata"
+ P55_DEF:0 "Rio de la Plata"
+ P55_ADJ:0 "Argentinian"
 
  #Decisions Information
  pfp_rio_de_la_plata:0 "Establish Military Administration in the Rio de la Plata"
