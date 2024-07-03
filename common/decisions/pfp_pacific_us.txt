@@ -39,6 +39,7 @@ pfp_category = {
 				state = 386 #Washington
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_pacific_us_coring_states
 			custom_effect_tooltip = pfp_pacific_us_transfer_states

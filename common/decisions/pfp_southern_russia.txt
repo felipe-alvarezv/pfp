@@ -59,6 +59,7 @@ pfp_category = {
 				state = 265 #Mikhaylovka
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_southern_russia_coring_states
 			custom_effect_tooltip = pfp_southern_russia_transfer_states

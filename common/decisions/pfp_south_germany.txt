@@ -38,6 +38,7 @@ pfp_category = {
 				state = 54 #Franken
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_south_germany_coring_states
 			custom_effect_tooltip = pfp_south_germany_transfer_states

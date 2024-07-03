@@ -49,6 +49,7 @@ pfp_category = {
 				state = 689 #Jamaica
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_caribbean_coring_states
 			custom_effect_tooltip = pfp_caribbean_transfer_states

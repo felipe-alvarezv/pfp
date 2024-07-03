@@ -123,6 +123,7 @@ pfp_category = {
 				state = 445 #Quetta
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_south_asia_coring_states
 			custom_effect_tooltip = pfp_south_asia_transfer_states

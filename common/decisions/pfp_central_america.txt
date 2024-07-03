@@ -65,6 +65,7 @@ pfp_category = {
 				state = 317 #Nicaragua
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_central_america_coring_states
 			custom_effect_tooltip = pfp_central_america_transfer_states

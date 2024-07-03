@@ -105,6 +105,7 @@ pfp_category = {
 				state = 723 #South Island
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_oceania_coring_states
 			custom_effect_tooltip = pfp_oceania_transfer_states

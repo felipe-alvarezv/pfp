@@ -74,6 +74,7 @@ pfp_category = {
 				state = 930 #Mikkeli
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_finland_coring_states
 			custom_effect_tooltip = pfp_finland_transfer_states

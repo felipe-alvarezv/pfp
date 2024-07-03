@@ -45,6 +45,7 @@ pfp_category = {
 				state = 758 #Ngari
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_himalayas_coring_states
 			custom_effect_tooltip = pfp_himalayas_transfer_states

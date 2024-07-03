@@ -96,6 +96,7 @@ pfp_category = {
 				state = 786 #Mauritanian Desert
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_west_africa_coring_states
 			custom_effect_tooltip = pfp_west_africa_transfer_states

@@ -63,6 +63,7 @@ pfp_category = {
 				state = 155 #Transdanubia
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_danube_coring_states
 			custom_effect_tooltip = pfp_danube_transfer_states

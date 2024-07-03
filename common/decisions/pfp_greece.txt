@@ -35,6 +35,7 @@ pfp_category = {
 				state = 186 #Peloponnese
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_greece_coring_states
 			custom_effect_tooltip = pfp_greece_transfer_states

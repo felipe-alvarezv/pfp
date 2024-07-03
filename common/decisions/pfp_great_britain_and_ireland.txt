@@ -155,6 +155,7 @@ pfp_category = {
 				state = 933 #Shetland Islands
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_great_britain_and_ireland_coring_states
 			custom_effect_tooltip = pfp_great_britain_and_ireland_transfer_states

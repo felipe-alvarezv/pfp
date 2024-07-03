@@ -38,6 +38,7 @@ pfp_category = {
 				state = 866 #Districts of Ontario
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_eastern_canada_coring_states
 			custom_effect_tooltip = pfp_eastern_canada_transfer_states

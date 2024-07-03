@@ -22,6 +22,7 @@ pfp_category = {
 		highlight_states = {
 			highlight_state_targets = { state = 430 } #East Bengal
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_bangladesh_coring_states
 			custom_effect_tooltip = pfp_bangladesh_transfer_states

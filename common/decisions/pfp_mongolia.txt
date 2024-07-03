@@ -47,6 +47,7 @@ pfp_category = {
 				state = 820 #Khovsgol
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_mongolia_coring_states
 			custom_effect_tooltip = pfp_mongolia_transfer_states

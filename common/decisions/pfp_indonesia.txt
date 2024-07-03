@@ -70,6 +70,7 @@ pfp_category = {
 				state = 738 #Aru Islands
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_indonesia_coring_states
 			custom_effect_tooltip = pfp_indonesia_transfer_states

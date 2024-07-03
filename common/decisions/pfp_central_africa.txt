@@ -57,6 +57,7 @@ pfp_category = {
 				state = 890 #Costermansville
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_central_africa_coring_states
 			custom_effect_tooltip = pfp_central_africa_transfer_states

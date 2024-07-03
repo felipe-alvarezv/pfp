@@ -43,6 +43,7 @@ pfp_category = {
 				state = 826 #Abkhazia
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_transcaucasia_coring_states
 			custom_effect_tooltip = pfp_transcaucasia_transfer_states

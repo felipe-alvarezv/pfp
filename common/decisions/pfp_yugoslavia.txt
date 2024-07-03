@@ -103,6 +103,7 @@ pfp_category = {
                 state = 853 #Ljubljana 
             }
         }
+        icon = generic_military
         complete_effect = {
             custom_effect_tooltip = pfp_yugoslavia_coring_states
             custom_effect_tooltip = pfp_yugoslavia_transfer_states

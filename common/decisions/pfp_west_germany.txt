@@ -80,6 +80,7 @@ pfp_category = {
 				state = 59 #Hannover
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_west_germany_coring_states
 			custom_effect_tooltip = pfp_west_germany_transfer_states

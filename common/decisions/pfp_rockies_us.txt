@@ -70,6 +70,7 @@ pfp_category = {
 				state = 387 #Idaho
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_rockies_us_coring_states
 			custom_effect_tooltip = pfp_rockies_us_transfer_states

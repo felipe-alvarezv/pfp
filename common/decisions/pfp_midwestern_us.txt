@@ -93,6 +93,7 @@ pfp_category = {
 				state = 396 #Indiana
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_midwestern_us_coring_states
 			custom_effect_tooltip = pfp_midwestern_us_transfer_states

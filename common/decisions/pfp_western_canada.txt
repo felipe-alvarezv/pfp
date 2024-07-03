@@ -60,6 +60,7 @@ pfp_category = {
 				state = 867 #Northern Manitoba
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_western_canada_coring_states
 			custom_effect_tooltip = pfp_western_canada_transfer_states

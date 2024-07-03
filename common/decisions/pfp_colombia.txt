@@ -35,6 +35,7 @@ pfp_category = {
 				state = 493 #La Libertad
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_colombia_coring_states
 			custom_effect_tooltip = pfp_colombia_transfer_states
