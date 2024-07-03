@@ -16,7 +16,7 @@ characters={
 		name="Military Junta"
 		portraits={
 			civilian={
-				large="gfx/leaders/PFP/pfp_american_portrait.dds.dds"
+				large="gfx/leaders/PFP/pfp_american_portrait.dds"
 			}
 		}
 		country_leader={

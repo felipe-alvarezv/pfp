@@ -242,53 +242,39 @@ pfp_puppet_management = {
 					clr_global_flag = pfp_jap_iwane_matsui
 				}
 
-
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of selection
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Military Junta"
-								desc = ""
-								picture = "gfx/leaders/PFP/pfp_american_portrait.dds.dds"
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Military Junta"
+						desc = ""
+						picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Military Junta"
-								desc = ""
-								picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Military Junta"
+						desc = ""
+						picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Military Junta"
-								desc = ""
-								picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Military Junta"
+						desc = ""
+						picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Military Junta"
-								desc = ""
-								picture = "gfx/leaders/PFP/pfp_polish_portrait.dds"
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Military Junta"
+						desc = ""
+						picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+						ideology = fascism_ideology
 					}
 				}
 			}
@@ -316,52 +302,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Hisaichi Terauchi
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hisaichi Terauchi"
-								desc = ""
-								picture = GFX_portrait_JAP_hisaichi_terauchi
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Hisaichi Terauchi"
+						desc = ""
+						picture = GFX_portrait_JAP_hisaichi_terauchi
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hisaichi Terauchi"
-								desc = ""
-								picture = GFX_portrait_JAP_hisaichi_terauchi
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hisaichi Terauchi"
+						desc = ""
+						picture = GFX_portrait_JAP_hisaichi_terauchi
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hisaichi Terauchi"
-								desc = ""
-								picture = GFX_portrait_JAP_hisaichi_terauchi
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hisaichi Terauchi"
+						desc = ""
+						picture = GFX_portrait_JAP_hisaichi_terauchi
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hisaichi Terauchi"
-								desc = ""
-								picture = GFX_portrait_JAP_hisaichi_terauchi
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hisaichi Terauchi"
+						desc = ""
+						picture = GFX_portrait_JAP_hisaichi_terauchi
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_hisaichi_terauchi
@@ -390,52 +363,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Shunroku Hata
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shunroku Hata"
-								desc = ""
-								picture = GFX_portrait_JAP_shunroku_hata
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Shunroku Hata"
+						desc = ""
+						picture = GFX_portrait_JAP_shunroku_hata
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shunroku Hata"
-								desc = ""
-								picture = GFX_portrait_JAP_shunroku_hata
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shunroku Hata"
+						desc = ""
+						picture = GFX_portrait_JAP_shunroku_hata
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shunroku Hata"
-								desc = ""
-								picture = GFX_portrait_JAP_shunroku_hata
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shunroku Hata"
+						desc = ""
+						picture = GFX_portrait_JAP_shunroku_hata
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shunroku Hata"
-								desc = ""
-								picture = GFX_portrait_JAP_shunroku_hata
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shunroku Hata"
+						desc = ""
+						picture = GFX_portrait_JAP_shunroku_hata
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_shunroku_hata
@@ -464,52 +424,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Tomoyuki Yamashita
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Tomoyuki Yamashita"
-								desc = ""
-								picture = GFX_portrait_JAP_tomoyuki_yamashita
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Tomoyuki Yamashita"
+						desc = ""
+						picture = GFX_portrait_JAP_tomoyuki_yamashita
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Tomoyuki Yamashita"
-								desc = ""
-								picture = GFX_portrait_JAP_tomoyuki_yamashita
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Tomoyuki Yamashita"
+						desc = ""
+						picture = GFX_portrait_JAP_tomoyuki_yamashita
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Tomoyuki Yamashita"
-								desc = ""
-								picture = GFX_portrait_JAP_tomoyuki_yamashita
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Tomoyuki Yamashita"
+						desc = ""
+						picture = GFX_portrait_JAP_tomoyuki_yamashita
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Tomoyuki Yamashita"
-								desc = ""
-								picture = GFX_portrait_JAP_tomoyuki_yamashita
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Tomoyuki Yamashita"
+						desc = ""
+						picture = GFX_portrait_JAP_tomoyuki_yamashita
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_tomoyuki_yamashita
@@ -538,52 +485,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Shizuichi Tanaka
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shizuichi Tanaka"
-								desc = ""
-								picture = GFX_portrait_JAP_shizuichi_tanaka
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Shizuichi Tanaka"
+						desc = ""
+						picture = GFX_portrait_JAP_shizuichi_tanaka
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shizuichi Tanaka"
-								desc = ""
-								picture = GFX_portrait_JAP_shizuichi_tanaka
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shizuichi Tanaka"
+						desc = ""
+						picture = GFX_portrait_JAP_shizuichi_tanaka
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shizuichi Tanaka"
-								desc = ""
-								picture = GFX_portrait_JAP_shizuichi_tanaka
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shizuichi Tanaka"
+						desc = ""
+						picture = GFX_portrait_JAP_shizuichi_tanaka
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shizuichi Tanaka"
-								desc = ""
-								picture = GFX_portrait_JAP_shizuichi_tanaka
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shizuichi Tanaka"
+						desc = ""
+						picture = GFX_portrait_JAP_shizuichi_tanaka
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_shizuichi_tanaka
@@ -612,52 +546,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kenkichi Ueda
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kenkichi Ueda"
-								desc = ""
-								picture = GFX_portrait_JAP_kenkichi_ueda
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Kenkichi Ueda"
+						desc = ""
+						picture = GFX_portrait_JAP_kenkichi_ueda
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kenkichi Ueda"
-								desc = ""
-								picture = GFX_portrait_JAP_kenkichi_ueda
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kenkichi Ueda"
+						desc = ""
+						picture = GFX_portrait_JAP_kenkichi_ueda
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kenkichi Ueda"
-								desc = ""
-								picture = GFX_portrait_JAP_kenkichi_ueda
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kenkichi Ueda"
+						desc = ""
+						picture = GFX_portrait_JAP_kenkichi_ueda
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kenkichi Ueda"
-								desc = ""
-								picture = GFX_portrait_JAP_kenkichi_ueda
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kenkichi Ueda"
+						desc = ""
+						picture = GFX_portrait_JAP_kenkichi_ueda
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_kenkichi_ueda
@@ -686,52 +607,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Toshizo Nishio
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Toshizo Nishio"
-								desc = ""
-								picture = GFX_portrait_JAP_toshizo_nishio
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Toshizo Nishio"
+						desc = ""
+						picture = GFX_portrait_JAP_toshizo_nishio
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Toshizo Nishio"
-								desc = ""
-								picture = GFX_portrait_JAP_toshizo_nishio
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Toshizo Nishio"
+						desc = ""
+						picture = GFX_portrait_JAP_toshizo_nishio
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Toshizo Nishio"
-								desc = ""
-								picture = GFX_portrait_JAP_toshizo_nishio
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Toshizo Nishio"
+						desc = ""
+						picture = GFX_portrait_JAP_toshizo_nishio
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Toshizo Nishio"
-								desc = ""
-								picture = GFX_portrait_JAP_toshizo_nishio
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Toshizo Nishio"
+						desc = ""
+						picture = GFX_portrait_JAP_toshizo_nishio
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_toshizo_nishio
@@ -760,52 +668,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Rikichi Ando
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Rikichi Ando"
-								desc = ""
-								picture = GFX_portrait_JAP_rikichi_ando
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Rikichi Ando"
+						desc = ""
+						picture = GFX_portrait_JAP_rikichi_ando
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Rikichi Ando"
-								desc = ""
-								picture = GFX_portrait_JAP_rikichi_ando
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Rikichi Ando"
+						desc = ""
+						picture = GFX_portrait_JAP_rikichi_ando
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Rikichi Ando"
-								desc = ""
-								picture = GFX_portrait_JAP_rikichi_ando
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Rikichi Ando"
+						desc = ""
+						picture = GFX_portrait_JAP_rikichi_ando
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Rikichi Ando"
-								desc = ""
-								picture = GFX_portrait_JAP_rikichi_ando
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Rikichi Ando"
+						desc = ""
+						picture = GFX_portrait_JAP_rikichi_ando
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_rikichi_ando
@@ -834,52 +729,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Naruhiko Higashikuni
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Naruhiko Higashikuni"
-								desc = ""
-								picture = GFX_portrait_JAP_naruhiko_higashikuni
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Naruhiko Higashikuni"
+						desc = ""
+						picture = GFX_portrait_JAP_naruhiko_higashikuni
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Naruhiko Higashikuni"
-								desc = ""
-								picture = GFX_portrait_JAP_naruhiko_higashikuni
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Naruhiko Higashikuni"
+						desc = ""
+						picture = GFX_portrait_JAP_naruhiko_higashikuni
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Naruhiko Higashikuni"
-								desc = ""
-								picture = GFX_portrait_JAP_naruhiko_higashikuni
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Naruhiko Higashikuni"
+						desc = ""
+						picture = GFX_portrait_JAP_naruhiko_higashikuni
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Naruhiko Higashikuni"
-								desc = ""
-								picture = GFX_portrait_JAP_naruhiko_higashikuni
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Naruhiko Higashikuni"
+						desc = ""
+						picture = GFX_portrait_JAP_naruhiko_higashikuni
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_naruhiko_higashikuni
@@ -908,52 +790,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Seishiro Itagaki
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Seishiro Itagaki"
-								desc = ""
-								picture = GFX_portrait_JAP_seishiro_itagaki
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Seishiro Itagaki"
+						desc = ""
+						picture = GFX_portrait_JAP_seishiro_itagaki
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Seishiro Itagaki"
-								desc = ""
-								picture = GFX_portrait_JAP_seishiro_itagaki
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Seishiro Itagaki"
+						desc = ""
+						picture = GFX_portrait_JAP_seishiro_itagaki
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Seishiro Itagaki"
-								desc = ""
-								picture = GFX_portrait_JAP_seishiro_itagaki
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Seishiro Itagaki"
+						desc = ""
+						picture = GFX_portrait_JAP_seishiro_itagaki
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Seishiro Itagaki"
-								desc = ""
-								picture = GFX_portrait_JAP_seishiro_itagaki
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Seishiro Itagaki"
+						desc = ""
+						picture = GFX_portrait_JAP_seishiro_itagaki
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_seishiro_itagaki
@@ -982,52 +851,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Takashi Sakai
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Takashi Sakai"
-								desc = ""
-								picture = GFX_portrait_JAP_takashi_sakai
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Takashi Sakai"
+						desc = ""
+						picture = GFX_portrait_JAP_takashi_sakai
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Takashi Sakai"
-								desc = ""
-								picture = GFX_portrait_JAP_takashi_sakai
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Takashi Sakai"
+						desc = ""
+						picture = GFX_portrait_JAP_takashi_sakai
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Takashi Sakai"
-								desc = ""
-								picture = GFX_portrait_JAP_takashi_sakai
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Takashi Sakai"
+						desc = ""
+						picture = GFX_portrait_JAP_takashi_sakai
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Takashi Sakai"
-								desc = ""
-								picture = GFX_portrait_JAP_takashi_sakai
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Takashi Sakai"
+						desc = ""
+						picture = GFX_portrait_JAP_takashi_sakai
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_takashi_sakai
@@ -1056,52 +912,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Yoshijiro Umezu
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Yoshijiro Umezu"
-								desc = ""
-								picture = GFX_portrait_JAP_yoshijiro_umezu
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Yoshijiro Umezu"
+						desc = ""
+						picture = GFX_portrait_JAP_yoshijiro_umezu
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Yoshijiro Umezu"
-								desc = ""
-								picture = GFX_portrait_JAP_yoshijiro_umezu
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Yoshijiro Umezu"
+						desc = ""
+						picture = GFX_portrait_JAP_yoshijiro_umezu
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Yoshijiro Umezu"
-								desc = ""
-								picture = GFX_portrait_JAP_yoshijiro_umezu
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Yoshijiro Umezu"
+						desc = ""
+						picture = GFX_portrait_JAP_yoshijiro_umezu
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Yoshijiro Umezu"
-								desc = ""
-								picture = GFX_portrait_JAP_yoshijiro_umezu
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Yoshijiro Umezu"
+						desc = ""
+						picture = GFX_portrait_JAP_yoshijiro_umezu
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_yoshijiro_umezu
@@ -1130,52 +973,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Otozo Yamada
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Otozo Yamada"
-								desc = ""
-								picture = GFX_portrait_JAP_otozo_yamada
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Otozo Yamada"
+						desc = ""
+						picture = GFX_portrait_JAP_otozo_yamada
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Otozo Yamada"
-								desc = ""
-								picture = GFX_portrait_JAP_otozo_yamada
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Otozo Yamada"
+						desc = ""
+						picture = GFX_portrait_JAP_otozo_yamada
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Otozo Yamada"
-								desc = ""
-								picture = GFX_portrait_JAP_otozo_yamada
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Otozo Yamada"
+						desc = ""
+						picture = GFX_portrait_JAP_otozo_yamada
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Otozo Yamada"
-								desc = ""
-								picture = GFX_portrait_JAP_otozo_yamada
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Otozo Yamada"
+						desc = ""
+						picture = GFX_portrait_JAP_otozo_yamada
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_otozo_yamada
@@ -1204,52 +1034,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Keisuke Fujie
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Keisuke Fujie"
-								desc = ""
-								picture = GFX_portrait_JAP_keisuke_fujie
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Keisuke Fujie"
+						desc = ""
+						picture = GFX_portrait_JAP_keisuke_fujie
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Keisuke Fujie"
-								desc = ""
-								picture = GFX_portrait_JAP_keisuke_fujie
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Keisuke Fujie"
+						desc = ""
+						picture = GFX_portrait_JAP_keisuke_fujie
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Keisuke Fujie"
-								desc = ""
-								picture = GFX_portrait_JAP_keisuke_fujie
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Keisuke Fujie"
+						desc = ""
+						picture = GFX_portrait_JAP_keisuke_fujie
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Keisuke Fujie"
-								desc = ""
-								picture = GFX_portrait_JAP_keisuke_fujie
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Keisuke Fujie"
+						desc = ""
+						picture = GFX_portrait_JAP_keisuke_fujie
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_keisuke_fujie
@@ -1278,52 +1095,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Harukichi Hyakutake
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Harukichi Hyakutake"
-								desc = ""
-								picture = GFX_portrait_JAP_harukichi_hyakutake
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Harukichi Hyakutake"
+						desc = ""
+						picture = GFX_portrait_JAP_harukichi_hyakutake
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Harukichi Hyakutake"
-								desc = ""
-								picture = GFX_portrait_JAP_harukichi_hyakutake
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Harukichi Hyakutake"
+						desc = ""
+						picture = GFX_portrait_JAP_harukichi_hyakutake
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Harukichi Hyakutake"
-								desc = ""
-								picture = GFX_portrait_JAP_harukichi_hyakutake
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Harukichi Hyakutake"
+						desc = ""
+						picture = GFX_portrait_JAP_harukichi_hyakutake
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Harukichi Hyakutake"
-								desc = ""
-								picture = GFX_portrait_JAP_harukichi_hyakutake
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Harukichi Hyakutake"
+						desc = ""
+						picture = GFX_portrait_JAP_harukichi_hyakutake
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_harukichi_hyakutake
@@ -1352,52 +1156,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Hitoshi Imamura
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hitoshi Imamura"
-								desc = ""
-								picture = GFX_portrait_JAP_hitoshi_imamura
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Hitoshi Imamura"
+						desc = ""
+						picture = GFX_portrait_JAP_hitoshi_imamura
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hitoshi Imamura"
-								desc = ""
-								picture = GFX_portrait_JAP_hitoshi_imamura
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hitoshi Imamura"
+						desc = ""
+						picture = GFX_portrait_JAP_hitoshi_imamura
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hitoshi Imamura"
-								desc = ""
-								picture = GFX_portrait_JAP_hitoshi_imamura
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hitoshi Imamura"
+						desc = ""
+						picture = GFX_portrait_JAP_hitoshi_imamura
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hitoshi Imamura"
-								desc = ""
-								picture = GFX_portrait_JAP_hitoshi_imamura
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hitoshi Imamura"
+						desc = ""
+						picture = GFX_portrait_JAP_hitoshi_imamura
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_hitoshi_imamura
@@ -1426,52 +1217,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Akira Muto
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Akira Muto"
-								desc = ""
-								picture = GFX_portrait_JAP_akira_muto
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Akira Muto"
+						desc = ""
+						picture = GFX_portrait_JAP_akira_muto
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Akira Muto"
-								desc = ""
-								picture = GFX_portrait_JAP_akira_muto
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Akira Muto"
+						desc = ""
+						picture = GFX_portrait_JAP_akira_muto
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Akira Muto"
-								desc = ""
-								picture = GFX_portrait_JAP_akira_muto
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Akira Muto"
+						desc = ""
+						picture = GFX_portrait_JAP_akira_muto
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Akira Muto"
-								desc = ""
-								picture = GFX_portrait_JAP_akira_muto
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Akira Muto"
+						desc = ""
+						picture = GFX_portrait_JAP_akira_muto
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_akira_muto
@@ -1500,52 +1278,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Hatazo Adachi
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hatazo Adachi"
-								desc = ""
-								picture = GFX_portrait_JAP_hatazo_adachi
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Hatazo Adachi"
+						desc = ""
+						picture = GFX_portrait_JAP_hatazo_adachi
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hatazo Adachi"
-								desc = ""
-								picture = GFX_portrait_JAP_hatazo_adachi
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hatazo Adachi"
+						desc = ""
+						picture = GFX_portrait_JAP_hatazo_adachi
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hatazo Adachi"
-								desc = ""
-								picture = GFX_portrait_JAP_hatazo_adachi
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hatazo Adachi"
+						desc = ""
+						picture = GFX_portrait_JAP_hatazo_adachi
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hatazo Adachi"
-								desc = ""
-								picture = GFX_portrait_JAP_hatazo_adachi
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hatazo Adachi"
+						desc = ""
+						picture = GFX_portrait_JAP_hatazo_adachi
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_hatazo_adachi
@@ -1574,52 +1339,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Sadao Araki
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Sadao Araki"
-								desc = ""
-								picture = GFX_portrait_JAP_sadao_araki
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Sadao Araki"
+						desc = ""
+						picture = GFX_portrait_JAP_sadao_araki
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Sadao Araki"
-								desc = ""
-								picture = GFX_portrait_JAP_sadao_araki
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Sadao Araki"
+						desc = ""
+						picture = GFX_portrait_JAP_sadao_araki
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Sadao Araki"
-								desc = ""
-								picture = GFX_portrait_JAP_sadao_araki
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Sadao Araki"
+						desc = ""
+						picture = GFX_portrait_JAP_sadao_araki
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Sadao Araki"
-								desc = ""
-								picture = GFX_portrait_JAP_sadao_araki
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Sadao Araki"
+						desc = ""
+						picture = GFX_portrait_JAP_sadao_araki
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_sadao_araki
@@ -1648,52 +1400,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kiichiro Higuchi
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kiichiro Higuchi"
-								desc = ""
-								picture = GFX_portrait_JAP_kiichiro_higuchi
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Kiichiro Higuchi"
+						desc = ""
+						picture = GFX_portrait_JAP_kiichiro_higuchi
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kiichiro Higuchi"
-								desc = ""
-								picture = GFX_portrait_JAP_kiichiro_higuchi
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kiichiro Higuchi"
+						desc = ""
+						picture = GFX_portrait_JAP_kiichiro_higuchi
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kiichiro Higuchi"
-								desc = ""
-								picture = GFX_portrait_JAP_kiichiro_higuchi
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kiichiro Higuchi"
+						desc = ""
+						picture = GFX_portrait_JAP_kiichiro_higuchi
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kiichiro Higuchi"
-								desc = ""
-								picture = GFX_portrait_JAP_kiichiro_higuchi
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kiichiro Higuchi"
+						desc = ""
+						picture = GFX_portrait_JAP_kiichiro_higuchi
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_kiichiro_higuchi
@@ -1722,52 +1461,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Masaharu Homma
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Masaharu Homma"
-								desc = ""
-								picture = GFX_portrait_JAP_masaharu_homma
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Masaharu Homma"
+						desc = ""
+						picture = GFX_portrait_JAP_masaharu_homma
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Masaharu Homma"
-								desc = ""
-								picture = GFX_portrait_JAP_masaharu_homma
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Masaharu Homma"
+						desc = ""
+						picture = GFX_portrait_JAP_masaharu_homma
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Masaharu Homma"
-								desc = ""
-								picture = GFX_portrait_JAP_masaharu_homma
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Masaharu Homma"
+						desc = ""
+						picture = GFX_portrait_JAP_masaharu_homma
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Masaharu Homma"
-								desc = ""
-								picture = GFX_portrait_JAP_masaharu_homma
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Masaharu Homma"
+						desc = ""
+						picture = GFX_portrait_JAP_masaharu_homma
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_masaharu_homma
@@ -1796,52 +1522,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Jo Iimura
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Jo Iimura"
-								desc = ""
-								picture = GFX_portrait_JAP_jo_iimura
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Jo Iimura"
+						desc = ""
+						picture = GFX_portrait_JAP_jo_iimura
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Jo Iimura"
-								desc = ""
-								picture = GFX_portrait_JAP_jo_iimura
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Jo Iimura"
+						desc = ""
+						picture = GFX_portrait_JAP_jo_iimura
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Jo Iimura"
-								desc = ""
-								picture = GFX_portrait_JAP_jo_iimura
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Jo Iimura"
+						desc = ""
+						picture = GFX_portrait_JAP_jo_iimura
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Jo Iimura"
-								desc = ""
-								picture = GFX_portrait_JAP_jo_iimura
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Jo Iimura"
+						desc = ""
+						picture = GFX_portrait_JAP_jo_iimura
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_jo_iimura
@@ -1870,52 +1583,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Masatane Kanda
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Masatane Kanda"
-								desc = ""
-								picture = GFX_portrait_JAP_masatane_kanda
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Masatane Kanda"
+						desc = ""
+						picture = GFX_portrait_JAP_masatane_kanda
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Masatane Kanda"
-								desc = ""
-								picture = GFX_portrait_JAP_masatane_kanda
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Masatane Kanda"
+						desc = ""
+						picture = GFX_portrait_JAP_masatane_kanda
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Masatane Kanda"
-								desc = ""
-								picture = GFX_portrait_JAP_masatane_kanda
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Masatane Kanda"
+						desc = ""
+						picture = GFX_portrait_JAP_masatane_kanda
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Masatane Kanda"
-								desc = ""
-								picture = GFX_portrait_JAP_masatane_kanda
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Masatane Kanda"
+						desc = ""
+						picture = GFX_portrait_JAP_masatane_kanda
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_masatane_kanda
@@ -1944,52 +1644,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kuniaki Koiso
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kuniaki Koiso"
-								desc = ""
-								picture = GFX_portrait_JAP_kuniaki_koiso
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Kuniaki Koiso"
+						desc = ""
+						picture = GFX_portrait_JAP_kuniaki_koiso
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kuniaki Koiso"
-								desc = ""
-								picture = GFX_portrait_JAP_kuniaki_koiso
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kuniaki Koiso"
+						desc = ""
+						picture = GFX_portrait_JAP_kuniaki_koiso
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kuniaki Koiso"
-								desc = ""
-								picture = GFX_portrait_JAP_kuniaki_koiso
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kuniaki Koiso"
+						desc = ""
+						picture = GFX_portrait_JAP_kuniaki_koiso
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kuniaki Koiso"
-								desc = ""
-								picture = GFX_portrait_JAP_kuniaki_koiso
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kuniaki Koiso"
+						desc = ""
+						picture = GFX_portrait_JAP_kuniaki_koiso
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_kuniaki_koiso
@@ -2018,52 +1705,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kanji Ishiwara
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kanji Ishiwara"
-								desc = ""
-								picture = GFX_portrait_JAP_kanji_ishiwara
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Kanji Ishiwara"
+						desc = ""
+						picture = GFX_portrait_JAP_kanji_ishiwara
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kanji Ishiwara"
-								desc = ""
-								picture = GFX_portrait_JAP_kanji_ishiwara
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kanji Ishiwara"
+						desc = ""
+						picture = GFX_portrait_JAP_kanji_ishiwara
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kanji Ishiwara"
-								desc = ""
-								picture = GFX_portrait_JAP_kanji_ishiwara
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kanji Ishiwara"
+						desc = ""
+						picture = GFX_portrait_JAP_kanji_ishiwara
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kanji Ishiwara"
-								desc = ""
-								picture = GFX_portrait_JAP_kanji_ishiwara
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kanji Ishiwara"
+						desc = ""
+						picture = GFX_portrait_JAP_kanji_ishiwara
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_kanji_ishiwara
@@ -2092,52 +1766,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Yasuji Okamura
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Yasuji Okamura"
-								desc = ""
-								picture = GFX_portrait_JAP_yasuji_okamura
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Yasuji Okamura"
+						desc = ""
+						picture = GFX_portrait_JAP_yasuji_okamura
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Yasuji Okamura"
-								desc = ""
-								picture = GFX_portrait_JAP_yasuji_okamura
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Yasuji Okamura"
+						desc = ""
+						picture = GFX_portrait_JAP_yasuji_okamura
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Yasuji Okamura"
-								desc = ""
-								picture = GFX_portrait_JAP_yasuji_okamura
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Yasuji Okamura"
+						desc = ""
+						picture = GFX_portrait_JAP_yasuji_okamura
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Yasuji Okamura"
-								desc = ""
-								picture = GFX_portrait_JAP_yasuji_okamura
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Yasuji Okamura"
+						desc = ""
+						picture = GFX_portrait_JAP_yasuji_okamura
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_yasuji_okamura
@@ -2166,52 +1827,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kenji Doihara
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kenji Doihara"
-								desc = ""
-								picture = GFX_portrait_JAP_kenji_doihara
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Kenji Doihara"
+						desc = ""
+						picture = GFX_portrait_JAP_kenji_doihara
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kenji Doihara"
-								desc = ""
-								picture = GFX_portrait_JAP_kenji_doihara
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kenji Doihara"
+						desc = ""
+						picture = GFX_portrait_JAP_kenji_doihara
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kenji Doihara"
-								desc = ""
-								picture = GFX_portrait_JAP_kenji_doihara
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kenji Doihara"
+						desc = ""
+						picture = GFX_portrait_JAP_kenji_doihara
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kenji Doihara"
-								desc = ""
-								picture = GFX_portrait_JAP_kenji_doihara
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kenji Doihara"
+						desc = ""
+						picture = GFX_portrait_JAP_kenji_doihara
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_kenji_doihara
@@ -2240,52 +1888,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Shigeru Honjo
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shigeru Honjo"
-								desc = ""
-								picture = GFX_portrait_JAP_shigeru_honjo
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Shigeru Honjo"
+						desc = ""
+						picture = GFX_portrait_JAP_shigeru_honjo
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shigeru Honjo"
-								desc = ""
-								picture = GFX_portrait_JAP_shigeru_honjo
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shigeru Honjo"
+						desc = ""
+						picture = GFX_portrait_JAP_shigeru_honjo
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shigeru Honjo"
-								desc = ""
-								picture = GFX_portrait_JAP_shigeru_honjo
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shigeru Honjo"
+						desc = ""
+						picture = GFX_portrait_JAP_shigeru_honjo
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Shigeru Honjo"
-								desc = ""
-								picture = GFX_portrait_JAP_shigeru_honjo
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Shigeru Honjo"
+						desc = ""
+						picture = GFX_portrait_JAP_shigeru_honjo
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_shigeru_honjo
@@ -2314,52 +1949,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Iwane Matsui
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Iwane Matsui"
-								desc = ""
-								picture = GFX_portrait_JAP_iwane_matsui
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Iwane Matsui"
+						desc = ""
+						picture = GFX_portrait_JAP_iwane_matsui
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Iwane Matsui"
-								desc = ""
-								picture = GFX_portrait_JAP_iwane_matsui
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Iwane Matsui"
+						desc = ""
+						picture = GFX_portrait_JAP_iwane_matsui
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Iwane Matsui"
-								desc = ""
-								picture = GFX_portrait_JAP_iwane_matsui
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Iwane Matsui"
+						desc = ""
+						picture = GFX_portrait_JAP_iwane_matsui
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Iwane Matsui"
-								desc = ""
-								picture = GFX_portrait_JAP_iwane_matsui
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Iwane Matsui"
+						desc = ""
+						picture = GFX_portrait_JAP_iwane_matsui
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_jap_iwane_matsui

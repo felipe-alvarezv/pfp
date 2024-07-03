@@ -242,52 +242,39 @@ pfp_puppet_management = {
 					clr_global_flag = pfp_ger_friedrich_paulus
 				}
 
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader of selection
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Military Junta"
-								desc = ""
-								picture = "gfx/leaders/PFP/pfp_american_portrait.dds.dds"
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Military Junta"
+						desc = ""
+						picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Military Junta"
-								desc = ""
-								picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Military Junta"
+						desc = ""
+						picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Military Junta"
-								desc = ""
-								picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Military Junta"
+						desc = ""
+						picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Military Junta"
-								desc = ""
-								picture = "gfx/leaders/PFP/pfp_polish_portrait.dds"
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Military Junta"
+						desc = ""
+						picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+						ideology = fascism_ideology
 					}
 				}
 			}
@@ -315,52 +302,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Gerd von Rundstedt
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gerd von Rundstedt"
-								desc = ""
-								picture = GFX_portrait_GER_gerd_von_rundstedt
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Gerd von Rundstedt"
+						desc = ""
+						picture = GFX_portrait_GER_gerd_von_rundstedt
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gerd von Rundstedt"
-								desc = ""
-								picture = GFX_portrait_GER_gerd_von_rundstedt
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gerd von Rundstedt"
+						desc = ""
+						picture = GFX_portrait_GER_gerd_von_rundstedt
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gerd von Rundstedt"
-								desc = ""
-								picture = GFX_portrait_GER_gerd_von_rundstedt
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gerd von Rundstedt"
+						desc = ""
+						picture = GFX_portrait_GER_gerd_von_rundstedt
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gerd von Rundstedt"
-								desc = ""
-								picture = GFX_portrait_GER_gerd_von_rundstedt
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gerd von Rundstedt"
+						desc = ""
+						picture = GFX_portrait_GER_gerd_von_rundstedt
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_gerd_von_rundstedt
@@ -389,52 +363,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Gunther von Kluge
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gunther von Kluge"
-								desc = ""
-								picture = GFX_portrait_GER_gunther_von_kluge
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Gunther von Kluge"
+						desc = ""
+						picture = GFX_portrait_GER_gunther_von_kluge
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gunther von Kluge"
-								desc = ""
-								picture = GFX_portrait_GER_gunther_von_kluge
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gunther von Kluge"
+						desc = ""
+						picture = GFX_portrait_GER_gunther_von_kluge
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gunther von Kluge"
-								desc = ""
-								picture = GFX_portrait_GER_gunther_von_kluge
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gunther von Kluge"
+						desc = ""
+						picture = GFX_portrait_GER_gunther_von_kluge
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gunther von Kluge"
-								desc = ""
-								picture = GFX_portrait_GER_gunther_von_kluge
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gunther von Kluge"
+						desc = ""
+						picture = GFX_portrait_GER_gunther_von_kluge
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_gunther_von_kluge
@@ -463,52 +424,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Walter Model
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Walter Model"
-								desc = ""
-								picture = GFX_portrait_GER_walter_model
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Walter Model"
+						desc = ""
+						picture = GFX_portrait_GER_walter_model
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Walter Model"
-								desc = ""
-								picture = GFX_portrait_GER_walter_model
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Walter Model"
+						desc = ""
+						picture = GFX_portrait_GER_walter_model
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Walter Model"
-								desc = ""
-								picture = GFX_portrait_GER_walter_model
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Walter Model"
+						desc = ""
+						picture = GFX_portrait_GER_walter_model
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Walter Model"
-								desc = ""
-								picture = GFX_portrait_GER_walter_model
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Walter Model"
+						desc = ""
+						picture = GFX_portrait_GER_walter_model
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_walter_model
@@ -537,52 +485,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Erwin Rommel
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erwin Rommel"
-								desc = ""
-								picture = GFX_portrait_GER_erwin_rommel
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Erwin Rommel"
+						desc = ""
+						picture = GFX_portrait_GER_erwin_rommel
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erwin Rommel"
-								desc = ""
-								picture = GFX_portrait_GER_erwin_rommel
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erwin Rommel"
+						desc = ""
+						picture = GFX_portrait_GER_erwin_rommel
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erwin Rommel"
-								desc = ""
-								picture = GFX_portrait_GER_erwin_rommel
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erwin Rommel"
+						desc = ""
+						picture = GFX_portrait_GER_erwin_rommel
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erwin Rommel"
-								desc = ""
-								picture = GFX_portrait_GER_erwin_rommel
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erwin Rommel"
+						desc = ""
+						picture = GFX_portrait_GER_erwin_rommel
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_erwin_rommel
@@ -611,52 +546,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Erich von Manstein
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erich von Manstein"
-								desc = ""
-								picture = GFX_portrait_GER_erich_von_manstein
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Erich von Manstein"
+						desc = ""
+						picture = GFX_portrait_GER_erich_von_manstein
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erich von Manstein"
-								desc = ""
-								picture = GFX_portrait_GER_erich_von_manstein
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erich von Manstein"
+						desc = ""
+						picture = GFX_portrait_GER_erich_von_manstein
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erich von Manstein"
-								desc = ""
-								picture = GFX_portrait_GER_erich_von_manstein
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erich von Manstein"
+						desc = ""
+						picture = GFX_portrait_GER_erich_von_manstein
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erich von Manstein"
-								desc = ""
-								picture = GFX_portrait_GER_erich_von_manstein
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erich von Manstein"
+						desc = ""
+						picture = GFX_portrait_GER_erich_von_manstein
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_erich_von_manstein
@@ -685,52 +607,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Heinz Guderian
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Heinz Guderian"
-								desc = ""
-								picture = GFX_portrait_GER_heinz_guderian
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Heinz Guderian"
+						desc = ""
+						picture = GFX_portrait_GER_heinz_guderian
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Heinz Guderian"
-								desc = ""
-								picture = GFX_portrait_GER_heinz_guderian
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Heinz Guderian"
+						desc = ""
+						picture = GFX_portrait_GER_heinz_guderian
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Heinz Guderian"
-								desc = ""
-								picture = GFX_portrait_GER_heinz_guderian
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Heinz Guderian"
+						desc = ""
+						picture = GFX_portrait_GER_heinz_guderian
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Heinz Guderian"
-								desc = ""
-								picture = GFX_portrait_GER_heinz_guderian
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Heinz Guderian"
+						desc = ""
+						picture = GFX_portrait_GER_heinz_guderian
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_heinz_guderian
@@ -759,52 +668,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Fedor von Bock
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Fedor von Bock"
-								desc = ""
-								picture = GFX_portrait_GER_fedor_von_bock
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Fedor von Bock"
+						desc = ""
+						picture = GFX_portrait_GER_fedor_von_bock
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Fedor von Bock"
-								desc = ""
-								picture = GFX_portrait_GER_fedor_von_bock
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Fedor von Bock"
+						desc = ""
+						picture = GFX_portrait_GER_fedor_von_bock
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Fedor von Bock"
-								desc = ""
-								picture = GFX_portrait_GER_fedor_von_bock
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Fedor von Bock"
+						desc = ""
+						picture = GFX_portrait_GER_fedor_von_bock
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Fedor von Bock"
-								desc = ""
-								picture = GFX_portrait_GER_fedor_von_bock
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Fedor von Bock"
+						desc = ""
+						picture = GFX_portrait_GER_fedor_von_bock
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_fedor_von_bock
@@ -833,52 +729,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Maximilian von Weichs
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Maximilian von Weichs"
-								desc = ""
-								picture = GFX_portrait_GER_maximilian_von_weichs
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Maximilian von Weichs"
+						desc = ""
+						picture = GFX_portrait_GER_maximilian_von_weichs
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Maximilian von Weichs"
-								desc = ""
-								picture = GFX_portrait_GER_maximilian_von_weichs
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Maximilian von Weichs"
+						desc = ""
+						picture = GFX_portrait_GER_maximilian_von_weichs
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Maximilian von Weichs"
-								desc = ""
-								picture = GFX_portrait_GER_maximilian_von_weichs
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Maximilian von Weichs"
+						desc = ""
+						picture = GFX_portrait_GER_maximilian_von_weichs
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Maximilian von Weichs"
-								desc = ""
-								picture = GFX_portrait_GER_maximilian_von_weichs
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Maximilian von Weichs"
+						desc = ""
+						picture = GFX_portrait_GER_maximilian_von_weichs
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_maximilian_von_weichs
@@ -907,52 +790,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Kurt Student
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kurt Student"
-								desc = ""
-								picture = GFX_portrait_GER_kurt_student
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Kurt Student"
+						desc = ""
+						picture = GFX_portrait_GER_kurt_student
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kurt Student"
-								desc = ""
-								picture = GFX_portrait_GER_kurt_student
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kurt Student"
+						desc = ""
+						picture = GFX_portrait_GER_kurt_student
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kurt Student"
-								desc = ""
-								picture = GFX_portrait_GER_kurt_student
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kurt Student"
+						desc = ""
+						picture = GFX_portrait_GER_kurt_student
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Kurt Student"
-								desc = ""
-								picture = GFX_portrait_GER_kurt_student
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Kurt Student"
+						desc = ""
+						picture = GFX_portrait_GER_kurt_student
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_kurt_student
@@ -981,52 +851,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Erwin von Witzleben
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erwin von Witzleben"
-								desc = ""
-								picture = GFX_portrait_GER_erwin_von_witzleben
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Erwin von Witzleben"
+						desc = ""
+						picture = GFX_portrait_GER_erwin_von_witzleben
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erwin von Witzleben"
-								desc = ""
-								picture = GFX_portrait_GER_erwin_von_witzleben
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erwin von Witzleben"
+						desc = ""
+						picture = GFX_portrait_GER_erwin_von_witzleben
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erwin von Witzleben"
-								desc = ""
-								picture = GFX_portrait_GER_erwin_von_witzleben
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erwin von Witzleben"
+						desc = ""
+						picture = GFX_portrait_GER_erwin_von_witzleben
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Erwin von Witzleben"
-								desc = ""
-								picture = GFX_portrait_GER_erwin_von_witzleben
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Erwin von Witzleben"
+						desc = ""
+						picture = GFX_portrait_GER_erwin_von_witzleben
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_erwin_von_witzleben
@@ -1055,52 +912,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Paul Hausser
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Paul Hausser"
-								desc = ""
-								picture = GFX_portrait_GER_paul_hausser
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Paul Hausser"
+						desc = ""
+						picture = GFX_portrait_GER_paul_hausser
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Paul Hausser"
-								desc = ""
-								picture = GFX_portrait_GER_paul_hausser
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Paul Hausser"
+						desc = ""
+						picture = GFX_portrait_GER_paul_hausser
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Paul Hausser"
-								desc = ""
-								picture = GFX_portrait_GER_paul_hausser
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Paul Hausser"
+						desc = ""
+						picture = GFX_portrait_GER_paul_hausser
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Paul Hausser"
-								desc = ""
-								picture = GFX_portrait_GER_paul_hausser
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Paul Hausser"
+						desc = ""
+						picture = GFX_portrait_GER_paul_hausser
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_paul_hausser
@@ -1129,52 +973,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Georg von Kuchler
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Georg von Kuchler"
-								desc = ""
-								picture = GFX_portrait_GER_georg_von_kuchler
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Georg von Kuchler"
+						desc = ""
+						picture = GFX_portrait_GER_georg_von_kuchler
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Georg von Kuchler"
-								desc = ""
-								picture = GFX_portrait_GER_georg_von_kuchler
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Georg von Kuchler"
+						desc = ""
+						picture = GFX_portrait_GER_georg_von_kuchler
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Georg von Kuchler"
-								desc = ""
-								picture = GFX_portrait_GER_georg_von_kuchler
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Georg von Kuchler"
+						desc = ""
+						picture = GFX_portrait_GER_georg_von_kuchler
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Georg von Kuchler"
-								desc = ""
-								picture = GFX_portrait_GER_georg_von_kuchler
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Georg von Kuchler"
+						desc = ""
+						picture = GFX_portrait_GER_georg_von_kuchler
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_georg_von_kuchler
@@ -1203,52 +1034,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Sepp Dietrich
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Sepp Dietrich"
-								desc = ""
-								picture = GFX_portrait_GER_sepp_dietrich
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Sepp Dietrich"
+						desc = ""
+						picture = GFX_portrait_GER_sepp_dietrich
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Sepp Dietrich"
-								desc = ""
-								picture = GFX_portrait_GER_sepp_dietrich
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Sepp Dietrich"
+						desc = ""
+						picture = GFX_portrait_GER_sepp_dietrich
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Sepp Dietrich"
-								desc = ""
-								picture = GFX_portrait_GER_sepp_dietrich
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Sepp Dietrich"
+						desc = ""
+						picture = GFX_portrait_GER_sepp_dietrich
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Sepp Dietrich"
-								desc = ""
-								picture = GFX_portrait_GER_sepp_dietrich
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Sepp Dietrich"
+						desc = ""
+						picture = GFX_portrait_GER_sepp_dietrich
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_sepp_dietrich
@@ -1277,52 +1095,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Hasso von Manteuffel
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hasso von Manteuffel"
-								desc = ""
-								picture = GFX_portrait_GER_hasso_von_manteuffel
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Hasso von Manteuffel"
+						desc = ""
+						picture = GFX_portrait_GER_hasso_von_manteuffel
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hasso von Manteuffel"
-								desc = ""
-								picture = GFX_portrait_GER_hasso_von_manteuffel
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hasso von Manteuffel"
+						desc = ""
+						picture = GFX_portrait_GER_hasso_von_manteuffel
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hasso von Manteuffel"
-								desc = ""
-								picture = GFX_portrait_GER_hasso_von_manteuffel
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hasso von Manteuffel"
+						desc = ""
+						picture = GFX_portrait_GER_hasso_von_manteuffel
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hasso von Manteuffel"
-								desc = ""
-								picture = GFX_portrait_GER_hasso_von_manteuffel
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hasso von Manteuffel"
+						desc = ""
+						picture = GFX_portrait_GER_hasso_von_manteuffel
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_hasso_von_manteuffel
@@ -1351,52 +1156,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Albert Kesselring
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Albert Kesselring"
-								desc = ""
-								picture = GFX_portrait_GER_albert_kesselring
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Albert Kesselring"
+						desc = ""
+						picture = GFX_portrait_GER_albert_kesselring
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Albert Kesselring"
-								desc = ""
-								picture = GFX_portrait_GER_albert_kesselring
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Albert Kesselring"
+						desc = ""
+						picture = GFX_portrait_GER_albert_kesselring
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Albert Kesselring"
-								desc = ""
-								picture = GFX_portrait_GER_albert_kesselring
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Albert Kesselring"
+						desc = ""
+						picture = GFX_portrait_GER_albert_kesselring
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Albert Kesselring"
-								desc = ""
-								picture = GFX_portrait_GER_albert_kesselring
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Albert Kesselring"
+						desc = ""
+						picture = GFX_portrait_GER_albert_kesselring
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_albert_kesselring
@@ -1425,52 +1217,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Wilhelm Ritter von Leeb
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Wilhelm Ritter von Leeb"
-								desc = ""
-								picture = GFX_portrait_GER_wilhelm_ritter_von_leeb
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Wilhelm Ritter von Leeb"
+						desc = ""
+						picture = GFX_portrait_GER_wilhelm_ritter_von_leeb
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Wilhelm Ritter von Leeb"
-								desc = ""
-								picture = GFX_portrait_GER_wilhelm_ritter_von_leeb
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Wilhelm Ritter von Leeb"
+						desc = ""
+						picture = GFX_portrait_GER_wilhelm_ritter_von_leeb
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Wilhelm Ritter von Leeb"
-								desc = ""
-								picture = GFX_portrait_GER_wilhelm_ritter_von_leeb
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Wilhelm Ritter von Leeb"
+						desc = ""
+						picture = GFX_portrait_GER_wilhelm_ritter_von_leeb
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Wilhelm Ritter von Leeb"
-								desc = ""
-								picture = GFX_portrait_GER_wilhelm_ritter_von_leeb
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Wilhelm Ritter von Leeb"
+						desc = ""
+						picture = GFX_portrait_GER_wilhelm_ritter_von_leeb
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_wilhelm_ritter_von_leeb
@@ -1499,52 +1278,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Georg-Hans Reinhardt
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Georg-Hans Reinhardt"
-								desc = ""
-								picture = GFX_portrait_GER_georghans_reinhardt
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Georg-Hans Reinhardt"
+						desc = ""
+						picture = GFX_portrait_GER_georghans_reinhardt
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Georg-Hans Reinhardt"
-								desc = ""
-								picture = GFX_portrait_GER_georghans_reinhardt
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Georg-Hans Reinhardt"
+						desc = ""
+						picture = GFX_portrait_GER_georghans_reinhardt
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Georg-Hans Reinhardt"
-								desc = ""
-								picture = GFX_portrait_GER_georghans_reinhardt
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Georg-Hans Reinhardt"
+						desc = ""
+						picture = GFX_portrait_GER_georghans_reinhardt
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Georg-Hans Reinhardt"
-								desc = ""
-								picture = GFX_portrait_GER_georghans_reinhardt
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Georg-Hans Reinhardt"
+						desc = ""
+						picture = GFX_portrait_GER_georghans_reinhardt
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_georghans_reinhardt
@@ -1573,52 +1339,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Walter Kruger
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Walter Kruger"
-								desc = ""
-								picture = GFX_portrait_GER_walter_kruger
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Walter Kruger"
+						desc = ""
+						picture = GFX_portrait_GER_walter_kruger
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Walter Kruger"
-								desc = ""
-								picture = GFX_portrait_GER_walter_kruger
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Walter Kruger"
+						desc = ""
+						picture = GFX_portrait_GER_walter_kruger
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Walter Kruger"
-								desc = ""
-								picture = GFX_portrait_GER_walter_kruger
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Walter Kruger"
+						desc = ""
+						picture = GFX_portrait_GER_walter_kruger
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Walter Kruger"
-								desc = ""
-								picture = GFX_portrait_GER_walter_kruger
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Walter Kruger"
+						desc = ""
+						picture = GFX_portrait_GER_walter_kruger
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_walter_kruger
@@ -1647,52 +1400,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Hermann Hoth
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hermann Hoth"
-								desc = ""
-								picture = GFX_portrait_GER_hermann_hoth
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Hermann Hoth"
+						desc = ""
+						picture = GFX_portrait_GER_hermann_hoth
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hermann Hoth"
-								desc = ""
-								picture = GFX_portrait_GER_hermann_hoth
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hermann Hoth"
+						desc = ""
+						picture = GFX_portrait_GER_hermann_hoth
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hermann Hoth"
-								desc = ""
-								picture = GFX_portrait_GER_hermann_hoth
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hermann Hoth"
+						desc = ""
+						picture = GFX_portrait_GER_hermann_hoth
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Hermann Hoth"
-								desc = ""
-								picture = GFX_portrait_GER_hermann_hoth
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Hermann Hoth"
+						desc = ""
+						picture = GFX_portrait_GER_hermann_hoth
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_hermann_hoth
@@ -1721,52 +1461,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Johannes Blaskowitz
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Johannes Blaskowitz"
-								desc = ""
-								picture = GFX_portrait_GER_johannes_blaskowitz
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Johannes Blaskowitz"
+						desc = ""
+						picture = GFX_portrait_GER_johannes_blaskowitz
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Johannes Blaskowitz"
-								desc = ""
-								picture = GFX_portrait_GER_johannes_blaskowitz
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Johannes Blaskowitz"
+						desc = ""
+						picture = GFX_portrait_GER_johannes_blaskowitz
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Johannes Blaskowitz"
-								desc = ""
-								picture = GFX_portrait_GER_johannes_blaskowitz
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Johannes Blaskowitz"
+						desc = ""
+						picture = GFX_portrait_GER_johannes_blaskowitz
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Johannes Blaskowitz"
-								desc = ""
-								picture = GFX_portrait_GER_johannes_blaskowitz
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Johannes Blaskowitz"
+						desc = ""
+						picture = GFX_portrait_GER_johannes_blaskowitz
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_johannes_blaskowitz
@@ -1795,52 +1522,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Friedrich Schulz
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Friedrich Schulz"
-								desc = ""
-								picture = GFX_portrait_GER_friedrich_schulz
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Friedrich Schulz"
+						desc = ""
+						picture = GFX_portrait_GER_friedrich_schulz
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Friedrich Schulz"
-								desc = ""
-								picture = GFX_portrait_GER_friedrich_schulz
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Friedrich Schulz"
+						desc = ""
+						picture = GFX_portrait_GER_friedrich_schulz
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Friedrich Schulz"
-								desc = ""
-								picture = GFX_portrait_GER_friedrich_schulz
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Friedrich Schulz"
+						desc = ""
+						picture = GFX_portrait_GER_friedrich_schulz
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Friedrich Schulz"
-								desc = ""
-								picture = GFX_portrait_GER_friedrich_schulz
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Friedrich Schulz"
+						desc = ""
+						picture = GFX_portrait_GER_friedrich_schulz
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_friedrich_schulz
@@ -1869,52 +1583,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Alfred Jodl
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Alfred Jodl"
-								desc = ""
-								picture = GFX_portrait_GER_alfred_jodl
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Alfred Jodl"
+						desc = ""
+						picture = GFX_portrait_GER_alfred_jodl
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Alfred Jodl"
-								desc = ""
-								picture = GFX_portrait_GER_alfred_jodl
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Alfred Jodl"
+						desc = ""
+						picture = GFX_portrait_GER_alfred_jodl
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Alfred Jodl"
-								desc = ""
-								picture = GFX_portrait_GER_alfred_jodl
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Alfred Jodl"
+						desc = ""
+						picture = GFX_portrait_GER_alfred_jodl
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Alfred Jodl"
-								desc = ""
-								picture = GFX_portrait_GER_alfred_jodl
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Alfred Jodl"
+						desc = ""
+						picture = GFX_portrait_GER_alfred_jodl
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_alfred_jodl
@@ -1943,52 +1644,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Gotthard Heinrici
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gotthard Heinrici"
-								desc = ""
-								picture = GFX_portrait_GER_gotthard_heinrici
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Gotthard Heinrici"
+						desc = ""
+						picture = GFX_portrait_GER_gotthard_heinrici
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gotthard Heinrici"
-								desc = ""
-								picture = GFX_portrait_GER_gotthard_heinrici
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gotthard Heinrici"
+						desc = ""
+						picture = GFX_portrait_GER_gotthard_heinrici
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gotthard Heinrici"
-								desc = ""
-								picture = GFX_portrait_GER_gotthard_heinrici
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gotthard Heinrici"
+						desc = ""
+						picture = GFX_portrait_GER_gotthard_heinrici
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Gotthard Heinrici"
-								desc = ""
-								picture = GFX_portrait_GER_gotthard_heinrici
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Gotthard Heinrici"
+						desc = ""
+						picture = GFX_portrait_GER_gotthard_heinrici
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_gotthard_heinrici
@@ -2017,52 +1705,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ernst-Eberhard Hell
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Ernst-Eberhard Hell"
-								desc = ""
-								picture = GFX_portrait_GER_ernsteberhard_hell
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Ernst-Eberhard Hell"
+						desc = ""
+						picture = GFX_portrait_GER_ernsteberhard_hell
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Ernst-Eberhard Hell"
-								desc = ""
-								picture = GFX_portrait_GER_ernsteberhard_hell
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Ernst-Eberhard Hell"
+						desc = ""
+						picture = GFX_portrait_GER_ernsteberhard_hell
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Ernst-Eberhard Hell"
-								desc = ""
-								picture = GFX_portrait_GER_ernsteberhard_hell
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Ernst-Eberhard Hell"
+						desc = ""
+						picture = GFX_portrait_GER_ernsteberhard_hell
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Ernst-Eberhard Hell"
-								desc = ""
-								picture = GFX_portrait_GER_ernsteberhard_hell
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Ernst-Eberhard Hell"
+						desc = ""
+						picture = GFX_portrait_GER_ernsteberhard_hell
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_ernsteberhard_hell
@@ -2091,52 +1766,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Felix Steiner
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Felix Steiner"
-								desc = ""
-								picture = GFX_portrait_ger_felix_steiner
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Felix Steiner"
+						desc = ""
+						picture = GFX_portrait_ger_felix_steiner
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Felix Steiner"
-								desc = ""
-								picture = GFX_portrait_ger_felix_steiner
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Felix Steiner"
+						desc = ""
+						picture = GFX_portrait_ger_felix_steiner
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Felix Steiner"
-								desc = ""
-								picture = GFX_portrait_ger_felix_steiner
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Felix Steiner"
+						desc = ""
+						picture = GFX_portrait_ger_felix_steiner
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Felix Steiner"
-								desc = ""
-								picture = GFX_portrait_ger_felix_steiner
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Felix Steiner"
+						desc = ""
+						picture = GFX_portrait_ger_felix_steiner
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_felix_steiner
@@ -2165,52 +1827,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Wilhelm List
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Wilhelm List"
-								desc = ""
-								picture = GFX_portrait_GER_wilhelm_list
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Wilhelm List"
+						desc = ""
+						picture = GFX_portrait_GER_wilhelm_list
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Wilhelm List"
-								desc = ""
-								picture = GFX_portrait_GER_wilhelm_list
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Wilhelm List"
+						desc = ""
+						picture = GFX_portrait_GER_wilhelm_list
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Wilhelm List"
-								desc = ""
-								picture = GFX_portrait_GER_wilhelm_list
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Wilhelm List"
+						desc = ""
+						picture = GFX_portrait_GER_wilhelm_list
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Wilhelm List"
-								desc = ""
-								picture = GFX_portrait_GER_wilhelm_list
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Wilhelm List"
+						desc = ""
+						picture = GFX_portrait_GER_wilhelm_list
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_wilhelm_list
@@ -2239,52 +1888,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Ewald von Kleist
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Ewald von Kleist"
-								desc = ""
-								picture = GFX_portrait_GER_ewald_von_kleist
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Ewald von Kleist"
+						desc = ""
+						picture = GFX_portrait_GER_ewald_von_kleist
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Ewald von Kleist"
-								desc = ""
-								picture = GFX_portrait_GER_ewald_von_kleist
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Ewald von Kleist"
+						desc = ""
+						picture = GFX_portrait_GER_ewald_von_kleist
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Ewald von Kleist"
-								desc = ""
-								picture = GFX_portrait_GER_ewald_von_kleist
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Ewald von Kleist"
+						desc = ""
+						picture = GFX_portrait_GER_ewald_von_kleist
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Ewald von Kleist"
-								desc = ""
-								picture = GFX_portrait_GER_ewald_von_kleist
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Ewald von Kleist"
+						desc = ""
+						picture = GFX_portrait_GER_ewald_von_kleist
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_ewald_von_kleist
@@ -2313,52 +1949,39 @@ pfp_puppet_management = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
 				#Friedrich Paulus
-				var:FROM.pfp_puppet_selection = { kill_country_leader = yes } #Retire the current leader
-
-				FROM = {
-					if = {
-						limit = { has_government = democratic }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Friedrich Paulus"
-								desc = ""
-								picture = GFX_portrait_GER_friedrich_paulus
-								ideology = conservatism
-							}
-						}
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Friedrich Paulus"
+						desc = ""
+						picture = GFX_portrait_GER_friedrich_paulus
+						ideology = marxism
 					}
-					else_if = {
-						limit = { has_government = communism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Friedrich Paulus"
-								desc = ""
-								picture = GFX_portrait_GER_friedrich_paulus
-								ideology = marxism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Friedrich Paulus"
+						desc = ""
+						picture = GFX_portrait_GER_friedrich_paulus
+						ideology = conservatism
 					}
-					else_if = {
-						limit = { has_government = fascism }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Friedrich Paulus"
-								desc = ""
-								picture = GFX_portrait_GER_friedrich_paulus
-								ideology = fascism_ideology
-							}
-						}
+				
+					create_country_leader = {
+						name = "Friedrich Paulus"
+						desc = ""
+						picture = GFX_portrait_GER_friedrich_paulus
+						ideology = centrism
 					}
-					else_if = {
-						limit = { has_government = neutrality }
-						var:FROM.pfp_puppet_selection = {
-							create_country_leader = {
-								name = "Friedrich Paulus"
-								desc = ""
-								picture = GFX_portrait_GER_friedrich_paulus
-								ideology = despotism
-							}
-						}
+				
+					create_country_leader = {
+						name = "Friedrich Paulus"
+						desc = ""
+						picture = GFX_portrait_GER_friedrich_paulus
+						ideology = fascism_ideology
 					}
 				}
 				set_global_flag = pfp_ger_friedrich_paulus
