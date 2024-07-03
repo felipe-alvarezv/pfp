@@ -1,5 +1,5 @@
 #Scripted effect to release Chile (P54)
-pfp_release_caribbean = {
+pfp_release_chile = {
 	hidden_effect = {
 		#Add cores to Chilean territory
 		279 = { add_core_of = P54 } #Santiago

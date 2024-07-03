@@ -52,3 +52,4 @@ P51 = "countries/P51.txt" #Turkestan
 P52 = "countries/P52.txt" #Himalayas
 P53 = "countries/P53.txt" #Mittelafrika
 P54 = "countries/P54.txt" #Chile
+P55 = "countries/P54.txt" #Rio de la Plata
