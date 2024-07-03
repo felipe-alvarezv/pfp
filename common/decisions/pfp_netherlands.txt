@@ -63,6 +63,10 @@ pfp_category = {
 				hidden_effect = {
 					pfp_release_netherlands = yes
 					set_autonomy = { target = P05 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P05 }
+				pfp_set_generic_portrait = yes
 				}
 			}
 		}

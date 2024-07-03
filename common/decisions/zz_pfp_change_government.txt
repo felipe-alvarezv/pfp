@@ -15,9 +15,9 @@ pfp_puppet_management = {
 				NOT = { has_government = FROM } #Check to see if puppet doesn't have same government as FROM
 			}
 		}
-		icon = generic_military
+		icon = generic_political_discourse
 		complete_effect = {
-			custom_effect_tooltip = pfp_puppet_management_ideology_information
+			custom_effect_tooltip = pfp_puppet_management_options_ideology_desc
 			hidden_effect = {
 				var:FROM.pfp_puppet_selection = {
 						set_politics = { ruling_party = FROM }

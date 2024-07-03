@@ -26,7 +26,7 @@ pfp_puppet_management = {
         }
     }
    
-    zz_pfp_puppet_management_options_back = { #Deselect puppet management options
+    pfp_puppet_management_options_back = { #Deselect puppet management options
         visible = {
             has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected

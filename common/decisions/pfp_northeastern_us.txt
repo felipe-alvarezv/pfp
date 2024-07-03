@@ -63,6 +63,10 @@ pfp_category = {
 			hidden_effect = {
 				pfp_release_northeastern_us = yes
 				set_autonomy = { target = P20 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P20 }
+				pfp_set_generic_portrait = yes
 			}
 		}
 		ai_will_do = { factor = 0 }

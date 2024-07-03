@@ -165,6 +165,10 @@ pfp_category = {
 			hidden_effect = {
 				pfp_release_great_britain_and_ireland = yes
 				set_autonomy = { target = P02 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P02 }
+				pfp_set_generic_portrait = yes
 			}
 		}
 		ai_will_do = { factor = 0 }

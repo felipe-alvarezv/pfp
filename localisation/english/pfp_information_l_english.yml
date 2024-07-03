@@ -4,11 +4,13 @@ l_english:
  pfp_category_desc:0 "As we gain more territory, it has become a complicated problem to administer all of it. To address this problem, puppet governments loyal to our nation should be established in the regions we have conquered. This will allow us to place our attetion elsewhere, while the region helps our cause."
 
  pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
- pfp_puppet_management_desc:0 "After establishing our military administration, we may need to make adjustments regarding the administration and its leaders.\n\nCurrent Selection - §R[?FROM.pfp_puppet_selection.GetOldName]§!"
+ pfp_puppet_management_desc:0 "After establishing our military administration, we may need to make adjustments regarding the administration and its leaders.\n\nCurrent Selection - §Y[?FROM.pfp_puppet_selection.GetOldName]§!"
 
  #Show/Hide Management Options
- zz_pfp_puppet_management_view_on:0 "View Puppet Management Options"
- zz_pfp_puppet_management_view_off:0 "Hide Puppet Management Options"
+ pfp_puppet_management_view_on:0 "View Puppet Management Options"
+ pfp_puppet_management_view_on_desc:0 "Shows military administrations that can be managed."
+ pfp_puppet_management_view_off:0 "§RHide Puppet Management Options§!"
+ pfp_puppet_management_view_off_desc:0 "Hides military administrations that can be managed."
 
  #Puppet Selection
  pfp_puppet_selection_colombia:0 "Select Colombia"
@@ -64,14 +66,20 @@ l_english:
  pfp_puppet_selection_turkestan:0 "Select Turkestan"
  pfp_puppet_selection_himalayas:0 "Select Himalayas"
  pfp_puppet_selection_mittelafrika:0 "Select Mittelafrika"
- zz_pfp_puppet_deselect:0 "Deselect Puppet"
+ pfp_puppet_selection_desc:0 "Selects the current option for management."
+ pfp_puppet_deselect:0 "§RDeselect Puppet§!"
+ pfp_puppet_deselect_desc:0 "Deselect the current puppet."
 
  #Leadership/Territory Decisions
  pfp_puppet_management_options_leadership:0 "Manage Puppet Administration"
+ pfp_puppet_management_options_leadership_desc:0 "Shows options to manage the leadership and ruling party of the puppet."
  pfp_puppet_management_options_territory:0 "Manage Puppet Territory"
- zz_pfp_puppet_management_options_back:0 "Deselect Option"
+ pfp_puppet_management_options_territory_desc:0 "Shows available territory that can be given to puppet."
+ pfp_puppet_management_options_back:0 "§RDeselect Option§!"
+ pfp_puppet_management_options_back_desc:0 "Deselects the current management option."
 
  #Appoint Puppet Administration
  pfp_puppet_management_options_ideology:0 "Change Ruling Party"
+ pfp_puppet_management_options_ideology_desc:0 "Changes the ruling party of puppet to match overlord."
  pfp_army_leader_appoint_desc:0 "Appoint as head of the military administration."
  pfp_army_leader_dismiss_desc:0 "Dismiss as head of the military administration."

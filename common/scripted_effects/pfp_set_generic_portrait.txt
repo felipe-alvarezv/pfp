@@ -1,0 +1,290 @@
+pfp_set_generic_portrait = {
+    FROM = {
+        if = { 
+            limit = { 
+                original_tag = ENG #Check if overlord is United Kingdom
+                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+            }
+            var:pfp_portrait_tag = {
+                #Kill the current leaders of selection
+                kill_ideology_leader = communism
+                kill_ideology_leader = democratic
+                kill_ideology_leader = neutrality
+                kill_ideology_leader = fascism
+
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_british_portrait.dds"
+                    ideology = marxism
+                }
+
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_british_portrait.dds"
+                    ideology = conservatism
+                }
+
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_british_portrait.dds"
+                    ideology = centrism
+                }
+
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_british_portrait.dds"
+                    ideology = fascism_ideology
+                }
+            }
+        }
+        else_if = { 
+            limit = { 
+                original_tag = FRA #Check if overlord is France
+                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+            }
+            var:pfp_portrait_tag = {
+                #Kill the current leaders of selection
+                kill_ideology_leader = communism
+                kill_ideology_leader = democratic
+                kill_ideology_leader = neutrality
+                kill_ideology_leader = fascism
+
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
+                    ideology = marxism
+                }
+
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
+                    ideology = conservatism
+                }
+
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
+                    ideology = centrism
+                }
+
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
+                    ideology = fascism_ideology
+                }
+            }
+        }
+        else_if = { 
+            limit = { 
+                original_tag = GER #Check if overlord is Germany
+                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+            }
+            var:pfp_portrait_tag = {
+                #Kill the current leaders of selection
+                kill_ideology_leader = communism
+                kill_ideology_leader = democratic
+                kill_ideology_leader = neutrality
+                kill_ideology_leader = fascism
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+                    ideology = marxism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+                    ideology = conservatism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+                    ideology = centrism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+                    ideology = fascism_ideology
+                }
+            }
+        }
+        else_if = { 
+            limit = { 
+                original_tag = ITA #Check if overlord is Italy
+                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+            }
+            var:pfp_portrait_tag = {
+                #Kill the current leaders of selection
+                kill_ideology_leader = communism
+                kill_ideology_leader = democratic
+                kill_ideology_leader = neutrality
+                kill_ideology_leader = fascism
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+                    ideology = marxism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+                    ideology = conservatism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+                    ideology = centrism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+                    ideology = fascism_ideology
+                }
+            }
+        }
+        else_if = { 
+            limit = {
+                original_tag = JAP #Check if overlord is Japan
+            }
+            var:pfp_portrait_tag = {
+                #Kill the current leaders of selection
+                kill_ideology_leader = communism
+                kill_ideology_leader = democratic
+                kill_ideology_leader = neutrality
+                kill_ideology_leader = fascism
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+                    ideology = marxism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+                    ideology = conservatism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+                    ideology = centrism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+                    ideology = fascism_ideology
+                }
+            }
+        }
+        else_if = { 
+            limit = { 
+                original_tag = SOV #Check if overlord is Soviet Union
+                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+            }
+            var:pfp_portrait_tag = {
+                #Kill the current leaders of selection
+                kill_ideology_leader = communism
+                kill_ideology_leader = democratic
+                kill_ideology_leader = neutrality
+                kill_ideology_leader = fascism
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+                    ideology = marxism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+                    ideology = conservatism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+                    ideology = centrism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+                    ideology = fascism_ideology
+                }
+            }
+        }
+        else_if = { 
+            limit = { 
+                original_tag = USA #Check if overlord is United States
+                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+            }
+            var:pfp_portrait_tag = {
+                #Kill the current leaders of selection
+                kill_ideology_leader = communism
+                kill_ideology_leader = democratic
+                kill_ideology_leader = neutrality
+                kill_ideology_leader = fascism
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
+                    ideology = marxism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
+                    ideology = conservatism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
+                    ideology = centrism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
+                    ideology = fascism_ideology
+                }
+            }
+        }
+    }
+}

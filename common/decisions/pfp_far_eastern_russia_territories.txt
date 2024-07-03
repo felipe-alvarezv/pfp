@@ -215,6 +215,42 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	pfp_far_eastern_russia_chukchi_peninsula = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P46 }
+			has_global_flag = pfp_far_eastern_russia_flag
+			has_full_control_of_state = 875 #Chukchi Peninsula
+	
+			875 = { #Chukchi Peninsula
+				NOT = { is_core_of = FROM }
+			}
+	
+			P46 = { #Far Eastern Russia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_far_eastern_russia_chukchi_peninsula_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 875 } #Chukchi Peninsula
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_far_eastern_russia_coring_states_chukchi_peninsula
+			custom_effect_tooltip = pfp_far_eastern_russia_transfer_states_chukchi_peninsula
+			hidden_effect = {
+				#Chukchi Peninsula
+				875 = { add_core_of = P46 }
+				P46 = { transfer_state = 875 }
+				set_global_flag = pfp_far_eastern_russia_chukchi_peninsula_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	pfp_far_eastern_russia_udachny = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
