@@ -352,7 +352,7 @@ pfp_puppet_management = {
 					}
 				
 					create_country_leader = {
-						nname = "Douglas MacArthur"
+						name = "Douglas MacArthur"
 						desc = ""
 						picture = GFX_portrait_USA_douglas_macarthur
 						ideology = fascism_ideology
