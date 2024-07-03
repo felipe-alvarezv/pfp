@@ -222,9 +222,9 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
 			has_global_flag = pfp_rio_de_la_plata_flag
-			has_full_control_of_state = 506 #Mendoza
+			has_full_control_of_state = 511 #Mendoza
 	
-			506 = { #Mendoza
+			511 = { #Mendoza
 				NOT = { is_core_of = FROM }
 			}
 	
@@ -237,15 +237,15 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_rio_de_la_plata_mendoza_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { state = 506 } #Mendoza
+			highlight_state_targets = { state = 511 } #Mendoza
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_mendoza
 			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_mendoza
 			hidden_effect = {
 				#Mendoza
-				506 = { add_core_of = P55 }
-				P55 = { transfer_state = 506 }
+				511 = { add_core_of = P55 }
+				P55 = { transfer_state = 511 }
 				set_global_flag = pfp_rio_de_la_plata_mendoza_flag
 			}
 		}
@@ -359,7 +359,7 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_rio_de_la_plata_carro_largo = {
+	pfp_rio_de_la_plata_cerro_largo = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
@@ -378,19 +378,19 @@ pfp_puppet_management = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_rio_de_la_plata_carro_largo_flag }
+			NOT = { has_global_flag = pfp_rio_de_la_plata_cerro_largo_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 945 } #Cerro Largo
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_carro_largo
-			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_carro_largo
+			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_cerro_largo
+			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_cerro_largo
 			hidden_effect = {
 				#Cerro Largo
 				945 = { add_core_of = P55 }
 				P55 = { transfer_state = 945 }
-				set_global_flag = pfp_rio_de_la_plata_carro_largo_flag
+				set_global_flag = pfp_rio_de_la_plata_cerro_largo_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
