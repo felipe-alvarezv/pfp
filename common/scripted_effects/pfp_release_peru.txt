@@ -1,0 +1,26 @@
+#Scripted effect to release Peru (P56)
+pfp_release_peru = {
+	hidden_effect = {
+		#Add cores to Peruvian territory
+		303 = { add_core_of = P56 } #Lima
+		491 = { add_core_of = P56 } #Loreto
+		492 = { add_core_of = P56 } #Arequipa
+		494 = { add_core_of = P56 } #Ucayali
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P56 }
+			transfer_state_to = P56
+		}
+
+		#Transfer all technology to formable puppet
+		P56 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_peru_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P56 }
+		news_event = { id = pfp_news.01 }
+	}
+}

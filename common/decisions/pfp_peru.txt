@@ -1,0 +1,66 @@
+pfp_category = {
+	pfp_peru = {
+		allowed = {
+			NOT = {
+				original_tag = PRU #Peru
+				original_tag = P56 #PFP Peru
+			}
+		}
+		available = {
+			is_subject = no
+			#Lima
+			custom_trigger_tooltip = {
+				tooltip = pfp_peru_required_states_lima
+				has_full_control_of_state = 303 #Lima
+			}
+			#Loreto
+			custom_trigger_tooltip = {
+				tooltip = pfp_peru_required_states_loreto
+				has_full_control_of_state = 491 #Loreto
+			}
+			#Arequipa
+			custom_trigger_tooltip = {
+				tooltip = pfp_peru_required_states_arequipa
+				has_full_control_of_state = 492 #Arequipa
+			}
+			#Ucayali
+			custom_trigger_tooltip = {
+				tooltip = pfp_peru_required_states_ucayali
+				has_full_control_of_state = 494 #Ucayali
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 303 #Lima
+				has_full_control_of_state = 492 #Arequipa
+
+			}
+			NOT = { has_global_flag = pfp_peru_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 303 #Lima
+				state = 491 #Loreto
+				state = 492 #Arequipa
+				state = 494 #Ucayali
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_peru_coring_states
+			custom_effect_tooltip = pfp_peru_transfer_states
+			custom_effect_tooltip = pfp_peru_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_peru = yes
+				set_autonomy = { target = P56 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P56 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

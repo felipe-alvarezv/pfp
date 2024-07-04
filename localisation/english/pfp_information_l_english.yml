@@ -68,6 +68,7 @@ l_english:
  pfp_puppet_selection_mittelafrika:0 "Select Mittelafrika"
  pfp_puppet_selection_chile:0 "Select Chile"
  pfp_puppet_selection_rio_de_la_plata:0 "Select Rio de la Plata"
+ pfp_puppet_selection_peru:0 "Select Peru"
  pfp_puppet_selection_desc:0 "Selects the current option for management."
  pfp_puppet_deselect:0 "§RDeselect Puppet§!"
  pfp_puppet_deselect_desc:0 "Deselect the current puppet."
