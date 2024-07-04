@@ -54,3 +54,5 @@ P53 = "countries/P53.txt" #Mittelafrika
 P54 = "countries/P54.txt" #Chile
 P55 = "countries/P55.txt" #Rio de la Plata
 P56 = "countries/P56.txt" #Peru
+P57 = "countries/P57.txt" #Brazil
+P58 = "countries/P58.txt" #Mexico
