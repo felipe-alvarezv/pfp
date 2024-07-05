@@ -25,7 +25,10 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 306 #Cundinamarca
+			OR = { 
+				has_full_control_of_state = 306 #Cundinamarca
+				has_full_control_of_state = 493 #La Libertad
+			}
 			NOT = { has_global_flag = pfp_colombia_flag }
 		}
 		highlight_states = {

@@ -8,11 +8,11 @@ pfp_puppet_management = {
 			has_global_flag = pfp_germany_flag
 			has_full_control_of_state = 5 #Ermland-Masuren
 
-			5 = { #Germany
+			5 = { #Ermland-Masuren
 				NOT = { is_core_of = FROM }
 			}
 
-			P13 = { #Ermland-Masuren
+			P13 = { #Germany
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
