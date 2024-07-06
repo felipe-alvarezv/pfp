@@ -20,7 +20,7 @@ Click [here](https://github.com/felipe-alvarezv/pfp/blob/master/common/country_t
 #### Credits:
 - Vanilla Flags (PDX)
 - HOI4 Transfer Technology Script (Yard1)
-- Vietnamese Names (Kaiserreich Developers)
+- Vietnamese Names (Kaiserreich Developers)\
 \
 Formally known as Regional Puppet Governments.\
 This modification is based on [Installation of Puppet Governments for Regions](https://steamcommunity.com/sharedfiles/filedetails/?id=1521542000) which was never finished.
