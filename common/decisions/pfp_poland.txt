@@ -36,10 +36,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 10 #Warszawa
-				has_full_control_of_state = 11 #Kaunas
-			}
+			has_full_control_of_state = 10 #Warszawa
 			NOT = { has_global_flag = pfp_poland_flag }
 		}
 		highlight_states = {

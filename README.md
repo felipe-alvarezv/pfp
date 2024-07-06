@@ -1,55 +1,35 @@
 #pfp \
-Country Tags: \
-P01 - Colombia \
-P02 - Great Britain and Ireland \
-P03 - Arabia \
-P04 - Baltic \
-P05 - Netherlands \
-P06 - Caribbean \
-P07 - Central Africa \
-P08 - Central America \
-P09 - Danube \
-P10 - East Africa \
-P11 - Eastern Canada \
-P12 - Finland \
-P13 - Germany \
-P14 - Greece \
-P15 - Iberia \
-P16 - Indochina \
-P17 - Indonesia \
-P18 - Midwestern U.S. \
-P19 - North Germany \
-P20 - Northeastern U.S. \
-P21 - Pacific U.S. \
-P22 - Quebec \
-P23 - U.S. Rockies \
-P24 - Scandinavia \
-P25 - South Germany \
-P26 - Southern U.S. \
-P27 - Oceania \
-P28 - Transcaucasia \
-P29 - Western Canada \
-P30 - North Africa \
-P31 - West Germany \
-P32 - East Germany \
-P33 - Prussia \
-P34 - Poland \
-P35 - West Africa \
-P36 - South Africa \
-P37 - South Asia \
-P38 - Bangladesh \
-P39 - Central Russia \
-P40 - Southern Russia \
-P41 - Northern Caucasus \
-P42 - Volga \
-P43 - Northwestern Russia \
-P44 - Urals \
-P45 - Siberia \
-P46 - Far East Russia \
-P47 - Mongolia \
-P48 - Western Russia \
-P49 - Bulgaria \
-P50 - Yugoslavia \
-P51 - Turkestan \
-P52 - Himalayas \
-P53 - Mittelafrika
+What is the purpose of this mod?\
+In the base game, the only nation which can create puppets from decisions is Germany with its Reichskommissariats. This mod attempts to address this, by adding new formable puppets which nations can create if they occupy certain states. The newly added puppets have a custom autonomy level named "Military Administration" which mirrors the effects of the base game "Reichskommissariat".\
+\
+What are the current formable puppets?\
+Arabia, Baltic, Bangladesh, Brazil, Bulgaria, Caribbean, Central Africa, Central America, Central Russia, Chile, Colombia, Danube, East Africa, Eastern Canada, East Germany, Far East Russia, Finland, Germany, Great Britain and Ireland, Greece, Himalayas, Iberia, Indochina, Indonesia, Mexico, Midwestern U.S, Mittelafrika, Mongolia, Netherlands, North Africa, Northeastern U.., Northern Caucasus, North Germany, Northwestern Russia, Oceania, Pacific U.S, Peru, Poland-Lithuania, Prussia, Quebec, Rio de la Plata, Scandinavia, Siberia, South Africa, South Asia, Southern Russia, Southern U.S, South Germany, Transcaucasia, Turkestan, U.S, Rockies, Urals, Volga, West Africa, Western Canada, Western Russia, West Germany, Yugoslavia\
+\
+Current Features:\
+* Ability to release up to 58 puppets through new decisions which are highlighted on the map.\
+* Addition of a new autonomy level, "Military Administration", which matches the effects of a Reichskommissariat.\
+* Addition of a puppet management menu in decisions which can alter a puppet's leader, ruling party, and territory.\
+* Ability to appoint a military leader as head of the puppet's government (currently works for starting majors).\
+* Ability to change the puppet's ideology if it does not match the overlord.\
+* Ability to hand back most territory through decisions which are highlighted on the map to create your desired borders.\
+\
+Is this The Road to 56 Compatible?\
+You must download the RT56 patch from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2249537694]here[/url]. When using this patch, you must enable Pipe's Formable Puppets, Pipe's Formable Puppets - RT56, and The Road to 56 in your playset.\
+\
+Can the AI create formable puppets?\
+The AI does not have the ability to use any of the decisions.\
+\
+What's in store for the next update and the future?\
+Click [url=https://trello.com/b/iWKmwAuP/p%C3%ADp%C3%A9s-formable-puppets]here[/url] to view the progress of the mod along with future features.\
+\
+What are the country tags?\
+Click [url=https://github.com/felipe-alvarezv/regional-puppet-governments]here[/url] to view a list of the current tags.\
+\
+Credits:\
+- Vanilla Flags (PDX)\
+- HOI4 Transfer Technology Script (Yard1)\
+- Vietnamese Names (Kaiserreich Developers)\
+\
+Formally known as Regional Puppet Governments.\
+\
+This modification is based on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1521542000]Installation of Puppet Governments for Regions[/url] which was never finished.\
