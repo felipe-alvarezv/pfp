@@ -547,6 +547,14 @@ pfp_puppet_management = {
 					}
 					clr_global_flag = pfp_ger_friedrich_paulus
 				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Heinrich Himmler" } 
+						}
+					}
+					clr_global_flag = pfp_ger_heinrich_himmler
+				}
 				#Italy
 				else_if = {
 					limit = {
@@ -1467,55 +1475,23 @@ pfp_puppet_management = {
 				else_if = {
 					limit = {
 						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Farouk I" } 
-						}
-					}
-					clr_global_flag = pfp_shared_farouk_i
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
 							has_country_leader = { name = "Oswald Mosley" } 
 						}
 					}
 					clr_global_flag = pfp_shared_oswald_mosley
 				}
-
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = GFX_portrait_PFP_soviet_portrait
-						ideology = marxism
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Farouk I" } 
+						}
 					}
-
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = GFX_portrait_PFP_american_portrait
-						ideology = conservatism
-					}
-
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = GFX_portrait_PFP_chinese_portrait
-						ideology = centrism
-					}
-
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = GFX_portrait_PFP_german_portrait
-						ideology = fascism_ideology
-					}
+					clr_global_flag = pfp_shared_farouk_i
 				}
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = var:FROM.pfp_puppet_selection }
+				pfp_set_generic_portrait = yes
 			}
 		}
 		ai_will_do = { factor = 0 }

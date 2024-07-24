@@ -286,5 +286,43 @@ pfp_set_generic_portrait = {
                 }
             }
         }
+        else = { 
+           #Every other case
+            var:pfp_portrait_tag = {
+                #Kill the current leaders of selection
+                kill_ideology_leader = communism
+                kill_ideology_leader = democratic
+                kill_ideology_leader = neutrality
+                kill_ideology_leader = fascism
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = GFX_portrait_PFP_soviet_portrait
+                    ideology = marxism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = GFX_portrait_PFP_american_portrait
+                    ideology = conservatism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = GFX_portrait_PFP_polish_portrait
+                    ideology = centrism
+                }
+            
+                create_country_leader = {
+                    name = "Military Junta"
+                    desc = ""
+                    picture = GFX_portrait_PFP_german_portrait
+                    ideology = fascism_ideology
+                }
+            }
+        }
     }
 }
