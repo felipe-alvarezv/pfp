@@ -1,0 +1,52 @@
+spriteTypes = {
+	# Military Administration
+	spriteType = {
+		name = "GFX_autonomy_military_administration_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
+	}
+	#American Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_american_portrait
+		textureFile = "gfx/leaders/PFP/pfp_american_portrait.dds"
+	}
+	#British Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_british_portrait
+		textureFile = "gfx/leaders/PFP/pfp_british_portrait.dds"
+	}
+	#Chinese Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_chinese_portrait
+		textureFile = "gfx/leaders/PFP/pfp_chinese_portrait.dds"
+	}
+	#French Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_french_portrait
+		textureFile = "gfx/leaders/PFP/pfp_french_portrait.dds"
+	}
+	#German Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_german_portrait
+		textureFile = "gfx/leaders/PFP/pfp_german_portrait.dds"
+	}
+	#Italian Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_italian_portrait
+		textureFile = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+	}
+	#Japanese Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_japanese_portrait
+		textureFile = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+	}
+	#Polish Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_polish_portrait
+		textureFile = "gfx/leaders/PFP/pfp_polish_portrait.dds"
+	}
+	#Soviet Portrait
+	spriteType = {
+		name = GFX_portrait_PFP_soviet_portrait
+		textureFile = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+	}
+}

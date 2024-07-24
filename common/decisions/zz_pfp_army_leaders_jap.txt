@@ -1,286 +1,4 @@
 pfp_puppet_management = {
-	#Dismiss Leader
-	pfp_army_leader_dismiss_jap = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = JAP #Check if country is Japan
-
-			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
-				NOT = {
-					has_country_leader = { name = "Military Junta" } 
-				}
-			}
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_desc
-			hidden_effect = {
-				if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Hisaichi Terauchi" } 
-						}
-					}
-					clr_global_flag = pfp_jap_hisaichi_terauchi
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Shunroku Hata" } 
-						}
-					}
-					clr_global_flag = pfp_jap_shunroku_hata
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Tomoyuki Yamashita" } 
-						}
-					}
-					clr_global_flag = pfp_jap_tomoyuki_yamashita
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Shizuichi Tanaka" } 
-						}
-					}
-					clr_global_flag = pfp_jap_shizuichi_tanaka
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kenkichi Ueda" } 
-						}
-					}
-					clr_global_flag = pfp_jap_kenkichi_ueda
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Toshizo Nishio" } 
-						}
-					}
-					clr_global_flag = pfp_jap_toshizo_nishio
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Rikichi Ando" } 
-						}
-					}
-					clr_global_flag = pfp_jap_rikichi_ando
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Naruhiko Higashikuni" } 
-						}
-					}
-					clr_global_flag = pfp_jap_naruhiko_higashikuni
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Seishiro Itagaki" } 
-						}
-					}
-					clr_global_flag = pfp_jap_seishiro_itagaki
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Takashi Sakai" } 
-						}
-					}
-					clr_global_flag = pfp_jap_takashi_sakai
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Yoshijiro Umezu" } 
-						}
-					}
-					clr_global_flag = pfp_jap_yoshijiro_umezu
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Otozo Yamada" } 
-						}
-					}
-					clr_global_flag = pfp_jap_otozo_yamada
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Keisuke Fujie" } 
-						}
-					}
-					clr_global_flag = pfp_jap_keisuke_fujie
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Harukichi Hyakutake" } 
-						}
-					}
-					clr_global_flag = pfp_jap_harukichi_hyakutake
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Hitoshi Imamura" } 
-						}
-					}
-					clr_global_flag = pfp_jap_hitoshi_imamura
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Akira Muto" } 
-						}
-					}
-					clr_global_flag = pfp_jap_akira_muto
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Hatazo Adachi" } 
-						}
-					}
-					clr_global_flag = pfp_jap_hatazo_adachi
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Sadao Araki" } 
-						}
-					}
-					clr_global_flag = pfp_jap_sadao_araki
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kiichiro Higuchi" } 
-						}
-					}
-					clr_global_flag = pfp_jap_kiichiro_higuchi
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Masaharu Homma" } 
-						}
-					}
-					clr_global_flag = pfp_jap_masaharu_homma
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Jo Iimura" } 
-						}
-					}
-					clr_global_flag = pfp_jap_jo_iimura
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Masatane Kanda" } 
-						}
-					}
-					clr_global_flag = pfp_jap_masatane_kanda
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kuniaki Koiso" } 
-						}
-					}
-					clr_global_flag = pfp_jap_kuniaki_koiso
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kanji Ishiwara" } 
-						}
-					}
-					clr_global_flag = pfp_jap_kanji_ishiwara
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Yasuji Okamura" } 
-						}
-					}
-					clr_global_flag = pfp_jap_yasuji_okamura
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kenji Doihara" } 
-						}
-					}
-					clr_global_flag = pfp_jap_kenji_doihara
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Shigeru Honjo" } 
-						}
-					}
-					clr_global_flag = pfp_jap_shigeru_honjo
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Iwane Matsui" } 
-						}
-					}
-					clr_global_flag = pfp_jap_iwane_matsui
-				}
-
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
-						ideology = fascism_ideology
-					}
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#Hisaichi Terauchi
 	pfp_army_leader_jap_hisaichi_terauchi = {
 		visible = {
@@ -296,6 +14,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_hisaichi_terauchi #Check if country has character
+			JAP_hisaichi_terauchi = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_jap_hisaichi_terauchi } #Check if Hisaichi Terauchi is currently puppet leader
 		}
 		complete_effect = {
@@ -357,6 +76,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = JAP_shunroku_hata #Check if country has character
+			JAP_shunroku_hata = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_jap_shunroku_hata } #Check if Shunroku Hata is already a leader
 		}
 		complete_effect = {
@@ -418,6 +138,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_tomoyuki_yamashita #Check if country has character
+			JAP_tomoyuki_yamashita = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_tomoyuki_yamashita } #Check if Tomoyuki Yamashita is already a leader
 		}
 		complete_effect = {
@@ -479,6 +200,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_shizuichi_tanaka #Check if country has character
+			JAP_shizuichi_tanaka = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_shizuichi_tanaka } #Check if Shizuichi Tanaka is already a leader
 		}
 		complete_effect = {
@@ -540,6 +262,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_kenkichi_ueda #Check if country has character
+			JAP_kenkichi_ueda = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_kenkichi_ueda } #Check if Kenkichi Ueda is already a leader
 		}
 		complete_effect = {
@@ -601,6 +324,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_toshizo_nishio #Check if country has character
+			JAP_toshizo_nishio = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_toshizo_nishio } #Check if Toshizo Nishio is already a leader
 		}
 		complete_effect = {
@@ -662,6 +386,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_rikichi_ando #Check if country has character
+			JAP_rikichi_ando = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_rikichi_ando } #Check if Rikichi Ando is already a leader
 		}
 		complete_effect = {
@@ -723,6 +448,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_naruhiko_higashikuni #Check if country has character
+			JAP_naruhiko_higashikuni = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_naruhiko_higashikuni } #Check if Naruhiko Higashikuni is already a leader
 		}
 		complete_effect = {
@@ -784,6 +510,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_seishiro_itagaki #Check if country has character
+			JAP_seishiro_itagaki = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_seishiro_itagaki } #Check if Seishiro Itagaki is already a leader
 		}
 		complete_effect = {
@@ -845,6 +572,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_takashi_sakai #Check if country has character
+			JAP_takashi_sakai = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_takashi_sakai } #Check if Takashi Sakai is already a leader
 		}
 		complete_effect = {
@@ -906,6 +634,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_yoshijiro_umezu #Check if country has character
+			JAP_yoshijiro_umezu = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_yoshijiro_umezu } #Check if Yoshijiro Umezu is already a leader
 		}
 		complete_effect = {
@@ -967,6 +696,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_otozo_yamada #Check if country has character
+			JAP_otozo_yamada = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_otozo_yamada } #Check if Otozo Yamada is already a leader
 		}
 		complete_effect = {
@@ -1028,6 +758,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_keisuke_fujie #Check if country has character
+			JAP_keisuke_fujie = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_keisuke_fujie } #Check if Keisuke Fujie is already a leader
 		}
 		complete_effect = {
@@ -1089,6 +820,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_harukichi_hyakutake #Check if country has character
+			JAP_harukichi_hyakutake = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_harukichi_hyakutake} #Check if Harukichi Hyakutake is already a leader
 		}
 		complete_effect = {
@@ -1150,6 +882,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_hitoshi_imamura #Check if country has character
+			JAP_hitoshi_imamura = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_hitoshi_imamura } #Check if Hitoshi Imamura is already a leader
 		}
 		complete_effect = {
@@ -1211,6 +944,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_akira_muto #Check if country has character
+			JAP_akira_muto = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_akira_muto } #Check if Akira Muto is already a leader
 		}
 		complete_effect = {
@@ -1272,6 +1006,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_hatazo_adachi #Check if country has character
+			JAP_hatazo_adachi = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_hatazo_adachi } #Check if Hatazo Adachi is already a leader
 		}
 		complete_effect = {
@@ -1333,6 +1068,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_sadao_araki #Check if country has character
+			JAP_sadao_araki = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_sadao_araki } #Check if Sadao Araki is already a leader
 		}
 		complete_effect = {
@@ -1394,6 +1130,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_kiichiro_higuchi #Check if country has character
+			JAP_kiichiro_higuchi = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_kiichiro_higuchi } #Check if Kiichiro Higuchi is already a leader
 		}
 		complete_effect = {
@@ -1455,6 +1192,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_masaharu_homma #Check if country has character
+			JAP_masaharu_homma = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_masaharu_homma } #Check if Masaharu Homma is already a leader
 		}
 		complete_effect = {
@@ -1516,6 +1254,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_jo_iimura #Check if country has character
+			JAP_jo_iimura = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_jo_iimura } #Check if Jo Iimura is already a leader
 		}
 		complete_effect = {
@@ -1577,6 +1316,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_masatane_kanda #Check if country has character
+			JAP_masatane_kanda = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_masatane_kanda } #Check if Masatane Kanda is already a leader
 		}
 		complete_effect = {
@@ -1638,6 +1378,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_kuniaki_koiso #Check if country has character
+			JAP_kuniaki_koiso = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_kuniaki_koiso } #Check if Kuniaki Koiso is already a leader
 		}
 		complete_effect = {
@@ -1699,6 +1440,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_kanji_ishiwara #Check if country has character
+			JAP_kanji_ishiwara = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_kanji_ishiwara } #Check if Kanji Ishiwara is already a leader
 		}
 		complete_effect = {
@@ -1760,6 +1502,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_yasuji_okamura #Check if country has character
+			JAP_yasuji_okamura = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_yasuji_okamura } #Check if Yasuji Okamura is already a leader
 		}
 		complete_effect = {
@@ -1821,6 +1564,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_kenji_doihara #Check if country has character
+			JAP_kenji_doihara = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_kenji_doihara } #Check if Kenji Doihara is already a leader
 		}
 		complete_effect = {
@@ -1882,6 +1626,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_shigeru_honjo #Check if country has character
+			JAP_shigeru_honjo = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_shigeru_honjo } #Check if Shigeru Honjo is already a leader
 		}
 		complete_effect = {
@@ -1943,6 +1688,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = JAP_iwane_matsui #Check if country has character
+			JAP_iwane_matsui = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_jap_iwane_matsui } #Check if Iwane Matsui is already a leader
 		}
 		complete_effect = {

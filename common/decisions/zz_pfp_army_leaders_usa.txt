@@ -1,246 +1,4 @@
 pfp_puppet_management = {
-	#Dismiss Leader
-	pfp_army_leader_dismiss_usa = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
-				NOT = {
-					has_country_leader = { name = "Military Junta" } 
-				}
-			}
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_desc
-			hidden_effect = {
-				if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Dwight D. Eisenhower" } 
-						}
-					}
-					clr_global_flag = pfp_usa_dwight_d_eisenhower
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Douglas MacArthur" } 
-						}
-					}
-					clr_global_flag = pfp_usa_douglas_macarthur
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "George S. Patton" } 
-						}
-					}
-					clr_global_flag = pfp_usa_george_s_patton
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Omar Bradley" } 
-						}
-					}
-					clr_global_flag = pfp_usa_omar_bradley
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Mark W. Clark" } 
-						}
-					}
-					clr_global_flag = pfp_usa_mark_clark
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Courtney Hodges" } 
-						}
-					}
-					clr_global_flag = pfp_usa_courtney_hodges
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Lucian Truscott" } 
-						}
-					}
-					clr_global_flag = pfp_usa_lucian_truscott
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Walter Krueger" } 
-						}
-					}
-					clr_global_flag = pfp_usa_walter_krueger
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Leslie McNair" } 
-						}
-					}
-					clr_global_flag = pfp_usa_leslie_mcnair
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Leonard Gerow" } 
-						}
-					}
-					clr_global_flag = pfp_usa_leonard_gerow
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Alexander Patch" } 
-						}
-					}
-					clr_global_flag = pfp_usa_alexander_patch
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "William Simpson" } 
-						}
-					}
-					clr_global_flag = pfp_usa_william_simpson
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "J. Lawton Collins" } 
-						}
-					}
-					clr_global_flag = pfp_usa_j_lawton_collins
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Maurice Rose" } 
-						}
-					}
-					clr_global_flag = pfp_usa_maurice_rose
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Alexander Vandegrift" } 
-						}
-					}
-					clr_global_flag = pfp_usa_alexander_vandegrift
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Geoffrey Keyes" } 
-						}
-					}
-					clr_global_flag = pfp_usa_geoffrey_keyes
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Lloyd Fredendall" } 
-						}
-					}
-					clr_global_flag = pfp_usa_lloyd_fredendall
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Edward Brooks" } 
-						}
-					}
-					clr_global_flag = pfp_usa_edward_brooks
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Clarence Huebner" } 
-						}
-					}
-					clr_global_flag = pfp_usa_clarence_huebner
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Oscar Griswold" } 
-						}
-					}
-					clr_global_flag = pfp_usa_oscar_griswold
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Jonathan Wainwright" } 
-						}
-					}
-					clr_global_flag = pfp_usa_jonathan_wainwright
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Russell Hartle" } 
-						}
-					}
-					clr_global_flag = pfp_usa_russell_hartle
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Joseph Stilwell" } 
-						}
-					}
-					clr_global_flag = pfp_usa_joseph_stilwell
-				}
-				
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
-						ideology = fascism_ideology
-					}
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#Dwight D. Eisenhower
 	pfp_army_leader_usa_dwight_d_eisenhower = {
 		visible = {
@@ -256,6 +14,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_dwight_d_eisenhower #Check if country has character
+			USA_dwight_d_eisenhower = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_dwight_d_eisenhower } #Check if Dwight D. Eisenhower is currently puppet leader
 		}
 		complete_effect = {
@@ -317,6 +76,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = USA_douglas_macarthur #Check if country has character
+			USA_douglas_macarthur = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_douglas_macarthur } #Check if Douglas MacArthur is already a leader
 		}
 		complete_effect = {
@@ -378,6 +138,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = USA_george_s_patton #Check if country has character
+			USA_george_s_patton = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_george_s_patton } #Check if George S. Patton is already a leader
 		}
 		complete_effect = {
@@ -439,6 +200,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_omar_bradley #Check if country has character
+			USA_omar_bradley = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_usa_omar_bradley } #Check if Omar Bradley is already a leader
 		}
 		complete_effect = {
@@ -500,6 +262,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_mark_clark #Check if country has character
+			USA_mark_clark = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_mark_clark } #Check if Mark W. Clark is already a leader
 		}
 		complete_effect = {
@@ -561,6 +324,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_courtney_hodges #Check if country has character
+			USA_courtney_hodges = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_courtney_hodges } #Check if Courtney Hodges is already a leader
 		}
 		complete_effect = {
@@ -622,6 +386,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_lucian_truscott #Check if country has character
+			USA_lucian_truscott = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_lucian_truscott } #Check if Lucian Truscott is already a leader
 		}
 		complete_effect = {
@@ -683,6 +448,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_walter_krueger #Check if country has character
+			USA_walter_krueger = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_walter_krueger } #Check if Walter Krueger is already a leader
 		}
 		complete_effect = {
@@ -744,6 +510,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_leslie_mcnair #Check if country has character
+			USA_leslie_mcnair = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_leslie_mcnair } #Check if Leslie McNair is already a leader
 		}
 		complete_effect = {
@@ -805,6 +572,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_leonard_gerow #Check if country has character
+			USA_leonard_gerow = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_leonard_gerow } #Check if Leonard Gerow is already a leader
 		}
 		complete_effect = {
@@ -866,6 +634,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_alexander_patch #Check if country has character
+			USA_alexander_patch = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_alexander_patch } #Check if Alexander Patch is already a leader
 		}
 		complete_effect = {
@@ -927,6 +696,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_william_simpson #Check if country has character
+			USA_william_simpson = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_william_simpson } #Check if William Simpson is already a leader
 		}
 		complete_effect = {
@@ -988,6 +758,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_j_lawton_collins #Check if country has character
+			USA_j_lawton_collins = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_j_lawton_collins } #Check if J. Lawton Collins is already a leader
 		}
 		complete_effect = {
@@ -1049,6 +820,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_maurice_rose #Check if country has character
+			USA_maurice_rose = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_maurice_rose } #Check if Maurice Rose is already a leader
 		}
 		complete_effect = {
@@ -1110,6 +882,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_alexander_vandegrift #Check if country has character
+			USA_alexander_vandegrift = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_alexander_vandegrift } #Check if Alexander Vandegrift is already a leader
 		}
 		complete_effect = {
@@ -1171,6 +944,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_geoffrey_keyes #Check if country has character
+			USA_geoffrey_keyes = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_geoffrey_keyes } #Check if Geoffrey Keyes is already a leader
 		}
 		complete_effect = {
@@ -1232,6 +1006,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_lloyd_fredendall #Check if country has character
+			USA_lloyd_fredendall = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_lloyd_fredendall } #Check if Lloyd Fredendall is already a leader
 		}
 		complete_effect = {
@@ -1293,6 +1068,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_edward_brooks #Check if country has character
+			USA_edward_brooks = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_edward_brooks } #Check if Edward Brooks is already a leader
 		}
 		complete_effect = {
@@ -1354,6 +1130,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_clarence_huebner #Check if country has character
+			USA_clarence_huebner = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_clarence_huebner } #Check if Clarence Huebner is already a leader
 		}
 		complete_effect = {
@@ -1415,6 +1192,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_oscar_griswold #Check if country has character
+			USA_oscar_griswold = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_oscar_griswold } #Check if Oscar Griswold is already a leader
 		}
 		complete_effect = {
@@ -1476,6 +1254,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_jonathan_wainwright #Check if country has character
+			USA_jonathan_wainwright = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_jonathan_wainwright } #Check if Jonathan Wainwright is already a leader
 		}
 		complete_effect = {
@@ -1537,6 +1316,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_russell_hartle #Check if country has character
+			USA_russell_hartle = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_russell_hartle } #Check if Russell Hartle is already a leader
 		}
 		complete_effect = {
@@ -1598,6 +1378,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = USA_joseph_stilwell #Check if country has character
+			USA_joseph_stilwell = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_usa_joseph_stilwell } #Check if Joseph Stilwell is already a leader
 		}
 		complete_effect = {

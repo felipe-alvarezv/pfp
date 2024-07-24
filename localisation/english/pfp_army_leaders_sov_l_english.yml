@@ -1,6 +1,5 @@
 ﻿#PFP Leaders - Soviet Union
 l_english:
- pfp_army_leader_dismiss_sov:0 "Dismiss Current Leader"
  pfp_army_leader_sov_mikhail_tukhachevsky:0 "Appoint Mikhail Tukhachevsky"
  pfp_army_leader_sov_aleksandr_yegorov:0 "Appoint Aleksandr Yegorov"
  pfp_army_leader_sov_vasily_blyukher:0 "Appoint Vasily Blyukher"
@@ -28,6 +27,7 @@ l_english:
  pfp_army_leader_sov_vitaly_primakov:0 "Appoint Vitaly Primakov"
  pfp_army_leader_sov_markian_popov:0 "Appoint Markian Popov"
  pfp_army_leader_sov_ivan_chernyakhovsky:0 "Appoint Ivan Chernyakhovsky"
+ pfp_army_leader_sov_issa_pliyev:0 "Appoint Issa Pliyev"
  pfp_army_leader_sov_grigory_kulik:0 "Appoint Grigory Kulik"
  pfp_army_leader_sov_andrey_yeryomenko:0 "Appoint Andrey Yeryomenko"
  pfp_army_leader_sov_georgy_zakharov:0 "Appoint Georgy Zakharov"

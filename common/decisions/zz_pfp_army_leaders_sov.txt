@@ -1,358 +1,4 @@
 pfp_puppet_management = {
-	#Dismiss Leader
-	pfp_army_leader_dismiss_sov = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = SOV #Check if country is Soviet Union
-
-			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
-				NOT = {
-					has_country_leader = { name = "Military Junta" } 
-				}
-			}
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_desc
-			hidden_effect = {
-				if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Mikhail Tukhachevsky" } 
-						}
-					}
-					clr_global_flag = pfp_sov_mikhail_tukhachevsky
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Aleksandr Yegorov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_aleksandr_yegorov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Vasily Blyukher" } 
-						}
-					}
-					clr_global_flag = pfp_sov_vasily_blyukher
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kliment Voroshilov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_kliment_voroshilov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Semyon Budyonny" } 
-						}
-					}
-					clr_global_flag = pfp_sov_semyon_budyonny
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Georgy Zhukov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_georgy_zhukov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ivan Konev" } 
-						}
-					}
-					clr_global_flag = pfp_sov_ivan_konev
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Konstantin Rokossovsky" } 
-						}
-					}
-					clr_global_flag = pfp_sov_konstantin_rokossovsky
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Aleksandr Vasilevsky" } 
-						}
-					}
-					clr_global_flag = pfp_sov_aleksandr_vasilevsky
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Boris Shaposhnikov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_boris_shaposhnikov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Nikolay Vatutin" } 
-						}
-					}
-					clr_global_flag = pfp_sov_nikolay_vatutin
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Semyon Timoshenko" } 
-						}
-					}
-					clr_global_flag = pfp_sov_semyon_timoshenko
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Leonid Govorov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_leonid_govorov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kirill Meretskov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_kirill_meretskov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Filipp Golikov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_filipp_golikov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Yakov Cherevichenko" } 
-						}
-					}
-					clr_global_flag = pfp_sov_yakov_cherevichenko
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Nikandr Chibisov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_nikandr_chibisov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Vasily Kuznetsov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_vasily_kuznetsov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Andrey Vlasov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_andrey_vlasov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Maksim Purkayev" } 
-						}
-					}
-					clr_global_flag = pfp_sov_maksim_purkayev
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Nikolay Berzarin" } 
-						}
-					}
-					clr_global_flag = pfp_sov_nikolay_berzarin
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Aleksandr Gorbatov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_aleksandr_gorbatov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kirill Moskalenko" } 
-						}
-					}
-					clr_global_flag = pfp_sov_kirill_moskalenko
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Andrey Grechko" } 
-						}
-					}
-					clr_global_flag = pfp_sov_andrey_grechko
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Vitaly Primakov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_vitaly_primakov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Markian Popov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_markian_popov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ivan Chernyakhovsky" } 
-						}
-					}
-					clr_global_flag = pfp_sov_ivan_chernyakhovsky
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Issa Pilyev" } 
-						}
-					}
-					clr_global_flag = pfp_sov_issa_pilyev
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Grigory Kulik" } 
-						}
-					}
-					clr_global_flag = pfp_sov_grigory_kulik
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Andrey Yeryomenko" } 
-						}
-					}
-					clr_global_flag = pfp_sov_andrey_yeryomenko
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Georgy Zakharov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_georgy_zakharov
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Maks Reyter" } 
-						}
-					}
-					clr_global_flag = pfp_sov_maks_reyter
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ivan Fedyuninsky" } 
-						}
-					}
-					clr_global_flag = pfp_sov_ivan_fedyuninsky
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kuzma Galitsky" } 
-						}
-					}
-					clr_global_flag = pfp_sov_kuzma_galitsky
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Dmitry Lelyushenko" } 
-						}
-					}
-					clr_global_flag = pfp_sov_dmitry_lelyushenko
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Rodion Malinovsky" } 
-						}
-					}
-					clr_global_flag = pfp_sov_rodion_malinovsky
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Vasily Chuykov" } 
-						}
-					}
-					clr_global_flag = pfp_sov_vasily_chuykov
-				}
-				
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
-						ideology = fascism_ideology
-					}
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#Mikhail Tukhachevsky
 	pfp_army_leader_sov_mikhail_tukhachevsky = {
 		visible = {
@@ -368,6 +14,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_mikhail_tukhachevsky #Check if country has character
+			SOV_mikhail_tukhachevsky = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_sov_mikhail_tukhachevsky } #Check if Mikhail Tukhachevsky is currently puppet leader
 		}
 		complete_effect = {
@@ -429,6 +76,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = SOV_aleksandr_yegorov #Check if country has character
+			SOV_aleksandr_yegorov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_sov_aleksandr_yegorov } #Check if Aleksandr Yegorov is already a leader
 		}
 		complete_effect = {
@@ -490,6 +138,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = SOV_vasily_blyukher #Check if country has character
+			SOV_vasily_blyukher = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_sov_vasily_blyukher } #Check if Vasily Blyukher is already a leader
 		}
 		complete_effect = {
@@ -551,6 +200,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_kliment_voroshilov #Check if country has character
+			SOV_kliment_voroshilov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_kliment_voroshilov } #Check if Kliment Voroshilov is already a leader
 		}
 		complete_effect = {
@@ -612,6 +262,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_semyon_budyonny #Check if country has character
+			SOV_semyon_budyonny = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_semyon_budyonny } #Check if Semyon Budyonny is already a leader
 		}
 		complete_effect = {
@@ -673,6 +324,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_georgy_zhukov #Check if country has character
+			SOV_georgy_zhukov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_georgy_zhukov } #Check if Georgy Zhukov is already a leader
 		}
 		complete_effect = {
@@ -734,6 +386,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_ivan_konev #Check if country has character
+			SOV_ivan_konev = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_ivan_konev } #Check if Ivan Konev is already a leader
 		}
 		complete_effect = {
@@ -795,6 +448,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_konstantin_rokossovsky #Check if country has character
+			SOV_konstantin_rokossovsky = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_konstantin_rokossovsky } #Check if Konstantin Rokossovsky is already a leader
 		}
 		complete_effect = {
@@ -856,6 +510,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_aleksandr_vasilevsky #Check if country has character
+			SOV_aleksandr_vasilevsky = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_aleksandr_vasilevsky } #Check if Aleksandr Vasilevsky is already a leader
 		}
 		complete_effect = {
@@ -917,6 +572,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_boris_shaposhnikov #Check if country has character
+			SOV_boris_shaposhnikov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_boris_shaposhnikov } #Check if Boris Shaposhnikov is already a leader
 		}
 		complete_effect = {
@@ -978,6 +634,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_nikolay_vatutin #Check if country has character
+			SOV_nikolay_vatutin = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_nikolay_vatutin } #Check if Nikolay Vatutin is already a leader
 		}
 		complete_effect = {
@@ -1039,6 +696,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_semyon_timoshenko #Check if country has character
+			SOV_semyon_timoshenko = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_semyon_timoshenko } #Check if Semyon Timoshenko is already a leader
 		}
 		complete_effect = {
@@ -1100,6 +758,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_leonid_govorov #Check if country has character
+			SOV_leonid_govorov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_leonid_govorov } #Check if Leonid Govorov is already a leader
 		}
 		complete_effect = {
@@ -1161,6 +820,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_kirill_meretskov #Check if country has character
+			SOV_kirill_meretskov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_kirill_meretskov } #Check if Kirill Meretskov is already a leader
 		}
 		complete_effect = {
@@ -1222,6 +882,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_filipp_golikov #Check if country has character
+			SOV_filipp_golikov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_filipp_golikov } #Check if Filipp Golikov is already a leader
 		}
 		complete_effect = {
@@ -1283,6 +944,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_yakov_cherevichenko #Check if country has character
+			SOV_yakov_cherevichenko = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_yakov_cherevichenko } #Check if Yakov Cherevichenko is already a leader
 		}
 		complete_effect = {
@@ -1344,6 +1006,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_nikandr_chibisov #Check if country has character
+			SOV_nikandr_chibisov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_nikandr_chibisov } #Check if Nikandr Chibisov is already a leader
 		}
 		complete_effect = {
@@ -1405,6 +1068,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_vasily_kuznetsov #Check if country has character
+			SOV_vasily_kuznetsov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_vasily_kuznetsov } #Check if Vasily Kuznetsov is already a leader
 		}
 		complete_effect = {
@@ -1466,6 +1130,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_andrey_vlasov #Check if country has character
+			SOV_andrey_vlasov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_andrey_vlasov } #Check if Andrey Vlasov is already a leader
 		}
 		complete_effect = {
@@ -1527,6 +1192,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_maksim_purkayev #Check if country has character
+			SOV_maksim_purkayev = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_maksim_purkayev } #Check if Maksim Purkayev is already a leader
 		}
 		complete_effect = {
@@ -1588,6 +1254,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_nikolay_berzarin #Check if country has character
+			SOV_nikolay_berzarin = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_nikolay_berzarin } #Check if Nikolay Berzarin is already a leader
 		}
 		complete_effect = {
@@ -1649,6 +1316,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_aleksandr_gorbatov #Check if country has character
+			SOV_aleksandr_gorbatov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_aleksandr_gorbatov } #Check if Aleksandr Gorbatov is already a leader
 		}
 		complete_effect = {
@@ -1710,6 +1378,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_kirill_moskalenko #Check if country has character
+			SOV_kirill_moskalenko = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_kirill_moskalenko } #Check if Kirill Moskalenko is already a leader
 		}
 		complete_effect = {
@@ -1771,6 +1440,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_andrey_grechko #Check if country has character
+			SOV_andrey_grechko = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_andrey_grechko } #Check if Andrey Grechko is already a leader
 		}
 		complete_effect = {
@@ -1832,6 +1502,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_vitaly_primakov #Check if country has character
+			SOV_vitaly_primakov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_vitaly_primakov } #Check if Vitaly Primakov is already a leader
 		}
 		complete_effect = {
@@ -1893,6 +1564,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_markian_popov #Check if country has character
+			SOV_markian_popov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_markian_popov } #Check if Markian Popov is already a leader
 		}
 		complete_effect = {
@@ -1954,6 +1626,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_ivan_chernyakhovsky #Check if country has character
+			SOV_ivan_chernyakhovsky = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_ivan_chernyakhovsky } #Check if Ivan Chernyakhovsky is already a leader
 		}
 		complete_effect = {
@@ -2000,8 +1673,8 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Issa Pilyev
-	pfp_army_leader_sov_issa_pilyev = {
+	#Issa Pliyev
+	pfp_army_leader_sov_issa_pliyev = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
@@ -2014,13 +1687,14 @@ pfp_puppet_management = {
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = SOV_issa_pilyev #Check if country has character
-			NOT = {  has_global_flag = pfp_sov_issa_pilyev } #Check if Issa Pilyev is already a leader
+			has_character = SOV_issa_pliyev #Check if country has character
+			SOV_issa_pliyev = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = {  has_global_flag = pfp_sov_issa_pliyev } #Check if Issa Pliyev is already a leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Issa Pilyev
+				#Issa Pliyev
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -2029,34 +1703,34 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Issa Pilyev"
+						name = "Issa Pliyev"
 						desc = ""
-						picture = GFX_portrait_SOV_issa_pilyev
+						picture = GFX_portrait_SOV_issa_pliyev
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Issa Pilyev"
+						name = "Issa Pliyev"
 						desc = ""
-						picture = GFX_portrait_SOV_issa_pilyev
+						picture = GFX_portrait_SOV_issa_pliyev
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Issa Pilyev"
+						name = "Issa Pliyev"
 						desc = ""
-						picture = GFX_portrait_SOV_issa_pilyev
+						picture = GFX_portrait_SOV_issa_pliyev
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Issa Pilyev"
+						name = "Issa Pliyev"
 						desc = ""
-						picture = GFX_portrait_SOV_issa_pilyev
+						picture = GFX_portrait_SOV_issa_pliyev
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_sov_issa_pilyev
+				set_global_flag = pfp_sov_issa_pliyev
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -2076,6 +1750,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_grigory_kulik #Check if country has character
+			SOV_grigory_kulik = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_grigory_kulik } #Check if Grigory Kulik is already a leader
 		}
 		complete_effect = {
@@ -2137,6 +1812,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_andrey_yeryomenko #Check if country has character
+			SOV_andrey_yeryomenko = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_andrey_yeryomenko } #Check if Andrey Yeryomenko is already a leader
 		}
 		complete_effect = {
@@ -2198,6 +1874,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_georgy_zakharov #Check if country has character
+			SOV_georgy_zakharov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_georgy_zakharov } #Check if Georgy Zakharov is already a leader
 		}
 		complete_effect = {
@@ -2259,6 +1936,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_maks_reyter #Check if country has character
+			SOV_maks_reyter = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_maks_reyter } #Check if Maks Reyter is already a leader
 		}
 		complete_effect = {
@@ -2320,6 +1998,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_ivan_fedyuninsky #Check if country has character
+			SOV_ivan_fedyuninsky = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_ivan_fedyuninsky } #Check if Ivan Fedyuninsky is already a leader
 		}
 		complete_effect = {
@@ -2381,6 +2060,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_kuzma_galitsky #Check if country has character
+			SOV_kuzma_galitsky = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_kuzma_galitsky } #Check if Kuzma Galitsky is already a leader
 		}
 		complete_effect = {
@@ -2442,6 +2122,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_dmitry_lelyushenko #Check if country has character
+			SOV_dmitry_lelyushenko = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_dmitry_lelyushenko } #Check if Dmitry Lelyushenko is already a leader
 		}
 		complete_effect = {
@@ -2503,6 +2184,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_rodion_malinovsky #Check if country has character
+			SOV_rodion_malinovsky = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_rodion_malinovsky } #Check if Rodion Malinovsky is already a leader
 		}
 		complete_effect = {
@@ -2564,6 +2246,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = SOV_vasily_chuykov #Check if country has character
+			SOV_vasily_chuykov = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = {  has_global_flag = pfp_sov_vasily_chuykov } #Check if Vasily Chuykov is already a leader
 		}
 		complete_effect = {

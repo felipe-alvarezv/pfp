@@ -1,270 +1,4 @@
 pfp_puppet_management = {
-	#Dismiss Leader
-	pfp_army_leader_dismiss_ita = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ITA #Check if country is Italy
-
-			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
-				NOT = {
-					has_country_leader = { name = "Military Junta" } 
-				}
-			}
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_desc
-			hidden_effect = {
-				if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Rodolfo Graziani" } 
-						}
-					}
-					clr_global_flag = pfp_ita_rodolfo_graziani
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Pietro Badoglio" } 
-						}
-					}
-					clr_global_flag = pfp_ita_pietro_badoglio
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Emilio De Bono" } 
-						}
-					}
-					clr_global_flag = pfp_ita_emilio_de_bono
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Italo Balbo" } 
-						}
-					}
-					clr_global_flag = pfp_ita_italo_balbo
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Giovanni Messe" } 
-						}
-					}
-					clr_global_flag = pfp_ita_giovanni_messe
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ugo Cavallero" } 
-						}
-					}
-					clr_global_flag = pfp_ita_ugo_cavallero
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ettore Baldassarre" } 
-						}
-					}
-					clr_global_flag = pfp_ita_ettore_baldasarre
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Sebastiano Visconti Prasca" } 
-						}
-					}
-					clr_global_flag = pfp_ita_sebastiano_visconti_prasca
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ubaldo Soddu" } 
-						}
-					}
-					clr_global_flag = pfp_ita_ubaldo_soddu
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ettore Bastico" } 
-						}
-					}
-					clr_global_flag = pfp_ita_ettore_bastico
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Italo Gariboldi" } 
-						}
-					}
-					clr_global_flag = pfp_ita_italo_gariboldi
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Vittorio Ambrosio" } 
-						}
-					}
-					clr_global_flag = pfp_ita_vittorio_ambrosio
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Alfredo Guzzoni" } 
-						}
-					}
-					clr_global_flag = pfp_ita_alfredo_guzzoni
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Pietro Pintor" } 
-						}
-					}
-					clr_global_flag = pfp_ita_pietro_pintor
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Mario Berti" } 
-						}
-					}
-					clr_global_flag = pfp_ita_mario_berti
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Carlo Geloso" } 
-						}
-					}
-					clr_global_flag = pfp_ita_carlo_geloso
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Giuseppe Tellera" } 
-						}
-					}
-					clr_global_flag = pfp_ita_giuseppe_tellera
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Francesco Zingales" } 
-						}
-					}
-					clr_global_flag = pfp_ita_francesco_zingales
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ezio Rosi" } 
-						}
-					}
-					clr_global_flag = pfp_ita_ezio_rosi
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Mario Vercellino" } 
-						}
-					}
-					clr_global_flag = pfp_ita_mario_vercellino
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Prince Adalberto" } 
-						}
-					}
-					clr_global_flag = pfp_ita_prince_adalberto
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Prince Umberto" } 
-						}
-					}
-					clr_global_flag = pfp_ita_prince_umberto
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Alessandro Pirzio Biroli" } 
-						}
-					}
-					clr_global_flag = pfp_ita_alessandro_pirzio_biroli
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Carlo Vecchiarelli" } 
-						}
-					}
-					clr_global_flag = pfp_ita_carlo_vecchiarelli
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Mario Robotti" } 
-						}
-					}
-					clr_global_flag = pfp_ita_mario_robotti
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Mario Roatta" } 
-						}
-					}
-					clr_global_flag = pfp_ita_mario_roatta
-				}
-
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
-						ideology = fascism_ideology
-					}
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#Rodolfo Graziani
 	pfp_army_leader_ita_rodolfo_graziani = {
 		visible = {
@@ -280,6 +14,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_rodolfo_graziani #Check if country has character
+			ITA_rodolfo_graziani = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_rodolfo_graziani } #Check if Rodolfo Graziani is currently puppet leader
 		}
 		complete_effect = {
@@ -341,6 +76,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = ITA_pietro_badoglio #Check if country has character
+			ITA_pietro_badoglio = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_pietro_badoglio } #Check if Pietro Badoglio is already a leader
 		}
 		complete_effect = {
@@ -402,6 +138,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_emilio_de_bono #Check if country has character
+			ITA_emilio_de_bono = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_emilio_de_bono } #Check if Emilio De Bono is currently puppet leader
 		}
 		complete_effect = {
@@ -463,6 +200,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_italo_balbo #Check if country has character
+			ITA_italo_balbo = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_italo_balbo } #Check if Italo Balbo is currently puppet leader
 		}
 		complete_effect = {
@@ -524,6 +262,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_giovanni_messe #Check if country has character
+			ITA_giovanni_messe = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_giovanni_messe } #Check if Giovanni Messe is currently puppet leader
 		}
 		complete_effect = {
@@ -585,6 +324,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_ugo_cavallero #Check if country has character
+			ITA_ugo_cavallero = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_ugo_cavallero } #Check if Ugo Cavallero is currently puppet leader
 		}
 		complete_effect = {
@@ -646,6 +386,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_ettore_baldassarre #Check if country has character
+			ITA_ettore_baldassarre = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_ettore_baldasarre } #Check if Ettore Baldassarre is currently puppet leader
 		}
 		complete_effect = {
@@ -707,6 +448,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_sebastiano_visconti_prasca #Check if country has character
+			ITA_sebastiano_visconti_prasca = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_sebastiano_visconti_prasca } #Check if Sebastiano Visconti Prasca is currently puppet leader
 		}
 		complete_effect = {
@@ -768,6 +510,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_ubaldo_soddu #Check if country has character
+			ITA_ubaldo_soddu = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_ubaldo_soddu } #Check if Ubaldo Soddu is currently puppet leader
 		}
 		complete_effect = {
@@ -829,6 +572,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_ettore_bastico #Check if country has character
+			ITA_ettore_bastico = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_ettore_bastico } #Check if Ettore Bastico is currently puppet leader
 		}
 		complete_effect = {
@@ -890,6 +634,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_italo_gariboldi #Check if country has character
+			ITA_italo_gariboldi = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_italo_gariboldi } #Check if Italo Gariboldi is currently puppet leader
 		}
 		complete_effect = {
@@ -951,6 +696,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_vittorio_ambrosio #Check if country has character
+			ITA_vittorio_ambrosio = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_vittorio_ambrosio } #Check if Vittorio Ambrosio is currently puppet leader
 		}
 		complete_effect = {
@@ -1012,6 +758,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_alfredo_guzzoni #Check if country has character
+			ITA_alfredo_guzzoni = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_alfredo_guzzoni } #Check if Alfredo Guzzoni is currently puppet leader
 		}
 		complete_effect = {
@@ -1073,6 +820,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_pietro_pintor #Check if country has character
+			ITA_pietro_pintor = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_pietro_pintor } #Check if Pietro Pintor is currently puppet leader
 		}
 		complete_effect = {
@@ -1134,6 +882,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_mario_berti #Check if country has character
+			ITA_mario_berti = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_mario_berti } #Check if Mario Berti is currently puppet leader
 		}
 		complete_effect = {
@@ -1195,6 +944,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_carlo_geloso #Check if country has character
+			ITA_carlo_geloso = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_carlo_geloso } #Check if Carlo Geloso is currently puppet leader
 		}
 		complete_effect = {
@@ -1256,6 +1006,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_giuseppe_tellera #Check if country has character
+			ITA_giuseppe_tellera = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_giuseppe_tellera } #Check if Giuseppe Tellera is currently puppet leader
 		}
 		complete_effect = {
@@ -1317,6 +1068,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_francesco_zingales #Check if country has character
+			ITA_francesco_zingales = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_francesco_zingales } #Check if Francesco Zingales is currently puppet leader
 		}
 		complete_effect = {
@@ -1378,6 +1130,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_ezio_rosi #Check if country has character
+			ITA_ezio_rosi = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_ezio_rosi } #Check if Ezio Rosi is currently puppet leader
 		}
 		complete_effect = {
@@ -1439,6 +1192,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_mario_vercellino #Check if country has character
+			ITA_mario_vercellino = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_mario_vercellino } #Check if Mario Vercellino is currently puppet leader
 		}
 		complete_effect = {
@@ -1500,6 +1254,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_prince_adalberto #Check if country has character
+			ITA_prince_adalberto = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_prince_adalberto } #Check if Prince Adalberto is currently puppet leader
 		}
 		complete_effect = {
@@ -1561,6 +1316,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_prince_umberto #Check if country has character
+			ITA_prince_umberto = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_prince_umberto } #Check if Prince Umberto is currently puppet leader
 		}
 		complete_effect = {
@@ -1622,6 +1378,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_alessandro_pirzio_biroli #Check if country has character
+			ITA_alessandro_pirzio_biroli = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_alessandro_pirzio_biroli } #Check if Alessandro Pirzio Biroli is currently puppet leader
 		}
 		complete_effect = {
@@ -1683,6 +1440,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_carlo_vecchiarelli #Check if country has character
+			ITA_carlo_vecchiarelli = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_carlo_vecchiarelli } #Check if Carlo Vecchiarelli is currently puppet leader
 		}
 		complete_effect = {
@@ -1744,6 +1502,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_mario_robotti #Check if country has character
+			ITA_mario_robotti = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_mario_robotti } #Check if Mario Robotti is currently puppet leader
 		}
 		complete_effect = {
@@ -1805,6 +1564,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = ITA_mario_roatta #Check if country has character
+			ITA_mario_roatta = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ita_mario_roatta } #Check if Mario Roatta is currently puppet leader
 		}
 		complete_effect = {

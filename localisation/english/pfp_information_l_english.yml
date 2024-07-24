@@ -87,4 +87,5 @@ l_english:
  pfp_puppet_management_options_ideology:0 "Change Ruling Party"
  pfp_puppet_management_options_ideology_desc:0 "Changes the ruling party of puppet to match overlord."
  pfp_army_leader_appoint_desc:0 "Appoint as head of the military administration."
+ pfp_army_leader_dismiss:0 "Dismiss Current Leader"
  pfp_army_leader_dismiss_desc:0 "Dismiss as head of the military administration."

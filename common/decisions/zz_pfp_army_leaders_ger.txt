@@ -1,286 +1,4 @@
 pfp_puppet_management = {
-	#Dismiss Leader
-	pfp_army_leader_dismiss_ger = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = GER #Check if country is Germany
-
-			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
-				NOT = {
-					has_country_leader = { name = "Military Junta" } 
-				}
-			}
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_desc
-			hidden_effect = {
-				if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Gerd von Rundstedt" } 
-						}
-					}
-					clr_global_flag = pfp_ger_gerd_von_rundstedt
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Gunther von Kluge" } 
-						}
-					}
-					clr_global_flag = pfp_ger_gunther_von_kluge
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Walter Model" } 
-						}
-					}
-					clr_global_flag = pfp_ger_walter_model
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Erwin Rommel" } 
-						}
-					}
-					clr_global_flag = pfp_ger_erwin_rommel
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Erich von Manstein" } 
-						}
-					}
-					clr_global_flag = pfp_ger_erich_von_manstein
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Heinz Guderian" } 
-						}
-					}
-					clr_global_flag = pfp_ger_heinz_guderian
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Fedor von Bock" } 
-						}
-					}
-					clr_global_flag = pfp_ger_fedor_von_bock
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Maximilian von Weichs" } 
-						}
-					}
-					clr_global_flag = pfp_ger_maximilian_von_weichs
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Kurt Student" } 
-						}
-					}
-					clr_global_flag = pfp_ger_kurt_student
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Erwin von Witzleben" } 
-						}
-					}
-					clr_global_flag = pfp_ger_erwin_von_witzleben
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Paul Hausser" } 
-						}
-					}
-					clr_global_flag = pfp_ger_paul_hausser
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Georg von Kuchler" } 
-						}
-					}
-					clr_global_flag = pfp_ger_georg_von_kuchler
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Sepp Dietrich" } 
-						}
-					}
-					clr_global_flag = pfp_ger_sepp_dietrich
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Hasso von Manteuffel" } 
-						}
-					}
-					clr_global_flag = pfp_ger_hasso_von_manteuffel
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Albert Kesselring" } 
-						}
-					}
-					clr_global_flag = pfp_ger_albert_kesselring
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Wilhelm Ritter von Leeb" } 
-						}
-					}
-					clr_global_flag = pfp_ger_wilhelm_ritter_von_leeb
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Georg-Hans Reinhardt" } 
-						}
-					}
-					clr_global_flag = pfp_ger_georghans_reinhardt
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Walter Kruger" } 
-						}
-					}
-					clr_global_flag = pfp_ger_walter_kruger
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Hermann Hoth" } 
-						}
-					}
-					clr_global_flag = pfp_ger_hermann_hoth
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Johannes Blaskowitz" } 
-						}
-					}
-					clr_global_flag = pfp_ger_johannes_blaskowitz
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Friedrich Schulz" } 
-						}
-					}
-					clr_global_flag = pfp_ger_friedrich_schulz
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Alfred Jodl" } 
-						}
-					}
-					clr_global_flag = pfp_ger_alfred_jodl
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Gotthard Heinrici" } 
-						}
-					}
-					clr_global_flag = pfp_ger_gotthard_heinrici
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ernst-Eberhard Hell" } 
-						}
-					}
-					clr_global_flag = pfp_ger_ernsteberhard_hell
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Felix Steiner" } 
-						}
-					}
-					clr_global_flag = pfp_ger_felix_steiner
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Wilhelm List" } 
-						}
-					}
-					clr_global_flag = pfp_ger_wilhelm_list
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Ewald von Kleist" } 
-						}
-					}
-					clr_global_flag = pfp_ger_ewald_von_kleist
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Friedrich Paulus" } 
-						}
-					}
-					clr_global_flag = pfp_ger_friedrich_paulus
-				}
-
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
-						ideology = fascism_ideology
-					}
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#Gerd von Rundstedt
 	pfp_army_leader_ger_gerd_von_rundstedt = {
 		visible = {
@@ -296,6 +14,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = GER_gerd_von_rundstedt #Check if country has character
+			GER_gerd_von_rundstedt = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_gerd_von_rundstedt } #Check if Gerd von Rundstedt is currently puppet leader
 		}
 		complete_effect = {
@@ -342,7 +61,7 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Gunther von Kluge
+	#Günther von Kluge
 	pfp_army_leader_ger_gunther_von_kluge = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
@@ -357,12 +76,13 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_gunther_von_kluge #Check if country has character
-			NOT = { has_global_flag = pfp_ger_gunther_von_kluge } #Check if Gunther von Kluge is already a leader
+			GER_gunther_von_kluge = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_ger_gunther_von_kluge } #Check if Günther von Kluge is already a leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Gunther von Kluge
+				#Günther von Kluge
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -371,28 +91,28 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Gunther von Kluge"
+						name = "Günther von Kluge"
 						desc = ""
 						picture = GFX_portrait_GER_gunther_von_kluge
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Gunther von Kluge"
+						name = "Günther von Kluge"
 						desc = ""
 						picture = GFX_portrait_GER_gunther_von_kluge
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Gunther von Kluge"
+						name = "Günther von Kluge"
 						desc = ""
 						picture = GFX_portrait_GER_gunther_von_kluge
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Gunther von Kluge"
+						name = "Günther von Kluge"
 						desc = ""
 						picture = GFX_portrait_GER_gunther_von_kluge
 						ideology = fascism_ideology
@@ -418,6 +138,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_walter_model #Check if country has character
+			GER_walter_model = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_walter_model } #Check if Walter Model is already a leader
 		}
 		complete_effect = {
@@ -479,6 +200,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_erwin_rommel #Check if country has character
+			GER_erwin_rommel = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_erwin_rommel } #Check if Erwin Rommel is already a leader
 		}
 		complete_effect = {
@@ -540,6 +262,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_erich_von_manstein #Check if country has character
+			GER_erich_von_manstein = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_erich_von_manstein } #Check if Erich von Manstein is already a leader
 		}
 		complete_effect = {
@@ -601,6 +324,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_heinz_guderian #Check if country has character
+			GER_heinz_guderian = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_heinz_guderian } #Check if Heinz Guderian is already a leader
 		}
 		complete_effect = {
@@ -662,6 +386,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_fedor_von_bock #Check if country has character
+			GER_fedor_von_bock = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_fedor_von_bock } #Check if Fedor von Bock is already a leader
 		}
 		complete_effect = {
@@ -723,6 +448,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_maximilian_von_weichs #Check if country has character
+			GER_maximilian_von_weichs = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_maximilian_von_weichs } #Check if Maximilian von Weichs is already a leader
 		}
 		complete_effect = {
@@ -784,6 +510,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_kurt_student #Check if country has character
+			GER_kurt_student = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_kurt_student } #Check if Kurt Student is already a leader
 		}
 		complete_effect = {
@@ -845,6 +572,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_erwin_von_witzleben #Check if country has character
+			GER_erwin_von_witzleben = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_erwin_von_witzleben } #Check if Erwin von Witzleben is already a leader
 		}
 		complete_effect = {
@@ -906,6 +634,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_paul_hausser #Check if country has character
+			GER_paul_hausser = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_paul_hausser } #Check if Paul Hausser is already a leader
 		}
 		complete_effect = {
@@ -952,7 +681,7 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Georg von Kuchler
+	#Georg von Küchler
 	pfp_army_leader_ger_georg_von_kuchler = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
@@ -967,12 +696,13 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_georg_von_kuchler #Check if country has character
-			NOT = { has_global_flag = pfp_ger_georg_von_kuchler } #Check if Georg von Kuchler is already a leader
+			GER_georg_von_kuchler = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_ger_georg_von_kuchler } #Check if Georg von Küchler is already a leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Georg von Kuchler
+				#Georg von Küchler
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -981,28 +711,28 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Georg von Kuchler"
+						name = "Georg von Küchler"
 						desc = ""
 						picture = GFX_portrait_GER_georg_von_kuchler
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Georg von Kuchler"
+						name = "Georg von Küchler"
 						desc = ""
 						picture = GFX_portrait_GER_georg_von_kuchler
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Georg von Kuchler"
+						name = "Georg von Küchler"
 						desc = ""
 						picture = GFX_portrait_GER_georg_von_kuchler
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Georg von Kuchler"
+						name = "Georg von Küchler"
 						desc = ""
 						picture = GFX_portrait_GER_georg_von_kuchler
 						ideology = fascism_ideology
@@ -1028,6 +758,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_sepp_dietrich #Check if country has character
+			GER_sepp_dietrich = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_sepp_dietrich } #Check if Sepp Dietrich is already a leader
 		}
 		complete_effect = {
@@ -1089,6 +820,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_hasso_von_manteuffel #Check if country has character
+			GER_hasso_von_manteuffel = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_hasso_von_manteuffel } #Check if Hasso von Manteuffel is already a leader
 		}
 		complete_effect = {
@@ -1150,6 +882,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_albert_kesselring #Check if country has character
+			GER_albert_kesselring = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_albert_kesselring } #Check if Albert Kesselring is already a leader
 		}
 		complete_effect = {
@@ -1211,6 +944,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_wilhelm_ritter_von_leeb #Check if country has character
+			GER_wilhelm_ritter_von_leeb = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_wilhelm_ritter_von_leeb } #Check if Wilhelm Ritter von Leeb is already a leader
 		}
 		complete_effect = {
@@ -1272,6 +1006,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_georghans_reinhardt #Check if country has character
+			GER_georghans_reinhardt = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_georghans_reinhardt } #Check if Georg-Hans Reinhardt is already a leader
 		}
 		complete_effect = {
@@ -1318,7 +1053,7 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Walter Kruger
+	#Walter Krüger
 	pfp_army_leader_ger_walter_kruger = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
@@ -1333,12 +1068,13 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_walter_kruger #Check if country has character
-			NOT = { has_global_flag = pfp_ger_walter_kruger } #Check if Walter Kruger is already a leader
+			GER_walter_kruger = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_ger_walter_kruger } #Check if Walter Krüger is already a leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Walter Kruger
+				#Walter Krüger
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -1347,28 +1083,28 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Walter Kruger"
+						name = "Walter Krüger"
 						desc = ""
 						picture = GFX_portrait_GER_walter_kruger
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Walter Kruger"
+						name = "Walter Krüger"
 						desc = ""
 						picture = GFX_portrait_GER_walter_kruger
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Walter Kruger"
+						name = "Walter Krüger"
 						desc = ""
 						picture = GFX_portrait_GER_walter_kruger
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Walter Kruger"
+						name = "Walter Krüger"
 						desc = ""
 						picture = GFX_portrait_GER_walter_kruger
 						ideology = fascism_ideology
@@ -1394,6 +1130,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_hermann_hoth #Check if country has character
+			GER_hermann_hoth = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_hermann_hoth } #Check if Hermann Hoth is already a leader
 		}
 		complete_effect = {
@@ -1455,6 +1192,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_johannes_blaskowitz #Check if country has character
+			GER_johannes_blaskowitz = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_johannes_blaskowitz } #Check if Johannes Blaskowitz is already a leader
 		}
 		complete_effect = {
@@ -1516,6 +1254,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_friedrich_schulz #Check if country has character
+			GER_friedrich_schulz = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_friedrich_schulz } #Check if Friedrich Schulz is already a leader
 		}
 		complete_effect = {
@@ -1577,6 +1316,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_alfred_jodl #Check if country has character
+			GER_alfred_jodl = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_alfred_jodl } #Check if Alfred Jodl is already a leader
 		}
 		complete_effect = {
@@ -1638,6 +1378,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_gotthard_heinrici #Check if country has character
+			GER_gotthard_heinrici = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_gotthard_heinrici } #Check if Gotthard Heinrici is already a leader
 		}
 		complete_effect = {
@@ -1699,6 +1440,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_ernsteberhard_hell #Check if country has character
+			GER_ernsteberhard_hell = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_ernsteberhard_hell } #Check if Ernst-Eberhard Hell is already a leader
 		}
 		complete_effect = {
@@ -1760,6 +1502,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = ger_felix_steiner #Check if country has character
+			ger_felix_steiner = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_felix_steiner } #Check if Felix Steiner is already a leader
 		}
 		complete_effect = {
@@ -1821,6 +1564,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_wilhelm_list #Check if country has character
+			GER_wilhelm_list = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_wilhelm_list } #Check if Wilhelm List is already a leader
 		}
 		complete_effect = {
@@ -1882,6 +1626,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_ewald_von_kleist #Check if country has character
+			GER_ewald_von_kleist = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_ewald_von_kleist } #Check if Ewald von Kleist is already a leader
 		}
 		complete_effect = {
@@ -1943,6 +1688,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = GER_friedrich_paulus #Check if country has character
+			GER_friedrich_paulus = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_ger_friedrich_paulus } #Check if Friedrich Paulus is already a leader
 		}
 		complete_effect = {

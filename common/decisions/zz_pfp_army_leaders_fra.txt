@@ -1,166 +1,4 @@
 pfp_puppet_management = {
-	#Dismiss Leader
-	pfp_army_leader_dismiss_fra = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = FRA #Check if country is France
-
-			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
-				NOT = {
-					has_country_leader = { name = "Military Junta" } 
-				}
-			}
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_dismiss_desc
-			hidden_effect = {
-				if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Maxime Weygand" } 
-						}
-					}
-					clr_global_flag = pfp_fra_maxime_weygand
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Alphonse Georges" } 
-						}
-					}
-					clr_global_flag = pfp_fra_alphonse_georges
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Maurice Gamelin" } 
-						}
-					}
-					clr_global_flag = pfp_fra_maurice_gamelin
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Antoine-Marie-Benoit Besson" } 
-						}
-					}
-					clr_global_flag = pfp_fra_antoinemariebenoit_besson
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Jean de Lattre de Tassigny" } 
-						}
-					}
-					clr_global_flag = pfp_fra_jean_de_lattre_de_tassigny
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Alphonse Juin" } 
-						}
-					}
-					clr_global_flag = pfp_fra_alphonse_juin
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Charles de Gaulle" } 
-						}
-					}
-					clr_global_flag = pfp_fra_charles_de_gaulle
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Philippe Leclerc" } 
-						}
-					}
-					clr_global_flag = pfp_fra_philippe_leclerc
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Henri Giraud" } 
-						}
-					}
-					clr_global_flag = pfp_fra_henri_giraud
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Charles Huntziger" } 
-						}
-					}
-					clr_global_flag = pfp_fra_charles_huntziger
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Rene Olry" } 
-						}
-					}
-					clr_global_flag = pfp_fra_rene_olry
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Gaston-Henri Billotte" } 
-						}
-					}
-					clr_global_flag = pfp_fra_gastonhenri_billotte
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Henry Freydenberg" } 
-						}
-					}
-					clr_global_flag = pfp_fra_henry_freydenberg
-				}
-
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
-						ideology = marxism
-					}
-
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
-						ideology = conservatism
-					}
-
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
-						ideology = centrism
-					}
-
-					create_country_leader = {
-						name = "Military Junta"
-						desc = ""
-						picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
-						ideology = fascism_ideology
-					}
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#Maxime Weygand
 	pfp_army_leader_fra_maxime_weygand = {
 		visible = {
@@ -176,6 +14,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_maxime_weygand #Check if country has character
+			FRA_maxime_weygand = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_maxime_weygand } #Check if Maxime Weygand is currently puppet leader
 		}
 		complete_effect = {
@@ -237,6 +76,7 @@ pfp_puppet_management = {
 			}
 			
 			has_character = FRA_alphonse_georges #Check if country has character
+			FRA_alphonse_georges = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_alphonse_georges } #Check if Alphonse Georges is already a leader
 		}
 		complete_effect = {
@@ -298,6 +138,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_maurice_gamelin #Check if country has character
+			FRA_maurice_gamelin = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_maurice_gamelin } #Check if Maurice Gamelin is currently puppet leader
 		}
 		complete_effect = {
@@ -344,7 +185,7 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Antoine-Marie-Benoit Besson
+	#Antoine-Marie-Benoît Besson
 	pfp_army_leader_fra_antoinemariebenoit_besson = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
@@ -359,12 +200,13 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_antoinemariebenoit_besson #Check if country has character
-			NOT = { has_global_flag = pfp_fra_antoinemariebenoit_besson } #Check if Antoine-Marie-Benoit Besson is currently puppet leader
+			FRA_antoinemariebenoit_besson = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_antoinemariebenoit_besson } #Check if Antoine-Marie-Benoît Besson is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Antoine-Marie-Benoit Besson
+				#Antoine-Marie-Benoît Besson
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -373,28 +215,28 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Antoine-Marie-Benoit Besson"
+						name = "Antoine-Marie-Benoît Besson"
 						desc = ""
 						picture = GFX_portrait_FRA_antoinemariebenoit_besson
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Antoine-Marie-Benoit Besson"
+						name = "Antoine-Marie-Benoît Besson"
 						desc = ""
 						picture = GFX_portrait_FRA_antoinemariebenoit_besson
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Antoine-Marie-Benoit Besson"
+						name = "Antoine-Marie-Benoît Besson"
 						desc = ""
 						picture = GFX_portrait_FRA_antoinemariebenoit_besson
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Antoine-Marie-Benoit Besson"
+						name = "Antoine-Marie-Benoît Besson"
 						desc = ""
 						picture = GFX_portrait_FRA_antoinemariebenoit_besson
 						ideology = fascism_ideology
@@ -420,6 +262,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_jean_de_lattre_de_tassigny #Check if country has character
+			FRA_jean_de_lattre_de_tassigny = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_jean_de_lattre_de_tassigny } #Check if Jean de Lattre de Tassigny is currently puppet leader
 		}
 		complete_effect = {
@@ -481,6 +324,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_alphonse_juin #Check if country has character
+			FRA_alphonse_juin = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_alphonse_juin } #Check if Alphonese Juin is currently puppet leader
 		}
 		complete_effect = {
@@ -542,6 +386,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_charles_de_gaulle #Check if country has character
+			FRA_charles_de_gaulle = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_charles_de_gaulle } #Check if Charles de Gaulle is currently puppet leader
 		}
 		complete_effect = {
@@ -603,6 +448,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_philippe_leclerc #Check if country has character
+			FRA_philippe_leclerc = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_philippe_leclerc } #Check if Philippe Leclerc is currently puppet leader
 		}
 		complete_effect = {
@@ -664,6 +510,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_henri_giraud #Check if country has character
+			FRA_henri_giraud = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_henri_giraud } #Check if Henri Giraud is currently puppet leader
 		}
 		complete_effect = {
@@ -725,6 +572,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_charles_huntziger #Check if country has character
+			FRA_charles_huntziger = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_charles_huntziger } #Check if Charles Huntziger is currently puppet leader
 		}
 		complete_effect = {
@@ -771,7 +619,7 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Rene Olry
+	#René Olry
 	pfp_army_leader_fra_rene_olry = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
@@ -786,12 +634,13 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_rene_olry #Check if country has character
-			NOT = { has_global_flag = pfp_fra_rene_olry } #Check if Rene Olry is currently puppet leader
+			FRA_rene_olry = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_rene_olry } #Check if René Olry is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Rene Olry
+				#René Olry
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -800,28 +649,28 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Rene Olry"
+						name = "René Olry"
 						desc = ""
 						picture = GFX_portrait_FRA_rene_olry
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Rene Olry"
+						name = "René Olry"
 						desc = ""
 						picture = GFX_portrait_FRA_rene_olry
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Rene Olry"
+						name = "René Olry"
 						desc = ""
 						picture = GFX_portrait_FRA_rene_olry
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Rene Olry"
+						name = "René Olry"
 						desc = ""
 						picture = GFX_portrait_FRA_rene_olry
 						ideology = fascism_ideology
@@ -847,6 +696,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_gastonhenri_billotte #Check if country has character
+			FRA_gastonhenri_billotte = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_gastonhenri_billotte } #Check if Gaston-Henri Billotte is currently puppet leader
 		}
 		complete_effect = {
@@ -908,6 +758,7 @@ pfp_puppet_management = {
 			}
 
 			has_character = FRA_henry_freydenberg #Check if country has character
+			FRA_henry_freydenberg = { is_army_leader = yes } #Check if currently General/Field Marshal
 			NOT = { has_global_flag = pfp_fra_henry_freydenberg } #Check if Henry Freydenberg is currently puppet leader
 		}
 		complete_effect = {

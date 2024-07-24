@@ -15,28 +15,28 @@ pfp_set_generic_portrait = {
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_british_portrait.dds"
+                    picture = GFX_portrait_PFP_british_portrait
                     ideology = marxism
                 }
 
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_british_portrait.dds"
+                    picture = GFX_portrait_PFP_british_portrait
                     ideology = conservatism
                 }
 
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_british_portrait.dds"
+                    picture = GFX_portrait_PFP_british_portrait
                     ideology = centrism
                 }
 
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_british_portrait.dds"
+                    picture = GFX_portrait_PFP_british_portrait
                     ideology = fascism_ideology
                 }
             }
@@ -56,28 +56,28 @@ pfp_set_generic_portrait = {
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
+                    picture = GFX_portrait_PFP_french_portrait
                     ideology = marxism
                 }
 
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
+                    picture = GFX_portrait_PFP_french_portrait
                     ideology = conservatism
                 }
 
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
+                    picture = GFX_portrait_PFP_french_portrait
                     ideology = centrism
                 }
 
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_french_portrait.dds"
+                    picture = GFX_portrait_PFP_french_portrait
                     ideology = fascism_ideology
                 }
             }
@@ -97,28 +97,28 @@ pfp_set_generic_portrait = {
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+                    picture = GFX_portrait_PFP_german_portrait
                     ideology = marxism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+                    picture = GFX_portrait_PFP_german_portrait
                     ideology = conservatism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+                    picture = GFX_portrait_PFP_german_portrait
                     ideology = centrism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_german_portrait.dds"
+                    picture = GFX_portrait_PFP_german_portrait
                     ideology = fascism_ideology
                 }
             }
@@ -138,28 +138,28 @@ pfp_set_generic_portrait = {
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+                    picture = GFX_portrait_PFP_italian_portrait
                     ideology = marxism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+                    picture = GFX_portrait_PFP_italian_portrait
                     ideology = conservatism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+                    picture = GFX_portrait_PFP_italian_portrait
                     ideology = centrism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_italian_portrait.dds"
+                    picture = GFX_portrait_PFP_italian_portrait
                     ideology = fascism_ideology
                 }
             }
@@ -178,28 +178,28 @@ pfp_set_generic_portrait = {
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+                    picture = GFX_portrait_PFP_japanese_portrait
                     ideology = marxism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+                    picture = GFX_portrait_PFP_japanese_portrait
                     ideology = conservatism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+                    picture = GFX_portrait_PFP_japanese_portrait
                     ideology = centrism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_japanese_portrait.dds"
+                    picture = GFX_portrait_PFP_japanese_portrait
                     ideology = fascism_ideology
                 }
             }
@@ -219,28 +219,28 @@ pfp_set_generic_portrait = {
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+                    picture = GFX_portrait_PFP_soviet_portrait
                     ideology = marxism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+                    picture = GFX_portrait_PFP_soviet_portrait
                     ideology = conservatism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+                    picture = GFX_portrait_PFP_soviet_portrait
                     ideology = centrism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
+                    picture = GFX_portrait_PFP_soviet_portrait
                     ideology = fascism_ideology
                 }
             }
@@ -260,28 +260,28 @@ pfp_set_generic_portrait = {
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
+                    picture = GFX_portrait_PFP_american_portrait
                     ideology = marxism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
+                    picture = GFX_portrait_PFP_american_portrait
                     ideology = conservatism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
+                    picture = GFX_portrait_PFP_american_portrait
                     ideology = centrism
                 }
             
                 create_country_leader = {
                     name = "Military Junta"
                     desc = ""
-                    picture = "gfx/leaders/PFP/pfp_american_portrait.dds"
+                    picture = GFX_portrait_PFP_american_portrait
                     ideology = fascism_ideology
                 }
             }
