@@ -167,6 +167,7 @@ pfp_set_generic_portrait = {
         else_if = { 
             limit = {
                 original_tag = JAP #Check if overlord is Japan
+                var:pfp_portrait_tag = { is_subject = yes } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
@@ -288,7 +289,7 @@ pfp_set_generic_portrait = {
         }
         else_if = { 
             limit = { 
-                original_tag = CHI #Check if overlord is Chinese
+                original_tag = CHI #Check if overlord is China
                 var:pfp_portrait_tag = { is_subject = yes } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
@@ -329,7 +330,7 @@ pfp_set_generic_portrait = {
         }
         else_if = { 
             limit = { 
-                original_tag = POL #Check if overlord is Polands
+                original_tag = POL #Check if overlord is Poland
                 var:pfp_portrait_tag = { is_subject = yes } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
@@ -378,31 +379,51 @@ pfp_set_generic_portrait = {
                 kill_ideology_leader = fascism
             
                 create_country_leader = {
-                    name = "Military Junta"
+                    name = "Military Junta - C"
                     desc = ""
                     picture = GFX_portrait_PFP_soviet_portrait
                     ideology = marxism
                 }
             
                 create_country_leader = {
-                    name = "Military Junta"
+                    name = "Military Junta - D"
                     desc = ""
                     picture = GFX_portrait_PFP_american_portrait
                     ideology = conservatism
                 }
             
                 create_country_leader = {
-                    name = "Military Junta"
+                    name = "Military Junta - N"
                     desc = ""
                     picture = GFX_portrait_PFP_polish_portrait
                     ideology = centrism
                 }
             
                 create_country_leader = {
-                    name = "Military Junta"
+                    name = "Military Junta - F"
                     desc = ""
                     picture = GFX_portrait_PFP_german_portrait
                     ideology = fascism_ideology
+                }
+
+                set_country_leader_name = {
+                    ideology = communism
+                    name = pfp_default_puppet_leader
+                }
+
+                set_country_leader_name = {
+                    ideology = democratic
+                    name = pfp_default_puppet_leader
+                }
+
+                set_country_leader_name = {
+                    ideology = neutrality
+                    name = pfp_default_puppet_leader
+                }
+
+                set_country_leader_name = {
+                    ideology = fascism
+                    name = pfp_default_puppet_leader
                 }
             }
         }

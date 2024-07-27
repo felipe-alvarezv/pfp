@@ -1471,23 +1471,96 @@ pfp_puppet_management = {
 					}
 					clr_global_flag = pfp_usa_joseph_stilwell
 				}
+				#Bulgaria
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Nikola Mihov" } 
+						}
+					}
+					clr_global_flag = pfp_bul_nikola_mihov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Georgi Popov" } 
+						}
+					}
+					clr_global_flag = pfp_bul_georgi_popov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Nikola Hadzipetkov" } 
+						}
+					}
+					clr_global_flag = pfp_bul_nikola_hadzipetkov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Ivan Markov" } 
+						}
+					}
+					clr_global_flag = pfp_bul_ivan_markov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Georgi Markov" } 
+						}
+					}
+					clr_global_flag = pfp_bul_georgi_markov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Vasil Boydev" } 
+						}
+					}
+					clr_global_flag = pfp_bul_vasil_boydev
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Asen Nikolov" } 
+						}
+					}
+					clr_global_flag = pfp_bul_asen_nikolov
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Nikola Stoychev" } 
+						}
+					}
+					clr_global_flag = pfp_bul_nikola_stoychev
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Damian Velchev" } 
+						}
+					}
+					clr_global_flag = pfp_bul_damian_velchev
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Konstantin Lukash" } 
+						}
+					}
+					clr_global_flag = pfp_bul_konstantin_lukash
+				}
+				else_if = {
+					limit = {
+						var:FROM.pfp_puppet_selection = { #Selected puppet
+							has_country_leader = { name = "Angel Dotsev" } 
+						}
+					}
+					clr_global_flag = pfp_bul_angel_dotsev
+				}
 				#Shared
-#				else_if = {
-#					limit = {
-#						var:FROM.pfp_puppet_selection = { #Selected puppet
-#							has_country_leader = { name = "Oswald Mosley" } 
-#						}
-#					}
-#					clr_global_flag = pfp_shared_oswald_mosley
-#				}
-#				else_if = {
-#					limit = {
-#						var:FROM.pfp_puppet_selection = { #Selected puppet
-#							has_country_leader = { name = "Farouk I" } 
-#						}
-#					}
-#					clr_global_flag = pfp_shared_farouk_i
-#				}
 
 				#Code to assign generic portraits
 				set_temp_variable = { pfp_portrait_tag = var:FROM.pfp_puppet_selection }
