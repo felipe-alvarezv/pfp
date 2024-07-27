@@ -35,6 +35,150 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	pfp_baltic_polesie = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 94 #Polesie
+	
+			94 = { #Polesie
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_polesie_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 94 } #Polesie
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_polesie
+			custom_effect_tooltip = pfp_baltic_transfer_states_polesie
+			hidden_effect = {
+				#Polesie
+				94 = { add_core_of = P04 }
+				P04 = { transfer_state = 94 }
+				set_global_flag = pfp_baltic_polesie_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_nowogrodek = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 95 #Nowogrodek
+	
+			95 = { #Nowogrodek
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_nowogrodek_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 95 } #Nowogrodek
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_nowogrodek
+			custom_effect_tooltip = pfp_baltic_transfer_states_nowogrodek
+			hidden_effect = {
+				#Nowogrodek
+				95 = { add_core_of = P04 }
+				P04 = { transfer_state = 95 }
+				set_global_flag = pfp_baltic_nowogrodek_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_wilejka = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 96 #Wilejka
+	
+			96 = { #Wilejka
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_wilejka_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 96 } #Wilejka
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_wilejka
+			custom_effect_tooltip = pfp_baltic_transfer_states_wilejka
+			hidden_effect = {
+				#Wilejka
+				96 = { add_core_of = P04 }
+				P04 = { transfer_state = 96 }
+				set_global_flag = pfp_baltic_wilejka_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_bialystok = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 97 #Bialystok
+	
+			97 = { #Bialystok
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_bialystok_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 97 } #Bialystok
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_bialystok
+			custom_effect_tooltip = pfp_baltic_transfer_states_bialystok
+			hidden_effect = {
+				#Bialystok
+				97 = { add_core_of = P04 }
+				P04 = { transfer_state = 97 }
+				set_global_flag = pfp_baltic_bialystok_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	pfp_baltic_memel = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
@@ -103,6 +247,186 @@ pfp_puppet_management = {
 				189 = { add_core_of = P04 }
 				P04 = { transfer_state = 189 }
 				set_global_flag = pfp_baltic_zemaitija_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_mozyr = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 194 #Mozyr
+	
+			194 = { #Mozyr
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_mozyr_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 194 } #Mozyr
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_mozyr
+			custom_effect_tooltip = pfp_baltic_transfer_states_mozyr
+			hidden_effect = {
+				#Mozyr
+				194 = { add_core_of = P04 }
+				P04 = { transfer_state = 194 }
+				set_global_flag = pfp_baltic_mozyr_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_bobruysk = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 204 #Bobruysk
+	
+			204 = { #Bobruysk
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_bobruysk_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 204 } #Bobruysk
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_bobruysk
+			custom_effect_tooltip = pfp_baltic_transfer_states_bobruysk
+			hidden_effect = {
+				#Bobruysk
+				204 = { add_core_of = P04 }
+				P04 = { transfer_state = 204 }
+				set_global_flag = pfp_baltic_bobruysk_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_minsk = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 206 #Minsk
+	
+			206 = { #Minsk
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_minsk_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 206 } #Minsk
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_minsk
+			custom_effect_tooltip = pfp_baltic_transfer_states_minsk
+			hidden_effect = {
+				#Minsk
+				206 = { add_core_of = P04 }
+				P04 = { transfer_state = 206 }
+				set_global_flag = pfp_baltic_minsk_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_vitebsk = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 207 #Vitebsk
+	
+			207 = { #Vitebsk
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_vitebsk_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 207 } #Vitebsk
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_vitebsk
+			custom_effect_tooltip = pfp_baltic_transfer_states_vitebsk
+			hidden_effect = {
+				#Vitebsk
+				207 = { add_core_of = P04 }
+				P04 = { transfer_state = 207 }
+				set_global_flag = pfp_baltic_vitebsk_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_gomel = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 241 #Gomel
+	
+			241 = { #Gomel
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #Baltic
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_gomel_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 241 } #Gomel
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_gomel
+			custom_effect_tooltip = pfp_baltic_transfer_states_gomel
+			hidden_effect = {
+				#Gomel
+				241 = { add_core_of = P04 }
+				P04 = { transfer_state = 241 }
+				set_global_flag = pfp_baltic_gomel_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
