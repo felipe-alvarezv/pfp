@@ -3,3 +3,6 @@
  COUNTRY_autonomy_military_administration:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
  COUNTRY_autonomy_military_administration_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
  COUNTRY_autonomy_military_administration_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
+
+ #Bulgaria Naming
+ P42_BUL_subject:0 "Idel Bulgaria"
