@@ -7,7 +7,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_management_options_leadership
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				NOT = {
 					has_country_leader = { name = "Military Junta" }  
 				}
@@ -1472,22 +1472,22 @@ pfp_puppet_management = {
 					clr_global_flag = pfp_usa_joseph_stilwell
 				}
 				#Shared
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Oswald Mosley" } 
-						}
-					}
-					clr_global_flag = pfp_shared_oswald_mosley
-				}
-				else_if = {
-					limit = {
-						var:FROM.pfp_puppet_selection = { #Selected puppet
-							has_country_leader = { name = "Farouk I" } 
-						}
-					}
-					clr_global_flag = pfp_shared_farouk_i
-				}
+#				else_if = {
+#					limit = {
+#						var:FROM.pfp_puppet_selection = { #Selected puppet
+#							has_country_leader = { name = "Oswald Mosley" } 
+#						}
+#					}
+#					clr_global_flag = pfp_shared_oswald_mosley
+#				}
+#				else_if = {
+#					limit = {
+#						var:FROM.pfp_puppet_selection = { #Selected puppet
+#							has_country_leader = { name = "Farouk I" } 
+#						}
+#					}
+#					clr_global_flag = pfp_shared_farouk_i
+#				}
 
 				#Code to assign generic portraits
 				set_temp_variable = { pfp_portrait_tag = var:FROM.pfp_puppet_selection }

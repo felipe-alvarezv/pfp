@@ -3,7 +3,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P01 = { is_puppet_of = FROM }
+            P01 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -15,7 +15,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P02 = { is_puppet_of = FROM }
+            P02 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -27,7 +27,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P03 = { is_puppet_of = FROM }
+            P03 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -39,7 +39,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P04 = { is_puppet_of = FROM }
+            P04 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -51,7 +51,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P05 = { is_puppet_of = FROM }
+            P05 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -63,7 +63,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P06 = { is_puppet_of = FROM }
+            P06 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -75,7 +75,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P07 = { is_puppet_of = FROM }
+            P07 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -87,7 +87,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P08 = { is_puppet_of = FROM }
+            P08 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -99,7 +99,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P09 = { is_puppet_of = FROM }
+            P09 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -111,7 +111,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P10 = { is_puppet_of = FROM }
+            P10 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -123,7 +123,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P11 = { is_puppet_of = FROM }
+            P11 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -135,7 +135,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P12 = { is_puppet_of = FROM }
+            P12 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -147,7 +147,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P13 = { is_puppet_of = FROM }
+            P13 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -159,7 +159,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P14 = { is_puppet_of = FROM }
+            P14 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -171,7 +171,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P15 = { is_puppet_of = FROM }
+            P15 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -183,7 +183,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P16 = { is_puppet_of = FROM }
+            P16 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -195,7 +195,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P17 = { is_puppet_of = FROM }
+            P17 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -207,7 +207,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P18 = { is_puppet_of = FROM }
+            P18 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -219,7 +219,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P19 = { is_puppet_of = FROM }
+            P19 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -231,7 +231,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P20 = { is_puppet_of = FROM }
+            P20 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -243,7 +243,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P21 = { is_puppet_of = FROM }
+            P21 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -255,7 +255,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P22 = { is_puppet_of = FROM }
+            P22 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -267,7 +267,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P23 = { is_puppet_of = FROM }
+            P23 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -279,7 +279,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P24 = { is_puppet_of = FROM }
+            P24 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -291,7 +291,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P25 = { is_puppet_of = FROM }
+            P25 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -303,7 +303,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P26 = { is_puppet_of = FROM }
+            P26 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -315,7 +315,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P27 = { is_puppet_of = FROM }
+            P27 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -327,7 +327,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P28 = { is_puppet_of = FROM }
+            P28 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -339,7 +339,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P29 = { is_puppet_of = FROM }
+            P29 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -351,7 +351,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P30 = { is_puppet_of = FROM }
+            P30 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -363,7 +363,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P31 = { is_puppet_of = FROM }
+            P31 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -375,7 +375,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P32 = { is_puppet_of = FROM }
+            P32 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -387,7 +387,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P33 = { is_puppet_of = FROM }
+            P33 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -399,7 +399,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P34 = { is_puppet_of = FROM }
+            P34 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -411,7 +411,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P35 = { is_puppet_of = FROM }
+            P35 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -423,7 +423,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P36 = { is_puppet_of = FROM }
+            P36 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -435,7 +435,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P37 = { is_puppet_of = FROM }
+            P37 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -447,7 +447,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P38 = { is_puppet_of = FROM }
+            P38 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -459,7 +459,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P39 = { is_puppet_of = FROM }
+            P39 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -471,7 +471,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P40 = { is_puppet_of = FROM }
+            P40 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -483,7 +483,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P41 = { is_puppet_of = FROM }
+            P41 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -495,7 +495,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P42 = { is_puppet_of = FROM }
+            P42 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -507,7 +507,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P43 = { is_puppet_of = FROM }
+            P43 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -519,7 +519,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P44 = { is_puppet_of = FROM }
+            P44 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -531,7 +531,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P45 = { is_puppet_of = FROM }
+            P45 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -543,7 +543,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P46 = { is_puppet_of = FROM }
+            P46 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -555,7 +555,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P47 = { is_puppet_of = FROM }
+            P47 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -567,7 +567,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P48 = { is_puppet_of = FROM }
+            P48 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -579,7 +579,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P49 = { is_puppet_of = FROM }
+            P49 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -591,7 +591,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P50 = { is_puppet_of = FROM }
+            P50 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -603,7 +603,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P51 = { is_puppet_of = FROM }
+            P51 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -615,7 +615,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P52 = { is_puppet_of = FROM }
+            P52 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -627,7 +627,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P53 = { is_puppet_of = FROM }
+            P53 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -639,7 +639,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P54 = { is_puppet_of = FROM }
+            P54 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -651,7 +651,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P55 = { is_puppet_of = FROM }
+            P55 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -663,7 +663,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P56 = { is_puppet_of = FROM }
+            P56 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -675,7 +675,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P57 = { is_puppet_of = FROM }
+            P57 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc
@@ -687,7 +687,7 @@ pfp_puppet_management = {
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
-            P58 = { is_puppet_of = FROM }
+            P58 = { is_subject_of = FROM }
         }
         complete_effect = {
             custom_effect_tooltip = pfp_puppet_selection_desc

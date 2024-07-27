@@ -1,6 +1,7 @@
 pfp_puppet_management = {
     pfp_puppet_management_view_on = { #Turn on PFP management options
         visible = {
+            num_subjects > 0 #FROM must have at least one subject
             NOT = { has_country_flag = pfp_puppet_management_view }
         }
         complete_effect = {
@@ -10,6 +11,7 @@ pfp_puppet_management = {
     }
     pfp_puppet_management_view_off = { #Turn off PFP management options
         visible = {
+            num_subjects > 0 #FROM must have at least one subject
             NOT = { has_country_flag = pfp_puppet_selected }
             has_country_flag = pfp_puppet_management_view
         }

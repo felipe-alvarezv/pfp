@@ -8,7 +8,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -70,7 +70,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -194,7 +194,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -256,7 +256,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -318,7 +318,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -380,7 +380,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -442,7 +442,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -504,7 +504,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -566,7 +566,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -628,7 +628,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -690,7 +690,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -752,7 +752,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -814,7 +814,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -876,7 +876,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -938,7 +938,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1000,7 +1000,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1062,7 +1062,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1124,7 +1124,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1186,7 +1186,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1248,7 +1248,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1310,7 +1310,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1372,7 +1372,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1434,7 +1434,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1496,7 +1496,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1558,7 +1558,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1620,7 +1620,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1682,7 +1682,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1744,7 +1744,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1806,7 +1806,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" }
 				has_government = FROM #Check to see if puppet has same government as FROM 
 			}
@@ -1868,7 +1868,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1930,7 +1930,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -1992,7 +1992,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -2054,7 +2054,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -2116,7 +2116,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -2178,7 +2178,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
@@ -2240,7 +2240,7 @@ pfp_puppet_management = {
 			original_tag = SOV #Check if country is Soviet Union
 
 			var:FROM.pfp_puppet_selection = {
-				is_puppet_of = FROM #Check if selection is puppet of FROM
+				is_subject_of = FROM #Check if selection is puppet of FROM
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}

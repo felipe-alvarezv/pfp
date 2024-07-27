@@ -14,7 +14,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -51,7 +51,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -88,7 +88,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -125,7 +125,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -162,7 +162,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -199,7 +199,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -236,7 +236,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -273,7 +273,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -310,7 +310,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -347,7 +347,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -384,7 +384,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -421,7 +421,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -458,7 +458,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -495,7 +495,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -532,7 +532,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -569,7 +569,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -606,7 +606,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -643,7 +643,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -680,7 +680,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -717,7 +717,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -754,7 +754,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -791,7 +791,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -828,7 +828,7 @@ pfp_puppet_management = {
 	
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -865,7 +865,7 @@ pfp_puppet_management = {
 
 			P53 = { #Mittelafrika
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}

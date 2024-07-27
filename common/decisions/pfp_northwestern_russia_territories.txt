@@ -14,7 +14,7 @@ pfp_puppet_management = {
 
 			P43 = { #Northwestern Russia
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -50,7 +50,7 @@ pfp_puppet_management = {
 
 			P43 = { #Northwestern Russia
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -87,7 +87,7 @@ pfp_puppet_management = {
 
 			P43 = { #Northwestern Russia
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -123,7 +123,7 @@ pfp_puppet_management = {
 
 			P43 = { #Northwestern Russia
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -159,7 +159,7 @@ pfp_puppet_management = {
 
 			P43 = { #Northwestern Russia
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -195,7 +195,7 @@ pfp_puppet_management = {
 
 			P43 = { #Northwestern Russia
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
@@ -231,7 +231,7 @@ pfp_puppet_management = {
 
 			P43 = { #Northwestern Russia
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}

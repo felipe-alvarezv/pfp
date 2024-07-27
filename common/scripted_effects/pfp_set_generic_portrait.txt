@@ -3,7 +3,7 @@ pfp_set_generic_portrait = {
         if = { 
             limit = { 
                 original_tag = ENG #Check if overlord is United Kingdom
-                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+                var:pfp_portrait_tag = {  is_subject } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
@@ -44,7 +44,7 @@ pfp_set_generic_portrait = {
         else_if = { 
             limit = { 
                 original_tag = FRA #Check if overlord is France
-                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+                var:pfp_portrait_tag = {  is_subject } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
@@ -85,7 +85,7 @@ pfp_set_generic_portrait = {
         else_if = { 
             limit = { 
                 original_tag = GER #Check if overlord is Germany
-                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+                var:pfp_portrait_tag = {  is_subject } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
@@ -126,7 +126,7 @@ pfp_set_generic_portrait = {
         else_if = { 
             limit = { 
                 original_tag = ITA #Check if overlord is Italy
-                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+                var:pfp_portrait_tag = {  is_subject } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
@@ -207,7 +207,7 @@ pfp_set_generic_portrait = {
         else_if = { 
             limit = { 
                 original_tag = SOV #Check if overlord is Soviet Union
-                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+                var:pfp_portrait_tag = {  is_subject } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
@@ -248,7 +248,7 @@ pfp_set_generic_portrait = {
         else_if = { 
             limit = { 
                 original_tag = USA #Check if overlord is United States
-                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+                var:pfp_portrait_tag = {  is_subject } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
@@ -289,7 +289,7 @@ pfp_set_generic_portrait = {
         else_if = { 
             limit = { 
                 original_tag = CHI #Check if overlord is Chinese
-                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+                var:pfp_portrait_tag = {  is_subject } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
@@ -330,7 +330,7 @@ pfp_set_generic_portrait = {
         else_if = { 
             limit = { 
                 original_tag = POL #Check if overlord is Polands
-                var:pfp_portrait_tag = {  has_autonomy_state = autonomy_military_administration } #Check to see if puppet is military administration
+                var:pfp_portrait_tag = {  is_subject } #Check to see if puppet is subject
             }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection

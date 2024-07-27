@@ -14,7 +14,7 @@ pfp_puppet_management = {
 			
 			P31 = { #West Germany
 				OR = {
-					is_puppet_of = FROM
+					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
