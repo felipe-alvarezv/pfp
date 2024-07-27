@@ -37,7 +37,7 @@ autonomy_state = {
 	allowed = {
 		OR = {
 			is_subject = no
-			is_subject
+			has_autonomy_state = autonomy_military_administration
 		}
 	}
 

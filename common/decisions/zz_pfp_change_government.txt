@@ -10,7 +10,6 @@ pfp_puppet_management = {
 			num_subjects > 0 #FROM must have at least one subject
 
 			var:FROM.pfp_puppet_selection = {
-				is_subject #Check to see if puppet is subject
 				is_subject_of = FROM #Check if selection is puppet of FROM
 				NOT = { has_government = FROM } #Check to see if puppet doesn't have same government as FROM
 			}
