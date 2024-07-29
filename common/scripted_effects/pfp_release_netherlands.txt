@@ -1,9 +1,7 @@
 #Scripted effect to release Netherlands (P05)
 pfp_release_netherlands = {
 	hidden_effect = {
-		6 = { add_core_of = P05 } #Vlaanderen
 		7 = { add_core_of = P05 } #Holland
-		34 = { add_core_of = P05 } #Wallonie
 		35 = { add_core_of = P05 } #Brabant
 		36 = { add_core_of = P05 } #Friesland
 

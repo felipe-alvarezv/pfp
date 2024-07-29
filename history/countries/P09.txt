@@ -1,4 +1,4 @@
-#Danube
+#Hungary
 capital = 43 #Northern Hungary
 
 # Research Slots, Stability, War Support, and Ideas

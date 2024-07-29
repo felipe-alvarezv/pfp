@@ -1,4 +1,4 @@
-#South Asia
+#India
 graphical_culture = commonwealth_gfx
 graphical_culture_2d = commonwealth_2d
 color = { 80 165 10 }

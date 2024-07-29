@@ -1,4 +1,4 @@
-#South Asia (Vanilla Indian Names)
+#India (Vanilla Indian Names)
 P37 = {
 	male = {
 		names = {

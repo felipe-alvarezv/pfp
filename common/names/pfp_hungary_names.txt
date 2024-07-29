@@ -1,4 +1,4 @@
-#Danube (Vanilla Hungarian Names)
+#Hungary (Vanilla Hungarian Names)
 P09 = {
 	male = {
 		names = {

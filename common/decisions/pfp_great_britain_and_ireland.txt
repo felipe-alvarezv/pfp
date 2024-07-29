@@ -9,11 +9,6 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Leinster
-			custom_trigger_tooltip = {
-				tooltip = pfp_great_britain_and_ireland_required_states_leinster
-				has_full_control_of_state = 113 #Leinster
-			}
 			#Northern Ireland
 			custom_trigger_tooltip = {
 				tooltip = pfp_great_britain_and_ireland_required_states_northern_ireland
@@ -84,16 +79,6 @@ pfp_category = {
 				tooltip = pfp_great_britain_and_ireland_required_states_lanark
 				has_full_control_of_state = 133 #Lanark
 			}
-			#Connaught
-			custom_trigger_tooltip = {
-				tooltip = pfp_great_britain_and_ireland_required_states_connaught
-				has_full_control_of_state = 134 #Connaught
-			}
-			#Munster
-			custom_trigger_tooltip = {
-				tooltip = pfp_great_britain_and_ireland_required_states_munster
-				has_full_control_of_state = 135 #Munster
-			}
 			#Aberdeenshire
 			custom_trigger_tooltip = {
 				tooltip = pfp_great_britain_and_ireland_required_states_aberdeenshire
@@ -109,16 +94,6 @@ pfp_category = {
 				tooltip = pfp_great_britain_and_ireland_required_states_cumbria
 				has_full_control_of_state = 931 #Cumbria
 			}
-			#Isle of Man
-			custom_trigger_tooltip = {
-				tooltip = pfp_great_britain_and_ireland_required_states_isle_of_man
-				has_full_control_of_state = 932 #Isle of Man
-			}
-			#Shetland Islands
-			custom_trigger_tooltip = {
-				tooltip = pfp_great_britain_and_ireland_required_states_shetland_islands
-				has_full_control_of_state = 933 #Shetland Islands
-			}
 		}
 		visible = {
 			OR = {
@@ -131,8 +106,6 @@ pfp_category = {
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 113 #Leinster
-				state = 119 #Northern Ireland
 				state = 120 #Scottish Highlands
 				state = 121 #Lothian
 				state = 122 #Wales
@@ -146,13 +119,9 @@ pfp_category = {
 				state = 131 #Northumberland
 				state = 132 #Lancashire
 				state = 133 #Lanark
-				state = 134 #Connaught
-				state = 135 #Munster
 				state = 136 #Aberdeenshire
 				state = 338 #Gloucestershire
 				state = 931 #Cumbria
-				state = 932 #Isle of Man
-				state = 933 #Shetland Islands
 			}
 		}
 		icon = generic_military

@@ -1,0 +1,542 @@
+pfp_puppet_management = {
+	pfp_hungary_vojvodina = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 45 #Vojvodina
+
+			45 = { #Vojvodina
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_vojvodina_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 45 } #Vojvodina
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_vojvodina
+			custom_effect_tooltip = pfp_hungary_transfer_states_vojvodina
+			hidden_effect = {
+				#Vojvodina
+				45 = { add_core_of = P09 }
+				P09 = { transfer_state = 45 }
+				set_global_flag = pfp_hungary_vojvodina_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_western_slovakia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 70 #Western Slovakia
+
+			70 = { #Western Slovakia
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_western_slovakia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 70 } #Western Slovakia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_western_slovakia
+			custom_effect_tooltip = pfp_hungary_transfer_states_western_slovakia
+			hidden_effect = {
+				#Western Slovakia
+				70 = { add_core_of = P09 }
+				P09 = { transfer_state = 70 }
+				set_global_flag = pfp_hungary_western_slovakia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_eastern_slovakia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 71 #Eastern Slovakia
+
+			71 = { #Eastern Slovakia
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_eastern_slovakia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 71 } #Eastern Slovakia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_eastern_slovakia
+			custom_effect_tooltip = pfp_hungary_transfer_states_eastern_slovakia
+			hidden_effect = {
+				#Eastern Slovakia
+				71 = { add_core_of = P09 }
+				P09 = { transfer_state = 71 }
+				set_global_flag = pfp_hungary_eastern_slovakia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_carpathian_ruthenia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 73 #Carpathian Ruthenia
+
+			73 = { #Carpathian Ruthenia
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_carpathian_ruthenia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 73 } #Carpathian Ruthenia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_carpathian_ruthenia
+			custom_effect_tooltip = pfp_hungary_transfer_states_carpathian_ruthenia
+			hidden_effect = {
+				#Carpathian Ruthenia
+				73 = { add_core_of = P09 }
+				P09 = { transfer_state = 73 }
+				set_global_flag = pfp_hungary_carpathian_ruthenia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_north_transylvania = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 76 #North Transylvania
+	
+			76 = { #North Transylvania
+				NOT = { is_core_of = FROM }
+			}
+	
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_north_transylvania_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 76 } #North Transylvania
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_north_transylvania
+			custom_effect_tooltip = pfp_hungary_transfer_states_north_transylvania
+			hidden_effect = {
+				#North Transylvania
+				76 = { add_core_of = P09 }
+				P09 = { transfer_state = 76 }
+				set_global_flag = pfp_hungary_north_transylvania_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_banat = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 82 #Banat
+	
+			82 = { #Banat
+				NOT = { is_core_of = FROM }
+			}
+	
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_banat_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 82 } #Banat
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_banat
+			custom_effect_tooltip = pfp_hungary_transfer_states_banat
+			hidden_effect = {
+				#Banat
+				82 = { add_core_of = P09 }
+				P09 = { transfer_state = 82 }
+				set_global_flag = pfp_hungary_banat_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_crisana = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 83 #Crisana
+	
+			83 = { #Crisana
+				NOT = { is_core_of = FROM }
+			}
+	
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_crisana_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 83 } #Crisana
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_crisana
+			custom_effect_tooltip = pfp_hungary_transfer_states_crisana
+			hidden_effect = {
+				#Crisana
+				83 = { add_core_of = P09 }
+				P09 = { transfer_state = 83 }
+				set_global_flag = pfp_hungary_crisana_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_transylvania = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 84 #Transylvania
+	
+			84 = { #Transylvania
+				NOT = { is_core_of = FROM }
+			}
+	
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_transylvania_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 84 } #Transylvania
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_transylvania
+			custom_effect_tooltip = pfp_hungary_transfer_states_transylvania
+			hidden_effect = {
+				#Transylvania
+				84 = { add_core_of = P09 }
+				P09 = { transfer_state = 84 }
+				set_global_flag = pfp_hungary_transylvania_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_dalmatia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 103 #Dalmatia
+
+			103 = { #Dalmatia
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_dalmatia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 103 } #Dalmatia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_dalmatia
+			custom_effect_tooltip = pfp_hungary_transfer_states_dalmatia
+			hidden_effect = {
+				#Dalmatia
+				103 = { add_core_of = P09 }
+				P09 = { transfer_state = 103 }
+				set_global_flag = pfp_hungary_dalmatia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_bosnia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 104 #Bosnia
+
+			104 = { #Bosnia
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_bosnia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 104 } #Bosnia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_bosnia
+			custom_effect_tooltip = pfp_hungary_transfer_states_bosnia
+			hidden_effect = {
+				#Bosnia
+				104 = { add_core_of = P09 }
+				P09 = { transfer_state = 104 }
+				set_global_flag = pfp_hungary_bosnia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_croatia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 109 #Croatia
+
+			109 = { #Croatia
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_croatia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 109 } #Croatia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_croatia
+			custom_effect_tooltip = pfp_hungary_transfer_states_croatia
+			hidden_effect = {
+				#Croatia
+				109 = { add_core_of = P09 }
+				P09 = { transfer_state = 109 }
+				set_global_flag = pfp_hungary_croatia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_zara = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 163 #Zara
+
+			163 = { #Zara
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_zara_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 163 } #Zara
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_zara
+			custom_effect_tooltip = pfp_hungary_transfer_states_zara
+			hidden_effect = {
+				#Zara
+				163 = { add_core_of = P09 }
+				P09 = { transfer_state = 163 }
+				set_global_flag = pfp_hungary_zara_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_southern_slovakia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 664 #Southern Slovakia
+
+			664 = { #Slovakia
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_southern_slovakia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 664 } #Southern Slovakia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_southern_slovakia
+			custom_effect_tooltip = pfp_hungary_transfer_states_southern_slovakia
+			hidden_effect = {
+				#Southern Slovakia
+				664 = { add_core_of = P09 }
+				P09 = { transfer_state = 664 }
+				set_global_flag = pfp_hungary_southern_slovakia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_west_banat = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 764 #West Banat
+
+			764 = { #West Banat
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_west_banat_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 764 } #West Banat
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_west_banat
+			custom_effect_tooltip = pfp_hungary_transfer_states_west_banat
+			hidden_effect = {
+				#West Banat
+				764 = { add_core_of = P09 }
+				P09 = { transfer_state = 764 }
+				set_global_flag = pfp_hungary_west_banat_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_hungary_herzegovina = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P09 }
+			has_global_flag = pfp_hungary_flag
+			has_full_control_of_state = 804 #Herzegovina
+
+			804 = { #Herzegovina
+				NOT = { is_core_of = FROM }
+			}
+
+			P09 = { #Hungary
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_hungary_herzegovina_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 804 } #Herzegovina
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_hungary_coring_states_herzegovina
+			custom_effect_tooltip = pfp_hungary_transfer_states_herzegovina
+			hidden_effect = {
+				#Herzegovina
+				804 = { add_core_of = P09 }
+				P09 = { transfer_state = 804 }
+				set_global_flag = pfp_hungary_herzegovina_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

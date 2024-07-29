@@ -369,8 +369,14 @@ pfp_set_generic_portrait = {
                 }
             }
         }
-        else = { 
-           #Every other case
+        else_if = {
+            #Every other case
+            limit = {
+                var:pfp_portrait_tag = { 
+                    is_subject = yes #Check to see if puppet is subject
+                    NOT = { has_country_leader = { name = "Military Junta" } } #Does not have Military Junta as leader
+                } 
+            }
             var:pfp_portrait_tag = {
                 #Kill the current leaders of selection
                 kill_ideology_leader = communism

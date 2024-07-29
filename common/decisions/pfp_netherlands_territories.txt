@@ -1,4 +1,40 @@
 pfp_puppet_management = {
+	pfp_netherlands_vlaanderen = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P05 }
+			has_global_flag = pfp_netherlands_flag
+			has_full_control_of_state = 6 #Vlaanderen
+	
+			6 = { #Vlaanderen
+				NOT = { is_core_of = FROM }
+			}
+	
+			P05 = { #Netherlands
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_netherlands_vlaanderen_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 6 } #Vlaanderen
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_netherlands_coring_states_vlaanderen
+			custom_effect_tooltip = pfp_netherlands_transfer_states_vlaanderen
+			hidden_effect = {
+				#Vlaanderen
+				6 = { add_core_of = P05 }
+				P05 = { transfer_state = 6 }
+				set_global_flag = pfp_netherlands_vlaanderen_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	pfp_netherlands_luxemburg = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
@@ -31,6 +67,42 @@ pfp_puppet_management = {
 				8 = { add_core_of = P05 }
 				P05 = { transfer_state = 8 }
 				set_global_flag = pfp_netherlands_luxemburg_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_netherlands_wallonie = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P05 }
+			has_global_flag = pfp_netherlands_flag
+			has_full_control_of_state = 34 #Wallonie
+	
+			34 = { #Wallonie
+				NOT = { is_core_of = FROM }
+			}
+	
+			P05 = { #Netherlands
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_netherlands_wallonie_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 34 } #Wallonie
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_netherlands_coring_states_wallonie
+			custom_effect_tooltip = pfp_netherlands_transfer_states_wallonie
+			hidden_effect = {
+				#Wallonie
+				34 = { add_core_of = P05 }
+				P05 = { transfer_state = 34 }
+				set_global_flag = pfp_netherlands_wallonie_flag
 			}
 		}
 		ai_will_do = { factor = 0 }

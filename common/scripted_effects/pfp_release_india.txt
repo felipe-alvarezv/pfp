@@ -1,7 +1,7 @@
-#Scripted effect to release South Asia (P37)
-pfp_release_south_asia = {
+#Scripted effect to release India (P37)
+pfp_release_india = {
 	hidden_effect = {
-		#Add cores to South Asian territory
+		#Add cores to Indian territory
 		423 = { add_core_of = P37 } #Madurai
 		424 = { add_core_of = P37 } #Madras
 		425 = { add_core_of = P37 } #Mysore
@@ -14,11 +14,6 @@ pfp_release_south_asia = {
 		437 = { add_core_of = P37 } #Indore
 		438 = { add_core_of = P37 } #Lucknow
 		439 = { add_core_of = P37 } #Delhi
-		440 = { add_core_of = P37 } #Punjab
-		442 = { add_core_of = P37 } #Peshawar
-		443 = { add_core_of = P37 } #Sind
-		444 = { add_core_of = P37 } #Baluchistan
-		445 = { add_core_of = P37 } #Quetta
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
@@ -30,7 +25,7 @@ pfp_release_south_asia = {
 		P37 = { transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
-		set_global_flag = pfp_south_asia_flag
+		set_global_flag = pfp_india_flag
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P37 }

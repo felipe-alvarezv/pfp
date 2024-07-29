@@ -95,7 +95,7 @@ pfp_puppet_management = {
             set_variable = { pfp_puppet_selection = P08 }
         }
     }
-    pfp_puppet_selection_danube = { #Danube
+    pfp_puppet_selection_hungary = { #Hungary
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
@@ -431,7 +431,7 @@ pfp_puppet_management = {
             set_variable = { pfp_puppet_selection = P36 }
         }
     }
-    pfp_puppet_selection_south_asia = { #South Asia
+    pfp_puppet_selection_india = { #India
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }

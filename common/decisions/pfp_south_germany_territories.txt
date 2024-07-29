@@ -156,7 +156,7 @@ pfp_puppet_management = {
 				NOT = { is_core_of = FROM }
 			}
 
-			P25 = { #South Asia
+			P25 = { #India
 				OR = {
 					is_subject_of = FROM
 					is_in_faction_with = FROM
