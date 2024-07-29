@@ -1,5 +1,5 @@
 P01 = "countries/P01.txt" #Colombia
-P02 = "countries/P02.txt" #Great Britain and Ireland
+P02 = "countries/P02.txt" #Great Britain
 P03 = "countries/P03.txt" #Arabia
 P04 = "countries/P04.txt" #Baltic
 P05 = "countries/P05.txt" #Netherlands

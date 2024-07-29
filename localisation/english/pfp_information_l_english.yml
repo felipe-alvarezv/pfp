@@ -14,7 +14,7 @@ l_english:
 
  #Puppet Selection
  pfp_puppet_selection_colombia:0 "Colombia"
- pfp_puppet_selection_great_britain_and_ireland:0 "Great Britain and Ireland"
+ pfp_puppet_selection_great_britain:0 "Great Britain"
  pfp_puppet_selection_arabia:0 "Arabia"
  pfp_puppet_selection_baltic:0 "Baltic"
  pfp_puppet_selection_netherlands:0 "Netherlands"

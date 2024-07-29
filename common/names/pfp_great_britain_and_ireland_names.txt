@@ -1,4 +1,4 @@
-#Great Britain and Ireland (Vanilla English Names)
+#Great Britain (Vanilla English Names)
 P02 = {
 	male = {
 		names = {

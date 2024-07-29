@@ -5,7 +5,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
-			has_global_flag = pfp_great_britain_and_ireland_flag
+			has_global_flag = pfp_great_britain_flag
 			has_full_control_of_state = 113 #Leinster
 	
 			113 = { #Leinster
@@ -41,7 +41,7 @@ pfp_puppet_management = {
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
-			has_global_flag = pfp_great_britain_and_ireland_flag
+			has_global_flag = pfp_great_britain_flag
 			has_full_control_of_state = 119 #Northern Ireland
 
 			119 = { #Northern Ireland
@@ -77,7 +77,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
-			has_global_flag = pfp_great_britain_and_ireland_flag
+			has_global_flag = pfp_great_britain_flag
 			has_full_control_of_state = 134 #Connaught
 	
 			134 = { #Connaught
@@ -113,7 +113,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
-			has_global_flag = pfp_great_britain_and_ireland_flag
+			has_global_flag = pfp_great_britain_flag
 			has_full_control_of_state = 135 #Munster
 	
 			135 = { #Munster
@@ -149,7 +149,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
-			has_global_flag = pfp_great_britain_and_ireland_flag
+			has_global_flag = pfp_great_britain_flag
 			has_full_control_of_state = 932 #Isle of Man
 	
 			932 = { #Isle of Man
@@ -185,7 +185,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
-			has_global_flag = pfp_great_britain_and_ireland_flag
+			has_global_flag = pfp_great_britain_flag
 			has_full_control_of_state = 933 #Shetland Islands
 	
 			933 = { #Shetland Islands

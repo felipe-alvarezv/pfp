@@ -11,7 +11,7 @@ pfp_puppet_management = {
             set_variable = { pfp_puppet_selection = P01 }
         }
     }
-    pfp_puppet_selection_great_britain_and_ireland = { #Great Britain and Ireland
+    pfp_puppet_selection_great_britain = { #Great Britain
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
