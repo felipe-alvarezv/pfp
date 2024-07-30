@@ -72,6 +72,7 @@ l_english:
  pfp_puppet_selection_brazil:0 "Brazil"
  pfp_puppet_selection_mexico:0 "Mexico"
  pfp_puppet_selection_czechia:0 "Czechia"
+ pfp_puppet_selection_belgium:0 "Belgium"
  pfp_puppet_selection_desc:0 "Selects the current option for management."
  pfp_puppet_deselect:0 "§RDeselect Puppet§!"
  pfp_puppet_deselect_desc:0 "Deselect the current puppet."

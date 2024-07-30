@@ -1,7 +1,7 @@
 #Scripted effect to release Czechia (P59)
 pfp_release_czechia = {
 	hidden_effect = {
-		#Add cores to Czechia territory
+		#Add cores to Czech territory
 		9 = { add_core_of = P59 } #Bohemia
 		75 = { add_core_of = P59 } #Moravia
 
