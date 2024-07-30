@@ -3,17 +3,11 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = ENG #United Kingdom
-				original_tag = IRE #Ireland
 				original_tag = P02 #PFP Great Britain
 			}
 		}
 		available = {
 			is_subject = no
-			#Northern Ireland
-			custom_trigger_tooltip = {
-				tooltip = pfp_great_britain_required_states_northern_ireland
-				has_full_control_of_state = 119 #Northern Ireland
-			}
 			#Scottish Highlands
 			custom_trigger_tooltip = {
 				tooltip = pfp_great_britain_required_states_scottish_highlands
