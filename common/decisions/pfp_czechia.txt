@@ -1,0 +1,53 @@
+pfp_category = {
+	pfp_czechia = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = P59 #PFP Czechia
+			}
+		}
+		available = {
+			is_subject = no
+			#Bohemia
+			custom_trigger_tooltip = {
+				tooltip = pfp_czechia_required_states_bohemia
+				has_full_control_of_state = 9 #Bohemia
+			}
+			#Moravia
+			custom_trigger_tooltip = {
+				tooltip = pfp_czechia_required_states_moravia
+				has_full_control_of_state = 75 #Moravia
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 9 #Bohemia
+				has_full_control_of_state = 75 #Moravia
+			}
+			NOT = { has_global_flag = pfp_czechia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 9 #Bohemia
+				state = 75 #Moravia
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_czechia_coring_states
+			custom_effect_tooltip = pfp_czechia_transfer_states
+			custom_effect_tooltip = pfp_czechia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_czechia = yes
+				set_autonomy = { target = P59 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P59 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

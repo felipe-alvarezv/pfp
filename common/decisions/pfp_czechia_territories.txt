@@ -1,0 +1,254 @@
+pfp_puppet_management = {
+	pfp_czechia_sudetenland = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P59 } 
+			has_global_flag = pfp_czechia_flag
+			has_full_control_of_state = 69 #Sudetenland
+
+			69 = { #Sudetenland
+				NOT = { is_core_of = FROM }
+			}
+
+			P59 = { #Czechia
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_czechia_sudetenland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 69 } #Sudetenland
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_czechia_coring_states_sudetenland
+			custom_effect_tooltip = pfp_czechia_transfer_states_sudetenland
+			hidden_effect = {
+				#Sudetenland
+				69 = { add_core_of = P59 }
+				P59 = { transfer_state = 69 }
+				set_global_flag = pfp_czechia_sudetenland_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_czechia_western_slovakia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P59 } 
+			has_global_flag = pfp_czechia_flag
+			has_full_control_of_state = 70 #Western Slovakia
+
+			70 = { #Western Slovakia
+				NOT = { is_core_of = FROM }
+			}
+
+			P59 = { #Czechia
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_czechia_western_slovakia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 70 } #Western Slovakia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_czechia_coring_states_western_slovakia
+			custom_effect_tooltip = pfp_czechia_transfer_states_western_slovakia
+			hidden_effect = {
+				#Western Slovakia
+				70 = { add_core_of = P59 }
+				P59 = { transfer_state = 70 }
+				set_global_flag = pfp_czechia_western_slovakia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_czechia_eastern_slovakia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P59 } 
+			has_global_flag = pfp_czechia_flag
+			has_full_control_of_state = 71 #Eastern Slovakia
+
+			71 = { #Eastern Slovakia
+				NOT = { is_core_of = FROM }
+			}
+
+			P59 = { #Czechia
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_czechia_eastern_slovakia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 71 } #Eastern Slovakia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_czechia_coring_states_eastern_slovakia
+			custom_effect_tooltip = pfp_czechia_transfer_states_eastern_slovakia
+			hidden_effect = {
+				#Eastern Slovakia
+				71 = { add_core_of = P59 }
+				P59 = { transfer_state = 71 }
+				set_global_flag = pfp_czechia_eastern_slovakia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_czechia_zaolzie = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P59 } 
+			has_global_flag = pfp_czechia_flag
+			has_full_control_of_state = 72 #Zaolzie
+
+			72 = { #Zaolzie
+				NOT = { is_core_of = FROM }
+			}
+
+			P59 = { #Czechia
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_czechia_zaolzie_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 72 } #Zaolzie
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_czechia_coring_states_zaolzie
+			custom_effect_tooltip = pfp_czechia_transfer_states_zaolzie
+			hidden_effect = {
+				#Zaolzie
+				72 = { add_core_of = P59 }
+				P59 = { transfer_state = 72 }
+				set_global_flag = pfp_czechia_zaolzie_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_czechia_carpathian_ruthenia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P59 } 
+			has_global_flag = pfp_czechia_flag
+			has_full_control_of_state = 73 #Carpathian Ruthenia
+
+			73 = { #Carpathian Ruthenia
+				NOT = { is_core_of = FROM }
+			}
+
+			P59 = { #Czechia
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_czechia_carpathian_ruthenia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 73 } #Carpathian Ruthenia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_czechia_coring_states_carpathian_ruthenia
+			custom_effect_tooltip = pfp_czechia_transfer_states_carpathian_ruthenia
+			hidden_effect = {
+				#Carpathian Ruthenia
+				73 = { add_core_of = P59 }
+				P59 = { transfer_state = 73 }
+				set_global_flag = pfp_czechia_carpathian_ruthenia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_czechia_eastern_sudetenland = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P59 } 
+			has_global_flag = pfp_czechia_flag
+			has_full_control_of_state = 74 #Eastern Sudetenland
+
+			74 = { #Eastern Sudetenland
+				NOT = { is_core_of = FROM }
+			}
+
+			P59 = { #Czechia
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_czechia_eastern_sudetenland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 74 } #Eastern Sudetenland
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_czechia_coring_states_eastern_sudetenland
+			custom_effect_tooltip = pfp_czechia_transfer_states_eastern_sudetenland
+			hidden_effect = {
+				#Eastern Sudetenland
+				74 = { add_core_of = P59 }
+				P59 = { transfer_state = 74 }
+				set_global_flag = pfp_czechia_eastern_sudetenland_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_czechia_southern_slovakia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P59 } 
+			has_global_flag = pfp_czechia_flag
+			has_full_control_of_state = 664 #Southern Slovakia
+
+			664 = { #Southern Slovakia
+				NOT = { is_core_of = FROM }
+			}
+
+			P59 = { #Czechia
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_czechia_southern_slovakia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 664 } #Southern Slovakia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_czechia_coring_states_southern_slovakia
+			custom_effect_tooltip = pfp_czechia_transfer_states_southern_slovakia
+			hidden_effect = {
+				#Southern Slovakia
+				664 = { add_core_of = P59 }
+				P59 = { transfer_state = 664 }
+				set_global_flag = pfp_czechia_southern_slovakia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
