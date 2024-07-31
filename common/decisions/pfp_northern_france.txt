@@ -1,0 +1,74 @@
+pfp_category = {
+	pfp_northern_france = {
+		allowed = {
+			NOT = {
+				original_tag = FRA #France
+				original_tag = P62 #PFP Northern France
+			}
+		}
+		available = {
+			is_subject = no
+			#Ile de France
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_france_required_states_ile_de_france
+				has_full_control_of_state = 16 #Ile de France
+			}
+			#Franche-Comte
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_france_required_states_franche_comte
+				has_full_control_of_state = 17 #Franche-Comte
+			}
+			#Champagne
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_france_required_states_champagne
+				has_full_control_of_state = 18 #Champagne
+			}
+			#Centre
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_france_required_states_centre
+				has_full_control_of_state = 24 #Centre
+			}
+			#Bourgogne
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_france_required_states_bourgogne
+				has_full_control_of_state = 27 #Bourgogne
+			}
+			#Picardy
+			custom_trigger_tooltip = {
+				tooltip = pfp_northern_france_required_states_picardy
+				has_full_control_of_state = 785 #Picardy
+			}
+		}
+		visible = {
+			has_full_control_of_state = 16 #Ile de France
+			NOT = { has_global_flag = pfp_northern_france_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 16 #Ile de France
+				state = 17 #Franche-Comte
+				state = 18 #Champagne
+				state = 24 #Centre
+				state = 27 #Bourgogne
+				state = 785 #Picardy
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_northern_france_coring_states
+			custom_effect_tooltip = pfp_northern_france_transfer_states
+			custom_effect_tooltip = pfp_northern_france_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_northern_france = yes
+				set_autonomy = { target = P62 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P62 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

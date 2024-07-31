@@ -59,3 +59,5 @@ P58 = "countries/P58.txt" #Mexico
 P59 = "countries/P59.txt" #Czechia
 P60 = "countries/P60.txt" #Belgium
 P61 = "countries/P61.txt" #Denmark
+P62 = "countries/P62.txt" #Northern France
+P63 = "countries/P63.txt" #Southern France

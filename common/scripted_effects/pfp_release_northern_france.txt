@@ -1,0 +1,28 @@
+#Scripted effect to release Northern France (P62)
+pfp_release_northern_france = {
+	hidden_effect = {
+		#Add cores to Northernn France
+		16 = { add_core_of = P62 } #Ile de France
+		17 = { add_core_of = P62 } #Franche-Comte
+		18 = { add_core_of = P62 } #Champagne
+		24 = { add_core_of = P62 } #Centre
+		27 = { add_core_of = P62 } #Bourgogne
+		785 = { add_core_of = P62 } #Picardy
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P62 }
+			transfer_state_to = P62
+		}
+
+		#Transfer all technology to formable puppet
+		P62 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_northern_france_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P62 }
+		news_event = { id = pfp_news.01 }
+	}
+}
