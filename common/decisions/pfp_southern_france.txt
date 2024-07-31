@@ -1,0 +1,74 @@
+pfp_category = {
+	pfp_southern_france = {
+		allowed = {
+			NOT = {
+				original_tag = FRA #France
+				original_tag = P63 #PFP Southern France
+			}
+		}
+		available = {
+			is_subject = no
+			#Rhone
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_france_required_states_rhone
+				has_full_control_of_state = 20 #Rhone
+			}
+			#Languedoc
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_france_required_states_languedoc
+				has_full_control_of_state = 22 #Languedoc
+			}
+			#Limousin
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_france_required_states_limousin
+				has_full_control_of_state = 25 #Limousin
+			}
+			#Auvergne
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_france_required_states_auvergne
+				has_full_control_of_state = 26 #Auvergne
+			}
+			#Midi Pyrenees
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_france_required_states_midi_pyrenees
+				has_full_control_of_state = 31 #Midi Pyrenees
+			}
+			#Centre-Sud
+			custom_trigger_tooltip = {
+				tooltip = pfp_southern_france_required_states_centre_sud
+				has_full_control_of_state = 33 #Centre-Sud
+			}
+		}
+		visible = {
+			has_full_control_of_state = 26 #Auvergne
+			NOT = { has_global_flag = pfp_southern_france_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 20 #Rhone
+				state = 22 #Languedoc
+				state = 25 #Limousin
+				state = 26 #Auvergne
+				state = 31 #Midi Pyrenees
+				state = 33 #Centre-Sud
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_southern_france_coring_states
+			custom_effect_tooltip = pfp_southern_france_transfer_states
+			custom_effect_tooltip = pfp_southern_france_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_southern_france = yes
+				set_autonomy = { target = P63 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P63 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

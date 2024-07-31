@@ -1,0 +1,28 @@
+#Scripted effect to release Southern France (P63)
+pfp_release_southern_france = {
+	hidden_effect = {
+		#Add cores to Southernn France
+		20 = { add_core_of = P63 } #Rhone
+		22 = { add_core_of = P63 } #Languedoc
+		25 = { add_core_of = P63 } #Limousin
+		26 = { add_core_of = P63 } #Auvergne
+		31 = { add_core_of = P63 } #Midi Pyrenees
+		33 = { add_core_of = P63 } #Centre-Sud
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P63 }
+			transfer_state_to = P63
+		}
+
+		#Transfer all technology to formable puppet
+		P63 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_southern_france_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P63 }
+		news_event = { id = pfp_news.01 }
+	}
+}
