@@ -1,0 +1,95 @@
+pfp_category = {
+	pfp_ukraine = {
+		allowed = {
+			NOT = {
+				original_tag = UKR #Ukraine
+				original_tag = P66 #PFP Ukraine
+			}
+		}
+		available = {
+			is_subject = no
+			#Chernigov
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_chernigov
+				has_full_control_of_state = 193 #Chernigov
+			}
+			#Kherson
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_kherson
+				has_full_control_of_state = 196 #Kherson
+			}
+			#Mykolaiv
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_mykolaiv
+				has_full_control_of_state = 197 #Mykolaiv
+			}
+			#Zaporozhe
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_zaporozhe
+				has_full_control_of_state = 200 #Zaporozhe
+			}
+			#Zhytomyr
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_zhytomyr
+				has_full_control_of_state = 201 #Zhytomyr
+			}
+			#Kiev
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_kiev
+				has_full_control_of_state = 202 #Kiev
+			}
+			#Cherkasy
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_cherkasy
+				has_full_control_of_state = 203 #Cherkasy
+			}
+			#Dnipropetrovsk
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_dnipropetrovsk
+				has_full_control_of_state = 226 #Dnipropetrovsk
+			}
+			#Poltava
+			custom_trigger_tooltip = {
+				tooltip = pfp_ukraine_required_states_poltava
+				has_full_control_of_state = 259 #Poltava
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 202 #Kiev
+				has_full_control_of_state = 226 #Dnipropetrovsk
+			}
+			NOT = { has_global_flag = pfp_ukraine_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 193 #Chernigov
+				state = 196 #Kherson
+				state = 197 #Mykolaiv
+				state = 200 #Zaporozhe
+				state = 201 #Zhytomyr
+				state = 202 #Kiev
+				state = 203 #Cherkasy
+				state = 226 #Dnipropetrovsk
+				state = 259 #Poltava
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_ukraine_coring_states
+			custom_effect_tooltip = pfp_ukraine_transfer_states
+			custom_effect_tooltip = pfp_ukraine_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_ukraine = yes
+				set_autonomy = { target = P66 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P66 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
