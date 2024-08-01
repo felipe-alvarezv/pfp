@@ -24,7 +24,7 @@ l_english:
  pfp_southern_france_required_states_limousin:0 "Controls §YLimousin§!."
  pfp_southern_france_required_states_auvergne:0 "Controls §YAuvergne§!."
  pfp_southern_france_required_states_midi_pyrenees:0 "Controls §YMidi Pyrenees§!."
- pfp_southern_france_required_states_centre_sud:0 "Controls §YCenttre-Sud§!."
+ pfp_southern_france_required_states_centre_sud:0 "Controls §YCentre-Sud§!."
  pfp_southern_france_coring_states:0 "§YSouthern France§! gains cores on all listed states.\n"
  pfp_southern_france_transfer_states:0 "§YSouthern France§! becomes owner and controller of all listed states.\n"
  pfp_southern_france_puppet:0 "§YSouthern France§! becomes a puppet of §Y[Root.GetName]§!.\n"
