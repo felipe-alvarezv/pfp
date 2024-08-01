@@ -64,3 +64,4 @@ P63 = "countries/P63.txt" #Southern France
 P64 = "countries/P64.txt" #French Alps
 P65 = "countries/P65.txt" #Norway
 P66 = "countries/P66.txt" #Ukraine
+P67 = "countries/P67.txt" #Levant

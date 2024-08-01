@@ -791,6 +791,18 @@ pfp_puppet_management = {
             set_variable = { pfp_puppet_selection = P66 }
         }
     }
+    pfp_puppet_selection_levant = { #Levant
+        visible = {
+            has_country_flag = pfp_puppet_management_view
+            NOT = { has_country_flag = pfp_puppet_selected }
+            P67 = { is_subject_of = FROM }
+        }
+        complete_effect = {
+            custom_effect_tooltip = pfp_puppet_selection_desc
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P67 }
+        }
+    }
     pfp_puppet_deselect = { #Deselect current puppet
         visible = {
             has_country_flag = pfp_puppet_management_view
