@@ -1,7 +1,7 @@
 #Scripted effect to release Southern France (P63)
 pfp_release_southern_france = {
 	hidden_effect = {
-		#Add cores to Southernn France
+		#Add cores to Southern France
 		20 = { add_core_of = P63 } #Rhone
 		22 = { add_core_of = P63 } #Languedoc
 		25 = { add_core_of = P63 } #Limousin
