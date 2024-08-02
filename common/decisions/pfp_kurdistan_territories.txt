@@ -1,4 +1,40 @@
 pfp_puppet_management = {
+	pfp_kurdistan_baghdad = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P70 } 
+			has_global_flag = pfp_kurdistan_flag
+			has_full_control_of_state = 291 #Baghdad
+	
+			291 = { #Baghdad
+				NOT = { is_core_of = FROM }
+			}
+	
+			P70 = { #Kurdistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_kurdistan_baghdad_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 291 } #Baghdad
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_kurdistan_coring_states_baghdad
+			custom_effect_tooltip = pfp_kurdistan_transfer_states_baghdad
+			hidden_effect = {
+				#Baghdad
+				291 = { add_core_of = P70 }
+				P70 = { transfer_state = 291 }
+				set_global_flag = pfp_kurdistan_baghdad_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	pfp_kurdistan_malatya = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
@@ -150,9 +186,9 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P70 } 
 			has_global_flag = pfp_kurdistan_flag
-			has_full_control_of_state = 676 #Deir-Az-Zur
+			has_full_control_of_state = 680 #Deir-Az-Zur
 	
-			676 = { #Deir-Az-Zur
+			680 = { #Deir-Az-Zur
 				NOT = { is_core_of = FROM }
 			}
 	
@@ -165,15 +201,15 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_kurdistan_deir_az_zur_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { state = 676 } #Deir-Az-Zur
+			highlight_state_targets = { state = 680 } #Deir-Az-Zur
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_kurdistan_coring_states_deir_az_zur
 			custom_effect_tooltip = pfp_kurdistan_transfer_states_deir_az_zur
 			hidden_effect = {
 				#Deir-Az-Zur
-				676 = { add_core_of = P70 }
-				P70 = { transfer_state = 676 }
+				680 = { add_core_of = P70 }
+				P70 = { transfer_state = 680 }
 				set_global_flag = pfp_kurdistan_deir_az_zur_flag
 			}
 		}
