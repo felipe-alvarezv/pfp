@@ -1,0 +1,60 @@
+pfp_category = {
+	pfp_kurdistan = {
+		allowed = {
+			NOT = {
+				original_tag = TUR #Turkey
+				original_tag = P70 #PFP Kurdistan
+			}
+		}
+		available = {
+			is_subject = no
+			#Diyarbakir
+			custom_trigger_tooltip = {
+				tooltip = pfp_kurdistan_required_states_diyarbakir
+				has_full_control_of_state = 350 #Diyarbakir
+			}
+			#Hakkari
+			custom_trigger_tooltip = {
+				tooltip = pfp_kurdistan_required_states_hakkari
+				has_full_control_of_state = 352 #Hakkari
+			}
+			#Tunceli
+			custom_trigger_tooltip = {
+				tooltip = pfp_kurdistan_required_states_tunceli
+				has_full_control_of_state = 353 #Tunceli
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 350 #Diyarbakir
+				has_full_control_of_state = 352 #Hakkari
+				has_full_control_of_state = 353 #Tunceli
+			}
+			NOT = { has_global_flag = pfp_kurdistan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 350 #Diyarbakir
+				state = 352 #Hakkari
+				state = 353 #Tunceli
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_kurdistan_coring_states
+			custom_effect_tooltip = pfp_kurdistan_transfer_states
+			custom_effect_tooltip = pfp_kurdistan_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_kurdistan = yes
+				set_autonomy = { target = P70 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P70 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -1,0 +1,25 @@
+#Scripted effect to release Kurdistan (P70)
+pfp_release_kurdistan = {
+	hidden_effect = {
+		#Add cores to Kurdistan
+		350 = { add_core_of = P70 } #Diyarbakir
+		352 = { add_core_of = P70 } #Hakkari
+		353 = { add_core_of = P70 } #Tunceli
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P70 }
+			transfer_state_to = P70
+		}
+
+		#Transfer all technology to formable puppet
+		P70 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_kurdistan_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P70 }
+		news_event = { id = pfp_news.01 }
+	}
+}
