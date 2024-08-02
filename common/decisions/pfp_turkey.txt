@@ -1,0 +1,90 @@
+pfp_category = {
+	pfp_turkey = {
+		allowed = {
+			NOT = {
+				original_tag = TUR #Turkey
+				original_tag = P68 #PFP Turkey
+			}
+		}
+		available = {
+			is_subject = no
+			#Ankara
+			custom_trigger_tooltip = {
+				tooltip = pfp_turkey_required_states_ankara
+				has_full_control_of_state = 49 #Ankara
+			}
+			#Afyon
+			custom_trigger_tooltip = {
+				tooltip = pfp_turkey_required_states_afyon
+				has_full_control_of_state = 343 #Afyon
+			}
+			#Kastamonu
+			custom_trigger_tooltip = {
+				tooltip = pfp_turkey_required_states_kastamonu
+				has_full_control_of_state = 356 #Kastamonu
+			}
+			#Konya
+			custom_trigger_tooltip = {
+				tooltip = pfp_turkey_required_states_konya
+				has_full_control_of_state = 346 #Konya
+			}
+			#Amasya
+			custom_trigger_tooltip = {
+				tooltip = pfp_turkey_required_states_amasya
+				has_full_control_of_state = 798 #Amasya
+			}
+			#Samsun
+			custom_trigger_tooltip = {
+				tooltip = pfp_turkey_required_states_samsun
+				has_full_control_of_state = 355 #Samsun
+			}
+			#Kayseri
+			custom_trigger_tooltip = {
+				tooltip = pfp_turkey_required_states_kayseri
+				has_full_control_of_state = 348 #Kayseri
+			}
+			#Sivas
+			custom_trigger_tooltip = {
+				tooltip = pfp_turkey_required_states_sivas
+				has_full_control_of_state = 349 #Sivas
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 49 #Ankara
+				has_full_control_of_state = 356 #Kastamonu
+				has_full_control_of_state = 798 #Amasya
+			}
+			NOT = { has_global_flag = pfp_turkey_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 49 #Ankara
+				state = 343 #Afyon
+				state = 346 #Konya
+				state = 348 #Kayseri
+				state = 349 #Sivas
+				state = 355 #Samsun
+				state = 356 #Kastamonu
+				state = 798 #Amasya
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states
+			custom_effect_tooltip = pfp_turkey_transfer_states
+			custom_effect_tooltip = pfp_turkey_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_turkey = yes
+				set_autonomy = { target = P68 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P68 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

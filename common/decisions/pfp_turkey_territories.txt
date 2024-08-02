@@ -1,0 +1,614 @@
+pfp_puppet_management = {
+	pfp_turkey_dodecanese = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 164 #Dodecanese
+	
+			164 = { #Dodecanese
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_dodecanese_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 164 } #Dodecanese
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_dodecanese
+			custom_effect_tooltip = pfp_turkey_transfer_states_dodecanese
+			hidden_effect = {
+				#Dodecanese
+				164 = { add_core_of = P68 }
+				P68 = { transfer_state = 164 }
+				set_global_flag = pfp_turkey_dodecanese_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_cyprus = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 183 #Cyprus
+	
+			183 = { #Cyprus
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_cyprus_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 183 } #Cyprus
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_cyprus
+			custom_effect_tooltip = pfp_turkey_transfer_states_cyprus
+			hidden_effect = {
+				#Cyprus
+				183 = { add_core_of = P68 }
+				P68 = { transfer_state = 183 }
+				set_global_flag = pfp_turkey_cyprus_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_aegean_islands = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 187 #Aegean Islands
+	
+			187 = { #Aegean Islands
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_aegean_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 187 } #Aegean Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_aegean_islands
+			custom_effect_tooltip = pfp_turkey_transfer_states_aegean_islands
+			hidden_effect = {
+				#Aegean Islands
+				187 = { add_core_of = P68 }
+				P68 = { transfer_state = 187 }
+				set_global_flag = pfp_turkey_aegean_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_izmir = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 339 #Izmir
+	
+			339 = { #Izmir
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_izmir_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 339 } #Izmir
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_izmir
+			custom_effect_tooltip = pfp_turkey_transfer_states_izmir
+			hidden_effect = {
+				#Izmir
+				339 = { add_core_of = P68 }
+				P68 = { transfer_state = 339 }
+				set_global_flag = pfp_turkey_izmir_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_bursa = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 340 #Bursa
+	
+			340 = { #Bursa
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_bursa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 340 } #Bursa
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_bursa
+			custom_effect_tooltip = pfp_turkey_transfer_states_bursa
+			hidden_effect = {
+				#Bursa
+				340 = { add_core_of = P68 }
+				P68 = { transfer_state = 340 }
+				set_global_flag = pfp_turkey_bursa_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_edirne = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 341 #Edirne
+	
+			341 = { #Edirne
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_edirne_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 341 } #Edirne
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_edirne
+			custom_effect_tooltip = pfp_turkey_transfer_states_edirne
+			hidden_effect = {
+				#Edirne
+				341 = { add_core_of = P68 }
+				P68 = { transfer_state = 341 }
+				set_global_flag = pfp_turkey_edirne_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_antalya = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 342 #Antalya
+	
+			342 = { #Antalya
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_antalya_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 342 } #Antalya
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_antalya
+			custom_effect_tooltip = pfp_turkey_transfer_states_antalya
+			hidden_effect = {
+				#Antalya
+				342 = { add_core_of = P68 }
+				P68 = { transfer_state = 342 }
+				set_global_flag = pfp_turkey_antalya_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_malatya = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 344 #Malatya
+	
+			344 = { #Malatya
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_malatya_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 344 } #Malatya
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_malatya
+			custom_effect_tooltip = pfp_turkey_transfer_states_malatya
+			hidden_effect = {
+				#Malatya
+				344 = { add_core_of = P68 }
+				P68 = { transfer_state = 344 }
+				set_global_flag = pfp_turkey_malatya_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_mersin = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 345 #Mersin
+	
+			345 = { #Mersin
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_mersin_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 345 } #Mersin
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_mersin
+			custom_effect_tooltip = pfp_turkey_transfer_states_mersin
+			hidden_effect = {
+				#Mersin
+				345 = { add_core_of = P68 }
+				P68 = { transfer_state = 345 }
+				set_global_flag = pfp_turkey_mersin_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_izmit = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 347 #Izmit
+	
+			347 = { #Izmit
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_izmit_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 347 } #Izmit
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_izmit
+			custom_effect_tooltip = pfp_turkey_transfer_states_izmit
+			hidden_effect = {
+				#Izmit
+				347 = { add_core_of = P68 }
+				P68 = { transfer_state = 347 }
+				set_global_flag = pfp_turkey_izmit_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_diyarbakir = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 350 #Diyarbakir
+	
+			350 = { #Diyarbakir
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_diyarbakir_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 350 } #Diyarbakir
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_diyarbakir
+			custom_effect_tooltip = pfp_turkey_transfer_states_diyarbakir
+			hidden_effect = {
+				#Diyarbakir
+				350 = { add_core_of = P68 }
+				P68 = { transfer_state = 350 }
+				set_global_flag = pfp_turkey_diyarbakir_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_hakkari = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 352 #Hakkari
+	
+			352 = { #Hakkari
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_hakkari_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 352 } #Hakkari
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_hakkari
+			custom_effect_tooltip = pfp_turkey_transfer_states_hakkari
+			hidden_effect = {
+				#Hakkari
+				352 = { add_core_of = P68 }
+				P68 = { transfer_state = 352 }
+				set_global_flag = pfp_turkey_hakkari_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_tunceli = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 353 #Tunceli
+	
+			353 = { #Tunceli
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_tunceli_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 353 } #Tunceli
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_tunceli
+			custom_effect_tooltip = pfp_turkey_transfer_states_tunceli
+			hidden_effect = {
+				#Tunceli
+				353 = { add_core_of = P68 }
+				P68 = { transfer_state = 353 }
+				set_global_flag = pfp_turkey_tunceli_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_trabzon = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 354 #Trabzon
+	
+			354 = { #Trabzon
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_trabzon_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 354 } #Trabzon
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_trabzon
+			custom_effect_tooltip = pfp_turkey_transfer_states_trabzon
+			hidden_effect = {
+				#Trabzon
+				354 = { add_core_of = P68 }
+				P68 = { transfer_state = 354 }
+				set_global_flag = pfp_turkey_trabzon_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_istanbul = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 797 #Istanbul
+	
+			797 = { #Istanbul
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_istanbul_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 797 } #Istanbul
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_istanbul
+			custom_effect_tooltip = pfp_turkey_transfer_states_istanbul
+			hidden_effect = {
+				#Istanbul
+				797 = { add_core_of = P68 }
+				P68 = { transfer_state = 797 }
+				set_global_flag = pfp_turkey_istanbul_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_hatay = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 799 #Hatay
+	
+			799 = { #Hatay
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_hatay_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 799 } #Hatay
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_hatay
+			custom_effect_tooltip = pfp_turkey_transfer_states_hatay
+			hidden_effect = {
+				#Hatay
+				799 = { add_core_of = P68 }
+				P68 = { transfer_state = 799 }
+				set_global_flag = pfp_turkey_hatay_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_turkey_van = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P68 } 
+			has_global_flag = pfp_turkey_flag
+			has_full_control_of_state = 800 #Van
+	
+			800 = { #Van
+				NOT = { is_core_of = FROM }
+			}
+	
+			P68 = { #Turkey
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_turkey_van_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 800 } #Van
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_turkey_coring_states_van
+			custom_effect_tooltip = pfp_turkey_transfer_states_van
+			hidden_effect = {
+				#Van
+				800 = { add_core_of = P68 }
+				P68 = { transfer_state = 800 }
+				set_global_flag = pfp_turkey_van_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
