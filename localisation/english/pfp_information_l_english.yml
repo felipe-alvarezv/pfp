@@ -81,6 +81,7 @@ l_english:
  pfp_puppet_selection_ukraine:0 "Ukraine"
  pfp_puppet_selection_levant:0 "Levant"
  pfp_puppet_selection_turkey:0 "Turkey"
+ pfp_puppet_selection_iraq:0 "Iraq"
  pfp_puppet_selection_desc:0 "Selects the current option for management."
  pfp_puppet_deselect:0 "§RDeselect Puppet§!"
  pfp_puppet_deselect_desc:0 "Deselect the current puppet."

@@ -1,0 +1,110 @@
+pfp_puppet_management = {
+	pfp_iraq_khuzestan = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P69 } 
+			has_global_flag = pfp_iraq_flag
+			has_full_control_of_state = 413 #Khuzestan
+	
+			413 = { #Khuzestan
+				NOT = { is_core_of = FROM }
+			}
+	
+			P69 = { #Iraq
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iraq_khuzestan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 413 } #Khuzestan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iraq_coring_states_khuzestan
+			custom_effect_tooltip = pfp_iraq_transfer_states_khuzestan
+			hidden_effect = {
+				#Khuzestan
+				413 = { add_core_of = P69 }
+				P69 = { transfer_state = 413 }
+				set_global_flag = pfp_iraq_khuzestan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_iraq_kuwait = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P69 } 
+			has_global_flag = pfp_iraq_flag
+			has_full_control_of_state = 656 #Kuwait
+	
+			656 = { #Kuwait
+				NOT = { is_core_of = FROM }
+			}
+	
+			P69 = { #Iraq
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iraq_kuwait_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 656 } #Kuwait
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iraq_coring_states_kuwait
+			custom_effect_tooltip = pfp_iraq_transfer_states_kuwait
+			hidden_effect = {
+				#Kuwait
+				656 = { add_core_of = P69 }
+				P69 = { transfer_state = 656 }
+				set_global_flag = pfp_iraq_kuwait_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_iraq_mosul = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P69 } 
+			has_global_flag = pfp_iraq_flag
+			has_full_control_of_state = 676 #Mosul
+	
+			676 = { #Mosul
+				NOT = { is_core_of = FROM }
+			}
+	
+			P69 = { #Iraq
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iraq_mosul_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 676 } #Mosul
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iraq_coring_states_mosul
+			custom_effect_tooltip = pfp_iraq_transfer_states_mosul
+			hidden_effect = {
+				#Mosul
+				676 = { add_core_of = P69 }
+				P69 = { transfer_state = 676 }
+				set_global_flag = pfp_iraq_mosul_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
