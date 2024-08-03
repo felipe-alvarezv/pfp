@@ -69,3 +69,4 @@ P68 = "countries/P68.txt" #Turkey
 P69 = "countries/P69.txt" #Iraq
 P70 = "countries/P70.txt" #Kurdistan
 P71 = "countries/P71.txt" #Iran
+P72 = "countries/P72.txt" #Korea

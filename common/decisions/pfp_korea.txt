@@ -1,0 +1,53 @@
+pfp_category = {
+	pfp_korea = {
+		allowed = {
+			NOT = {
+				original_tag = KOR #Korea
+				original_tag = P72 #PFP Korea
+			}
+		}
+		available = {
+			is_subject = no
+			#South Korea
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_south_korea
+				has_full_control_of_state = 525 #South Korea
+			}
+			#North Korea
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_north_korea
+				has_full_control_of_state = 527 #North Korea
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 525 #South Korea
+				has_full_control_of_state = 527 #North Korea
+			}
+			NOT = { has_global_flag = pfp_korea_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 525 #South Korea
+				state = 527 #North Korea
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_korea_coring_states
+			custom_effect_tooltip = pfp_korea_transfer_states
+			custom_effect_tooltip = pfp_korea_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_korea = yes
+				set_autonomy = { target = P72 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P72 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

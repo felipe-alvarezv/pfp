@@ -1,0 +1,24 @@
+#Scripted effect to release Korea (P72)
+pfp_release_korea = {
+	hidden_effect = {
+		#Add cores to Korea
+		525 = { add_core_of = P72 } #South Korea
+		527 = { add_core_of = P72 } #North Korea
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P72 }
+			transfer_state_to = P72
+		}
+
+		#Transfer all technology to formable puppet
+		P72 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_korea_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P72 }
+		news_event = { id = pfp_news.01 }
+	}
+}
