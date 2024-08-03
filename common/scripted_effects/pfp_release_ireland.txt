@@ -4,7 +4,7 @@ pfp_release_ireland = {
 		#Add cores to Ireland
 		113 = { add_core_of = P73 } #Leinster
 		134 = { add_core_of = P73 } #Connaught
-		135= { add_core_of = P73 } #Munster
+		135 = { add_core_of = P73 } #Munster
 
 
 		#Set formable puppet as owner and controller of all its cored states
