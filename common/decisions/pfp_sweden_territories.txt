@@ -6,7 +6,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P74 } 
 			has_global_flag = pfp_sweden_flag
-			has_full_control_of_state = ` #Gotland
+			has_full_control_of_state = 124 #Gotland
 	
 			124 = { #Gotland
 				NOT = { is_core_of = FROM }
@@ -42,7 +42,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P74 } 
 			has_global_flag = pfp_sweden_flag
-			has_full_control_of_state = ` #Aland
+			has_full_control_of_state = 145 #Aland
 	
 			145 = { #Aland
 				NOT = { is_core_of = FROM }
