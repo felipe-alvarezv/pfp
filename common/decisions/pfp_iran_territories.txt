@@ -1,0 +1,146 @@
+pfp_puppet_management = {
+	pfp_iran_khuzestan = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P71 } 
+			has_global_flag = pfp_iran_flag
+			has_full_control_of_state = 413 #Khuzestan
+	
+			413 = { #Khuzestan
+				NOT = { is_core_of = FROM }
+			}
+	
+			P71 = { #Iran
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iran_khuzestan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 413 } #Khuzestan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iran_coring_states_khuzestan
+			custom_effect_tooltip = pfp_iran_transfer_states_khuzestan
+			hidden_effect = {
+				#Khuzestan
+				413 = { add_core_of = P71 }
+				P71 = { transfer_state = 413 }
+				set_global_flag = pfp_iran_khuzestan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_iran_tibriz = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P71 } 
+			has_global_flag = pfp_iran_flag
+			has_full_control_of_state = 419 #Tibriz
+	
+			419 = { #Tibriz
+				NOT = { is_core_of = FROM }
+			}
+	
+			P71 = { #Iran
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iran_tibriz_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 419 } #Tibriz
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iran_coring_states_tibriz
+			custom_effect_tooltip = pfp_iran_transfer_states_tibriz
+			hidden_effect = {
+				#Tibriz
+				419 = { add_core_of = P71 }
+				P71 = { transfer_state = 419 }
+				set_global_flag = pfp_iran_tibriz_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_iran_gilan = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P71 } 
+			has_global_flag = pfp_iran_flag
+			has_full_control_of_state = 420 #Gilan
+	
+			420 = { #Gilan
+				NOT = { is_core_of = FROM }
+			}
+	
+			P71 = { #Iran
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iran_gilan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 420 } #Gilan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iran_coring_states_gilan
+			custom_effect_tooltip = pfp_iran_transfer_states_gilan
+			hidden_effect = {
+				#Gilan
+				420 = { add_core_of = P71 }
+				P71 = { transfer_state = 420 }
+				set_global_flag = pfp_iran_gilan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_iran_kurdistan = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P71 } 
+			has_global_flag = pfp_iran_flag
+			has_full_control_of_state = 421 #Kurdistan
+	
+			421 = { #Kurdistan
+				NOT = { is_core_of = FROM }
+			}
+	
+			P71 = { #Iran
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iran_kurdistan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 421 } #Kurdistan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iran_coring_states_kurdistan
+			custom_effect_tooltip = pfp_iran_transfer_states_kurdistan
+			hidden_effect = {
+				#Kurdistan
+				421 = { add_core_of = P71 }
+				P71 = { transfer_state = 421 }
+				set_global_flag = pfp_iran_kurdistan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

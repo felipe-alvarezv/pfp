@@ -1,0 +1,89 @@
+pfp_category = {
+	pfp_iran = {
+		allowed = {
+			NOT = {
+				original_tag = PER #Iran
+				original_tag = P71 #PFP Iran
+			}
+		}
+		available = {
+			is_subject = no
+			#Tehran
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_tehran
+				has_full_control_of_state = 266 #Tehran
+			}
+			#Sistan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_sistan
+				has_full_control_of_state = 410 #Sistan
+			}
+			#Isfahan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_isfahan
+				has_full_control_of_state = 411 #Isfahan
+			}
+			#Fars
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_fars
+				has_full_control_of_state = 412 #Fars
+			}
+			#Kerman
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_kerman
+				has_full_control_of_state = 414 #Kerman
+			}
+			#Khorasan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_khorasan
+				has_full_control_of_state = 416 #Khorasan
+			}
+			#Hamadan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_hamadan
+				has_full_control_of_state = 417 #Hamadan
+			}
+			#Semnan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_semnan
+				has_full_control_of_state = 418 #Semnan
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 266 #Tehran
+				has_full_control_of_state = 412 #Fars
+			}
+			NOT = { has_global_flag = pfp_iran_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 266 #Tehran
+				state = 410 #Sistan
+				state = 411 #Isfahan
+				state = 412 #Fars
+				state = 414 #Kerman
+				state = 416 #Khorasan
+				state = 417 #Hamadan
+				state = 418 #Semnan
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_iran_coring_states
+			custom_effect_tooltip = pfp_iran_transfer_states
+			custom_effect_tooltip = pfp_iran_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_iran = yes
+				set_autonomy = { target = P71 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P71 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
