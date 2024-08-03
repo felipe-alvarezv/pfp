@@ -1,0 +1,26 @@
+#Scripted effect to release Ireland (P73)
+pfp_release_ireland = {
+	hidden_effect = {
+		#Add cores to Ireland
+		113 = { add_core_of = P73 } #Leinster
+		134 = { add_core_of = P73 } #Connaught
+		135= { add_core_of = P73 } #Munster
+
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P73 }
+			transfer_state_to = P73
+		}
+
+		#Transfer all technology to formable puppet
+		P73 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_ireland_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P73 }
+		news_event = { id = pfp_news.01 }
+	}
+}

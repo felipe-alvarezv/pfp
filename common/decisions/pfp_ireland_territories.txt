@@ -1,0 +1,38 @@
+pfp_puppet_management = {
+	pfp_ireland_northern_ireland = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P73 } 
+			has_global_flag = pfp_ireland_flag
+			has_full_control_of_state = 119 #Northern Ireland
+	
+			119 = { #Northern Ireland
+				NOT = { is_core_of = FROM }
+			}
+	
+			P73 = { #Ireland
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_ireland_northern_ireland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 119 } #Northern Ireland
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_ireland_coring_states_northern_ireland
+			custom_effect_tooltip = pfp_ireland_transfer_states_northern_ireland
+			hidden_effect = {
+				#Northern Ireland
+				119 = { add_core_of = P73 }
+				P73 = { transfer_state = 119 }
+				set_global_flag = pfp_ireland_northern_ireland_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
