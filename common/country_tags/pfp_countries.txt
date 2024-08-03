@@ -71,3 +71,4 @@ P70 = "countries/P70.txt" #Kurdistan
 P71 = "countries/P71.txt" #Iran
 P72 = "countries/P72.txt" #Korea
 P73 = "countries/P73.txt" #Ireland
+P74 = "countries/P74.txt" #Sweden
