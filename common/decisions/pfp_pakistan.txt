@@ -21,7 +21,7 @@ pfp_category = {
 			#Sind
 			custom_trigger_tooltip = {
 				tooltip = pfp_pakistan_required_states_sind
-				has_full_control_of_state = 446 #Sind
+				has_full_control_of_state = 443 #Sind
 			}
 			#Baluchistan
 			custom_trigger_tooltip = {
