@@ -1,252 +1,252 @@
 pfp_puppet_management = {
-	pfp_pakistan_punjab = {
+	pfp_afghanistan_punjab = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
-			has_global_flag = pfp_pakistan_flag
+			var:FROM.pfp_puppet_selection = { original_tag = P76 } 
+			has_global_flag = pfp_afghanistan_flag
 			has_full_control_of_state = 440 #Punjab
 	
 			440 = { #Punjab
 				NOT = { is_core_of = FROM }
 			}
 	
-			P75 = { #Pakistan
+			P76 = { #Afghanistan
 				OR = {
 					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_pakistan_punjab_flag }
+			NOT = { has_global_flag = pfp_afghanistan_punjab_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 440 } #Punjab
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_pakistan_coring_states_punjab
-			custom_effect_tooltip = pfp_pakistan_transfer_states_punjab
+			custom_effect_tooltip = pfp_afghanistan_coring_states_punjab
+			custom_effect_tooltip = pfp_afghanistan_transfer_states_punjab
 			hidden_effect = {
 				#Punjab
-				440 = { add_core_of = P75 }
-				P75 = { transfer_state = 440 }
-				set_global_flag = pfp_pakistan_punjab_flag
+				440 = { add_core_of = P76 }
+				P76 = { transfer_state = 440 }
+				set_global_flag = pfp_afghanistan_punjab_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_pakistan_kashmir = {
+	pfp_afghanistan_kashmir = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
-			has_global_flag = pfp_pakistan_flag
+			var:FROM.pfp_puppet_selection = { original_tag = P76 } 
+			has_global_flag = pfp_afghanistan_flag
 			has_full_control_of_state = 441 #Kashmir
 
 			441 = { #Kashmir
 				NOT = { is_core_of = FROM }
 			}
 
-			P75 = { #Pakistan
+			P76 = { #Afghanistan
 				OR = {
 					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_pakistan_kashmir_flag }
+			NOT = { has_global_flag = pfp_afghanistan_kashmir_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 441 } #Kashmir
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_pakistan_coring_states_kashmir
-			custom_effect_tooltip = pfp_pakistan_transfer_states_kashmir
+			custom_effect_tooltip = pfp_afghanistan_coring_states_kashmir
+			custom_effect_tooltip = pfp_afghanistan_transfer_states_kashmir
 			hidden_effect = {
 				#Kashmir
-				441 = { add_core_of = P75 }
-				P75 = { transfer_state = 441 }
-				set_global_flag = pfp_pakistan_kashmir_flag
+				441 = { add_core_of = P76 }
+				P76 = { transfer_state = 441 }
+				set_global_flag = pfp_afghanistan_kashmir_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_pakistan_peshawar = {
+	pfp_afghanistan_peshawar = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
-			has_global_flag = pfp_pakistan_flag
+			var:FROM.pfp_puppet_selection = { original_tag = P76 } 
+			has_global_flag = pfp_afghanistan_flag
 			has_full_control_of_state = 442 #Peshawar
 	
 			442 = { #Peshawar
 				NOT = { is_core_of = FROM }
 			}
 	
-			P75 = { #Pakistan
+			P76 = { #Afghanistan
 				OR = {
 					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_pakistan_peshawar_flag }
+			NOT = { has_global_flag = pfp_afghanistan_peshawar_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 442 } #Peshawar
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_pakistan_coring_states_peshawar
-			custom_effect_tooltip = pfp_pakistan_transfer_states_peshawar
+			custom_effect_tooltip = pfp_afghanistan_coring_states_peshawar
+			custom_effect_tooltip = pfp_afghanistan_transfer_states_peshawar
 			hidden_effect = {
 				#Peshawar
-				442 = { add_core_of = P75 }
-				P75 = { transfer_state = 442 }
-				set_global_flag = pfp_pakistan_peshawar_flag
+				442 = { add_core_of = P76 }
+				P76 = { transfer_state = 442 }
+				set_global_flag = pfp_afghanistan_peshawar_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_pakistan_sind = {
+	pfp_afghanistan_sind = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
-			has_global_flag = pfp_pakistan_flag
+			var:FROM.pfp_puppet_selection = { original_tag = P76 } 
+			has_global_flag = pfp_afghanistan_flag
 			has_full_control_of_state = 443 #Sind
 	
 			443 = { #Sind
 				NOT = { is_core_of = FROM }
 			}
 	
-			P75 = { #Pakistan
+			P76 = { #Afghanistan
 				OR = {
 					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_pakistan_sind_flag }
+			NOT = { has_global_flag = pfp_afghanistan_sind_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 443 } #Sind
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_pakistan_coring_states_sind
-			custom_effect_tooltip = pfp_pakistan_transfer_states_sind
+			custom_effect_tooltip = pfp_afghanistan_coring_states_sind
+			custom_effect_tooltip = pfp_afghanistan_transfer_states_sind
 			hidden_effect = {
 				#Sind
-				443 = { add_core_of = P75 }
-				P75 = { transfer_state = 443 }
-				set_global_flag = pfp_pakistan_sind_flag
+				443 = { add_core_of = P76 }
+				P76 = { transfer_state = 443 }
+				set_global_flag = pfp_afghanistan_sind_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_pakistan_baluchistan = {
+	pfp_afghanistan_baluchistan = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
-			has_global_flag = pfp_pakistan_flag
+			var:FROM.pfp_puppet_selection = { original_tag = P76 } 
+			has_global_flag = pfp_afghanistan_flag
 			has_full_control_of_state = 444 #Baluchistan
 	
 			444 = { #Baluchistan
 				NOT = { is_core_of = FROM }
 			}
 	
-			P75 = { #Pakistan
+			P76 = { #Afghanistan
 				OR = {
 					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_pakistan_baluchistan_flag }
+			NOT = { has_global_flag = pfp_afghanistan_baluchistan_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 444 } #Baluchistan
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_pakistan_coring_states_baluchistan
-			custom_effect_tooltip = pfp_pakistan_transfer_states_baluchistan
+			custom_effect_tooltip = pfp_afghanistan_coring_states_baluchistan
+			custom_effect_tooltip = pfp_afghanistan_transfer_states_baluchistan
 			hidden_effect = {
 				#Baluchistan
-				444 = { add_core_of = P75 }
-				P75 = { transfer_state = 444 }
-				set_global_flag = pfp_pakistan_baluchistan_flag
+				444 = { add_core_of = P76 }
+				P76 = { transfer_state = 444 }
+				set_global_flag = pfp_afghanistan_baluchistan_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_pakistan_quetta = {
+	pfp_afghanistan_quetta = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
-			has_global_flag = pfp_pakistan_flag
+			var:FROM.pfp_puppet_selection = { original_tag = P76 } 
+			has_global_flag = pfp_afghanistan_flag
 			has_full_control_of_state = 445 #Quetta
 	
 			445 = { #Quetta
 				NOT = { is_core_of = FROM }
 			}
 	
-			P75 = { #Pakistan
+			P76 = { #Afghanistan
 				OR = {
 					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_pakistan_quetta_flag }
+			NOT = { has_global_flag = pfp_afghanistan_quetta_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 445 } #Quetta
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_pakistan_coring_states_quetta
-			custom_effect_tooltip = pfp_pakistan_transfer_states_quetta
+			custom_effect_tooltip = pfp_afghanistan_coring_states_quetta
+			custom_effect_tooltip = pfp_afghanistan_transfer_states_quetta
 			hidden_effect = {
 				#Quetta
-				445 = { add_core_of = P75 }
-				P75 = { transfer_state = 445 }
-				set_global_flag = pfp_pakistan_quetta_flag
+				445 = { add_core_of = P76 }
+				P76 = { transfer_state = 445 }
+				set_global_flag = pfp_afghanistan_quetta_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_pakistan_northern_kashmir = {
+	pfp_afghanistan_northern_kashmir = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
-			has_global_flag = pfp_pakistan_flag
+			var:FROM.pfp_puppet_selection = { original_tag = P76 } 
+			has_global_flag = pfp_afghanistan_flag
 			has_full_control_of_state = 787 #Northern Kashmir
 
 			787 = { #Northern Kashmir
 				NOT = { is_core_of = FROM }
 			}
 
-			P75 = { #Pakistan
+			P76 = { #Afghanistan
 				OR = {
 					is_subject_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_pakistan_northern_kashmir_flag }
+			NOT = { has_global_flag = pfp_afghanistan_northern_kashmir_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 787 } #Northern Kashmir
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_pakistan_coring_states_northern_kashmir
-			custom_effect_tooltip = pfp_pakistan_transfer_states_northern_kashmir
+			custom_effect_tooltip = pfp_afghanistan_coring_states_northern_kashmir
+			custom_effect_tooltip = pfp_afghanistan_transfer_states_northern_kashmir
 			hidden_effect = {
 				#Northern Kashmir
-				787 = { add_core_of = P75 }
-				P75 = { transfer_state = 787 }
-				set_global_flag = pfp_pakistan_northern_kashmir_flag
+				787 = { add_core_of = P76 }
+				P76 = { transfer_state = 787 }
+				set_global_flag = pfp_afghanistan_northern_kashmir_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
