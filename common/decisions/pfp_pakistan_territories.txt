@@ -1,0 +1,290 @@
+pfp_puppet_management = {
+	pfp_pakistan_bhutan = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
+			has_global_flag = pfp_pakistan_flag
+			has_full_control_of_state = 324 #Bhutan
+
+			324 = { #Bhutan
+				NOT = { is_core_of = FROM }
+			}
+
+			P75 = { #Pakistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_pakistan_bhutan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 324 } #Bhutan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pakistan_coring_states_bhutan
+			custom_effect_tooltip = pfp_pakistan_transfer_states_bhutan
+			hidden_effect = {
+				#Bhutan
+				324 = { add_core_of = P75 }
+				P75 = { transfer_state = 324 }
+				set_global_flag = pfp_pakistan_bhutan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_pakistan_east_bengal = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
+			has_global_flag = pfp_pakistan_flag
+			has_full_control_of_state = 430 #East Bengal
+
+			430 = { #East Bengal
+				NOT = { is_core_of = FROM }
+			}
+
+			P75 = { #Pakistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_pakistan_east_bengal_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 430 } #East Bengal
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pakistan_coring_states_east_bengal
+			custom_effect_tooltip = pfp_pakistan_transfer_states_east_bengal
+			hidden_effect = {
+				#East Bengal
+				430 = { add_core_of = P75 }
+				P75 = { transfer_state = 430 }
+				set_global_flag = pfp_pakistan_east_bengal_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_pakistan_west_bengal = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
+			has_global_flag = pfp_pakistan_flag
+			has_full_control_of_state = 431 #West Bengal
+
+			431 = { #West Bengal
+				NOT = { is_core_of = FROM }
+			}
+
+			P75 = { #Pakistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_pakistan_west_bengal_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 431 } #West Bengal
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pakistan_coring_states_west_bengal
+			custom_effect_tooltip = pfp_pakistan_transfer_states_west_bengal
+			hidden_effect = {
+				#West Bengal
+				431 = { add_core_of = P75 }
+				P75 = { transfer_state = 431 }
+				set_global_flag = pfp_pakistan_west_bengal_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_pakistan_assam = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
+			has_global_flag = pfp_pakistan_flag
+			has_full_control_of_state = 432 #Assam
+
+			432 = { #Assam
+				NOT = { is_core_of = FROM }
+			}
+
+			P75 = { #Pakistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_pakistan_assam_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 432 } #Assam
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pakistan_coring_states_assam
+			custom_effect_tooltip = pfp_pakistan_transfer_states_assam
+			hidden_effect = {
+				#Assam
+				432 = { add_core_of = P75 }
+				P75 = { transfer_state = 432 }
+				set_global_flag = pfp_pakistan_assam_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_pakistan_arunachal_pradesh = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
+			has_global_flag = pfp_pakistan_flag
+			has_full_control_of_state = 434 #Arunachal Pradesh
+
+			434 = { #Arunachal Pradesh
+				NOT = { is_core_of = FROM }
+			}
+
+			P75 = { #Pakistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_pakistan_arunachal_pradesh_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 434 } #Arunachal Pradesh
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pakistan_coring_states_arunachal_pradesh
+			custom_effect_tooltip = pfp_pakistan_transfer_states_arunachal_pradesh
+			hidden_effect = {
+				#Arunachal Pradesh
+				434 = { add_core_of = P75 }
+				P75 = { transfer_state = 434 }
+				set_global_flag = pfp_pakistan_arunachal_pradesh_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_pakistan_bihar = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
+			has_global_flag = pfp_pakistan_flag
+			has_full_control_of_state = 435 #Bihar
+
+			435 = { #Bihar
+				NOT = { is_core_of = FROM }
+			}
+
+			P75 = { #Pakistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_pakistan_bihar_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 435 } #Bihar
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pakistan_coring_states_bihar
+			custom_effect_tooltip = pfp_pakistan_transfer_states_bihar
+			hidden_effect = {
+				#Bihar
+				435 = { add_core_of = P75 }
+				P75 = { transfer_state = 435 }
+				set_global_flag = pfp_pakistan_bihar_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_pakistan_kashmir = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
+			has_global_flag = pfp_pakistan_flag
+			has_full_control_of_state = 441 #Kashmir
+
+			441 = { #Kashmir
+				NOT = { is_core_of = FROM }
+			}
+
+			P75 = { #Pakistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_pakistan_kashmir_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 441 } #Kashmir
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pakistan_coring_states_kashmir
+			custom_effect_tooltip = pfp_pakistan_transfer_states_kashmir
+			hidden_effect = {
+				#Kashmir
+				441 = { add_core_of = P75 }
+				P75 = { transfer_state = 441 }
+				set_global_flag = pfp_pakistan_kashmir_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_pakistan_northern_kashmir = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P75 } 
+			has_global_flag = pfp_pakistan_flag
+			has_full_control_of_state = 787 #Northern Kashmir
+
+			787 = { #Northern Kashmir
+				NOT = { is_core_of = FROM }
+			}
+
+			P75 = { #Pakistan
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_pakistan_northern_kashmir_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 787 } #Northern Kashmir
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_pakistan_coring_states_northern_kashmir
+			custom_effect_tooltip = pfp_pakistan_transfer_states_northern_kashmir
+			hidden_effect = {
+				#Northern Kashmir
+				787 = { add_core_of = P75 }
+				P75 = { transfer_state = 787 }
+				set_global_flag = pfp_pakistan_northern_kashmir_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

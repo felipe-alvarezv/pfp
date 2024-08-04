@@ -1,0 +1,6 @@
+#Pakistan
+graphical_culture = western_european_gfx
+graphical_culture_2d = commonwealth_2d
+color = { 170 50 150 }
+color = rgb { 170 50 150 }
+color_ui = rgb { 170 50 150 }

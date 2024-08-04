@@ -1,0 +1,27 @@
+#Scripted effect to release Pakistan (P75)
+pfp_release_pakistan = {
+	hidden_effect = {
+		#Add cores to Czech territory
+		440 = { add_core_of = P75 } #Punjab
+		442 = { add_core_of = P75 } #Peshawar
+		443 = { add_core_of = P75 } #Sind
+		444 = { add_core_of = P75 } #Baluchistan
+		445 = { add_core_of = P75 } #Quetta
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P75 }
+			transfer_state_to = P75
+		}
+
+		#Transfer all technology to formable puppet
+		P75 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_pakistan_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P75 }
+		news_event = { id = pfp_news.01 }
+	}
+}

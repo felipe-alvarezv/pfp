@@ -87,6 +87,8 @@ l_english:
  pfp_puppet_selection_korea:0 "Korea"
  pfp_puppet_selection_ireland:0 "Ireland"
  pfp_puppet_selection_sweden:0 "Sweden"
+ pfp_puppet_selection_pakistan:0 "Pakistan"
+ pfp_puppet_selection_afghanistan:0 "Afghanistan"
  pfp_puppet_selection_desc:0 "Selects the current option for management."
  pfp_puppet_deselect:0 "§RDeselect Puppet§!"
  pfp_puppet_deselect_desc:0 "Deselect the current puppet."
