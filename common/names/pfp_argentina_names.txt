@@ -1,4 +1,4 @@
-#Rio de la Plata (Vanilla Argentinian Names)
+#Argentina (Vanilla Argentinian Names)
 P55 = {
 	male = {
 		names = { 

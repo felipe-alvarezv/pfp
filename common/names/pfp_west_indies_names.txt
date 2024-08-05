@@ -1,4 +1,4 @@
-#Caribbean (Vanilla Cuban Names)
+#West Indies (Vanilla Cuban Names)
 P06 = {
 	male = {
 		names = {

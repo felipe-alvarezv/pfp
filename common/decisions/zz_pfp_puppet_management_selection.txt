@@ -59,7 +59,7 @@ pfp_puppet_management = {
             set_variable = { pfp_puppet_selection = P05 }
         }
     }
-    pfp_puppet_selection_caribbean = { #Caribbean
+    pfp_puppet_selection_west_indies = { #West Indies
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
@@ -647,7 +647,7 @@ pfp_puppet_management = {
             set_variable = { pfp_puppet_selection = P54 }
         }
     }
-    pfp_puppet_selection_rio_de_la_plata = { #Rio de la Plata
+    pfp_puppet_selection_argentina = { #Argentina
         visible = {
             has_country_flag = pfp_puppet_management_view
             NOT = { has_country_flag = pfp_puppet_selected }
