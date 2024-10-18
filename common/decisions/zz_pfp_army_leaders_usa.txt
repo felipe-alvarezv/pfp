@@ -1,190 +1,4 @@
 pfp_puppet_management = {
-	#Dwight D. Eisenhower
-	pfp_army_leader_usa_dwight_d_eisenhower = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" }
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_dwight_d_eisenhower #Check if country has character
-			USA_dwight_d_eisenhower = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_dwight_d_eisenhower } #Check if Dwight D. Eisenhower is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Dwight D. Eisenhower
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Dwight D. Eisenhower"
-						desc = ""
-						picture = GFX_portrait_USA_dwight_d_eisenhower
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Dwight D. Eisenhower"
-						desc = ""
-						picture = GFX_portrait_USA_dwight_d_eisenhower
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Dwight D. Eisenhower"
-						desc = ""
-						picture = GFX_portrait_USA_dwight_d_eisenhower
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Dwight D. Eisenhower"
-						desc = ""
-						picture = GFX_portrait_USA_dwight_d_eisenhower
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_dwight_d_eisenhower
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Douglas MacArthur
-	pfp_army_leader_usa_douglas_macarthur = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-			
-			has_character = USA_douglas_macarthur #Check if country has character
-			USA_douglas_macarthur = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_douglas_macarthur } #Check if Douglas MacArthur is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Douglas MacArthur
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Douglas MacArthur"
-						desc = ""
-						picture = GFX_portrait_USA_douglas_macarthur
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Douglas MacArthur"
-						desc = ""
-						picture = GFX_portrait_USA_douglas_macarthur
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Douglas MacArthur"
-						desc = ""
-						picture = GFX_portrait_USA_douglas_macarthur
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Douglas MacArthur"
-						desc = ""
-						picture = GFX_portrait_USA_douglas_macarthur
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_douglas_macarthur
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#George S. Patton
-	pfp_army_leader_usa_george_s_patton = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-			
-			has_character = USA_george_s_patton #Check if country has character
-			USA_george_s_patton = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_george_s_patton } #Check if George S. Patton is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#George S. Patton
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "George S. Patton"
-						desc = ""
-						picture = GFX_portrait_USA_george_s_patton
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "George S. Patton"
-						desc = ""
-						picture = GFX_portrait_USA_george_s_patton
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "George S. Patton"
-						desc = ""
-						picture = GFX_portrait_USA_george_s_patton
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "George S. Patton"
-						desc = ""
-						picture = GFX_portrait_USA_george_s_patton
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_george_s_patton
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#Omar Bradley
 	pfp_army_leader_usa_omar_bradley = {
 		visible = {
@@ -243,812 +57,6 @@ pfp_puppet_management = {
 					}
 				}
 				set_global_flag = pfp_usa_omar_bradley
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Mark W. Clark
-	pfp_army_leader_usa_mark_clark = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_mark_clark #Check if country has character
-			USA_mark_clark = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_mark_clark } #Check if Mark W. Clark is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Mark W. Clark
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Mark W. Clark"
-						desc = ""
-						picture = GFX_portrait_USA_mark_clark
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Mark W. Clark"
-						desc = ""
-						picture = GFX_portrait_USA_mark_clark
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Mark W. Clark"
-						desc = ""
-						picture = GFX_portrait_USA_mark_clark
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Mark W. Clark"
-						desc = ""
-						picture = GFX_portrait_USA_mark_clark
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_mark_clark
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Courtney Hodges
-	pfp_army_leader_usa_courtney_hodges = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_courtney_hodges #Check if country has character
-			USA_courtney_hodges = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_courtney_hodges } #Check if Courtney Hodges is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Courtney Hodges
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Courtney Hodges"
-						desc = ""
-						picture = GFX_portrait_USA_courtney_hodges
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Courtney Hodges"
-						desc = ""
-						picture = GFX_portrait_USA_courtney_hodges
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Courtney Hodges"
-						desc = ""
-						picture = GFX_portrait_USA_courtney_hodges
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Courtney Hodges"
-						desc = ""
-						picture = GFX_portrait_USA_courtney_hodges
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_courtney_hodges
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Lucian Truscott
-	pfp_army_leader_usa_lucian_truscott = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_lucian_truscott #Check if country has character
-			USA_lucian_truscott = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_lucian_truscott } #Check if Lucian Truscott is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Lucian Truscott
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Lucian Truscott"
-						desc = ""
-						picture = GFX_portrait_USA_lucian_truscott
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Lucian Truscott"
-						desc = ""
-						picture = GFX_portrait_USA_lucian_truscott
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Lucian Truscott"
-						desc = ""
-						picture = GFX_portrait_USA_lucian_truscott
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Lucian Truscott"
-						desc = ""
-						picture = GFX_portrait_USA_lucian_truscott
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_lucian_truscott
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Walter Krueger
-	pfp_army_leader_usa_walter_krueger = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_walter_krueger #Check if country has character
-			USA_walter_krueger = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_walter_krueger } #Check if Walter Krueger is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Walter Krueger
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Walter Krueger"
-						desc = ""
-						picture = GFX_portrait_USA_walter_krueger
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Walter Krueger"
-						desc = ""
-						picture = GFX_portrait_USA_walter_krueger
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Walter Krueger"
-						desc = ""
-						picture = GFX_portrait_USA_walter_krueger
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Walter Krueger"
-						desc = ""
-						picture = GFX_portrait_USA_walter_krueger
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_walter_krueger
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Leslie McNair
-	pfp_army_leader_usa_leslie_mcnair = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_leslie_mcnair #Check if country has character
-			USA_leslie_mcnair = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_leslie_mcnair } #Check if Leslie McNair is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Leslie McNair
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Leslie McNair"
-						desc = ""
-						picture = GFX_portrait_USA_leslie_mcnair
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Leslie McNair"
-						desc = ""
-						picture = GFX_portrait_USA_leslie_mcnair
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Leslie McNair"
-						desc = ""
-						picture = GFX_portrait_USA_leslie_mcnair
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Leslie McNair"
-						desc = ""
-						picture = GFX_portrait_USA_leslie_mcnair
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_leslie_mcnair
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Leonard Gerow
-	pfp_army_leader_usa_leonard_gerow = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_leonard_gerow #Check if country has character
-			USA_leonard_gerow = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_leonard_gerow } #Check if Leonard Gerow is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Leonard Gerow
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Leonard Gerow"
-						desc = ""
-						picture = GFX_portrait_USA_leonard_gerow
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Leonard Gerow"
-						desc = ""
-						picture = GFX_portrait_USA_leonard_gerow
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Leonard Gerow"
-						desc = ""
-						picture = GFX_portrait_USA_leonard_gerow
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Leonard Gerow"
-						desc = ""
-						picture = GFX_portrait_USA_leonard_gerow
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_leonard_gerow
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Alexander Patch
-	pfp_army_leader_usa_alexander_patch = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_alexander_patch #Check if country has character
-			USA_alexander_patch = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_alexander_patch } #Check if Alexander Patch is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Alexander Patch
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Alexander Patch"
-						desc = ""
-						picture = GFX_portrait_USA_alexander_patch
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Alexander Patch"
-						desc = ""
-						picture = GFX_portrait_USA_alexander_patch
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Alexander Patch"
-						desc = ""
-						picture = GFX_portrait_USA_alexander_patch
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Alexander Patch"
-						desc = ""
-						picture = GFX_portrait_USA_alexander_patch
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_alexander_patch
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#William Simpson
-	pfp_army_leader_usa_william_simpson = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_william_simpson #Check if country has character
-			USA_william_simpson = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_william_simpson } #Check if William Simpson is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#William Simpson
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "William Simpson"
-						desc = ""
-						picture = GFX_portrait_USA_william_simpson
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "William Simpson"
-						desc = ""
-						picture = GFX_portrait_USA_william_simpson
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "William Simpson"
-						desc = ""
-						picture = GFX_portrait_USA_william_simpson
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "William Simpson"
-						desc = ""
-						picture = GFX_portrait_USA_william_simpson
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_william_simpson
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#J. Lawton Collins
-	pfp_army_leader_usa_j_lawton_collins = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_j_lawton_collins #Check if country has character
-			USA_j_lawton_collins = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_j_lawton_collins } #Check if J. Lawton Collins is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#J. Lawton Collins
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "J. Lawton Collins"
-						desc = ""
-						picture = GFX_portrait_USA_j_lawton_collins
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "J. Lawton Collins"
-						desc = ""
-						picture = GFX_portrait_USA_j_lawton_collins
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "J. Lawton Collins"
-						desc = ""
-						picture = GFX_portrait_USA_j_lawton_collins
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "J. Lawton Collins"
-						desc = ""
-						picture = GFX_portrait_USA_j_lawton_collins
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_j_lawton_collins
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Maurice Rose
-	pfp_army_leader_usa_maurice_rose = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_maurice_rose #Check if country has character
-			USA_maurice_rose = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_maurice_rose } #Check if Maurice Rose is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Maurice Rose
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Maurice Rose"
-						desc = ""
-						picture = GFX_portrait_USA_maurice_rose
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Maurice Rose"
-						desc = ""
-						picture = GFX_portrait_USA_maurice_rose
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Maurice Rose"
-						desc = ""
-						picture = GFX_portrait_USA_maurice_rose
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Maurice Rose"
-						desc = ""
-						picture = GFX_portrait_USA_maurice_rose
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_maurice_rose
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Alexander Vandegrift
-	pfp_army_leader_usa_alexander_vandegrift = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_alexander_vandegrift #Check if country has character
-			USA_alexander_vandegrift = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_alexander_vandegrift } #Check if Alexander Vandegrift is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Alexander Vandegrift
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Alexander Vandegrift"
-						desc = ""
-						picture = GFX_portrait_USA_alexander_vandegrift
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Alexander Vandegrift"
-						desc = ""
-						picture = GFX_portrait_USA_alexander_vandegrift
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Alexander Vandegrift"
-						desc = ""
-						picture = GFX_portrait_USA_alexander_vandegrift
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Alexander Vandegrift"
-						desc = ""
-						picture = GFX_portrait_USA_alexander_vandegrift
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_alexander_vandegrift
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Geoffrey Keyes
-	pfp_army_leader_usa_geoffrey_keyes = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_geoffrey_keyes #Check if country has character
-			USA_geoffrey_keyes = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_geoffrey_keyes } #Check if Geoffrey Keyes is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Geoffrey Keyes
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Geoffrey Keyes"
-						desc = ""
-						picture = GFX_portrait_USA_geoffrey_keyes
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Geoffrey Keyes"
-						desc = ""
-						picture = GFX_portrait_USA_geoffrey_keyes
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Geoffrey Keyes"
-						desc = ""
-						picture = GFX_portrait_USA_geoffrey_keyes
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Geoffrey Keyes"
-						desc = ""
-						picture = GFX_portrait_USA_geoffrey_keyes
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_geoffrey_keyes
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Lloyd Fredendall
-	pfp_army_leader_usa_lloyd_fredendall = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_lloyd_fredendall #Check if country has character
-			USA_lloyd_fredendall = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_lloyd_fredendall } #Check if Lloyd Fredendall is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Lloyd Fredendall
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Lloyd Fredendall"
-						desc = ""
-						picture = GFX_portrait_USA_lloyd_fredendall
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Lloyd Fredendall"
-						desc = ""
-						picture = GFX_portrait_USA_lloyd_fredendall
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Lloyd Fredendall"
-						desc = ""
-						picture = GFX_portrait_USA_lloyd_fredendall
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Lloyd Fredendall"
-						desc = ""
-						picture = GFX_portrait_USA_lloyd_fredendall
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_lloyd_fredendall
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -1115,8 +123,8 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Clarence Huebner
-	pfp_army_leader_usa_clarence_huebner = {
+	#Mark W. Clark
+	pfp_army_leader_usa_mark_clark = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
@@ -1129,14 +137,14 @@ pfp_puppet_management = {
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = USA_clarence_huebner #Check if country has character
-			USA_clarence_huebner = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_clarence_huebner } #Check if Clarence Huebner is already a leader
+			has_character = USA_mark_clark #Check if country has character
+			USA_mark_clark = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_mark_clark } #Check if Mark W. Clark is already a leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Clarence Huebner
+				#Mark W. Clark
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -1145,34 +153,282 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Clarence Huebner"
+						name = "Mark W. Clark"
 						desc = ""
-						picture = GFX_portrait_USA_clarence_huebner
+						picture = GFX_portrait_USA_mark_clark
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Clarence Huebner"
+						name = "Mark W. Clark"
 						desc = ""
-						picture = GFX_portrait_USA_clarence_huebner
+						picture = GFX_portrait_USA_mark_clark
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Clarence Huebner"
+						name = "Mark W. Clark"
 						desc = ""
-						picture = GFX_portrait_USA_clarence_huebner
+						picture = GFX_portrait_USA_mark_clark
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Clarence Huebner"
+						name = "Mark W. Clark"
 						desc = ""
-						picture = GFX_portrait_USA_clarence_huebner
+						picture = GFX_portrait_USA_mark_clark
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_usa_clarence_huebner
+				set_global_flag = pfp_usa_mark_clark
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#J. Lawton Collins
+	pfp_army_leader_usa_j_lawton_collins = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_j_lawton_collins #Check if country has character
+			USA_j_lawton_collins = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_j_lawton_collins } #Check if J. Lawton Collins is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#J. Lawton Collins
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "J. Lawton Collins"
+						desc = ""
+						picture = GFX_portrait_USA_j_lawton_collins
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "J. Lawton Collins"
+						desc = ""
+						picture = GFX_portrait_USA_j_lawton_collins
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "J. Lawton Collins"
+						desc = ""
+						picture = GFX_portrait_USA_j_lawton_collins
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "J. Lawton Collins"
+						desc = ""
+						picture = GFX_portrait_USA_j_lawton_collins
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_j_lawton_collins
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Dwight D. Eisenhower
+	pfp_army_leader_usa_dwight_d_eisenhower = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" }
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_dwight_d_eisenhower #Check if country has character
+			USA_dwight_d_eisenhower = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_dwight_d_eisenhower } #Check if Dwight D. Eisenhower is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Dwight D. Eisenhower
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Dwight D. Eisenhower"
+						desc = ""
+						picture = GFX_portrait_USA_dwight_d_eisenhower
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Dwight D. Eisenhower"
+						desc = ""
+						picture = GFX_portrait_USA_dwight_d_eisenhower
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Dwight D. Eisenhower"
+						desc = ""
+						picture = GFX_portrait_USA_dwight_d_eisenhower
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Dwight D. Eisenhower"
+						desc = ""
+						picture = GFX_portrait_USA_dwight_d_eisenhower
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_dwight_d_eisenhower
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Lloyd Fredendall
+	pfp_army_leader_usa_lloyd_fredendall = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_lloyd_fredendall #Check if country has character
+			USA_lloyd_fredendall = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_lloyd_fredendall } #Check if Lloyd Fredendall is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Lloyd Fredendall
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Lloyd Fredendall"
+						desc = ""
+						picture = GFX_portrait_USA_lloyd_fredendall
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Lloyd Fredendall"
+						desc = ""
+						picture = GFX_portrait_USA_lloyd_fredendall
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Lloyd Fredendall"
+						desc = ""
+						picture = GFX_portrait_USA_lloyd_fredendall
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Lloyd Fredendall"
+						desc = ""
+						picture = GFX_portrait_USA_lloyd_fredendall
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_lloyd_fredendall
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Leonard Gerow
+	pfp_army_leader_usa_leonard_gerow = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_leonard_gerow #Check if country has character
+			USA_leonard_gerow = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_leonard_gerow } #Check if Leonard Gerow is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Leonard Gerow
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Leonard Gerow"
+						desc = ""
+						picture = GFX_portrait_USA_leonard_gerow
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Leonard Gerow"
+						desc = ""
+						picture = GFX_portrait_USA_leonard_gerow
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Leonard Gerow"
+						desc = ""
+						picture = GFX_portrait_USA_leonard_gerow
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Leonard Gerow"
+						desc = ""
+						picture = GFX_portrait_USA_leonard_gerow
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_leonard_gerow
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -1239,68 +495,6 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Jonathan Wainwright
-	pfp_army_leader_usa_jonathan_wainwright = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = USA #Check if country is United States
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = USA_jonathan_wainwright #Check if country has character
-			USA_jonathan_wainwright = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_usa_jonathan_wainwright } #Check if Jonathan Wainwright is already a leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Jonathan Wainwright
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Jonathan Wainwright"
-						desc = ""
-						picture = GFX_portrait_USA_jonathan_wainwright
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Jonathan Wainwright"
-						desc = ""
-						picture = GFX_portrait_USA_jonathan_wainwright
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Jonathan Wainwright"
-						desc = ""
-						picture = GFX_portrait_USA_jonathan_wainwright
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Jonathan Wainwright"
-						desc = ""
-						picture = GFX_portrait_USA_jonathan_wainwright
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_usa_jonathan_wainwright
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#Russell Hartle
 	pfp_army_leader_usa_russell_hartle = {
 		visible = {
@@ -1363,6 +557,626 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	#Courtney Hodges
+	pfp_army_leader_usa_courtney_hodges = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_courtney_hodges #Check if country has character
+			USA_courtney_hodges = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_courtney_hodges } #Check if Courtney Hodges is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Courtney Hodges
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Courtney Hodges"
+						desc = ""
+						picture = GFX_portrait_USA_courtney_hodges
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Courtney Hodges"
+						desc = ""
+						picture = GFX_portrait_USA_courtney_hodges
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Courtney Hodges"
+						desc = ""
+						picture = GFX_portrait_USA_courtney_hodges
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Courtney Hodges"
+						desc = ""
+						picture = GFX_portrait_USA_courtney_hodges
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_courtney_hodges
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Clarence Huebner
+	pfp_army_leader_usa_clarence_huebner = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_clarence_huebner #Check if country has character
+			USA_clarence_huebner = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_clarence_huebner } #Check if Clarence Huebner is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Clarence Huebner
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Clarence Huebner"
+						desc = ""
+						picture = GFX_portrait_USA_clarence_huebner
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Clarence Huebner"
+						desc = ""
+						picture = GFX_portrait_USA_clarence_huebner
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Clarence Huebner"
+						desc = ""
+						picture = GFX_portrait_USA_clarence_huebner
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Clarence Huebner"
+						desc = ""
+						picture = GFX_portrait_USA_clarence_huebner
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_clarence_huebner
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Geoffrey Keyes
+	pfp_army_leader_usa_geoffrey_keyes = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_geoffrey_keyes #Check if country has character
+			USA_geoffrey_keyes = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_geoffrey_keyes } #Check if Geoffrey Keyes is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Geoffrey Keyes
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Geoffrey Keyes"
+						desc = ""
+						picture = GFX_portrait_USA_geoffrey_keyes
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Geoffrey Keyes"
+						desc = ""
+						picture = GFX_portrait_USA_geoffrey_keyes
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Geoffrey Keyes"
+						desc = ""
+						picture = GFX_portrait_USA_geoffrey_keyes
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Geoffrey Keyes"
+						desc = ""
+						picture = GFX_portrait_USA_geoffrey_keyes
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_geoffrey_keyes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Walter Krueger
+	pfp_army_leader_usa_walter_krueger = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_walter_krueger #Check if country has character
+			USA_walter_krueger = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_walter_krueger } #Check if Walter Krueger is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Walter Krueger
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Walter Krueger"
+						desc = ""
+						picture = GFX_portrait_USA_walter_krueger
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Walter Krueger"
+						desc = ""
+						picture = GFX_portrait_USA_walter_krueger
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Walter Krueger"
+						desc = ""
+						picture = GFX_portrait_USA_walter_krueger
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Walter Krueger"
+						desc = ""
+						picture = GFX_portrait_USA_walter_krueger
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_walter_krueger
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Douglas MacArthur
+	pfp_army_leader_usa_douglas_macarthur = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+			
+			has_character = USA_douglas_macarthur #Check if country has character
+			USA_douglas_macarthur = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_douglas_macarthur } #Check if Douglas MacArthur is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Douglas MacArthur
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Douglas MacArthur"
+						desc = ""
+						picture = GFX_portrait_USA_douglas_macarthur
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Douglas MacArthur"
+						desc = ""
+						picture = GFX_portrait_USA_douglas_macarthur
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Douglas MacArthur"
+						desc = ""
+						picture = GFX_portrait_USA_douglas_macarthur
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Douglas MacArthur"
+						desc = ""
+						picture = GFX_portrait_USA_douglas_macarthur
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_douglas_macarthur
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Leslie McNair
+	pfp_army_leader_usa_leslie_mcnair = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_leslie_mcnair #Check if country has character
+			USA_leslie_mcnair = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_leslie_mcnair } #Check if Leslie McNair is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Leslie McNair
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Leslie McNair"
+						desc = ""
+						picture = GFX_portrait_USA_leslie_mcnair
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Leslie McNair"
+						desc = ""
+						picture = GFX_portrait_USA_leslie_mcnair
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Leslie McNair"
+						desc = ""
+						picture = GFX_portrait_USA_leslie_mcnair
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Leslie McNair"
+						desc = ""
+						picture = GFX_portrait_USA_leslie_mcnair
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_leslie_mcnair
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Alexander Patch
+	pfp_army_leader_usa_alexander_patch = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_alexander_patch #Check if country has character
+			USA_alexander_patch = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_alexander_patch } #Check if Alexander Patch is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Alexander Patch
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Alexander Patch"
+						desc = ""
+						picture = GFX_portrait_USA_alexander_patch
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Alexander Patch"
+						desc = ""
+						picture = GFX_portrait_USA_alexander_patch
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Alexander Patch"
+						desc = ""
+						picture = GFX_portrait_USA_alexander_patch
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Alexander Patch"
+						desc = ""
+						picture = GFX_portrait_USA_alexander_patch
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_alexander_patch
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#George S. Patton
+	pfp_army_leader_usa_george_s_patton = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+			
+			has_character = USA_george_s_patton #Check if country has character
+			USA_george_s_patton = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_george_s_patton } #Check if George S. Patton is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#George S. Patton
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "George S. Patton"
+						desc = ""
+						picture = GFX_portrait_USA_george_s_patton
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "George S. Patton"
+						desc = ""
+						picture = GFX_portrait_USA_george_s_patton
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "George S. Patton"
+						desc = ""
+						picture = GFX_portrait_USA_george_s_patton
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "George S. Patton"
+						desc = ""
+						picture = GFX_portrait_USA_george_s_patton
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_george_s_patton
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Maurice Rose
+	pfp_army_leader_usa_maurice_rose = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_maurice_rose #Check if country has character
+			USA_maurice_rose = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_maurice_rose } #Check if Maurice Rose is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Maurice Rose
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Maurice Rose"
+						desc = ""
+						picture = GFX_portrait_USA_maurice_rose
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Maurice Rose"
+						desc = ""
+						picture = GFX_portrait_USA_maurice_rose
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Maurice Rose"
+						desc = ""
+						picture = GFX_portrait_USA_maurice_rose
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Maurice Rose"
+						desc = ""
+						picture = GFX_portrait_USA_maurice_rose
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_maurice_rose
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#William Simpson
+	pfp_army_leader_usa_william_simpson = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_william_simpson #Check if country has character
+			USA_william_simpson = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_william_simpson } #Check if William Simpson is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#William Simpson
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "William Simpson"
+						desc = ""
+						picture = GFX_portrait_USA_william_simpson
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "William Simpson"
+						desc = ""
+						picture = GFX_portrait_USA_william_simpson
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "William Simpson"
+						desc = ""
+						picture = GFX_portrait_USA_william_simpson
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "William Simpson"
+						desc = ""
+						picture = GFX_portrait_USA_william_simpson
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_william_simpson
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	#Joseph Stilwell
 	pfp_army_leader_usa_joseph_stilwell = {
 		visible = {
@@ -1421,6 +1235,192 @@ pfp_puppet_management = {
 					}
 				}
 				set_global_flag = pfp_usa_joseph_stilwell
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Lucian Truscott
+	pfp_army_leader_usa_lucian_truscott = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_lucian_truscott #Check if country has character
+			USA_lucian_truscott = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_lucian_truscott } #Check if Lucian Truscott is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Lucian Truscott
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Lucian Truscott"
+						desc = ""
+						picture = GFX_portrait_USA_lucian_truscott
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Lucian Truscott"
+						desc = ""
+						picture = GFX_portrait_USA_lucian_truscott
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Lucian Truscott"
+						desc = ""
+						picture = GFX_portrait_USA_lucian_truscott
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Lucian Truscott"
+						desc = ""
+						picture = GFX_portrait_USA_lucian_truscott
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_lucian_truscott
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Alexander Vandegrift
+	pfp_army_leader_usa_alexander_vandegrift = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_alexander_vandegrift #Check if country has character
+			USA_alexander_vandegrift = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_alexander_vandegrift } #Check if Alexander Vandegrift is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Alexander Vandegrift
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Alexander Vandegrift"
+						desc = ""
+						picture = GFX_portrait_USA_alexander_vandegrift
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Alexander Vandegrift"
+						desc = ""
+						picture = GFX_portrait_USA_alexander_vandegrift
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Alexander Vandegrift"
+						desc = ""
+						picture = GFX_portrait_USA_alexander_vandegrift
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Alexander Vandegrift"
+						desc = ""
+						picture = GFX_portrait_USA_alexander_vandegrift
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_alexander_vandegrift
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Jonathan Wainwright
+	pfp_army_leader_usa_jonathan_wainwright = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = USA #Check if country is United States
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = USA_jonathan_wainwright #Check if country has character
+			USA_jonathan_wainwright = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_usa_jonathan_wainwright } #Check if Jonathan Wainwright is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Jonathan Wainwright
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Jonathan Wainwright"
+						desc = ""
+						picture = GFX_portrait_USA_jonathan_wainwright
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Jonathan Wainwright"
+						desc = ""
+						picture = GFX_portrait_USA_jonathan_wainwright
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Jonathan Wainwright"
+						desc = ""
+						picture = GFX_portrait_USA_jonathan_wainwright
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Jonathan Wainwright"
+						desc = ""
+						picture = GFX_portrait_USA_jonathan_wainwright
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_usa_jonathan_wainwright
 			}
 		}
 		ai_will_do = { factor = 0 }

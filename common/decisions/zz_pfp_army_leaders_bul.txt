@@ -1,68 +1,6 @@
 pfp_puppet_management = {
-	#Nikola Mihov
-	pfp_army_leader_bul_nikola_mihov = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = BUL #Check if country is Bulgaria
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = BUL_nikola_mihov #Check if country has character
-			BUL_nikola_mihov = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_bul_nikola_mihov } #Check if Nikola Mihov is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Nikola Mihov
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-
-					create_country_leader = {
-						name = "Nikola Mihov"
-						desc = ""
-						picture = GFX_portrait_bul_nikola_mihov
-						ideology = marxism
-					}
-
-					create_country_leader = {
-						name = "Nikola Mihov"
-						desc = ""
-						picture = GFX_portrait_bul_nikola_mihov
-						ideology = conservatism
-					}
-
-					create_country_leader = {
-						name = "Nikola Mihov"
-						desc = ""
-						picture = GFX_portrait_bul_nikola_mihov
-						ideology = centrism
-					}
-
-					create_country_leader = {
-						name = "Nikola Mihov"
-						desc = ""
-						picture = GFX_portrait_bul_nikola_mihov
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_bul_nikola_mihov
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Georgi Popov
-	pfp_army_leader_bul_georgi_popov = {
+	#Vasil Boydev
+	pfp_army_leader_bul_vasil_boydev = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
@@ -75,14 +13,14 @@ pfp_puppet_management = {
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = BUL_georgi_popov #Check if country has character
-			BUL_georgi_popov = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_bul_georgi_popov } #Check if Georgi Popov is currently puppet leader
+			has_character = BUL_vasil_boydev #Check if country has character
+			BUL_vasil_boydev = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_bul_vasil_boydev } #Check if Vasil Boydev is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Georgi Popov
+				#Vasil Boydev
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -91,34 +29,96 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 
 					create_country_leader = {
-						name = "Georgi Popov"
+						name = "Vasil Boydev"
 						desc = ""
-						picture = GFX_portrait_bul_georgi_popov
+						picture = GFX_portrait_bul_vasil_boydev
 						ideology = marxism
 					}
 
 					create_country_leader = {
-						name = "Georgi Popov"
+						name = "Vasil Boydev"
 						desc = ""
-						picture = GFX_portrait_bul_georgi_popov
+						picture = GFX_portrait_bul_vasil_boydev
 						ideology = conservatism
 					}
 
 					create_country_leader = {
-						name = "Georgi Popov"
+						name = "Vasil Boydev"
 						desc = ""
-						picture = GFX_portrait_bul_georgi_popov
+						picture = GFX_portrait_bul_vasil_boydev
 						ideology = centrism
 					}
 
 					create_country_leader = {
-						name = "Georgi Popov"
+						name = "Vasil Boydev"
 						desc = ""
-						picture = GFX_portrait_bul_georgi_popov
+						picture = GFX_portrait_bul_vasil_boydev
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_bul_georgi_popov
+				set_global_flag = pfp_bul_vasil_boydev
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Angel Dotsev
+	pfp_army_leader_bul_angel_dotsev = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = BUL #Check if country is Bulgaria
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = BUL_angel_dotsev #Check if country has character
+			BUL_angel_dotsev = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_bul_angel_dotsev } #Check if Angel Dotsev is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Angel Dotsev
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+
+					create_country_leader = {
+						name = "Angel Dotsev"
+						desc = ""
+						picture = GFX_portrait_bul_angel_dotsev
+						ideology = marxism
+					}
+
+					create_country_leader = {
+						name = "Angel Dotsev"
+						desc = ""
+						picture = GFX_portrait_bul_angel_dotsev
+						ideology = conservatism
+					}
+
+					create_country_leader = {
+						name = "Angel Dotsev"
+						desc = ""
+						picture = GFX_portrait_bul_angel_dotsev
+						ideology = centrism
+					}
+
+					create_country_leader = {
+						name = "Angel Dotsev"
+						desc = ""
+						picture = GFX_portrait_bul_angel_dotsev
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_bul_angel_dotsev
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -181,6 +181,68 @@ pfp_puppet_management = {
 					}
 				}
 				set_global_flag = pfp_bul_nikola_hadzipetkov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Konstantin Lukash
+	pfp_army_leader_bul_konstantin_lukash = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = BUL #Check if country is Bulgaria
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = BUL_konstantin_lukash #Check if country has character
+			BUL_konstantin_lukash = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_bul_konstantin_lukash } #Check if Konstantin Lukash is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Konstantin Lukash
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+
+					create_country_leader = {
+						name = "Konstantin Lukash"
+						desc = ""
+						picture = GFX_portrait_bul_konstantin_lukash
+						ideology = marxism
+					}
+
+					create_country_leader = {
+						name = "Konstantin Lukash"
+						desc = ""
+						picture = GFX_portrait_bul_konstantin_lukash
+						ideology = conservatism
+					}
+
+					create_country_leader = {
+						name = "Konstantin Lukash"
+						desc = ""
+						picture = GFX_portrait_bul_konstantin_lukash
+						ideology = centrism
+					}
+
+					create_country_leader = {
+						name = "Konstantin Lukash"
+						desc = ""
+						picture = GFX_portrait_bul_konstantin_lukash
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_bul_konstantin_lukash
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -309,11 +371,11 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Vasil Boydev
-	pfp_army_leader_bul_vasil_boydev = {
+	#Nikola Mihov
+	pfp_army_leader_bul_nikola_mihov = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
-			has_country_flag = pfp_puppet_selected
+            has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_leadership
 			original_tag = BUL #Check if country is Bulgaria
 
@@ -323,14 +385,14 @@ pfp_puppet_management = {
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = BUL_vasil_boydev #Check if country has character
-			BUL_vasil_boydev = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_bul_vasil_boydev } #Check if Vasil Boydev is currently puppet leader
+			has_character = BUL_nikola_mihov #Check if country has character
+			BUL_nikola_mihov = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_bul_nikola_mihov } #Check if Nikola Mihov is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Vasil Boydev
+				#Nikola Mihov
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -339,34 +401,34 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 
 					create_country_leader = {
-						name = "Vasil Boydev"
+						name = "Nikola Mihov"
 						desc = ""
-						picture = GFX_portrait_bul_vasil_boydev
+						picture = GFX_portrait_bul_nikola_mihov
 						ideology = marxism
 					}
 
 					create_country_leader = {
-						name = "Vasil Boydev"
+						name = "Nikola Mihov"
 						desc = ""
-						picture = GFX_portrait_bul_vasil_boydev
+						picture = GFX_portrait_bul_nikola_mihov
 						ideology = conservatism
 					}
 
 					create_country_leader = {
-						name = "Vasil Boydev"
+						name = "Nikola Mihov"
 						desc = ""
-						picture = GFX_portrait_bul_vasil_boydev
+						picture = GFX_portrait_bul_nikola_mihov
 						ideology = centrism
 					}
 
 					create_country_leader = {
-						name = "Vasil Boydev"
+						name = "Nikola Mihov"
 						desc = ""
-						picture = GFX_portrait_bul_vasil_boydev
+						picture = GFX_portrait_bul_nikola_mihov
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_bul_vasil_boydev
+				set_global_flag = pfp_bul_nikola_mihov
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -429,6 +491,68 @@ pfp_puppet_management = {
 					}
 				}
 				set_global_flag = pfp_bul_asen_nikolov
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Georgi Popov
+	pfp_army_leader_bul_georgi_popov = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = BUL #Check if country is Bulgaria
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = BUL_georgi_popov #Check if country has character
+			BUL_georgi_popov = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_bul_georgi_popov } #Check if Georgi Popov is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Georgi Popov
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+
+					create_country_leader = {
+						name = "Georgi Popov"
+						desc = ""
+						picture = GFX_portrait_bul_georgi_popov
+						ideology = marxism
+					}
+
+					create_country_leader = {
+						name = "Georgi Popov"
+						desc = ""
+						picture = GFX_portrait_bul_georgi_popov
+						ideology = conservatism
+					}
+
+					create_country_leader = {
+						name = "Georgi Popov"
+						desc = ""
+						picture = GFX_portrait_bul_georgi_popov
+						ideology = centrism
+					}
+
+					create_country_leader = {
+						name = "Georgi Popov"
+						desc = ""
+						picture = GFX_portrait_bul_georgi_popov
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_bul_georgi_popov
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -553,130 +677,6 @@ pfp_puppet_management = {
 					}
 				}
 				set_global_flag = pfp_bul_damian_velchev
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Konstantin Lukash
-	pfp_army_leader_bul_konstantin_lukash = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-			has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = BUL #Check if country is Bulgaria
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = BUL_konstantin_lukash #Check if country has character
-			BUL_konstantin_lukash = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_bul_konstantin_lukash } #Check if Konstantin Lukash is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Konstantin Lukash
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-
-					create_country_leader = {
-						name = "Konstantin Lukash"
-						desc = ""
-						picture = GFX_portrait_bul_konstantin_lukash
-						ideology = marxism
-					}
-
-					create_country_leader = {
-						name = "Konstantin Lukash"
-						desc = ""
-						picture = GFX_portrait_bul_konstantin_lukash
-						ideology = conservatism
-					}
-
-					create_country_leader = {
-						name = "Konstantin Lukash"
-						desc = ""
-						picture = GFX_portrait_bul_konstantin_lukash
-						ideology = centrism
-					}
-
-					create_country_leader = {
-						name = "Konstantin Lukash"
-						desc = ""
-						picture = GFX_portrait_bul_konstantin_lukash
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_bul_konstantin_lukash
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Angel Dotsev
-	pfp_army_leader_bul_angel_dotsev = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-			has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = BUL #Check if country is Bulgaria
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = BUL_angel_dotsev #Check if country has character
-			BUL_angel_dotsev = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_bul_angel_dotsev } #Check if Angel Dotsev is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Angel Dotsev
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-
-					create_country_leader = {
-						name = "Angel Dotsev"
-						desc = ""
-						picture = GFX_portrait_bul_angel_dotsev
-						ideology = marxism
-					}
-
-					create_country_leader = {
-						name = "Angel Dotsev"
-						desc = ""
-						picture = GFX_portrait_bul_angel_dotsev
-						ideology = conservatism
-					}
-
-					create_country_leader = {
-						name = "Angel Dotsev"
-						desc = ""
-						picture = GFX_portrait_bul_angel_dotsev
-						ideology = centrism
-					}
-
-					create_country_leader = {
-						name = "Angel Dotsev"
-						desc = ""
-						picture = GFX_portrait_bul_angel_dotsev
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_bul_angel_dotsev
 			}
 		}
 		ai_will_do = { factor = 0 }

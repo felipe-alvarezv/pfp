@@ -1,68 +1,6 @@
 pfp_puppet_management = {
-	#Alan Brooke
-	pfp_army_leader_eng_alan_brooke = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ENG #Check if country is United Kingdom
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" }
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = ENG_alan_brooke #Check if country has character
-			ENG_alan_brooke = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_alan_brooke } #Check if Alan Brooke is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Alan Brooke
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Alan Brooke"
-						desc = ""
-						picture = GFX_portrait_ENG_alan_brooke
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Alan Brooke"
-						desc = ""
-						picture = GFX_portrait_ENG_alan_brooke
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Alan Brooke"
-						desc = ""
-						picture = GFX_portrait_ENG_alan_brooke
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Alan Brooke"
-						desc = ""
-						picture = GFX_portrait_ENG_alan_brooke
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_eng_alan_brooke
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Bernard Montgomery
-	pfp_army_leader_eng_bernard_montgomery = {
+	#Harold Alexander
+	pfp_army_leader_eng_harold_alexander = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
@@ -74,15 +12,15 @@ pfp_puppet_management = {
 				has_country_leader = { name = "Military Junta" } 
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
-			
-			has_character = ENG_bernard_montgomery #Check if country has character
-			ENG_bernard_montgomery = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_bernard_montgomery } #Check if Bernard Montgomery is already a leader
+
+			has_character = ENG_harold_alexander #Check if country has character
+			ENG_harold_alexander = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_harold_alexander } #Check if Harold Alexander is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Bernard Montgomery
+				#Harold Alexander
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -91,34 +29,34 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Bernard Montgomery"
+						name = "Harold Alexander"
 						desc = ""
-						picture = GFX_portrait_ENG_bernard_montgomery
+						picture = GFX_portrait_ENG_harold_alexander
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Bernard Montgomery"
+						name = "Harold Alexander"
 						desc = ""
-						picture = GFX_portrait_ENG_bernard_montgomery
+						picture = GFX_portrait_ENG_harold_alexander
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Bernard Montgomery"
+						name = "Harold Alexander"
 						desc = ""
-						picture = GFX_portrait_ENG_bernard_montgomery
+						picture = GFX_portrait_ENG_harold_alexander
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Bernard Montgomery"
+						name = "Harold Alexander"
 						desc = ""
-						picture = GFX_portrait_ENG_bernard_montgomery
+						picture = GFX_portrait_ENG_harold_alexander
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_eng_bernard_montgomery
+				set_global_flag = pfp_eng_harold_alexander
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -185,8 +123,8 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#William Slim
-	pfp_army_leader_eng_william_slim = {
+	#Merton Beckwith-Smith
+	pfp_army_leader_eng_merton_beckwithsmith = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
@@ -199,14 +137,14 @@ pfp_puppet_management = {
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = ENG_william_slim #Check if country has character
-			ENG_william_slim = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_william_slim } #Check if William Slim is currently puppet leader
+			has_character = ENG_merton_beckwithsmith #Check if country has character
+			ENG_merton_beckwithsmith = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_merton_beckwithsmith } #Check if Merton Beckwith-Smith is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#William Slim
+				#Merton Beckwith-Smith
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -215,40 +153,40 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "William Slim"
+						name = "Merton Beckwith-Smith"
 						desc = ""
-						picture = GFX_portrait_ENG_william_slim
+						picture = GFX_portrait_ENG_merton_beckwithsmith
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "William Slim"
+						name = "Merton Beckwith-Smith"
 						desc = ""
-						picture = GFX_portrait_ENG_william_slim
+						picture = GFX_portrait_ENG_merton_beckwithsmith
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "William Slim"
+						name = "Merton Beckwith-Smith"
 						desc = ""
-						picture = GFX_portrait_ENG_william_slim
+						picture = GFX_portrait_ENG_merton_beckwithsmith
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "William Slim"
+						name = "Merton Beckwith-Smith"
 						desc = ""
-						picture = GFX_portrait_ENG_william_slim
+						picture = GFX_portrait_ENG_merton_beckwithsmith
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_eng_william_slim
+				set_global_flag = pfp_eng_merton_beckwithsmith
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Harold Alexander
-	pfp_army_leader_eng_harold_alexander = {
+	#Alan Brooke
+	pfp_army_leader_eng_alan_brooke = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
@@ -257,18 +195,18 @@ pfp_puppet_management = {
 
 			var:FROM.pfp_puppet_selection = {
 				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
+				has_country_leader = { name = "Military Junta" }
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = ENG_harold_alexander #Check if country has character
-			ENG_harold_alexander = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_harold_alexander } #Check if Harold Alexander is currently puppet leader
+			has_character = ENG_alan_brooke #Check if country has character
+			ENG_alan_brooke = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_alan_brooke } #Check if Alan Brooke is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Harold Alexander
+				#Alan Brooke
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -277,344 +215,34 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Harold Alexander"
+						name = "Alan Brooke"
 						desc = ""
-						picture = GFX_portrait_ENG_harold_alexander
+						picture = GFX_portrait_ENG_alan_brooke
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Harold Alexander"
+						name = "Alan Brooke"
 						desc = ""
-						picture = GFX_portrait_ENG_harold_alexander
+						picture = GFX_portrait_ENG_alan_brooke
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Harold Alexander"
+						name = "Alan Brooke"
 						desc = ""
-						picture = GFX_portrait_ENG_harold_alexander
+						picture = GFX_portrait_ENG_alan_brooke
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Harold Alexander"
+						name = "Alan Brooke"
 						desc = ""
-						picture = GFX_portrait_ENG_harold_alexander
+						picture = GFX_portrait_ENG_alan_brooke
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_eng_harold_alexander
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Neil Ritchie
-	pfp_army_leader_eng_neil_ritchie = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ENG #Check if country is United Kingdom
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = ENG_neil_ritchie #Check if country has character
-			ENG_neil_ritchie = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_neil_ritchie } #Check if Neil Ritchie is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Neil Ritchie
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Neil Ritchie"
-						desc = ""
-						picture = GFX_portrait_ENG_neil_ritchie
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Neil Ritchie"
-						desc = ""
-						picture = GFX_portrait_ENG_neil_ritchie
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Neil Ritchie"
-						desc = ""
-						picture = GFX_portrait_ENG_neil_ritchie
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Neil Ritchie"
-						desc = ""
-						picture = GFX_portrait_ENG_neil_ritchie
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_eng_neil_ritchie
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Alan Cunningham
-	pfp_army_leader_eng_alan_cunningham = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ENG #Check if country is United Kingdom
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = ENG_alan_cunningham #Check if country has character
-			ENG_alan_cunningham = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_alan_cunningham } #Check if Alan Cunningham is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Alan Cunningham
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Alan Cunningham"
-						desc = ""
-						picture = GFX_portrait_ENG_alan_cunningham
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Alan Cunningham"
-						desc = ""
-						picture = GFX_portrait_ENG_alan_cunningham
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Alan Cunningham"
-						desc = ""
-						picture = GFX_portrait_ENG_alan_cunningham
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Alan Cunningham"
-						desc = ""
-						picture = GFX_portrait_ENG_alan_cunningham
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_eng_alan_cunningham
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Richard O'Connor
-	pfp_army_leader_eng_richard_oconnor = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ENG #Check if country is United Kingdom
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = ENG_richard_oconnor #Check if country has character
-			ENG_richard_oconnor = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_richard_oconnor } #Check if Richard O'Connor is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Richard O'Connor
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Richard O'Connor"
-						desc = ""
-						picture = GFX_portrait_ENG_richard_oconnor
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Richard O'Connor"
-						desc = ""
-						picture = GFX_portrait_ENG_richard_oconnor
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Richard O'Connor"
-						desc = ""
-						picture = GFX_portrait_ENG_richard_oconnor
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Richard O'Connor"
-						desc = ""
-						picture = GFX_portrait_ENG_richard_oconnor
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_eng_richard_oconnor
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#John Vereker
-	pfp_army_leader_eng_john_vereker = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ENG #Check if country is United Kingdom
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = ENG_john_vereker #Check if country has character
-			ENG_john_vereker = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_john_vereker } #Check if John Vereker is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#John Vereker
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "John Vereker"
-						desc = ""
-						picture = GFX_portrait_ENG_john_vereker
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "John Vereker"
-						desc = ""
-						picture = GFX_portrait_ENG_john_vereker
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "John Vereker"
-						desc = ""
-						picture = GFX_portrait_ENG_john_vereker
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "John Vereker"
-						desc = ""
-						picture = GFX_portrait_ENG_john_vereker
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_eng_john_vereker
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Henry Wilson
-	pfp_army_leader_eng_henry_wilson = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ENG #Check if country is United Kingdom
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = ENG_henry_wilson #Check if country has character
-			ENG_henry_wilson = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_henry_wilson } #Check if Henry Wilson is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Henry Wilson
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Henry Wilson"
-						desc = ""
-						picture = GFX_portrait_ENG_henry_wilson
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Henry Wilson"
-						desc = ""
-						picture = GFX_portrait_ENG_henry_wilson
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Henry Wilson"
-						desc = ""
-						picture = GFX_portrait_ENG_henry_wilson
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Henry Wilson"
-						desc = ""
-						picture = GFX_portrait_ENG_henry_wilson
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_eng_henry_wilson
+				set_global_flag = pfp_eng_alan_brooke
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -681,8 +309,8 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Oliver Leese
-	pfp_army_leader_eng_oliver_leese = {
+	#Alan Cunningham
+	pfp_army_leader_eng_alan_cunningham = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
@@ -695,14 +323,14 @@ pfp_puppet_management = {
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = ENG_oliver_leese #Check if country has character
-			ENG_oliver_leese = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_oliver_leese } #Check if Oliver Leese is currently puppet leader
+			has_character = ENG_alan_cunningham #Check if country has character
+			ENG_alan_cunningham = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_alan_cunningham } #Check if Alan Cunningham is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Oliver Leese
+				#Alan Cunningham
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -711,34 +339,34 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Oliver Leese"
+						name = "Alan Cunningham"
 						desc = ""
-						picture = GFX_portrait_ENG_oliver_leese
+						picture = GFX_portrait_ENG_alan_cunningham
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Oliver Leese"
+						name = "Alan Cunningham"
 						desc = ""
-						picture = GFX_portrait_ENG_oliver_leese
+						picture = GFX_portrait_ENG_alan_cunningham
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Oliver Leese"
+						name = "Alan Cunningham"
 						desc = ""
-						picture = GFX_portrait_ENG_oliver_leese
+						picture = GFX_portrait_ENG_alan_cunningham
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Oliver Leese"
+						name = "Alan Cunningham"
 						desc = ""
-						picture = GFX_portrait_ENG_oliver_leese
+						picture = GFX_portrait_ENG_alan_cunningham
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_eng_oliver_leese
+				set_global_flag = pfp_eng_alan_cunningham
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -801,130 +429,6 @@ pfp_puppet_management = {
 					}
 				}
 				set_global_flag = pfp_eng_miles_dempsey
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#Archibald Wavell
-	pfp_army_leader_eng_archibald_wavell = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ENG #Check if country is United Kingdom
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = ENG_archibald_wavell #Check if country has character
-			ENG_archibald_wavell = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_archibald_wavell } #Check if Archibald Wavell is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#Archibald Wavell
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "Archibald Wavell"
-						desc = ""
-						picture = GFX_portrait_ENG_archibald_wavell
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "Archibald Wavell"
-						desc = ""
-						picture = GFX_portrait_ENG_archibald_wavell
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "Archibald Wavell"
-						desc = ""
-						picture = GFX_portrait_ENG_archibald_wavell
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "Archibald Wavell"
-						desc = ""
-						picture = GFX_portrait_ENG_archibald_wavell
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_eng_archibald_wavell
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	#William Platt
-	pfp_army_leader_eng_william_platt = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_leadership
-			original_tag = ENG #Check if country is United Kingdom
-
-			var:FROM.pfp_puppet_selection = {
-				is_subject_of = FROM #Check if selection is puppet of FROM
-				has_country_leader = { name = "Military Junta" } 
-				has_government = FROM #Check to see if puppet has same government as FROM
-			}
-
-			has_character = ENG_william_platt #Check if country has character
-			ENG_william_platt = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_william_platt } #Check if William Platt is currently puppet leader
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_army_leader_appoint_desc
-			hidden_effect = {
-				#William Platt
-				var:FROM.pfp_puppet_selection = {
-					#Kill the current leaders of selection
-					kill_ideology_leader = communism
-					kill_ideology_leader = democratic
-					kill_ideology_leader = neutrality
-					kill_ideology_leader = fascism
-				
-					create_country_leader = {
-						name = "William Platt"
-						desc = ""
-						picture = GFX_portrait_ENG_william_platt
-						ideology = marxism
-					}
-				
-					create_country_leader = {
-						name = "William Platt"
-						desc = ""
-						picture = GFX_portrait_ENG_william_platt
-						ideology = conservatism
-					}
-				
-					create_country_leader = {
-						name = "William Platt"
-						desc = ""
-						picture = GFX_portrait_ENG_william_platt
-						ideology = centrism
-					}
-				
-					create_country_leader = {
-						name = "William Platt"
-						desc = ""
-						picture = GFX_portrait_ENG_william_platt
-						ideology = fascism_ideology
-					}
-				}
-				set_global_flag = pfp_eng_william_platt
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -1177,6 +681,254 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	#Oliver Leese
+	pfp_army_leader_eng_oliver_leese = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = ENG #Check if country is United Kingdom
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = ENG_oliver_leese #Check if country has character
+			ENG_oliver_leese = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_oliver_leese } #Check if Oliver Leese is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Oliver Leese
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Oliver Leese"
+						desc = ""
+						picture = GFX_portrait_ENG_oliver_leese
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Oliver Leese"
+						desc = ""
+						picture = GFX_portrait_ENG_oliver_leese
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Oliver Leese"
+						desc = ""
+						picture = GFX_portrait_ENG_oliver_leese
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Oliver Leese"
+						desc = ""
+						picture = GFX_portrait_ENG_oliver_leese
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_eng_oliver_leese
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Bernard Montgomery
+	pfp_army_leader_eng_bernard_montgomery = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = ENG #Check if country is United Kingdom
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+			
+			has_character = ENG_bernard_montgomery #Check if country has character
+			ENG_bernard_montgomery = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_bernard_montgomery } #Check if Bernard Montgomery is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Bernard Montgomery
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Bernard Montgomery"
+						desc = ""
+						picture = GFX_portrait_ENG_bernard_montgomery
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Bernard Montgomery"
+						desc = ""
+						picture = GFX_portrait_ENG_bernard_montgomery
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Bernard Montgomery"
+						desc = ""
+						picture = GFX_portrait_ENG_bernard_montgomery
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Bernard Montgomery"
+						desc = ""
+						picture = GFX_portrait_ENG_bernard_montgomery
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_eng_bernard_montgomery
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Thomas Moore
+	pfp_army_leader_eng_thomas_moore = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = ENG #Check if country is United Kingdom
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = ENG_thomas_moore #Check if country has character
+			ENG_thomas_moore = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_thomas_moore } #Check if Tom Moore is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Tom Moore
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Tom Moore"
+						desc = ""
+						picture = GFX_portrait_ENG_thomas_moore
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Tom Moore"
+						desc = ""
+						picture = GFX_portrait_ENG_thomas_moore
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Tom Moore"
+						desc = ""
+						picture = GFX_portrait_ENG_thomas_moore
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Tom Moore"
+						desc = ""
+						picture = GFX_portrait_ENG_thomas_moore
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_eng_thomas_moore
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Richard O'Connor
+	pfp_army_leader_eng_richard_oconnor = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = ENG #Check if country is United Kingdom
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = ENG_richard_oconnor #Check if country has character
+			ENG_richard_oconnor = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_richard_oconnor } #Check if Richard O'Connor is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Richard O'Connor
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Richard O'Connor"
+						desc = ""
+						picture = GFX_portrait_ENG_richard_oconnor
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Richard O'Connor"
+						desc = ""
+						picture = GFX_portrait_ENG_richard_oconnor
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Richard O'Connor"
+						desc = ""
+						picture = GFX_portrait_ENG_richard_oconnor
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Richard O'Connor"
+						desc = ""
+						picture = GFX_portrait_ENG_richard_oconnor
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_eng_richard_oconnor
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	#Arthur Percival
 	pfp_army_leader_eng_arthur_percival = {
 		visible = {
@@ -1235,6 +987,68 @@ pfp_puppet_management = {
 					}
 				}
 				set_global_flag = pfp_eng_arthur_percival
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#William Platt
+	pfp_army_leader_eng_william_platt = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = ENG #Check if country is United Kingdom
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = ENG_william_platt #Check if country has character
+			ENG_william_platt = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_william_platt } #Check if William Platt is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#William Platt
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "William Platt"
+						desc = ""
+						picture = GFX_portrait_ENG_william_platt
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "William Platt"
+						desc = ""
+						picture = GFX_portrait_ENG_william_platt
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "William Platt"
+						desc = ""
+						picture = GFX_portrait_ENG_william_platt
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "William Platt"
+						desc = ""
+						picture = GFX_portrait_ENG_william_platt
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_eng_william_platt
 			}
 		}
 		ai_will_do = { factor = 0 }
@@ -1301,6 +1115,130 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	#Neil Ritchie
+	pfp_army_leader_eng_neil_ritchie = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = ENG #Check if country is United Kingdom
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = ENG_neil_ritchie #Check if country has character
+			ENG_neil_ritchie = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_neil_ritchie } #Check if Neil Ritchie is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Neil Ritchie
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Neil Ritchie"
+						desc = ""
+						picture = GFX_portrait_ENG_neil_ritchie
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Neil Ritchie"
+						desc = ""
+						picture = GFX_portrait_ENG_neil_ritchie
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Neil Ritchie"
+						desc = ""
+						picture = GFX_portrait_ENG_neil_ritchie
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Neil Ritchie"
+						desc = ""
+						picture = GFX_portrait_ENG_neil_ritchie
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_eng_neil_ritchie
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#William Slim
+	pfp_army_leader_eng_william_slim = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = ENG #Check if country is United Kingdom
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = ENG_william_slim #Check if country has character
+			ENG_william_slim = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_william_slim } #Check if William Slim is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#William Slim
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "William Slim"
+						desc = ""
+						picture = GFX_portrait_ENG_william_slim
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "William Slim"
+						desc = ""
+						picture = GFX_portrait_ENG_william_slim
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "William Slim"
+						desc = ""
+						picture = GFX_portrait_ENG_william_slim
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "William Slim"
+						desc = ""
+						picture = GFX_portrait_ENG_william_slim
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_eng_william_slim
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	#Jackie Smyth
 	pfp_army_leader_eng_jackie_smyth = {
 		visible = {
@@ -1363,8 +1301,8 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Merton Beckwith-Smith
-	pfp_army_leader_eng_merton_beckwithsmith = {
+	#John Vereker
+	pfp_army_leader_eng_john_vereker = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
@@ -1377,14 +1315,14 @@ pfp_puppet_management = {
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = ENG_merton_beckwithsmith #Check if country has character
-			ENG_merton_beckwithsmith = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_merton_beckwithsmith } #Check if Merton Beckwith-Smith is currently puppet leader
+			has_character = ENG_john_vereker #Check if country has character
+			ENG_john_vereker = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_john_vereker } #Check if John Vereker is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Merton Beckwith-Smith
+				#John Vereker
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -1393,40 +1331,40 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Merton Beckwith-Smith"
+						name = "John Vereker"
 						desc = ""
-						picture = GFX_portrait_ENG_merton_beckwithsmith
+						picture = GFX_portrait_ENG_john_vereker
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Merton Beckwith-Smith"
+						name = "John Vereker"
 						desc = ""
-						picture = GFX_portrait_ENG_merton_beckwithsmith
+						picture = GFX_portrait_ENG_john_vereker
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Merton Beckwith-Smith"
+						name = "John Vereker"
 						desc = ""
-						picture = GFX_portrait_ENG_merton_beckwithsmith
+						picture = GFX_portrait_ENG_john_vereker
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Merton Beckwith-Smith"
+						name = "John Vereker"
 						desc = ""
-						picture = GFX_portrait_ENG_merton_beckwithsmith
+						picture = GFX_portrait_ENG_john_vereker
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_eng_merton_beckwithsmith
+				set_global_flag = pfp_eng_john_vereker
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	#Tom Moore
-	pfp_army_leader_eng_thomas_moore = {
+	#Archibald Wavell
+	pfp_army_leader_eng_archibald_wavell = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
@@ -1439,14 +1377,14 @@ pfp_puppet_management = {
 				has_government = FROM #Check to see if puppet has same government as FROM
 			}
 
-			has_character = ENG_thomas_moore #Check if country has character
-			ENG_thomas_moore = { is_army_leader = yes } #Check if currently General/Field Marshal
-			NOT = { has_global_flag = pfp_eng_thomas_moore } #Check if Tom Moore is currently puppet leader
+			has_character = ENG_archibald_wavell #Check if country has character
+			ENG_archibald_wavell = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_archibald_wavell } #Check if Archibald Wavell is currently puppet leader
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_army_leader_appoint_desc
 			hidden_effect = {
-				#Tom Moore
+				#Archibald Wavell
 				var:FROM.pfp_puppet_selection = {
 					#Kill the current leaders of selection
 					kill_ideology_leader = communism
@@ -1455,34 +1393,96 @@ pfp_puppet_management = {
 					kill_ideology_leader = fascism
 				
 					create_country_leader = {
-						name = "Tom Moore"
+						name = "Archibald Wavell"
 						desc = ""
-						picture = GFX_portrait_ENG_thomas_moore
+						picture = GFX_portrait_ENG_archibald_wavell
 						ideology = marxism
 					}
 				
 					create_country_leader = {
-						name = "Tom Moore"
+						name = "Archibald Wavell"
 						desc = ""
-						picture = GFX_portrait_ENG_thomas_moore
+						picture = GFX_portrait_ENG_archibald_wavell
 						ideology = conservatism
 					}
 				
 					create_country_leader = {
-						name = "Tom Moore"
+						name = "Archibald Wavell"
 						desc = ""
-						picture = GFX_portrait_ENG_thomas_moore
+						picture = GFX_portrait_ENG_archibald_wavell
 						ideology = centrism
 					}
 				
 					create_country_leader = {
-						name = "Tom Moore"
+						name = "Archibald Wavell"
 						desc = ""
-						picture = GFX_portrait_ENG_thomas_moore
+						picture = GFX_portrait_ENG_archibald_wavell
 						ideology = fascism_ideology
 					}
 				}
-				set_global_flag = pfp_eng_thomas_moore
+				set_global_flag = pfp_eng_archibald_wavell
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Henry Wilson
+	pfp_army_leader_eng_henry_wilson = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = ENG #Check if country is United Kingdom
+
+			var:FROM.pfp_puppet_selection = {
+				is_subject_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = ENG_henry_wilson #Check if country has character
+			ENG_henry_wilson = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_eng_henry_wilson } #Check if Henry Wilson is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Henry Wilson
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Henry Wilson"
+						desc = ""
+						picture = GFX_portrait_ENG_henry_wilson
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Henry Wilson"
+						desc = ""
+						picture = GFX_portrait_ENG_henry_wilson
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Henry Wilson"
+						desc = ""
+						picture = GFX_portrait_ENG_henry_wilson
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Henry Wilson"
+						desc = ""
+						picture = GFX_portrait_ENG_henry_wilson
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_eng_henry_wilson
 			}
 		}
 		ai_will_do = { factor = 0 }
