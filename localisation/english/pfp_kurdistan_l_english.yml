@@ -19,7 +19,7 @@ l_english:
 
  #Decisions Information
  pfp_kurdistan:0 "Establish Military Administration in Kurdistan"
- pfp_kurdistan_required_states_diyarbakir:0 "Controls §YDiyarbakir§!."
+ pfp_kurdistan_required_states_diyarbakir:0 "Controls §YDiyarbakır§!."
  pfp_kurdistan_required_states_hakkari:0 "Controls §YHakkari§!."
  pfp_kurdistan_required_states_tunceli:0 "Controls §YTunceli§!."
  pfp_kurdistan_coring_states:0 "§YKurdistan§! gains cores on all listed states.\n"
