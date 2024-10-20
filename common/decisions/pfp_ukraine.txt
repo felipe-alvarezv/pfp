@@ -2,6 +2,7 @@ pfp_category = {
 	pfp_ukraine = {
 		allowed = {
 			NOT = {
+				original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = P66 #PFP Ukraine
 			}
