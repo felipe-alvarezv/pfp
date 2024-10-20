@@ -1,0 +1,74 @@
+pfp_category = {
+    pfp_switzerland = {
+        allowed = {
+            NOT = {
+                original_tag = SWI #Switzerland
+                original_tag = P78 #PFP Switzerland
+            }
+        }
+        available = {
+            is_subject = no
+            #Swiss Plateau
+            custom_trigger_tooltip = {
+                tooltip = pfp_switzerland_required_states_swiss_plateau
+                has_full_control_of_state = 3 #Swiss Plateau
+            }
+            #Eastern Swiss Alps
+            custom_trigger_tooltip = {
+                tooltip = pfp_switzerland_required_states_eastern_swiss_alps
+                has_full_control_of_state = 151 #Eastern Swiss Alps
+            }
+            #Jura Mountains
+            custom_trigger_tooltip = {
+                tooltip = pfp_switzerland_required_states_jura_mountains
+                has_full_control_of_state = 845 #Jura Mountains
+            }
+            #Ticino
+            custom_trigger_tooltip = {
+                tooltip = pfp_switzerland_required_states_ticino
+                has_full_control_of_state = 846 #Ticino
+            }
+            #Western Swiss Alps
+            custom_trigger_tooltip = {
+                tooltip = pfp_switzerland_required_states_western_swiss_alps
+                has_full_control_of_state = 847 #Western Swiss Alps
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 3 #Swiss Plateau
+                has_full_control_of_state = 151 #Eastern Swiss Alps
+                has_full_control_of_state = 845 #Jura Mountains
+                has_full_control_of_state = 846 #Ticino
+                has_full_control_of_state = 847 #Western Swiss Alps
+            }
+            NOT = { has_global_flag = pfp_switzerland_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 3 #Swiss Plateau
+                state = 151 #Eastern Swiss Alps
+                state = 845 #Jura Mountains
+                state = 846 #Ticino
+                state = 847 #Western Swiss Alps
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_switzerland_coring_states
+            custom_effect_tooltip = pfp_switzerland_transfer_states
+            custom_effect_tooltip = pfp_switzerland_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_switzerland = yes
+                set_autonomy = { target = P78 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P78 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

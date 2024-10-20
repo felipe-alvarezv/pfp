@@ -1,0 +1,60 @@
+pfp_category = {
+    pfp_romania = {
+        allowed = {
+            NOT = {
+                original_tag = ROM #Romania
+                original_tag = P79 #PFP Romania
+            }
+        }
+        available = {
+            is_subject = no
+            #Muntenia
+            custom_trigger_tooltip = {
+                tooltip = pfp_romania_required_states_muntenia
+                has_full_control_of_state = 46 #Muntenia
+            }
+            #Moldova
+            custom_trigger_tooltip = {
+                tooltip = pfp_romania_required_states_moldova
+                has_full_control_of_state = 79 #Moldova
+            }
+            #Oltenia
+            custom_trigger_tooltip = {
+                tooltip = pfp_romania_required_states_oltenia
+                has_full_control_of_state = 81 #Oltenia
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 46 #Muntenia
+                has_full_control_of_state = 79 #Moldova
+                has_full_control_of_state = 81 #Oltenia
+            }
+            NOT = { has_global_flag = pfp_romania_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 46 #Muntenia
+                state = 79 #Moldova
+                state = 81 #Oltenia
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_romania_coring_states
+            custom_effect_tooltip = pfp_romania_transfer_states
+            custom_effect_tooltip = pfp_romania_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_romania = yes
+                set_autonomy = { target = P79 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P79 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

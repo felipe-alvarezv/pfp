@@ -1,0 +1,25 @@
+#Scripted effect to release Romania (P79)
+pfp_release_romania = {
+    hidden_effect = {
+        #Add cores to Romanian territory
+        46 = { add_core_of = P79 } #Muntenia
+        79 = { add_core_of = P79 } #Moldova
+        81 = { add_core_of = P79 } #Oltenia
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P79 }
+            transfer_state_to = P79
+        }
+
+        #Transfer all technology to formable puppet
+        P79 = { transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_romania_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P79 }
+        news_event = { id = pfp_news.01 }
+    }
+}

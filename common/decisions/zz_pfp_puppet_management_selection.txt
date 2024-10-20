@@ -35,6 +35,18 @@ pfp_puppet_management = {
             set_variable = { pfp_puppet_selection = P55 }
         }
     }
+    pfp_puppet_selection_austria = { #Austria
+        visible = {
+            has_country_flag = pfp_puppet_management_view
+            NOT = { has_country_flag = pfp_puppet_selected }
+            P77 = { is_subject_of = FROM }
+        }
+        complete_effect = {
+            custom_effect_tooltip = pfp_puppet_selection_desc
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P77 }
+        }
+    }
     pfp_puppet_selection_baltic = { #Baltic
         visible = {
             has_country_flag = pfp_puppet_management_view
@@ -659,6 +671,18 @@ pfp_puppet_management = {
             set_variable = { pfp_puppet_selection = P22 }
         }
     }
+    pfp_puppet_selection_romania = { #Romania
+        visible = {
+            has_country_flag = pfp_puppet_management_view
+            NOT = { has_country_flag = pfp_puppet_selected }
+            P79 = { is_subject_of = FROM }
+        }
+        complete_effect = {
+            custom_effect_tooltip = pfp_puppet_selection_desc
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P79 }
+        }
+    }
     pfp_puppet_selection_scandinavia = { #Scandinavia
         visible = {
             has_country_flag = pfp_puppet_management_view
@@ -753,6 +777,18 @@ pfp_puppet_management = {
             custom_effect_tooltip = pfp_puppet_selection_desc
             set_country_flag = pfp_puppet_selected
             set_variable = { pfp_puppet_selection = P74 }
+        }
+    }
+    pfp_puppet_selection_switzerland = { #Switzerland
+        visible = {
+            has_country_flag = pfp_puppet_management_view
+            NOT = { has_country_flag = pfp_puppet_selected }
+            P78 = { is_subject_of = FROM }
+        }
+        complete_effect = {
+            custom_effect_tooltip = pfp_puppet_selection_desc
+            set_country_flag = pfp_puppet_selected
+            set_variable = { pfp_puppet_selection = P78 }
         }
     }
     pfp_puppet_selection_transcaucasia = { #Transcaucasia
