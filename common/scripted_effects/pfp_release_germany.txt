@@ -18,6 +18,7 @@ pfp_release_germany = {
 		52 = { add_core_of = P13 } #Oberbayern
 		53 = { add_core_of = P13 } #Niederbayern
 		54 = { add_core_of = P13 } #Franken
+		978 = { add_core_of = P13 } #Baden
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

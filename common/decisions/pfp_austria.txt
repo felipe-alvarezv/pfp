@@ -28,6 +28,16 @@ pfp_category = {
                 tooltip = pfp_austria_required_states_vorarlberg
                 has_full_control_of_state = 848 #Vorarlberg
             }
+            #Burgenland
+            custom_trigger_tooltip = {
+                tooltip = pfp_austria_required_states_burgenland
+                has_full_control_of_state = 975 #Burgenland
+            }
+            #Steiermark-Kärnten
+            custom_trigger_tooltip = {
+                tooltip = pfp_austria_required_states_steirmark_karnten
+                has_full_control_of_state = 976 #Steiermark-Kärnten
+            }
         }
         visible = {
             OR = {
@@ -35,6 +45,8 @@ pfp_category = {
                 has_full_control_of_state = 152 #Upper Austria
                 has_full_control_of_state = 153 #Tyrol
                 has_full_control_of_state = 848 #Vorarlberg
+                has_full_control_of_state = 975 #Burgenland
+                has_full_control_of_state = 976 #Steiermark-Kärnten
             }
             NOT = { has_global_flag = pfp_austria_flag }
         }
@@ -44,6 +56,8 @@ pfp_category = {
                 state = 152 #Upper Austria
                 state = 153 #Tyrol
                 state = 848 #Vorarlberg
+                state = 975 #Burgenland
+                state = 976 #Steiermark-Kärnten
             }
         }
         icon = generic_military

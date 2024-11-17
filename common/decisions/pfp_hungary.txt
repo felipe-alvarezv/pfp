@@ -23,10 +23,24 @@ pfp_category = {
 				tooltip = pfp_hungary_required_states_transdanubia
 				has_full_control_of_state = 155 #Transdunabia
 			}
+			#Bács-Kiskun
+			custom_trigger_tooltip = {
+				tooltip = pfp_hungary_required_states_bacs_kiskun
+				has_full_control_of_state = 973 #Bács-Kiskun
+			}
+			#South Transdanubia
+			custom_trigger_tooltip = {
+				tooltip = pfp_hungary_required_states_south_transdanubia
+				has_full_control_of_state = 974 #South Transdanubia
+			}
 		}
 		visible = {
 			OR = {
 				has_full_control_of_state = 43 #Northern Hungary
+				has_full_control_of_state = 154 #Alföld
+				has_full_control_of_state = 155 #Transdunabia
+				has_full_control_of_state = 973 #Bács-Kiskun
+				has_full_control_of_state = 974 #South Transdanubia
 			}
 			NOT = { has_global_flag = pfp_hungary_flag }
 		}
@@ -35,6 +49,8 @@ pfp_category = {
 				state = 43 #Northern Hungary
 				state = 154 #Alfold
 				state = 155 #Transdanubia
+				state = 973 #Bács-Kiskun
+				state = 974 #South Transdanubia
 			}
 		}
 		icon = generic_military

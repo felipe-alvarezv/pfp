@@ -4,6 +4,8 @@ pfp_release_belgium = {
 		#Add cores to Belgian territory
 		6 = { add_core_of = P60 } #Vlaanderen
 		34 = { add_core_of = P60 } #Wallonie
+		977 = { add_core_of = P60 } #Antwerp
+		980 = { add_core_of = P60 } #Ardennes
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

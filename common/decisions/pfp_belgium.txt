@@ -18,11 +18,23 @@ pfp_category = {
 				tooltip = pfp_belgium_required_states_wallonie
 				has_full_control_of_state = 34 #Wallonie
 			}
+			#Antwerp
+			custom_trigger_tooltip = {
+				tooltip = pfp_belgium_required_states_antwerp
+				has_full_control_of_state = 977 #Antwerp
+			}
+			#Ardennes
+			custom_trigger_tooltip = {
+				tooltip = pfp_belgium_required_states_ardennes
+				has_full_control_of_state = 980 #Ardennes
+			}
 		}
 		visible = {
 			OR = {
 				has_full_control_of_state = 6 #Vlaanderen
 				has_full_control_of_state = 34 #Wallonie
+				has_full_control_of_state = 977 #Antwerp
+				has_full_control_of_state = 980 #Ardennes
 			}
 			NOT = { has_global_flag = pfp_belgium_flag }
 		}
@@ -30,6 +42,8 @@ pfp_category = {
 			highlight_state_targets = { 
 				state = 6 #Vlaanderen
 				state = 34 #Wallonie
+				state = 977 #Antwerp
+				state = 980 #Ardennes
 			}
 		}
 		icon = generic_military

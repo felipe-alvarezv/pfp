@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_territory_management_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_background.dds"
+	}
+	spriteType = {
+		name = "GFX_territory_management_close"
+		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_close.dds"
+	}
+}

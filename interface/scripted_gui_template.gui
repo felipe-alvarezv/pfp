@@ -1,0 +1,37 @@
+guiTypes = {
+	containerWindowType = {
+		name = "territory_management_window"
+		position = { x = 0 y = 0 }	
+		size = { width = 800 height = 650 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "territory_management_background"
+			quadTextureSprite ="GFX_territory_management_background"
+		}
+
+		buttonType = {
+			name ="territory_management_close"
+			spriteType = "GFX_territory_management_close"
+			position = { x = 680 y = 80 }
+			Orientation = "UPPER_LEFT"
+		}	
+	}
+
+	#instantTextboxType = {
+	#	name = "political_title"
+	#	position = { x = 45 y = 8 }
+	#	font = "hoi_36header"
+	#	borderSize = { x = 0 y = 0 }
+	#	text = "POLITICAL_POLITICAL"
+	#	maxWidth = 400
+	#	maxHeight = 20
+	#	fixedsize = yes
+	#}	
+}

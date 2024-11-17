@@ -88,6 +88,11 @@ pfp_category = {
 				tooltip = pfp_germany_required_states_sachsen
 				has_full_control_of_state = 65 #Sachsen
 			}
+			#Baden
+			custom_trigger_tooltip = {
+				tooltip = pfp_germany_required_states_baden
+				has_full_control_of_state = 978 #Baden
+			}
 		}
 		visible = {
 			OR = {
@@ -96,6 +101,7 @@ pfp_category = {
 				has_full_control_of_state = 55 #Hessen
 				has_full_control_of_state = 58 #Holstein
 				has_full_control_of_state = 64 #Brandenburg
+				has_full_control_of_state = 978 #Baden
 			}
 			NOT = { has_global_flag = pfp_germany_flag }
 		}
@@ -117,6 +123,7 @@ pfp_category = {
 				state = 62 #Vorpommern
 				state = 64 #Brandenburg
 				state = 65 #Sachsen
+				state = 978 #Baden
 			}
 		}
 		icon = generic_military

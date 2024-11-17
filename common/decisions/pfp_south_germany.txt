@@ -25,9 +25,15 @@ pfp_category = {
 				tooltip = pfp_south_germany_required_states_franken
 				has_full_control_of_state = 54 #Franken
 			}
+			#Baden
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_germany_required_states_baden
+				has_full_control_of_state = 978 #Baden
+			}
 		}
 		visible = {
 			has_full_control_of_state = 52 #Oberbayern
+			has_full_control_of_state = 978 #Baden
 			NOT = { has_global_flag = pfp_south_germany_flag }
 		}
 		highlight_states = {
@@ -36,6 +42,7 @@ pfp_category = {
 				state = 52 #Oberbayern
 				state = 53 #Niederbayern
 				state = 54 #Franken
+				state = 978 #Baden
 			}
 		}
 		icon = generic_military

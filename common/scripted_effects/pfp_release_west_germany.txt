@@ -13,6 +13,7 @@ pfp_release_west_germany = {
 		57 = { add_core_of = P31 } #Westfalen
 		58 = { add_core_of = P31 } #Holstein
 		59 = { add_core_of = P31 } #Hannover
+		978 = { add_core_of = P31 } #Baden
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

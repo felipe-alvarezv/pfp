@@ -60,9 +60,15 @@ pfp_category = {
 				tooltip = pfp_west_germany_required_states_hannover
 				has_full_control_of_state = 59 #Hannover
 			}
+			#Baden
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_germany_required_states_baden
+				has_full_control_of_state = 978 #Baden
+			}
 		}
 		visible = {
 			has_full_control_of_state = 51 #Rhineland
+			has_full_control_of_state = 978 #Baden
 			NOT = { has_global_flag = pfp_west_germany_flag }
 		}
 		highlight_states = {
@@ -78,6 +84,7 @@ pfp_category = {
 				state = 57 #Westfalen
 				state = 58 #Holstein
 				state = 59 #Hannover
+				state = 978 #Baden
 			}
 		}
 		icon = generic_military
