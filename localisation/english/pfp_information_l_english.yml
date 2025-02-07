@@ -104,12 +104,17 @@ l_english:
  pfp_puppet_management_options_back:0 "§RDeselect Option§!"
  pfp_puppet_management_options_back_desc:0 "Deselects the current management option."
 
+ #Territory Menu
+ pfp_puppet_management_territory_menu:0 "Territory Menu"
+
  #Change Ruling Party
  pfp_puppet_management_options_ideology:0 "Change Ruling Party"
  pfp_puppet_management_options_ideology_desc:0 "Changes the ruling party of puppet to match overlord."
+
  #Appoint Puppet Administration
  pfp_army_leader_appoint_desc:0 "Appoint as head of the military administration."
  pfp_army_leader_dismiss:0 "Dismiss Current Leader"
  pfp_army_leader_dismiss_desc:0 "Dismiss as head of the military administration."
+
  #Default Puppet Leader
  pfp_default_puppet_leader:0 "Military Junta"

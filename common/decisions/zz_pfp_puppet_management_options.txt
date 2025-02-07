@@ -25,7 +25,13 @@ pfp_puppet_management = {
             set_country_flag = pfp_puppet_management_options_territory
         }
     }
-   
+    pfp_puppet_management_territory_menu = {
+		icon = generic_industry
+		available = { is_ai = no }
+		fire_only_once = no
+		complete_effect = { set_country_flag = pfp_territory_management_window }
+		ai_will_do = { factor = 0 }
+	}	
     pfp_puppet_management_options_back = { #Deselect puppet management options
         visible = {
             has_country_flag = pfp_puppet_management_view

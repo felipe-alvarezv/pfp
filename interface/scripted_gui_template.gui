@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "territory_management_window"
 		position = { x = 0 y = 0 }	
-		size = { width = 800 height = 650 }
+		size = { width = 530 height = 400 }
 		orientation = center
 		origo = center
 		fade_time = 100
@@ -17,11 +17,32 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name ="territory_management_close"
-			spriteType = "GFX_territory_management_close"
-			position = { x = 680 y = 80 }
+			name ="territory_management_close_button"
+			spriteType = "GFX_territory_management_close_button"
+			position = { x = 495 y = 02 }
 			Orientation = "UPPER_LEFT"
-		}	
+		}
+
+		buttonType = {
+			name = "territory_management_select_button"
+			spriteType = "GFX_territory_management_red_select_button"
+			position = { x = 25  y = 125 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		buttonType = {
+			name = "territory_management_unselect_button"
+			spriteType = "GFX_territory_management_red_unselect_button"
+			position = { x = 50 y = 125 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		buttonType = {
+			name = "territory_management_transfer_button"
+			spriteType = "GFX_territory_management_red_transfer_button"
+			position = { x = 75 y = 125 }
+			Orientation = "UPPER_LEFT"
+		}
 	}
 
 	#instantTextboxType = {
