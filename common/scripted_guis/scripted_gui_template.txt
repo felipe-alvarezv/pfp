@@ -7,6 +7,21 @@ scripted_gui = {
 			ROOT = { has_country_flag = pfp_territory_management_window }
 		}
 
+		triggers = {
+			territory_management_select_button_click_enabled = { 
+				NOT = {
+					if = {
+						is_in_array = { global.territory_management_gridbox_array = THIS.id } 
+					}
+				}
+			}
+			territory_management_unselect_button_click_enabled = { 
+				if = {
+					is_in_array = { global.territory_management_gridbox_array = THIS.id } 
+				}
+			}
+		}
+
 		effects = {
 			territory_management_close_button_click = { 
 				ROOT = { clr_country_flag = pfp_territory_management_window } 
@@ -17,10 +32,12 @@ scripted_gui = {
 					value = THIS.id
 				}
 			}
-		}
-
-		triggers = {
-			   
+			territory_management_unselect_button_button_click = {
+				remove_from_array = {
+					array = global.territory_management_gridbox_array
+					value = THIS.id
+				}
+			}
 		}
 
 		dynamic_lists = { 

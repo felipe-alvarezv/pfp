@@ -102,10 +102,10 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "territory_management_gridbox"
-			position = { x = 45 y = 160 }
+			position = { x = 45 y = 175 }
 			size = { width = 560 height = 240 }
 			format = "UPPER_LEFT"
-			slotsize = { width = 140 height = 20 }
+			slotsize = { width = 140 height = 30 }
 			max_slots_horizontal = 4
 			max_slots_vertical = 6
 			add_horizontal = yes
