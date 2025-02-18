@@ -68,47 +68,4 @@ spriteTypes = {
 		name = "GFX_territory_management_background"
 		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_background.dds"
 	}
-	
-	#Close Button
-	spriteType = {
-		name = "GFX_territory_management_close_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_close_button.dds"
-	}
-	
-	#Select State Button - Red
-	spriteType = {
-		name = "GFX_territory_management_red_select_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_red_select_button.dds"
-	}
-
-	#Unselect State Button - Red
-	spriteType = {
-		name = "GFX_territory_management_red_unselect_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_red_unselect_button.dds"
-	}
-
-	#Transfer State Button - Red
-	spriteType = {
-		name = "GFX_territory_management_red_transfer_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_red_transfer_button.dds"
-	}
-
-	#Select State Button - Green
-	spriteType = { 
-		name = "GFX_territory_management_green_select_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_green_select_button.dds"
-	}
-
-	#Unselect State Button - Green
-	spriteType = {
-		name = "GFX_territory_management_green_unselect_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_green_unselect_button.dds"
-	}
-
-	#Transfer State Button - Green
-	spriteType = {
-		name = "GFX_territory_management_green_transfer_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_green_transfer_button.dds"
-	}
-
 }

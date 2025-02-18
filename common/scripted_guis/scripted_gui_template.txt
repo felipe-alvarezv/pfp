@@ -1,16 +1,38 @@
 scripted_gui = {
 	territory_management_gui = {
 		window_name = "territory_management_window"
-		context_type = player_context
+		context_type = selected_state_context
 
-		visible = { has_country_flag = pfp_territory_management_window }
-
-		effects = {
-			territory_management_close_button_click = { clr_country_flag = pfp_territory_management_window }
+		visible = { 
+			ROOT = { has_country_flag = pfp_territory_management_window }
 		}
 
-		triggers = { }
-		dynamic_lists = { }
+		effects = {
+			territory_management_close_button_click = { 
+				ROOT = { clr_country_flag = pfp_territory_management_window } 
+			}
+			territory_management_select_button_click = {
+				add_to_array = {
+					array = global.territory_management_gridbox_array
+					value = THIS.id
+				}
+			}
+		}
+
+		triggers = {
+			   
+		}
+
+		dynamic_lists = { 
+			territory_management_gridbox = {
+				array = global.territory_management_gridbox_array
+				value = v
+				index = i
+				change_scope = yes
+				entry_container = territory_management_gridbox_entry
+			}
+		}
+
 		properties = { }
 
 		ai_enabled = { always = no }
