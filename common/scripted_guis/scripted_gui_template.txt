@@ -1,30 +1,59 @@
 scripted_gui = {
 	territory_management_gui = {
 		window_name = "territory_management_window"
-		context_type = selected_state_context
+		context_type = selected_state_context 
 
 		visible = { 
-			ROOT = { has_country_flag = pfp_territory_management_window }
+			has_global_flag  = pfp_territory_management_window
+			check_variable = { global.pfp_territory_management_window_country = ROOT }
 		}
 
 		triggers = {
-			territory_management_select_button_click_enabled = { 
-				NOT = {
-					if = {
-						is_in_array = { global.territory_management_gridbox_array = THIS.id } 
+			territory_management_select_button_click_enabled = {
+				AND = {
+					NOT = {
+						if = {
+							is_in_array = { 
+								array = global.territory_management_gridbox_array 
+								value = THIS.id 
+							} 
+						}
+					}
+					OR = {
+						THIS = { is_owned_and_controlled_by = global.pfp_territory_management_window_country }
+						AND = {
+							THIS.owner = { is_subject_of = global.pfp_territory_management_window_country }
+							THIS = { is_owned_and_controlled_by = THIS.owner }
+						}
 					}
 				}
 			}
 			territory_management_unselect_button_click_enabled = { 
 				if = {
-					is_in_array = { global.territory_management_gridbox_array = THIS.id } 
+					is_in_array = { 
+						array = global.territory_management_gridbox_array 
+						value = THIS.id 
+					} 
+				}
+			}
+			territory_management_transfer_button_click_enabled = {
+				OR = {
+					AND = {
+						THIS.owner = { is_ally_with = global.pfp_territory_management_window_country }
+						THIS.owner = { has_autonomy_state = autonomy_military_administration } 
+					}
+					THIS.owner = { original_tag = global.pfp_territory_management_window_country }
 				}
 			}
 		}
 
 		effects = {
-			territory_management_close_button_click = { 
-				ROOT = { clr_country_flag = pfp_territory_management_window } 
+			territory_management_close_button_click = {
+				ROOT = { 
+					clr_global_flag = pfp_territory_management_window 
+					clear_variable = global.pfp_territory_management_window_country
+					clear_array = global.territory_management_gridbox_array
+				} 
 			}
 			territory_management_select_button_click = {
 				add_to_array = {
@@ -32,11 +61,23 @@ scripted_gui = {
 					value = THIS.id
 				}
 			}
-			territory_management_unselect_button_button_click = {
+			territory_management_unselect_button_click = {
 				remove_from_array = {
 					array = global.territory_management_gridbox_array
 					value = THIS.id
 				}
+			}
+			territory_management_transfer_button_click = {
+				for_each_loop = {
+					array = global.territory_management_gridbox_array
+					value = v
+
+					THIS.owner = { 
+						transfer_state = v
+					}
+				}
+
+				clear_array = global.territory_management_gridbox_array
 			}
 		}
 

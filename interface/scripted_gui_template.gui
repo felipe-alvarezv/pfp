@@ -21,13 +21,14 @@ guiTypes = {
 			spriteType = "GFX_closebutton"
 			position = { x = 615 y = 02 }
 			orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
 		}
 
 		instantTextboxType = {
 			name = "territory_management_selected_state_heading_textbox"
 			position = { x = 45 y = 50}
 			font = "hoi_18mbs"
-			text = "Selected State"
+			text = "Selected State:"
 			format = left
 			maxWidth = 150
 			maxHeight = 24
@@ -43,17 +44,19 @@ guiTypes = {
 			maxHeight = 24
 		}
 
-		checkboxType = {
-			name = "territory_management_selected_country_checkbox"
-			position = { x = 450 y = 45 }
-			orientation = "UPPER_LEFT"
-			spriteType = "GFX_generic_checkbox2"
-			clicksound = click_checkbox
+		instantTextboxType = {
+			name = "territory_management_selected_country_heading_textbox"
+			position = { x = 450 y = 50 }
+			font = "hoi_18mbs"
+			text = "Selected Country:"
+			format = left
+			maxWidth = 150
+			maxHeight = 24
 		}
 
 		instantTextboxType = {
 			name = "territory_management_selected_country_textbox"
-			position = { x = 490 y = 50 }
+			position = { x = 450 y = 70 }
 			font = "hoi_18mbs"
 			text = "[THIS.owner.GetName]"
 			format = left
@@ -92,11 +95,11 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "territory_management_selected_states_label"
+			name = "territory_management_target_state_label"
 			position = { x = 45 y = 140 }
 			orientation = "UPPER_LEFT"
 			font = "hoi_18mbs"
-			text = "Selected States List:"
+			text = "Targeted States:"
 			format = left
 		}
 
