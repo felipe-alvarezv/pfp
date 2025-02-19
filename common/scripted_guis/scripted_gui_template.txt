@@ -11,12 +11,13 @@ scripted_gui = {
 		triggers = {
 			territory_management_select_button_click_enabled = {
 				AND = {
+					check_variable = { global.territory_management_gridbox_count < 24 }
 					NOT = {
 						if = {
 							is_in_array = { 
 								array = global.territory_management_gridbox_array 
-								value = THIS.id 
-							} 
+								value = THIS.id
+							}
 						}
 					}
 					OR = {
@@ -53,9 +54,19 @@ scripted_gui = {
 					clr_global_flag = pfp_territory_management_window 
 					clear_variable = global.pfp_territory_management_window_country
 					clear_array = global.territory_management_gridbox_array
+
+					set_variable = {
+						var = global.territory_management_gridbox_count
+						value = 0
+					}
 				} 
 			}
 			territory_management_select_button_click = {
+				add_to_variable = {
+					var = global.territory_management_gridbox_count
+					value = 1
+				}
+
 				add_to_array = {
 					array = global.territory_management_gridbox_array
 					value = THIS.id

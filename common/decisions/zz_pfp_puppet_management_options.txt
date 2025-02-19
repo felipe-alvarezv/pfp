@@ -39,9 +39,15 @@ pfp_puppet_management = {
 		fire_only_once = no
 		complete_effect = { 
             set_global_flag = pfp_territory_management_window
+            
             set_variable = {
                 var = global.pfp_territory_management_window_country
                 value = ROOT
+            }
+
+            set_variable = {
+                var = global.territory_management_gridbox_count
+                value = 0
             }
         }
 		ai_will_do = { factor = 0 }
