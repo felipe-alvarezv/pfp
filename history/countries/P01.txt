@@ -91,3 +91,15 @@ recruit_character = P01_communism_leader
 recruit_character = P01_democratic_leader
 recruit_character = P01_neutrality_leader
 recruit_character = P01_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_colombia_integration_array = 304 } #Panama
+add_to_array = { pfp_colombia_integration_array = 306 } #Cundinamarca
+add_to_array = { pfp_colombia_integration_array = 307 } #Miranda
+add_to_array = { pfp_colombia_integration_array = 486 } #Meta
+add_to_array = { pfp_colombia_integration_array = 488 } #Bolivar
+add_to_array = { pfp_colombia_integration_array = 489 } #Zulia
+add_to_array = { pfp_colombia_integration_array = 493 } #La Libertad
+add_to_array = { pfp_colombia_integration_array = 685 } #Panama Canal
+add_to_array = { pfp_colombia_integration_array = 691 } #Trinidad
+add_to_array = { pfp_colombia_integration_array = 695 } #Curacao

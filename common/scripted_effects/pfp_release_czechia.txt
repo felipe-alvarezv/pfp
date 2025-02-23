@@ -1,13 +1,13 @@
 #Scripted effect to release Czechia (P59)
 pfp_release_czechia = {
 	hidden_effect = {
-		#Add cores to Czech territory
-		9 = { add_core_of = P59 } #Bohemia
-		75 = { add_core_of = P59 } #Moravia
+		#Add claims to Czechia
+		9 = { add_claim_by = P59 } #Bohemia
+		75 = { add_claim_by = P59 } #Moravia
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P59 }
+			limit = { is_claimed_by = P59 }
 			transfer_state_to = P59
 		}
 

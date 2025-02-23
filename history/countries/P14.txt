@@ -92,3 +92,22 @@ recruit_character = P14_communism_leader
 recruit_character = P14_democratic_leader
 recruit_character = P14_neutrality_leader
 recruit_character = P14_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_greece_integration_array = 47 } #Attica
+add_to_array = { pfp_greece_integration_array = 164 } #Dodecanese
+add_to_array = { pfp_greece_integration_array = 182 } #Crete
+add_to_array = { pfp_greece_integration_array = 183 } #Cyprus
+add_to_array = { pfp_greece_integration_array = 184 } #Thrace
+add_to_array = { pfp_greece_integration_array = 185 } #Epirus
+add_to_array = { pfp_greece_integration_array = 186 } #Peloponnese
+add_to_array = { pfp_greece_integration_array = 187 } #Aegean Islands
+add_to_array = { pfp_greece_integration_array = 339 } #Izmir
+add_to_array = { pfp_greece_integration_array = 340 } #Bursa
+add_to_array = { pfp_greece_integration_array = 341 } #Edirne
+add_to_array = { pfp_greece_integration_array = 342 } #Antalya
+add_to_array = { pfp_greece_integration_array = 345 } #Mersin
+add_to_array = { pfp_greece_integration_array = 347 } #Izmit
+add_to_array = { pfp_greece_integration_array = 731 } #Central Macedonia
+add_to_array = { pfp_greece_integration_array = 797 } #Istanbul
+add_to_array = { pfp_greece_integration_array = 805 } #Northern Epirus

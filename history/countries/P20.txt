@@ -92,3 +92,11 @@ recruit_character = P20_communism_leader
 recruit_character = P20_democratic_leader
 recruit_character = P20_neutrality_leader
 recruit_character = P20_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_northeastern_us_integration_array = 357 } #New England
+add_to_array = { pfp_northeastern_us_integration_array = 358 } #New York
+add_to_array = { pfp_northeastern_us_integration_array = 359 } #New Jersey
+add_to_array = { pfp_northeastern_us_integration_array = 360 } #Pennsylvania
+add_to_array = { pfp_northeastern_us_integration_array = 361 } #Maryland
+add_to_array = { pfp_northeastern_us_integration_array = 816 } #West Virginia

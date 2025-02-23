@@ -92,3 +92,43 @@ recruit_character = P10_communism_leader
 recruit_character = P10_democratic_leader
 recruit_character = P10_neutrality_leader
 recruit_character = P10_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_east_africa_integration_array = 268 } #French Somaliland
+add_to_array = { pfp_east_africa_integration_array = 269 } #British Somaliland
+add_to_array = { pfp_east_africa_integration_array = 271 } #Shewa
+add_to_array = { pfp_east_africa_integration_array = 543 } #Madagascar
+add_to_array = { pfp_east_africa_integration_array = 546 } #Tanganyika
+add_to_array = { pfp_east_africa_integration_array = 547 } #Nairobi
+add_to_array = { pfp_east_africa_integration_array = 548 } #Uganda
+add_to_array = { pfp_east_africa_integration_array = 549 } #Kurdufan
+add_to_array = { pfp_east_africa_integration_array = 550 } #Eritrea
+add_to_array = { pfp_east_africa_integration_array = 551 } #Khartoum
+add_to_array = { pfp_east_africa_integration_array = 559 } #Somaliland
+add_to_array = { pfp_east_africa_integration_array = 706 } #Reunion
+add_to_array = { pfp_east_africa_integration_array = 707 } #Mauritius
+add_to_array = { pfp_east_africa_integration_array = 708 } #Comoro Islands
+add_to_array = { pfp_east_africa_integration_array = 709 } #Seychelles
+add_to_array = { pfp_east_africa_integration_array = 767 } #North Darfur
+add_to_array = { pfp_east_africa_integration_array = 768 } #Rwanda
+add_to_array = { pfp_east_africa_integration_array = 769 } #Burundi
+add_to_array = { pfp_east_africa_integration_array = 835 } #Hararghe
+add_to_array = { pfp_east_africa_integration_array = 836 } #Bale
+add_to_array = { pfp_east_africa_integration_array = 837 } #Sidamo
+add_to_array = { pfp_east_africa_integration_array = 838 } #Illubabor-Kaffa
+add_to_array = { pfp_east_africa_integration_array = 839 } #Welega
+add_to_array = { pfp_east_africa_integration_array = 840 } #Gojjam
+add_to_array = { pfp_east_africa_integration_array = 841 } #Begemender
+add_to_array = { pfp_east_africa_integration_array = 842 } #Tigray
+add_to_array = { pfp_east_africa_integration_array = 843 } #Wello
+add_to_array = { pfp_east_africa_integration_array = 844 } #Jubaland
+add_to_array = { pfp_east_africa_integration_array = 883 } #Kassala
+add_to_array = { pfp_east_africa_integration_array = 884 } #Upper Nile
+add_to_array = { pfp_east_africa_integration_array = 885 } #Bahr Al Ghazal
+add_to_array = { pfp_east_africa_integration_array = 886 } #Blue Nile
+add_to_array = { pfp_east_africa_integration_array = 887 } #South Darfur
+add_to_array = { pfp_east_africa_integration_array = 903 } #Garissa
+add_to_array = { pfp_east_africa_integration_array = 904 } #Nyanza-Rift Valley
+add_to_array = { pfp_east_africa_integration_array = 905 } #Mombasa
+add_to_array = { pfp_east_africa_integration_array = 906 } #Socotra
+add_to_array = { pfp_east_africa_integration_array = 908 } #Afar

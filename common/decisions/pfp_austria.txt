@@ -35,7 +35,7 @@ pfp_category = {
             }
             #Steiermark-Kärnten
             custom_trigger_tooltip = {
-                tooltip = pfp_austria_required_states_steirmark_karnten
+                tooltip = pfp_austria_required_states_steiermark_karnten
                 has_full_control_of_state = 976 #Steiermark-Kärnten
             }
         }
@@ -62,7 +62,7 @@ pfp_category = {
         }
         icon = generic_military
         complete_effect = {
-            custom_effect_tooltip = pfp_austria_coring_states
+            custom_effect_tooltip = pfp_austria_claim_states
             custom_effect_tooltip = pfp_austria_transfer_states
             custom_effect_tooltip = pfp_austria_puppet
 

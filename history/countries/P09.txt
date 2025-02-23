@@ -92,3 +92,25 @@ recruit_character = P09_communism_leader
 recruit_character = P09_democratic_leader
 recruit_character = P09_neutrality_leader
 recruit_character = P09_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_hungary_integration_array = 43 } #Northern Hungary
+add_to_array = { pfp_hungary_integration_array = 45 } #Vojvodina
+add_to_array = { pfp_hungary_integration_array = 70 } #Western Slovakia
+add_to_array = { pfp_hungary_integration_array = 71 } #Eastern Slovakia
+add_to_array = { pfp_hungary_integration_array = 73 } #Carpathian Ruthenia
+add_to_array = { pfp_hungary_integration_array = 76 } #North Transylvania
+add_to_array = { pfp_hungary_integration_array = 82 } #Banat
+add_to_array = { pfp_hungary_integration_array = 83 } #Crisana
+add_to_array = { pfp_hungary_integration_array = 84 } #Transylvania
+add_to_array = { pfp_hungary_integration_array = 103 } #Dalmatia
+add_to_array = { pfp_hungary_integration_array = 104 } #Bosnia
+add_to_array = { pfp_hungary_integration_array = 109 } #Croatia
+add_to_array = { pfp_hungary_integration_array = 154 } #Alfold
+add_to_array = { pfp_hungary_integration_array = 155 } #Transdanubia
+add_to_array = { pfp_hungary_integration_array = 163 } #Zara
+add_to_array = { pfp_hungary_integration_array = 664 } #Southern Slovakia
+add_to_array = { pfp_hungary_integration_array = 764 } #West Banat
+add_to_array = { pfp_hungary_integration_array = 804 } #Herzegovina
+add_to_array = { pfp_hungary_integration_array = 973 } #Bács-Kiskun
+add_to_array = { pfp_hungary_integration_array = 974 } #South Transdanubia

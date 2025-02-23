@@ -1,13 +1,13 @@
 #Scripted effect to release Chile (P54)
 pfp_release_chile = {
 	hidden_effect = {
-		#Add cores to Chilean territory
-		279 = { add_core_of = P54 } #Santiago
-		952 = { add_core_of = P54 } #Atacama
+		#Add claims to Chile
+		279 = { add_claim_by = P54 } #Santiago
+		952 = { add_claim_by = P54 } #Atacama
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P54 }
+			limit = { is_claimed_by = P54 }
 			transfer_state_to = P54
 		}
 

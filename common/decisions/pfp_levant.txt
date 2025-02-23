@@ -57,7 +57,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_levant_coring_states
+			custom_effect_tooltip = pfp_levant_claim_states
 			custom_effect_tooltip = pfp_levant_transfer_states
 			custom_effect_tooltip = pfp_levant_puppet
 

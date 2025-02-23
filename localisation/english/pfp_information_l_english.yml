@@ -106,6 +106,7 @@ l_english:
 
  #Territory Menu
  pfp_puppet_management_territory_menu:0 "Territory Menu"
+ pfp_territory_management_menu_enabled:0 "Territory Menu is not currently enabled."
 
  #Change Ruling Party
  pfp_puppet_management_options_ideology:0 "Change Ruling Party"

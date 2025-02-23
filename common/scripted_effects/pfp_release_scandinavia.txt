@@ -1,37 +1,37 @@
 #Scripted effect to release Scandinavia (P24)
 pfp_release_scandinavia = {
 	hidden_effect = {
-		#Add cores to Scandinavian territory
-		37 = { add_core_of = P24 } #Sjaelland
-		38 = { add_core_of = P24 } #Gävleborg
-		99 = { add_core_of = P24 } #Jylland
-		110 = { add_core_of = P24 } #Oslofjord
-		138 = { add_core_of = P24 } #Skåne
-		139 = { add_core_of = P24 } #Smaland
-		140 = { add_core_of = P24 } #Vastergotland
-		141 = { add_core_of = P24 } #Södermanland
-		142 = { add_core_of = P24 } #Vestlandet
-		143 = { add_core_of = P24 } #Trøndelag
-		144 = { add_core_of = P24 } #Nordland
-		666 = { add_core_of = P24 } #Norrbotten
-		911 = { add_core_of = P24 } #Fyn
-		912 = { add_core_of = P24 } #Sønderjylland
-		913 = { add_core_of = P24 } #Östergötland
-		915 = { add_core_of = P24 } #Bohuslän
-		916 = { add_core_of = P24 } #Dalarna
-		917 = { add_core_of = P24 } #Jämtland
-		918 = { add_core_of = P24 } #Västerbotten
-		919 = { add_core_of = P24 } #Värmland
-		920 = { add_core_of = P24 } #Opplandene
-		921 = { add_core_of = P24 } #Telemark
-		922 = { add_core_of = P24 } #Agder
-		923 = { add_core_of = P24 } #Helgeland
-		924 = { add_core_of = P24 } #Troms
-		925 = { add_core_of = P24 } #Finnmark
+		#Add claims to Scandinavia
+		37 = { add_claim_by = P24 } #Sjaelland
+		38 = { add_claim_by = P24 } #Gävleborg
+		99 = { add_claim_by = P24 } #Jylland
+		110 = { add_claim_by = P24 } #Oslofjord
+		138 = { add_claim_by = P24 } #Skåne
+		139 = { add_claim_by = P24 } #Smaland
+		140 = { add_claim_by = P24 } #Vastergotland
+		141 = { add_claim_by = P24 } #Södermanland
+		142 = { add_claim_by = P24 } #Vestlandet
+		143 = { add_claim_by = P24 } #Trøndelag
+		144 = { add_claim_by = P24 } #Nordland
+		666 = { add_claim_by = P24 } #Norrbotten
+		911 = { add_claim_by = P24 } #Fyn
+		912 = { add_claim_by = P24 } #Sønderjylland
+		913 = { add_claim_by = P24 } #Östergötland
+		915 = { add_claim_by = P24 } #Bohuslän
+		916 = { add_claim_by = P24 } #Dalarna
+		917 = { add_claim_by = P24 } #Jämtland
+		918 = { add_claim_by = P24 } #Västerbotten
+		919 = { add_claim_by = P24 } #Värmland
+		920 = { add_claim_by = P24 } #Opplandene
+		921 = { add_claim_by = P24 } #Telemark
+		922 = { add_claim_by = P24 } #Agder
+		923 = { add_claim_by = P24 } #Helgeland
+		924 = { add_claim_by = P24 } #Troms
+		925 = { add_claim_by = P24 } #Finnmark
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P24 }
+			limit = { is_claimed_by = P24 }
 			transfer_state_to = P24
 		}
 

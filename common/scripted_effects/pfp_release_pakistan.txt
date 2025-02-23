@@ -1,16 +1,16 @@
 #Scripted effect to release Pakistan (P75)
 pfp_release_pakistan = {
 	hidden_effect = {
-		#Add cores to Czech territory
-		440 = { add_core_of = P75 } #Punjab
-		442 = { add_core_of = P75 } #Peshawar
-		443 = { add_core_of = P75 } #Sind
-		444 = { add_core_of = P75 } #Baluchistan
-		445 = { add_core_of = P75 } #Quetta
+		#Add claims to Pakistan
+		440 = { add_claim_by = P75 } #Punjab
+		442 = { add_claim_by = P75 } #Peshawar
+		443 = { add_claim_by = P75 } #Sind
+		444 = { add_claim_by = P75 } #Baluchistan
+		445 = { add_claim_by = P75 } #Quetta
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P75 }
+			limit = { is_claimed_by = P75 }
 			transfer_state_to = P75
 		}
 

@@ -41,7 +41,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_kurdistan_coring_states
+			custom_effect_tooltip = pfp_kurdistan_claim_states
 			custom_effect_tooltip = pfp_kurdistan_transfer_states
 			custom_effect_tooltip = pfp_kurdistan_puppet
 

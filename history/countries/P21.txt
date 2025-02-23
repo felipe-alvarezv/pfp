@@ -92,3 +92,6 @@ recruit_character = P21_communism_leader
 recruit_character = P21_democratic_leader
 recruit_character = P21_neutrality_leader
 recruit_character = P21_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_pacific_us_integration_array = 1 } #

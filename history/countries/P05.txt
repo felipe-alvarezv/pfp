@@ -1,4 +1,4 @@
-#Baltic
+#Netherlands
 capital = 7 #Holland
 
 # Research Slots, Stability, War Support, and Ideas
@@ -92,3 +92,13 @@ recruit_character = P05_communism_leader
 recruit_character = P05_democratic_leader
 recruit_character = P05_neutrality_leader
 recruit_character = P05_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_netherlands_integration_array = 6 } #Vlaanderen
+add_to_array = { pfp_netherlands_integration_array = 7 } #Holland
+add_to_array = { pfp_netherlands_integration_array = 8 } #Luxemburg
+add_to_array = { pfp_netherlands_integration_array = 34 } #Wallonie
+add_to_array = { pfp_netherlands_integration_array = 35 } #Brabant
+add_to_array = { pfp_netherlands_integration_array = 36 } #Friesland
+add_to_array = { pfp_netherlands_integration_array = 977 } #Antwerp
+add_to_array = { pfp_netherlands_integration_array = 980 } #Ardennes

@@ -1,20 +1,20 @@
 #Scripted effect to release Finland (P12)
 pfp_release_finland = {
 	hidden_effect = {
-		#Add cores to Finnish territory
-		111 = { add_core_of = P12 } #Uusimaa
-		148 = { add_core_of = P12 } #Lappi
-		149 = { add_core_of = P12 } #Vaasa
-		150 = { add_core_of = P12 } #Kuopio
-		926 = { add_core_of = P12 } #Turku
-		927 = { add_core_of = P12 } #Häme
-		928 = { add_core_of = P12 } #Kymi
-		929 = { add_core_of = P12 } #Oulu
-		930 = { add_core_of = P12 } #Mikkeli
+		#Add claims to Finland
+		111 = { add_claim_by = P12 } #Uusimaa
+		148 = { add_claim_by = P12 } #Lappi
+		149 = { add_claim_by = P12 } #Vaasa
+		150 = { add_claim_by = P12 } #Kuopio
+		926 = { add_claim_by = P12 } #Turku
+		927 = { add_claim_by = P12 } #Häme
+		928 = { add_claim_by = P12 } #Kymi
+		929 = { add_claim_by = P12 } #Oulu
+		930 = { add_claim_by = P12 } #Mikkeli
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P12 }
+			limit = { is_claimed_by = P12 }
 			transfer_state_to = P12
 		}
 

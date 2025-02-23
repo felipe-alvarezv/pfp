@@ -1,0 +1,535 @@
+on_actions = {
+    on_daily = {
+        #Pipe's Formable Puppets - State Integration
+        effect = {
+            #Colombia Integration
+            if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_colombia_integration_array
+                        is_owned_and_controlled_by = P01
+                        NOT = { is_core_of = P01 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_colombia_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P01
+                            NOT = { is_core_of = P01 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P01
+                    }
+                }
+            }
+            #Great Britain Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_great_britain_integration_array
+                        is_owned_and_controlled_by = P02
+                        NOT = { is_core_of = P02 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_great_britain_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P02
+                            NOT = { is_core_of = P02 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P02
+                    }
+                }
+            }
+            #Arabia Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_arabia_integration_array
+                        is_owned_and_controlled_by = P03
+                        NOT = { is_core_of = P03 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_arabia_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P03
+                            NOT = { is_core_of = P03 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P03
+                    }
+                }
+            }
+            #Baltic Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_baltic_integration_array
+                        is_owned_and_controlled_by = P04
+                        NOT = { is_core_of = P04 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_baltic_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P04
+                            NOT = { is_core_of = P04 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P04
+                    }
+                }
+            }
+            #Netherlands Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_netherlands_integration_array
+                        is_owned_and_controlled_by = P05
+                        NOT = { is_core_of = P05 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_netherlands_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P05
+                            NOT = { is_core_of = P05 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P05
+                    }
+                }
+            }
+            #Argentina Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_argentina_integration_array
+                        is_owned_and_controlled_by = P55
+                        NOT = { is_core_of = P55 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_argentina_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P55
+                            NOT = { is_core_of = P55 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P55
+                    }
+                }
+            }
+            #Afghanistan Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_afghanistan_integration_array
+                        is_owned_and_controlled_by = P76
+                        NOT = { is_core_of = P76 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_afghanistan_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P76
+                            NOT = { is_core_of = P76 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P76
+                    }
+                }
+            }
+            #West Indies Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_west_indies_integration_array
+                        is_owned_and_controlled_by = P06
+                        NOT = { is_core_of = P06 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_west_indies_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P06
+                            NOT = { is_core_of = P06 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P06
+                    }
+                }
+            }
+            #Central Africa Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_central_africa_integration_array
+                        is_owned_and_controlled_by = P07
+                        NOT = { is_core_of = P07 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_central_africa_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P07
+                            NOT = { is_core_of = P07 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P07
+                    }
+                }
+            }
+            #Central America Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_central_america_integration_array
+                        is_owned_and_controlled_by = P08
+                        NOT = { is_core_of = P08 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_central_america_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P08
+                            NOT = { is_core_of = P08 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P08
+                    }
+                }
+            }
+            #Hungary Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_hungary_integration_array
+                        is_owned_and_controlled_by = P09
+                        NOT = { is_core_of = P09 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_hungary_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P09
+                            NOT = { is_core_of = P09 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P09
+                    }
+                }
+            }
+            #East Africa Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_east_africa_integration_array
+                        is_owned_and_controlled_by = P10
+                        NOT = { is_core_of = P10 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_east_africa_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P10
+                            NOT = { is_core_of = P10 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P10
+                    }
+                }
+            }
+            #Eastern Canada Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_eastern_canada_integration_array
+                        is_owned_and_controlled_by = P11
+                        NOT = { is_core_of = P11 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_eastern_canada_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P11
+                            NOT = { is_core_of = P11 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P11
+                    }
+                }
+            }
+            #Finland Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_finland_integration_array
+                        is_owned_and_controlled_by = P12
+                        NOT = { is_core_of = P12 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_finland_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P12
+                            NOT = { is_core_of = P12 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P12
+                    }
+                }
+            }
+            #Germany Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_germany_integration_array
+                        is_owned_and_controlled_by = P13
+                        NOT = { is_core_of = P13 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_germany_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P13
+                            NOT = { is_core_of = P13 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P13
+                    }
+                }
+            }
+            #Greece Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_greece_integration_array
+                        is_owned_and_controlled_by = P14
+                        NOT = { is_core_of = P14 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_greece_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P14
+                            NOT = { is_core_of = P14 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P14
+                    }
+                }
+            }
+            #Iberia Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_iberia_integration_array
+                        is_owned_and_controlled_by = P15
+                        NOT = { is_core_of = P15 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_iberia_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P15
+                            NOT = { is_core_of = P15 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P15
+                    }
+                }
+            }
+            #Indochina Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_indochina_integration_array
+                        is_owned_and_controlled_by = P16
+                        NOT = { is_core_of = P16 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_indochina_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P16
+                            NOT = { is_core_of = P16 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P16
+                    }
+                }
+            }
+            #Indonesia Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_indonesia_integration_array
+                        is_owned_and_controlled_by = P17
+                        NOT = { is_core_of = P17 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_indonesia_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P17
+                            NOT = { is_core_of = P17 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P17
+                    }
+                }
+            }
+            #Midwestern U.S. Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_midwestern_us_integration_array
+                        is_owned_and_controlled_by = P18
+                        NOT = { is_core_of = P18 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_midwestern_us_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P18
+                            NOT = { is_core_of = P18 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P18
+                    }
+                }
+            }
+            #North Germany Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_north_germany_integration_array
+                        is_owned_and_controlled_by = P19
+                        NOT = { is_core_of = P19 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_north_germany_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P19
+                            NOT = { is_core_of = P19 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P19
+                    }
+                }
+            }
+            #Northeastern U.S. Integration
+            else_if = {
+                limit = {
+                    any_of_scopes  = {
+                        array = pfp_northeastern_us_integration_array
+                        is_owned_and_controlled_by = P20
+                        NOT = { is_core_of = P20 }
+                        resistance < 10
+                        compliance > 70
+                    }
+                }
+                for_each_scope_loop = {
+                    array = pfp_northeastern_us_integration_array
+                    if = {
+                        limit = {
+                            is_owned_and_controlled_by = P20
+                            NOT = { is_core_of = P20 }
+                            resistance < 10
+                            compliance > 70
+                        }
+                        add_core_of = P20
+                    }
+                }
+            }
+        }
+    }
+}

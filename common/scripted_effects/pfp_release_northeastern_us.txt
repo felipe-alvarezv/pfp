@@ -1,16 +1,16 @@
 #Scripted effect to release Northeastern U.S. (P20)
 	pfp_release_northeastern_us = {
 	hidden_effect = {
-		#Add cores to Northeastern U.S. territory
-		357 = { add_core_of = P20 } #New England
-		358 = { add_core_of = P20 } #New York
-		359 = { add_core_of = P20 } #New Jersey
-		360 = { add_core_of = P20 } #Pennsylvania
-		361 = { add_core_of = P20 } #Maryland
+		#Add claims to Northeastern U.S.
+		357 = { add_claim_by = P20 } #New England
+		358 = { add_claim_by = P20 } #New York
+		359 = { add_claim_by = P20 } #New Jersey
+		360 = { add_claim_by = P20 } #Pennsylvania
+		361 = { add_claim_by = P20 } #Maryland
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P20 }
+			limit = { is_claimed_by = P20 }
 			transfer_state_to = P20
 		}
 

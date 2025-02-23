@@ -1,18 +1,18 @@
 #Scripted effect to release Western Canada (P29)
 pfp_release_western_canada = {
 	hidden_effect = {
-		#Add cores to Western Canada territory
-		467 = { add_core_of = P29 } #Manitoba
-		469 = { add_core_of = P29 } #Saskatchewan
-		470 = { add_core_of = P29 } #Alberta
-		472 = { add_core_of = P29 } #Northwest Territories
-		683 = { add_core_of = P29 } #Nunavut
-		865 = { add_core_of = P29 } #Northern Saskatchewan
-		867 = { add_core_of = P29 } #Northern Manitoba
+		#Add claims to Western Canada
+		467 = { add_claim_by = P29 } #Manitoba
+		469 = { add_claim_by = P29 } #Saskatchewan
+		470 = { add_claim_by = P29 } #Alberta
+		472 = { add_claim_by = P29 } #Northwest Territories
+		683 = { add_claim_by = P29 } #Nunavut
+		865 = { add_claim_by = P29 } #Northern Saskatchewan
+		867 = { add_claim_by = P29 } #Northern Manitoba
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P29 }
+			limit = { is_claimed_by = P29 }
 			transfer_state_to = P29
 		}
 

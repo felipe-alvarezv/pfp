@@ -30,9 +30,12 @@ pfp_puppet_management = {
 
 		available = { 
             is_ai = no
-            NOT = {
-                has_global_flag = pfp_territory_management_window
-                has_variable = global.pfp_territory_management_window_country
+            custom_trigger_tooltip = {
+                tooltip = pfp_territory_management_menu_enabled
+                NOT = {
+                    has_global_flag = pfp_territory_management_window
+                    has_variable = global.pfp_territory_management_window_country
+                }
             }
         }
 

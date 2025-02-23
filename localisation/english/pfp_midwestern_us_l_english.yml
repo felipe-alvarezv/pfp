@@ -31,6 +31,6 @@ l_english:
  pfp_midwestern_us_required_states_wisconsin:0 "Controls §YWisconsin§!."
  pfp_midwestern_us_required_states_illinois:0 "Controls §YIllinois§!."
  pfp_midwestern_us_required_states_indiana:0 "Controls §YIndiana§!."
- pfp_midwestern_us_coring_states:0 "§YMidwestern U.S.§! gains cores on all listed states.\n"
+ pfp_midwestern_us_claim_states:0 "§YMidwestern U.S.§! gains claims on all listed states.\n"
  pfp_midwestern_us_transfer_states:0 "§YMidwestern U.S.§! becomes owner and controller of all listed states.\n"
  pfp_midwestern_us_puppet:0 "§YMidwestern U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"

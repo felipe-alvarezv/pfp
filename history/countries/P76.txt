@@ -92,3 +92,14 @@ recruit_character = P76_communism_leader
 recruit_character = P76_democratic_leader
 recruit_character = P76_neutrality_leader
 recruit_character = P76_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_afghanistan_integration_array = 267 } #Kabul
+add_to_array = { pfp_afghanistan_integration_array = 415 } #Herat
+add_to_array = { pfp_afghanistan_integration_array = 440 } #Punjab
+add_to_array = { pfp_afghanistan_integration_array = 441 } #Kashmir
+add_to_array = { pfp_afghanistan_integration_array = 442 } #Peshawar
+add_to_array = { pfp_afghanistan_integration_array = 443 } #Sind
+add_to_array = { pfp_afghanistan_integration_array = 444 } #Baluchistan
+add_to_array = { pfp_afghanistan_integration_array = 445 } #Quetta
+add_to_array = { pfp_afghanistan_integration_array = 787 } #Northern Kashmir

@@ -92,3 +92,21 @@ recruit_character = P12_communism_leader
 recruit_character = P12_democratic_leader
 recruit_character = P12_neutrality_leader
 recruit_character = P12_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_finland_integration_array = 111 } #Uusimaa
+add_to_array = { pfp_finland_integration_array = 145 } #Aland
+add_to_array = { pfp_finland_integration_array = 146 } #Karjala
+add_to_array = { pfp_finland_integration_array = 147 } #Salla
+add_to_array = { pfp_finland_integration_array = 148 } #Lappi
+add_to_array = { pfp_finland_integration_array = 149 } #Vaasa
+add_to_array = { pfp_finland_integration_array = 150 } #Kuopio
+add_to_array = { pfp_finland_integration_array = 213 } #Murmansk
+add_to_array = { pfp_finland_integration_array = 215 } #Onega
+add_to_array = { pfp_finland_integration_array = 216 } #Olonets
+add_to_array = { pfp_finland_integration_array = 722 } #Petsamo
+add_to_array = { pfp_finland_integration_array = 926 } #Turku
+add_to_array = { pfp_finland_integration_array = 927 } #Hame
+add_to_array = { pfp_finland_integration_array = 928 } #Kymi
+add_to_array = { pfp_finland_integration_array = 929 } #Oulu
+add_to_array = { pfp_finland_integration_array = 930 } #Mikkeli

@@ -1,23 +1,23 @@
 #Scripted effect to release Midwestern U.S. (P18)
 pfp_release_midwestern_us = {
 	hidden_effect = {
-		#Add cores to Midwestern U.S. territory
-		261 = { add_core_of = P18 } #Ohio
-		373 = { add_core_of = P18 } #Missouri
-		383 = { add_core_of = P18 } #Kansas
-		384 = { add_core_of = P18 } #Nebraska
-		389 = { add_core_of = P18 } #North Dakota
-		390 = { add_core_of = P18 } #South Dakota
-		391 = { add_core_of = P18 } #Minnesota
-		392 = { add_core_of = P18 } #Iowa
-		393 = { add_core_of = P18 } #Michigan
-		394 = { add_core_of = P18 } #Wisconsin
-		395 = { add_core_of = P18 } #Illinois
-		396 = { add_core_of = P18 } #Indiana
+		#Add claims to Midwestern U.S.
+		261 = { add_claim_by = P18 } #Ohio
+		373 = { add_claim_by = P18 } #Missouri
+		383 = { add_claim_by = P18 } #Kansas
+		384 = { add_claim_by = P18 } #Nebraska
+		389 = { add_claim_by = P18 } #North Dakota
+		390 = { add_claim_by = P18 } #South Dakota
+		391 = { add_claim_by = P18 } #Minnesota
+		392 = { add_claim_by = P18 } #Iowa
+		393 = { add_claim_by = P18 } #Michigan
+		394 = { add_claim_by = P18 } #Wisconsin
+		395 = { add_claim_by = P18 } #Illinois
+		396 = { add_claim_by = P18 } #Indiana
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P18 }
+			limit = { is_claimed_by = P18 }
 			transfer_state_to = P18
 		}
 

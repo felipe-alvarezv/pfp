@@ -1,15 +1,15 @@
 #Scripted effect to release Belgium (P60)
 pfp_release_belgium = {
 	hidden_effect = {
-		#Add cores to Belgian territory
-		6 = { add_core_of = P60 } #Vlaanderen
-		34 = { add_core_of = P60 } #Wallonie
-		977 = { add_core_of = P60 } #Antwerp
-		980 = { add_core_of = P60 } #Ardennes
+		#Add claims to Belgium
+		6 = { add_claim_by = P60 } #Vlaanderen
+		34 = { add_claim_by = P60 } #Wallonie
+		977 = { add_claim_by = P60 } #Antwerp
+		980 = { add_claim_by = P60 } #Ardennes
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P60 }
+			limit = { is_claimed_by = P60 }
 			transfer_state_to = P60
 		}
 

@@ -92,3 +92,16 @@ recruit_character = P16_communism_leader
 recruit_character = P16_democratic_leader
 recruit_character = P16_neutrality_leader
 recruit_character = P16_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_indochina_integration_array = 286 } #Southern Indochina
+add_to_array = { pfp_indochina_integration_array = 288 } #Burma
+add_to_array = { pfp_indochina_integration_array = 289 } #Siam
+add_to_array = { pfp_indochina_integration_array = 336 } #Singapore
+add_to_array = { pfp_indochina_integration_array = 640 } #Mandalay
+add_to_array = { pfp_indochina_integration_array = 670 } #Laos
+add_to_array = { pfp_indochina_integration_array = 671 } #Tonkin
+add_to_array = { pfp_indochina_integration_array = 724 } #Northern Malay
+add_to_array = { pfp_indochina_integration_array = 741 } #Cambodia
+add_to_array = { pfp_indochina_integration_array = 868 } #Isan
+add_to_array = { pfp_indochina_integration_array = 869 } #Lanna

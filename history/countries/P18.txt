@@ -92,3 +92,17 @@ recruit_character = P18_communism_leader
 recruit_character = P18_democratic_leader
 recruit_character = P18_neutrality_leader
 recruit_character = P18_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_midwestern_us_integration_array = 261 } #Ohio
+add_to_array = { pfp_midwestern_us_integration_array = 373 } #Missouri
+add_to_array = { pfp_midwestern_us_integration_array = 383 } #Kansas
+add_to_array = { pfp_midwestern_us_integration_array = 384 } #Nebraska
+add_to_array = { pfp_midwestern_us_integration_array = 389 } #North Dakota
+add_to_array = { pfp_midwestern_us_integration_array = 390 } #South Dakota
+add_to_array = { pfp_midwestern_us_integration_array = 391 } #Minnesota
+add_to_array = { pfp_midwestern_us_integration_array = 392 } #Iowa
+add_to_array = { pfp_midwestern_us_integration_array = 393 } #Michigan
+add_to_array = { pfp_midwestern_us_integration_array = 394 } #Wisconsin
+add_to_array = { pfp_midwestern_us_integration_array = 395 } #Illinois
+add_to_array = { pfp_midwestern_us_integration_array = 396 } #Indiana

@@ -1,13 +1,13 @@
 #Scripted effect to release Denmark (P61)
 pfp_release_denmark = {
 	hidden_effect = {
-		#Add cores to Czech territory
-		37 = { add_core_of = P61 } #Sjaelland
-		911 = { add_core_of = P61 } #Fyn
+		#Add claims to Denmark
+		37 = { add_claim_by = P61 } #Sjaelland
+		911 = { add_claim_by = P61 } #Fyn
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P61 }
+			limit = { is_claimed_by = P61 }
 			transfer_state_to = P61
 		}
 

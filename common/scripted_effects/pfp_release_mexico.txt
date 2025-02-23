@@ -1,24 +1,24 @@
 #Scripted effect to release Mexico (P58)
 pfp_release_mexico = {
 	hidden_effect = {
-		#Add cores to Mexican territory
-		277 = { add_core_of = P58 } #Mexico City
-		474 = { add_core_of = P58 } #Yucatan
-		475 = { add_core_of = P58 } #Chiapas
-		476 = { add_core_of = P58 } #Oaxaca
-		477 = { add_core_of = P58 } #Veracruz
-		478 = { add_core_of = P58 } #Jalisco
-		479 = { add_core_of = P58 } #Tamauolipas
-		480 = { add_core_of = P58 } #Coahuila
-		481 = { add_core_of = P58 } #Durango
-		482 = { add_core_of = P58 } #Chihuahua
-		483 = { add_core_of = P58 } #Sonora
-		484 = { add_core_of = P58 } #Baja California
-		485 = { add_core_of = P58 } #Guerrero
+		#Add claims to Mexico
+		277 = { add_claim_by = P58 } #Mexico City
+		474 = { add_claim_by = P58 } #Yucatan
+		475 = { add_claim_by = P58 } #Chiapas
+		476 = { add_claim_by = P58 } #Oaxaca
+		477 = { add_claim_by = P58 } #Veracruz
+		478 = { add_claim_by = P58 } #Jalisco
+		479 = { add_claim_by = P58 } #Tamauolipas
+		480 = { add_claim_by = P58 } #Coahuila
+		481 = { add_claim_by = P58 } #Durango
+		482 = { add_claim_by = P58 } #Chihuahua
+		483 = { add_claim_by = P58 } #Sonora
+		484 = { add_claim_by = P58 } #Baja California
+		485 = { add_claim_by = P58 } #Guerrero
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P58 }
+			limit = { is_claimed_by = P58 }
 			transfer_state_to = P58
 		}
 

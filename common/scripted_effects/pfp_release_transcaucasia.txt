@@ -1,15 +1,15 @@
 #Scripted effect to release Transcaucasia (P28)
 pfp_release_transcaucasia = {
 	hidden_effect = {
-		#Add cores to Transcaucasian territory
-		229 = { add_core_of = P28 } #Azerbaijan
-		230 = { add_core_of = P28 } #Armenia
-		231 = { add_core_of = P28 } #Georgia
-		826 = { add_core_of = P28 } #Abkhazia
+		#Add claims to Transcaucasia
+		229 = { add_claim_by = P28 } #Azerbaijan
+		230 = { add_claim_by = P28 } #Armenia
+		231 = { add_claim_by = P28 } #Georgia
+		826 = { add_claim_by = P28 } #Abkhazia
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P28 }
+			limit = { is_claimed_by = P28 }
 			transfer_state_to = P28
 		}
 

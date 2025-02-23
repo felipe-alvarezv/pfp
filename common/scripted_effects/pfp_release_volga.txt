@@ -1,26 +1,26 @@
 #Scripted effect to release Volga (P42)
 pfp_release_volga = {
 	hidden_effect = {
-		#Add cores to Volga territory
-		239 = { add_core_of = P42 } #Saratov
-		249 = { add_core_of = P42 } #Kazan
-		250 = { add_core_of = P42 } #Ulyanovsky
-		251 = { add_core_of = P42 } #Kuybyshev
-		252 = { add_core_of = P42 } #Gorky
-		255 = { add_core_of = P42 } #Penza
-		256 = { add_core_of = P42 } #Chuvashia
-		398 = { add_core_of = P42 } #Perm
-		399 = { add_core_of = P42 } #Udmurtia
-		400 = { add_core_of = P42 } #Kirov
-		401 = { add_core_of = P42 } #Balakovo
-		651 = { add_core_of = P42 } #Ufa
-		652 = { add_core_of = P42 } #Orenburg
-		829 = { add_core_of = P42 } #Engels-Marxstadt
-		833 = { add_core_of = P42 } #Mari El
+		#Add claims to Volga
+		239 = { add_claim_by = P42 } #Saratov
+		249 = { add_claim_by = P42 } #Kazan
+		250 = { add_claim_by = P42 } #Ulyanovsky
+		251 = { add_claim_by = P42 } #Kuybyshev
+		252 = { add_claim_by = P42 } #Gorky
+		255 = { add_claim_by = P42 } #Penza
+		256 = { add_claim_by = P42 } #Chuvashia
+		398 = { add_claim_by = P42 } #Perm
+		399 = { add_claim_by = P42 } #Udmurtia
+		400 = { add_claim_by = P42 } #Kirov
+		401 = { add_claim_by = P42 } #Balakovo
+		651 = { add_claim_by = P42 } #Ufa
+		652 = { add_claim_by = P42 } #Orenburg
+		829 = { add_claim_by = P42 } #Engels-Marxstadt
+		833 = { add_claim_by = P42 } #Mari El
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P42 }
+			limit = { is_claimed_by = P42 }
 			transfer_state_to = P42
 		}
 

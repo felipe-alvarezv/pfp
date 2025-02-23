@@ -1,17 +1,17 @@
 #Scripted effect to release Quebec (P22)
 pfp_release_quebec = {
 	hidden_effect = {
-		#Add cores to Quebecois territory
-		466 = { add_core_of = P22 } #Nord du Quebec
-		468 = { add_core_of = P22 } #Saint Lawrence
-		860 = { add_core_of = P22 } #Cote-Nord
-		861 = { add_core_of = P22 } #Saguenay
-		862 = { add_core_of = P22 } #Ouest du Quebec
-		863 = { add_core_of = P22 } #Maurice
+		#Add claims to Quebec
+		466 = { add_claim_by = P22 } #Nord du Quebec
+		468 = { add_claim_by = P22 } #Saint Lawrence
+		860 = { add_claim_by = P22 } #Cote-Nord
+		861 = { add_claim_by = P22 } #Saguenay
+		862 = { add_claim_by = P22 } #Ouest du Quebec
+		863 = { add_claim_by = P22 } #Maurice
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P22 }
+			limit = { is_claimed_by = P22 }
 			transfer_state_to = P22
 		}
 

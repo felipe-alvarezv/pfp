@@ -92,3 +92,47 @@ recruit_character = P13_communism_leader
 recruit_character = P13_democratic_leader
 recruit_character = P13_neutrality_leader
 recruit_character = P13_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_germany_integration_array = 4 } #Lower Austria
+add_to_array = { pfp_germany_integration_array = 5 } #Ermland-Masuren
+add_to_array = { pfp_germany_integration_array = 8 } #Luxemburg
+add_to_array = { pfp_germany_integration_array = 9 } #Bohemia
+add_to_array = { pfp_germany_integration_array = 28 } #Alsace-Lorraine
+add_to_array = { pfp_germany_integration_array = 39 } #Alto Adige
+add_to_array = { pfp_germany_integration_array = 42 } #Moselland
+add_to_array = { pfp_germany_integration_array = 50 } #Wurttemberg
+add_to_array = { pfp_germany_integration_array = 51 } #Rhineland
+add_to_array = { pfp_germany_integration_array = 52 } #Oberbayern
+add_to_array = { pfp_germany_integration_array = 53 } #Niederbayern
+add_to_array = { pfp_germany_integration_array = 54 } #Franken
+add_to_array = { pfp_germany_integration_array = 55 } #Hessen
+add_to_array = { pfp_germany_integration_array = 56 } #Weser-Ems
+add_to_array = { pfp_germany_integration_array = 57 } #Westfalen
+add_to_array = { pfp_germany_integration_array = 58 } #Holstein
+add_to_array = { pfp_germany_integration_array = 59 } #Hannover
+add_to_array = { pfp_germany_integration_array = 60 } #Thuringen
+add_to_array = { pfp_germany_integration_array = 61 } #Mecklenburg
+add_to_array = { pfp_germany_integration_array = 62 } #Vorpommern
+add_to_array = { pfp_germany_integration_array = 63 } #Hinterpommern
+add_to_array = { pfp_germany_integration_array = 64 } #Brandeburg
+add_to_array = { pfp_germany_integration_array = 65 } #Sachsen
+add_to_array = { pfp_germany_integration_array = 66 } #Niederschlesien
+add_to_array = { pfp_germany_integration_array = 67 } #Oberschlesien
+add_to_array = { pfp_germany_integration_array = 68 } #Ostmark
+add_to_array = { pfp_germany_integration_array = 69 } #Sudetenland
+add_to_array = { pfp_germany_integration_array = 74 } #Eastern Sudetenland
+add_to_array = { pfp_germany_integration_array = 75 } #Moravia
+add_to_array = { pfp_germany_integration_array = 85 } #Danzig
+add_to_array = { pfp_germany_integration_array = 86 } #Poznan
+add_to_array = { pfp_germany_integration_array = 102 } #North Slovenia
+add_to_array = { pfp_germany_integration_array = 152 } #Upper Austria
+add_to_array = { pfp_germany_integration_array = 153 } #Tyrol
+add_to_array = { pfp_germany_integration_array = 188 } #Memel
+add_to_array = { pfp_germany_integration_array = 762 } #Katowice
+add_to_array = { pfp_germany_integration_array = 763 } #Konigsberg
+add_to_array = { pfp_germany_integration_array = 807 } #Gdynia
+add_to_array = { pfp_germany_integration_array = 848 } #Vorarlberg
+add_to_array = { pfp_germany_integration_array = 853 } #Ljubljana
+add_to_array = { pfp_germany_integration_array = 909 } #Schleswig
+add_to_array = { pfp_germany_integration_array = 978 } #Baden

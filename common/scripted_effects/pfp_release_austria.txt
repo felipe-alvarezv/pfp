@@ -1,17 +1,17 @@
 #Scripted effect to release Austria (P77)
 pfp_release_austria = {
     hidden_effect = {
-        #Add cores to Austrian territory
-        4 = { add_core_of = P77 } #Lower Austria
-        152 = { add_core_of = P77 } #Upper Austria
-        153 = { add_core_of = P77 } #Tyrol
-        848 = { add_core_of = P77 } #Vorarlberg
-        975 = { add_core_of = P77 } #Burgenland
-        976 = { add_core_of = P77 } #Steiermark-Kärnten
+        #Add claims to Austria
+        4 = { add_claim_by = P77 } #Lower Austria
+        152 = { add_claim_by = P77 } #Upper Austria
+        153 = { add_claim_by = P77 } #Tyrol
+        848 = { add_claim_by = P77 } #Vorarlberg
+        975 = { add_claim_by = P77 } #Burgenland
+        976 = { add_claim_by = P77 } #Steiermark-Kärnten
         
-        #Set formable puppet as owner and controller of all its cored states
+        #Set formable puppet as owner and controller of all its claimed states
         every_state = {
-            limit = { is_core_of = P77 }
+            limit = { is_claimed_by = P77 }
             transfer_state_to = P77
         }
 

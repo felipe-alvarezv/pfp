@@ -3,12 +3,14 @@ scripted_gui = {
 		window_name = "territory_management_window"
 		context_type = selected_state_context 
 
-		visible = { 
+		#Check if current viewer
+		visible = {
 			has_global_flag  = pfp_territory_management_window
 			check_variable = { global.pfp_territory_management_window_country = ROOT }
 		}
 
 		triggers = {
+			#GUI Select Button Triggers
 			territory_management_select_button_click_enabled = {
 				AND = {
 					check_variable = { global.territory_management_gridbox_count < 24 }
@@ -29,6 +31,7 @@ scripted_gui = {
 					}
 				}
 			}
+			#GUI Unselect Button Triggers
 			territory_management_unselect_button_click_enabled = { 
 				if = {
 					is_in_array = { 
@@ -37,6 +40,7 @@ scripted_gui = {
 					} 
 				}
 			}
+			#GUI Transfer Button Triggers
 			territory_management_transfer_button_click_enabled = {
 				OR = {
 					AND = {
@@ -47,8 +51,8 @@ scripted_gui = {
 				}
 			}
 		}
-
 		effects = {
+			#GUI Close Button Effect
 			territory_management_close_button_click = {
 				ROOT = { 
 					clr_global_flag = pfp_territory_management_window 
@@ -61,6 +65,7 @@ scripted_gui = {
 					}
 				} 
 			}
+			#GUI Select Button Effect
 			territory_management_select_button_click = {
 				add_to_variable = {
 					var = global.territory_management_gridbox_count
@@ -72,12 +77,14 @@ scripted_gui = {
 					value = THIS.id
 				}
 			}
+			#GUI Unselect Button Effect
 			territory_management_unselect_button_click = {
 				remove_from_array = {
 					array = global.territory_management_gridbox_array
 					value = THIS.id
 				}
 			}
+			#GUI Transfer Button Effect
 			territory_management_transfer_button_click = {
 				for_each_loop = {
 					array = global.territory_management_gridbox_array
@@ -91,7 +98,7 @@ scripted_gui = {
 				clear_array = global.territory_management_gridbox_array
 			}
 		}
-
+		#Dynamic List with States for Gridbox
 		dynamic_lists = { 
 			territory_management_gridbox = {
 				array = global.territory_management_gridbox_array

@@ -92,3 +92,29 @@ recruit_character = P55_communism_leader
 recruit_character = P55_democratic_leader
 recruit_character = P55_neutrality_leader
 recruit_character = P55_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_argentina_integration_array = 278 } #Buenos Aires
+add_to_array = { pfp_argentina_integration_array = 299 } #Falkland Islands
+add_to_array = { pfp_argentina_integration_array = 300 } #Montevideo
+add_to_array = { pfp_argentina_integration_array = 301 } #Paraguay
+add_to_array = { pfp_argentina_integration_array = 302 } #La Paz
+add_to_array = { pfp_argentina_integration_array = 487 } #Santa Cruz
+add_to_array = { pfp_argentina_integration_array = 506 } #Antofagasta
+add_to_array = { pfp_argentina_integration_array = 508 } #Tucuman
+add_to_array = { pfp_argentina_integration_array = 509 } #Chaco Austral
+add_to_array = { pfp_argentina_integration_array = 510 } #Region Mesopotamica
+add_to_array = { pfp_argentina_integration_array = 511 } #Mendoza
+add_to_array = { pfp_argentina_integration_array = 512 } #Rio Negro
+add_to_array = { pfp_argentina_integration_array = 688 } #Chaco Boreal
+add_to_array = { pfp_argentina_integration_array = 720 } #South Georgia
+add_to_array = { pfp_argentina_integration_array = 945 } #Cerro Largo
+add_to_array = { pfp_argentina_integration_array = 946 } #Paysandu
+add_to_array = { pfp_argentina_integration_array = 953 } #Tierra del Fuego
+add_to_array = { pfp_argentina_integration_array = 954 } #Santa Cruz
+add_to_array = { pfp_argentina_integration_array = 955 } #Chubut
+add_to_array = { pfp_argentina_integration_array = 956 } #Santa Fe
+add_to_array = { pfp_argentina_integration_array = 957 } #Formosa
+add_to_array = { pfp_argentina_integration_array = 958 } #San Luis y La Pampa
+add_to_array = { pfp_argentina_integration_array = 959 } #Los Andes
+add_to_array = { pfp_argentina_integration_array = 960 } #San Juan y La Rioja

@@ -1,13 +1,14 @@
 #Scripted effect to release Netherlands (P05)
 pfp_release_netherlands = {
 	hidden_effect = {
-		7 = { add_core_of = P05 } #Holland
-		35 = { add_core_of = P05 } #Brabant
-		36 = { add_core_of = P05 } #Friesland
+		#Add claims to Netherlands
+		7 = { add_claim_by = P05 } #Holland
+		35 = { add_claim_by = P05 } #Brabant
+		36 = { add_claim_by = P05 } #Friesland
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P05 }
+			limit = { is_claimed_by = P05 }
 			transfer_state_to = P05
 		}
 

@@ -92,3 +92,18 @@ recruit_character = P06_communism_leader
 recruit_character = P06_democratic_leader
 recruit_character = P06_neutrality_leader
 recruit_character = P06_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_west_indies_integration_array = 308 } #Leeward Islands
+add_to_array = { pfp_west_indies_integration_array = 315 } #Cuba
+add_to_array = { pfp_west_indies_integration_array = 318 } #Haiti
+add_to_array = { pfp_west_indies_integration_array = 319 } #Dominican Republic
+add_to_array = { pfp_west_indies_integration_array = 686 } #Puerto Rico
+add_to_array = { pfp_west_indies_integration_array = 689 } #Jamaica
+add_to_array = { pfp_west_indies_integration_array = 690 } #Northern Bahamas
+add_to_array = { pfp_west_indies_integration_array = 691 } #Trinidad
+add_to_array = { pfp_west_indies_integration_array = 692 } #Windward Islands
+add_to_array = { pfp_west_indies_integration_array = 693 } #Southern Bahamas
+add_to_array = { pfp_west_indies_integration_array = 694 } #French Caribbean
+add_to_array = { pfp_west_indies_integration_array = 695 } #Curacao
+add_to_array = { pfp_west_indies_integration_array = 696 } #Bermuda

@@ -70,7 +70,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_iran_coring_states
+			custom_effect_tooltip = pfp_iran_claim_states
 			custom_effect_tooltip = pfp_iran_transfer_states
 			custom_effect_tooltip = pfp_iran_puppet
 

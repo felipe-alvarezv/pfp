@@ -1,14 +1,15 @@
 #Scripted effect to release Himalayas (P52)
 pfp_release_himalayas = {
 	hidden_effect = {
-		322 = { add_core_of = P52 } #Nagqu
-		323 = { add_core_of = P52 } #Nepal
-		757 = { add_core_of = P52 } #Shigatse
-		758 = { add_core_of = P52 } #Ngari
+		#Add claims to Himalayas
+		322 = { add_claim_by = P52 } #Nagqu
+		323 = { add_claim_by = P52 } #Nepal
+		757 = { add_claim_by = P52 } #Shigatse
+		758 = { add_claim_by = P52 } #Ngari
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P52 }
+			limit = { is_claimed_by = P52 }
 			transfer_state_to = P52
 		}
 

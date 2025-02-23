@@ -1,16 +1,16 @@
 #Scripted effect to release East Germany (P32)
 pfp_release_east_germany = {
 	hidden_effect = {
-		#Add cores to East German territory
-		60 = { add_core_of = P32 } #Thuringen
-		61 = { add_core_of = P32 } #Mecklenburg
-		62 = { add_core_of = P32 } #Vorpommern
-		64 = { add_core_of = P32 } #Brandenburg
-		65 = { add_core_of = P32 } #Sachsen
+		#Add claims to East Germany
+		60 = { add_claim_by = P32 } #Thuringen
+		61 = { add_claim_by = P32 } #Mecklenburg
+		62 = { add_claim_by = P32 } #Vorpommern
+		64 = { add_claim_by = P32 } #Brandenburg
+		65 = { add_claim_by = P32 } #Sachsen
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P32 }
+			limit = { is_claimed_by = P32 }
 			transfer_state_to = P32
 		}
 

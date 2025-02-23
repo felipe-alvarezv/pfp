@@ -1,27 +1,27 @@
 #Scripted effect to release Great Britain (P02)
 pfp_release_great_britain = {
 	hidden_effect = {
-		#Add cores to Great Britain territory
-		120 = { add_core_of = P02 } #Scottish Highlands
-		121 = { add_core_of = P02 } #Lothian
-		122 = { add_core_of = P02 } #Wales
-		123 = { add_core_of = P02 } #South-West England
-		125 = { add_core_of = P02 } #East Anglia
-		126 = { add_core_of = P02 } #Greater London Area
-		127 = { add_core_of = P02 } #Sussex
-		128 = { add_core_of = P02 } #West Midlands
-		129 = { add_core_of = P02 } #East Midlands
-		130 = { add_core_of = P02 } #Yorkshire
-		131 = { add_core_of = P02 } #Northumberland
-		132 = { add_core_of = P02 } #Lancashire
-		133 = { add_core_of = P02 } #Lanark
-		136 = { add_core_of = P02 } #Aberdeenshire
-		338 = { add_core_of = P02 } #Gloucestershire
-		931 = { add_core_of = P02 } #Cumbria
+		#Add claims to Great Britain
+		120 = { add_claim_by = P02 } #Scottish Highlands
+		121 = { add_claim_by = P02 } #Lothian
+		122 = { add_claim_by = P02 } #Wales
+		123 = { add_claim_by = P02 } #South-West England
+		125 = { add_claim_by = P02 } #East Anglia
+		126 = { add_claim_by = P02 } #Greater London Area
+		127 = { add_claim_by = P02 } #Sussex
+		128 = { add_claim_by = P02 } #West Midlands
+		129 = { add_claim_by = P02 } #East Midlands
+		130 = { add_claim_by = P02 } #Yorkshire
+		131 = { add_claim_by = P02 } #Northumberland
+		132 = { add_claim_by = P02 } #Lancashire
+		133 = { add_claim_by = P02 } #Lanark
+		136 = { add_claim_by = P02 } #Aberdeenshire
+		338 = { add_claim_by = P02 } #Gloucestershire
+		931 = { add_claim_by = P02 } #Cumbria
 
-		#Set formable puppet as owner and controller of all its cored states
+		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_core_of = P02 }
+			limit = { is_claimed_by = P02 }
 			transfer_state_to = P02
 		}
 
