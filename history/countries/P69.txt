@@ -92,3 +92,10 @@ recruit_character = P69_communism_leader
 recruit_character = P69_democratic_leader
 recruit_character = P69_neutrality_leader
 recruit_character = P69_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_iraq_integration_array = 291 } #Baghdad
+add_to_array = { pfp_iraq_integration_array = 413 } #Khuzestan
+add_to_array = { pfp_iraq_integration_array = 656 } #Kuwait
+add_to_array = { pfp_iraq_integration_array = 675 } #Al Hajara
+add_to_array = { pfp_iraq_integration_array = 676 } #Mosul

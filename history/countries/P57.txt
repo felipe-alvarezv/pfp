@@ -92,3 +92,34 @@ recruit_character = P57_communism_leader
 recruit_character = P57_democratic_leader
 recruit_character = P57_neutrality_leader
 recruit_character = P57_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_brazil_integration_array = 280 } #Mato Grosso
+add_to_array = { pfp_brazil_integration_array = 300 } #Montevideo
+add_to_array = { pfp_brazil_integration_array = 309 } #Suriname
+add_to_array = { pfp_brazil_integration_array = 310 } #French Guiana
+add_to_array = { pfp_brazil_integration_array = 495 } #Amazonas
+add_to_array = { pfp_brazil_integration_array = 496 } #Minas Gerais
+add_to_array = { pfp_brazil_integration_array = 497 } #Maranhao
+add_to_array = { pfp_brazil_integration_array = 498 } #Rio Grande do Norte
+add_to_array = { pfp_brazil_integration_array = 499 } #Bahia
+add_to_array = { pfp_brazil_integration_array = 500 } #Rio de Janeiro
+add_to_array = { pfp_brazil_integration_array = 501 } #Sao Paulo
+add_to_array = { pfp_brazil_integration_array = 502 } #Rio Grande do Sul
+add_to_array = { pfp_brazil_integration_array = 503 } #Santa Catarina
+add_to_array = { pfp_brazil_integration_array = 504 } #Punta Pora
+add_to_array = { pfp_brazil_integration_array = 505 } #Goias
+add_to_array = { pfp_brazil_integration_array = 687 } #British Guyana
+add_to_array = { pfp_brazil_integration_array = 935 } #Ceara
+add_to_array = { pfp_brazil_integration_array = 936 } #Pernambuco
+add_to_array = { pfp_brazil_integration_array = 937 } #Piaui
+add_to_array = { pfp_brazil_integration_array = 938 } #Para
+add_to_array = { pfp_brazil_integration_array = 939 } #Amapa
+add_to_array = { pfp_brazil_integration_array = 940 } #Acre
+add_to_array = { pfp_brazil_integration_array = 941 } #Tocatins
+add_to_array = { pfp_brazil_integration_array = 942 } #Guapore
+add_to_array = { pfp_brazil_integration_array = 943 } #Espirito Santo
+add_to_array = { pfp_brazil_integration_array = 944 } #Parana
+add_to_array = { pfp_brazil_integration_array = 945 } #Cerro Largo
+add_to_array = { pfp_brazil_integration_array = 946 } #Paysandu
+add_to_array = { pfp_brazil_integration_array = 969 } #Rio Branco

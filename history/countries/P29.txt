@@ -92,3 +92,18 @@ recruit_character = P29_communism_leader
 recruit_character = P29_democratic_leader
 recruit_character = P29_neutrality_leader
 recruit_character = P29_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_western_canada_integration_array = 463 } #Alaska
+add_to_array = { pfp_western_canada_integration_array = 467 } #Manitoba
+add_to_array = { pfp_western_canada_integration_array = 469 } #Saskatchewan
+add_to_array = { pfp_western_canada_integration_array = 470 } #Alberta
+add_to_array = { pfp_western_canada_integration_array = 471 } #Upper British Columbia
+add_to_array = { pfp_western_canada_integration_array = 472 } #Northwest Territories
+add_to_array = { pfp_western_canada_integration_array = 473 } #British Columbia
+add_to_array = { pfp_western_canada_integration_array = 683 } #Nunavut
+add_to_array = { pfp_western_canada_integration_array = 739 } #Haida Gwaii
+add_to_array = { pfp_western_canada_integration_array = 740 } #Vancouver Island
+add_to_array = { pfp_western_canada_integration_array = 864 } #Yukon Territory
+add_to_array = { pfp_western_canada_integration_array = 865 } #Northern Saskatchewan
+add_to_array = { pfp_western_canada_integration_array = 867 } #Northern Manitoba

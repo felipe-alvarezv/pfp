@@ -92,3 +92,10 @@ recruit_character = P32_communism_leader
 recruit_character = P32_democratic_leader
 recruit_character = P32_neutrality_leader
 recruit_character = P32_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_east_germany_integration_array = 60 } #Thuringen
+add_to_array = { pfp_east_germany_integration_array = 61 } #Mecklenburg
+add_to_array = { pfp_east_germany_integration_array = 62 } #Vorpommern
+add_to_array = { pfp_east_germany_integration_array = 64 } #Brandenburg
+add_to_array = { pfp_east_germany_integration_array = 65 } #Sachsen

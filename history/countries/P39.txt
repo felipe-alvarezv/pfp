@@ -92,3 +92,22 @@ recruit_character = P39_communism_leader
 recruit_character = P39_democratic_leader
 recruit_character = P39_neutrality_leader
 recruit_character = P39_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_central_russia_integration_array = 205 } #Kaluga
+add_to_array = { pfp_central_russia_integration_array = 219 } #Moscow
+add_to_array = { pfp_central_russia_integration_array = 220 } #Kursk
+add_to_array = { pfp_central_russia_integration_array = 222 } #Orel
+add_to_array = { pfp_central_russia_integration_array = 223 } #Tula
+add_to_array = { pfp_central_russia_integration_array = 224 } #Bryansk
+add_to_array = { pfp_central_russia_integration_array = 240 } #Belgorod
+add_to_array = { pfp_central_russia_integration_array = 242 } #Smolensk
+add_to_array = { pfp_central_russia_integration_array = 243 } #Roslavl
+add_to_array = { pfp_central_russia_integration_array = 246 } #Rzhev
+add_to_array = { pfp_central_russia_integration_array = 247 } #Kalinin
+add_to_array = { pfp_central_russia_integration_array = 248 } #Yaroslavl
+add_to_array = { pfp_central_russia_integration_array = 253 } #Ivanovo
+add_to_array = { pfp_central_russia_integration_array = 254 } #Ryazan
+add_to_array = { pfp_central_russia_integration_array = 257 } #Tambov
+add_to_array = { pfp_central_russia_integration_array = 258 } #Lipetsk
+add_to_array = { pfp_central_russia_integration_array = 260 } #Voronezh

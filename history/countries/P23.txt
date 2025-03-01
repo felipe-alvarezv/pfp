@@ -92,3 +92,13 @@ recruit_character = P23_communism_leader
 recruit_character = P23_democratic_leader
 recruit_character = P23_neutrality_leader
 recruit_character = P23_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_us_rockies_integration_array = 376 } #New Mexico
+add_to_array = { pfp_us_rockies_integration_array = 377 } #Arizona
+add_to_array = { pfp_us_rockies_integration_array = 379 } #Nevada
+add_to_array = { pfp_us_rockies_integration_array = 380 } #Utah
+add_to_array = { pfp_us_rockies_integration_array = 381 } #Wyoming
+add_to_array = { pfp_us_rockies_integration_array = 382 } #Colorado
+add_to_array = { pfp_us_rockies_integration_array = 388 } #Montana
+add_to_array = { pfp_us_rockies_integration_array = 387 } #Idaho

@@ -92,3 +92,15 @@ recruit_character = P52_communism_leader
 recruit_character = P52_democratic_leader
 recruit_character = P52_neutrality_leader
 recruit_character = P52_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_himalayas_integration_array = 322 } #Nagqu
+add_to_array = { pfp_himalayas_integration_array = 323 } #Nepal
+add_to_array = { pfp_himalayas_integration_array = 324 } #Bhutan
+add_to_array = { pfp_himalayas_integration_array = 432 } #Assam
+add_to_array = { pfp_himalayas_integration_array = 434 } #Arunachal Pradesh
+add_to_array = { pfp_himalayas_integration_array = 441 } #Kashmir
+add_to_array = { pfp_himalayas_integration_array = 601 } #Xikang
+add_to_array = { pfp_himalayas_integration_array = 757 } #Shigatse
+add_to_array = { pfp_himalayas_integration_array = 758 } #Ngari
+add_to_array = { pfp_himalayas_integration_array = 787 } #Northern Kashmir

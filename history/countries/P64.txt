@@ -92,3 +92,10 @@ recruit_character = P64_communism_leader
 recruit_character = P64_democratic_leader
 recruit_character = P64_neutrality_leader
 recruit_character = P64_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_french_alps_integration_array = 1 } #Corsica
+add_to_array = { pfp_french_alps_integration_array = 21 } #Bouches-Du-Rhone
+add_to_array = { pfp_french_alps_integration_array = 32 } #Alpes
+add_to_array = { pfp_french_alps_integration_array = 735 } #Savoy
+add_to_array = { pfp_french_alps_integration_array = 851 } #Var

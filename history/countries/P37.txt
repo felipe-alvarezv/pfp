@@ -92,3 +92,38 @@ recruit_character = P37_communism_leader
 recruit_character = P37_democratic_leader
 recruit_character = P37_neutrality_leader
 recruit_character = P37_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_india_integration_array = 281 } #Maldives
+add_to_array = { pfp_india_integration_array = 288 } #Burma
+add_to_array = { pfp_india_integration_array = 320 } #French India
+add_to_array = { pfp_india_integration_array = 321 } #Goa
+add_to_array = { pfp_india_integration_array = 323 } #Nepal
+add_to_array = { pfp_india_integration_array = 324 } #Bhutan
+add_to_array = { pfp_india_integration_array = 422 } #Ceylon
+add_to_array = { pfp_india_integration_array = 423 } #Madurai
+add_to_array = { pfp_india_integration_array = 424 } #Madras
+add_to_array = { pfp_india_integration_array = 425 } #Mysore
+add_to_array = { pfp_india_integration_array = 426 } #Orissa
+add_to_array = { pfp_india_integration_array = 427 } #Hyderabad
+add_to_array = { pfp_india_integration_array = 428 } #Gujarat
+add_to_array = { pfp_india_integration_array = 429 } #Bombay
+add_to_array = { pfp_india_integration_array = 430 } #East Bengal
+add_to_array = { pfp_india_integration_array = 431 } #East Bengal
+add_to_array = { pfp_india_integration_array = 432 } #Assam
+add_to_array = { pfp_india_integration_array = 433 } #Rajahsthan
+add_to_array = { pfp_india_integration_array = 434 } #Arunachal Pradesh
+add_to_array = { pfp_india_integration_array = 435 } #Bihar
+add_to_array = { pfp_india_integration_array = 436 } #Jabalpur
+add_to_array = { pfp_india_integration_array = 437 } #Indore
+add_to_array = { pfp_india_integration_array = 438 } #Lucknow
+add_to_array = { pfp_india_integration_array = 439 } #Delhi
+add_to_array = { pfp_india_integration_array = 440 } #Punjab
+add_to_array = { pfp_india_integration_array = 441 } #Kashmir
+add_to_array = { pfp_india_integration_array = 442 } #Peshawar
+add_to_array = { pfp_india_integration_array = 443 } #Sind
+add_to_array = { pfp_india_integration_array = 444 } #Baluchistan
+add_to_array = { pfp_india_integration_array = 445 } #Quetta
+add_to_array = { pfp_india_integration_array = 640 } #Mandalay
+add_to_array = { pfp_india_integration_array = 733 } #Andaman
+add_to_array = { pfp_india_integration_array = 787 } #Northern Kashmir

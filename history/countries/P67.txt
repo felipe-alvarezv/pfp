@@ -92,3 +92,15 @@ recruit_character = P67_communism_leader
 recruit_character = P67_democratic_leader
 recruit_character = P67_neutrality_leader
 recruit_character = P67_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_levant_integration_array = 183 } #Cyprus
+add_to_array = { pfp_levant_integration_array = 446 } #Suez
+add_to_array = { pfp_levant_integration_array = 453 } #Sinai
+add_to_array = { pfp_levant_integration_array = 454 } #Palestine
+add_to_array = { pfp_levant_integration_array = 455 } #Jordan
+add_to_array = { pfp_levant_integration_array = 553 } #Lebanon
+add_to_array = { pfp_levant_integration_array = 554 } #Damascus
+add_to_array = { pfp_levant_integration_array = 677 } #Aleppo
+add_to_array = { pfp_levant_integration_array = 680 } #Deir-Az-Zur
+add_to_array = { pfp_levant_integration_array = 799 } #Hatay

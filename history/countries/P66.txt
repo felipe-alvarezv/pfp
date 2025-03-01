@@ -92,3 +92,29 @@ recruit_character = P66_communism_leader
 recruit_character = P66_democratic_leader
 recruit_character = P66_neutrality_leader
 recruit_character = P66_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_ukraine_integration_array = 73 } #Carpathian Ruthenia
+add_to_array = { pfp_ukraine_integration_array = 80 } #Bucovina
+add_to_array = { pfp_ukraine_integration_array = 89 } #Stanislawow
+add_to_array = { pfp_ukraine_integration_array = 91 } #Lwow
+add_to_array = { pfp_ukraine_integration_array = 93 } #Wolyn
+add_to_array = { pfp_ukraine_integration_array = 137 } #Crimea
+add_to_array = { pfp_ukraine_integration_array = 192 } #Odessa
+add_to_array = { pfp_ukraine_integration_array = 193 } #Chernigov
+add_to_array = { pfp_ukraine_integration_array = 196 } #Kherson
+add_to_array = { pfp_ukraine_integration_array = 197 } #Mykolaiv
+add_to_array = { pfp_ukraine_integration_array = 198 } #Vinnytsia
+add_to_array = { pfp_ukraine_integration_array = 199 } #Khmelnytskyi
+add_to_array = { pfp_ukraine_integration_array = 200 } #Zaporozhe
+add_to_array = { pfp_ukraine_integration_array = 201 } #Zhytomyr
+add_to_array = { pfp_ukraine_integration_array = 202 } #Kiev
+add_to_array = { pfp_ukraine_integration_array = 203 } #Cherkasy
+add_to_array = { pfp_ukraine_integration_array = 221 } #Kharkov
+add_to_array = { pfp_ukraine_integration_array = 225 } #Sumy
+add_to_array = { pfp_ukraine_integration_array = 226 } #Dnipropetrovsk
+add_to_array = { pfp_ukraine_integration_array = 227 } #Stalino
+add_to_array = { pfp_ukraine_integration_array = 228 } #Voroshilovgrad
+add_to_array = { pfp_ukraine_integration_array = 259 } #Poltava
+add_to_array = { pfp_ukraine_integration_array = 766 } #Southern Bessarabia
+add_to_array = { pfp_ukraine_integration_array = 834 } #Balta-Tiraspol

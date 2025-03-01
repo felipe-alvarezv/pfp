@@ -1,4 +1,4 @@
-#Far Eastern Russian
+#Far Eastern Russia
 capital = 408 #Vladivostok
 
 # Research Slots, Stability, War Support, and Ideas
@@ -92,3 +92,25 @@ recruit_character = P46_communism_leader
 recruit_character = P46_democratic_leader
 recruit_character = P46_neutrality_leader
 recruit_character = P46_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_far_eastern_russia_integration_array = 408 } #Vladivostok
+add_to_array = { pfp_far_eastern_russia_integration_array = 409 } #Khabarovsk
+add_to_array = { pfp_far_eastern_russia_integration_array = 537 } #South Sakhalin
+add_to_array = { pfp_far_eastern_russia_integration_array = 555 } #Kuril Islands
+add_to_array = { pfp_far_eastern_russia_integration_array = 563 } #Chita
+add_to_array = { pfp_far_eastern_russia_integration_array = 564 } #Buryatia
+add_to_array = { pfp_far_eastern_russia_integration_array = 565 } #Bodaybo
+add_to_array = { pfp_far_eastern_russia_integration_array = 560 } #Nikolayevsk
+add_to_array = { pfp_far_eastern_russia_integration_array = 561 } #Amur
+add_to_array = { pfp_far_eastern_russia_integration_array = 562 } #Okhotsk
+add_to_array = { pfp_far_eastern_russia_integration_array = 574 } #Yakutsk
+add_to_array = { pfp_far_eastern_russia_integration_array = 637 } #Kamchatka
+add_to_array = { pfp_far_eastern_russia_integration_array = 644 } #Kolyma
+add_to_array = { pfp_far_eastern_russia_integration_array = 655 } #North Sakhalin
+add_to_array = { pfp_far_eastern_russia_integration_array = 657 } #Birobidzhan
+add_to_array = { pfp_far_eastern_russia_integration_array = 822 } #Chukotka
+add_to_array = { pfp_far_eastern_russia_integration_array = 874 } #Magadan
+add_to_array = { pfp_far_eastern_russia_integration_array = 875 } #Chukchi Peninsula
+add_to_array = { pfp_far_eastern_russia_integration_array = 876 } #Udachny
+add_to_array = { pfp_far_eastern_russia_integration_array = 877 } #Verkhoyansk

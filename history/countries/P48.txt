@@ -92,3 +92,75 @@ recruit_character = P48_communism_leader
 recruit_character = P48_democratic_leader
 recruit_character = P48_neutrality_leader
 recruit_character = P48_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_western_russia_integration_array = 137 } #Crimea
+add_to_array = { pfp_western_russia_integration_array = 146 } #Karjala
+add_to_array = { pfp_western_russia_integration_array = 147 } #Salla
+add_to_array = { pfp_western_russia_integration_array = 195 } #Leningrad
+add_to_array = { pfp_western_russia_integration_array = 205 } #Kaluga
+add_to_array = { pfp_western_russia_integration_array = 208 } #Luga
+add_to_array = { pfp_western_russia_integration_array = 209 } #Pskov
+add_to_array = { pfp_western_russia_integration_array = 210 } #Nevel
+add_to_array = { pfp_western_russia_integration_array = 213 } #Murmansk
+add_to_array = { pfp_western_russia_integration_array = 214 } #Arkhangelsk
+add_to_array = { pfp_western_russia_integration_array = 215 } #Onega
+add_to_array = { pfp_western_russia_integration_array = 216 } #Olonets
+add_to_array = { pfp_western_russia_integration_array = 217 } #Stalingrad
+add_to_array = { pfp_western_russia_integration_array = 218 } #Rostov
+add_to_array = { pfp_western_russia_integration_array = 219 } #Moscow
+add_to_array = { pfp_western_russia_integration_array = 220 } #Kursk
+add_to_array = { pfp_western_russia_integration_array = 222 } #Orel
+add_to_array = { pfp_western_russia_integration_array = 223 } #Tula
+add_to_array = { pfp_western_russia_integration_array = 224 } #Bryansk
+add_to_array = { pfp_western_russia_integration_array = 232 } #Dagestan
+add_to_array = { pfp_western_russia_integration_array = 233 } #Sochi
+add_to_array = { pfp_western_russia_integration_array = 234 } #Krasnodar
+add_to_array = { pfp_western_russia_integration_array = 235 } #Stavropol
+add_to_array = { pfp_western_russia_integration_array = 236 } #Astrakhan
+add_to_array = { pfp_western_russia_integration_array = 237 } #Kalmykia
+add_to_array = { pfp_western_russia_integration_array = 238 } #Volgodonsk
+add_to_array = { pfp_western_russia_integration_array = 239 } #Saratov
+add_to_array = { pfp_western_russia_integration_array = 240 } #Belgorod
+add_to_array = { pfp_western_russia_integration_array = 242 } #Smolensk
+add_to_array = { pfp_western_russia_integration_array = 243 } #Roslavl
+add_to_array = { pfp_western_russia_integration_array = 244 } #Volkhov
+add_to_array = { pfp_western_russia_integration_array = 245 } #Millerovo
+add_to_array = { pfp_western_russia_integration_array = 246 } #Rzhev
+add_to_array = { pfp_western_russia_integration_array = 247 } #Kalinin
+add_to_array = { pfp_western_russia_integration_array = 248 } #Yaroslavl
+add_to_array = { pfp_western_russia_integration_array = 249 } #Kazan
+add_to_array = { pfp_western_russia_integration_array = 250 } #Ulyanovsky
+add_to_array = { pfp_western_russia_integration_array = 251 } #Kuybyshev
+add_to_array = { pfp_western_russia_integration_array = 252 } #Gorky
+add_to_array = { pfp_western_russia_integration_array = 253 } #Ivanovo
+add_to_array = { pfp_western_russia_integration_array = 254 } #Ryazan
+add_to_array = { pfp_western_russia_integration_array = 255 } #Penza
+add_to_array = { pfp_western_russia_integration_array = 256 } #Chuvashia
+add_to_array = { pfp_western_russia_integration_array = 257 } #Tambov
+add_to_array = { pfp_western_russia_integration_array = 258 } #Lipetsk
+add_to_array = { pfp_western_russia_integration_array = 260 } #Voronezh
+add_to_array = { pfp_western_russia_integration_array = 262 } #Pechora
+add_to_array = { pfp_western_russia_integration_array = 263 } #Novgorod
+add_to_array = { pfp_western_russia_integration_array = 264 } #Tikhvin
+add_to_array = { pfp_western_russia_integration_array = 265 } #Mikhaylovka
+add_to_array = { pfp_western_russia_integration_array = 351 } #Vologda
+add_to_array = { pfp_western_russia_integration_array = 397 } #Syktyvkar
+add_to_array = { pfp_western_russia_integration_array = 398 } #Perm
+add_to_array = { pfp_western_russia_integration_array = 399 } #Udmurtia
+add_to_array = { pfp_western_russia_integration_array = 400 } #Kirov
+add_to_array = { pfp_western_russia_integration_array = 401 } #Balakovo
+add_to_array = { pfp_western_russia_integration_array = 573 } #Zlatoust
+add_to_array = { pfp_western_russia_integration_array = 581 } #Northern Urals
+add_to_array = { pfp_western_russia_integration_array = 582 } #Magnitogorsk
+add_to_array = { pfp_western_russia_integration_array = 651 } #Ufa
+add_to_array = { pfp_western_russia_integration_array = 652 } #Orenburg
+add_to_array = { pfp_western_russia_integration_array = 722 } #Petsamo
+add_to_array = { pfp_western_russia_integration_array = 821 } #Chechnya-Ingushetia
+add_to_array = { pfp_western_russia_integration_array = 827 } #Kabardino-Balkaria
+add_to_array = { pfp_western_russia_integration_array = 828 } #North Ossetia
+add_to_array = { pfp_western_russia_integration_array = 825 } #Nenets
+add_to_array = { pfp_western_russia_integration_array = 829 } #Engels-Marxstadt
+add_to_array = { pfp_western_russia_integration_array = 833 } #Mari El
+add_to_array = { pfp_western_russia_integration_array = 879 } #Kargopol
+add_to_array = { pfp_western_russia_integration_array = 880 } #Kotlas

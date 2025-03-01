@@ -94,4 +94,13 @@ recruit_character = P21_neutrality_leader
 recruit_character = P21_fascism_leader
 
 #States to add to the integration array
-add_to_array = { pfp_pacific_us_integration_array = 1 } #
+add_to_array = { pfp_pacific_us_integration_array = 378 } #California
+add_to_array = { pfp_pacific_us_integration_array = 385 } #Oregon
+add_to_array = { pfp_pacific_us_integration_array = 386 } #Washington
+add_to_array = { pfp_pacific_us_integration_array = 463 } #Alaska
+add_to_array = { pfp_pacific_us_integration_array = 471 } #Upper British Columbia
+add_to_array = { pfp_pacific_us_integration_array = 473 } #British Columbia
+add_to_array = { pfp_pacific_us_integration_array = 629 } #Hawaii
+add_to_array = { pfp_pacific_us_integration_array = 739 } #Haida Gwaii
+add_to_array = { pfp_pacific_us_integration_array = 740 } #Vancouver Island
+add_to_array = { pfp_pacific_us_integration_array = 864 } #Yukon Territory

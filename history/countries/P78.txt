@@ -91,3 +91,10 @@ recruit_character = P78_communism_leader
 recruit_character = P78_democratic_leader
 recruit_character = P78_neutrality_leader
 recruit_character = P78_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_switzerland_integration_array = 3 } #Swiss Plateau
+add_to_array = { pfp_switzerland_integration_array = 151 } #Eastern Swiss Alps
+add_to_array = { pfp_switzerland_integration_array = 845 } #Jura Mountains
+add_to_array = { pfp_switzerland_integration_array = 846 } #Ticini
+add_to_array = { pfp_switzerland_integration_array = 847 } #Western Swiss Alps

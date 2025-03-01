@@ -92,3 +92,14 @@ recruit_character = P70_communism_leader
 recruit_character = P70_democratic_leader
 recruit_character = P70_neutrality_leader
 recruit_character = P70_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_kurdistan_integration_array = 344 } #Malatya
+add_to_array = { pfp_kurdistan_integration_array = 350 } #Diyarbakir
+add_to_array = { pfp_kurdistan_integration_array = 352 } #Hakkari
+add_to_array = { pfp_kurdistan_integration_array = 353 } #Tunceli
+add_to_array = { pfp_kurdistan_integration_array = 419 } #Tibriz
+add_to_array = { pfp_kurdistan_integration_array = 421 } #Kurdistan
+add_to_array = { pfp_kurdistan_integration_array = 676 } #Mosul
+add_to_array = { pfp_kurdistan_integration_array = 680 } #Deir-Az-Zur
+add_to_array = { pfp_kurdistan_integration_array = 800 } #Van

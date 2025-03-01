@@ -92,3 +92,7 @@ recruit_character = P72_communism_leader
 recruit_character = P72_democratic_leader
 recruit_character = P72_neutrality_leader
 recruit_character = P72_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_korea_integration_array = 525 } #South Korea
+add_to_array = { pfp_korea_integration_array = 527 } #North Korea

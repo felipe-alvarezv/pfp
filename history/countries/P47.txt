@@ -92,3 +92,23 @@ recruit_character = P47_communism_leader
 recruit_character = P47_democratic_leader
 recruit_character = P47_neutrality_leader
 recruit_character = P47_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_mongolia_integration_array = 329 } #Tannu Tuva
+add_to_array = { pfp_mongolia_integration_array = 330 } #Ulaanbaatar
+add_to_array = { pfp_mongolia_integration_array = 563 } #Chita
+add_to_array = { pfp_mongolia_integration_array = 564 } #Buryatia
+add_to_array = { pfp_mongolia_integration_array = 611 } #South Chahar
+add_to_array = { pfp_mongolia_integration_array = 612 } #Chahar
+add_to_array = { pfp_mongolia_integration_array = 616 } #Ningxia
+add_to_array = { pfp_mongolia_integration_array = 618 } #Dzungaria
+add_to_array = { pfp_mongolia_integration_array = 621 } #Suiyuan
+add_to_array = { pfp_mongolia_integration_array = 654 } #Oryot Region
+add_to_array = { pfp_mongolia_integration_array = 746 } #Ordos
+add_to_array = { pfp_mongolia_integration_array = 756 } #Jiuquan
+add_to_array = { pfp_mongolia_integration_array = 760 } #Dabacheng
+add_to_array = { pfp_mongolia_integration_array = 761 } #Hulunbuir
+add_to_array = { pfp_mongolia_integration_array = 817 } #Gobi
+add_to_array = { pfp_mongolia_integration_array = 818 } #Khovd
+add_to_array = { pfp_mongolia_integration_array = 819 } #Dornod
+add_to_array = { pfp_mongolia_integration_array = 820 } #Khovsgol

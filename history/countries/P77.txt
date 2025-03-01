@@ -91,3 +91,16 @@ recruit_character = P77_communism_leader
 recruit_character = P77_democratic_leader
 recruit_character = P77_neutrality_leader
 recruit_character = P77_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_austria_integration_array = 4 } #Lower Austria
+add_to_array = { pfp_romania_integration_array = 39 } #Alto Adige
+add_to_array = { pfp_romania_integration_array = 102 } #North Slovenia
+add_to_array = { pfp_austria_integration_array = 152 } #Upper Austria
+add_to_array = { pfp_austria_integration_array = 153 } #Tyrol
+add_to_array = { pfp_romania_integration_array = 736 } #Litorale
+add_to_array = { pfp_austria_integration_array = 848 } #Vorarlberg
+add_to_array = { pfp_austria_integration_array = 850 } #Trentino
+add_to_array = { pfp_romania_integration_array = 853 } #Ljubljana
+add_to_array = { pfp_austria_integration_array = 975 } #Burgenland
+add_to_array = { pfp_austria_integration_array = 976 } #Steiermark-Kärnten

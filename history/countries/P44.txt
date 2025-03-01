@@ -92,3 +92,15 @@ recruit_character = P44_communism_leader
 recruit_character = P44_democratic_leader
 recruit_character = P44_neutrality_leader
 recruit_character = P44_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_urals_integration_array = 403 } #Tyumen
+add_to_array = { pfp_urals_integration_array = 572 } #Chelyabinsk
+add_to_array = { pfp_urals_integration_array = 573 } #Zlatoust
+add_to_array = { pfp_urals_integration_array = 577 } #Surgut
+add_to_array = { pfp_urals_integration_array = 579 } #Salekhard
+add_to_array = { pfp_urals_integration_array = 580 } #Tobolsk
+add_to_array = { pfp_urals_integration_array = 581 } #Northern Urals
+add_to_array = { pfp_urals_integration_array = 582 } #Magnitogorsk
+add_to_array = { pfp_urals_integration_array = 653 } #Sverdlovsk
+add_to_array = { pfp_urals_integration_array = 824 } #Yamalia

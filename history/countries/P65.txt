@@ -92,3 +92,16 @@ recruit_character = P65_communism_leader
 recruit_character = P65_democratic_leader
 recruit_character = P65_neutrality_leader
 recruit_character = P65_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_norway_integration_array = 110 } #Oslofjord
+add_to_array = { pfp_norway_integration_array = 142 } #Vestlandet
+add_to_array = { pfp_norway_integration_array = 143 } #Trondelag
+add_to_array = { pfp_norway_integration_array = 144 } #Nordland
+add_to_array = { pfp_norway_integration_array = 914 } #Jan Mayen
+add_to_array = { pfp_norway_integration_array = 920 } #Opplandene
+add_to_array = { pfp_norway_integration_array = 921 } #Telemark
+add_to_array = { pfp_norway_integration_array = 922 } #Agder
+add_to_array = { pfp_norway_integration_array = 923 } #Helgeland
+add_to_array = { pfp_norway_integration_array = 924 } #Troms
+add_to_array = { pfp_norway_integration_array = 925 } #Finnmark

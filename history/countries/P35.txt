@@ -92,3 +92,29 @@ recruit_character = P35_communism_leader
 recruit_character = P35_democratic_leader
 recruit_character = P35_neutrality_leader
 recruit_character = P35_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_west_africa_integration_array = 272 } #Senegal
+add_to_array = { pfp_west_africa_integration_array = 274 } #Ghana
+add_to_array = { pfp_west_africa_integration_array = 296 } #Portuguese Guinea
+add_to_array = { pfp_west_africa_integration_array = 298 } #Liberia
+add_to_array = { pfp_west_africa_integration_array = 515 } #Southern Sahara
+add_to_array = { pfp_west_africa_integration_array = 556 } #Bamako
+add_to_array = { pfp_west_africa_integration_array = 557 } #Mauritania
+add_to_array = { pfp_west_africa_integration_array = 558 } #Lagos
+add_to_array = { pfp_west_africa_integration_array = 700 } #Sierra Leone
+add_to_array = { pfp_west_africa_integration_array = 701 } #Gambia
+add_to_array = { pfp_west_africa_integration_array = 702 } #Cape Verde
+add_to_array = { pfp_west_africa_integration_array = 776 } #Dahomey
+add_to_array = { pfp_west_africa_integration_array = 777 } #Togo
+add_to_array = { pfp_west_africa_integration_array = 778 } #Upper Volta
+add_to_array = { pfp_west_africa_integration_array = 779 } #Ivory Coast
+add_to_array = { pfp_west_africa_integration_array = 780 } #Guinea
+add_to_array = { pfp_west_africa_integration_array = 781 } #Niger
+add_to_array = { pfp_west_africa_integration_array = 782 } #Tombouctou
+add_to_array = { pfp_west_africa_integration_array = 786 } #Mauritanian Desert
+add_to_array = { pfp_west_africa_integration_array = 898 } #Gao
+add_to_array = { pfp_west_africa_integration_array = 899 } #Kayues-Koulikoro
+add_to_array = { pfp_west_africa_integration_array = 900 } #Benue
+add_to_array = { pfp_west_africa_integration_array = 901 } #Borno
+add_to_array = { pfp_west_africa_integration_array = 902 } #Sokoto

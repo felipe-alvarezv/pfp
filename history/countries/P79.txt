@@ -91,3 +91,17 @@ recruit_character = P79_communism_leader
 recruit_character = P79_democratic_leader
 recruit_character = P79_neutrality_leader
 recruit_character = P79_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_romania_integration_array = 46 } #Muntenia
+add_to_array = { pfp_romania_integration_array = 76 } #North Transylvania
+add_to_array = { pfp_romania_integration_array = 77 } #Dobrudja
+add_to_array = { pfp_romania_integration_array = 78 } #Bessarabia
+add_to_array = { pfp_romania_integration_array = 79 } #Moldova
+add_to_array = { pfp_romania_integration_array = 80 } #Bucovina
+add_to_array = { pfp_romania_integration_array = 81 } #Oltenia
+add_to_array = { pfp_romania_integration_array = 82 } #Banat
+add_to_array = { pfp_romania_integration_array = 83 } #Crisana
+add_to_array = { pfp_romania_integration_array = 84 } #Transylvania
+add_to_array = { pfp_romania_integration_array = 766 } #Southern Bessarabia
+add_to_array = { pfp_romania_integration_array = 971 } #Northern Dobrudja

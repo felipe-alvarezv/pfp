@@ -92,3 +92,19 @@ recruit_character = P62_communism_leader
 recruit_character = P62_democratic_leader
 recruit_character = P62_neutrality_leader
 recruit_character = P62_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_northern_france_integration_array = 14 } #Britanny
+add_to_array = { pfp_northern_france_integration_array = 15 } #Normandy
+add_to_array = { pfp_northern_france_integration_array = 16 } #Ile de France
+add_to_array = { pfp_northern_france_integration_array = 17 } #Franche-Comte
+add_to_array = { pfp_northern_france_integration_array = 18 } #Champagne
+add_to_array = { pfp_northern_france_integration_array = 19 } #Aquitaine
+add_to_array = { pfp_northern_france_integration_array = 23 } #Poitou
+add_to_array = { pfp_northern_france_integration_array = 24 } #Centre
+add_to_array = { pfp_northern_france_integration_array = 27 } #Bourgogne
+add_to_array = { pfp_northern_france_integration_array = 28 } #Alsace-Lorraine
+add_to_array = { pfp_northern_france_integration_array = 29 } #Nord-Pas-de-Calais
+add_to_array = { pfp_northern_france_integration_array = 30 } #Loire
+add_to_array = { pfp_northern_france_integration_array = 785 } #Picardy
+add_to_array = { pfp_northern_france_integration_array = 806 } #Pyrenees-Atlantiques

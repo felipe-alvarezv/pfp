@@ -92,3 +92,18 @@ recruit_character = P75_communism_leader
 recruit_character = P75_democratic_leader
 recruit_character = P75_neutrality_leader
 recruit_character = P75_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_pakistan_integration_array = 324 } #Bhutan
+add_to_array = { pfp_pakistan_integration_array = 430 } #Bangladesh
+add_to_array = { pfp_pakistan_integration_array = 431 } #West Bengal
+add_to_array = { pfp_pakistan_integration_array = 432 } #Assam
+add_to_array = { pfp_pakistan_integration_array = 434 } #Arunachal Pradesh
+add_to_array = { pfp_pakistan_integration_array = 435 } #Bihar
+add_to_array = { pfp_pakistan_integration_array = 440 } #Punjab
+add_to_array = { pfp_pakistan_integration_array = 441 } #Kashmir
+add_to_array = { pfp_pakistan_integration_array = 442 } #Peshawar
+add_to_array = { pfp_pakistan_integration_array = 443 } #Sind
+add_to_array = { pfp_pakistan_integration_array = 444 } #Baluchistan
+add_to_array = { pfp_pakistan_integration_array = 445 } #Quetta
+add_to_array = { pfp_pakistan_integration_array = 787 } #Northern Kashmir

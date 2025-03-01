@@ -92,3 +92,9 @@ recruit_character = P73_communism_leader
 recruit_character = P73_democratic_leader
 recruit_character = P73_neutrality_leader
 recruit_character = P73_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_ireland_integration_array = 113 } #Leinster
+add_to_array = { pfp_ireland_integration_array = 119 } #Northern Ireland
+add_to_array = { pfp_ireland_integration_array = 134 } #Connaught
+add_to_array = { pfp_ireland_integration_array = 135 } #Munster

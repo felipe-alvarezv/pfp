@@ -92,3 +92,33 @@ recruit_character = P45_communism_leader
 recruit_character = P45_democratic_leader
 recruit_character = P45_neutrality_leader
 recruit_character = P45_fascism_leader
+
+#States to add to the integration array
+add_to_array = { pfp_siberia_integration_array = 40 } #Altai Krai
+add_to_array = { pfp_siberia_integration_array = 329 } #Tannu Tuva
+add_to_array = { pfp_siberia_integration_array = 403 } #Tyumen
+add_to_array = { pfp_siberia_integration_array = 516 } #Duidinka
+add_to_array = { pfp_siberia_integration_array = 563 } #Chita
+add_to_array = { pfp_siberia_integration_array = 564 } #Buryatia
+add_to_array = { pfp_siberia_integration_array = 565 } #Bodaybo
+add_to_array = { pfp_siberia_integration_array = 566 } #Irkutsk
+add_to_array = { pfp_siberia_integration_array = 567 } #Bratsk
+add_to_array = { pfp_siberia_integration_array = 568 } #Krasnoyarsk
+add_to_array = { pfp_siberia_integration_array = 569 } #Khakassia
+add_to_array = { pfp_siberia_integration_array = 570 } #Novosibirsk
+add_to_array = { pfp_siberia_integration_array = 571 } #Omsk
+add_to_array = { pfp_siberia_integration_array = 572 } #Chelyabinsk
+add_to_array = { pfp_siberia_integration_array = 573 } #Zlatoust
+add_to_array = { pfp_siberia_integration_array = 575 } #Kirensk
+add_to_array = { pfp_siberia_integration_array = 576 } #Yeniselsk
+add_to_array = { pfp_siberia_integration_array = 577 } #Surgut
+add_to_array = { pfp_siberia_integration_array = 578 } #Tomsk
+add_to_array = { pfp_siberia_integration_array = 579 } #Salekhard
+add_to_array = { pfp_siberia_integration_array = 580 } #Tobolsk
+add_to_array = { pfp_siberia_integration_array = 581 } #Northern Urals
+add_to_array = { pfp_siberia_integration_array = 582 } #Magnitogorsk
+add_to_array = { pfp_siberia_integration_array = 653 } #Sverdlovsk
+add_to_array = { pfp_siberia_integration_array = 654 } #Oryot Region
+add_to_array = { pfp_siberia_integration_array = 824 } #Yamalia
+add_to_array = { pfp_siberia_integration_array = 876 } #Udachny
+add_to_array = { pfp_siberia_integration_array = 878 } #Khatangsky
