@@ -25,36 +25,56 @@ pfp_puppet_management = {
             set_country_flag = pfp_puppet_management_options_territory
         }
     }
+    pfp_management_window = {
+		icon = generic_industry
+
+		available = { 
+            is_ai = no
+            #custom_trigger_tooltip = {
+            #    tooltip = pfp_territory_management_menu_enabled
+            #    NOT = {
+            #        has_global_flag = pfp_territory_management_window
+            #        has_variable = global.pfp_territory_management_window_country
+            #    }
+            #}
+        }
+
+		fire_only_once = no
+		complete_effect = { 
+            set_global_flag = pfp_management_window
+        }
+		ai_will_do = { factor = 0 }
+	}
     pfp_puppet_management_territory_menu = {
 		icon = generic_industry
 
 		available = { 
             is_ai = no
             custom_trigger_tooltip = {
-                tooltip = pfp_territory_management_menu_enabled
+                tooltip = pfp_state_transfer_window_enabled
                 NOT = {
-                    has_global_flag = pfp_territory_management_window
-                    has_variable = global.pfp_territory_management_window_country
+                    has_global_flag = pfp_state_transfer_window
+                    has_variable = global.pfp_state_transfer_window_country
                 }
             }
         }
 
 		fire_only_once = no
 		complete_effect = { 
-            set_global_flag = pfp_territory_management_window
+            set_global_flag = pfp_state_transfer_window
             
             set_variable = {
-                var = global.pfp_territory_management_window_country
+                var = global.pfp_state_transfer_window_country
                 value = ROOT
             }
 
             set_variable = {
-                var = global.territory_management_gridbox_count
+                var = global.pfp_state_transfer_gridbox_count
                 value = 0
             }
         }
 		ai_will_do = { factor = 0 }
-	}	
+	}
     pfp_puppet_management_options_back = { #Deselect puppet management options
         visible = {
             has_country_flag = pfp_puppet_management_view

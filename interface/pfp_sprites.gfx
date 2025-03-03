@@ -63,9 +63,15 @@ spriteTypes = {
 
 	###### TERRITORY BEGIN ######
 	
-	#Background
+	#Territory Management Background
 	spriteType = {
-		name = "GFX_territory_management_background"
-		textureFile = "/gfx/interface/scripted_gui_graphics/territory_management_background.dds"
+		name = "GFX_management_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_management_background.dds"
+	}
+
+	#State Transfer Background
+	spriteType = {
+		name = "GFX_state_transfer_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_state_transfer_background.dds"
 	}
 }

@@ -1,10 +1,11 @@
 guiTypes = {
+	#PFP Management
 	containerWindowType = {
-		name = "territory_management_window"
+		name = "pfp_management_window"
 		position = { x = 0 y = 0 }	
-		size = { width = 650 height = 400 }
-		orientation = center
-		origo = center
+		size = { width = 300 height = 300 }
+		orientation = CENTER
+		origo = CENTER
 		fade_time = 100
 		moveable = yes
 		fade_type = linear
@@ -13,13 +14,138 @@ guiTypes = {
 
 		#GUI Background
 		background = {
-			name = "territory_management_background"
-			quadTextureSprite ="GFX_territory_management_background"
+			name = "pfp_management_background"
+			quadTextureSprite ="GFX_management_background"
 		}
 
 		#GUI Close Button
 		buttonType = {
-			name ="territory_management_close_button"
+			name ="pfp_management_close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 615 y = 02 }
+			orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+		}
+	
+		#View Puppets Option
+		containerWindowType = {
+			name = "pfp_view_puppets_option"
+			position = { x = 250 y = 100 }
+		
+			buttonType = {
+				name = "pfp_view_puppets_option_button"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_government_button"
+				buttonFont = "hoi_16mbs"
+				Orientation = "UPPER_RIGHT"
+			}
+		
+			iconType = {
+				name = "pfp_view_puppets_option_icon"
+				spriteType = "GFX_icon_manage_subjects"
+				position = { x = 2 y = 1 }
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "pfp_view_puppets_option_textbox"
+				position = { x = 32 y = 8 }
+				font = "hoi_16mbs"
+				text = "View Puppets"
+				Orientation = "UPPER_LEFT"
+				maxWidth = 130
+				alwaystransparent = yes
+				format = center
+			}
+		}
+
+		#State Transfer Option
+		containerWindowType = {
+			name = "pfp_state_transfer_option"
+			position = { x = 250 y = 150 }
+		
+			buttonType = {
+				name = "pfp_state_transfer_option_button"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_government_button"
+				buttonFont = "hoi_16mbs"
+				Orientation = "UPPER_RIGHT"
+			}
+		
+			iconType = {
+				name = "pfp_state_transfer_option_icon"
+				spriteType = "GFX_icon_occupied_territories"
+				position = { x = 2 y = 1 }
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "pfp_state_transfer_option_textbox"
+				position = { x = 32 y = 8 }
+				font = "hoi_16mbs"
+				text = "State Transfer"
+				Orientation = "UPPER_LEFT"
+				maxWidth = 130
+				alwaystransparent = yes
+				format = center
+			}
+		}
+
+		#All Formables Options
+		containerWindowType = {
+			name = "pfp_all_formable_puppets_option"
+			position = { x = 250 y = 200 }
+		
+			buttonType = {
+				name = "pfp_all_formable_puppets_option_button"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_government_button"
+				buttonFont = "hoi_16mbs"
+				Orientation = "UPPER_RIGHT"
+			}
+		
+			iconType = {
+				name = "pfp_all_formable_puppets_option_icon"
+				spriteType = "GFX_world_tension_icon"
+				position = { x = 2 y = 1 }
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "pfp_all_formable_puppets_option_textbox"
+				position = { x = 32 y = 8 }
+				font = "hoi_16mbs"
+				text = "All Formable Puppets"
+				Orientation = "UPPER_LEFT"
+				maxWidth = 130
+				alwaystransparent = yes
+				format = center
+			}
+		}
+	}
+
+	#PFP State Transfer Window
+	containerWindowType = {
+		name = "pfp_state_transfer_window"
+		position = { x = 0 y = 0 }	
+		size = { width = 650 height = 400 }
+		orientation = CENTER_RIGHT
+		origo = CENTER_RIGHT
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		#GUI Background
+		background = {
+			name = "pfp_state_transfer_background"
+			quadTextureSprite ="GFX_state_transfer_background"
+		}
+
+		#GUI Close Button
+		buttonType = {
+			name ="pfp_state_transfer_close_button"
 			spriteType = "GFX_closebutton"
 			position = { x = 615 y = 02 }
 			orientation = "UPPER_LEFT"
@@ -28,7 +154,7 @@ guiTypes = {
 
 		#GUI Selected State Heading
 		instantTextboxType = {
-			name = "territory_management_selected_state_heading_textbox"
+			name = "pfp_state_transfer_selected_state_heading_textbox"
 			position = { x = 45 y = 50}
 			font = "hoi_18mbs"
 			text = "Selected State:"
@@ -39,7 +165,7 @@ guiTypes = {
 
 		#GUI Selected State
 		instantTextboxType = {
-			name = "territory_management_selected_state_textbox"
+			name = "pfp_state_transfer_selected_state_textbox"
 			position = { x = 45 y = 70 }
 			font = "hoi_18mbs"
 			text = "[THIS.GetName]"
@@ -50,7 +176,7 @@ guiTypes = {
 
 		#GUI Selected Country Heading
 		instantTextboxType = {
-			name = "territory_management_selected_country_heading_textbox"
+			name = "pfp_state_transfer_selected_country_heading_textbox"
 			position = { x = 450 y = 50 }
 			font = "hoi_18mbs"
 			text = "Selected Country:"
@@ -61,7 +187,7 @@ guiTypes = {
 
 		#GUI Selected Country
 		instantTextboxType = {
-			name = "territory_management_selected_country_textbox"
+			name = "pfp_state_transfer_selected_country_textbox"
 			position = { x = 450 y = 70 }
 			font = "hoi_18mbs"
 			text = "[THIS.owner.GetName]"
@@ -72,8 +198,7 @@ guiTypes = {
 
 		#GUI Select State Button
 		buttonType = {
-			name = "territory_management_select_button"
-			spriteType = "GFX_territory_management_select_button"
+			name = "pfp_state_transfer_select_button"
 			position = { x = 25  y = 100 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_sort_button_202x29"
@@ -83,8 +208,7 @@ guiTypes = {
 
 		#GUI Unselect State Button
 		buttonType = {
-			name = "territory_management_unselect_button"
-			spriteType = "GFX_territory_management_unselect_button"
+			name = "pfp_state_transfer_unselect_button"
 			position = { x = 225 y = 100 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_sort_button_202x29"
@@ -94,8 +218,7 @@ guiTypes = {
 
 		#GUI Transfer State Button
 		buttonType = {
-			name = "territory_management_transfer_button"
-			spriteType = "GFX_territory_management_transfer_button"
+			name = "pfp_state_transfer_transfer_button"
 			position = { x = 425 y = 100 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_sort_button_202x29"
@@ -105,7 +228,7 @@ guiTypes = {
 
 		#GUI Target States Label
 		instantTextboxType = {
-			name = "territory_management_target_state_label"
+			name = "pfp_state_transfer_target_state_label"
 			position = { x = 45 y = 140 }
 			orientation = "UPPER_LEFT"
 			font = "hoi_18mbs"
@@ -115,7 +238,7 @@ guiTypes = {
 
 		#GUI Target State Gridbox
 		gridBoxType = {
-			name = "territory_management_gridbox"
+			name = "pfp_state_transfer_gridbox"
 			position = { x = 45 y = 175 }
 			size = { width = 560 height = 240 }
 			format = "UPPER_LEFT"
@@ -128,11 +251,11 @@ guiTypes = {
 	
 	#GUI Gridbox Elements
 	containerWindowType = {
-		name = "territory_management_gridbox_entry"
+		name = "pfp_state_transfer_gridbox_entry"
 		
 		#GUI Target State Gridbox Name
 		instantTextboxType = {
-			name = "territory_management_gridbox_entry_name"
+			name = "pfp_state_transfer_gridbox_entry_name"
 			font = "hoi_18mbs"
 			text = "[?v.GetName]"
 			orientation = "UPPER_LEFT"
