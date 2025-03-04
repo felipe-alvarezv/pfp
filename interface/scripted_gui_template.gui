@@ -3,9 +3,9 @@ guiTypes = {
 	containerWindowType = {
 		name = "pfp_management_window"
 		position = { x = 0 y = 0 }	
-		size = { width = 300 height = 300 }
-		orientation = CENTER
-		origo = CENTER
+		size = { width = 200 height = 300 }
+		orientation = CENTER_RIGHT
+		origo = CENTER_RIGHT
 		fade_time = 100
 		moveable = yes
 		fade_type = linear
@@ -18,11 +18,23 @@ guiTypes = {
 			quadTextureSprite ="GFX_management_background"
 		}
 
+		#GUI Heading
+		instantTextboxType = {
+			name = "pfp_management_heading"
+			position = { x = 02 y = 05 }
+			font = "hoi_16mbs"
+			text = "PFP - Management"
+			Orientation = "UPPER_LEFT"
+			maxWidth = 130
+			alwaystransparent = yes
+			format = center
+		}
+
 		#GUI Close Button
 		buttonType = {
 			name ="pfp_management_close_button"
-			spriteType = "GFX_closebutton"
-			position = { x = 615 y = 02 }
+			spriteType = "option_prev"
+			position = { x = 175 y = 02 }
 			orientation = "UPPER_LEFT"
 			shortcut = "ESCAPE"
 		}
@@ -30,7 +42,7 @@ guiTypes = {
 		#View Puppets Option
 		containerWindowType = {
 			name = "pfp_view_puppets_option"
-			position = { x = 250 y = 100 }
+			position = { x = 15 y = 40 }
 		
 			buttonType = {
 				name = "pfp_view_puppets_option_button"
@@ -62,7 +74,7 @@ guiTypes = {
 		#State Transfer Option
 		containerWindowType = {
 			name = "pfp_state_transfer_option"
-			position = { x = 250 y = 150 }
+			position = { x = 15 y = 100 }
 		
 			buttonType = {
 				name = "pfp_state_transfer_option_button"
@@ -94,7 +106,7 @@ guiTypes = {
 		#All Formables Options
 		containerWindowType = {
 			name = "pfp_all_formable_puppets_option"
-			position = { x = 250 y = 200 }
+			position = { x = 15 y = 160 }
 		
 			buttonType = {
 				name = "pfp_all_formable_puppets_option_button"
@@ -115,12 +127,92 @@ guiTypes = {
 				name = "pfp_all_formable_puppets_option_textbox"
 				position = { x = 32 y = 8 }
 				font = "hoi_16mbs"
-				text = "All Formable Puppets"
+				text = "Coming Soon.."
 				Orientation = "UPPER_LEFT"
 				maxWidth = 130
 				alwaystransparent = yes
 				format = center
 			}
+		}
+	}
+
+	#PFP View Puppets Window
+	containerWindowType = {
+		name = "pfp_view_puppets_window"
+		position = { x = 0 y = 0 }	
+		size = { width = 650 height = 400 }
+		orientation = CENTER_RIGHT
+		origo = CENTER_RIGHT
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		#GUI Background
+		background = {
+			name = "pfp_view_puppets_background"
+			quadTextureSprite ="GFX_view_puppets_background"
+		}
+
+		#GUI Close Button
+		buttonType = {
+			name ="pfp_view_puppets_close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 615 y = 02 }
+			orientation = "UPPER_LEFT" 
+			shortcut = "ESCAPE"
+		}
+
+		#GUI View Puppets Heading
+		instantTextboxType = {
+			name = "pfp_view_puppets_heading_textbox"
+			position = { x = 25 y = 05 }
+			font = "hoi_18mbs"
+			text = "PFP - View Puppets"
+			format = left
+			maxWidth = 150
+			maxHeight = 24
+		}
+
+		#View Puppets Container for Scrolling
+		containerWindowType = {
+			name = "pfp_view_puppets_gridbox_container"
+			position = { x = 45 y = 45 }
+			size = { width = 200 height = 200 }
+			clipping = yes
+			verticalScrollbar = "right_vertical_slider"
+
+			#View Puppets Gridbox
+			gridBoxType = {
+				name = "pfp_view_puppets_gridbox"
+				size = { width = 500 height = 500 }
+				format = "UPPER_LEFT"
+				slotsize = { width = 400 height = 100 }
+				max_slots_horizontal = 1
+				max_slots_vertical = 10
+				add_horizontal = no
+			}
+		}
+	}
+
+	#View Puppets Gridbox Elements
+	containerWindowType = {
+		name = "pfp_view_puppets_gridbox_entry"
+		
+		#View Puppet Country Flag
+		iconType = {
+			name = "pfp_view_puppets_flag_container"
+			quadTextureSprite = "GFX_flag_small2"
+		}
+
+		#View Puppet Country Gridbox
+		instantTextboxType = {
+			name = "pfp_view_puppets_gridbox_entry_name"
+			position = { x = 50 y = 0 }
+			font = "hoi_18mbs"
+			text = "[?v.GetName]"
+			orientation = "UPPER_LEFT"
 		}
 	}
 
@@ -241,7 +333,7 @@ guiTypes = {
 			name = "pfp_state_transfer_gridbox"
 			position = { x = 45 y = 175 }
 			size = { width = 560 height = 240 }
-			format = "UPPER_LEFT"
+			format = "CENTER"
 			slotsize = { width = 140 height = 30 }
 			max_slots_horizontal = 4
 			max_slots_vertical = 6

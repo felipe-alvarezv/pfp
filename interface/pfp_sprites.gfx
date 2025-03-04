@@ -69,6 +69,12 @@ spriteTypes = {
 		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_management_background.dds"
 	}
 
+	#View Puppets Background
+	spriteType = {
+		name = "GFX_view_puppets_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_view_puppets_background.dds"
+	}
+
 	#State Transfer Background
 	spriteType = {
 		name = "GFX_state_transfer_background"

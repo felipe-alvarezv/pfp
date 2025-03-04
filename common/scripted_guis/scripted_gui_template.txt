@@ -6,12 +6,58 @@ scripted_gui = {
 
 		#Check if current viewer
 		visible = {
-			has_global_flag  = pfp_management_window
+			has_country_flag  = pfp_management_window
+		}
+
+		triggers = {
+			pfp_view_puppets_option_button_click_enabled = {
+				is_ai = no
+				NOT = { 
+					has_country_flag = pfp_view_puppets_window 
+				}
+				num_subjects > 0
+				any_subject_country = {
+					has_autonomy_state = autonomy_military_administration
+				}
+			}
+			pfp_state_transfer_option_button_click_enabled = {
+				is_ai = no
+				NOT = { has_country_flag = pfp_state_transfer_window }
+			}
+			pfp_all_formable_puppets_option_button_click_enabled = {
+				has_country_flag = pfp_option_greyed_out
+			}
 		}
 
 		effects  = { 
+			#PFP Management - Close Button
 			pfp_management_close_button_click = {
-				clr_global_flag = pfp_management_window 
+				clr_country_flag = pfp_management_window 
+			}
+
+			#PFP Management - View Puppets Button
+			pfp_view_puppets_option_button_click = {
+				set_country_flag = pfp_view_puppets_window
+
+				every_subject_country = {
+					limit = {
+						has_autonomy_state = autonomy_military_administration
+					}
+					add_to_array = {
+						array = ROOT.pfp_view_puppets_gridbox_array
+						value = THIS.id
+					}
+				}
+			}
+
+			#PFP Management - State Transfer Button
+			pfp_state_transfer_option_button_click = {
+				set_country_flag = pfp_state_transfer_window
+
+				set_variable = {
+					var = ROOT.pfp_state_transfer_gridbox_count
+					value = 0
+				}
 			}
 		}
 
@@ -26,6 +72,54 @@ scripted_gui = {
 		ai_weights = { }
 	}
 
+	#View Puppets Window
+	view_puppets_gui = {
+		window_name = "pfp_view_puppets_window"
+		context_type = player_context
+
+		#Check if current viewer
+		visible = {
+			ROOT = { has_country_flag  = pfp_view_puppets_window }
+		}
+
+		triggers = { }
+		effects = { 
+			#GUI Close Button Effect
+			pfp_view_puppets_close_button_click = {
+				ROOT = { 
+					clr_country_flag = pfp_view_puppets_window
+					clear_array = ROOT.pfp_view_puppets_gridbox_array
+				} 
+			}
+		}
+		
+		#Dynamic List with Puppets for Gridbox
+		dynamic_lists = {
+			pfp_view_puppets_gridbox = {
+				array = ROOT.pfp_view_puppets_gridbox_array
+				value = v
+				index = i
+				change_scope = yes
+				entry_container = pfp_view_puppets_gridbox_entry
+			}
+		}
+
+		properties = {
+			pfp_view_puppets_flag_container = {
+				image = [THIS.GetFlag]
+			}
+		}
+
+		ai_enabled = { always = no }
+
+		ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+		ai_test_variance = 0.5
+
+		ai_check = { }
+		ai_check_scope = { }
+		ai_weights = { }
+	}
+
 	#State Transfer Window
 	state_transfer_gui = {
 		window_name = "pfp_state_transfer_window"
@@ -33,28 +127,27 @@ scripted_gui = {
 
 		#Check if current viewer
 		visible = {
-			has_global_flag  = pfp_state_transfer_window
-			check_variable = { global.pfp_state_transfer_window_country = ROOT }
+			ROOT = { has_country_flag  = pfp_state_transfer_window }
 		}
 
 		triggers = {
 			#GUI Select Button Triggers
 			pfp_state_transfer_select_button_click_enabled = {
 				AND = {
-					check_variable = { global.pfp_state_transfer_gridbox_count < 24 }
+					check_variable = { ROOT.pfp_state_transfer_gridbox_count < 24 }
 					NOT = {
 						if = {
 							is_in_array = { 
-								array = global.pfp_state_transfer_gridbox_array 
+								array = ROOT.pfp_state_transfer_gridbox_array 
 								value = THIS.id
 							}
 						}
 					}
 					OR = {
-						THIS = { is_owned_and_controlled_by = global.pfp_state_transfer_window_country }
+						THIS = { is_owned_and_controlled_by = ROOT }
 						AND = {
-							THIS.owner = { is_subject_of = global.pfp_state_transfer_window_country }
-							THIS = { is_owned_and_controlled_by = THIS.owner }
+							owner = { is_subject_of = ROOT }
+							THIS = { is_owned_and_controlled_by = owner }
 						}
 					}
 				}
@@ -63,7 +156,7 @@ scripted_gui = {
 			pfp_state_transfer_unselect_button_click_enabled = { 
 				if = {
 					is_in_array = { 
-						array = global.pfp_state_transfer_gridbox_array 
+						array = ROOT.pfp_state_transfer_gridbox_array 
 						value = THIS.id 
 					} 
 				}
@@ -72,10 +165,10 @@ scripted_gui = {
 			pfp_state_transfer_transfer_button_click_enabled = {
 				OR = {
 					AND = {
-						THIS.owner = { is_ally_with = global.pfp_state_transfer_window_country }
-						THIS.owner = { has_autonomy_state = autonomy_military_administration } 
+						owner = { is_ally_with = ROOT }
+						owner = { has_autonomy_state = autonomy_military_administration } 
 					}
-					THIS.owner = { original_tag = global.pfp_state_transfer_window_country }
+					owner = { original_tag = ROOT }
 				}
 			}
 		}
@@ -83,12 +176,11 @@ scripted_gui = {
 			#GUI Close Button Effect
 			pfp_state_transfer_close_button_click = {
 				ROOT = { 
-					clr_global_flag = pfp_state_transfer_window 
-					clear_variable = global.pfp_state_transfer_window_country
-					clear_array = global.pfp_state_transfer_gridbox_array
+					clr_country_flag = pfp_state_transfer_window 
+					clear_array = ROOT.pfp_state_transfer_gridbox_array
 
 					set_variable = {
-						var = global.pfp_state_transfer_gridbox_count
+						var = ROOT.pfp_state_transfer_gridbox_count
 						value = 0
 					}
 				} 
@@ -96,40 +188,40 @@ scripted_gui = {
 			#GUI Select Button Effect
 			pfp_state_transfer_select_button_click = {
 				add_to_variable = {
-					var = global.pfp_state_transfer_gridbox_count
+					var = ROOT.pfp_state_transfer_gridbox_count
 					value = 1
 				}
 
 				add_to_array = {
-					array = global.pfp_state_transfer_gridbox_array
+					array = ROOT.pfp_state_transfer_gridbox_array
 					value = THIS.id
 				}
 			}
 			#GUI Unselect Button Effect
 			pfp_state_transfer_unselect_button_click = {
 				remove_from_array = {
-					array = global.pfp_state_transfer_gridbox_array
+					array = ROOT.pfp_state_transfer_gridbox_array
 					value = THIS.id
 				}
 			}
 			#GUI Transfer Button Effect
 			pfp_state_transfer_transfer_button_click = {
 				for_each_loop = {
-					array = global.pfp_state_transfer_gridbox_array
+					array = ROOT.pfp_state_transfer_gridbox_array
 					value = v
 
-					THIS.owner = { 
+					owner = { 
 						transfer_state = v
 					}
 				}
 
-				clear_array = global.pfp_state_transfer_gridbox_array
+				clear_array = ROOT.pfp_state_transfer_gridbox_array
 			}
 		}
 		#Dynamic List with States for Gridbox
 		dynamic_lists = { 
 			pfp_state_transfer_gridbox = {
-				array = global.pfp_state_transfer_gridbox_array
+				array = ROOT.pfp_state_transfer_gridbox_array
 				value = v
 				index = i
 				change_scope = yes
@@ -148,4 +240,6 @@ scripted_gui = {
 		ai_check_scope = { }
 		ai_weights = { }
 	}
+
+
 }
