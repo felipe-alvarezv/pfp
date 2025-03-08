@@ -1,3 +1,0 @@
-#pfp_puppet_management = {
-
-#}

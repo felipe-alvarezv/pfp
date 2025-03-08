@@ -91,14 +91,23 @@ scripted_gui = {
 					clear_array = ROOT.pfp_view_puppets_gridbox_array
 				} 
 			}
+
+			#GUI Assign Leader Button Effect
+			pfp_view_puppets_gridbox_assign_leader_button_click = {
+				ROOT = { 
+					set_country_flag = pfp_assign_leader_window
+					set_variable = { ROOT.overlord_value_var = ROOT }
+					set_variable = { ROOT.puppet_value_var = puppet_value }
+				}
+			}
 		}
 		
 		#Dynamic List with Puppets for Gridbox
 		dynamic_lists = {
 			pfp_view_puppets_gridbox = {
 				array = ROOT.pfp_view_puppets_gridbox_array
-				value = v
-				index = i
+				value = puppet_value
+				index = puppet_index
 				change_scope = yes
 				entry_container = pfp_view_puppets_gridbox_entry
 			}
@@ -106,7 +115,7 @@ scripted_gui = {
 
 		properties = {
 			pfp_view_puppets_flag_container = {
-				image = [THIS.GetFlag]
+				image = "[THIS.GetFlag]"
 			}
 		}
 
@@ -118,6 +127,160 @@ scripted_gui = {
 		ai_check = { }
 		ai_check_scope = { }
 		ai_weights = { }
+	}
+
+	#Assign Leader Window
+	pfp_assign_leader_gui = {
+		window_name = "pfp_assign_leader_window"
+		context_type = player_context
+
+		visible = {
+			ROOT = { 
+				has_country_flag = pfp_assign_leader_window
+				has_variable = puppet_value_var 
+			}
+		}
+
+		triggers = {
+			pfp_assign_leader_dismiss_button_click_enabled = {
+				ROOT = {
+					var:puppet_value_var = {
+						NOT = {
+							has_country_leader = {
+								name = "Military Junta"
+								ruling_only = yes
+							}
+						}
+					}
+				}
+			}
+			pfp_assign_leader_appoint_button_click_enabled = {
+				ROOT = {
+					NOT = {
+						can_be_country_leader = leader_value
+					}
+
+					var:puppet_value_var = {
+						has_country_leader = {
+							name = "Military Junta"
+							ruling_only = yes
+						}
+					}
+				}
+			}
+		}
+
+		effects = {	
+			pfp_assign_leader_dismiss_button_click = {
+				ROOT = {
+					var:puppet_value_var = {
+						every_character = {
+							limit = {
+								is_country_leader = yes
+							}
+							remove_country_leader_role = {
+								character = THIS
+								ideology = marxism
+							}
+			
+							remove_country_leader_role = {
+								character = THIS
+								ideology = conservatism
+							}
+			
+							remove_country_leader_role = {
+								character = THIS
+								ideology = centrism
+							}
+			
+							remove_country_leader_role = {
+								character = THIS
+								ideology = fascism_ideology
+							}
+			
+							set_nationality = {
+								character = THIS
+								target_country = ROOT
+							}
+						}
+					}
+				}
+			}
+
+			pfp_assign_leader_close_button_click = {
+				ROOT = {
+					clr_country_flag = pfp_assign_leader_window
+					clear_variable = puppet_value_var
+				}
+			}
+
+			pfp_assign_leader_appoint_button_click = {
+				ROOT = {
+					set_nationality = {
+						character = leader_value
+						target_country = ROOT.puppet_value_var
+					}
+				}
+
+				add_country_leader_role = {
+					character = leader_value
+					promote_leader = yes
+					country_leader = {
+						ideology = marxism
+						expire = "1965.1.1.1"
+						traits = { }
+					}
+				}
+
+				add_country_leader_role = {
+					character = leader_value
+					promote_leader = yes
+					country_leader = {
+						ideology = conservatism
+						expire = "1965.1.1.1"
+						traits = { }
+					}
+				}
+
+				add_country_leader_role = {
+					character = leader_value
+					promote_leader = yes
+					country_leader = {
+						ideology = centrism
+						expire = "1965.1.1.1"
+						traits = { }
+					}
+				}
+
+				add_country_leader_role = {
+					character = leader_value
+					promote_leader = yes
+					country_leader = {
+						ideology = fascism_ideology
+						expire = "1965.1.1.1"
+						traits = { }
+					}
+				}
+
+				log = "[?puppet_value_var.[?leader_value].GetTokenKey]"
+			}
+		}
+
+		dynamic_lists = {
+			pfp_assign_leader_gridbox = {
+				array = ROOT.army_leaders
+				value = leader_value
+				index = leader_index
+				change_scope = yes
+				entry_container = pfp_assign_leader_gridbox_entry
+			}
+		}		
+
+		properties = {
+			pfp_assign_leader_character_image = {
+				image = "GFX_portrait_[?leader_value.GetTokenKey]"
+			}
+		}
 	}
 
 	#State Transfer Window

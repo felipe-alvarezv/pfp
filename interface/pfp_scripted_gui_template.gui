@@ -15,7 +15,7 @@ guiTypes = {
 		#GUI Background
 		background = {
 			name = "pfp_management_background"
-			quadTextureSprite ="GFX_management_background"
+			quadTextureSprite ="GFX_pfp_management_background"
 		}
 
 		#GUI Heading
@@ -139,8 +139,8 @@ guiTypes = {
 	#PFP View Puppets Window
 	containerWindowType = {
 		name = "pfp_view_puppets_window"
-		position = { x = 0 y = 0 }	
 		size = { width = 650 height = 400 }
+		position = { x = 0 y = 0 }
 		orientation = CENTER_RIGHT
 		origo = CENTER_RIGHT
 		fade_time = 100
@@ -152,7 +152,7 @@ guiTypes = {
 		#GUI Background
 		background = {
 			name = "pfp_view_puppets_background"
-			quadTextureSprite ="GFX_view_puppets_background"
+			quadTextureSprite ="GFX_pfp_view_puppets_background"
 		}
 
 		#GUI Close Button
@@ -178,19 +178,22 @@ guiTypes = {
 		#View Puppets Container for Scrolling
 		containerWindowType = {
 			name = "pfp_view_puppets_gridbox_container"
-			position = { x = 45 y = 45 }
-			size = { width = 200 height = 200 }
+			position = { x = 50 y = 50 }
+			size = { width = 590 height = 300 }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "pfp_view_puppets_gridbox_background"
+				quadTextureSprite ="GFX_pfp_view_puppets_gridbox_background"
+			}
 
 			#View Puppets Gridbox
 			gridBoxType = {
 				name = "pfp_view_puppets_gridbox"
-				size = { width = 500 height = 500 }
 				format = "UPPER_LEFT"
-				slotsize = { width = 400 height = 100 }
+				slotsize = { width = 500 height = 80 }
 				max_slots_horizontal = 1
-				max_slots_vertical = 10
 				add_horizontal = no
 			}
 		}
@@ -211,8 +214,125 @@ guiTypes = {
 			name = "pfp_view_puppets_gridbox_entry_name"
 			position = { x = 50 y = 0 }
 			font = "hoi_18mbs"
-			text = "[?v.GetName]"
+			text = "[THIS.GetName]"
 			orientation = "UPPER_LEFT"
+		}
+
+		#Puppet States Counter
+		instantTextboxType = {
+			name = "pfp_view_puppets_gridbox_states_count_label"
+			position = { x = 50 y = 20 }
+			font = "hoi_16mbs"
+			text = "States: [?num_owned_states]"
+			orientation = "UPPER_LEFT"
+		}
+
+		#Puppet Cores Counter
+		instantTextboxType = {
+			name = "pfp_view_puppets_gridbox_cores_count_label"
+			position = { x = 50 y = 40 }
+			font = "hoi_16mbs"
+			text = "Cores: [?num_core_states]"
+			orientation = "UPPER_LEFT"
+		}
+
+		#Puppet Assign Leader Button
+		buttonType = {
+			name = "pfp_view_puppets_gridbox_assign_leader_button"
+			position = { x = 350 y = 0 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_sort_button_202x29"
+			buttonText = "Assign Leader"
+			buttonFont = "hoi_16mbs"
+		}
+	}
+
+	#Assign Leader Window
+	containerWindowType = {
+		name = "pfp_assign_leader_window"
+		size = { width = 650 height = 400 }
+		orientation = CENTER_RIGHT
+		origo = CENTER_RIGHT
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		#Assign Leader Background
+		background = {
+			name = "pfp_assign_leader_background"
+			quadTextureSprite ="GFX_pfp_assign_leader_background"
+		}
+
+		#Assign Leader Dismiss Button
+		buttonType = {
+			name = "pfp_assign_leader_dismiss_button"
+			spriteType = "GFX_delete_template_button"
+			position = { x = 590 y = 02 }
+			orientation = "UPPER_LEFT"
+		}
+
+		#Assign Leader Close Button
+		buttonType = {
+			name ="pfp_assign_leader_close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 615 y = 02 }
+			orientation = "UPPER_LEFT" 
+			shortcut = "ESCAPE"
+		}
+
+		#Assign Leader Gridbox Container
+		containerWindowType = {
+			name = "pfp_assign_leader_gridbox_container"
+			position = { x = 50 y = 50 }
+			size = { width = 590 height = 300 }
+			clipping = yes
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "pfp_assign_leader_gridbox_background"
+				quadTextureSprite ="GFX_pfp_assign_leader_gridbox_background"
+			}
+
+			#Assign Leader Gridbox
+			gridBoxType = {
+				name = "pfp_assign_leader_gridbox"
+				format = "UPPER_LEFT"
+				slotsize = { width = 500 height = 150 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+	}
+
+	#Assign Leader Gridbox Elements
+	containerWindowType = {
+		name = "pfp_assign_leader_gridbox_entry"
+		
+		#Assign Leader Character Portrait
+		iconType = {
+			name = "pfp_assign_leader_character_image"
+			quadTextureSprite = "GFX_land_battle_leader_frame"
+		}
+
+		#Assign Leader Character Name
+		instantTextboxType = {
+			name = "pfp_assign_leader_character_name"
+			position = { x = 50 y = 0 }
+			font = "hoi_18mbs"
+			text = "[?leader_value.GetName]"
+			orientation = "UPPER_LEFT"
+		}
+
+		#Assign Leader Appoint Button
+		buttonType = {
+			name = "pfp_assign_leader_appoint_button"
+			position = { x = 350 y = 0 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_sort_button_202x29"
+			buttonText = "Appoint"
+			buttonFont = "hoi_16mbs"
 		}
 	}
 
@@ -232,7 +352,7 @@ guiTypes = {
 		#GUI Background
 		background = {
 			name = "pfp_state_transfer_background"
-			quadTextureSprite ="GFX_state_transfer_background"
+			quadTextureSprite ="GFX_pfp_state_transfer_background"
 		}
 
 		#GUI Close Button
@@ -333,7 +453,7 @@ guiTypes = {
 			name = "pfp_state_transfer_gridbox"
 			position = { x = 45 y = 175 }
 			size = { width = 560 height = 240 }
-			format = "CENTER"
+			format = "UPPER_LEFT"
 			slotsize = { width = 140 height = 30 }
 			max_slots_horizontal = 4
 			max_slots_vertical = 6

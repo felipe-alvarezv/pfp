@@ -1,30 +1,4 @@
 pfp_puppet_management = {
-    pfp_puppet_management_options_leadership = { #Manage puppet leadership
-        visible = {
-            has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-            NOT = {
-                has_country_flag = pfp_puppet_management_options_leadership
-                has_country_flag = pfp_puppet_management_options_territory 
-            }
-        }
-        complete_effect = {
-            set_country_flag = pfp_puppet_management_options_leadership
-        }
-    }
-    pfp_puppet_management_options_territory = { #Manage puppet territory
-        visible = {
-            has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-            NOT = { 
-                has_country_flag = pfp_puppet_management_options_leadership
-                has_country_flag = pfp_puppet_management_options_territory 
-            }
-        }
-        complete_effect = {
-            set_country_flag = pfp_puppet_management_options_territory
-        }
-    }
     pfp_management_window = {
 		icon = generic_industry
 
@@ -38,18 +12,4 @@ pfp_puppet_management = {
         }
 		ai_will_do = { factor = 0 }
 	}
-    pfp_puppet_management_options_back = { #Deselect puppet management options
-        visible = {
-            has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-            OR = { 
-                has_country_flag = pfp_puppet_management_options_leadership
-                has_country_flag = pfp_puppet_management_options_territory 
-            }
-        }
-        complete_effect = {
-            if = { limit = { has_country_flag = pfp_puppet_management_options_leadership } clr_country_flag = pfp_puppet_management_options_leadership }
-            else_if = { limit = { has_country_flag = pfp_puppet_management_options_territory } clr_country_flag = pfp_puppet_management_options_territory }
-        }
-    }
 }
