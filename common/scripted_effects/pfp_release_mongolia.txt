@@ -22,6 +22,5 @@ pfp_release_mongolia = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P47 }
-		news_event = { id = pfp_news.01 }
 	}
 }

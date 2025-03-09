@@ -81,16 +81,16 @@ spriteTypes = {
 		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_view_puppets_gridbox_background.dds"
 	}
 
-	#Assign Leader Background
+	#Appoint Leader Background
 	spriteType = {
-		name = "GFX_pfp_assign_leader_background"
-		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_assign_leader_background.dds"
+		name = "GFX_pfp_appoint_leader_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_appoint_leader_background.dds"
 	}
 
-	#Assign Leader Gridbox Background
+	#Appoint Leader Gridbox Container Background
 	spriteType = {
-		name = "GFX_pfp_assign_leader_gridbox_background"
-		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_assign_leader_gridbox_background.dds"
+		name = "GFX_pfp_appoint_leader_gridbox_container_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_appoint_leader_gridbox_container_background.dds"
 	}
 
 	#State Transfer Background

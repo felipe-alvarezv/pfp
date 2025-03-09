@@ -29,6 +29,5 @@ pfp_release_midwestern_us = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P18 }
-		news_event = { id = pfp_news.01 }
 	}
 }

@@ -18,16 +18,17 @@ guiTypes = {
 			quadTextureSprite ="GFX_pfp_management_background"
 		}
 
-		#GUI Heading
+		#GUI Title
 		instantTextboxType = {
-			name = "pfp_management_heading"
-			position = { x = 02 y = 05 }
+			name = "pfp_management_title"
+			position = { x = 0 y = 06 }
 			font = "hoi_16mbs"
-			text = "PFP - Management"
+			text = pfp_management_textbox_title
 			Orientation = "UPPER_LEFT"
-			maxWidth = 130
-			alwaystransparent = yes
 			format = center
+			fixedsize = yes
+			maxWidth = 170
+			maxHeight = 10
 		}
 
 		#GUI Close Button
@@ -63,11 +64,13 @@ guiTypes = {
 				name = "pfp_view_puppets_option_textbox"
 				position = { x = 32 y = 8 }
 				font = "hoi_16mbs"
-				text = "View Puppets"
+				text = pfp_management_textbox_view_puppets
 				Orientation = "UPPER_LEFT"
-				maxWidth = 130
 				alwaystransparent = yes
 				format = center
+				fixedsize = yes
+				maxWidth = 130
+				maxHeight = 10
 			}
 		}
 
@@ -95,11 +98,13 @@ guiTypes = {
 				name = "pfp_state_transfer_option_textbox"
 				position = { x = 32 y = 8 }
 				font = "hoi_16mbs"
-				text = "State Transfer"
+				text = pfp_management_textbox_state_transfer
 				Orientation = "UPPER_LEFT"
-				maxWidth = 130
 				alwaystransparent = yes
 				format = center
+				fixedsize = yes
+				maxWidth = 130
+				maxHeight = 10
 			}
 		}
 
@@ -127,11 +132,13 @@ guiTypes = {
 				name = "pfp_all_formable_puppets_option_textbox"
 				position = { x = 32 y = 8 }
 				font = "hoi_16mbs"
-				text = "Coming Soon.."
+				text = pfp_management_testbox_coming_soon
 				Orientation = "UPPER_LEFT"
-				maxWidth = 130
 				alwaystransparent = yes
 				format = center
+				fixedsize = yes
+				maxWidth = 130
+				maxHeight = 10
 			}
 		}
 	}
@@ -167,12 +174,13 @@ guiTypes = {
 		#GUI View Puppets Heading
 		instantTextboxType = {
 			name = "pfp_view_puppets_heading_textbox"
-			position = { x = 25 y = 05 }
+			position = { x = 25 y = 06 }
 			font = "hoi_18mbs"
-			text = "PFP - View Puppets"
+			text = pfp_view_puppets_textbox_title
 			format = left
-			maxWidth = 150
-			maxHeight = 24
+			fixedsize = yes
+			maxWidth = 570
+			maxHeight = 10
 		}
 
 		#View Puppets Container for Scrolling
@@ -205,52 +213,61 @@ guiTypes = {
 		
 		#View Puppet Country Flag
 		iconType = {
-			name = "pfp_view_puppets_flag_container"
+			name = "pfp_view_puppets_gridbox_entry_flag_icon"
 			quadTextureSprite = "GFX_flag_small2"
 		}
 
-		#View Puppet Country Gridbox
+		#View Puppet Country Name
 		instantTextboxType = {
 			name = "pfp_view_puppets_gridbox_entry_name"
 			position = { x = 50 y = 0 }
 			font = "hoi_18mbs"
-			text = "[THIS.GetName]"
+			text = pfp_view_puppets_textbox_country_name
 			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			maxWidth = 280
+			maxHeight = 10
 		}
 
 		#Puppet States Counter
 		instantTextboxType = {
-			name = "pfp_view_puppets_gridbox_states_count_label"
+			name = "pfp_view_puppets_gridbox_entry_states_label"
 			position = { x = 50 y = 20 }
 			font = "hoi_16mbs"
-			text = "States: [?num_owned_states]"
+			text = pfp_view_puppets_textbox_states
 			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			maxWidth = 280
+			maxHeight = 10
 		}
 
 		#Puppet Cores Counter
 		instantTextboxType = {
-			name = "pfp_view_puppets_gridbox_cores_count_label"
+			name = "pfp_view_puppets_gridbox_entry_cores_label"
 			position = { x = 50 y = 40 }
 			font = "hoi_16mbs"
-			text = "Cores: [?num_core_states]"
+			text = pfp_view_puppets_textbox_cores
 			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			maxWidth = 280
+			maxHeight = 10
 		}
 
-		#Puppet Assign Leader Button
+		#Puppet Appoint Leader Button
 		buttonType = {
-			name = "pfp_view_puppets_gridbox_assign_leader_button"
+			name = "pfp_view_puppets_gridbox_entry_appoint_leader_button"
 			position = { x = 350 y = 0 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_sort_button_202x29"
-			buttonText = "Assign Leader"
+			buttonText = pfp_view_puppets_textbox_appoint_leader
 			buttonFont = "hoi_16mbs"
 		}
 	}
 
-	#Assign Leader Window
+	#Appoint Leader Window
 	containerWindowType = {
-		name = "pfp_assign_leader_window"
-		size = { width = 650 height = 400 }
+		name = "pfp_appoint_leader_window"
+		size = { width = 365 height = 360 }
 		orientation = CENTER_RIGHT
 		origo = CENTER_RIGHT
 		fade_time = 100
@@ -259,79 +276,88 @@ guiTypes = {
 		click_to_front = no
 		clipping = no
 
-		#Assign Leader Background
+		#Appoint Leader Background
 		background = {
-			name = "pfp_assign_leader_background"
-			quadTextureSprite ="GFX_pfp_assign_leader_background"
+			name = "pfp_appoint_leader_background"
+			quadTextureSprite ="GFX_pfp_appoint_leader_background"
 		}
 
-		#Assign Leader Dismiss Button
+		#Appoint Leader Title
+		instantTextboxType = {
+			name = "pfp_appoint_leader_title"
+			position = { x = 20 y = 06 }
+			font = "hoi_18mbs"
+			text = pfp_appoint_leader_textbox_title
+			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			maxWidth = 260
+			maxHeight = 10
+		}
+
+		#Dismiss Leader Button
 		buttonType = {
-			name = "pfp_assign_leader_dismiss_button"
+			name = "pfp_dismiss_leader_button"
 			spriteType = "GFX_delete_template_button"
-			position = { x = 590 y = 02 }
+			position = { x = 300 y = 02 }
 			orientation = "UPPER_LEFT"
 		}
 
-		#Assign Leader Close Button
+		#Appoint Leader Close Button
 		buttonType = {
-			name ="pfp_assign_leader_close_button"
-			spriteType = "GFX_closebutton"
-			position = { x = 615 y = 02 }
+			name ="pfp_appoint_leader_close_button"
+			spriteType = "option_prev"
+			position = { x = 330 y = 02 }
 			orientation = "UPPER_LEFT" 
 			shortcut = "ESCAPE"
 		}
 
-		#Assign Leader Gridbox Container
+		#Appoint Leader Gridbox Container
 		containerWindowType = {
-			name = "pfp_assign_leader_gridbox_container"
-			position = { x = 50 y = 50 }
-			size = { width = 590 height = 300 }
+			name = "pfp_appoint_leader_gridbox_container"
+			position = { x = 30 y = 30 }
+			size = { width = 330 height = 300 }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider"
 
 			background = {
-				name = "pfp_assign_leader_gridbox_background"
-				quadTextureSprite ="GFX_pfp_assign_leader_gridbox_background"
+				name = "pfp_appoint_leader_gridbox_container_background"
+				quadTextureSprite ="GFX_pfp_appoint_leader_gridbox_container_background"
 			}
 
-			#Assign Leader Gridbox
+			#Appoint Leader Gridbox
 			gridBoxType = {
-				name = "pfp_assign_leader_gridbox"
+				name = "pfp_appoint_leader_gridbox"
 				format = "UPPER_LEFT"
-				slotsize = { width = 500 height = 150 }
+				slotsize = { width = 220 height = 50 }
 				max_slots_horizontal = 1
 				add_horizontal = no
 			}
 		}
 	}
 
-	#Assign Leader Gridbox Elements
+	#Appoint Leader Gridbox Entry
 	containerWindowType = {
-		name = "pfp_assign_leader_gridbox_entry"
-		
-		#Assign Leader Character Portrait
-		iconType = {
-			name = "pfp_assign_leader_character_image"
-			quadTextureSprite = "GFX_land_battle_leader_frame"
-		}
+		name = "pfp_appoint_leader_gridbox_entry"
 
-		#Assign Leader Character Name
+		#Appoint Leader Character Name
 		instantTextboxType = {
-			name = "pfp_assign_leader_character_name"
-			position = { x = 50 y = 0 }
+			name = "pfp_appoint_leader_gridbox_entry_character_name"
+			position = { x = 0 y = 5 }
 			font = "hoi_18mbs"
-			text = "[?leader_value.GetName]"
+			text = pfp_appoint_leader_textbox_leader_name
 			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			maxWidth = 150
+			maxHeight = 10
 		}
 
-		#Assign Leader Appoint Button
+		#Appoint Leader Button
 		buttonType = {
-			name = "pfp_assign_leader_appoint_button"
-			position = { x = 350 y = 0 }
+			name = "pfp_appoint_leader_gridbox_entry_button"
+			position = { x = 185 y = 0 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_sort_button_202x29"
-			buttonText = "Appoint"
+			spriteType = "GFX_button_94x31"
+			buttonText = pfp_appoint_leader_textbox_appoint_button
 			buttonFont = "hoi_16mbs"
 		}
 	}
@@ -355,6 +381,26 @@ guiTypes = {
 			quadTextureSprite ="GFX_pfp_state_transfer_background"
 		}
 
+		#State Transfer Heading
+		instantTextboxType = {
+			name = "pfp_state_transfer_heading_textbox"
+			position = { x = 25 y = 06 }
+			font = "hoi_18mbs"
+			text = "PFP - State Transfer"
+			format = left
+			fixedsize = yes
+			maxWidth = 570
+			maxHeight = 10
+		}
+
+		#Unselect All Button
+		buttonType = {
+			name ="pfp_state_transfer_unselect_all_button"
+			spriteType = "GFX_delete_template_button"
+			position = { x = 585 y = 05 }
+			orientation = "UPPER_LEFT"
+		}
+
 		#GUI Close Button
 		buttonType = {
 			name ="pfp_state_transfer_close_button"
@@ -371,8 +417,9 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "Selected State:"
 			format = left
-			maxWidth = 150
-			maxHeight = 24
+			fixedsize = yes
+			maxWidth = 280
+			maxHeight = 10
 		}
 
 		#GUI Selected State
@@ -382,30 +429,33 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "[THIS.GetName]"
 			format = left
-			maxWidth = 150
-			maxHeight = 24
+			fixedsize = yes
+			maxWidth = 280
+			maxHeight = 10
 		}
 
 		#GUI Selected Country Heading
 		instantTextboxType = {
 			name = "pfp_state_transfer_selected_country_heading_textbox"
-			position = { x = 450 y = 50 }
+			position = { x = 330 y = 50 }
 			font = "hoi_18mbs"
 			text = "Selected Country:"
 			format = left
-			maxWidth = 150
-			maxHeight = 24
+			fixedsize = yes
+			maxWidth = 280
+			maxHeight = 10
 		}
 
 		#GUI Selected Country
 		instantTextboxType = {
 			name = "pfp_state_transfer_selected_country_textbox"
-			position = { x = 450 y = 70 }
+			position = { x = 330 y = 70 }
 			font = "hoi_18mbs"
 			text = "[THIS.owner.GetName]"
 			format = left
-			maxWidth = 150
-			maxHeight = 24
+			fixedsize = yes
+			maxWidth = 280
+			maxHeight = 10
 		}
 
 		#GUI Select State Button
@@ -446,6 +496,9 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "Targeted States:"
 			format = left
+			fixedsize = yes
+			maxWidth = 280
+			maxHeight = 10
 		}
 
 		#GUI Target State Gridbox
@@ -471,6 +524,9 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "[?v.GetName]"
 			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			maxWidth = 120
+			maxHeight = 10
 		}
 	}
 }

@@ -1,8 +1,0 @@
-﻿#News Event Localisation
-l_english:
-  pfp_news.01.t:0 "[?temp_country_tag.GetOldAdjective] Military Administration"
-  pfp_news.01.desc:0 "[FROM.GetNameDefCap] has announced the establishment of a military administration in [?temp_country_tag.GetOldNameDef]. A military junta composed of [FROM.GetAdjective] officials and [?temp_country_tag.GetOldAdjective] collaborators has been appointed to maintain order and control in the region. These news have been met with a mixed opinion, with some viewing this as a violation of [?temp_country_tag.GetOldAdjective] self-determination. The world is now watching as the situation further develops."
-  pfp_news.01.a:0 "We will keep order and stability in our lands!"
-  pfp_news.01.b:0 "Our sphere of influence will continue to grow!"
-  pfp_news.01.c:0 "They will pay for their aggression!"
-  pfp_news.01.d:0 "Interesting"

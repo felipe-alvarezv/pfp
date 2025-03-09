@@ -1,121 +1,33 @@
 ﻿#Decision Description Localisation
 l_english:
+ #PFP Main Category
  pfp_category:0 "Pipe's Formable Puppets"
  pfp_category_desc:0 "As we gain more territory, it has become a complicated problem to administer all of it. To address this problem, puppet governments loyal to our nation should be established in the regions we have conquered. This will allow us to place our attetion elsewhere, while the region helps our cause."
 
+ #PFP Management Category
  pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
- pfp_puppet_management_desc:0 "After establishing our military administration, we may need to make adjustments regarding the administration and its leaders.\n\nCurrent Selection - §Y[?FROM.pfp_puppet_selection.GetOldName]§!"
+ pfp_puppet_management_desc:0 "After establishing our military administration, we may need to make adjustments regarding the administration and its territories."
 
- #Show/Hide Management Options
- pfp_puppet_management_view_on:0 "View Puppet Management Options"
- pfp_puppet_management_view_on_desc:0 "Shows military administrations that can be managed."
- pfp_puppet_management_view_off:0 "§RHide Puppet Management Options§!"
- pfp_puppet_management_view_off_desc:0 "Hides military administrations that can be managed."
-
- #Puppet Selection
- pfp_puppet_selection_colombia:0 "Colombia"
- pfp_puppet_selection_great_britain:0 "Great Britain"
- pfp_puppet_selection_arabia:0 "Arabia"
- pfp_puppet_selection_baltic:0 "Baltic"
- pfp_puppet_selection_netherlands:0 "Netherlands"
- pfp_puppet_selection_west_indies:0 "West Indies"
- pfp_puppet_selection_central_africa:0 "Central Africa"
- pfp_puppet_selection_central_america:0 "Central America"
- pfp_puppet_selection_hungary:0 "Hungary"
- pfp_puppet_selection_east_africa:0 "East Africa"
- pfp_puppet_selection_eastern_canada:0 "Eastern Canada"
- pfp_puppet_selection_finland:0 "Finland"
- pfp_puppet_selection_germany:0 "Germany"
- pfp_puppet_selection_greece:0 "Greece"
- pfp_puppet_selection_iberia:0 "Iberia"
- pfp_puppet_selection_indochina:0 "Indochina"
- pfp_puppet_selection_indonesia:0 "Indonesia"
- pfp_puppet_selection_midwestern_us:0 "Midwestern U.S."
- pfp_puppet_selection_north_germany:0 "North Germany"
- pfp_puppet_selection_northeastern_us:0 "Northeastern U.S."
- pfp_puppet_selection_pacific_us:0 "Pacific U.S."
- pfp_puppet_selection_quebec:0 "Quebec"
- pfp_puppet_selection_us_rockies:0 "U.S. Rockies"
- pfp_puppet_selection_scandinavia:0 "Scandinavia"
- pfp_puppet_selection_south_germany:0 "South Germany"
- pfp_puppet_selection_southern_us:0 "Southern U.S."
- pfp_puppet_selection_oceania:0 "Oceania"
- pfp_puppet_selection_transcaucasia:0 "Transcaucasia"
- pfp_puppet_selection_western_canada:0 "Western Canada"
- pfp_puppet_selection_north_africa:0 "North Africa"
- pfp_puppet_selection_west_germany:0 "West Germany"
- pfp_puppet_selection_east_germany:0 "East Germany"
- pfp_puppet_selection_prussia:0 "Prussia"
- pfp_puppet_selection_poland:0 "Poland"
- pfp_puppet_selection_west_africa:0 "West Africa"
- pfp_puppet_selection_south_africa:0 "South Africa"
- pfp_puppet_selection_india:0 "India"
- pfp_puppet_selection_bangladesh:0 "Bangladesh"
- pfp_puppet_selection_central_russia:0 "Central Russia"
- pfp_puppet_selection_southern_russia:0 "Southern Russia"
- pfp_puppet_selection_northern_caucasus:0 "Northern Caucasus"
- pfp_puppet_selection_volga:0 "Volga"
- pfp_puppet_selection_northwestern_russia:0 "Northwestern Russia"
- pfp_puppet_selection_urals:0 "Urals"
- pfp_puppet_selection_siberia:0 "Siberia"
- pfp_puppet_selection_far_eastern_russia:0 "Far Eastern Russia"
- pfp_puppet_selection_mongolia:0 "Mongolia"
- pfp_puppet_selection_western_russia:0 "Western Russia"
- pfp_puppet_selection_bulgaria:0 "Bulgaria"
- pfp_puppet_selection_yugoslavia:0 "Yugoslavia"
- pfp_puppet_selection_turkestan:0 "Turkestan"
- pfp_puppet_selection_himalayas:0 "Himalayas"
- pfp_puppet_selection_mittelafrika:0 "Mittelafrika"
- pfp_puppet_selection_chile:0 "Chile"
- pfp_puppet_selection_argentina:0 "Argentina"
- pfp_puppet_selection_peru:0 "Peru"
- pfp_puppet_selection_brazil:0 "Brazil"
- pfp_puppet_selection_mexico:0 "Mexico"
- pfp_puppet_selection_czechia:0 "Czechia"
- pfp_puppet_selection_belgium:0 "Belgium"
- pfp_puppet_selection_denmark:0 "Denmark"
- pfp_puppet_selection_northern_france:0 "Northern France"
- pfp_puppet_selection_southern_france:0 "Southern France"
- pfp_puppet_selection_french_alps:0 "French Alps"
- pfp_puppet_selection_norway:0 "Norway"
- pfp_puppet_selection_ukraine:0 "Ukraine"
- pfp_puppet_selection_levant:0 "Levant"
- pfp_puppet_selection_turkey:0 "Turkey"
- pfp_puppet_selection_iraq:0 "Iraq"
- pfp_puppet_selection_kurdistan:0 "Kurdistan"
- pfp_puppet_selection_iran:0 "Iran"
- pfp_puppet_selection_korea:0 "Korea"
- pfp_puppet_selection_ireland:0 "Ireland"
- pfp_puppet_selection_sweden:0 "Sweden"
- pfp_puppet_selection_pakistan:0 "Pakistan"
- pfp_puppet_selection_afghanistan:0 "Afghanistan"
- pfp_puppet_selection_austria:0 "Austria"
- pfp_puppet_selection_switzerland:0 "Switzerland"
- pfp_puppet_selection_romania:0 "Romania"
- pfp_puppet_selection_desc:0 "Selects the current option for management."
- pfp_puppet_deselect:0 "§RDeselect Puppet§!"
- pfp_puppet_deselect_desc:0 "Deselect the current puppet."
-
- #Leadership/Territory Decisions
- pfp_puppet_management_options_leadership:0 "Manage Puppet Administration"
- pfp_puppet_management_options_leadership_desc:0 "Shows options to manage the leadership and ruling party of the puppet."
- pfp_puppet_management_options_territory:0 "Manage Puppet Territory"
- pfp_puppet_management_options_territory_desc:0 "Shows available territory that can be given to puppet."
- pfp_puppet_management_options_back:0 "§RDeselect Option§!"
- pfp_puppet_management_options_back_desc:0 "Deselects the current management option."
-
- #Territory Menu
- pfp_puppet_management_territory_menu:0 "Territory Menu"
- pfp_territory_management_menu_enabled:0 "Territory Menu is not currently enabled."
-
- #Change Ruling Party
- pfp_puppet_management_options_ideology:0 "Change Ruling Party"
- pfp_puppet_management_options_ideology_desc:0 "Changes the ruling party of puppet to match overlord."
-
- #Appoint Puppet Administration
- pfp_army_leader_appoint_desc:0 "Appoint as head of the military administration."
- pfp_army_leader_dismiss:0 "Dismiss Current Leader"
- pfp_army_leader_dismiss_desc:0 "Dismiss as head of the military administration."
-
- #Default Puppet Leader
+ #Default Leader
  pfp_default_puppet_leader:0 "Military Junta"
+
+ #Autonomy Level
+ autonomy_military_administration:0 "Military Administration"
+
+ #PFP Management User Interface
+ pfp_management_textbox_title:0 "PFP Management"
+ pfp_management_textbox_view_puppets:0 "View Puppets"
+ pfp_management_textbox_state_transfer:0 "State Transfer"
+ pfp_management_testbox_coming_soon:0 "W.I.P."
+
+ #PFP View Puppets User Interface
+ pfp_view_puppets_textbox_title:0 "View Puppets - [ROOT.GetName]"
+ pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
+ pfp_view_puppets_textbox_states:0 "States: [?num_owned_states]"
+ pfp_view_puppets_textbox_cores:0 "Cores: [?num_core_states]"
+ pfp_view_puppets_textbox_appoint_leader:0 "Appoint Leader"
+
+ #PFP Appoint Leader User Interface
+ pfp_appoint_leader_textbox_title:0 "Appoint - [?puppet_value_var.GetName]"
+ pfp_appoint_leader_textbox_leader_name:0 "[?leader_value.GetName]"
+ pfp_appoint_leader_textbox_appoint_button:0 "Appoint"

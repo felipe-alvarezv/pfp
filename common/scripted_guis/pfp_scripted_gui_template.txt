@@ -53,11 +53,6 @@ scripted_gui = {
 			#PFP Management - State Transfer Button
 			pfp_state_transfer_option_button_click = {
 				set_country_flag = pfp_state_transfer_window
-
-				set_variable = {
-					var = ROOT.pfp_state_transfer_gridbox_count
-					value = 0
-				}
 			}
 		}
 
@@ -84,7 +79,7 @@ scripted_gui = {
 
 		triggers = { }
 		effects = { 
-			#GUI Close Button Effect
+			#GUI Close Button
 			pfp_view_puppets_close_button_click = {
 				ROOT = { 
 					clr_country_flag = pfp_view_puppets_window
@@ -92,10 +87,10 @@ scripted_gui = {
 				} 
 			}
 
-			#GUI Assign Leader Button Effect
-			pfp_view_puppets_gridbox_assign_leader_button_click = {
+			#GUI Appoint Leader Button
+			pfp_view_puppets_gridbox_entry_appoint_leader_button_click = {
 				ROOT = { 
-					set_country_flag = pfp_assign_leader_window
+					set_country_flag = pfp_appoint_leader_window
 					set_variable = { ROOT.overlord_value_var = ROOT }
 					set_variable = { ROOT.puppet_value_var = puppet_value }
 				}
@@ -114,7 +109,7 @@ scripted_gui = {
 		}
 
 		properties = {
-			pfp_view_puppets_flag_container = {
+			pfp_view_puppets_gridbox_entry_flag_icon = {
 				image = "[THIS.GetFlag]"
 			}
 		}
@@ -129,20 +124,20 @@ scripted_gui = {
 		ai_weights = { }
 	}
 
-	#Assign Leader Window
-	pfp_assign_leader_gui = {
-		window_name = "pfp_assign_leader_window"
+	#Appoint Leader Window
+	pfp_appoint_leader_gui = {
+		window_name = "pfp_appoint_leader_window"
 		context_type = player_context
 
 		visible = {
 			ROOT = { 
-				has_country_flag = pfp_assign_leader_window
+				has_country_flag = pfp_appoint_leader_window
 				has_variable = puppet_value_var 
 			}
 		}
 
 		triggers = {
-			pfp_assign_leader_dismiss_button_click_enabled = {
+			pfp_dismiss_leader_button_click_enabled = {
 				ROOT = {
 					var:puppet_value_var = {
 						NOT = {
@@ -154,7 +149,7 @@ scripted_gui = {
 					}
 				}
 			}
-			pfp_assign_leader_appoint_button_click_enabled = {
+			pfp_appoint_leader_gridbox_entry_button_click_enabled = {
 				ROOT = {
 					NOT = {
 						can_be_country_leader = leader_value
@@ -171,7 +166,7 @@ scripted_gui = {
 		}
 
 		effects = {	
-			pfp_assign_leader_dismiss_button_click = {
+			pfp_dismiss_leader_button_click = {
 				ROOT = {
 					var:puppet_value_var = {
 						every_character = {
@@ -207,14 +202,14 @@ scripted_gui = {
 				}
 			}
 
-			pfp_assign_leader_close_button_click = {
+			pfp_appoint_leader_close_button_click = {
 				ROOT = {
-					clr_country_flag = pfp_assign_leader_window
+					clr_country_flag = pfp_appoint_leader_window
 					clear_variable = puppet_value_var
 				}
 			}
 
-			pfp_assign_leader_appoint_button_click = {
+			pfp_appoint_leader_gridbox_entry_button_click = {
 				ROOT = {
 					set_nationality = {
 						character = leader_value
@@ -261,25 +256,24 @@ scripted_gui = {
 						traits = { }
 					}
 				}
-
-				log = "[?puppet_value_var.[?leader_value].GetTokenKey]"
 			}
 		}
 
 		dynamic_lists = {
-			pfp_assign_leader_gridbox = {
+			pfp_appoint_leader_gridbox = {
 				array = ROOT.army_leaders
 				value = leader_value
 				index = leader_index
 				change_scope = yes
-				entry_container = pfp_assign_leader_gridbox_entry
+				entry_container = pfp_appoint_leader_gridbox_entry
 			}
 		}		
 
 		properties = {
-			pfp_assign_leader_character_image = {
-				image = "GFX_portrait_[?leader_value.GetTokenKey]"
-			}
+			#Impossible due to GetTokenKey not working for unit leader portraits
+			#pfp_assign_leader_character_image = {
+			#	image = "GFX_portrait_[THIS.GetTokenKey]"
+			#}
 		}
 	}
 
@@ -294,10 +288,14 @@ scripted_gui = {
 		}
 
 		triggers = {
+			#Unselect All Button
+			pfp_state_transfer_unselect_all_button_click_enabled = {
+				check_variable = { ROOT.pfp_state_transfer_gridbox_array^num > 0 } #Check if there is at least one state selected
+			}
 			#GUI Select Button Triggers
 			pfp_state_transfer_select_button_click_enabled = {
 				AND = {
-					check_variable = { ROOT.pfp_state_transfer_gridbox_count < 24 }
+					check_variable = { ROOT.pfp_state_transfer_gridbox_array^num < 24 }
 					NOT = {
 						if = {
 							is_in_array = { 
@@ -309,7 +307,10 @@ scripted_gui = {
 					OR = {
 						THIS = { is_owned_and_controlled_by = ROOT }
 						AND = {
-							owner = { is_subject_of = ROOT }
+							owner = { 
+								is_subject_of = ROOT
+								has_autonomy_state = autonomy_military_administration
+							}
 							THIS = { is_owned_and_controlled_by = owner }
 						}
 					}
@@ -326,35 +327,33 @@ scripted_gui = {
 			}
 			#GUI Transfer Button Triggers
 			pfp_state_transfer_transfer_button_click_enabled = {
+				check_variable = { ROOT.pfp_state_transfer_gridbox_array^num > 0 }
 				OR = {
-					AND = {
-						owner = { is_ally_with = ROOT }
-						owner = { has_autonomy_state = autonomy_military_administration } 
-					}
+					#AND = {
+						#owner = { is_ally_with = ROOT }
+						#owner = { has_autonomy_state = autonomy_military_administration } 
+					#}
 					owner = { original_tag = ROOT }
+					owner = { is_ally_with = ROOT }
 				}
 			}
 		}
 		effects = {
+			#State Transfer Unselect All
+			pfp_state_transfer_unselect_all_button_click = {
+				ROOT = { 
+					clear_array = ROOT.pfp_state_transfer_gridbox_array
+				} 
+			}
 			#GUI Close Button Effect
 			pfp_state_transfer_close_button_click = {
 				ROOT = { 
 					clr_country_flag = pfp_state_transfer_window 
 					clear_array = ROOT.pfp_state_transfer_gridbox_array
-
-					set_variable = {
-						var = ROOT.pfp_state_transfer_gridbox_count
-						value = 0
-					}
 				} 
 			}
 			#GUI Select Button Effect
 			pfp_state_transfer_select_button_click = {
-				add_to_variable = {
-					var = ROOT.pfp_state_transfer_gridbox_count
-					value = 1
-				}
-
 				add_to_array = {
 					array = ROOT.pfp_state_transfer_gridbox_array
 					value = THIS.id

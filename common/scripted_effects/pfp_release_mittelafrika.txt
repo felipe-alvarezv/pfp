@@ -23,6 +23,5 @@ pfp_release_mittelafrika = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P53 }
-		news_event = { id = pfp_news.01 }
 	}
 }
