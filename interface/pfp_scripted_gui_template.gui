@@ -386,7 +386,7 @@ guiTypes = {
 			name = "pfp_state_transfer_heading_textbox"
 			position = { x = 25 y = 06 }
 			font = "hoi_18mbs"
-			text = "PFP - State Transfer"
+			text = pfp_state_transfer_textbox_title
 			format = left
 			fixedsize = yes
 			maxWidth = 570
@@ -415,7 +415,7 @@ guiTypes = {
 			name = "pfp_state_transfer_selected_state_heading_textbox"
 			position = { x = 45 y = 50}
 			font = "hoi_18mbs"
-			text = "Selected State:"
+			text = pfp_state_transfer_textbox_selected_state_label
 			format = left
 			fixedsize = yes
 			maxWidth = 280
@@ -427,7 +427,7 @@ guiTypes = {
 			name = "pfp_state_transfer_selected_state_textbox"
 			position = { x = 45 y = 70 }
 			font = "hoi_18mbs"
-			text = "[THIS.GetName]"
+			text = pfp_state_transfer_textbox_selected_state
 			format = left
 			fixedsize = yes
 			maxWidth = 280
@@ -439,7 +439,7 @@ guiTypes = {
 			name = "pfp_state_transfer_selected_country_heading_textbox"
 			position = { x = 330 y = 50 }
 			font = "hoi_18mbs"
-			text = "Selected Country:"
+			text = pfp_state_transfer_textbox_selected_country_label
 			format = left
 			fixedsize = yes
 			maxWidth = 280
@@ -451,7 +451,7 @@ guiTypes = {
 			name = "pfp_state_transfer_selected_country_textbox"
 			position = { x = 330 y = 70 }
 			font = "hoi_18mbs"
-			text = "[THIS.owner.GetName]"
+			text = pfp_state_transfer_textbox_selected_country
 			format = left
 			fixedsize = yes
 			maxWidth = 280
@@ -464,7 +464,7 @@ guiTypes = {
 			position = { x = 25  y = 100 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_sort_button_202x29"
-			buttonText = "Select State"
+			buttonText = pfp_state_transfer_textbox_select_state_button
 			buttonFont = "hoi_18mbs"
 		}
 
@@ -474,7 +474,7 @@ guiTypes = {
 			position = { x = 225 y = 100 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_sort_button_202x29"
-			buttonText = "Unselect State"
+			buttonText = pfp_state_transfer_textbox_unselect_state_button
 			buttonFont = "hoi_18mbs"
 		}
 
@@ -484,7 +484,7 @@ guiTypes = {
 			position = { x = 425 y = 100 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_sort_button_202x29"
-			buttonText = "Transfer State"
+			buttonText = pfp_state_transfer_textbox_transfer_state_button
 			buttonFont = "hoi_18mbs"
 		}
 
@@ -494,7 +494,7 @@ guiTypes = {
 			position = { x = 45 y = 140 }
 			orientation = "UPPER_LEFT"
 			font = "hoi_18mbs"
-			text = "Targeted States:"
+			text = pfp_state_transfer_textbox_target_states_label
 			format = left
 			fixedsize = yes
 			maxWidth = 280
@@ -522,7 +522,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "pfp_state_transfer_gridbox_entry_name"
 			font = "hoi_18mbs"
-			text = "[?v.GetName]"
+			text = pfp_state_transfer_textbox_gridbox_entry_name
 			orientation = "UPPER_LEFT"
 			fixedsize = yes
 			maxWidth = 120
