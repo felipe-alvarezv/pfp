@@ -2,22 +2,22 @@
 pfp_release_sweden = {
 	hidden_effect = {
 		#Add claims to Sweden
-		38 = { add_claim_by = P74 } #Gavleborg
-		138 = { add_claim_by = P74 } #Skane
-		139 = { add_claim_by = P74 } #Smaland
-		140 = { add_claim_by = P74 } #Vastergotland
-		141 = { add_claim_by = P74 } #Sodermanland
-		666 = { add_claim_by = P74 } #Norbotten
-		913 = { add_claim_by = P74 } #Ostergotland
-		915 = { add_claim_by = P74 } #Bohuslan
-		916 = { add_claim_by = P74 } #Dalarna
-		917 = { add_claim_by = P74 } #Jamtland
-		918 = { add_claim_by = P74 } #Vasterbotten
-		919 = { add_claim_by = P74 } #Varmland
+		38 = { add_core_of = P74 } #Gavleborg
+		138 = { add_core_of = P74 } #Skane
+		139 = { add_core_of = P74 } #Smaland
+		140 = { add_core_of = P74 } #Vastergotland
+		141 = { add_core_of = P74 } #Sodermanland
+		666 = { add_core_of = P74 } #Norbotten
+		913 = { add_core_of = P74 } #Ostergotland
+		915 = { add_core_of = P74 } #Bohuslan
+		916 = { add_core_of = P74 } #Dalarna
+		917 = { add_core_of = P74 } #Jamtland
+		918 = { add_core_of = P74 } #Vasterbotten
+		919 = { add_core_of = P74 } #Varmland
 		
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P74 }
+			limit = { is_core_of = P74 }
 			add_contested_owner = P74
 			transfer_state_to = P74
 		}

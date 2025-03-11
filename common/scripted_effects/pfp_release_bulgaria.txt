@@ -2,14 +2,14 @@
 pfp_release_bulgaria = {
 	hidden_effect = {
 		#Add claims to Bulgaria
-		48 = { add_claim_by = P49 } #Sofia
-		211 = { add_claim_by = P49 } #Burgas
-		212 = { add_claim_by = P49 } #Plovdiv
-		801 = { add_claim_by = P49 } #Moesia
+		48 = { add_core_of = P49 } #Sofia
+		211 = { add_core_of = P49 } #Burgas
+		212 = { add_core_of = P49 } #Plovdiv
+		801 = { add_core_of = P49 } #Moesia
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P49 }
+			limit = { is_core_of = P49 }
 			add_contested_owner = P49
 			transfer_state_to = P49
 		}

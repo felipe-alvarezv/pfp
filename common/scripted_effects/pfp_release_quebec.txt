@@ -2,16 +2,16 @@
 pfp_release_quebec = {
 	hidden_effect = {
 		#Add claims to Quebec
-		466 = { add_claim_by = P22 } #Nord du Quebec
-		468 = { add_claim_by = P22 } #Saint Lawrence
-		860 = { add_claim_by = P22 } #Cote-Nord
-		861 = { add_claim_by = P22 } #Saguenay
-		862 = { add_claim_by = P22 } #Ouest du Quebec
-		863 = { add_claim_by = P22 } #Maurice
+		466 = { add_core_of = P22 } #Nord du Quebec
+		468 = { add_core_of = P22 } #Saint Lawrence
+		860 = { add_core_of = P22 } #Cote-Nord
+		861 = { add_core_of = P22 } #Saguenay
+		862 = { add_core_of = P22 } #Ouest du Quebec
+		863 = { add_core_of = P22 } #Maurice
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P22 }
+			limit = { is_core_of = P22 }
 			add_contested_owner = P22
 			transfer_state_to = P22
 		}

@@ -2,11 +2,11 @@
 pfp_release_bangladesh = {
 	hidden_effect = {
 		#Add claims to Bangladesh
-		430 = { add_claim_by = P38 } #East Bengal
+		430 = { add_core_of = P38 } #East Bengal
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P38 }
+			limit = { is_core_of = P38 }
 			add_contested_owner = P38
 			transfer_state_to = P38
 		}

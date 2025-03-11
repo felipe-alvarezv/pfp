@@ -2,13 +2,13 @@
 pfp_release_greece = {
 	hidden_effect = {
 		#Add claims to Greece
-		47 = { add_claim_by = P14 } #Attica
-		185 = { add_claim_by = P14 } #Epirus
-		186 = { add_claim_by = P14 } #Peloponnese
+		47 = { add_core_of = P14 } #Attica
+		185 = { add_core_of = P14 } #Epirus
+		186 = { add_core_of = P14 } #Peloponnese
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P14 }
+			limit = { is_core_of = P14 }
 			add_contested_owner = P14
 			transfer_state_to = P14
 		}

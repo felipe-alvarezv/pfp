@@ -2,15 +2,15 @@
 pfp_release_switzerland = {
     hidden_effect = {
         #Add claims to Switzerland
-        3 = { add_claim_by = P78 } #Swiss Plateau
-        151 = { add_claim_by = P78 } #Eastern Swiss Alps
-        845 = { add_claim_by = P78 } #Jura Mountains
-        846 = { add_claim_by = P78 } #Ticino
-        847 = { add_claim_by = P78 } #Western Swiss Alps
+        3 = { add_core_of = P78 } #Swiss Plateau
+        151 = { add_core_of = P78 } #Eastern Swiss Alps
+        845 = { add_core_of = P78 } #Jura Mountains
+        846 = { add_core_of = P78 } #Ticino
+        847 = { add_core_of = P78 } #Western Swiss Alps
         
         #Set formable puppet as owner and controller of all its claimed states
         every_state = {
-            limit = { is_claimed_by = P78 }
+            limit = { is_core_of = P78 }
             add_contested_owner = P78
             transfer_state_to = P78
         }

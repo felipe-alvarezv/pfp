@@ -2,16 +2,16 @@
 pfp_release_mittelafrika = {
 	hidden_effect = {
 		#Add claims to Mittelafrika
-		541 = { add_claim_by = P53 } #Khomas
-		546 = { add_claim_by = P53 } #Tanganyika
-		773 = { add_claim_by = P53 } #Cameroon
-		894 = { add_claim_by = P53 } #Kuene
-		895 = { add_claim_by = P53 } #Otjozondjupa
-		893 = { add_claim_by = P53 } #Karas
+		541 = { add_core_of = P53 } #Khomas
+		546 = { add_core_of = P53 } #Tanganyika
+		773 = { add_core_of = P53 } #Cameroon
+		894 = { add_core_of = P53 } #Kuene
+		895 = { add_core_of = P53 } #Otjozondjupa
+		893 = { add_core_of = P53 } #Karas
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P53 }
+			limit = { is_core_of = P53 }
 			add_contested_owner = P53
 			transfer_state_to = P53
 		}

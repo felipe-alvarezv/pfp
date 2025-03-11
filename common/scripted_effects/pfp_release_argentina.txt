@@ -2,17 +2,17 @@
 pfp_release_argentina = {
 	hidden_effect = {
 		#Add cores to Argentina
-		278 = { add_claim_by = P55 } #Buenos Aires
-		508 = { add_claim_by = P55 } #Tucuman
-		509 = { add_claim_by = P55 } #Chaco Austral
-		510 = { add_claim_by = P55 } #Region Mesopotamica
-		956 = { add_claim_by = P55 } #Santa Fe
-		957 = { add_claim_by = P55 } #Formosa
-		959 = { add_claim_by = P55 } #Los Andes
+		278 = { add_core_of = P55 } #Buenos Aires
+		508 = { add_core_of = P55 } #Tucuman
+		509 = { add_core_of = P55 } #Chaco Austral
+		510 = { add_core_of = P55 } #Region Mesopotamica
+		956 = { add_core_of = P55 } #Santa Fe
+		957 = { add_core_of = P55 } #Formosa
+		959 = { add_core_of = P55 } #Los Andes
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P55 }
+			limit = { is_core_of = P55 }
 			add_contested_owner = P55
 			transfer_state_to = P55
 		}

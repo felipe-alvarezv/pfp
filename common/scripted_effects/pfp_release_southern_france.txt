@@ -2,16 +2,16 @@
 pfp_release_southern_france = {
 	hidden_effect = {
 		#Add claims to Southern France
-		20 = { add_claim_by = P63 } #Rhone
-		22 = { add_claim_by = P63 } #Languedoc
-		25 = { add_claim_by = P63 } #Limousin
-		26 = { add_claim_by = P63 } #Auvergne
-		31 = { add_claim_by = P63 } #Midi Pyrenees
-		33 = { add_claim_by = P63 } #Centre-Sud
+		20 = { add_core_of = P63 } #Rhone
+		22 = { add_core_of = P63 } #Languedoc
+		25 = { add_core_of = P63 } #Limousin
+		26 = { add_core_of = P63 } #Auvergne
+		31 = { add_core_of = P63 } #Midi Pyrenees
+		33 = { add_core_of = P63 } #Centre-Sud
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P63 }
+			limit = { is_core_of = P63 }
 			add_contested_owner = P63
 			transfer_state_to = P63
 		}

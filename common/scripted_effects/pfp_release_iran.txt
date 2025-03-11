@@ -2,18 +2,18 @@
 pfp_release_iran = {
 	hidden_effect = {
 		#Add claims to Iran
-		266 = { add_claim_by = P71 } #Tehran
-		410 = { add_claim_by = P71 } #Sistan
-		411 = { add_claim_by = P71 } #Isfahan
-		412 = { add_claim_by = P71 } #Fars
-		414 = { add_claim_by = P71 } #Kerman
-		416 = { add_claim_by = P71 } #Khorasan
-		417 = { add_claim_by = P71 } #Hamadan
-		418 = { add_claim_by = P71 } #Semnan
+		266 = { add_core_of = P71 } #Tehran
+		410 = { add_core_of = P71 } #Sistan
+		411 = { add_core_of = P71 } #Isfahan
+		412 = { add_core_of = P71 } #Fars
+		414 = { add_core_of = P71 } #Kerman
+		416 = { add_core_of = P71 } #Khorasan
+		417 = { add_core_of = P71 } #Hamadan
+		418 = { add_core_of = P71 } #Semnan
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P71 }
+			limit = { is_core_of = P71 }
 			add_contested_owner = P71
 			transfer_state_to = P71
 		}

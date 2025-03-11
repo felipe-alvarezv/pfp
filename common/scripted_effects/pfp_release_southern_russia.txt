@@ -2,17 +2,17 @@
 pfp_release_southern_russia = {
 	hidden_effect = {
 		#Add claims to Southern Russia
-		217 = { add_claim_by = P40 } #Stalingrad
-		218 = { add_claim_by = P40 } #Rostov
-		236 = { add_claim_by = P40 } #Astrakhan
-		237 = { add_claim_by = P40 } #Kalmykia
-		238 = { add_claim_by = P40 } #Volgodonsk
-		245 = { add_claim_by = P40 } #Millerovo
-		265 = { add_claim_by = P40 } #Mikhaylovka
+		217 = { add_core_of = P40 } #Stalingrad
+		218 = { add_core_of = P40 } #Rostov
+		236 = { add_core_of = P40 } #Astrakhan
+		237 = { add_core_of = P40 } #Kalmykia
+		238 = { add_core_of = P40 } #Volgodonsk
+		245 = { add_core_of = P40 } #Millerovo
+		265 = { add_core_of = P40 } #Mikhaylovka
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P40 }
+			limit = { is_core_of = P40 }
 			add_contested_owner = P40
 			transfer_state_to = P40
 		}

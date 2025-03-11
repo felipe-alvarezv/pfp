@@ -4,8 +4,8 @@ autonomy_state = {
 	default = yes
 	is_puppet = yes
 	use_overlord_color = yes
-	min_freedom_level = 0.5
-	manpower_influence = 0.9
+	min_freedom_level = 0.2
+	manpower_influence = 1.0
 
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
@@ -18,16 +18,15 @@ autonomy_state = {
 	}
 
 	modifier = {
-		autonomy_manpower_share = 0.9
+		autonomy_manpower_share = 1.0
 		can_master_build_for_us = 1
-		conscription_factor = -0.5
 		extra_trade_to_overlord_factor = 1.0
 		overlord_trade_cost_factor = -0.9
 		cic_to_overlord_factor = 0.25
-		mic_to_overlord_factor = 0.65
-		license_subject_master_purchase_cost = -1
-		peace_score_ratio_transferred_to_overlord = 0.1
-		lend_lease_tension_with_overlord = -0.20
+		mic_to_overlord_factor = 0.75
+		peace_score_ratio_transferred_to_overlord = 0.2
+		lend_lease_tension_with_overlord = -0.40
+		research_sharing_per_country_bonus_factor = -0.5
 	}
 
 	ai_subject_wants_higher = { factor = 0.0 }

@@ -2,24 +2,24 @@
 pfp_release_oceania = {
 	hidden_effect = {
 		#Add claims to Oceania
-		285 = { add_claim_by = P27 } #New South Wales
-		517 = { add_claim_by = P27 } #Victoria
-		518 = { add_claim_by = P27 } #Tasmania
-		519 = { add_claim_by = P27 } #South Australia
-		520 = { add_claim_by = P27 } #Northern Territory
-		521 = { add_claim_by = P27 } #Queensland
-		522 = { add_claim_by = P27 } #West Australia
-		674 = { add_claim_by = P27 } #Central Australia
-		870 = { add_claim_by = P27 } #North West Australia
-		871 = { add_claim_by = P27 } #South West Australia
-		872 = { add_claim_by = P27 } #North Queensland
-		873 = { add_claim_by = P27 } #South West Queensland
-		284 = { add_claim_by = P27 } #North Island
-		723 = { add_claim_by = P27 } #South Island
+		285 = { add_core_of = P27 } #New South Wales
+		517 = { add_core_of = P27 } #Victoria
+		518 = { add_core_of = P27 } #Tasmania
+		519 = { add_core_of = P27 } #South Australia
+		520 = { add_core_of = P27 } #Northern Territory
+		521 = { add_core_of = P27 } #Queensland
+		522 = { add_core_of = P27 } #West Australia
+		674 = { add_core_of = P27 } #Central Australia
+		870 = { add_core_of = P27 } #North West Australia
+		871 = { add_core_of = P27 } #South West Australia
+		872 = { add_core_of = P27 } #North Queensland
+		873 = { add_core_of = P27 } #South West Queensland
+		284 = { add_core_of = P27 } #North Island
+		723 = { add_core_of = P27 } #South Island
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P27 }
+			limit = { is_core_of = P27 }
 			add_contested_owner = P27
 			transfer_state_to = P27
 		}

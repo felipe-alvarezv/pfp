@@ -2,12 +2,12 @@
 pfp_release_iraq = {
 	hidden_effect = {
 		#Add claims to Iraq
-		291 = { add_claim_by = P69 } #Baghdad
-		675 = { add_claim_by = P69 } #Al Hajara
+		291 = { add_core_of = P69 } #Baghdad
+		675 = { add_core_of = P69 } #Al Hajara
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P69 }
+			limit = { is_core_of = P69 }
 			add_contested_owner = P69
 			transfer_state_to = P69
 		}

@@ -2,14 +2,14 @@
 pfp_release_french_alps = {
 	hidden_effect = {
 		#Add claims to French Alps
-		21 = { add_claim_by = P64 } #Bouches-Du-Rhone
-		32 = { add_claim_by = P64 } #Alpes
-		735 = { add_claim_by = P64 } #Savoy
-		851 = { add_claim_by = P64 } #Var
+		21 = { add_core_of = P64 } #Bouches-Du-Rhone
+		32 = { add_core_of = P64 } #Alpes
+		735 = { add_core_of = P64 } #Savoy
+		851 = { add_core_of = P64 } #Var
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P64 }
+			limit = { is_core_of = P64 }
 			add_contested_owner = P64
 			transfer_state_to = P64
 		}

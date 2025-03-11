@@ -2,13 +2,13 @@
 pfp_release_romania = {
     hidden_effect = {
         #Add claims to Romania
-        46 = { add_claim_by = P79 } #Muntenia
-        79 = { add_claim_by = P79 } #Moldova
-        81 = { add_claim_by = P79 } #Oltenia
+        46 = { add_core_of = P79 } #Muntenia
+        79 = { add_core_of = P79 } #Moldova
+        81 = { add_core_of = P79 } #Oltenia
         
         #Set formable puppet as owner and controller of all its claimed states
         every_state = {
-            limit = { is_claimed_by = P79 }
+            limit = { is_core_of = P79 }
             add_contested_owner = P79
             transfer_state_to = P79
         }

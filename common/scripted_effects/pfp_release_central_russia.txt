@@ -2,25 +2,25 @@
 pfp_release_central_russia = {
 	hidden_effect = {
 		#Add claims to Central Russia
-		205 = { add_claim_by = P39 } #Kaluga
-		219 = { add_claim_by = P39 } #Moscow
-		220 = { add_claim_by = P39 } #Kursk
-		222 = { add_claim_by = P39 } #Orel
-		223 = { add_claim_by = P39 } #Tula
-		224 = { add_claim_by = P39 } #Bryansk
-		240 = { add_claim_by = P39 } #Belgorod
-		246 = { add_claim_by = P39 } #Rzhev
-		247 = { add_claim_by = P39 } #Kalinin
-		248 = { add_claim_by = P39 } #Yaroslavl
-		253 = { add_claim_by = P39 } #Ivanovo
-		254 = { add_claim_by = P39 } #Ryazan
-		257 = { add_claim_by = P39 } #Tambov
-		258 = { add_claim_by = P39 } #Lipetsk
-		260 = { add_claim_by = P39 } #Voronezh
+		205 = { add_core_of = P39 } #Kaluga
+		219 = { add_core_of = P39 } #Moscow
+		220 = { add_core_of = P39 } #Kursk
+		222 = { add_core_of = P39 } #Orel
+		223 = { add_core_of = P39 } #Tula
+		224 = { add_core_of = P39 } #Bryansk
+		240 = { add_core_of = P39 } #Belgorod
+		246 = { add_core_of = P39 } #Rzhev
+		247 = { add_core_of = P39 } #Kalinin
+		248 = { add_core_of = P39 } #Yaroslavl
+		253 = { add_core_of = P39 } #Ivanovo
+		254 = { add_core_of = P39 } #Ryazan
+		257 = { add_core_of = P39 } #Tambov
+		258 = { add_core_of = P39 } #Lipetsk
+		260 = { add_core_of = P39 } #Voronezh
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P39 }
+			limit = { is_core_of = P39 }
 			add_contested_owner = P39
 			transfer_state_to = P39
 		}

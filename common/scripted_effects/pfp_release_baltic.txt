@@ -2,20 +2,20 @@
 pfp_release_baltic = {
 	hidden_effect = {
 		#Add claims to Baltic
-		12 = { add_claim_by = P04 } #Vidzeme
-		13 = { add_claim_by = P04 } #Parnu
-		190 = { add_claim_by = P04 } #Kurzeme
-		191 = { add_claim_by = P04 } #Tartu
-		808 = { add_claim_by = P04 } #Riga
-		809 = { add_claim_by = P04 } #Zemgale
-		810 = { add_claim_by = P04 } #Latgale
-		811 = { add_claim_by = P04 } #Saaremaa
-		812 = { add_claim_by = P04 } #Harju
-		813 = { add_claim_by = P04 } #Virumaa
+		12 = { add_core_of = P04 } #Vidzeme
+		13 = { add_core_of = P04 } #Parnu
+		190 = { add_core_of = P04 } #Kurzeme
+		191 = { add_core_of = P04 } #Tartu
+		808 = { add_core_of = P04 } #Riga
+		809 = { add_core_of = P04 } #Zemgale
+		810 = { add_core_of = P04 } #Latgale
+		811 = { add_core_of = P04 } #Saaremaa
+		812 = { add_core_of = P04 } #Harju
+		813 = { add_core_of = P04 } #Virumaa
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P04 }
+			limit = { is_core_of = P04 }
 			add_contested_owner = P04
 			transfer_state_to = P04
 		}

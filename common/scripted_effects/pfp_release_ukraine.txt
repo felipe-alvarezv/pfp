@@ -2,19 +2,19 @@
 pfp_release_ukraine = {
 	hidden_effect = {
 		#Add claims to Ukraine
-		193 = { add_claim_by = P66 } #Chernigov
-		196 = { add_claim_by = P66 } #Kherson
-		197 = { add_claim_by = P66 } #Mykolaiv
-		200 = { add_claim_by = P66 } #Zaporozhe
-		201 = { add_claim_by = P66 } #Zhytomyr
-		202 = { add_claim_by = P66 } #Kiev
-		203 = { add_claim_by = P66 } #Cherkasy
-		226 = { add_claim_by = P66 } #Dnipropetrovsk
-		259 = { add_claim_by = P66 } #Poltava
+		193 = { add_core_of = P66 } #Chernigov
+		196 = { add_core_of = P66 } #Kherson
+		197 = { add_core_of = P66 } #Mykolaiv
+		200 = { add_core_of = P66 } #Zaporozhe
+		201 = { add_core_of = P66 } #Zhytomyr
+		202 = { add_core_of = P66 } #Kiev
+		203 = { add_core_of = P66 } #Cherkasy
+		226 = { add_core_of = P66 } #Dnipropetrovsk
+		259 = { add_core_of = P66 } #Poltava
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P66 }
+			limit = { is_core_of = P66 }
 			add_contested_owner = P66
 			transfer_state_to = P66
 		}

@@ -2,12 +2,12 @@
 pfp_release_korea = {
 	hidden_effect = {
 		#Add claims to Korea
-		525 = { add_claim_by = P72 } #South Korea
-		527 = { add_claim_by = P72 } #North Korea
+		525 = { add_core_of = P72 } #South Korea
+		527 = { add_core_of = P72 } #North Korea
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P72 }
+			limit = { is_core_of = P72 }
 			add_contested_owner = P72
 			transfer_state_to = P72
 		}

@@ -2,35 +2,35 @@
 pfp_release_iberia = {
 	hidden_effect = {
 		#Add claims to Iberia
-		41 = { add_claim_by = P15 } #Madrid
-		112 = { add_claim_by = P15 } #Lisbon
-		165 = { add_claim_by = P15 } #Cataluna
-		166 = { add_claim_by = P15 } #Western Aragon
-		167 = { add_claim_by = P15 } #Valencia
-		168 = { add_claim_by = P15 } #Murcia
-		169 = { add_claim_by = P15 } #Sevilla
-		170 = { add_claim_by = P15 } #Extremadura
-		171 = { add_claim_by = P15 } #Galicia
-		172 = { add_claim_by = P15 } #Navarra
-		173 = { add_claim_by = P15 } #Granada
-		174 = { add_claim_by = P15 } #Leon
-		175 = { add_claim_by = P15 } #Ciudad Real
-		176 = { add_claim_by = P15 } #Burgos
-		179 = { add_claim_by = P15 } #Beja
-		180 = { add_claim_by = P15 } #Porto
-		181 = { add_claim_by = P15 } #Guarda
-		788 = { add_claim_by = P15 } #Salamanca
-		789 = { add_claim_by = P15 } #Cordoba
-		790 = { add_claim_by = P15 } #Asturias
-		791 = { add_claim_by = P15 } #Valladolid
-		792 = { add_claim_by = P15 } #Pais Vasco
-		793 = { add_claim_by = P15 } #Guadalajara
-		794 = { add_claim_by = P15 } #Eastern Aragon
-		795 = { add_claim_by = P15 } #Santarem
+		41 = { add_core_of = P15 } #Madrid
+		112 = { add_core_of = P15 } #Lisbon
+		165 = { add_core_of = P15 } #Cataluna
+		166 = { add_core_of = P15 } #Western Aragon
+		167 = { add_core_of = P15 } #Valencia
+		168 = { add_core_of = P15 } #Murcia
+		169 = { add_core_of = P15 } #Sevilla
+		170 = { add_core_of = P15 } #Extremadura
+		171 = { add_core_of = P15 } #Galicia
+		172 = { add_core_of = P15 } #Navarra
+		173 = { add_core_of = P15 } #Granada
+		174 = { add_core_of = P15 } #Leon
+		175 = { add_core_of = P15 } #Ciudad Real
+		176 = { add_core_of = P15 } #Burgos
+		179 = { add_core_of = P15 } #Beja
+		180 = { add_core_of = P15 } #Porto
+		181 = { add_core_of = P15 } #Guarda
+		788 = { add_core_of = P15 } #Salamanca
+		789 = { add_core_of = P15 } #Cordoba
+		790 = { add_core_of = P15 } #Asturias
+		791 = { add_core_of = P15 } #Valladolid
+		792 = { add_core_of = P15 } #Pais Vasco
+		793 = { add_core_of = P15 } #Guadalajara
+		794 = { add_core_of = P15 } #Eastern Aragon
+		795 = { add_core_of = P15 } #Santarem
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P15 }
+			limit = { is_core_of = P15 }
 			add_contested_owner = P15
 			transfer_state_to = P15
 		}

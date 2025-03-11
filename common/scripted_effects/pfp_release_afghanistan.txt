@@ -2,12 +2,12 @@
 pfp_release_afghanistan = {
 	hidden_effect = {
 		#Add claims to Afghanistan
-		267 = { add_claim_by = P76 } #Kabul
-		415 = { add_claim_by = P76 } #Herat
+		267 = { add_core_of = P76 } #Kabul
+		415 = { add_core_of = P76 } #Herat
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P76 }
+			limit = { is_core_of = P76 }
 			add_contested_owner = P76
 			transfer_state_to = P76
 		}

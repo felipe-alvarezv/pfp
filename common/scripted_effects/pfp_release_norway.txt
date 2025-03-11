@@ -2,20 +2,20 @@
 pfp_release_norway = {
 	hidden_effect = {
 		#Add claims to Norway
-		110 = { add_claim_by = P65 } #Oslofjord
-		142 = { add_claim_by = P65 } #Vestlandet
-		143 = { add_claim_by = P65 } #Trondelag
-		144 = { add_claim_by = P65 } #Nordland
-		920 = { add_claim_by = P65 } #Opplandene
-		921 = { add_claim_by = P65 } #Telemark
-		922 = { add_claim_by = P65 } #Agder
-		923 = { add_claim_by = P65 } #Helgeland
-		924 = { add_claim_by = P65 } #Troms
-		925 = { add_claim_by = P65 } #Finnmark
+		110 = { add_core_of = P65 } #Oslofjord
+		142 = { add_core_of = P65 } #Vestlandet
+		143 = { add_core_of = P65 } #Trondelag
+		144 = { add_core_of = P65 } #Nordland
+		920 = { add_core_of = P65 } #Opplandene
+		921 = { add_core_of = P65 } #Telemark
+		922 = { add_core_of = P65 } #Agder
+		923 = { add_core_of = P65 } #Helgeland
+		924 = { add_core_of = P65 } #Troms
+		925 = { add_core_of = P65 } #Finnmark
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P65 }
+			limit = { is_core_of = P65 }
 			add_contested_owner = P65
 			transfer_state_to = P65
 		}

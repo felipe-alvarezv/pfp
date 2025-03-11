@@ -2,23 +2,23 @@
 pfp_release_west_africa = {
 	hidden_effect = {
 		#Add claims to West Africa
-		272 = { add_claim_by = P35 } #Senegal
-		515 = { add_claim_by = P35 } #Southern Sahara
-		556 = { add_claim_by = P35 } #Bamako
-		776 = { add_claim_by = P35 } #Dahomey
-		778 = { add_claim_by = P35 } #Upper Volta
-		779 = { add_claim_by = P35 } #Ivory Coast
-		780 = { add_claim_by = P35 } #Guinea
-		781 = { add_claim_by = P35 } #Niger
-		782 = { add_claim_by = P35 } #Tombouctou
-		898 = { add_claim_by = P35 } #Gao
-		899 = { add_claim_by = P35 } #Kayes-Koulikoro
-		557 = { add_claim_by = P35 } #Mauritania
-		786 = { add_claim_by = P35 } #Mauritanian Desert
+		272 = { add_core_of = P35 } #Senegal
+		515 = { add_core_of = P35 } #Southern Sahara
+		556 = { add_core_of = P35 } #Bamako
+		776 = { add_core_of = P35 } #Dahomey
+		778 = { add_core_of = P35 } #Upper Volta
+		779 = { add_core_of = P35 } #Ivory Coast
+		780 = { add_core_of = P35 } #Guinea
+		781 = { add_core_of = P35 } #Niger
+		782 = { add_core_of = P35 } #Tombouctou
+		898 = { add_core_of = P35 } #Gao
+		899 = { add_core_of = P35 } #Kayes-Koulikoro
+		557 = { add_core_of = P35 } #Mauritania
+		786 = { add_core_of = P35 } #Mauritanian Desert
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P35 }
+			limit = { is_core_of = P35 }
 			add_contested_owner = P35
 			transfer_state_to = P35
 		}

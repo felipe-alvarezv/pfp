@@ -2,22 +2,22 @@
 pfp_release_far_eastern_russia = {
 	hidden_effect = {
 		#Add claims to Far Eastern Russia
-		408 = { add_claim_by = P46 } #Vladivostok
-		409 = { add_claim_by = P46 } #Khabarovsk
-		560 = { add_claim_by = P46 } #Nikolayevsk
-		561 = { add_claim_by = P46 } #Amur
-		562 = { add_claim_by = P46 } #Okhotsk
-		574 = { add_claim_by = P46 } #Yakutsk
-		637 = { add_claim_by = P46 } #Kamchatka
-		644 = { add_claim_by = P46 } #Kolyma
-		657 = { add_claim_by = P46 } #Birobidzhan
-		822 = { add_claim_by = P46 } #Chukotka
-		874 = { add_claim_by = P46 } #Magadan
-		877 = { add_claim_by = P46 } #Verkhoyansk
+		408 = { add_core_of = P46 } #Vladivostok
+		409 = { add_core_of = P46 } #Khabarovsk
+		560 = { add_core_of = P46 } #Nikolayevsk
+		561 = { add_core_of = P46 } #Amur
+		562 = { add_core_of = P46 } #Okhotsk
+		574 = { add_core_of = P46 } #Yakutsk
+		637 = { add_core_of = P46 } #Kamchatka
+		644 = { add_core_of = P46 } #Kolyma
+		657 = { add_core_of = P46 } #Birobidzhan
+		822 = { add_core_of = P46 } #Chukotka
+		874 = { add_core_of = P46 } #Magadan
+		877 = { add_core_of = P46 } #Verkhoyansk
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P46 }
+			limit = { is_core_of = P46 }
 			add_contested_owner = P46
 			transfer_state_to = P46
 		}

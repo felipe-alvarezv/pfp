@@ -2,13 +2,13 @@
 pfp_release_kurdistan = {
 	hidden_effect = {
 		#Add claims to Kurdistan
-		350 = { add_claim_by = P70 } #Diyarbakir
-		352 = { add_claim_by = P70 } #Hakkari
-		353 = { add_claim_by = P70 } #Tunceli
+		350 = { add_core_of = P70 } #Diyarbakir
+		352 = { add_core_of = P70 } #Hakkari
+		353 = { add_core_of = P70 } #Tunceli
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P70 }
+			limit = { is_core_of = P70 }
 			add_contested_owner = P70
 			transfer_state_to = P70
 		}

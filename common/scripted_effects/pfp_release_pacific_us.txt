@@ -2,13 +2,13 @@
 	pfp_release_pacific_us = {
 		hidden_effect = {
 		#Add claims to Pacific U.S.
-		378 = { add_claim_by = P21 } #California
-		385 = { add_claim_by = P21 } #Oregon
-		386 = { add_claim_by = P21 } #Washington
+		378 = { add_core_of = P21 } #California
+		385 = { add_core_of = P21 } #Oregon
+		386 = { add_core_of = P21 } #Washington
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P21 }
+			limit = { is_core_of = P21 }
 			add_contested_owner = P21
 			transfer_state_to = P21
 		}

@@ -2,16 +2,16 @@
 pfp_release_central_america = {
 	hidden_effect = {
 		#Add claims to Central America
-		304 = { add_claim_by = P08 } #Panama
-		312 = { add_claim_by = P08 } #Honduras
-		313 = { add_claim_by = P08 } #Guatemala
-		314 = { add_claim_by = P08 } #El Salvador
-		316 = { add_claim_by = P08 } #Costa Rica
-		317 = { add_claim_by = P08 } #Nicaragua
+		304 = { add_core_of = P08 } #Panama
+		312 = { add_core_of = P08 } #Honduras
+		313 = { add_core_of = P08 } #Guatemala
+		314 = { add_core_of = P08 } #El Salvador
+		316 = { add_core_of = P08 } #Costa Rica
+		317 = { add_core_of = P08 } #Nicaragua
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P08 }
+			limit = { is_core_of = P08 }
 			add_contested_owner = P08
 			transfer_state_to = P08
 		}

@@ -2,12 +2,12 @@
 pfp_release_denmark = {
 	hidden_effect = {
 		#Add claims to Denmark
-		37 = { add_claim_by = P61 } #Sjaelland
-		911 = { add_claim_by = P61 } #Fyn
+		37 = { add_core_of = P61 } #Sjaelland
+		911 = { add_core_of = P61 } #Fyn
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P61 }
+			limit = { is_core_of = P61 }
 			add_contested_owner = P61
 			transfer_state_to = P61
 		}

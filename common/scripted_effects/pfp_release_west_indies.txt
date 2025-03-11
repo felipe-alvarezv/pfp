@@ -2,14 +2,14 @@
 pfp_release_west_indies = {
 	hidden_effect = {
 		#Add claims to West Indies
-		315 = { add_claim_by = P06 } #Cuba
-		318 = { add_claim_by = P06 } #Haiti
-		319 = { add_claim_by = P06 } #Dominican Republic
-		689 = { add_claim_by = P06 } #Jamaica
+		315 = { add_core_of = P06 } #Cuba
+		318 = { add_core_of = P06 } #Haiti
+		319 = { add_core_of = P06 } #Dominican Republic
+		689 = { add_core_of = P06 } #Jamaica
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P06 }
+			limit = { is_core_of = P06 }
 			add_contested_owner = P06
 			transfer_state_to = P06
 		}

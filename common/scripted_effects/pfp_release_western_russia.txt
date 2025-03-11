@@ -2,61 +2,61 @@
 pfp_release_western_russia = {
 	hidden_effect = {
 		#Add claims to Western Russia
-		195 = { add_claim_by = P48 } #Leningrad
-		205 = { add_claim_by = P48 } #Kaluga
-		208 = { add_claim_by = P48 } #Luga
-		209 = { add_claim_by = P48 } #Pskov
-		210 = { add_claim_by = P48 } #Nevel
-		214 = { add_claim_by = P48 } #Arkhangelsk
-		217 = { add_claim_by = P48 } #Stalingrad
-		218 = { add_claim_by = P48 } #Rostov
-		219 = { add_claim_by = P48 } #Moscow
-		220 = { add_claim_by = P48 } #Kursk
-		222 = { add_claim_by = P48 } #Orel
-		223 = { add_claim_by = P48 } #Tula
-		224 = { add_claim_by = P48 } #Bryansk
-		236 = { add_claim_by = P48 } #Astrakhan
-		237 = { add_claim_by = P48 } #Kalmykia
-		238 = { add_claim_by = P48 } #Volgodonsk
-		239 = { add_claim_by = P48 } #Saratov
-		240 = { add_claim_by = P48 } #Belgorod
-		244 = { add_claim_by = P48 } #Volkhov
-		245 = { add_claim_by = P48 } #Millerovo
-		246 = { add_claim_by = P48 } #Rzhev
-		247 = { add_claim_by = P48 } #Kalinin
-		248 = { add_claim_by = P48 } #Yaroslavl
-		249 = { add_claim_by = P48 } #Kazan
-		250 = { add_claim_by = P48 } #Ulyanovsky
-		251 = { add_claim_by = P48 } #Kuybyshev
-		252 = { add_claim_by = P48 } #Gorky
-		253 = { add_claim_by = P48 } #Ivanovo
-		254 = { add_claim_by = P48 } #Ryazan
-		255 = { add_claim_by = P48 } #Penza
-		256 = { add_claim_by = P48 } #Chuvashia
-		257 = { add_claim_by = P48 } #Tambov
-		258 = { add_claim_by = P48 } #Lipetsk
-		260 = { add_claim_by = P48 } #Voronezh
-		262 = { add_claim_by = P48 } #Pechora
-		263 = { add_claim_by = P48 } #Novgorod
-		264 = { add_claim_by = P48 } #Tikhvin
-		265 = { add_claim_by = P48 } #Mikhaylovka
-		351 = { add_claim_by = P48 } #Vologda
-		397 = { add_claim_by = P48 } #Syktyvkar
-		398 = { add_claim_by = P48 } #Perm
-		399 = { add_claim_by = P48 } #Udmurtia
-		400 = { add_claim_by = P48 } #Kirov
-		401 = { add_claim_by = P48 } #Balakovo
-		651 = { add_claim_by = P48 } #Ufa
-		652 = { add_claim_by = P48 } #Orenburg
-		825 = { add_claim_by = P48 } #Nenets
-		829 = { add_claim_by = P48 } #Engels-Marxstadt
-		833 = { add_claim_by = P48 } #Mari El
-		879 = { add_claim_by = P48 } #Kargopol
-		880 = { add_claim_by = P48 } #Kotlas
+		195 = { add_core_of = P48 } #Leningrad
+		205 = { add_core_of = P48 } #Kaluga
+		208 = { add_core_of = P48 } #Luga
+		209 = { add_core_of = P48 } #Pskov
+		210 = { add_core_of = P48 } #Nevel
+		214 = { add_core_of = P48 } #Arkhangelsk
+		217 = { add_core_of = P48 } #Stalingrad
+		218 = { add_core_of = P48 } #Rostov
+		219 = { add_core_of = P48 } #Moscow
+		220 = { add_core_of = P48 } #Kursk
+		222 = { add_core_of = P48 } #Orel
+		223 = { add_core_of = P48 } #Tula
+		224 = { add_core_of = P48 } #Bryansk
+		236 = { add_core_of = P48 } #Astrakhan
+		237 = { add_core_of = P48 } #Kalmykia
+		238 = { add_core_of = P48 } #Volgodonsk
+		239 = { add_core_of = P48 } #Saratov
+		240 = { add_core_of = P48 } #Belgorod
+		244 = { add_core_of = P48 } #Volkhov
+		245 = { add_core_of = P48 } #Millerovo
+		246 = { add_core_of = P48 } #Rzhev
+		247 = { add_core_of = P48 } #Kalinin
+		248 = { add_core_of = P48 } #Yaroslavl
+		249 = { add_core_of = P48 } #Kazan
+		250 = { add_core_of = P48 } #Ulyanovsky
+		251 = { add_core_of = P48 } #Kuybyshev
+		252 = { add_core_of = P48 } #Gorky
+		253 = { add_core_of = P48 } #Ivanovo
+		254 = { add_core_of = P48 } #Ryazan
+		255 = { add_core_of = P48 } #Penza
+		256 = { add_core_of = P48 } #Chuvashia
+		257 = { add_core_of = P48 } #Tambov
+		258 = { add_core_of = P48 } #Lipetsk
+		260 = { add_core_of = P48 } #Voronezh
+		262 = { add_core_of = P48 } #Pechora
+		263 = { add_core_of = P48 } #Novgorod
+		264 = { add_core_of = P48 } #Tikhvin
+		265 = { add_core_of = P48 } #Mikhaylovka
+		351 = { add_core_of = P48 } #Vologda
+		397 = { add_core_of = P48 } #Syktyvkar
+		398 = { add_core_of = P48 } #Perm
+		399 = { add_core_of = P48 } #Udmurtia
+		400 = { add_core_of = P48 } #Kirov
+		401 = { add_core_of = P48 } #Balakovo
+		651 = { add_core_of = P48 } #Ufa
+		652 = { add_core_of = P48 } #Orenburg
+		825 = { add_core_of = P48 } #Nenets
+		829 = { add_core_of = P48 } #Engels-Marxstadt
+		833 = { add_core_of = P48 } #Mari El
+		879 = { add_core_of = P48 } #Kargopol
+		880 = { add_core_of = P48 } #Kotlas
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P48 }
+			limit = { is_core_of = P48 }
 			add_contested_owner = P48
 			transfer_state_to = P48
 		}

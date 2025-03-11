@@ -2,22 +2,22 @@
 pfp_release_west_germany = {
 	hidden_effect = {
 		#Add claims to West Germany
-		42 = { add_claim_by = P31 } #Moselland
-		50 = { add_claim_by = P31 } #Wurttemberg
-		51 = { add_claim_by = P31 } #Rhineland
-		52 = { add_claim_by = P31 } #Oberbayern
-		53 = { add_claim_by = P31 } #Niederbayern
-		54 = { add_claim_by = P31 } #Franken
-		55 = { add_claim_by = P31 } #Hessen
-		56 = { add_claim_by = P31 } #Weser-Ems
-		57 = { add_claim_by = P31 } #Westfalen
-		58 = { add_claim_by = P31 } #Holstein
-		59 = { add_claim_by = P31 } #Hannover
-		978 = { add_claim_by = P31 } #Baden
+		42 = { add_core_of = P31 } #Moselland
+		50 = { add_core_of = P31 } #Wurttemberg
+		51 = { add_core_of = P31 } #Rhineland
+		52 = { add_core_of = P31 } #Oberbayern
+		53 = { add_core_of = P31 } #Niederbayern
+		54 = { add_core_of = P31 } #Franken
+		55 = { add_core_of = P31 } #Hessen
+		56 = { add_core_of = P31 } #Weser-Ems
+		57 = { add_core_of = P31 } #Westfalen
+		58 = { add_core_of = P31 } #Holstein
+		59 = { add_core_of = P31 } #Hannover
+		978 = { add_core_of = P31 } #Baden
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P31 }
+			limit = { is_core_of = P31 }
 			add_contested_owner = P31
 			transfer_state_to = P31
 		}

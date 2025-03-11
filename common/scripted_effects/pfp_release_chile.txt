@@ -2,12 +2,12 @@
 pfp_release_chile = {
 	hidden_effect = {
 		#Add claims to Chile
-		279 = { add_claim_by = P54 } #Santiago
-		952 = { add_claim_by = P54 } #Atacama
+		279 = { add_core_of = P54 } #Santiago
+		952 = { add_core_of = P54 } #Atacama
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P54 }
+			limit = { is_core_of = P54 }
 			add_contested_owner = P54
 			transfer_state_to = P54
 		}

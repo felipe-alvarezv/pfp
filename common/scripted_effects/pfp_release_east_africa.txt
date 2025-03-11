@@ -2,24 +2,24 @@
 pfp_release_east_africa = {
 	hidden_effect = {
 		#Add claims to East Africa
-		271 = { add_claim_by = P10 } #Shewa
-		550 = { add_claim_by = P10 } #Eritrea
-		559 = { add_claim_by = P10 } #Somaliland
-		835 = { add_claim_by = P10 } #Hararghe
-		836 = { add_claim_by = P10 } #Bale
-		837 = { add_claim_by = P10 } #Sidamo
-		838 = { add_claim_by = P10 } #Illubabor-Kaffa
-		839 = { add_claim_by = P10 } #Welega
-		840 = { add_claim_by = P10 } #Gojjam
-		841 = { add_claim_by = P10 } #Begemder
-		842 = { add_claim_by = P10 } #Tigray
-		843 = { add_claim_by = P10 } #Wello
-		844 = { add_claim_by = P10 } #Jubaland
-		908 = { add_claim_by = P10 } #Afar
+		271 = { add_core_of = P10 } #Shewa
+		550 = { add_core_of = P10 } #Eritrea
+		559 = { add_core_of = P10 } #Somaliland
+		835 = { add_core_of = P10 } #Hararghe
+		836 = { add_core_of = P10 } #Bale
+		837 = { add_core_of = P10 } #Sidamo
+		838 = { add_core_of = P10 } #Illubabor-Kaffa
+		839 = { add_core_of = P10 } #Welega
+		840 = { add_core_of = P10 } #Gojjam
+		841 = { add_core_of = P10 } #Begemder
+		842 = { add_core_of = P10 } #Tigray
+		843 = { add_core_of = P10 } #Wello
+		844 = { add_core_of = P10 } #Jubaland
+		908 = { add_core_of = P10 } #Afar
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P10 }
+			limit = { is_core_of = P10 }
 			add_contested_owner = P10
 			transfer_state_to = P10
 		}

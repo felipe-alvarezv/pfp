@@ -2,24 +2,24 @@
 pfp_release_northwestern_russia = {
 	hidden_effect = {
 		#Add claims to Northwestern Russia
-		195 = { add_claim_by = P43 } #Leningrad
-		208 = { add_claim_by = P43 } #Luga
-		209 = { add_claim_by = P43 } #Pskov
-		210 = { add_claim_by = P43 } #Nevel
-		214 = { add_claim_by = P43 } #Arkhangelsk
-		244 = { add_claim_by = P43 } #Volkhov
-		262 = { add_claim_by = P43 } #Pechora
-		263 = { add_claim_by = P43 } #Novgorod
-		264 = { add_claim_by = P43 } #Tikhvin
-		351 = { add_claim_by = P43 } #Vologda
-		397 = { add_claim_by = P43 } #Syktyvkar
-		825 = { add_claim_by = P43 } #Nenets
-		879 = { add_claim_by = P43 } #Kargopol
-		880 = { add_claim_by = P43 } #Kotlas
+		195 = { add_core_of = P43 } #Leningrad
+		208 = { add_core_of = P43 } #Luga
+		209 = { add_core_of = P43 } #Pskov
+		210 = { add_core_of = P43 } #Nevel
+		214 = { add_core_of = P43 } #Arkhangelsk
+		244 = { add_core_of = P43 } #Volkhov
+		262 = { add_core_of = P43 } #Pechora
+		263 = { add_core_of = P43 } #Novgorod
+		264 = { add_core_of = P43 } #Tikhvin
+		351 = { add_core_of = P43 } #Vologda
+		397 = { add_core_of = P43 } #Syktyvkar
+		825 = { add_core_of = P43 } #Nenets
+		879 = { add_core_of = P43 } #Kargopol
+		880 = { add_core_of = P43 } #Kotlas
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P43 }
+			limit = { is_core_of = P43 }
 			add_contested_owner = P43
 			transfer_state_to = P43
 		}

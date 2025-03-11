@@ -2,16 +2,16 @@
 pfp_release_central_africa = {
 	hidden_effect = {
 		#Add claims to Central Africa
-		295 = { add_claim_by = P07 } #Leopoldville
-		538 = { add_claim_by = P07 } #Coquilhatville
-		718 = { add_claim_by = P07 } #Stanleyville
-		888 = { add_claim_by = P07 } #Lusambo
-		889 = { add_claim_by = P07 } #Elisabethville
-		890 = { add_claim_by = P07 } #Costermansville
+		295 = { add_core_of = P07 } #Leopoldville
+		538 = { add_core_of = P07 } #Coquilhatville
+		718 = { add_core_of = P07 } #Stanleyville
+		888 = { add_core_of = P07 } #Lusambo
+		889 = { add_core_of = P07 } #Elisabethville
+		890 = { add_core_of = P07 } #Costermansville
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P07 }
+			limit = { is_core_of = P07 }
 			add_contested_owner = P07
 			transfer_state_to = P07
 		}

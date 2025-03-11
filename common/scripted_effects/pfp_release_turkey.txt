@@ -2,18 +2,18 @@
 pfp_release_turkey = {
 	hidden_effect = {
 		#Add claims to Turkey
-		49 = { add_claim_by = P68 } #Ankara
-		343 = { add_claim_by = P68 } #Afyon
-		346 = { add_claim_by = P68 } #Konya
-		348 = { add_claim_by = P68 } #Kayseri
-		349 = { add_claim_by = P68 } #Sivas
-		355 = { add_claim_by = P68 } #Samsun
-		356 = { add_claim_by = P68 } #Kastamonu
-		798 = { add_claim_by = P68 } #Amasya
+		49 = { add_core_of = P68 } #Ankara
+		343 = { add_core_of = P68 } #Afyon
+		346 = { add_core_of = P68 } #Konya
+		348 = { add_core_of = P68 } #Kayseri
+		349 = { add_core_of = P68 } #Sivas
+		355 = { add_core_of = P68 } #Samsun
+		356 = { add_core_of = P68 } #Kastamonu
+		798 = { add_core_of = P68 } #Amasya
 
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
-			limit = { is_claimed_by = P68 }
+			limit = { is_core_of = P68 }
 			add_contested_owner = P68
 			transfer_state_to = P68
 		}
