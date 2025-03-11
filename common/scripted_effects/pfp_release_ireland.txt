@@ -6,7 +6,6 @@ pfp_release_ireland = {
 		134 = { add_claim_by = P73 } #Connaught
 		135 = { add_claim_by = P73 } #Munster
 
-
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_claimed_by = P73 }

@@ -77,7 +77,22 @@ scripted_gui = {
 			ROOT = { has_country_flag  = pfp_view_puppets_window }
 		}
 
-		triggers = { }
+		triggers = {
+			pfp_view_puppets_gridbox_entry_appoint_leader_button_click_enabled = {
+				OR = {
+					check_variable = { ROOT.army_leaders^num > 0 }
+					var:puppet_value = {
+						NOT = {
+							has_country_leader = {
+								name = "Military Junta"
+								ruling_only = yes
+							}
+						}
+					}
+				}
+			}
+		}
+
 		effects = { 
 			#GUI Close Button
 			pfp_view_puppets_close_button_click = {

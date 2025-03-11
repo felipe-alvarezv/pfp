@@ -61,7 +61,7 @@ spriteTypes = {
 		textureFile = "gfx/leaders/PFP/pfp_soviet_portrait.dds"
 	}
 
-	###### TERRITORY BEGIN ######
+	###### PFP MANAGEMENT ######
 	
 	#Territory Management Background
 	spriteType = {
@@ -97,5 +97,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pfp_state_transfer_background"
 		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_state_transfer_background.dds"
+	}
+
+	#Green Button 202x29
+	spriteType = {
+		name = "GFX_pfp_button_202x29"
+		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_button_202x29.dds"
+	}
+
+	#Green Button 94x31
+	spriteType = {
+		name = "GFX_pfp_button_94x31"
+		textureFile = "/gfx/interface/scripted_gui_graphics/pfp_button_94x31.dds"
 	}
 }

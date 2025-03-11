@@ -4,9 +4,10 @@ l_english:
  pfp_category:0 "Pipe's Formable Puppets"
  pfp_category_desc:0 "As we gain more territory, it has become a complicated problem to administer all of it. To address this problem, puppet governments loyal to our nation should be established in the regions we have conquered. This will allow us to place our attetion elsewhere, while the region helps our cause."
 
- #PFP Management Category
+ #PFP Management Decision
  pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
  pfp_puppet_management_desc:0 "After establishing our military administration, we may need to make adjustments regarding the administration and its territories."
+ pfp_management_window:0 "Open Management Menu"
 
  #Default Leader
  pfp_default_puppet_leader:0 "Military Junta"
@@ -20,17 +21,30 @@ l_english:
  pfp_management_textbox_state_transfer:0 "State Transfer"
  pfp_management_testbox_coming_soon:0 "W.I.P."
 
+ #PFP Management Tooltips
+ pfp_management_tooltip_close_button:0 "Close the management interface."
+ pfp_management_tooltip_view_puppets:0 "Displays all formable puppets that exist under the player's control along with their current states and cores."
+ pfp_management_tooltip_state_transfer:0 "Displays the state transfer options than can be used to transfer land between the player and their puppets."
+
  #PFP View Puppets User Interface
  pfp_view_puppets_textbox_title:0 "View Puppets - [ROOT.GetName]"
  pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
  pfp_view_puppets_textbox_states:0 "States: [?num_owned_states]"
  pfp_view_puppets_textbox_cores:0 "Cores: [?num_core_states]"
- pfp_view_puppets_textbox_appoint_leader:0 "Appoint Leader"
+ pfp_view_puppets_textbox_appoint_leader:0 "Appoint Governor"
+
+ #PFP View Puppets Tooltips
+ pfp_view_puppets_tooltip_close_button:0 "Close the view puppets interface."
+ pfp_view_puppets_tooltip_appoint_leader_button:0 "Displays all unit leaders that can be appointed as military governor."
 
  #PFP Appoint Leader User Interface
  pfp_appoint_leader_textbox_title:0 "Appoint - [?puppet_value_var.GetName]"
  pfp_appoint_leader_textbox_leader_name:0 "[?leader_value.GetName]"
  pfp_appoint_leader_textbox_appoint_button:0 "Appoint"
+
+ #PFP Appoint Leader Tooltips
+ pfp_appoint_leader_tooltip_dismiss_leader_button:0 "Dismiss the current military governor, adding them back to the overlord's roster."
+ pfp_appoint_leader_tooltip_close_button:0 "Close the military governor appointment interface."
 
  #PFP State Transfer User Interface
  pfp_state_transfer_textbox_title:0 "State Transfer - [THIS.GetName] ([THIS.GetID])"
@@ -44,3 +58,6 @@ l_english:
  pfp_state_transfer_textbox_target_states_label:0 "Targeted States:"
  pfp_state_transfer_textbox_gridbox_entry_name:0 "[?v.GetName]"
 
+ #PFP State Transfer Tooltips
+ pfp_state_transfer_tooltip_unselect_all_button:0 "Unselect all previously selected states."
+ pfp_state_transfer_tooltip_close_button:0 "Close the state transfer interface."
