@@ -20,6 +20,7 @@ pfp_release_north_africa = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P30 }
+			add_contested_owner = P30
 			transfer_state_to = P30
 		}
 

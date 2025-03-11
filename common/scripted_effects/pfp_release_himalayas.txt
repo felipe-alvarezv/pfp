@@ -10,6 +10,7 @@ pfp_release_himalayas = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P52 }
+			add_contested_owner = P52
 			transfer_state_to = P52
 		}
 

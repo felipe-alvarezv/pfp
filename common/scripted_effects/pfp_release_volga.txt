@@ -21,6 +21,7 @@ pfp_release_volga = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P42 }
+			add_contested_owner = P42
 			transfer_state_to = P42
 		}
 

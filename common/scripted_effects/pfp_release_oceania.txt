@@ -20,6 +20,7 @@ pfp_release_oceania = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P27 }
+			add_contested_owner = P27
 			transfer_state_to = P27
 		}
 

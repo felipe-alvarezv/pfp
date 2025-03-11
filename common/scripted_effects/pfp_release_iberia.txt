@@ -31,6 +31,7 @@ pfp_release_iberia = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P15 }
+			add_contested_owner = P15
 			transfer_state_to = P15
 		}
 

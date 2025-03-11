@@ -8,6 +8,7 @@ pfp_release_chile = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P54 }
+			add_contested_owner = P54
 			transfer_state_to = P54
 		}
 

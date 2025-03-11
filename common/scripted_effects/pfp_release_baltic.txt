@@ -16,6 +16,7 @@ pfp_release_baltic = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P04 }
+			add_contested_owner = P04
 			transfer_state_to = P04
 		}
 

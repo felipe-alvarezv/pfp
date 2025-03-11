@@ -10,6 +10,7 @@ pfp_release_french_alps = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P64 }
+			add_contested_owner = P64
 			transfer_state_to = P64
 		}
 

@@ -11,6 +11,7 @@ pfp_release_poland = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P34 }
+			add_contested_owner = P34
 			transfer_state_to = P34
 		}
 

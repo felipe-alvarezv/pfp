@@ -14,6 +14,7 @@ pfp_release_rockies_us = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P23 }
+			add_contested_owner = P23
 			transfer_state_to = P23
 		}
 

@@ -16,6 +16,7 @@ pfp_release_urals = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P44 }
+			add_contested_owner = P44
 			transfer_state_to = P44
 		}
 

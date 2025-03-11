@@ -9,6 +9,7 @@ pfp_release_ireland = {
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_claimed_by = P73 }
+			add_contested_owner = P73
 			transfer_state_to = P73
 		}
 

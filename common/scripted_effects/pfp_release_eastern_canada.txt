@@ -9,6 +9,7 @@ pfp_release_eastern_canada = {
 		#Set formable puppet as owner and controller of all its claimed states
 		every_state = {
 			limit = { is_claimed_by = P11 }
+			add_contested_owner = P11
 			transfer_state_to = P11
 		}
 
