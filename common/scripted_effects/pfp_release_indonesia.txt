@@ -2,14 +2,12 @@
 pfp_release_indonesia = {
 	hidden_effect = {
 		#Add cores to Indonesia
-		333 = { add_core_of = P17 } #North Borneo
 		334 = { add_core_of = P17 } #Kalimantan
 		335 = { add_core_of = P17 } #Java
 		667 = { add_core_of = P17 } #Lesser Sunda Islands
 		668 = { add_core_of = P17 } #The Moluccas
 		672 = { add_core_of = P17 } #Sumatra
 		673 = { add_core_of = P17 } #Sulawesi
-		738 = { add_core_of = P17 } #Aru Islands
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

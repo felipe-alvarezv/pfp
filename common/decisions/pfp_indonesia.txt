@@ -9,11 +9,6 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#North Borneo
-			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_north_borneo
-				has_full_control_of_state = 333 #North Borneo
-			}
 			#Kalimantan
 			custom_trigger_tooltip = {
 				tooltip = pfp_indonesia_required_states_kalimantan
@@ -44,30 +39,26 @@ pfp_category = {
 				tooltip = pfp_indonesia_required_states_sulawesi
 				has_full_control_of_state = 673 #Sulawesi
 			}
-			#Aru Islads
-			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_aru_islands
-				has_full_control_of_state = 738 #Aru Islands
-			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 333 #North Borneo
+				has_full_control_of_state = 334 #Kalimantan
 				has_full_control_of_state = 335 #Java
+				has_full_control_of_state = 667 #Lesser Sunda Islands
+				has_full_control_of_state = 668 #The Moluccas
 				has_full_control_of_state = 672 #Sumatra
+				has_full_control_of_state = 673 #Sulawesi
 			}
 			NOT = { has_global_flag = pfp_indonesia_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 333 #North Borneo
 				state = 334 #Kalimantan
 				state = 335 #Java
 				state = 667 #Lesser Sunda Islands
 				state = 668 #The Moluccas
 				state = 672 #Sumatra
 				state = 673 #Sulawesi
-				state = 738 #Aru Islands
 			}
 		}
 		icon = generic_military

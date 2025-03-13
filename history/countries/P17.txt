@@ -93,15 +93,17 @@ recruit_character = P17_democratic_leader
 recruit_character = P17_neutrality_leader
 recruit_character = P17_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_indonesia_integration_array = 333 } #North Borneo
+#Indonesia Initial States
 add_to_array = { pfp_indonesia_integration_array = 334 } #Kalimantan
 add_to_array = { pfp_indonesia_integration_array = 335 } #Java
-add_to_array = { pfp_indonesia_integration_array = 336 } #Singapore
 add_to_array = { pfp_indonesia_integration_array = 667 } #Lesser Sunda Islands
 add_to_array = { pfp_indonesia_integration_array = 668 } #The Moluccas
-add_to_array = { pfp_indonesia_integration_array = 669 } #West Papua
 add_to_array = { pfp_indonesia_integration_array = 672 } #Sumatra
 add_to_array = { pfp_indonesia_integration_array = 673 } #Sulawesi
+
+#Indonesia Territories
+add_to_array = { pfp_indonesia_integration_array = 333 } #North Borneo
+add_to_array = { pfp_indonesia_integration_array = 336 } #Singapore
+add_to_array = { pfp_indonesia_integration_array = 669 } #West Papua
 add_to_array = { pfp_indonesia_integration_array = 721 } #Portuguese Timor
 add_to_array = { pfp_indonesia_integration_array = 738 } #Aru Islands

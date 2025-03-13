@@ -1,5 +1,5 @@
 #Indonesia (Kaiserreich Indonesian Names)
-D17 = {
+P17 = {
 	male = {
 		names = {
 			"Girindrawardhana"

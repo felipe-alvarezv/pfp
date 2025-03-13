@@ -17,16 +17,17 @@ l_english:
  P17_DEF:0 "Indonesia"
  P17_ADJ:0 "Indonesian"
 
+ #Subject of Germany
+ P17_GER_subject: "Indonesien"
+
  #Decisions Localisation
  pfp_indonesia:0 "Establish Military Administration in Indonesia"
- pfp_indonesia_required_states_north_borneo:0 "Controls §YNorth Borneo§!."
  pfp_indonesia_required_states_kalimantan:0 "Controls §YKalimantan§!."
  pfp_indonesia_required_states_java:0 "Controls §YJava§!."
  pfp_indonesia_required_states_lesser_sunda_islands:0 "Controls §YLesser Sunda Islands§!."
  pfp_indonesia_required_states_the_moluccas:0 "Controls §YThe Moluccas§!."
  pfp_indonesia_required_states_sumatra:0 "Controls §YSumatra§!."
  pfp_indonesia_required_states_sulawesi:0 "Controls §YSulawesi§!."
- pfp_indonesia_required_states_aru_islands:0 "Controls §YAru Islands§!."
  pfp_indonesia_claim_states:0 "§YIndonesia§! gains claims on all listed states.\n"
  pfp_indonesia_transfer_states:0 "§YIndonesia§! becomes owner and controller of all listed states.\n"
  pfp_indonesia_puppet:0 "§YIndonesia§! becomes a puppet of §Y[Root.GetName]§!.\n"
