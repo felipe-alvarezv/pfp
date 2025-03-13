@@ -1,7 +1,7 @@
 #Scripted effect to release Western Russia (P48)
 pfp_release_western_russia = {
 	hidden_effect = {
-		#Add claims to Western Russia
+		#Add cores to Western Russia
 		195 = { add_core_of = P48 } #Leningrad
 		205 = { add_core_of = P48 } #Kaluga
 		208 = { add_core_of = P48 } #Luga
@@ -54,7 +54,7 @@ pfp_release_western_russia = {
 		879 = { add_core_of = P48 } #Kargopol
 		880 = { add_core_of = P48 } #Kotlas
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P48 }
 			add_contested_owner = P48

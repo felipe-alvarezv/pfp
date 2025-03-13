@@ -1,7 +1,7 @@
 #Scripted effect to release Indonesia (P17)
 pfp_release_indonesia = {
 	hidden_effect = {
-		#Add claims to Indonesia
+		#Add cores to Indonesia
 		333 = { add_core_of = P17 } #North Borneo
 		334 = { add_core_of = P17 } #Kalimantan
 		335 = { add_core_of = P17 } #Java
@@ -11,7 +11,7 @@ pfp_release_indonesia = {
 		673 = { add_core_of = P17 } #Sulawesi
 		738 = { add_core_of = P17 } #Aru Islands
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P17 }
 			add_contested_owner = P17

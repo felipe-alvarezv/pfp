@@ -1,7 +1,7 @@
 #Scripted effect to release Ukraine (P66)
 pfp_release_ukraine = {
 	hidden_effect = {
-		#Add claims to Ukraine
+		#Add cores to Ukraine
 		193 = { add_core_of = P66 } #Chernigov
 		196 = { add_core_of = P66 } #Kherson
 		197 = { add_core_of = P66 } #Mykolaiv
@@ -12,7 +12,7 @@ pfp_release_ukraine = {
 		226 = { add_core_of = P66 } #Dnipropetrovsk
 		259 = { add_core_of = P66 } #Poltava
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P66 }
 			add_contested_owner = P66

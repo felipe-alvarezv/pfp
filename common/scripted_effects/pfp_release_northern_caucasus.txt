@@ -1,7 +1,7 @@
 #Scripted effect to release Northern Caucasus (P41)
 pfp_release_northern_caucasus = {
 	hidden_effect = {
-		#Add claims to Northern Caucasus
+		#Add cores to Northern Caucasus
 		232 = { add_core_of = P41 } #Dagestan
 		233 = { add_core_of = P41 } #Sochi
 		235 = { add_core_of = P41 } #Stavropol
@@ -9,7 +9,7 @@ pfp_release_northern_caucasus = {
 		827 = { add_core_of = P41 } #Kabardino-Balkaria
 		828 = { add_core_of = P41 } #North Ossetia
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P41 }
 			add_contested_owner = P41

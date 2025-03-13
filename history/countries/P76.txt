@@ -93,13 +93,24 @@ recruit_character = P76_democratic_leader
 recruit_character = P76_neutrality_leader
 recruit_character = P76_fascism_leader
 
-#States to add to the integration array
+#Afghanistan Initial States
 add_to_array = { pfp_afghanistan_integration_array = 267 } #Kabul
 add_to_array = { pfp_afghanistan_integration_array = 415 } #Herat
-add_to_array = { pfp_afghanistan_integration_array = 440 } #Punjab
+add_to_array = { pfp_afghanistan_integration_array = 1005 } #Qataghan
+add_to_array = { pfp_afghanistan_integration_array = 1006 } #Khyber Pass
+add_to_array = { pfp_afghanistan_integration_array = 1007 } #Maymanah
+add_to_array = { pfp_afghanistan_integration_array = 1008 } #Qandahar
+add_to_array = { pfp_afghanistan_integration_array = 1009 } #Farah
+
+#Afghanistan Territories
+add_to_array = { pfp_afghanistan_integration_array = 410 } #Sistan
+add_to_array = { pfp_afghanistan_integration_array = 440 } #West Punjab
 add_to_array = { pfp_afghanistan_integration_array = 441 } #Kashmir
 add_to_array = { pfp_afghanistan_integration_array = 442 } #Peshawar
 add_to_array = { pfp_afghanistan_integration_array = 443 } #Sind
-add_to_array = { pfp_afghanistan_integration_array = 444 } #Baluchistan
-add_to_array = { pfp_afghanistan_integration_array = 445 } #Quetta
+add_to_array = { pfp_afghanistan_integration_array = 444 } #South Baluchistan
+add_to_array = { pfp_afghanistan_integration_array = 445 } #Sibi
 add_to_array = { pfp_afghanistan_integration_array = 787 } #Northern Kashmir
+add_to_array = { pfp_afghanistan_integration_array = 987 } #Wazaristan
+add_to_array = { pfp_afghanistan_integration_array = 988 } #North Baluchistan
+add_to_array = { pfp_afghanistan_integration_array = 1012 } #Kalat

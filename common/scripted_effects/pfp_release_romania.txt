@@ -1,12 +1,12 @@
 #Scripted effect to release Romania (P79)
 pfp_release_romania = {
     hidden_effect = {
-        #Add claims to Romania
+        #Add cores to Romania
         46 = { add_core_of = P79 } #Muntenia
         79 = { add_core_of = P79 } #Moldova
         81 = { add_core_of = P79 } #Oltenia
         
-        #Set formable puppet as owner and controller of all its claimed states
+        #Set formable puppet as owner and controller of all its cored states
         every_state = {
             limit = { is_core_of = P79 }
             add_contested_owner = P79

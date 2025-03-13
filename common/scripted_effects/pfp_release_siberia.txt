@@ -1,7 +1,7 @@
 #Scripted effect to release Siberia (P45)
 pfp_release_siberia = {
 	hidden_effect = {
-		#Add claims to Siberia
+		#Add cores to Siberia
 		40 = { add_core_of = P45 } #Altai Krai
 		516 = { add_core_of = P45 } #Dudinka
 		566 = { add_core_of = P45 } #Irkutsk
@@ -15,7 +15,7 @@ pfp_release_siberia = {
 		578 = { add_core_of = P45 } #Tomsk
 		878 = { add_core_of = P45 } #Khatangsky
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P45 }
 			add_contested_owner = P45

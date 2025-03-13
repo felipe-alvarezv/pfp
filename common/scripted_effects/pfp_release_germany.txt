@@ -1,7 +1,7 @@
 #Scripted effect to release Germany (P13)
 pfp_release_germany = {
 	hidden_effect = {
-		#Add claims to Germany
+		#Add cores to Germany
 		42 = { add_core_of = P13 } #Moselland
 		51 = { add_core_of = P13 } #Rhineland
 		55 = { add_core_of = P13 } #Hessen
@@ -20,7 +20,7 @@ pfp_release_germany = {
 		54 = { add_core_of = P13 } #Franken
 		978 = { add_core_of = P13 } #Baden
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P13 }
 			add_contested_owner = P13

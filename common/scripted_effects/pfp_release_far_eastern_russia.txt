@@ -1,7 +1,7 @@
 #Scripted effect to release Far Eastern Russia (P46)
 pfp_release_far_eastern_russia = {
 	hidden_effect = {
-		#Add claims to Far Eastern Russia
+		#Add cores to Far Eastern Russia
 		408 = { add_core_of = P46 } #Vladivostok
 		409 = { add_core_of = P46 } #Khabarovsk
 		560 = { add_core_of = P46 } #Nikolayevsk
@@ -15,7 +15,7 @@ pfp_release_far_eastern_russia = {
 		874 = { add_core_of = P46 } #Magadan
 		877 = { add_core_of = P46 } #Verkhoyansk
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P46 }
 			add_contested_owner = P46

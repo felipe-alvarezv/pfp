@@ -1,7 +1,7 @@
 #Scripted effect to release North Germany (P19)
 pfp_release_north_germany = {
 	hidden_effect = {
-		#Add claims to North Germany
+		#Add cores to North Germany
 		42 = { add_core_of = P19 } #Moselland
 		51 = { add_core_of = P19 } #Rhineland
 		55 = { add_core_of = P19 } #Hessen
@@ -19,7 +19,7 @@ pfp_release_north_germany = {
 		67 = { add_core_of = P19 } #Oberschlesien
 		68 = { add_core_of = P19 } #Ostmark
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P19 }
 			add_contested_owner = P19

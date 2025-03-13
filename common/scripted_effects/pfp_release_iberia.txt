@@ -1,7 +1,7 @@
 #Scripted effect to release Iberia (P15)
 pfp_release_iberia = {
 	hidden_effect = {
-		#Add claims to Iberia
+		#Add cores to Iberia
 		41 = { add_core_of = P15 } #Madrid
 		112 = { add_core_of = P15 } #Lisbon
 		165 = { add_core_of = P15 } #Cataluna
@@ -28,7 +28,7 @@ pfp_release_iberia = {
 		794 = { add_core_of = P15 } #Eastern Aragon
 		795 = { add_core_of = P15 } #Santarem
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P15 }
 			add_contested_owner = P15

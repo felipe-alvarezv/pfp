@@ -17,10 +17,12 @@ l_english:
   P52_DEF:0 "the Himalayas"
   P52_ADJ:0 "Himalayan"
 
-#Decisions Localisation
+  #Subject of Germany
+  P52_GER_subject: "Himalaya"
+
+  #Decisions Localisation
   pfp_himalayas:0 "Establish Military Administration in the Himalayas"
   pfp_himalayas_required_states_nagqu:0 "Controls §YNagqu§!."
-  pfp_himalayas_required_states_nepal:0 "Controls §YNepal§!."
   pfp_himalayas_required_states_shigatse:0 "Controls §YShigatse§!."
   pfp_himalayas_required_states_ngari:0 "Controls §YNgari§!."
   pfp_himalayas_claim_states:0 "§YHimalayas§! gains claims on all listed states.\n"

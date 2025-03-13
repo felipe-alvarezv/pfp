@@ -10,7 +10,7 @@ pfp_release_argentina = {
 		957 = { add_core_of = P55 } #Formosa
 		959 = { add_core_of = P55 } #Los Andes
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P55 }
 			add_contested_owner = P55

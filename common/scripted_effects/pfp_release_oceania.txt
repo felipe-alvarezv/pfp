@@ -1,7 +1,7 @@
 #Scripted effect to release Oceania (P27)
 pfp_release_oceania = {
 	hidden_effect = {
-		#Add claims to Oceania
+		#Add cores to Oceania
 		285 = { add_core_of = P27 } #New South Wales
 		517 = { add_core_of = P27 } #Victoria
 		518 = { add_core_of = P27 } #Tasmania
@@ -17,7 +17,7 @@ pfp_release_oceania = {
 		284 = { add_core_of = P27 } #North Island
 		723 = { add_core_of = P27 } #South Island
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P27 }
 			add_contested_owner = P27

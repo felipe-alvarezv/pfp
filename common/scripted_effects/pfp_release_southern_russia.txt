@@ -1,7 +1,7 @@
 #Scripted effect to release Southern Russia (P40)
 pfp_release_southern_russia = {
 	hidden_effect = {
-		#Add claims to Southern Russia
+		#Add cores to Southern Russia
 		217 = { add_core_of = P40 } #Stalingrad
 		218 = { add_core_of = P40 } #Rostov
 		236 = { add_core_of = P40 } #Astrakhan
@@ -10,7 +10,7 @@ pfp_release_southern_russia = {
 		245 = { add_core_of = P40 } #Millerovo
 		265 = { add_core_of = P40 } #Mikhaylovka
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P40 }
 			add_contested_owner = P40

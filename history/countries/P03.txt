@@ -93,11 +93,22 @@ recruit_character = P03_democratic_leader
 recruit_character = P03_neutrality_leader
 recruit_character = P03_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_arabia_integration_array = 291 } #Baghdad
+#Arabia Initial States
 add_to_array = { pfp_arabia_integration_array = 292 } #Nejd
+add_to_array = { pfp_arabia_integration_array = 678 } #Rub Al Khali
+add_to_array = { pfp_arabia_integration_array = 679 } #Madinah
+add_to_array = { pfp_arabia_integration_array = 854 } #Jawf
+add_to_array = { pfp_arabia_integration_array = 855 } #Tabuk
+add_to_array = { pfp_arabia_integration_array = 856 } #Asir-Makkah
+add_to_array = { pfp_arabia_integration_array = 857 } #Al-Qassim
+add_to_array = { pfp_arabia_integration_array = 858 } #Najiran
+add_to_array = { pfp_arabia_integration_array = 859 } #Dammam
+
+#Arabia Territories
+add_to_array = { pfp_arabia_integration_array = 291 } #Baghdad
 add_to_array = { pfp_arabia_integration_array = 293 } #Yemen
-add_to_array = { pfp_arabia_integration_array = 294 } #Oman
+add_to_array = { pfp_arabia_integration_array = 294 } #Muscat
+add_to_array = { pfp_arabia_integration_array = 446 } #Suez
 add_to_array = { pfp_arabia_integration_array = 453 } #Sinai
 add_to_array = { pfp_arabia_integration_array = 454 } #Palestine
 add_to_array = { pfp_arabia_integration_array = 455 } #Jordan
@@ -109,15 +120,14 @@ add_to_array = { pfp_arabia_integration_array = 659 } #Aden
 add_to_array = { pfp_arabia_integration_array = 675 } #Al Hajara
 add_to_array = { pfp_arabia_integration_array = 676 } #Mosul
 add_to_array = { pfp_arabia_integration_array = 677 } #Aleppo
-add_to_array = { pfp_arabia_integration_array = 678 } #Rub Al Khali
-add_to_array = { pfp_arabia_integration_array = 679 } #Madinah
 add_to_array = { pfp_arabia_integration_array = 680 } #Deir-Az-Zur
 add_to_array = { pfp_arabia_integration_array = 765 } #Qatar
 add_to_array = { pfp_arabia_integration_array = 799 } #Hatay
-add_to_array = { pfp_arabia_integration_array = 854 } #Jawf
-add_to_array = { pfp_arabia_integration_array = 855 } #Tabuk
-add_to_array = { pfp_arabia_integration_array = 856 } #Asir-Makkah
-add_to_array = { pfp_arabia_integration_array = 857 } #Al-Qassim
-add_to_array = { pfp_arabia_integration_array = 858 } #Najiran
-add_to_array = { pfp_arabia_integration_array = 859 } #Dammam
 add_to_array = { pfp_arabia_integration_array = 906 } #Socotra
+add_to_array = { pfp_arabia_integration_array = 992 } #Province of Aden
+add_to_array = { pfp_arabia_integration_array = 1010 } #Al Anbar
+add_to_array = { pfp_arabia_integration_array = 1011 } #Al Basrah
+add_to_array = { pfp_arabia_integration_array = 1013 } #Musandam
+add_to_array = { pfp_arabia_integration_array = 1014 } #Bahrain
+add_to_array = { pfp_arabia_integration_array = 1015 } #Oman
+add_to_array = { pfp_arabia_integration_array = 1016 } #Dhofar

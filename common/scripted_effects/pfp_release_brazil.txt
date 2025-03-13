@@ -1,7 +1,7 @@
 #Scripted effect to release Brazil (P57)
 pfp_release_brazil = {
 	hidden_effect = {
-		#Add claims to Brazil
+		#Add cores to Brazil
 		280 = { add_core_of = P57 } #Mato Grosso
 		495 = { add_core_of = P57 } #Amazonas
 		496 = { add_core_of = P57 } #Minas Gerais
@@ -36,7 +36,7 @@ pfp_release_brazil = {
 		967 = { add_core_of = P57 } #Amazon
 		968 = { add_core_of = P57 } #Amazon
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P57 }
 			add_contested_owner = P57

@@ -1,13 +1,13 @@
 #Scripted effect to release Bulgaria (P49)
 pfp_release_bulgaria = {
 	hidden_effect = {
-		#Add claims to Bulgaria
+		#Add cores to Bulgaria
 		48 = { add_core_of = P49 } #Sofia
 		211 = { add_core_of = P49 } #Burgas
 		212 = { add_core_of = P49 } #Plovdiv
 		801 = { add_core_of = P49 } #Moesia
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P49 }
 			add_contested_owner = P49

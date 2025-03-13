@@ -1,7 +1,7 @@
 #Scripted effect to release Scandinavia (P24)
 pfp_release_scandinavia = {
 	hidden_effect = {
-		#Add claims to Scandinavia
+		#Add cores to Scandinavia
 		37 = { add_core_of = P24 } #Sjaelland
 		38 = { add_core_of = P24 } #Gävleborg
 		99 = { add_core_of = P24 } #Jylland
@@ -29,7 +29,7 @@ pfp_release_scandinavia = {
 		924 = { add_core_of = P24 } #Troms
 		925 = { add_core_of = P24 } #Finnmark
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P24 }
 			add_contested_owner = P24

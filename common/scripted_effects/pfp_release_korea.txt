@@ -1,11 +1,11 @@
 #Scripted effect to release Korea (P72)
 pfp_release_korea = {
 	hidden_effect = {
-		#Add claims to Korea
+		#Add cores to Korea
 		525 = { add_core_of = P72 } #South Korea
 		527 = { add_core_of = P72 } #North Korea
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P72 }
 			add_contested_owner = P72

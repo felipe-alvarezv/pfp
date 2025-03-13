@@ -1,7 +1,7 @@
 #Scripted effect to release West Germany (P31)
 pfp_release_west_germany = {
 	hidden_effect = {
-		#Add claims to West Germany
+		#Add cores to West Germany
 		42 = { add_core_of = P31 } #Moselland
 		50 = { add_core_of = P31 } #Wurttemberg
 		51 = { add_core_of = P31 } #Rhineland
@@ -15,7 +15,7 @@ pfp_release_west_germany = {
 		59 = { add_core_of = P31 } #Hannover
 		978 = { add_core_of = P31 } #Baden
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P31 }
 			add_contested_owner = P31

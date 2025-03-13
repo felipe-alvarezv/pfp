@@ -1,7 +1,7 @@
 #Scripted effect to release Mexico (P58)
 pfp_release_mexico = {
 	hidden_effect = {
-		#Add claims to Mexico
+		#Add cores to Mexico
 		277 = { add_core_of = P58 } #Mexico City
 		474 = { add_core_of = P58 } #Yucatan
 		475 = { add_core_of = P58 } #Chiapas
@@ -16,7 +16,7 @@ pfp_release_mexico = {
 		484 = { add_core_of = P58 } #Baja California
 		485 = { add_core_of = P58 } #Guerrero
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P58 }
 			add_contested_owner = P58

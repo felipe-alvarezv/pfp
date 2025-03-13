@@ -1,7 +1,7 @@
 #Scripted effect to release Great Britain (P02)
 pfp_release_great_britain = {
 	hidden_effect = {
-		#Add claims to Great Britain
+		#Add cores to Great Britain
 		120 = { add_core_of = P02 } #Scottish Highlands
 		121 = { add_core_of = P02 } #Lothian
 		122 = { add_core_of = P02 } #Wales
@@ -19,7 +19,7 @@ pfp_release_great_britain = {
 		338 = { add_core_of = P02 } #Gloucestershire
 		931 = { add_core_of = P02 } #Cumbria
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P02 }
 			add_contested_owner = P02

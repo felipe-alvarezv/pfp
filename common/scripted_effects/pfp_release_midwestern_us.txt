@@ -1,7 +1,7 @@
 #Scripted effect to release Midwestern U.S. (P18)
 pfp_release_midwestern_us = {
 	hidden_effect = {
-		#Add claims to Midwestern U.S.
+		#Add cores to Midwestern U.S.
 		261 = { add_core_of = P18 } #Ohio
 		373 = { add_core_of = P18 } #Missouri
 		383 = { add_core_of = P18 } #Kansas
@@ -15,7 +15,7 @@ pfp_release_midwestern_us = {
 		395 = { add_core_of = P18 } #Illinois
 		396 = { add_core_of = P18 } #Indiana
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P18 }
 			add_contested_owner = P18

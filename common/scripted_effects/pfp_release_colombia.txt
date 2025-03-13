@@ -1,12 +1,12 @@
 #Scripted effect to release Colombia (P01)
 pfp_release_colombia = {
 	hidden_effect = {
-		#Add claims to Colombia
+		#Add cores to Colombia
 		306 = { add_core_of = P01 } #Cundinamarca
 		486 = { add_core_of = P01 } #Meta
 		493 = { add_core_of = P01 } #La Libertad
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P01 }
 			add_contested_owner = P01

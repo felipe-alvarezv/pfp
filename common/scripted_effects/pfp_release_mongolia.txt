@@ -1,14 +1,14 @@
 #Scripted effect to release Mongolia (P47)
 pfp_release_mongolia = {
 	hidden_effect = {
-		#Add claims to Mongolia
+		#Add cores to Mongolia
 		330 = { add_core_of = P47 } #Ulaanbaatar
 		817 = { add_core_of = P47 } #Gobi
 		818 = { add_core_of = P47 } #Khovd
 		819 = { add_core_of = P47 } #Dornod
 		820 = { add_core_of = P47 } #Khovsgol
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P47 }
 			add_contested_owner = P47

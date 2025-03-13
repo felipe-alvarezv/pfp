@@ -1,14 +1,14 @@
 #Scripted effect to release Hungary (P09)
 pfp_release_hungary = {
 	hidden_effect = {
-		#Add claims to Hungary
+		#Add cores to Hungary
 		43 = { add_core_of = P09 } #Northern Hungary
 		154 = { add_core_of = P09 } #Alföld
 		155 = { add_core_of = P09 } #Transdanubia
 		973 = { add_core_of = P09 } #Bács-Kiskun
 		974 = { add_core_of = P09 } #South Transdanubia
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P09 }
 			add_contested_owner = P09

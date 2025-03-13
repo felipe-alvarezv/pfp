@@ -93,37 +93,57 @@ recruit_character = P37_democratic_leader
 recruit_character = P37_neutrality_leader
 recruit_character = P37_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_india_integration_array = 281 } #Maldives
-add_to_array = { pfp_india_integration_array = 288 } #Burma
-add_to_array = { pfp_india_integration_array = 320 } #French India
-add_to_array = { pfp_india_integration_array = 321 } #Goa
-add_to_array = { pfp_india_integration_array = 323 } #Nepal
-add_to_array = { pfp_india_integration_array = 324 } #Bhutan
-add_to_array = { pfp_india_integration_array = 422 } #Ceylon
-add_to_array = { pfp_india_integration_array = 423 } #Madurai
-add_to_array = { pfp_india_integration_array = 424 } #Madras
+#India Initial States
+add_to_array = { pfp_india_integration_array = 423 } #Southern Madras
+add_to_array = { pfp_india_integration_array = 424 } #Northern Madras
 add_to_array = { pfp_india_integration_array = 425 } #Mysore
 add_to_array = { pfp_india_integration_array = 426 } #Orissa
 add_to_array = { pfp_india_integration_array = 427 } #Hyderabad
 add_to_array = { pfp_india_integration_array = 428 } #Gujarat
 add_to_array = { pfp_india_integration_array = 429 } #Bombay
-add_to_array = { pfp_india_integration_array = 430 } #East Bengal
-add_to_array = { pfp_india_integration_array = 431 } #East Bengal
-add_to_array = { pfp_india_integration_array = 432 } #Assam
 add_to_array = { pfp_india_integration_array = 433 } #Rajahsthan
+add_to_array = { pfp_india_integration_array = 436 } #Central Provinces
+add_to_array = { pfp_india_integration_array = 437 } #Central India
+add_to_array = { pfp_india_integration_array = 438 } #United Provinces
+add_to_array = { pfp_india_integration_array = 439 } #Delhi
+add_to_array = { pfp_india_integration_array = 982 } #Madras State
+add_to_array = { pfp_india_integration_array = 983 } #Kolhapur and Deccan
+add_to_array = { pfp_india_integration_array = 984 } #Bastar
+add_to_array = { pfp_india_integration_array = 986 } #East Punjab
+add_to_array = { pfp_india_integration_array = 989 } #Bahawalpur
+add_to_array = { pfp_india_integration_array = 991 } #Gwalior
+
+#India Territories
+add_to_array = { pfp_india_integration_array = 281 } #Maldives
+add_to_array = { pfp_india_integration_array = 288 } #Magwe
+add_to_array = { pfp_india_integration_array = 320 } #French India
+add_to_array = { pfp_india_integration_array = 321 } #Goa
+add_to_array = { pfp_india_integration_array = 323 } #Nepal
+add_to_array = { pfp_india_integration_array = 324 } #Bhutan
+add_to_array = { pfp_india_integration_array = 422 } #Ceylon
+add_to_array = { pfp_india_integration_array = 430 } #East Bengal
+add_to_array = { pfp_india_integration_array = 431 } #West Bengal
+add_to_array = { pfp_india_integration_array = 432 } #Assam
 add_to_array = { pfp_india_integration_array = 434 } #Arunachal Pradesh
 add_to_array = { pfp_india_integration_array = 435 } #Bihar
-add_to_array = { pfp_india_integration_array = 436 } #Jabalpur
-add_to_array = { pfp_india_integration_array = 437 } #Indore
-add_to_array = { pfp_india_integration_array = 438 } #Lucknow
-add_to_array = { pfp_india_integration_array = 439 } #Delhi
-add_to_array = { pfp_india_integration_array = 440 } #Punjab
+add_to_array = { pfp_india_integration_array = 440 } #West Punjab
 add_to_array = { pfp_india_integration_array = 441 } #Kashmir
 add_to_array = { pfp_india_integration_array = 442 } #Peshawar
 add_to_array = { pfp_india_integration_array = 443 } #Sind
-add_to_array = { pfp_india_integration_array = 444 } #Baluchistan
-add_to_array = { pfp_india_integration_array = 445 } #Quetta
+add_to_array = { pfp_india_integration_array = 444 } #South Baluchistan
+add_to_array = { pfp_india_integration_array = 445 } #Sibi
 add_to_array = { pfp_india_integration_array = 640 } #Mandalay
 add_to_array = { pfp_india_integration_array = 733 } #Andaman
 add_to_array = { pfp_india_integration_array = 787 } #Northern Kashmir
+add_to_array = { pfp_india_integration_array = 985 } #Sikkim
+add_to_array = { pfp_india_integration_array = 987 } #Wazaristan
+add_to_array = { pfp_india_integration_array = 988 } #North Baluchistan
+add_to_array = { pfp_india_integration_array = 990 } #Manipur
+add_to_array = { pfp_india_integration_array = 993 } #Kentung and Yawnghwe
+add_to_array = { pfp_india_integration_array = 994 } #Tenasserim
+add_to_array = { pfp_india_integration_array = 995 } #Pegu
+add_to_array = { pfp_india_integration_array = 996 } #Irrawaddy
+add_to_array = { pfp_india_integration_array = 997 } #Arakan
+add_to_array = { pfp_india_integration_array = 998 } #Sagaing
+add_to_array = { pfp_india_integration_array = 999 } #Federated Shan
+add_to_array = { pfp_india_integration_array = 1012 } #Kalat

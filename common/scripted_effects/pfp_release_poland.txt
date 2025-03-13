@@ -1,14 +1,14 @@
 #Scripted effect to release Poland (P34)
 pfp_release_poland = {
 	hidden_effect = {
-		#Add claims to Poland
+		#Add cores to Poland
 		10 = { add_core_of = P34 } #Warszawa
 		87 = { add_core_of = P34 } #Lodz
 		90 = { add_core_of = P34 } #Kielce
 		92 = { add_core_of = P34 } #Lublin
 		98 = { add_core_of = P34 } #Płock
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P34 }
 			add_contested_owner = P34

@@ -1,7 +1,7 @@
 #Scripted effect to release Volga (P42)
 pfp_release_volga = {
 	hidden_effect = {
-		#Add claims to Volga
+		#Add cores to Volga
 		239 = { add_core_of = P42 } #Saratov
 		249 = { add_core_of = P42 } #Kazan
 		250 = { add_core_of = P42 } #Ulyanovsky
@@ -18,7 +18,7 @@ pfp_release_volga = {
 		829 = { add_core_of = P42 } #Engels-Marxstadt
 		833 = { add_core_of = P42 } #Mari El
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P42 }
 			add_contested_owner = P42

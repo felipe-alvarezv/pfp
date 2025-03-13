@@ -1,12 +1,12 @@
 #Scripted effect to release Kurdistan (P70)
 pfp_release_kurdistan = {
 	hidden_effect = {
-		#Add claims to Kurdistan
+		#Add cores to Kurdistan
 		350 = { add_core_of = P70 } #Diyarbakir
 		352 = { add_core_of = P70 } #Hakkari
 		353 = { add_core_of = P70 } #Tunceli
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P70 }
 			add_contested_owner = P70

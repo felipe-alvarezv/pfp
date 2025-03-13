@@ -1,7 +1,7 @@
 #Scripted effect to release Iran (P71)
 pfp_release_iran = {
 	hidden_effect = {
-		#Add claims to Iran
+		#Add cores to Iran
 		266 = { add_core_of = P71 } #Tehran
 		410 = { add_core_of = P71 } #Sistan
 		411 = { add_core_of = P71 } #Isfahan
@@ -11,7 +11,7 @@ pfp_release_iran = {
 		417 = { add_core_of = P71 } #Hamadan
 		418 = { add_core_of = P71 } #Semnan
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P71 }
 			add_contested_owner = P71

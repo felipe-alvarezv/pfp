@@ -1,7 +1,7 @@
 #Scripted effect to release Southern France (P63)
 pfp_release_southern_france = {
 	hidden_effect = {
-		#Add claims to Southern France
+		#Add cores to Southern France
 		20 = { add_core_of = P63 } #Rhone
 		22 = { add_core_of = P63 } #Languedoc
 		25 = { add_core_of = P63 } #Limousin
@@ -9,7 +9,7 @@ pfp_release_southern_france = {
 		31 = { add_core_of = P63 } #Midi Pyrenees
 		33 = { add_core_of = P63 } #Centre-Sud
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P63 }
 			add_contested_owner = P63

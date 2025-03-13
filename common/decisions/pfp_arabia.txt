@@ -15,16 +15,6 @@ pfp_category = {
 				tooltip = pfp_arabia_required_states_nejd
 				has_full_control_of_state = 292 #Nejd
 			}
-			#Yemen
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_yemen
-				has_full_control_of_state = 293 #Yemen
-			}
-			#Oman
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_oman
-				has_full_control_of_state =  294 #Oman
-			}
 			#Rub Al Khali
 			custom_trigger_tooltip = {
 				tooltip = pfp_arabia_required_states_rub_al_khali
@@ -69,16 +59,20 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 292 #Nejd
-				has_full_control_of_state = 293 #Yemen
-				has_full_control_of_state = 294 #Oman
+				has_full_control_of_state = 678 #Rub al Khali
+				has_full_control_of_state = 679 #Madinah
+				has_full_control_of_state = 854 #Jawf
+				has_full_control_of_state = 855 #Tabuk
+				has_full_control_of_state = 856 #Assir-Makkah
+				has_full_control_of_state = 857 #Al-Qassim
+				has_full_control_of_state = 858 #Najiran
+				has_full_control_of_state = 859 #Dammam
 			}
 			NOT = { has_global_flag = pfp_arabia_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
 				state = 292 #Nejd
-				state = 293 #Yemen
-				state = 294 #Oman
 				state = 678 #Rub Al Khali
 				state = 679 #Madinah
 				state = 854 #Jawf

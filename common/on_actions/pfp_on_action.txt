@@ -1,1901 +1,1127 @@
 on_actions = {
-    on_daily = {
-        #Pipe's Formable Puppets - State Integration
+    #Pipe's Formable Puppets - Ruling Party Change
+    on_ruling_party_change = {
+        effect = {
+            every_subject_country  = {
+                limit = {
+                    has_autonomy_state = autonomy_military_administration 
+                    NOT = { has_government = var:overlord }
+                }
+                
+                set_politics = {
+                    ruling_party = var:overlord
+                }
+            }
+        }
+    }
+
+    #Pipe's Formable Puppets - State Integration
+    on_state_control_changed  = {
         effect = {
             #Colombia Integration
-            if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_colombia_integration_array
+            for_each_scope_loop = {
+                array = pfp_colombia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P01
                         NOT = { is_core_of = P01 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_colombia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P01
-                            NOT = { is_core_of = P01 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P01
-                    }
+                    add_contested_owner = P01
+                    add_core_of = P01
                 }
             }
             #Great Britain Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_great_britain_integration_array
+            for_each_scope_loop = {
+                array = pfp_great_britain_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P02
                         NOT = { is_core_of = P02 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_great_britain_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P02
-                            NOT = { is_core_of = P02 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P02
-                    }
+                    add_contested_owner = P02
+                    add_core_of = P02
                 }
             }
             #Arabia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_arabia_integration_array
+            for_each_scope_loop = {
+                array = pfp_arabia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P03
                         NOT = { is_core_of = P03 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_arabia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P03
-                            NOT = { is_core_of = P03 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P03
-                    }
+                    add_contested_owner = P03
+                    add_core_of = P03
                 }
             }
             #Baltic Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_baltic_integration_array
+            for_each_scope_loop = {
+                array = pfp_baltic_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P04
                         NOT = { is_core_of = P04 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_baltic_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P04
-                            NOT = { is_core_of = P04 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P04
-                    }
+                    add_contested_owner = P04
+                    add_core_of = P04
                 }
             }
             #Netherlands Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_netherlands_integration_array
+            for_each_scope_loop = {
+                array = pfp_netherlands_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P05
                         NOT = { is_core_of = P05 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_netherlands_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P05
-                            NOT = { is_core_of = P05 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P05
-                    }
+                    add_contested_owner = P05
+                    add_core_of = P05
                 }
             }
             #West Indies Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_west_indies_integration_array
+            for_each_scope_loop = {
+                array = pfp_west_indies_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P06
                         NOT = { is_core_of = P06 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_west_indies_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P06
-                            NOT = { is_core_of = P06 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P06
-                    }
+                    add_contested_owner = P06
+                    add_core_of = P06
                 }
             }
             #Central Africa Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_central_africa_integration_array
+            for_each_scope_loop = {
+                array = pfp_central_africa_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P07
                         NOT = { is_core_of = P07 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_central_africa_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P07
-                            NOT = { is_core_of = P07 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P07
-                    }
+                    add_contested_owner = P07
+                    add_core_of = P07
                 }
             }
             #Central America Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_central_america_integration_array
+            for_each_scope_loop = {
+                array = pfp_central_america_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P08
                         NOT = { is_core_of = P08 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_central_america_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P08
-                            NOT = { is_core_of = P08 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P08
-                    }
+                    add_contested_owner = P08
+                    add_core_of = P08
                 }
             }
             #Hungary Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_hungary_integration_array
+            for_each_scope_loop = {
+                array = pfp_hungary_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P09
                         NOT = { is_core_of = P09 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_hungary_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P09
-                            NOT = { is_core_of = P09 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P09
-                    }
+                    add_contested_owner = P09
+                    add_core_of = P09
                 }
             }
             #East Africa Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_east_africa_integration_array
+            for_each_scope_loop = {
+                array = pfp_east_africa_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P10
                         NOT = { is_core_of = P10 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_east_africa_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P10
-                            NOT = { is_core_of = P10 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P10
-                    }
+                    add_contested_owner = P10
+                    add_core_of = P10
                 }
             }
             #Eastern Canada Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_eastern_canada_integration_array
+            for_each_scope_loop = {
+                array = pfp_eastern_canada_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P11
                         NOT = { is_core_of = P11 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_eastern_canada_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P11
-                            NOT = { is_core_of = P11 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P11
-                    }
+                    add_contested_owner = P11
+                    add_core_of = P11
                 }
             }
             #Finland Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_finland_integration_array
+            for_each_scope_loop = {
+                array = pfp_finland_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P12
                         NOT = { is_core_of = P12 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_finland_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P12
-                            NOT = { is_core_of = P12 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P12
-                    }
+                    add_contested_owner = P12
+                    add_core_of = P12
                 }
             }
             #Germany Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_germany_integration_array
+            for_each_scope_loop = {
+                array = pfp_germany_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P13
                         NOT = { is_core_of = P13 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_germany_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P13
-                            NOT = { is_core_of = P13 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P13
-                    }
+                    add_contested_owner = P13
+                    add_core_of = P13
                 }
             }
             #Greece Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_greece_integration_array
+            for_each_scope_loop = {
+                array = pfp_greece_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P14
                         NOT = { is_core_of = P14 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_greece_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P14
-                            NOT = { is_core_of = P14 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P14
-                    }
+                    add_contested_owner = P14
+                    add_core_of = P14
                 }
             }
             #Iberia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_iberia_integration_array
+            for_each_scope_loop = {
+                array = pfp_iberia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P15
                         NOT = { is_core_of = P15 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_iberia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P15
-                            NOT = { is_core_of = P15 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P15
-                    }
+                    add_contested_owner = P15
+                    add_core_of = P15
                 }
             }
             #Indochina Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_indochina_integration_array
+            for_each_scope_loop = {
+                array = pfp_indochina_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P16
                         NOT = { is_core_of = P16 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_indochina_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P16
-                            NOT = { is_core_of = P16 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P16
-                    }
+                    add_contested_owner = P16
+                    add_core_of = P16
                 }
             }
             #Indonesia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_indonesia_integration_array
+            for_each_scope_loop = {
+                array = pfp_indonesia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P17
                         NOT = { is_core_of = P17 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_indonesia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P17
-                            NOT = { is_core_of = P17 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P17
-                    }
+                    add_contested_owner = P17
+                    add_core_of = P17
                 }
             }
             #Midwestern U.S. Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_midwestern_us_integration_array
+            for_each_scope_loop = {
+                array = pfp_midwestern_us_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P18
                         NOT = { is_core_of = P18 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_midwestern_us_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P18
-                            NOT = { is_core_of = P18 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P18
-                    }
+                    add_contested_owner = P18
+                    add_core_of = P18
                 }
             }
             #North Germany Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_north_germany_integration_array
+            for_each_scope_loop = {
+                array = pfp_north_germany_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P19
                         NOT = { is_core_of = P19 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_north_germany_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P19
-                            NOT = { is_core_of = P19 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P19
-                    }
+                    add_contested_owner = P19
+                    add_core_of = P19
                 }
             }
             #Northeastern U.S. Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_northeastern_us_integration_array
+            for_each_scope_loop = {
+                array = pfp_northeastern_us_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P20
                         NOT = { is_core_of = P20 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_northeastern_us_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P20
-                            NOT = { is_core_of = P20 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P20
-                    }
+                    add_contested_owner = P20
+                    add_core_of = P20
                 }
             }
             #Pacific U.S. Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_pacific_us_integration_array
+            for_each_scope_loop = {
+                array = pfp_pacific_us_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P21
                         NOT = { is_core_of = P21 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_pacific_us_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P21
-                            NOT = { is_core_of = P21 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P21
-                    }
+                    add_contested_owner = P21
+                    add_core_of = P21
                 }
             }
             #Quebec Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_quebec_integration_array
+            for_each_scope_loop = {
+                array = pfp_quebec_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P22
                         NOT = { is_core_of = P22 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_quebec_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P22
-                            NOT = { is_core_of = P22 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P22
-                    }
+                    add_contested_owner = P22
+                    add_core_of = P22
                 }
             }
             #U.S. Rockies Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_us_rockies_integration_array
+            for_each_scope_loop = {
+                array = pfp_us_rockies_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P23
                         NOT = { is_core_of = P23 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_us_rockies_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P23
-                            NOT = { is_core_of = P23 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P23
-                    }
+                    add_contested_owner = P23
+                    add_core_of = P23
                 }
             }
             #Scandinavia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_scandinavia_integration_array
+            for_each_scope_loop = {
+                array = pfp_scandinavia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P24
                         NOT = { is_core_of = P24 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_scandinavia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P24
-                            NOT = { is_core_of = P24 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P24
-                    }
+                    add_contested_owner = P24
+                    add_core_of = P24
                 }
             }
             #South Germany Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_south_germany_integration_array
+            for_each_scope_loop = {
+                array = pfp_south_germany_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P25
                         NOT = { is_core_of = P25 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_south_germany_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P25
-                            NOT = { is_core_of = P25 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P25
-                    }
+                    add_contested_owner = P25
+                    add_core_of = P25
                 }
             }
             #Southern U.S. Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_southern_us_integration_array
+            for_each_scope_loop = {
+                array = pfp_southern_us_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P26
                         NOT = { is_core_of = P26 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_southern_us_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P26
-                            NOT = { is_core_of = P26 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P26
-                    }
+                    add_contested_owner = P26
+                    add_core_of = P26
                 }
             }
             #Oceania Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_oceania_integration_array
+            for_each_scope_loop = {
+                array = pfp_oceania_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P27
                         NOT = { is_core_of = P27 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_oceania_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P27
-                            NOT = { is_core_of = P27 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P27
-                    }
+                    add_contested_owner = P27
+                    add_core_of = P27
                 }
             }
             #Transcaucasia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_transcaucasia_integration_array
+            for_each_scope_loop = {
+                array = pfp_transcaucasia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P28
                         NOT = { is_core_of = P28 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_transcaucasia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P28
-                            NOT = { is_core_of = P28 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P28
-                    }
+                    add_contested_owner = P28
+                    add_core_of = P28
                 }
             }
             #Western Canada Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_western_canada_integration_array
+            for_each_scope_loop = {
+                array = pfp_western_canada_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P29
                         NOT = { is_core_of = P29 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_western_canada_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P29
-                            NOT = { is_core_of = P29 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P29
-                    }
+                    add_contested_owner = P29
+                    add_core_of = P29
                 }
             }
             #North Africa Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_north_africa_integration_array
+            for_each_scope_loop = {
+                array = pfp_north_africa_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P30
                         NOT = { is_core_of = P30 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_north_africa_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P30
-                            NOT = { is_core_of = P30 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P30
-                    }
+                    add_contested_owner = P30
+                    add_core_of = P30
                 }
             }
             #West Germany Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_west_germany_integration_array
+            for_each_scope_loop = {
+                array = pfp_west_germany_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P31
                         NOT = { is_core_of = P31 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_west_germany_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P31
-                            NOT = { is_core_of = P31 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P31
-                    }
+                    add_contested_owner = P31
+                    add_core_of = P31
                 }
             }
             #East Germany Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_east_germany_integration_array
+            for_each_scope_loop = {
+                array = pfp_east_germany_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P32
                         NOT = { is_core_of = P32 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_east_germany_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P32
-                            NOT = { is_core_of = P32 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P32
-                    }
+                    add_contested_owner = P32
+                    add_core_of = P32
                 }
             }
             #Prussia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_prussia_integration_array
+            for_each_scope_loop = {
+                array = pfp_prussia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P33
                         NOT = { is_core_of = P33 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_prussia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P33
-                            NOT = { is_core_of = P33 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P33
-                    }
+                    add_contested_owner = P33
+                    add_core_of = P33
                 }
             }
             #Poland Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_poland_integration_array
+            for_each_scope_loop = {
+                array = pfp_poland_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P34
                         NOT = { is_core_of = P34 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_poland_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P34
-                            NOT = { is_core_of = P34 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P34
-                    }
+                    add_contested_owner = P34
+                    add_core_of = P34
                 }
             }
             #West Africa Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_west_africa_integration_array
+            for_each_scope_loop = {
+                array = pfp_west_africa_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P35
                         NOT = { is_core_of = P35 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_west_africa_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P35
-                            NOT = { is_core_of = P35 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P35
-                    }
+                    add_contested_owner = P35
+                    add_core_of = P35
                 }
             }
             #South Africa Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_south_africa_integration_array
+            for_each_scope_loop = {
+                array = pfp_south_africa_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P36
                         NOT = { is_core_of = P36 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_south_africa_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P36
-                            NOT = { is_core_of = P36 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P36
-                    }
+                    add_contested_owner = P36
+                    add_core_of = P36
                 }
             }
             #India Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_india_integration_array
+            for_each_scope_loop = {
+                array = pfp_india_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P37
                         NOT = { is_core_of = P37 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_india_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P37
-                            NOT = { is_core_of = P37 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P37
-                    }
+                    add_contested_owner = P37
+                    add_core_of = P37
                 }
             }
             #Bangladesh Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_bangladesh_integration_array
+            for_each_scope_loop = {
+                array = pfp_bangladesh_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P38
                         NOT = { is_core_of = P38 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_bangladesh_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P38
-                            NOT = { is_core_of = P38 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P38
-                    }
+                    add_contested_owner = P38
+                    add_core_of = P38
                 }
             }
             #Central Russia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_central_russia_integration_array
+            for_each_scope_loop = {
+                array = pfp_central_russia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P39
                         NOT = { is_core_of = P39 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_central_russia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P39
-                            NOT = { is_core_of = P39 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P39
-                    }
+                    add_contested_owner = P39
+                    add_core_of = P39
                 }
             }
             #Southern Russia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_southern_russia_integration_array
+            for_each_scope_loop = {
+                array = pfp_southern_russia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P40
                         NOT = { is_core_of = P40 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_southern_russia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P40
-                            NOT = { is_core_of = P40 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P40
-                    }
+                    add_contested_owner = P40
+                    add_core_of = P40
                 }
             }
             #Northern Caucasus Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_northern_caucasus_integration_array
+            for_each_scope_loop = {
+                array = pfp_northern_caucasus_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P41
                         NOT = { is_core_of = P41 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_northern_caucasus_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P41
-                            NOT = { is_core_of = P41 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P41
-                    }
+                    add_contested_owner = P41
+                    add_core_of = P41
                 }
             }
             #Volga Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_volga_integration_array
+            for_each_scope_loop = {
+                array = pfp_volga_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P42
                         NOT = { is_core_of = P42 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_volga_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P42
-                            NOT = { is_core_of = P42 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P42
-                    }
+                    add_contested_owner = P42
+                    add_core_of = P42
                 }
             }
             #Northwestern Russia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_northwestern_russia_integration_array
+            for_each_scope_loop = {
+                array = pfp_northwestern_russia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P43
                         NOT = { is_core_of = P43 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_northwestern_russia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P43
-                            NOT = { is_core_of = P43 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P43
-                    }
+                    add_contested_owner = P43
+                    add_core_of = P43
                 }
             }
             #Urals Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_urals_integration_array
+            for_each_scope_loop = {
+                array = pfp_urals_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P44
                         NOT = { is_core_of = P44 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_urals_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P44
-                            NOT = { is_core_of = P44 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P44
-                    }
+                    add_contested_owner = P44
+                    add_core_of = P44
                 }
             }
             #Siberia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_siberia_integration_array
+            for_each_scope_loop = {
+                array = pfp_siberia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P45
                         NOT = { is_core_of = P45 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_siberia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P45
-                            NOT = { is_core_of = P45 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P45
-                    }
+                    add_contested_owner = P45
+                    add_core_of = P45
                 }
             }
             #Far Eastern Russia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_far_eastern_russia_integration_array
+            for_each_scope_loop = {
+                array = pfp_far_eastern_russia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P46
                         NOT = { is_core_of = P46 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_far_eastern_russia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P46
-                            NOT = { is_core_of = P46 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P46
-                    }
+                    add_contested_owner = P46
+                    add_core_of = P46
                 }
             }
             #Mongolia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_mongolia_integration_array
+            for_each_scope_loop = {
+                array = pfp_mongolia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P47
                         NOT = { is_core_of = P47 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_mongolia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P47
-                            NOT = { is_core_of = P47 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P47
-                    }
+                    add_contested_owner = P47
+                    add_core_of = P47
                 }
             }
             #Western Russia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_western_russia_integration_array
+            for_each_scope_loop = {
+                array = pfp_western_russia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P48
                         NOT = { is_core_of = P48 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_western_russia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P48
-                            NOT = { is_core_of = P48 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P48
-                    }
+                    add_contested_owner = P48
+                    add_core_of = P48
                 }
             }
             #Bulgaria Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_bulgaria_integration_array
+            for_each_scope_loop = {
+                array = pfp_bulgaria_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P49
                         NOT = { is_core_of = P49 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_bulgaria_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P49
-                            NOT = { is_core_of = P49 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P49
-                    }
+                    add_contested_owner = P49
+                    add_core_of = P49
                 }
             }
             #Yugoslavia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_yugoslavia_integration_array
+            for_each_scope_loop = {
+                array = pfp_yugoslavia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P50
                         NOT = { is_core_of = P50 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_yugoslavia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P50
-                            NOT = { is_core_of = P50 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P50
-                    }
+                    add_contested_owner = P50
+                    add_core_of = P50
                 }
             }
             #Turkestan Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_turkestan_integration_array
+            for_each_scope_loop = {
+                array = pfp_turkestan_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P51
                         NOT = { is_core_of = P51 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_turkestan_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P51
-                            NOT = { is_core_of = P51 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P51
-                    }
+                    add_contested_owner = P51
+                    add_core_of = P51
                 }
             }
             #Himalayas Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_himalayas_integration_array
+            for_each_scope_loop = {
+                array = pfp_himalayas_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P52
                         NOT = { is_core_of = P52 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_himalayas_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P52
-                            NOT = { is_core_of = P52 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P52
-                    }
+                    add_contested_owner = P52
+                    add_core_of = P52
                 }
             }
             #Mittelafrika Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_mittelafrika_integration_array
+            for_each_scope_loop = {
+                array = pfp_mittelafrika_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P53
                         NOT = { is_core_of = P53 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_mittelafrika_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P53
-                            NOT = { is_core_of = P53 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P53
-                    }
+                    add_contested_owner = P53
+                    add_core_of = P53
                 }
             }
             #Chile Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_chile_integration_array
+            for_each_scope_loop = {
+                array = pfp_chile_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P54
                         NOT = { is_core_of = P54 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_chile_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P54
-                            NOT = { is_core_of = P54 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P54
-                    }
+                    add_contested_owner = P54
+                    add_core_of = P54
                 }
             }
             #Argentina Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_argentina_integration_array
+            for_each_scope_loop = {
+                array = pfp_argentina_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P55
                         NOT = { is_core_of = P55 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_argentina_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P55
-                            NOT = { is_core_of = P55 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P55
-                    }
+                    add_contested_owner = P55
+                    add_core_of = P55
                 }
             }
             #Peru Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_peru_integration_array
+            for_each_scope_loop = {
+                array = pfp_peru_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P56
                         NOT = { is_core_of = P56 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_peru_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P56
-                            NOT = { is_core_of = P56 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P56
-                    }
+                    add_contested_owner = P56
+                    add_core_of = P56
                 }
             }
             #Brazil Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_brazil_integration_array
+            for_each_scope_loop = {
+                array = pfp_brazil_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P57
                         NOT = { is_core_of = P57 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_brazil_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P57
-                            NOT = { is_core_of = P57 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P57
-                    }
+                    add_contested_owner = P57
+                    add_core_of = P57
                 }
             }
             #Mexico Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_mexico_integration_array
+            for_each_scope_loop = {
+                array = pfp_mexico_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P58
                         NOT = { is_core_of = P58 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_mexico_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P58
-                            NOT = { is_core_of = P58 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P58
-                    }
+                    add_contested_owner = P58
+                    add_core_of = P58
                 }
             }
             #Czechia Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_czechia_integration_array
+            for_each_scope_loop = {
+                array = pfp_czechia_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P59
                         NOT = { is_core_of = P59 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_czechia_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P59
-                            NOT = { is_core_of = P59 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P59
-                    }
+                    add_contested_owner = P59
+                    add_core_of = P59
                 }
             }
             #Belgium Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_belgium_integration_array
+            for_each_scope_loop = {
+                array = pfp_belgium_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P60
                         NOT = { is_core_of = P60 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_belgium_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P60
-                            NOT = { is_core_of = P60 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P60
-                    }
+                    add_contested_owner = P60
+                    add_core_of = P60
                 }
             }
             #Denmark Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_denmark_integration_array
+            for_each_scope_loop = {
+                array = pfp_denmark_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P61
                         NOT = { is_core_of = P61 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_denmark_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P61
-                            NOT = { is_core_of = P61 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P61
-                    }
+                    add_contested_owner = P61
+                    add_core_of = P61
                 }
             }
             #Northern France Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_northern_france_integration_array
+            for_each_scope_loop = {
+                array = pfp_northern_france_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P62
                         NOT = { is_core_of = P62 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_northern_france_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P62
-                            NOT = { is_core_of = P62 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P62
-                    }
+                    add_contested_owner = P62
+                    add_core_of = P62
                 }
             }
             #Southern France Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_southern_france_integration_array
+            for_each_scope_loop = {
+                array = pfp_southern_france_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P63
                         NOT = { is_core_of = P63 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_southern_france_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P63
-                            NOT = { is_core_of = P63 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P63
-                    }
+                    add_contested_owner = P63
+                    add_core_of = P63
                 }
             }
             #French Alps Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_french_alps_integration_array
+            for_each_scope_loop = {
+                array = pfp_french_alps_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P64
                         NOT = { is_core_of = P64 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_french_alps_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P64
-                            NOT = { is_core_of = P64 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P64
-                    }
+                    add_contested_owner = P64
+                    add_core_of = P64
                 }
             }
             #Norway Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_norway_integration_array
+            for_each_scope_loop = {
+                array = pfp_norway_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P65
                         NOT = { is_core_of = P65 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_norway_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P65
-                            NOT = { is_core_of = P65 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P65
-                    }
+                    add_contested_owner = P65
+                    add_core_of = P65
                 }
             }
             #Ukraine Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_ukraine_integration_array
+            for_each_scope_loop = {
+                array = pfp_ukraine_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P66
                         NOT = { is_core_of = P66 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_ukraine_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P66
-                            NOT = { is_core_of = P66 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P66
-                    }
+                    add_contested_owner = P66
+                    add_core_of = P66
                 }
             }
             #Levant Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_levant_integration_array
+            for_each_scope_loop = {
+                array = pfp_levant_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P67
                         NOT = { is_core_of = P67 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_levant_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P67
-                            NOT = { is_core_of = P67 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P67
-                    }
+                    add_contested_owner = P67
+                    add_core_of = P67
                 }
             }
             #Turkey Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_turkey_integration_array
+            for_each_scope_loop = {
+                array = pfp_turkey_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P68
                         NOT = { is_core_of = P68 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_turkey_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P68
-                            NOT = { is_core_of = P68 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P68
-                    }
+                    add_contested_owner = P68
+                    add_core_of = P68
                 }
             }
             #Iraq Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_iraq_integration_array
+            for_each_scope_loop = {
+                array = pfp_iraq_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P69
                         NOT = { is_core_of = P69 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_iraq_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P69
-                            NOT = { is_core_of = P69 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P69
-                    }
+                    add_contested_owner = P69
+                    add_core_of = P69
                 }
             }
             #Kurdistan Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_kurdistan_integration_array
+            for_each_scope_loop = {
+                array = pfp_kurdistan_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P70
                         NOT = { is_core_of = P70 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_kurdistan_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P70
-                            NOT = { is_core_of = P70 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P70
-                    }
+                    add_contested_owner = P70
+                    add_core_of = P70
                 }
             }
             #Iran Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_iran_integration_array
+            for_each_scope_loop = {
+                array = pfp_iran_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P71
                         NOT = { is_core_of = P71 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_iran_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P71
-                            NOT = { is_core_of = P71 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P71
-                    }
+                    add_contested_owner = P71
+                    add_core_of = P71
                 }
             }
             #Korea Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_korea_integration_array
+            for_each_scope_loop = {
+                array = pfp_korea_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P72
                         NOT = { is_core_of = P72 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_korea_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P72
-                            NOT = { is_core_of = P72 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P72
-                    }
+                    add_contested_owner = P72
+                    add_core_of = P72
                 }
             }
             #Ireland Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_ireland_integration_array
+            for_each_scope_loop = {
+                array = pfp_ireland_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P73
                         NOT = { is_core_of = P73 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_ireland_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P73
-                            NOT = { is_core_of = P73 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P73
-                    }
+                    add_contested_owner = P73
+                    add_core_of = P73
                 }
             }
             #Sweden Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_sweden_integration_array
+            for_each_scope_loop = {
+                array = pfp_sweden_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P74
                         NOT = { is_core_of = P74 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_sweden_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P74
-                            NOT = { is_core_of = P74 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P74
-                    }
+                    add_contested_owner = P74
+                    add_core_of = P74
                 }
             }
             #Pakistan Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_pakistan_integration_array
+            for_each_scope_loop = {
+                array = pfp_pakistan_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P75
                         NOT = { is_core_of = P75 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_pakistan_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P75
-                            NOT = { is_core_of = P75 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P75
-                    }
+                    add_contested_owner = P75
+                    add_core_of = P75
                 }
             }
             #Afghanistan Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_afghanistan_integration_array
+            for_each_scope_loop = {
+                array = pfp_afghanistan_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P76
                         NOT = { is_core_of = P76 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_afghanistan_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P76
-                            NOT = { is_core_of = P76 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P76
-                    }
+                    add_contested_owner = P76
+                    add_core_of = P76
                 }
             }
             #Austria Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_austria_integration_array
+            for_each_scope_loop = {
+                array = pfp_austria_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P77
                         NOT = { is_core_of = P77 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_austria_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P77
-                            NOT = { is_core_of = P77 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P77
-                    }
+                    add_contested_owner = P77
+                    add_core_of = P77
                 }
             }
             #Switzerland Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_switzerland_integration_array
+            for_each_scope_loop = {
+                array = pfp_switzerland_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P78
                         NOT = { is_core_of = P78 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_switzerland_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P78
-                            NOT = { is_core_of = P78 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P78
-                    }
+                    add_contested_owner = P78
+                    add_core_of = P78
                 }
             }
             #Romania Integration
-            else_if = {
-                limit = {
-                    any_of_scopes  = {
-                        array = pfp_romania_integration_array
+            for_each_scope_loop = {
+                array = pfp_romania_integration_array
+                if = {
+                    limit = {
                         is_owned_and_controlled_by = P79
                         NOT = { is_core_of = P79 }
                         #resistance < 10
                         #compliance > 70
                     }
-                }
-                for_each_scope_loop = {
-                    array = pfp_romania_integration_array
-                    if = {
-                        limit = {
-                            is_owned_and_controlled_by = P79
-                            NOT = { is_core_of = P79 }
-                            #resistance < 10
-                            #compliance > 70
-                        }
-                        add_core_of = P79
-                    }
+                    add_contested_owner = P79
+                    add_core_of = P79
                 }
             }
         }

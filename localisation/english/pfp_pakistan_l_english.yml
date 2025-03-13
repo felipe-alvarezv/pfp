@@ -17,13 +17,17 @@ l_english:
  P75_DEF:0 "Pakistan"
  P75_ADJ:0 "Pakistani"
 
+ #Subject of Germany
+ P75_GER_subject: "Pakistan"
+
  #Decisions Information
  pfp_pakistan:0 "Establish Military Administration in Pakistan"
- pfp_pakistan_required_states_punjab:0 "Controls §YPunjab§!."
- pfp_pakistan_required_states_peshawar:0 "Controls §YPeshawar§!."
  pfp_pakistan_required_states_sind:0 "Controls §YSind§!."
- pfp_pakistan_required_states_baluchistan:0 "Controls §YBaluchistan§!."
- pfp_pakistan_required_states_quetta:0 "Controls §YQuetta§!."
+ pfp_pakistan_required_states_south_baluchistan:0 "Controls §YSouth Baluchistan§!."
+ pfp_pakistan_required_states_sibi:0 "Controls §YSibi§!."
+ pfp_pakistan_required_states_wazaristan:0 "Controls §YWazaristan§!."
+ pfp_pakistan_required_states_north_baluchistan:0 "Controls §YNorth Baluchistan§!."
+ pfp_pakistan_required_states_kalat:0 "Controls §YKalat§!."
  pfp_pakistan_claim_states:0 "§YPakistan§! gains claims on all listed states.\n"
  pfp_pakistan_transfer_states:0 "§YPakistan§! becomes owner and controller of all listed states.\n"
  pfp_pakistan_puppet:0 "§YPakistan§! becomes a puppet of §Y[Root.GetName]§!.\n"

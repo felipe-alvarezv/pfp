@@ -1,7 +1,7 @@
 #Scripted effect to release Central Russia (P39)
 pfp_release_central_russia = {
 	hidden_effect = {
-		#Add claims to Central Russia
+		#Add cores to Central Russia
 		205 = { add_core_of = P39 } #Kaluga
 		219 = { add_core_of = P39 } #Moscow
 		220 = { add_core_of = P39 } #Kursk
@@ -18,7 +18,7 @@ pfp_release_central_russia = {
 		258 = { add_core_of = P39 } #Lipetsk
 		260 = { add_core_of = P39 } #Voronezh
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P39 }
 			add_contested_owner = P39

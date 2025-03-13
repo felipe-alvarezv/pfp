@@ -1,7 +1,7 @@
 #Scripted effect to release Northern France (P62)
 pfp_release_northern_france = {
 	hidden_effect = {
-		#Add claims to Northern France
+		#Add cores to Northern France
 		16 = { add_core_of = P62 } #Ile de France
 		17 = { add_core_of = P62 } #Franche-Comte
 		18 = { add_core_of = P62 } #Champagne
@@ -9,7 +9,7 @@ pfp_release_northern_france = {
 		27 = { add_core_of = P62 } #Bourgogne
 		785 = { add_core_of = P62 } #Picardy
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P62 }
 			add_contested_owner = P62

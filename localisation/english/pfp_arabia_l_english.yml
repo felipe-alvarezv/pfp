@@ -17,11 +17,12 @@ l_english:
  P03_DEF:0 "Arabia"
  P03_ADJ:0 "Arabian"
 
+ #Subject of Germany
+ P03_GER_subject: "Arabien"
+
  #Decisions Localisation
  pfp_arabia:0 "Establish Military Administration in Arabia"
  pfp_arabia_required_states_nejd:0 "Controls §YNejd§!."
- pfp_arabia_required_states_yemen:0 "Controls §YYemen§!."
- pfp_arabia_required_states_oman:0 "Controls §YOman§!."
  pfp_arabia_required_states_rub_al_khali:0 "Controls §YRub al Khali§!."
  pfp_arabia_required_states_madinah:0 "Controls §YMadinah§!."
  pfp_arabia_required_states_jawf:0 "Controls §YJawf§!."

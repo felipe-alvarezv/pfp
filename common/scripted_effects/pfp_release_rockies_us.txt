@@ -1,7 +1,7 @@
 #Scripted effect to release Rockies U.S. (P23)
 pfp_release_rockies_us = {
 	hidden_effect = {
-		#Add claims to U.S. Rockies
+		#Add cores to U.S. Rockies
 		376 = { add_core_of = P23 } #New Mexico
 		377 = { add_core_of = P23 } #Arizona
 		379 = { add_core_of = P23 } #Nevada
@@ -11,7 +11,7 @@ pfp_release_rockies_us = {
 		387 = { add_core_of = P23 } #Idaho
 		388 = { add_core_of = P23 } #Montana
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P23 }
 			add_contested_owner = P23

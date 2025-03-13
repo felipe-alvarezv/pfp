@@ -1,7 +1,7 @@
 #Scripted effect to release Baltic (P04)
 pfp_release_baltic = {
 	hidden_effect = {
-		#Add claims to Baltic
+		#Add cores to Baltic
 		12 = { add_core_of = P04 } #Vidzeme
 		13 = { add_core_of = P04 } #Parnu
 		190 = { add_core_of = P04 } #Kurzeme
@@ -13,7 +13,7 @@ pfp_release_baltic = {
 		812 = { add_core_of = P04 } #Harju
 		813 = { add_core_of = P04 } #Virumaa
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P04 }
 			add_contested_owner = P04

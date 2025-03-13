@@ -1,14 +1,14 @@
 #Scripted effect to release Switzerland (P78)
 pfp_release_switzerland = {
     hidden_effect = {
-        #Add claims to Switzerland
+        #Add cores to Switzerland
         3 = { add_core_of = P78 } #Swiss Plateau
         151 = { add_core_of = P78 } #Eastern Swiss Alps
         845 = { add_core_of = P78 } #Jura Mountains
         846 = { add_core_of = P78 } #Ticino
         847 = { add_core_of = P78 } #Western Swiss Alps
         
-        #Set formable puppet as owner and controller of all its claimed states
+        #Set formable puppet as owner and controller of all its cored states
         every_state = {
             limit = { is_core_of = P78 }
             add_contested_owner = P78

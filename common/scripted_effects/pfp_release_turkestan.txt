@@ -1,7 +1,7 @@
 #Scripted effect to release Turkestan (P51)
 pfp_release_turkestan = {
 	hidden_effect = {
-		#Add claims to Turkestan
+		#Add cores to Turkestan
 		402 = { add_core_of = P51 } #Akhtubinsk
 		404 = { add_core_of = P51 } #Kyzyl Orda
 		405 = { add_core_of = P51 } #Tashkent
@@ -24,7 +24,7 @@ pfp_release_turkestan = {
 		881 = { add_core_of = P51 } #Karagandy
 		882 = { add_core_of = P51 } #Pavlodar
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P51 }
 			add_contested_owner = P51

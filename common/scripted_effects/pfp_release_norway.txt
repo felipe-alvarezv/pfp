@@ -1,7 +1,7 @@
 #Scripted effect to release Norway (P65)
 pfp_release_norway = {
 	hidden_effect = {
-		#Add claims to Norway
+		#Add cores to Norway
 		110 = { add_core_of = P65 } #Oslofjord
 		142 = { add_core_of = P65 } #Vestlandet
 		143 = { add_core_of = P65 } #Trondelag
@@ -13,7 +13,7 @@ pfp_release_norway = {
 		924 = { add_core_of = P65 } #Troms
 		925 = { add_core_of = P65 } #Finnmark
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P65 }
 			add_contested_owner = P65

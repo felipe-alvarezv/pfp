@@ -1,7 +1,7 @@
 #Scripted effect to release Prussia (P33)
 pfp_release_prussia = {
 	hidden_effect = {
-		#Add claims to Prussia
+		#Add cores to Prussia
 		5 = { add_core_of = P33 } #Ermland-Masuren
 		62 = { add_core_of = P33 } #Vorpommern
 		63 = { add_core_of = P33 } #Hinterpommern
@@ -11,7 +11,7 @@ pfp_release_prussia = {
 		68 = { add_core_of = P33 } #Ostmark
 		763 = { add_core_of = P33 } #Konigsberg
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P33 }
 			add_contested_owner = P33

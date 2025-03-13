@@ -1,7 +1,7 @@
 #Scripted effect to release Sweden (P74)
 pfp_release_sweden = {
 	hidden_effect = {
-		#Add claims to Sweden
+		#Add cores to Sweden
 		38 = { add_core_of = P74 } #Gavleborg
 		138 = { add_core_of = P74 } #Skane
 		139 = { add_core_of = P74 } #Smaland
@@ -15,7 +15,7 @@ pfp_release_sweden = {
 		918 = { add_core_of = P74 } #Vasterbotten
 		919 = { add_core_of = P74 } #Varmland
 		
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P74 }
 			add_contested_owner = P74

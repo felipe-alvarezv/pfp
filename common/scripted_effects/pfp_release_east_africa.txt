@@ -1,7 +1,7 @@
 #Scripted effect to release East Africa (P10)
 pfp_release_east_africa = {
 	hidden_effect = {
-		#Add claims to East Africa
+		#Add cores to East Africa
 		271 = { add_core_of = P10 } #Shewa
 		550 = { add_core_of = P10 } #Eritrea
 		559 = { add_core_of = P10 } #Somaliland
@@ -17,7 +17,7 @@ pfp_release_east_africa = {
 		844 = { add_core_of = P10 } #Jubaland
 		908 = { add_core_of = P10 } #Afar
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P10 }
 			add_contested_owner = P10

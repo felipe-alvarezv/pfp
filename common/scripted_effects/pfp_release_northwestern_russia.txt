@@ -1,7 +1,7 @@
 #Scripted effect to release Northwestern Russia (P43)
 pfp_release_northwestern_russia = {
 	hidden_effect = {
-		#Add claims to Northwestern Russia
+		#Add cores to Northwestern Russia
 		195 = { add_core_of = P43 } #Leningrad
 		208 = { add_core_of = P43 } #Luga
 		209 = { add_core_of = P43 } #Pskov
@@ -17,7 +17,7 @@ pfp_release_northwestern_russia = {
 		879 = { add_core_of = P43 } #Kargopol
 		880 = { add_core_of = P43 } #Kotlas
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P43 }
 			add_contested_owner = P43

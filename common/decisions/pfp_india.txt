@@ -8,15 +8,15 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Madurai
+			#Southern Madras
 			custom_trigger_tooltip = {
-				tooltip = pfp_india_required_states_madurai
-				has_full_control_of_state = 423 #Madurai
+				tooltip = pfp_india_required_states_southern_madras
+				has_full_control_of_state = 423 #Southern Madras
 			}
-			#Madras
+			#Northern Madras
 			custom_trigger_tooltip = {
-				tooltip = pfp_india_required_states_madras
-				has_full_control_of_state = 424 #Madras
+				tooltip = pfp_india_required_states_northern_madras
+				has_full_control_of_state = 424 #Northern Madras
 			}
 			#Mysore
 			custom_trigger_tooltip = {
@@ -48,48 +48,100 @@ pfp_category = {
 				tooltip = pfp_india_required_states_rajahsthan
 				has_full_control_of_state = 433 #Rajahsthan
 			}
-			#Jabalpur
+			#Central Provinces
 			custom_trigger_tooltip = {
-				tooltip = pfp_india_required_states_jabalpur
-				has_full_control_of_state = 436 #Jabalpur
+				tooltip = pfp_india_required_states_central_provinces
+				has_full_control_of_state = 436 #Central Provinces
 			}
-			#Indore
+			#Central India
 			custom_trigger_tooltip = {
-				tooltip = pfp_india_required_states_indore
-				has_full_control_of_state = 437 #Indore
+				tooltip = pfp_india_required_states_central_india
+				has_full_control_of_state = 437 #Central India
 			}
-			#Lucknow
+			#United Provinces
 			custom_trigger_tooltip = {
-				tooltip = pfp_india_required_states_lucknow
-				has_full_control_of_state = 438 #Lucknow
+				tooltip = pfp_india_required_states_united_provinces
+				has_full_control_of_state = 438 #United Provinces
 			}
 			#Delhi
 			custom_trigger_tooltip = {
 				tooltip = pfp_india_required_states_delhi
 				has_full_control_of_state = 439 #Delhi
 			}
+			#Madras States
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_madras_states
+				has_full_control_of_state = 982 #Madras States
+			}
+			#Kolhapur and Deccan
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_kolhapur_and_deccan
+				has_full_control_of_state = 983 #Kolhapur and Deccan
+			}
+			#Bastar
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_bastar
+				has_full_control_of_state = 984 #Bastar
+			}
+			#East Punjab
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_east_punjab
+				has_full_control_of_state = 986 #East Punjab
+			}
+			#Bahawalpur
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_bahawalpur
+				has_full_control_of_state = 989 #Bahawalpur
+			}
+			#Gwalior
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_gwalior
+				has_full_control_of_state = 991 #Gwalior
+			}
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 423 #Southern Madras
+				has_full_control_of_state = 424 #Northern Madras
+				has_full_control_of_state = 425 #Mysore
+				has_full_control_of_state = 426 #Orissa
 				has_full_control_of_state = 427 #Hyderabad
+				has_full_control_of_state = 428 #Gujarat
+				has_full_control_of_state = 429 #Bombay
+				has_full_control_of_state = 433 #Rajahsthan
+				has_full_control_of_state = 436 #Central Provinces
+				has_full_control_of_state = 437 #Central India
+				has_full_control_of_state = 438 #United Provinces
 				has_full_control_of_state = 439 #Delhi
+				has_full_control_of_state = 982 #Madras States
+				has_full_control_of_state = 983 #Kolhapur and Deccan
+				has_full_control_of_state = 984 #Bastar
+				has_full_control_of_state = 986 #East Punjab
+				has_full_control_of_state = 989 #Bahawalpur
+				has_full_control_of_state = 991 #Gwalior
 			}
 			NOT = { has_global_flag = pfp_india_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 423 #Madurai
-				state = 424 #Madras
+				state = 423 #Southern Madras
+				state = 424 #Northern Madras
 				state = 425 #Mysore
 				state = 426 #Orissa
 				state = 427 #Hyderabad
 				state = 428 #Gujarat
 				state = 429 #Bombay
 				state = 433 #Rajahsthan
-				state = 436 #Jabalpur
-				state = 437 #Indore
-				state = 438 #Lucknow
+				state = 436 #Central Provinces
+				state = 437 #Central India
+				state = 438 #United Provinces
 				state = 439 #Delhi
+				state = 982 #Madras States
+				state = 983 #Kolhapur and Deccan
+				state = 984 #Bastar
+				state = 986 #East Punjab
+				state = 989 #Bahawalpur
+				state = 991 #Gwalior
 			}
 		}
 		icon = generic_military

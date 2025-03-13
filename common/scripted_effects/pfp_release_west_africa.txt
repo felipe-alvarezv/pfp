@@ -1,7 +1,7 @@
 #Scripted effect to release West Africa (P35)
 pfp_release_west_africa = {
 	hidden_effect = {
-		#Add claims to West Africa
+		#Add cores to West Africa
 		272 = { add_core_of = P35 } #Senegal
 		515 = { add_core_of = P35 } #Southern Sahara
 		556 = { add_core_of = P35 } #Bamako
@@ -16,7 +16,7 @@ pfp_release_west_africa = {
 		557 = { add_core_of = P35 } #Mauritania
 		786 = { add_core_of = P35 } #Mauritanian Desert
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P35 }
 			add_contested_owner = P35

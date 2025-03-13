@@ -8,46 +8,56 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Punjab
-			custom_trigger_tooltip = {
-				tooltip = pfp_pakistan_required_states_punjab
-				has_full_control_of_state = 440 #Punjab
-			}
-			#Peshawar
-			custom_trigger_tooltip = {
-				tooltip = pfp_pakistan_required_states_peshawar
-				has_full_control_of_state = 442 #Peshawar
-			}
 			#Sind
 			custom_trigger_tooltip = {
 				tooltip = pfp_pakistan_required_states_sind
 				has_full_control_of_state = 443 #Sind
 			}
-			#Baluchistan
+			#South Baluchistan
 			custom_trigger_tooltip = {
-				tooltip = pfp_pakistan_required_states_baluchistan
-				has_full_control_of_state = 444 #Baluchistan
+				tooltip = pfp_pakistan_required_states_south_baluchistan
+				has_full_control_of_state = 444 #South Baluchistan
 			}
-			#Quetta
+			#Sibi
 			custom_trigger_tooltip = {
-				tooltip = pfp_pakistan_required_states_quetta
-				has_full_control_of_state = 445 #Quetta
+				tooltip = pfp_pakistan_required_states_sibi
+				has_full_control_of_state = 445 #Sibi
+			}
+			#Wazaristan
+			custom_trigger_tooltip = {
+				tooltip = pfp_pakistan_required_states_wazaristan
+				has_full_control_of_state = 987 #Wazaristan
+			}
+			#North Baluchistan
+			custom_trigger_tooltip = {
+				tooltip = pfp_pakistan_required_states_north_baluchistan
+				has_full_control_of_state = 988 #North Baluchistan
+			}
+			#Kalat
+			custom_trigger_tooltip = {
+				tooltip = pfp_pakistan_required_states_kalat
+				has_full_control_of_state = 1012 #Kalat
 			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 440 #Punjab
-				has_full_control_of_state = 446 #Sind
+				has_full_control_of_state = 443 #Sind
+				has_full_control_of_state = 444 #South Baluchistan
+				has_full_control_of_state = 445 #Sibi
+				has_full_control_of_state = 987 #Wazaristan
+				has_full_control_of_state = 988 #North Baluchistan
+				has_full_control_of_state = 1012 #Kalat
 			}
 			NOT = { has_global_flag = pfp_pakistan_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 440 #Punjab
-				state = 442 #Peshawar
 				state = 443 #Sind
-				state = 444 #Baluchistan
-				state = 445 #Quetta
+				state = 444 #South Baluchistan
+				state = 445 #Sibi
+				state = 987 #Wazaristan
+				state = 988 #North Baluchistan
+				state = 1012 #Kalat
 			}
 		}
 		icon = generic_military

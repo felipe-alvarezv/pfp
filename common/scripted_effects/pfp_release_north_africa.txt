@@ -1,7 +1,7 @@
 #Scripted effects to release North Africa (P30)
 pfp_release_north_africa = {
 	hidden_effect = {
-		#Add claims to North Africa
+		#Add cores to North Africa
 		273 = { add_core_of = P30 } #Lybian Desert
 		447 = { add_core_of = P30 } #Alexandria
 		448 = { add_core_of = P30 } #Tripoli
@@ -17,7 +17,7 @@ pfp_release_north_africa = {
 		663 = { add_core_of = P30 } #Cyrenaica
 		907 = { add_core_of = P30 } #Cairo
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P30 }
 			add_contested_owner = P30

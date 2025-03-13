@@ -18,11 +18,41 @@ pfp_category = {
 				tooltip = pfp_afghanistan_required_states_herat
 				has_full_control_of_state = 415 #Herat
 			}
+			#Qataghan
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_qataghan
+				has_full_control_of_state = 1005 #Qataghan
+			}
+			#Khyber Pass
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_khyber_pass
+				has_full_control_of_state = 1006 #Khyber Pass
+			}
+			#Maymanah
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_maymanah
+				has_full_control_of_state = 1007 #Maymanah
+			}
+			#Qandahar
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_qandahar
+				has_full_control_of_state = 1008 #Qandahar
+			}
+			#Farah
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_farah
+				has_full_control_of_state = 1009 #Farah
+			}
 		}
 		visible = {
 			OR = {
 				has_full_control_of_state = 267 #Kabul
 				has_full_control_of_state = 415 #Herat
+				has_full_control_of_state = 1005 #Qataghan
+				has_full_control_of_state = 1006 #Khyber Pass
+				has_full_control_of_state = 1007 #Maymanah
+				has_full_control_of_state = 1008 #Qandahar
+				has_full_control_of_state = 1009 #Farah
 			}
 			NOT = { has_global_flag = pfp_afghanistan_flag }
 		}
@@ -30,6 +60,11 @@ pfp_category = {
 			highlight_state_targets = { 
 				state = 267 #Kabul
 				state = 415 #Herat
+				state = 1005 #Qataghan
+				state = 1006 #Khyber Pass
+				state = 1007 #Maymanah
+				state = 1008 #Qandahar
+				state = 1009 #Farah
 			}
 		}
 		icon = generic_military

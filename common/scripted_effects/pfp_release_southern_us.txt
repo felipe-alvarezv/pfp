@@ -1,7 +1,7 @@
 #Scripted effect to release Southern U.S. (P26)
 pfp_release_southern_us = {
 	hidden_effect = {
-		#Add claims to Southern U.S.
+		#Add cores to Southern U.S.
 		362 = { add_core_of = P26 } #Virginia
 		363 = { add_core_of = P26 } #North Carolina
 		364 = { add_core_of = P26 } #South Carolina
@@ -16,7 +16,7 @@ pfp_release_southern_us = {
 		374 = { add_core_of = P26 } #Oklahoma
 		375 = { add_core_of = P26 } #Texas
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P26 }
 			add_contested_owner = P26

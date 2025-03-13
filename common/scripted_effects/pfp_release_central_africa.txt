@@ -1,7 +1,7 @@
 #Scripted effect to release Central Africa (P07)
 pfp_release_central_africa = {
 	hidden_effect = {
-		#Add claims to Central Africa
+		#Add cores to Central Africa
 		295 = { add_core_of = P07 } #Leopoldville
 		538 = { add_core_of = P07 } #Coquilhatville
 		718 = { add_core_of = P07 } #Stanleyville
@@ -9,7 +9,7 @@ pfp_release_central_africa = {
 		889 = { add_core_of = P07 } #Elisabethville
 		890 = { add_core_of = P07 } #Costermansville
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P07 }
 			add_contested_owner = P07

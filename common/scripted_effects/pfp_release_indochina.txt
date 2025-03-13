@@ -1,13 +1,13 @@
 #Scripted effect to release Indochina (P16)
 pfp_release_indochina = {
 	hidden_effect = {
-		#Add claims to Indochina
+		#Add cores to Indochina
 		286 = { add_core_of = P16 } #Southern Indochina
 		670 = { add_core_of = P16 } #Laos
 		671 = { add_core_of = P16 } #Tonkin
 		741 = { add_core_of = P16 } #Cambodia
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P16 }
 			add_contested_owner = P16

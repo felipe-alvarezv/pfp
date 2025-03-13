@@ -14,11 +14,6 @@ pfp_category = {
 				tooltip = pfp_himalayas_required_states_nagqu
 				has_full_control_of_state = 322 #Nagqu
 			}
-			#Nepal
-			custom_trigger_tooltip = {
-				tooltip = pfp_himalayas_required_states_nepal
-				has_full_control_of_state = 323 #Nepal
-			}
 			#Shigatse
 			custom_trigger_tooltip = {
 				tooltip = pfp_himalayas_required_states_shigatse
@@ -32,15 +27,15 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 322 #Nagqu
 				has_full_control_of_state = 757 #Shigatse
-				has_full_control_of_state = 323 #Nepal
+				has_full_control_of_state = 758 #Ngari
 			}
 			NOT = { has_global_flag = pfp_himalayas_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 322 #Nagqu
-				state = 323 #Nepal
 				state = 757 #Shigatse
 				state = 758 #Ngari
 			}

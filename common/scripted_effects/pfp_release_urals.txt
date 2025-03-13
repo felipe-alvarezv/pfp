@@ -1,7 +1,7 @@
 #Scripted effect to release Urals (P44)
 pfp_release_urals = {
 	hidden_effect = {
-		#Add claims to Urals
+		#Add cores to Urals
 		403 = { add_core_of = P44 } #Tyumen
 		572 = { add_core_of = P44 } #Chelyabinsk
 		573 = { add_core_of = P44 } #Zlatoust
@@ -13,7 +13,7 @@ pfp_release_urals = {
 		653 = { add_core_of = P44 } #Sverdlovsk
 		824 = { add_core_of = P44 } #Yamalia
 
-		#Set formable puppet as owner and controller of all its claimed states
+		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
 			limit = { is_core_of = P44 }
 			add_contested_owner = P44
