@@ -18,11 +18,23 @@ pfp_category = {
 				tooltip = pfp_iraq_required_states_al_hajara
 				has_full_control_of_state = 675 #Al Hajara
 			}
+			#Al Anbar
+			custom_trigger_tooltip = {
+				tooltip = pfp_iraq_required_states_al_anbar
+				has_full_control_of_state = 1010 #Al Anbar
+			}
+			#Al Basrah
+			custom_trigger_tooltip = {
+				tooltip = pfp_iraq_required_states_al_basrah
+				has_full_control_of_state = 1011 #Al Basrah
+			}
 		}
 		visible = {
 			OR = {
 				has_full_control_of_state = 291 #Baghdad
 				has_full_control_of_state = 675 #Al Hajara
+				has_full_control_of_state = 1010 #Al Anbar
+				has_full_control_of_state = 1011 #Al Basrah
 			}
 			NOT = { has_global_flag = pfp_iraq_flag }
 		}
@@ -30,6 +42,8 @@ pfp_category = {
 			highlight_state_targets = { 
 				state = 291 #Baghdad
 				state = 675 #Al Hajara
+				state = 1010 #Al Anbar
+				state = 1011 #Al Basrah
 			}
 		}
 		icon = generic_military

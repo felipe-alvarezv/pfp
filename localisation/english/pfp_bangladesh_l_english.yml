@@ -17,6 +17,9 @@ l_english:
  P38_DEF:0 "Bangladesh"
  P38_ADJ:0 "Bangladeshi"
 
+ #Subject of Germany
+ P38_GER_subject: "Bangladesch"
+
  #Decisions Localisation
  pfp_bangladesh:0 "Establish Military Administration in Bangladesh"
  pfp_bangladesh_required_states_east_bengal:0 "Controls §YEast Bengal§!."

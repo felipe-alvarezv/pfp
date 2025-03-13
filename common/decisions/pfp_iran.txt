@@ -13,11 +13,6 @@ pfp_category = {
 				tooltip = pfp_iran_required_states_tehran
 				has_full_control_of_state = 266 #Tehran
 			}
-			#Sistan
-			custom_trigger_tooltip = {
-				tooltip = pfp_iran_required_states_sistan
-				has_full_control_of_state = 410 #Sistan
-			}
 			#Isfahan
 			custom_trigger_tooltip = {
 				tooltip = pfp_iran_required_states_isfahan
@@ -48,24 +43,49 @@ pfp_category = {
 				tooltip = pfp_iran_required_states_semnan
 				has_full_control_of_state = 418 #Semnan
 			}
+			#Yazd
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_yazd
+				has_full_control_of_state = 1002 #Yazd
+			}
+			#South Khorasan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_south_khorasan
+				has_full_control_of_state = 1003 #South Khorasan
+			}
+			#North Khorasan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_north_khorasan
+				has_full_control_of_state = 1004 #North Khorasan
+			}
 		}
 		visible = {
 			OR = {
 				has_full_control_of_state = 266 #Tehran
+				has_full_control_of_state = 411 #Isfahan
 				has_full_control_of_state = 412 #Fars
+				has_full_control_of_state = 414 #Kerman
+				has_full_control_of_state = 416 #Khorasan
+				has_full_control_of_state = 417 #Hamadan
+				has_full_control_of_state = 418 #Semnan
+				has_full_control_of_state = 1002 #Yazd
+				has_full_control_of_state = 1003 #South Khorasan
+				has_full_control_of_state = 1004 #NBorth Khorasan
 			}
 			NOT = { has_global_flag = pfp_iran_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 266 #Tehran
-				state = 410 #Sistan
 				state = 411 #Isfahan
 				state = 412 #Fars
 				state = 414 #Kerman
 				state = 416 #Khorasan
 				state = 417 #Hamadan
 				state = 418 #Semnan
+				state = 1002 #Yazd
+				state = 1003 #South Khorasan
+				state = 1004 #North Khorasan
 			}
 		}
 		icon = generic_military

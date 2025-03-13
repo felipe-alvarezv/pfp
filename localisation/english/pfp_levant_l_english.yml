@@ -17,6 +17,9 @@ l_english:
  P67_DEF:0 "Levant"
  P67_ADJ:0 "Levantine"
 
+ #Subject of Germany
+ P67_GER_subject: "Levante"
+
  #Decisions Information
  pfp_levant:0 "Establish Military Administration in the Levant"
  pfp_levant_required_states_palestine:0 "Controls §YPalestine§!."

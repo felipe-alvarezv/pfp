@@ -93,15 +93,24 @@ recruit_character = P16_democratic_leader
 recruit_character = P16_neutrality_leader
 recruit_character = P16_fascism_leader
 
-#States to add to the integration array
+#Indochina Initial States
 add_to_array = { pfp_indochina_integration_array = 286 } #Southern Indochina
-add_to_array = { pfp_indochina_integration_array = 288 } #Burma
+add_to_array = { pfp_indochina_integration_array = 670 } #Laos
+add_to_array = { pfp_indochina_integration_array = 671 } #Tonkin
+add_to_array = { pfp_indochina_integration_array = 741 } #Cambodia
+
+#Indochina Territories
+add_to_array = { pfp_indochina_integration_array = 288 } #Magwe
 add_to_array = { pfp_indochina_integration_array = 289 } #Siam
 add_to_array = { pfp_indochina_integration_array = 336 } #Singapore
 add_to_array = { pfp_indochina_integration_array = 640 } #Mandalay
-add_to_array = { pfp_indochina_integration_array = 670 } #Laos
-add_to_array = { pfp_indochina_integration_array = 671 } #Tonkin
 add_to_array = { pfp_indochina_integration_array = 724 } #Northern Malay
-add_to_array = { pfp_indochina_integration_array = 741 } #Cambodia
 add_to_array = { pfp_indochina_integration_array = 868 } #Isan
 add_to_array = { pfp_indochina_integration_array = 869 } #Lanna
+add_to_array = { pfp_indochina_integration_array = 993 } #Kentung and Yawnghwe
+add_to_array = { pfp_indochina_integration_array = 994 } #Tenasserim
+add_to_array = { pfp_indochina_integration_array = 995 } #Pegu
+add_to_array = { pfp_indochina_integration_array = 996 } #Irrawaddy
+add_to_array = { pfp_indochina_integration_array = 997 } #Arakan
+add_to_array = { pfp_indochina_integration_array = 998 } #Sagaing
+add_to_array = { pfp_indochina_integration_array = 999 } #Federated Shan

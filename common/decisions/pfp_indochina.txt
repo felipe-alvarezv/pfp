@@ -33,7 +33,8 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 670 #Southern Indochina
+				has_full_control_of_state = 286 #Southern Indochina
+				has_full_control_of_state = 670 #Laos
 				has_full_control_of_state = 671 #Tonkin
 				has_full_control_of_state = 741 #Cambodia
 			}

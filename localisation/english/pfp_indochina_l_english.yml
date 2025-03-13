@@ -17,6 +17,9 @@ l_english:
  P16_DEF:0 "Indochina"
  P16_ADJ:0 "Indochinese"
 
+ #Subject of Germany
+ P16_GER_subject: "Indochina"
+
  #Decisions Localisation
  pfp_indochina:0 "Establish Military Administration in Indochina"
  pfp_indochina_required_states_southern_indochina:0 "Controls §YSouthern Indochina§!."

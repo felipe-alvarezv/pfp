@@ -93,10 +93,14 @@ recruit_character = P38_democratic_leader
 recruit_character = P38_neutrality_leader
 recruit_character = P38_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_bangladesh_integration_array = 324 } #Bhutan
+#Bangladesh Initial States
 add_to_array = { pfp_bangladesh_integration_array = 430 } #East Bengal
+
+#Bangladesh Territories
+add_to_array = { pfp_bangladesh_integration_array = 324 } #Bhutan
 add_to_array = { pfp_bangladesh_integration_array = 431 } #West Bengal
 add_to_array = { pfp_bangladesh_integration_array = 432 } #Assam
 add_to_array = { pfp_bangladesh_integration_array = 434 } #Arunachal Pradesh
 add_to_array = { pfp_bangladesh_integration_array = 435 } #Bihar
+add_to_array = { pfp_bangladesh_integration_array = 985 } #Sikkim
+add_to_array = { pfp_bangladesh_integration_array = 990 } #Manipur

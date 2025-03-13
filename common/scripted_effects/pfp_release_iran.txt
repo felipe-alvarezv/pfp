@@ -3,13 +3,15 @@ pfp_release_iran = {
 	hidden_effect = {
 		#Add cores to Iran
 		266 = { add_core_of = P71 } #Tehran
-		410 = { add_core_of = P71 } #Sistan
 		411 = { add_core_of = P71 } #Isfahan
 		412 = { add_core_of = P71 } #Fars
 		414 = { add_core_of = P71 } #Kerman
 		416 = { add_core_of = P71 } #Khorasan
 		417 = { add_core_of = P71 } #Hamadan
 		418 = { add_core_of = P71 } #Semnan
+		1002 = { add_core_of = P71 } #Yazd
+		1003 = { add_core_of = P71 } #South Khorasan
+		1004 = { add_core_of = P71 } #North Khorasan
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

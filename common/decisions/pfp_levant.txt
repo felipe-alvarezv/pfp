@@ -40,8 +40,11 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 454 #Palestine
+				has_full_control_of_state = 455 #Jordan
 				has_full_control_of_state = 553 #Lebanon
+				has_full_control_of_state = 554 #Damascus
 				has_full_control_of_state = 677 #Aleppo
+				has_full_control_of_state = 680 #Deir-Az-Zur
 			}
 			NOT = { has_global_flag = pfp_levant_flag }
 		}

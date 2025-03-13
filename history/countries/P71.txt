@@ -93,16 +93,26 @@ recruit_character = P71_democratic_leader
 recruit_character = P71_neutrality_leader
 recruit_character = P71_fascism_leader
 
-#States to add to the integration array
+#Iran Initial States
 add_to_array = { pfp_iran_integration_array = 266 } #Tehran
-add_to_array = { pfp_iran_integration_array = 410 } #Sistan
 add_to_array = { pfp_iran_integration_array = 411 } #Isfahan
 add_to_array = { pfp_iran_integration_array = 412 } #Fars
-add_to_array = { pfp_iran_integration_array = 413 } #Khuzestan
 add_to_array = { pfp_iran_integration_array = 414 } #Kerman
 add_to_array = { pfp_iran_integration_array = 416 } #Khorasan
 add_to_array = { pfp_iran_integration_array = 417 } #Hamadan
 add_to_array = { pfp_iran_integration_array = 418 } #Semnan
-add_to_array = { pfp_iran_integration_array = 419 } #Tibriz
+
+#Iran Territories
+add_to_array = { pfp_iran_integration_array = 291 } #Baghdad
+add_to_array = { pfp_iran_integration_array = 410 } #Sistan
+add_to_array = { pfp_iran_integration_array = 413 } #Khuzestan
+add_to_array = { pfp_iran_integration_array = 419 } #West Azerbaijan
 add_to_array = { pfp_iran_integration_array = 420 } #Gilan
-add_to_array = { pfp_iran_integration_array = 421 } #Kurdistan
+add_to_array = { pfp_iran_integration_array = 421 } #Ilam
+add_to_array = { pfp_iran_integration_array = 656 } #Kuwait
+add_to_array = { pfp_iran_integration_array = 675 } #Al Hajara
+add_to_array = { pfp_iran_integration_array = 676 } #Mosul
+add_to_array = { pfp_iran_integration_array = 1000 } #East Azerbaijan
+add_to_array = { pfp_iran_integration_array = 1001 } #Kurdistan
+add_to_array = { pfp_iran_integration_array = 1010 } #Al Anbar
+add_to_array = { pfp_iran_integration_array = 1011 } #Al Basrah
