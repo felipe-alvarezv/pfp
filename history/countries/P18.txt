@@ -93,7 +93,7 @@ recruit_character = P18_democratic_leader
 recruit_character = P18_neutrality_leader
 recruit_character = P18_fascism_leader
 
-#States to add to the integration array
+#Midwestern U.S. Initial States
 add_to_array = { pfp_midwestern_us_integration_array = 261 } #Ohio
 add_to_array = { pfp_midwestern_us_integration_array = 373 } #Missouri
 add_to_array = { pfp_midwestern_us_integration_array = 383 } #Kansas

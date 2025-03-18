@@ -93,24 +93,26 @@ recruit_character = P56_democratic_leader
 recruit_character = P56_neutrality_leader
 recruit_character = P56_fascism_leader
 
-#States to add to the integration array
+#Peru Initial States
+add_to_array = { pfp_peru_integration_array = 303 } #Lima
+add_to_array = { pfp_peru_integration_array = 491 } #Loreto
+add_to_array = { pfp_peru_integration_array = 492 } #Areqipa
+add_to_array = { pfp_peru_integration_array = 494 } #Ucayali
+
+#Peru Territories
 add_to_array = { pfp_peru_integration_array = 278 } #Buenos Aires
 add_to_array = { pfp_peru_integration_array = 279 } #Santiago
 add_to_array = { pfp_peru_integration_array = 299 } #Falkland Islands
 add_to_array = { pfp_peru_integration_array = 300 } #Montevideo
 add_to_array = { pfp_peru_integration_array = 301 } #Paraguay
 add_to_array = { pfp_peru_integration_array = 302 } #La Paz
-add_to_array = { pfp_peru_integration_array = 303 } #Lima
 add_to_array = { pfp_peru_integration_array = 304 } #Panama
 add_to_array = { pfp_peru_integration_array = 305 } #Ecuador
 add_to_array = { pfp_peru_integration_array = 306 } #Cundinamarca
 add_to_array = { pfp_peru_integration_array = 486 } #Meta
 add_to_array = { pfp_peru_integration_array = 487 } #Santa Cruz
 add_to_array = { pfp_peru_integration_array = 490 } #Pastaza
-add_to_array = { pfp_peru_integration_array = 491 } #Loreto
-add_to_array = { pfp_peru_integration_array = 492 } #Areqipa
 add_to_array = { pfp_peru_integration_array = 493 } #La Libertad
-add_to_array = { pfp_peru_integration_array = 494 } #Ucayali
 add_to_array = { pfp_peru_integration_array = 506 } #Antofagasta
 add_to_array = { pfp_peru_integration_array = 507 } #Magallanes
 add_to_array = { pfp_peru_integration_array = 508 } #Tucuman

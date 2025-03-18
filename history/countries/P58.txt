@@ -93,8 +93,22 @@ recruit_character = P58_democratic_leader
 recruit_character = P58_neutrality_leader
 recruit_character = P58_fascism_leader
 
-#States to add to the integration array
+#Mexico Initial States
 add_to_array = { pfp_mexico_integration_array = 277 } #Mexico City
+add_to_array = { pfp_mexico_integration_array = 474 } #Yucatan
+add_to_array = { pfp_mexico_integration_array = 475 } #Chiapas
+add_to_array = { pfp_mexico_integration_array = 476 } #Oaxaca
+add_to_array = { pfp_mexico_integration_array = 477 } #Veracruz
+add_to_array = { pfp_mexico_integration_array = 478 } #Jalisco
+add_to_array = { pfp_mexico_integration_array = 479 } #Tamaulipas
+add_to_array = { pfp_mexico_integration_array = 480 } #Coahuila
+add_to_array = { pfp_mexico_integration_array = 481 } #Durango
+add_to_array = { pfp_mexico_integration_array = 482 } #Chihuahua
+add_to_array = { pfp_mexico_integration_array = 483 } #Sonora
+add_to_array = { pfp_mexico_integration_array = 484 } #Baja California
+add_to_array = { pfp_mexico_integration_array = 485 } #Guerrero
+
+#Mexico Territories
 add_to_array = { pfp_mexico_integration_array = 304 } #Panama
 add_to_array = { pfp_mexico_integration_array = 311 } #British Honduras
 add_to_array = { pfp_mexico_integration_array = 312 } #Honduras
@@ -109,16 +123,4 @@ add_to_array = { pfp_mexico_integration_array = 378 } #California
 add_to_array = { pfp_mexico_integration_array = 379 } #Nevada
 add_to_array = { pfp_mexico_integration_array = 380 } #Utah
 add_to_array = { pfp_mexico_integration_array = 382 } #Colorado
-add_to_array = { pfp_mexico_integration_array = 474 } #Yucatan
-add_to_array = { pfp_mexico_integration_array = 475 } #Chiapas
-add_to_array = { pfp_mexico_integration_array = 476 } #Oaxaca
-add_to_array = { pfp_mexico_integration_array = 477 } #Veracruz
-add_to_array = { pfp_mexico_integration_array = 478 } #Jalisco
-add_to_array = { pfp_mexico_integration_array = 479 } #Tamaulipas
-add_to_array = { pfp_mexico_integration_array = 480 } #Coahuila
-add_to_array = { pfp_mexico_integration_array = 481 } #Durango
-add_to_array = { pfp_mexico_integration_array = 482 } #Chihuahua
-add_to_array = { pfp_mexico_integration_array = 483 } #Sonora
-add_to_array = { pfp_mexico_integration_array = 484 } #Baja California
-add_to_array = { pfp_mexico_integration_array = 485 } #Guerrero
 add_to_array = { pfp_mexico_integration_array = 685 } #Panama Canal

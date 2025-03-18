@@ -93,8 +93,11 @@ recruit_character = P54_democratic_leader
 recruit_character = P54_neutrality_leader
 recruit_character = P54_fascism_leader
 
-#States to add to the integration array
+#Chile Initial States
 add_to_array = { pfp_chile_integration_array = 279 } #Santiago
+add_to_array = { pfp_chile_integration_array = 952 } #Atacama
+
+#Chile Territories
 add_to_array = { pfp_chile_integration_array = 299 } #Falkland Islands
 add_to_array = { pfp_chile_integration_array = 506 } #Antofagasta
 add_to_array = { pfp_chile_integration_array = 507 } #Magallanes
@@ -106,7 +109,6 @@ add_to_array = { pfp_chile_integration_array = 948 } #Easter Island
 add_to_array = { pfp_chile_integration_array = 949 } #Aysen
 add_to_array = { pfp_chile_integration_array = 950 } #Araucania
 add_to_array = { pfp_chile_integration_array = 951 } #Arica y Tarapaca
-add_to_array = { pfp_chile_integration_array = 952 } #Atacama
 add_to_array = { pfp_chile_integration_array = 953 } #Tierra del Fuego
 add_to_array = { pfp_chile_integration_array = 954 } #Santa Cruz
 add_to_array = { pfp_chile_integration_array = 955 } #Chubut

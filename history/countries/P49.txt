@@ -93,15 +93,17 @@ recruit_character = P49_democratic_leader
 recruit_character = P49_neutrality_leader
 recruit_character = P49_fascism_leader
 
-#States to add to the integration array
+#Bulgaria Initial States
 add_to_array = { pfp_bulgaria_integration_array = 48 } #Sofia
+add_to_array = { pfp_bulgaria_integration_array = 211 } #Burgas
+add_to_array = { pfp_bulgaria_integration_array = 212 } #Plovdiv
+add_to_array = { pfp_bulgaria_integration_array = 801 } #Moesia
+
+#Bulgaria Territories
 add_to_array = { pfp_bulgaria_integration_array = 77 } #Dobrudja
 add_to_array = { pfp_bulgaria_integration_array = 106 } #Macedonia
 add_to_array = { pfp_bulgaria_integration_array = 184 } #Thrace
-add_to_array = { pfp_bulgaria_integration_array = 211 } #Burgas
-add_to_array = { pfp_bulgaria_integration_array = 212 } #Plovdiv
 add_to_array = { pfp_bulgaria_integration_array = 341 } #Edirne
 add_to_array = { pfp_bulgaria_integration_array = 731 } #Central Macedonia
 add_to_array = { pfp_bulgaria_integration_array = 797 } #Istanbul
-add_to_array = { pfp_bulgaria_integration_array = 801 } #Moesia
 add_to_array = { pfp_bulgaria_integration_array = 803 } #Southern Serbia

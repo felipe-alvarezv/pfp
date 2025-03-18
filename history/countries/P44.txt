@@ -93,7 +93,7 @@ recruit_character = P44_democratic_leader
 recruit_character = P44_neutrality_leader
 recruit_character = P44_fascism_leader
 
-#States to add to the integration array
+#Urals Initial States
 add_to_array = { pfp_urals_integration_array = 403 } #Tyumen
 add_to_array = { pfp_urals_integration_array = 572 } #Chelyabinsk
 add_to_array = { pfp_urals_integration_array = 573 } #Zlatoust

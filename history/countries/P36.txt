@@ -93,15 +93,17 @@ recruit_character = P36_democratic_leader
 recruit_character = P36_neutrality_leader
 recruit_character = P36_fascism_leader
 
-#States to add to the integration array
+#South Africa Initial States
 add_to_array = { pfp_south_africa_integration_array = 275 } #Transvaal
-add_to_array = { pfp_south_africa_integration_array = 540 } #Luanda
-add_to_array = { pfp_south_africa_integration_array = 541 } #Khomas
 add_to_array = { pfp_south_africa_integration_array = 542 } #Bechuanaland
-add_to_array = { pfp_south_africa_integration_array = 544 } #Lourenço Marques
-add_to_array = { pfp_south_africa_integration_array = 545 } #Rhodesia
 add_to_array = { pfp_south_africa_integration_array = 681 } #Cape
 add_to_array = { pfp_south_africa_integration_array = 719 } #Natal
+
+#South Africa Territories
+add_to_array = { pfp_south_africa_integration_array = 540 } #Luanda
+add_to_array = { pfp_south_africa_integration_array = 541 } #Khomas
+add_to_array = { pfp_south_africa_integration_array = 544 } #Lourenço Marques
+add_to_array = { pfp_south_africa_integration_array = 545 } #Rhodesia
 add_to_array = { pfp_south_africa_integration_array = 770 } #Malawi
 add_to_array = { pfp_south_africa_integration_array = 771 } #Zambia
 add_to_array = { pfp_south_africa_integration_array = 796 } #North Angola

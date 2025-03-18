@@ -93,14 +93,12 @@ recruit_character = P74_democratic_leader
 recruit_character = P74_neutrality_leader
 recruit_character = P74_fascism_leader
 
-#States to add to the integration array
+#Sweden Initial States
 add_to_array = { pfp_sweden_integration_array = 38 } #Gavleborg
-add_to_array = { pfp_sweden_integration_array = 124 } #Gotland
 add_to_array = { pfp_sweden_integration_array = 138 } #Skane
 add_to_array = { pfp_sweden_integration_array = 139 } #Smaland
 add_to_array = { pfp_sweden_integration_array = 140 } #Vastergotland
 add_to_array = { pfp_sweden_integration_array = 141 } #Sondermanland
-add_to_array = { pfp_sweden_integration_array = 145 } #Aland
 add_to_array = { pfp_sweden_integration_array = 666 } #Norbotten
 add_to_array = { pfp_sweden_integration_array = 913 } #Ostergotland
 add_to_array = { pfp_sweden_integration_array = 915 } #Bohuslan
@@ -108,3 +106,7 @@ add_to_array = { pfp_sweden_integration_array = 916 } #Dalarna
 add_to_array = { pfp_sweden_integration_array = 917 } #Jamtland
 add_to_array = { pfp_sweden_integration_array = 918 } #Vasterbotten
 add_to_array = { pfp_sweden_integration_array = 919 } #Varmland
+
+#Sweden Territories
+add_to_array = { pfp_sweden_integration_array = 124 } #Gotland
+add_to_array = { pfp_sweden_integration_array = 145 } #Aland

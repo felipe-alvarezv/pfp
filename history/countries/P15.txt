@@ -93,10 +93,9 @@ recruit_character = P15_democratic_leader
 recruit_character = P15_neutrality_leader
 recruit_character = P15_fascism_leader
 
-#States to add to the integration array
+#Iberia Initial States
 add_to_array = { pfp_iberia_integration_array = 41 } #Madrid
 add_to_array = { pfp_iberia_integration_array = 112 } #Lisbon
-add_to_array = { pfp_iberia_integration_array = 118 } #Gibraltar
 add_to_array = { pfp_iberia_integration_array = 165 } #Cataluna
 add_to_array = { pfp_iberia_integration_array = 166 } #Western Aragon
 add_to_array = { pfp_iberia_integration_array = 167 } #Valencia
@@ -109,13 +108,9 @@ add_to_array = { pfp_iberia_integration_array = 173 } #Granada
 add_to_array = { pfp_iberia_integration_array = 174 } #Leon
 add_to_array = { pfp_iberia_integration_array = 175 } #Ciudad Real
 add_to_array = { pfp_iberia_integration_array = 176 } #Burgos
-add_to_array = { pfp_iberia_integration_array = 177 } #Islas Baleares
-add_to_array = { pfp_iberia_integration_array = 178 } #Islas Canarias
 add_to_array = { pfp_iberia_integration_array = 179 } #Beja
 add_to_array = { pfp_iberia_integration_array = 180 } #Porto
 add_to_array = { pfp_iberia_integration_array = 181 } #Guarda
-add_to_array = { pfp_iberia_integration_array = 697 } #Madeira
-add_to_array = { pfp_iberia_integration_array = 698 } #Azores
 add_to_array = { pfp_iberia_integration_array = 788 } #Salamanca
 add_to_array = { pfp_iberia_integration_array = 789 } #Cordoba
 add_to_array = { pfp_iberia_integration_array = 790 } #Asturias
@@ -124,3 +119,10 @@ add_to_array = { pfp_iberia_integration_array = 792 } #Pais Vasco
 add_to_array = { pfp_iberia_integration_array = 793 } #Guadalajara
 add_to_array = { pfp_iberia_integration_array = 794 } #Eastern Aragon
 add_to_array = { pfp_iberia_integration_array = 795 } #Santarem
+
+#Iberia Territories
+add_to_array = { pfp_iberia_integration_array = 118 } #Gibraltar
+add_to_array = { pfp_iberia_integration_array = 177 } #Islas Baleares
+add_to_array = { pfp_iberia_integration_array = 178 } #Islas Canarias
+add_to_array = { pfp_iberia_integration_array = 697 } #Madeira
+add_to_array = { pfp_iberia_integration_array = 698 } #Azores

@@ -93,8 +93,17 @@ recruit_character = P68_democratic_leader
 recruit_character = P68_neutrality_leader
 recruit_character = P68_fascism_leader
 
-#States to add to the integration array
+#Turkey Initial States
 add_to_array = { pfp_turkey_integration_array = 49 } #Ankara
+add_to_array = { pfp_turkey_integration_array = 343 } #Afyon
+add_to_array = { pfp_turkey_integration_array = 346 } #Konya
+add_to_array = { pfp_turkey_integration_array = 348 } #Kayseri
+add_to_array = { pfp_turkey_integration_array = 349 } #Sivas
+add_to_array = { pfp_turkey_integration_array = 355 } #Samsun
+add_to_array = { pfp_turkey_integration_array = 356 } #Kastamonu
+add_to_array = { pfp_turkey_integration_array = 798 } #Amasya
+
+#Turkey Territories
 add_to_array = { pfp_turkey_integration_array = 164 } #Dodecanese
 add_to_array = { pfp_turkey_integration_array = 183 } #Cyprus
 add_to_array = { pfp_turkey_integration_array = 187 } #Aegean Islands
@@ -102,20 +111,13 @@ add_to_array = { pfp_turkey_integration_array = 339 } #Izmir
 add_to_array = { pfp_turkey_integration_array = 340 } #Bursa
 add_to_array = { pfp_turkey_integration_array = 341 } #Edirne
 add_to_array = { pfp_turkey_integration_array = 342 } #Antalya
-add_to_array = { pfp_turkey_integration_array = 343 } #Afyon
 add_to_array = { pfp_turkey_integration_array = 344 } #Malatya
 add_to_array = { pfp_turkey_integration_array = 345 } #Mersin
-add_to_array = { pfp_turkey_integration_array = 346 } #Konya
 add_to_array = { pfp_turkey_integration_array = 347 } #Izmit
-add_to_array = { pfp_turkey_integration_array = 348 } #Kayseri
-add_to_array = { pfp_turkey_integration_array = 349 } #Sivas
 add_to_array = { pfp_turkey_integration_array = 350 } #Diyarbakir
 add_to_array = { pfp_turkey_integration_array = 352 } #Hakkari
 add_to_array = { pfp_turkey_integration_array = 353 } #Tunceli
 add_to_array = { pfp_turkey_integration_array = 354 } #Trabzon
-add_to_array = { pfp_turkey_integration_array = 355 } #Samsun
-add_to_array = { pfp_turkey_integration_array = 356 } #Kastamonu
 add_to_array = { pfp_turkey_integration_array = 797 } #Istanbul
-add_to_array = { pfp_turkey_integration_array = 798 } #Amasya
 add_to_array = { pfp_turkey_integration_array = 799 } #Hatay
 add_to_array = { pfp_turkey_integration_array = 800 } #Van

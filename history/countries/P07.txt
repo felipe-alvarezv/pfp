@@ -93,14 +93,19 @@ recruit_character = P07_democratic_leader
 recruit_character = P07_neutrality_leader
 recruit_character = P07_fascism_leader
 
-#States to add to the integration array
+#Central Africa Initial States
 add_to_array = { pfp_central_africa_integration_array = 295 } #Leopoldville
-add_to_array = { pfp_central_africa_integration_array = 297 } #Equatorial Guinea
 add_to_array = { pfp_central_africa_integration_array = 538 } #Coquilhatville
+add_to_array = { pfp_central_africa_integration_array = 718 } #Stanleyville
+add_to_array = { pfp_central_africa_integration_array = 888 } #Lusambo
+add_to_array = { pfp_central_africa_integration_array = 889 } #Elisabethville
+add_to_array = { pfp_central_africa_integration_array = 890 } #Costermansville
+
+#Central Africa Territories
+add_to_array = { pfp_central_africa_integration_array = 297 } #Equatorial Guinea
 add_to_array = { pfp_central_africa_integration_array = 539 } #Gabon
 add_to_array = { pfp_central_africa_integration_array = 660 } #Equatorial Africa
 add_to_array = { pfp_central_africa_integration_array = 705 } #Sao Tome
-add_to_array = { pfp_central_africa_integration_array = 718 } #Stanleyville
 add_to_array = { pfp_central_africa_integration_array = 768 } #Rwanda
 add_to_array = { pfp_central_africa_integration_array = 769 } #Burundi
 add_to_array = { pfp_central_africa_integration_array = 772 } #Middle Congo
@@ -108,6 +113,3 @@ add_to_array = { pfp_central_africa_integration_array = 773 } #Cameroon
 add_to_array = { pfp_central_africa_integration_array = 774 } #Chad
 add_to_array = { pfp_central_africa_integration_array = 775 } #B.E.T.
 add_to_array = { pfp_central_africa_integration_array = 796 } #North Angola
-add_to_array = { pfp_central_africa_integration_array = 888 } #Lusambo
-add_to_array = { pfp_central_africa_integration_array = 889 } #Elisabethville
-add_to_array = { pfp_central_africa_integration_array = 890 } #Costermansville

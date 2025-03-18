@@ -93,18 +93,20 @@ recruit_character = P63_democratic_leader
 recruit_character = P63_neutrality_leader
 recruit_character = P63_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_southern_france_integration_array = 1 } #Corsica
-add_to_array = { pfp_southern_france_integration_array = 19 } #Aquitaine
+#Southern France Initial States
 add_to_array = { pfp_southern_france_integration_array = 20 } #Rhone
-add_to_array = { pfp_southern_france_integration_array = 21 } #Bouches-Du-Rhone
 add_to_array = { pfp_southern_france_integration_array = 22 } #Languedoc
-add_to_array = { pfp_southern_france_integration_array = 23 } #Poitou
 add_to_array = { pfp_southern_france_integration_array = 25 } #Limousin
 add_to_array = { pfp_southern_france_integration_array = 26 } #Auvergne
 add_to_array = { pfp_southern_france_integration_array = 31 } #Midi Pyrenees
-add_to_array = { pfp_southern_france_integration_array = 32 } #Alpes
 add_to_array = { pfp_southern_france_integration_array = 33 } #Centre-Sud
+
+#Southern France Territories
+add_to_array = { pfp_southern_france_integration_array = 1 } #Corsica
+add_to_array = { pfp_southern_france_integration_array = 19 } #Aquitaine
+add_to_array = { pfp_southern_france_integration_array = 21 } #Bouches-Du-Rhone
+add_to_array = { pfp_southern_france_integration_array = 23 } #Poitou
+add_to_array = { pfp_southern_france_integration_array = 32 } #Alpes
 add_to_array = { pfp_southern_france_integration_array = 735 } #Savoy
 add_to_array = { pfp_southern_france_integration_array = 806 } #Pyrenees-Atlantiques
 add_to_array = { pfp_southern_france_integration_array = 851 } #Var

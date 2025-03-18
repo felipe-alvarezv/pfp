@@ -93,7 +93,7 @@ recruit_character = P51_democratic_leader
 recruit_character = P51_neutrality_leader
 recruit_character = P51_fascism_leader
 
-#States to add to the integration array
+#Turkestan Initial States
 add_to_array = { pfp_turkestan_integration_array = 402 } #Akhtubinsk
 add_to_array = { pfp_turkestan_integration_array = 404 } #Kyzyl Orda
 add_to_array = { pfp_turkestan_integration_array = 405 } #Tashkent

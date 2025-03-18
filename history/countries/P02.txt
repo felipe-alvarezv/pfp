@@ -93,9 +93,9 @@ recruit_character = P02_democratic_leader
 recruit_character = P02_neutrality_leader
 recruit_character = P02_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_great_britain_integration_array = 113 } #Leinster
-add_to_array = { pfp_great_britain_integration_array = 119 } #Northern Ireland
+#Great Britain Initial States
+
+
 add_to_array = { pfp_great_britain_integration_array = 120 } #Scottish Highlands
 add_to_array = { pfp_great_britain_integration_array = 121 } #Lothian
 add_to_array = { pfp_great_britain_integration_array = 122 } #Wales
@@ -109,10 +109,14 @@ add_to_array = { pfp_great_britain_integration_array = 130 } #Yorkshire
 add_to_array = { pfp_great_britain_integration_array = 131 } #Northumberland
 add_to_array = { pfp_great_britain_integration_array = 132 } #Lancashire
 add_to_array = { pfp_great_britain_integration_array = 133 } #Lanark
-add_to_array = { pfp_great_britain_integration_array = 134 } #Connaught
-add_to_array = { pfp_great_britain_integration_array = 135 } #Munster
 add_to_array = { pfp_great_britain_integration_array = 136 } #Aberdeenshire
 add_to_array = { pfp_great_britain_integration_array = 338 } #Gloucestershire
 add_to_array = { pfp_great_britain_integration_array = 931 } #Cumbria
+
+#Great Britain Territories
+add_to_array = { pfp_great_britain_integration_array = 113 } #Leinster
+add_to_array = { pfp_great_britain_integration_array = 119 } #Northern Ireland
+add_to_array = { pfp_great_britain_integration_array = 134 } #Connaught
+add_to_array = { pfp_great_britain_integration_array = 135 } #Munster
 add_to_array = { pfp_great_britain_integration_array = 932 } #Isle of Man
 add_to_array = { pfp_great_britain_integration_array = 933 } #Shetland Islands

@@ -93,9 +93,15 @@ recruit_character = P34_democratic_leader
 recruit_character = P34_neutrality_leader
 recruit_character = P34_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_poland_integration_array = 5 } #Ermland-Masuren
+#Poland Initial States
 add_to_array = { pfp_poland_integration_array = 10 } #Warszawa
+add_to_array = { pfp_poland_integration_array = 87 } #Lodz
+add_to_array = { pfp_poland_integration_array = 90 } #Kielce
+add_to_array = { pfp_poland_integration_array = 92 } #Lublin
+add_to_array = { pfp_poland_integration_array = 98 } #Płock
+
+#Poland Territories
+add_to_array = { pfp_poland_integration_array = 5 } #Ermland-Masuren
 add_to_array = { pfp_poland_integration_array = 11 } #Kaunas
 add_to_array = { pfp_poland_integration_array = 12 } #Vidzeme
 add_to_array = { pfp_poland_integration_array = 63 } #Hinterpommern
@@ -105,18 +111,14 @@ add_to_array = { pfp_poland_integration_array = 68 } #Ostmark
 add_to_array = { pfp_poland_integration_array = 72 } #Zaolzie
 add_to_array = { pfp_poland_integration_array = 85 } #Danzig
 add_to_array = { pfp_poland_integration_array = 86 } #Poznan
-add_to_array = { pfp_poland_integration_array = 87 } #Lodz
 add_to_array = { pfp_poland_integration_array = 88 } #Krakow
 add_to_array = { pfp_poland_integration_array = 89 } #Stanislawow
-add_to_array = { pfp_poland_integration_array = 90 } #Kielce
 add_to_array = { pfp_poland_integration_array = 91 } #Lwow
-add_to_array = { pfp_poland_integration_array = 92 } #Lublin
 add_to_array = { pfp_poland_integration_array = 93 } #Wolyn
 add_to_array = { pfp_poland_integration_array = 94 } #Polesie
 add_to_array = { pfp_poland_integration_array = 95 } #Nowogrodek
 add_to_array = { pfp_poland_integration_array = 96 } #Wilejka
 add_to_array = { pfp_poland_integration_array = 97 } #Białystok
-add_to_array = { pfp_poland_integration_array = 98 } #Płock
 add_to_array = { pfp_poland_integration_array = 188 } #Memel
 add_to_array = { pfp_poland_integration_array = 189 } #Zemaitija
 add_to_array = { pfp_poland_integration_array = 190 } #Kurzeme

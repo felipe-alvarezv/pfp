@@ -93,25 +93,27 @@ recruit_character = P43_democratic_leader
 recruit_character = P43_neutrality_leader
 recruit_character = P43_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_northwestern_russia_integration_array = 146 } #Karjala
-add_to_array = { pfp_northwestern_russia_integration_array = 147 } #Salla
+#Northwestern Russia Initial States
 add_to_array = { pfp_northwestern_russia_integration_array = 195 } #Leningrad
 add_to_array = { pfp_northwestern_russia_integration_array = 208 } #Luga
 add_to_array = { pfp_northwestern_russia_integration_array = 209 } #Pksov
 add_to_array = { pfp_northwestern_russia_integration_array = 210 } #Nevel
-add_to_array = { pfp_northwestern_russia_integration_array = 213 } #Murmansk
 add_to_array = { pfp_northwestern_russia_integration_array = 214 } #Arkhangelsk
-add_to_array = { pfp_northwestern_russia_integration_array = 215 } #Onega
-add_to_array = { pfp_northwestern_russia_integration_array = 216 } #Olonets
 add_to_array = { pfp_northwestern_russia_integration_array = 244 } #Volkhov
 add_to_array = { pfp_northwestern_russia_integration_array = 262 } #Pechora
 add_to_array = { pfp_northwestern_russia_integration_array = 263 } #Novgorod
 add_to_array = { pfp_northwestern_russia_integration_array = 264 } #Tikhvin
 add_to_array = { pfp_northwestern_russia_integration_array = 351 } #Vologda
 add_to_array = { pfp_northwestern_russia_integration_array = 397 } #Syktyvkar
-add_to_array = { pfp_northwestern_russia_integration_array = 581 } #Northern Urals
-add_to_array = { pfp_northwestern_russia_integration_array = 722 } #Petsamo
 add_to_array = { pfp_northwestern_russia_integration_array = 825 } #Nenets
 add_to_array = { pfp_northwestern_russia_integration_array = 879 } #Kargopol
 add_to_array = { pfp_northwestern_russia_integration_array = 880 } #Kotlas
+
+#Northwestern Russia Territories
+add_to_array = { pfp_northwestern_russia_integration_array = 146 } #Karjala
+add_to_array = { pfp_northwestern_russia_integration_array = 147 } #Salla
+add_to_array = { pfp_northwestern_russia_integration_array = 213 } #Murmansk
+add_to_array = { pfp_northwestern_russia_integration_array = 215 } #Onega
+add_to_array = { pfp_northwestern_russia_integration_array = 216 } #Olonets
+add_to_array = { pfp_northwestern_russia_integration_array = 581 } #Northern Urals
+add_to_array = { pfp_northwestern_russia_integration_array = 722 } #Petsamo

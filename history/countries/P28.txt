@@ -93,11 +93,14 @@ recruit_character = P28_democratic_leader
 recruit_character = P28_neutrality_leader
 recruit_character = P28_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_transcaucasia_integration_array = 137 } #Crimea
+#Transcaucasia Initial States
 add_to_array = { pfp_transcaucasia_integration_array = 229} #Azerbaijan
 add_to_array = { pfp_transcaucasia_integration_array = 230 } #Armenia
 add_to_array = { pfp_transcaucasia_integration_array = 231 } #Georgia
+add_to_array = { pfp_transcaucasia_integration_array = 826 } #Abkhazia
+
+#Transcaucasia Territories
+add_to_array = { pfp_transcaucasia_integration_array = 137 } #Crimea
 add_to_array = { pfp_transcaucasia_integration_array = 232 } #Dagestan
 add_to_array = { pfp_transcaucasia_integration_array = 233 } #Sochi
 add_to_array = { pfp_transcaucasia_integration_array = 234 } #Krasnodar
@@ -105,6 +108,5 @@ add_to_array = { pfp_transcaucasia_integration_array = 235 } #Stavropol
 add_to_array = { pfp_transcaucasia_integration_array = 354 } #Trabzon
 add_to_array = { pfp_transcaucasia_integration_array = 800 } #Van
 add_to_array = { pfp_transcaucasia_integration_array = 821 } #Chechnya-Ingushetia
-add_to_array = { pfp_transcaucasia_integration_array = 826 } #Abkhazia
 add_to_array = { pfp_transcaucasia_integration_array = 827 } #Kabardino-Balkaria
 add_to_array = { pfp_transcaucasia_integration_array = 828 } #North Ossetia

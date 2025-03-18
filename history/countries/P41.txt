@@ -93,12 +93,14 @@ recruit_character = P41_democratic_leader
 recruit_character = P41_neutrality_leader
 recruit_character = P41_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_northern_caucasus_integration_array = 137 } #Crimea
+#Northern Caucasus Initial States
 add_to_array = { pfp_northern_caucasus_integration_array = 232 } #Dagestan
 add_to_array = { pfp_northern_caucasus_integration_array = 233 } #Sochi
-add_to_array = { pfp_northern_caucasus_integration_array = 234 } #Krasnodar
 add_to_array = { pfp_northern_caucasus_integration_array = 235 } #Stavropol
 add_to_array = { pfp_northern_caucasus_integration_array = 821 } #Chechnya-Ingushetia
 add_to_array = { pfp_northern_caucasus_integration_array = 827 } #Kabardino-Balkaria
 add_to_array = { pfp_northern_caucasus_integration_array = 828 } #North Ossetia
+
+#Northern Caucasus Territories
+add_to_array = { pfp_northern_caucasus_integration_array = 137 } #Crimea
+add_to_array = { pfp_northern_caucasus_integration_array = 234 } #Krasnodar

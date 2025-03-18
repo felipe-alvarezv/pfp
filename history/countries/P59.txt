@@ -93,13 +93,15 @@ recruit_character = P59_democratic_leader
 recruit_character = P59_neutrality_leader
 recruit_character = P59_fascism_leader
 
-#States to add to the integration array
+#Czechia Initial States
 add_to_array = { pfp_czechia_integration_array = 9 } #Bohemia
+add_to_array = { pfp_czechia_integration_array = 75 } #Moravia
+
+#Czechia Territories
 add_to_array = { pfp_czechia_integration_array = 69 } #Sudetenland
 add_to_array = { pfp_czechia_integration_array = 70 } #Western Slovakia
 add_to_array = { pfp_czechia_integration_array = 71 } #Eastern Slovakia
 add_to_array = { pfp_czechia_integration_array = 72 } #Zaolzie
 add_to_array = { pfp_czechia_integration_array = 73 } #Carpathian Ruthenia
 add_to_array = { pfp_czechia_integration_array = 74 } #Eastern Sudetenland
-add_to_array = { pfp_czechia_integration_array = 75 } #Moravia
 add_to_array = { pfp_czechia_integration_array = 664 } #Southern Slovakia

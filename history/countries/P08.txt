@@ -93,12 +93,14 @@ recruit_character = P08_democratic_leader
 recruit_character = P08_neutrality_leader
 recruit_character = P08_fascism_leader
 
-#States to add to the integration array
+#Central America Initial States
 add_to_array = { pfp_central_america_integration_array = 304 } #Panama
-add_to_array = { pfp_central_america_integration_array = 311 } #British Honduras
 add_to_array = { pfp_central_america_integration_array = 312 } #Honduras
 add_to_array = { pfp_central_america_integration_array = 313 } #Guatemala
 add_to_array = { pfp_central_america_integration_array = 314 } #EL Salvador
 add_to_array = { pfp_central_america_integration_array = 316 } #Costa Rica
 add_to_array = { pfp_central_america_integration_array = 317 } #Nicaragua
+
+#Central America Territories
+add_to_array = { pfp_central_america_integration_array = 311 } #British Honduras
 add_to_array = { pfp_central_america_integration_array = 685 } #Panama Canal

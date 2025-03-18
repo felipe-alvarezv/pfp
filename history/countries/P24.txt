@@ -93,14 +93,11 @@ recruit_character = P24_democratic_leader
 recruit_character = P24_neutrality_leader
 recruit_character = P24_fascism_leader
 
-#States to add to the integration array
+#Scandinavia Initial States
 add_to_array = { pfp_scandinavia_integration_array = 37 } #Sjaelland
 add_to_array = { pfp_scandinavia_integration_array = 38 } #Gävleborg
 add_to_array = { pfp_scandinavia_integration_array = 99 } #Jylland
-add_to_array = { pfp_scandinavia_integration_array = 100 } #Iceland
-add_to_array = { pfp_scandinavia_integration_array = 101 } #Greenland
 add_to_array = { pfp_scandinavia_integration_array = 110 } #Oslofjord
-add_to_array = { pfp_scandinavia_integration_array = 124 } #Gotland
 add_to_array = { pfp_scandinavia_integration_array = 138 } #Skåne
 add_to_array = { pfp_scandinavia_integration_array = 139 } #Smaland
 add_to_array = { pfp_scandinavia_integration_array = 140 } #Vastergotland
@@ -108,15 +105,10 @@ add_to_array = { pfp_scandinavia_integration_array = 141 } #Södermanland
 add_to_array = { pfp_scandinavia_integration_array = 142 } #Vestlandet
 add_to_array = { pfp_scandinavia_integration_array = 143 } #Trøndelag
 add_to_array = { pfp_scandinavia_integration_array = 144 } #Nordland
-add_to_array = { pfp_scandinavia_integration_array = 145 } #Aland
-add_to_array = { pfp_scandinavia_integration_array = 337 } #Faroe Islands
 add_to_array = { pfp_scandinavia_integration_array = 666 } #Norrbotten
-add_to_array = { pfp_scandinavia_integration_array = 909 } #Schleswig
-add_to_array = { pfp_scandinavia_integration_array = 910 } #Bornholm
 add_to_array = { pfp_scandinavia_integration_array = 911 } #Fyn
 add_to_array = { pfp_scandinavia_integration_array = 912 } #Sønderjylland
 add_to_array = { pfp_scandinavia_integration_array = 913 } #Östergötland
-add_to_array = { pfp_scandinavia_integration_array = 914 } #Jan Mayen
 add_to_array = { pfp_scandinavia_integration_array = 915 } #Bohuslän
 add_to_array = { pfp_scandinavia_integration_array = 916 } #Dalarna
 add_to_array = { pfp_scandinavia_integration_array = 917 } #Jämtland
@@ -128,3 +120,13 @@ add_to_array = { pfp_scandinavia_integration_array = 922 } #Agder
 add_to_array = { pfp_scandinavia_integration_array = 923 } #Helgeland
 add_to_array = { pfp_scandinavia_integration_array = 924 } #Troms
 add_to_array = { pfp_scandinavia_integration_array = 925 } #Finnmark
+
+#Scandinavia Territories
+add_to_array = { pfp_scandinavia_integration_array = 100 } #Iceland
+add_to_array = { pfp_scandinavia_integration_array = 101 } #Greenland
+add_to_array = { pfp_scandinavia_integration_array = 124 } #Gotland
+add_to_array = { pfp_scandinavia_integration_array = 145 } #Aland
+add_to_array = { pfp_scandinavia_integration_array = 337 } #Faroe Islands
+add_to_array = { pfp_scandinavia_integration_array = 909 } #Schleswig
+add_to_array = { pfp_scandinavia_integration_array = 910 } #Bornholm
+add_to_array = { pfp_scandinavia_integration_array = 914 } #Jan Mayen

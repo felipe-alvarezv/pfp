@@ -93,14 +93,16 @@ recruit_character = P14_democratic_leader
 recruit_character = P14_neutrality_leader
 recruit_character = P14_fascism_leader
 
-#States to add to the integration array
+#Greece Initial States
 add_to_array = { pfp_greece_integration_array = 47 } #Attica
+add_to_array = { pfp_greece_integration_array = 185 } #Epirus
+add_to_array = { pfp_greece_integration_array = 186 } #Peloponnese
+
+#Greece Territories
 add_to_array = { pfp_greece_integration_array = 164 } #Dodecanese
 add_to_array = { pfp_greece_integration_array = 182 } #Crete
 add_to_array = { pfp_greece_integration_array = 183 } #Cyprus
 add_to_array = { pfp_greece_integration_array = 184 } #Thrace
-add_to_array = { pfp_greece_integration_array = 185 } #Epirus
-add_to_array = { pfp_greece_integration_array = 186 } #Peloponnese
 add_to_array = { pfp_greece_integration_array = 187 } #Aegean Islands
 add_to_array = { pfp_greece_integration_array = 339 } #Izmir
 add_to_array = { pfp_greece_integration_array = 340 } #Bursa

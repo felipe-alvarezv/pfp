@@ -93,8 +93,7 @@ recruit_character = P19_democratic_leader
 recruit_character = P19_neutrality_leader
 recruit_character = P19_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_north_germany_integration_array = 5 } #Ermland-Masuren
+#North Germany Initial States
 add_to_array = { pfp_north_germany_integration_array = 42 } #Moselland
 add_to_array = { pfp_north_germany_integration_array = 51 } #Rhineland
 add_to_array = { pfp_north_germany_integration_array = 55 } #Hessen
@@ -111,6 +110,9 @@ add_to_array = { pfp_north_germany_integration_array = 65 } #Sachsen
 add_to_array = { pfp_north_germany_integration_array = 66 } #Niederschlesien
 add_to_array = { pfp_north_germany_integration_array = 67 } #Oberschlesien
 add_to_array = { pfp_north_germany_integration_array = 68 } #Ostmark
+
+#North Germany Territories
+add_to_array = { pfp_north_germany_integration_array = 5 } #Ermland-Masuren
 add_to_array = { pfp_north_germany_integration_array = 85 } #Danzig
 add_to_array = { pfp_north_germany_integration_array = 86 } #Poznan
 add_to_array = { pfp_north_germany_integration_array = 188 } #Memel

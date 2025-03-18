@@ -93,12 +93,14 @@ recruit_character = P61_democratic_leader
 recruit_character = P61_neutrality_leader
 recruit_character = P61_fascism_leader
 
-#States to add to the integration array
+#Denmark Initial States
 add_to_array = { pfp_denmark_integration_array = 37 } #Sjaelland
+add_to_array = { pfp_denmark_integration_array = 911 } #Fyn
+
+#Denmark Territories
 add_to_array = { pfp_denmark_integration_array = 99 } #Jylland
 add_to_array = { pfp_denmark_integration_array = 100 } #Iceland
 add_to_array = { pfp_denmark_integration_array = 101 } #Greenland
 add_to_array = { pfp_denmark_integration_array = 337 } #Faroe Islands
 add_to_array = { pfp_denmark_integration_array = 910 } #Bornholm
-add_to_array = { pfp_denmark_integration_array = 911 } #Fyn
 add_to_array = { pfp_denmark_integration_array = 912 } #Sonderjylland

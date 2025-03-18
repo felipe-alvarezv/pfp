@@ -93,16 +93,18 @@ recruit_character = P25_democratic_leader
 recruit_character = P25_neutrality_leader
 recruit_character = P25_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_south_germany_integration_array = 4 } #Lower Austria
-add_to_array = { pfp_south_germany_integration_array = 39 } #Alto Adige
+#South Germany Initial States
 add_to_array = { pfp_south_germany_integration_array = 50 } #Wurttemberg
 add_to_array = { pfp_south_germany_integration_array = 52 } #Oberbayern
 add_to_array = { pfp_south_germany_integration_array = 53 } #Niederbayern
 add_to_array = { pfp_south_germany_integration_array = 54 } #Franken
+add_to_array = { pfp_south_germany_integration_array = 978 } #Baden
+
+#South Germany Territories
+add_to_array = { pfp_south_germany_integration_array = 4 } #Lower Austria
+add_to_array = { pfp_south_germany_integration_array = 39 } #Alto Adige
 add_to_array = { pfp_south_germany_integration_array = 102 } #North Slovenia
 add_to_array = { pfp_south_germany_integration_array = 152 } #Upper Austria
 add_to_array = { pfp_south_germany_integration_array = 153 } #Tyrol
 add_to_array = { pfp_south_germany_integration_array = 848 } #Vorarlberg
 add_to_array = { pfp_south_germany_integration_array = 853 } #Ljubljana
-add_to_array = { pfp_south_germany_integration_array = 978 } #Baden

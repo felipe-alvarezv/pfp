@@ -93,7 +93,7 @@ recruit_character = P31_democratic_leader
 recruit_character = P31_neutrality_leader
 recruit_character = P31_fascism_leader
 
-#States to add to the integration array
+#West Germany Initial States
 add_to_array = { pfp_west_germany_integration_array = 42 } #Moselland
 add_to_array = { pfp_west_germany_integration_array = 50 } #Wurttemberg
 add_to_array = { pfp_west_germany_integration_array = 51 } #Rhineland
@@ -105,5 +105,7 @@ add_to_array = { pfp_west_germany_integration_array = 56 } #Weser-Ems
 add_to_array = { pfp_west_germany_integration_array = 57 } #Westfalen
 add_to_array = { pfp_west_germany_integration_array = 58 } #Holstein
 add_to_array = { pfp_west_germany_integration_array = 59 } #Hannover
-add_to_array = { pfp_west_germany_integration_array = 909 } #Schleswig
 add_to_array = { pfp_west_germany_integration_array = 978 } #Baden
+
+#West Germany Territories
+add_to_array = { pfp_west_germany_integration_array = 909 } #Schleswig

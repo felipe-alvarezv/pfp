@@ -93,15 +93,21 @@ recruit_character = P53_democratic_leader
 recruit_character = P53_neutrality_leader
 recruit_character = P53_fascism_leader
 
-#States to add to the integration array
+#Mittelafrika Initial States
+add_to_array = { pfp_mittelafrika_integration_array = 541 } #Khomas
+add_to_array = { pfp_mittelafrika_integration_array = 546 } #Tanganyika
+add_to_array = { pfp_mittelafrika_integration_array = 773 } #Cameroon
+add_to_array = { pfp_mittelafrika_integration_array = 893 } #Karas
+add_to_array = { pfp_mittelafrika_integration_array = 894 } #Kunene
+add_to_array = { pfp_mittelafrika_integration_array = 895 } #Otjozondjupa
+
+#Mittelafrika Territories 
 add_to_array = { pfp_mittelafrika_integration_array = 295 } #Leopoldville
 add_to_array = { pfp_mittelafrika_integration_array = 538 } #Coquilhatville
 add_to_array = { pfp_mittelafrika_integration_array = 539 } #Gabon
 add_to_array = { pfp_mittelafrika_integration_array = 540 } #Luanda
-add_to_array = { pfp_mittelafrika_integration_array = 541 } #Khomas
 add_to_array = { pfp_mittelafrika_integration_array = 544 } #Lourenço Marques
 add_to_array = { pfp_mittelafrika_integration_array = 545 } #Rhodesia
-add_to_array = { pfp_mittelafrika_integration_array = 546 } #Tanganyika
 add_to_array = { pfp_mittelafrika_integration_array = 660 } #Equatorial Africa
 add_to_array = { pfp_mittelafrika_integration_array = 718 } #Stanleyville
 add_to_array = { pfp_mittelafrika_integration_array = 768 } #Rwanda
@@ -109,18 +115,15 @@ add_to_array = { pfp_mittelafrika_integration_array = 769 } #Burundi
 add_to_array = { pfp_mittelafrika_integration_array = 770 } #Malawi
 add_to_array = { pfp_mittelafrika_integration_array = 771 } #Zambia
 add_to_array = { pfp_mittelafrika_integration_array = 772 } #Middle Congo
-add_to_array = { pfp_mittelafrika_integration_array = 773 } #Cameroon
 add_to_array = { pfp_mittelafrika_integration_array = 774 } #Chad
 add_to_array = { pfp_mittelafrika_integration_array = 775 } #B.E.T.
 add_to_array = { pfp_mittelafrika_integration_array = 775 } #B.E.T.
 add_to_array = { pfp_mittelafrika_integration_array = 777 } #Togo
 add_to_array = { pfp_mittelafrika_integration_array = 796 } #North Angola
+add_to_array = { pfp_mittelafrika_integration_array = 888 } #Lusambo
 add_to_array = { pfp_mittelafrika_integration_array = 889 } #Elisabethville
 add_to_array = { pfp_mittelafrika_integration_array = 890 } #Costermansville
 add_to_array = { pfp_mittelafrika_integration_array = 891 } #Zambesi
 add_to_array = { pfp_mittelafrika_integration_array = 892 } #South West Angola
-add_to_array = { pfp_mittelafrika_integration_array = 893 } #Karas
-add_to_array = { pfp_mittelafrika_integration_array = 894 } #Kunene
-add_to_array = { pfp_mittelafrika_integration_array = 895 } #Otjozondjupa
 add_to_array = { pfp_mittelafrika_integration_array = 896 } #Manica e Sofala
 add_to_array = { pfp_mittelafrika_integration_array = 897 } #Zambezia-Moçambique

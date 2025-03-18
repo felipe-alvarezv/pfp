@@ -93,13 +93,15 @@ recruit_character = P40_democratic_leader
 recruit_character = P40_neutrality_leader
 recruit_character = P40_fascism_leader
 
-#States to add to the integration array
-add_to_array = { pfp_southern_russia_integration_array = 137 } #Crimea
+#Southern Russia Initial Territories
 add_to_array = { pfp_southern_russia_integration_array = 217 } #Stalingrad
 add_to_array = { pfp_southern_russia_integration_array = 218 } #Rostov
-add_to_array = { pfp_southern_russia_integration_array = 234 } #Krasnodar
 add_to_array = { pfp_southern_russia_integration_array = 236 } #Astrakhan
 add_to_array = { pfp_southern_russia_integration_array = 237 } #Kalmykia
 add_to_array = { pfp_southern_russia_integration_array = 238 } #Volgodonsk
 add_to_array = { pfp_southern_russia_integration_array = 245 } #Millerovo
 add_to_array = { pfp_southern_russia_integration_array = 265 } #Mikhaylovka
+
+#Southern Russia Territories
+add_to_array = { pfp_southern_russia_integration_array = 137 } #Crimea
+add_to_array = { pfp_southern_russia_integration_array = 234 } #Krasnodar

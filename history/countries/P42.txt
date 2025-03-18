@@ -93,7 +93,7 @@ recruit_character = P42_democratic_leader
 recruit_character = P42_neutrality_leader
 recruit_character = P42_fascism_leader
 
-#States to add to the integration array
+#Volga Initial States
 add_to_array = { pfp_volga_integration_array = 239 } #Saratov
 add_to_array = { pfp_volga_integration_array = 249 } #Kazan
 add_to_array = { pfp_volga_integration_array = 250 } #Ulyanovsky
@@ -105,9 +105,11 @@ add_to_array = { pfp_volga_integration_array = 398 } #Perm
 add_to_array = { pfp_volga_integration_array = 399 } #Udmurtia
 add_to_array = { pfp_volga_integration_array = 400 } #Kirov
 add_to_array = { pfp_volga_integration_array = 401 } #Balkakovo
-add_to_array = { pfp_volga_integration_array = 573 } #Zlatoust
-add_to_array = { pfp_volga_integration_array = 582 } #Magnitogorsk
 add_to_array = { pfp_volga_integration_array = 625 } #Orenburg
 add_to_array = { pfp_volga_integration_array = 651 } #Ufa
 add_to_array = { pfp_volga_integration_array = 829 } #Engels-Marxstadt
 add_to_array = { pfp_volga_integration_array = 833 } #Mari El
+
+#Volga Territories
+add_to_array = { pfp_volga_integration_array = 573 } #Zlatoust
+add_to_array = { pfp_volga_integration_array = 582 } #Magnitogorsk
