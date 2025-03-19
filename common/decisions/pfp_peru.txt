@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = PRU #Peru
-				original_tag = P56 #PFP Peru
 			}
 		}
 		available = {

@@ -4,7 +4,6 @@ pfp_category = {
 			NOT = {
 				original_tag = IRE #Ireland
 				original_tag = NIR #Northern Ireland
-				original_tag = ireland #PFP Ireland
 			}
 		}
 		available = {

@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = SOV #Soviet Union
-				original_tag = P39 #PFP Central Russia
 			}
 		}
 		available = {

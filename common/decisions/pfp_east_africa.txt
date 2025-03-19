@@ -2,10 +2,17 @@ pfp_category = {
 	pfp_east_africa = {
 		allowed = {
 			NOT = {
+				original_tag = AFA #Aussa
+				original_tag = BEG #Benishangul-Gumuz
 				original_tag = ETH #Ethiopia
 				original_tag = ERI #Eritrea
+				original_tag = GBA #Gambela
+				original_tag = HAR #Harar
+				original_tag = ORO #Oromia
+				original_tag = QEM #Qemant
+				original_tag = SID #Sidamo
 				original_tag = SOM #Somalia
-				original_tag = P10 #PFP East Africa
+				original_tag = TIG #Tigray
 			}
 		}
 		available = {

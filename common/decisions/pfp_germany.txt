@@ -2,8 +2,19 @@ pfp_category = {
 	pfp_germany = {
 		allowed = {
 			NOT = {
+				original_tag = BAY #Bavaria
+				original_tag = DDR #East Germany
 				original_tag = GER #Germany
-				original_tag = P13 #PFP Germany
+				original_tag = HAN #Westphalia
+				original_tag = HES #Hesse
+				original_tag = MEK #Mecklenburg
+				original_tag = PRE #Prussia
+				original_tag = RHI #Rhine
+				original_tag = SAX #Saxony
+				original_tag = SHL #Schleswig-Holstein
+				original_tag = THU #Thuringia
+				original_tag = WGR #West Germany
+				original_tag = WUR #Baden-Wurttemberg
 			}
 		}
 		available = {

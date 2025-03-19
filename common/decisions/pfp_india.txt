@@ -2,8 +2,15 @@ pfp_category = {
 	pfp_india = {
 		allowed = {
 			NOT = {
+				original_tag = CIP #Central India
+				original_tag = HYD #Hyderabad
+				original_tag = KOL #Kolhapur and Deccan
+				original_tag = KHL #Khalistan
+				original_tag = MYS #Mysore
 				original_tag = RAJ #India
-				original_tag = P37 #India
+				original_tag = RAS #Madras
+				original_tag = RJP #Rajputana
+				original_tag = WIS #Western India
 			}
 		}
 		available = {

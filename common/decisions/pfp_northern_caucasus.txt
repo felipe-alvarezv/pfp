@@ -2,8 +2,12 @@ pfp_category = {
 	pfp_northern_caucasus = {
 		allowed = {
 			NOT = {
+				original_tag = CIN #Chechnya-Ingushetia
+				original_tag = DAG #Dagestan
+				original_tag = KUB #Kuban
+				original_tag = KBK #Kabardino-Balkaria
+				original_tag = NOA #North Ossetia-Alania
 				original_tag = SOV #Soviet Union
-				original_tag = P41 #Northern Caucasus
 			}
 		}
 		available = {

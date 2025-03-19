@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = CHL #Chile
-				original_tag = P54 #PFP Chile
 			}
 		}
 		available = {

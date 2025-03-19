@@ -2,8 +2,11 @@ pfp_category = {
 	pfp_prussia = {
 		allowed = {
 			NOT = {
+				original_tag = DDR #East Germany
 				original_tag = GER #Germany
-				original_tag = P33 #Prussia
+				original_tag = PRE #Prussia
+				original_tag = SIL #Silesia
+				original_tag = WGR #West Germany
 			}
 		}
 		available = {

@@ -1,7 +1,9 @@
 pfp_category = {
 	pfp_western_canada = {
 		allowed = {
-			NOT = { original_tag = CAN } #Canada
+			NOT = {
+				original_tag = CAN #Canada
+			}
 		}
 		available = {
 			is_subject = no

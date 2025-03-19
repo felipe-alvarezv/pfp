@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = FRA #France
-				original_tag = P62 #PFP Northern France
 			}
 		}
 		available = {

@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = MON #Mongolia
-				original_tag = P47 #PFP Mongolia
 			}
 		}
 		available = {

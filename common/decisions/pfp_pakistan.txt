@@ -2,8 +2,12 @@ pfp_category = {
 	pfp_pakistan = {
 		allowed = {
 			NOT = {
+				original_tag = BLC #Balochistan
+				original_tag = KHL #Khalistan
+				original_tag = KLT #Kalat
+				original_tag = NWF #North-Western Frontier
 				original_tag = PAK #Pakistan
-				original_tag = P75 #PFP Pakistan
+				original_tag = SIN #Sind
 			}
 		}
 		available = {

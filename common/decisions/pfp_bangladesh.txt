@@ -4,7 +4,7 @@ pfp_category = {
 			NOT = {
 				original_tag = BAN #Bangladesh
 				original_tag = PAK #Pakistan
-				original_tag = P38 #PFP Bangladesh
+				original_tag = RAJ #British Raj
 			}
 		}
 		available = {

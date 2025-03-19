@@ -2,8 +2,9 @@ pfp_category = {
 	pfp_northwestern_russia = {
 		allowed = {
 			NOT = {
+				original_tag = KOM #Komi
+				original_tag = NEN #Nenetsia
 				original_tag = SOV #Soviet Union
-				original_tag = P43 #Northwestern Russia
 			}
 		}
 		available = {

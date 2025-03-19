@@ -8,7 +8,6 @@ pfp_category = {
 				original_tag = HON #Honduras
 				original_tag = NIC #Nicaragua
 				original_tag = PAN #Panama
-				original_tag = P08 #PFP Central America
 			}
 		}
 		available = {

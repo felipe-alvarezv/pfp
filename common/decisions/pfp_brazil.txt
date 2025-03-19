@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = BRA #Brazil
-				original_tag = P57 #PFP Brazil
 			}
 		}
 		available = {

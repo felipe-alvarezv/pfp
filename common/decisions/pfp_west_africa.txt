@@ -1,7 +1,16 @@
 pfp_category = {
 	pfp_west_africa = {
 		allowed = {
-			NOT = { original_tag = LIB } #Liberia
+			NOT = { 
+				original_tag = DAH #Dahomey
+				original_tag = GNA #Guinea
+				original_tag = IVO #Ivory Coast
+				original_tag = MLI #Mali
+				original_tag = MRT #Mauritania
+				original_tag = NGR #Niger
+				original_tag = SEN #Senegal
+				original_tag = VOL #Upper Volta
+			}
 		}
 		available = {
 			is_subject = no

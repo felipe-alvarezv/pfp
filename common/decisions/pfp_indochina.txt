@@ -5,7 +5,6 @@ pfp_category = {
 				original_tag = CAM #Cambodia
 				original_tag = LAO #Laos
 				original_tag = VIN #Vietnam
-				original_tag = P16 #PFP Indochina
 			}
 		}
 		available = {

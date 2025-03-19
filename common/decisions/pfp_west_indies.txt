@@ -6,7 +6,6 @@ pfp_category = {
 				original_tag = DOM #Dominican Republic
 				original_tag = HAI #Haiti
 				original_tag = JAM #Jamaica
-				original_tag = P06 #PFP West Indies
 			}
 		}
 		available = {

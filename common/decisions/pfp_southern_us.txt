@@ -1,7 +1,10 @@
 pfp_category = {
 	pfp_southern_us = {
 		allowed = {
-			NOT = { original_tag = USA } #United States
+			NOT = {
+				original_tag = CSA #Confederate States 
+				original_tag = USA #United States
+			}
 		}
 		available = {
 			is_subject = no

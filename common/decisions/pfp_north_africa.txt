@@ -4,7 +4,6 @@ pfp_category = {
 			NOT = {
 				original_tag = EGY #Egypt
 				original_tag = LBA #Libya
-				original_tag = P30 #North Africa
 			}
 		}
 		available = {

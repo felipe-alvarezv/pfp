@@ -4,8 +4,15 @@ pfp_category = {
 			NOT = {
 				original_tag = DDR #East Germany
 				original_tag = GER #Germany
+				original_tag = HAN #Westphalia
+				original_tag = HES #Hesse
+				original_tag = MEK #Mecklenburg
+				original_tag = PRE #Prussia
+				original_tag = RHI #Rhine
+				original_tag = SAX #Saxony
+				original_tag = SHL #Schleswig-Holstein
+				original_tag = THU #Thuringia
 				original_tag = WGR #West Germany
-				original_tag = P19 #North Germany
 			}
 		}
 		available = {
@@ -60,11 +67,6 @@ pfp_category = {
 				tooltip = pfp_north_germany_required_states_vorpommern
 				has_full_control_of_state = 62 #Vorpommern
 			}
-			#Hinterpommern
-			custom_trigger_tooltip = {
-				tooltip = pfp_north_germany_required_states_hinterpommern
-				has_full_control_of_state = 63 #Hinterpommern
-			}
 			#Brandenburg
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_brandenburg
@@ -74,21 +76,6 @@ pfp_category = {
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_sachsen
 				has_full_control_of_state = 65 #Sachsen
-			}
-			#Niederschlesien
-			custom_trigger_tooltip = {
-				tooltip = pfp_north_germany_required_states_niederschlesien
-				has_full_control_of_state = 66 #Niederschlesien
-			}
-			#Oberschlesien
-			custom_trigger_tooltip = {
-				tooltip = pfp_north_germany_required_states_oberschlesien
-				has_full_control_of_state = 67 #Oberschlesien
-			}
-			#Ostmark
-			custom_trigger_tooltip = {
-				tooltip = pfp_north_germany_required_states_ostmark
-				has_full_control_of_state = 68 #Ostmark
 			}
 		}
 		visible = {
@@ -107,12 +94,8 @@ pfp_category = {
 				state = 60 #Thuringen
 				state = 61 #Mecklengburg
 				state = 62 #Vorpommern
-				state = 63 #Hinterpommern
 				state = 64 #Brandenburg
 				state = 65 #Sachsen
-				state = 66 #Niederschlesien
-				state = 67 #Oberschlesien
-				state = 68 #Ostmark
 			}
 		}
 		icon = generic_military

@@ -3,7 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = FRA #France
-				original_tag = P64 #PFP French Alps
+				original_tag = OCC #Occitania
 			}
 		}
 		available = {

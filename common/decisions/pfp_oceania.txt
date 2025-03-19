@@ -4,7 +4,6 @@ pfp_category = {
 			NOT = {
 				original_tag = AST #Australia
 				original_tag = NZL #New Zealand
-				original_tag = P27 #Oceania
 			}
 		}
 		available = {

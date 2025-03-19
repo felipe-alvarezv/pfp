@@ -3,8 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = TIB #Tibet
-				original_tag = NEP #Nepal
-				original_tag = P52 #PFP Himalayas
 			}
 		}
 		available = {

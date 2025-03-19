@@ -3,8 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = INS #Dutch East Indies
-				original_tag = MAL #Malaysia
-				original_tag = P17 #PFP Indonesia
 			}
 		}
 		available = {

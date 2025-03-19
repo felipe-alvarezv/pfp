@@ -4,9 +4,9 @@ pfp_category = {
 			NOT = {
 				original_tag = ISR #Israel
 				original_tag = JOR #Jordan
+				original_tag = LEB #Lebanon
 				original_tag = PAL #Palestine
 				original_tag = SYR #Syria
-				original_tag = P67 #PFP Levant
 			}
 		}
 		available = {

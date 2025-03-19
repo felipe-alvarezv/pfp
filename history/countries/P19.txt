@@ -104,15 +104,15 @@ add_to_array = { pfp_north_germany_integration_array = 59 } #Hannover
 add_to_array = { pfp_north_germany_integration_array = 60 } #Thuringen
 add_to_array = { pfp_north_germany_integration_array = 61 } #Mecklenburg
 add_to_array = { pfp_north_germany_integration_array = 62 } #Vorpommern
-add_to_array = { pfp_north_germany_integration_array = 63 } #Hinterpommern
 add_to_array = { pfp_north_germany_integration_array = 64 } #Brandeburg
 add_to_array = { pfp_north_germany_integration_array = 65 } #Sachsen
-add_to_array = { pfp_north_germany_integration_array = 66 } #Niederschlesien
-add_to_array = { pfp_north_germany_integration_array = 67 } #Oberschlesien
-add_to_array = { pfp_north_germany_integration_array = 68 } #Ostmark
 
 #North Germany Territories
 add_to_array = { pfp_north_germany_integration_array = 5 } #Ermland-Masuren
+add_to_array = { pfp_north_germany_integration_array = 63 } #Hinterpommern
+add_to_array = { pfp_north_germany_integration_array = 66 } #Niederschlesien
+add_to_array = { pfp_north_germany_integration_array = 67 } #Oberschlesien
+add_to_array = { pfp_north_germany_integration_array = 68 } #Ostmark
 add_to_array = { pfp_north_germany_integration_array = 85 } #Danzig
 add_to_array = { pfp_north_germany_integration_array = 86 } #Poznan
 add_to_array = { pfp_north_germany_integration_array = 188 } #Memel

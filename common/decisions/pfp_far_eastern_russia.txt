@@ -2,8 +2,11 @@ pfp_category = {
 	pfp_far_eastern_russia = {
 		allowed = {
 			NOT = {
+				original_tag = CKK #Chukotka
+				original_tag = FER #Far Eastern Republic
 				original_tag = SOV #Soviet Union
-				original_tag = P46 #PFP Far Eastern Russia
+				original_tag = VLA #Vladivostok
+				original_tag = YAK #Sakha
 			}
 		}
 		available = {

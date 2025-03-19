@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = KOR #Korea
-				original_tag = P72 #PFP Korea
 			}
 		}
 		available = {

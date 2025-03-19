@@ -4,7 +4,6 @@ pfp_category = {
 			NOT = {
 				original_tag = EST #Estonia
 				original_tag = LAT #Latvia
-				original_tag = P04 #PFP Baltic
 			}
 		}
 		available = {

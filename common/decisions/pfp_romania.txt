@@ -3,7 +3,6 @@ pfp_category = {
         allowed = {
             NOT = {
                 original_tag = ROM #Romania
-                original_tag = P79 #PFP Romania
             }
         }
         available = {

@@ -3,10 +3,9 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = DEN #Denmark
-				original_tag = ICE #Iceland
 				original_tag = NOR #Norway
+				original_tag = SMI #Sapmi
 				original_tag = SWE #Sweden
-				original_tag = P24 #Scandinavia
 			}
 		}
 		available = {

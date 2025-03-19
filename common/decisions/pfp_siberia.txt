@@ -2,8 +2,12 @@ pfp_category = {
 	pfp_siberia = {
 		allowed = {
 			NOT = {
+				original_tag = ALT #Altai
+				original_tag = BYA #Buryatia
+				original_tag = EVE #Evenkia
+				original_tag = KHA #Khakassia
 				original_tag = SOV #Soviet Union
-				original_tag = P45 #Siberia
+				original_tag = TAY #Taymyria
 			}
 		}
 		available = {

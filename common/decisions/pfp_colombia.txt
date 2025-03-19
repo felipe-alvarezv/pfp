@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = COL #Colombia
-				original_tag = P01 #PFP Colombia
 			}
 		}
 		available = {

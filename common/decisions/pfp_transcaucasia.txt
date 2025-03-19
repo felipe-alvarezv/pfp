@@ -1,7 +1,13 @@
 pfp_category = {
 	pfp_transcaucasia = {
 		allowed = {
-			NOT = { original_tag = SOV } #Soviet Union
+			NOT = { 
+				original_tag = ABK #Abkhazia
+				original_tag = ARM #Armenia
+				original_tag = AZR #Azerbaijan
+				original_tag = GEO #Georgia
+				original_tag = SOV #Soviet Union
+			}
 		}
 		available = {
 			is_subject = no

@@ -4,8 +4,11 @@ pfp_category = {
 			NOT = {
 				original_tag = DDR #East Germany
 				original_tag = GER #Germany
+				original_tag = MEK #Mecklenburg
+				original_tag = PRE #Prussia
+				original_tag = SAX #Saxony
+				original_tag = THU #Thuringia
 				original_tag = WGR #West Germany
-				original_tag = P32 #PFP East Germany
 			}
 		}
 		available = {

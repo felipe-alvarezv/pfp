@@ -5,7 +5,6 @@ pfp_category = {
 				original_tag = CMR #Cameroon
 				original_tag = NMB #Namibia
 				original_tag = TZN #Tanganyika
-				original_tag = P53 #PFP Mittelafrika
 			}
 		}
 		available = {

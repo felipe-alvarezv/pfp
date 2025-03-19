@@ -1,7 +1,11 @@
 pfp_category = {
 	pfp_southern_russia = {
 		allowed = {
-			NOT = { original_tag = SOV } #Soviet Union
+			NOT = { 
+				original_tag = DON #Don Cossack
+				original_tag = KAL #Kalmykia
+				original_tag = SOV #Soviet Union
+			}
 		}
 		available = {
 			is_subject = no

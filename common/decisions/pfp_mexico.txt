@@ -3,7 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = MEX #Mexico
-				original_tag = P58 #PFP Mexico
+				original_tag = YUC #Yucatan
 			}
 		}
 		available = {

@@ -3,7 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = P55 #PFP Argentina
+				original_tag = WLA #Y Wladychfa Gymreig
 			}
 		}
 		available = {

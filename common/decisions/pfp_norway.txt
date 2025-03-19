@@ -3,7 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = NOR #Norway
-				original_tag = P65 #PFP Norway
+				original_tag = SMI #Sapmi
 			}
 		}
 		available = {

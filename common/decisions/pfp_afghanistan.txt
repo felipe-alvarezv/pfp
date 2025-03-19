@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = AFG #Afghanistan
-				original_tag = P76 #PFP Afghanistan
 			}
 		}
 		available = {
