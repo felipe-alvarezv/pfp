@@ -75,7 +75,17 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 408 #Vladivostok
+				has_full_control_of_state = 409 #Khabarovsk
+				has_full_control_of_state = 560 #Nikolayevsk
 				has_full_control_of_state = 561 #Amur
+				has_full_control_of_state = 562 #Okhotsk
+				has_full_control_of_state = 574 #Yakutsk
+				has_full_control_of_state = 637 #Kamchatka
+				has_full_control_of_state = 644 #Kolyma
+				has_full_control_of_state = 657 #Birobidzhan
+				has_full_control_of_state = 822 #Chukotka
+				has_full_control_of_state = 874 #Magadan
+				has_full_control_of_state = 877 #Verkhoyansk
 			}
 			NOT = { has_global_flag = pfp_far_eastern_russia_flag }
 		}

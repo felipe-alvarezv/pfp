@@ -123,11 +123,27 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 102 #Akhtubinsk
+				has_full_control_of_state = 404 #Kyzyl Orda
 				has_full_control_of_state = 405 #Tashkent
+				has_full_control_of_state = 406 #Guryev
+				has_full_control_of_state = 407 #Ural'sk
+				has_full_control_of_state = 583 #Kostanay
 				has_full_control_of_state = 584 #Ashkhabad
+				has_full_control_of_state = 585 #Navoi
+				has_full_control_of_state = 586 #Alma-Ata
+				has_full_control_of_state = 587 #Ust Urt
+				has_full_control_of_state = 588 #Semipalatinsk
+				has_full_control_of_state = 589 #Ayaguz
 				has_full_control_of_state = 590 #Akmolinsk
 				has_full_control_of_state = 732 #Pamir
 				has_full_control_of_state = 742 #Stalinabad
+				has_full_control_of_state = 823 #Karakalpakstan
+				has_full_control_of_state = 830 #Bukhara
+				has_full_control_of_state = 831 #Khiva
+				has_full_control_of_state = 832 #Tashauz
+				has_full_control_of_state = 881 #Karagandy
+				has_full_control_of_state = 882 #Pavlodar
 			}
 			NOT = { has_global_flag = pfp_turkestan_flag }
 		}

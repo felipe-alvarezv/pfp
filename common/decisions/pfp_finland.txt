@@ -57,7 +57,14 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 111 #Uusimaa
+				has_full_control_of_state = 148 #Lappi
+				has_full_control_of_state = 149 #Vaasa
 				has_full_control_of_state = 150 #Kuopio
+				has_full_control_of_state = 926 #Turku
+				has_full_control_of_state = 927 #Hame
+				has_full_control_of_state = 928 #Kymi
+				has_full_control_of_state = 929 #Oulu
+				has_full_control_of_state = 930 #Mikkeli
 			}
 			NOT = { has_global_flag = pfp_finland_flag }
 		}

@@ -48,6 +48,10 @@ pfp_category = {
 				has_full_control_of_state = 467 #Manitoba
 				has_full_control_of_state = 469 #Saskatchewan
 				has_full_control_of_state = 470 #Alberta
+				has_full_control_of_state = 472 #Northwest Territories
+				has_full_control_of_state = 683 #Nunavut
+				has_full_control_of_state = 865 #Northern Saskatchewan
+				has_full_control_of_state = 867 #Northern Manitoba
 			}
 			NOT = { has_global_flag = pfp_western_canada_flag }
 		}

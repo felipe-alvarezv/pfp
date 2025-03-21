@@ -125,8 +125,29 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 280 #Mato Grosso
+				has_full_control_of_state = 495 #Amazonas
+				has_full_control_of_state = 496 #Minais Gerais
+				has_full_control_of_state = 497 #Maranhao
+				has_full_control_of_state = 498 #Rio Grande do Norte
+				has_full_control_of_state = 499 #Bahia
 				has_full_control_of_state = 500 #Rio de Janeiro
 				has_full_control_of_state = 501 #Sao Paulo
+				has_full_control_of_state = 502 #Rio Grande do Sul
+				has_full_control_of_state = 503 #Santa Catarina
+				has_full_control_of_state = 504 #Punta Pora
+				has_full_control_of_state = 505 #Goias
+				has_full_control_of_state = 935 #Ceara
+				has_full_control_of_state = 936 #Pernambuco
+				has_full_control_of_state = 937 #Piaui
+				has_full_control_of_state = 938 #Para
+				has_full_control_of_state = 939 #Amapa
+				has_full_control_of_state = 940 #Acre
+				has_full_control_of_state = 941 #Tocatins
+				has_full_control_of_state = 942 #Guapore
+				has_full_control_of_state = 943 #Espirito Santo
+				has_full_control_of_state = 944 #Parana
+				has_full_control_of_state = 969 #Rio Branco
 			}
 			NOT = { has_global_flag = pfp_brazil_flag }
 		}

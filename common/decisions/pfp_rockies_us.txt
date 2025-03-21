@@ -51,10 +51,14 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 376 #New Mexico
+				has_full_control_of_state = 377 #Arizona
 				has_full_control_of_state = 379 #Nevada
 				has_full_control_of_state = 380 #Utah
+				has_full_control_of_state = 381 #Wyoming
 				has_full_control_of_state = 382 #Colorado
 				has_full_control_of_state = 388 #Montana
+				has_full_control_of_state = 387 #Idaho
 			}
 			NOT = { has_global_flag = pfp_rockies_us_flag }
 		}

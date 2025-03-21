@@ -77,9 +77,18 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 277 #Mexico City
+				has_full_control_of_state = 474 #Yucatan
+				has_full_control_of_state = 475 #Chiapas
+				has_full_control_of_state = 476 #Oaxaca
 				has_full_control_of_state = 477 #Veracruz
+				has_full_control_of_state = 478 #Jalisco
 				has_full_control_of_state = 479 #Tamaulipas
 				has_full_control_of_state = 480 #Coahuila
+				has_full_control_of_state = 481 #Durango
+				has_full_control_of_state = 482 #Chihuahua
+				has_full_control_of_state = 483 #Sonora
+				has_full_control_of_state = 484 #Baja California
+				has_full_control_of_state = 485 #Guerrero
 			}
 			NOT = { has_global_flag = pfp_mexico_flag }
 		}

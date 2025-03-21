@@ -51,6 +51,11 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 49 #Ankara
+				has_full_control_of_state = 343 #Afyon
+				has_full_control_of_state = 346 #Konya
+				has_full_control_of_state = 348 #Kayseri
+				has_full_control_of_state = 349 #Sivas
+				has_full_control_of_state = 355 #Samsun
 				has_full_control_of_state = 356 #Kastamonu
 				has_full_control_of_state = 798 #Amasya
 			}

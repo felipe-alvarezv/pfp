@@ -93,6 +93,17 @@ pfp_category = {
 				has_full_control_of_state = 271 #Shewa
 				has_full_control_of_state = 550 #Eritrea
 				has_full_control_of_state = 559 #Somaliland
+				has_full_control_of_state = 835 #Hararghe
+				has_full_control_of_state = 836 #Bale
+				has_full_control_of_state = 837 #Sidamo
+				has_full_control_of_state = 838 #Illubabor-Kaffa
+				has_full_control_of_state = 839 #Welega
+				has_full_control_of_state = 840 #Gojjam
+				has_full_control_of_state = 841 #Begemender
+				has_full_control_of_state = 842 #Tigray
+				has_full_control_of_state = 843 #Wello
+				has_full_control_of_state = 844 #Jubaland
+				has_full_control_of_state = 908 #Afar
 			}
 			NOT = { has_global_flag = pfp_east_africa_flag }
 		}

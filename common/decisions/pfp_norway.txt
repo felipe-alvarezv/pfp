@@ -63,6 +63,14 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 110 #Oslofjord
 				has_full_control_of_state = 142 #Vestlandet
+				has_full_control_of_state = 143 #Trondelag
+				has_full_control_of_state = 144 #Nordland
+				has_full_control_of_state = 920 #Opplandene
+				has_full_control_of_state = 921 #Telemark
+				has_full_control_of_state = 922 #Agder
+				has_full_control_of_state = 923 #Helgeland
+				has_full_control_of_state = 924 #Troms
+				has_full_control_of_state = 925 #Finnmark
 			}
 			NOT = { has_global_flag = pfp_norway_flag }
 		}

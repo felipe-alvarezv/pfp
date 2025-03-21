@@ -49,6 +49,11 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 217 #Stalingrad
 				has_full_control_of_state = 218 #Rostov
+				has_full_control_of_state = 236 #Astrakhan
+				has_full_control_of_state = 237 #Kalmykia
+				has_full_control_of_state = 238 #Volgodonsk
+				has_full_control_of_state = 245 #Millerovo
+				has_full_control_of_state = 265 #Mikhaylovka
 			}
 			NOT = { has_global_flag = pfp_southern_russia_flag }
 		}

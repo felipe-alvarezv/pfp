@@ -26,6 +26,8 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 7 #Holland
+				has_full_control_of_state = 35 #Brabant
+				has_full_control_of_state = 36 #Friesland
 			}
 			NOT = { has_global_flag = pfp_netherlands_flag }
 		}

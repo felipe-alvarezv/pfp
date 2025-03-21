@@ -81,7 +81,19 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 273 #Libyan Desert
+				has_full_control_of_state = 447 #Alexandria
 				has_full_control_of_state = 448 #Tripoli
+				has_full_control_of_state = 449 #El Agheila
+				has_full_control_of_state = 450 #Benghasi
+				has_full_control_of_state = 451 #Derna
+				has_full_control_of_state = 452 #Matrouh
+				has_full_control_of_state = 456 #Aswan
+				has_full_control_of_state = 457 #Eastern Desert
+				has_full_control_of_state = 552 #Western Desert
+				has_full_control_of_state = 661 #Tripolitania
+				has_full_control_of_state = 662 #Sirte
+				has_full_control_of_state = 663 #Cyrenaica
 				has_full_control_of_state = 907 #Cairo
 			}
 			NOT = { has_global_flag = pfp_north_africa_flag }

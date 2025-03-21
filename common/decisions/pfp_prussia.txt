@@ -54,7 +54,13 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 5 #Ermland-Masuren
+				has_full_control_of_state = 62 #Vorpommern
+				has_full_control_of_state = 63 #Hinterpommern
 				has_full_control_of_state = 64 #Brandenburg
+				has_full_control_of_state = 66 #Niederschlesien
+				has_full_control_of_state = 67 #Oberschlesien
+				has_full_control_of_state = 68 #Ostmark
 				has_full_control_of_state = 763 #Konigsberg
 			}
 			NOT = { has_global_flag = pfp_prussia_flag }

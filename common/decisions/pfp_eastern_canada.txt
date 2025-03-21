@@ -27,6 +27,7 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 276 #Southern Ontario
 				has_full_control_of_state = 682 #Northern Ontario
+				has_full_control_of_state = 866 #Districts of Ontario
 			}
 			NOT = { has_global_flag = pfp_eastern_canada_flag }
 		}

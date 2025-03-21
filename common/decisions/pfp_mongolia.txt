@@ -34,7 +34,13 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 330 #Ulaanbaatar
+			OR = {
+				has_full_control_of_state = 330 #Ulaanbaatar
+				has_full_control_of_state = 817 #Gobi
+				has_full_control_of_state = 818 #Khovd
+				has_full_control_of_state = 819 #Dornod
+				has_full_control_of_state = 820 #Khovsgol
+			}
 			NOT = { has_global_flag = pfp_mongolia_flag }
 		}
 		highlight_states = {

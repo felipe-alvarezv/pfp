@@ -34,6 +34,7 @@ pfp_category = {
 				has_full_control_of_state = 275 #Transvaal
 				has_full_control_of_state = 542 #Bechuanaland
 				has_full_control_of_state = 681 #Cape
+				has_full_control_of_state = 719 #Natal
 			}
 			NOT = { has_global_flag = pfp_south_africa_flag }
 		}

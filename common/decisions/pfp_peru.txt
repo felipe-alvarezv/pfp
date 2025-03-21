@@ -31,7 +31,9 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 303 #Lima
+				has_full_control_of_state = 491 #Loreto
 				has_full_control_of_state = 492 #Arequipa
+				has_full_control_of_state = 494 #Ucayali
 
 			}
 			NOT = { has_global_flag = pfp_peru_flag }

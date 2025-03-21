@@ -83,7 +83,19 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 195 #Leningrad
+				has_full_control_of_state = 208 #Luga
+				has_full_control_of_state = 209 #Pksov
+				has_full_control_of_state = 210 #Nevel
 				has_full_control_of_state = 214 #Arkhangelsk
+				has_full_control_of_state = 244 #Volkhov
+				has_full_control_of_state = 262 #Pechora
+				has_full_control_of_state = 263 #Novgorod
+				has_full_control_of_state = 264 #Tikhvin
+				has_full_control_of_state = 351 #Vologda
+				has_full_control_of_state = 397 #Syktyvkar
+				has_full_control_of_state = 825 #Nenets
+				has_full_control_of_state = 879 #Kargopol
+				has_full_control_of_state = 880 #Kotlas
 			}
 			NOT = { has_global_flag = pfp_northwestern_russia_flag }
 		}

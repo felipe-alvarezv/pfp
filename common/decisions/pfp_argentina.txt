@@ -48,6 +48,11 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 278 #Buenos Aires
 				has_full_control_of_state = 508 #Tucuman
+				has_full_control_of_state = 509 #Chaco Austral
+				has_full_control_of_state = 510 #Region Mesopotamica
+				has_full_control_of_state = 956 #Santa Fe
+				has_full_control_of_state = 957 #Formosa
+				has_full_control_of_state = 959 #Los Andes
 			}
 			NOT = { has_global_flag = pfp_argentina_flag }
 		}

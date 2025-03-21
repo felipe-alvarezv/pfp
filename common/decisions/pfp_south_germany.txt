@@ -38,7 +38,10 @@ pfp_category = {
 			}
 		}
 		visible = {
+			has_full_control_of_state = 50 #Wurttemberg
 			has_full_control_of_state = 52 #Oberbayern
+			has_full_control_of_state = 53 #Niederbayern
+			has_full_control_of_state = 54 #Franken
 			has_full_control_of_state = 978 #Baden
 			NOT = { has_global_flag = pfp_south_germany_flag }
 		}

@@ -40,7 +40,13 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 64 #Brandenburg
+			OR = {
+				has_full_control_of_state = 60 #Thuringen
+				has_full_control_of_state = 61 #Mecklenburg
+				has_full_control_of_state = 62 #Vorpommern
+				has_full_control_of_state = 64 #Brandenburg
+				has_full_control_of_state = 65 #Sachsen
+			}
 			NOT = { has_global_flag = pfp_east_germany_flag }
 		}
 		highlight_states = {

@@ -24,7 +24,11 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 47 #Attica
+			OR = {
+				has_full_control_of_state = 47 #Attica
+				has_full_control_of_state = 185 #Epirus
+				has_full_control_of_state = 186 #Peloponnese
+			}
 			NOT = { has_global_flag = pfp_greece_flag }
 		}
 		highlight_states = {

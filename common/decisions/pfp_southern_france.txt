@@ -40,7 +40,14 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 26 #Auvergne
+			OR = {
+				has_full_control_of_state = 20 #Rhone
+				has_full_control_of_state = 22 #Languedoc
+				has_full_control_of_state = 25 #Limousin
+				has_full_control_of_state = 26 #Auvergne
+				has_full_control_of_state = 31 #Midi Pyrenees
+				has_full_control_of_state = 33 #Centre-Sud
+			}
 			NOT = { has_global_flag = pfp_southern_france_flag }
 		}
 		highlight_states = {

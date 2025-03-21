@@ -30,7 +30,12 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 21 #Bouches-Du-Rhone
+			OR = {
+				has_full_control_of_state = 21 #Bouches-Du-Rhone
+				has_full_control_of_state = 32 #Alpes
+				has_full_control_of_state = 735 #Savoy
+				has_full_control_of_state = 851 #Var
+			}
 			NOT = { has_global_flag = pfp_french_alps_flag }
 		}
 		highlight_states = {

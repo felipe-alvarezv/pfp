@@ -39,7 +39,14 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 16 #Ile de France
+			OR = {
+				has_full_control_of_state = 16 #Ile de France
+				has_full_control_of_state = 17 #Franche-Comte
+				has_full_control_of_state = 18 #Champagne
+				has_full_control_of_state = 24 #Centre
+				has_full_control_of_state = 27 #Bourgogne
+				has_full_control_of_state = 785 #Picardy
+			}
 			NOT = { has_global_flag = pfp_northern_france_flag }
 		}
 		highlight_states = {

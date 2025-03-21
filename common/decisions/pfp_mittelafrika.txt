@@ -46,6 +46,9 @@ pfp_category = {
 				has_full_control_of_state = 541 #Khomas
 				has_full_control_of_state = 546 #Tanganyika
 				has_full_control_of_state = 773 #Cameroon
+				has_full_control_of_state = 893 #Karas
+				has_full_control_of_state = 894 #Kunene
+				has_full_control_of_state = 895 #Otjozondjupa
 			}
 			NOT = { has_global_flag = pfp_mittelafrika_flag }
 		}
@@ -54,9 +57,9 @@ pfp_category = {
 				state = 541 #Khomas
 				state = 546 #Tanganyika
 				state = 773 #Cameroon
+				state = 893 #Karas
 				state = 894 #Kunene
 				state = 895 #Otjozondjupa
-				state = 893 #Karas
 			}
 		}
 		icon = generic_military

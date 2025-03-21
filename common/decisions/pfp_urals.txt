@@ -64,7 +64,15 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 403 #Tyumen
+				has_full_control_of_state = 572 #Chelyabinsk
+				has_full_control_of_state = 573 #Zlatoust
+				has_full_control_of_state = 577 #Surgut
+				has_full_control_of_state = 579 #Salekhard
+				has_full_control_of_state = 580 #Tobolsk
+				has_full_control_of_state = 581 #Northern Urals
+				has_full_control_of_state = 582 #Magnitogorsk
 				has_full_control_of_state = 653 #Sverdlovsk
+				has_full_control_of_state = 824 #Yamalia
 			}
 			NOT = { has_global_flag = pfp_urals_flag }
 		}

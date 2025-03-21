@@ -35,7 +35,13 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 10 #Warszawa
+			OR = {
+				has_full_control_of_state = 10 #Warszawa
+				has_full_control_of_state = 87 #Lodz
+				has_full_control_of_state = 90 #Kielce
+				has_full_control_of_state = 92 #Lublin
+				has_full_control_of_state = 98 #Płock
+			}
 			NOT = { has_global_flag = pfp_poland_flag }
 		}
 		highlight_states = {

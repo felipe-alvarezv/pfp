@@ -71,9 +71,18 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 38 #Gavleborg
 				has_full_control_of_state = 138 #Skane
+				has_full_control_of_state = 139 #Smaland
 				has_full_control_of_state = 140 #Vastergotland
 				has_full_control_of_state = 141 #Sodermanland
+				has_full_control_of_state = 666 #Norbotten
+				has_full_control_of_state = 913 #Ostergotland
+				has_full_control_of_state = 915 #Bohuslan
+				has_full_control_of_state = 916 #Dalarna
+				has_full_control_of_state = 917 #Jamtland
+				has_full_control_of_state = 918 #Vasterbotten
+				has_full_control_of_state = 919 #Varmland
 			}
 			NOT = { has_global_flag = pfp_sweden_flag }
 		}

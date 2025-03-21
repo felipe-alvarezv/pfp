@@ -61,8 +61,16 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 12 #Vidzeme
+				has_full_control_of_state = 13 #Parnu
+				has_full_control_of_state = 190 #Kurzeme
+				has_full_control_of_state = 191 #Tartu
 				has_full_control_of_state = 808 #Riga
+				has_full_control_of_state = 809 #Zemgale
+				has_full_control_of_state = 810 #Latgale
+				has_full_control_of_state = 811 #Saaremaa
 				has_full_control_of_state = 812 #Harju
+				has_full_control_of_state = 813 #Virumaa
 			}
 			NOT = { has_global_flag = pfp_baltic_flag }
 		}

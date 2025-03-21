@@ -143,8 +143,28 @@ pfp_category = {
 				has_full_control_of_state = 41 #Madrid
 				has_full_control_of_state = 112 #Lisbon
 				has_full_control_of_state = 165 #Cataluna
+				has_full_control_of_state = 166 #Western Aragon
+				has_full_control_of_state = 167 #Valencia
+				has_full_control_of_state = 168 #Murcia
+				has_full_control_of_state = 169 #Sevilla
+				has_full_control_of_state = 170 #Extremadura
 				has_full_control_of_state = 171 #Galicia
+				has_full_control_of_state = 172 #Navarra
+				has_full_control_of_state = 173 #Granada
+				has_full_control_of_state = 174 #Leon
+				has_full_control_of_state = 175 #Ciudad Real
+				has_full_control_of_state = 176 #Burgos
+				has_full_control_of_state = 179 #Beja
+				has_full_control_of_state = 180 #Porto
+				has_full_control_of_state = 181 #Guarda
+				has_full_control_of_state = 788 #Salamanca
+				has_full_control_of_state = 789 #Cordoba
+				has_full_control_of_state = 790 #Asturias
+				has_full_control_of_state = 791 #Valladolid
 				has_full_control_of_state = 792 #Pais Vasco
+				has_full_control_of_state = 793 #Guadalajara
+				has_full_control_of_state = 794 #Eastern Aragon
+				has_full_control_of_state = 795 #Santarem
 			}
 			NOT = { has_global_flag = pfp_iberia_flag }
 		}

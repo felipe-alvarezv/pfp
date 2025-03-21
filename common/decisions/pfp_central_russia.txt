@@ -84,7 +84,23 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 219 #Moscow
+			OR = {
+				has_full_control_of_state = 205 #Kaluga
+				has_full_control_of_state = 219 #Moscow
+				has_full_control_of_state = 220 #Kursk
+				has_full_control_of_state = 222 #Orel
+				has_full_control_of_state = 223 #Tula
+				has_full_control_of_state = 224 #Bryansk
+				has_full_control_of_state = 240 #Belgorod
+				has_full_control_of_state = 246 #Rzhev
+				has_full_control_of_state = 247 #Kalinin
+				has_full_control_of_state = 248 #Yaroslavl
+				has_full_control_of_state = 253 #Ivanovo
+				has_full_control_of_state = 254 #Ryazan
+				has_full_control_of_state = 257 #Tambov
+				has_full_control_of_state = 258 #Lipetsk
+				has_full_control_of_state = 260 #Voronezh
+			}
 			NOT = { has_global_flag = pfp_central_russia_flag }
 		}
 		highlight_states = {

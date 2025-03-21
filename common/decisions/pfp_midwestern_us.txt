@@ -72,6 +72,15 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 261 #Ohio
+				has_full_control_of_state = 373 #Missouri
+				has_full_control_of_state = 383 #Kansas
+				has_full_control_of_state = 384 #Nebraska
+				has_full_control_of_state = 389 #North Dakota
+				has_full_control_of_state = 390 #South Dakota
+				has_full_control_of_state = 391 #Minnesota
+				has_full_control_of_state = 392 #Iowa
+				has_full_control_of_state = 393 #Michigan
+				has_full_control_of_state = 394 #Wisconsin
 				has_full_control_of_state = 395 #Illinois
 				has_full_control_of_state = 396 #Indiana
 			}

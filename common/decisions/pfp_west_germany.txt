@@ -77,8 +77,20 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 51 #Rhineland
-			has_full_control_of_state = 978 #Baden
+			OR = {
+				has_full_control_of_state = 42 #Moselland
+				has_full_control_of_state = 50 #Wurttemberg
+				has_full_control_of_state = 51 #Rhineland
+				has_full_control_of_state = 52 #Oberbayern
+				has_full_control_of_state = 53 #Niederbayern
+				has_full_control_of_state = 54 #Franken
+				has_full_control_of_state = 55 #Hessen
+				has_full_control_of_state = 56 #Weser-Ems
+				has_full_control_of_state = 57 #Westfalen
+				has_full_control_of_state = 58 #Holstein
+				has_full_control_of_state = 59 #Hannover
+				has_full_control_of_state = 978 #Baden
+			}
 			NOT = { has_global_flag = pfp_west_germany_flag }
 		}
 		highlight_states = {

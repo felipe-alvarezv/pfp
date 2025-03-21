@@ -26,6 +26,7 @@ pfp_category = {
 		visible = {
 			OR = { 
 				has_full_control_of_state = 306 #Cundinamarca
+				has_full_control_of_state = 486 #Meta
 				has_full_control_of_state = 493 #La Libertad
 			}
 			NOT = { has_global_flag = pfp_colombia_flag }

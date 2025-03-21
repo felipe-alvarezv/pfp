@@ -81,13 +81,26 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 285 #New South Wales
 				has_full_control_of_state = 284 #North Island
+				has_full_control_of_state = 285 #New South Wales
+				has_full_control_of_state = 517 #Victoria
+				has_full_control_of_state = 518 #Tasmania
+				has_full_control_of_state = 519 #South Australia
+				has_full_control_of_state = 520 #Northern Territory
+				has_full_control_of_state = 521 #Queensland
+				has_full_control_of_state = 522 #West Australia
+				has_full_control_of_state = 674 #Central Australia
+				has_full_control_of_state = 723 #South Island
+				has_full_control_of_state = 870 #North West Australia
+				has_full_control_of_state = 871 #South West Australia
+				has_full_control_of_state = 872 #North Queensland
+				has_full_control_of_state = 873 #South West Queensland
 			}
 			NOT = { has_global_flag = pfp_oceania_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { 
+			highlight_state_targets = {
+				state = 284 #North Island
 				state = 285 #New South Wales
 				state = 517 #Victoria
 				state = 518 #Tasmania
@@ -96,12 +109,11 @@ pfp_category = {
 				state = 521 #Queensland
 				state = 522 #West Australia
 				state = 674 #Central Australia
+				state = 723 #South Island
 				state = 870 #North West Australia
 				state = 871 #South West Australia
 				state = 872 #North Queensland
-				state = 873 #South West Queensland
-				state = 284 #North Island
-				state = 723 #South Island
+				state = 873 #South West Queensland	
 			}
 		}
 		icon = generic_military

@@ -77,9 +77,18 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 362 #Virginia
+				has_full_control_of_state = 363 #North Carolina
+				has_full_control_of_state = 364 #South Carolina
 				has_full_control_of_state = 365 #Georgia
 				has_full_control_of_state = 366 #Florida
+				has_full_control_of_state = 367 #Alabama
+				has_full_control_of_state = 368 #Tennessee
+				has_full_control_of_state = 369 #Kentucky
+				has_full_control_of_state = 370 #Mississippi
 				has_full_control_of_state = 371 #Louisiana
+				has_full_control_of_state = 372 #Arkansas
+				has_full_control_of_state = 374 #Oklahoma
+				has_full_control_of_state = 375 #Texas
 			}
 			NOT = { has_global_flag = pfp_southern_us_flag }
 		}

@@ -43,6 +43,10 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 466 #Nord du Quebec
 				has_full_control_of_state = 468 #Saint Lawrence
+				has_full_control_of_state = 860 #Cote-Nord
+				has_full_control_of_state = 861 #Saguenay
+				has_full_control_of_state = 862 #Ouest du Quebec
+				has_full_control_of_state = 863 #Maurice
 			}
 			NOT = { has_global_flag = pfp_quebec_flag }
 		}

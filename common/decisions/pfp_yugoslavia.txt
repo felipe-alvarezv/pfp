@@ -36,10 +36,11 @@ pfp_category = {
         }
         visible = {
             OR = {
-                has_full_control_of_state = 104 #Bosnia
-                has_full_control_of_state = 102 #North Slovenia
+                has_full_control_of_state = 45 #Vojvodina
+                has_full_control_of_state = 105 #Montenegro
                 has_full_control_of_state = 107 #Serbia
-                has_full_control_of_state = 109 #Croatia
+                has_full_control_of_state = 108 #Morava
+                has_full_control_of_state = 764 #West Banat
             }
             NOT = { has_global_flag = pfp_yugoslavia_flag }
         }

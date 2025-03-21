@@ -83,8 +83,18 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 272 #Senegal
+				has_full_control_of_state = 515 #Southern Sahara
 				has_full_control_of_state = 556 #Bamako
+				has_full_control_of_state = 557 #Mauritania
+				has_full_control_of_state = 776 #Dahomey
+				has_full_control_of_state = 778 #Upper Volta
 				has_full_control_of_state = 779 #Ivory Coast
+				has_full_control_of_state = 780 #Guinea
+				has_full_control_of_state = 781 #Niger
+				has_full_control_of_state = 782 #Tombouctou
+				has_full_control_of_state = 786 #Mauritanian Desert
+				has_full_control_of_state = 898 #Gao
+				has_full_control_of_state = 899 #Kayues-Koulikoro
 			}
 			NOT = { has_global_flag = pfp_west_africa_flag }
 		}
@@ -93,16 +103,16 @@ pfp_category = {
 				state = 272 #Senegal
 				state = 515 #Southern Sahara
 				state = 556 #Bamako
+				state = 557 #Mauritania
 				state = 776 #Dahomey
 				state = 778 #Upper Volta
 				state = 779 #Ivory Coast
 				state = 780 #Guinea
 				state = 781 #Niger
 				state = 782 #Tombouctou
+				state = 786 #Mauritanian Desert
 				state = 898 #Gao
 				state = 899 #Kayues-Koulikoro
-				state = 557 #Mauritania
-				state = 786 #Mauritanian Desert
 			}
 		}
 		icon = generic_military

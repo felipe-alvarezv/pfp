@@ -45,13 +45,17 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 232 #Dagestan
 				has_full_control_of_state = 233 #Sochi
 				has_full_control_of_state = 235 #Stavropol
+				has_full_control_of_state = 821 #Chechnya-Ingushetia
+				has_full_control_of_state = 827 #Kabardino-Balkaria
+				has_full_control_of_state = 828 #North Ossetia
 			}
 			NOT = { has_global_flag = pfp_northern_caucasus_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { 
+			highlight_state_targets = {
 				state = 232 #Dagestan
 				state = 233 #Sochi
 				state = 235 #Stavropol
