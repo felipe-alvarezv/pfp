@@ -25,7 +25,7 @@ pfp_release_north_africa = {
 		}
 
 		#Transfer all technology to formable puppet
-		P30 = { transfer_technology = yes }
+		P30 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_north_africa_flag

@@ -24,7 +24,7 @@ pfp_release_west_africa = {
 		}
 
 		#Transfer all technology to formable puppet
-		P35 = { transfer_technology = yes }
+		P35 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_west_africa_flag

@@ -17,7 +17,7 @@ pfp_release_pakistan = {
 		}
 
 		#Transfer all technology to formable puppet
-		P75 = { transfer_technology = yes }
+		P75 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_pakistan_flag

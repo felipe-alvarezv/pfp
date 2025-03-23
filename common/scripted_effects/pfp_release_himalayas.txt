@@ -14,7 +14,7 @@ pfp_release_himalayas = {
 		}
 
 		#Transfer all technology to formable puppet
-		P52 = { transfer_technology = yes }
+		P52 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_himalayas_flag

@@ -16,7 +16,7 @@ pfp_release_east_germany = {
 		}
 
 		#Transfer all technology to formable puppet
-		P32 = { transfer_technology = yes }
+		P32 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_east_germany_flag

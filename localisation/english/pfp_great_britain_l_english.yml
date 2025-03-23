@@ -1,6 +1,5 @@
 ﻿#Great Britain - P02 - Localisation
 l_english:
-  #Country Information
   P02_communism:0 "Great Britain"
   P02_communism_DEF:0 "Great Britain"
   P02_neutrality:1 "Great Britain"
@@ -16,8 +15,7 @@ l_english:
   P02:0 "Great Britain"
   P02_DEF:0 "Great Britain"
   P02_ADJ:0 "British"
-
-  #Decisions Localisation
+  
   pfp_great_britain:0 "Establish Military Administration in Great Britain"
   pfp_great_britain_required_states_scottish_highlands:0 "Controls §YScottish Highlands§!."
   pfp_great_britain_required_states_lothian:0 "Controls §YLothian§!."

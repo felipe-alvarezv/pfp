@@ -1,6 +1,5 @@
 ﻿#P52 - Himalayas - Localisation
 l_english:
-  #Country Information
   P52_communism:0 "Himalayas"
   P52_communism_DEF:0 "the Himalayas"
   P52_democratic:0 "Himalayas"
@@ -17,10 +16,6 @@ l_english:
   P52_DEF:0 "the Himalayas"
   P52_ADJ:0 "Himalayan"
 
-  #Subject of Germany
-  P52_GER_subject: "Himalaya"
-
-  #Decisions Localisation
   pfp_himalayas:0 "Establish Military Administration in the Himalayas"
   pfp_himalayas_required_states_nagqu:0 "Controls §YNagqu§!."
   pfp_himalayas_required_states_shigatse:0 "Controls §YShigatse§!."

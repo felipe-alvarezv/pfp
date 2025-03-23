@@ -19,7 +19,7 @@ pfp_release_turkey = {
 		}
 
 		#Transfer all technology to formable puppet
-		P68 = { transfer_technology = yes }
+		P68 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_turkey_flag

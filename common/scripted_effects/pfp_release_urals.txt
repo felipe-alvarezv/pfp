@@ -21,7 +21,7 @@ pfp_release_urals = {
 		}
 
 		#Transfer all technology to formable puppet
-		P44 = { transfer_technology = yes }
+		P44 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_urals_flag

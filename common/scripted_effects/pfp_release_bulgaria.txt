@@ -15,7 +15,7 @@ pfp_release_bulgaria = {
 		}
 
 		#Transfer all technology to formable puppet
-		P49 = { transfer_technology = yes }
+		P49 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_bulgaria_flag

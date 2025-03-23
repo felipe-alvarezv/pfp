@@ -24,7 +24,7 @@ pfp_release_southern_us = {
 		}
 
 		#Transfer all technology to formable puppet
-		P26 = { transfer_technology = yes }
+		P26 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_southern_us_flag

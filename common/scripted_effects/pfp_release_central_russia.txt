@@ -26,7 +26,7 @@ pfp_release_central_russia = {
 		}
 
 		#Transfer all technology to formable puppet
-		P39 = { transfer_technology = yes }
+		P39 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_central_russia_flag

@@ -17,7 +17,7 @@ pfp_release_northern_caucasus = {
 		}
 
 		#Transfer all technology to formable puppet
-		P41 = { transfer_technology = yes }
+		P41 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_northern_caucasus_flag

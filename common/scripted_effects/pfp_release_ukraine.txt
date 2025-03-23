@@ -20,7 +20,7 @@ pfp_release_ukraine = {
 		}
 
 		#Transfer all technology to formable puppet
-		P66 = { transfer_technology = yes }
+		P66 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_ukraine_flag

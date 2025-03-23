@@ -23,7 +23,7 @@ pfp_release_midwestern_us = {
 		}
 
 		#Transfer all technology to formable puppet
-		P18 = { transfer_technology = yes }
+		P18 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_midwestern_us_flag

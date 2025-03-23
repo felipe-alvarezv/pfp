@@ -13,7 +13,7 @@ pfp_release_czechia = {
 		}
 
 		#Transfer all technology to formable puppet
-		P59 = { transfer_technology = yes }
+		P59 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_czechia_flag

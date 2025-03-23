@@ -20,7 +20,7 @@ pfp_release_arabia = {
 		}
 
 		#Transfer all technology to formable puppet
-		P03 = { transfer_technology = yes }
+		P03 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_arabia_flag

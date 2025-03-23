@@ -25,7 +25,7 @@ pfp_release_northwestern_russia = {
 		}
 
 		#Transfer all technology to formable puppet
-		P43 = { transfer_technology = yes }
+		P43 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_northwestern_russia_flag

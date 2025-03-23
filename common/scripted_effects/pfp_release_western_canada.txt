@@ -18,7 +18,7 @@ pfp_release_western_canada = {
 		}
 
 		#Transfer all technology to formable puppet
-		P29 = { transfer_technology = yes }
+		P29 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_western_canada_flag

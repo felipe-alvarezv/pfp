@@ -15,7 +15,7 @@ pfp_release_french_alps = {
 		}
 
 		#Transfer all technology to formable puppet
-		P64 = { transfer_technology = yes }
+		P64 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_french_alps_flag

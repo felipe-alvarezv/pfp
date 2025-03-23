@@ -36,7 +36,7 @@ pfp_release_iberia = {
 		}
 
 		#Transfer all technology to formable puppet
-		P15 = { transfer_technology = yes }
+		P15 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_iberia_flag
