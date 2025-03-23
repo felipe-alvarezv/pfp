@@ -25,6 +25,6 @@ l_english:
  pfp_central_africa_required_states_lusambo:0 "Controls §YLusambo§!."
  pfp_central_africa_required_states_elisabethville:0 "Controls §YElisabethville§!."
  pfp_central_africa_required_states_costermansville:0 "Controls §YCostermansville§!."
- pfp_central_africa_claim_states:0 "§YCentral Africa§! gains claims on all listed states.\n"
+ pfp_central_africa_core_states:0 "§YCentral Africa§! gains cores on all listed states.\n"
  pfp_central_africa_transfer_states:0 "§YCentral Africa§! becomes owner and controller of all listed states.\n"
  pfp_central_africa_puppet:0 "§YCentral Africa§! becomes a puppet of §Y[Root.GetName]§!.\n"

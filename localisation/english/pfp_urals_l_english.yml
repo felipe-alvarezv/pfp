@@ -29,6 +29,6 @@ l_english:
  pfp_urals_required_states_magnitogorsk:0 "Controls §YMagnitogorsk§!."
  pfp_urals_required_states_sverdlovsk:0 "Controls §YSverdlovsk§!."
  pfp_urals_required_states_yamalia:0 "Controls §YYamalia§!."
- pfp_urals_claim_states:0 "§YUral§! gains claims on all listed states.\n"
+ pfp_urals_core_states:0 "§YUral§! gains cores on all listed states.\n"
  pfp_urals_transfer_states:0 "§YUral§! becomes owner and controller of all listed states.\n"
  pfp_urals_puppet:0 "§YUral§! becomes a puppet of §Y[Root.GetName]§!.\n"

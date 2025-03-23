@@ -92,7 +92,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_urals_claim_states
+			custom_effect_tooltip = pfp_urals_core_states
 			custom_effect_tooltip = pfp_urals_transfer_states
 			custom_effect_tooltip = pfp_urals_puppet
 

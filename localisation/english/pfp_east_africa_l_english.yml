@@ -33,6 +33,6 @@ l_english:
  pfp_east_africa_required_states_wello:0 "Controls §YWello§!."
  pfp_east_africa_required_states_jubaland:0 "Controls §YJubaland§!."
  pfp_east_africa_required_states_afar:0 "Controls §YAfar§!."
- pfp_east_africa_claim_states:0 "§YEast Africa§! gains claims on all listed states.\n"
+ pfp_east_africa_core_states:0 "§YEast Africa§! gains cores on all listed states.\n"
  pfp_east_africa_transfer_states:0 "§YEast Africa§! becomes owner and controller of all listed states.\n"
  pfp_east_africa_puppet:0 "§YEast Africa§! becomes a puppet of §Y[Root.GetName]§!.\n"

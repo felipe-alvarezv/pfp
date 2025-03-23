@@ -23,6 +23,6 @@ l_english:
  #Decisions Localisation
  pfp_bangladesh:0 "Establish Military Administration in Bangladesh"
  pfp_bangladesh_required_states_east_bengal:0 "Controls §YEast Bengal§!."
- pfp_bangladesh_claim_states:0 "§YBangladesh§! gains claims on all listed states.\n"
+ pfp_bangladesh_core_states:0 "§YBangladesh§! gains cores on all listed states.\n"
  pfp_bangladesh_transfer_states:0 "§YBangladesh§! becomes owner and controller of all listed states.\n"
  pfp_bangladesh_puppet:0 "§YBangladesh§! becomes a puppet of §Y[Root.GetName]§!.\n"

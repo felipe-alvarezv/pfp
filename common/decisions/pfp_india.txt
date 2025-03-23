@@ -153,7 +153,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_india_claim_states
+			custom_effect_tooltip = pfp_india_core_states
 			custom_effect_tooltip = pfp_india_transfer_states
 			custom_effect_tooltip = pfp_india_puppet
 

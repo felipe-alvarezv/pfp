@@ -27,6 +27,6 @@ l_english:
  pfp_turkey_required_states_samsun:0 "Controls §YSamsun§!."
  pfp_turkey_required_states_kastamonu:0 "Controls §YKastamonu§!."
  pfp_turkey_required_states_amasya:0 "Controls §YAmasya§!."
- pfp_turkey_claim_states:0 "§YTurkey§! gains claims on all listed states.\n"
+ pfp_turkey_core_states:0 "§YTurkey§! gains cores on all listed states.\n"
  pfp_turkey_transfer_states:0 "§YTurkey§! becomes owner and controller of all listed states.\n"
  pfp_turkey_puppet:0 "§YTurkey§! becomes a puppet of §Y[Root.GetName]§!.\n"

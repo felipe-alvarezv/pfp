@@ -111,7 +111,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_germany_claim_states
+			custom_effect_tooltip = pfp_west_germany_core_states
 			custom_effect_tooltip = pfp_west_germany_transfer_states
 			custom_effect_tooltip = pfp_west_germany_puppet
 

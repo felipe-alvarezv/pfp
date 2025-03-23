@@ -104,7 +104,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_sweden_claim_states
+			custom_effect_tooltip = pfp_sweden_core_states
 			custom_effect_tooltip = pfp_sweden_transfer_states
 			custom_effect_tooltip = pfp_sweden_puppet
 

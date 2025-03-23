@@ -40,7 +40,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_eastern_canada_claim_states
+			custom_effect_tooltip = pfp_eastern_canada_core_states
 			custom_effect_tooltip = pfp_eastern_canada_transfer_states
 			custom_effect_tooltip = pfp_eastern_canada_puppet
 

@@ -25,6 +25,6 @@ l_english:
   pfp_mittelafrika_required_states_kunene:0 "Controls §YKunene§!."
   pfp_mittelafrika_required_states_otjozondjupa:0 "Controls §YOtjozondjupa§!."
   pfp_mittelafrika_required_states_karas:0 "Controls §YKaras§!."
-  pfp_mittelafrika_claim_states:0 "§YMittelafrika§! gains claims on all listed states.\n"
+  pfp_mittelafrika_core_states:0 "§YMittelafrika§! gains cores on all listed states.\n"
   pfp_mittelafrika_transfer_states:0 "§YMittelafrika§! becomes owner and controller of all listed states.\n"
   pfp_mittelafrika_puppet:0 "§YMittelafrika§! becomes a puppet of §Y[Root.GetName]§!.\n"

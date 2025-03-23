@@ -26,6 +26,6 @@ l_english:
  pfp_western_canada_required_states_nunavut:0 "Controls §YNunavut§!."
  pfp_western_canada_required_states_northern_saskatchewan:0 "Controls §YNorthern Saskatchewan§!."
  pfp_western_canada_required_states_northern_manitoba:0 "Controls §YNorthern Manitoba§!."
- pfp_western_canada_claim_states:0 "§YWestern Canada§! gains claims on all listed states.\n"
+ pfp_western_canada_core_states:0 "§YWestern Canada§! gains cores on all listed states.\n"
  pfp_western_canada_transfer_states:0 "§YWestern Canada§! becomes owner and controller of all listed states.\n"
  pfp_western_canada_puppet:0 "§YWestern Canada§! becomes a puppet of §Y[Root.GetName]§!.\n"

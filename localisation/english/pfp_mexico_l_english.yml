@@ -32,6 +32,6 @@ l_english:
  pfp_mexico_required_states_sonora:0 "Controls §YSonora§!."
  pfp_mexico_required_states_baja_california:0 "Controls §YBaja California§!."
  pfp_mexico_required_states_guerrero:0 "Controls §YGuerrero§!."
- pfp_mexico_claim_states:0 "§YMexico§! gains claims on all listed states.\n"
+ pfp_mexico_core_states:0 "§YMexico§! gains cores on all listed states.\n"
  pfp_mexico_transfer_states:0 "§YMexico§! becomes owner and controller of all listed states.\n"
  pfp_mexico_puppet:0 "§YMexico§! becomes a puppet of §Y[Root.GetName]§!.\n"

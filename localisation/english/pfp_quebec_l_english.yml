@@ -25,6 +25,6 @@ l_english:
  pfp_quebec_required_states_saguenay:0 "Controls §YSaguenay§!."
  pfp_quebec_required_states_ouest_du_quebec:0 "Controls §YOuest du Quebec§!."
  pfp_quebec_required_states_maurice:0 "Controls §YMaurice§!."
- pfp_quebec_claim_states:0 "§YQuebec§! gains claims on all listed states.\n"
+ pfp_quebec_core_states:0 "§YQuebec§! gains cores on all listed states.\n"
  pfp_quebec_transfer_states:0 "§YQuebec§! becomes owner and controller of all listed states.\n"
  pfp_quebec_puppet:0 "§YQuebec§! becomes a puppet of §Y[Root.GetName]§!.\n"

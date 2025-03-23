@@ -21,6 +21,6 @@ l_english:
   pfp_bulgaria_required_states_burgas:0 "Controls §YBurgas§!."
   pfp_bulgaria_required_states_plovdiv:0 "Controls §YPlovdiv§!."
   pfp_bulgaria_required_states_moesia:0 "Controls §YMoesia§!."
-  pfp_bulgaria_claim_states:0 "§YBulgaria§! gains claims on all listed states.\n"
+  pfp_bulgaria_core_states:0 "§YBulgaria§! gains cores on all listed states.\n"
   pfp_bulgaria_transfer_states:0 "§YBulgaria§! becomes owner and controller of all listed states.\n"
   pfp_bulgaria_puppet:0 "§YBulgaria§! becomes a puppet of §Y[Root.GetName]§!.\n"

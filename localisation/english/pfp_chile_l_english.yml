@@ -19,6 +19,6 @@ l_english:
   pfp_chile:0 "Establish Military Administration in the Chile"
   pfp_chile_required_states_santiago:0 "Controls §YSantiago§!."
   pfp_chile_required_states_atacama:0 "Controls §YAtacama§!."
-  pfp_chile_claim_states:0 "§YChile§! gains claims on all listed states.\n"
+  pfp_chile_core_states:0 "§YChile§! gains cores on all listed states.\n"
   pfp_chile_transfer_states:0 "§YChile§! becomes owner and controller of all listed states.\n"
   pfp_chile_puppet:0 "§YChile§! becomes a puppet of §Y[Root.GetName]§!.\n"

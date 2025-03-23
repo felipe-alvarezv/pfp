@@ -24,6 +24,6 @@ l_english:
  pfp_mongolia_required_states_khovd:0 "Controls §YKhovd§!."
  pfp_mongolia_required_states_dornod:0 "Controls §YDornod§!."
  pfp_mongolia_required_states_khovsgol:0 "Controls §YKhövsgöl§!."
- pfp_mongolia_claim_states:0 "§YMongolia§! gains claims on all listed states.\n"
+ pfp_mongolia_core_states:0 "§YMongolia§! gains cores on all listed states.\n"
  pfp_mongolia_transfer_states:0 "§YMongolia§! becomes owner and controller of all listed states.\n"
  pfp_mongolia_puppet:0 "§YMongolia§! becomes a puppet of §Y[Root.GetName]§!.\n"

@@ -23,6 +23,6 @@ l_english:
  pfp_west_indies_required_states_haiti:0 "Controls §YHaiti§!."
  pfp_west_indies_required_states_dominican_republic:0 "Controls §YDominican Republic§!."
  pfp_west_indies_required_states_jamaica:0 "Controls §YJamaica§!."
- pfp_west_indies_claim_states:0 "§YWest Indies§! gains claims on all listed states.\n"
+ pfp_west_indies_core_states:0 "§YWest Indies§! gains cores on all listed states.\n"
  pfp_west_indies_transfer_states:0 "§YWest Indies§! becomes owner and controller of all listed states.\n"
  pfp_west_indies_puppet:0 "§YWest Indies§! becomes a puppet of §Y[Root.GetName]§!.\n"

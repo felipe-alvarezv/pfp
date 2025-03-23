@@ -21,6 +21,6 @@ l_english:
   pfp_indochina_required_states_laos:0 "Controls §YLaos§!."
   pfp_indochina_required_states_tonkin:0 "Controls §YTonkin§!."
   pfp_indochina_required_states_cambodia:0 "Controls §YCambodia§!."
-  pfp_indochina_claim_states:0 "§YIndochina§! gains claims on all listed states.\n"
+  pfp_indochina_core_states:0 "§YIndochina§! gains cores on all listed states.\n"
   pfp_indochina_transfer_states:0 "§YIndochina§! becomes owner and controller of all listed states.\n"
   pfp_indochina_puppet:0 "§YIndochina§! becomes a puppet of §Y[Root.GetName]§!.\n"

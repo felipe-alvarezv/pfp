@@ -33,6 +33,6 @@ l_english:
  pfp_northwestern_russia_required_states_nenets:0 "Controls §YNenets§!."
  pfp_northwestern_russia_required_states_kargopol:0 "Controls §YKargopol§!."
  pfp_northwestern_russia_required_states_kotlas:0 "Controls §YKotlas§!."
- pfp_northwestern_russia_claim_states:0 "§YNorthwestern Russia§! gains claims on all listed states.\n"
+ pfp_northwestern_russia_core_states:0 "§YNorthwestern Russia§! gains cores on all listed states.\n"
  pfp_northwestern_russia_transfer_states:0 "§YNorthwestern Russia§! becomes owner and controller of all listed states.\n"
  pfp_northwestern_russia_puppet:0 "§YNorthwestern Russia§! becomes a puppet of §Y[Root.GetName]§!.\n"

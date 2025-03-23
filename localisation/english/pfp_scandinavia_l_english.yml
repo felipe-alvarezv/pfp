@@ -45,6 +45,6 @@ l_english:
  pfp_scandinavia_required_states_helgeland:0 "Controls §YHelgeland§!."
  pfp_scandinavia_required_states_troms:0 "Controls §YTroms§!."
  pfp_scandinavia_required_states_finnmark:0 "Controls §YFinnmark§!."
- pfp_scandinavia_claim_states:0 "§YScandinavia§! gains claims on all listed states.\n"
+ pfp_scandinavia_core_states:0 "§YScandinavia§! gains cores on all listed states.\n"
  pfp_scandinavia_transfer_states:0 "§YScandinavia§! becomes owner and controller of all listed states.\n"
  pfp_scandinavia_puppet:0 "§YScandinavia§! becomes a puppet of §Y[Root.GetName]§!.\n"

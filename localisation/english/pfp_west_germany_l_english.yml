@@ -31,6 +31,6 @@ l_english:
  pfp_west_germany_required_states_holstein:0 "Controls §YHolstein§!."
  pfp_west_germany_required_states_hannover:0 "Controls §YHannover§!."
  pfp_west_germany_required_states_baden:0 "Controls §YBaden§!."
- pfp_west_germany_claim_states:0 "§YWest Germany§! gains claims on all listed states.\n"
+ pfp_west_germany_core_states:0 "§YWest Germany§! gains cores on all listed states.\n"
  pfp_west_germany_transfer_states:0 "§YWest Germany§! becomes owner and controller of all listed states.\n"
  pfp_west_germany_puppet:0 "§YWest Germany§! becomes a puppet of §Y[Root.GetName]§!.\n"

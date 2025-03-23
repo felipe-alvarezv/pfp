@@ -21,6 +21,6 @@ l_english:
  pfp_korea:0 "Establish Military Administration in Korea"
  pfp_korea_required_states_south_korea:0 "Controls §YSouth Korea§!."
  pfp_korea_required_states_north_korea:0 "Controls §YNoth Korea§!."
- pfp_korea_claim_states:0 "§YKorea§! gains claims on all listed states.\n"
+ pfp_korea_core_states:0 "§YKorea§! gains cores on all listed states.\n"
  pfp_korea_transfer_states:0 "§YKorea§! becomes owner and controller of all listed states.\n"
  pfp_korea_puppet:0 "§YKorea§! becomes a puppet of §Y[Root.GetName]§!.\n"
