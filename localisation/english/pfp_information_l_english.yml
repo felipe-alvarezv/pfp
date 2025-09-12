@@ -10,7 +10,7 @@ l_english:
  pfp_management_window:0 "Open Management Menu"
 
  #Default Leader
- pfp_default_puppet_leader:0 "Military Junta"
+ pfp_default_puppet_leader:0 "Military Governor"
 
  #Autonomy Level
  autonomy_military_administration:0 "Military Administration"

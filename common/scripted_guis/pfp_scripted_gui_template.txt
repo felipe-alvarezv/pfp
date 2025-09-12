@@ -84,7 +84,7 @@ scripted_gui = {
 					var:puppet_value = {
 						NOT = {
 							has_country_leader = {
-								name = "Military Junta"
+								name = "Military Governor"
 								ruling_only = yes
 							}
 						}
@@ -157,7 +157,7 @@ scripted_gui = {
 					var:puppet_value_var = {
 						NOT = {
 							has_country_leader = {
-								name = "Military Junta"
+								name = "Military Governor"
 								ruling_only = yes
 							}
 						}
@@ -172,7 +172,7 @@ scripted_gui = {
 
 					var:puppet_value_var = {
 						has_country_leader = {
-							name = "Military Junta"
+							name = "Military Governor"
 							ruling_only = yes
 						}
 					}

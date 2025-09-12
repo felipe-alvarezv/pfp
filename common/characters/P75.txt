@@ -1,7 +1,7 @@
 #Pakistan
 characters={
 	P75_communism_leader={
-		name="Military Junta"
+		name="Military Governor"
 		portraits={
 			civilian={
 				large=GFX_portrait_PFP_soviet_portrait
@@ -14,7 +14,7 @@ characters={
 		}
 	}
 	P75_democratic_leader={
-		name="Military Junta"
+		name="Military Governor"
 		portraits={
 			civilian={
 				large=GFX_portrait_PFP_american_portrait
@@ -27,7 +27,7 @@ characters={
 		}
 	}
 	P75_neutrality_leader={
-		name="Military Junta"
+		name="Military Governor"
 		portraits={
 			civilian={
 				large=GFX_portrait_PFP_polish_portrait
@@ -40,7 +40,7 @@ characters={
 		}
 	}
 	P75_fascism_leader={
-		name="Military Junta"
+		name="Military Governor"
 		portraits={
 			civilian={
 				large=GFX_portrait_PFP_german_portrait

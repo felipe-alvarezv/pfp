@@ -1,6 +1,6 @@
 characters={
 	P15_communism_leader={
-		name="Military Junta"
+		name="Military Governor"
 		portraits={
 			civilian={
 				large=GFX_portrait_PFP_soviet_portrait
@@ -13,7 +13,7 @@ characters={
 		}
 	}
 	P15_democratic_leader={
-		name="Military Junta"
+		name="Military Governor"
 		portraits={
 			civilian={
 				large=GFX_portrait_PFP_american_portrait
@@ -26,7 +26,7 @@ characters={
 		}
 	}
 	P15_neutrality_leader={
-		name="Military Junta"
+		name="Military Governor"
 		portraits={
 			civilian={
 				large=GFX_portrait_PFP_polish_portrait
@@ -39,7 +39,7 @@ characters={
 		}
 	}
 	P15_fascism_leader={
-		name="Military Junta"
+		name="Military Governor"
 		portraits={
 			civilian={
 				large=GFX_portrait_PFP_german_portrait
