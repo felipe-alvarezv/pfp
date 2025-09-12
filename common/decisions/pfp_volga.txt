@@ -103,7 +103,7 @@ pfp_category = {
 				has_full_control_of_state = 400 #Kirov
 				has_full_control_of_state = 401 #Balakovo
 				has_full_control_of_state = 651 #Ufa
-				has_full_control_of_state = 625 #Orenburg
+				has_full_control_of_state = 652 #Orenburg
 				has_full_control_of_state = 829 #Engels-Marxstadt
 				has_full_control_of_state = 833 #Mari El
 			}
@@ -123,7 +123,7 @@ pfp_category = {
 				state = 400 #Kirov
 				state = 401 #Balakovo
 				state = 651 #Ufa
-				state = 625 #Orenburg
+				state = 652 #Orenburg
 				state = 829 #Engels-Marxstadt
 				state = 833 #Mari El
 			}

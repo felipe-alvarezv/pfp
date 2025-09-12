@@ -105,7 +105,7 @@ add_to_array = { pfp_volga_integration_array = 398 } #Perm
 add_to_array = { pfp_volga_integration_array = 399 } #Udmurtia
 add_to_array = { pfp_volga_integration_array = 400 } #Kirov
 add_to_array = { pfp_volga_integration_array = 401 } #Balkakovo
-add_to_array = { pfp_volga_integration_array = 625 } #Orenburg
+add_to_array = { pfp_volga_integration_array = 652 } #Orenburg
 add_to_array = { pfp_volga_integration_array = 651 } #Ufa
 add_to_array = { pfp_volga_integration_array = 829 } #Engels-Marxstadt
 add_to_array = { pfp_volga_integration_array = 833 } #Mari El
