@@ -1,0 +1,29 @@
+﻿#Switzerland - P78 - Localisation
+l_german:
+#Country Information
+P78_communism:0 "Schweiz"
+P78_communism_DEF:0 "Schweiz"
+P78_democratic:0 "Schweiz"
+P78_democratic_DEF:0 "Schweiz"
+P78_neutrality:1 "Schweiz"
+P78_neutrality_DEF:1 "Schweiz"
+P78_fascism:0 "Schweiz"
+P78_fascism_DEF:0 "Schweiz"
+P78_communism_ADJ:0 "Schweizerisch"
+P78_democratic_ADJ:0 "Schweizerisch"
+P78_neutrality_ADJ:0 "Schweizerisch"
+P78_fascism_ADJ:0 "Schweizerisch"
+P78:0 "Schweiz"
+P78_DEF:0 "Schweiz"
+P78_ADJ:0 "Schweizerisch"
+
+#Decisions Information
+pfp_switzerland:0 "Militärverwaltung in der Schweiz errichten"
+pfp_switzerland_required_states_swiss_plateau:0 "Kontrolliert §YSwiss Plateau§!."
+pfp_switzerland_required_states_eastern_swiss_alps:0 "Kontrolliert §YEastern Swiss Alps§!."
+pfp_switzerland_required_states_jura_mountains:0 "Kontrolliert §YJura Mountains§!."
+pfp_switzerland_required_states_ticino:0 "Kontrolliert §YTicino§!."
+pfp_switzerland_required_states_western_swiss_alps:0 "Kontrolliert §YWestern Swiss Alps§!."
+pfp_switzerland_core_states:0 "§YSchweiz§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+pfp_switzerland_transfer_states:0 "§YSchweiz§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+pfp_switzerland_puppet:0 "§YSchweiz§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

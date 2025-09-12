@@ -1,0 +1,30 @@
+﻿#Quebec - P22 - Localisation
+l_german:
+ #Country Information
+ P22_communism:0 "Quebec"
+ P22_communism_DEF:0 "Quebec"
+ P22_democratic:0 "Quebec"
+ P22_democratic_DEF:0 "Quebec"
+ P22_neutrality:1 "Quebec"
+ P22_neutrality_DEF:1 "Quebec"
+ P22_fascism:0 "Quebec"
+ P22_fascism_DEF:0 "Quebec"
+ P22_communism_ADJ:0 "Québécois"
+ P22_democratic_ADJ:0 "Québécois"
+ P22_neutrality_ADJ:0 "Québécois"
+ P22_fascism_ADJ:0 "Québécois"
+ P22:0 "Quebec"
+ P22_DEF:0 "Quebec"
+ P22_ADJ:0 "Québécois"
+
+ #Decisions Localisation
+ pfp_quebec:0 "Militärverwaltung in Quebec errichten"
+ pfp_quebec_required_states_nord_du_quebec:0 "Kontrolliert §YNord du Quebec§!."
+ pfp_quebec_required_states_saint_lawrence:0 "Kontrolliert §YSaint Lawrence§!."
+ pfp_quebec_required_states_cote_nord:0 "Kontrolliert §YCôte-Nord§!."
+ pfp_quebec_required_states_saguenay:0 "Kontrolliert §YSaguenay§!."
+ pfp_quebec_required_states_ouest_du_quebec:0 "Kontrolliert §YOuest du Quebec§!."
+ pfp_quebec_required_states_maurice:0 "Kontrolliert §YMaurice§!."
+ pfp_quebec_core_states:0 "§YQuebec§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_quebec_transfer_states:0 "§YQuebec§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_quebec_puppet:0 "§YQuebec§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

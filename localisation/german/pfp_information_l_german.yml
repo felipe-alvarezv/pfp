@@ -1,0 +1,63 @@
+﻿#Decision Description Localisation
+l_german:
+ #PFP Main Category
+ pfp_category:0 "Pipe's Formable Puppets"
+ pfp_category_desc:0 "Mit der Ausweitung unseres Territoriums ist es zunehmend schwierig geworden, all dies zu verwalten. Um dieses Problem zu lösen, sollten Marionettenregierungen eingerichtet werden, die unserem Land treu ergeben sind. Dies erlaubt uns, unsere Aufmerksamkeit anderen Dingen zuzuwenden, während die Region unsere Sache unterstützt."
+
+ #PFP Management Decision
+ pfp_puppet_management:0 "Pipe's Formable Puppets - Verwaltung"
+ pfp_puppet_management_desc:0 "Nach der Errichtung unserer Militärverwaltung müssen wir möglicherweise Anpassungen in Bezug auf die Verwaltung und ihre Gebiete vornehmen."
+ pfp_management_window:0 "Verwaltungsmenü öffnen"
+
+ #Default Leader
+ pfp_default_puppet_leader:0 "Militärjunta"
+
+ #Autonomy Level
+ autonomy_military_administration:0 "Militärverwaltung"
+
+ #PFP Management User Interface
+ pfp_management_textbox_title:0 "PFP Verwaltung"
+ pfp_management_textbox_view_puppets:0 "Marionetten anzeigen"
+ pfp_management_textbox_state_transfer:0 "Staaten übertragen"
+ pfp_management_testbox_coming_soon:0 "In Arbeit"
+
+ #PFP Management Tooltips
+ pfp_management_tooltip_close_button:0 "Schließt die Verwaltungsoberfläche."
+ pfp_management_tooltip_view_puppets:0 "Zeigt alle formbaren Marionetten unter Kontrolle des Spielers sowie deren aktuelle Staaten und Kerngebiete an."
+ pfp_management_tooltip_state_transfer:0 "Zeigt die Optionen zur Staatenübertragung an, die verwendet werden können, um Land zwischen dem Spieler und seinen Marionetten zu übertragen."
+
+ #PFP View Puppets User Interface
+ pfp_view_puppets_textbox_title:0 "Marionetten anzeigen - [ROOT.GetName]"
+ pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
+ pfp_view_puppets_textbox_states:0 "Staaten: [?num_owned_states]"
+ pfp_view_puppets_textbox_cores:0 "Kerngebiete: [?num_core_states]"
+ pfp_view_puppets_textbox_appoint_leader:0 "Gouverneur ernennen"
+
+ #PFP View Puppets Tooltips
+ pfp_view_puppets_tooltip_close_button:0 "Schließt die Marionetten-Ansicht."
+ pfp_view_puppets_tooltip_appoint_leader_button:0 "Zeigt alle Befehlshaber an, die als Militärgouverneur ernannt werden können."
+
+ #PFP Appoint Leader User Interface
+ pfp_appoint_leader_textbox_title:0 "Ernennen - [?puppet_value_var.GetName]"
+ pfp_appoint_leader_textbox_leader_name:0 "[?leader_value.GetName]"
+ pfp_appoint_leader_textbox_appoint_button:0 "Ernennen"
+
+ #PFP Appoint Leader Tooltips
+ pfp_appoint_leader_tooltip_dismiss_leader_button:0 "Entlässt den aktuellen Militärgouverneur und fügt ihn zurück in die Liste des Oberherrn."
+ pfp_appoint_leader_tooltip_close_button:0 "Schließt die Ernennungsoberfläche für den Militärgouverneur."
+
+ #PFP State Transfer User Interface
+ pfp_state_transfer_textbox_title:0 "Staatenübertragung - [THIS.GetName] ([THIS.GetID])"
+ pfp_state_transfer_textbox_selected_state_label:0 "Ausgewählter Staat:"
+ pfp_state_transfer_textbox_selected_state:0 "[THIS.GetName]"
+ pfp_state_transfer_textbox_selected_country_label:0 "Ausgewähltes Land:"
+ pfp_state_transfer_textbox_selected_country:0 "[THIS.owner.GetName]"
+ pfp_state_transfer_textbox_select_state_button:0 "Staat auswählen"
+ pfp_state_transfer_textbox_unselect_state_button:0 "Staat abwählen"
+ pfp_state_transfer_textbox_transfer_state_button:0 "Staat übertragen"
+ pfp_state_transfer_textbox_target_states_label:0 "Anvisierte Staaten:"
+ pfp_state_transfer_textbox_gridbox_entry_name:0 "[?v.GetName]"
+
+ #PFP State Transfer Tooltips
+ pfp_state_transfer_tooltip_unselect_all_button:0 "Hebt die Auswahl aller zuvor ausgewählten Staaten auf."
+ pfp_state_transfer_tooltip_close_button:0 "Schließt die Oberfläche für die Staatenübertragung."

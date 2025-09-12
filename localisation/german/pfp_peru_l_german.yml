@@ -1,0 +1,28 @@
+﻿#Peru - P56 - Localisation
+l_german:
+ #Country Information
+ P56_communism:0 "Peru"
+ P56_communism_DEF:0 "Peru"
+ P56_democratic:0 "Peru"
+ P56_democratic_DEF:0 "Peru"
+ P56_neutrality:1 "Peru"
+ P56_neutrality_DEF:1 "Peru"
+ P56_fascism:0 "Peru"
+ P56_fascism_DEF:0 "Peru"
+ P56_communism_ADJ:0 "Peruanisch"
+ P56_democratic_ADJ:0 "Peruanisch"
+ P56_neutrality_ADJ:0 "Peruanisch"
+ P56_fascism_ADJ:0 "Peruanisch"
+ P56:0 "Peru"
+ P56_DEF:0 "Peru"
+ P56_ADJ:0 "Peruanisch"
+
+ #Decisions Information
+ pfp_peru:0 "Militärverwaltung in Peru errichten"
+ pfp_peru_required_states_lima:0 "Kontrolliert §YLima§!."
+ pfp_peru_required_states_loreto:0 "Kontrolliert §YLoreto§!."
+ pfp_peru_required_states_arequipa:0 "Kontrolliert §YArequipa§!."
+ pfp_peru_required_states_ucayali:0 "Kontrolliert §YUcayali§!."
+ pfp_peru_core_states:0 "§YPeru§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_peru_transfer_states:0 "§YPeru§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_peru_puppet:0 "§YPeru§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

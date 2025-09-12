@@ -1,0 +1,29 @@
+﻿#South Germany - P25 - Localisation
+l_german:
+ #Country Information
+ P25_communism:0 "Süddeutschland"
+ P25_communism_DEF:0 "Süddeutschland"
+ P25_democratic:0 "Süddeutschland"
+ P25_democratic_DEF:0 "Süddeutschland"
+ P25_neutrality:1 "Süddeutschland"
+ P25_neutrality_DEF:1 "Süddeutschland"
+ P25_fascism:0 "Süddeutschland"
+ P25_fascism_DEF:0 "Süddeutschland"
+ P25_communism_ADJ:0 "Süddeutsch"
+ P25_democratic_ADJ:0 "Süddeutsch"
+ P25_neutrality_ADJ:0 "Süddeutsch"
+ P25_fascism_ADJ:0 "Süddeutsch"
+ P25:0 "Süddeutschland"
+ P25_DEF:0 "Süddeutschland"
+ P25_ADJ:0 "Süddeutsch"
+
+ #Decisions Localisation
+ pfp_south_germany:0 "Militärverwaltung in Süddeutschland errichten"
+ pfp_south_germany_required_states_wurttemberg:0 "Kontrolliert §YWürttemberg§!."
+ pfp_south_germany_required_states_oberbayern:0 "Kontrolliert §YOberbayern§!."
+ pfp_south_germany_required_states_niederbayern:0 "Kontrolliert §YNiederbayern§!."
+ pfp_south_germany_required_states_franken:0 "Kontrolliert §YFranken§!."
+ pfp_south_germany_required_states_baden:0 "Kontrolliert §YBaden§!."
+ pfp_south_germany_core_states:0 "§YSüddeutschland§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_south_germany_transfer_states:0 "§YSüddeutschland§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_south_germany_puppet:0 "§YSüddeutschland§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

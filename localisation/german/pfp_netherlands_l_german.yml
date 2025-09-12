@@ -1,0 +1,27 @@
+﻿#P05 - Netherlands - Localisation
+l_german:
+ #Country Information
+ P05_communism:0 "Niederlande"
+ P05_communism_DEF:0 "die Niederlande"
+ P05_democratic:0 "Niederlande"
+ P05_democratic_DEF:0 "die Niederlande"
+ P05_neutrality:1 "Niederlande"
+ P05_neutrality_DEF:1 "die Niederlande"
+ P05_fascism:0 "Niederlande"
+ P05_fascism_DEF:0 "die Niederlande"
+ P05_communism_ADJ:0 "Niederländisch"
+ P05_democratic_ADJ:0 "Niederländisch"
+ P05_neutrality_ADJ:0 "Niederländisch"
+ P05_fascism_ADJ:0 "Niederländisch"
+ P05:0 "Niederlande"
+ P05_DEF:0 "die Niederlande"
+ P05_ADJ:0 "Niederländisch"
+
+ #Decisions Localisation
+ pfp_netherlands:0 "Militärverwaltung in den Niederlanden errichten"
+ pfp_netherlands_required_states_holland:0 "Kontrolliert §YHolland§!."
+ pfp_netherlands_required_states_brabant:0 "Kontrolliert §YBrabant§!."
+ pfp_netherlands_required_states_friesland:0 "Kontrolliert §YFriesland§!."
+ pfp_netherlands_core_states:0 "§YNiederlande§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_netherlands_transfer_states:0 "§YNiederlande§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_netherlands_puppet:0 "§YNiederlande§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

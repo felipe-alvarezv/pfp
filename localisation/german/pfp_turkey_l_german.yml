@@ -1,0 +1,32 @@
+﻿#Turkey - P68 - Localisation
+l_german:
+ #Country Information
+ P68_communism:0 "Türkei"
+ P68_communism_DEF:0 "Türkei"
+ P68_democratic:0 "Türkei"
+ P68_democratic_DEF:0 "Türkei"
+ P68_neutrality:1 "Türkei"
+ P68_neutrality_DEF:1 "Türkei"
+ P68_fascism:0 "Türkei"
+ P68_fascism_DEF:0 "die Türkei"
+ P68_communism_ADJ:0 "Türkisch"
+ P68_democratic_ADJ:0 "Türkisch"
+ P68_neutrality_ADJ:0 "Türkisch"
+ P68_fascism_ADJ:0 "Türkisch"
+ P68:0 "Türkei"
+ P68_DEF:0 "die Türkei"
+ P68_ADJ:0 "Türkisch"
+
+ #Decisions Information
+ pfp_turkey:0 "Errichte Militärverwaltung in der Türkei"
+ pfp_turkey_required_states_ankara:0 "Kontrolliert §YAnkara§!."
+ pfp_turkey_required_states_afyon:0 "Kontrolliert §YAfyon§!."
+ pfp_turkey_required_states_konya:0 "Kontrolliert §YKonya§!."
+ pfp_turkey_required_states_kayseri:0 "Kontrolliert §YKayseri§!."
+ pfp_turkey_required_states_sivas:0 "Kontrolliert §YSivas§!."
+ pfp_turkey_required_states_samsun:0 "Kontrolliert §YSamsun§!."
+ pfp_turkey_required_states_kastamonu:0 "Kontrolliert §YKastamonu§!."
+ pfp_turkey_required_states_amasya:0 "Kontrolliert §YAmasya§!."
+ pfp_turkey_core_states:0 "§YTürkei§! erhält Kerne auf alle aufgelisteten Staaten.\n"
+ pfp_turkey_transfer_states:0 "§YTürkei§! wird Besitzer und Kontrolleur aller aufgelisteten Staaten.\n"
+ pfp_turkey_puppet:0 "§YTürkei§! wird Marionette von §Y[Root.GetName]§!.\n"

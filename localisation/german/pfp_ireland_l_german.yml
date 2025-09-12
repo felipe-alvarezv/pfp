@@ -1,0 +1,27 @@
+﻿#Ireland - P73 - Localisation
+l_german:
+ #Country Information
+ P73_communism:0 "Irland"
+ P73_communism_DEF:0 "Irland"
+ P73_democratic:0 "Irland"
+ P73_democratic_DEF:0 "Irland"
+ P73_neutrality:1 "Irland"
+ P73_neutrality_DEF:1 "Irland"
+ P73_fascism:0 "Irland"
+ P73_fascism_DEF:0 "Irland"
+ P73_communism_ADJ:0 "Irisch"
+ P73_democratic_ADJ:0 "Irisch"
+ P73_neutrality_ADJ:0 "Irisch"
+ P73_fascism_ADJ:0 "Irisch"
+ P73:0 "Irland"
+ P73_DEF:0 "Irland"
+ P73_ADJ:0 "Irisch"
+
+ #Decisions Information
+ pfp_ireland:0 "Militärverwaltung in Irland errichten"
+ pfp_ireland_required_states_leinster:0 "Kontrolliert §YLeinster§!."
+ pfp_ireland_required_states_connaught:0 "Kontrolliert §YConnaught§!."
+ pfp_ireland_required_states_munster:0 "Kontrolliert §YMunster§!."
+ pfp_ireland_core_states:0 "§YIrland§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_ireland_transfer_states:0 "§YIrland§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_ireland_puppet:0 "§YIrland§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

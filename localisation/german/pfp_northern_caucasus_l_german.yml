@@ -1,0 +1,30 @@
+﻿#Northern Caucasus - P41 - Localisation
+l_german:
+ #Country Information
+ P41_communism:0 "Nordkaukasus"
+ P41_communism_DEF:0 "der Nordkaukasus"
+ P41_democratic:0 "Nordkaukasus"
+ P41_democratic_DEF:0 "der Nordkaukasus"
+ P41_neutrality:1 "Nordkaukasus"
+ P41_neutrality_DEF:1 "der Nordkaukasus"
+ P41_fascism:0 "Nordkaukasus"
+ P41_fascism_DEF:0 "der Nordkaukasus"
+ P41_communism_ADJ:0 "Nordkaukasisch"
+ P41_democratic_ADJ:0 "Nordkaukasisch"
+ P41_neutrality_ADJ:0 "Nordkaukasisch"
+ P41_fascism_ADJ:0 "Nordkaukasisch"
+ P41:0 "Nordkaukasus"
+ P41_DEF:0 "der Nordkaukasus"
+ P41_ADJ:0 "Nordkaukasisch"
+
+ #Decisions Localisation
+ pfp_northern_caucasus:0 "Militärverwaltung im Nordkaukasus errichten"
+ pfp_northern_caucasus_required_states_dagestan:0 "Kontrolliert §YDagestan§!."
+ pfp_northern_caucasus_required_states_sochi:0 "Kontrolliert §YSochi§!."
+ pfp_northern_caucasus_required_states_stavropol:0 "Kontrolliert §YStavropol§!."
+ pfp_northern_caucasus_required_states_chechnya_ingushetia:0 "Kontrolliert §YChechnya-Ingushetia§!."
+ pfp_northern_caucasus_required_states_kabardino_balkaria:0 "Kontrolliert §YKabardino-Balkaria§!."
+ pfp_northern_caucasus_required_states_north_ossetia:0 "Kontrolliert §YNorth Ossetia§!."
+ pfp_northern_caucasus_core_states:0 "§YNordkaukasus§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_northern_caucasus_transfer_states:0 "§YNordkaukasus§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_northern_caucasus_puppet:0 "§YNordkaukasus§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

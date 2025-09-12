@@ -1,0 +1,27 @@
+﻿#Pacific U.S. - P21 - Localisation
+l_german:
+ #Country Information
+ P21_communism:0 "Pazifischer US"
+ P21_communism_DEF:0 "Pazifische US"
+ P21_democratic:0 "Pazifischer US"
+ P21_democratic_DEF:0 "Pazifische US"
+ P21_neutrality:1 "Pazifischer US"
+ P21_neutrality_DEF:1 "Pazifische US"
+ P21_fascism:0 "Pazifischer US"
+ P21_fascism_DEF:0 "Pazifische US"
+ P21_communism_ADJ:0 "Pazifisch-Amerikanisch"
+ P21_democratic_ADJ:0 "Pazifisch-Amerikanisch"
+ P21_neutrality_ADJ:0 "Pazifisch-Amerikanisch"
+ P21_fascism_ADJ:0 "Pazifisch-Amerikanisch"
+ P21:0 "Pazifischer US"
+ P21_DEF:0 "Pazifische US"
+ P21_ADJ:0 "Pazifisch-Amerikanisch"
+
+ #Decisions Localisation
+ pfp_pacific_us:0 "Militärverwaltung im Pazifischen US errichten"
+ pfp_pacific_us_required_states_california:0 "Kontrolliert §YCalifornia§!."
+ pfp_pacific_us_required_states_oregon:0 "Kontrolliert §YOregon§!."
+ pfp_pacific_us_required_states_washington:0 "Kontrolliert §YWashington§!."
+ pfp_pacific_us_core_states:0 "§YPazifischer US§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_pacific_us_transfer_states:0 "§YPazifischer US§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_pacific_us_puppet:0 "§YPazifischer US§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

@@ -1,0 +1,27 @@
+﻿#Romania - P79 - Localisation
+l_german:
+#Country Information
+P79_communism:0 "Rumänien"
+P79_communism_DEF:0 "Rumänien"
+P79_democratic:0 "Rumänien"
+P79_democratic_DEF:0 "Rumänien"
+P79_neutrality:1 "Rumänien"
+P79_neutrality_DEF:1 "Rumänien"
+P79_fascism:0 "Rumänien"
+P79_fascism_DEF:0 "Rumänien"
+P79_communism_ADJ:0 "Rumänisch"
+P79_democratic_ADJ:0 "Rumänisch"
+P79_neutrality_ADJ:0 "Rumänisch"
+P79_fascism_ADJ:0 "Rumänisch"
+P79:0 "Rumänien"
+P79_DEF:0 "Rumänien"
+P79_ADJ:0 "Rumänisch"
+
+#Decisions Information
+pfp_romania:0 "Militärverwaltung in Rumänien errichten"
+pfp_romania_required_states_muntenia:0 "Kontrolliert §YMuntenia§!."
+pfp_romania_required_states_moldova:0 "Kontrolliert §YMoldova§!."
+pfp_romania_required_states_oltenia:0 "Kontrolliert §YOltenia§!."
+pfp_romania_core_states:0 "§YRumänien§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+pfp_romania_transfer_states:0 "§YRumänien§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+pfp_romania_puppet:0 "§YRumänien§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

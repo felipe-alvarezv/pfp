@@ -1,0 +1,32 @@
+﻿#U.S. Rockies - P23 - Localisation
+l_german:
+ #Country Information
+ P23_communism:0 "U.S. Rockies"
+ P23_communism_DEF:0 "U.S. Rockies"
+ P23_democratic:0 "U.S. Rockies"
+ P23_democratic_DEF:0 "U.S. Rockies"
+ P23_neutrality:1 "U.S. Rockies"
+ P23_neutrality_DEF:1 "U.S. Rockies"
+ P23_fascism:0 "U.S. Rockies"
+ P23_fascism_DEF:0 "U.S. Rockies"
+ P23_communism_ADJ:0 "Westamerikanisch"
+ P23_democratic_ADJ:0 "Westamerikanisch"
+ P23_neutrality_ADJ:0 "Westamerikanisch"
+ P23_fascism_ADJ:0 "Westamerikanisch"
+ P23:0 "U.S. Rockies"
+ P23_DEF:0 "U.S. Rockies"
+ P23_ADJ:0 "Westamerikanisch"
+
+ #Decisions Localisation
+ pfp_rockies_us:0 "Militärverwaltung in den U.S. Rockies errichten"
+ pfp_rockies_us_required_states_new_mexico:0 "Kontrolliert §YNew Mexico§!."
+ pfp_rockies_us_required_states_arizona:0 "Kontrolliert §YArizona§!."
+ pfp_rockies_us_required_states_nevada:0 "Kontrolliert §YNevada§!."
+ pfp_rockies_us_required_states_utah:0 "Kontrolliert §YUtah§!."
+ pfp_rockies_us_required_states_wyoming:0 "Kontrolliert §YWyoming§!."
+ pfp_rockies_us_required_states_colorado:0 "Kontrolliert §YColorado§!."
+ pfp_rockies_us_required_states_montana:0 "Kontrolliert §YMontana§!."
+ pfp_rockies_us_required_states_idaho:0 "Kontrolliert §YIdaho§!."
+ pfp_rockies_us_core_states:0 "§YU.S. Rockies§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_rockies_us_transfer_states:0 "§YU.S. Rockies§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_rockies_us_puppet:0 "§YU.S. Rockies§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

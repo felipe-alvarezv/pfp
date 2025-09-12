@@ -1,0 +1,33 @@
+﻿#Levant - P67 - Localisation
+l_german:
+ #Country Information
+ P67_communism:0 "Levante"
+ P67_communism_DEF:0 "die Levante"
+ P67_democratic:0 "Levante"
+ P67_democratic_DEF:0 "die Levante"
+ P67_neutrality:1 "Levante"
+ P67_neutrality_DEF:1 "die Levante"
+ P67_fascism:0 "Levante"
+ P67_fascism_DEF:0 "die Levante"
+ P67_communism_ADJ:0 "Levantinisch"
+ P67_democratic_ADJ:0 "Levantinisch"
+ P67_neutrality_ADJ:0 "Levantinisch"
+ P67_fascism_ADJ:0 "Levantinisch"
+ P67:0 "Levante"
+ P67_DEF:0 "die Levante"
+ P67_ADJ:0 "Levantinisch"
+
+ #Subject of Germany
+ P67_GER_subject: "Levante"
+
+ #Decisions Information
+ pfp_levant:0 "Militärverwaltung in der Levante errichten"
+ pfp_levant_required_states_palestine:0 "Kontrolliert §YPalestine§!."
+ pfp_levant_required_states_jordan:0 "Kontrolliert §YJordan§!."
+ pfp_levant_required_states_lebanon:0 "Kontrolliert §YLebanon§!."
+ pfp_levant_required_states_damascus:0 "Kontrolliert §YDamascus§!."
+ pfp_levant_required_states_aleppo:0 "Kontrolliert §YAleppo§!."
+ pfp_levant_required_states_deir_az_zur:0 "Kontrolliert §YDeir-az-Zur§!."
+ pfp_levant_core_states:0 "§YLevante§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_levant_transfer_states:0 "§YLevante§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_levant_puppet:0 "§YLevante§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

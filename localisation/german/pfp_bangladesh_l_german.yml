@@ -1,0 +1,28 @@
+﻿#Bangladesh - P38 - Localisation
+l_german:
+ #Country Information
+ P38_communism:0 "Bangladesch"
+ P38_communism_DEF:0 "Bangladesch"
+ P38_democratic:0 "Bangladesch"
+ P38_democratic_DEF:0 "Bangladesch"
+ P38_neutrality:1 "Bangladesch"
+ P38_neutrality_DEF:1 "Bangladesch"
+ P38_fascism:0 "Bangladesch"
+ P38_fascism_DEF:0 "Bangladesch"
+ P38_communism_ADJ:0 "Bangladeschisch"
+ P38_democratic_ADJ:0 "Bangladeschisch"
+ P38_neutrality_ADJ:0 "Bangladeschisch"
+ P38_fascism_ADJ:0 "Bangladeschisch"
+ P38:0 "Bangladesch"
+ P38_DEF:0 "Bangladesch"
+ P38_ADJ:0 "Bangladeschisch"
+
+ #Subject of Germany
+ P38_GER_subject: "Bangladesch"
+
+ #Decisions Localisation
+ pfp_bangladesh:0 "Militärverwaltung in Bangladesch errichten"
+ pfp_bangladesh_required_states_east_bengal:0 "Kontrolliert §YEast Bengal§!."
+ pfp_bangladesh_core_states:0 "§YBangladesch§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_bangladesh_transfer_states:0 "§YBangladesch§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_bangladesh_puppet:0 "§YBangladesch§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

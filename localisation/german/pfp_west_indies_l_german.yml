@@ -1,0 +1,28 @@
+﻿#West Indies - P06 - Localisation
+l_german:
+ #Country Information
+ P06_communism:0 "Westindien"
+ P06_communism_DEF:0 "die Westindischen Inseln"
+ P06_democratic:0 "Westindien"
+ P06_democratic_DEF:0 "die Westindischen Inseln"
+ P06_neutrality:1 "Westindien"
+ P06_neutrality_DEF:1 "die Westindischen Inseln"
+ P06_fascism:0 "Westindien"
+ P06_fascism_DEF:0 "die Westindischen Inseln"
+ P06_communism_ADJ:0 "Westindisch"
+ P06_democratic_ADJ:0 "Westindisch"
+ P06_neutrality_ADJ:0 "Westindisch"
+ P06_fascism_ADJ:0 "Westindisch"
+ P06:0 "Westindien"
+ P06_DEF:0 "die Westindischen Inseln"
+ P06_ADJ:0 "Westindisch"
+
+ #Decisions Information
+ pfp_west_indies:0 "Errichte Militärverwaltung in Westindien"
+ pfp_west_indies_required_states_cuba:0 "Kontrolliert §YKuba§!."
+ pfp_west_indies_required_states_haiti:0 "Kontrolliert §YHaiti§!."
+ pfp_west_indies_required_states_dominican_republic:0 "Kontrolliert §YDominikanische Republik§!."
+ pfp_west_indies_required_states_jamaica:0 "Kontrolliert §YJamaika§!."
+ pfp_west_indies_core_states:0 "§YWestindien§! erhält Kerne auf alle aufgelisteten Staaten.\n"
+ pfp_west_indies_transfer_states:0 "§YWestindien§! wird Besitzer und Kontrolleur aller aufgelisteten Staaten.\n"
+ pfp_west_indies_puppet:0 "§YWestindien§! wird Marionette von §Y[Root.GetName]§!.\n"

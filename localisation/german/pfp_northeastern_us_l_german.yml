@@ -1,0 +1,29 @@
+﻿#Northeastern U.S. - P20 - Localisation
+l_german:
+ #Country Information
+ P20_communism:0 "Nordosten der USA"
+ P20_communism_DEF:0 "Nordosten der USA"
+ P20_democratic:0 "Nordosten der USA"
+ P20_democratic_DEF:0 "Nordosten der USA"
+ P20_neutrality:1 "Nordosten der USA"
+ P20_neutrality_DEF:1 "Nordosten der USA"
+ P20_fascism:0 "Nordosten der USA"
+ P20_fascism_DEF:0 "Nordosten der USA"
+ P20_communism_ADJ:0 "US-amerikanisch (Nordosten)"
+ P20_democratic_ADJ:0 "US-amerikanisch (Nordosten)"
+ P20_neutrality_ADJ:0 "US-amerikanisch (Nordosten)"
+ P20_fascism_ADJ:0 "US-amerikanisch (Nordosten)"
+ P20:0 "Nordosten der USA"
+ P20_DEF:0 "Nordosten der USA"
+ P20_ADJ:0 "US-amerikanisch (Nordosten)"
+
+ #Decisions Localisation
+ pfp_northeastern_us:0 "Militärverwaltung im Nordosten der USA errichten"
+ pfp_northeastern_us_required_states_new_england:0 "Kontrolliert §YNew England§!."
+ pfp_northeastern_us_required_states_new_york:0 "Kontrolliert §YNew York§!."
+ pfp_northeastern_us_required_states_new_jersey:0 "Kontrolliert §YNew Jersey§!."
+ pfp_northeastern_us_required_states_pennsylvania:0 "Kontrolliert §YPennsylvania§!."
+ pfp_northeastern_us_required_states_maryland:0 "Kontrolliert §YMaryland§!."
+ pfp_northeastern_us_core_states:0 "§YNordosten der USA§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_northeastern_us_transfer_states:0 "§YNordosten der USA§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_northeastern_us_puppet:0 "§YNordosten der USA§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

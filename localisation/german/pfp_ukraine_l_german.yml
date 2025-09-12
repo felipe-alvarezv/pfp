@@ -1,0 +1,33 @@
+﻿#Ukraine - P66 - Localisation
+l_german:
+ #Country Information
+ P66_communism:0 "Ukraine"
+ P66_communism_DEF:0 "die Ukraine"
+ P66_democratic:0 "Ukraine"
+ P66_democratic_DEF:0 "die Ukraine"
+ P66_neutrality:1 "Ukraine"
+ P66_neutrality_DEF:1 "die Ukraine"
+ P66_fascism:0 "Ukraine"
+ P66_fascism_DEF:0 "die Ukraine"
+ P66_communism_ADJ:0 "Ukrainisch"
+ P66_democratic_ADJ:0 "Ukrainisch"
+ P66_neutrality_ADJ:0 "Ukrainisch"
+ P66_fascism_ADJ:0 "Ukrainisch"
+ P66:0 "Ukraine"
+ P66_DEF:0 "die Ukraine"
+ P66_ADJ:0 "Ukrainisch"
+
+ #Decisions Information
+ pfp_ukraine:0 "Errichte Militärverwaltung in der Ukraine"
+ pfp_ukraine_required_states_chernigov:0 "Kontrolliert §YChernigov§!."
+ pfp_ukraine_required_states_kherson:0 "Kontrolliert §YKherson§!."
+ pfp_ukraine_required_states_mykolaiv:0 "Kontrolliert §YMykolaiv§!."
+ pfp_ukraine_required_states_zaporozhe:0 "Kontrolliert §YZaporozhe§!."
+ pfp_ukraine_required_states_zhytomyr:0 "Kontrolliert §YZhytomyr§!."
+ pfp_ukraine_required_states_kiev:0 "Kontrolliert §YKiew§!."
+ pfp_ukraine_required_states_cherkasy:0 "Kontrolliert §YCherkasy§!."
+ pfp_ukraine_required_states_dnipropetrovsk:0 "Kontrolliert §YDnipropetrovsk§!."
+ pfp_ukraine_required_states_poltava:0 "Kontrolliert §YPoltava§!."
+ pfp_ukraine_core_states:0 "§YUkraine§! erhält Kerne auf alle aufgelisteten Staaten.\n"
+ pfp_ukraine_transfer_states:0 "§YUkraine§! wird Besitzer und Kontrolleur aller aufgelisteten Staaten.\n"
+ pfp_ukraine_puppet:0 "§YUkraine§! wird Marionette von §Y[Root.GetName]§!.\n"

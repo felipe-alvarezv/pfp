@@ -1,0 +1,29 @@
+﻿#East Germany - P32 - Localisation
+l_german:
+ # Country Information
+ P32_communism:0 "Ostdeutschland"
+ P32_communism_DEF:0 "Ostdeutschland"
+ P32_democratic:0 "Ostdeutschland"
+ P32_democratic_DEF:0 "Ostdeutschland"
+ P32_neutrality:1 "Ostdeutschland"
+ P32_neutrality_DEF:1 "Ostdeutschland"
+ P32_fascism:0 "Ostdeutschland"
+ P32_fascism_DEF:0 "Ostdeutschland"
+ P32_communism_ADJ:0 "Ostdeutsch"
+ P32_democratic_ADJ:0 "Ostdeutsch"
+ P32_neutrality_ADJ:0 "Ostdeutsch"
+ P32_fascism_ADJ:0 "Ostdeutsch"
+ P32:0 "Ostdeutschland"
+ P32_DEF:0 "Ostdeutschland"
+ P32_ADJ:0 "Ostdeutsch"
+
+ #Decisions Localisation
+ pfp_east_germany:0 "Militärverwaltung in Ostdeutschland errichten"
+ pfp_east_germany_required_states_thuringen:0 "Kontrolliert §YThüringen§!."
+ pfp_east_germany_required_states_mecklenburg:0 "Kontrolliert §YMecklenburg§!."
+ pfp_east_germany_required_states_vorpommern:0 "Kontrolliert §YVorpommern§!."
+ pfp_east_germany_required_states_brandenburg:0 "Kontrolliert §YBrandenburg§!."
+ pfp_east_germany_required_states_sachsen:0 "Kontrolliert §YSachsen§!."
+ pfp_east_germany_core_states:0 "§YOstdeutschland§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_east_germany_transfer_states:0 "§YOstdeutschland§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_east_germany_puppet:0 "§YOstdeutschland§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

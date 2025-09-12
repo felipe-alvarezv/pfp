@@ -1,0 +1,31 @@
+﻿#Southern Russia - P40 - Localisation
+l_german:
+ #Country Information
+ P40_communism:0 "Südrussland"
+ P40_communism_DEF:0 "Südrussland"
+ P40_democratic:0 "Südrussland"
+ P40_democratic_DEF:0 "Südrussland"
+ P40_neutrality:1 "Südrussland"
+ P40_neutrality_DEF:1 "Südrussland"
+ P40_fascism:0 "Südrussland"
+ P40_fascism_DEF:0 "Südrussland"
+ P40_communism_ADJ:0 "Südrussisch"
+ P40_democratic_ADJ:0 "Südrussisch"
+ P40_neutrality_ADJ:0 "Südrussisch"
+ P40_fascism_ADJ:0 "Südrussisch"
+ P40:0 "Südrussland"
+ P40_DEF:0 "Südrussland"
+ P40_ADJ:0 "Südrussisch"
+
+ #Decisions Localisation
+ pfp_southern_russia:0 "Militärverwaltung in Südrussland errichten"
+ pfp_southern_russia_required_states_stalingrad:0 "Kontrolliert §YStalingrad§!."
+ pfp_southern_russia_required_states_rostov:0 "Kontrolliert §YRostov§!."
+ pfp_southern_russia_required_states_astrakhan:0 "Kontrolliert §YAstrakhan§!."
+ pfp_southern_russia_required_states_kalmykia:0 "Kontrolliert §YKalmykia§!."
+ pfp_southern_russia_required_states_volgodonsk:0 "Kontrolliert §YVolgodonsk§!."
+ pfp_southern_russia_required_states_millerovo:0 "Kontrolliert §YMillerovo§!."
+ pfp_southern_russia_required_states_mikhaylovka:0 "Kontrolliert §YMikhaylovka§!."
+ pfp_southern_russia_core_states:0 "§YSüdrussland§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_southern_russia_transfer_states:0 "§YSüdrussland§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_southern_russia_puppet:0 "§YSüdrussland§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

@@ -1,0 +1,31 @@
+﻿#Western Provinces - P29 - Localisation
+l_german:
+ #Country Information
+ P29_communism:0 "Westkanada"
+ P29_communism_DEF:0 "Westkanada"
+ P29_democratic:0 "Westkanada"
+ P29_democratic_DEF:0 "Westkanada"
+ P29_neutrality:1 "Westkanada"
+ P29_neutrality_DEF:1 "Westkanada"
+ P29_fascism:0 "Westkanada"
+ P29_fascism_DEF:0 "Westkanada"
+ P29_communism_ADJ:0 "Westkanadisch"
+ P29_democratic_ADJ:0 "Westkanadisch"
+ P29_neutrality_ADJ:0 "Westkanadisch"
+ P29_fascism_ADJ:0 "Westkanadisch"
+ P29:0 "Westkanada"
+ P29_DEF:0 "Westkanada"
+ P29_ADJ:0 "Westkanadisch"
+
+ #Decisions Localisation
+ pfp_western_canada:0 "Errichte Militärverwaltung in Westkanada"
+ pfp_western_canada_required_states_manitoba:0 "Kontrolliert §YManitoba§!."
+ pfp_western_canada_required_states_saskatchewan:0 "Kontrolliert §YSaskatchewan§!."
+ pfp_western_canada_required_states_alberta:0 "Kontrolliert §YAlberta§!."
+ pfp_western_canada_required_states_northwest_territories:0 "Kontrolliert §YNordwest-Territorien§!."
+ pfp_western_canada_required_states_nunavut:0 "Kontrolliert §YNunavut§!."
+ pfp_western_canada_required_states_northern_saskatchewan:0 "Kontrolliert §YNördliches Saskatchewan§!."
+ pfp_western_canada_required_states_northern_manitoba:0 "Kontrolliert §YNördliches Manitoba§!."
+ pfp_western_canada_core_states:0 "§YWestkanada§! erhält Kerne auf alle aufgelisteten Staaten.\n"
+ pfp_western_canada_transfer_states:0 "§YWestkanada§! wird Besitzer und Kontrolleur aller aufgelisteten Staaten.\n"
+ pfp_western_canada_puppet:0 "§YWestkanada§! wird Marionette von §Y[Root.GetName]§!.\n"

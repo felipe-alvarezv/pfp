@@ -1,0 +1,30 @@
+﻿#Kurdistan - P70 - Localisation
+l_german:
+ #Country Information
+ P70_communism:0 "Kurdistan"
+ P70_communism_DEF:0 "Kurdistan"
+ P70_democratic:0 "Kurdistan"
+ P70_democratic_DEF:0 "Kurdistan"
+ P70_neutrality:1 "Kurdistan"
+ P70_neutrality_DEF:1 "Kurdistan"
+ P70_fascism:0 "Kurdistan"
+ P70_fascism_DEF:0 "Kurdistan"
+ P70_communism_ADJ:0 "Kurdisch"
+ P70_democratic_ADJ:0 "Kurdisch"
+ P70_neutrality_ADJ:0 "Kurdisch"
+ P70_fascism_ADJ:0 "Kurdisch"
+ P70:0 "Kurdistan"
+ P70_DEF:0 "Kurdistan"
+ P70_ADJ:0 "Kurdisch"
+
+ #Subject of Germany
+ P70_GER_subject: "Kurdistan"
+
+ #Decisions Information
+ pfp_kurdistan:0 "Militärverwaltung in Kurdistan errichten"
+ pfp_kurdistan_required_states_diyarbakir:0 "Kontrolliert §YDiyarbakır§!."
+ pfp_kurdistan_required_states_hakkari:0 "Kontrolliert §YHakkari§!."
+ pfp_kurdistan_required_states_tunceli:0 "Kontrolliert §YTunceli§!."
+ pfp_kurdistan_core_states:0 "§YKurdistan§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_kurdistan_transfer_states:0 "§YKurdistan§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_kurdistan_puppet:0 "§YKurdistan§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

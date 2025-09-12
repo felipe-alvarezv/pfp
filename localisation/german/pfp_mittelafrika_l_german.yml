@@ -1,0 +1,30 @@
+﻿#P53 - Mittelafrika - Localisation
+l_german:
+  #Country Information
+  P53_communism:0 "Mittelafrika"
+  P53_communism_DEF:0 "Mittelafrika"
+  P53_democratic:0 "Mittelafrika"
+  P53_democratic_DEF:0 "Mittelafrika"
+  P53_neutrality:1 "Mittelafrika"
+  P53_neutrality_DEF:1 "Mittelafrika"
+  P53_fascism:0 "Mittelafrika"
+  P53_fascism_DEF:0 "Mittelafrika"
+  P53_communism_ADJ:0 "Mittelafrikanisch"
+  P53_democratic_ADJ:0 "Mittelafrikanisch"
+  P53_neutrality_ADJ:0 "Mittelafrikanisch"
+  P53_fascism_ADJ:0 "Mittelafrikanisch"
+  P53:0 "Mittelafrika"
+  P53_DEF:0 "Mittelafrika"
+  P53_ADJ:0 "Mittelafrikanisch"
+
+#Decisions Localisation
+  pfp_mittelafrika:0 "Militärverwaltung in Mittelafrika errichten"
+  pfp_mittelafrika_required_states_khomas:0 "Kontrolliert §YKhomas§!."
+  pfp_mittelafrika_required_states_tanganyika:0 "Kontrolliert §YTanganyika§!."
+  pfp_mittelafrika_required_states_cameroon:0 "Kontrolliert §YCameroon§!."
+  pfp_mittelafrika_required_states_kunene:0 "Kontrolliert §YKunene§!."
+  pfp_mittelafrika_required_states_otjozondjupa:0 "Kontrolliert §YOtjozondjupa§!."
+  pfp_mittelafrika_required_states_karas:0 "Kontrolliert §YKaras§!."
+  pfp_mittelafrika_core_states:0 "§YMittelafrika§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+  pfp_mittelafrika_transfer_states:0 "§YMittelafrika§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+  pfp_mittelafrika_puppet:0 "§YMittelafrika§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"

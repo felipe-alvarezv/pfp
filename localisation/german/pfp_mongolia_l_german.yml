@@ -1,0 +1,29 @@
+﻿#Mongolia - P47 - Localisation
+l_german:
+ #Country Information
+ P47_communism:0 "Mongolei"
+ P47_communism_DEF:0 "Mongolei"
+ P47_democratic:0 "Mongolei"
+ P47_democratic_DEF:0 "Mongolei"
+ P47_neutrality:1 "Mongolei"
+ P47_neutrality_DEF:1 "Mongolei"
+ P47_fascism:0 "Mongolei"
+ P47_fascism_DEF:0 "Mongolei"
+ P47_communism_ADJ:0 "Mongolisch"
+ P47_democratic_ADJ:0 "Mongolisch"
+ P47_neutrality_ADJ:0 "Mongolisch"
+ P47_fascism_ADJ:0 "Mongolisch"
+ P47:0 "Mongolei"
+ P47_DEF:0 "Mongolei"
+ P47_ADJ:0 "Mongolisch"
+
+ #Decisions Localisation
+ pfp_mongolia:0 "Militärverwaltung in der Mongolei errichten"
+ pfp_mongolia_required_states_ulaanbaatar:0 "Kontrolliert §YUlaanbaatar§!."
+ pfp_mongolia_required_states_gobi:0 "Kontrolliert §YGobi§!."
+ pfp_mongolia_required_states_khovd:0 "Kontrolliert §YKhovd§!."
+ pfp_mongolia_required_states_dornod:0 "Kontrolliert §YDornod§!."
+ pfp_mongolia_required_states_khovsgol:0 "Kontrolliert §YKhövsgöl§!."
+ pfp_mongolia_core_states:0 "§YMongolei§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
+ pfp_mongolia_transfer_states:0 "§YMongolei§! wird Besitzer und Kontrolleur aller aufgelisteten Gebiete.\n"
+ pfp_mongolia_puppet:0 "§YMongolei§! wird ein Marionettenstaat von §Y[Root.GetName]§!.\n"
