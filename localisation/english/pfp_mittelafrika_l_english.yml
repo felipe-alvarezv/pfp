@@ -1,6 +1,5 @@
 ﻿#P53 - Mittelafrika - Localisation
 l_english:
-  #Country Information
   P53_communism:0 "Mittelafrika"
   P53_communism_DEF:0 "Mittelafrika"
   P53_democratic:0 "Mittelafrika"
@@ -17,7 +16,6 @@ l_english:
   P53_DEF:0 "Mittelafrika"
   P53_ADJ:0 "Mittelafrikan"
 
-#Decisions Localisation
   pfp_mittelafrika:0 "Establish Military Administration in Mittelafrika"
   pfp_mittelafrika_required_states_khomas:0 "Controls §YKhomas§!."
   pfp_mittelafrika_required_states_tanganyika:0 "Controls §YTanganyika§!."

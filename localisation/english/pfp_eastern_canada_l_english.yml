@@ -1,6 +1,5 @@
 ﻿#Eastern Canada - P11 - Localisation
 l_english:
- #Country Information
  P11_communism:0 "Eastern Canada"
  P11_communism_DEF:0 "Eastern Canada"
  P11_democratic:0 "Eastern Canada"
@@ -17,7 +16,6 @@ l_english:
  P11_DEF:0 "Eastern Canada"
  P11_ADJ:0 "Eastern Canadian"
 
- #Decisions Localisation
  pfp_eastern_canada:0 "Establish Military Administration in Eastern Canada"
  pfp_eastern_canada_required_states_southern_ontario:0 "Controls §YSouthern Ontario§!."
  pfp_eastern_canada_required_states_northern_ontario:0 "Controls §YNorthern Ontario§!."

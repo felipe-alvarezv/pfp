@@ -1,6 +1,5 @@
 ﻿#Ukraine - P66 - Localisation
 l_english:
- #Country Information
  P66_communism:0 "Ukraine"
  P66_communism_DEF:0 "Ukraine"
  P66_democratic:0 "Ukraine"
@@ -17,7 +16,6 @@ l_english:
  P66_DEF:0 "Ukraine"
  P66_ADJ:0 "Ukrainian"
 
- #Decisions Information
  pfp_ukraine:0 "Establish Military Administration in Ukraine"
  pfp_ukraine_required_states_chernigov:0 "Controls §YChernigov§!."
  pfp_ukraine_required_states_kherson:0 "Controls §YKherson§!."

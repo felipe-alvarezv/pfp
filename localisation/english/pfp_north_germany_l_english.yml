@@ -1,6 +1,5 @@
 ﻿#North Germany - P19 - Localisation
 l_english:
- #Country Information
  P19_communism:0 "North Germany"
  P19_communism_DEF:0 "North Germany"
  P19_democratic:0 "North Germany"
@@ -17,7 +16,6 @@ l_english:
  P19_DEF:0 "North Germany"
  P19_ADJ:0 "North German"
 
- #Decisions Localisation
  pfp_north_germany:0 "Establish Military Administration in North Germany"
  pfp_north_germany_required_states_moselland:0 "Controls §YMoselland§!."
  pfp_north_germany_required_states_rhineland:0 "Controls §YRhineland§!."

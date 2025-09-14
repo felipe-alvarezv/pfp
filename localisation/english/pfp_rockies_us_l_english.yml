@@ -1,6 +1,5 @@
 ﻿#U.S. Rockies - P23 - Localisation
 l_english:
- #Country Information
  P23_communism:0 "U.S. Rockies"
  P23_communism_DEF:0 "the U.S. Rockies"
  P23_democratic:0 "U.S. Rockies"
@@ -17,7 +16,6 @@ l_english:
  P23_DEF:0 "the U.S. Rockies"
  P23_ADJ:0 "Western American"
 
- #Decisions Localisation
  pfp_rockies_us:0 "Establish Military Administration in the U.S. Rockies"
  pfp_rockies_us_required_states_new_mexico:0 "Controls §YNew Mexico§!."
  pfp_rockies_us_required_states_arizona:0 "Controls §YArizona§!."

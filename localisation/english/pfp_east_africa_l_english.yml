@@ -1,6 +1,5 @@
 ﻿#East Africa - P10 - Localisation
 l_english:
- #Country Information
  P10_communism:0 "East Africa"
  P10_communism_DEF:0 "East Africa"
  P10_democratic:0 "East Africa"
@@ -17,7 +16,6 @@ l_english:
  P10_DEF:0 "East Africa"
  P10_ADJ:0 "East African"
 
- #Decisions Localisation
  pfp_east_africa:0 "Establish Military Administration in East Africa"
  pfp_east_africa_required_states_shewa:0 "Controls §YShewa§!."
  pfp_east_africa_required_states_eritrea:0 "Controls §YEritrea§!."

@@ -1,6 +1,5 @@
 ﻿#Far Eastern Russia - P46 - Localisation
 l_english:
- #Country Information
  P46_communism:0 "Far Eastern Russia"
  P46_communism_DEF:0 "Far Eastern Russia"
  P46_democratic:0 "Far Eastern Russia"
@@ -17,7 +16,6 @@ l_english:
  P46_DEF:0 "Far Eastern Russia"
  P46_ADJ:0 "Far Eastern Russian"
 
- #Decisions Localisation
  pfp_far_eastern_russia:0 "Establish Military Administration in Far Eastern Russia"
  pfp_far_eastern_russia_required_states_vladivostok:0 "Controls §YVladivostok§!."
  pfp_far_eastern_russia_required_states_khabarovsk:0 "Controls §YKhabarovsk§!."

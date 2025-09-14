@@ -1,6 +1,5 @@
 ﻿#Mongolia - P47 - Localisation
 l_english:
- #Country Information
  P47_communism:0 "Mongolia"
  P47_communism_DEF:0 "Mongolia"
  P47_democratic:0 "Mongolia"
@@ -17,7 +16,6 @@ l_english:
  P47_DEF:0 "Mongolia"
  P47_ADJ:0 "Mongolian"
 
- #Decisions Localisation
  pfp_mongolia:0 "Establish Military Administration in Mongolia"
  pfp_mongolia_required_states_ulaanbaatar:0 "Controls §YUlaanbaatar§!."
  pfp_mongolia_required_states_gobi:0 "Controls §YGobi§!."

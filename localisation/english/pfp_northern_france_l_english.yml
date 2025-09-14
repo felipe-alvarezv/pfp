@@ -1,6 +1,5 @@
 ﻿#Northern France - P62 - Localisation
 l_english:
- #Country Information
  P62_communism:0 "Northern France"
  P62_communism_DEF:0 "Northern France"
  P62_democratic:0 "Northern France"
@@ -17,7 +16,6 @@ l_english:
  P62_DEF:0 "Northern France"
  P62_ADJ:0 "French"
 
- #Decisions Information
  pfp_northern_france:0 "Establish Military Administration in Northern France"
  pfp_northern_france_required_states_ile_de_france:0 "Controls §YIle de France§!."
  pfp_northern_france_required_states_franche_comte:0 "Controls §YFranche-Comte§!."

@@ -1,6 +1,5 @@
 ﻿#Northwestern Russia - P43 - Localisation
 l_english:
- #Country Information
  P43_communism:0 "Northwestern Russia"
  P43_communism_DEF:0 "Northwestern Russia"
  P43_democratic:0 "Northwestern Russia"
@@ -17,7 +16,6 @@ l_english:
  P43_DEF:0 "Northwestern Russia"
  P43_ADJ:0 "Northwestern Russian"
 
- #Decisions Localisation
  pfp_northwestern_russia:0 "Establish Military Administration in Northwestern Russia"
  pfp_northwestern_russia_required_states_leningrad:0 "Controls §YLeningrad§!."
  pfp_northwestern_russia_required_states_luga:0 "Controls §YLuga§!."

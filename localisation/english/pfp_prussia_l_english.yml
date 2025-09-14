@@ -1,6 +1,5 @@
 ﻿#Prussia - P33 - Localisation
 l_english:
- #Country Information
  P33_communism:0 "Prussia"
  P33_communism_DEF:0 "Prussia"
  P33_democratic:0 "Prussia"
@@ -17,7 +16,6 @@ l_english:
  P33_DEF:0 "Prussia"
  P33_ADJ:0 "Prussian"
 
- #Decisions Localisation
  pfp_prussia:0 "Establish Military Administration in Prussia"
  pfp_prussia_required_states_ermland_masuren:0 "Controls §YErmland-Masuren§!."
  pfp_prussia_required_states_vorpommern:0 "Controls §YVorpommern§!."

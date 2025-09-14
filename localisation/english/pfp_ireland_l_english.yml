@@ -1,6 +1,5 @@
 ﻿#Ireland - P73 - Localisation
 l_english:
- #Country Information
  P73_communism:0 "Ireland"
  P73_communism_DEF:0 "Ireland"
  P73_democratic:0 "Ireland"
@@ -17,7 +16,6 @@ l_english:
  P73_DEF:0 "Ireland"
  P73_ADJ:0 "Irish"
 
- #Decisions Information
  pfp_ireland:0 "Establish Military Administration in Ireland"
  pfp_ireland_required_states_leinster:0 "Controls §YLeinster§!."
  pfp_ireland_required_states_connaught:0 "Controls §YConnaught§!."

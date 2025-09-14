@@ -1,6 +1,5 @@
 ﻿#Northern Caucasus - P41 - Localisation
 l_english:
- #Country Information
  P41_communism:0 "Northern Caucasus"
  P41_communism_DEF:0 "the Northern Caucasus"
  P41_democratic:0 "Northern Caucasus"
@@ -17,7 +16,6 @@ l_english:
  P41_DEF:0 "the Northern Caucasus"
  P41_ADJ:0 "Northern Caucasian"
 
- #Decisions Localisation
  pfp_northern_caucasus:0 "Establish Military Administration in the Northern Caucasus"
  pfp_northern_caucasus_required_states_dagestan:0 "Controls §YDagestan§!."
  pfp_northern_caucasus_required_states_sochi:0 "Controls §YSochi§!."

@@ -1,6 +1,5 @@
 ﻿#Turkestan - P51 - Localisation
 l_english:
- #Country Information
  P51_communism:0 "Turkestan"
  P51_communism_DEF:0 "Turkestan"
  P51_democratic:0 "Turkestan"
@@ -17,7 +16,6 @@ l_english:
  P51_DEF:0 "Turkestan"
  P51_ADJ:0 "Turkic"
 
- #Decisions Localisation
  pfp_turkestan:0 "Establish Military Administration in Turkestan"
  pfp_turkestan_required_states_akhtubinsk:0 "Controls §YAkhtubinsk§!."
  pfp_turkestan_required_states_kyzyl_orda:0 "Controls §YKyzyl Orda§!."

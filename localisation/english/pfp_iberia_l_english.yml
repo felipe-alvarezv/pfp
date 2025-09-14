@@ -1,6 +1,5 @@
 ﻿#Iberia - P15 - Localisation
 l_english:
- #Country Information
  P15_communism:0 "Iberia"
  P15_communism_DEF:0 "Iberia"
  P15_democratic:0 "Iberia"
@@ -17,7 +16,6 @@ l_english:
  P15_DEF:0 "Iberia"
  P15_ADJ:0 "Iberian"
 
- #Decisions Localisation
  pfp_iberia:0 "Establish Military Administration in Iberia"
  pfp_iberia_required_states_madrid:0 "Controls §YMadrid§!."
  pfp_iberia_required_states_lisbon:0 "Controls §YLisbon§!."

@@ -1,6 +1,5 @@
 ﻿#Transcaucasia - P29 - Localisation
 l_english:
- #Country Information
  P28_communism:0 "Transcaucasia"
  P28_communism_DEF:0 "Transcaucasia"
  P28_democratic:0 "Transcaucasia"
@@ -17,7 +16,6 @@ l_english:
  P28_DEF:0 "Transcaucasia"
  P28_ADJ:0 "Transcaucasian"
 
- #Decisions Localisation
  pfp_transcaucasia:0 "Establish Military Administration in Transcaucasia"
  pfp_transcaucasia_required_states_azerbaijan:0 "Controls §YAzerbaijan§!."
  pfp_transcaucasia_required_states_armenia:0 "Controls §YArmenia§!."

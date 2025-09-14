@@ -1,6 +1,5 @@
 ﻿#Scandinavia - P24 - Localisation
 l_english:
- #Country Information
  P24_communism:0 "Scandinavia"
  P24_communism_DEF:0 "Scandinavia"
  P24_democratic:0 "Scandinavia"
@@ -17,7 +16,6 @@ l_english:
  P24_DEF:0 "Scandinavia"
  P24_ADJ:0 "Scandinavian"
 
- #Decisions Localisation
  pfp_scandinavia:0 "Establish Military Administration in Scandinavia"
  pfp_scandinavia_required_states_skane:0 "Controls §YSkåne§!."
  pfp_scandinavia_required_states_sjaelland:0 "Controls §YSjaelland§!."

@@ -1,6 +1,5 @@
 ﻿#East Germany = P32 - Localisation
 l_english:
- # Country Information
  P32_communism:0 "East Germany"
  P32_communism_DEF:0 "East Germany"
  P32_democratic:0 "East Germany"
@@ -17,7 +16,6 @@ l_english:
  P32_DEF:0 "East Germany"
  P32_ADJ:0 "East German"
 
- #Decisions Localisation
  pfp_east_germany:0 "Establish Military Administration in East Germany"
  pfp_east_germany_required_states_thuringen:0 "Controls §YThüringen§!."
  pfp_east_germany_required_states_mecklenburg:0 "Controls §YMecklenburg§!."

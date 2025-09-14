@@ -1,6 +1,5 @@
 ﻿#Pacific U.S. - P21 - Localisation
 l_english:
- #Country Information
  P21_communism:0 "Pacific U.S."
  P21_communism_DEF:0 "the Pacific U.S."
  P21_democratic:0 "Pacific U.S."
@@ -17,7 +16,6 @@ l_english:
  P21_DEF:0 "the Pacific U.S."
  P21_ADJ:0 "Pacific American"
 
- #Decisions Localisation
  pfp_pacific_us:0 "Establish Military Administration in the Pacific U.S."
  pfp_pacific_us_required_states_california:0 "Controls §YCalifornia§!."
  pfp_pacific_us_required_states_oregon:0 "Controls §YOregon§!."

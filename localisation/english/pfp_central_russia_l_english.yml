@@ -1,6 +1,5 @@
 ﻿#Central Russia - P39 - Localisation
 l_english:
- #Country Information
  P39_communism:0 "Central Russia"
  P39_communism_DEF:0 "Central Russia"
  P39_democratic:0 "Central Russia"
@@ -17,7 +16,6 @@ l_english:
  P39_DEF:0 "Central Russia"
  P39_ADJ:0 "Central Russian"
 
- #Decisions Localisation
  pfp_central_russia:0 "Establish Military Administration in Central Russia"
  pfp_central_russia_required_states_kaluga:0 "Controls §YKaluga§!."
  pfp_central_russia_required_states_moscow:0 "Controls §YMoscow§!."
