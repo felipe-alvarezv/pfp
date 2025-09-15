@@ -77,3 +77,5 @@ P76 = "countries/P76.txt" #Afghanistan
 P77 = "countries/P77.txt" #Austria
 P78 = "countries/P78.txt" #Switzerland
 P79 = "countries/P79.txt" #Romania
+P80 = "countries/P80.txt" #England
+P81 = "countries/P81.txt" #Scotland

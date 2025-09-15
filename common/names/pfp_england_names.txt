@@ -1,0 +1,28 @@
+#England
+    P80 = {
+        male = {
+            names = { 
+                Albert Alexander Alfred Archibald Arthur Benjamin Bernard Bradley Charles Colbert
+                Colin Cyril Dara David Donald Douglas Edmund Edward Fairfax Francis Geoffrey
+                George Graham Henrey Herbert Horatio Hubert Hugh Ian Jack Jake James Jeremy John
+                Leopold Lester Martin Max Nigel Oswald Percy Peter Reginald Richard Robert
+                Russell Stanley Stephen Thomas Wallace William Winston Zachary
+            }
+        }
+        female = {
+            names = {
+                Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria
+            }
+        }
+        surnames = {  
+            Allenby Battemberg Beatty Beresford Black Brown Buller Butler Campbell Cardigan
+            Churchill Cochrane Cockburn Collin Darling Dundas Faithfull Fisher French
+            Golightly Gough Grant Grenfell Haig Hamilton Hardinge Havelock Hope Irons
+            Jellicoe Kitchener Leiper Lyons Madden Milne Montgomery Moresby Mundy Murphy
+            Napier Nicholson Nicholson Plummer Ragland Roberts Roberts Seaton Seymour Shapley
+            Smith Spring Steele Stewart Sutherland Thesiger Tyron Tyrwhitt Wilde Williams
+            Windsor Wolseley Wood Wright
+        }
+        callsigns = { }
+    }
+    

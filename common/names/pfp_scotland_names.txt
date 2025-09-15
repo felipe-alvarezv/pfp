@@ -1,0 +1,25 @@
+#Scotland
+P81 = {
+    male = {
+        names = { 
+            Alec Alex Alexander Allan Andy Andrew Angus Archibald Bob Brian Campbell Charles David Donald Douglas Duncan Edward Ewan George Gordon Iain Ian Jack James
+            John Joseph Kenneth Lachlan Lawrence Lewis Malcolm Neil Peter Robert Ronald Thomas William
+        }
+    }
+    female = {
+        names = {
+            Agnes Annie Betsy Catherinea Eliza Elizabeth Ellen Ethel Helen Isabella Jane Janet Jemima Maggie Margaret Mary Nellie Fiona
+        }
+    }
+    surnames = {
+        Baird Ballantyne Blair Boyd Brown Bruce Buchanan Burns Calhoun Cameron Campbell Carr Carson Clacher Clarke Coburn Cockburn Cooper Cowden Craig Croft Cruickshank
+        Cunningham David Davies Donaghue Donaldson Douglas Drummond Drysdale Duffy Dunbar Duncan Dunn Edwards Evans Fairbairn Faulkner Ferguson Findlay Fraiser
+        Gibbs Glenn Gordon Graeme Green Greer Hughes Hume Jack Jackson Johnson Johnston Jones Keir Keith Kelly Kendrick Kidd Kinley
+        Kinnaird Kyles Leiper Lennox Leslie Lester Lewis Limond Logan Lowe Lowry Lyon Martin Masters Maxwell McAdams McAfee McAlister McArthur McCabe McCaig McCallum
+        McClellan McConnell McCormick McCoy McCracken McCrae McCreery McDonald McDougall McEwan McFarlane McFee McGee McGill McGregor McIntyre McIver McKay
+        McKellar McKendick McKenna McKenzie McKinley McLain McLean McLeod McNab McNeill McQueen McReynolds Milligan Monroe Montgomery Moray Morris Murdoch
+        Neil Ness Nevin Norris Oliver Patton Payne Ralston Ramsey Reid Ritchie Roberts Robinson Ross Roy Rutherford Scott Skeates Smith Smith Sterling
+        Steward Stewart Stirling Stroud Stuart Taggart Taylor Thomas Thomson Turner Urquhart Walker Wallace Wallis Ward White Williams Wilson Wood Wright
+    }
+    callsigns = { }
+}

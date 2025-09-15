@@ -1,0 +1,26 @@
+#Scripted effect to release Scotland (P81)
+pfp_release_scotland = {
+    hidden_effect = {
+        #Add cores to Scotland
+        120 = { add_core_of = P81 } #Scottish Highlands
+        121 = { add_core_of = P81 } #Lothian
+        133 = { add_core_of = P81 } #Lanark
+        136 = { add_core_of = P81 } #Aberdeenshire
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P81 }
+            add_contested_owner = P81
+            transfer_state_to = P81
+        }
+
+        #Transfer all technology to formable puppet
+        P81 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_scotland_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P81 }
+    }
+}
