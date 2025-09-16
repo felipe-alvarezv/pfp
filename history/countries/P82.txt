@@ -1,5 +1,5 @@
-#Scotland
-capital = 121 #Lothian
+#Wales
+capital = 122 #Wales
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -87,16 +87,10 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = P81_communism_leader
-recruit_character = P81_democratic_leader
-recruit_character = P81_neutrality_leader
-recruit_character = P81_fascism_leader
+recruit_character = P82_communism_leader
+recruit_character = P82_democratic_leader
+recruit_character = P82_neutrality_leader
+recruit_character = P82_fascism_leader
 
-#Scotland Initial States
-add_to_array = { pfp_scotland_integration_array = 120 } #Scottish Highlands
-add_to_array = { pfp_scotland_integration_array = 121 } #Lothian
-add_to_array = { pfp_scotland_integration_array = 133 } #Lanark
-add_to_array = { pfp_scotland_integration_array = 136 } #Aberdeenshire
-
-#Scotland Territories
-add_to_array = { pfp_scotland_integration_array = 933 } #Shetland Islands
+#Wales Initial States
+add_to_array = { pfp_wales_integration_array = 122 } #Wales

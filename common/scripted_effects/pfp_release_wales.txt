@@ -1,0 +1,23 @@
+#Scripted effect to release Wales (P82)
+pfp_release_wales = {
+    hidden_effect = {
+        #Add cores to Wales
+        122 = { add_core_of = P82 } #Wales
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P82 }
+            add_contested_owner = P82
+            transfer_state_to = P82
+        }
+
+        #Transfer all technology to formable puppet
+        P82 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_wales_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P82 }
+    }
+}

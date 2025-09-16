@@ -1,0 +1,17 @@
+#Wales
+P82 = {
+    male = {
+        names = { 
+           Aled Alun Aneurin Billy Bryn Dai David Emrys Esyr Gareth George Glyn Gwynfor Harry Huw Ianto Idris Idwal Iorwerth James John Morgan Osian Owen Rhodri Rhys Roy Thomas Trevor Tudor Vaughan William Wyn
+        }
+    }
+    female = {
+        names = {
+            Carys Enid Gwen Mair Megan Nia Sian Vivian
+        }
+    }
+    surnames = {  
+        Bevan Bowen Collins Davies Driscoll Edwards Ellis Evans Griffiths Harris Howell Hughes Ifans James Jenkins Jones Lewis Lloyd Morgan Moss Owen Owens Phillips Price Rees Roberts Smith Thomas Williams
+    }
+    callsigns = { }
+}
