@@ -1166,6 +1166,34 @@ on_actions = {
                     add_core_of = P82
                 }
             }
+            #Iceland Integration
+            for_each_scope_loop = {
+                array = pfp_iceland_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P83
+                        NOT = { is_core_of = P83 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P83
+                    add_core_of = P83
+                }
+            }
+            #Northern Ireland Integration
+            for_each_scope_loop = {
+                array = pfp_northern_ireland_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P84
+                        NOT = { is_core_of = P84 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P84
+                    add_core_of = P84
+                }
+            }
         }
     }
 }

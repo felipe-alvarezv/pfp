@@ -1,0 +1,46 @@
+pfp_category = {
+    pfp_northern_ireland = {
+        allowed = {
+            NOT = {
+                original_tag = ENG #United Kingdom
+                original_tag = NIR #Northern Ireland
+            }
+        }
+        available = {
+            is_subject = no
+            #Northern Ireland
+            custom_trigger_tooltip = {
+                tooltip = pfp_northern_ireland_required_states_northern_ireland
+                has_full_control_of_state = 119 #Northern Ireland
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 119 #Northern Ireland
+            }
+            NOT = { has_global_flag = pfp_northern_ireland_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 119 #Northern Ireland
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_northern_ireland_core_states
+            custom_effect_tooltip = pfp_northern_ireland_transfer_states
+            custom_effect_tooltip = pfp_northern_ireland_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_northern_ireland = yes
+                set_autonomy = { target = P84 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P84 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}
