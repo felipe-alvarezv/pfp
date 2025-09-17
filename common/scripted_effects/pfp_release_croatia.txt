@@ -4,7 +4,6 @@ pfp_release_croatia = {
         #Add cores to Croatia
         103 = { add_core_of = P86 } #Dalmatia
         109 = { add_core_of = P86 } #Croatia
-        163 = { add_core_of = P86 } #Zara
         
         #Set formable puppet as owner and controller of all its cored states
         every_state = {

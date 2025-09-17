@@ -18,17 +18,11 @@ pfp_category = {
                 tooltip = pfp_croatia_required_states_croatia
                 has_full_control_of_state = 109 #Croatia
             }
-            #Zara
-            custom_trigger_tooltip = {
-                tooltip = pfp_croatia_required_states_zara
-                has_full_control_of_state = 163 #Zara
-            }
         }
         visible = {
             OR = {
                 has_full_control_of_state = 103 #Dalmatia
                 has_full_control_of_state = 109 #Croatia
-                has_full_control_of_state = 163 #Zara
             }
             NOT = { has_global_flag = pfp_croatia_flag }
         }
@@ -36,7 +30,6 @@ pfp_category = {
             highlight_state_targets = {
                 state = 103 #Dalmatia
                 state = 109 #Croatia
-                state = 163 #Zara
             }
         }
         icon = generic_military
