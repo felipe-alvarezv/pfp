@@ -1,0 +1,24 @@
+#Greenland
+P85 = {
+    male = {
+        names = { 
+            Aage Adam Alber Anders Asmund Axel Carl Christian Edvard Edvin Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jakob
+            Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm Aage 
+            Arnór Ásgeir Astrathur Baldur Bjarni Björn Brynjólfur Dagbjartur Eggthor Einar Eysteinn Freyr Haraldur Hermann Gísli Hjörtur Jóhann 
+            Lórens Oddleifur Ólafur Skúli Stefán Sturlaugr Sveinn Vagn Vilhjálmur Ögrim Aassanaaq Adlartok Akaka Aklaq Amaqjuaq Atiqtalaaq Atka 
+            Cupun Hanta Iñuk Irdlirvirisissong Iñuksuk Juatan Kumaglak Tarĸik Toklo Tukkuttok Uukkarnit Umiaktorvik Ukiuk Yuka     
+        }
+    }
+    female = {
+        names = {
+            Karen Alma Elsa Else Monica Grete Gerda Helga Jytte Kaja Asta Astrid Signe Árný Arnfrithur Bjarnhildur Boghildur Dómhildur Drótt Freydís Gunnrún Rafney Chikuk Elisapee Ila Lusa Nanouk Qimmiq Yura
+        }
+    }
+    surnames = {  
+        Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso  Eberlin Falsen
+		Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe Hansen Have
+		Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
+		Stemman Suenson Thygeson Trampe Urne  Wadenstierna Wedel-Heinen Zytphen-Adeler Arnórsson Ásgeirsson Thorarensen Bjarnason Björnsson Blöndal Aagesson Astrathursson Baldursson Björnsson Eggthorsson Guðmundsson Hjörtursson Jonsson Jónasson Oddleifsson Ólafsson Olgeirsson Pétursson Sigurbjörnsson Stefánsson Sæmundsson Thors Þórðarson Vagnsson
+    }
+    callsigns = { }
+}

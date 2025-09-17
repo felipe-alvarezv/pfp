@@ -1,0 +1,45 @@
+pfp_category = {
+    pfp_greenland = {
+        allowed = {
+            NOT = {
+                original_tag = GRN #Greenland
+            }
+        }
+        available = {
+            is_subject = no
+            #Greenland
+            custom_trigger_tooltip = {
+                tooltip = pfp_greenland_required_states_greenland
+                has_full_control_of_state = 101 #Greenland
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 101 #Greenland
+            }
+            NOT = { has_global_flag = pfp_greenland_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 101 #Greenland
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_greenland_core_states
+            custom_effect_tooltip = pfp_greenland_transfer_states
+            custom_effect_tooltip = pfp_greenland_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_greenland = yes
+                set_autonomy = { target = P85 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P85 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}
