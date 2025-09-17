@@ -83,3 +83,4 @@ P82 = "countries/P82.txt" #Wales
 P83 = "countries/P83.txt" #Iceland
 P84 = "countries/P84.txt" #Northern Ireland
 P85 = "countries/P85.txt" #Greenland
+P86 = "countries/P86.txt" #Croatia

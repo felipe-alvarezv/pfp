@@ -1,0 +1,60 @@
+pfp_category = {
+    pfp_croatia = {
+        allowed = {
+            NOT = {
+                original_tag = CRO #Croatia
+                original_tag = YUG #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            #Dalmatia
+            custom_trigger_tooltip = {
+                tooltip = pfp_croatia_required_states_dalmatia
+                has_full_control_of_state = 103 #Dalmatia
+            }
+            #Croatia
+            custom_trigger_tooltip = {
+                tooltip = pfp_croatia_required_states_croatia
+                has_full_control_of_state = 109 #Croatia
+            }
+            #Zara
+            custom_trigger_tooltip = {
+                tooltip = pfp_croatia_required_states_zara
+                has_full_control_of_state = 163 #Zara
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 103 #Dalmatia
+                has_full_control_of_state = 109 #Croatia
+                has_full_control_of_state = 163 #Zara
+            }
+            NOT = { has_global_flag = pfp_croatia_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 103 #Dalmatia
+                state = 109 #Croatia
+                state = 163 #Zara
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_croatia_core_states
+            custom_effect_tooltip = pfp_croatia_transfer_states
+            custom_effect_tooltip = pfp_croatia_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_croatia = yes
+                set_autonomy = { target = P86 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P86 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

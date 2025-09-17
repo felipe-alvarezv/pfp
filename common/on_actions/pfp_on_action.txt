@@ -1208,6 +1208,20 @@ on_actions = {
                     add_core_of = P85
                 }
             }
+            #Croatia Integration
+            for_each_scope_loop = {
+                array = pfp_croatia_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P86
+                        NOT = { is_core_of = P86 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P86
+                    add_core_of = P86
+                }
+            }
         }
     }
 }
