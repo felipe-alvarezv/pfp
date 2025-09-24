@@ -1,5 +1,5 @@
-#Croatia
-capital = 109 #Croatia
+#Slovenia
+capital = 853 #Ljubljana
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -87,15 +87,14 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = P86_communism_leader
-recruit_character = P86_democratic_leader
-recruit_character = P86_neutrality_leader
-recruit_character = P86_fascism_leader
+recruit_character = P87_communism_leader
+recruit_character = P87_democratic_leader
+recruit_character = P87_neutrality_leader
+recruit_character = P87_fascism_leader
 
-#Croatia Initial States
-add_to_array = { pfp_croatia_integration_array = 103 } #Dalmatia
-add_to_array = { pfp_croatia_integration_array = 109 } #Croatia
+#Slovenia Initial States
+add_to_array = { pfp_croatia_integration_array = 102 } #North Slovenia
+add_to_array = { pfp_croatia_integration_array = 853 } #Ljubljana
 
-#Croatia Territories
-add_to_array = { pfp_croatia_integration_array = 852 } #Istria
-add_to_array = { pfp_croatia_integration_array = 163 } #Zara
+#Slovenia Territories
+add_to_array = { pfp_croatia_integration_array = 736 } #Litorale
