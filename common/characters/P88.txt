@@ -1,0 +1,54 @@
+characters={
+    P88_communism_leader={
+        name="Military Governor"
+        portraits={
+            civilian={
+                large=GFX_portrait_PFP_soviet_portrait
+            }
+        }
+        country_leader={
+            ideology=marxism
+            expire="1965.1.1.1"
+            id=-1
+        }
+    }
+    P88_democratic_leader={
+        name="Military Governor"
+        portraits={
+            civilian={
+                large=GFX_portrait_PFP_american_portrait
+            }
+        }
+        country_leader={
+            ideology=conservatism
+            expire="1965.1.1.1"
+            id=-1
+        }
+    }
+    P88_neutrality_leader={
+        name="Military Governor"
+        portraits={
+            civilian={
+                large=GFX_portrait_PFP_polish_portrait
+            }
+        }
+        country_leader={
+            ideology=centrism
+            expire="1965.1.1.1"
+            id=-1
+        }
+    }
+    P88_fascism_leader={
+        name="Military Governor"
+        portraits={
+            civilian={
+                large=GFX_portrait_PFP_german_portrait
+            }
+        }
+        country_leader={
+            ideology=fascism_ideology
+            expire="1965.1.1.1"
+            id=-1
+        }
+    }
+}
