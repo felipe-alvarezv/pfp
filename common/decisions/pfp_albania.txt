@@ -1,0 +1,52 @@
+pfp_category = {
+    pfp_albania = {
+        allowed = {
+            NOT = {
+                original_tag = ALB #Albania
+            }
+        }
+        available = {
+            is_subject = no
+            #Central Albania
+            custom_trigger_tooltip = {
+                tooltip = pfp_albania_required_states_central_albania
+                has_full_control_of_state = 44 #Central Albania
+            }
+            #Shkoder
+            custom_trigger_tooltip = {
+                tooltip = pfp_albania_required_states_shkoder
+                has_full_control_of_state = 934 #Shkoder
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 44 #Central Albania
+                has_full_control_of_state = 934 #Shkoder
+            }
+            NOT = { has_global_flag = pfp_albania_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 44 #Central Albania
+                state = 934 #Shkoder
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_albania_core_states
+            custom_effect_tooltip = pfp_albania_transfer_states
+            custom_effect_tooltip = pfp_albania_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_albania = yes
+                set_autonomy = { target = P91 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P91 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}
