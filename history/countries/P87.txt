@@ -93,8 +93,8 @@ recruit_character = P87_neutrality_leader
 recruit_character = P87_fascism_leader
 
 #Slovenia Initial States
-add_to_array = { pfp_croatia_integration_array = 102 } #North Slovenia
-add_to_array = { pfp_croatia_integration_array = 853 } #Ljubljana
+add_to_array = { pfp_slovenia_integration_array = 102 } #North Slovenia
+add_to_array = { pfp_slovenia_integration_array = 853 } #Ljubljana
 
 #Slovenia Territories
-add_to_array = { pfp_croatia_integration_array = 736 } #Litorale
+add_to_array = { pfp_slovenia_integration_array = 736 } #Litorale

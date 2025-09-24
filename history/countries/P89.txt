@@ -92,13 +92,13 @@ recruit_character = P89_democratic_leader
 recruit_character = P89_neutrality_leader
 recruit_character = P89_fascism_leader
 
-#Slovenia Initial States
-add_to_array = { pfp_croatia_integration_array = 107 } #Serbia
-add_to_array = { pfp_croatia_integration_array = 108 } #Morava
+#Serbia Initial States
+add_to_array = { pfp_serbia_integration_array = 107 } #Serbia
+add_to_array = { pfp_serbia_integration_array = 108 } #Morava
 
-#Slovenia Territories
-add_to_array = { pfp_croatia_integration_array = 45 } #Backa
-add_to_array = { pfp_croatia_integration_array = 105 } #Montenegro
-add_to_array = { pfp_croatia_integration_array = 764 } #Banat
-add_to_array = { pfp_croatia_integration_array = 802 } #Kosovo
-add_to_array = { pfp_croatia_integration_array = 803 } #Southern Serbia
+#Serbia Territories
+add_to_array = { pfp_serbia_integration_array = 45 } #Backa
+add_to_array = { pfp_serbia_integration_array = 105 } #Montenegro
+add_to_array = { pfp_serbia_integration_array = 764 } #Banat
+add_to_array = { pfp_serbia_integration_array = 802 } #Kosovo
+add_to_array = { pfp_serbia_integration_array = 803 } #Southern Serbia

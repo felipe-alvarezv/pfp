@@ -1222,6 +1222,62 @@ on_actions = {
                     add_core_of = P86
                 }
             }
+            #Slovenia Integration
+            for_each_scope_loop = {
+                array = pfp_slovenia_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P87
+                        NOT = { is_core_of = P87 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P87
+                    add_core_of = P87
+                }
+            }
+            #Bosnia-Herzegovina Integration
+            for_each_scope_loop = {
+                array = pfp_bosnia-herzegovina_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P88
+                        NOT = { is_core_of = P88 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P88
+                    add_core_of = P88
+                }
+            }
+            #Serbia Integration
+            for_each_scope_loop = {
+                array = pfp_serbia_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P89
+                        NOT = { is_core_of = P89 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P89
+                    add_core_of = P89
+                }
+            }
+            #Montenegro Integration
+            for_each_scope_loop = {
+                array = pfp_montenegro_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P90
+                        NOT = { is_core_of = P90 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P90
+                    add_core_of = P90
+                }
+            }
         }
     }
 }

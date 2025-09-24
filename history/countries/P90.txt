@@ -1,5 +1,5 @@
-#Bosnia-Herzegovina
-capital = 104 #Bosnia
+#Montenegro
+capital = 105 #Montenegro
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -87,11 +87,10 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = P88_communism_leader
-recruit_character = P88_democratic_leader
-recruit_character = P88_neutrality_leader
-recruit_character = P88_fascism_leader
+recruit_character = P90_communism_leader
+recruit_character = P90_democratic_leader
+recruit_character = P90_neutrality_leader
+recruit_character = P90_fascism_leader
 
-#Bosnia-Herzegovina Initial States
-add_to_array = { pfp_bosnia-herzegovina_integration_array = 104 } #Bosnia
-add_to_array = { pfp_bosnia-herzegovina_integration_array = 804 } #Herzegovina
+#Montenegro Initial States
+add_to_array = { pfp_montenegro_integration_array = 105 } #Montenegro
