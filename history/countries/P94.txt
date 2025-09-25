@@ -97,3 +97,4 @@ add_to_array = { pfp_sardinia_integration_array = 114 } #Sardinia
 
 #Sardinia Territories
 add_to_array = { pfp_sardinia_integration_array = 158 } #Piedmont
+add_to_array = { pfp_sardinia_integration_array = 1 } #Corsica
