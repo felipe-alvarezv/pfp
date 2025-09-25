@@ -1362,6 +1362,20 @@ on_actions = {
                     add_core_of = P96
                 }
             }
+            #Two Sicilies Integration
+            for_each_scope_loop = {
+                array = pfp_two_sicilies_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P97
+                        NOT = { is_core_of = P97 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P97
+                    add_core_of = P97
+                }
+            }
         }
     }
 }
