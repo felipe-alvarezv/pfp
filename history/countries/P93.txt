@@ -94,3 +94,6 @@ recruit_character = P93_fascism_leader
 
 #Piedmont Initial States
 add_to_array = { pfp_piedmont_integration_array = 158 } #Piedmont
+
+#Piedmont Territories
+add_to_array = { pfp_piedmont_integration_array = 735 } #Savoy
