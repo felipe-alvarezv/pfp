@@ -90,3 +90,4 @@ P89 = "countries/P89.txt" #Serbia
 P90 = "countries/P90.txt" #Montenegro
 P91 = "countries/P91.txt" #Albania
 P92 = "countries/P92.txt" #Lombardy-Venetia
+P93 = "countries/P93.txt" #Piedmont
