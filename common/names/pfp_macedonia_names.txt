@@ -1,0 +1,23 @@
+#Macedonia
+P98 = {
+    male = {
+        names = { 
+            Aca Adam Aleksandar Andrej Angjelko Antonij Atanas Blagoj Blazhe Bogdan Bojan Borko Branislav Cedomir Damjan Daniel David Dimitar Donco Dusan Dzvezdan Dzvonko Emil Filip Gerasim Gligor Gordan Grigor Hristijan Hristofor
+            Ilarion Ilija Isidor Ivo Joakim Josif Kire Kiro Konstantin Kristijan Lazar Ljuben Ljudmil Ljupco Maksim Marjan Martin Metodij Mihail Mile Mirce Mirko Mitko Mladen Natanail Naum Neofit Nikifor Nikolce Ognen Paskal
+            Pavle Pero Petko Radoslaav Rumen Sasho Sime Slobodan Stefan Tase Tihomir Todor Tose Trajan Vancho Vangel Vaska Venijamin Viktor Vlatko Zharko Zlatan Zoran
+        }
+    }
+    female = {
+        names = {
+            Adrijana Aleksandra Anamarija Angel Angelina Beti Bisera Blagica Blaguna Dafina Dana Daniela Despina Divna Doroteja Dzvezda Elena Emilija Evdokija Filimena Galena Gorica Grozdana Ilina Irina Iskra Ivana Jaga Jagoda
+            Jasna Jordana Jovanka Julijana Karolina Katina Klimentina Lidija Ljuba Ljubica Maja Marija Marina Melanija Mihaila Mila Milica Mira Miroslava Nada Natalija Nedelka Nikolina Olgica Paraskeva Rada Rosa Rozalija Ruzha
+            Sara Serafima Simona Snezhana Sonja Suzana Tamara Tatjana Teodosija Todorka Trendafilka Vana Varvara Vasilija Vaska Veronika Vta Violeta Zaharinka Zhivka Zoja Zorica
+        }
+    }
+    surnames = {  
+        Andov Angekevski Angelov Atanasov Badzakov Bozinov Brankov Damcevski Davidovski Dimitrov Dimitrovski Donev Filipov Galevski Georgievski Gjorgiev Grijevski Ivanoski Ivanov Ivanovski Janev Jusufi Kitanovski Kostadinovski
+        Kostov Kostovski Krstevski Manasivski Matovski Mitrevski Mladenovski Nedelkovski Nikolovski Pandev Pavlovski Penov Petkov Petrevski Petrovski Popovski Redzepovski Risteski Ristevski Ristic Samargiu Sobranie Stojanov
+        Stojcev Sutovic Tajanovski Trajcevski Trajkovska Trajkovski Velkoski Zoranovski
+    }
+    callsigns = { }
+}
