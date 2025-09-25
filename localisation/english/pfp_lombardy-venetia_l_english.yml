@@ -1,4 +1,4 @@
-#Lombardy-Venetia - P92 - Localisation
+ï»¿#Lombardy-Venetia - P92 - Localisation
 l_english:
   P92_communism:0 "Lombardy-Venetia"
   P92_communism_DEF:0 "Lombardy-Venetia"
@@ -17,8 +17,8 @@ l_english:
   P92_ADJ:0 "Lombard-Venetian"
 
   pfp_lombardy-venetia:0 "Establish Military Administration in Lombardy-Venetia"
-  pfp_lombardy-venetia_required_states_lombardy:0 "Controls §YLombardy§!."
-  pfp_lombardy-venetia_required_states_veneto:0 "Controls §YVeneto§!."
-  pfp_lombardy-venetia_core_states:0 "§YLombardy-Venetia§! gains cores on all listed states.\n"
-  pfp_lombardy-venetia_transfer_states:0 "§YLombardy-Venetia§! becomes owner and controller of all listed states.\n"
-  pfp_lombardy-venetia_puppet:0 "§YLombardy-Venetia§! becomes a puppet of §Y[Root.GetName]§!.\n"
+  pfp_lombardy-venetia_required_states_lombardy:0 "Controls Â§YLombardyÂ§!."
+  pfp_lombardy-venetia_required_states_veneto:0 "Controls Â§YVenetoÂ§!."
+  pfp_lombardy-venetia_core_states:0 "Â§YLombardy-VenetiaÂ§! gains cores on all listed states.\n"
+  pfp_lombardy-venetia_transfer_states:0 "Â§YLombardy-VenetiaÂ§! becomes owner and controller of all listed states.\n"
+  pfp_lombardy-venetia_puppet:0 "Â§YLombardy-VenetiaÂ§! becomes a puppet of Â§Y[Root.GetName]Â§!.\n"

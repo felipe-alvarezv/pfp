@@ -1,4 +1,4 @@
-#Serbia - P89 - Localisation
+ï»¿#Serbia - P89 - Localisation
 l_english:
   P89_communism:0 "Serbia"
   P89_communism_DEF:0 "Serbia"
@@ -17,8 +17,8 @@ l_english:
   P89_ADJ:0 "Serbian"
 
   pfp_serbia:0 "Establish Military Administration in Serbia"
-  pfp_serbia_required_states_serbia:0 "Controls §YSerbia§!."
-  pfp_serbia_required_states_morava:0 "Controls §YMorava§!."
-  pfp_serbia_core_states:0 "§YSerbia§! gains cores on all listed states.\n"
-  pfp_serbia_transfer_states:0 "§YSerbia§! becomes owner and controller of all listed states.\n"
-  pfp_serbia_puppet:0 "§YSerbia§! becomes a puppet of §Y[Root.GetName]§!.\n"
+  pfp_serbia_required_states_serbia:0 "Controls Â§YSerbiaÂ§!."
+  pfp_serbia_required_states_morava:0 "Controls Â§YMoravaÂ§!."
+  pfp_serbia_core_states:0 "Â§YSerbiaÂ§! gains cores on all listed states.\n"
+  pfp_serbia_transfer_states:0 "Â§YSerbiaÂ§! becomes owner and controller of all listed states.\n"
+  pfp_serbia_puppet:0 "Â§YSerbiaÂ§! becomes a puppet of Â§Y[Root.GetName]Â§!.\n"

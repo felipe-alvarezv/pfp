@@ -1,4 +1,4 @@
-#Bosnia-Herzegovina - P88 - Localisation
+ï»¿#Bosnia-Herzegovina - P88 - Localisation
 l_english:
   P88_communism:0 "Bosnia-Herzegovina"
   P88_communism_DEF:0 "Bosnia-Herzegovina"
@@ -17,8 +17,8 @@ l_english:
   P88_ADJ:0 "Bosnian"
 
   pfp_bosnia-herzegovina:0 "Establish Military Administration in Bosnia-Herzegovina"
-  pfp_bosnia-herzegovina_required_states_bosnia:0 "Controls §YBosnia§!."
-  pfp_bosnia-herzegovina_required_states_herzegovina:0 "Controls §YHerzegovina§!."
-  pfp_bosnia-herzegovina_core_states:0 "§YBosnia-Herzegovina§! gains cores on all listed states.\n"
-  pfp_bosnia-herzegovina_transfer_states:0 "§YBosnia-Herzegovina§! becomes owner and controller of all listed states.\n"
-  pfp_bosnia-herzegovina_puppet:0 "§YBosnia-Herzegovina§! becomes a puppet of §Y[Root.GetName]§!.\n"
+  pfp_bosnia-herzegovina_required_states_bosnia:0 "Controls Â§YBosniaÂ§!."
+  pfp_bosnia-herzegovina_required_states_herzegovina:0 "Controls Â§YHerzegovinaÂ§!."
+  pfp_bosnia-herzegovina_core_states:0 "Â§YBosnia-HerzegovinaÂ§! gains cores on all listed states.\n"
+  pfp_bosnia-herzegovina_transfer_states:0 "Â§YBosnia-HerzegovinaÂ§! becomes owner and controller of all listed states.\n"
+  pfp_bosnia-herzegovina_puppet:0 "Â§YBosnia-HerzegovinaÂ§! becomes a puppet of Â§Y[Root.GetName]Â§!.\n"

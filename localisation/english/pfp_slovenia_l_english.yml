@@ -1,4 +1,4 @@
-#Slovenia - P87 - Localisation
+ï»¿#Slovenia - P87 - Localisation
 l_english:
   P87_communism:0 "Slovenia"
   P87_communism_DEF:0 "Slovenia"
@@ -17,8 +17,8 @@ l_english:
   P87_ADJ:0 "Slovenian"
 
   pfp_slovenia:0 "Establish Military Administration in Slovenia"
-  pfp_slovenia_required_states_north_slovenia:0 "Controls §YNorth Slovenia§!."
-  pfp_slovenia_required_states_ljubljana:0 "Controls §YLjubljana§!."
-  pfp_slovenia_core_states:0 "§YSlovenia§! gains cores on all listed states.\n"
-  pfp_slovenia_transfer_states:0 "§YSlovenia§! becomes owner and controller of all listed states.\n"
-  pfp_slovenia_puppet:0 "§YSlovenia§! becomes a puppet of §Y[Root.GetName]§!.\n"
+  pfp_slovenia_required_states_north_slovenia:0 "Controls Â§YNorth SloveniaÂ§!."
+  pfp_slovenia_required_states_ljubljana:0 "Controls Â§YLjubljanaÂ§!."
+  pfp_slovenia_core_states:0 "Â§YSloveniaÂ§! gains cores on all listed states.\n"
+  pfp_slovenia_transfer_states:0 "Â§YSloveniaÂ§! becomes owner and controller of all listed states.\n"
+  pfp_slovenia_puppet:0 "Â§YSloveniaÂ§! becomes a puppet of Â§Y[Root.GetName]Â§!.\n"
