@@ -10,7 +10,7 @@ l_german:
  pfp_management_window:0 "Verwaltungsmenü öffnen"
 
  #Default Leader
- pfp_default_puppet_leader:0 "Militärjunta"
+ pfp_default_puppet_leader:0 "Militärgouverneur"
 
  #Autonomy Level
  autonomy_military_occupation:0 "Militärverwaltung"
