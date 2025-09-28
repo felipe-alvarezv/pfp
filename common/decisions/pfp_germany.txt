@@ -157,7 +157,7 @@ pfp_category = {
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
 				pfp_release_germany = yes
-				set_autonomy = { target = P13 set_autonomy = { target = P76 autonomy_state = pfp_autonomy_military_occupation }
+				set_autonomy = { target = P13 autonomy_state = pfp_autonomy_military_occupation }
 				pfp_set_autonomy_colour = yes
 
 				#Code to assign generic portraits
