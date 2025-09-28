@@ -21,27 +21,29 @@ pfp_puppet_management = {
 
 		fire_only_once = no
 
-		hidden_effect = {
-			if = {
-				limit = { has_global_flag = pfp_autonomy_military_occupation_colour_on }
-				clr_global_flag = pfp_autonomy_military_occupation_colour_on
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					limit = { has_global_flag = pfp_autonomy_military_occupation_colour_on }
+					clr_global_flag = pfp_autonomy_military_occupation_colour_on
 
-				every_country = {
-					every_subject_country = {
-						limit = { has_autonomy_state = pfp_autonomy_military_occupation_colour }
-						set_temp_variable = { target_military_occupation = THIS }
-						overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } }
+					every_country = {
+						every_subject_country = {
+							limit = { has_autonomy_state = pfp_autonomy_military_occupation_colour }
+							set_temp_variable = { target_military_occupation = THIS }
+							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } }
+						}
 					}
 				}
-			}
-			else = {
-				set_global_flag = pfp_autonomy_military_occupation_colour_on
+				else = {
+					set_global_flag = pfp_autonomy_military_occupation_colour_on
 
-				every_country = {
-					every_subject_country = {
-						limit = { has_autonomy_state = pfp_autonomy_military_occupation }
-						set_temp_variable = { target_military_occupation = THIS }
-						overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_colour } }
+					every_country = {
+						every_subject_country = {
+							limit = { has_autonomy_state = pfp_autonomy_military_occupation }
+							set_temp_variable = { target_military_occupation = THIS }
+							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_colour } }
+						}
 					}
 				}
 			}
