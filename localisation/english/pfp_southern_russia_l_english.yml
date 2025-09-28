@@ -16,7 +16,7 @@ l_english:
   P40_DEF:0 "Southern Russia"
   P40_ADJ:0 "Southern Russian"
 
-  pfp_southern_russia:0 "Establish Military Administration in Southern Russia"
+  pfp_southern_russia:0 "Establish Military Occupation in Southern Russia"
   pfp_southern_russia_required_states_stalingrad:0 "Controls §YStalingrad§!."
   pfp_southern_russia_required_states_rostov:0 "Controls §YRostov§!."
   pfp_southern_russia_required_states_astrakhan:0 "Controls §YAstrakhan§!."

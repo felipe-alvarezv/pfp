@@ -16,7 +16,7 @@ l_english:
   P48_DEF:0 "Western Russia"
   P48_ADJ:0 "Western Russian"
 
-  pfp_western_russia:0 "Establish Military Administration in Western Russia"
+  pfp_western_russia:0 "Establish Military Occupation in Western Russia"
   pfp_western_russia_required_states_leningrad:0 "Controls §YLeningrad§!."
   pfp_western_russia_required_states_kaluga:0 "Controls §YKaluga§!."
   pfp_western_russia_required_states_luga:0 "Controls §YLuga§!."

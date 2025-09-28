@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_military_administration
+	id = autonomy_military_occupation
 
 	default = yes
 	is_puppet = yes
@@ -36,11 +36,11 @@ autonomy_state = {
 	allowed = {
 		OR = {
 			is_subject = no
-			has_autonomy_state = autonomy_military_administration
+			has_autonomy_state = autonomy_military_occupation
 		}
 	}
 
-	allowed_levels_filter = { autonomy_military_administration }
+	allowed_levels_filter = { autonomy_military_occupation }
 	can_take_level = { always = no }
 	can_lose_level = { always = no }
 }

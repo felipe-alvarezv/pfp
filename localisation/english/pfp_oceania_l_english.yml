@@ -18,7 +18,7 @@ l_english:
   P27_ADJ:0 "Oceanian"
 
 #Decisions Localisation
-  pfp_oceania:0 "Establish Military Administration in Oceania"
+  pfp_oceania:0 "Establish Military Occupation in Oceania"
   pfp_oceania_required_states_new_south_wales:0 "Controls §YNew South Wales§!."
   pfp_oceania_required_states_victoria:0 "Controls §YVictoria§!."
   pfp_oceania_required_states_tasmania:0 "Controls §YTasmania§!."

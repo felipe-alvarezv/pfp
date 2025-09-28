@@ -16,7 +16,7 @@ l_english:
   P42_DEF:0 "the Volga"
   P42_ADJ:0 "Volga"
 
-  pfp_volga:0 "Establish Military Administration in the Volga"
+  pfp_volga:0 "Establish Military Occupation in the Volga"
   pfp_volga_required_states_saratov:0 "Controls §YSaratov§!."
   pfp_volga_required_states_kazan:0 "Controls §YKazan§!."
   pfp_volga_required_states_ulyanovsky:0 "Controls §YUlyanovsky§!."

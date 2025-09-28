@@ -16,7 +16,7 @@ l_english:
   P60_DEF:0 "Belgium"
   P60_ADJ:0 "Belgian"
   
-  pfp_belgium:0 "Establish Military Administration in Belgium"
+  pfp_belgium:0 "Establish Military Occupation in Belgium"
   pfp_belgium_required_states_vlaanderen:0 "Controls §YVlaanderen§!."
   pfp_belgium_required_states_wallonie:0 "Controls §YWallonie§!."
   pfp_belgium_required_states_antwerp:0 "Controls §YAntwerp§!."

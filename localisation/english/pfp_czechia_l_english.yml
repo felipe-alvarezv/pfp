@@ -16,7 +16,7 @@ l_english:
   P59_DEF:0 "Czechia"
   P59_ADJ:0 "Czech"
   
-  pfp_czechia:0 "Establish Military Administration in Czechia"
+  pfp_czechia:0 "Establish Military Occupation in Czechia"
   pfp_czechia_required_states_bohemia:0 "Controls §YBohemia§!."
   pfp_czechia_required_states_moravia:0 "Controls §YMoravia§!."
   pfp_czechia_core_states:0 "§YCzechia§! gains cores on all listed states.\n"

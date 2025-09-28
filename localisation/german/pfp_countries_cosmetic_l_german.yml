@@ -1,8 +1,8 @@
 ﻿l_german:
   #Formable Puppet Naming Convention
-  COUNTRY_autonomy_military_administration:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
-  COUNTRY_autonomy_military_administration_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
-  COUNTRY_autonomy_military_administration_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
+  COUNTRY_autonomy_military_occupation:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
+  COUNTRY_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
+  COUNTRY_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
 
   #German Puppet Names
   P01_GER_subject: "Kolumbien"

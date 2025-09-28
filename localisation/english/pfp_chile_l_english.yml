@@ -16,7 +16,7 @@ l_english:
   P54_DEF:0 "Chile"
   P54_ADJ:0 "Chilean"
 
-  pfp_chile:0 "Establish Military Administration in the Chile"
+  pfp_chile:0 "Establish Military Occupation in the Chile"
   pfp_chile_required_states_santiago:0 "Controls §YSantiago§!."
   pfp_chile_required_states_atacama:0 "Controls §YAtacama§!."
   pfp_chile_core_states:0 "§YChile§! gains cores on all listed states.\n"

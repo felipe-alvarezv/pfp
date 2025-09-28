@@ -48,7 +48,7 @@ pfp_category = {
 				#Create formable puppet with all its states and then puppet
 				hidden_effect = {
 					pfp_release_himalayas = yes
-					set_autonomy = { target = P52 autonomy_state = autonomy_military_administration }
+					set_autonomy = { target = P52 autonomy_state = autonomy_military_occupation }
 
 				#Code to assign generic portraits
 				set_temp_variable = { pfp_portrait_tag = P52 }

@@ -16,7 +16,7 @@ l_english:
   P45_DEF:0 "Siberian"
   P45_ADJ:0 "Siberian"
 
-  pfp_siberia:0 "Establish Military Administration in Siberia"
+  pfp_siberia:0 "Establish Military Occupation in Siberia"
   pfp_siberia_required_states_altai_krai:0 "Controls §YAltai Krai§!."
   pfp_siberia_required_states_dudinka:0 "Controls §YDudinka§!."
   pfp_siberia_required_states_irkutsk:0 "Controls §YIrkutsk§!."

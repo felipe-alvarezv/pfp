@@ -16,7 +16,7 @@ l_english:
   P78_DEF:0 "Switzerland"
   P78_ADJ:0 "Swiss"
 
-  pfp_switzerland:0 "Establish Military Administration in Switzerland"
+  pfp_switzerland:0 "Establish Military Occupation in Switzerland"
   pfp_switzerland_required_states_swiss_plateau:0 "Controls §YSwiss Plateau§!."
   pfp_switzerland_required_states_eastern_swiss_alps:0 "Controls §YEastern Swiss Alps§!."
   pfp_switzerland_required_states_jura_mountains:0 "Controls §YJura Mountains§!."

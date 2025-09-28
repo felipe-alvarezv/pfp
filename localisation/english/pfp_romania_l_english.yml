@@ -16,7 +16,7 @@ l_english:
   P79_DEF:0 "Romania"
   P79_ADJ:0 "Romanian"
 
-  pfp_romania:0 "Establish Military Administration in Romania"
+  pfp_romania:0 "Establish Military Occupation in Romania"
   pfp_romania_required_states_muntenia:0 "Controls §YMuntenia§!."
   pfp_romania_required_states_moldova:0 "Controls §YMoldova§!."
   pfp_romania_required_states_oltenia:0 "Controls §YOltenia§!."

@@ -16,7 +16,7 @@ l_english:
   P01_DEF:0 "Colombia"
   P01_ADJ:0 "Colombian"
   
-  pfp_colombia:0 "Establish Military Administration in Colombia"
+  pfp_colombia:0 "Establish Military Occupation in Colombia"
   pfp_colombia_required_states_cundinamarca:0 "Controls §YCundinamarca§!."
   pfp_colombia_required_states_meta:0 "Controls §YMeta§!."
   pfp_colombia_required_states_la_libertad:0 "Controls §YLa Libertad§!."

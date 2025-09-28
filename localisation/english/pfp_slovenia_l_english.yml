@@ -16,7 +16,7 @@ l_english:
   P87_DEF:0 "Slovenia"
   P87_ADJ:0 "Slovenian"
 
-  pfp_slovenia:0 "Establish Military Administration in Slovenia"
+  pfp_slovenia:0 "Establish Military Occupation in Slovenia"
   pfp_slovenia_required_states_north_slovenia:0 "Controls §YNorth Slovenia§!."
   pfp_slovenia_required_states_ljubljana:0 "Controls §YLjubljana§!."
   pfp_slovenia_core_states:0 "§YSlovenia§! gains cores on all listed states.\n"

@@ -16,7 +16,7 @@ l_english:
   P02_DEF:0 "Great Britain"
   P02_ADJ:0 "British"
   
-  pfp_great_britain:0 "Establish Military Administration in Great Britain"
+  pfp_great_britain:0 "Establish Military Occupation in Great Britain"
   pfp_great_britain_required_states_scottish_highlands:0 "Controls §YScottish Highlands§!."
   pfp_great_britain_required_states_lothian:0 "Controls §YLothian§!."
   pfp_great_britain_required_states_wales:0 "Controls §YWales§!."

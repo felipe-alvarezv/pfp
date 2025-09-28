@@ -1,7 +1,7 @@
 ﻿l_english:
-  COUNTRY_autonomy_military_administration:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
-  COUNTRY_autonomy_military_administration_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
-  COUNTRY_autonomy_military_administration_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
+  COUNTRY_autonomy_military_occupation:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
+  COUNTRY_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
+  COUNTRY_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
 
   P01_GER_subject:0 "Kolumbien"
   P02_GER_subject:0 "Großbritannien"

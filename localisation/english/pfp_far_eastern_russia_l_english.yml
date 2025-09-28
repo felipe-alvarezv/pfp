@@ -16,7 +16,7 @@ l_english:
  P46_DEF:0 "Far Eastern Russia"
  P46_ADJ:0 "Far Eastern Russian"
 
- pfp_far_eastern_russia:0 "Establish Military Administration in Far Eastern Russia"
+ pfp_far_eastern_russia:0 "Establish Military Occupation in Far Eastern Russia"
  pfp_far_eastern_russia_required_states_vladivostok:0 "Controls §YVladivostok§!."
  pfp_far_eastern_russia_required_states_khabarovsk:0 "Controls §YKhabarovsk§!."
  pfp_far_eastern_russia_required_states_nikolayevsk:0 "Controls §YNikolayevsk§!."

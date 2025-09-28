@@ -16,7 +16,7 @@ l_english:
   P92_DEF:0 "Lombardy-Venetia"
   P92_ADJ:0 "Lombard-Venetian"
 
-  pfp_lombardy-venetia:0 "Establish Military Administration in Lombardy-Venetia"
+  pfp_lombardy-venetia:0 "Establish Military Occupation in Lombardy-Venetia"
   pfp_lombardy-venetia_required_states_lombardy:0 "Controls §YLombardy§!."
   pfp_lombardy-venetia_required_states_veneto:0 "Controls §YVeneto§!."
   pfp_lombardy-venetia_core_states:0 "§YLombardy-Venetia§! gains cores on all listed states.\n"

@@ -16,7 +16,7 @@ l_english:
  P24_DEF:0 "Scandinavia"
  P24_ADJ:0 "Scandinavian"
 
- pfp_scandinavia:0 "Establish Military Administration in Scandinavia"
+ pfp_scandinavia:0 "Establish Military Occupation in Scandinavia"
  pfp_scandinavia_required_states_skane:0 "Controls §YSkåne§!."
  pfp_scandinavia_required_states_sjaelland:0 "Controls §YSjaelland§!."
  pfp_scandinavia_required_states_jylland:0 "Controls §YJylland§!."

@@ -16,7 +16,7 @@ l_english:
  P47_DEF:0 "Mongolia"
  P47_ADJ:0 "Mongolian"
 
- pfp_mongolia:0 "Establish Military Administration in Mongolia"
+ pfp_mongolia:0 "Establish Military Occupation in Mongolia"
  pfp_mongolia_required_states_ulaanbaatar:0 "Controls §YUlaanbaatar§!."
  pfp_mongolia_required_states_gobi:0 "Controls §YGobi§!."
  pfp_mongolia_required_states_khovd:0 "Controls §YKhovd§!."

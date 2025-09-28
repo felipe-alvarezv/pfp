@@ -16,7 +16,7 @@ l_english:
  P15_DEF:0 "Iberia"
  P15_ADJ:0 "Iberian"
 
- pfp_iberia:0 "Establish Military Administration in Iberia"
+ pfp_iberia:0 "Establish Military Occupation in Iberia"
  pfp_iberia_required_states_madrid:0 "Controls §YMadrid§!."
  pfp_iberia_required_states_lisbon:0 "Controls §YLisbon§!."
  pfp_iberia_required_states_cataluna:0 "Controls §YCataluña§!."

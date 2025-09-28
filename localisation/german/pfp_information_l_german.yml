@@ -13,7 +13,7 @@ l_german:
  pfp_default_puppet_leader:0 "Militärjunta"
 
  #Autonomy Level
- autonomy_military_administration:0 "Militärverwaltung"
+ autonomy_military_occupation:0 "Militärverwaltung"
 
  #PFP Management User Interface
  pfp_management_textbox_title:0 "PFP Verwaltung"

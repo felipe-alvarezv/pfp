@@ -16,7 +16,7 @@ l_english:
   P86_DEF:0 "Croatia"
   P86_ADJ:0 "Croatian"
 
-  pfp_croatia:0 "Establish Military Administration in Croatia"
+  pfp_croatia:0 "Establish Military Occupation in Croatia"
   pfp_croatia_required_states_dalmatia:0 "Controls §YDalmatia§!."
   pfp_croatia_required_states_croatia:0 "Controls §YCroatia§!."
   pfp_croatia_core_states:0 "§YCroatia§! gains cores on all listed states.\n"

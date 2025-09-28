@@ -16,7 +16,7 @@ l_english:
  P22_DEF:0 "Quebec"
  P22_ADJ:0 "Quebecois"
 
- pfp_quebec:0 "Establish Military Administration in Quebec"
+ pfp_quebec:0 "Establish Military Occupation in Quebec"
  pfp_quebec_required_states_nord_du_quebec:0 "Controls §YNord du Quebec§!."
  pfp_quebec_required_states_saint_lawrence:0 "Controls §YSaint Lawrence§!."
  pfp_quebec_required_states_cote_nord:0 "Controls §YCôte-Nord§!."

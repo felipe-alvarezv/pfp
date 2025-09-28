@@ -16,7 +16,7 @@ l_english:
   P04_DEF:0 "the Baltic"
   P04_ADJ:0 "Baltic"
 
-  pfp_baltic:0 "Establish Military Administration in the Baltic"
+  pfp_baltic:0 "Establish Military Occupation in the Baltic"
   pfp_baltic_required_states_parnu:0 "Controls §YPärnu§!."
   pfp_baltic_required_states_tartu:0 "Controls §YTartu§!."
   pfp_baltic_required_states_vidzeme:0 "Controls §YVidzeme§!."

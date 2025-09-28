@@ -16,7 +16,7 @@ l_english:
   P49_DEF:0 "Bulgaria"
   P49_ADJ:0 "Bulgarian"
 
-  pfp_bulgaria:0 "Establish Military Administration in Bulgaria"
+  pfp_bulgaria:0 "Establish Military Occupation in Bulgaria"
   pfp_bulgaria_required_states_sofia:0 "Controls §YSofia§!."
   pfp_bulgaria_required_states_burgas:0 "Controls §YBurgas§!."
   pfp_bulgaria_required_states_plovdiv:0 "Controls §YPlovdiv§!."

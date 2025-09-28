@@ -16,7 +16,7 @@ l_english:
   P29_DEF:0 "Western Canada"
   P29_ADJ:0 "Western Canadian"
 
-  pfp_western_canada:0 "Establish Military Administration in Western Canada"
+  pfp_western_canada:0 "Establish Military Occupation in Western Canada"
   pfp_western_canada_required_states_manitoba:0 "Controls §YManitoba§!."
   pfp_western_canada_required_states_saskatchewan:0 "Controls §YSaskatchewan§!."
   pfp_western_canada_required_states_alberta:0 "Controls §YAlberta§!."

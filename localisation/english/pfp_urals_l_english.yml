@@ -16,7 +16,7 @@ l_english:
   P44_DEF:0 "the Urals"
   P44_ADJ:0 "Uralic"
 
-  pfp_urals:0 "Establish Military Administration in the Urals"
+  pfp_urals:0 "Establish Military Occupation in the Urals"
   pfp_urals_required_states_tyumen:0 "Controls §YTyumen§!."
   pfp_urals_required_states_chelyabinsk:0 "Controls §YChelyabinsk§!."
   pfp_urals_required_states_zlatoust:0 "Controls §YZlatoust§!."

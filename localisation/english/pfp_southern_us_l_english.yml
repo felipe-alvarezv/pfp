@@ -16,7 +16,7 @@ l_english:
   P26_DEF:0 "the Southern U.S."
   P26_ADJ:0 "Southern American"
 
-  pfp_southern_us:0 "Establish Military Administration in the Southern U.S."
+  pfp_southern_us:0 "Establish Military Occupation in the Southern U.S."
   pfp_southern_us_required_states_virginia:0 "Controls §YVirginia§!."
   pfp_southern_us_required_states_north_carolina:0 "Controls §YNorth Carolina§!."
   pfp_southern_us_required_states_south_carolina:0 "Controls §YSouth Carolina§!."

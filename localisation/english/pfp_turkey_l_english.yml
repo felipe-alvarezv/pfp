@@ -16,7 +16,7 @@ l_english:
   P68_DEF:0 "Turkey"
   P68_ADJ:0 "Turkish"
 
-  pfp_turkey:0 "Establish Military Administration in Turkey"
+  pfp_turkey:0 "Establish Military Occupation in Turkey"
   pfp_turkey_required_states_ankara:0 "Controls §YAnkara§!."
   pfp_turkey_required_states_afyon:0 "Controls §YAfyon§!."
   pfp_turkey_required_states_konya:0 "Controls §YKonya§!."

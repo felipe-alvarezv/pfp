@@ -16,7 +16,7 @@ l_english:
  P43_DEF:0 "Northwestern Russia"
  P43_ADJ:0 "Northwestern Russian"
 
- pfp_northwestern_russia:0 "Establish Military Administration in Northwestern Russia"
+ pfp_northwestern_russia:0 "Establish Military Occupation in Northwestern Russia"
  pfp_northwestern_russia_required_states_leningrad:0 "Controls §YLeningrad§!."
  pfp_northwestern_russia_required_states_luga:0 "Controls §YLuga§!."
  pfp_northwestern_russia_required_states_pskov:0 "Controls §YPskov§!."
