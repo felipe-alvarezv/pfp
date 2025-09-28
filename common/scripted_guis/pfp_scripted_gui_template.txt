@@ -17,7 +17,7 @@ scripted_gui = {
 				}
 				num_subjects > 0
 				any_subject_country = {
-					has_autonomy_state = autonomy_military_occupation
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 			pfp_state_transfer_option_button_click_enabled = {
@@ -41,7 +41,7 @@ scripted_gui = {
 
 				every_subject_country = {
 					limit = {
-						has_autonomy_state = autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation
 					}
 					add_to_array = {
 						array = ROOT.pfp_view_puppets_gridbox_array
@@ -324,7 +324,7 @@ scripted_gui = {
 						AND = {
 							owner = { 
 								is_subject_of = ROOT
-								has_autonomy_state = autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation
 							}
 							THIS = { is_owned_and_controlled_by = owner }
 						}
@@ -346,7 +346,7 @@ scripted_gui = {
 				OR = {
 					#AND = {
 						#owner = { is_ally_with = ROOT }
-						#owner = { has_autonomy_state = autonomy_military_occupation } 
+						#owner = { has_autonomy_state = pfp_autonomy_military_occupation } 
 					#}
 					owner = { original_tag = ROOT }
 					owner = { is_ally_with = ROOT }

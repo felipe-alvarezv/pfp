@@ -13,8 +13,8 @@ l_german:
  pfp_default_puppet_leader:0 "Militärgouverneur"
 
  #Autonomy Level
- autonomy_military_occupation:0 "Militärverwaltung"
-
+ pfp_autonomy_military_occupation:0 "Militärverwaltung"
+ pfp_autonomy_military_occupation_colour:0 "Militärverwaltung"
  #PFP Management User Interface
  pfp_management_textbox_title:0 "PFP Verwaltung"
  pfp_management_textbox_view_puppets:0 "Marionetten anzeigen"

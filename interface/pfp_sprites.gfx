@@ -1,7 +1,13 @@
 spriteTypes = {
 	# Military Occupation
 	spriteType = {
-		name = "GFX_autonomy_military_occupation_icon"
+		name = "GFX_pfp_autonomy_military_occupation_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
+	}
+
+	# Military Occupation Colour
+	spriteType = {
+		name = "GFX_pfp_autonomy_military_occupation_colour_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
 	}
 

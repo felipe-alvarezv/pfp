@@ -1,9 +1,9 @@
 autonomy_state = {
-	id = autonomy_military_occupation
+	id = pfp_autonomy_military_occupation_colour
 
 	default = yes
 	is_puppet = yes
-	use_overlord_color = yes
+	use_overlord_color = no
 	min_freedom_level = 0.2
 	manpower_influence = 1.0
 
@@ -36,11 +36,11 @@ autonomy_state = {
 	allowed = {
 		OR = {
 			is_subject = no
-			has_autonomy_state = autonomy_military_occupation
+			has_autonomy_state = pfp_autonomy_military_occupation_colour
 		}
 	}
 
-	allowed_levels_filter = { autonomy_military_occupation }
+	allowed_levels_filter = { pfp_autonomy_military_occupation_colour }
 	can_take_level = { always = no }
 	can_lose_level = { always = no }
 }

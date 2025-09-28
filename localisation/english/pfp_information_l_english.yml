@@ -8,12 +8,14 @@ l_english:
  pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
  pfp_puppet_management_desc:0 "After establishing our military occupation, we may need to make adjustments regarding the administration and its territories."
  pfp_management_window:0 "Open Management Menu"
+ pfp_management_coloured_puppets:0 "Toggle Overlord Coloured Puppets"
 
  #Default Leader
  pfp_default_puppet_leader:0 "Military Governor"
 
  #Autonomy Level
- autonomy_military_occupation:0 "Military Occupation"
+ pfp_autonomy_military_occupation:0 "Military Occupation"
+ pfp_autonomy_military_occupation_colour:0 "Military Occupation"
 
  #PFP Management User Interface
  pfp_management_textbox_title:0 "PFP Management"
