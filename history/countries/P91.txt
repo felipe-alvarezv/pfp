@@ -97,4 +97,5 @@ add_to_array = { pfp_albania_integration_array = 44 } #Central Albania
 add_to_array = { pfp_albania_integration_array = 934 } #Shkoder
 
 #Albania Territories
+add_to_array = { pfp_albania_integration_array = 802 } #Kosovo
 add_to_array = { pfp_albania_integration_array = 805 } #Northern Epirus
