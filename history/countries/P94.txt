@@ -96,5 +96,5 @@ recruit_character = P94_fascism_leader
 add_to_array = { pfp_sardinia_integration_array = 114 } #Sardinia
 
 #Sardinia Territories
-add_to_array = { pfp_sardinia_integration_array = 158 } #Piedmont
 add_to_array = { pfp_sardinia_integration_array = 1 } #Corsica
+add_to_array = { pfp_sardinia_integration_array = 158 } #Piedmont

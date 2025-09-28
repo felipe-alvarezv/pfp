@@ -99,6 +99,8 @@ add_to_array = { pfp_serbia_integration_array = 108 } #Morava
 #Serbia Territories
 add_to_array = { pfp_serbia_integration_array = 45 } #Backa
 add_to_array = { pfp_serbia_integration_array = 105 } #Montenegro
+add_to_array = { pfp_serbia_integration_array = 106 } #Macedonia
 add_to_array = { pfp_serbia_integration_array = 764 } #Banat
 add_to_array = { pfp_serbia_integration_array = 802 } #Kosovo
 add_to_array = { pfp_serbia_integration_array = 803 } #Southern Serbia
+add_to_array = { pfp_serbia_integration_array = 970 } #Debar
