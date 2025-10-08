@@ -96,3 +96,4 @@ P95 = "countries/P95.txt" #Tuscany
 P96 = "countries/P96.txt" #Papal States
 P97 = "countries/P97.txt" #Two Sicilies
 P98 = "countries/P98.txt" #Macedonia
+P99 = "countries/P99.txt" #Hokkaido

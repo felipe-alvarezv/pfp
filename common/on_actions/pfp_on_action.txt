@@ -1390,6 +1390,20 @@ on_actions = {
                     add_core_of = P98
                 }
             }
+            #Hokkaido Integration
+            for_each_scope_loop = {
+                array = pfp_hokkaido_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = P99
+                        NOT = { is_core_of = P99 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = P99
+                    add_core_of = P99
+                }
+            }
         }
     }
 }
