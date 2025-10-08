@@ -19,7 +19,7 @@ l_english:
  pfp_rockies_us:0 "Establish Military Occupation in the U.S. Rockies"
  pfp_rockies_us_required_states_new_mexico:0 "Controls §Y[376.GetName]§!."
  pfp_rockies_us_required_states_arizona:0 "Controls §Y[377.GetName]§!."
- pfp_rockies_us_required_states_nevada:0 "Controls §Y[379.[GetName]]§!."
+ pfp_rockies_us_required_states_nevada:0 "Controls §Y[379.GetName]§!."
  pfp_rockies_us_required_states_utah:0 "Controls §Y[380.GetName]§!."
  pfp_rockies_us_required_states_wyoming:0 "Controls §Y[381.GetName]§!."
  pfp_rockies_us_required_states_colorado:0 "Controls §Y[382.GetName]§!."
