@@ -17,9 +17,9 @@ l_english:
  P21_ADJ:0 "Pacific American"
 
  pfp_pacific_us:0 "Establish Military Occupation in the Pacific U.S."
- pfp_pacific_us_required_states_california:0 "Controls §YCalifornia§!."
- pfp_pacific_us_required_states_oregon:0 "Controls §YOregon§!."
- pfp_pacific_us_required_states_washington:0 "Controls §YWashington§!."
+ pfp_pacific_us_required_states_california:0 "Controls §Y[378.GetName]§!."
+ pfp_pacific_us_required_states_oregon:0 "Controls §Y[385.GetName]§!."
+ pfp_pacific_us_required_states_washington:0 "Controls §Y[386.GetName]§!."
  pfp_pacific_us_core_states:0 "§YPacific U.S.§! gains cores on all listed states.\n"
  pfp_pacific_us_transfer_states:0 "§YPacific U.S.§! becomes owner and controller of all listed states.\n"
  pfp_pacific_us_puppet:0 "§YPacific U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"

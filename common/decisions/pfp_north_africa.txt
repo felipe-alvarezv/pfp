@@ -40,7 +40,7 @@ pfp_category = {
 			}
 			#Matrouh
 			custom_trigger_tooltip = {
-				tooltip = pfp_north_africa_required_states_marsa_matruh
+				tooltip = pfp_north_africa_required_states_matrouh
 				has_full_control_of_state = 452 #Matrouh
 			}
 			#Aswan

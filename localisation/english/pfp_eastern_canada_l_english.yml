@@ -17,9 +17,9 @@ l_english:
  P11_ADJ:0 "Eastern Canadian"
 
  pfp_eastern_canada:0 "Establish Military Occupation in Eastern Canada"
- pfp_eastern_canada_required_states_southern_ontario:0 "Controls §YSouthern Ontario§!."
- pfp_eastern_canada_required_states_northern_ontario:0 "Controls §YNorthern Ontario§!."
- pfp_eastern_canada_required_states_districts_of_ontario:0 "Controls §YDistricts of Ontario§!."
+ pfp_eastern_canada_required_states_southern_ontario:0 "Controls §Y[276.GetName]§!."
+ pfp_eastern_canada_required_states_northern_ontario:0 "Controls §Y[682.GetName]§!."
+ pfp_eastern_canada_required_states_districts_of_ontario:0 "Controls §Y[866.GetName]§!."
  pfp_eastern_canada_core_states:0 "§YEastern Canada§! gains cores on all listed states.\n"
  pfp_eastern_canada_transfer_states:0 "§YEastern Canada§! becomes owner and controller of all listed states.\n"
  pfp_eastern_canada_puppet:0 "§YEastern Canada§! becomes a puppet of §Y[Root.GetName]§!.\n"

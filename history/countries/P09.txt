@@ -95,8 +95,8 @@ recruit_character = P09_fascism_leader
 
 #Hungary Initial States
 add_to_array = { pfp_hungary_integration_array = 43 } #Northern Hungary
-add_to_array = { pfp_hungary_integration_array = 154 } #Alfold
-add_to_array = { pfp_hungary_integration_array = 155 } #Transdanubia
+add_to_array = { pfp_hungary_integration_array = 154 } #Transtisza
+add_to_array = { pfp_hungary_integration_array = 155 } #North Transdanubia
 add_to_array = { pfp_hungary_integration_array = 973 } #Bács-Kiskun
 add_to_array = { pfp_hungary_integration_array = 974 } #South Transdanubia
 

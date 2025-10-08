@@ -18,8 +18,8 @@ l_german:
   
   pfp_hungary:0 "Militärverwaltung in Ungarn errichten"
   pfp_hungary_required_states_northern_hungary:0 "Kontrolliert §YNorthern Hungary§!."
-  pfp_hungary_required_states_alfold:0 "Kontrolliert §YAlföld§!."
-  pfp_hungary_required_states_transdanubia:0 "Kontrolliert §YTransdanubia§!."
+  pfp_hungary_required_states_transtisza:0 "Kontrolliert §YTranstisza§!."
+  pfp_hungary_required_states_north_transdanubia:0 "Kontrolliert §YNorth Transdanubia§!."
   pfp_hungary_required_states_bacs_kiskun:0 "Kontrolliert §YBács-Kiskun§!."
   pfp_hungary_required_states_south_transdanubia:0 "Kontrolliert §YSouth Transdanubia§!."
   pfp_hungary_core_states:0 "§YUngarn§! erhält Kernstaaten auf alle aufgelisteten Gebiete.\n"
