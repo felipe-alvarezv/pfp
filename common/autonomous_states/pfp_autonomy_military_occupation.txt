@@ -1,7 +1,7 @@
 autonomy_state = {
 	id = pfp_autonomy_military_occupation
 
-	default = yes
+	default = no
 	is_puppet = yes
 	use_overlord_color = yes
 	min_freedom_level = 0.2

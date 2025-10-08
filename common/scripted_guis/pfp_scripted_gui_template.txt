@@ -43,15 +43,19 @@ scripted_gui = {
 				set_country_flag = pfp_view_puppets_window
 
 				every_subject_country = {
-					limit = {
-						OR = {
-							has_autonomy_state = pfp_autonomy_military_occupation
-							has_autonomy_state = pfp_autonomy_military_occupation_colour
+					if = {
+						limit = { has_autonomy_state = pfp_autonomy_military_occupation }
+						add_to_array = {
+							array = ROOT.pfp_view_puppets_gridbox_array
+							value = THIS.id
 						}
 					}
-					add_to_array = {
-						array = ROOT.pfp_view_puppets_gridbox_array
-						value = THIS.id
+					else_if = {
+						limit = { has_autonomy_state = pfp_autonomy_military_occupation_colour }
+						add_to_array = {
+							array = ROOT.pfp_view_puppets_gridbox_array
+							value = THIS.id
+						}
 					}
 				}
 			}
