@@ -1,17 +1,16 @@
+#Scripted Effect to set Military Occupation colour
 pfp_set_autonomy_colour = {
-    FROM = {
-        if = {
-            limit = { has_global_flag = pfp_autonomy_military_occupation_colour_on }
-            every_subject_country  = {                
-                set_temp_variable = { target_military_occupation = THIS }
-                overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_colour } }
-            }
+    if = {
+        limit = { has_global_flag = pfp_autonomy_military_occupation_colour_on } #Check if colour decision is toggled on
+        var:pfp_portrait_tag  = {
+            set_temp_variable = { target_military_occupation = THIS }
+            overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_colour } } #Toggle overlord colour on
         }
-        else = {
-            every_subject_country  = {                
-                set_temp_variable = { target_military_occupation = THIS }
-                overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } }
-            }
+    }
+    else = {
+        var:pfp_portrait_tag  = {
+            set_temp_variable = { target_military_occupation = THIS }
+            overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } } #Toggle overlord colour off
         }
     }
 }

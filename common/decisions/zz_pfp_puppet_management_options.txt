@@ -12,6 +12,8 @@ pfp_puppet_management = {
         }
 		ai_will_do = { factor = 0 }
 	}
+
+	#Decision to toggle the colour of the Military Occupation
 	pfp_management_coloured_puppets = {
 		icon = generic_industry
 
@@ -24,25 +26,26 @@ pfp_puppet_management = {
 		complete_effect = {
 			hidden_effect = {
 				if = {
-					limit = { has_global_flag = pfp_autonomy_military_occupation_colour_on }
+					limit = { has_global_flag = pfp_autonomy_military_occupation_colour_on } #Check if overlord colour is toggled off
+					
 					clr_global_flag = pfp_autonomy_military_occupation_colour_on
-
+					
 					every_country = {
 						every_subject_country = {
 							limit = { has_autonomy_state = pfp_autonomy_military_occupation_colour }
 							set_temp_variable = { target_military_occupation = THIS }
-							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } }
+							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } } #Toggle overlord colour off
 						}
 					}
 				}
-				else = {
+				else = { 
 					set_global_flag = pfp_autonomy_military_occupation_colour_on
 
 					every_country = {
 						every_subject_country = {
 							limit = { has_autonomy_state = pfp_autonomy_military_occupation }
 							set_temp_variable = { target_military_occupation = THIS }
-							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_colour } }
+							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_colour } } #Toggle overlord colour on
 						}
 					}
 				}
