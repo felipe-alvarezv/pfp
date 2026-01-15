@@ -1,0 +1,23 @@
+﻿#Tuscany - P95 - Localisation
+l_french:
+ P95_communism:0 "Toscane"
+ P95_communism_DEF:0 "la Toscane"
+ P95_democratic:0 "Toscane"
+ P95_democratic_DEF:0 "la Toscane"
+ P95_neutrality:1 "Toscane"
+ P95_neutrality_DEF:1 "la Toscane"
+ P95_fascism:0 "Toscane"
+ P95_fascism_DEF:0 "la Toscane"
+ P95_communism_ADJ:0 "Toscane"
+ P95_democratic_ADJ:0 "Toscane"
+ P95_neutrality_ADJ:0 "Toscane"
+ P95_fascism_ADJ:0 "Toscane"
+ P95:0 "Toscane"
+ P95_DEF:0 "la Toscane"
+ P95_ADJ:0 "Toscane"
+
+ pfp_tuscany:0 "Établir une occupation militaire en Toscane"
+ pfp_tuscany_required_states_tuscany:0 "Contrôle §Y[162.GetName]§!."
+ pfp_tuscany_core_states:0 "§YToscane§! gagne des cœurs sur tous les États listés.\n"
+ pfp_tuscany_transfer_states:0 "§YToscane§! devient propriétaire et contrôleur de tous les États listés.\n"
+ pfp_tuscany_puppet:0 "§YToscane§! devient un puppet de §Y[Root.GetName]§!.\n"

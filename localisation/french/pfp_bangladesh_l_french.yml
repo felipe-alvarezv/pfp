@@ -1,0 +1,23 @@
+﻿#Bangladesh - P38 - Localisation
+l_french:
+ P38_communism:0 "Bangladesh"
+ P38_communism_DEF:0 "le Bangladesh"
+ P38_democratic:0 "Bangladesh"
+ P38_democratic_DEF:0 "le Bangladesh"
+ P38_neutrality:1 "Bangladesh"
+ P38_neutrality_DEF:1 "le Bangladesh"
+ P38_fascism:0 "Bangladesh"
+ P38_fascism_DEF:0 "le Bangladesh"
+ P38_communism_ADJ:0 "Bangladais"
+ P38_democratic_ADJ:0 "Bangladais"
+ P38_neutrality_ADJ:0 "Bangladais"
+ P38_fascism_ADJ:0 "Bangladais"
+ P38:0 "Bangladesh"
+ P38_DEF:0 "le Bangladesh"
+ P38_ADJ:0 "Bangladais"
+
+ pfp_bangladesh:0 "Établir une occupation militaire au Bangladesh"
+ pfp_bangladesh_required_states_east_bengal:0 "Contrôle §Y[430.GetName]§!."
+ pfp_bangladesh_core_states:0 "§YBangladesh§! gagne des cœurs sur tous les états listés.\n"
+ pfp_bangladesh_transfer_states:0 "§YBangladesh§! devient propriétaire et contrôleur de tous les états listés.\n"
+ pfp_bangladesh_puppet:0 "§YBangladesh§! devient une marionnette de §Y[Root.GetName]§!.\n"

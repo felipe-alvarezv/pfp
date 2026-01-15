@@ -1,0 +1,23 @@
+﻿#Iceland - P83 - Localisation
+l_french:
+  P83_communism:0 "Islande"
+  P83_communism_DEF:0 "l'Islande"
+  P83_democratic:0 "Islande"
+  P83_democratic_DEF:0 "l'Islande"
+  P83_neutrality:1 "Islande"
+  P83_neutrality_DEF:1 "l'Islande"
+  P83_fascism:0 "Islande"
+  P83_fascism_DEF:0 "l'Islande"
+  P83_communism_ADJ:0 "Islandais"
+  P83_democratic_ADJ:0 "Islandais"
+  P83_neutrality_ADJ:0 "Islandais"
+  P83_fascism_ADJ:0 "Islandais"
+  P83:0 "Islande"
+  P83_DEF:0 "l'Islande"
+  P83_ADJ:0 "Islandais"
+
+  pfp_iceland:0 "Établir une occupation militaire en Islande"
+  pfp_iceland_required_states_iceland:0 "Contrôle §Y[100.GetName]§!."
+  pfp_iceland_core_states:0 "§YIslande§! gagne des cœurs sur tous les états listés.\n"
+  pfp_iceland_transfer_states:0 "§YIslande§! devient propriétaire et contrôleur de tous les états listés.\n"
+  pfp_iceland_puppet:0 "§YIslande§! devient une marionnette de §Y[Root.GetName]§!.\n"

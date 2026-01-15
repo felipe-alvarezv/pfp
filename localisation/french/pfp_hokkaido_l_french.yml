@@ -1,0 +1,23 @@
+﻿#Hokkaido - P99 - Localisation
+l_french:
+  P99_communism:0 "Hokkaido"
+  P99_communism_DEF:0 "Hokkaido"
+  P99_democratic:0 "Hokkaido"
+  P99_democratic_DEF:0 "Hokkaido"
+  P99_neutrality:1 "Hokkaido"
+  P99_neutrality_DEF:1 "Hokkaido"
+  P99_fascism:0 "Hokkaido"
+  P99_fascism_DEF:0 "Hokkaido"
+  P99_communism_ADJ:0 "Dosanko"
+  P99_democratic_ADJ:0 "Dosanko"
+  P99_neutrality_ADJ:0 "Dosanko"
+  P99_fascism_ADJ:0 "Dosanko"
+  P99:0 "Hokkaido"
+  P99_DEF:0 "Hokkaido"
+  P99_ADJ:0 "Dosanko"
+
+  pfp_hokkaido:0 "Établir une occupation militaire à Hokkaido"
+  pfp_hokkaido_required_states_hokkaido:0 "Contrôle §Y[536.GetName]§!."
+  pfp_hokkaido_core_states:0 "§YHokkaido§! obtient des territoires nationaux sur tous les États listés.\n"
+  pfp_hokkaido_transfer_states:0 "§YHokkaido§! devient propriétaire et contrôleur de tous les États listés.\n"
+  pfp_hokkaido_puppet:0 "§YHokkaido§! devient un État fantoche de §Y[Root.GetName]§!.\n"

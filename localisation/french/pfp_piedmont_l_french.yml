@@ -1,0 +1,23 @@
+﻿#Piedmont - P93 - Localisation
+l_french:
+  P93_communism:0 "Piémont"
+  P93_communism_DEF:0 "le Piémont"
+  P93_democratic:0 "Piémont"
+  P93_democratic_DEF:0 "le Piémont"
+  P93_neutrality:1 "Piémont"
+  P93_neutrality_DEF:1 "le Piémont"
+  P93_fascism:0 "Piémont"
+  P93_fascism_DEF:0 "le Piémont"
+  P93_communism_ADJ:0 "piémontais"
+  P93_democratic_ADJ:0 "piémontais"
+  P93_neutrality_ADJ:0 "piémontais"
+  P93_fascism_ADJ:0 "piémontais"
+  P93:0 "Piémont"
+  P93_DEF:0 "le Piémont"
+  P93_ADJ:0 "piémontais"
+
+  pfp_piedmont:0 "Établir l'occupation militaire au Piémont"
+  pfp_piedmont_required_states_piedmont:0 "Contrôle §Y[158.GetName]§!."
+  pfp_piedmont_core_states:0 "§YPiémont§! obtient le statut d'État national pour tous les états listés.\n"
+  pfp_piedmont_transfer_states:0 "§YPiémont§! devient propriétaire et contrôleur de tous les états listés.\n"
+  pfp_piedmont_puppet:0 "§YPiémont§! devient un État fantoche de §Y[Root.GetName]§!.\n"

@@ -1,0 +1,23 @@
+﻿#Wales - P82 - Localisation
+l_french:
+  P82_communism:0 "Pays de Galles"
+  P82_communism_DEF:0 "Pays de Galles"
+  P82_democratic:0 "Pays de Galles"
+  P82_democratic_DEF:0 "Pays de Galles"
+  P82_neutrality:1 "Pays de Galles"
+  P82_neutrality_DEF:1 "Pays de Galles"
+  P82_fascism:0 "Pays de Galles"
+  P82_fascism_DEF:0 "Pays de Galles"
+  P82_communism_ADJ:0 "gallois"
+  P82_democratic_ADJ:0 "gallois"
+  P82_neutrality_ADJ:0 "gallois"
+  P82_fascism_ADJ:0 "gallois"
+  P82:0 "Pays de Galles"
+  P82_DEF:0 "Pays de Galles"
+  P82_ADJ:0 "gallois"
+
+  pfp_wales:0 "Établir l'occupation militaire au Pays de Galles"
+  pfp_wales_required_states_wales:0 "Contrôle §Y[122.GetName]§!."
+  pfp_wales_core_states:0 "§YPays de Galles§! obtient le statut d'État national pour tous les états listés.\n"
+  pfp_wales_transfer_states:0 "§YPays de Galles§! devient propriétaire et contrôleur de tous les états listés.\n"
+  pfp_wales_puppet:0 "§YPays de Galles§! devient un État fantoche de §Y[Root.GetName]§!.\n"

@@ -1,0 +1,23 @@
+﻿#Sardinia - P94 - Localisation
+l_french:
+  P94_communism:0 "Sardaigne"
+  P94_communism_DEF:0 "Sardaigne"
+  P94_democratic:0 "Sardaigne"
+  P94_democratic_DEF:0 "Sardaigne"
+  P94_neutrality:1 "Sardaigne"
+  P94_neutrality_DEF:1 "Sardaigne"
+  P94_fascism:0 "Sardaigne"
+  P94_fascism_DEF:0 "Sardaigne"
+  P94_communism_ADJ:0 "sarde"
+  P94_democratic_ADJ:0 "sarde"
+  P94_neutrality_ADJ:0 "sarde"
+  P94_fascism_ADJ:0 "sarde"
+  P94:0 "Sardaigne"
+  P94_DEF:0 "Sardaigne"
+  P94_ADJ:0 "sarde"
+
+  pfp_sardinia:0 "Établir l'occupation militaire en Sardaigne"
+  pfp_sardinia_required_states_sardinia:0 "Contrôle §Y[114.GetName]§!."
+  pfp_sardinia_core_states:0 "§YSardaigne§! obtient le statut d'État national pour tous les états listés.\n"
+  pfp_sardinia_transfer_states:0 "§YSardaigne§! devient propriétaire et contrôleur de tous les états listés.\n"
+  pfp_sardinia_puppet:0 "§YSardaigne§! devient un État fantoche de §Y[Root.GetName]§!.\n"

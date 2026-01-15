@@ -1,0 +1,23 @@
+﻿#Northern Ireland - P84 - Localisation
+l_french:
+  P84_communism:0 "Irlande du Nord"
+  P84_communism_DEF:0 "Irlande du Nord"
+  P84_democratic:0 "Irlande du Nord"
+  P84_democratic_DEF:0 "Irlande du Nord"
+  P84_neutrality:1 "Irlande du Nord"
+  P84_neutrality_DEF:1 "Irlande du Nord"
+  P84_fascism:0 "Irlande du Nord"
+  P84_fascism_DEF:0 "Irlande du Nord"
+  P84_communism_ADJ:0 "nord-irlandais"
+  P84_democratic_ADJ:0 "nord-irlandais"
+  P84_neutrality_ADJ:0 "nord-irlandais"
+  P84_fascism_ADJ:0 "nord-irlandais"
+  P84:0 "Irlande du Nord"
+  P84_DEF:0 "Irlande du Nord"
+  P84_ADJ:0 "nord-irlandais"
+
+  pfp_northern_ireland:0 "Établir l'occupation militaire en Irlande du Nord"
+  pfp_northern_ireland_required_states_northern_ireland:0 "Contrôle §Y[119.GetName]§!."
+  pfp_northern_ireland_core_states:0 "§YIrlande du Nord§! obtient le statut d'État national pour tous les états listés.\n"
+  pfp_northern_ireland_transfer_states:0 "§YIrlande du Nord§! devient propriétaire et contrôleur de tous les états listés.\n"
+  pfp_northern_ireland_puppet:0 "§YIrlande du Nord§! devient un État fantoche de §Y[Root.GetName]§!.\n"

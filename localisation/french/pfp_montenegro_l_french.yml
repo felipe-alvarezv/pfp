@@ -1,0 +1,23 @@
+﻿#Montenegro - P90 - Localisation
+l_french:
+  P90_communism:0 "Monténégro"
+  P90_communism_DEF:0 "le Monténégro"
+  P90_democratic:0 "Monténégro"
+  P90_democratic_DEF:0 "le Monténégro"
+  P90_neutrality:1 "Monténégro"
+  P90_neutrality_DEF:1 "le Monténégro"
+  P90_fascism:0 "Monténégro"
+  P90_fascism_DEF:0 "le Monténégro"
+  P90_communism_ADJ:0 "Monténégrin"
+  P90_democratic_ADJ:0 "Monténégrin"
+  P90_neutrality_ADJ:0 "Monténégrin"
+  P90_fascism_ADJ:0 "Monténégrin"
+  P90:0 "Monténégro"
+  P90_DEF:0 "le Monténégro"
+  P90_ADJ:0 "Monténégrin"
+
+  pfp_montenegro:0 "Établir une occupation militaire au Monténégro"
+  pfp_montenegro_required_states_montenegro:0 "Contrôle §Y[105.GetName]§!."
+  pfp_montenegro_core_states:0 "§YMonténégro§! gagne des cœurs sur tous les états listés.\n"
+  pfp_montenegro_transfer_states:0 "§YMonténégro§! devient propriétaire et contrôleur de tous les états listés.\n"
+  pfp_montenegro_puppet:0 "§YMonténégro§! devient une marionnette de §Y[Root.GetName]§!.\n"

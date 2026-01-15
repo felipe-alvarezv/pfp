@@ -1,0 +1,23 @@
+﻿#Greenland - P85 - Localisation
+l_french:
+  P85_communism:0 "Groenland"
+  P85_communism_DEF:0 "Le Groenland"
+  P85_democratic:0 "Groenland"
+  P85_democratic_DEF:0 "Le Groenland"
+  P85_neutrality:1 "Groenland"
+  P85_neutrality_DEF:1 "Le Groenland"
+  P85_fascism:0 "Groenland"
+  P85_fascism_DEF:0 "Le Groenland"
+  P85_communism_ADJ:0 "Groenlandais"
+  P85_democratic_ADJ:0 "Groenlandais"
+  P85_neutrality_ADJ:0 "Groenlandais"
+  P85_fascism_ADJ:0 "Groenlandais"
+  P85:0 "Groenland"
+  P85_DEF:0 "Le Groenland"
+  P85_ADJ:0 "Groenlandais"
+
+  pfp_greenland:0 "Établir une occupation militaire au Groenland"
+  pfp_greenland_required_states_greenland:0 "Contrôle §Y[101.GetName]§!."
+  pfp_greenland_core_states:0 "§YGroenland§! obtient des territoires nationaux sur tous les États listés.\n"
+  pfp_greenland_transfer_states:0 "§YGroenland§! devient propriétaire et contrôleur de tous les États listés.\n"
+  pfp_greenland_puppet:0 "§YGroenland§! devient un État fantoche de §Y[Root.GetName]§!.\n"
