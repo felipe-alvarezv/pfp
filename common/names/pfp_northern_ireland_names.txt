@@ -1,23 +1,91 @@
 #Northern Ireland
 P84 = {
-    male = {
-        names = { 
-            Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
-            Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
-            Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
-            James Jeremy John Leopold Lester Martin Nigel Oswald Max
-            Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
-        }
-    }
-    female = {
-        names = {
-            Dorothy
-        }
-    }
-    surnames = {  
-        Andrews Archdale Barbour Bates Brooke Brown Campbell Craig Dawson
-        Doherty Graham Hamilton Hughes Johnston Kelly Martin McLaughlin Moore
-        Murphy Murray O�Neill Pollock Quinn Robb Robinson Smyth Stewart Thompson Wilson
-    }
-    callsigns = { }
+	male = {
+		names = { 
+			"Albert"
+			"Alexander"
+			"Alfred"
+			"Archibald"
+			"Arthur"
+			"Bernard"
+			"Charles"
+			"Colbert"
+			"Colin"
+			"Cyril"
+			"David"
+			"Donald"
+			"Douglas"
+			"Edmund"
+			"Edward"
+			"Fairfax"
+			"Francis"
+			"Geoffrey"
+			"George"
+			"Graham"
+			"Henrey"
+			"Herbert"
+			"Horatio"
+			"Hubert"
+			"Hugh"
+			"Ian"
+			"James"
+			"Jeremy"
+			"John"
+			"Leopold"
+			"Lester"
+			"Martin"
+			"Nigel"
+			"Oswald"
+			"Max"
+			"Percy"
+			"Reginald"
+			"Richard"
+			"Robert"
+			"Russell"
+			"Stanley"
+			"Thomas"
+			"Wallace"
+			"William"
+			"Winston"
+			"Zachary"
+			"Jake"
+		}
+	}
+	female = {
+		names = {
+			"Dorothy"
+		}
+	}
+	surnames = {  
+		"Andrews"
+		"Archdale"
+		"Barbour"
+		"Bates"
+		"Brooke"
+		"Brown"
+		"Campbell"
+		"Craig"
+		"Dawson"
+		"Doherty"
+		"Graham"
+		"Hamilton"
+		"Hughes"
+		"Johnston"
+		"Kelly"
+		"Martin"
+		"McLaughlin"
+		"Moore"
+		"Murphy"
+		"Murray"
+		"O'Neill"
+		"Pollock"
+		"Quinn"
+		"Robb"
+		"Robinson"
+		"Smyth"
+		"Stewart"
+		"Thompson"
+		"Wilson"
+	}
+	callsigns = { }
 }
