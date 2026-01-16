@@ -1,10 +1,10 @@
 ﻿l_english:
-  COUNTRY_pfp_autonomy_military_occupation:0 "$NONIDEOLOGY$"
-  COUNTRY_pfp_autonomy_military_occupation_DEF:0 "$NONIDEOLOGYDEF$"
-  COUNTRY_pfp_autonomy_military_occupation_ADJ:0 "$NONIDEOLOGYADJ$"
-  COUNTRY_pfp_autonomy_military_occupation_colour:0 "$NONIDEOLOGY$"
-  COUNTRY_pfp_autonomy_military_occupation_colour_DEF:0 "$NONIDEOLOGYDEF$"
-  COUNTRY_pfp_autonomy_military_occupation_colour_ADJ:0 "$NONIDEOLOGYADJ$"
+  COUNTRY_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
+  COUNTRY_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
+  COUNTRY_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
+  COUNTRY_pfp_autonomy_military_occupation_colour:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
+  COUNTRY_pfp_autonomy_military_occupation_colour_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
+  COUNTRY_pfp_autonomy_military_occupation_colour_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
 
   P01_GER_subject:0 "Kolumbien"
   P02_GER_subject:0 "Großbritannien"
