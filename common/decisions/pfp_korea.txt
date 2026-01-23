@@ -49,6 +49,10 @@ pfp_category = {
 			highlight_state_targets = { 
 				state = 525 #Gyeonggi
 				state = 527 #Pyongan-Hwanghae
+				state = 1028 #Hamgyong
+				state = 1029 #Gangwon
+				state = 1030 #Gyeongsang
+				state = 1031 #Chungcheong-Jeolla
 			}
 		}
 		icon = generic_military
