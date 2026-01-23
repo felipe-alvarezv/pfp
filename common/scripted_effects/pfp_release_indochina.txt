@@ -2,10 +2,11 @@
 pfp_release_indochina = {
 	hidden_effect = {
 		#Add cores to Indochina
-		286 = { add_core_of = P16 } #Southern Indochina
+		286 = { add_core_of = P16 } #Champa
 		670 = { add_core_of = P16 } #Laos
 		671 = { add_core_of = P16 } #Tonkin
 		741 = { add_core_of = P16 } #Cambodia
+		1017 = { add_core_of = P16 } #Trung Bo
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

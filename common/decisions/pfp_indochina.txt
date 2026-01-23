@@ -9,10 +9,10 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Southern Indochina
+			#Champa
 			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_southern_indochina
-				has_full_control_of_state = 286 #Southern Indochina
+				tooltip = pfp_indochina_required_states_champa
+				has_full_control_of_state = 286 #Champa
 			}
 			#Laos
 			custom_trigger_tooltip = {
@@ -29,22 +29,29 @@ pfp_category = {
 				tooltip = pfp_indochina_required_states_cambodia
 				has_full_control_of_state = 741 #Cambodia
 			}
+			#Trung Bo
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_trung_bo
+				has_full_control_of_state = 1017 #Trung Bo
+			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 286 #Southern Indochina
+				has_full_control_of_state = 286 #Champa
 				has_full_control_of_state = 670 #Laos
 				has_full_control_of_state = 671 #Tonkin
 				has_full_control_of_state = 741 #Cambodia
+				has_full_control_of_state = 1017 #Trung Bo
 			}
 			NOT = { has_global_flag = pfp_indochina_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 286 #Southern Indochina
+				state = 286 #Champa
 				state = 670 #Laos
 				state = 671 #Tonkin
 				state = 741 #Cambodia
+				state = 1017 #Trung Bo
 			}
 		}
 		icon = generic_military

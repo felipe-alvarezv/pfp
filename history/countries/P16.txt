@@ -94,10 +94,11 @@ recruit_character = P16_neutrality_leader
 recruit_character = P16_fascism_leader
 
 #Indochina Initial States
-add_to_array = { pfp_indochina_integration_array = 286 } #Southern Indochina
+add_to_array = { pfp_indochina_integration_array = 286 } #Champa
 add_to_array = { pfp_indochina_integration_array = 670 } #Laos
 add_to_array = { pfp_indochina_integration_array = 671 } #Tonkin
 add_to_array = { pfp_indochina_integration_array = 741 } #Cambodia
+add_to_array = { pfp_indochina_integration_array = 1017 } #Trung Bo
 
 #Indochina Territories
 add_to_array = { pfp_indochina_integration_array = 288 } #Magwe
