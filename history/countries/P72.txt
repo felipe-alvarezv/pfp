@@ -94,5 +94,9 @@ recruit_character = P72_neutrality_leader
 recruit_character = P72_fascism_leader
 
 #Korea Initial States
-add_to_array = { pfp_korea_integration_array = 525 } #South Korea
-add_to_array = { pfp_korea_integration_array = 527 } #North Korea
+add_to_array = { pfp_korea_integration_array = 525 } #Gyeonggi
+add_to_array = { pfp_korea_integration_array = 527 } #Pyongan-Hwanghae
+add_to_array = { pfp_korea_integration_array = 1028 } #Hamgyong
+add_to_array = { pfp_korea_integration_array = 1029 } #Gangwon
+add_to_array = { pfp_korea_integration_array = 1030 } #Gyeongsang
+add_to_array = { pfp_korea_integration_array = 1031 } #Chungcheong-Jeolla

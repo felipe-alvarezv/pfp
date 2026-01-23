@@ -2,8 +2,12 @@
 pfp_release_korea = {
 	hidden_effect = {
 		#Add cores to Korea
-		525 = { add_core_of = P72 } #South Korea
-		527 = { add_core_of = P72 } #North Korea
+		525 = { add_core_of = P72 } #Gyeonggi
+		527 = { add_core_of = P72 } #Pyongan-Hwanghae
+		1028 = { add_core_of = P72 } #Hamgyong
+		1029 = { add_core_of = P72 } #Gangwon
+		1030 = { add_core_of = P72 } #Gyeongsang
+		1031 = { add_core_of = P72 } #Chungcheong-Jeolla
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

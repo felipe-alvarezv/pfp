@@ -7,28 +7,48 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#South Korea
+			#Gyeonggi
 			custom_trigger_tooltip = {
-				tooltip = pfp_korea_required_states_south_korea
-				has_full_control_of_state = 525 #South Korea
+				tooltip = pfp_korea_required_states_gyeonggi
+				has_full_control_of_state = 525 #Gyeonggi
 			}
-			#North Korea
+			#Pyongan-Hwanghae
 			custom_trigger_tooltip = {
-				tooltip = pfp_korea_required_states_north_korea
-				has_full_control_of_state = 527 #North Korea
+				tooltip = pfp_korea_required_states_pyongan_hwanghae
+				has_full_control_of_state = 527 #Pyongan-Hwanghae
+			}
+			#Hamgyong
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_hamgyong
+				has_full_control_of_state = 1028 #Hamgyong
+			}
+			#Gangwon
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_gangwon
+				has_full_control_of_state = 1029 #Gangwon
+			}
+			#Gyeongsang
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_gyeongsang
+				has_full_control_of_state = 1030 #Gyeongsang
+			}
+			#Chungcheong-Jeolla
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_chungcheong_jeolla
+				has_full_control_of_state = 1031 #Chungcheong-Jeolla
 			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 525 #South Korea
-				has_full_control_of_state = 527 #North Korea
+				has_full_control_of_state = 525 #Gyeonggi
+				has_full_control_of_state = 527 #Pyongan-Hwanghae
 			}
 			NOT = { has_global_flag = pfp_korea_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 525 #South Korea
-				state = 527 #North Korea
+				state = 525 #Gyeonggi
+				state = 527 #Pyongan-Hwanghae
 			}
 		}
 		icon = generic_military
