@@ -37,6 +37,11 @@ pfp_category = {
 				tooltip = pfp_indonesia_required_states_sulawesi
 				has_full_control_of_state = 673 #Sulawesi
 			}
+			#Inner Borneo
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_inner_borneo
+				has_full_control_of_state = 1022 #Inner Borneo
+			}
 		}
 		visible = {
 			OR = {
@@ -46,6 +51,7 @@ pfp_category = {
 				has_full_control_of_state = 668 #The Moluccas
 				has_full_control_of_state = 672 #Sumatra
 				has_full_control_of_state = 673 #Sulawesi
+				has_full_control_of_state = 1022 #Inner Borneo
 			}
 			NOT = { has_global_flag = pfp_indonesia_flag }
 		}
@@ -57,6 +63,7 @@ pfp_category = {
 				state = 668 #The Moluccas
 				state = 672 #Sumatra
 				state = 673 #Sulawesi
+				state = 1022 #Inner Borneo
 			}
 		}
 		icon = generic_military

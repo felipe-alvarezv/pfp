@@ -23,6 +23,7 @@ l_english:
   pfp_indonesia_required_states_the_moluccas:0 "Controls §Y[668.GetName]§!."
   pfp_indonesia_required_states_sumatra:0 "Controls §Y[672.GetName]§!."
   pfp_indonesia_required_states_sulawesi:0 "Controls §Y[673.GetName]§!."
+  pfp_indonesia_required_states_inner_borneo:0 "Controls §Y[1022.GetName]§!."
   pfp_indonesia_core_states:0 "§YIndonesia§! gains cores on all listed states.\n"
   pfp_indonesia_transfer_states:0 "§YIndonesia§! becomes owner and controller of all listed states.\n"
   pfp_indonesia_puppet:0 "§YIndonesia§! becomes a puppet of §Y[Root.GetName]§!.\n"

@@ -100,6 +100,7 @@ add_to_array = { pfp_indonesia_integration_array = 667 } #Lesser Sunda Islands
 add_to_array = { pfp_indonesia_integration_array = 668 } #The Moluccas
 add_to_array = { pfp_indonesia_integration_array = 672 } #Sumatra
 add_to_array = { pfp_indonesia_integration_array = 673 } #Sulawesi
+add_to_array = { pfp_indonesia_integration_array = 1022 } #Inner Borneo
 
 #Indonesia Territories
 add_to_array = { pfp_indonesia_integration_array = 333 } #North Borneo

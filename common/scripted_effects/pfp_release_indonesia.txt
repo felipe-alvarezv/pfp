@@ -8,6 +8,7 @@ pfp_release_indonesia = {
 		668 = { add_core_of = P17 } #The Moluccas
 		672 = { add_core_of = P17 } #Sumatra
 		673 = { add_core_of = P17 } #Sulawesi
+		1022 = { add_core_of = P17 } #Inner Borneo
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
