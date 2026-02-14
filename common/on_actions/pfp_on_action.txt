@@ -1407,6 +1407,20 @@ on_actions = {
                     add_core_of = P99
                 }
             }
+            #Tohoku Integration
+            for_each_scope_loop = {
+                array = pfp_tohoku_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = Q01
+                        NOT = { is_core_of = Q01 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = Q01
+                    add_core_of = Q01
+                }
+            }
         }
     }
 }
