@@ -1,4 +1,4 @@
-#Tohoku - Q01 - Localisation
+ï»¿#Tohoku - Q01 - Localisation
 l_english:
 Q01_communism:0 "Tohoku"
 Q01_communism_DEF:0 "Tohoku"
@@ -17,8 +17,8 @@ Q01_DEF:0 "Tohoku"
 Q01_ADJ:0 "Japanese"
 
 pfp_tohoku:0 "Establish Millitary Occupation in Tohoku"
-pfp_tohoku_required_states_kita-tohoku:0 "Controls §YKita-Tohoku§!."
-pfp_tohoku_required_states_minami_tohoku:0 "Controls §YMinami Tohoku§!."
-pfp_tohoku_core_states:0 "§YTohoku§! gains cores on all listed states.\n"
-pfp_tohoku_transfer_states:0 "§YTohoku§! becomes owner and controller of all listed states.\n"
-pfp_tohoku_puppet:0 "§YTohoku§! becomes a puppet of §Y[Root.GetName]§!.\n"
+pfp_tohoku_required_states_kita-tohoku:0 "Controls Â§YKita-TohokuÂ§!."
+pfp_tohoku_required_states_minami_tohoku:0 "Controls Â§YMinami TohokuÂ§!."
+pfp_tohoku_core_states:0 "Â§YTohokuÂ§! gains cores on all listed states.\n"
+pfp_tohoku_transfer_states:0 "Â§YTohokuÂ§! becomes owner and controller of all listed states.\n"
+pfp_tohoku_puppet:0 "Â§YTohokuÂ§! becomes a puppet of Â§Y[Root.GetName]Â§!.\n"
