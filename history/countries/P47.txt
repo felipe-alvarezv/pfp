@@ -104,13 +104,14 @@ add_to_array = { pfp_mongolia_integration_array = 820 } #Khovsgol
 add_to_array = { pfp_mongolia_integration_array = 329 } #Tannu Tuva
 add_to_array = { pfp_mongolia_integration_array = 563 } #Chita
 add_to_array = { pfp_mongolia_integration_array = 564 } #Buryatia
-add_to_array = { pfp_mongolia_integration_array = 611 } #South Chahar
-add_to_array = { pfp_mongolia_integration_array = 612 } #Chahar
+add_to_array = { pfp_mongolia_integration_array = 611 } #Chahar
+add_to_array = { pfp_mongolia_integration_array = 612 } #Xilingol
 add_to_array = { pfp_mongolia_integration_array = 616 } #Ningxia
-add_to_array = { pfp_mongolia_integration_array = 618 } #Dzungaria
 add_to_array = { pfp_mongolia_integration_array = 621 } #Suiyuan
 add_to_array = { pfp_mongolia_integration_array = 654 } #Oryot Region
 add_to_array = { pfp_mongolia_integration_array = 746 } #Ordos
 add_to_array = { pfp_mongolia_integration_array = 756 } #Jiuquan
 add_to_array = { pfp_mongolia_integration_array = 760 } #Dabacheng
 add_to_array = { pfp_mongolia_integration_array = 761 } #Hulunbuir
+add_to_array = { pfp_mongolia_integration_array = 1040 } #Alxa
+add_to_array = { pfp_mongolia_integration_array = 1043 } #Pailingmiao
