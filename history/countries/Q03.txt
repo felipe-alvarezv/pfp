@@ -1,5 +1,5 @@
 #Chubu
-capital = 534 #Koshinetsu
+capital = 532 #Tokai
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
