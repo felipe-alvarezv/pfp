@@ -1,4 +1,4 @@
-#Kanto - Q02 - Localisation
+ï»¿#Kanto - Q02 - Localisation
 l_english:
 Q02_communism:0 "Kanto"
 Q02_communism_DEF:0 "Kanto"
@@ -17,7 +17,7 @@ Q02_DEF:0 "Kanto"
 Q02_ADJ:0 "Japanese"
 
 pfp_kanto:0 "Establish Millitary Occupation in Kanto"
-pfp_kanto_required_states_kanto:0 "Controls §YKanto§!."
-pfp_kanto_core_states:0 "§YKanto§! gains cores on all listed states.\n"
-pfp_kanto_transfer_states:0 "§YKanto§! becomes owner and controller of all listed states.\n"
-pfp_kanto_puppet:0 "§YKanto§! becomes a puppet of §Y[Root.GetName]§!.\n"
+pfp_kanto_required_states_kanto:0 "Controls Â§YKantoÂ§!."
+pfp_kanto_core_states:0 "Â§YKantoÂ§! gains cores on all listed states.\n"
+pfp_kanto_transfer_states:0 "Â§YKantoÂ§! becomes owner and controller of all listed states.\n"
+pfp_kanto_puppet:0 "Â§YKantoÂ§! becomes a puppet of Â§Y[Root.GetName]Â§!.\n"
