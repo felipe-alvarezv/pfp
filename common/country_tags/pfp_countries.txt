@@ -100,3 +100,4 @@ P99 = "countries/P99.txt" #Hokkaido
 Q01 = "countries/Q01.txt" #Tohoku
 Q02 = "countries/Q02.txt" #Kanto
 Q03 = "countries/Q03.txt" #Chubu
+Q04 = "countries/Q04.txt" #Kansai

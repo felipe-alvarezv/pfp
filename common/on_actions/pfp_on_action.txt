@@ -1449,6 +1449,20 @@ on_actions = {
                     add_core_of = Q03
                 }
             }
+            #Kansai Integration
+            for_each_scope_loop = {
+                array = pfp_kansai_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = Q04
+                        NOT = { is_core_of = Q04 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = Q04
+                    add_core_of = Q04
+                }
+            }
         }
     }
 }

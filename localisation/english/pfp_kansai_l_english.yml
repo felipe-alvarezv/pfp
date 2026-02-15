@@ -1,0 +1,23 @@
+﻿#Kansai - Q04 - Localisation
+l_english:
+  Q04_communism:0 "Kansai"
+  Q04_communism_DEF:0 "Kansai"
+  Q04_democratic:0 "Kansai"
+  Q04_democratic_DEF:0 "Kansai"
+  Q04_neutrality:1 "Kansai"
+  Q04_neutrality_DEF:1 "Kansai"
+  Q04_fascism:0 "Kansai"
+  Q04_fascism_DEF:0 "Kansai"
+  Q04_communism_ADJ:0 "Japanese"
+  Q04_democratic_ADJ:0 "Japanese"
+  Q04_neutrality_ADJ:0 "Japanese"
+  Q04_fascism_ADJ:0 "Japanese"
+  Q04:0 "Kansai"
+  Q04_DEF:0 "Kansai"
+  Q04_ADJ:0 "Japanese"
+
+  pfp_kansai:0 "Establish Millitary Occupation in Kansai"
+  pfp_kansai_required_states_kansai:0 "Controls §Y[531.GetName]§!."
+  pfp_kansai_core_states:0 "§YKansai§! gains cores on all listed states.\n"
+  pfp_kansai_transfer_states:0 "§YKansai§! becomes owner and controller of all listed states.\n"
+  pfp_kansai_puppet:0 "§YKansai§! becomes a puppet of §Y[Root.GetName]§!.\n"

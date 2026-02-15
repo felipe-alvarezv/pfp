@@ -1,5 +1,5 @@
-#Hokkaido
-capital = 536 #Hokkaido
+#Kansai
+capital = 531 #Kansai
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -87,13 +87,10 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = P99_communism_leader
-recruit_character = P99_democratic_leader
-recruit_character = P99_neutrality_leader
-recruit_character = P99_fascism_leader
+recruit_character = Q04_communism_leader
+recruit_character = Q04_democratic_leader
+recruit_character = Q04_neutrality_leader
+recruit_character = Q04_fascism_leader
 
-#Hokkaido Initial States
-add_to_array = { pfp_hokkaido_integration_array = 536 } #Hokkaido
-
-#Hokkaido Territories
-add_to_array = { pfp_hokkaido_integration_array = 555 } #Kuril Islands
+#Kansai Initial States
+add_to_array = { pfp_kansai_integration_array = 531 } #Kansai

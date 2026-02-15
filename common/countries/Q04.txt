@@ -1,0 +1,6 @@
+#Kansai
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 144 188 212 }
+color = rgb { 144 188 212 }
+color_ui = rgb { 144 188 212 }
