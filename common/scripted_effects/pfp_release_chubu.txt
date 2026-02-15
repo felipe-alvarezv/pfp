@@ -1,0 +1,25 @@
+#Scripted effect to release Chubu (Q03)
+pfp_release_chubu = {
+    hidden_effect = {
+        #Add cores to Chubu
+        532 = { add_core_of = Q03 } #Tokai
+        534 = { add_core_of = Q03 } #Koshinetsu
+        535 = { add_core_of = Q03 } #Hokuriku
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q03 }
+            add_contested_owner = Q03
+            transfer_state_to = Q03
+        }
+
+        #Transfer all technology to formable puppet
+        Q03 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_chubu_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q03 }
+    }
+}

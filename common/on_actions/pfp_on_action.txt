@@ -1435,6 +1435,20 @@ on_actions = {
                     add_core_of = Q02
                 }
             }
+            #Chubu Integration
+            for_each_scope_loop = {
+                array = pfp_chubu_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = Q03
+                        NOT = { is_core_of = Q03 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = Q03
+                    add_core_of = Q03
+                }
+            }
         }
     }
 }
