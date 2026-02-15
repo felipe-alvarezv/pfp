@@ -8,7 +8,6 @@ pfp_release_manchuria = {
         715 = { add_core_of = Q08 } #Liaobei
         716 = { add_core_of = Q08 } #Liaoning
         717 = { add_core_of = Q08 } #Sungkiang
-        761 = { add_core_of = Q08 } #Hulunbuir
         
         #Set formable puppet as owner and controller of all its cored states
         every_state = {

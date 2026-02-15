@@ -39,11 +39,6 @@ pfp_category = {
                 tooltip = pfp_manchuria_required_states_sungkiang
                 has_full_control_of_state = 717 #Sungkiang
             }
-            #Hulunbuir
-            custom_trigger_tooltip = {
-                tooltip = pfp_manchuria_required_states_hulunbuir
-                has_full_control_of_state = 761 #Hulunbuir
-            }
         }
         visible = {
             OR = {
@@ -53,7 +48,6 @@ pfp_category = {
                 has_full_control_of_state = 715 #Liaobei
                 has_full_control_of_state = 716 #Liaoning
                 has_full_control_of_state = 717 #Sungkiang
-                has_full_control_of_state = 761 #Hulunbuir
             }
             NOT = { has_global_flag = pfp_manchuria_flag }
         }
@@ -65,7 +59,6 @@ pfp_category = {
                 state = 715 #Liaobei
                 state = 716 #Liaoning
                 state = 717 #Sungkiang
-                state = 761 #Hulunbuir
             }
         }
         icon = generic_military

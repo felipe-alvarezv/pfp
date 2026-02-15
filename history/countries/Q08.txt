@@ -99,7 +99,7 @@ add_to_array = { pfp_manchuria_integration_array = 714 } #Heilungkiang
 add_to_array = { pfp_manchuria_integration_array = 715 } #Liaobei
 add_to_array = { pfp_manchuria_integration_array = 716 } #Liaoning
 add_to_array = { pfp_manchuria_integration_array = 717 } #Sungkiang
-add_to_array = { pfp_manchuria_integration_array = 761 } #Hulunbuir
 
 #Manchuria Territories
 add_to_array = { pfp_manchuria_integration_array = 745 } #Dalian
+add_to_array = { pfp_manchuria_integration_array = 761 } #Hulunbuir
