@@ -1505,6 +1505,20 @@ on_actions = {
                     add_core_of = Q07
                 }
             }
+            #Manchuria Integration
+            for_each_scope_loop = {
+                array = pfp_manchuria_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = Q08
+                        NOT = { is_core_of = Q08 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = Q08
+                    add_core_of = Q08
+                }
+            }
         }
     }
 }
