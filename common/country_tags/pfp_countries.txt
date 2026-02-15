@@ -104,3 +104,5 @@ Q04 = "countries/Q04.txt" #Kansai
 Q05 = "countries/Q05.txt" #Chugoku
 Q06 = "countries/Q06.txt" #Shikoku
 Q07 = "countries/Q07.txt" #Kyushu
+Q08 = "countries/Q08.txt" #Manchuria
+Q09 = "countries/Q09.txt" #Inner Mongolia
