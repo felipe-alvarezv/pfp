@@ -17,11 +17,11 @@ P99 = {
     }
     surnames = {  
         Arisugawa Arichi Akiyama Araki
-            Dewa Enomoto Hasegawa Honjo Ito Inoue Ichinohe Itagaki Kido Kuroda Katsura Kodama Kabayama Kawamura 
-            Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu Makino Muto Minami Masaki Matsudaira Nakamuta 
-            Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
-            Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa Uehara Uryu Ugaki Ueda Yamagata Yamamoto 
-            Yamakawa Yashiro Yui Yamashita Yamaya
+        Dewa Enomoto Hasegawa Honjo Ito Inoue Ichinohe Itagaki Kido Kuroda Katsura Kodama Kabayama Kawamura 
+        Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu Makino Muto Minami Masaki Matsudaira Nakamuta 
+        Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+        Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa Uehara Uryu Ugaki Ueda Yamagata Yamamoto 
+        Yamakawa Yashiro Yui Yamashita Yamaya
     }
     callsigns = { }
 }
