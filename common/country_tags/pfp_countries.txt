@@ -98,3 +98,4 @@ P97 = "countries/P97.txt" #Two Sicilies
 P98 = "countries/P98.txt" #Macedonia
 P99 = "countries/P99.txt" #Hokkaido
 Q01 = "countries/Q01.txt" #Tohoku
+Q02 = "countries/Q02.txt" #Kanto

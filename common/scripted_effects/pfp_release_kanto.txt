@@ -1,0 +1,23 @@
+#Scripted effect to release Kanto (Q02)
+pfp_release_kanto = {
+    hidden_effect = {
+        #Add cores to Kanto
+        282 = { add_core_of = Q02 } #Kanto
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q02 }
+            add_contested_owner = Q02
+            transfer_state_to = Q02
+        }
+
+        #Transfer all technology to formable puppet
+        Q02 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_kanto_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q02 }
+    }
+}

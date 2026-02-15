@@ -1421,6 +1421,20 @@ on_actions = {
                     add_core_of = Q01
                 }
             }
+            #Kanto Integration
+            for_each_scope_loop = {
+                array = pfp_kanto_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = Q02
+                        NOT = { is_core_of = Q02 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = Q02
+                    add_core_of = Q02
+                }
+            }
         }
     }
 }
