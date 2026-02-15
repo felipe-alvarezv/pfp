@@ -1,0 +1,6 @@
+#Shikoku
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 255 168 0 }
+color = rgb { 255 168 0 }
+color_ui = rgb { 255 168 0 }

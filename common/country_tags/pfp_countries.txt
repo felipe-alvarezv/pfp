@@ -102,3 +102,5 @@ Q02 = "countries/Q02.txt" #Kanto
 Q03 = "countries/Q03.txt" #Chubu
 Q04 = "countries/Q04.txt" #Kansai
 Q05 = "countries/Q05.txt" #Chugoku
+Q06 = "countries/Q06.txt" #Shikoku
+Q07 = "countries/Q07.txt" #Kyushu
