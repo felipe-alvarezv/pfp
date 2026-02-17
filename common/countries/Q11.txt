@@ -1,0 +1,6 @@
+#Shandong
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 230 92 0 }
+color = rgb { 230 92 0 }
+color_ui = rgb { 230 92 0 }

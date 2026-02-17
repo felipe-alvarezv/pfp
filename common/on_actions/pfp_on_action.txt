@@ -1547,6 +1547,20 @@ on_actions = {
                     add_core_of = Q10
                 }
             }
+            #Shandong Integration
+            for_each_scope_loop = {
+                array = pfp_shandong_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = Q11
+                        NOT = { is_core_of = Q11 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = Q11
+                    add_core_of = Q11
+                }
+            }
         }
     }
 }
