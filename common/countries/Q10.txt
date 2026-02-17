@@ -1,0 +1,6 @@
+#Zhili
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 156 27 22 }
+color = rgb { 156 27 22 }
+color_ui = rgb { 156 27 22 }
