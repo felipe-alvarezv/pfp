@@ -1,0 +1,6 @@
+#Henan
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 124 148 88 }
+color = rgb { 124 148 88 }
+color_ui = rgb { 124 148 88 }

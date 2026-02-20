@@ -1,0 +1,47 @@
+pfp_category = {
+    pfp_henan = {
+        allowed = {
+            NOT = {
+                original_tag = CHI #China
+                original_tag = PRC #Chinese Soviet Republic
+            }
+        }
+        available = {
+            is_subject = no
+            #Henan
+            custom_trigger_tooltip = {
+                tooltip = pfp_henan_required_states_henan
+                has_full_control_of_state = 607 #Henan
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 607 #Henan
+            }
+            NOT = { has_global_flag = pfp_henan_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 607 #Henan
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_henan_core_states
+            custom_effect_tooltip = pfp_henan_transfer_states
+            custom_effect_tooltip = pfp_henan_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_henan = yes
+                set_autonomy = { target = Q12 autonomy_state = pfp_autonomy_military_occupation }
+                pfp_set_autonomy_colour = yes
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = Q12 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

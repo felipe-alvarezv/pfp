@@ -108,3 +108,4 @@ Q08 = "countries/Q08.txt" #Manchuria
 Q09 = "countries/Q09.txt" #Inner Mongolia
 Q10 = "countries/Q10.txt" #Zhili
 Q11 = "countries/Q11.txt" #Shandong
+Q12 = "countries/Q12.txt" #Henan

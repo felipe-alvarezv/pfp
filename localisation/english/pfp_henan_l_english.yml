@@ -1,0 +1,23 @@
+﻿#Henan - Q12 - Localisation
+l_english:
+  Q12_communism:0 "Henan"
+  Q12_communism_DEF:0 "Henan"
+  Q12_democratic:0 "Henan"
+  Q12_democratic_DEF:0 "Henan"
+  Q12_neutrality:1 "Henan"
+  Q12_neutrality_DEF:1 "Henan"
+  Q12_fascism:0 "Henan"
+  Q12_fascism_DEF:0 "Henan"
+  Q12_communism_ADJ:0 "Chinese"
+  Q12_democratic_ADJ:0 "Chinese"
+  Q12_neutrality_ADJ:0 "Chinese"
+  Q12_fascism_ADJ:0 "Chinese"
+  Q12:0 "Henan"
+  Q12_DEF:0 "Henan"
+  Q12_ADJ:0 "Chinese"
+
+  pfp_henan:0 "Establish Millitary Occupation in Henan"
+  pfp_henan_required_states_henan:0 "Controls §Y[607.GetName]§!."
+  pfp_henan_core_states:0 "§YHenan§! gains cores on all listed states.\n"
+  pfp_henan_transfer_states:0 "§YHenan§! becomes owner and controller of all listed states.\n"
+  pfp_henan_puppet:0 "§YHenan§! becomes a puppet of §Y[Root.GetName]§!.\n"
