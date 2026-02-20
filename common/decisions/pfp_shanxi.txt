@@ -1,0 +1,48 @@
+pfp_category = {
+    pfp_shanxi = {
+        allowed = {
+            NOT = {
+                original_tag = CHI #China
+                original_tag = PRC #Chinese Soviet Republic
+                original_tag = SHX #Shanxi Clique
+            }
+        }
+        available = {
+            is_subject = no
+            #Shanxi
+            custom_trigger_tooltip = {
+                tooltip = pfp_shanxi_required_states_shanxi
+                has_full_control_of_state = 615 #Shanxi
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 615 #Shanxi
+            }
+            NOT = { has_global_flag = pfp_shanxi_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 615 #Shanxi
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_shanxi_core_states
+            custom_effect_tooltip = pfp_shanxi_transfer_states
+            custom_effect_tooltip = pfp_shanxi_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_shanxi = yes
+                set_autonomy = { target = Q13 autonomy_state = pfp_autonomy_military_occupation }
+                pfp_set_autonomy_colour = yes
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = Q13 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

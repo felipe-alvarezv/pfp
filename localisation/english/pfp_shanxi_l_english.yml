@@ -1,0 +1,23 @@
+﻿#Shanxi - Q13 - Localisation
+l_english:
+  Q13_communism:0 "Shanxi"
+  Q13_communism_DEF:0 "Shanxi"
+  Q13_democratic:0 "Shanxi"
+  Q13_democratic_DEF:0 "Shanxi"
+  Q13_neutrality:1 "Shanxi"
+  Q13_neutrality_DEF:1 "Shanxi"
+  Q13_fascism:0 "Shanxi"
+  Q13_fascism_DEF:0 "Shanxi"
+  Q13_communism_ADJ:0 "Chinese"
+  Q13_democratic_ADJ:0 "Chinese"
+  Q13_neutrality_ADJ:0 "Chinese"
+  Q13_fascism_ADJ:0 "Chinese"
+  Q13:0 "Shanxi"
+  Q13_DEF:0 "Shanxi"
+  Q13_ADJ:0 "Chinese"
+
+  pfp_shanxi:0 "Establish Millitary Occupation in Shanxi"
+  pfp_shanxi_required_states_shanxi:0 "Controls §Y[615.GetName]§!."
+  pfp_shanxi_core_states:0 "§YShanxi§! gains cores on all listed states.\n"
+  pfp_shanxi_transfer_states:0 "§YShanxi§! becomes owner and controller of all listed states.\n"
+  pfp_shanxi_puppet:0 "§YShanxi§! becomes a puppet of §Y[Root.GetName]§!.\n"

@@ -1,0 +1,23 @@
+#Scripted effect to release Shanxi (Q13)
+pfp_release_shanxi = {
+    hidden_effect = {
+        #Add cores to Shanxi
+        615 = { add_core_of = Q13 } #Shanxi
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q13 }
+            add_contested_owner = Q13
+            transfer_state_to = Q13
+        }
+
+        #Transfer all technology to formable puppet
+        Q13 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_shanxi_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q13 }
+    }
+}
