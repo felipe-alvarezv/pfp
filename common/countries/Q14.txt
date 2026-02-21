@@ -1,0 +1,6 @@
+#Liangjiang
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 139 63 79 }
+color = rgb { 139 63 79 }
+color_ui = rgb { 139 63 79 }
