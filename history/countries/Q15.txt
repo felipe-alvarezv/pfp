@@ -95,3 +95,6 @@ recruit_character = Q15_fascism_leader
 #Min-Zhe Initial States
 add_to_array = { pfp_min-zhe_integration_array = 595 } #Fujian
 add_to_array = { pfp_min-zhe_integration_array = 596 } #Zhejiang
+
+#Min-Zhe Territories
+add_to_array = { pfp_min-zhe_integration_array = 524 } #Taiwan
