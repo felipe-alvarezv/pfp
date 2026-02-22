@@ -1,0 +1,6 @@
+#Min-Zhe
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 238 175 71 }
+color = rgb { 238 175 71 }
+color_ui = rgb { 238 175 71 }

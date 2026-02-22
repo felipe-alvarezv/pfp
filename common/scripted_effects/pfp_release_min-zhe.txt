@@ -1,0 +1,24 @@
+#Scripted effect to release Min-Zhe (Q15)
+pfp_release_min-zhe = {
+    hidden_effect = {
+        #Add cores to Min-Zhe
+        595 = { add_core_of = Q15 } #Fujian
+        596 = { add_core_of = Q15 } #Zhejiang
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q15 }
+            add_contested_owner = Q15
+            transfer_state_to = Q15
+        }
+
+        #Transfer all technology to formable puppet
+        Q15 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_min-zhe_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q15 }
+    }
+}
