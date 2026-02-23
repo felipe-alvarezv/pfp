@@ -27,7 +27,7 @@ pfp_category = {
             #Ngari
             custom_trigger_tooltip = {
                 tooltip = pfp_tibet_required_states_ngari
-                has_full_control_of_state = 759 #Ngari
+                has_full_control_of_state = 758 #Ngari
             }
         }
         visible = {
@@ -35,7 +35,7 @@ pfp_category = {
                 has_full_control_of_state = 322 #Nagqu
                 has_full_control_of_state = 601 #Kham
                 has_full_control_of_state = 757 #Shigatse
-                has_full_control_of_state = 759 #Ngari
+                has_full_control_of_state = 758 #Ngari
             }
             NOT = { has_global_flag = pfp_tibet_flag }
         }
@@ -44,7 +44,7 @@ pfp_category = {
                 state = 322 #Nagqu
                 state = 601 #Kham
                 state = 757 #Shigatse
-                state = 759 #Ngari
+                state = 758 #Ngari
             }
         }
         icon = generic_military

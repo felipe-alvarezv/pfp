@@ -20,7 +20,7 @@ l_english:
   pfp_tibet_required_states_nagqu:0 "Controls §Y[322.GetName]§!."
   pfp_tibet_required_states_kham:0 "Controls §Y[601.GetName]§!."
   pfp_tibet_required_states_shigatse:0 "Controls §Y[757.GetName]§!."
-  pfp_tibet_required_states_ngari:0 "Controls §Y[759.GetName]§!."
+  pfp_tibet_required_states_ngari:0 "Controls §Y[758.GetName]§!."
   pfp_tibet_core_states:0 "§YTibet§! gains cores on all listed states.\n"
   pfp_tibet_transfer_states:0 "§YTibet§! becomes owner and controller of all listed states.\n"
   pfp_tibet_puppet:0 "§YTibet§! becomes a puppet of §Y[Root.GetName]§!.\n"

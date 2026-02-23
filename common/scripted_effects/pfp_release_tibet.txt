@@ -5,7 +5,7 @@ pfp_release_tibet = {
         322 = { add_core_of = Q24 } #Nagqu
         601 = { add_core_of = Q24 } #Kham
         757 = { add_core_of = Q24 } #Shigatse
-        759 = { add_core_of = Q24 } #Ngari
+        758 = { add_core_of = Q24 } #Ngari
         
         #Set formable puppet as owner and controller of all its cored states
         every_state = {

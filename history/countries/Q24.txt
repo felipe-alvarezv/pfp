@@ -96,4 +96,4 @@ recruit_character = Q24_fascism_leader
 add_to_array = { pfp_east_turkestan_integration_array = 322 } #Nagqu
 add_to_array = { pfp_east_turkestan_integration_array = 601 } #Kham
 add_to_array = { pfp_east_turkestan_integration_array = 757 } #Shigatse
-add_to_array = { pfp_east_turkestan_integration_array = 759 } #Ngari
+add_to_array = { pfp_east_turkestan_integration_array = 758 } #Ngari
