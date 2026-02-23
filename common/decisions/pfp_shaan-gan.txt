@@ -14,7 +14,7 @@ pfp_category = {
             #Gansu
             custom_trigger_tooltip = {
                 tooltip = pfp_shaan-gan_required_states_gansu
-                has_full_control_of_state = 282 #Gansu
+                has_full_control_of_state = 283 #Gansu
             }
             #Shaanbei
             custom_trigger_tooltip = {
@@ -54,7 +54,7 @@ pfp_category = {
         }
         visible = {
             OR = {
-                has_full_control_of_state = 282 #Gansu
+                has_full_control_of_state = 283 #Gansu
                 has_full_control_of_state = 622 #Shaanbei
                 has_full_control_of_state = 744 #Xian
                 has_full_control_of_state = 756 #Jiuquan
@@ -67,7 +67,7 @@ pfp_category = {
         }
         highlight_states = {
             highlight_state_targets = {
-                state = 282 #Gansu
+                state = 283 #Gansu
                 state = 622 #Shaanbei
                 state = 744 #Xian
                 state = 756 #Jiuquan

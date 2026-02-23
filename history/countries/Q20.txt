@@ -1,5 +1,5 @@
 #Shaan-Gan
-capital = 282 #Gansu
+capital = 283 #Gansu
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -93,7 +93,7 @@ recruit_character = Q20_neutrality_leader
 recruit_character = Q20_fascism_leader
 
 #Shaan-Gan Initial States
-add_to_array = { pfp_shaan-gan_integration_array = 282 } #Gansu
+add_to_array = { pfp_shaan-gan_integration_array = 283 } #Gansu
 add_to_array = { pfp_shaan-gan_integration_array = 622 } #Shaanbei
 add_to_array = { pfp_shaan-gan_integration_array = 744 } #Xian
 add_to_array = { pfp_shaan-gan_integration_array = 756 } #Jiuquan

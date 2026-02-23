@@ -2,7 +2,7 @@
 pfp_release_shaan-gan = {
     hidden_effect = {
         #Add cores to Shaan-Gan
-        282 = { add_core_of = Q20 } #Gansu
+        283 = { add_core_of = Q20 } #Gansu
         622 = { add_core_of = Q20 } #Shaanbei
         744 = { add_core_of = Q20 } #Xian
         756 = { add_core_of = Q20 } #Jiuquan
