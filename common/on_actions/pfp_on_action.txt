@@ -1631,6 +1631,20 @@ on_actions = {
                     add_core_of = Q16
                 }
             }
+            #Liangguang Integration
+            for_each_scope_loop = {
+                array = pfp_liangguang_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = Q17
+                        NOT = { is_core_of = Q17 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = Q17
+                    add_core_of = Q17
+                }
+            }
         }
     }
 }
