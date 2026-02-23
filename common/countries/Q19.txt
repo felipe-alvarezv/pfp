@@ -1,0 +1,6 @@
+#Sichuan
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 68 89 6 }
+color = rgb { 68 89 6 }
+color_ui = rgb { 68 89 6 }
