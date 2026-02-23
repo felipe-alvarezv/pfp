@@ -1,0 +1,6 @@
+#Qinghai
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 176 185 251 }
+color = rgb { 176 185 251 }
+color_ui = rgb { 176 185 251 }
