@@ -1,0 +1,6 @@
+#Shaan-Gan
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 211 240 197 }
+color = rgb { 211 240 197 }
+color_ui = rgb { 211 240 197 }

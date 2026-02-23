@@ -116,3 +116,4 @@ Q16 = "countries/Q16.txt" #Huguang
 Q17 = "countries/Q17.txt" #Liangguang
 Q18 = "countries/Q18.txt" #Yun-Gui
 Q19 = "countries/Q19.txt" #Sichuan
+Q20 = "countries/Q20.txt" #Shaan-Gan

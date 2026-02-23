@@ -1673,6 +1673,20 @@ on_actions = {
                     add_core_of = Q19
                 }
             }
+            #Shaan-Gan Integration
+            for_each_scope_loop = {
+                array = pfp_shaan-gan_integration_array
+                if = {
+                    limit = {
+                        is_owned_and_controlled_by = Q20
+                        NOT = { is_core_of = Q20 }
+                        #resistance < 10
+                        #compliance > 70
+                    }
+                    add_contested_owner = Q20
+                    add_core_of = Q20
+                }
+            }
         }
     }
 }
