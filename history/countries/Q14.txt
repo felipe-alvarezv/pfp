@@ -1,5 +1,5 @@
 #Liangjiang
-capital = 613 #Shanghai
+capital = 1035 #Nanjing
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3

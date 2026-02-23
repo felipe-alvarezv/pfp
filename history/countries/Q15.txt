@@ -1,5 +1,5 @@
 #Min-Zhe
-capital = 596 #Zhejiang
+capital = 595 #Fujian
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
