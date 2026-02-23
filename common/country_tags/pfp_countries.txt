@@ -120,3 +120,4 @@ Q20 = "countries/Q20.txt" #Shaan-Gan
 Q21 = "countries/Q21.txt" #Qinghai
 Q22 = "countries/Q22.txt" #Taiwan
 Q23 = "countries/Q23.txt" #East Turkestan
+Q24 = "countries/Q24.txt" #Tibet

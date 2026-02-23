@@ -1,0 +1,6 @@
+#Tibet
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 152 194 164 }
+color = rgb { 152 194 164 }
+color_ui = rgb { 152 194 164 }
