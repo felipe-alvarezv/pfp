@@ -118,3 +118,4 @@ Q18 = "countries/Q18.txt" #Yun-Gui
 Q19 = "countries/Q19.txt" #Sichuan
 Q20 = "countries/Q20.txt" #Shaan-Gan
 Q21 = "countries/Q21.txt" #Qinghai
+Q22 = "countries/Q22.txt" #Taiwan

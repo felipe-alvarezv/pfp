@@ -1,0 +1,6 @@
+#Taiwan
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 229 178 161 }
+color = rgb { 229 178 161 }
+color_ui = rgb { 229 178 161 }
