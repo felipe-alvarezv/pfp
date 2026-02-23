@@ -1,5 +1,5 @@
 #Manchuria
-capital = 328 #Kirin
+capital = 716 #Liaoning
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
