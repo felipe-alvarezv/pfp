@@ -1,0 +1,6 @@
+#East Turkestan
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+color = { 41 139 159 }
+color = rgb { 41 139 159 }
+color_ui = rgb { 41 139 159 }
