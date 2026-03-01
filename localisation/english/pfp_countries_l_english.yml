@@ -2837,7 +2837,7 @@ l_english:
   Q01_DEF:0 "Tohoku"
   Q01_ADJ:0 "Japanese"
 
-  pfp_tohoku:0 "Establish Millitary Occupation in Tohoku"
+  pfp_tohoku:0 "Establish Military Occupation in Tohoku"
   pfp_tohoku_required_states_kita-tohoku:0 "Controls §Y[533.GetName]§!."
   pfp_tohoku_required_states_minami_tohoku:0 "Controls §Y[1019.GetName]§!."
   pfp_tohoku_core_states:0 "§YTohoku§! gains cores on all listed states.\n"
@@ -2860,7 +2860,7 @@ l_english:
   Q02_DEF:0 "Kanto"
   Q02_ADJ:0 "Japanese"
 
-  pfp_kanto:0 "Establish Millitary Occupation in Kanto"
+  pfp_kanto:0 "Establish Military Occupation in Kanto"
   pfp_kanto_required_states_kanto:0 "Controls §Y[282.GetName]§!."
   pfp_kanto_core_states:0 "§YKanto§! gains cores on all listed states.\n"
   pfp_kanto_transfer_states:0 "§YKanto§! becomes owner and controller of all listed states.\n"
@@ -2882,7 +2882,7 @@ l_english:
   Q03_DEF:0 "Chubu"
   Q03_ADJ:0 "Japanese"
 
-  pfp_chubu:0 "Establish Millitary Occupation in Chubu"
+  pfp_chubu:0 "Establish Military Occupation in Chubu"
   pfp_chubu_required_states_tokai:0 "Controls §Y[532.GetName]§!."
   pfp_chubu_required_states_koshinetsu:0 "Controls §Y[534.GetName]§!."
   pfp_chubu_required_states_hokuriku:0 "Controls §Y[535.GetName]§!."
@@ -2906,7 +2906,7 @@ l_english:
   Q04_DEF:0 "Kansai"
   Q04_ADJ:0 "Japanese"
 
-  pfp_kansai:0 "Establish Millitary Occupation in Kansai"
+  pfp_kansai:0 "Establish Military Occupation in Kansai"
   pfp_kansai_required_states_kansai:0 "Controls §Y[531.GetName]§!."
   pfp_kansai_core_states:0 "§YKansai§! gains cores on all listed states.\n"
   pfp_kansai_transfer_states:0 "§YKansai§! becomes owner and controller of all listed states.\n"
@@ -2928,7 +2928,7 @@ l_english:
   Q05_DEF:0 "Chugoku"
   Q05_ADJ:0 "Japanese"
 
-  pfp_chugoku:0 "Establish Millitary Occupation in Chugoku"
+  pfp_chugoku:0 "Establish Military Occupation in Chugoku"
   pfp_chugoku_required_states_sanyo:0 "Controls §Y[529.GetName]§!."
   pfp_chugoku_required_states_sanin:0 "Controls §Y[1020.GetName]§!."
   pfp_chugoku_core_states:0 "§YChugoku§! gains cores on all listed states.\n"
@@ -2951,7 +2951,7 @@ l_english:
   Q06_DEF:0 "Shikoku"
   Q06_ADJ:0 "Japanese"
 
-  pfp_shikoku:0 "Establish Millitary Occupation in Shikoku"
+  pfp_shikoku:0 "Establish Military Occupation in Shikoku"
   pfp_shikoku_required_states_shikoku:0 "Controls §Y[530.GetName]§!."
   pfp_shikoku_core_states:0 "§YShikoku§! gains cores on all listed states.\n"
   pfp_shikoku_transfer_states:0 "§YShikoku§! becomes owner and controller of all listed states.\n"
@@ -2973,7 +2973,7 @@ l_english:
   Q07_DEF:0 "Kyushu"
   Q07_ADJ:0 "Japanese"
 
-  pfp_kyushu:0 "Establish Millitary Occupation in Kyushu"
+  pfp_kyushu:0 "Establish Military Occupation in Kyushu"
   pfp_kyushu_required_states_kitakyushu:0 "Controls §Y[528.GetName]§!."
   pfp_kyushu_required_states_minami_kyushu:0 "Controls §Y[1018.GetName]§!."
   pfp_kyushu_core_states:0 "§YKyushu§! gains cores on all listed states.\n"
@@ -2996,7 +2996,7 @@ l_english:
   Q08_DEF:0 "Manchuria"
   Q08_ADJ:0 "Chinese"
 
-  pfp_manchuria:0 "Establish Millitary Occupation in Manchuria"
+  pfp_manchuria:0 "Establish Military Occupation in Manchuria"
   pfp_manchuria_required_states_kirin:0 "Controls §Y[328.GetName]§!."
   pfp_manchuria_required_states_jehol:0 "Controls §Y[610.GetName]§!."
   pfp_manchuria_required_states_heilungkiang:0 "Controls §Y[714.GetName]§!."
@@ -3024,7 +3024,7 @@ l_english:
   Q09_DEF:0 "Inner Mongolia"
   Q09_ADJ:0 "Mongolian"
 
-  pfp_inner_mongolia:0 "Establish Millitary Occupation in Inner Mongolia"
+  pfp_inner_mongolia:0 "Establish Military Occupation in Inner Mongolia"
   pfp_inner_mongolia_required_states_chahar:0 "Controls §Y[611.GetName]§!."
   pfp_inner_mongolia_required_states_xilingol:0 "Controls §Y[612.GetName]§!."
   pfp_inner_mongolia_required_states_suiyuan:0 "Controls §Y[621.GetName]§!."
@@ -3049,7 +3049,7 @@ l_english:
   Q10_DEF:0 "Zhili"
   Q10_ADJ:0 "Chinese"
 
-  pfp_zhili:0 "Establish Millitary Occupation in Zhili"
+  pfp_zhili:0 "Establish Military Occupation in Zhili"
   pfp_zhili_required_states_beiping:0 "Controls §Y[608.GetName]§!."
   pfp_zhili_required_states_hebei:0 "Controls §Y[614.GetName]§!."
   pfp_zhili_required_states_hebei-chahar:0 "Controls §Y[1039.GetName]§!."
@@ -3073,7 +3073,7 @@ l_english:
   Q11_DEF:0 "Shandong"
   Q11_ADJ:0 "Chinese"
 
-  pfp_shandong:0 "Establish Millitary Occupation in Shandong"
+  pfp_shandong:0 "Establish Military Occupation in Shandong"
   pfp_shandong_required_states_shandong:0 "Controls §Y[597.GetName]§!."
   pfp_shandong_required_states_jinan:0 "Controls §Y[1038.GetName]§!."
   pfp_shandong_core_states:0 "§YShandong§! gains cores on all listed states.\n"
@@ -3096,7 +3096,7 @@ l_english:
   Q13_DEF:0 "Shanxi"
   Q13_ADJ:0 "Chinese"
 
-  pfp_shanxi:0 "Establish Millitary Occupation in Shanxi"
+  pfp_shanxi:0 "Establish Military Occupation in Shanxi"
   pfp_shanxi_required_states_shanxi:0 "Controls §Y[615.GetName]§!."
   pfp_shanxi_core_states:0 "§YShanxi§! gains cores on all listed states.\n"
   pfp_shanxi_transfer_states:0 "§YShanxi§! becomes owner and controller of all listed states.\n"
@@ -3118,7 +3118,7 @@ l_english:
   Q14_DEF:0 "Liangjiang"
   Q14_ADJ:0 "Chinese"
 
-  pfp_liangjiang:0 "Establish Millitary Occupation in Liangjiang"
+  pfp_liangjiang:0 "Establish Military Occupation in Liangjiang"
   pfp_liangjiang_required_states_jiangsu:0 "Controls §Y[598.GetName]§!."
   pfp_liangjiang_required_states_jiangxi:0 "Controls §Y[600.GetName]§!."
   pfp_liangjiang_required_states_anhui:0 "Controls §Y[606.GetName]§!."
@@ -3146,7 +3146,7 @@ l_english:
   Q15_DEF:0 "Min-Zhe"
   Q15_ADJ:0 "Chinese"
 
-  pfp_min-zhe:0 "Establish Millitary Occupation in Min-Zhe"
+  pfp_min-zhe:0 "Establish Military Occupation in Min-Zhe"
   pfp_min-zhe_required_states_fujian:0 "Controls §Y[595.GetName]§!."
   pfp_min-zhe_required_states_zhejiang:0 "Controls §Y[596.GetName]§!."
   pfp_min-zhe_core_states:0 "§YMin-Zhe§! gains cores on all listed states.\n"
@@ -3169,7 +3169,7 @@ l_english:
   Q16_DEF:0 "Huguang"
   Q16_ADJ:0 "Chinese"
 
-  pfp_huguang:0 "Establish Millitary Occupation in Huguang"
+  pfp_huguang:0 "Establish Military Occupation in Huguang"
   pfp_huguang_required_states_hunan:0 "Controls §Y[602.GetName]§!."
   pfp_huguang_required_states_hubei:0 "Controls §Y[620.GetName]§!."
   pfp_huguang_required_states_changde:0 "Controls §Y[750.GetName]§!."
@@ -3194,7 +3194,7 @@ l_english:
   Q17_DEF:0 "Liangguang"
   Q17_ADJ:0 "Chinese"
 
-  pfp_liangguang:0 "Establish Millitary Occupation in Liangguang"
+  pfp_liangguang:0 "Establish Military Occupation in Liangguang"
   pfp_liangguang_required_states_guangzhou:0 "Controls §Y[592.GetName]§!."
   pfp_liangguang_required_states_guangdong:0 "Controls §Y[593.GetName]§!."
   pfp_liangguang_required_states_nanning:0 "Controls §Y[594.GetName]§!."
@@ -3220,7 +3220,7 @@ l_english:
   Q18_DEF:0 "Yun-Gui"
   Q18_ADJ:0 "Chinese"
 
-  pfp_yun-gui:0 "Establish Millitary Occupation in Yun-Gui"
+  pfp_yun-gui:0 "Establish Military Occupation in Yun-Gui"
   pfp_yun-gui_required_states_yunnan:0 "Controls §Y[325.GetName]§!."
   pfp_yun-gui_required_states_guizhou:0 "Controls §Y[603.GetName]§!."
   pfp_yun-gui_required_states_dali:0 "Controls §Y[747.GetName]§!."
@@ -3245,7 +3245,7 @@ l_english:
   Q19_DEF:0 "Sichuan"
   Q19_ADJ:0 "Chinese"
 
-  pfp_sichuan:0 "Establish Millitary Occupation in Sichuan"
+  pfp_sichuan:0 "Establish Military Occupation in Sichuan"
   pfp_sichuan_required_states_sichuan:0 "Controls §Y[605.GetName]§!."
   pfp_sichuan_required_states_liangshan:0 "Controls §Y[751.GetName]§!."
   pfp_sichuan_required_states_ganzi:0 "Controls §Y[752.GetName]§!."
@@ -3272,7 +3272,7 @@ l_english:
   Q20_DEF:0 "Shaan-Gan"
   Q20_ADJ:0 "Chinese"
 
-  pfp_shaan-gan:0 "Establish Millitary Occupation in Shaan-Gan"
+  pfp_shaan-gan:0 "Establish Military Occupation in Shaan-Gan"
   pfp_shaan-gan_required_states_gansu:0 "Controls §Y[282.GetName]§!."
   pfp_shaan-gan_required_states_shaanbei:0 "Controls §Y[622.GetName]§!."
   pfp_shaan-gan_required_states_xian:0 "Controls §Y[744.GetName]§!."
@@ -3301,7 +3301,7 @@ l_english:
   Q21_DEF:0 "Qinghai"
   Q21_ADJ:0 "Chinese"
 
-  pfp_qinghai:0 "Establish Millitary Occupation in Qinghai"
+  pfp_qinghai:0 "Establish Military Occupation in Qinghai"
   pfp_qinghai_required_states_qinghai:0 "Controls §Y[604.GetName]§!."
   pfp_qinghai_required_states_golog:0 "Controls §Y[754.GetName]§!."
   pfp_qinghai_required_states_haixi:0 "Controls §Y[755.GetName]§!."
@@ -3325,7 +3325,7 @@ l_english:
   Q22_DEF:0 "Taiwan"
   Q22_ADJ:0 "Chinese"
 
-  pfp_taiwan:0 "Establish Millitary Occupation in Taiwan"
+  pfp_taiwan:0 "Establish Military Occupation in Taiwan"
   pfp_taiwan_required_states_taiwan:0 "Controls §Y[524.GetName]§!."
   pfp_taiwan_core_states:0 "§YTaiwan§! gains cores on all listed states.\n"
   pfp_taiwan_transfer_states:0 "§YTaiwan§! becomes owner and controller of all listed states.\n"
@@ -3347,7 +3347,7 @@ l_english:
   Q23_DEF:0 "East Turkestan"
   Q23_ADJ:0 "Uyghur"
 
-  pfp_east_turkestan:0 "Establish Millitary Occupation in East Turkestan"
+  pfp_east_turkestan:0 "Establish Military Occupation in East Turkestan"
   pfp_east_turkestan_required_states_taklamakan:0 "Controls §Y[287.GetName]§!."
   pfp_east_turkestan_required_states_urumqi:0 "Controls §Y[617.GetName]§!."
   pfp_east_turkestan_required_states_dzungaria:0 "Controls §Y[618.GetName]§!."
@@ -3375,7 +3375,7 @@ l_english:
   Q24_DEF:0 "Tibet"
   Q24_ADJ:0 "Tibetan"
 
-  pfp_tibet:0 "Establish Millitary Occupation in Tibet"
+  pfp_tibet:0 "Establish Military Occupation in Tibet"
   pfp_tibet_required_states_nagqu:0 "Controls §Y[322.GetName]§!."
   pfp_tibet_required_states_kham:0 "Controls §Y[601.GetName]§!."
   pfp_tibet_required_states_shigatse:0 "Controls §Y[757.GetName]§!."
