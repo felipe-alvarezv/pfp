@@ -1,0 +1,53 @@
+﻿#Decision Description Localisation
+l_korean:
+	pfp_category:0 "Pipe's Formable Puppets"
+	pfp_category_desc:0 "영토를 넓혀갈수록 이를 모두 통치하는 것이 복잡한 문제가 되었습니다. 이 문제를 해결하기 위해, 우리가 정복한 지역에 우리 나라에 충성하는 괴뢰 정부를 수립해야 합니다. 이를 통해 해당 지역이 우리의 대의를 돕는 동안 우리는 다른 곳에 주의를 집중할 수 있습니다."
+
+	pfp_puppet_management:0 "Pipe's Formable Puppets - 관리"
+	pfp_puppet_management_desc:0 "군사 점령을 수립한 후, 행정과 그 영토에 관한 조정이 필요할 수 있습니다."
+	pfp_management_window:0 "관리 메뉴 열기"
+	pfp_management_coloured_puppets:0 "종주국 색상 괴뢰국가 표시 전환"
+
+	pfp_default_puppet_leader:0 "군정 총독"
+
+	pfp_autonomy_military_occupation:0 "군사 점령"
+	pfp_autonomy_military_occupation_colour:0 "군사 점령"
+
+	pfp_management_textbox_title:0 "PFP 관리"
+	pfp_management_textbox_view_puppets:0 "괴뢰국가 보기"
+	pfp_management_textbox_state_transfer:0 "주 이양"
+	pfp_management_testbox_coming_soon:0 "W.I.P."
+
+	pfp_management_tooltip_close_button:0 "관리 인터페이스를 닫습니다."
+	pfp_management_tooltip_view_puppets:0 "플레이어의 통제 하에 있는 모든 형성 가능한 괴뢰국가와 해당 국가의 현재 주 및 핵심 영토를 표시합니다."
+	pfp_management_tooltip_state_transfer:0 "플레이어와 괴뢰국가 간에 영토를 이양하는 데 사용할 수 있는 주 이양 옵션을 표시합니다."
+
+	pfp_view_puppets_textbox_title:0 "괴뢰국가 보기 - [ROOT.GetName]"
+	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
+	pfp_view_puppets_textbox_states:0 "주: [?num_owned_states]"
+	pfp_view_puppets_textbox_cores:0 "핵심 영토: [?num_core_states]"
+	pfp_view_puppets_textbox_appoint_leader:0 "총독 임명"
+
+	pfp_view_puppets_tooltip_close_button:0 "괴뢰국가 보기 인터페이스를 닫습니다."
+	pfp_view_puppets_tooltip_appoint_leader_button:0 "군정 총독으로 임명할 수 있는 모든 부대 지휘관을 표시합니다."
+
+	pfp_appoint_leader_textbox_title:0 "임명 - [?puppet_value_var.GetName]"
+	pfp_appoint_leader_textbox_leader_name:0 "[?leader_value.GetName]"
+	pfp_appoint_leader_textbox_appoint_button:0 "임명"
+
+	pfp_appoint_leader_tooltip_dismiss_leader_button:0 "현재 군정 총독을 해임하여 종주국의 명단에 복귀시킵니다."
+	pfp_appoint_leader_tooltip_close_button:0 "군정 총독 임명 인터페이스를 닫습니다."
+
+	pfp_state_transfer_textbox_title:0 "주 이양 - [THIS.GetName] ([THIS.GetID])"
+	pfp_state_transfer_textbox_selected_state_label:0 "선택된 주:"
+	pfp_state_transfer_textbox_selected_state:0 "[THIS.GetName]"
+	pfp_state_transfer_textbox_selected_country_label:0 "선택된 국가:"
+	pfp_state_transfer_textbox_selected_country:0 "[THIS.owner.GetName]"
+	pfp_state_transfer_textbox_select_state_button:0 "주 선택"
+	pfp_state_transfer_textbox_unselect_state_button:0 "주 선택 해제"
+	pfp_state_transfer_textbox_transfer_state_button:0 "주 이양"
+	pfp_state_transfer_textbox_target_states_label:0 "대상 주:"
+	pfp_state_transfer_textbox_gridbox_entry_name:0 "[?v.GetName]"
+
+	pfp_state_transfer_tooltip_unselect_all_button:0 "이전에 선택한 모든 주의 선택을 해제합니다."
+	pfp_state_transfer_tooltip_close_button:0 "주 이양 인터페이스를 닫습니다."

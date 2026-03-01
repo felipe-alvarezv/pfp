@@ -1,0 +1,53 @@
+﻿#Decision Description Localisation
+l_brazilian_portuguese:
+	pfp_category:0 "Pipe's Formable Puppets"
+	pfp_category_desc:0 "À medida que conquistamos mais território, administrá-lo se tornou um problema complicado. Para resolver isso, governos fantoches leais à nossa nação devem ser estabelecidos nas regiões que conquistamos. Isso nos permitirá concentrar nossa atenção em outro lugar, enquanto a região apoia nossa causa."
+
+	pfp_puppet_management:0 "Pipe's Formable Puppets - Gerenciamento"
+	pfp_puppet_management_desc:0 "Após estabelecer nossa ocupação militar, pode ser necessário fazer ajustes em relação à administração e seus territórios."
+	pfp_management_window:0 "Abrir menu de gerenciamento"
+	pfp_management_coloured_puppets:0 "Alternar fantoches com a cor do soberano"
+
+	pfp_default_puppet_leader:0 "Governador Militar"
+
+	pfp_autonomy_military_occupation:0 "Ocupação Militar"
+	pfp_autonomy_military_occupation_colour:0 "Ocupação Militar"
+
+	pfp_management_textbox_title:0 "Gerenciamento PFP"
+	pfp_management_textbox_view_puppets:0 "Ver fantoches"
+	pfp_management_textbox_state_transfer:0 "Transferência de Estado"
+	pfp_management_testbox_coming_soon:0 "W.I.P."
+
+	pfp_management_tooltip_close_button:0 "Fechar a interface de gerenciamento."
+	pfp_management_tooltip_view_puppets:0 "Exibe todos os fantoches formáveis sob o controle do jogador, junto com seus estados e núcleos atuais."
+	pfp_management_tooltip_state_transfer:0 "Exibe as opções de transferência de estado que podem ser usadas para transferir território entre o jogador e seus fantoches."
+
+	pfp_view_puppets_textbox_title:0 "Ver Fantoches - [ROOT.GetName]"
+	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
+	pfp_view_puppets_textbox_states:0 "Estados: [?num_owned_states]"
+	pfp_view_puppets_textbox_cores:0 "Núcleos: [?num_core_states]"
+	pfp_view_puppets_textbox_appoint_leader:0 "Nomear Governador"
+
+	pfp_view_puppets_tooltip_close_button:0 "Fechar a interface de visualização de fantoches."
+	pfp_view_puppets_tooltip_appoint_leader_button:0 "Exibe todos os líderes de unidade que podem ser nomeados governador militar."
+
+	pfp_appoint_leader_textbox_title:0 "Nomear - [?puppet_value_var.GetName]"
+	pfp_appoint_leader_textbox_leader_name:0 "[?leader_value.GetName]"
+	pfp_appoint_leader_textbox_appoint_button:0 "Nomear"
+
+	pfp_appoint_leader_tooltip_dismiss_leader_button:0 "Dispensar o governador militar atual, devolvendo-o ao plantel do soberano."
+	pfp_appoint_leader_tooltip_close_button:0 "Fechar a interface de nomeação do governador militar."
+
+	pfp_state_transfer_textbox_title:0 "Transferência de Estado - [THIS.GetName] ([THIS.GetID])"
+	pfp_state_transfer_textbox_selected_state_label:0 "Estado selecionado:"
+	pfp_state_transfer_textbox_selected_state:0 "[THIS.GetName]"
+	pfp_state_transfer_textbox_selected_country_label:0 "País selecionado:"
+	pfp_state_transfer_textbox_selected_country:0 "[THIS.owner.GetName]"
+	pfp_state_transfer_textbox_select_state_button:0 "Selecionar Estado"
+	pfp_state_transfer_textbox_unselect_state_button:0 "Desselecionar Estado"
+	pfp_state_transfer_textbox_transfer_state_button:0 "Transferir Estado"
+	pfp_state_transfer_textbox_target_states_label:0 "Estados alvo:"
+	pfp_state_transfer_textbox_gridbox_entry_name:0 "[?v.GetName]"
+
+	pfp_state_transfer_tooltip_unselect_all_button:0 "Desselecionar todos os estados previamente selecionados."
+	pfp_state_transfer_tooltip_close_button:0 "Fechar a interface de transferência de estado."

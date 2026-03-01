@@ -1,0 +1,53 @@
+﻿#Decision Description Localisation
+l_japanese:
+	pfp_category:0 "Pipe's Formable Puppets"
+	pfp_category_desc:0 "領土が拡大するにつれて、その統治が複雑な問題となっています。この問題に対処するため、征服した地域に我が国に忠実な傀儡政権を樹立すべきです。これにより、その地域が我々の大義を支える一方で、我々は別の場所に注意を向けることができます。"
+
+	pfp_puppet_management:0 "Pipe's Formable Puppets - 管理"
+	pfp_puppet_management_desc:0 "軍事占領を確立した後、行政とその領土に関して調整が必要になる場合があります。"
+	pfp_management_window:0 "管理メニューを開く"
+	pfp_management_coloured_puppets:0 "宗主国色の傀儡国家表示を切り替え"
+
+	pfp_default_puppet_leader:0 "軍政知事"
+
+	pfp_autonomy_military_occupation:0 "軍事占領"
+	pfp_autonomy_military_occupation_colour:0 "軍事占領"
+
+	pfp_management_textbox_title:0 "PFP管理"
+	pfp_management_textbox_view_puppets:0 "傀儡国家を表示"
+	pfp_management_textbox_state_transfer:0 "州の移管"
+	pfp_management_testbox_coming_soon:0 "W.I.P."
+
+	pfp_management_tooltip_close_button:0 "管理インターフェースを閉じる。"
+	pfp_management_tooltip_view_puppets:0 "プレイヤーの管理下にある全ての形成可能な傀儡国家を、現在の州およびコアとともに表示します。"
+	pfp_management_tooltip_state_transfer:0 "プレイヤーと傀儡国家の間で土地を移管するために使用できる州移管オプションを表示します。"
+
+	pfp_view_puppets_textbox_title:0 "傀儡国家を表示 - [ROOT.GetName]"
+	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
+	pfp_view_puppets_textbox_states:0 "州: [?num_owned_states]"
+	pfp_view_puppets_textbox_cores:0 "コア: [?num_core_states]"
+	pfp_view_puppets_textbox_appoint_leader:0 "知事を任命"
+
+	pfp_view_puppets_tooltip_close_button:0 "傀儡国家表示インターフェースを閉じる。"
+	pfp_view_puppets_tooltip_appoint_leader_button:0 "軍政知事として任命できる全ての部隊指揮官を表示します。"
+
+	pfp_appoint_leader_textbox_title:0 "任命 - [?puppet_value_var.GetName]"
+	pfp_appoint_leader_textbox_leader_name:0 "[?leader_value.GetName]"
+	pfp_appoint_leader_textbox_appoint_button:0 "任命"
+
+	pfp_appoint_leader_tooltip_dismiss_leader_button:0 "現在の軍政知事を解任し、宗主国の名簿に戻します。"
+	pfp_appoint_leader_tooltip_close_button:0 "軍政知事任命インターフェースを閉じる。"
+
+	pfp_state_transfer_textbox_title:0 "州の移管 - [THIS.GetName] ([THIS.GetID])"
+	pfp_state_transfer_textbox_selected_state_label:0 "選択された州:"
+	pfp_state_transfer_textbox_selected_state:0 "[THIS.GetName]"
+	pfp_state_transfer_textbox_selected_country_label:0 "選択された国:"
+	pfp_state_transfer_textbox_selected_country:0 "[THIS.owner.GetName]"
+	pfp_state_transfer_textbox_select_state_button:0 "州を選択"
+	pfp_state_transfer_textbox_unselect_state_button:0 "州の選択を解除"
+	pfp_state_transfer_textbox_transfer_state_button:0 "州を移管"
+	pfp_state_transfer_textbox_target_states_label:0 "対象の州:"
+	pfp_state_transfer_textbox_gridbox_entry_name:0 "[?v.GetName]"
+
+	pfp_state_transfer_tooltip_unselect_all_button:0 "以前に選択した全ての州の選択を解除します。"
+	pfp_state_transfer_tooltip_close_button:0 "州移管インターフェースを閉じる。"

@@ -1,0 +1,53 @@
+﻿#Decision Description Localisation
+l_russian:
+	pfp_category:0 "Pipe's Formable Puppets"
+	pfp_category_desc:0 "По мере расширения наших территорий управление ими стало сложной задачей. Чтобы решить её, в завоёванных нами регионах следует установить марионеточные правительства, лояльные нашей нации. Это позволит нам сосредоточить внимание в других местах, пока регион служит нашему делу."
+
+	pfp_puppet_management:0 "Pipe's Formable Puppets - Управление"
+	pfp_puppet_management_desc:0 "После установления военной оккупации нам, возможно, потребуется внести коррективы в управление и его территории."
+	pfp_management_window:0 "Открыть меню управления"
+	pfp_management_coloured_puppets:0 "Переключить цвета марионеток сюзерена"
+
+	pfp_default_puppet_leader:0 "Военный губернатор"
+
+	pfp_autonomy_military_occupation:0 "Военная оккупация"
+	pfp_autonomy_military_occupation_colour:0 "Военная оккупация"
+
+	pfp_management_textbox_title:0 "Управление PFP"
+	pfp_management_textbox_view_puppets:0 "Просмотр марионеток"
+	pfp_management_textbox_state_transfer:0 "Передача территорий"
+	pfp_management_testbox_coming_soon:0 "W.I.P."
+
+	pfp_management_tooltip_close_button:0 "Закрыть интерфейс управления."
+	pfp_management_tooltip_view_puppets:0 "Отображает все формируемые марионеточные государства под контролем игрока вместе с их текущими территориями и ключевыми землями."
+	pfp_management_tooltip_state_transfer:0 "Отображает параметры передачи территорий, которые можно использовать для перемещения земель между игроком и его марионетками."
+
+	pfp_view_puppets_textbox_title:0 "Просмотр марионеток - [ROOT.GetName]"
+	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
+	pfp_view_puppets_textbox_states:0 "Территории: [?num_owned_states]"
+	pfp_view_puppets_textbox_cores:0 "Ключевые земли: [?num_core_states]"
+	pfp_view_puppets_textbox_appoint_leader:0 "Назначить губернатора"
+
+	pfp_view_puppets_tooltip_close_button:0 "Закрыть интерфейс просмотра марионеток."
+	pfp_view_puppets_tooltip_appoint_leader_button:0 "Отображает всех командиров подразделений, которых можно назначить военным губернатором."
+
+	pfp_appoint_leader_textbox_title:0 "Назначить - [?puppet_value_var.GetName]"
+	pfp_appoint_leader_textbox_leader_name:0 "[?leader_value.GetName]"
+	pfp_appoint_leader_textbox_appoint_button:0 "Назначить"
+
+	pfp_appoint_leader_tooltip_dismiss_leader_button:0 "Уволить текущего военного губернатора, вернув его в список сюзерена."
+	pfp_appoint_leader_tooltip_close_button:0 "Закрыть интерфейс назначения военного губернатора."
+
+	pfp_state_transfer_textbox_title:0 "Передача территорий - [THIS.GetName] ([THIS.GetID])"
+	pfp_state_transfer_textbox_selected_state_label:0 "Выбранная территория:"
+	pfp_state_transfer_textbox_selected_state:0 "[THIS.GetName]"
+	pfp_state_transfer_textbox_selected_country_label:0 "Выбранная страна:"
+	pfp_state_transfer_textbox_selected_country:0 "[THIS.owner.GetName]"
+	pfp_state_transfer_textbox_select_state_button:0 "Выбрать территорию"
+	pfp_state_transfer_textbox_unselect_state_button:0 "Отменить выбор территории"
+	pfp_state_transfer_textbox_transfer_state_button:0 "Передать территорию"
+	pfp_state_transfer_textbox_target_states_label:0 "Целевые территории:"
+	pfp_state_transfer_textbox_gridbox_entry_name:0 "[?v.GetName]"
+
+	pfp_state_transfer_tooltip_unselect_all_button:0 "Отменить выбор всех ранее выбранных территорий."
+	pfp_state_transfer_tooltip_close_button:0 "Закрыть интерфейс передачи территорий."

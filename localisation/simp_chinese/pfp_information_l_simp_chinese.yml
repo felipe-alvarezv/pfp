@@ -1,0 +1,53 @@
+﻿#Decision Description Localisation
+l_simp_chinese:
+	pfp_category:0 "Pipe's Formable Puppets"
+	pfp_category_desc:0 "随着我们占领越来越多的领土，对其进行管理已成为一个复杂的问题。为解决这一问题，应在我们征服的地区建立忠于我国的傀儡政府。这将使我们能够将注意力集中在其他地方，同时让这些地区为我们的事业出力。"
+
+	pfp_puppet_management:0 "Pipe's Formable Puppets - 管理"
+	pfp_puppet_management_desc:0 "在建立军事占领之后，我们可能需要对行政管理及其领土进行调整。"
+	pfp_management_window:0 "打开管理菜单"
+	pfp_management_coloured_puppets:0 "切换宗主国颜色傀儡国家"
+
+	pfp_default_puppet_leader:0 "军事总督"
+
+	pfp_autonomy_military_occupation:0 "军事占领"
+	pfp_autonomy_military_occupation_colour:0 "军事占领"
+
+	pfp_management_textbox_title:0 "PFP管理"
+	pfp_management_textbox_view_puppets:0 "查看傀儡国家"
+	pfp_management_textbox_state_transfer:0 "州转让"
+	pfp_management_testbox_coming_soon:0 "W.I.P."
+
+	pfp_management_tooltip_close_button:0 "关闭管理界面。"
+	pfp_management_tooltip_view_puppets:0 "显示玩家控制下的所有可形成傀儡国家及其当前的州和核心。"
+	pfp_management_tooltip_state_transfer:0 "显示可用于在玩家与其傀儡国家之间转让土地的州转让选项。"
+
+	pfp_view_puppets_textbox_title:0 "查看傀儡国家 - [ROOT.GetName]"
+	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
+	pfp_view_puppets_textbox_states:0 "州: [?num_owned_states]"
+	pfp_view_puppets_textbox_cores:0 "核心: [?num_core_states]"
+	pfp_view_puppets_textbox_appoint_leader:0 "任命总督"
+
+	pfp_view_puppets_tooltip_close_button:0 "关闭傀儡国家查看界面。"
+	pfp_view_puppets_tooltip_appoint_leader_button:0 "显示所有可被任命为军事总督的部队指挥官。"
+
+	pfp_appoint_leader_textbox_title:0 "任命 - [?puppet_value_var.GetName]"
+	pfp_appoint_leader_textbox_leader_name:0 "[?leader_value.GetName]"
+	pfp_appoint_leader_textbox_appoint_button:0 "任命"
+
+	pfp_appoint_leader_tooltip_dismiss_leader_button:0 "解任当前军事总督，将其归还至宗主国的名单。"
+	pfp_appoint_leader_tooltip_close_button:0 "关闭军事总督任命界面。"
+
+	pfp_state_transfer_textbox_title:0 "州转让 - [THIS.GetName] ([THIS.GetID])"
+	pfp_state_transfer_textbox_selected_state_label:0 "已选州:"
+	pfp_state_transfer_textbox_selected_state:0 "[THIS.GetName]"
+	pfp_state_transfer_textbox_selected_country_label:0 "已选国家:"
+	pfp_state_transfer_textbox_selected_country:0 "[THIS.owner.GetName]"
+	pfp_state_transfer_textbox_select_state_button:0 "选择州"
+	pfp_state_transfer_textbox_unselect_state_button:0 "取消选择州"
+	pfp_state_transfer_textbox_transfer_state_button:0 "转让州"
+	pfp_state_transfer_textbox_target_states_label:0 "目标州:"
+	pfp_state_transfer_textbox_gridbox_entry_name:0 "[?v.GetName]"
+
+	pfp_state_transfer_tooltip_unselect_all_button:0 "取消选择所有先前选定的州。"
+	pfp_state_transfer_tooltip_close_button:0 "关闭州转让界面。"
