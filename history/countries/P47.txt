@@ -104,6 +104,7 @@ add_to_array = { pfp_mongolia_integration_array = 820 } #Khovsgol
 add_to_array = { pfp_mongolia_integration_array = 329 } #Tannu Tuva
 add_to_array = { pfp_mongolia_integration_array = 563 } #Chita
 add_to_array = { pfp_mongolia_integration_array = 564 } #Buryatia
+add_to_array = { pfp_mongolia_integration_array = 566 } #Irkutsk
 add_to_array = { pfp_mongolia_integration_array = 611 } #Chahar
 add_to_array = { pfp_mongolia_integration_array = 612 } #Xilingol
 add_to_array = { pfp_mongolia_integration_array = 616 } #Ningxia
