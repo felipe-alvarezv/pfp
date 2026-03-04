@@ -3096,7 +3096,7 @@
   Q12_DEF:0 "Henan"
   Q12_ADJ:0 "Chinese"
 
-  pfp_henan:0 "Establish Millitary Occupation in Henan"
+  pfp_henan:0 "Establish Military Occupation in Henan"
   pfp_henan_required_states_henan:0 "Controls §Y[607.GetName]§!."
   pfp_henan_core_states:0 "§YHenan§! gains cores on all listed states.\n"
   pfp_henan_transfer_states:0 "§YHenan§! becomes owner and controller of all listed states.\n"
