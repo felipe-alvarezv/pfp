@@ -8,7 +8,7 @@ l_simp_chinese:
 	pfp_management_window:0 "打开管理菜单"
 	pfp_management_coloured_puppets:0 "切换宗主国颜色傀儡国家"
 
-	pfp_default_puppet_leader:0 "军事总督"
+	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "军事占领"
 	pfp_autonomy_military_occupation_colour:0 "军事占领"

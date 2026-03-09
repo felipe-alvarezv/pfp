@@ -8,7 +8,7 @@ l_polish:
 	pfp_management_window:0 "Otwórz menu zarządzania"
 	pfp_management_coloured_puppets:0 "Przełącz kolory marionetek suzerena"
 
-	pfp_default_puppet_leader:0 "Gubernator Wojskowy"
+	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "Okupacja Wojskowa"
 	pfp_autonomy_military_occupation_colour:0 "Okupacja Wojskowa"

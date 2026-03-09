@@ -8,7 +8,7 @@ l_korean:
 	pfp_management_window:0 "관리 메뉴 열기"
 	pfp_management_coloured_puppets:0 "종주국 색상 괴뢰국가 표시 전환"
 
-	pfp_default_puppet_leader:0 "군정 총독"
+	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "군사 점령"
 	pfp_autonomy_military_occupation_colour:0 "군사 점령"

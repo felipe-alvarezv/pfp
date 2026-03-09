@@ -8,7 +8,7 @@ l_japanese:
 	pfp_management_window:0 "管理メニューを開く"
 	pfp_management_coloured_puppets:0 "宗主国色の傀儡国家表示を切り替え"
 
-	pfp_default_puppet_leader:0 "軍政知事"
+	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "軍事占領"
 	pfp_autonomy_military_occupation_colour:0 "軍事占領"
