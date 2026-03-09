@@ -1,7 +1,7 @@
 ﻿l_french:
-  COUNTRY_pfp_autonomy_military_occupation:0 "$NONIDEOLOGY$ $OVERLORDADJ$"
-  COUNTRY_pfp_autonomy_military_occupation_DEF:0 "$NONIDEOLOGYDEF$ $OVERLORDADJ$"
-  COUNTRY_pfp_autonomy_military_occupation_ADJ:0 "$NONIDEOLOGYADJ$ $OVERLORDADJ$"
-  COUNTRY_pfp_autonomy_military_occupation_colour:0 "$NONIDEOLOGY$ $OVERLORDADJ$"
-  COUNTRY_pfp_autonomy_military_occupation_colour_DEF:0 "$NONIDEOLOGYDEF$ $OVERLORDADJ$"
-  COUNTRY_pfp_autonomy_military_occupation_colour_ADJ:0 "$NONIDEOLOGYADJ$ $OVERLORDADJ$"
+  COUNTRY_pfp_autonomy_military_occupation:0 "$NONIDEOLOGY$"
+  COUNTRY_pfp_autonomy_military_occupation_DEF:0 "$NONIDEOLOGYDEF$"
+  COUNTRY_pfp_autonomy_military_occupation_ADJ:0 "$NONIDEOLOGYADJ$"
+  COUNTRY_pfp_autonomy_military_occupation_colour:0 "$NONIDEOLOGY$"
+  COUNTRY_pfp_autonomy_military_occupation_colour_DEF:0 "$NONIDEOLOGYDEF$"
+  COUNTRY_pfp_autonomy_military_occupation_colour_ADJ:0 "$NONIDEOLOGYADJ$"
