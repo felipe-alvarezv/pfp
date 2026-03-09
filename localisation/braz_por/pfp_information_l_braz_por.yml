@@ -22,7 +22,7 @@ l_brazilian_portuguese:
 	pfp_management_tooltip_view_puppets:0 "Exibe todos os fantoches formáveis sob o controle do jogador, junto com seus estados e núcleos atuais."
 	pfp_management_tooltip_state_transfer:0 "Exibe as opções de transferência de estado que podem ser usadas para transferir território entre o jogador e seus fantoches."
 
-	pfp_view_puppets_textbox_title:0 "Ver Fantoches - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "Ver Fantoches - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "Estados: [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "Núcleos: [?num_core_states]"

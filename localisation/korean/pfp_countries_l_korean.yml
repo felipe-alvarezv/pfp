@@ -21,7 +21,7 @@
   pfp_colombia_required_states_la_libertad:0 "점령 중 §Y[493.GetName]§!."
   pfp_colombia_core_states:0 "§Y콜롬비아§! 이(가) 열거된 모든 주에 핵심 영토를 획득합니다.\n"
   pfp_colombia_transfer_states:0 "§Y콜롬비아§! 이(가) 열거된 모든 주의 소유자 및 통제자가 됩니다.\n"
-  pfp_colombia_puppet:0 "§Y콜롬비아§! 이(가) §Y[ROOT.GetName]§! 의 괴뢰국이 됩니다.\n"
+  pfp_colombia_puppet:0 "§Y콜롬비아§! 이(가) §Y[Root.GetName]§! 의 괴뢰국이 됩니다.\n"
 
   P02_communism:0 "그레이트브리튼"
   P02_communism_DEF:0 "그레이트브리튼"

@@ -22,7 +22,7 @@ l_russian:
 	pfp_management_tooltip_view_puppets:0 "Отображает все формируемые марионеточные государства под контролем игрока вместе с их текущими территориями и ключевыми землями."
 	pfp_management_tooltip_state_transfer:0 "Отображает параметры передачи территорий, которые можно использовать для перемещения земель между игроком и его марионетками."
 
-	pfp_view_puppets_textbox_title:0 "Просмотр марионеток - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "Просмотр марионеток - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "Территории: [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "Ключевые земли: [?num_core_states]"

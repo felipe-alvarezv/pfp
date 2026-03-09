@@ -21,7 +21,7 @@
   pfp_colombia_required_states_la_libertad:0 "支配中 §Y[493.GetName]§!."
   pfp_colombia_core_states:0 "§Yコロンビア§! はすべての記載された州にコアを獲得する。\n"
   pfp_colombia_transfer_states:0 "§Yコロンビア§! はすべての記載された州の所有者および支配者となる。\n"
-  pfp_colombia_puppet:0 "§Yコロンビア§! は §Y[ROOT.GetName]§! の傀儡国家となる。\n"
+  pfp_colombia_puppet:0 "§Yコロンビア§! は §Y[Root.GetName]§! の傀儡国家となる。\n"
 
   P02_communism:0 "グレートブリテン"
   P02_communism_DEF:0 "グレートブリテン"

@@ -22,7 +22,7 @@ l_german:
 	pfp_management_tooltip_view_puppets:0 "Zeigt alle formbaren Marionetten unter Kontrolle des Spielers sowie deren aktuelle Staaten und Kerngebiete an."
 	pfp_management_tooltip_state_transfer:0 "Zeigt die Optionen zur Staatenübertragung an, die verwendet werden können, um Land zwischen dem Spieler und seinen Marionetten zu übertragen."
 
-	pfp_view_puppets_textbox_title:0 "Marionetten anzeigen - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "Marionetten anzeigen - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "Staaten: [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "Kerngebiete: [?num_core_states]"

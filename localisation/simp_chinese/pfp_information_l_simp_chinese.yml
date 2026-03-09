@@ -22,7 +22,7 @@ l_simp_chinese:
 	pfp_management_tooltip_view_puppets:0 "显示所有在玩家控制下可组建的傀儡国，以及他们现在的状态和核心。"
 	pfp_management_tooltip_state_transfer:0 "显示状态转移选项，显示可用于在玩家和附属国之间转移土地。"
 
-	pfp_view_puppets_textbox_title:0 "查看人偶游戏——[ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "查看人偶游戏——[Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "国家：[?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "核心：[?num_core_states]"

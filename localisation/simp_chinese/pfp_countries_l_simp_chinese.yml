@@ -21,7 +21,7 @@
   pfp_colombia_required_states_la_libertad:0 "控制§Y[493.GetName]§!。"
   pfp_colombia_core_states:0 "§Y哥伦比亚§!获得列表中所有地区的核心。\n"
   pfp_colombia_transfer_states:0 "§Y哥伦比亚§!成为其中所有直属州的所有者和控制者。\n"
-  pfp_colombia_puppet:0 "§Y哥伦比亚§!成为§Y[ROOT.GetName]§!的傀儡。\n"
+  pfp_colombia_puppet:0 "§Y哥伦比亚§!成为§Y[Root.GetName]§!的傀儡。\n"
 
   P02_communism:0 "大不列颠"
   P02_communism_DEF:0 "大不列颠"

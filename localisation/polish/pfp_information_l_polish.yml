@@ -22,7 +22,7 @@ l_polish:
 	pfp_management_tooltip_view_puppets:0 "Wyświetla wszystkie formowalne marionetkowe państwa pod kontrolą gracza wraz z ich aktualnymi stanami i rdzeniami."
 	pfp_management_tooltip_state_transfer:0 "Wyświetla opcje transferu stanów, które mogą być użyte do przeniesienia terytorium między graczem a jego marionetkowym państwami."
 
-	pfp_view_puppets_textbox_title:0 "Pokaż marionetkowe państwa - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "Pokaż marionetkowe państwa - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "Stany: [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "Rdzenie: [?num_core_states]"
