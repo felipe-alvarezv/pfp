@@ -22,7 +22,7 @@ l_spanish:
 	pfp_management_tooltip_view_puppets:0 "Muestra todos los estados títeres formables bajo el control del jugador junto con sus estados y núcleos actuales."
 	pfp_management_tooltip_state_transfer:0 "Muestra las opciones de transferencia de estado que pueden usarse para transferir territorio entre el jugador y sus estados títeres."
 
-	pfp_view_puppets_textbox_title:0 "Ver estados títeres - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "Ver estados títeres - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "Estados: [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "Núcleos: [?num_core_states]"

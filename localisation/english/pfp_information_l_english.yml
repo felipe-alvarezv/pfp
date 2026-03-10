@@ -22,7 +22,7 @@ l_english:
 	pfp_management_tooltip_view_puppets:0 "Displays all formable puppets that exist under the player's control along with their current states and cores."
 	pfp_management_tooltip_state_transfer:0 "Displays the state transfer options than can be used to transfer land between the player and their puppets."
 
-	pfp_view_puppets_textbox_title:0 "View Puppets - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "View Puppets - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "States: [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "Cores: [?num_core_states]"

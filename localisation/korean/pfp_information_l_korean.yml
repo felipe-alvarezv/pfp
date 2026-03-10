@@ -22,7 +22,7 @@ l_korean:
 	pfp_management_tooltip_view_puppets:0 "플레이어의 통제 하에 있는 모든 형성 가능한 괴뢰국가와 해당 국가의 현재 주 및 핵심 영토를 표시합니다."
 	pfp_management_tooltip_state_transfer:0 "플레이어와 괴뢰국가 간에 영토를 이양하는 데 사용할 수 있는 주 이양 옵션을 표시합니다."
 
-	pfp_view_puppets_textbox_title:0 "괴뢰국가 보기 - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "괴뢰국가 보기 - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "주: [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "핵심 영토: [?num_core_states]"

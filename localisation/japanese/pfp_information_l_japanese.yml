@@ -22,7 +22,7 @@ l_japanese:
 	pfp_management_tooltip_view_puppets:0 "プレイヤーの管理下にある全ての形成可能な傀儡国家を、現在の州およびコアとともに表示します。"
 	pfp_management_tooltip_state_transfer:0 "プレイヤーと傀儡国家の間で土地を移管するために使用できる州移管オプションを表示します。"
 
-	pfp_view_puppets_textbox_title:0 "傀儡国家を表示 - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "傀儡国家を表示 - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "州: [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "コア: [?num_core_states]"

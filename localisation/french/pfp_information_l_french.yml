@@ -22,7 +22,7 @@ l_french:
 	pfp_management_tooltip_view_puppets:0 "Affiche toutes les marionnettes formables sous le contrôle du joueur, ainsi que leurs États et leurs cœurs actuels."
 	pfp_management_tooltip_state_transfer:0 "Affiche les options de transfert d’État qui peuvent être utilisées pour transférer des territoires entre le joueur et ses marionnettes."
 
-	pfp_view_puppets_textbox_title:0 "Voir les marionnettes - [ROOT.GetName]"
+	pfp_view_puppets_textbox_title:0 "Voir les marionnettes - [Root.GetName]"
 	pfp_view_puppets_textbox_country_name:0 "[THIS.GetName]"
 	pfp_view_puppets_textbox_states:0 "États : [?num_owned_states]"
 	pfp_view_puppets_textbox_cores:0 "Cœurs : [?num_core_states]"

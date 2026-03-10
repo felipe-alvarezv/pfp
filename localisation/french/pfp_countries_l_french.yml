@@ -21,7 +21,7 @@
   pfp_colombia_required_states_la_libertad:0 "Contrôle §Y[493.GetName]§!."
   pfp_colombia_core_states:0 "§YColombie§! gagne des cœurs sur tous les états listés.\n"
   pfp_colombia_transfer_states:0 "§YColombie§! devient propriétaire et contrôleur de tous les états listés.\n"
-  pfp_colombia_puppet:0 "§YColombie§! devient une marionnette de §Y[ROOT.GetName]§!.\n"
+  pfp_colombia_puppet:0 "§YColombie§! devient une marionnette de §Y[Root.GetName]§!.\n"
 
   P02_communism:0 "Grande-Bretagne"
   P02_communism_DEF:0 "la Grande-Bretagne"
