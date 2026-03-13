@@ -1,19 +1,62 @@
 #Scripted effect to release Central Africa (P07)
 pfp_release_central_africa = {
 	hidden_effect = {
-		#Add cores to Central Africa
-		295 = { add_core_of = P07 } #Leopoldville
-		538 = { add_core_of = P07 } #Coquilhatville
-		718 = { add_core_of = P07 } #Stanleyville
-		888 = { add_core_of = P07 } #Lusambo
-		889 = { add_core_of = P07 } #Elisabethville
-		890 = { add_core_of = P07 } #Costermansville
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P07 }
-			add_contested_owner = P07
-			transfer_state_to = P07
+			#Add constestion to formable puppet
+			295 = { add_contested_owner  = P07 } #Leopoldville
+			538 = { add_contested_owner  = P07 } #Coquilhatville
+			718 = { add_contested_owner  = P07 } #Stanleyville
+			888 = { add_contested_owner  = P07 } #Lusambo
+			889 = { add_contested_owner  = P07 } #Elisabethville
+			890 = { add_contested_owner  = P07 } #Costermansville
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P07 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P07
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P07
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			295 = { add_core_of = P07 } #Leopoldville
+			538 = { add_core_of = P07 } #Coquilhatville
+			718 = { add_core_of = P07 } #Stanleyville
+			888 = { add_core_of = P07 } #Lusambo
+			889 = { add_core_of = P07 } #Elisabethville
+			890 = { add_core_of = P07 } #Costermansville
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P07 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P07
+					transfer_state_to = P07
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P07
+					set_state_controller_to = P07
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

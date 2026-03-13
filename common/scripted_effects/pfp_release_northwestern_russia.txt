@@ -1,27 +1,78 @@
 #Scripted effect to release Northwestern Russia (P43)
 pfp_release_northwestern_russia = {
 	hidden_effect = {
-		#Add cores to Northwestern Russia
-		195 = { add_core_of = P43 } #Leningrad
-		208 = { add_core_of = P43 } #Luga
-		209 = { add_core_of = P43 } #Pskov
-		210 = { add_core_of = P43 } #Nevel
-		214 = { add_core_of = P43 } #Arkhangelsk
-		244 = { add_core_of = P43 } #Volkhov
-		262 = { add_core_of = P43 } #Pechora
-		263 = { add_core_of = P43 } #Novgorod
-		264 = { add_core_of = P43 } #Tikhvin
-		351 = { add_core_of = P43 } #Vologda
-		397 = { add_core_of = P43 } #Syktyvkar
-		825 = { add_core_of = P43 } #Nenets
-		879 = { add_core_of = P43 } #Kargopol
-		880 = { add_core_of = P43 } #Kotlas
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P43 }
-			add_contested_owner = P43
-			transfer_state_to = P43
+			#Add constestion to formable puppet
+			195 = { add_contested_owner  = P43 } #Leningrad
+			208 = { add_contested_owner  = P43 } #Luga
+			209 = { add_contested_owner  = P43 } #Pskov
+			210 = { add_contested_owner  = P43 } #Nevel
+			214 = { add_contested_owner  = P43 } #Arkhangelsk
+			244 = { add_contested_owner  = P43 } #Volkhov
+			262 = { add_contested_owner  = P43 } #Pechora
+			263 = { add_contested_owner  = P43 } #Novgorod
+			264 = { add_contested_owner  = P43 } #Tikhvin
+			351 = { add_contested_owner  = P43 } #Vologda
+			397 = { add_contested_owner  = P43 } #Syktyvkar
+			825 = { add_contested_owner  = P43 } #Nenets
+			879 = { add_contested_owner  = P43 } #Kargopol
+			880 = { add_contested_owner  = P43 } #Kotlas
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P43 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P43
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P43
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			195 = { add_core_of = P43 } #Leningrad
+			208 = { add_core_of = P43 } #Luga
+			209 = { add_core_of = P43 } #Pskov
+			210 = { add_core_of = P43 } #Nevel
+			214 = { add_core_of = P43 } #Arkhangelsk
+			244 = { add_core_of = P43 } #Volkhov
+			262 = { add_core_of = P43 } #Pechora
+			263 = { add_core_of = P43 } #Novgorod
+			264 = { add_core_of = P43 } #Tikhvin
+			351 = { add_core_of = P43 } #Vologda
+			397 = { add_core_of = P43 } #Syktyvkar
+			825 = { add_core_of = P43 } #Nenets
+			879 = { add_core_of = P43 } #Kargopol
+			880 = { add_core_of = P43 } #Kotlas
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P43 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P43
+					transfer_state_to = P43
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P43
+					set_state_controller_to = P43
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

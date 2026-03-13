@@ -1,19 +1,62 @@
 #Scripted effect to release Southern France (P63)
 pfp_release_southern_france = {
 	hidden_effect = {
-		#Add cores to Southern France
-		20 = { add_core_of = P63 } #Rhone
-		22 = { add_core_of = P63 } #Languedoc
-		25 = { add_core_of = P63 } #Limousin
-		26 = { add_core_of = P63 } #Auvergne
-		31 = { add_core_of = P63 } #Midi Pyrenees
-		33 = { add_core_of = P63 } #Centre-Sud
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P63 }
-			add_contested_owner = P63
-			transfer_state_to = P63
+			#Add constestion to formable puppet
+			20 = { add_contested_owner  = P63 } #Rhone
+			22 = { add_contested_owner  = P63 } #Languedoc
+			25 = { add_contested_owner  = P63 } #Limousin
+			26 = { add_contested_owner  = P63 } #Auvergne
+			31 = { add_contested_owner  = P63 } #Midi Pyrenees
+			33 = { add_contested_owner  = P63 } #Centre-Sud
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P63 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P63
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P63
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			20 = { add_core_of = P63 } #Rhone
+			22 = { add_core_of = P63 } #Languedoc
+			25 = { add_core_of = P63 } #Limousin
+			26 = { add_core_of = P63 } #Auvergne
+			31 = { add_core_of = P63 } #Midi Pyrenees
+			33 = { add_core_of = P63 } #Centre-Sud
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P63 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P63
+					transfer_state_to = P63
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P63
+					set_state_controller_to = P63
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

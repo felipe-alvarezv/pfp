@@ -1,25 +1,74 @@
 #Scripted effect to release North Germany (P19)
 pfp_release_north_germany = {
 	hidden_effect = {
-		#Add cores to North Germany
-		42 = { add_core_of = P19 } #Moselland
-		51 = { add_core_of = P19 } #Rhineland
-		55 = { add_core_of = P19 } #Hessen
-		56 = { add_core_of = P19 } #Weser-Ems
-		57 = { add_core_of = P19 } #Westfalen
-		58 = { add_core_of = P19 } #Holstein
-		59 = { add_core_of = P19 } #Hannover
-		60 = { add_core_of = P19 } #Thuringen
-		61 = { add_core_of = P19 } #Mecklenburg
-		62 = { add_core_of = P19 } #Vorpommern
-		64 = { add_core_of = P19 } #Brandenburg
-		65 = { add_core_of = P19 } #Sachsen
-		
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P19 }
-			add_contested_owner = P19
-			transfer_state_to = P19
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
+
+			#Add constestion to formable puppet
+			42 = { add_contested_owner  = P19 } #Moselland
+			51 = { add_contested_owner  = P19 } #Rhineland
+			55 = { add_contested_owner  = P19 } #Hessen
+			56 = { add_contested_owner  = P19 } #Weser-Ems
+			57 = { add_contested_owner  = P19 } #Westfalen
+			58 = { add_contested_owner  = P19 } #Holstein
+			59 = { add_contested_owner  = P19 } #Hannover
+			60 = { add_contested_owner  = P19 } #Thuringen
+			61 = { add_contested_owner  = P19 } #Mecklenburg
+			62 = { add_contested_owner  = P19 } #Vorpommern
+			64 = { add_contested_owner  = P19 } #Brandenburg
+			65 = { add_contested_owner  = P19 } #Sachsen
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P19 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P19
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P19
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			42 = { add_core_of = P19 } #Moselland
+			51 = { add_core_of = P19 } #Rhineland
+			55 = { add_core_of = P19 } #Hessen
+			56 = { add_core_of = P19 } #Weser-Ems
+			57 = { add_core_of = P19 } #Westfalen
+			58 = { add_core_of = P19 } #Holstein
+			59 = { add_core_of = P19 } #Hannover
+			60 = { add_core_of = P19 } #Thuringen
+			61 = { add_core_of = P19 } #Mecklenburg
+			62 = { add_core_of = P19 } #Vorpommern
+			64 = { add_core_of = P19 } #Brandenburg
+			65 = { add_core_of = P19 } #Sachsen
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P19 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P19
+					transfer_state_to = P19
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P19
+					set_state_controller_to = P19
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

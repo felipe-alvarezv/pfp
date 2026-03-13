@@ -1,26 +1,76 @@
 #Scripted effect to release Southern U.S. (P26)
 pfp_release_southern_us = {
 	hidden_effect = {
-		#Add cores to Southern U.S.
-		362 = { add_core_of = P26 } #Virginia
-		363 = { add_core_of = P26 } #North Carolina
-		364 = { add_core_of = P26 } #South Carolina
-		365 = { add_core_of = P26 } #Georgia
-		366 = { add_core_of = P26 } #Florida
-		367 = { add_core_of = P26 } #Alabama
-		368 = { add_core_of = P26 } #Tennessee
-		369 = { add_core_of = P26 } #Kentucky
-		370 = { add_core_of = P26 } #Mississippi
-		371 = { add_core_of = P26 } #Louisiana
-		372 = { add_core_of = P26 } #Arkansas
-		374 = { add_core_of = P26 } #Oklahoma
-		375 = { add_core_of = P26 } #Texas
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P26 }
-			add_contested_owner = P26
-			transfer_state_to = P26
+			#Add constestion to formable puppet
+			362 = { add_contested_owner  = P26 } #Virginia
+			363 = { add_contested_owner  = P26 } #North Carolina
+			364 = { add_contested_owner  = P26 } #South Carolina
+			365 = { add_contested_owner  = P26 } #Georgia
+			366 = { add_contested_owner  = P26 } #Florida
+			367 = { add_contested_owner  = P26 } #Alabama
+			368 = { add_contested_owner  = P26 } #Tennessee
+			369 = { add_contested_owner  = P26 } #Kentucky
+			370 = { add_contested_owner  = P26 } #Mississippi
+			371 = { add_contested_owner  = P26 } #Louisiana
+			372 = { add_contested_owner  = P26 } #Arkansas
+			374 = { add_contested_owner  = P26 } #Oklahoma
+			375 = { add_contested_owner  = P26 } #Texas
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P26 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P26
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P26
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			362 = { add_core_of = P26 } #Virginia
+			363 = { add_core_of = P26 } #North Carolina
+			364 = { add_core_of = P26 } #South Carolina
+			365 = { add_core_of = P26 } #Georgia
+			366 = { add_core_of = P26 } #Florida
+			367 = { add_core_of = P26 } #Alabama
+			368 = { add_core_of = P26 } #Tennessee
+			369 = { add_core_of = P26 } #Kentucky
+			370 = { add_core_of = P26 } #Mississippi
+			371 = { add_core_of = P26 } #Louisiana
+			372 = { add_core_of = P26 } #Arkansas
+			374 = { add_core_of = P26 } #Oklahoma
+			375 = { add_core_of = P26 } #Texas
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P26 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P26
+					transfer_state_to = P26
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P26
+					set_state_controller_to = P26
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

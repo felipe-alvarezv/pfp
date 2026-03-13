@@ -1,25 +1,74 @@
 #Scripted effect to release Siberia (P45)
 pfp_release_siberia = {
 	hidden_effect = {
-		#Add cores to Siberia
-		40 = { add_core_of = P45 } #Altai Krai
-		516 = { add_core_of = P45 } #Dudinka
-		566 = { add_core_of = P45 } #Irkutsk
-		567 = { add_core_of = P45 } #Bratsk
-		568 = { add_core_of = P45 } #Krasnoyarsk
-		569 = { add_core_of = P45 } #Khakassia
-		570 = { add_core_of = P45 } #Novosibirsk
-		571 = { add_core_of = P45 } #Omsk
-		575 = { add_core_of = P45 } #Kirensk
-		576 = { add_core_of = P45 } #Yeniseisk
-		578 = { add_core_of = P45 } #Tomsk
-		878 = { add_core_of = P45 } #Khatangsky
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P45 }
-			add_contested_owner = P45
-			transfer_state_to = P45
+			#Add constestion to formable puppet
+			40 = { add_contested_owner  = P45 } #Altai Krai
+			516 = { add_contested_owner  = P45 } #Dudinka
+			566 = { add_contested_owner  = P45 } #Irkutsk
+			567 = { add_contested_owner  = P45 } #Bratsk
+			568 = { add_contested_owner  = P45 } #Krasnoyarsk
+			569 = { add_contested_owner  = P45 } #Khakassia
+			570 = { add_contested_owner  = P45 } #Novosibirsk
+			571 = { add_contested_owner  = P45 } #Omsk
+			575 = { add_contested_owner  = P45 } #Kirensk
+			576 = { add_contested_owner  = P45 } #Yeniseisk
+			578 = { add_contested_owner  = P45 } #Tomsk
+			878 = { add_contested_owner  = P45 } #Khatangsky
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P45 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P45
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P45
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			40 = { add_core_of = P45 } #Altai Krai
+			516 = { add_core_of = P45 } #Dudinka
+			566 = { add_core_of = P45 } #Irkutsk
+			567 = { add_core_of = P45 } #Bratsk
+			568 = { add_core_of = P45 } #Krasnoyarsk
+			569 = { add_core_of = P45 } #Khakassia
+			570 = { add_core_of = P45 } #Novosibirsk
+			571 = { add_core_of = P45 } #Omsk
+			575 = { add_core_of = P45 } #Kirensk
+			576 = { add_core_of = P45 } #Yeniseisk
+			578 = { add_core_of = P45 } #Tomsk
+			878 = { add_core_of = P45 } #Khatangsky
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P45 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P45
+					transfer_state_to = P45
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P45
+					set_state_controller_to = P45
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

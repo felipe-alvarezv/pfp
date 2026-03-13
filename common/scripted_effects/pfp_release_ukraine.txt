@@ -1,22 +1,68 @@
 #Scripted effect to release Ukraine (P66)
 pfp_release_ukraine = {
 	hidden_effect = {
-		#Add cores to Ukraine
-		193 = { add_core_of = P66 } #Chernigov
-		196 = { add_core_of = P66 } #Kherson
-		197 = { add_core_of = P66 } #Mykolaiv
-		200 = { add_core_of = P66 } #Zaporozhe
-		201 = { add_core_of = P66 } #Zhytomyr
-		202 = { add_core_of = P66 } #Kiev
-		203 = { add_core_of = P66 } #Cherkasy
-		226 = { add_core_of = P66 } #Dnipropetrovsk
-		259 = { add_core_of = P66 } #Poltava
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P66 }
-			add_contested_owner = P66
-			transfer_state_to = P66
+			#Add constestion to formable puppet
+			193 = { add_contested_owner  = P66 } #Chernigov
+			196 = { add_contested_owner  = P66 } #Kherson
+			197 = { add_contested_owner  = P66 } #Mykolaiv
+			200 = { add_contested_owner  = P66 } #Zaporozhe
+			201 = { add_contested_owner  = P66 } #Zhytomyr
+			202 = { add_contested_owner  = P66 } #Kiev
+			203 = { add_contested_owner  = P66 } #Cherkasy
+			226 = { add_contested_owner  = P66 } #Dnipropetrovsk
+			259 = { add_contested_owner  = P66 } #Poltava
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P66 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P66
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P66
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			193 = { add_core_of = P66 } #Chernigov
+			196 = { add_core_of = P66 } #Kherson
+			197 = { add_core_of = P66 } #Mykolaiv
+			200 = { add_core_of = P66 } #Zaporozhe
+			201 = { add_core_of = P66 } #Zhytomyr
+			202 = { add_core_of = P66 } #Kiev
+			203 = { add_core_of = P66 } #Cherkasy
+			226 = { add_core_of = P66 } #Dnipropetrovsk
+			259 = { add_core_of = P66 } #Poltava
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P66 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P66
+					transfer_state_to = P66
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P66
+					set_state_controller_to = P66
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

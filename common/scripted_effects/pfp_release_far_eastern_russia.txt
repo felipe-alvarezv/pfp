@@ -1,25 +1,74 @@
 #Scripted effect to release Far Eastern Russia (P46)
 pfp_release_far_eastern_russia = {
 	hidden_effect = {
-		#Add cores to Far Eastern Russia
-		408 = { add_core_of = P46 } #Vladivostok
-		409 = { add_core_of = P46 } #Khabarovsk
-		560 = { add_core_of = P46 } #Nikolayevsk
-		561 = { add_core_of = P46 } #Amur
-		562 = { add_core_of = P46 } #Okhotsk
-		574 = { add_core_of = P46 } #Yakutsk
-		637 = { add_core_of = P46 } #Kamchatka
-		644 = { add_core_of = P46 } #Kolyma
-		657 = { add_core_of = P46 } #Birobidzhan
-		822 = { add_core_of = P46 } #Chukotka
-		874 = { add_core_of = P46 } #Magadan
-		877 = { add_core_of = P46 } #Verkhoyansk
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P46 }
-			add_contested_owner = P46
-			transfer_state_to = P46
+			#Add constestion to formable puppet
+			408 = { add_contested_owner  = P46 } #Vladivostok
+			409 = { add_contested_owner  = P46 } #Khabarovsk
+			560 = { add_contested_owner  = P46 } #Nikolayevsk
+			561 = { add_contested_owner  = P46 } #Amur
+			562 = { add_contested_owner  = P46 } #Okhotsk
+			574 = { add_contested_owner  = P46 } #Yakutsk
+			637 = { add_contested_owner  = P46 } #Kamchatka
+			644 = { add_contested_owner  = P46 } #Kolyma
+			657 = { add_contested_owner  = P46 } #Birobidzhan
+			822 = { add_contested_owner  = P46 } #Chukotka
+			874 = { add_contested_owner  = P46 } #Magadan
+			877 = { add_contested_owner  = P46 } #Verkhoyansk
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P46 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P46
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P46
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			408 = { add_core_of = P46 } #Vladivostok
+			409 = { add_core_of = P46 } #Khabarovsk
+			560 = { add_core_of = P46 } #Nikolayevsk
+			561 = { add_core_of = P46 } #Amur
+			562 = { add_core_of = P46 } #Okhotsk
+			574 = { add_core_of = P46 } #Yakutsk
+			637 = { add_core_of = P46 } #Kamchatka
+			644 = { add_core_of = P46 } #Kolyma
+			657 = { add_core_of = P46 } #Birobidzhan
+			822 = { add_core_of = P46 } #Chukotka
+			874 = { add_core_of = P46 } #Magadan
+			877 = { add_core_of = P46 } #Verkhoyansk
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P46 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P46
+					transfer_state_to = P46
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P46
+					set_state_controller_to = P46
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

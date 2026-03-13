@@ -1,28 +1,80 @@
 #Scripted effect to release Volga (P42)
 pfp_release_volga = {
 	hidden_effect = {
-		#Add cores to Volga
-		239 = { add_core_of = P42 } #Saratov
-		249 = { add_core_of = P42 } #Kazan
-		250 = { add_core_of = P42 } #Ulyanovsky
-		251 = { add_core_of = P42 } #Kuybyshev
-		252 = { add_core_of = P42 } #Gorky
-		255 = { add_core_of = P42 } #Penza
-		256 = { add_core_of = P42 } #Chuvashia
-		398 = { add_core_of = P42 } #Perm
-		399 = { add_core_of = P42 } #Udmurtia
-		400 = { add_core_of = P42 } #Kirov
-		401 = { add_core_of = P42 } #Balakovo
-		651 = { add_core_of = P42 } #Ufa
-		652 = { add_core_of = P42 } #Orenburg
-		829 = { add_core_of = P42 } #Engels-Marxstadt
-		833 = { add_core_of = P42 } #Mari El
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P42 }
-			add_contested_owner = P42
-			transfer_state_to = P42
+			#Add constestion to formable puppet
+			239 = { add_contested_owner  = P42 } #Saratov
+			249 = { add_contested_owner  = P42 } #Kazan
+			250 = { add_contested_owner  = P42 } #Ulyanovsky
+			251 = { add_contested_owner  = P42 } #Kuybyshev
+			252 = { add_contested_owner  = P42 } #Gorky
+			255 = { add_contested_owner  = P42 } #Penza
+			256 = { add_contested_owner  = P42 } #Chuvashia
+			398 = { add_contested_owner  = P42 } #Perm
+			399 = { add_contested_owner  = P42 } #Udmurtia
+			400 = { add_contested_owner  = P42 } #Kirov
+			401 = { add_contested_owner  = P42 } #Balakovo
+			651 = { add_contested_owner  = P42 } #Ufa
+			652 = { add_contested_owner  = P42 } #Orenburg
+			829 = { add_contested_owner  = P42 } #Engels-Marxstadt
+			833 = { add_contested_owner  = P42 } #Mari El
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P42 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P42
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P42
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			239 = { add_core_of = P42 } #Saratov
+			249 = { add_core_of = P42 } #Kazan
+			250 = { add_core_of = P42 } #Ulyanovsky
+			251 = { add_core_of = P42 } #Kuybyshev
+			252 = { add_core_of = P42 } #Gorky
+			255 = { add_core_of = P42 } #Penza
+			256 = { add_core_of = P42 } #Chuvashia
+			398 = { add_core_of = P42 } #Perm
+			399 = { add_core_of = P42 } #Udmurtia
+			400 = { add_core_of = P42 } #Kirov
+			401 = { add_core_of = P42 } #Balakovo
+			651 = { add_core_of = P42 } #Ufa
+			652 = { add_core_of = P42 } #Orenburg
+			829 = { add_core_of = P42 } #Engels-Marxstadt
+			833 = { add_core_of = P42 } #Mari El
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P42 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P42
+					transfer_state_to = P42
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P42
+					set_state_controller_to = P42
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

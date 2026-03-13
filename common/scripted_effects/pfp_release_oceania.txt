@@ -1,27 +1,78 @@
 #Scripted effect to release Oceania (P27)
 pfp_release_oceania = {
 	hidden_effect = {
-		#Add cores to Oceania
-		285 = { add_core_of = P27 } #New South Wales
-		517 = { add_core_of = P27 } #Victoria
-		518 = { add_core_of = P27 } #Tasmania
-		519 = { add_core_of = P27 } #South Australia
-		520 = { add_core_of = P27 } #Northern Territory
-		521 = { add_core_of = P27 } #Queensland
-		522 = { add_core_of = P27 } #West Australia
-		674 = { add_core_of = P27 } #Central Australia
-		870 = { add_core_of = P27 } #North West Australia
-		871 = { add_core_of = P27 } #South West Australia
-		872 = { add_core_of = P27 } #North Queensland
-		873 = { add_core_of = P27 } #South West Queensland
-		284 = { add_core_of = P27 } #North Island
-		723 = { add_core_of = P27 } #South Island
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P27 }
-			add_contested_owner = P27
-			transfer_state_to = P27
+			#Add constestion to formable puppet
+			285 = { add_contested_owner  = P27 } #New South Wales
+			517 = { add_contested_owner  = P27 } #Victoria
+			518 = { add_contested_owner  = P27 } #Tasmania
+			519 = { add_contested_owner  = P27 } #South Australia
+			520 = { add_contested_owner  = P27 } #Northern Territory
+			521 = { add_contested_owner  = P27 } #Queensland
+			522 = { add_contested_owner  = P27 } #West Australia
+			674 = { add_contested_owner  = P27 } #Central Australia
+			870 = { add_contested_owner  = P27 } #North West Australia
+			871 = { add_contested_owner  = P27 } #South West Australia
+			872 = { add_contested_owner  = P27 } #North Queensland
+			873 = { add_contested_owner  = P27 } #South West Queensland
+			284 = { add_contested_owner  = P27 } #North Island
+			723 = { add_contested_owner  = P27 } #South Island
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P27 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P27
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P27
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			285 = { add_core_of = P27 } #New South Wales
+			517 = { add_core_of = P27 } #Victoria
+			518 = { add_core_of = P27 } #Tasmania
+			519 = { add_core_of = P27 } #South Australia
+			520 = { add_core_of = P27 } #Northern Territory
+			521 = { add_core_of = P27 } #Queensland
+			522 = { add_core_of = P27 } #West Australia
+			674 = { add_core_of = P27 } #Central Australia
+			870 = { add_core_of = P27 } #North West Australia
+			871 = { add_core_of = P27 } #South West Australia
+			872 = { add_core_of = P27 } #North Queensland
+			873 = { add_core_of = P27 } #South West Queensland
+			284 = { add_core_of = P27 } #North Island
+			723 = { add_core_of = P27 } #South Island
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P27 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P27
+					transfer_state_to = P27
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P27
+					set_state_controller_to = P27
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

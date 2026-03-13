@@ -1,23 +1,70 @@
 #Scripted effect to release Iran (P71)
 pfp_release_iran = {
 	hidden_effect = {
-		#Add cores to Iran
-		266 = { add_core_of = P71 } #Tehran
-		411 = { add_core_of = P71 } #Isfahan
-		412 = { add_core_of = P71 } #Fars
-		414 = { add_core_of = P71 } #Kerman
-		416 = { add_core_of = P71 } #Khorasan
-		417 = { add_core_of = P71 } #Hamadan
-		418 = { add_core_of = P71 } #Semnan
-		1002 = { add_core_of = P71 } #Yazd
-		1003 = { add_core_of = P71 } #South Khorasan
-		1004 = { add_core_of = P71 } #North Khorasan
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P71 }
-			add_contested_owner = P71
-			transfer_state_to = P71
+			#Add constestion to formable puppet
+			266 = { add_contested_owner  = P71 } #Tehran
+			411 = { add_contested_owner  = P71 } #Isfahan
+			412 = { add_contested_owner  = P71 } #Fars
+			414 = { add_contested_owner  = P71 } #Kerman
+			416 = { add_contested_owner  = P71 } #Khorasan
+			417 = { add_contested_owner  = P71 } #Hamadan
+			418 = { add_contested_owner  = P71 } #Semnan
+			1002 = { add_contested_owner  = P71 } #Yazd
+			1003 = { add_contested_owner  = P71 } #South Khorasan
+			1004 = { add_contested_owner  = P71 } #North Khorasan
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P71 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P71
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P71
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			266 = { add_core_of = P71 } #Tehran
+			411 = { add_core_of = P71 } #Isfahan
+			412 = { add_core_of = P71 } #Fars
+			414 = { add_core_of = P71 } #Kerman
+			416 = { add_core_of = P71 } #Khorasan
+			417 = { add_core_of = P71 } #Hamadan
+			418 = { add_core_of = P71 } #Semnan
+			1002 = { add_core_of = P71 } #Yazd
+			1003 = { add_core_of = P71 } #South Khorasan
+			1004 = { add_core_of = P71 } #North Khorasan
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P71 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P71
+					transfer_state_to = P71
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P71
+					set_state_controller_to = P71
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

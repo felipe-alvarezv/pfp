@@ -1,18 +1,60 @@
 #Scripted effect to release Poland (P34)
 pfp_release_poland = {
 	hidden_effect = {
-		#Add cores to Poland
-		10 = { add_core_of = P34 } #Warszawa
-		87 = { add_core_of = P34 } #Lodz
-		90 = { add_core_of = P34 } #Kielce
-		92 = { add_core_of = P34 } #Lublin
-		98 = { add_core_of = P34 } #Płock
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P34 }
-			add_contested_owner = P34
-			transfer_state_to = P34
+			#Add constestion to formable puppet
+			10 = { add_contested_owner  = P34 } #Warszawa
+			87 = { add_contested_owner  = P34 } #Lodz
+			90 = { add_contested_owner  = P34 } #Kielce
+			92 = { add_contested_owner  = P34 } #Lublin
+			98 = { add_contested_owner  = P34 } #Płock
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P34 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P34
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P34
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			10 = { add_core_of = P34 } #Warszawa
+			87 = { add_core_of = P34 } #Lodz
+			90 = { add_core_of = P34 } #Kielce
+			92 = { add_core_of = P34 } #Lublin
+			98 = { add_core_of = P34 } #Płock
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P34 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P34
+					transfer_state_to = P34
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P34
+					set_state_controller_to = P34
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

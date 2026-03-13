@@ -1,38 +1,100 @@
 #Scripted effect to release Iberia (P15)
 pfp_release_iberia = {
 	hidden_effect = {
-		#Add cores to Iberia
-		41 = { add_core_of = P15 } #Madrid
-		112 = { add_core_of = P15 } #Lisbon
-		165 = { add_core_of = P15 } #Cataluna
-		166 = { add_core_of = P15 } #Western Aragon
-		167 = { add_core_of = P15 } #Valencia
-		168 = { add_core_of = P15 } #Murcia
-		169 = { add_core_of = P15 } #Sevilla
-		170 = { add_core_of = P15 } #Extremadura
-		171 = { add_core_of = P15 } #Galicia
-		172 = { add_core_of = P15 } #Navarra
-		173 = { add_core_of = P15 } #Granada
-		174 = { add_core_of = P15 } #Leon
-		175 = { add_core_of = P15 } #Ciudad Real
-		176 = { add_core_of = P15 } #Burgos
-		179 = { add_core_of = P15 } #Beja
-		180 = { add_core_of = P15 } #Porto
-		181 = { add_core_of = P15 } #Guarda
-		788 = { add_core_of = P15 } #Salamanca
-		789 = { add_core_of = P15 } #Cordoba
-		790 = { add_core_of = P15 } #Asturias
-		791 = { add_core_of = P15 } #Valladolid
-		792 = { add_core_of = P15 } #Pais Vasco
-		793 = { add_core_of = P15 } #Guadalajara
-		794 = { add_core_of = P15 } #Eastern Aragon
-		795 = { add_core_of = P15 } #Santarem
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P15 }
-			add_contested_owner = P15
-			transfer_state_to = P15
+			#Add constestion to formable puppet
+			41 = { add_contested_owner  = P15 } #Madrid
+			112 = { add_contested_owner  = P15 } #Lisbon
+			165 = { add_contested_owner  = P15 } #Cataluna
+			166 = { add_contested_owner  = P15 } #Western Aragon
+			167 = { add_contested_owner  = P15 } #Valencia
+			168 = { add_contested_owner  = P15 } #Murcia
+			169 = { add_contested_owner  = P15 } #Sevilla
+			170 = { add_contested_owner  = P15 } #Extremadura
+			171 = { add_contested_owner  = P15 } #Galicia
+			172 = { add_contested_owner  = P15 } #Navarra
+			173 = { add_contested_owner  = P15 } #Granada
+			174 = { add_contested_owner  = P15 } #Leon
+			175 = { add_contested_owner  = P15 } #Ciudad Real
+			176 = { add_contested_owner  = P15 } #Burgos
+			179 = { add_contested_owner  = P15 } #Beja
+			180 = { add_contested_owner  = P15 } #Porto
+			181 = { add_contested_owner  = P15 } #Guarda
+			788 = { add_contested_owner  = P15 } #Salamanca
+			789 = { add_contested_owner  = P15 } #Cordoba
+			790 = { add_contested_owner  = P15 } #Asturias
+			791 = { add_contested_owner  = P15 } #Valladolid
+			792 = { add_contested_owner  = P15 } #Pais Vasco
+			793 = { add_contested_owner  = P15 } #Guadalajara
+			794 = { add_contested_owner  = P15 } #Eastern Aragon
+			795 = { add_contested_owner  = P15 } #Santarem
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P15 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P15
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P15
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			41 = { add_core_of = P15 } #Madrid
+			112 = { add_core_of = P15 } #Lisbon
+			165 = { add_core_of = P15 } #Cataluna
+			166 = { add_core_of = P15 } #Western Aragon
+			167 = { add_core_of = P15 } #Valencia
+			168 = { add_core_of = P15 } #Murcia
+			169 = { add_core_of = P15 } #Sevilla
+			170 = { add_core_of = P15 } #Extremadura
+			171 = { add_core_of = P15 } #Galicia
+			172 = { add_core_of = P15 } #Navarra
+			173 = { add_core_of = P15 } #Granada
+			174 = { add_core_of = P15 } #Leon
+			175 = { add_core_of = P15 } #Ciudad Real
+			176 = { add_core_of = P15 } #Burgos
+			179 = { add_core_of = P15 } #Beja
+			180 = { add_core_of = P15 } #Porto
+			181 = { add_core_of = P15 } #Guarda
+			788 = { add_core_of = P15 } #Salamanca
+			789 = { add_core_of = P15 } #Cordoba
+			790 = { add_core_of = P15 } #Asturias
+			791 = { add_core_of = P15 } #Valladolid
+			792 = { add_core_of = P15 } #Pais Vasco
+			793 = { add_core_of = P15 } #Guadalajara
+			794 = { add_core_of = P15 } #Eastern Aragon
+			795 = { add_core_of = P15 } #Santarem
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P15 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P15
+					transfer_state_to = P15
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P15
+					set_state_controller_to = P15
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

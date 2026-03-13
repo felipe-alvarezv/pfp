@@ -1,17 +1,58 @@
 #Scripted effect to release Peru (P56)
 pfp_release_peru = {
 	hidden_effect = {
-		#Add cores to Peru
-		303 = { add_core_of = P56 } #Lima
-		491 = { add_core_of = P56 } #Loreto
-		492 = { add_core_of = P56 } #Arequipa
-		494 = { add_core_of = P56 } #Ucayali
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P56 }
-			add_contested_owner = P56
-			transfer_state_to = P56
+			#Add constestion to formable puppet
+			303 = { add_contested_owner  = P56 } #Lima
+			491 = { add_contested_owner  = P56 } #Loreto
+			492 = { add_contested_owner  = P56 } #Arequipa
+			494 = { add_contested_owner  = P56 } #Ucayali
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P56 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P56
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P56
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			303 = { add_core_of = P56 } #Lima
+			491 = { add_core_of = P56 } #Loreto
+			492 = { add_core_of = P56 } #Arequipa
+			494 = { add_core_of = P56 } #Ucayali
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P56 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P56
+					transfer_state_to = P56
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P56
+					set_state_controller_to = P56
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

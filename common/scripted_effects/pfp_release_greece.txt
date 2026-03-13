@@ -1,16 +1,56 @@
 #Scripted effect to release Greece (P14)
 pfp_release_greece = {
 	hidden_effect = {
-		#Add cores to Greece
-		47 = { add_core_of = P14 } #Attica
-		185 = { add_core_of = P14 } #Epirus
-		186 = { add_core_of = P14 } #Peloponnese
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P14 }
-			add_contested_owner = P14
-			transfer_state_to = P14
+			#Add constestion to formable puppet
+			47 = { add_contested_owner  = P14 } #Attica
+			185 = { add_contested_owner  = P14 } #Epirus
+			186 = { add_contested_owner  = P14 } #Peloponnese
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P14 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P14
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P14
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			47 = { add_core_of = P14 } #Attica
+			185 = { add_core_of = P14 } #Epirus
+			186 = { add_core_of = P14 } #Peloponnese
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P14 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P14
+					transfer_state_to = P14
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P14
+					set_state_controller_to = P14
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

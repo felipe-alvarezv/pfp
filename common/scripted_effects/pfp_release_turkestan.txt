@@ -1,34 +1,92 @@
 #Scripted effect to release Turkestan (P51)
 pfp_release_turkestan = {
 	hidden_effect = {
-		#Add cores to Turkestan
-		402 = { add_core_of = P51 } #Akhtubinsk
-		404 = { add_core_of = P51 } #Kyzyl Orda
-		405 = { add_core_of = P51 } #Tashkent
-		406 = { add_core_of = P51 } #Guryev
-		407 = { add_core_of = P51 } #Ural'sk
-		583 = { add_core_of = P51 } #Kostanay
-		584 = { add_core_of = P51 } #Ashkhabad
-		585 = { add_core_of = P51 } #Navoi
-		586 = { add_core_of = P51 } #Alma-Ata
-		587 = { add_core_of = P51 } #Ust Urt
-		588 = { add_core_of = P51 } #Semipalatinsk
-		589 = { add_core_of = P51 } #Ayaguz
-		590 = { add_core_of = P51 } #Akmolinsk
-		732 = { add_core_of = P51 } #Pamir
-		742 = { add_core_of = P51 } #Stalinbad
-		823 = { add_core_of = P51 } #Karakalpakstan
-		830 = { add_core_of = P51 } #Bukhara
-		831 = { add_core_of = P51 } #Khiva
-		832 = { add_core_of = P51 } #Tashauz
-		881 = { add_core_of = P51 } #Karagandy
-		882 = { add_core_of = P51 } #Pavlodar
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P51 }
-			add_contested_owner = P51
-			transfer_state_to = P51
+			#Add constestion to formable puppet
+			402 = { add_contested_owner  = P51 } #Akhtubinsk
+			404 = { add_contested_owner  = P51 } #Kyzyl Orda
+			405 = { add_contested_owner  = P51 } #Tashkent
+			406 = { add_contested_owner  = P51 } #Guryev
+			407 = { add_contested_owner  = P51 } #Ural'sk
+			583 = { add_contested_owner  = P51 } #Kostanay
+			584 = { add_contested_owner  = P51 } #Ashkhabad
+			585 = { add_contested_owner  = P51 } #Navoi
+			586 = { add_contested_owner  = P51 } #Alma-Ata
+			587 = { add_contested_owner  = P51 } #Ust Urt
+			588 = { add_contested_owner  = P51 } #Semipalatinsk
+			589 = { add_contested_owner  = P51 } #Ayaguz
+			590 = { add_contested_owner  = P51 } #Akmolinsk
+			732 = { add_contested_owner  = P51 } #Pamir
+			742 = { add_contested_owner  = P51 } #Stalinbad
+			823 = { add_contested_owner  = P51 } #Karakalpakstan
+			830 = { add_contested_owner  = P51 } #Bukhara
+			831 = { add_contested_owner  = P51 } #Khiva
+			832 = { add_contested_owner  = P51 } #Tashauz
+			881 = { add_contested_owner  = P51 } #Karagandy
+			882 = { add_contested_owner  = P51 } #Pavlodar
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P51 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P51
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P51
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			402 = { add_core_of = P51 } #Akhtubinsk
+			404 = { add_core_of = P51 } #Kyzyl Orda
+			405 = { add_core_of = P51 } #Tashkent
+			406 = { add_core_of = P51 } #Guryev
+			407 = { add_core_of = P51 } #Ural'sk
+			583 = { add_core_of = P51 } #Kostanay
+			584 = { add_core_of = P51 } #Ashkhabad
+			585 = { add_core_of = P51 } #Navoi
+			586 = { add_core_of = P51 } #Alma-Ata
+			587 = { add_core_of = P51 } #Ust Urt
+			588 = { add_core_of = P51 } #Semipalatinsk
+			589 = { add_core_of = P51 } #Ayaguz
+			590 = { add_core_of = P51 } #Akmolinsk
+			732 = { add_core_of = P51 } #Pamir
+			742 = { add_core_of = P51 } #Stalinbad
+			823 = { add_core_of = P51 } #Karakalpakstan
+			830 = { add_core_of = P51 } #Bukhara
+			831 = { add_core_of = P51 } #Khiva
+			832 = { add_core_of = P51 } #Tashauz
+			881 = { add_core_of = P51 } #Karagandy
+			882 = { add_core_of = P51 } #Pavlodar
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P51 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P51
+					transfer_state_to = P51
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P51
+					set_state_controller_to = P51
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

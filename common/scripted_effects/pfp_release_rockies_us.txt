@@ -1,21 +1,66 @@
 #Scripted effect to release Rockies U.S. (P23)
 pfp_release_rockies_us = {
 	hidden_effect = {
-		#Add cores to U.S. Rockies
-		376 = { add_core_of = P23 } #New Mexico
-		377 = { add_core_of = P23 } #Arizona
-		379 = { add_core_of = P23 } #Nevada
-		380 = { add_core_of = P23 } #Utah
-		382 = { add_core_of = P23 } #Colorado
-		381 = { add_core_of = P23 } #Wyoming
-		387 = { add_core_of = P23 } #Idaho
-		388 = { add_core_of = P23 } #Montana
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P23 }
-			add_contested_owner = P23
-			transfer_state_to = P23
+			#Add constestion to formable puppet
+			376 = { add_contested_owner  = P23 } #New Mexico
+			377 = { add_contested_owner  = P23 } #Arizona
+			379 = { add_contested_owner  = P23 } #Nevada
+			380 = { add_contested_owner  = P23 } #Utah
+			382 = { add_contested_owner  = P23 } #Colorado
+			381 = { add_contested_owner  = P23 } #Wyoming
+			387 = { add_contested_owner  = P23 } #Idaho
+			388 = { add_contested_owner  = P23 } #Montana
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P23 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P23
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P23
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			376 = { add_core_of = P23 } #New Mexico
+			377 = { add_core_of = P23 } #Arizona
+			379 = { add_core_of = P23 } #Nevada
+			380 = { add_core_of = P23 } #Utah
+			382 = { add_core_of = P23 } #Colorado
+			381 = { add_core_of = P23 } #Wyoming
+			387 = { add_core_of = P23 } #Idaho
+			388 = { add_core_of = P23 } #Montana
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P23 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P23
+					transfer_state_to = P23
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P23
+					set_state_controller_to = P23
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

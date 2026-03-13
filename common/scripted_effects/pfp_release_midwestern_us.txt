@@ -1,25 +1,74 @@
 #Scripted effect to release Midwestern U.S. (P18)
 pfp_release_midwestern_us = {
 	hidden_effect = {
-		#Add cores to Midwestern U.S.
-		261 = { add_core_of = P18 } #Ohio
-		373 = { add_core_of = P18 } #Missouri
-		383 = { add_core_of = P18 } #Kansas
-		384 = { add_core_of = P18 } #Nebraska
-		389 = { add_core_of = P18 } #North Dakota
-		390 = { add_core_of = P18 } #South Dakota
-		391 = { add_core_of = P18 } #Minnesota
-		392 = { add_core_of = P18 } #Iowa
-		393 = { add_core_of = P18 } #Michigan
-		394 = { add_core_of = P18 } #Wisconsin
-		395 = { add_core_of = P18 } #Illinois
-		396 = { add_core_of = P18 } #Indiana
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P18 }
-			add_contested_owner = P18
-			transfer_state_to = P18
+			#Add constestion to formable puppet
+			261 = { add_contested_owner  = P18 } #Ohio
+			373 = { add_contested_owner  = P18 } #Missouri
+			383 = { add_contested_owner  = P18 } #Kansas
+			384 = { add_contested_owner  = P18 } #Nebraska
+			389 = { add_contested_owner  = P18 } #North Dakota
+			390 = { add_contested_owner  = P18 } #South Dakota
+			391 = { add_contested_owner  = P18 } #Minnesota
+			392 = { add_contested_owner  = P18 } #Iowa
+			393 = { add_contested_owner  = P18 } #Michigan
+			394 = { add_contested_owner  = P18 } #Wisconsin
+			395 = { add_contested_owner  = P18 } #Illinois
+			396 = { add_contested_owner  = P18 } #Indiana
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P18 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P18
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P18
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			261 = { add_core_of = P18 } #Ohio
+			373 = { add_core_of = P18 } #Missouri
+			383 = { add_core_of = P18 } #Kansas
+			384 = { add_core_of = P18 } #Nebraska
+			389 = { add_core_of = P18 } #North Dakota
+			390 = { add_core_of = P18 } #South Dakota
+			391 = { add_core_of = P18 } #Minnesota
+			392 = { add_core_of = P18 } #Iowa
+			393 = { add_core_of = P18 } #Michigan
+			394 = { add_core_of = P18 } #Wisconsin
+			395 = { add_core_of = P18 } #Illinois
+			396 = { add_core_of = P18 } #Indiana
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P18 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P18
+					transfer_state_to = P18
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P18
+					set_state_controller_to = P18
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet

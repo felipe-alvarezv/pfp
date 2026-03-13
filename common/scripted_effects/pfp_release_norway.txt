@@ -1,23 +1,70 @@
 #Scripted effect to release Norway (P65)
 pfp_release_norway = {
 	hidden_effect = {
-		#Add cores to Norway
-		110 = { add_core_of = P65 } #Oslofjord
-		142 = { add_core_of = P65 } #Vestlandet
-		143 = { add_core_of = P65 } #Trondelag
-		144 = { add_core_of = P65 } #Nordland
-		920 = { add_core_of = P65 } #Opplandene
-		921 = { add_core_of = P65 } #Telemark
-		922 = { add_core_of = P65 } #Agder
-		923 = { add_core_of = P65 } #Helgeland
-		924 = { add_core_of = P65 } #Troms
-		925 = { add_core_of = P65 } #Finnmark
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_on }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P65 }
-			add_contested_owner = P65
-			transfer_state_to = P65
+			#Add constestion to formable puppet
+			110 = { add_contested_owner  = P65 } #Oslofjord
+			142 = { add_contested_owner  = P65 } #Vestlandet
+			143 = { add_contested_owner  = P65 } #Trondelag
+			144 = { add_contested_owner  = P65 } #Nordland
+			920 = { add_contested_owner  = P65 } #Opplandene
+			921 = { add_contested_owner  = P65 } #Telemark
+			922 = { add_contested_owner  = P65 } #Agder
+			923 = { add_contested_owner  = P65 } #Helgeland
+			924 = { add_contested_owner  = P65 } #Troms
+			925 = { add_contested_owner  = P65 } #Finnmark
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P65 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P65
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P65
+				}
+			}
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			110 = { add_core_of = P65 } #Oslofjord
+			142 = { add_core_of = P65 } #Vestlandet
+			143 = { add_core_of = P65 } #Trondelag
+			144 = { add_core_of = P65 } #Nordland
+			920 = { add_core_of = P65 } #Opplandene
+			921 = { add_core_of = P65 } #Telemark
+			922 = { add_core_of = P65 } #Agder
+			923 = { add_core_of = P65 } #Helgeland
+			924 = { add_core_of = P65 } #Troms
+			925 = { add_core_of = P65 } #Finnmark
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P65 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P65
+					transfer_state_to = P65
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P65
+					set_state_controller_to = P65
+				}
+			}
 		}
 
 		#Transfer all technology to formable puppet
