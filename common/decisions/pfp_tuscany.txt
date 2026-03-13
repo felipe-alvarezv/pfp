@@ -36,7 +36,7 @@ pfp_category = {
                 pfp_release_tuscany = yes
                 set_autonomy = { target = P95 autonomy_state = pfp_autonomy_military_occupation }
 
-                #Code to assign generic portraits and set puppet autonomy and set puppet autonomy
+                #Code to assign generic portraits and set puppet autonomy
                 set_temp_variable = { pfp_portrait_tag = P95 }
                 pfp_set_generic_portrait = yes
                 pfp_set_autonomy_colour = yes

@@ -77,7 +77,7 @@ pfp_category = {
 				#Transfer control and ownership of capital to formable puppet
 				267 = { transfer_state_to = P76 } #Kabul
 
-				#Code to assign generic portraits and set puppet autonomy and set puppet autonomy
+				#Code to assign generic portraits and set puppet autonomy
 				set_temp_variable = { pfp_portrait_tag = P76 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_colour = yes
