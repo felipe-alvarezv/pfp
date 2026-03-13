@@ -99,7 +99,10 @@ pfp_category = {
 				#Transfer control and ownership of capital to formable puppet
 				812 = { transfer_state_to = P04 } #Harju
 
-				#Code to assign generic portraits and set puppet autonomy
+				#Formable puppet becomes a puppet of ROOT
+				puppet = P04
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = P04 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_colour = yes

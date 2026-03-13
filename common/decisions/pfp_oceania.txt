@@ -127,7 +127,10 @@ pfp_category = {
 				#Transfer control and ownership of capital to formable puppet
 				285 = { transfer_state_to = P27 } #New South Wales
 
-				#Code to assign generic portraits and set puppet autonomy
+				#Formable puppet becomes a puppet of ROOT
+				puppet = P27
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = P27 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_colour = yes

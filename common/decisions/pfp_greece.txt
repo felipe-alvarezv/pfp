@@ -49,7 +49,10 @@ pfp_category = {
 				#Transfer control and ownership of capital to formable puppet
 				47 = { transfer_state_to = P14 } #Attica
 
-				#Code to assign generic portraits and set puppet autonomy
+				#Formable puppet becomes a puppet of ROOT
+				puppet = P14
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = P14 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_colour = yes

@@ -35,7 +35,10 @@ pfp_category = {
                 #Transfer control and ownership of capital to formable puppet
                 101 = { transfer_state_to = P85 } #Greenland
 
-                #Code to assign generic portraits and set puppet autonomy
+                #Formable puppet becomes a puppet of ROOT
+                puppet = P85
+
+                #Code to assign generic portraits and set puppet color
                 set_temp_variable = { pfp_portrait_tag = P85 }
                 pfp_set_generic_portrait = yes
                 pfp_set_autonomy_colour = yes
