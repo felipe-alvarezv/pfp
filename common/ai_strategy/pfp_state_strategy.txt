@@ -1,0 +1,1849 @@
+pfp_state_diplomacy = {
+    #Allow strategy only for formable puppets
+    allowed = {
+        OR = {
+            original_tag = P01 #Colombia
+            original_tag = P02 #Great Britain
+            original_tag = P03 #Arabia
+            original_tag = P04 #Baltic
+            original_tag = P05 #Netherlands
+            original_tag = P06 #West Indies
+            original_tag = P07 #Central Africa
+            original_tag = P08 #Central America
+            original_tag = P09 #Hungary
+            original_tag = P10 #East Africa
+            original_tag = P11 #Eastern Canada
+            original_tag = P12 #Finland
+            original_tag = P13 #Germany
+            original_tag = P14 #Greece
+            original_tag = P15 #Iberia
+            original_tag = P16 #Indochina
+            original_tag = P17 #Indonesia
+            original_tag = P18 #Midwestern U.S.
+            original_tag = P19 #North Germany
+            original_tag = P20 #Northeastern U.S.
+            original_tag = P21 #Pacific U.S.
+            original_tag = P22 #Quebec
+            original_tag = P23 #U.S. Rockies
+            original_tag = P24 #Scandinavia
+            original_tag = P25 #South Germany
+            original_tag = P26 #Southern U.S.
+            original_tag = P27 #Oceania
+            original_tag = P28 #Transcaucasia
+            original_tag = P29 #Western Canada
+            original_tag = P30 #North Africa
+            original_tag = P31 #West Germany
+            original_tag = P32 #East Germany
+            original_tag = P33 #Prussia
+            original_tag = P34 #Poland
+            original_tag = P35 #West Africa
+            original_tag = P36 #South Africa
+            original_tag = P37 #India
+            original_tag = P38 #Bangladesh
+            original_tag = P39 #Central Russia
+            original_tag = P40 #Southern Russia
+            original_tag = P41 #Northern Caucasus
+            original_tag = P42 #Volga
+            original_tag = P43 #Northwestern Russia
+            original_tag = P44 #Urals
+            original_tag = P45 #Siberia
+            original_tag = P46 #Far Eastern Russia
+            original_tag = P47 #Mongolia
+            original_tag = P48 #Western Russia
+            original_tag = P49 #Bulgaria
+            original_tag = P50 #Yugoslavia
+            original_tag = P51 #Turkestan
+            original_tag = P52 #Himalayas
+            original_tag = P53 #Mittelafrika
+            original_tag = P54 #Chile
+            original_tag = P55 #Argentina
+            original_tag = P56 #Peru
+            original_tag = P57 #Brazil
+            original_tag = P58 #Mexico
+            original_tag = P59 #Czechia
+            original_tag = P60 #Belgium
+            original_tag = P61 #Denmark
+            original_tag = P62 #Northern France
+            original_tag = P63 #Southern France
+            original_tag = P64 #French Alps
+            original_tag = P65 #Norway
+            original_tag = P66 #Ukraine
+            original_tag = P67 #Levant
+            original_tag = P68 #Turkey
+            original_tag = P69 #Iraq
+            original_tag = P70 #Kurdistan
+            original_tag = P71 #Iran
+            original_tag = P72 #Korea
+            original_tag = P73 #Ireland
+            original_tag = P74 #Sweden
+            original_tag = P75 #Pakistan
+            original_tag = P76 #Afghanistan
+            original_tag = P77 #Austria
+            original_tag = P78 #Switzerland
+            original_tag = P79 #Romania
+            original_tag = P80 #England
+            original_tag = P81 #Scotland
+            original_tag = P82 #Wales
+            original_tag = P83 #Iceland
+            original_tag = P84 #Northern Ireland
+            original_tag = P85 #Greenland
+            original_tag = P86 #Croatia
+            original_tag = P87 #Slovenia
+            original_tag = P88 #Bosnia-Herzegovina
+            original_tag = P89 #Serbia
+            original_tag = P90 #Montenegro
+            original_tag = P91 #Albania
+            original_tag = P92 #Lombardy-Venetia
+            original_tag = P93 #Piedmont
+            original_tag = P94 #Sardinia
+            original_tag = P95 #Tuscany
+            original_tag = P96 #Papal States
+            original_tag = P97 #Two Sicilies
+            original_tag = P98 #Macedonia
+            original_tag = P99 #Hokkaido
+            original_tag = Q01 #Tohoku
+            original_tag = Q02 #Kanto
+            original_tag = Q03 #Chubu
+            original_tag = Q04 #Kansai
+            original_tag = Q05 #Chugoku
+            original_tag = Q06 #Shikoku
+            original_tag = Q07 #Kyushu
+            original_tag = Q08 #Manchuria
+            original_tag = Q09 #Inner Mongolia
+            original_tag = Q10 #Zhili
+            original_tag = Q11 #Shandong
+            original_tag = Q12 #Henan
+            original_tag = Q13 #Shanxi
+            original_tag = Q14 #Liangjiang
+            original_tag = Q15 #Min-Zhe
+            original_tag = Q16 #Huguang
+            original_tag = Q17 #Liangguang
+            original_tag = Q18 #Yun-Gui
+            original_tag = Q19 #Sichuan
+            original_tag = Q20 #Shaan-Gan
+            original_tag = Q21 #Qinghai
+            original_tag = Q22 #Taiwan
+            original_tag = Q23 #East Turkestan
+        }
+    }
+
+    #Condition for strategy to be enabled
+    enable = { always = yes }
+
+
+    #Condition to abort strategy
+    abort = { always = no }
+
+    #Reverse the condition, formable puppet will ask for control but not give states
+    reversed = yes
+
+    #Decline diplomacy asking for control of state
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P01
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P02
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P03
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P04
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P05
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P06
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P07
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P08
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P09
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P10
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P11
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P12
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P13
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P14
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P15
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P16
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P17
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P18
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P19
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P20
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P21
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P22
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P23
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P24
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P25
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P26
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P27
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P28
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P29
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P30
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P31
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P32
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P33
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P34
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P35
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P36
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P37
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P38
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P39
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P40
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P41
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P42
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P43
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P44
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P45
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P46
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P47
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P48
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P49
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P50
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P51
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P52
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P53
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P54
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P55
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P56
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P57
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P58
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P59
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P60
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P61
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P62
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P63
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P64
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P65
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P66
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P67
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P68
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P69
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P70
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P71
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P72
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P73
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P74
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P75
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P76
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P77
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P78
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P79
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P80
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P81
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P82
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P83
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P84
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P85
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P86
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P87
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P88
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P89
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P90
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P91
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P92
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P93
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P94
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P95
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P96
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P97
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P98
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P99
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q01
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q02
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q03
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q04
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q05
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q06
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q07
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q08
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q09
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q10
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q11
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q12
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q13
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q14
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q15
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q16
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q17
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q18
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q19
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q20
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q21
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q22
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q23
+        target = ask_for_state_control
+        value = 99999
+    }
+
+    #Accept diplomacy giving control of state
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P01
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P02
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P03
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P04
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P05
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P06
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P07
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P08
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P09
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P10
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P11
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P12
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P13
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P14
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P15
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P16
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P17
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P18
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P19
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P20
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P21
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P22
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P23
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P24
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P25
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P26
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P27
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P28
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P29
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P30
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P31
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P32
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P33
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P34
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P35
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P36
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P37
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P38
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P39
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P40
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P41
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P42
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P43
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P44
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P45
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P46
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P47
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P48
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P49
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P50
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P51
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P52
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P53
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P54
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P55
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P56
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P57
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P58
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P59
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P60
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P61
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P62
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P63
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P64
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P65
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P66
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P67
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P68
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P69
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P70
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P71
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P72
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P73
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P74
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P75
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P76
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P77
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P78
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P79
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P80
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P81
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P82
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P83
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P84
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P85
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P86
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P87
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P88
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P89
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P90
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P91
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P92
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P93
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P94
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P95
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P96
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P97
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P98
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = P99
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q01
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q02
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q03
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q04
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q05
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q06
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q07
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q08
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q09
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q10
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q11
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q12
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q13
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q14
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q15
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q16
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q17
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q18
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q19
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q20
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q21
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q22
+        target = give_state_control
+        value = -99999
+    }
+
+    ai_strategy = {
+        type = diplo_action_desire
+        id = Q23
+        target = give_state_control
+        value = -99999
+    }
+}
