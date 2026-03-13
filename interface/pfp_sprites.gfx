@@ -5,7 +5,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
 	}
 
-	# Military Occupation Colour
+	# Military Occupation Color
 	spriteType = {
 		name = "GFX_pfp_autonomy_military_occupation_colour_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"

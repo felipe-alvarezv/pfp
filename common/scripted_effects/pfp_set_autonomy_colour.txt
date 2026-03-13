@@ -1,4 +1,4 @@
-#Scripted Effect to set Military Occupation colour
+#Scripted Effect to set "Military Occupation" color
 pfp_set_autonomy_colour = {
     if = {
         limit = { has_global_flag = pfp_autonomy_military_occupation_colour_on } #Check if colour decision is toggled on
