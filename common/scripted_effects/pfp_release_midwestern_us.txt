@@ -69,15 +69,5 @@ pfp_release_midwestern_us = {
 					set_state_controller_to = P18
 				}
 			}
-		}
-
-		#Transfer all technology from ROOT to formable puppet
-		P18 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_midwestern_us_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P18 }
-	}
+		}	}
 }

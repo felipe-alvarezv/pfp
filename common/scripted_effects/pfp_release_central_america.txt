@@ -57,15 +57,5 @@ pfp_release_central_america = {
 					set_state_controller_to = P08
 				}
 			}
-		}
-
-		#Transfer all technology from ROOT to formable puppet
-		P08 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_central_america_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P08 }
-	}
+		}	}
 }

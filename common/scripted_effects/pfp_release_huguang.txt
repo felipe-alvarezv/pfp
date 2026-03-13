@@ -53,15 +53,5 @@ pfp_release_huguang = {
 					set_state_controller_to = Q16
 				}
 			}
-		}
-
-		#Transfer all technology from ROOT to formable puppet
-		Q16 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_huguang_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = Q16 }
-	}
+		}	}
 }

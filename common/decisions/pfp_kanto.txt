@@ -32,13 +32,22 @@ pfp_category = {
 
             #Create formable puppet with all its states and then puppet
             hidden_effect = {
-                pfp_release_kanto = yes
-                set_autonomy = { target = Q02 autonomy_state = pfp_autonomy_military_occupation }
+                #Transfer control and ownership of capital to formable puppet
+                282 = { transfer_state_to = Q02 } #Kanto
 
                 #Code to assign generic portraits and set puppet autonomy
                 set_temp_variable = { pfp_portrait_tag = Q02 }
                 pfp_set_generic_portrait = yes
                 pfp_set_autonomy_colour = yes
+
+                #Formable puppet will core or contest its designated territory
+                pfp_release_kanto = yes
+
+                #Transfer all technology from ROOT to formable puppet
+                Q02 = { pfp_transfer_technology = yes }
+
+                #Set global flag to prevent future decision use
+                set_global_flag = pfp_kanto_flag
             }
         }
         ai_will_do = { factor = 0 }

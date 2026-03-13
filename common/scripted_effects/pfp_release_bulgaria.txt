@@ -53,15 +53,5 @@ pfp_release_bulgaria = {
 					set_state_controller_to = P49
 				}
 			}
-		}
-
-		#Transfer all technology from ROOT to formable puppet
-		P49 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_bulgaria_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P49 }
-	}
+		}	}
 }

@@ -95,15 +95,5 @@ pfp_release_iberia = {
 					set_state_controller_to = P15
 				}
 			}
-		}
-
-		#Transfer all technology from ROOT to formable puppet
-		P15 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_iberia_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P15 }
-	}
+		}	}
 }

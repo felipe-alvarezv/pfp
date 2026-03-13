@@ -40,7 +40,7 @@ pfp_category = {
             #Create formable puppet with all its states and then puppet
             hidden_effect = {
                 #Transfer control and ownership of capital to formable puppet
-				44 = { transfer_state_to = P76 } #Central Albania
+				44 = { transfer_state_to = P91 } #Central Albania
 
                 #Code to assign generic portraits and set puppet autonomy
                 set_temp_variable = { pfp_portrait_tag = P91 }

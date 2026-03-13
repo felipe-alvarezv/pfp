@@ -57,15 +57,5 @@ pfp_release_northern_france = {
 					set_state_controller_to = P62
 				}
 			}
-		}
-
-		#Transfer all technology from ROOT to formable puppet
-		P62 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_northern_france_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P62 }
-	}
+		}	}
 }

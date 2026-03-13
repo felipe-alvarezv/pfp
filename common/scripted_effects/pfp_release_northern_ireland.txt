@@ -47,15 +47,5 @@ pfp_release_northern_ireland = {
 					set_state_controller_to = P84
 				}
 			}
-		}
-
-		#Transfer all technology from ROOT to formable puppet
-		P84 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_northern_ireland_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P84 }
-	}
+		}	}
 }

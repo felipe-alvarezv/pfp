@@ -53,15 +53,5 @@ pfp_release_two_sicilies = {
 					set_state_controller_to = P97
 				}
 			}
-		}
-
-		#Transfer all technology from ROOT to formable puppet
-		P97 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_two_sicilies_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P97 }
-	}
+		}	}
 }
