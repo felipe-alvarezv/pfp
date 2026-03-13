@@ -23,10 +23,9 @@ pfp_release_afghanistan = {
 					limit = { is_owned_by = ROOT }
 					transfer_state_to = P76
 				}
-
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					set_state_controller_to  = P76
+					set_state_controller_to = P76
 				}
 			}
 		}
@@ -60,14 +59,5 @@ pfp_release_afghanistan = {
 				}
 			}
 		}
-
-		#Transfer all technology to formable puppet
-		P76 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_afghanistan_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P76 }
 	}
 }

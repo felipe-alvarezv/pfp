@@ -50,14 +50,5 @@ pfp_release_albania = {
 				}
 			}
 		}
-
-		#Transfer all technology to formable puppet
-		P91 = { pfp_transfer_technology = yes }
-
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_albania_flag
-
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P91 }
 	}
 }

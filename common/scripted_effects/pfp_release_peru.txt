@@ -55,7 +55,7 @@ pfp_release_peru = {
 			}
 		}
 
-		#Transfer all technology to formable puppet
+		#Transfer all technology from ROOT to formable puppet
 		P56 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use

@@ -59,7 +59,7 @@ pfp_release_northern_france = {
 			}
 		}
 
-		#Transfer all technology to formable puppet
+		#Transfer all technology from ROOT to formable puppet
 		P62 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use

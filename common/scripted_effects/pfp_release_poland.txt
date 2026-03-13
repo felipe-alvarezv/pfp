@@ -57,7 +57,7 @@ pfp_release_poland = {
 			}
 		}
 
-		#Transfer all technology to formable puppet
+		#Transfer all technology from ROOT to formable puppet
 		P34 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use

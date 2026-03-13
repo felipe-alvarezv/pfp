@@ -78,7 +78,7 @@ pfp_category = {
                 pfp_release_liangjiang = yes
                 set_autonomy = { target = Q14 autonomy_state = pfp_autonomy_military_occupation }
 
-                #Code to assign generic portraits
+                #Code to assign generic portraits and set puppet autonomy
                 set_temp_variable = { pfp_portrait_tag = Q14 }
                 pfp_set_generic_portrait = yes
                 pfp_set_autonomy_colour = yes

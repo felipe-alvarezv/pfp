@@ -49,7 +49,7 @@ pfp_release_shikoku = {
 			}
 		}
 
-		#Transfer all technology to formable puppet
+		#Transfer all technology from ROOT to formable puppet
 		Q06 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
