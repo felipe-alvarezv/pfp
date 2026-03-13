@@ -1,4 +1,6 @@
 pfp_puppet_management = {
+
+	#Decision to show PFP GUI
     pfp_management_window = {
 		icon = generic_industry
 
@@ -52,5 +54,29 @@ pfp_puppet_management = {
 			}
 		}
 		ai_will_do = { factor = 0 }
+	}
+
+	#Decision to toggle resistance mechanics
+	pfp_management_resistance = {
+		icon = guerilla_base
+
+		available = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					limit = { has_global_flag = pfp_management_resistance_on }
+
+					clr_global_flag = pfp_management_resistance_on
+				}
+				else = {
+					set_global_flag = pfp_management_resistance_on
+				}
+			}
+		}
 	}
 }
