@@ -1,0 +1,20 @@
+on_actions = {
+    #Pipe's Formable Puppets - Ruling Party Change
+    on_ruling_party_change = {
+        effect = {
+            every_subject_country  = {
+                limit = {
+                    OR = {
+                        has_autonomy_state = pfp_autonomy_military_occupation
+                        has_autonomy_state = pfp_autonomy_military_occupation_colour
+                    }
+                    NOT = { has_government = var:overlord }
+                }
+                
+                set_politics = {
+                    ruling_party = var:overlord
+                }
+            }
+        }
+    }
+}

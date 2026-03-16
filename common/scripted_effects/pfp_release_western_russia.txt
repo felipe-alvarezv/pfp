@@ -3,7 +3,7 @@ pfp_release_western_russia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
 		if = {
-			limit = { has_global_flag = pfp_management_resistance_on }
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
 			195 = { add_contested_owner  = P48 } #Leningrad

@@ -1,0 +1,12 @@
+defined_text = {
+    name = pfp_resistance_mechanics_status
+    text = {
+        trigger = {
+            has_global_flag = pfp_management_resistance_enabled
+        }
+        localization_key = pfp_resistance_mechanics_enabled
+    }
+    text = {
+        localization_key = pfp_resistance_mechanics_disabled
+    }
+}

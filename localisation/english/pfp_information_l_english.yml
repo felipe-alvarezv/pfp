@@ -4,7 +4,10 @@ l_english:
 	pfp_category_desc:0 "As we gain more territory, it has become a complicated problem to administer all of it. To address this problem, puppet governments loyal to our nation should be established in the regions we have conquered. This will allow us to place our attention elsewhere, while the region helps our cause."
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
-	pfp_puppet_management_desc:0 "After establishing our military occupation, we may need to make adjustments regarding the administration and its territories."
+	pfp_puppet_management_desc:0 "After establishing our military occupation, we may need to make adjustments regarding the administration and its territories.\n\n§YResistance Mechanics:§! [pfp_resistance_mechanics_status]"
+	pfp_resistance_mechanics_enabled:0 "Enabled"
+	pfp_resistance_mechanics_disabled:0 "Disabled"
+
 	pfp_management_window:0 "Open Management Menu"
 	pfp_management_coloured_puppets:0 "Toggle Overlord Coloured Puppets"
 
@@ -51,3 +54,6 @@ l_english:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Unselect all previously selected states."
 	pfp_state_transfer_tooltip_close_button:0 "Close the state transfer interface."
+
+	pfp_management_resistance:0 "Toggle Resistance Mechanics"
+	pfp_management_resistance_desc:0 "This decision enables or disables the resistance mechanics. If enabled, formable puppets will not get cores and will have to complete focuses and decisions to raise compliance and lower resistance. A state will be cored once compliance is above 80% and resistance is below 20%."

@@ -3,7 +3,7 @@ pfp_release_shaan-gan = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
 		if = {
-			limit = { has_global_flag = pfp_management_resistance_on }
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
 			283 = { add_contested_owner  = Q20 } #Gansu

@@ -69,12 +69,79 @@ pfp_puppet_management = {
 		complete_effect = {
 			hidden_effect = {
 				if = {
-					limit = { has_global_flag = pfp_management_resistance_on }
+					limit = { has_global_flag = pfp_management_resistance_enabled }
 
-					clr_global_flag = pfp_management_resistance_on
+					clr_global_flag = pfp_management_resistance_enabled
 				}
 				else = {
-					set_global_flag = pfp_management_resistance_on
+					set_global_flag = pfp_management_resistance_enabled
+				}
+			}
+		}
+	}
+
+	#Decision for formable puppet AI to core states with compliance > 80 and resistance < 20
+	pfp_management_puppet_core_state = {
+		available = {
+			#If resistance is enabled
+			if = {
+				limit = { has_global_flag = pfp_management_resistance_enabled }
+				all_controlled_state = {
+					is_in_array = {
+						array = ROOT.pfp_possible_cores
+						value = THIS.id
+					}
+					NOT = { is_core_of = ROOT }
+					compliance > 80
+					resistance < 20
+				}
+			}
+			#If resistance is disabled
+			else = {
+				all_controlled_state = {
+					is_in_array = {
+						array = ROOT.pfp_possible_cores
+						value = THIS.id
+					}
+					NOT = { is_core_of = ROOT }
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				has_autonomy_state = pfp_autonomy_military_occupation
+				has_autonomy_state = pfp_autonomy_military_occupation_colour
+			}
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					every_controlled_state = {
+						limit = {
+							is_in_array = {
+								array = ROOT.pfp_possible_cores
+								value = THIS.id
+							}
+							compliance > 80
+							resistance < 20
+						}
+						add_core_of = ROOT
+					}
+				}
+				else = {
+					every_controlled_state = {
+						limit = {
+							is_in_array = {
+								array = ROOT.pfp_possible_cores
+								value = THIS.id
+							}
+						}
+						add_core_of = ROOT
+					}
 				}
 			}
 		}
