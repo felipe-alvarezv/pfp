@@ -93,4 +93,4 @@ recruit_character = Q13_neutrality_leader
 recruit_character = Q13_fascism_leader
 
 #Shanxi Initial States
-add_to_array = { pfp_shanxi_integration_array = 615 } #Shanxi
+add_to_array = { Q13.pfp_possible_cores = 615 } #Shanxi

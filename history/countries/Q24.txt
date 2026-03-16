@@ -93,7 +93,7 @@ recruit_character = Q24_neutrality_leader
 recruit_character = Q24_fascism_leader
 
 #Tibet Initial States
-add_to_array = { pfp_east_turkestan_integration_array = 322 } #Nagqu
-add_to_array = { pfp_east_turkestan_integration_array = 601 } #Kham
-add_to_array = { pfp_east_turkestan_integration_array = 757 } #Shigatse
-add_to_array = { pfp_east_turkestan_integration_array = 758 } #Ngari
+add_to_array = { Q24.pfp_possible_cores = 322 } #Nagqu
+add_to_array = { Q24.pfp_possible_cores = 601 } #Kham
+add_to_array = { Q24.pfp_possible_cores = 757 } #Shigatse
+add_to_array = { Q24.pfp_possible_cores = 758 } #Ngari

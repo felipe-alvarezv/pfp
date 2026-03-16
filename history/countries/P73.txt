@@ -94,9 +94,9 @@ recruit_character = P73_neutrality_leader
 recruit_character = P73_fascism_leader
 
 #Ireland Initial States
-add_to_array = { pfp_ireland_integration_array = 113 } #Leinster
-add_to_array = { pfp_ireland_integration_array = 134 } #Connaught
-add_to_array = { pfp_ireland_integration_array = 135 } #Munster
+add_to_array = { P73.pfp_possible_cores = 113 } #Leinster
+add_to_array = { P73.pfp_possible_cores = 134 } #Connaught
+add_to_array = { P73.pfp_possible_cores = 135 } #Munster
 
 #Ireland Territories
-add_to_array = { pfp_ireland_integration_array = 119 } #Northern Ireland
+add_to_array = { P73.pfp_possible_cores = 119 } #Northern Ireland

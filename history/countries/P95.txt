@@ -93,4 +93,4 @@ recruit_character = P95_neutrality_leader
 recruit_character = P95_fascism_leader
 
 #Tuscany Initial States
-add_to_array = { pfp_tuscany_integration_array = 162 } #Tuscany
+add_to_array = { P95.pfp_possible_cores = 162 } #Tuscany

@@ -93,4 +93,4 @@ recruit_character = P85_neutrality_leader
 recruit_character = P85_fascism_leader
 
 #Greenland Initial States
-add_to_array = { pfp_greenland_integration_array = 101 } #Greenland
+add_to_array = { P85.pfp_possible_cores = 101 } #Greenland

@@ -94,15 +94,15 @@ recruit_character = P21_neutrality_leader
 recruit_character = P21_fascism_leader
 
 #Pacific U.S. Initial States
-add_to_array = { pfp_pacific_us_integration_array = 378 } #California
-add_to_array = { pfp_pacific_us_integration_array = 385 } #Oregon
-add_to_array = { pfp_pacific_us_integration_array = 386 } #Washington
+add_to_array = { P21.pfp_possible_cores = 378 } #California
+add_to_array = { P21.pfp_possible_cores = 385 } #Oregon
+add_to_array = { P21.pfp_possible_cores = 386 } #Washington
 
 #Pacific U.S. Territories
-add_to_array = { pfp_pacific_us_integration_array = 463 } #Alaska
-add_to_array = { pfp_pacific_us_integration_array = 471 } #Upper British Columbia
-add_to_array = { pfp_pacific_us_integration_array = 473 } #British Columbia
-add_to_array = { pfp_pacific_us_integration_array = 629 } #Hawaii
-add_to_array = { pfp_pacific_us_integration_array = 739 } #Haida Gwaii
-add_to_array = { pfp_pacific_us_integration_array = 740 } #Vancouver Island
-add_to_array = { pfp_pacific_us_integration_array = 864 } #Yukon Territory
+add_to_array = { P21.pfp_possible_cores = 463 } #Alaska
+add_to_array = { P21.pfp_possible_cores = 471 } #Upper British Columbia
+add_to_array = { P21.pfp_possible_cores = 473 } #British Columbia
+add_to_array = { P21.pfp_possible_cores = 629 } #Hawaii
+add_to_array = { P21.pfp_possible_cores = 739 } #Haida Gwaii
+add_to_array = { P21.pfp_possible_cores = 740 } #Vancouver Island
+add_to_array = { P21.pfp_possible_cores = 864 } #Yukon Territory

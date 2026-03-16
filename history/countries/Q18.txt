@@ -93,7 +93,7 @@ recruit_character = Q18_neutrality_leader
 recruit_character = Q18_fascism_leader
 
 #Yun-Gui Initial States
-add_to_array = { pfp_yun-gui_integration_array = 325 } #Yunnan
-add_to_array = { pfp_yun-gui_integration_array = 603 } #Guizhou
-add_to_array = { pfp_yun-gui_integration_array = 747 } #Dali
-add_to_array = { pfp_yun-gui_integration_array = 748 } #Zunyi
+add_to_array = { Q18.pfp_possible_cores = 325 } #Yunnan
+add_to_array = { Q18.pfp_possible_cores = 603 } #Guizhou
+add_to_array = { Q18.pfp_possible_cores = 747 } #Dali
+add_to_array = { Q18.pfp_possible_cores = 748 } #Zunyi

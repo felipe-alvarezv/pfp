@@ -94,19 +94,19 @@ recruit_character = P22_neutrality_leader
 recruit_character = P22_fascism_leader
 
 #Quebec Initial States
-add_to_array = { pfp_quebec_integration_array = 466 } #Nord du Quebec
-add_to_array = { pfp_quebec_integration_array = 468 } #Saint Lawrence
-add_to_array = { pfp_quebec_integration_array = 860 } #Cote-Nord
-add_to_array = { pfp_quebec_integration_array = 861 } #Saguenay
-add_to_array = { pfp_quebec_integration_array = 862 } #Ouest du Quebec
-add_to_array = { pfp_quebec_integration_array = 863 } #Maurice
+add_to_array = { P22.pfp_possible_cores = 466 } #Nord du Quebec
+add_to_array = { P22.pfp_possible_cores = 468 } #Saint Lawrence
+add_to_array = { P22.pfp_possible_cores = 860 } #Cote-Nord
+add_to_array = { P22.pfp_possible_cores = 861 } #Saguenay
+add_to_array = { P22.pfp_possible_cores = 862 } #Ouest du Quebec
+add_to_array = { P22.pfp_possible_cores = 863 } #Maurice
 
 #Quebec Territories
-add_to_array = { pfp_quebec_integration_array = 276 } #Southern Ontario
-add_to_array = { pfp_quebec_integration_array = 331 } #Newfoundland
-add_to_array = { pfp_quebec_integration_array = 332 } #Labrador
-add_to_array = { pfp_quebec_integration_array = 464 } #Nova Scotia
-add_to_array = { pfp_quebec_integration_array = 465 } #New Brunswick
-add_to_array = { pfp_quebec_integration_array = 682 } #Northern Ontario
-add_to_array = { pfp_quebec_integration_array = 730 } #St. Pierre and Miquelon
-add_to_array = { pfp_quebec_integration_array = 866 } #Districts of Ontario
+add_to_array = { P22.pfp_possible_cores = 276 } #Southern Ontario
+add_to_array = { P22.pfp_possible_cores = 331 } #Newfoundland
+add_to_array = { P22.pfp_possible_cores = 332 } #Labrador
+add_to_array = { P22.pfp_possible_cores = 464 } #Nova Scotia
+add_to_array = { P22.pfp_possible_cores = 465 } #New Brunswick
+add_to_array = { P22.pfp_possible_cores = 682 } #Northern Ontario
+add_to_array = { P22.pfp_possible_cores = 730 } #St. Pierre and Miquelon
+add_to_array = { P22.pfp_possible_cores = 866 } #Districts of Ontario

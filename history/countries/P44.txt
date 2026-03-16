@@ -94,13 +94,13 @@ recruit_character = P44_neutrality_leader
 recruit_character = P44_fascism_leader
 
 #Urals Initial States
-add_to_array = { pfp_urals_integration_array = 403 } #Tyumen
-add_to_array = { pfp_urals_integration_array = 572 } #Chelyabinsk
-add_to_array = { pfp_urals_integration_array = 573 } #Zlatoust
-add_to_array = { pfp_urals_integration_array = 577 } #Surgut
-add_to_array = { pfp_urals_integration_array = 579 } #Salekhard
-add_to_array = { pfp_urals_integration_array = 580 } #Tobolsk
-add_to_array = { pfp_urals_integration_array = 581 } #Northern Urals
-add_to_array = { pfp_urals_integration_array = 582 } #Magnitogorsk
-add_to_array = { pfp_urals_integration_array = 653 } #Sverdlovsk
-add_to_array = { pfp_urals_integration_array = 824 } #Yamalia
+add_to_array = { P44.pfp_possible_cores = 403 } #Tyumen
+add_to_array = { P44.pfp_possible_cores = 572 } #Chelyabinsk
+add_to_array = { P44.pfp_possible_cores = 573 } #Zlatoust
+add_to_array = { P44.pfp_possible_cores = 577 } #Surgut
+add_to_array = { P44.pfp_possible_cores = 579 } #Salekhard
+add_to_array = { P44.pfp_possible_cores = 580 } #Tobolsk
+add_to_array = { P44.pfp_possible_cores = 581 } #Northern Urals
+add_to_array = { P44.pfp_possible_cores = 582 } #Magnitogorsk
+add_to_array = { P44.pfp_possible_cores = 653 } #Sverdlovsk
+add_to_array = { P44.pfp_possible_cores = 824 } #Yamalia

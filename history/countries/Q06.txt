@@ -93,4 +93,4 @@ recruit_character = Q06_neutrality_leader
 recruit_character = Q06_fascism_leader
 
 #Shikoku Initial States
-add_to_array = { pfp_shikoku_integration_array = 530 } #Shikoku
+add_to_array = { Q06.pfp_possible_cores = 530 } #Shikoku

@@ -94,15 +94,15 @@ recruit_character = P18_neutrality_leader
 recruit_character = P18_fascism_leader
 
 #Midwestern U.S. Initial States
-add_to_array = { pfp_midwestern_us_integration_array = 261 } #Ohio
-add_to_array = { pfp_midwestern_us_integration_array = 373 } #Missouri
-add_to_array = { pfp_midwestern_us_integration_array = 383 } #Kansas
-add_to_array = { pfp_midwestern_us_integration_array = 384 } #Nebraska
-add_to_array = { pfp_midwestern_us_integration_array = 389 } #North Dakota
-add_to_array = { pfp_midwestern_us_integration_array = 390 } #South Dakota
-add_to_array = { pfp_midwestern_us_integration_array = 391 } #Minnesota
-add_to_array = { pfp_midwestern_us_integration_array = 392 } #Iowa
-add_to_array = { pfp_midwestern_us_integration_array = 393 } #Michigan
-add_to_array = { pfp_midwestern_us_integration_array = 394 } #Wisconsin
-add_to_array = { pfp_midwestern_us_integration_array = 395 } #Illinois
-add_to_array = { pfp_midwestern_us_integration_array = 396 } #Indiana
+add_to_array = { P18.pfp_possible_cores = 261 } #Ohio
+add_to_array = { P18.pfp_possible_cores = 373 } #Missouri
+add_to_array = { P18.pfp_possible_cores = 383 } #Kansas
+add_to_array = { P18.pfp_possible_cores = 384 } #Nebraska
+add_to_array = { P18.pfp_possible_cores = 389 } #North Dakota
+add_to_array = { P18.pfp_possible_cores = 390 } #South Dakota
+add_to_array = { P18.pfp_possible_cores = 391 } #Minnesota
+add_to_array = { P18.pfp_possible_cores = 392 } #Iowa
+add_to_array = { P18.pfp_possible_cores = 393 } #Michigan
+add_to_array = { P18.pfp_possible_cores = 394 } #Wisconsin
+add_to_array = { P18.pfp_possible_cores = 395 } #Illinois
+add_to_array = { P18.pfp_possible_cores = 396 } #Indiana

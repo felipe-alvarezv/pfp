@@ -94,22 +94,22 @@ recruit_character = P42_neutrality_leader
 recruit_character = P42_fascism_leader
 
 #Volga Initial States
-add_to_array = { pfp_volga_integration_array = 239 } #Saratov
-add_to_array = { pfp_volga_integration_array = 249 } #Kazan
-add_to_array = { pfp_volga_integration_array = 250 } #Ulyanovsky
-add_to_array = { pfp_volga_integration_array = 251 } #Kubyshev
-add_to_array = { pfp_volga_integration_array = 252 } #Gorky
-add_to_array = { pfp_volga_integration_array = 255 } #Penza
-add_to_array = { pfp_volga_integration_array = 256 } #Chuvashia
-add_to_array = { pfp_volga_integration_array = 398 } #Perm
-add_to_array = { pfp_volga_integration_array = 399 } #Udmurtia
-add_to_array = { pfp_volga_integration_array = 400 } #Kirov
-add_to_array = { pfp_volga_integration_array = 401 } #Balkakovo
-add_to_array = { pfp_volga_integration_array = 652 } #Orenburg
-add_to_array = { pfp_volga_integration_array = 651 } #Ufa
-add_to_array = { pfp_volga_integration_array = 829 } #Engels-Marxstadt
-add_to_array = { pfp_volga_integration_array = 833 } #Mari El
+add_to_array = { P42.pfp_possible_cores = 239 } #Saratov
+add_to_array = { P42.pfp_possible_cores = 249 } #Kazan
+add_to_array = { P42.pfp_possible_cores = 250 } #Ulyanovsky
+add_to_array = { P42.pfp_possible_cores = 251 } #Kubyshev
+add_to_array = { P42.pfp_possible_cores = 252 } #Gorky
+add_to_array = { P42.pfp_possible_cores = 255 } #Penza
+add_to_array = { P42.pfp_possible_cores = 256 } #Chuvashia
+add_to_array = { P42.pfp_possible_cores = 398 } #Perm
+add_to_array = { P42.pfp_possible_cores = 399 } #Udmurtia
+add_to_array = { P42.pfp_possible_cores = 400 } #Kirov
+add_to_array = { P42.pfp_possible_cores = 401 } #Balkakovo
+add_to_array = { P42.pfp_possible_cores = 652 } #Orenburg
+add_to_array = { P42.pfp_possible_cores = 651 } #Ufa
+add_to_array = { P42.pfp_possible_cores = 829 } #Engels-Marxstadt
+add_to_array = { P42.pfp_possible_cores = 833 } #Mari El
 
 #Volga Territories
-add_to_array = { pfp_volga_integration_array = 573 } #Zlatoust
-add_to_array = { pfp_volga_integration_array = 582 } #Magnitogorsk
+add_to_array = { P42.pfp_possible_cores = 573 } #Zlatoust
+add_to_array = { P42.pfp_possible_cores = 582 } #Magnitogorsk

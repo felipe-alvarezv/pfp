@@ -93,6 +93,6 @@ recruit_character = Q03_neutrality_leader
 recruit_character = Q03_fascism_leader
 
 #Chubu Initial States
-add_to_array = { pfp_chubu_integration_array = 532 } #Tokai
-add_to_array = { pfp_chubu_integration_array = 534 } #Koshinetsu
-add_to_array = { pfp_chubu_integration_array = 535 } #Horuriku
+add_to_array = { Q03.pfp_possible_cores = 532 } #Tokai
+add_to_array = { Q03.pfp_possible_cores = 534 } #Koshinetsu
+add_to_array = { Q03.pfp_possible_cores = 535 } #Horuriku

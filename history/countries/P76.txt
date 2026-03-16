@@ -94,23 +94,23 @@ recruit_character = P76_neutrality_leader
 recruit_character = P76_fascism_leader
 
 #Afghanistan Initial States
-add_to_array = { pfp_afghanistan_integration_array = 267 } #Kabul
-add_to_array = { pfp_afghanistan_integration_array = 415 } #Herat
-add_to_array = { pfp_afghanistan_integration_array = 1005 } #Qataghan
-add_to_array = { pfp_afghanistan_integration_array = 1006 } #Khyber Pass
-add_to_array = { pfp_afghanistan_integration_array = 1007 } #Maymanah
-add_to_array = { pfp_afghanistan_integration_array = 1008 } #Qandahar
-add_to_array = { pfp_afghanistan_integration_array = 1009 } #Farah
+add_to_array = { P76.pfp_possible_cores = 267 } #Kabul
+add_to_array = { P76.pfp_possible_cores = 415 } #Herat
+add_to_array = { P76.pfp_possible_cores = 1005 } #Qataghan
+add_to_array = { P76.pfp_possible_cores = 1006 } #Khyber Pass
+add_to_array = { P76.pfp_possible_cores = 1007 } #Maymanah
+add_to_array = { P76.pfp_possible_cores = 1008 } #Qandahar
+add_to_array = { P76.pfp_possible_cores = 1009 } #Farah
 
 #Afghanistan Territories
-add_to_array = { pfp_afghanistan_integration_array = 410 } #Sistan
-add_to_array = { pfp_afghanistan_integration_array = 440 } #West Punjab
-add_to_array = { pfp_afghanistan_integration_array = 441 } #Kashmir
-add_to_array = { pfp_afghanistan_integration_array = 442 } #Peshawar
-add_to_array = { pfp_afghanistan_integration_array = 443 } #Sind
-add_to_array = { pfp_afghanistan_integration_array = 444 } #South Baluchistan
-add_to_array = { pfp_afghanistan_integration_array = 445 } #Sibi
-add_to_array = { pfp_afghanistan_integration_array = 787 } #Northern Kashmir
-add_to_array = { pfp_afghanistan_integration_array = 987 } #Wazaristan
-add_to_array = { pfp_afghanistan_integration_array = 988 } #North Baluchistan
-add_to_array = { pfp_afghanistan_integration_array = 1012 } #Kalat
+add_to_array = { P76.pfp_possible_cores = 410 } #Sistan
+add_to_array = { P76.pfp_possible_cores = 440 } #West Punjab
+add_to_array = { P76.pfp_possible_cores = 441 } #Kashmir
+add_to_array = { P76.pfp_possible_cores = 442 } #Peshawar
+add_to_array = { P76.pfp_possible_cores = 443 } #Sind
+add_to_array = { P76.pfp_possible_cores = 444 } #South Baluchistan
+add_to_array = { P76.pfp_possible_cores = 445 } #Sibi
+add_to_array = { P76.pfp_possible_cores = 787 } #Northern Kashmir
+add_to_array = { P76.pfp_possible_cores = 987 } #Wazaristan
+add_to_array = { P76.pfp_possible_cores = 988 } #North Baluchistan
+add_to_array = { P76.pfp_possible_cores = 1012 } #Kalat

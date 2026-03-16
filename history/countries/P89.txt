@@ -93,14 +93,14 @@ recruit_character = P89_neutrality_leader
 recruit_character = P89_fascism_leader
 
 #Serbia Initial States
-add_to_array = { pfp_serbia_integration_array = 107 } #Serbia
-add_to_array = { pfp_serbia_integration_array = 108 } #Morava
+add_to_array = { P89.pfp_possible_cores = 107 } #Serbia
+add_to_array = { P89.pfp_possible_cores = 108 } #Morava
 
 #Serbia Territories
-add_to_array = { pfp_serbia_integration_array = 45 } #Backa
-add_to_array = { pfp_serbia_integration_array = 105 } #Montenegro
-add_to_array = { pfp_serbia_integration_array = 106 } #Macedonia
-add_to_array = { pfp_serbia_integration_array = 764 } #Banat
-add_to_array = { pfp_serbia_integration_array = 802 } #Kosovo
-add_to_array = { pfp_serbia_integration_array = 803 } #Southern Serbia
-add_to_array = { pfp_serbia_integration_array = 970 } #Debar
+add_to_array = { P89.pfp_possible_cores = 45 } #Backa
+add_to_array = { P89.pfp_possible_cores = 105 } #Montenegro
+add_to_array = { P89.pfp_possible_cores = 106 } #Macedonia
+add_to_array = { P89.pfp_possible_cores = 764 } #Banat
+add_to_array = { P89.pfp_possible_cores = 802 } #Kosovo
+add_to_array = { P89.pfp_possible_cores = 803 } #Southern Serbia
+add_to_array = { P89.pfp_possible_cores = 970 } #Debar

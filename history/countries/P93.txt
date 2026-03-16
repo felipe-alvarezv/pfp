@@ -93,7 +93,7 @@ recruit_character = P93_neutrality_leader
 recruit_character = P93_fascism_leader
 
 #Piedmont Initial States
-add_to_array = { pfp_piedmont_integration_array = 158 } #Piedmont
+add_to_array = { P93.pfp_possible_cores = 158 } #Piedmont
 
 #Piedmont Territories
-add_to_array = { pfp_piedmont_integration_array = 735 } #Savoy
+add_to_array = { P93.pfp_possible_cores = 735 } #Savoy

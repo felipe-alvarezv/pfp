@@ -94,11 +94,11 @@ recruit_character = P60_neutrality_leader
 recruit_character = P60_fascism_leader
 
 #Belgium Initial States
-add_to_array = { pfp_belgium_integration_array = 6 } #Vlaanderen
-add_to_array = { pfp_belgium_integration_array = 34 } #Wallonie
-add_to_array = { pfp_belgium_integration_array = 977 } #Antwerp
-add_to_array = { pfp_belgium_integration_array = 980 } #Ardennes
+add_to_array = { P60.pfp_possible_cores = 6 } #Vlaanderen
+add_to_array = { P60.pfp_possible_cores = 34 } #Wallonie
+add_to_array = { P60.pfp_possible_cores = 977 } #Antwerp
+add_to_array = { P60.pfp_possible_cores = 980 } #Ardennes
 
 #Belgium Territories
-add_to_array = { pfp_belgium_integration_array = 8 } #Luxemburg
-add_to_array = { pfp_belgium_integration_array = 29 } #Nord-Pas-de-Calais
+add_to_array = { P60.pfp_possible_cores = 8 } #Luxemburg
+add_to_array = { P60.pfp_possible_cores = 29 } #Nord-Pas-de-Calais

@@ -93,5 +93,5 @@ recruit_character = P98_neutrality_leader
 recruit_character = P98_fascism_leader
 
 #Macedonia Initial States
-add_to_array = { pfp_macedonia_integration_array = 106 } #Macedonia
-add_to_array = { pfp_macedonia_integration_array = 970 } #Debar
+add_to_array = { P98.pfp_possible_cores = 106 } #Macedonia
+add_to_array = { P98.pfp_possible_cores = 970 } #Debar

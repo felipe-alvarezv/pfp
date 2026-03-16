@@ -93,7 +93,7 @@ recruit_character = P99_neutrality_leader
 recruit_character = P99_fascism_leader
 
 #Hokkaido Initial States
-add_to_array = { pfp_hokkaido_integration_array = 536 } #Hokkaido
+add_to_array = { P99.pfp_possible_cores = 536 } #Hokkaido
 
 #Hokkaido Territories
-add_to_array = { pfp_hokkaido_integration_array = 555 } #Kuril Islands
+add_to_array = { P99.pfp_possible_cores = 555 } #Kuril Islands

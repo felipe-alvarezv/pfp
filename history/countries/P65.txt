@@ -94,16 +94,16 @@ recruit_character = P65_neutrality_leader
 recruit_character = P65_fascism_leader
 
 #Norway Initial States
-add_to_array = { pfp_norway_integration_array = 110 } #Oslofjord
-add_to_array = { pfp_norway_integration_array = 142 } #Vestlandet
-add_to_array = { pfp_norway_integration_array = 143 } #Trondelag
-add_to_array = { pfp_norway_integration_array = 144 } #Nordland
-add_to_array = { pfp_norway_integration_array = 920 } #Opplandene
-add_to_array = { pfp_norway_integration_array = 921 } #Telemark
-add_to_array = { pfp_norway_integration_array = 922 } #Agder
-add_to_array = { pfp_norway_integration_array = 923 } #Helgeland
-add_to_array = { pfp_norway_integration_array = 924 } #Troms
-add_to_array = { pfp_norway_integration_array = 925 } #Finnmark
+add_to_array = { P65.pfp_possible_cores = 110 } #Oslofjord
+add_to_array = { P65.pfp_possible_cores = 142 } #Vestlandet
+add_to_array = { P65.pfp_possible_cores = 143 } #Trondelag
+add_to_array = { P65.pfp_possible_cores = 144 } #Nordland
+add_to_array = { P65.pfp_possible_cores = 920 } #Opplandene
+add_to_array = { P65.pfp_possible_cores = 921 } #Telemark
+add_to_array = { P65.pfp_possible_cores = 922 } #Agder
+add_to_array = { P65.pfp_possible_cores = 923 } #Helgeland
+add_to_array = { P65.pfp_possible_cores = 924 } #Troms
+add_to_array = { P65.pfp_possible_cores = 925 } #Finnmark
 
 #Norway Territories
-add_to_array = { pfp_norway_integration_array = 914 } #Jan Mayen
+add_to_array = { P65.pfp_possible_cores = 914 } #Jan Mayen

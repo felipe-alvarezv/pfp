@@ -94,43 +94,43 @@ recruit_character = P10_neutrality_leader
 recruit_character = P10_fascism_leader
 
 #East Africa Initial States
-add_to_array = { pfp_east_africa_integration_array = 271 } #Shewa
-add_to_array = { pfp_east_africa_integration_array = 550 } #Eritrea
-add_to_array = { pfp_east_africa_integration_array = 559 } #Somaliland
-add_to_array = { pfp_east_africa_integration_array = 835 } #Hararghe
-add_to_array = { pfp_east_africa_integration_array = 836 } #Bale
-add_to_array = { pfp_east_africa_integration_array = 837 } #Sidamo
-add_to_array = { pfp_east_africa_integration_array = 838 } #Illubabor-Kaffa
-add_to_array = { pfp_east_africa_integration_array = 839 } #Welega
-add_to_array = { pfp_east_africa_integration_array = 840 } #Gojjam
-add_to_array = { pfp_east_africa_integration_array = 841 } #Begemender
-add_to_array = { pfp_east_africa_integration_array = 842 } #Tigray
-add_to_array = { pfp_east_africa_integration_array = 843 } #Wello
-add_to_array = { pfp_east_africa_integration_array = 844 } #Jubaland
-add_to_array = { pfp_east_africa_integration_array = 908 } #Afar
+add_to_array = { P10.pfp_possible_cores = 271 } #Shewa
+add_to_array = { P10.pfp_possible_cores = 550 } #Eritrea
+add_to_array = { P10.pfp_possible_cores = 559 } #Somaliland
+add_to_array = { P10.pfp_possible_cores = 835 } #Hararghe
+add_to_array = { P10.pfp_possible_cores = 836 } #Bale
+add_to_array = { P10.pfp_possible_cores = 837 } #Sidamo
+add_to_array = { P10.pfp_possible_cores = 838 } #Illubabor-Kaffa
+add_to_array = { P10.pfp_possible_cores = 839 } #Welega
+add_to_array = { P10.pfp_possible_cores = 840 } #Gojjam
+add_to_array = { P10.pfp_possible_cores = 841 } #Begemender
+add_to_array = { P10.pfp_possible_cores = 842 } #Tigray
+add_to_array = { P10.pfp_possible_cores = 843 } #Wello
+add_to_array = { P10.pfp_possible_cores = 844 } #Jubaland
+add_to_array = { P10.pfp_possible_cores = 908 } #Afar
 
 #East Africa Territories
-add_to_array = { pfp_east_africa_integration_array = 268 } #French Somaliland
-add_to_array = { pfp_east_africa_integration_array = 269 } #British Somaliland
-add_to_array = { pfp_east_africa_integration_array = 543 } #Madagascar
-add_to_array = { pfp_east_africa_integration_array = 546 } #Tanganyika
-add_to_array = { pfp_east_africa_integration_array = 547 } #Nairobi
-add_to_array = { pfp_east_africa_integration_array = 548 } #Uganda
-add_to_array = { pfp_east_africa_integration_array = 549 } #Kurdufan
-add_to_array = { pfp_east_africa_integration_array = 551 } #Khartoum
-add_to_array = { pfp_east_africa_integration_array = 706 } #Reunion
-add_to_array = { pfp_east_africa_integration_array = 707 } #Mauritius
-add_to_array = { pfp_east_africa_integration_array = 708 } #Comoro Islands
-add_to_array = { pfp_east_africa_integration_array = 709 } #Seychelles
-add_to_array = { pfp_east_africa_integration_array = 767 } #North Darfur
-add_to_array = { pfp_east_africa_integration_array = 768 } #Rwanda
-add_to_array = { pfp_east_africa_integration_array = 769 } #Burundi
-add_to_array = { pfp_east_africa_integration_array = 883 } #Kassala
-add_to_array = { pfp_east_africa_integration_array = 884 } #Upper Nile
-add_to_array = { pfp_east_africa_integration_array = 885 } #Bahr Al Ghazal
-add_to_array = { pfp_east_africa_integration_array = 886 } #Blue Nile
-add_to_array = { pfp_east_africa_integration_array = 887 } #South Darfur
-add_to_array = { pfp_east_africa_integration_array = 903 } #Garissa
-add_to_array = { pfp_east_africa_integration_array = 904 } #Nyanza-Rift Valley
-add_to_array = { pfp_east_africa_integration_array = 905 } #Mombasa
-add_to_array = { pfp_east_africa_integration_array = 906 } #Socotra
+add_to_array = { P10.pfp_possible_cores = 268 } #French Somaliland
+add_to_array = { P10.pfp_possible_cores = 269 } #British Somaliland
+add_to_array = { P10.pfp_possible_cores = 543 } #Madagascar
+add_to_array = { P10.pfp_possible_cores = 546 } #Tanganyika
+add_to_array = { P10.pfp_possible_cores = 547 } #Nairobi
+add_to_array = { P10.pfp_possible_cores = 548 } #Uganda
+add_to_array = { P10.pfp_possible_cores = 549 } #Kurdufan
+add_to_array = { P10.pfp_possible_cores = 551 } #Khartoum
+add_to_array = { P10.pfp_possible_cores = 706 } #Reunion
+add_to_array = { P10.pfp_possible_cores = 707 } #Mauritius
+add_to_array = { P10.pfp_possible_cores = 708 } #Comoro Islands
+add_to_array = { P10.pfp_possible_cores = 709 } #Seychelles
+add_to_array = { P10.pfp_possible_cores = 767 } #North Darfur
+add_to_array = { P10.pfp_possible_cores = 768 } #Rwanda
+add_to_array = { P10.pfp_possible_cores = 769 } #Burundi
+add_to_array = { P10.pfp_possible_cores = 883 } #Kassala
+add_to_array = { P10.pfp_possible_cores = 884 } #Upper Nile
+add_to_array = { P10.pfp_possible_cores = 885 } #Bahr Al Ghazal
+add_to_array = { P10.pfp_possible_cores = 886 } #Blue Nile
+add_to_array = { P10.pfp_possible_cores = 887 } #South Darfur
+add_to_array = { P10.pfp_possible_cores = 903 } #Garissa
+add_to_array = { P10.pfp_possible_cores = 904 } #Nyanza-Rift Valley
+add_to_array = { P10.pfp_possible_cores = 905 } #Mombasa
+add_to_array = { P10.pfp_possible_cores = 906 } #Socotra

@@ -93,4 +93,4 @@ recruit_character = Q12_neutrality_leader
 recruit_character = Q12_fascism_leader
 
 #Henan Initial States
-add_to_array = { pfp_henan_integration_array = 607 } #Henan
+add_to_array = { Q12.pfp_possible_cores = 607 } #Henan

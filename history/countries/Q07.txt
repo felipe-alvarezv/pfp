@@ -93,8 +93,8 @@ recruit_character = Q07_neutrality_leader
 recruit_character = Q07_fascism_leader
 
 #Kyushu Initial States
-add_to_array = { pfp_kyushu_integration_array = 528 } #Kitakyushu
-add_to_array = { pfp_kyushu_integration_array = 1018 } #Minami Kyushu
+add_to_array = { Q07.pfp_possible_cores = 528 } #Kitakyushu
+add_to_array = { Q07.pfp_possible_cores = 1018 } #Minami Kyushu
 
 #Kyushu Territories
-add_to_array = { pfp_kyushu_integration_array = 526 } #Okinawa
+add_to_array = { Q07.pfp_possible_cores = 526 } #Okinawa

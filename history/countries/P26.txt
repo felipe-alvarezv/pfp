@@ -94,19 +94,19 @@ recruit_character = P26_neutrality_leader
 recruit_character = P26_fascism_leader
 
 #Southern U.S. Initial States
-add_to_array = { pfp_southern_us_integration_array = 362 } #Virginia
-add_to_array = { pfp_southern_us_integration_array = 363 } #North Carolina
-add_to_array = { pfp_southern_us_integration_array = 364 } #South Carolina
-add_to_array = { pfp_southern_us_integration_array = 365 } #Georgia
-add_to_array = { pfp_southern_us_integration_array = 366 } #Florida
-add_to_array = { pfp_southern_us_integration_array = 367 } #Alabama
-add_to_array = { pfp_southern_us_integration_array = 368 } #Tennessee
-add_to_array = { pfp_southern_us_integration_array = 369 } #Kentucky
-add_to_array = { pfp_southern_us_integration_array = 370 } #Mississippi
-add_to_array = { pfp_southern_us_integration_array = 371 } #Louisiana
-add_to_array = { pfp_southern_us_integration_array = 372 } #Arkansas
-add_to_array = { pfp_southern_us_integration_array = 374 } #Oklahoma
-add_to_array = { pfp_southern_us_integration_array = 375 } #Texas
+add_to_array = { P26.pfp_possible_cores = 362 } #Virginia
+add_to_array = { P26.pfp_possible_cores = 363 } #North Carolina
+add_to_array = { P26.pfp_possible_cores = 364 } #South Carolina
+add_to_array = { P26.pfp_possible_cores = 365 } #Georgia
+add_to_array = { P26.pfp_possible_cores = 366 } #Florida
+add_to_array = { P26.pfp_possible_cores = 367 } #Alabama
+add_to_array = { P26.pfp_possible_cores = 368 } #Tennessee
+add_to_array = { P26.pfp_possible_cores = 369 } #Kentucky
+add_to_array = { P26.pfp_possible_cores = 370 } #Mississippi
+add_to_array = { P26.pfp_possible_cores = 371 } #Louisiana
+add_to_array = { P26.pfp_possible_cores = 372 } #Arkansas
+add_to_array = { P26.pfp_possible_cores = 374 } #Oklahoma
+add_to_array = { P26.pfp_possible_cores = 375 } #Texas
 
 #Southern U.S. Territories
-add_to_array = { pfp_southern_us_integration_array = 816 } #West Virginia
+add_to_array = { P26.pfp_possible_cores = 816 } #West Virginia

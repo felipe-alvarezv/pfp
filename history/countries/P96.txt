@@ -93,6 +93,6 @@ recruit_character = P96_neutrality_leader
 recruit_character = P96_fascism_leader
 
 #Papal States Initial States
-add_to_array = { pfp_papal_states_integration_array = 2 } #Lazio
-add_to_array = { pfp_papal_states_integration_array = 157 } #Abruzzo
-add_to_array = { pfp_papal_states_integration_array = 161 } #Emilia Romagna
+add_to_array = { P96.pfp_possible_cores = 2 } #Lazio
+add_to_array = { P96.pfp_possible_cores = 157 } #Abruzzo
+add_to_array = { P96.pfp_possible_cores = 161 } #Emilia Romagna

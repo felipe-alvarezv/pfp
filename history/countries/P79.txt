@@ -93,17 +93,17 @@ recruit_character = P79_neutrality_leader
 recruit_character = P79_fascism_leader
 
 #Romania Initial States
-add_to_array = { pfp_romania_integration_array = 46 } #Muntenia
-add_to_array = { pfp_romania_integration_array = 79 } #Moldova
-add_to_array = { pfp_romania_integration_array = 81 } #Oltenia
+add_to_array = { P79.pfp_possible_cores = 46 } #Muntenia
+add_to_array = { P79.pfp_possible_cores = 79 } #Moldova
+add_to_array = { P79.pfp_possible_cores = 81 } #Oltenia
 
 #Romania Territories
-add_to_array = { pfp_romania_integration_array = 76 } #North Transylvania
-add_to_array = { pfp_romania_integration_array = 77 } #Dobrudja
-add_to_array = { pfp_romania_integration_array = 78 } #Bessarabia
-add_to_array = { pfp_romania_integration_array = 80 } #Bucovina
-add_to_array = { pfp_romania_integration_array = 82 } #Banat
-add_to_array = { pfp_romania_integration_array = 83 } #Crisana
-add_to_array = { pfp_romania_integration_array = 84 } #Transylvania
-add_to_array = { pfp_romania_integration_array = 766 } #Southern Bessarabia
-add_to_array = { pfp_romania_integration_array = 971 } #Northern Dobrudja
+add_to_array = { P79.pfp_possible_cores = 76 } #North Transylvania
+add_to_array = { P79.pfp_possible_cores = 77 } #Dobrudja
+add_to_array = { P79.pfp_possible_cores = 78 } #Bessarabia
+add_to_array = { P79.pfp_possible_cores = 80 } #Bucovina
+add_to_array = { P79.pfp_possible_cores = 82 } #Banat
+add_to_array = { P79.pfp_possible_cores = 83 } #Crisana
+add_to_array = { P79.pfp_possible_cores = 84 } #Transylvania
+add_to_array = { P79.pfp_possible_cores = 766 } #Southern Bessarabia
+add_to_array = { P79.pfp_possible_cores = 971 } #Northern Dobrudja

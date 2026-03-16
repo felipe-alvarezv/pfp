@@ -93,7 +93,7 @@ recruit_character = Q02_neutrality_leader
 recruit_character = Q02_fascism_leader
 
 #Kanto Initial States
-add_to_array = { pfp_kanto_integration_array = 282 } #Kanto
+add_to_array = { Q02.pfp_possible_cores = 282 } #Kanto
 
 #Kanto Territories
-add_to_array = { pfp_kanto_integration_array = 645 } #Iwo Jima
+add_to_array = { Q02.pfp_possible_cores = 645 } #Iwo Jima

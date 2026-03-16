@@ -93,4 +93,4 @@ recruit_character = P83_neutrality_leader
 recruit_character = P83_fascism_leader
 
 #Iceland Initial States
-add_to_array = { pfp_iceland_integration_array = 100 } #Iceland
+add_to_array = { P83.pfp_possible_cores = 100 } #Iceland

@@ -93,7 +93,7 @@ recruit_character = Q16_neutrality_leader
 recruit_character = Q16_fascism_leader
 
 #Huguang Initial States
-add_to_array = { pfp_huguang_integration_array = 602 } #Hunan
-add_to_array = { pfp_huguang_integration_array = 620 } #Hubei
-add_to_array = { pfp_huguang_integration_array = 750 } #Changde
-add_to_array = { pfp_huguang_integration_array = 1036 } #Wuhan
+add_to_array = { Q16.pfp_possible_cores = 602 } #Hunan
+add_to_array = { Q16.pfp_possible_cores = 620 } #Hubei
+add_to_array = { Q16.pfp_possible_cores = 750 } #Changde
+add_to_array = { Q16.pfp_possible_cores = 1036 } #Wuhan

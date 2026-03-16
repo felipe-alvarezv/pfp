@@ -93,4 +93,4 @@ recruit_character = Q04_neutrality_leader
 recruit_character = Q04_fascism_leader
 
 #Kansai Initial States
-add_to_array = { pfp_kansai_integration_array = 531 } #Kansai
+add_to_array = { Q04.pfp_possible_cores = 531 } #Kansai

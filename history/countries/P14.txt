@@ -94,22 +94,22 @@ recruit_character = P14_neutrality_leader
 recruit_character = P14_fascism_leader
 
 #Greece Initial States
-add_to_array = { pfp_greece_integration_array = 47 } #Attica
-add_to_array = { pfp_greece_integration_array = 185 } #Epirus
-add_to_array = { pfp_greece_integration_array = 186 } #Peloponnese
+add_to_array = { P14.pfp_possible_cores = 47 } #Attica
+add_to_array = { P14.pfp_possible_cores = 185 } #Epirus
+add_to_array = { P14.pfp_possible_cores = 186 } #Peloponnese
 
 #Greece Territories
-add_to_array = { pfp_greece_integration_array = 164 } #Dodecanese
-add_to_array = { pfp_greece_integration_array = 182 } #Crete
-add_to_array = { pfp_greece_integration_array = 183 } #Cyprus
-add_to_array = { pfp_greece_integration_array = 184 } #Thrace
-add_to_array = { pfp_greece_integration_array = 187 } #Aegean Islands
-add_to_array = { pfp_greece_integration_array = 339 } #Izmir
-add_to_array = { pfp_greece_integration_array = 340 } #Bursa
-add_to_array = { pfp_greece_integration_array = 341 } #Edirne
-add_to_array = { pfp_greece_integration_array = 342 } #Antalya
-add_to_array = { pfp_greece_integration_array = 345 } #Mersin
-add_to_array = { pfp_greece_integration_array = 347 } #Izmit
-add_to_array = { pfp_greece_integration_array = 731 } #Central Macedonia
-add_to_array = { pfp_greece_integration_array = 797 } #Istanbul
-add_to_array = { pfp_greece_integration_array = 805 } #Northern Epirus
+add_to_array = { P14.pfp_possible_cores = 164 } #Dodecanese
+add_to_array = { P14.pfp_possible_cores = 182 } #Crete
+add_to_array = { P14.pfp_possible_cores = 183 } #Cyprus
+add_to_array = { P14.pfp_possible_cores = 184 } #Thrace
+add_to_array = { P14.pfp_possible_cores = 187 } #Aegean Islands
+add_to_array = { P14.pfp_possible_cores = 339 } #Izmir
+add_to_array = { P14.pfp_possible_cores = 340 } #Bursa
+add_to_array = { P14.pfp_possible_cores = 341 } #Edirne
+add_to_array = { P14.pfp_possible_cores = 342 } #Antalya
+add_to_array = { P14.pfp_possible_cores = 345 } #Mersin
+add_to_array = { P14.pfp_possible_cores = 347 } #Izmit
+add_to_array = { P14.pfp_possible_cores = 731 } #Central Macedonia
+add_to_array = { P14.pfp_possible_cores = 797 } #Istanbul
+add_to_array = { P14.pfp_possible_cores = 805 } #Northern Epirus

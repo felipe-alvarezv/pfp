@@ -93,13 +93,13 @@ recruit_character = Q08_neutrality_leader
 recruit_character = Q08_fascism_leader
 
 #Manchuria Initial States
-add_to_array = { pfp_manchuria_integration_array = 328 } #Kirin
-add_to_array = { pfp_manchuria_integration_array = 610 } #Jehol
-add_to_array = { pfp_manchuria_integration_array = 714 } #Heilungkiang
-add_to_array = { pfp_manchuria_integration_array = 715 } #Liaobei
-add_to_array = { pfp_manchuria_integration_array = 716 } #Liaoning
-add_to_array = { pfp_manchuria_integration_array = 717 } #Sungkiang
-add_to_array = { pfp_manchuria_integration_array = 761 } #Hulunbuir
+add_to_array = { Q08.pfp_possible_cores = 328 } #Kirin
+add_to_array = { Q08.pfp_possible_cores = 610 } #Jehol
+add_to_array = { Q08.pfp_possible_cores = 714 } #Heilungkiang
+add_to_array = { Q08.pfp_possible_cores = 715 } #Liaobei
+add_to_array = { Q08.pfp_possible_cores = 716 } #Liaoning
+add_to_array = { Q08.pfp_possible_cores = 717 } #Sungkiang
+add_to_array = { Q08.pfp_possible_cores = 761 } #Hulunbuir
 
 #Manchuria Territories
-add_to_array = { pfp_manchuria_integration_array = 745 } #Dalian
+add_to_array = { Q08.pfp_possible_cores = 745 } #Dalian

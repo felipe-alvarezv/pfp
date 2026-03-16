@@ -93,4 +93,4 @@ recruit_character = P90_neutrality_leader
 recruit_character = P90_fascism_leader
 
 #Montenegro Initial States
-add_to_array = { pfp_montenegro_integration_array = 105 } #Montenegro
+add_to_array = { P90.pfp_possible_cores = 105 } #Montenegro

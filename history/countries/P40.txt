@@ -94,14 +94,14 @@ recruit_character = P40_neutrality_leader
 recruit_character = P40_fascism_leader
 
 #Southern Russia Initial Territories
-add_to_array = { pfp_southern_russia_integration_array = 217 } #Stalingrad
-add_to_array = { pfp_southern_russia_integration_array = 218 } #Rostov
-add_to_array = { pfp_southern_russia_integration_array = 236 } #Astrakhan
-add_to_array = { pfp_southern_russia_integration_array = 237 } #Kalmykia
-add_to_array = { pfp_southern_russia_integration_array = 238 } #Volgodonsk
-add_to_array = { pfp_southern_russia_integration_array = 245 } #Millerovo
-add_to_array = { pfp_southern_russia_integration_array = 265 } #Mikhaylovka
+add_to_array = { P40.pfp_possible_cores = 217 } #Stalingrad
+add_to_array = { P40.pfp_possible_cores = 218 } #Rostov
+add_to_array = { P40.pfp_possible_cores = 236 } #Astrakhan
+add_to_array = { P40.pfp_possible_cores = 237 } #Kalmykia
+add_to_array = { P40.pfp_possible_cores = 238 } #Volgodonsk
+add_to_array = { P40.pfp_possible_cores = 245 } #Millerovo
+add_to_array = { P40.pfp_possible_cores = 265 } #Mikhaylovka
 
 #Southern Russia Territories
-add_to_array = { pfp_southern_russia_integration_array = 137 } #Crimea
-add_to_array = { pfp_southern_russia_integration_array = 234 } #Krasnodar
+add_to_array = { P40.pfp_possible_cores = 137 } #Crimea
+add_to_array = { P40.pfp_possible_cores = 234 } #Krasnodar

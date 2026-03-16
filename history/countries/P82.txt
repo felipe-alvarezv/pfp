@@ -93,4 +93,4 @@ recruit_character = P82_neutrality_leader
 recruit_character = P82_fascism_leader
 
 #Wales Initial States
-add_to_array = { pfp_wales_integration_array = 122 } #Wales
+add_to_array = { P82.pfp_possible_cores = 122 } #Wales

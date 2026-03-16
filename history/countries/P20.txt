@@ -94,11 +94,11 @@ recruit_character = P20_neutrality_leader
 recruit_character = P20_fascism_leader
 
 #Northeast U.S. Initial State
-add_to_array = { pfp_northeastern_us_integration_array = 357 } #New England
-add_to_array = { pfp_northeastern_us_integration_array = 358 } #New York
-add_to_array = { pfp_northeastern_us_integration_array = 359 } #New Jersey
-add_to_array = { pfp_northeastern_us_integration_array = 360 } #Pennsylvania
-add_to_array = { pfp_northeastern_us_integration_array = 361 } #Maryland
+add_to_array = { P20.pfp_possible_cores = 357 } #New England
+add_to_array = { P20.pfp_possible_cores = 358 } #New York
+add_to_array = { P20.pfp_possible_cores = 359 } #New Jersey
+add_to_array = { P20.pfp_possible_cores = 360 } #Pennsylvania
+add_to_array = { P20.pfp_possible_cores = 361 } #Maryland
 
 #Northeast U.S. Territories
-add_to_array = { pfp_northeastern_us_integration_array = 816 } #West Virginia
+add_to_array = { P20.pfp_possible_cores = 816 } #West Virginia

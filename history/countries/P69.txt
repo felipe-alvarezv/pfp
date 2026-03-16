@@ -94,12 +94,12 @@ recruit_character = P69_neutrality_leader
 recruit_character = P69_fascism_leader
 
 #Iraq Initial States
-add_to_array = { pfp_iraq_integration_array = 291 } #Baghdad
-add_to_array = { pfp_iraq_integration_array = 675 } #Al Hajara
-add_to_array = { pfp_iraq_integration_array = 1010 } #Al Anbar
-add_to_array = { pfp_iraq_integration_array = 1011 } #Al Basrah
+add_to_array = { P69.pfp_possible_cores = 291 } #Baghdad
+add_to_array = { P69.pfp_possible_cores = 675 } #Al Hajara
+add_to_array = { P69.pfp_possible_cores = 1010 } #Al Anbar
+add_to_array = { P69.pfp_possible_cores = 1011 } #Al Basrah
 
 #Iraq Territories
-add_to_array = { pfp_iraq_integration_array = 413 } #Khuzestan
-add_to_array = { pfp_iraq_integration_array = 656 } #Kuwait
-add_to_array = { pfp_iraq_integration_array = 676 } #Mosul
+add_to_array = { P69.pfp_possible_cores = 413 } #Khuzestan
+add_to_array = { P69.pfp_possible_cores = 656 } #Kuwait
+add_to_array = { P69.pfp_possible_cores = 676 } #Mosul

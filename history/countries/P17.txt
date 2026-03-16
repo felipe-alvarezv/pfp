@@ -94,17 +94,17 @@ recruit_character = P17_neutrality_leader
 recruit_character = P17_fascism_leader
 
 #Indonesia Initial States
-add_to_array = { pfp_indonesia_integration_array = 334 } #Kalimantan
-add_to_array = { pfp_indonesia_integration_array = 335 } #Java
-add_to_array = { pfp_indonesia_integration_array = 667 } #Lesser Sunda Islands
-add_to_array = { pfp_indonesia_integration_array = 668 } #The Moluccas
-add_to_array = { pfp_indonesia_integration_array = 672 } #Sumatra
-add_to_array = { pfp_indonesia_integration_array = 673 } #Sulawesi
-add_to_array = { pfp_indonesia_integration_array = 1022 } #Inner Borneo
+add_to_array = { P17.pfp_possible_cores = 334 } #Kalimantan
+add_to_array = { P17.pfp_possible_cores = 335 } #Java
+add_to_array = { P17.pfp_possible_cores = 667 } #Lesser Sunda Islands
+add_to_array = { P17.pfp_possible_cores = 668 } #The Moluccas
+add_to_array = { P17.pfp_possible_cores = 672 } #Sumatra
+add_to_array = { P17.pfp_possible_cores = 673 } #Sulawesi
+add_to_array = { P17.pfp_possible_cores = 1022 } #Inner Borneo
 
 #Indonesia Territories
-add_to_array = { pfp_indonesia_integration_array = 333 } #North Borneo
-add_to_array = { pfp_indonesia_integration_array = 336 } #Singapore
-add_to_array = { pfp_indonesia_integration_array = 669 } #West Papua
-add_to_array = { pfp_indonesia_integration_array = 721 } #Portuguese Timor
-add_to_array = { pfp_indonesia_integration_array = 738 } #Aru Islands
+add_to_array = { P17.pfp_possible_cores = 333 } #North Borneo
+add_to_array = { P17.pfp_possible_cores = 336 } #Singapore
+add_to_array = { P17.pfp_possible_cores = 669 } #West Papua
+add_to_array = { P17.pfp_possible_cores = 721 } #Portuguese Timor
+add_to_array = { P17.pfp_possible_cores = 738 } #Aru Islands

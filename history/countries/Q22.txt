@@ -93,4 +93,4 @@ recruit_character = Q22_neutrality_leader
 recruit_character = Q22_fascism_leader
 
 #Taiwan Initial States
-add_to_array = { pfp_taiwan_integration_array = 524 } #Taiwan
+add_to_array = { Q22.pfp_possible_cores = 524 } #Taiwan

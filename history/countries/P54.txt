@@ -94,23 +94,23 @@ recruit_character = P54_neutrality_leader
 recruit_character = P54_fascism_leader
 
 #Chile Initial States
-add_to_array = { pfp_chile_integration_array = 279 } #Santiago
-add_to_array = { pfp_chile_integration_array = 952 } #Atacama
+add_to_array = { P54.pfp_possible_cores = 279 } #Santiago
+add_to_array = { P54.pfp_possible_cores = 952 } #Atacama
 
 #Chile Territories
-add_to_array = { pfp_chile_integration_array = 299 } #Falkland Islands
-add_to_array = { pfp_chile_integration_array = 506 } #Antofagasta
-add_to_array = { pfp_chile_integration_array = 507 } #Magallanes
-add_to_array = { pfp_chile_integration_array = 511 } #Mendoza
-add_to_array = { pfp_chile_integration_array = 512 } #Rio Negro
-add_to_array = { pfp_chile_integration_array = 720 } #South Georgia
-add_to_array = { pfp_chile_integration_array = 947 } #Tacna-Moquegua
-add_to_array = { pfp_chile_integration_array = 948 } #Easter Island
-add_to_array = { pfp_chile_integration_array = 949 } #Aysen
-add_to_array = { pfp_chile_integration_array = 950 } #Araucania
-add_to_array = { pfp_chile_integration_array = 951 } #Arica y Tarapaca
-add_to_array = { pfp_chile_integration_array = 953 } #Tierra del Fuego
-add_to_array = { pfp_chile_integration_array = 954 } #Santa Cruz
-add_to_array = { pfp_chile_integration_array = 955 } #Chubut
-add_to_array = { pfp_chile_integration_array = 958 } #San Luis y La Pampa
-add_to_array = { pfp_chile_integration_array = 960 } #San Juan y La Rioja
+add_to_array = { P54.pfp_possible_cores = 299 } #Falkland Islands
+add_to_array = { P54.pfp_possible_cores = 506 } #Antofagasta
+add_to_array = { P54.pfp_possible_cores = 507 } #Magallanes
+add_to_array = { P54.pfp_possible_cores = 511 } #Mendoza
+add_to_array = { P54.pfp_possible_cores = 512 } #Rio Negro
+add_to_array = { P54.pfp_possible_cores = 720 } #South Georgia
+add_to_array = { P54.pfp_possible_cores = 947 } #Tacna-Moquegua
+add_to_array = { P54.pfp_possible_cores = 948 } #Easter Island
+add_to_array = { P54.pfp_possible_cores = 949 } #Aysen
+add_to_array = { P54.pfp_possible_cores = 950 } #Araucania
+add_to_array = { P54.pfp_possible_cores = 951 } #Arica y Tarapaca
+add_to_array = { P54.pfp_possible_cores = 953 } #Tierra del Fuego
+add_to_array = { P54.pfp_possible_cores = 954 } #Santa Cruz
+add_to_array = { P54.pfp_possible_cores = 955 } #Chubut
+add_to_array = { P54.pfp_possible_cores = 958 } #San Luis y La Pampa
+add_to_array = { P54.pfp_possible_cores = 960 } #San Juan y La Rioja

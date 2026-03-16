@@ -94,17 +94,17 @@ recruit_character = P52_neutrality_leader
 recruit_character = P52_fascism_leader
 
 #Himalayas Initial States
-add_to_array = { pfp_himalayas_integration_array = 322 } #Nagqu
-add_to_array = { pfp_himalayas_integration_array = 757 } #Shigatse
-add_to_array = { pfp_himalayas_integration_array = 758 } #Ngari
+add_to_array = { P52.pfp_possible_cores = 322 } #Nagqu
+add_to_array = { P52.pfp_possible_cores = 757 } #Shigatse
+add_to_array = { P52.pfp_possible_cores = 758 } #Ngari
 
 #Himalayas Territories
-add_to_array = { pfp_himalayas_integration_array = 323 } #Nepal
-add_to_array = { pfp_himalayas_integration_array = 324 } #Bhutan
-add_to_array = { pfp_himalayas_integration_array = 432 } #Assam
-add_to_array = { pfp_himalayas_integration_array = 434 } #Arunachal Pradesh
-add_to_array = { pfp_himalayas_integration_array = 441 } #Kashmir
-add_to_array = { pfp_himalayas_integration_array = 601 } #Xikang
-add_to_array = { pfp_himalayas_integration_array = 787 } #Northern Kashmir
-add_to_array = { pfp_himalayas_integration_array = 985 } #Sikkim
-add_to_array = { pfp_himalayas_integration_array = 990 } #Manipur
+add_to_array = { P52.pfp_possible_cores = 323 } #Nepal
+add_to_array = { P52.pfp_possible_cores = 324 } #Bhutan
+add_to_array = { P52.pfp_possible_cores = 432 } #Assam
+add_to_array = { P52.pfp_possible_cores = 434 } #Arunachal Pradesh
+add_to_array = { P52.pfp_possible_cores = 441 } #Kashmir
+add_to_array = { P52.pfp_possible_cores = 601 } #Xikang
+add_to_array = { P52.pfp_possible_cores = 787 } #Northern Kashmir
+add_to_array = { P52.pfp_possible_cores = 985 } #Sikkim
+add_to_array = { P52.pfp_possible_cores = 990 } #Manipur

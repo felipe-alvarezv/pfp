@@ -94,17 +94,17 @@ recruit_character = P25_neutrality_leader
 recruit_character = P25_fascism_leader
 
 #South Germany Initial States
-add_to_array = { pfp_south_germany_integration_array = 50 } #Wurttemberg
-add_to_array = { pfp_south_germany_integration_array = 52 } #Oberbayern
-add_to_array = { pfp_south_germany_integration_array = 53 } #Niederbayern
-add_to_array = { pfp_south_germany_integration_array = 54 } #Franken
-add_to_array = { pfp_south_germany_integration_array = 978 } #Baden
+add_to_array = { P25.pfp_possible_cores = 50 } #Wurttemberg
+add_to_array = { P25.pfp_possible_cores = 52 } #Oberbayern
+add_to_array = { P25.pfp_possible_cores = 53 } #Niederbayern
+add_to_array = { P25.pfp_possible_cores = 54 } #Franken
+add_to_array = { P25.pfp_possible_cores = 978 } #Baden
 
 #South Germany Territories
-add_to_array = { pfp_south_germany_integration_array = 4 } #Lower Austria
-add_to_array = { pfp_south_germany_integration_array = 39 } #Alto Adige
-add_to_array = { pfp_south_germany_integration_array = 102 } #North Slovenia
-add_to_array = { pfp_south_germany_integration_array = 152 } #Upper Austria
-add_to_array = { pfp_south_germany_integration_array = 153 } #Tyrol
-add_to_array = { pfp_south_germany_integration_array = 848 } #Vorarlberg
-add_to_array = { pfp_south_germany_integration_array = 853 } #Ljubljana
+add_to_array = { P25.pfp_possible_cores = 4 } #Lower Austria
+add_to_array = { P25.pfp_possible_cores = 39 } #Alto Adige
+add_to_array = { P25.pfp_possible_cores = 102 } #North Slovenia
+add_to_array = { P25.pfp_possible_cores = 152 } #Upper Austria
+add_to_array = { P25.pfp_possible_cores = 153 } #Tyrol
+add_to_array = { P25.pfp_possible_cores = 848 } #Vorarlberg
+add_to_array = { P25.pfp_possible_cores = 853 } #Ljubljana

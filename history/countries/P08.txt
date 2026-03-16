@@ -94,13 +94,13 @@ recruit_character = P08_neutrality_leader
 recruit_character = P08_fascism_leader
 
 #Central America Initial States
-add_to_array = { pfp_central_america_integration_array = 304 } #Panama
-add_to_array = { pfp_central_america_integration_array = 312 } #Honduras
-add_to_array = { pfp_central_america_integration_array = 313 } #Guatemala
-add_to_array = { pfp_central_america_integration_array = 314 } #EL Salvador
-add_to_array = { pfp_central_america_integration_array = 316 } #Costa Rica
-add_to_array = { pfp_central_america_integration_array = 317 } #Nicaragua
+add_to_array = { P08.pfp_possible_cores = 304 } #Panama
+add_to_array = { P08.pfp_possible_cores = 312 } #Honduras
+add_to_array = { P08.pfp_possible_cores = 313 } #Guatemala
+add_to_array = { P08.pfp_possible_cores = 314 } #EL Salvador
+add_to_array = { P08.pfp_possible_cores = 316 } #Costa Rica
+add_to_array = { P08.pfp_possible_cores = 317 } #Nicaragua
 
 #Central America Territories
-add_to_array = { pfp_central_america_integration_array = 311 } #British Honduras
-add_to_array = { pfp_central_america_integration_array = 685 } #Panama Canal
+add_to_array = { P08.pfp_possible_cores = 311 } #British Honduras
+add_to_array = { P08.pfp_possible_cores = 685 } #Panama Canal

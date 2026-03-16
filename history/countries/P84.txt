@@ -93,4 +93,4 @@ recruit_character = P84_neutrality_leader
 recruit_character = P84_fascism_leader
 
 #Northern Ireland Initial States
-add_to_array = { pfp_northern_ireland_integration_array = 119 } #Northern Ireland
+add_to_array = { P84.pfp_possible_cores = 119 } #Northern Ireland
