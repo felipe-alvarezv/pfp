@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = pfp_autonomy_military_occupation_colour
+	id = pfp_autonomy_military_occupation_color
 
 	default = no
 	is_puppet = no
@@ -36,11 +36,11 @@ autonomy_state = {
 	allowed = {
 		OR = {
 			is_subject = no
-			has_autonomy_state = pfp_autonomy_military_occupation_colour
+			has_autonomy_state = pfp_autonomy_military_occupation_color
 		}
 	}
 
-	allowed_levels_filter = { pfp_autonomy_military_occupation_colour }
+	allowed_levels_filter = { pfp_autonomy_military_occupation_color }
 	can_take_level = { always = no }
 	can_lose_level = { always = no }
 }

@@ -6,12 +6,12 @@ l_russian:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Управление"
 	pfp_puppet_management_desc:0 "После установления военной оккупации нам, возможно, потребуется внести коррективы в управление и его территории."
 	pfp_management_window:0 "Открыть меню управления"
-	pfp_management_coloured_puppets:0 "Переключить цвета марионеток сюзерена"
+	pfp_management_colored_puppets:0 "Переключить цвета марионеток сюзерена"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "Военная оккупация"
-	pfp_autonomy_military_occupation_colour:0 "Военная оккупация"
+	pfp_autonomy_military_occupation_color:0 "Военная оккупация"
 
 	pfp_management_textbox_title:0 "Управление PFP"
 	pfp_management_textbox_view_puppets:0 "Просмотр марионеток"

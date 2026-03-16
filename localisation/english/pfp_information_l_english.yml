@@ -4,17 +4,17 @@ l_english:
 	pfp_category_desc:0 "As we gain more territory, it has become a complicated problem to administer all of it. To address this problem, puppet governments loyal to our nation should be established in the regions we have conquered. This will allow us to place our attention elsewhere, while the region helps our cause."
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
-	pfp_puppet_management_desc:0 "After establishing our military occupation, we may need to make adjustments regarding the administration and its territories.\n\n§YResistance Mechanics:§! [pfp_resistance_mechanics_status]"
+	pfp_puppet_management_desc:0 "After establishing our military occupation, we may need to make adjustments regarding the administration and its territories.\n\n§YUse Overlord Color:§! [pfp_xx]\n§YResistance Mechanics:§! [pfp_resistance_mechanics_status]"
 	pfp_resistance_mechanics_enabled:0 "Enabled"
 	pfp_resistance_mechanics_disabled:0 "Disabled"
 
 	pfp_management_window:0 "Open Management Menu"
-	pfp_management_coloured_puppets:0 "Toggle Overlord Coloured Puppets"
+	pfp_management_colored_puppets:0 "Toggle Overlord Colored Puppets"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "Military Occupation"
-	pfp_autonomy_military_occupation_colour:0 "Military Occupation"
+	pfp_autonomy_military_occupation_color:0 "Military Occupation"
 
 	pfp_management_textbox_title:0 "PFP Management"
 	pfp_management_textbox_view_puppets:0 "View Puppets"

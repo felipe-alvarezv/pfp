@@ -6,12 +6,12 @@ l_japanese:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - 管理"
 	pfp_puppet_management_desc:0 "軍事占領を確立した後、行政とその領土に関して調整が必要になる場合があります。"
 	pfp_management_window:0 "管理メニューを開く"
-	pfp_management_coloured_puppets:0 "宗主国色の傀儡国家表示を切り替え"
+	pfp_management_colored_puppets:0 "宗主国色の傀儡国家表示を切り替え"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "軍事占領"
-	pfp_autonomy_military_occupation_colour:0 "軍事占領"
+	pfp_autonomy_military_occupation_color:0 "軍事占領"
 
 	pfp_management_textbox_title:0 "PFP管理"
 	pfp_management_textbox_view_puppets:0 "傀儡国家を表示"

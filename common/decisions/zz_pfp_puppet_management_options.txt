@@ -16,7 +16,7 @@ pfp_puppet_management = {
 	}
 
 	#Decision to toggle the color of the "Military Occupation"
-	pfp_management_coloured_puppets = {
+	pfp_management_colored_puppets = {
 		icon = generic_industry
 
 		available = {
@@ -28,26 +28,26 @@ pfp_puppet_management = {
 		complete_effect = {
 			hidden_effect = {
 				if = {
-					limit = { has_global_flag = pfp_autonomy_military_occupation_colour_on } #Check if overlord color is toggled off
+					limit = { has_global_flag = pfp_use_overlord_color } #Check if overlord color is toggled off
 					
-					clr_global_flag = pfp_autonomy_military_occupation_colour_on
+					clr_global_flag = pfp_use_overlord_color
 					
 					every_country = {
 						every_subject_country = {
-							limit = { has_autonomy_state = pfp_autonomy_military_occupation_colour }
+							limit = { has_autonomy_state = pfp_autonomy_military_occupation_color }
 							set_temp_variable = { target_military_occupation = THIS }
 							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } } #Toggle overlord color off
 						}
 					}
 				}
 				else = { 
-					set_global_flag = pfp_autonomy_military_occupation_colour_on
+					set_global_flag = pfp_use_overlord_color
 
 					every_country = {
 						every_subject_country = {
 							limit = { has_autonomy_state = pfp_autonomy_military_occupation }
 							set_temp_variable = { target_military_occupation = THIS }
-							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_colour } } #Toggle overlord color on
+							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_color } } #Toggle overlord color on
 						}
 					}
 				}
@@ -83,27 +83,15 @@ pfp_puppet_management = {
 	#Decision for formable puppet AI to core states with compliance > 80 and resistance < 20
 	pfp_management_puppet_core_state = {
 		available = {
-			#If resistance is enabled
-			if = {
-				limit = { has_global_flag = pfp_management_resistance_enabled }
-				all_controlled_state = {
-					is_in_array = {
-						array = ROOT.pfp_possible_cores
-						value = THIS.id
-					}
-					NOT = { is_core_of = ROOT }
+			any_state_in = {
+				array = ROOT.pfp_possible_cores
+				is_fully_controlled_by = ROOT
+				NOT = { is_core_of = ROOT }
+
+				if = {
+					limit = { has_global_flag = pfp_management_resistance_enabled }
 					compliance > 80
 					resistance < 20
-				}
-			}
-			#If resistance is disabled
-			else = {
-				all_controlled_state = {
-					is_in_array = {
-						array = ROOT.pfp_possible_cores
-						value = THIS.id
-					}
-					NOT = { is_core_of = ROOT }
 				}
 			}
 		}
@@ -111,33 +99,26 @@ pfp_puppet_management = {
 		visible = {
 			OR = {
 				has_autonomy_state = pfp_autonomy_military_occupation
-				has_autonomy_state = pfp_autonomy_military_occupation_colour
+				has_autonomy_state = pfp_autonomy_military_occupation_color
 			}
 		}
-
+		
 		fire_only_once = no
 
 		complete_effect = {
 			hidden_effect = {
-				if = {
-					every_controlled_state = {
+				for_each_scope_loop = {
+					array = ROOT.pfp_possible_cores
+
+					if = {
 						limit = {
-							is_in_array = {
-								array = ROOT.pfp_possible_cores
-								value = THIS.id
-							}
-							compliance > 80
-							resistance < 20
-						}
-						add_core_of = ROOT
-					}
-				}
-				else = {
-					every_controlled_state = {
-						limit = {
-							is_in_array = {
-								array = ROOT.pfp_possible_cores
-								value = THIS.id
+							is_fully_controlled_by = ROOT
+							NOT = { is_core_of = ROOT }
+
+							if = {
+								limit = { has_global_flag = pfp_management_resistance_enabled }
+								compliance > 80
+								resistance < 20
 							}
 						}
 						add_core_of = ROOT
