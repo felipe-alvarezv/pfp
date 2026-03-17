@@ -6,7 +6,7 @@ l_spanish:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Gestión"
 	pfp_puppet_management_desc:0 "Tras establecer nuestra ocupación militar, es posible que necesitemos realizar ajustes en la administración y sus territorios."
 	pfp_management_window:0 "Abrir menú de gestión"
-	pfp_management_colored_puppets:0 "Alternar estados títeres con color del señor supremo"
+	pfp-management_use_overlord_color:0 "Alternar estados títeres con color del señor supremo"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 

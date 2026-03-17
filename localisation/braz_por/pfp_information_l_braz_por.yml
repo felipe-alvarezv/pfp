@@ -6,7 +6,7 @@ l_braz_por:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Gerenciamento"
 	pfp_puppet_management_desc:0 "Após estabelecer nossa ocupação militar, pode ser necessário fazer ajustes em relação à administração e seus territórios."
 	pfp_management_window:0 "Abrir menu de gerenciamento"
-	pfp_management_colored_puppets:0 "Alternar fantoches com a cor do soberano"
+	pfp-management_use_overlord_color:0 "Alternar fantoches com a cor do soberano"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 

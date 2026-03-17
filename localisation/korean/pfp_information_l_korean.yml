@@ -6,7 +6,7 @@ l_korean:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - 관리"
 	pfp_puppet_management_desc:0 "군사 점령을 수립한 후, 행정과 그 영토에 관한 조정이 필요할 수 있습니다."
 	pfp_management_window:0 "관리 메뉴 열기"
-	pfp_management_colored_puppets:0 "종주국 색상 괴뢰국가 표시 전환"
+	pfp-management_use_overlord_color:0 "종주국 색상 괴뢰국가 표시 전환"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 

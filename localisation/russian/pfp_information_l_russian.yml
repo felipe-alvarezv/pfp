@@ -6,7 +6,7 @@ l_russian:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Управление"
 	pfp_puppet_management_desc:0 "После установления военной оккупации нам, возможно, потребуется внести коррективы в управление и его территории."
 	pfp_management_window:0 "Открыть меню управления"
-	pfp_management_colored_puppets:0 "Переключить цвета марионеток сюзерена"
+	pfp-management_use_overlord_color:0 "Переключить цвета марионеток сюзерена"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 

@@ -6,10 +6,20 @@ l_english:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
 	pfp_puppet_management_desc:0 "After establishing our military occupation, we may need to make adjustments regarding the administration and its territories.\n\n§YUse Overlord Color:§! [pfp_use_overlord_color_status]\n§YResistance Mechanics:§! [pfp_resistance_mechanics_status]"
 	pfp_management_option_enabled:0 "Enabled"
-	pfp_resistance_option_disabled:0 "Disabled"
+	pfp_management_option_disabled:0 "Disabled"
 
 	pfp_management_window:0 "Open Management Menu"
-	pfp_management_colored_puppets:0 "Toggle Overlord Colored Puppets"
+	pfp-management_use_overlord_color:0 "Toggle Use Overlord Color"
+	pfp-management_use_overlord_color_tooltip:0 "All player controlled countries are at peace."
+
+	pfp_management_resistance:0 "Toggle Resistance Mechanics"
+	pfp_management_resistance_desc:0 "This decision enables or disables the resistance mechanics. If enabled, formable puppets will not get cores and will have to complete focuses and decisions to raise compliance and lower resistance. A state will be cored once compliance is above 80% and resistance is below 20%."
+
+	pfp_management_puppet_core_state:0 "Core Pacified States"
+	pfp_management_puppet_core_state_desc:0 "This decision will add cores to all pacified states for the current formable puppet."
+	pfp_management_puppet_core_state_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "All of the following must be true:\n      Fully controls any possible core.\n      Any possible core is not core of §Y[ROOT.GetName]§!.\n      Any possible core has more than 80% compliance.\n      Any possible core has less than 20% resistance."
+	pfp_puppet_core_status_resistance_disabled:0 "All of the following must be true:\n      Fully controls any possible core.\n      Any possible core is not core of §Y[ROOT.GetName]§!."
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
@@ -54,6 +64,3 @@ l_english:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Unselect all previously selected states."
 	pfp_state_transfer_tooltip_close_button:0 "Close the state transfer interface."
-
-	pfp_management_resistance:0 "Toggle Resistance Mechanics"
-	pfp_management_resistance_desc:0 "This decision enables or disables the resistance mechanics. If enabled, formable puppets will not get cores and will have to complete focuses and decisions to raise compliance and lower resistance. A state will be cored once compliance is above 80% and resistance is below 20%."

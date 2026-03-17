@@ -6,7 +6,7 @@ l_french:
 	pfp_puppet_management:0 "Marionnettes formables de Pipe - Gestion"
 	pfp_puppet_management_desc:0 "Après avoir établi notre occupation militaire, nous pourrions avoir besoin d’apporter des ajustements concernant l’administration et ses territoires."
 	pfp_management_window:0 "Ouvrir le menu de gestion"
-	pfp_management_colored_puppets:0 "Basculer les marionnettes aux couleurs du suzerain"
+	pfp-management_use_overlord_color:0 "Basculer les marionnettes aux couleurs du suzerain"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 

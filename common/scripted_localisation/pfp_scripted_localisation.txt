@@ -7,7 +7,7 @@ defined_text = {
         localization_key = pfp_management_option_enabled
     }
     text = {
-        localization_key = pfp_resistance_option_disabled
+        localization_key = pfp_management_option_disabled
     }
 }
 
@@ -20,6 +20,19 @@ defined_text = {
         localization_key = pfp_management_option_enabled
     }
     text = {
-        localization_key = pfp_resistance_option_disabled
+        localization_key = pfp_management_option_disabled
+    }
+}
+
+defined_text = {
+    name = pfp_puppet_core_resistance_status
+    text = {
+        trigger = {
+            has_global_flag = pfp_management_resistance_enabled
+        }
+        localization_key = pfp_puppet_core_status_resistance_enabled
+    }
+    text = {
+        localization_key = pfp_puppet_core_status_resistance_disabled
     }
 }

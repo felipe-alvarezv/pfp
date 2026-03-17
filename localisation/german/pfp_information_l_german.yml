@@ -6,7 +6,7 @@ l_german:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Verwaltung"
 	pfp_puppet_management_desc:0 "Nach der Errichtung unserer Militärbesatzung müssen wir möglicherweise Anpassungen in Bezug auf die Verwaltung und ihre Gebiete vornehmen."
 	pfp_management_window:0 "Verwaltungsmenü öffnen"
-	pfp_management_colored_puppets:0 "Vasallen in Oberherrn-Farbe umschalten"
+	pfp-management_use_overlord_color:0 "Vasallen in Oberherrn-Farbe umschalten"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
