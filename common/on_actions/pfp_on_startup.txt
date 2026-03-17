@@ -2,6 +2,7 @@ on_actions = {
     #Pipe's Formable Puppets - Enable resistance by default
     on_startup = {
         effect = {
+            set_global_flag = pfp_use_overlord_color
             set_global_flag = pfp_management_resistance_enabled
         }
     }

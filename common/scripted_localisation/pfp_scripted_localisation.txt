@@ -4,9 +4,22 @@ defined_text = {
         trigger = {
             has_global_flag = pfp_management_resistance_enabled
         }
-        localization_key = pfp_resistance_mechanics_enabled
+        localization_key = pfp_management_option_enabled
     }
     text = {
-        localization_key = pfp_resistance_mechanics_disabled
+        localization_key = pfp_resistance_option_disabled
+    }
+}
+
+defined_text = {
+    name = pfp_use_overlord_color_status
+    text = {
+        trigger = {
+            has_global_flag = pfp_use_overlord_color
+        }
+        localization_key = pfp_management_option_enabled
+    }
+    text = {
+        localization_key = pfp_resistance_option_disabled
     }
 }

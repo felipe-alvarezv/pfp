@@ -15,7 +15,7 @@ pfp_puppet_management = {
 		ai_will_do = { factor = 0 }
 	}
 
-	#Decision to toggle the color of the "Military Occupation"
+	#Decision to use overlord color
 	pfp_management_colored_puppets = {
 		icon = generic_industry
 
@@ -28,26 +28,26 @@ pfp_puppet_management = {
 		complete_effect = {
 			hidden_effect = {
 				if = {
-					limit = { has_global_flag = pfp_use_overlord_color } #Check if overlord color is toggled off
+					limit = { NOT = { has_global_flag = pfp_use_overlord_color } } #If use overlord color is disabled
 					
-					clr_global_flag = pfp_use_overlord_color
+					set_global_flag = pfp_use_overlord_color #Set the flag to enable use overlord color
 					
 					every_country = {
 						every_subject_country = {
-							limit = { has_autonomy_state = pfp_autonomy_military_occupation_color }
+							limit = { has_autonomy_state = pfp_autonomy_military_occupation_painted } #Check if autonomy is not using overlord color
 							set_temp_variable = { target_military_occupation = THIS }
-							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } } #Toggle overlord color off
+							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } }
 						}
 					}
 				}
-				else = { 
-					set_global_flag = pfp_use_overlord_color
+				else = { #If use overlord color is enabled
+					clr_global_flag = pfp_use_overlord_color #Clear the flag to disable use overlord color
 
 					every_country = {
 						every_subject_country = {
-							limit = { has_autonomy_state = pfp_autonomy_military_occupation }
+							limit = { has_autonomy_state = pfp_autonomy_military_occupation } #Check if autonomy is using overlord color
 							set_temp_variable = { target_military_occupation = THIS }
-							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_color } } #Toggle overlord color on
+							overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_painted } }
 						}
 					}
 				}
@@ -99,7 +99,7 @@ pfp_puppet_management = {
 		visible = {
 			OR = {
 				has_autonomy_state = pfp_autonomy_military_occupation
-				has_autonomy_state = pfp_autonomy_military_occupation_color
+				has_autonomy_state = pfp_autonomy_military_occupation_painted
 			}
 		}
 		

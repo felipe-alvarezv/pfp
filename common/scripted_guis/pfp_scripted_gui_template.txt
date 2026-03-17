@@ -19,7 +19,7 @@ scripted_gui = {
 				any_subject_country = {
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_color
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
 				}
 			}
@@ -46,7 +46,7 @@ scripted_gui = {
 					limit = {
 						OR = {
 							has_autonomy_state = pfp_autonomy_military_occupation
-							has_autonomy_state = pfp_autonomy_military_occupation_color
+							has_autonomy_state = pfp_autonomy_military_occupation_painted
 						}
 					}
 					add_to_array = {
@@ -332,7 +332,7 @@ scripted_gui = {
 								is_subject_of = ROOT
 								OR = {
 									has_autonomy_state = pfp_autonomy_military_occupation
-									has_autonomy_state = pfp_autonomy_military_occupation_color
+									has_autonomy_state = pfp_autonomy_military_occupation_painted
 								}
 							}
 							THIS = { is_owned_and_controlled_by = owner }

@@ -11,7 +11,7 @@ l_french:
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "Occupation militaire"
-	pfp_autonomy_military_occupation_color:0 "Occupation militaire"
+	pfp_autonomy_military_occupation_painted:0 "Occupation militaire"
 
 	pfp_management_textbox_title:0 "Gestion PFP"
 	pfp_management_textbox_view_puppets:0 "Voir les marionnettes"
