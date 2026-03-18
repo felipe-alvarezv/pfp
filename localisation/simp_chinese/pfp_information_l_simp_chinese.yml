@@ -6,7 +6,7 @@ l_simp_chinese:
 	pfp_puppet_management:0 "管道可塑形傀儡-管理"
 	pfp_puppet_management_desc:0 "在确立我们的军事占领之后，我们可能需要对行政和领土做出调整。"
 	pfp_management_window:0 "打开管理菜单"
-	pfp-management_use_overlord_color:0 "切换宗主国彩色傀儡"
+	pfp_management_use_overlord_color:0 "切换宗主国彩色傀儡"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 

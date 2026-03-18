@@ -6,7 +6,7 @@ l_polish:
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Zarządzanie"
 	pfp_puppet_management_desc:0 "Po ustanowieniu okupacji wojskowej może być konieczne wprowadzenie zmian dotyczących administracji i jej terytoriów."
 	pfp_management_window:0 "Otwórz menu zarządzania"
-	pfp-management_use_overlord_color:0 "Przełącz kolory marionetek suzerena"
+	pfp_management_use_overlord_color:0 "Przełącz kolory marionetek suzerena"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 

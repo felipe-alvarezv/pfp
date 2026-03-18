@@ -16,12 +16,12 @@ pfp_puppet_management = {
 	}
 
 	#Decision to use overlord color
-	pfp-management_use_overlord_color = {
+	pfp_management_use_overlord_color = {
 		icon = generic_industry
 
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = pfp-management_use_overlord_color_tooltip
+				tooltip = pfp_management_use_overlord_color_tooltip
 				all_country = {
 					if = {
 						limit = { is_ai = no }
@@ -86,13 +86,14 @@ pfp_puppet_management = {
 				}
 			}
 		}
+		ai_will_do = { factor = 0 }
 	}
-
+	
 	#Decision for formable puppet AI to core states with compliance > 80 and resistance < 20
 	pfp_management_puppet_core_state = {
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = pfp_management_puppet_core_state_tooltip
+				tooltip = pfp_management_puppet_core_state_trigger_tooltip
 				any_state_in = {
 					array = ROOT.pfp_possible_cores
 					is_fully_controlled_by = ROOT
@@ -117,7 +118,8 @@ pfp_puppet_management = {
 		fire_only_once = no
 
 		complete_effect = {
-			hidden_effect = {
+			custom_effect_tooltip  = pfp_management_puppet_core_state_effect_tooltip
+			hidden_effect  = {
 				for_each_scope_loop = {
 					array = ROOT.pfp_possible_cores
 
@@ -137,5 +139,6 @@ pfp_puppet_management = {
 				}
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 }
