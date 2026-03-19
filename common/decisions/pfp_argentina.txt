@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_argentina = {
 		allowed = {
 			NOT = {
@@ -69,9 +69,10 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_core_states
-			custom_effect_tooltip = pfp_argentina_transfer_states
+			custom_effect_tooltip = pfp_argentina_transfer_capital
 			custom_effect_tooltip = pfp_argentina_puppet
+			custom_effect_tooltip = pfp_argentina_occupation_type
+			custom_effect_tooltip = pfp_argentina_state_controller
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {

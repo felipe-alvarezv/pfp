@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
     pfp_northern_ireland = {
         allowed = {
             NOT = {
@@ -27,9 +27,10 @@ pfp_category = {
         }
         icon = generic_military
         complete_effect = {
-            custom_effect_tooltip = pfp_northern_ireland_core_states
-            custom_effect_tooltip = pfp_northern_ireland_transfer_states
+            custom_effect_tooltip = pfp_northern_ireland_transfer_capital
             custom_effect_tooltip = pfp_northern_ireland_puppet
+            custom_effect_tooltip = pfp_northern_ireland_occupation_type
+            custom_effect_tooltip = pfp_northern_ireland_state_controller
 
             #Create formable puppet with all its states and then puppet
             hidden_effect = {

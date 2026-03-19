@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_finland = {
 		allowed = {
 			NOT = {
@@ -83,9 +83,10 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_finland_core_states
-			custom_effect_tooltip = pfp_finland_transfer_states
+			custom_effect_tooltip = pfp_finland_transfer_capital
 			custom_effect_tooltip = pfp_finland_puppet
+			custom_effect_tooltip = pfp_finland_occupation_type
+			custom_effect_tooltip = pfp_finland_state_controller
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {

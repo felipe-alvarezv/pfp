@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_northern_france = {
 		allowed = {
 			NOT = {
@@ -61,9 +61,10 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_northern_france_core_states
-			custom_effect_tooltip = pfp_northern_france_transfer_states
+			custom_effect_tooltip = pfp_northern_france_transfer_capital
 			custom_effect_tooltip = pfp_northern_france_puppet
+			custom_effect_tooltip = pfp_northern_france_occupation_type
+			custom_effect_tooltip = pfp_northern_france_state_controller
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {

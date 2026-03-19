@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
     pfp_tibet = {
         allowed = {
             NOT = {
@@ -49,9 +49,10 @@ pfp_category = {
         }
         icon = generic_military
         complete_effect = {
-            custom_effect_tooltip = pfp_tibet_core_states
-            custom_effect_tooltip = pfp_tibet_transfer_states
+            custom_effect_tooltip = pfp_tibet_transfer_capital
             custom_effect_tooltip = pfp_tibet_puppet
+            custom_effect_tooltip = pfp_tibet_occupation_type
+            custom_effect_tooltip = pfp_tibet_state_controller
 
             #Create formable puppet with all its states and then puppet
             hidden_effect = {

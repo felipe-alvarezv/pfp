@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
     pfp_taiwan = {
         allowed = {
             NOT = {
@@ -28,9 +28,10 @@ pfp_category = {
         }
         icon = generic_military
         complete_effect = {
-            custom_effect_tooltip = pfp_taiwan_core_states
-            custom_effect_tooltip = pfp_taiwan_transfer_states
+            custom_effect_tooltip = pfp_taiwan_transfer_capital
             custom_effect_tooltip = pfp_taiwan_puppet
+            custom_effect_tooltip = pfp_taiwan_occupation_type
+            custom_effect_tooltip = pfp_taiwan_state_controller
 
             #Create formable puppet with all its states and then puppet
             hidden_effect = {
