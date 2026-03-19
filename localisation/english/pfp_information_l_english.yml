@@ -22,6 +22,8 @@ l_english:
 	pfp_puppet_core_status_resistance_disabled:0 "All of the following must be true:\n      Fully controls any possible core.\n      Any possible core is not core of §Y[ROOT.GetName]§!."
 	pfp_management_puppet_core_state_effect_tooltip:0 "Any possible core meeting the previous requirements will be cored."
 
+	pfp_contest_state_tooltip:0 "contention"
+	pfp_core_state_tooltip:0 "cores"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 

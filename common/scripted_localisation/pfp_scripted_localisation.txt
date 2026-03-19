@@ -36,3 +36,16 @@ defined_text = {
         localization_key = pfp_puppet_core_status_resistance_disabled
     }
 }
+
+defined_text = {
+    name = pfp_contest_or_core_status
+    text = {
+        trigger = {
+            has_global_flag = pfp_management_resistance_enabled
+        }
+        localization_key = pfp_contest_state_tooltip
+    }
+    text = {
+        localization_key = pfp_core_state_tooltip
+    }
+}
