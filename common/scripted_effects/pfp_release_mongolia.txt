@@ -29,7 +29,7 @@ pfp_release_mongolia = {
 			}
 
 			#Set custom focus tree to combat resistance
-			set_focus_tree = pfp_formable_puppet_focus
+			P47 = { set_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {
