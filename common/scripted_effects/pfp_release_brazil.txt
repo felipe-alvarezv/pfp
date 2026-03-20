@@ -29,6 +29,7 @@ pfp_release_brazil = {
 			943 = { add_contested_owner  = P57 } #Espirito Santo
 			944 = { add_contested_owner  = P57 } #Parana
 			969 = { add_contested_owner  = P57 } #Rio Branco
+
 			#Impassable Amazon Territories
 			961 = { add_contested_owner  = P57 } #Amazon
 			962 = { add_contested_owner  = P57 } #Amazon
@@ -54,6 +55,9 @@ pfp_release_brazil = {
 					set_state_controller_to  = P57
 				}
 			}
+
+			#Set custom focus tree to combat resistance
+			set_focus_tree = pfp_formable_puppet_focus
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

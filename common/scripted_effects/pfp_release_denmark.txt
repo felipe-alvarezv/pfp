@@ -24,6 +24,9 @@ pfp_release_denmark = {
 					set_state_controller_to  = P61
 				}
 			}
+
+			#Set custom focus tree to combat resistance
+			set_focus_tree = pfp_formable_puppet_focus
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {
