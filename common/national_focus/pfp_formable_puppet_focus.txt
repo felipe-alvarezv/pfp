@@ -1,0 +1,31 @@
+focus_tree = {
+    id = pfp_formable_puppet_focus
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 100
+            has_autonomy_state = pfp_autonomy_military_occupation
+        }
+
+        modifier = {
+            add = 100
+            has_autonomy_state = pfp_autonomy_military_occupation_painted
+        }
+    }
+    reset_on_civilwar = no
+    continuous_focus_position = { x = 1200 y = 100 }
+    #initial_show_position = { focus = xx }
+
+
+    focus = {
+        id = pfp_reorganize_the_administration
+        x = 5
+        y = 0
+        
+        cost = 10
+
+        completion_reward = { }
+    }
+
+}
