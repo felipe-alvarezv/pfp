@@ -31,7 +31,7 @@ pfp_release_western_canada = {
 			}
 
 			#Set custom focus tree to combat resistance
-			P29 = { set_focus_tree = pfp_formable_puppet_focus }
+			P29 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

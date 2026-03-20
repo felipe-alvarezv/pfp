@@ -32,7 +32,7 @@ pfp_release_turkey = {
 			}
 
 			#Set custom focus tree to combat resistance
-			P68 = { set_focus_tree = pfp_formable_puppet_focus }
+			P68 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

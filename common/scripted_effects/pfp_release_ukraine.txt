@@ -33,7 +33,7 @@ pfp_release_ukraine = {
 			}
 
 			#Set custom focus tree to combat resistance
-			P66 = { set_focus_tree = pfp_formable_puppet_focus }
+			P66 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

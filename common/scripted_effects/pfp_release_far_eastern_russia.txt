@@ -36,7 +36,7 @@ pfp_release_far_eastern_russia = {
 			}
 
 			#Set custom focus tree to combat resistance
-			P46 = { set_focus_tree = pfp_formable_puppet_focus }
+			P46 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

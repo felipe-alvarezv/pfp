@@ -31,7 +31,7 @@ pfp_release_liangjiang = {
 			}
 
 			#Set custom focus tree to combat resistance
-			Q14 = { set_focus_tree = pfp_formable_puppet_focus }
+			Q14 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

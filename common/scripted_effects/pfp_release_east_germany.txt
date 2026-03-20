@@ -29,7 +29,7 @@ pfp_release_east_germany = {
 			}
 
 			#Set custom focus tree to combat resistance
-			P32 = { set_focus_tree = pfp_formable_puppet_focus }
+			P32 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

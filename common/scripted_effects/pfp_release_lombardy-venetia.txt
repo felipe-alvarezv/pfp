@@ -26,7 +26,7 @@ pfp_release_lombardy-venetia = {
 			}
 
 			#Set custom focus tree to combat resistance
-			P92 = { set_focus_tree = pfp_formable_puppet_focus }
+			P92 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

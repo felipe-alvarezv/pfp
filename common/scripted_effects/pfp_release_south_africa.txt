@@ -28,7 +28,7 @@ pfp_release_south_africa = {
 			}
 
 			#Set custom focus tree to combat resistance
-			P36 = { set_focus_tree = pfp_formable_puppet_focus }
+			P36 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {

@@ -34,7 +34,7 @@ pfp_release_iran = {
 			}
 
 			#Set custom focus tree to combat resistance
-			P71 = { set_focus_tree = pfp_formable_puppet_focus }
+			P71 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {
