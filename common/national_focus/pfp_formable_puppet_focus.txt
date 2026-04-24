@@ -19,7 +19,8 @@ focus_tree = {
 
 
     focus = {
-        id = pfp_reorganize_the_administration
+        id = pfp_the_iron_fist
+        icon = GFX_goal_generic_political_pressure
         x = 5
         y = 0
         
@@ -28,4 +29,166 @@ focus_tree = {
         completion_reward = { }
     }
 
+    #Military Suppression Branch
+    focus = {
+        id = pfp_boots_on_the_ground
+        icon = GFX_focus_eng_move_to_secure_the_dominions
+        relative_position_id = pfp_the_iron_fist
+        x = -3
+        y = 1
+        
+        prerequisite = { focus = pfp_the_iron_fist }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    focus = {
+        id = pfp_suppress_dissent
+        icon = GFX_goal_continuous_suppression
+        relative_position_id = pfp_boots_on_the_ground
+        x = 0
+        y = 1
+        
+        prerequisite = { focus = pfp_boots_on_the_ground }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    focus = {
+        id = pfp_by_fire_and_steel
+        icon = GFX_focus_SWE_let_fly_all_guns
+        relative_position_id = pfp_suppress_dissent
+        x = -1
+        y = 1
+        
+        prerequisite = { focus = pfp_suppress_dissent }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    focus = {
+        id = pfp_rule_by_the_sword
+        icon = GFX_goal_generic_major_war
+        relative_position_id = pfp_suppress_dissent
+        x = 1
+        y = 1
+        
+        prerequisite = { focus = pfp_suppress_dissent }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    focus = {
+        id = pfp_eyes_everywhere
+        icon = GFX_focus_CHI_start_looking_outwards
+        relative_position_id = pfp_by_fire_and_steel
+        x = 1
+        y = 1
+        
+        prerequisite = { focus = pfp_by_fire_and_steel }
+        prerequisite = { focus = pfp_rule_by_the_sword }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+
+    #Political Suppression Branch
+    focus = {
+        id = pfp_purge_the_disloyal
+        icon = GFX_focus_SWE_neither_death_nor_dishonor
+        relative_position_id = pfp_the_iron_fist
+        x = 3
+        y = 1
+        
+        prerequisite = { focus = pfp_the_iron_fist }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    focus = {
+        id = pfp_control_the_narrative
+        icon = GFX_goal_generic_propaganda
+        relative_position_id = pfp_purge_the_disloyal
+        x = 0
+        y = 1
+        
+        prerequisite = { focus = pfp_purge_the_disloyal }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    focus = {
+        id = pfp_erase_the_old_ways
+        icon = GFX_focus_RAJ_burn_down_the_cellular_jail
+        relative_position_id = pfp_control_the_narrative
+        x = -1
+        y = 1
+        
+        prerequisite = { focus = pfp_control_the_narrative }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    focus = {
+        id = pfp_bread_and_circuses
+        icon = GFX_focus_generic_farmland
+        relative_position_id = pfp_control_the_narrative
+        x = 1
+        y = 1
+        
+        prerequisite = { focus = pfp_control_the_narrative }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    focus = {
+        id = pfp_reshape_the_soul
+        icon = GFX_focus_CZE_german_puppet
+        relative_position_id = pfp_erase_the_old_ways
+        x = 1
+        y = 1
+        
+        prerequisite = { focus = pfp_erase_the_old_ways }
+        prerequisite = { focus = pfp_bread_and_circuses }
+
+        cost = 10
+
+        completion_reward = { }
+    }
+
+    #Final Branch Merge
+    focus = {
+        id = pfp_the_last_decree
+        icon = GFX_goal_generic_forceful_treaty
+        relative_position_id = pfp_eyes_everywhere
+        x = 3
+        y = 1
+        
+        prerequisite = { focus = pfp_eyes_everywhere }
+        prerequisite = { focus = pfp_reshape_the_soul }
+
+        cost = 10
+
+        completion_reward = { 
+            load_focus_tree = generic_focus
+        }
+    }
 }

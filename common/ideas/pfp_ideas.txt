@@ -1,0 +1,14 @@
+ideas = {
+    country = {
+        pfp_puppet_resistance_idea = {
+            modifier = {
+                stability_factor = -0.25
+                surrender_limit = -0.25
+                recruitable_population_factor = -0.50
+                resistance_target = 0.50                
+                local_resources = -0.50
+                local_factories = -0.50
+            }
+        }
+    }
+}
