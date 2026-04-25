@@ -66,6 +66,12 @@ pfp_release_arabia = {
 					set_state_controller_to = P03
 				}
 			}
+
+			P03 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
 		}
 	}
 }

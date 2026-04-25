@@ -56,5 +56,12 @@ pfp_release_yun-gui = {
 					set_state_controller_to = Q18
 				}
 			}
-		}	}
+
+			Q18 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

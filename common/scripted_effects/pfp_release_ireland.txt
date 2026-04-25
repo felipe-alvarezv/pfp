@@ -54,5 +54,12 @@ pfp_release_ireland = {
 					set_state_controller_to = P73
 				}
 			}
-		}	}
+
+			P73 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

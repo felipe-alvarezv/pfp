@@ -50,5 +50,12 @@ pfp_release_taiwan = {
 					set_state_controller_to = Q22
 				}
 			}
-		}	}
+
+			Q22 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

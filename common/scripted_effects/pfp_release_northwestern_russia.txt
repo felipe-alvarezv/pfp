@@ -76,5 +76,12 @@ pfp_release_northwestern_russia = {
 					set_state_controller_to = P43
 				}
 			}
-		}	}
+
+			P43 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

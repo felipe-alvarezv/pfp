@@ -68,5 +68,12 @@ pfp_release_urals = {
 					set_state_controller_to = P44
 				}
 			}
-		}	}
+
+			P44 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -68,5 +68,12 @@ pfp_release_norway = {
 					set_state_controller_to = P65
 				}
 			}
-		}	}
+
+			P65 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

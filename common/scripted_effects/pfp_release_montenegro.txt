@@ -50,5 +50,12 @@ pfp_release_montenegro = {
 					set_state_controller_to = P90
 				}
 			}
-		}	}
+
+			P90 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

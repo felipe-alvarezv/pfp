@@ -62,5 +62,12 @@ pfp_release_manchuria = {
 					set_state_controller_to = Q08
 				}
 			}
-		}	}
+
+			Q08 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

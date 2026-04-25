@@ -52,5 +52,12 @@ pfp_release_bosnia-herzegovina = {
 					set_state_controller_to = P88
 				}
 			}
-		}	}
+
+			P88 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

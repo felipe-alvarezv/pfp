@@ -70,5 +70,12 @@ pfp_release_england = {
 					set_state_controller_to = P80
 				}
 			}
-		}	}
+
+			P80 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

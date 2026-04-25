@@ -72,5 +72,12 @@ pfp_release_far_eastern_russia = {
 					set_state_controller_to = P46
 				}
 			}
-		}	}
+
+			P46 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

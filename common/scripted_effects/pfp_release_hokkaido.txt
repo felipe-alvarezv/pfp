@@ -50,5 +50,12 @@ pfp_release_hokkaido = {
 					set_state_controller_to = P99
 				}
 			}
-		}	}
+
+			P99 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

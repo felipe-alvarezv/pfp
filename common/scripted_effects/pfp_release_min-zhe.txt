@@ -52,5 +52,12 @@ pfp_release_min-zhe = {
 					set_state_controller_to = Q15
 				}
 			}
-		}	}
+
+			Q15 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

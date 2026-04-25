@@ -64,5 +64,12 @@ pfp_release_prussia = {
 					set_state_controller_to = P33
 				}
 			}
-		}	}
+
+			P33 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

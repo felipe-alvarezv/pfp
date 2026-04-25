@@ -60,5 +60,12 @@ pfp_release_levant = {
 					set_state_controller_to = P67
 				}
 			}
-		}	}
+
+			P67 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

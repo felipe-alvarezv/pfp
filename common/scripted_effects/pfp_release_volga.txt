@@ -78,5 +78,12 @@ pfp_release_volga = {
 					set_state_controller_to = P42
 				}
 			}
-		}	}
+
+			P42 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

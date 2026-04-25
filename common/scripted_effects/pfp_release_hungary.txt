@@ -58,5 +58,12 @@ pfp_release_hungary = {
 					set_state_controller_to = P09
 				}
 			}
-		}	}
+
+			P09 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

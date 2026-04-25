@@ -72,5 +72,12 @@ pfp_release_sweden = {
 					set_state_controller_to = P74
 				}
 			}
-		}	}
+
+			P74 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -50,5 +50,12 @@ pfp_release_shikoku = {
 					set_state_controller_to = Q06
 				}
 			}
-		}	}
+
+			Q06 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

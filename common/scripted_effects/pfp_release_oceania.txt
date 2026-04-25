@@ -76,5 +76,12 @@ pfp_release_oceania = {
 					set_state_controller_to = P27
 				}
 			}
-		}	}
+
+			P27 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

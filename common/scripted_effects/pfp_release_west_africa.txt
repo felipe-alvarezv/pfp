@@ -74,5 +74,12 @@ pfp_release_west_africa = {
 					set_state_controller_to = P35
 				}
 			}
-		}	}
+
+			P35 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

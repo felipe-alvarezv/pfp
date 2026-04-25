@@ -113,5 +113,12 @@ pfp_release_brazil = {
 					set_state_controller_to = P57
 				}
 			}
-		}	}
+
+			P57 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

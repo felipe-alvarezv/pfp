@@ -52,5 +52,12 @@ pfp_release_croatia = {
 					set_state_controller_to = P86
 				}
 			}
-		}	}
+
+			P86 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

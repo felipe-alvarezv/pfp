@@ -50,5 +50,12 @@ pfp_release_bangladesh = {
 					set_state_controller_to = P38
 				}
 			}
-		}	}
+
+			P38 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

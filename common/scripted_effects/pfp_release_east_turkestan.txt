@@ -62,5 +62,12 @@ pfp_release_east_turkestan = {
 					set_state_controller_to = Q23
 				}
 			}
-		}	}
+
+			Q23 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

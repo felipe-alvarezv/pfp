@@ -56,5 +56,12 @@ pfp_release_transcaucasia = {
 					set_state_controller_to = P28
 				}
 			}
-		}	}
+
+			P28 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

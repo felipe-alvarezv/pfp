@@ -50,5 +50,12 @@ pfp_release_iceland = {
 					set_state_controller_to = P83
 				}
 			}
-		}	}
+
+			P83 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

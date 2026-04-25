@@ -60,5 +60,12 @@ pfp_release_quebec = {
 					set_state_controller_to = P22
 				}
 			}
-		}	}
+
+			P22 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

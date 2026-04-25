@@ -50,5 +50,12 @@ pfp_release_henan = {
 					set_state_controller_to = Q12
 				}
 			}
-		}	}
+
+			Q12 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

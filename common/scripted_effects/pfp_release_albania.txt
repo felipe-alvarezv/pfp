@@ -52,6 +52,12 @@ pfp_release_albania = {
 					set_state_controller_to = P91
 				}
 			}
+
+			P91 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
 		}
 	}
 }

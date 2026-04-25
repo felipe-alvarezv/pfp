@@ -66,5 +66,12 @@ pfp_release_ukraine = {
 					set_state_controller_to = P66
 				}
 			}
-		}	}
+
+			P66 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

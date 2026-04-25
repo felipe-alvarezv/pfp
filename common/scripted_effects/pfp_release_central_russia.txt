@@ -78,5 +78,12 @@ pfp_release_central_russia = {
 					set_state_controller_to = P39
 				}
 			}
-		}	}
+
+			P39 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

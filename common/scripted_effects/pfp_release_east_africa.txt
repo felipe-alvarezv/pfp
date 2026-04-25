@@ -76,5 +76,12 @@ pfp_release_east_africa = {
 					set_state_controller_to = P10
 				}
 			}
-		}	}
+
+			P10 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

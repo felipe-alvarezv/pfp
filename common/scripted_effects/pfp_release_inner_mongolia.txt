@@ -56,5 +56,12 @@ pfp_release_inner_mongolia = {
 					set_state_controller_to = Q09
 				}
 			}
-		}	}
+
+			Q09 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

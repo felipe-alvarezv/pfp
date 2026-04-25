@@ -64,5 +64,12 @@ pfp_release_rockies_us = {
 					set_state_controller_to = P23
 				}
 			}
-		}	}
+
+			P23 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

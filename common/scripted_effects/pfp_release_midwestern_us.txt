@@ -72,5 +72,12 @@ pfp_release_midwestern_us = {
 					set_state_controller_to = P18
 				}
 			}
-		}	}
+
+			P18 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -56,5 +56,12 @@ pfp_release_peru = {
 					set_state_controller_to = P56
 				}
 			}
-		}	}
+
+			P56 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

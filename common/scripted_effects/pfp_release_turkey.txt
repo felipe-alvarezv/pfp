@@ -64,5 +64,12 @@ pfp_release_turkey = {
 					set_state_controller_to = P68
 				}
 			}
-		}	}
+
+			P68 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

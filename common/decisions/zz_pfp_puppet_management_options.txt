@@ -1,5 +1,4 @@
 pfp_puppet_management = {
-
 	#Decision to show PFP GUI
     pfp_management_window = {
 		icon = generic_industry
@@ -85,12 +84,14 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	
+}
+
+pfp_puppet_integration = {
 	#Decision for formable puppet AI to core states with compliance > 80 and resistance < 20
-	pfp_management_puppet_core_state = {
+	pfp_puppet_integration_core_state = {
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = pfp_management_puppet_core_state_trigger_tooltip
+				tooltip = pfp_puppet_integration_core_state_trigger_tooltip
 				any_state_in = {
 					array = ROOT.pfp_possible_cores
 					is_fully_controlled_by = ROOT
@@ -115,7 +116,7 @@ pfp_puppet_management = {
 		fire_only_once = no
 
 		complete_effect = {
-			custom_effect_tooltip  = pfp_management_puppet_core_state_effect_tooltip
+			custom_effect_tooltip  = pfp_puppet_integration_core_state_effect_tooltip
 			hidden_effect  = {
 				for_each_scope_loop = {
 					array = ROOT.pfp_possible_cores
@@ -137,5 +138,91 @@ pfp_puppet_management = {
 			}
 		}
 		ai_will_do = { factor = 1 }
+	}
+}
+
+pfp_puppet_assistance = {
+	#Decision to send manpower to formable puppets
+	pfp_deploy_reinforcements = {
+		icon = generic_industry
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				exists = yes
+				OR = {
+					has_autonomy_state = pfp_autonomy_military_occupation
+					has_autonomy_state = pfp_autonomy_military_occupation_painted
+				}
+			}
+		}
+		visible = {
+			any_subject_country = {
+				OR = {
+					has_autonomy_state = pfp_autonomy_military_occupation
+					has_autonomy_state = pfp_autonomy_military_occupation_painted
+				}
+			}
+		}
+		available = {
+			FROM = { exists = yes }
+		}
+		days_remove = 30
+		complete_effect = {
+			ROOT = {
+				add_manpower = -2000
+			}
+		}
+		remove_effect = {
+			FROM = {
+				add_manpower = 2000
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	#Decision to send infantry equipment to formable puppets
+	pfp_ship_arms_to_garrison = {
+		icon = generic_industry
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				exists = yes
+				OR = {
+					has_autonomy_state = pfp_autonomy_military_occupation
+					has_autonomy_state = pfp_autonomy_military_occupation_painted
+				}
+			}
+		}
+		visible = {
+			any_subject_country = {
+				OR = {
+					has_autonomy_state = pfp_autonomy_military_occupation
+					has_autonomy_state = pfp_autonomy_military_occupation_painted
+				}
+			}
+		}
+		available = {
+			FROM = { exists = yes }
+			ROOT = { has_equipment = { infantry_equipment > 2000 } }
+		}
+		days_remove = 15
+		complete_effect = {
+			ROOT = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -2000
+				}
+			}
+		}
+		remove_effect = {
+			FROM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2000
+					producer = ROOT
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
 	}
 }

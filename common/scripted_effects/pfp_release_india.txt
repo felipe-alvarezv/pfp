@@ -84,5 +84,12 @@ pfp_release_india = {
 					set_state_controller_to = P37
 				}
 			}
-		}	}
+
+			P37 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

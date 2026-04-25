@@ -80,5 +80,12 @@ pfp_release_great_britain = {
 					set_state_controller_to = P02
 				}
 			}
-		}	}
+
+			P02 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

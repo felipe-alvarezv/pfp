@@ -52,5 +52,12 @@ pfp_release_tohoku = {
 					set_state_controller_to = Q01
 				}
 			}
-		}	}
+
+			Q01 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -52,5 +52,12 @@ pfp_release_lombardy-venetia = {
 					set_state_controller_to = P92
 				}
 			}
-		}	}
+
+			P92 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -52,5 +52,12 @@ pfp_release_serbia = {
 					set_state_controller_to = P89
 				}
 			}
-		}	}
+
+			P89 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -74,5 +74,12 @@ pfp_release_southern_us = {
 					set_state_controller_to = P26
 				}
 			}
-		}	}
+
+			P26 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -50,5 +50,12 @@ pfp_release_sardinia = {
 					set_state_controller_to = P94
 				}
 			}
-		}	}
+
+			P94 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

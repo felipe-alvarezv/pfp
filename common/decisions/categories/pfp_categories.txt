@@ -1,3 +1,4 @@
 pfp_category = { }
 pfp_puppet_management = { }
-pfp_integration_decisions = { }
+pfp_puppet_integration = { }
+pfp_puppet_assistance = { }

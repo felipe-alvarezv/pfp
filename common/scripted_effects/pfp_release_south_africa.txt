@@ -56,5 +56,12 @@ pfp_release_south_africa = {
 					set_state_controller_to = P36
 				}
 			}
-		}	}
+
+			P36 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

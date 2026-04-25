@@ -100,5 +100,12 @@ pfp_release_scandinavia = {
 					set_state_controller_to = P24
 				}
 			}
-		}	}
+
+			P24 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

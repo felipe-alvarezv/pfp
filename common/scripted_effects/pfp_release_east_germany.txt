@@ -58,5 +58,12 @@ pfp_release_east_germany = {
 					set_state_controller_to = P32
 				}
 			}
-		}	}
+
+			P32 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

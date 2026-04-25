@@ -62,5 +62,12 @@ pfp_release_liangjiang = {
 					set_state_controller_to = Q14
 				}
 			}
-		}	}
+
+			Q14 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -50,5 +50,12 @@ pfp_release_tuscany = {
 					set_state_controller_to = P95
 				}
 			}
-		}	}
+
+			P95 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

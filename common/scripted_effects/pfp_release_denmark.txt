@@ -52,5 +52,12 @@ pfp_release_denmark = {
 					set_state_controller_to = P61
 				}
 			}
-		}	}
+
+			P61 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

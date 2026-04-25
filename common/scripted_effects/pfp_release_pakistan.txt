@@ -60,5 +60,12 @@ pfp_release_pakistan = {
 					set_state_controller_to = P75
 				}
 			}
-		}	}
+
+			P75 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

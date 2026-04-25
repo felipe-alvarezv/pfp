@@ -56,5 +56,12 @@ pfp_release_two_sicilies = {
 					set_state_controller_to = P97
 				}
 			}
-		}	}
+
+			P97 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

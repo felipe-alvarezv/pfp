@@ -50,5 +50,12 @@ pfp_release_wales = {
 					set_state_controller_to = P82
 				}
 			}
-		}	}
+
+			P82 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

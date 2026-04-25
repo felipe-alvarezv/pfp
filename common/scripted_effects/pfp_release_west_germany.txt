@@ -72,5 +72,12 @@ pfp_release_west_germany = {
 					set_state_controller_to = P31
 				}
 			}
-		}	}
+
+			P31 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

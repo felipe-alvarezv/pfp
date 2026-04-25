@@ -66,5 +66,12 @@ pfp_release_finland = {
 					set_state_controller_to = P12
 				}
 			}
-		}	}
+
+			P12 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

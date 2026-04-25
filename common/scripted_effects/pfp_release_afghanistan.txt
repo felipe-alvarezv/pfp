@@ -61,6 +61,12 @@ pfp_release_afghanistan = {
 					set_state_controller_to = P76
 				}
 			}
+
+			P76 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
 		}
 	}
 }

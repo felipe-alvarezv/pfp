@@ -74,5 +74,12 @@ pfp_release_mexico = {
 					set_state_controller_to = P58
 				}
 			}
-		}	}
+
+			P58 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

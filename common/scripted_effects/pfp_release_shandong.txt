@@ -52,5 +52,12 @@ pfp_release_shandong = {
 					set_state_controller_to = Q11
 				}
 			}
-		}	}
+
+			Q11 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

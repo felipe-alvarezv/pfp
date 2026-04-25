@@ -56,5 +56,12 @@ pfp_release_french_alps = {
 					set_state_controller_to = P64
 				}
 			}
-		}	}
+
+			P64 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

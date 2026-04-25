@@ -98,5 +98,12 @@ pfp_release_iberia = {
 					set_state_controller_to = P15
 				}
 			}
-		}	}
+
+			P15 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

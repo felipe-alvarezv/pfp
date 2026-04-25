@@ -90,5 +90,12 @@ pfp_release_turkestan = {
 					set_state_controller_to = P51
 				}
 			}
-		}	}
+
+			P51 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

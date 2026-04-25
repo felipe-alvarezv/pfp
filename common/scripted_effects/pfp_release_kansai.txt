@@ -50,5 +50,12 @@ pfp_release_kansai = {
 					set_state_controller_to = Q04
 				}
 			}
-		}	}
+
+			Q04 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

@@ -54,5 +54,12 @@ pfp_release_papal_states = {
 					set_state_controller_to = P96
 				}
 			}
-		}	}
+
+			P96 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

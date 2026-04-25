@@ -56,5 +56,12 @@ pfp_release_west_indies = {
 					set_state_controller_to = P06
 				}
 			}
-		}	}
+
+			P06 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

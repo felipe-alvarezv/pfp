@@ -64,5 +64,12 @@ pfp_release_shaan-gan = {
 					set_state_controller_to = Q20
 				}
 			}
-		}	}
+
+			Q20 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

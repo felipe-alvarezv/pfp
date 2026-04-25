@@ -52,5 +52,12 @@ pfp_release_macedonia = {
 					set_state_controller_to = P98
 				}
 			}
-		}	}
+
+			P98 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

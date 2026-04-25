@@ -60,5 +60,12 @@ pfp_release_austria = {
 					set_state_controller_to = P77
 				}
 			}
-		}	}
+
+			P77 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

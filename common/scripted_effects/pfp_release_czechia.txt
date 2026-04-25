@@ -52,5 +52,12 @@ pfp_release_czechia = {
 					set_state_controller_to = P59
 				}
 			}
-		}	}
+
+			P59 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

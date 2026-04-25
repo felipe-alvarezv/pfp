@@ -60,5 +60,12 @@ pfp_release_northern_caucasus = {
 					set_state_controller_to = P41
 				}
 			}
-		}	}
+
+			P41 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }
