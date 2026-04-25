@@ -24,7 +24,7 @@ focus_tree = {
         x = 5
         y = 0
         
-        cost = 10
+        cost = 5
 
         completion_reward = { }
     }
@@ -39,9 +39,11 @@ focus_tree = {
         
         prerequisite = { focus = pfp_the_iron_fist }
 
-        cost = 10
+        cost = 5
 
-        completion_reward = { }
+        completion_reward = {
+            add_ideas = pfp_military_police_idea_1
+        }
     }
 
     focus = {
@@ -53,9 +55,14 @@ focus_tree = {
         
         prerequisite = { focus = pfp_boots_on_the_ground }
 
-        cost = 10
+        cost = 5
 
-        completion_reward = { }
+        completion_reward = { 
+            swap_ideas = {
+                remove_idea = pfp_puppet_resistance_idea_1
+                add_idea = pfp_puppet_resistance_idea_2
+            }
+        }
     }
 
     focus = {
@@ -67,9 +74,14 @@ focus_tree = {
         
         prerequisite = { focus = pfp_suppress_dissent }
 
-        cost = 10
+        cost = 5
 
-        completion_reward = { }
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = pfp_military_police_idea_1
+                add_idea = pfp_military_police_idea_2
+            }
+        }
     }
 
     focus = {
@@ -81,9 +93,16 @@ focus_tree = {
         
         prerequisite = { focus = pfp_suppress_dissent }
 
-        cost = 10
+        available = { has_completed_focus = pfp_by_fire_and_steel }
 
-        completion_reward = { }
+        cost = 5
+
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = pfp_military_police_idea_2
+                add_idea = pfp_military_police_idea_3
+            }
+        }
     }
 
     focus = {
@@ -96,9 +115,14 @@ focus_tree = {
         prerequisite = { focus = pfp_by_fire_and_steel }
         prerequisite = { focus = pfp_rule_by_the_sword }
 
-        cost = 10
+        cost = 5
 
-        completion_reward = { }
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = pfp_puppet_resistance_idea_2
+                add_idea = pfp_puppet_resistance_idea_3
+            }
+        }
     }
 
 
@@ -112,9 +136,15 @@ focus_tree = {
         
         prerequisite = { focus = pfp_the_iron_fist }
 
-        cost = 10
+        available = { has_completed_focus = pfp_eyes_everywhere }
 
-        completion_reward = { }
+        cost = 5
+
+        completion_reward = {
+            add_ideas = {
+                pfp_civilian_collaborators_idea_1
+            }
+        }
     }
 
     focus = {
@@ -126,9 +156,14 @@ focus_tree = {
         
         prerequisite = { focus = pfp_purge_the_disloyal }
 
-        cost = 10
+        cost = 5
 
-        completion_reward = { }
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = pfp_puppet_resistance_idea_3
+                add_idea = pfp_puppet_resistance_idea_4
+            }
+        }
     }
 
     focus = {
@@ -140,9 +175,14 @@ focus_tree = {
         
         prerequisite = { focus = pfp_control_the_narrative }
 
-        cost = 10
+        cost = 5
 
-        completion_reward = { }
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = pfp_civilian_collaborators_idea_1
+                add_idea = pfp_civilian_collaborators_idea_2
+            }
+        }
     }
 
     focus = {
@@ -154,9 +194,16 @@ focus_tree = {
         
         prerequisite = { focus = pfp_control_the_narrative }
 
-        cost = 10
+        available = { has_completed_focus = pfp_erase_the_old_ways }
 
-        completion_reward = { }
+        cost = 5
+
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = pfp_civilian_collaborators_idea_2
+                add_idea = pfp_civilian_collaborators_idea_3
+            }
+        }
     }
 
     focus = {
@@ -169,9 +216,14 @@ focus_tree = {
         prerequisite = { focus = pfp_erase_the_old_ways }
         prerequisite = { focus = pfp_bread_and_circuses }
 
-        cost = 10
+        cost = 5
 
-        completion_reward = { }
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = pfp_puppet_resistance_idea_4
+                add_idea = pfp_puppet_resistance_idea_5
+            }
+        }
     }
 
     #Final Branch Merge
@@ -185,9 +237,10 @@ focus_tree = {
         prerequisite = { focus = pfp_eyes_everywhere }
         prerequisite = { focus = pfp_reshape_the_soul }
 
-        cost = 10
+        cost = 5
 
-        completion_reward = { 
+        completion_reward = {
+            remove_ideas = pfp_puppet_resistance_idea_5
             load_focus_tree = generic_focus
         }
     }

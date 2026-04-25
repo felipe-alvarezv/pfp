@@ -9,7 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
-	pfp_puppet_resistance_idea
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
