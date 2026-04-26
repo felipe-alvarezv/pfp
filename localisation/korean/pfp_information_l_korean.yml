@@ -52,7 +52,6 @@ l_korean:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "이전에 선택한 모든 주의 선택을 해제합니다."
 	pfp_state_transfer_tooltip_close_button:0 "주 이양 인터페이스를 닫습니다."
 
-
 	pfp_management_option_enabled:0 "활성화"
 	pfp_management_option_disabled:0 "비활성화"
 
@@ -70,16 +69,6 @@ l_korean:
 
 	pfp_contest_state_tooltip:0 "분쟁"
 	pfp_core_state_tooltip:0 "핵심 지역"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "철권"
 	pfp_the_iron_fist_desc:0 "괴뢰는 춤추지만, 우리가 줄을 쥐고 있다. 이 배치를 영구적으로 만들 때가 됐다."

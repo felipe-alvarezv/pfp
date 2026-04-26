@@ -52,7 +52,6 @@ l_japanese:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "以前に選択した全ての州の選択を解除します。"
 	pfp_state_transfer_tooltip_close_button:0 "州移管インターフェースを閉じる。"
 
-
 	pfp_management_option_enabled:0 "有効"
 	pfp_management_option_disabled:0 "無効"
 
@@ -70,16 +69,6 @@ l_japanese:
 
 	pfp_contest_state_tooltip:0 "争奪"
 	pfp_core_state_tooltip:0 "コア州"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "鉄の拳"
 	pfp_the_iron_fist_desc:0 "傀儡は踊るが、糸は我々が握っている。この取り決めを恒久的なものにする時が来た。"

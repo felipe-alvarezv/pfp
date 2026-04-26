@@ -52,7 +52,6 @@ l_russian:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Отменить выбор всех ранее выбранных территорий."
 	pfp_state_transfer_tooltip_close_button:0 "Закрыть интерфейс передачи территорий."
 
-
 	pfp_management_option_enabled:0 "Включено"
 	pfp_management_option_disabled:0 "Отключено"
 
@@ -70,16 +69,6 @@ l_russian:
 
 	pfp_contest_state_tooltip:0 "оспаривание"
 	pfp_core_state_tooltip:0 "коренные территории"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "Железный кулак"
 	pfp_the_iron_fist_desc:0 "Марионетка танцует, но мы держим нити. Пора сделать это соглашение постоянным."

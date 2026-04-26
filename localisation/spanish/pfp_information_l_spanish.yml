@@ -52,7 +52,6 @@ l_spanish:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Deseleccionar todos los estados previamente seleccionados."
 	pfp_state_transfer_tooltip_close_button:0 "Cerrar la interfaz de transferencia de estado."
 
-
 	pfp_management_option_enabled:0 "Activado"
 	pfp_management_option_disabled:0 "Desactivado"
 
@@ -70,16 +69,6 @@ l_spanish:
 
 	pfp_contest_state_tooltip:0 "disputa"
 	pfp_core_state_tooltip:0 "territorios centrales"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "El Puño de Hierro"
 	pfp_the_iron_fist_desc:0 "El títere baila, pero nosotros sostenemos los hilos. Es hora de hacer ese acuerdo permanente."

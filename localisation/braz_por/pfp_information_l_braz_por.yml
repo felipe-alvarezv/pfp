@@ -52,7 +52,6 @@ l_braz_por:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Desselecionar todos os estados previamente selecionados."
 	pfp_state_transfer_tooltip_close_button:0 "Fechar a interface de transferência de estado."
 
-
 	pfp_management_option_enabled:0 "Ativado"
 	pfp_management_option_disabled:0 "Desativado"
 
@@ -70,16 +69,6 @@ l_braz_por:
 
 	pfp_contest_state_tooltip:0 "contestação"
 	pfp_core_state_tooltip:0 "territórios centrais"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "O Punho de Ferro"
 	pfp_the_iron_fist_desc:0 "O fantoche dança, mas nós seguramos os fios. É hora de tornar esse arranjo permanente."

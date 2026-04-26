@@ -52,7 +52,6 @@ l_german:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Hebt die Auswahl aller zuvor ausgewählten Staaten auf."
 	pfp_state_transfer_tooltip_close_button:0 "Schließt die Oberfläche für die Staatenübertragung."
 
-
 	pfp_management_option_enabled:0 "Aktiviert"
 	pfp_management_option_disabled:0 "Deaktiviert"
 
@@ -70,16 +69,6 @@ l_german:
 
 	pfp_contest_state_tooltip:0 "Streitigkeit"
 	pfp_core_state_tooltip:0 "Kerngebiete"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "Die Eiserne Faust"
 	pfp_the_iron_fist_desc:0 "Die Marionette tanzt, aber wir halten die Fäden. Es ist Zeit, diese Vereinbarung dauerhaft zu machen."

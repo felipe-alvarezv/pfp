@@ -52,7 +52,6 @@ l_simp_chinese:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "取消选择所有先前选择的地区。"
 	pfp_state_transfer_tooltip_close_button:0 "关闭状态转移界面。"
 
-
 	pfp_management_option_enabled:0 "已启用"
 	pfp_management_option_disabled:0 "已禁用"
 
@@ -70,16 +69,6 @@ l_simp_chinese:
 
 	pfp_contest_state_tooltip:0 "争议"
 	pfp_core_state_tooltip:0 "核心领土"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "铁拳"
 	pfp_the_iron_fist_desc:0 "傀儡在跳舞，但我们握着丝线。是时候让这种安排成为永久的了。"

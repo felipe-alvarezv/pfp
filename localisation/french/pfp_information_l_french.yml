@@ -52,7 +52,6 @@ l_french:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Désélectionner tous les États précédemment sélectionnés."
 	pfp_state_transfer_tooltip_close_button:0 "Fermer l’interface de transfert d’État."
 
-
 	pfp_management_option_enabled:0 "Activé"
 	pfp_management_option_disabled:0 "Désactivé"
 
@@ -70,16 +69,6 @@ l_french:
 
 	pfp_contest_state_tooltip:0 "contestation"
 	pfp_core_state_tooltip:0 "coeurs"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "La Poigne de Fer"
 	pfp_the_iron_fist_desc:0 "La marionnette danse, mais nous tenons les ficelles. Il est temps de rendre cet arrangement permanent."

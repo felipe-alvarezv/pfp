@@ -52,7 +52,6 @@ l_polish:
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Odznacz wszystkie wcześniej wybrane stany."
 	pfp_state_transfer_tooltip_close_button:0 "Zamknij interfejs transferu stanów."
 
-
 	pfp_management_option_enabled:0 "Włączone"
 	pfp_management_option_disabled:0 "Wyłączone"
 
@@ -70,16 +69,6 @@ l_polish:
 
 	pfp_contest_state_tooltip:0 "spór"
 	pfp_core_state_tooltip:0 "terytoria rdzenne"
-
-
-
-
-
-
-
-
-
-
 
 	pfp_the_iron_fist:0 "Żelazna Pięść"
 	pfp_the_iron_fist_desc:0 "Marionetka tańczy, ale my trzymamy sznurki. Czas utrwalić to porozumienie."
