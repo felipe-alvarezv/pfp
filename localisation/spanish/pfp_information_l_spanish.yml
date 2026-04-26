@@ -51,3 +51,113 @@ l_spanish:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Deseleccionar todos los estados previamente seleccionados."
 	pfp_state_transfer_tooltip_close_button:0 "Cerrar la interfaz de transferencia de estado."
+
+l_english:
+
+	pfp_management_option_enabled:0 "Enabled"
+	pfp_management_option_disabled:0 "Disabled"
+
+	pfp_management_use_overlord_color_tooltip:0 "All player controlled countries are at peace."
+
+	pfp_management_resistance:0 "Toggle Resistance Mechanics"
+	pfp_management_resistance_desc:0 "This decision enables or disables the resistance mechanics. If enabled, formable puppets will not get cores and will have to complete focuses and decisions to raise compliance and lower resistance. A state will be cored once compliance is above 80% and resistance is below 20%."
+
+	pfp_puppet_integration_core_state:0 "Annex Pacified Territory"
+	pfp_puppet_integration_core_state_desc:0 "What was taken by force has been held long enough to become something more. The resistance has broken, the population has been reshaped, and the land produces in our name. There is no longer any reason to maintain the pretense of a separate administration. These territories will be formally absorbed into the state — not as occupied ground, but as home soil. What was theirs is now, and has always been, ours."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "All of the following must be true:\n      Fully controls any possible core.\n      Any possible core is not core of §Y[ROOT.GetName]§!.\n      Any possible core has more than 80% compliance.\n      Any possible core has less than 20% resistance."
+	pfp_puppet_core_status_resistance_disabled:0 "All of the following must be true:\n      Fully controls any possible core.\n      Any possible core is not core of §Y[ROOT.GetName]§!."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "Any possible core meeting the previous requirements will be cored."
+
+	pfp_contest_state_tooltip:0 "contention"
+	pfp_core_state_tooltip:0 "cores"
+
+
+
+
+
+
+
+
+
+
+
+	pfp_the_iron_fist:0 "The Iron Fist"
+	pfp_the_iron_fist_desc:0 "The puppet dances, but we hold the strings. It is time to make that arrangement permanent."
+
+	pfp_boots_on_the_ground:0 "Boots on the Ground"
+	pfp_boots_on_the_ground_desc:0 "Words and diplomacy have their place. That place is not here. Our soldiers will remind the occupied why resistance is a luxury they cannot afford."
+	
+	pfp_suppress_dissent:0 "Suppress Dissent"
+	pfp_suppress_dissent_desc:0 "The whispers in the dark grow louder. They will be silenced — not with reason, but with the kind of persuasion that leaves no room for argument."
+	
+	pfp_by_fire_and_steel:0 "By Fire and Steel"
+	pfp_by_fire_and_steel_desc:0 "There are those who will never bend. For them, we offer no negotiation, no mercy, no memory. Only ash."
+	
+	pfp_rule_by_the_sword:0 "Rule by the Sword"
+	pfp_rule_by_the_sword_desc:0 "Let the occupied wake each morning knowing that the law is ours to write, and ours to enforce. Order will be maintained — at any cost."
+	
+	pfp_eyes_everywhere:0 "Eyes Everywhere"
+	pfp_eyes_everywhere_desc:0 "A man plotting rebellion needs only one moment of privacy. We intend to ensure he never finds it."
+
+	pfp_purge_the_disloyal:0 "Purge the Disloyal"
+	pfp_purge_the_disloyal_desc:0 "A house cannot stand if its foundations are rotten. Those who served the old order — and would serve it again — must be removed before the work can begin."
+	
+	pfp_control_the_narrative:0 "Control the Narrative"
+	pfp_control_the_narrative_desc:0 "History is written by the victorious. We will ensure the occupied read only our version of events — and in time, believe it completely."
+	
+	pfp_erase_the_old_ways:0 "Erase the Old Ways"
+	pfp_erase_the_old_ways_desc:0 "Language, culture, tradition — these are the weapons of a people who refuse to forget. We will take them away, one by one, until there is nothing left to remember."
+
+	pfp_bread_and_circuses:0 "Bread and Circuses"
+	pfp_bread_and_circuses_desc:0 "Not all chains are made of iron. Some are made of comfort, of full bellies and cheap entertainment. A content population is a compliant one."
+	pfp_reshape_the_soul:0 "Reshape the Soul"
+	pfp_reshape_the_soul_desc:0 "Compliance enforced by fear is fragile. What endures is belief. We will not merely control what our subjects do — we will change what they want."
+
+	pfp_the_last_decree:0 "The Last Decree"
+	pfp_the_last_decree_desc:0 "Every order that came before was building toward this moment. There is nothing left to declare, no power left to contest. This is simply the world, now."
+
+	pfp_puppet_resistance_idea_1:0 "Local Resistance"
+	pfp_puppet_resistance_idea_1_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
+	pfp_puppet_resistance_idea_2:0 "Local Resistance"
+
+	pfp_puppet_resistance_idea_2_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
+	pfp_puppet_resistance_idea_3:0 "Local Resistance"
+
+	pfp_puppet_resistance_idea_3_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
+	pfp_puppet_resistance_idea_4:0 "Local Resistance"
+
+	pfp_puppet_resistance_idea_4_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
+	pfp_puppet_resistance_idea_5:0 "Local Resistance"
+
+	pfp_puppet_resistance_idea_5_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
+
+	pfp_military_police_idea_1:0 "Military Police"
+	pfp_military_police_idea_1_desc:0 "Occupation is not won by soldiers alone. Behind every garrison stands a network of enforcers — men trained not for the battlefield, but for the street corner, the checkpoint, the midnight knock on the door. As our grip on the occupied tightens, so too does their efficiency. They learn the land, they learn the people, and they ensure that whatever resistance remains never finds its footing."
+	
+	pfp_military_police_idea_2:0 "Military Police"
+	pfp_military_police_idea_2_desc:0 "Occupation is not won by soldiers alone. Behind every garrison stands a network of enforcers — men trained not for the battlefield, but for the street corner, the checkpoint, the midnight knock on the door. As our grip on the occupied tightens, so too does their efficiency. They learn the land, they learn the people, and they ensure that whatever resistance remains never finds its footing."
+	
+	pfp_military_police_idea_3:0 "Military Police"
+	pfp_military_police_idea_3_desc:0 "Occupation is not won by soldiers alone. Behind every garrison stands a network of enforcers — men trained not for the battlefield, but for the street corner, the checkpoint, the midnight knock on the door. As our grip on the occupied tightens, so too does their efficiency. They learn the land, they learn the people, and they ensure that whatever resistance remains never finds its footing."
+
+	pfp_civilian_collaborators_idea_1:0 "Civilian Collaborators"
+	pfp_civilian_collaborators_idea_1_desc:0 "Not all resistance to occupation comes from soldiers and partisans. Much of it lives in ordinary people — neighbours who look the other way, shopkeepers who pass messages, families who shelter the wrong guests. But people can be turned. Through incentive, through fear, through the slow erosion of old loyalties, some among the occupied begin to serve the occupier. They watch. They report. And with every passing month, the fire of resistance finds fewer places left to breathe."
+
+	pfp_civilian_collaborators_idea_2:0 "Civilian Collaborators"
+	pfp_civilian_collaborators_idea_2_desc:0 "Not all resistance to occupation comes from soldiers and partisans. Much of it lives in ordinary people — neighbours who look the other way, shopkeepers who pass messages, families who shelter the wrong guests. But people can be turned. Through incentive, through fear, through the slow erosion of old loyalties, some among the occupied begin to serve the occupier. They watch. They report. And with every passing month, the fire of resistance finds fewer places left to breathe."
+
+	pfp_civilian_collaborators_idea_3:0 "Civilian Collaborators"
+	pfp_civilian_collaborators_idea_3_desc:0 "Not all resistance to occupation comes from soldiers and partisans. Much of it lives in ordinary people — neighbours who look the other way, shopkeepers who pass messages, families who shelter the wrong guests. But people can be turned. Through incentive, through fear, through the slow erosion of old loyalties, some among the occupied begin to serve the occupier. They watch. They report. And with every passing month, the fire of resistance finds fewer places left to breathe."
+
+	pfp_puppet_integration:0 "Integrate the Occupied"
+	pfp_puppet_integration_desc:0 "The occupation has gone on long enough that certain territories no longer feel foreign. The people have been pacified, the old ways forgotten, and the machinery of the state runs in our name. It is time to stop treating these lands as conquered ground and start treating them as what they truly are — ours."
+
+	pfp_puppet_assistance:0 "Pipe's Formable Puppets - Puppet Assistance"
+	pfp_puppet_assistance_desc:0 "A puppet state is only as strong as the hand that holds it. Left unsupported, even the most compliant regime will buckle under the weight of its own occupied population. We will not allow that. Through the steady flow of manpower and materiel, we ensure that our investment in this territory remains protected — and that the cost of resistance remains too high for anyone to seriously consider."
+
+	pfp_deploy_reinforcements:0 "Deploy Reinforcements to [FROM.GetName]"
+	pfp_deploy_reinforcements_desc:0 "The occupied territories are restless, and our garrison is stretched thin. A fresh deployment of troops will reinforce our presence on the ground, reminding the population that our reach is long and our patience for disorder is short. Every soldier sent is another nail in the coffin of organised resistance."
+
+	pfp_ship_arms_to_garrison:0 "Ship Arms to the [FROM.GetName] Garrison"
+	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."
