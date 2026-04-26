@@ -53,25 +53,23 @@ l_korean:
 	pfp_state_transfer_tooltip_close_button:0 "주 이양 인터페이스를 닫습니다."
 
 
-	pfp_management_option_enabled:0 ""
-	pfp_management_option_disabled:0 ""
+	pfp_management_option_enabled:0 "활성화"
+	pfp_management_option_disabled:0 "비활성화"
 
-	pfp_management_use_overlord_color_tooltip:0 ""
+	pfp_management_use_overlord_color_tooltip:0 "플레이어가 지배하는 모든 국가는 평화 상태입니다."
 
-	pfp_management_resistance:0 ""
-	pfp_management_resistance_desc:0 ""
+	pfp_management_resistance:0 "저항 메커니즘 전환"
+	pfp_management_resistance_desc:0 "이 결정은 저항 메커니즘을 활성화하거나 비활성화합니다. 활성화하면 형성 가능한 괴뢰 국가는 핵심 지역을 얻지 못하며, 순응도를 높이고 저항을 낮추기 위한 포커스와 결정을 완료해야 합니다. 순응도가 80%를 초과하고 저항이 20% 미만이 되면 주가 핵심이 됩니다."
 
-	pfp_puppet_integration_core_state:0 ""
-	pfp_puppet_integration_core_state_desc:0 ""
-	pfp_puppet_integration_core_state_trigger_tooltip:0 ""
-	pfp_puppet_core_status_resistance_enabled:0 ""
-	pfp_puppet_core_status_resistance_disabled:0 ""
-	pfp_puppet_integration_core_state_effect_tooltip:0 ""
+	pfp_puppet_integration_core_state:0 "평정된 영토 합병"
+	pfp_puppet_integration_core_state_desc:0 "무력으로 빼앗은 것이 더 많은 것이 되기에 충분할 만큼 오래 보유되었다. 저항은 무너졌고, 인구는 재형성되었으며, 땅은 우리의 이름으로 생산한다. 별개의 행정을 유지하는 척할 이유가 더 이상 없다. 이 영토들은 국가에 공식적으로 흡수될 것이다 — 점령지로서가 아니라, 고향의 땅으로서. 그들의 것이었던 것이 지금, 그리고 항상 그래왔듯이, 우리의 것이다."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "다음 모든 조건이 충족되어야 합니다:\n      가능한 모든 핵심 지역을 완전히 통제해야 합니다.\n      가능한 모든 핵심 지역이 §Y[ROOT.GetName]§!의 핵심이 아니어야 합니다.\n      가능한 모든 핵심 지역의 순응도가 80% 이상이어야 합니다.\n      가능한 모든 핵심 지역의 저항이 20% 미만이어야 합니다."
+	pfp_puppet_core_status_resistance_disabled:0 "다음 모든 조건이 충족되어야 합니다:\n      가능한 모든 핵심 지역을 완전히 통제해야 합니다.\n      가능한 모든 핵심 지역이 §Y[ROOT.GetName]§!의 핵심이 아니어야 합니다."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "이전 요구 사항을 충족하는 가능한 모든 핵심 지역이 핵심이 됩니다."
 
-	pfp_contest_state_tooltip:0 ""
-	pfp_core_state_tooltip:0 ""
-
-
+	pfp_contest_state_tooltip:0 "분쟁"
+	pfp_core_state_tooltip:0 "핵심 지역"
 
 
 
@@ -81,82 +79,84 @@ l_korean:
 
 
 
-	pfp_the_iron_fist:0 ""
-	pfp_the_iron_fist_desc:0 ""
 
-	pfp_boots_on_the_ground:0 ""
-	pfp_boots_on_the_ground_desc:0 ""
+
+	pfp_the_iron_fist:0 "철권"
+	pfp_the_iron_fist_desc:0 "괴뢰는 춤추지만, 우리가 줄을 쥐고 있다. 이 배치를 영구적으로 만들 때가 됐다."
+
+	pfp_boots_on_the_ground:0 "지상의 병사들"
+	pfp_boots_on_the_ground_desc:0 "말과 외교에는 그 자리가 있다. 그 자리는 여기가 아니다. 우리 병사들은 피점령민에게 저항이 그들이 감당할 수 없는 사치임을 상기시킬 것이다."
 	
-	pfp_suppress_dissent:0 ""
-	pfp_suppress_dissent_desc:0 ""
+	pfp_suppress_dissent:0 "반대 의견 억압"
+	pfp_suppress_dissent_desc:0 "어둠 속의 속삭임이 더 커지고 있다. 그것은 침묵하게 될 것이다 — 이성으로서가 아니라, 논쟁의 여지를 남기지 않는 종류의 설득으로."
 	
-	pfp_by_fire_and_steel:0 ""
-	pfp_by_fire_and_steel_desc:0 ""
+	pfp_by_fire_and_steel:0 "불과 강철로"
+	pfp_by_fire_and_steel_desc:0 "결코 굴복하지 않을 사람들이 있다. 그들에게 우리는 협상도, 자비도, 기억도 제공하지 않는다. 오직 재뿐."
 	
-	pfp_rule_by_the_sword:0 ""
-	pfp_rule_by_the_sword_desc:0 ""
+	pfp_rule_by_the_sword:0 "칼에 의한 통치"
+	pfp_rule_by_the_sword_desc:0 "피점령민이 매일 아침 법률은 우리가 쓰고, 우리가 집행한다는 것을 알면서 깨어나게 하라. 질서는 유지될 것이다 — 어떤 대가를 치르더라도."
 	
-	pfp_eyes_everywhere:0 ""
-	pfp_eyes_everywhere_desc:0 ""
+	pfp_eyes_everywhere:0 "어디에나 있는 눈"
+	pfp_eyes_everywhere_desc:0 "반란을 계획하는 남자에게는 단 한 순간의 사생활만 있으면 된다. 우리는 그가 그것을 절대 찾지 못하도록 할 것이다."
 
-	pfp_purge_the_disloyal:0 ""
-	pfp_purge_the_disloyal_desc:0 ""
+	pfp_purge_the_disloyal:0 "불충한 자 숙청"
+	pfp_purge_the_disloyal_desc:0 "기초가 썩으면 집은 서지 못한다. 구질서를 섬겼던 사람들 — 다시 그럴 것들 — 은 일이 시작되기 전에 제거되어야 한다."
 	
-	pfp_control_the_narrative:0 ""
-	pfp_control_the_narrative_desc:0 ""
+	pfp_control_the_narrative:0 "서사 통제"
+	pfp_control_the_narrative_desc:0 "역사는 승자에 의해 쓰여진다. 우리는 피점령민이 우리의 사건 버전만 읽도록 하고 — 시간이 지나면 완전히 믿도록 할 것이다."
 	
-	pfp_erase_the_old_ways:0 ""
-	pfp_erase_the_old_ways_desc:0 ""
+	pfp_erase_the_old_ways:0 "구습 말소"
+	pfp_erase_the_old_ways_desc:0 "언어, 문화, 전통 — 이것들은 잊기를 거부하는 민족의 무기다. 우리는 기억할 것이 없을 때까지 하나씩 빼앗을 것이다."
 
-	pfp_bread_and_circuses:0 ""
-	pfp_bread_and_circuses_desc:0 ""
-	pfp_reshape_the_soul:0 ""
-	pfp_reshape_the_soul_desc:0 ""
+	pfp_bread_and_circuses:0 "빵과 서커스"
+	pfp_bread_and_circuses_desc:0 "모든 사슬이 철로 만들어진 것은 아니다. 일부는 편안함, 가득 찬 배, 저렴한 오락으로 만들어진다. 만족한 인구는 순종적인 인구다."
+	pfp_reshape_the_soul:0 "영혼 재형성"
+	pfp_reshape_the_soul_desc:0 "두려움에 의해 강요된 순응은 깨지기 쉽다. 지속되는 것은 믿음이다. 우리는 단순히 신민이 무엇을 하는지를 통제하는 것이 아니라 — 그들이 원하는 것을 바꿀 것이다."
 
-	pfp_the_last_decree:0 ""
-	pfp_the_last_decree_desc:0 ""
+	pfp_the_last_decree:0 "마지막 칙령"
+	pfp_the_last_decree_desc:0 "이전의 모든 명령은 이 순간을 향해 쌓여왔다. 더 이상 선언할 것도 없고, 다툴 권력도 없다. 이것이 단순히 지금의 세계다."
 
-	pfp_puppet_resistance_idea_1:0 ""
-	pfp_puppet_resistance_idea_1_desc:0 ""
-	pfp_puppet_resistance_idea_2:0 ""
+	pfp_puppet_resistance_idea_1:0 "현지 저항"
+	pfp_puppet_resistance_idea_1_desc:0 "피점령민은 그들이 누구였는지 잊지 않았다. 거리에서, 들판에서, 닫힌 문 뒤의 조용한 대화에서 — 반항이 남아있다. 쉽게 무너지지 않을 것이며, 조용히 무너지지도 않을 것이다."
+	pfp_puppet_resistance_idea_2:0 "현지 저항"
 
-	pfp_puppet_resistance_idea_2_desc:0 ""
-	pfp_puppet_resistance_idea_3:0 ""
+	pfp_puppet_resistance_idea_2_desc:0 "피점령민은 그들이 누구였는지 잊지 않았다. 거리에서, 들판에서, 닫힌 문 뒤의 조용한 대화에서 — 반항이 남아있다. 쉽게 무너지지 않을 것이며, 조용히 무너지지도 않을 것이다."
+	pfp_puppet_resistance_idea_3:0 "현지 저항"
 
-	pfp_puppet_resistance_idea_3_desc:0 ""
-	pfp_puppet_resistance_idea_4:0 ""
+	pfp_puppet_resistance_idea_3_desc:0 "피점령민은 그들이 누구였는지 잊지 않았다. 거리에서, 들판에서, 닫힌 문 뒤의 조용한 대화에서 — 반항이 남아있다. 쉽게 무너지지 않을 것이며, 조용히 무너지지도 않을 것이다."
+	pfp_puppet_resistance_idea_4:0 "현지 저항"
 
-	pfp_puppet_resistance_idea_4_desc:0 ""
-	pfp_puppet_resistance_idea_5:0 ""
+	pfp_puppet_resistance_idea_4_desc:0 "피점령민은 그들이 누구였는지 잊지 않았다. 거리에서, 들판에서, 닫힌 문 뒤의 조용한 대화에서 — 반항이 남아있다. 쉽게 무너지지 않을 것이며, 조용히 무너지지도 않을 것이다."
+	pfp_puppet_resistance_idea_5:0 "현지 저항"
 
-	pfp_puppet_resistance_idea_5_desc:0 ""
+	pfp_puppet_resistance_idea_5_desc:0 "피점령민은 그들이 누구였는지 잊지 않았다. 거리에서, 들판에서, 닫힌 문 뒤의 조용한 대화에서 — 반항이 남아있다. 쉽게 무너지지 않을 것이며, 조용히 무너지지도 않을 것이다."
 
-	pfp_military_police_idea_1:0 ""
-	pfp_military_police_idea_1_desc:0 ""
+	pfp_military_police_idea_1:0 "헌병대"
+	pfp_military_police_idea_1_desc:0 "점령은 병사만으로는 이길 수 없다. 모든 수비대 뒤에는 집행자 네트워크가 있다 — 전장이 아닌 거리 모퉁이, 검문소, 자정의 문 두드림을 위해 훈련된 사람들. 피점령민에 대한 우리의 장악이 강해질수록 그들의 효율도 높아진다. 그들은 토지를 배우고, 사람들을 배우며, 남아있는 저항이 절대 발판을 찾지 못하도록 한다."
 	
-	pfp_military_police_idea_2:0 ""
-	pfp_military_police_idea_2_desc:0 ""
+	pfp_military_police_idea_2:0 "헌병대"
+	pfp_military_police_idea_2_desc:0 "점령은 병사만으로는 이길 수 없다. 모든 수비대 뒤에는 집행자 네트워크가 있다 — 전장이 아닌 거리 모퉁이, 검문소, 자정의 문 두드림을 위해 훈련된 사람들. 피점령민에 대한 우리의 장악이 강해질수록 그들의 효율도 높아진다. 그들은 토지를 배우고, 사람들을 배우며, 남아있는 저항이 절대 발판을 찾지 못하도록 한다."
 	
-	pfp_military_police_idea_3:0 ""
-	pfp_military_police_idea_3_desc:0 ""
+	pfp_military_police_idea_3:0 "헌병대"
+	pfp_military_police_idea_3_desc:0 "점령은 병사만으로는 이길 수 없다. 모든 수비대 뒤에는 집행자 네트워크가 있다 — 전장이 아닌 거리 모퉁이, 검문소, 자정의 문 두드림을 위해 훈련된 사람들. 피점령민에 대한 우리의 장악이 강해질수록 그들의 효율도 높아진다. 그들은 토지를 배우고, 사람들을 배우며, 남아있는 저항이 절대 발판을 찾지 못하도록 한다."
 
-	pfp_civilian_collaborators_idea_1:0 ""
-	pfp_civilian_collaborators_idea_1_desc:0 ""
+	pfp_civilian_collaborators_idea_1:0 "민간 협력자"
+	pfp_civilian_collaborators_idea_1_desc:0 "점령에 대한 모든 저항이 병사와 파르티잔에서 오는 것은 아니다. 많은 것이 평범한 사람들 — 외면하는 이웃들, 메시지를 전달하는 상인들, 잘못된 손님을 숨겨주는 가족들 — 속에 살아있다. 하지만 사람들은 전향시킬 수 있다. 유인책을 통해, 두려움을 통해, 오래된 충성심의 느린 침식을 통해, 피점령민 중 일부는 점령자를 섬기기 시작한다. 그들은 지켜본다. 그들은 보고한다. 그리고 매달이 지날수록, 저항의 불꽃은 숨 쉴 곳을 점점 더 찾지 못한다."
 
-	pfp_civilian_collaborators_idea_2:0 ""
-	pfp_civilian_collaborators_idea_2_desc:0 ""
+	pfp_civilian_collaborators_idea_2:0 "민간 협력자"
+	pfp_civilian_collaborators_idea_2_desc:0 "점령에 대한 모든 저항이 병사와 파르티잔에서 오는 것은 아니다. 많은 것이 평범한 사람들 — 외면하는 이웃들, 메시지를 전달하는 상인들, 잘못된 손님을 숨겨주는 가족들 — 속에 살아있다. 하지만 사람들은 전향시킬 수 있다. 유인책을 통해, 두려움을 통해, 오래된 충성심의 느린 침식을 통해, 피점령민 중 일부는 점령자를 섬기기 시작한다. 그들은 지켜본다. 그들은 보고한다. 그리고 매달이 지날수록, 저항의 불꽃은 숨 쉴 곳을 점점 더 찾지 못한다."
 
-	pfp_civilian_collaborators_idea_3:0 ""
-	pfp_civilian_collaborators_idea_3_desc:0 ""
+	pfp_civilian_collaborators_idea_3:0 "민간 협력자"
+	pfp_civilian_collaborators_idea_3_desc:0 "점령에 대한 모든 저항이 병사와 파르티잔에서 오는 것은 아니다. 많은 것이 평범한 사람들 — 외면하는 이웃들, 메시지를 전달하는 상인들, 잘못된 손님을 숨겨주는 가족들 — 속에 살아있다. 하지만 사람들은 전향시킬 수 있다. 유인책을 통해, 두려움을 통해, 오래된 충성심의 느린 침식을 통해, 피점령민 중 일부는 점령자를 섬기기 시작한다. 그들은 지켜본다. 그들은 보고한다. 그리고 매달이 지날수록, 저항의 불꽃은 숨 쉴 곳을 점점 더 찾지 못한다."
 
-	pfp_puppet_integration:0 ""
-	pfp_puppet_integration_desc:0 ""
+	pfp_puppet_integration:0 "피점령민 통합"
+	pfp_puppet_integration_desc:0 "점령은 특정 영토들이 더 이상 이질적으로 느껴지지 않을 만큼 오래 지속되었다. 사람들은 평정되었고, 구습은 잊혀졌으며, 국가의 기계는 우리의 이름으로 운영된다. 이 땅들을 정복된 영토로 취급하는 것을 그만두고, 실제로 그것들이 무엇인지 — 우리의 것 — 으로 취급할 때가 됐다."
 
-	pfp_puppet_assistance:0 ""
-	pfp_puppet_assistance_desc:0 ""
+	pfp_puppet_assistance:0 "파이프의 형성 가능한 괴뢰 — 괴뢰 지원"
+	pfp_puppet_assistance_desc:0 "괴뢰 국가는 그것을 쥔 손만큼 강하다. 지원 없이는, 가장 순종적인 정권조차 자국의 피점령 인구의 무게 아래 무너질 것이다. 우리는 그것을 허용하지 않을 것이다. 인력과 물자의 꾸준한 흐름을 통해, 우리는 이 지역에 대한 우리의 투자가 보호되고 — 저항의 비용이 누구라도 진지하게 고려하기에 너무 높게 유지되도록 한다."
 
-	pfp_deploy_reinforcements:0 ""
-	pfp_deploy_reinforcements_desc:0 ""
+	pfp_deploy_reinforcements:0 "[FROM.GetName]에 지원군 파견"
+	pfp_deploy_reinforcements_desc:0 "점령 지역은 불안하고, 우리 수비대는 얇게 펼쳐져 있다. 신선한 병력 배치는 현장에서 우리의 존재를 강화하고, 우리의 손이 길고 무질서에 대한 인내가 짧다는 것을 인구에게 상기시킬 것이다. 보내지는 병사 한 명 한 명은 조직된 저항의 관에 박힌 또 하나의 못이다."
 
-	pfp_ship_arms_to_garrison:0 ""
-	pfp_ship_arms_to_garrison_desc:0 ""
+	pfp_ship_arms_to_garrison:0 "[FROM.GetName] 수비대에 무기 수송"
+	pfp_ship_arms_to_garrison_desc:0 "적절한 장비 없는 수비대는 제복을 입은 존재에 불과하다. 우리는 점령 지역의 우리 부대가 제대로 무장되도록 할 것이다 — 싸우기 위해서만이 아니라, 여기서 누가 권력을 가지고 있는지를 모든 거리와 마을에 상기시키기 위해. 잘 공급된 병사들은 협상하지 않는다. 집행한다."

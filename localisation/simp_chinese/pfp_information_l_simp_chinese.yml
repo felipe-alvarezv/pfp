@@ -53,25 +53,23 @@ l_simp_chinese:
 	pfp_state_transfer_tooltip_close_button:0 "关闭状态转移界面。"
 
 
-	pfp_management_option_enabled:0 ""
-	pfp_management_option_disabled:0 ""
+	pfp_management_option_enabled:0 "已启用"
+	pfp_management_option_disabled:0 "已禁用"
 
-	pfp_management_use_overlord_color_tooltip:0 ""
+	pfp_management_use_overlord_color_tooltip:0 "所有玩家控制的国家均处于和平状态。"
 
-	pfp_management_resistance:0 ""
-	pfp_management_resistance_desc:0 ""
+	pfp_management_resistance:0 "切换抵抗机制"
+	pfp_management_resistance_desc:0 "此决定启用或禁用抵抗机制。启用后，可组建的傀儡国将无法获得核心领土，必须完成国策和决定来提升服从度并降低抵抗。当服从度超过80%且抵抗低于20%时，该州将成为核心领土。"
 
-	pfp_puppet_integration_core_state:0 ""
-	pfp_puppet_integration_core_state_desc:0 ""
-	pfp_puppet_integration_core_state_trigger_tooltip:0 ""
-	pfp_puppet_core_status_resistance_enabled:0 ""
-	pfp_puppet_core_status_resistance_disabled:0 ""
-	pfp_puppet_integration_core_state_effect_tooltip:0 ""
+	pfp_puppet_integration_core_state:0 "兼并平定领土"
+	pfp_puppet_integration_core_state_desc:0 "用武力夺取的东西已经持有足够长时间，成为了更多的东西。抵抗已经崩溃，人口已被重新塑造，土地以我们的名义生产。没有理由再维持单独行政的假象。这些领土将被正式并入国家——不是作为占领地，而是作为故土。曾经属于他们的，现在是，也一直是我们的。"
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "以下所有条件必须为真：\n      完全控制任何可能的核心领土。\n      任何可能的核心领土不是§Y[ROOT.GetName]§!的核心。\n      任何可能的核心领土的服从度超过80%。\n      任何可能的核心领土的抵抗低于20%。"
+	pfp_puppet_core_status_resistance_disabled:0 "以下所有条件必须为真：\n      完全控制任何可能的核心领土。\n      任何可能的核心领土不是§Y[ROOT.GetName]§!的核心。"
+	pfp_puppet_integration_core_state_effect_tooltip:0 "任何满足前述要求的可能核心领土将成为核心。"
 
-	pfp_contest_state_tooltip:0 ""
-	pfp_core_state_tooltip:0 ""
-
-
+	pfp_contest_state_tooltip:0 "争议"
+	pfp_core_state_tooltip:0 "核心领土"
 
 
 
@@ -81,82 +79,84 @@ l_simp_chinese:
 
 
 
-	pfp_the_iron_fist:0 ""
-	pfp_the_iron_fist_desc:0 ""
 
-	pfp_boots_on_the_ground:0 ""
-	pfp_boots_on_the_ground_desc:0 ""
+
+	pfp_the_iron_fist:0 "铁拳"
+	pfp_the_iron_fist_desc:0 "傀儡在跳舞，但我们握着丝线。是时候让这种安排成为永久的了。"
+
+	pfp_boots_on_the_ground:0 "地面部队"
+	pfp_boots_on_the_ground_desc:0 "言辞与外交有其用武之地。那个地方不在这里。我们的士兵将提醒被占领者，为何抵抗是他们负担不起的奢侈品。"
 	
-	pfp_suppress_dissent:0 ""
-	pfp_suppress_dissent_desc:0 ""
+	pfp_suppress_dissent:0 "镇压异见"
+	pfp_suppress_dissent_desc:0 "黑暗中的低语越来越响。它们将被噤声——不是用理性，而是用那种不留争辩余地的说服方式。"
 	
-	pfp_by_fire_and_steel:0 ""
-	pfp_by_fire_and_steel_desc:0 ""
+	pfp_by_fire_and_steel:0 "以火与钢铁"
+	pfp_by_fire_and_steel_desc:0 "有些人永远不会屈服。对于他们，我们不提供谈判，不提供怜悯，不留记忆。只有灰烬。"
 	
-	pfp_rule_by_the_sword:0 ""
-	pfp_rule_by_the_sword_desc:0 ""
+	pfp_rule_by_the_sword:0 "以剑统治"
+	pfp_rule_by_the_sword_desc:0 "让被占领者每天早晨醒来都知道，法律是我们来写的，是我们来执行的。秩序将被维持——无论代价如何。"
 	
-	pfp_eyes_everywhere:0 ""
-	pfp_eyes_everywhere_desc:0 ""
+	pfp_eyes_everywhere:0 "无处不在的眼睛"
+	pfp_eyes_everywhere_desc:0 "一个密谋叛乱的人只需要一刻私密。我们打算确保他永远找不到。"
 
-	pfp_purge_the_disloyal:0 ""
-	pfp_purge_the_disloyal_desc:0 ""
+	pfp_purge_the_disloyal:0 "清洗不忠者"
+	pfp_purge_the_disloyal_desc:0 "如果地基腐烂，房子就无法站立。那些曾服务于旧秩序的人——以及那些还会再次服务的人——必须在工作开始前被清除。"
 	
-	pfp_control_the_narrative:0 ""
-	pfp_control_the_narrative_desc:0 ""
+	pfp_control_the_narrative:0 "控制舆论"
+	pfp_control_the_narrative_desc:0 "历史由胜利者书写。我们将确保被占领者只读到我们的事件版本——随着时间的推移，完全相信它。"
 	
-	pfp_erase_the_old_ways:0 ""
-	pfp_erase_the_old_ways_desc:0 ""
+	pfp_erase_the_old_ways:0 "抹去旧习"
+	pfp_erase_the_old_ways_desc:0 "语言、文化、传统——这些是拒绝遗忘的民族的武器。我们将一一夺走，直到没有什么值得记住的。"
 
-	pfp_bread_and_circuses:0 ""
-	pfp_bread_and_circuses_desc:0 ""
-	pfp_reshape_the_soul:0 ""
-	pfp_reshape_the_soul_desc:0 ""
+	pfp_bread_and_circuses:0 "面包与马戏"
+	pfp_bread_and_circuses_desc:0 "并非所有锁链都是铁制的。有些是由舒适、饱腹感和廉价娱乐构成的。满足的民众是顺从的民众。"
+	pfp_reshape_the_soul:0 "重塑灵魂"
+	pfp_reshape_the_soul_desc:0 "由恐惧强制的服从是脆弱的。持久的是信念。我们不仅仅要控制臣民做什么——我们要改变他们想要什么。"
 
-	pfp_the_last_decree:0 ""
-	pfp_the_last_decree_desc:0 ""
+	pfp_the_last_decree:0 "最后的法令"
+	pfp_the_last_decree_desc:0 "此前的每一道命令都是为了这一刻而积累的。没有什么可以宣布，没有权力可以争夺。这就是现在的世界。"
 
-	pfp_puppet_resistance_idea_1:0 ""
-	pfp_puppet_resistance_idea_1_desc:0 ""
-	pfp_puppet_resistance_idea_2:0 ""
+	pfp_puppet_resistance_idea_1:0 "当地抵抗"
+	pfp_puppet_resistance_idea_1_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
+	pfp_puppet_resistance_idea_2:0 "当地抵抗"
 
-	pfp_puppet_resistance_idea_2_desc:0 ""
-	pfp_puppet_resistance_idea_3:0 ""
+	pfp_puppet_resistance_idea_2_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
+	pfp_puppet_resistance_idea_3:0 "当地抵抗"
 
-	pfp_puppet_resistance_idea_3_desc:0 ""
-	pfp_puppet_resistance_idea_4:0 ""
+	pfp_puppet_resistance_idea_3_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
+	pfp_puppet_resistance_idea_4:0 "当地抵抗"
 
-	pfp_puppet_resistance_idea_4_desc:0 ""
-	pfp_puppet_resistance_idea_5:0 ""
+	pfp_puppet_resistance_idea_4_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
+	pfp_puppet_resistance_idea_5:0 "当地抵抗"
 
-	pfp_puppet_resistance_idea_5_desc:0 ""
+	pfp_puppet_resistance_idea_5_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
 
-	pfp_military_police_idea_1:0 ""
-	pfp_military_police_idea_1_desc:0 ""
+	pfp_military_police_idea_1:0 "军事警察"
+	pfp_military_police_idea_1_desc:0 "占领不仅靠士兵来赢得。每个驻军背后都有一个执法者网络——受过训练的人，不是为了战场，而是为了街角、检查站、深夜敲门。随着我们对被占领者的掌控收紧，他们的效率也随之提高。他们了解这片土地，了解这些人，确保任何剩余的抵抗永远找不到立足点。"
 	
-	pfp_military_police_idea_2:0 ""
-	pfp_military_police_idea_2_desc:0 ""
+	pfp_military_police_idea_2:0 "军事警察"
+	pfp_military_police_idea_2_desc:0 "占领不仅靠士兵来赢得。每个驻军背后都有一个执法者网络——受过训练的人，不是为了战场，而是为了街角、检查站、深夜敲门。随着我们对被占领者的掌控收紧，他们的效率也随之提高。他们了解这片土地，了解这些人，确保任何剩余的抵抗永远找不到立足点。"
 	
-	pfp_military_police_idea_3:0 ""
-	pfp_military_police_idea_3_desc:0 ""
+	pfp_military_police_idea_3:0 "军事警察"
+	pfp_military_police_idea_3_desc:0 "占领不仅靠士兵来赢得。每个驻军背后都有一个执法者网络——受过训练的人，不是为了战场，而是为了街角、检查站、深夜敲门。随着我们对被占领者的掌控收紧，他们的效率也随之提高。他们了解这片土地，了解这些人，确保任何剩余的抵抗永远找不到立足点。"
 
-	pfp_civilian_collaborators_idea_1:0 ""
-	pfp_civilian_collaborators_idea_1_desc:0 ""
+	pfp_civilian_collaborators_idea_1:0 "平民合作者"
+	pfp_civilian_collaborators_idea_1_desc:0 "并非所有对占领的抵抗都来自士兵和游击队。其中很多生活在普通人中——漠视的邻居、传递消息的店主、窝藏错误客人的家庭。但人是可以被转化的。通过利诱，通过恐惧，通过对旧忠诚的缓慢侵蚀，被占领者中的一些人开始为占领者服务。他们观察。他们汇报。随着每个月过去，抵抗之火能够呼吸的地方越来越少。"
 
-	pfp_civilian_collaborators_idea_2:0 ""
-	pfp_civilian_collaborators_idea_2_desc:0 ""
+	pfp_civilian_collaborators_idea_2:0 "平民合作者"
+	pfp_civilian_collaborators_idea_2_desc:0 "并非所有对占领的抵抗都来自士兵和游击队。其中很多生活在普通人中——漠视的邻居、传递消息的店主、窝藏错误客人的家庭。但人是可以被转化的。通过利诱，通过恐惧，通过对旧忠诚的缓慢侵蚀，被占领者中的一些人开始为占领者服务。他们观察。他们汇报。随着每个月过去，抵抗之火能够呼吸的地方越来越少。"
 
-	pfp_civilian_collaborators_idea_3:0 ""
-	pfp_civilian_collaborators_idea_3_desc:0 ""
+	pfp_civilian_collaborators_idea_3:0 "平民合作者"
+	pfp_civilian_collaborators_idea_3_desc:0 "并非所有对占领的抵抗都来自士兵和游击队。其中很多生活在普通人中——漠视的邻居、传递消息的店主、窝藏错误客人的家庭。但人是可以被转化的。通过利诱，通过恐惧，通过对旧忠诚的缓慢侵蚀，被占领者中的一些人开始为占领者服务。他们观察。他们汇报。随着每个月过去，抵抗之火能够呼吸的地方越来越少。"
 
-	pfp_puppet_integration:0 ""
-	pfp_puppet_integration_desc:0 ""
+	pfp_puppet_integration:0 "整合被占领者"
+	pfp_puppet_integration_desc:0 "占领持续了足够长的时间，某些领土不再感觉陌生。人们已被平定，旧习已被遗忘，国家机器以我们的名义运转。是时候停止把这些土地当作征服的领土，而开始把它们当作它们真正的样子——我们的。"
 
-	pfp_puppet_assistance:0 ""
-	pfp_puppet_assistance_desc:0 ""
+	pfp_puppet_assistance:0 "派普可组建的傀儡——傀儡援助"
+	pfp_puppet_assistance_desc:0 "傀儡国只有握住它的手那么强大。没有支持，即使是最顺从的政权也会在其自身被占领人口的重压下垮塌。我们不会允许这种情况。通过稳定的人力和物资流动，我们确保在这一领土上的投资得到保护——并且抵抗的代价高到任何人都无法认真考虑。"
 
-	pfp_deploy_reinforcements:0 ""
-	pfp_deploy_reinforcements_desc:0 ""
+	pfp_deploy_reinforcements:0 "向[FROM.GetName]派遣增援"
+	pfp_deploy_reinforcements_desc:0 "占领地区局势动荡，我们的驻军严重不足。新一批部队的部署将加强我们在当地的存在，提醒民众我们的触角很长，对混乱的忍耐很短。每送出一名士兵，都是有组织抵抗棺木上的又一枚钉子。"
 
-	pfp_ship_arms_to_garrison:0 ""
-	pfp_ship_arms_to_garrison_desc:0 ""
+	pfp_ship_arms_to_garrison:0 "向[FROM.GetName]驻军输送武器"
+	pfp_ship_arms_to_garrison_desc:0 "缺乏适当装备的驻军不过是一支穿制服的存在。我们将确保占领地区的部队得到妥善武装——不仅仅是为了战斗，而是要让每条街道和每个村庄都清楚地知道谁在这里掌握权力。供给充足的士兵不会谈判。他们只会执行。"

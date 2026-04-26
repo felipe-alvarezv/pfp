@@ -53,25 +53,23 @@ l_japanese:
 	pfp_state_transfer_tooltip_close_button:0 "州移管インターフェースを閉じる。"
 
 
-	pfp_management_option_enabled:0 ""
-	pfp_management_option_disabled:0 ""
+	pfp_management_option_enabled:0 "有効"
+	pfp_management_option_disabled:0 "無効"
 
-	pfp_management_use_overlord_color_tooltip:0 ""
+	pfp_management_use_overlord_color_tooltip:0 "プレイヤーが支配するすべての国は平和状態にある。"
 
-	pfp_management_resistance:0 ""
-	pfp_management_resistance_desc:0 ""
+	pfp_management_resistance:0 "抵抗力学の切り替え"
+	pfp_management_resistance_desc:0 "この決定は抵抗力学を有効または無効にします。有効にすると、形成可能な傀儡国はコア地域を取得できず、服従度を上げて抵抗を下げるためのフォーカスや決定を完了する必要があります。服従度が80%を超え、抵抗が20%を下回ると、州がコアになります。"
 
-	pfp_puppet_integration_core_state:0 ""
-	pfp_puppet_integration_core_state_desc:0 ""
-	pfp_puppet_integration_core_state_trigger_tooltip:0 ""
-	pfp_puppet_core_status_resistance_enabled:0 ""
-	pfp_puppet_core_status_resistance_disabled:0 ""
-	pfp_puppet_integration_core_state_effect_tooltip:0 ""
+	pfp_puppet_integration_core_state:0 "平定領土の併合"
+	pfp_puppet_integration_core_state_desc:0 "武力で奪ったものは、それ以上のものになるのに十分なほど長く保持されてきた。抵抗は崩れ、人口は再形成され、土地は我々の名のもとに生産する。別個の行政の見せかけを維持する理由はもはやない。これらの領土は国家に正式に吸収される — 占領地としてではなく、故郷の土として。かつて彼らのものだったものは今、そしてずっとそうであったように、我々のものだ。"
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "以下のすべてが真でなければならない：\n      可能なコア州を完全に支配している。\n      可能なコア州は§Y[ROOT.GetName]§!のコアではない。\n      可能なコア州の服従度が80%以上である。\n      可能なコア州の抵抗が20%未満である。"
+	pfp_puppet_core_status_resistance_disabled:0 "以下のすべてが真でなければならない：\n      可能なコア州を完全に支配している。\n      可能なコア州は§Y[ROOT.GetName]§!のコアではない。"
+	pfp_puppet_integration_core_state_effect_tooltip:0 "前の要件を満たす可能なコア州はコアになります。"
 
-	pfp_contest_state_tooltip:0 ""
-	pfp_core_state_tooltip:0 ""
-
-
+	pfp_contest_state_tooltip:0 "争奪"
+	pfp_core_state_tooltip:0 "コア州"
 
 
 
@@ -81,82 +79,84 @@ l_japanese:
 
 
 
-	pfp_the_iron_fist:0 ""
-	pfp_the_iron_fist_desc:0 ""
 
-	pfp_boots_on_the_ground:0 ""
-	pfp_boots_on_the_ground_desc:0 ""
+
+	pfp_the_iron_fist:0 "鉄の拳"
+	pfp_the_iron_fist_desc:0 "傀儡は踊るが、糸は我々が握っている。この取り決めを恒久的なものにする時が来た。"
+
+	pfp_boots_on_the_ground:0 "地上の兵士"
+	pfp_boots_on_the_ground_desc:0 "言葉と外交にはその場所がある。その場所はここではない。我々の兵士は被占領者に、なぜ抵抗が彼らが負担できない贅沢であるかを思い知らせるだろう。"
 	
-	pfp_suppress_dissent:0 ""
-	pfp_suppress_dissent_desc:0 ""
+	pfp_suppress_dissent:0 "異論の鎮圧"
+	pfp_suppress_dissent_desc:0 "暗闇の中の囁きが大きくなっている。それは沈黙させられるだろう — 理性によってではなく、論争の余地を残さない種類の説得によって。"
 	
-	pfp_by_fire_and_steel:0 ""
-	pfp_by_fire_and_steel_desc:0 ""
+	pfp_by_fire_and_steel:0 "火と鋼鉄で"
+	pfp_by_fire_and_steel_desc:0 "決して屈しない者がいる。彼らには、交渉も、慈悲も、記憶も提供しない。灰だけだ。"
 	
-	pfp_rule_by_the_sword:0 ""
-	pfp_rule_by_the_sword_desc:0 ""
+	pfp_rule_by_the_sword:0 "剣による支配"
+	pfp_rule_by_the_sword_desc:0 "被占領者が毎朝目覚め、法律は我々が書くものであり、我々が執行するものだと知るようにせよ。秩序は維持される — いかなる代償を払ってでも。"
 	
-	pfp_eyes_everywhere:0 ""
-	pfp_eyes_everywhere_desc:0 ""
+	pfp_eyes_everywhere:0 "至る所に目"
+	pfp_eyes_everywhere_desc:0 "反乱を企てる男には、ただ一瞬のプライバシーが必要だ。我々はその男がそれを決して見つけられないようにするつもりだ。"
 
-	pfp_purge_the_disloyal:0 ""
-	pfp_purge_the_disloyal_desc:0 ""
+	pfp_purge_the_disloyal:0 "不忠者の粛清"
+	pfp_purge_the_disloyal_desc:0 "基礎が腐っていれば家は立たない。旧秩序に仕えた者 — そして再び仕えるであろう者 — は、作業を始める前に排除しなければならない。"
 	
-	pfp_control_the_narrative:0 ""
-	pfp_control_the_narrative_desc:0 ""
+	pfp_control_the_narrative:0 "言論の統制"
+	pfp_control_the_narrative_desc:0 "歴史は勝者によって書かれる。我々は被占領者が我々の事件の版のみを読むようにし — そして時がたてば完全に信じるようにする。"
 	
-	pfp_erase_the_old_ways:0 ""
-	pfp_erase_the_old_ways_desc:0 ""
+	pfp_erase_the_old_ways:0 "旧来の慣習の抹消"
+	pfp_erase_the_old_ways_desc:0 "言語、文化、伝統 — これらは忘れることを拒む人々の武器だ。一つ一つ取り上げていく、覚えていることが何も残るまで。"
 
-	pfp_bread_and_circuses:0 ""
-	pfp_bread_and_circuses_desc:0 ""
-	pfp_reshape_the_soul:0 ""
-	pfp_reshape_the_soul_desc:0 ""
+	pfp_bread_and_circuses:0 "パンと見世物"
+	pfp_bread_and_circuses_desc:0 "すべての鎖が鉄でできているわけではない。快適さ、満腹感、安価な娯楽でできているものもある。満足している集団は従順な集団だ。"
+	pfp_reshape_the_soul:0 "魂の再形成"
+	pfp_reshape_the_soul_desc:0 "恐怖によって強制された服従は脆弱だ。持続するのは信念だ。我々は単に臣民が何をするかを支配するだけでなく — 彼らが何を望むかを変える。"
 
-	pfp_the_last_decree:0 ""
-	pfp_the_last_decree_desc:0 ""
+	pfp_the_last_decree:0 "最後の勅令"
+	pfp_the_last_decree_desc:0 "それ以前のすべての命令はこの瞬間に向けて積み上げられてきた。宣言すべきことは何も残っておらず、争うべき権力も残っていない。これが単純に今の世界だ。"
 
-	pfp_puppet_resistance_idea_1:0 ""
-	pfp_puppet_resistance_idea_1_desc:0 ""
-	pfp_puppet_resistance_idea_2:0 ""
+	pfp_puppet_resistance_idea_1:0 "現地の抵抗"
+	pfp_puppet_resistance_idea_1_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
+	pfp_puppet_resistance_idea_2:0 "現地の抵抗"
 
-	pfp_puppet_resistance_idea_2_desc:0 ""
-	pfp_puppet_resistance_idea_3:0 ""
+	pfp_puppet_resistance_idea_2_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
+	pfp_puppet_resistance_idea_3:0 "現地の抵抗"
 
-	pfp_puppet_resistance_idea_3_desc:0 ""
-	pfp_puppet_resistance_idea_4:0 ""
+	pfp_puppet_resistance_idea_3_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
+	pfp_puppet_resistance_idea_4:0 "現地の抵抗"
 
-	pfp_puppet_resistance_idea_4_desc:0 ""
-	pfp_puppet_resistance_idea_5:0 ""
+	pfp_puppet_resistance_idea_4_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
+	pfp_puppet_resistance_idea_5:0 "現地の抵抗"
 
-	pfp_puppet_resistance_idea_5_desc:0 ""
+	pfp_puppet_resistance_idea_5_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
 
-	pfp_military_police_idea_1:0 ""
-	pfp_military_police_idea_1_desc:0 ""
+	pfp_military_police_idea_1:0 "憲兵"
+	pfp_military_police_idea_1_desc:0 "占領は兵士だけでは勝てない。すべての駐屯地の背後には執行者のネットワークが立つ — 戦場ではなく、街角、検問所、真夜中のドアへのノックのために訓練された男たち。被占領者への我々の掌握が強まるにつれ、彼らの効率も高まる。彼らは土地を学び、人々を学び、残存する抵抗が決して足場を見つけないようにする。"
 	
-	pfp_military_police_idea_2:0 ""
-	pfp_military_police_idea_2_desc:0 ""
+	pfp_military_police_idea_2:0 "憲兵"
+	pfp_military_police_idea_2_desc:0 "占領は兵士だけでは勝てない。すべての駐屯地の背後には執行者のネットワークが立つ — 戦場ではなく、街角、検問所、真夜中のドアへのノックのために訓練された男たち。被占領者への我々の掌握が強まるにつれ、彼らの効率も高まる。彼らは土地を学び、人々を学び、残存する抵抗が決して足場を見つけないようにする。"
 	
-	pfp_military_police_idea_3:0 ""
-	pfp_military_police_idea_3_desc:0 ""
+	pfp_military_police_idea_3:0 "憲兵"
+	pfp_military_police_idea_3_desc:0 "占領は兵士だけでは勝てない。すべての駐屯地の背後には執行者のネットワークが立つ — 戦場ではなく、街角、検問所、真夜中のドアへのノックのために訓練された男たち。被占領者への我々の掌握が強まるにつれ、彼らの効率も高まる。彼らは土地を学び、人々を学び、残存する抵抗が決して足場を見つけないようにする。"
 
-	pfp_civilian_collaborators_idea_1:0 ""
-	pfp_civilian_collaborators_idea_1_desc:0 ""
+	pfp_civilian_collaborators_idea_1:0 "民間協力者"
+	pfp_civilian_collaborators_idea_1_desc:0 "占領への抵抗のすべてが兵士やパルチザンからくるわけではない。多くは普通の人々 — 目をそらす隣人、メッセージを伝える店主、望まない客を匿う家族 — の中に生きている。しかし人々は転向させることができる。誘惑を通じて、恐怖を通じて、古い忠誠心のゆっくりとした侵食を通じて、被占領者の中のいくつかは占領者に仕え始める。彼らは見る。彼らは報告する。そして月が経つごとに、抵抗の炎は息をする場所がより少なくなっていく。"
 
-	pfp_civilian_collaborators_idea_2:0 ""
-	pfp_civilian_collaborators_idea_2_desc:0 ""
+	pfp_civilian_collaborators_idea_2:0 "民間協力者"
+	pfp_civilian_collaborators_idea_2_desc:0 "占領への抵抗のすべてが兵士やパルチザンからくるわけではない。多くは普通の人々 — 目をそらす隣人、メッセージを伝える店主、望まない客を匿う家族 — の中に生きている。しかし人々は転向させることができる。誘惑を通じて、恐怖を通じて、古い忠誠心のゆっくりとした侵食を通じて、被占領者の中のいくつかは占領者に仕え始める。彼らは見る。彼らは報告する。そして月が経つごとに、抵抗の炎は息をする場所がより少なくなっていく。"
 
-	pfp_civilian_collaborators_idea_3:0 ""
-	pfp_civilian_collaborators_idea_3_desc:0 ""
+	pfp_civilian_collaborators_idea_3:0 "民間協力者"
+	pfp_civilian_collaborators_idea_3_desc:0 "占領への抵抗のすべてが兵士やパルチザンからくるわけではない。多くは普通の人々 — 目をそらす隣人、メッセージを伝える店主、望まない客を匿う家族 — の中に生きている。しかし人々は転向させることができる。誘惑を通じて、恐怖を通じて、古い忠誠心のゆっくりとした侵食を通じて、被占領者の中のいくつかは占領者に仕え始める。彼らは見る。彼らは報告する。そして月が経つごとに、抵抗の炎は息をする場所がより少なくなっていく。"
 
-	pfp_puppet_integration:0 ""
-	pfp_puppet_integration_desc:0 ""
+	pfp_puppet_integration:0 "被占領者の統合"
+	pfp_puppet_integration_desc:0 "占領は、特定の地域がもはや異質に感じられなくなるほど長く続いてきた。人々は平定され、旧来の慣習は忘れられ、国家の機構は我々の名のもとに動いている。これらの土地を征服された地として扱うのをやめ、本当にそうであるもの — 我々のもの — として扱う時だ。"
 
-	pfp_puppet_assistance:0 ""
-	pfp_puppet_assistance_desc:0 ""
+	pfp_puppet_assistance:0 "パイプの形成可能な傀儡 — 傀儡支援"
+	pfp_puppet_assistance_desc:0 "傀儡国家はそれを握る手と同じくらい強い。支援なしでは、最も従順な政権でさえ、その占領された人口の重みで屈服するだろう。それは許さない。人力と物資の安定した流れを通じて、この地域への我々の投資が保護されたままであること — そして抵抗のコストが誰もが真剣に考えるには高すぎることを確保する。"
 
-	pfp_deploy_reinforcements:0 ""
-	pfp_deploy_reinforcements_desc:0 ""
+	pfp_deploy_reinforcements:0 "[FROM.GetName]への増援派遣"
+	pfp_deploy_reinforcements_desc:0 "占領地域は不穏で、駐屯地は手薄だ。新鮮な部隊の展開は現地での我々の存在を強化し、我々の手が長く、秩序への我々の忍耐が短いことを人口に思い知らせるだろう。送られる兵士一人一人は、組織された抵抗の棺にまた一本の釘だ。"
 
-	pfp_ship_arms_to_garrison:0 ""
-	pfp_ship_arms_to_garrison_desc:0 ""
+	pfp_ship_arms_to_garrison:0 "[FROM.GetName]駐屯地への武器輸送"
+	pfp_ship_arms_to_garrison_desc:0 "適切な装備のない駐屯地は制服を着た存在以上ではない。占領地域の我々の部隊が適切に武装されるように — 戦うためだけでなく、誰がここで権力を持っているかをすべての通りとすべての村に思い知らせるために。よく供給された兵士は交渉しない。執行する。"

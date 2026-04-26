@@ -53,25 +53,23 @@ l_spanish:
 	pfp_state_transfer_tooltip_close_button:0 "Cerrar la interfaz de transferencia de estado."
 
 
-	pfp_management_option_enabled:0 ""
-	pfp_management_option_disabled:0 ""
+	pfp_management_option_enabled:0 "Activado"
+	pfp_management_option_disabled:0 "Desactivado"
 
-	pfp_management_use_overlord_color_tooltip:0 ""
+	pfp_management_use_overlord_color_tooltip:0 "Todos los países controlados por el jugador están en paz."
 
-	pfp_management_resistance:0 ""
-	pfp_management_resistance_desc:0 ""
+	pfp_management_resistance:0 "Alternar Mecánicas de Resistencia"
+	pfp_management_resistance_desc:0 "Esta decisión activa o desactiva las mecánicas de resistencia. Si está activada, los títeres formables no obtendrán territorios centrales y deberán completar enfoques y decisiones para aumentar el cumplimiento y reducir la resistencia. Un estado se convertirá en territorio central cuando el cumplimiento supere el 80% y la resistencia esté por debajo del 20%."
 
-	pfp_puppet_integration_core_state:0 ""
-	pfp_puppet_integration_core_state_desc:0 ""
-	pfp_puppet_integration_core_state_trigger_tooltip:0 ""
-	pfp_puppet_core_status_resistance_enabled:0 ""
-	pfp_puppet_core_status_resistance_disabled:0 ""
-	pfp_puppet_integration_core_state_effect_tooltip:0 ""
+	pfp_puppet_integration_core_state:0 "Anexar Territorio Pacificado"
+	pfp_puppet_integration_core_state_desc:0 "Lo que fue tomado por la fuerza ha sido retenido el tiempo suficiente para convertirse en algo más. La resistencia se ha roto, la población ha sido remodelada, y la tierra produce en nuestro nombre. Ya no hay razón para mantener la ilusión de una administración separada. Estos territorios serán formalmente absorbidos por el estado — no como tierra ocupada, sino como suelo natal. Lo que era de ellos es ahora, y siempre ha sido, nuestro."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "Todo lo siguiente debe ser cierto:\n      Controla completamente cualquier territorio central posible.\n      Cualquier territorio central posible no es central de §Y[ROOT.GetName]§!.\n      Cualquier territorio central posible tiene más del 80% de cumplimiento.\n      Cualquier territorio central posible tiene menos del 20% de resistencia."
+	pfp_puppet_core_status_resistance_disabled:0 "Todo lo siguiente debe ser cierto:\n      Controla completamente cualquier territorio central posible.\n      Cualquier territorio central posible no es central de §Y[ROOT.GetName]§!."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "Cualquier territorio central posible que cumpla los requisitos anteriores será declarado central."
 
-	pfp_contest_state_tooltip:0 ""
-	pfp_core_state_tooltip:0 ""
-
-
+	pfp_contest_state_tooltip:0 "disputa"
+	pfp_core_state_tooltip:0 "territorios centrales"
 
 
 
@@ -81,82 +79,84 @@ l_spanish:
 
 
 
-	pfp_the_iron_fist:0 ""
-	pfp_the_iron_fist_desc:0 ""
 
-	pfp_boots_on_the_ground:0 ""
-	pfp_boots_on_the_ground_desc:0 ""
+
+	pfp_the_iron_fist:0 "El Puño de Hierro"
+	pfp_the_iron_fist_desc:0 "El títere baila, pero nosotros sostenemos los hilos. Es hora de hacer ese acuerdo permanente."
+
+	pfp_boots_on_the_ground:0 "Botas en el Terreno"
+	pfp_boots_on_the_ground_desc:0 "Las palabras y la diplomacia tienen su lugar. Ese lugar no es aquí. Nuestros soldados le recordarán a los ocupados por qué la resistencia es un lujo que no pueden permitirse."
 	
-	pfp_suppress_dissent:0 ""
-	pfp_suppress_dissent_desc:0 ""
+	pfp_suppress_dissent:0 "Suprimir la Disidencia"
+	pfp_suppress_dissent_desc:0 "Los susurros en la oscuridad se hacen más fuertes. Serán silenciados — no con razón, sino con el tipo de persuasión que no deja lugar para el argumento."
 	
-	pfp_by_fire_and_steel:0 ""
-	pfp_by_fire_and_steel_desc:0 ""
+	pfp_by_fire_and_steel:0 "Por Fuego y Acero"
+	pfp_by_fire_and_steel_desc:0 "Hay quienes nunca se doblarán. Para ellos, no ofrecemos negociación, ni misericordia, ni memoria. Solo cenizas."
 	
-	pfp_rule_by_the_sword:0 ""
-	pfp_rule_by_the_sword_desc:0 ""
+	pfp_rule_by_the_sword:0 "Gobernar con la Espada"
+	pfp_rule_by_the_sword_desc:0 "Que los ocupados se despierten cada mañana sabiendo que la ley es nuestra para escribir, y nuestra para hacer cumplir. El orden se mantendrá — a cualquier costo."
 	
-	pfp_eyes_everywhere:0 ""
-	pfp_eyes_everywhere_desc:0 ""
+	pfp_eyes_everywhere:0 "Ojos en Todas Partes"
+	pfp_eyes_everywhere_desc:0 "Un hombre que planea una rebelión solo necesita un momento de privacidad. Pretendemos asegurarnos de que nunca lo encuentre."
 
-	pfp_purge_the_disloyal:0 ""
-	pfp_purge_the_disloyal_desc:0 ""
+	pfp_purge_the_disloyal:0 "Purgar a los Desleales"
+	pfp_purge_the_disloyal_desc:0 "Una casa no puede mantenerse si sus cimientos están podridos. Aquellos que sirvieron al viejo orden — y lo harían de nuevo — deben ser eliminados antes de que el trabajo pueda comenzar."
 	
-	pfp_control_the_narrative:0 ""
-	pfp_control_the_narrative_desc:0 ""
+	pfp_control_the_narrative:0 "Controlar el Relato"
+	pfp_control_the_narrative_desc:0 "La historia la escriben los vencedores. Nos aseguraremos de que los ocupados lean solo nuestra versión de los eventos — y con el tiempo, la crean completamente."
 	
-	pfp_erase_the_old_ways:0 ""
-	pfp_erase_the_old_ways_desc:0 ""
+	pfp_erase_the_old_ways:0 "Borrar las Viejas Costumbres"
+	pfp_erase_the_old_ways_desc:0 "Lengua, cultura, tradición — estas son las armas de un pueblo que se niega a olvidar. Se las quitaremos, una por una, hasta que no quede nada que recordar."
 
-	pfp_bread_and_circuses:0 ""
-	pfp_bread_and_circuses_desc:0 ""
-	pfp_reshape_the_soul:0 ""
-	pfp_reshape_the_soul_desc:0 ""
+	pfp_bread_and_circuses:0 "Pan y Circo"
+	pfp_bread_and_circuses_desc:0 "No todas las cadenas son de hierro. Algunas están hechas de comodidad, de vientres llenos y entretenimiento barato. Una población contenta es una población dócil."
+	pfp_reshape_the_soul:0 "Reformar el Alma"
+	pfp_reshape_the_soul_desc:0 "El cumplimiento impuesto por el miedo es frágil. Lo que perdura es la creencia. No solo controlaremos lo que hacen nuestros súbditos — cambiaremos lo que quieren."
 
-	pfp_the_last_decree:0 ""
-	pfp_the_last_decree_desc:0 ""
+	pfp_the_last_decree:0 "El Último Decreto"
+	pfp_the_last_decree_desc:0 "Cada orden anterior estaba construyendo hacia este momento. No hay nada más que declarar, ningún poder más que disputar. Este es simplemente el mundo, ahora."
 
-	pfp_puppet_resistance_idea_1:0 ""
-	pfp_puppet_resistance_idea_1_desc:0 ""
-	pfp_puppet_resistance_idea_2:0 ""
+	pfp_puppet_resistance_idea_1:0 "Resistencia Local"
+	pfp_puppet_resistance_idea_1_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
+	pfp_puppet_resistance_idea_2:0 "Resistencia Local"
 
-	pfp_puppet_resistance_idea_2_desc:0 ""
-	pfp_puppet_resistance_idea_3:0 ""
+	pfp_puppet_resistance_idea_2_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
+	pfp_puppet_resistance_idea_3:0 "Resistencia Local"
 
-	pfp_puppet_resistance_idea_3_desc:0 ""
-	pfp_puppet_resistance_idea_4:0 ""
+	pfp_puppet_resistance_idea_3_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
+	pfp_puppet_resistance_idea_4:0 "Resistencia Local"
 
-	pfp_puppet_resistance_idea_4_desc:0 ""
-	pfp_puppet_resistance_idea_5:0 ""
+	pfp_puppet_resistance_idea_4_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
+	pfp_puppet_resistance_idea_5:0 "Resistencia Local"
 
-	pfp_puppet_resistance_idea_5_desc:0 ""
+	pfp_puppet_resistance_idea_5_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
 
-	pfp_military_police_idea_1:0 ""
-	pfp_military_police_idea_1_desc:0 ""
+	pfp_military_police_idea_1:0 "Policía Militar"
+	pfp_military_police_idea_1_desc:0 "La ocupación no se gana solo con soldados. Detrás de cada guarnición hay una red de ejecutores — hombres entrenados no para el campo de batalla, sino para la esquina de la calle, el punto de control, el golpe de medianoche en la puerta. A medida que nuestro control sobre los ocupados se estrecha, también lo hace su eficiencia. Aprenden la tierra, aprenden a la gente, y se aseguran de que cualquier resistencia que quede nunca encuentre su lugar."
 	
-	pfp_military_police_idea_2:0 ""
-	pfp_military_police_idea_2_desc:0 ""
+	pfp_military_police_idea_2:0 "Policía Militar"
+	pfp_military_police_idea_2_desc:0 "La ocupación no se gana solo con soldados. Detrás de cada guarnición hay una red de ejecutores — hombres entrenados no para el campo de batalla, sino para la esquina de la calle, el punto de control, el golpe de medianoche en la puerta. A medida que nuestro control sobre los ocupados se estrecha, también lo hace su eficiencia. Aprenden la tierra, aprenden a la gente, y se aseguran de que cualquier resistencia que quede nunca encuentre su lugar."
 	
-	pfp_military_police_idea_3:0 ""
-	pfp_military_police_idea_3_desc:0 ""
+	pfp_military_police_idea_3:0 "Policía Militar"
+	pfp_military_police_idea_3_desc:0 "La ocupación no se gana solo con soldados. Detrás de cada guarnición hay una red de ejecutores — hombres entrenados no para el campo de batalla, sino para la esquina de la calle, el punto de control, el golpe de medianoche en la puerta. A medida que nuestro control sobre los ocupados se estrecha, también lo hace su eficiencia. Aprenden la tierra, aprenden a la gente, y se aseguran de que cualquier resistencia que quede nunca encuentre su lugar."
 
-	pfp_civilian_collaborators_idea_1:0 ""
-	pfp_civilian_collaborators_idea_1_desc:0 ""
+	pfp_civilian_collaborators_idea_1:0 "Colaboradores Civiles"
+	pfp_civilian_collaborators_idea_1_desc:0 "No toda la resistencia a la ocupación proviene de soldados y partisanos. Gran parte vive en personas ordinarias — vecinos que miran hacia otro lado, comerciantes que transmiten mensajes, familias que albergan a los huéspedes equivocados. Pero la gente puede ser convertida. A través del incentivo, del miedo, de la lenta erosión de las viejas lealtades, algunos entre los ocupados comienzan a servir al ocupante. Observan. Informan. Y con cada mes que pasa, el fuego de la resistencia encuentra menos lugares donde respirar."
 
-	pfp_civilian_collaborators_idea_2:0 ""
-	pfp_civilian_collaborators_idea_2_desc:0 ""
+	pfp_civilian_collaborators_idea_2:0 "Colaboradores Civiles"
+	pfp_civilian_collaborators_idea_2_desc:0 "No toda la resistencia a la ocupación proviene de soldados y partisanos. Gran parte vive en personas ordinarias — vecinos que miran hacia otro lado, comerciantes que transmiten mensajes, familias que albergan a los huéspedes equivocados. Pero la gente puede ser convertida. A través del incentivo, del miedo, de la lenta erosión de las viejas lealtades, algunos entre los ocupados comienzan a servir al ocupante. Observan. Informan. Y con cada mes que pasa, el fuego de la resistencia encuentra menos lugares donde respirar."
 
-	pfp_civilian_collaborators_idea_3:0 ""
-	pfp_civilian_collaborators_idea_3_desc:0 ""
+	pfp_civilian_collaborators_idea_3:0 "Colaboradores Civiles"
+	pfp_civilian_collaborators_idea_3_desc:0 "No toda la resistencia a la ocupación proviene de soldados y partisanos. Gran parte vive en personas ordinarias — vecinos que miran hacia otro lado, comerciantes que transmiten mensajes, familias que albergan a los huéspedes equivocados. Pero la gente puede ser convertida. A través del incentivo, del miedo, de la lenta erosión de las viejas lealtades, algunos entre los ocupados comienzan a servir al ocupante. Observan. Informan. Y con cada mes que pasa, el fuego de la resistencia encuentra menos lugares donde respirar."
 
-	pfp_puppet_integration:0 ""
-	pfp_puppet_integration_desc:0 ""
+	pfp_puppet_integration:0 "Integrar a los Ocupados"
+	pfp_puppet_integration_desc:0 "La ocupación ha durado lo suficiente como para que ciertos territorios ya no se sientan extranjeros. La gente ha sido pacificada, las viejas costumbres olvidadas, y la maquinaria del estado funciona en nuestro nombre. Es hora de dejar de tratar estas tierras como territorio conquistado y empezar a tratarlas como lo que realmente son — nuestras."
 
-	pfp_puppet_assistance:0 ""
-	pfp_puppet_assistance_desc:0 ""
+	pfp_puppet_assistance:0 "Marionetas Formables de Pipe — Asistencia a las Marionetas"
+	pfp_puppet_assistance_desc:0 "Un estado títere es tan fuerte como la mano que lo sostiene. Sin apoyo, incluso el régimen más dócil cederá bajo el peso de su propia población ocupada. No lo permitiremos. A través del flujo constante de mano de obra y material, nos aseguramos de que nuestra inversión en este territorio permanezca protegida — y que el costo de la resistencia sea demasiado alto para que alguien lo considere seriamente."
 
-	pfp_deploy_reinforcements:0 ""
-	pfp_deploy_reinforcements_desc:0 ""
+	pfp_deploy_reinforcements:0 "Desplegar Refuerzos en [FROM.GetName]"
+	pfp_deploy_reinforcements_desc:0 "Los territorios ocupados están inquietos, y nuestra guarnición está estirada. Un nuevo despliegue de tropas reforzará nuestra presencia sobre el terreno, recordando a la población que nuestro alcance es largo y nuestra paciencia para el desorden es corta. Cada soldado enviado es otro clavo en el ataúd de la resistencia organizada."
 
-	pfp_ship_arms_to_garrison:0 ""
-	pfp_ship_arms_to_garrison_desc:0 ""
+	pfp_ship_arms_to_garrison:0 "Enviar Armas a la Guarnición de [FROM.GetName]"
+	pfp_ship_arms_to_garrison_desc:0 "Una guarnición sin equipo adecuado es poco más que una presencia uniformada. Nos aseguraremos de que nuestras fuerzas en los territorios ocupados estén correctamente armadas — no solo para luchar, sino para recordar a cada calle y cada aldea exactamente quién tiene el poder aquí. Los soldados bien abastecidos no negocian. Ejecutan."

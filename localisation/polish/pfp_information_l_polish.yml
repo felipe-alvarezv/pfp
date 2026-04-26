@@ -53,25 +53,23 @@ l_polish:
 	pfp_state_transfer_tooltip_close_button:0 "Zamknij interfejs transferu stanów."
 
 
-	pfp_management_option_enabled:0 ""
-	pfp_management_option_disabled:0 ""
+	pfp_management_option_enabled:0 "Włączone"
+	pfp_management_option_disabled:0 "Wyłączone"
 
-	pfp_management_use_overlord_color_tooltip:0 ""
+	pfp_management_use_overlord_color_tooltip:0 "Wszystkie kraje kontrolowane przez gracza są w stanie pokoju."
 
-	pfp_management_resistance:0 ""
-	pfp_management_resistance_desc:0 ""
+	pfp_management_resistance:0 "Przełącz mechaniki oporu"
+	pfp_management_resistance_desc:0 "Ta decyzja włącza lub wyłącza mechaniki oporu. Jeśli włączone, formowalne marionetkowe państwa nie otrzymają terytoriów rdzennych i będą musiały ukończyć fokuse i decyzje, aby zwiększyć zgodność i zmniejszyć opór. Państwo stanie się terytorium rdzennym, gdy zgodność przekroczy 80%, a opór spadnie poniżej 20%."
 
-	pfp_puppet_integration_core_state:0 ""
-	pfp_puppet_integration_core_state_desc:0 ""
-	pfp_puppet_integration_core_state_trigger_tooltip:0 ""
-	pfp_puppet_core_status_resistance_enabled:0 ""
-	pfp_puppet_core_status_resistance_disabled:0 ""
-	pfp_puppet_integration_core_state_effect_tooltip:0 ""
+	pfp_puppet_integration_core_state:0 "Anektuj spacyfikowane terytorium"
+	pfp_puppet_integration_core_state_desc:0 "To, co zostało wzięte siłą, było trzymane wystarczająco długo, aby stać się czymś więcej. Opór się załamał, populacja została przeformowana, a ziemia produkuje w naszym imieniu. Nie ma już powodu, aby utrzymywać pozory oddzielnej administracji. Te terytoria zostaną formalnie wchłonięte do państwa — nie jako ziemia zajęta, ale jako gleba ojczysta. To, co było ich, jest teraz, i zawsze było, nasze."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "Wszystkie poniższe muszą być prawdziwe:\n      W pełni kontroluje każde możliwe terytorium rdzenne.\n      Żadne możliwe terytorium rdzenne nie jest rdzenne dla §Y[ROOT.GetName]§!.\n      Każde możliwe terytorium rdzenne ma ponad 80% zgodności.\n      Każde możliwe terytorium rdzenne ma poniżej 20% oporu."
+	pfp_puppet_core_status_resistance_disabled:0 "Wszystkie poniższe muszą być prawdziwe:\n      W pełni kontroluje każde możliwe terytorium rdzenne.\n      Żadne możliwe terytorium rdzenne nie jest rdzenne dla §Y[ROOT.GetName]§!."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "Każde możliwe terytorium rdzenne spełniające poprzednie wymagania stanie się rdzenne."
 
-	pfp_contest_state_tooltip:0 ""
-	pfp_core_state_tooltip:0 ""
-
-
+	pfp_contest_state_tooltip:0 "spór"
+	pfp_core_state_tooltip:0 "terytoria rdzenne"
 
 
 
@@ -81,82 +79,84 @@ l_polish:
 
 
 
-	pfp_the_iron_fist:0 ""
-	pfp_the_iron_fist_desc:0 ""
 
-	pfp_boots_on_the_ground:0 ""
-	pfp_boots_on_the_ground_desc:0 ""
+
+	pfp_the_iron_fist:0 "Żelazna Pięść"
+	pfp_the_iron_fist_desc:0 "Marionetka tańczy, ale my trzymamy sznurki. Czas utrwalić to porozumienie."
+
+	pfp_boots_on_the_ground:0 "Buty na Ziemi"
+	pfp_boots_on_the_ground_desc:0 "Słowa i dyplomacja mają swoje miejsce. To miejsce nie jest tutaj. Nasi żołnierze przypomną okupowanym, dlaczego opór jest luksusem, na który nie mogą sobie pozwolić."
 	
-	pfp_suppress_dissent:0 ""
-	pfp_suppress_dissent_desc:0 ""
+	pfp_suppress_dissent:0 "Stłumić Opozycję"
+	pfp_suppress_dissent_desc:0 "Szepty w ciemności stają się głośniejsze. Zostaną uciszone — nie rozumem, ale rodzajem perswazji, który nie pozostawia miejsca na argumenty."
 	
-	pfp_by_fire_and_steel:0 ""
-	pfp_by_fire_and_steel_desc:0 ""
+	pfp_by_fire_and_steel:0 "Ogniem i Stalą"
+	pfp_by_fire_and_steel_desc:0 "Są tacy, którzy nigdy się nie uginą. Dla nich nie oferujemy żadnych negocjacji, żadnej łaski, żadnej pamięci. Tylko popiół."
 	
-	pfp_rule_by_the_sword:0 ""
-	pfp_rule_by_the_sword_desc:0 ""
+	pfp_rule_by_the_sword:0 "Rządy Mieczem"
+	pfp_rule_by_the_sword_desc:0 "Niech okupowani budzą się każdego ranka, wiedząc, że prawo jest nasze do pisania i nasze do egzekwowania. Porządek będzie utrzymywany — za wszelką cenę."
 	
-	pfp_eyes_everywhere:0 ""
-	pfp_eyes_everywhere_desc:0 ""
+	pfp_eyes_everywhere:0 "Oczy Wszędzie"
+	pfp_eyes_everywhere_desc:0 "Człowiek planujący bunt potrzebuje tylko jednej chwili prywatności. Zamierzamy upewnić się, że nigdy jej nie znajdzie."
 
-	pfp_purge_the_disloyal:0 ""
-	pfp_purge_the_disloyal_desc:0 ""
+	pfp_purge_the_disloyal:0 "Oczyść Nielojalnych"
+	pfp_purge_the_disloyal_desc:0 "Dom nie może stać, jeśli jego fundamenty są zgniłe. Ci, którzy służyli staremu porządkowi — i zrobiliby to ponownie — muszą zostać usunięci, zanim praca będzie mogła się rozpocząć."
 	
-	pfp_control_the_narrative:0 ""
-	pfp_control_the_narrative_desc:0 ""
+	pfp_control_the_narrative:0 "Kontroluj Narrację"
+	pfp_control_the_narrative_desc:0 "Historia jest pisana przez zwycięzców. Zadbamy o to, by okupowani czytali tylko naszą wersję wydarzeń — i z czasem w nią uwierzyli."
 	
-	pfp_erase_the_old_ways:0 ""
-	pfp_erase_the_old_ways_desc:0 ""
+	pfp_erase_the_old_ways:0 "Wymaż Stare Zwyczaje"
+	pfp_erase_the_old_ways_desc:0 "Język, kultura, tradycja — to są broń ludu, który odmawia zapomnienia. Będziemy je odbierać, jedno po drugim, aż nie pozostanie nic do zapamiętania."
 
-	pfp_bread_and_circuses:0 ""
-	pfp_bread_and_circuses_desc:0 ""
-	pfp_reshape_the_soul:0 ""
-	pfp_reshape_the_soul_desc:0 ""
+	pfp_bread_and_circuses:0 "Chleb i Igrzyska"
+	pfp_bread_and_circuses_desc:0 "Nie wszystkie kajdany są z żelaza. Niektóre są zrobione z komfortu, z pełnych brzuchów i tanich rozrywek. Zadowolona populacja jest posłuszną populacją."
+	pfp_reshape_the_soul:0 "Przekształć Duszę"
+	pfp_reshape_the_soul_desc:0 "Zgodność wymuszona strachem jest krucha. To, co trwa, to przekonanie. Nie będziemy tylko kontrolować, co robią nasi poddani — zmienimy to, czego pragną."
 
-	pfp_the_last_decree:0 ""
-	pfp_the_last_decree_desc:0 ""
+	pfp_the_last_decree:0 "Ostatni Dekret"
+	pfp_the_last_decree_desc:0 "Każdy poprzedni rozkaz budował ku temu momentowi. Nie ma już nic do ogłoszenia, żadnej władzy do zakwestionowania. To po prostu świat, teraz."
 
-	pfp_puppet_resistance_idea_1:0 ""
-	pfp_puppet_resistance_idea_1_desc:0 ""
-	pfp_puppet_resistance_idea_2:0 ""
+	pfp_puppet_resistance_idea_1:0 "Lokalny Opór"
+	pfp_puppet_resistance_idea_1_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
+	pfp_puppet_resistance_idea_2:0 "Lokalny Opór"
 
-	pfp_puppet_resistance_idea_2_desc:0 ""
-	pfp_puppet_resistance_idea_3:0 ""
+	pfp_puppet_resistance_idea_2_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
+	pfp_puppet_resistance_idea_3:0 "Lokalny Opór"
 
-	pfp_puppet_resistance_idea_3_desc:0 ""
-	pfp_puppet_resistance_idea_4:0 ""
+	pfp_puppet_resistance_idea_3_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
+	pfp_puppet_resistance_idea_4:0 "Lokalny Opór"
 
-	pfp_puppet_resistance_idea_4_desc:0 ""
-	pfp_puppet_resistance_idea_5:0 ""
+	pfp_puppet_resistance_idea_4_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
+	pfp_puppet_resistance_idea_5:0 "Lokalny Opór"
 
-	pfp_puppet_resistance_idea_5_desc:0 ""
+	pfp_puppet_resistance_idea_5_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
 
-	pfp_military_police_idea_1:0 ""
-	pfp_military_police_idea_1_desc:0 ""
+	pfp_military_police_idea_1:0 "Policja Wojskowa"
+	pfp_military_police_idea_1_desc:0 "Okupacji nie wygrywa się samymi żołnierzami. Za każdym garnizonem stoi sieć egzekutorów — ludzi szkolonych nie do pola bitwy, ale do rogu ulicy, punktu kontrolnego, nocnego pukania do drzwi. W miarę jak nasze uścisk na okupowanych się zacieśnia, ich efektywność też rośnie. Poznają ziemię, poznają ludzi i zapewniają, że jakikolwiek pozostały opór nigdy nie znajdzie gruntu."
 	
-	pfp_military_police_idea_2:0 ""
-	pfp_military_police_idea_2_desc:0 ""
+	pfp_military_police_idea_2:0 "Policja Wojskowa"
+	pfp_military_police_idea_2_desc:0 "Okupacji nie wygrywa się samymi żołnierzami. Za każdym garnizonem stoi sieć egzekutorów — ludzi szkolonych nie do pola bitwy, ale do rogu ulicy, punktu kontrolnego, nocnego pukania do drzwi. W miarę jak nasze uścisk na okupowanych się zacieśnia, ich efektywność też rośnie. Poznają ziemię, poznają ludzi i zapewniają, że jakikolwiek pozostały opór nigdy nie znajdzie gruntu."
 	
-	pfp_military_police_idea_3:0 ""
-	pfp_military_police_idea_3_desc:0 ""
+	pfp_military_police_idea_3:0 "Policja Wojskowa"
+	pfp_military_police_idea_3_desc:0 "Okupacji nie wygrywa się samymi żołnierzami. Za każdym garnizonem stoi sieć egzekutorów — ludzi szkolonych nie do pola bitwy, ale do rogu ulicy, punktu kontrolnego, nocnego pukania do drzwi. W miarę jak nasze uścisk na okupowanych się zacieśnia, ich efektywność też rośnie. Poznają ziemię, poznają ludzi i zapewniają, że jakikolwiek pozostały opór nigdy nie znajdzie gruntu."
 
-	pfp_civilian_collaborators_idea_1:0 ""
-	pfp_civilian_collaborators_idea_1_desc:0 ""
+	pfp_civilian_collaborators_idea_1:0 "Cywilni Kolaboranci"
+	pfp_civilian_collaborators_idea_1_desc:0 "Nie cały opór wobec okupacji pochodzi od żołnierzy i partyzantów. Wiele z niego żyje w zwykłych ludziach — sąsiadach odwracających wzrok, sklepikarzach przekazujących wiadomości, rodzinach ukrywających niewłaściwych gości. Ale ludzi można przekonać. Przez zachęty, przez strach, przez powolną erozję starych lojalności, niektórzy spośród okupowanych zaczynają służyć okupantowi. Obserwują. Donoszą. I z każdym miesiącem ogień oporu znajduje coraz mniej miejsc, gdzie oddychać."
 
-	pfp_civilian_collaborators_idea_2:0 ""
-	pfp_civilian_collaborators_idea_2_desc:0 ""
+	pfp_civilian_collaborators_idea_2:0 "Cywilni Kolaboranci"
+	pfp_civilian_collaborators_idea_2_desc:0 "Nie cały opór wobec okupacji pochodzi od żołnierzy i partyzantów. Wiele z niego żyje w zwykłych ludziach — sąsiadach odwracających wzrok, sklepikarzach przekazujących wiadomości, rodzinach ukrywających niewłaściwych gości. Ale ludzi można przekonać. Przez zachęty, przez strach, przez powolną erozję starych lojalności, niektórzy spośród okupowanych zaczynają służyć okupantowi. Obserwują. Donoszą. I z każdym miesiącem ogień oporu znajduje coraz mniej miejsc, gdzie oddychać."
 
-	pfp_civilian_collaborators_idea_3:0 ""
-	pfp_civilian_collaborators_idea_3_desc:0 ""
+	pfp_civilian_collaborators_idea_3:0 "Cywilni Kolaboranci"
+	pfp_civilian_collaborators_idea_3_desc:0 "Nie cały opór wobec okupacji pochodzi od żołnierzy i partyzantów. Wiele z niego żyje w zwykłych ludziach — sąsiadach odwracających wzrok, sklepikarzach przekazujących wiadomości, rodzinach ukrywających niewłaściwych gości. Ale ludzi można przekonać. Przez zachęty, przez strach, przez powolną erozję starych lojalności, niektórzy spośród okupowanych zaczynają służyć okupantowi. Obserwują. Donoszą. I z każdym miesiącem ogień oporu znajduje coraz mniej miejsc, gdzie oddychać."
 
-	pfp_puppet_integration:0 ""
-	pfp_puppet_integration_desc:0 ""
+	pfp_puppet_integration:0 "Integracja Okupowanych"
+	pfp_puppet_integration_desc:0 "Okupacja trwała wystarczająco długo, że pewne terytoria nie czują się już obce. Ludzie zostali spacyfikowani, stare zwyczaje zapomniane, a maszyneria państwa działa w naszym imieniu. Czas przestać traktować te ziemie jako zdobyte terytorium i zacząć traktować je jako to, czym naprawdę są — nasze."
 
-	pfp_puppet_assistance:0 ""
-	pfp_puppet_assistance_desc:0 ""
+	pfp_puppet_assistance:0 "Formowalne Marionetkowe Państwa Pipe — Pomoc Marionetkowa"
+	pfp_puppet_assistance_desc:0 "Marionetkowe państwo jest tak silne, jak silna jest trzymająca je ręka. Bez wsparcia nawet najbardziej posłuszny reżim ugnie się pod ciężarem własnej okupowanej populacji. Nie pozwolimy na to. Poprzez stały przepływ siły roboczej i materiałów zapewniamy, że nasza inwestycja w to terytorium pozostaje chroniona — i że koszt oporu pozostaje zbyt wysoki, by ktokolwiek go poważnie rozważał."
 
-	pfp_deploy_reinforcements:0 ""
-	pfp_deploy_reinforcements_desc:0 ""
+	pfp_deploy_reinforcements:0 "Rozmieść posiłki w [FROM.GetName]"
+	pfp_deploy_reinforcements_desc:0 "Ocupowane terytoria są niespokojne, a nasz garnizon jest rozciągnięty. Nowe rozmieszczenie wojsk wzmocni naszą obecność w terenie, przypominając populacji, że nasz zasięg jest długi, a nasza cierpliwość wobec nieporządku krótka. Każdy wysłany żołnierz to kolejny gwóźdź do trumny zorganizowanego oporu."
 
-	pfp_ship_arms_to_garrison:0 ""
-	pfp_ship_arms_to_garrison_desc:0 ""
+	pfp_ship_arms_to_garrison:0 "Wyślij broń do garnizonu [FROM.GetName]"
+	pfp_ship_arms_to_garrison_desc:0 "Garnizon bez odpowiedniego wyposażenia to niewiele więcej niż obecność w mundurze. Zadbamy o to, by nasze siły na ocupowanych terytoriach były właściwie uzbrojone — nie tylko do walki, ale by przypominać każdej ulicy i każdej wiosce, kto tu trzyma władzę. Dobrze zaopatrzeni żołnierze nie negocjują. Egzekwują."

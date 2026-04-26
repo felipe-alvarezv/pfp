@@ -53,25 +53,23 @@ l_german:
 	pfp_state_transfer_tooltip_close_button:0 "Schließt die Oberfläche für die Staatenübertragung."
 
 
-	pfp_management_option_enabled:0 ""
-	pfp_management_option_disabled:0 ""
+	pfp_management_option_enabled:0 "Aktiviert"
+	pfp_management_option_disabled:0 "Deaktiviert"
 
-	pfp_management_use_overlord_color_tooltip:0 ""
+	pfp_management_use_overlord_color_tooltip:0 "Alle vom Spieler kontrollierten Länder befinden sich im Frieden."
 
-	pfp_management_resistance:0 ""
-	pfp_management_resistance_desc:0 ""
+	pfp_management_resistance:0 "Widerstandsmechaniken umschalten"
+	pfp_management_resistance_desc:0 "Diese Entscheidung aktiviert oder deaktiviert die Widerstandsmechaniken. Wenn aktiviert, erhalten formierbare Marionettenstaaten keine Kerngebiete und müssen Fokuspunkte und Entscheidungen abschließen, um die Compliance zu erhöhen und den Widerstand zu senken. Ein Staat wird zum Kerngebiet, sobald die Compliance über 80% und der Widerstand unter 20% liegt."
 
-	pfp_puppet_integration_core_state:0 ""
-	pfp_puppet_integration_core_state_desc:0 ""
-	pfp_puppet_integration_core_state_trigger_tooltip:0 ""
-	pfp_puppet_core_status_resistance_enabled:0 ""
-	pfp_puppet_core_status_resistance_disabled:0 ""
-	pfp_puppet_integration_core_state_effect_tooltip:0 ""
+	pfp_puppet_integration_core_state:0 "Befriedetes Gebiet annektieren"
+	pfp_puppet_integration_core_state_desc:0 "Was mit Gewalt genommen wurde, wurde lange genug gehalten, um etwas mehr zu werden. Der Widerstand ist gebrochen, die Bevölkerung wurde neu geformt, und das Land produziert in unserem Namen. Es gibt keinen Grund mehr, den Anschein einer separaten Verwaltung aufrechtzuerhalten. Diese Gebiete werden formell in den Staat eingegliedert — nicht als besetztes Land, sondern als Heimatboden. Was ihres war, ist jetzt, und war schon immer, unseres."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "Alle folgenden Bedingungen müssen erfüllt sein:\n      Kontrolliert vollständig jedes mögliche Kerngebiet.\n      Kein mögliches Kerngebiet ist Kerngebiet von §Y[ROOT.GetName]§!.\n      Jedes mögliche Kerngebiet hat mehr als 80% Compliance.\n      Jedes mögliche Kerngebiet hat weniger als 20% Widerstand."
+	pfp_puppet_core_status_resistance_disabled:0 "Alle folgenden Bedingungen müssen erfüllt sein:\n      Kontrolliert vollständig jedes mögliche Kerngebiet.\n      Kein mögliches Kerngebiet ist Kerngebiet von §Y[ROOT.GetName]§!."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "Jedes mögliche Kerngebiet, das die vorherigen Anforderungen erfüllt, wird zum Kerngebiet erklärt."
 
-	pfp_contest_state_tooltip:0 ""
-	pfp_core_state_tooltip:0 ""
-
-
+	pfp_contest_state_tooltip:0 "Streitigkeit"
+	pfp_core_state_tooltip:0 "Kerngebiete"
 
 
 
@@ -81,82 +79,84 @@ l_german:
 
 
 
-	pfp_the_iron_fist:0 ""
-	pfp_the_iron_fist_desc:0 ""
 
-	pfp_boots_on_the_ground:0 ""
-	pfp_boots_on_the_ground_desc:0 ""
+
+	pfp_the_iron_fist:0 "Die Eiserne Faust"
+	pfp_the_iron_fist_desc:0 "Die Marionette tanzt, aber wir halten die Fäden. Es ist Zeit, diese Vereinbarung dauerhaft zu machen."
+
+	pfp_boots_on_the_ground:0 "Stiefel auf dem Boden"
+	pfp_boots_on_the_ground_desc:0 "Worte und Diplomatie haben ihren Platz. Dieser Platz ist nicht hier. Unsere Soldaten werden den Besetzten daran erinnern, warum Widerstand ein Luxus ist, den sie sich nicht leisten können."
 	
-	pfp_suppress_dissent:0 ""
-	pfp_suppress_dissent_desc:0 ""
+	pfp_suppress_dissent:0 "Dissens unterdrücken"
+	pfp_suppress_dissent_desc:0 "Das Flüstern im Dunkeln wird lauter. Es wird zum Schweigen gebracht — nicht durch Vernunft, sondern durch die Art der Überzeugung, die keinen Raum für Argumente lässt."
 	
-	pfp_by_fire_and_steel:0 ""
-	pfp_by_fire_and_steel_desc:0 ""
+	pfp_by_fire_and_steel:0 "Durch Feuer und Stahl"
+	pfp_by_fire_and_steel_desc:0 "Es gibt jene, die sich niemals beugen werden. Für sie bieten wir keine Verhandlung, keine Gnade, keine Erinnerung. Nur Asche."
 	
-	pfp_rule_by_the_sword:0 ""
-	pfp_rule_by_the_sword_desc:0 ""
+	pfp_rule_by_the_sword:0 "Herrschaft durch das Schwert"
+	pfp_rule_by_the_sword_desc:0 "Die Besetzten sollen jeden Morgen aufwachen und wissen, dass das Gesetz uns gehört, um es zu schreiben und durchzusetzen. Ordnung wird aufrechterhalten — um jeden Preis."
 	
-	pfp_eyes_everywhere:0 ""
-	pfp_eyes_everywhere_desc:0 ""
+	pfp_eyes_everywhere:0 "Augen überall"
+	pfp_eyes_everywhere_desc:0 "Ein Mann, der einen Aufstand plant, braucht nur einen Moment der Privatsphäre. Wir beabsichtigen sicherzustellen, dass er ihn niemals findet."
 
-	pfp_purge_the_disloyal:0 ""
-	pfp_purge_the_disloyal_desc:0 ""
+	pfp_purge_the_disloyal:0 "Die Illoyalen säubern"
+	pfp_purge_the_disloyal_desc:0 "Ein Haus kann nicht stehen, wenn seine Grundlagen morsch sind. Jene, die der alten Ordnung gedient haben — und es wieder tun würden — müssen entfernt werden, bevor die Arbeit beginnen kann."
 	
-	pfp_control_the_narrative:0 ""
-	pfp_control_the_narrative_desc:0 ""
+	pfp_control_the_narrative:0 "Die Erzählung kontrollieren"
+	pfp_control_the_narrative_desc:0 "Geschichte wird von den Siegreichen geschrieben. Wir werden sicherstellen, dass die Besetzten nur unsere Version der Ereignisse lesen — und mit der Zeit vollständig daran glauben."
 	
-	pfp_erase_the_old_ways:0 ""
-	pfp_erase_the_old_ways_desc:0 ""
+	pfp_erase_the_old_ways:0 "Die alten Wege löschen"
+	pfp_erase_the_old_ways_desc:0 "Sprache, Kultur, Tradition — das sind die Waffen eines Volkes, das sich weigert zu vergessen. Wir werden sie ihnen wegnehmen, eine nach der anderen, bis nichts mehr zu erinnern ist."
 
-	pfp_bread_and_circuses:0 ""
-	pfp_bread_and_circuses_desc:0 ""
-	pfp_reshape_the_soul:0 ""
-	pfp_reshape_the_soul_desc:0 ""
+	pfp_bread_and_circuses:0 "Brot und Spiele"
+	pfp_bread_and_circuses_desc:0 "Nicht alle Ketten sind aus Eisen. Einige bestehen aus Komfort, aus vollen Bäuchen und billiger Unterhaltung. Eine zufriedene Bevölkerung ist eine gehorsame."
+	pfp_reshape_the_soul:0 "Die Seele formen"
+	pfp_reshape_the_soul_desc:0 "Compliance, die durch Angst erzwungen wird, ist zerbrechlich. Was dauerhaft ist, ist der Glaube. Wir werden nicht nur kontrollieren, was unsere Untertanen tun — wir werden ändern, was sie wollen."
 
-	pfp_the_last_decree:0 ""
-	pfp_the_last_decree_desc:0 ""
+	pfp_the_last_decree:0 "Das letzte Dekret"
+	pfp_the_last_decree_desc:0 "Jeder Befehl davor baute auf diesen Moment hin. Es gibt nichts mehr zu erklären, keine Macht mehr zu bestreiten. Das ist einfach die Welt, jetzt."
 
-	pfp_puppet_resistance_idea_1:0 ""
-	pfp_puppet_resistance_idea_1_desc:0 ""
-	pfp_puppet_resistance_idea_2:0 ""
+	pfp_puppet_resistance_idea_1:0 "Lokaler Widerstand"
+	pfp_puppet_resistance_idea_1_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
+	pfp_puppet_resistance_idea_2:0 "Lokaler Widerstand"
 
-	pfp_puppet_resistance_idea_2_desc:0 ""
-	pfp_puppet_resistance_idea_3:0 ""
+	pfp_puppet_resistance_idea_2_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
+	pfp_puppet_resistance_idea_3:0 "Lokaler Widerstand"
 
-	pfp_puppet_resistance_idea_3_desc:0 ""
-	pfp_puppet_resistance_idea_4:0 ""
+	pfp_puppet_resistance_idea_3_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
+	pfp_puppet_resistance_idea_4:0 "Lokaler Widerstand"
 
-	pfp_puppet_resistance_idea_4_desc:0 ""
-	pfp_puppet_resistance_idea_5:0 ""
+	pfp_puppet_resistance_idea_4_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
+	pfp_puppet_resistance_idea_5:0 "Lokaler Widerstand"
 
-	pfp_puppet_resistance_idea_5_desc:0 ""
+	pfp_puppet_resistance_idea_5_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
 
-	pfp_military_police_idea_1:0 ""
-	pfp_military_police_idea_1_desc:0 ""
+	pfp_military_police_idea_1:0 "Militärpolizei"
+	pfp_military_police_idea_1_desc:0 "Die Besatzung wird nicht allein durch Soldaten gewonnen. Hinter jeder Garnison steht ein Netzwerk von Vollstreckern — Männer, die nicht für das Schlachtfeld ausgebildet wurden, sondern für die Straßenecke, den Kontrollpunkt, das mitternächtliche Klopfen an der Tür. Je mehr unser Griff auf die Besetzten sich festigt, desto mehr steigt auch ihre Effizienz. Sie lernen das Land, sie lernen die Menschen, und sie sorgen dafür, dass ein verbleibender Widerstand niemals Fuß fasst."
 	
-	pfp_military_police_idea_2:0 ""
-	pfp_military_police_idea_2_desc:0 ""
+	pfp_military_police_idea_2:0 "Militärpolizei"
+	pfp_military_police_idea_2_desc:0 "Die Besatzung wird nicht allein durch Soldaten gewonnen. Hinter jeder Garnison steht ein Netzwerk von Vollstreckern — Männer, die nicht für das Schlachtfeld ausgebildet wurden, sondern für die Straßenecke, den Kontrollpunkt, das mitternächtliche Klopfen an der Tür. Je mehr unser Griff auf die Besetzten sich festigt, desto mehr steigt auch ihre Effizienz. Sie lernen das Land, sie lernen die Menschen, und sie sorgen dafür, dass ein verbleibender Widerstand niemals Fuß fasst."
 	
-	pfp_military_police_idea_3:0 ""
-	pfp_military_police_idea_3_desc:0 ""
+	pfp_military_police_idea_3:0 "Militärpolizei"
+	pfp_military_police_idea_3_desc:0 "Die Besatzung wird nicht allein durch Soldaten gewonnen. Hinter jeder Garnison steht ein Netzwerk von Vollstreckern — Männer, die nicht für das Schlachtfeld ausgebildet wurden, sondern für die Straßenecke, den Kontrollpunkt, das mitternächtliche Klopfen an der Tür. Je mehr unser Griff auf die Besetzten sich festigt, desto mehr steigt auch ihre Effizienz. Sie lernen das Land, sie lernen die Menschen, und sie sorgen dafür, dass ein verbleibender Widerstand niemals Fuß fasst."
 
-	pfp_civilian_collaborators_idea_1:0 ""
-	pfp_civilian_collaborators_idea_1_desc:0 ""
+	pfp_civilian_collaborators_idea_1:0 "Zivile Kollaborateure"
+	pfp_civilian_collaborators_idea_1_desc:0 "Nicht aller Widerstand gegen die Besatzung kommt von Soldaten und Partisanen. Vieles davon lebt in gewöhnlichen Menschen — Nachbarn, die wegschauen, Ladenbesitzer, die Nachrichten übermitteln, Familien, die die falschen Gäste beherbergen. Aber Menschen können umgedreht werden. Durch Anreize, durch Angst, durch die langsame Erosion alter Loyalitäten beginnen einige unter den Besetzten dem Besatzer zu dienen. Sie beobachten. Sie berichten. Und mit jedem Monat findet das Feuer des Widerstands weniger Orte zum Atmen."
 
-	pfp_civilian_collaborators_idea_2:0 ""
-	pfp_civilian_collaborators_idea_2_desc:0 ""
+	pfp_civilian_collaborators_idea_2:0 "Zivile Kollaborateure"
+	pfp_civilian_collaborators_idea_2_desc:0 "Nicht aller Widerstand gegen die Besatzung kommt von Soldaten und Partisanen. Vieles davon lebt in gewöhnlichen Menschen — Nachbarn, die wegschauen, Ladenbesitzer, die Nachrichten übermitteln, Familien, die die falschen Gäste beherbergen. Aber Menschen können umgedreht werden. Durch Anreize, durch Angst, durch die langsame Erosion alter Loyalitäten beginnen einige unter den Besetzten dem Besatzer zu dienen. Sie beobachten. Sie berichten. Und mit jedem Monat findet das Feuer des Widerstands weniger Orte zum Atmen."
 
-	pfp_civilian_collaborators_idea_3:0 ""
-	pfp_civilian_collaborators_idea_3_desc:0 ""
+	pfp_civilian_collaborators_idea_3:0 "Zivile Kollaborateure"
+	pfp_civilian_collaborators_idea_3_desc:0 "Nicht aller Widerstand gegen die Besatzung kommt von Soldaten und Partisanen. Vieles davon lebt in gewöhnlichen Menschen — Nachbarn, die wegschauen, Ladenbesitzer, die Nachrichten übermitteln, Familien, die die falschen Gäste beherbergen. Aber Menschen können umgedreht werden. Durch Anreize, durch Angst, durch die langsame Erosion alter Loyalitäten beginnen einige unter den Besetzten dem Besatzer zu dienen. Sie beobachten. Sie berichten. Und mit jedem Monat findet das Feuer des Widerstands weniger Orte zum Atmen."
 
-	pfp_puppet_integration:0 ""
-	pfp_puppet_integration_desc:0 ""
+	pfp_puppet_integration:0 "Die Besetzten integrieren"
+	pfp_puppet_integration_desc:0 "Die Besatzung hat lange genug gedauert, dass bestimmte Gebiete sich nicht mehr fremd anfühlen. Die Menschen wurden befriedet, die alten Wege vergessen, und das Staatsgefüge läuft in unserem Namen. Es ist Zeit, aufzuhören, diese Länder als erobertes Terrain zu behandeln, und sie als das zu behandeln, was sie wirklich sind — unsere."
 
-	pfp_puppet_assistance:0 ""
-	pfp_puppet_assistance_desc:0 ""
+	pfp_puppet_assistance:0 "Pipes formierbare Marionettenstaaten — Marionettenhilfe"
+	pfp_puppet_assistance_desc:0 "Ein Marionettenstaat ist nur so stark wie die Hand, die ihn hält. Ohne Unterstützung wird selbst das gefügigste Regime unter dem Gewicht seiner eigenen besetzten Bevölkerung zusammenbrechen. Das werden wir nicht zulassen. Durch den stetigen Fluss von Arbeitskräften und Material stellen wir sicher, dass unsere Investition in dieses Gebiet geschützt bleibt — und dass die Kosten des Widerstands zu hoch sind, als dass jemand sie ernsthaft in Betracht ziehen würde."
 
-	pfp_deploy_reinforcements:0 ""
-	pfp_deploy_reinforcements_desc:0 ""
+	pfp_deploy_reinforcements:0 "Verstärkungen nach [FROM.GetName] entsenden"
+	pfp_deploy_reinforcements_desc:0 "Die besetzten Gebiete sind unruhig, und unsere Garnison ist dünn besetzt. Eine neue Truppenstationierung wird unsere Präsenz vor Ort stärken und die Bevölkerung daran erinnern, dass unsere Reichweite weit ist und unsere Geduld für Unordnung kurz. Jeder gesendete Soldat ist ein weiterer Nagel im Sarg des organisierten Widerstands."
 
-	pfp_ship_arms_to_garrison:0 ""
-	pfp_ship_arms_to_garrison_desc:0 ""
+	pfp_ship_arms_to_garrison:0 "Waffen an die Garnison von [FROM.GetName] liefern"
+	pfp_ship_arms_to_garrison_desc:0 "Eine Garnison ohne angemessene Ausrüstung ist kaum mehr als eine uniformierte Präsenz. Wir werden dafür sorgen, dass unsere Kräfte in den besetzten Gebieten ordnungsgemäß bewaffnet sind — nicht nur um zu kämpfen, sondern um jede Straße und jedes Dorf daran zu erinnern, wer hier die Macht hat. Gut versorgte Soldaten verhandeln nicht. Sie vollstrecken."
