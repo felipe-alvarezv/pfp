@@ -5,8 +5,25 @@ l_korean:
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - 관리"
 	pfp_puppet_management_desc:0 "군사 점령을 수립한 후, 행정과 그 영토에 관한 조정이 필요할 수 있습니다."
+	pfp_management_option_enabled:0 "활성화"
+	pfp_management_option_disabled:0 "비활성화"
+
 	pfp_management_window:0 "관리 메뉴 열기"
 	pfp_management_use_overlord_color:0 "종주국 색상 괴뢰국가 표시 전환"
+	pfp_management_use_overlord_color_tooltip:0 "플레이어가 지배하는 모든 국가는 평화 상태입니다."
+
+	pfp_management_resistance:0 "저항 메커니즘 전환"
+	pfp_management_resistance_desc:0 "이 결정은 저항 메커니즘을 활성화하거나 비활성화합니다. 활성화하면 형성 가능한 괴뢰 국가는 핵심 지역을 얻지 못하며, 순응도를 높이고 저항을 낮추기 위한 포커스와 결정을 완료해야 합니다. 순응도가 80%를 초과하고 저항이 20% 미만이 되면 주가 핵심이 됩니다."
+
+	pfp_puppet_integration_core_state:0 "평정된 영토 합병"
+	pfp_puppet_integration_core_state_desc:0 "무력으로 빼앗은 것이 더 많은 것이 되기에 충분할 만큼 오래 보유되었다. 저항은 무너졌고, 인구는 재형성되었으며, 땅은 우리의 이름으로 생산한다. 별개의 행정을 유지하는 척할 이유가 더 이상 없다. 이 영토들은 국가에 공식적으로 흡수될 것이다 — 점령지로서가 아니라, 고향의 땅으로서. 그들의 것이었던 것이 지금, 그리고 항상 그래왔듯이, 우리의 것이다."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "다음 모든 조건이 충족되어야 합니다:\n      가능한 모든 핵심 지역을 완전히 통제해야 합니다.\n      가능한 모든 핵심 지역이 §Y[ROOT.GetName]§!의 핵심이 아니어야 합니다.\n      가능한 모든 핵심 지역의 순응도가 80% 이상이어야 합니다.\n      가능한 모든 핵심 지역의 저항이 20% 미만이어야 합니다."
+	pfp_puppet_core_status_resistance_disabled:0 "다음 모든 조건이 충족되어야 합니다:\n      가능한 모든 핵심 지역을 완전히 통제해야 합니다.\n      가능한 모든 핵심 지역이 §Y[ROOT.GetName]§!의 핵심이 아니어야 합니다."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "이전 요구 사항을 충족하는 가능한 모든 핵심 지역이 핵심이 됩니다."
+
+	pfp_contest_state_tooltip:0 "분쟁"
+	pfp_core_state_tooltip:0 "핵심 지역"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
@@ -51,24 +68,6 @@ l_korean:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "이전에 선택한 모든 주의 선택을 해제합니다."
 	pfp_state_transfer_tooltip_close_button:0 "주 이양 인터페이스를 닫습니다."
-
-	pfp_management_option_enabled:0 "활성화"
-	pfp_management_option_disabled:0 "비활성화"
-
-	pfp_management_use_overlord_color_tooltip:0 "플레이어가 지배하는 모든 국가는 평화 상태입니다."
-
-	pfp_management_resistance:0 "저항 메커니즘 전환"
-	pfp_management_resistance_desc:0 "이 결정은 저항 메커니즘을 활성화하거나 비활성화합니다. 활성화하면 형성 가능한 괴뢰 국가는 핵심 지역을 얻지 못하며, 순응도를 높이고 저항을 낮추기 위한 포커스와 결정을 완료해야 합니다. 순응도가 80%를 초과하고 저항이 20% 미만이 되면 주가 핵심이 됩니다."
-
-	pfp_puppet_integration_core_state:0 "평정된 영토 합병"
-	pfp_puppet_integration_core_state_desc:0 "무력으로 빼앗은 것이 더 많은 것이 되기에 충분할 만큼 오래 보유되었다. 저항은 무너졌고, 인구는 재형성되었으며, 땅은 우리의 이름으로 생산한다. 별개의 행정을 유지하는 척할 이유가 더 이상 없다. 이 영토들은 국가에 공식적으로 흡수될 것이다 — 점령지로서가 아니라, 고향의 땅으로서. 그들의 것이었던 것이 지금, 그리고 항상 그래왔듯이, 우리의 것이다."
-	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
-	pfp_puppet_core_status_resistance_enabled:0 "다음 모든 조건이 충족되어야 합니다:\n      가능한 모든 핵심 지역을 완전히 통제해야 합니다.\n      가능한 모든 핵심 지역이 §Y[ROOT.GetName]§!의 핵심이 아니어야 합니다.\n      가능한 모든 핵심 지역의 순응도가 80% 이상이어야 합니다.\n      가능한 모든 핵심 지역의 저항이 20% 미만이어야 합니다."
-	pfp_puppet_core_status_resistance_disabled:0 "다음 모든 조건이 충족되어야 합니다:\n      가능한 모든 핵심 지역을 완전히 통제해야 합니다.\n      가능한 모든 핵심 지역이 §Y[ROOT.GetName]§!의 핵심이 아니어야 합니다."
-	pfp_puppet_integration_core_state_effect_tooltip:0 "이전 요구 사항을 충족하는 가능한 모든 핵심 지역이 핵심이 됩니다."
-
-	pfp_contest_state_tooltip:0 "분쟁"
-	pfp_core_state_tooltip:0 "핵심 지역"
 
 	pfp_the_iron_fist:0 "철권"
 	pfp_the_iron_fist_desc:0 "괴뢰는 춤추지만, 우리가 줄을 쥐고 있다. 이 배치를 영구적으로 만들 때가 됐다."
@@ -148,4 +147,4 @@ l_korean:
 	pfp_deploy_reinforcements_desc:0 "점령 지역은 불안하고, 우리 수비대는 얇게 펼쳐져 있다. 신선한 병력 배치는 현장에서 우리의 존재를 강화하고, 우리의 손이 길고 무질서에 대한 인내가 짧다는 것을 인구에게 상기시킬 것이다. 보내지는 병사 한 명 한 명은 조직된 저항의 관에 박힌 또 하나의 못이다."
 
 	pfp_ship_arms_to_garrison:0 "[FROM.GetName] 수비대에 무기 수송"
-	pfp_ship_arms_to_garrison_desc:0 "적절한 장비 없는 수비대는 제복을 입은 존재에 불과하다. 우리는 점령 지역의 우리 부대가 제대로 무장되도록 할 것이다 — 싸우기 위해서만이 아니라, 여기서 누가 권력을 가지고 있는지를 모든 거리와 마을에 상기시키기 위해. 잘 공급된 병사들은 협상하지 않는다. 집행한다."
+	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."

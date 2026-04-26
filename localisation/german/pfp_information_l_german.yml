@@ -5,8 +5,25 @@ l_german:
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Verwaltung"
 	pfp_puppet_management_desc:0 "Nach der Errichtung unserer Militärbesatzung müssen wir möglicherweise Anpassungen in Bezug auf die Verwaltung und ihre Gebiete vornehmen."
+	pfp_management_option_enabled:0 "Aktiviert"
+	pfp_management_option_disabled:0 "Deaktiviert"
+
 	pfp_management_window:0 "Verwaltungsmenü öffnen"
 	pfp_management_use_overlord_color:0 "Vasallen in Oberherrn-Farbe umschalten"
+	pfp_management_use_overlord_color_tooltip:0 "Alle vom Spieler kontrollierten Länder befinden sich im Frieden."
+
+	pfp_management_resistance:0 "Widerstandsmechaniken umschalten"
+	pfp_management_resistance_desc:0 "Diese Entscheidung aktiviert oder deaktiviert die Widerstandsmechaniken. Wenn aktiviert, erhalten formierbare Marionettenstaaten keine Kerngebiete und müssen Fokuspunkte und Entscheidungen abschließen, um die Compliance zu erhöhen und den Widerstand zu senken. Ein Staat wird zum Kerngebiet, sobald die Compliance über 80% und der Widerstand unter 20% liegt."
+
+	pfp_puppet_integration_core_state:0 "Befriedetes Gebiet annektieren"
+	pfp_puppet_integration_core_state_desc:0 "Was mit Gewalt genommen wurde, wurde lange genug gehalten, um etwas mehr zu werden. Der Widerstand ist gebrochen, die Bevölkerung wurde neu geformt, und das Land produziert in unserem Namen. Es gibt keinen Grund mehr, den Anschein einer separaten Verwaltung aufrechtzuerhalten. Diese Gebiete werden formell in den Staat eingegliedert — nicht als besetztes Land, sondern als Heimatboden. Was ihres war, ist jetzt, und war schon immer, unseres."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "Alle folgenden Bedingungen müssen erfüllt sein:\n      Kontrolliert vollständig jedes mögliche Kerngebiet.\n      Kein mögliches Kerngebiet ist Kerngebiet von §Y[ROOT.GetName]§!.\n      Jedes mögliche Kerngebiet hat mehr als 80% Compliance.\n      Jedes mögliche Kerngebiet hat weniger als 20% Widerstand."
+	pfp_puppet_core_status_resistance_disabled:0 "Alle folgenden Bedingungen müssen erfüllt sein:\n      Kontrolliert vollständig jedes mögliche Kerngebiet.\n      Kein mögliches Kerngebiet ist Kerngebiet von §Y[ROOT.GetName]§!."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "Jedes mögliche Kerngebiet, das die vorherigen Anforderungen erfüllt, wird zum Kerngebiet erklärt."
+
+	pfp_contest_state_tooltip:0 "Streitigkeit"
+	pfp_core_state_tooltip:0 "Kerngebiete"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
@@ -51,24 +68,6 @@ l_german:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Hebt die Auswahl aller zuvor ausgewählten Staaten auf."
 	pfp_state_transfer_tooltip_close_button:0 "Schließt die Oberfläche für die Staatenübertragung."
-
-	pfp_management_option_enabled:0 "Aktiviert"
-	pfp_management_option_disabled:0 "Deaktiviert"
-
-	pfp_management_use_overlord_color_tooltip:0 "Alle vom Spieler kontrollierten Länder befinden sich im Frieden."
-
-	pfp_management_resistance:0 "Widerstandsmechaniken umschalten"
-	pfp_management_resistance_desc:0 "Diese Entscheidung aktiviert oder deaktiviert die Widerstandsmechaniken. Wenn aktiviert, erhalten formierbare Marionettenstaaten keine Kerngebiete und müssen Fokuspunkte und Entscheidungen abschließen, um die Compliance zu erhöhen und den Widerstand zu senken. Ein Staat wird zum Kerngebiet, sobald die Compliance über 80% und der Widerstand unter 20% liegt."
-
-	pfp_puppet_integration_core_state:0 "Befriedetes Gebiet annektieren"
-	pfp_puppet_integration_core_state_desc:0 "Was mit Gewalt genommen wurde, wurde lange genug gehalten, um etwas mehr zu werden. Der Widerstand ist gebrochen, die Bevölkerung wurde neu geformt, und das Land produziert in unserem Namen. Es gibt keinen Grund mehr, den Anschein einer separaten Verwaltung aufrechtzuerhalten. Diese Gebiete werden formell in den Staat eingegliedert — nicht als besetztes Land, sondern als Heimatboden. Was ihres war, ist jetzt, und war schon immer, unseres."
-	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
-	pfp_puppet_core_status_resistance_enabled:0 "Alle folgenden Bedingungen müssen erfüllt sein:\n      Kontrolliert vollständig jedes mögliche Kerngebiet.\n      Kein mögliches Kerngebiet ist Kerngebiet von §Y[ROOT.GetName]§!.\n      Jedes mögliche Kerngebiet hat mehr als 80% Compliance.\n      Jedes mögliche Kerngebiet hat weniger als 20% Widerstand."
-	pfp_puppet_core_status_resistance_disabled:0 "Alle folgenden Bedingungen müssen erfüllt sein:\n      Kontrolliert vollständig jedes mögliche Kerngebiet.\n      Kein mögliches Kerngebiet ist Kerngebiet von §Y[ROOT.GetName]§!."
-	pfp_puppet_integration_core_state_effect_tooltip:0 "Jedes mögliche Kerngebiet, das die vorherigen Anforderungen erfüllt, wird zum Kerngebiet erklärt."
-
-	pfp_contest_state_tooltip:0 "Streitigkeit"
-	pfp_core_state_tooltip:0 "Kerngebiete"
 
 	pfp_the_iron_fist:0 "Die Eiserne Faust"
 	pfp_the_iron_fist_desc:0 "Die Marionette tanzt, aber wir halten die Fäden. Es ist Zeit, diese Vereinbarung dauerhaft zu machen."
@@ -148,4 +147,4 @@ l_german:
 	pfp_deploy_reinforcements_desc:0 "Die besetzten Gebiete sind unruhig, und unsere Garnison ist dünn besetzt. Eine neue Truppenstationierung wird unsere Präsenz vor Ort stärken und die Bevölkerung daran erinnern, dass unsere Reichweite weit ist und unsere Geduld für Unordnung kurz. Jeder gesendete Soldat ist ein weiterer Nagel im Sarg des organisierten Widerstands."
 
 	pfp_ship_arms_to_garrison:0 "Waffen an die Garnison von [FROM.GetName] liefern"
-	pfp_ship_arms_to_garrison_desc:0 "Eine Garnison ohne angemessene Ausrüstung ist kaum mehr als eine uniformierte Präsenz. Wir werden dafür sorgen, dass unsere Kräfte in den besetzten Gebieten ordnungsgemäß bewaffnet sind — nicht nur um zu kämpfen, sondern um jede Straße und jedes Dorf daran zu erinnern, wer hier die Macht hat. Gut versorgte Soldaten verhandeln nicht. Sie vollstrecken."
+	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."

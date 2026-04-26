@@ -5,8 +5,25 @@ l_spanish:
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Gestión"
 	pfp_puppet_management_desc:0 "Tras establecer nuestra ocupación militar, es posible que necesitemos realizar ajustes en la administración y sus territorios."
+	pfp_management_option_enabled:0 "Activado"
+	pfp_management_option_disabled:0 "Desactivado"
+
 	pfp_management_window:0 "Abrir menú de gestión"
 	pfp_management_use_overlord_color:0 "Alternar estados títeres con color del señor supremo"
+	pfp_management_use_overlord_color_tooltip:0 "Todos los países controlados por el jugador están en paz."
+
+	pfp_management_resistance:0 "Alternar Mecánicas de Resistencia"
+	pfp_management_resistance_desc:0 "Esta decisión activa o desactiva las mecánicas de resistencia. Si está activada, los títeres formables no obtendrán territorios centrales y deberán completar enfoques y decisiones para aumentar el cumplimiento y reducir la resistencia. Un estado se convertirá en territorio central cuando el cumplimiento supere el 80% y la resistencia esté por debajo del 20%."
+
+	pfp_puppet_integration_core_state:0 "Anexar Territorio Pacificado"
+	pfp_puppet_integration_core_state_desc:0 "Lo que fue tomado por la fuerza ha sido retenido el tiempo suficiente para convertirse en algo más. La resistencia se ha roto, la población ha sido remodelada, y la tierra produce en nuestro nombre. Ya no hay razón para mantener la ilusión de una administración separada. Estos territorios serán formalmente absorbidos por el estado — no como tierra ocupada, sino como suelo natal. Lo que era de ellos es ahora, y siempre ha sido, nuestro."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "Todo lo siguiente debe ser cierto:\n      Controla completamente cualquier territorio central posible.\n      Cualquier territorio central posible no es central de §Y[ROOT.GetName]§!.\n      Cualquier territorio central posible tiene más del 80% de cumplimiento.\n      Cualquier territorio central posible tiene menos del 20% de resistencia."
+	pfp_puppet_core_status_resistance_disabled:0 "Todo lo siguiente debe ser cierto:\n      Controla completamente cualquier territorio central posible.\n      Cualquier territorio central posible no es central de §Y[ROOT.GetName]§!."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "Cualquier territorio central posible que cumpla los requisitos anteriores será declarado central."
+
+	pfp_contest_state_tooltip:0 "disputa"
+	pfp_core_state_tooltip:0 "territorios centrales"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
@@ -51,24 +68,6 @@ l_spanish:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Deseleccionar todos los estados previamente seleccionados."
 	pfp_state_transfer_tooltip_close_button:0 "Cerrar la interfaz de transferencia de estado."
-
-	pfp_management_option_enabled:0 "Activado"
-	pfp_management_option_disabled:0 "Desactivado"
-
-	pfp_management_use_overlord_color_tooltip:0 "Todos los países controlados por el jugador están en paz."
-
-	pfp_management_resistance:0 "Alternar Mecánicas de Resistencia"
-	pfp_management_resistance_desc:0 "Esta decisión activa o desactiva las mecánicas de resistencia. Si está activada, los títeres formables no obtendrán territorios centrales y deberán completar enfoques y decisiones para aumentar el cumplimiento y reducir la resistencia. Un estado se convertirá en territorio central cuando el cumplimiento supere el 80% y la resistencia esté por debajo del 20%."
-
-	pfp_puppet_integration_core_state:0 "Anexar Territorio Pacificado"
-	pfp_puppet_integration_core_state_desc:0 "Lo que fue tomado por la fuerza ha sido retenido el tiempo suficiente para convertirse en algo más. La resistencia se ha roto, la población ha sido remodelada, y la tierra produce en nuestro nombre. Ya no hay razón para mantener la ilusión de una administración separada. Estos territorios serán formalmente absorbidos por el estado — no como tierra ocupada, sino como suelo natal. Lo que era de ellos es ahora, y siempre ha sido, nuestro."
-	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
-	pfp_puppet_core_status_resistance_enabled:0 "Todo lo siguiente debe ser cierto:\n      Controla completamente cualquier territorio central posible.\n      Cualquier territorio central posible no es central de §Y[ROOT.GetName]§!.\n      Cualquier territorio central posible tiene más del 80% de cumplimiento.\n      Cualquier territorio central posible tiene menos del 20% de resistencia."
-	pfp_puppet_core_status_resistance_disabled:0 "Todo lo siguiente debe ser cierto:\n      Controla completamente cualquier territorio central posible.\n      Cualquier territorio central posible no es central de §Y[ROOT.GetName]§!."
-	pfp_puppet_integration_core_state_effect_tooltip:0 "Cualquier territorio central posible que cumpla los requisitos anteriores será declarado central."
-
-	pfp_contest_state_tooltip:0 "disputa"
-	pfp_core_state_tooltip:0 "territorios centrales"
 
 	pfp_the_iron_fist:0 "El Puño de Hierro"
 	pfp_the_iron_fist_desc:0 "El títere baila, pero nosotros sostenemos los hilos. Es hora de hacer ese acuerdo permanente."
@@ -148,4 +147,4 @@ l_spanish:
 	pfp_deploy_reinforcements_desc:0 "Los territorios ocupados están inquietos, y nuestra guarnición está estirada. Un nuevo despliegue de tropas reforzará nuestra presencia sobre el terreno, recordando a la población que nuestro alcance es largo y nuestra paciencia para el desorden es corta. Cada soldado enviado es otro clavo en el ataúd de la resistencia organizada."
 
 	pfp_ship_arms_to_garrison:0 "Enviar Armas a la Guarnición de [FROM.GetName]"
-	pfp_ship_arms_to_garrison_desc:0 "Una guarnición sin equipo adecuado es poco más que una presencia uniformada. Nos aseguraremos de que nuestras fuerzas en los territorios ocupados estén correctamente armadas — no solo para luchar, sino para recordar a cada calle y cada aldea exactamente quién tiene el poder aquí. Los soldados bien abastecidos no negocian. Ejecutan."
+	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."

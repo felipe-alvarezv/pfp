@@ -5,8 +5,25 @@ l_japanese:
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - 管理"
 	pfp_puppet_management_desc:0 "軍事占領を確立した後、行政とその領土に関して調整が必要になる場合があります。"
+	pfp_management_option_enabled:0 "有効"
+	pfp_management_option_disabled:0 "無効"
+
 	pfp_management_window:0 "管理メニューを開く"
 	pfp_management_use_overlord_color:0 "宗主国色の傀儡国家表示を切り替え"
+	pfp_management_use_overlord_color_tooltip:0 "プレイヤーが支配するすべての国は平和状態にある。"
+
+	pfp_management_resistance:0 "抵抗力学の切り替え"
+	pfp_management_resistance_desc:0 "この決定は抵抗力学を有効または無効にします。有効にすると、形成可能な傀儡国はコア地域を取得できず、服従度を上げて抵抗を下げるためのフォーカスや決定を完了する必要があります。服従度が80%を超え、抵抗が20%を下回ると、州がコアになります。"
+
+	pfp_puppet_integration_core_state:0 "平定領土の併合"
+	pfp_puppet_integration_core_state_desc:0 "武力で奪ったものは、それ以上のものになるのに十分なほど長く保持されてきた。抵抗は崩れ、人口は再形成され、土地は我々の名のもとに生産する。別個の行政の見せかけを維持する理由はもはやない。これらの領土は国家に正式に吸収される — 占領地としてではなく、故郷の土として。かつて彼らのものだったものは今、そしてずっとそうであったように、我々のものだ。"
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "以下のすべてが真でなければならない：\n      可能なコア州を完全に支配している。\n      可能なコア州は§Y[ROOT.GetName]§!のコアではない。\n      可能なコア州の服従度が80%以上である。\n      可能なコア州の抵抗が20%未満である。"
+	pfp_puppet_core_status_resistance_disabled:0 "以下のすべてが真でなければならない：\n      可能なコア州を完全に支配している。\n      可能なコア州は§Y[ROOT.GetName]§!のコアではない。"
+	pfp_puppet_integration_core_state_effect_tooltip:0 "前の要件を満たす可能なコア州はコアになります。"
+
+	pfp_contest_state_tooltip:0 "争奪"
+	pfp_core_state_tooltip:0 "コア州"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
@@ -51,24 +68,6 @@ l_japanese:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "以前に選択した全ての州の選択を解除します。"
 	pfp_state_transfer_tooltip_close_button:0 "州移管インターフェースを閉じる。"
-
-	pfp_management_option_enabled:0 "有効"
-	pfp_management_option_disabled:0 "無効"
-
-	pfp_management_use_overlord_color_tooltip:0 "プレイヤーが支配するすべての国は平和状態にある。"
-
-	pfp_management_resistance:0 "抵抗力学の切り替え"
-	pfp_management_resistance_desc:0 "この決定は抵抗力学を有効または無効にします。有効にすると、形成可能な傀儡国はコア地域を取得できず、服従度を上げて抵抗を下げるためのフォーカスや決定を完了する必要があります。服従度が80%を超え、抵抗が20%を下回ると、州がコアになります。"
-
-	pfp_puppet_integration_core_state:0 "平定領土の併合"
-	pfp_puppet_integration_core_state_desc:0 "武力で奪ったものは、それ以上のものになるのに十分なほど長く保持されてきた。抵抗は崩れ、人口は再形成され、土地は我々の名のもとに生産する。別個の行政の見せかけを維持する理由はもはやない。これらの領土は国家に正式に吸収される — 占領地としてではなく、故郷の土として。かつて彼らのものだったものは今、そしてずっとそうであったように、我々のものだ。"
-	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
-	pfp_puppet_core_status_resistance_enabled:0 "以下のすべてが真でなければならない：\n      可能なコア州を完全に支配している。\n      可能なコア州は§Y[ROOT.GetName]§!のコアではない。\n      可能なコア州の服従度が80%以上である。\n      可能なコア州の抵抗が20%未満である。"
-	pfp_puppet_core_status_resistance_disabled:0 "以下のすべてが真でなければならない：\n      可能なコア州を完全に支配している。\n      可能なコア州は§Y[ROOT.GetName]§!のコアではない。"
-	pfp_puppet_integration_core_state_effect_tooltip:0 "前の要件を満たす可能なコア州はコアになります。"
-
-	pfp_contest_state_tooltip:0 "争奪"
-	pfp_core_state_tooltip:0 "コア州"
 
 	pfp_the_iron_fist:0 "鉄の拳"
 	pfp_the_iron_fist_desc:0 "傀儡は踊るが、糸は我々が握っている。この取り決めを恒久的なものにする時が来た。"
@@ -148,4 +147,4 @@ l_japanese:
 	pfp_deploy_reinforcements_desc:0 "占領地域は不穏で、駐屯地は手薄だ。新鮮な部隊の展開は現地での我々の存在を強化し、我々の手が長く、秩序への我々の忍耐が短いことを人口に思い知らせるだろう。送られる兵士一人一人は、組織された抵抗の棺にまた一本の釘だ。"
 
 	pfp_ship_arms_to_garrison:0 "[FROM.GetName]駐屯地への武器輸送"
-	pfp_ship_arms_to_garrison_desc:0 "適切な装備のない駐屯地は制服を着た存在以上ではない。占領地域の我々の部隊が適切に武装されるように — 戦うためだけでなく、誰がここで権力を持っているかをすべての通りとすべての村に思い知らせるために。よく供給された兵士は交渉しない。執行する。"
+	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."

@@ -5,8 +5,25 @@ l_polish:
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Zarządzanie"
 	pfp_puppet_management_desc:0 "Po ustanowieniu okupacji wojskowej może być konieczne wprowadzenie zmian dotyczących administracji i jej terytoriów."
+	pfp_management_option_enabled:0 "Włączone"
+	pfp_management_option_disabled:0 "Wyłączone"
+
 	pfp_management_window:0 "Otwórz menu zarządzania"
 	pfp_management_use_overlord_color:0 "Przełącz kolory marionetek suzerena"
+	pfp_management_use_overlord_color_tooltip:0 "Wszystkie kraje kontrolowane przez gracza są w stanie pokoju."
+
+	pfp_management_resistance:0 "Przełącz mechaniki oporu"
+	pfp_management_resistance_desc:0 "Ta decyzja włącza lub wyłącza mechaniki oporu. Jeśli włączone, formowalne marionetkowe państwa nie otrzymają terytoriów rdzennych i będą musiały ukończyć fokuse i decyzje, aby zwiększyć zgodność i zmniejszyć opór. Państwo stanie się terytorium rdzennym, gdy zgodność przekroczy 80%, a opór spadnie poniżej 20%."
+
+	pfp_puppet_integration_core_state:0 "Anektuj spacyfikowane terytorium"
+	pfp_puppet_integration_core_state_desc:0 "To, co zostało wzięte siłą, było trzymane wystarczająco długo, aby stać się czymś więcej. Opór się załamał, populacja została przeformowana, a ziemia produkuje w naszym imieniu. Nie ma już powodu, aby utrzymywać pozory oddzielnej administracji. Te terytoria zostaną formalnie wchłonięte do państwa — nie jako ziemia zajęta, ale jako gleba ojczysta. To, co było ich, jest teraz, i zawsze było, nasze."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "Wszystkie poniższe muszą być prawdziwe:\n      W pełni kontroluje każde możliwe terytorium rdzenne.\n      Żadne możliwe terytorium rdzenne nie jest rdzenne dla §Y[ROOT.GetName]§!.\n      Każde możliwe terytorium rdzenne ma ponad 80% zgodności.\n      Każde możliwe terytorium rdzenne ma poniżej 20% oporu."
+	pfp_puppet_core_status_resistance_disabled:0 "Wszystkie poniższe muszą być prawdziwe:\n      W pełni kontroluje każde możliwe terytorium rdzenne.\n      Żadne możliwe terytorium rdzenne nie jest rdzenne dla §Y[ROOT.GetName]§!."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "Każde możliwe terytorium rdzenne spełniające poprzednie wymagania stanie się rdzenne."
+
+	pfp_contest_state_tooltip:0 "spór"
+	pfp_core_state_tooltip:0 "terytoria rdzenne"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
@@ -51,24 +68,6 @@ l_polish:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Odznacz wszystkie wcześniej wybrane stany."
 	pfp_state_transfer_tooltip_close_button:0 "Zamknij interfejs transferu stanów."
-
-	pfp_management_option_enabled:0 "Włączone"
-	pfp_management_option_disabled:0 "Wyłączone"
-
-	pfp_management_use_overlord_color_tooltip:0 "Wszystkie kraje kontrolowane przez gracza są w stanie pokoju."
-
-	pfp_management_resistance:0 "Przełącz mechaniki oporu"
-	pfp_management_resistance_desc:0 "Ta decyzja włącza lub wyłącza mechaniki oporu. Jeśli włączone, formowalne marionetkowe państwa nie otrzymają terytoriów rdzennych i będą musiały ukończyć fokuse i decyzje, aby zwiększyć zgodność i zmniejszyć opór. Państwo stanie się terytorium rdzennym, gdy zgodność przekroczy 80%, a opór spadnie poniżej 20%."
-
-	pfp_puppet_integration_core_state:0 "Anektuj spacyfikowane terytorium"
-	pfp_puppet_integration_core_state_desc:0 "To, co zostało wzięte siłą, było trzymane wystarczająco długo, aby stać się czymś więcej. Opór się załamał, populacja została przeformowana, a ziemia produkuje w naszym imieniu. Nie ma już powodu, aby utrzymywać pozory oddzielnej administracji. Te terytoria zostaną formalnie wchłonięte do państwa — nie jako ziemia zajęta, ale jako gleba ojczysta. To, co było ich, jest teraz, i zawsze było, nasze."
-	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
-	pfp_puppet_core_status_resistance_enabled:0 "Wszystkie poniższe muszą być prawdziwe:\n      W pełni kontroluje każde możliwe terytorium rdzenne.\n      Żadne możliwe terytorium rdzenne nie jest rdzenne dla §Y[ROOT.GetName]§!.\n      Każde możliwe terytorium rdzenne ma ponad 80% zgodności.\n      Każde możliwe terytorium rdzenne ma poniżej 20% oporu."
-	pfp_puppet_core_status_resistance_disabled:0 "Wszystkie poniższe muszą być prawdziwe:\n      W pełni kontroluje każde możliwe terytorium rdzenne.\n      Żadne możliwe terytorium rdzenne nie jest rdzenne dla §Y[ROOT.GetName]§!."
-	pfp_puppet_integration_core_state_effect_tooltip:0 "Każde możliwe terytorium rdzenne spełniające poprzednie wymagania stanie się rdzenne."
-
-	pfp_contest_state_tooltip:0 "spór"
-	pfp_core_state_tooltip:0 "terytoria rdzenne"
 
 	pfp_the_iron_fist:0 "Żelazna Pięść"
 	pfp_the_iron_fist_desc:0 "Marionetka tańczy, ale my trzymamy sznurki. Czas utrwalić to porozumienie."
@@ -148,4 +147,4 @@ l_polish:
 	pfp_deploy_reinforcements_desc:0 "Ocupowane terytoria są niespokojne, a nasz garnizon jest rozciągnięty. Nowe rozmieszczenie wojsk wzmocni naszą obecność w terenie, przypominając populacji, że nasz zasięg jest długi, a nasza cierpliwość wobec nieporządku krótka. Każdy wysłany żołnierz to kolejny gwóźdź do trumny zorganizowanego oporu."
 
 	pfp_ship_arms_to_garrison:0 "Wyślij broń do garnizonu [FROM.GetName]"
-	pfp_ship_arms_to_garrison_desc:0 "Garnizon bez odpowiedniego wyposażenia to niewiele więcej niż obecność w mundurze. Zadbamy o to, by nasze siły na ocupowanych terytoriach były właściwie uzbrojone — nie tylko do walki, ale by przypominać każdej ulicy i każdej wiosce, kto tu trzyma władzę. Dobrze zaopatrzeni żołnierze nie negocjują. Egzekwują."
+	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."

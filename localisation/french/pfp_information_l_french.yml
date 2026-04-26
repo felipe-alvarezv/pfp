@@ -5,8 +5,25 @@ l_french:
 
 	pfp_puppet_management:0 "Marionnettes formables de Pipe - Gestion"
 	pfp_puppet_management_desc:0 "Après avoir établi notre occupation militaire, nous pourrions avoir besoin d’apporter des ajustements concernant l’administration et ses territoires."
+	pfp_management_option_enabled:0 "Activé"
+	pfp_management_option_disabled:0 "Désactivé"
+
 	pfp_management_window:0 "Ouvrir le menu de gestion"
 	pfp_management_use_overlord_color:0 "Basculer les marionnettes aux couleurs du suzerain"
+	pfp_management_use_overlord_color_tooltip:0 "Tous les pays contrôlés par le joueur sont en paix."
+
+	pfp_management_resistance:0 "Activer les mécaniques de résistance"
+	pfp_management_resistance_desc:0 "Cette décision active ou désactive les mécaniques de résistance. Si activée, les marionnettes formables n'obtiendront pas de coeurs et devront compléter des objectifs et des décisions pour augmenter la conformité et réduire la résistance. Un État sera intégré une fois que la conformité dépasse 80% et la résistance est en dessous de 20%."
+
+	pfp_puppet_integration_core_state:0 "Annexer le territoire pacifié"
+	pfp_puppet_integration_core_state_desc:0 "Ce qui a été pris par la force a été détenu suffisamment longtemps pour devenir quelque chose de plus. La résistance a cédé, la population a été refaçonnée, et la terre produit en notre nom. Il n'y a plus aucune raison de maintenir l'illusion d'une administration séparée. Ces territoires seront formellement absorbés dans l'État — non pas comme terres occupées, mais comme sol natal. Ce qui était à eux est maintenant, et a toujours été, à nous."
+	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
+	pfp_puppet_core_status_resistance_enabled:0 "Tout ce qui suit doit être vrai :\n      Contrôle entièrement tout coeur possible.\n      Tout coeur possible n'est pas coeur de §Y[ROOT.GetName]§!.\n      Tout coeur possible a plus de 80% de conformité.\n      Tout coeur possible a moins de 20% de résistance."
+	pfp_puppet_core_status_resistance_disabled:0 "Tout ce qui suit doit être vrai :\n      Contrôle entièrement tout coeur possible.\n      Tout coeur possible n'est pas coeur de §Y[ROOT.GetName]§!."
+	pfp_puppet_integration_core_state_effect_tooltip:0 "Tout coeur possible répondant aux exigences précédentes sera intégré."
+
+	pfp_contest_state_tooltip:0 "contestation"
+	pfp_core_state_tooltip:0 "coeurs"
 
 	pfp_default_puppet_leader:0 "Military Governor"
 
@@ -51,24 +68,6 @@ l_french:
 
 	pfp_state_transfer_tooltip_unselect_all_button:0 "Désélectionner tous les États précédemment sélectionnés."
 	pfp_state_transfer_tooltip_close_button:0 "Fermer l’interface de transfert d’État."
-
-	pfp_management_option_enabled:0 "Activé"
-	pfp_management_option_disabled:0 "Désactivé"
-
-	pfp_management_use_overlord_color_tooltip:0 "Tous les pays contrôlés par le joueur sont en paix."
-
-	pfp_management_resistance:0 "Activer les mécaniques de résistance"
-	pfp_management_resistance_desc:0 "Cette décision active ou désactive les mécaniques de résistance. Si activée, les marionnettes formables n'obtiendront pas de coeurs et devront compléter des objectifs et des décisions pour augmenter la conformité et réduire la résistance. Un État sera intégré une fois que la conformité dépasse 80% et la résistance est en dessous de 20%."
-
-	pfp_puppet_integration_core_state:0 "Annexer le territoire pacifié"
-	pfp_puppet_integration_core_state_desc:0 "Ce qui a été pris par la force a été détenu suffisamment longtemps pour devenir quelque chose de plus. La résistance a cédé, la population a été refaçonnée, et la terre produit en notre nom. Il n'y a plus aucune raison de maintenir l'illusion d'une administration séparée. Ces territoires seront formellement absorbés dans l'État — non pas comme terres occupées, mais comme sol natal. Ce qui était à eux est maintenant, et a toujours été, à nous."
-	pfp_puppet_integration_core_state_trigger_tooltip:0 "[pfp_puppet_core_resistance_status]"
-	pfp_puppet_core_status_resistance_enabled:0 "Tout ce qui suit doit être vrai :\n      Contrôle entièrement tout coeur possible.\n      Tout coeur possible n'est pas coeur de §Y[ROOT.GetName]§!.\n      Tout coeur possible a plus de 80% de conformité.\n      Tout coeur possible a moins de 20% de résistance."
-	pfp_puppet_core_status_resistance_disabled:0 "Tout ce qui suit doit être vrai :\n      Contrôle entièrement tout coeur possible.\n      Tout coeur possible n'est pas coeur de §Y[ROOT.GetName]§!."
-	pfp_puppet_integration_core_state_effect_tooltip:0 "Tout coeur possible répondant aux exigences précédentes sera intégré."
-
-	pfp_contest_state_tooltip:0 "contestation"
-	pfp_core_state_tooltip:0 "coeurs"
 
 	pfp_the_iron_fist:0 "La Poigne de Fer"
 	pfp_the_iron_fist_desc:0 "La marionnette danse, mais nous tenons les ficelles. Il est temps de rendre cet arrangement permanent."
@@ -148,4 +147,4 @@ l_french:
 	pfp_deploy_reinforcements_desc:0 "Les territoires occupés sont agités, et notre garnison est à bout de souffle. Un nouveau déploiement de troupes renforcera notre présence sur le terrain, rappelant à la population que notre portée est longue et que notre patience pour le désordre est courte. Chaque soldat envoyé est un clou de plus dans le cercueil de la résistance organisée."
 
 	pfp_ship_arms_to_garrison:0 "Expédier des Armes à la Garnison de [FROM.GetName]"
-	pfp_ship_arms_to_garrison_desc:0 "Une garnison sans équipement adéquat n'est guère plus qu'une présence en uniforme. Nous veillerons à ce que nos forces dans les territoires occupés soient correctement armées — non pas seulement pour combattre, mais pour rappeler à chaque rue et chaque village exactement qui détient le pouvoir ici. Des soldats bien approvisionnés ne négocient pas. Ils appliquent."
+	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."
