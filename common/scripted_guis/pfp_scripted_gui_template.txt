@@ -87,6 +87,7 @@ scripted_gui = {
 			pfp_view_puppets_gridbox_entry_appoint_leader_button_click_enabled = {
 				OR = {
 					check_variable = { ROOT.army_leaders^num > 0 }
+					check_variable = { ROOT.navy_leaders^num > 0 }
 					var:puppet_value = {
 						NOT = {
 							has_country_leader = {
@@ -114,6 +115,14 @@ scripted_gui = {
 					set_country_flag = pfp_appoint_leader_window
 					set_variable = { ROOT.overlord_value_var = ROOT }
 					set_variable = { ROOT.puppet_value_var = puppet_value }
+
+					every_character = {
+						limit = {
+							is_unit_leader = yes
+							is_country_leader = no
+						}
+						add_to_array = { ROOT.pfp_combined_leaders_array = THIS }
+					}
 				}
 			}
 		}
@@ -220,6 +229,15 @@ scripted_gui = {
 							}
 						}
 					}
+
+					clear_array = ROOT.pfp_combined_leaders_array
+					every_character = {
+						limit = { 
+							is_unit_leader = yes  
+							is_country_leader = no 
+						}
+						add_to_array = { ROOT.pfp_combined_leaders_array = THIS }
+					}
 				}
 			}
 
@@ -227,6 +245,7 @@ scripted_gui = {
 				ROOT = {
 					clr_country_flag = pfp_appoint_leader_window
 					clear_variable = puppet_value_var
+					clear_array = ROOT.pfp_combined_leaders_array
 				}
 			}
 
@@ -235,6 +254,12 @@ scripted_gui = {
 					set_nationality = {
 						character = leader_value
 						target_country = ROOT.puppet_value_var
+					}
+
+					clear_array = ROOT.pfp_combined_leaders_array
+					every_character = {
+						limit = { is_unit_leader = yes  is_country_leader = no }
+						add_to_array = { ROOT.pfp_combined_leaders_array = THIS }
 					}
 				}
 
@@ -282,7 +307,7 @@ scripted_gui = {
 
 		dynamic_lists = {
 			pfp_appoint_leader_gridbox = {
-				array = ROOT.army_leaders
+				array = ROOT.pfp_combined_leaders_array
 				value = leader_value
 				index = leader_index
 				change_scope = yes
