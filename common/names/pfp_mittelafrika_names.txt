@@ -1,4 +1,4 @@
-﻿#Mittelafrika
+#Mittelafrika
 P53 = {
 	male = {
 		names = {

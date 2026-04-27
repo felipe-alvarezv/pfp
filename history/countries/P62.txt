@@ -1,4 +1,4 @@
-﻿#Northern France
+#Northern France
 capital = 16 #Ile de France
 
 # Research Slots, Stability, War Support, and Ideas

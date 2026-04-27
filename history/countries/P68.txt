@@ -1,4 +1,4 @@
-﻿#Turkey
+#Turkey
 capital = 49 #Ankara
 
 # Research Slots, Stability, War Support, and Ideas

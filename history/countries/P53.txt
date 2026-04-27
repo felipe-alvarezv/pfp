@@ -1,4 +1,4 @@
-﻿#Mittelafrika
+#Mittelafrika
 capital = 546 #Tanganyika
 
 # Research Slots, Stability, War Support, and Ideas

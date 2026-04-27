@@ -1,4 +1,4 @@
-﻿#Ireland
+#Ireland
 capital = 113 #Leinster
 
 # Research Slots, Stability, War Support, and Ideas
