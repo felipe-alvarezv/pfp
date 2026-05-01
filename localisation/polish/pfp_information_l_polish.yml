@@ -98,6 +98,7 @@ l_polish:
 
 	pfp_bread_and_circuses:0 "Chleb i Igrzyska"
 	pfp_bread_and_circuses_desc:0 "Nie wszystkie kajdany są z żelaza. Niektóre są zrobione z komfortu, z pełnych brzuchów i tanich rozrywek. Zadowolona populacja jest posłuszną populacją."
+
 	pfp_reshape_the_soul:0 "Przekształć Duszę"
 	pfp_reshape_the_soul_desc:0 "Zgodność wymuszona strachem jest krucha. To, co trwa, to przekonanie. Nie będziemy tylko kontrolować, co robią nasi poddani — zmienimy to, czego pragną."
 
@@ -106,17 +107,17 @@ l_polish:
 
 	pfp_puppet_resistance_idea_1:0 "Lokalny Opór"
 	pfp_puppet_resistance_idea_1_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
+
 	pfp_puppet_resistance_idea_2:0 "Lokalny Opór"
-
 	pfp_puppet_resistance_idea_2_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
+
 	pfp_puppet_resistance_idea_3:0 "Lokalny Opór"
-
 	pfp_puppet_resistance_idea_3_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
+
 	pfp_puppet_resistance_idea_4:0 "Lokalny Opór"
-
 	pfp_puppet_resistance_idea_4_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
-	pfp_puppet_resistance_idea_5:0 "Lokalny Opór"
 
+	pfp_puppet_resistance_idea_5:0 "Lokalny Opór"
 	pfp_puppet_resistance_idea_5_desc:0 "Okupowani nie zapomnieli, kim byli. Na ulicach, na polach, w przytłumionych rozmowach za zamkniętymi drzwiami — sprzeciw się czai. Nie złamie się łatwo i nie złamie się cicho."
 
 	pfp_military_police_idea_1:0 "Policja Wojskowa"

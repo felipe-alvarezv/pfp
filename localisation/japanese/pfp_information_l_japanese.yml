@@ -98,6 +98,7 @@ l_japanese:
 
 	pfp_bread_and_circuses:0 "パンと見世物"
 	pfp_bread_and_circuses_desc:0 "すべての鎖が鉄でできているわけではない。快適さ、満腹感、安価な娯楽でできているものもある。満足している集団は従順な集団だ。"
+
 	pfp_reshape_the_soul:0 "魂の再形成"
 	pfp_reshape_the_soul_desc:0 "恐怖によって強制された服従は脆弱だ。持続するのは信念だ。我々は単に臣民が何をするかを支配するだけでなく — 彼らが何を望むかを変える。"
 
@@ -106,17 +107,17 @@ l_japanese:
 
 	pfp_puppet_resistance_idea_1:0 "現地の抵抗"
 	pfp_puppet_resistance_idea_1_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
+
 	pfp_puppet_resistance_idea_2:0 "現地の抵抗"
-
 	pfp_puppet_resistance_idea_2_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
+
 	pfp_puppet_resistance_idea_3:0 "現地の抵抗"
-
 	pfp_puppet_resistance_idea_3_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
+
 	pfp_puppet_resistance_idea_4:0 "現地の抵抗"
-
 	pfp_puppet_resistance_idea_4_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
-	pfp_puppet_resistance_idea_5:0 "現地の抵抗"
 
+	pfp_puppet_resistance_idea_5:0 "現地の抵抗"
 	pfp_puppet_resistance_idea_5_desc:0 "被占領者は自分たちが誰であったかを忘れていない。通りで、野原で、閉ざされた扉の後ろでの静かな会話の中で — 反抗が息づいている。それは簡単には崩れず、静かには崩れない。"
 
 	pfp_military_police_idea_1:0 "憲兵"

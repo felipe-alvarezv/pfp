@@ -98,6 +98,7 @@ l_german:
 
 	pfp_bread_and_circuses:0 "Brot und Spiele"
 	pfp_bread_and_circuses_desc:0 "Nicht alle Ketten sind aus Eisen. Einige bestehen aus Komfort, aus vollen Bäuchen und billiger Unterhaltung. Eine zufriedene Bevölkerung ist eine gehorsame."
+
 	pfp_reshape_the_soul:0 "Die Seele formen"
 	pfp_reshape_the_soul_desc:0 "Compliance, die durch Angst erzwungen wird, ist zerbrechlich. Was dauerhaft ist, ist der Glaube. Wir werden nicht nur kontrollieren, was unsere Untertanen tun — wir werden ändern, was sie wollen."
 
@@ -106,17 +107,17 @@ l_german:
 
 	pfp_puppet_resistance_idea_1:0 "Lokaler Widerstand"
 	pfp_puppet_resistance_idea_1_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
+
 	pfp_puppet_resistance_idea_2:0 "Lokaler Widerstand"
-
 	pfp_puppet_resistance_idea_2_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
+
 	pfp_puppet_resistance_idea_3:0 "Lokaler Widerstand"
-
 	pfp_puppet_resistance_idea_3_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
+
 	pfp_puppet_resistance_idea_4:0 "Lokaler Widerstand"
-
 	pfp_puppet_resistance_idea_4_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
-	pfp_puppet_resistance_idea_5:0 "Lokaler Widerstand"
 
+	pfp_puppet_resistance_idea_5:0 "Lokaler Widerstand"
 	pfp_puppet_resistance_idea_5_desc:0 "Die Besetzten haben nicht vergessen, wer sie waren. Auf den Straßen, auf den Feldern, in den gedämpften Gesprächen hinter verschlossenen Türen — Trotz lauert. Er wird nicht leicht brechen und nicht still brechen."
 
 	pfp_military_police_idea_1:0 "Militärpolizei"

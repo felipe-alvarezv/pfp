@@ -98,6 +98,7 @@ l_english:
 
 	pfp_bread_and_circuses:0 "Bread and Circuses"
 	pfp_bread_and_circuses_desc:0 "Not all chains are made of iron. Some are made of comfort, of full bellies and cheap entertainment. A content population is a compliant one."
+
 	pfp_reshape_the_soul:0 "Reshape the Soul"
 	pfp_reshape_the_soul_desc:0 "Compliance enforced by fear is fragile. What endures is belief. We will not merely control what our subjects do — we will change what they want."
 
@@ -106,17 +107,17 @@ l_english:
 
 	pfp_puppet_resistance_idea_1:0 "Local Resistance"
 	pfp_puppet_resistance_idea_1_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
+
 	pfp_puppet_resistance_idea_2:0 "Local Resistance"
-
 	pfp_puppet_resistance_idea_2_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
+
 	pfp_puppet_resistance_idea_3:0 "Local Resistance"
-
 	pfp_puppet_resistance_idea_3_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
+
 	pfp_puppet_resistance_idea_4:0 "Local Resistance"
-
 	pfp_puppet_resistance_idea_4_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
-	pfp_puppet_resistance_idea_5:0 "Local Resistance"
 
+	pfp_puppet_resistance_idea_5:0 "Local Resistance"
 	pfp_puppet_resistance_idea_5_desc:0 "The occupied have not forgotten who they were. In the streets, in the fields, in the hushed conversations behind closed doors — defiance lingers. It will not break easily, and it will not break quietly."
 
 	pfp_military_police_idea_1:0 "Military Police"

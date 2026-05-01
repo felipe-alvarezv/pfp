@@ -98,6 +98,7 @@ l_simp_chinese:
 
 	pfp_bread_and_circuses:0 "面包与马戏"
 	pfp_bread_and_circuses_desc:0 "并非所有锁链都是铁制的。有些是由舒适、饱腹感和廉价娱乐构成的。满足的民众是顺从的民众。"
+
 	pfp_reshape_the_soul:0 "重塑灵魂"
 	pfp_reshape_the_soul_desc:0 "由恐惧强制的服从是脆弱的。持久的是信念。我们不仅仅要控制臣民做什么——我们要改变他们想要什么。"
 
@@ -106,17 +107,17 @@ l_simp_chinese:
 
 	pfp_puppet_resistance_idea_1:0 "当地抵抗"
 	pfp_puppet_resistance_idea_1_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
+
 	pfp_puppet_resistance_idea_2:0 "当地抵抗"
-
 	pfp_puppet_resistance_idea_2_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
+
 	pfp_puppet_resistance_idea_3:0 "当地抵抗"
-
 	pfp_puppet_resistance_idea_3_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
+
 	pfp_puppet_resistance_idea_4:0 "当地抵抗"
-
 	pfp_puppet_resistance_idea_4_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
-	pfp_puppet_resistance_idea_5:0 "当地抵抗"
 
+	pfp_puppet_resistance_idea_5:0 "当地抵抗"
 	pfp_puppet_resistance_idea_5_desc:0 "被占领者没有忘记他们是谁。在街道上，在田野里，在紧闭的门后的窃窃私语中——反抗仍在蔓延。它不会轻易崩溃，也不会悄然崩溃。"
 
 	pfp_military_police_idea_1:0 "军事警察"

@@ -98,6 +98,7 @@ l_spanish:
 
 	pfp_bread_and_circuses:0 "Pan y Circo"
 	pfp_bread_and_circuses_desc:0 "No todas las cadenas son de hierro. Algunas están hechas de comodidad, de vientres llenos y entretenimiento barato. Una población contenta es una población dócil."
+
 	pfp_reshape_the_soul:0 "Reformar el Alma"
 	pfp_reshape_the_soul_desc:0 "El cumplimiento impuesto por el miedo es frágil. Lo que perdura es la creencia. No solo controlaremos lo que hacen nuestros súbditos — cambiaremos lo que quieren."
 
@@ -106,17 +107,17 @@ l_spanish:
 
 	pfp_puppet_resistance_idea_1:0 "Resistencia Local"
 	pfp_puppet_resistance_idea_1_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
+
 	pfp_puppet_resistance_idea_2:0 "Resistencia Local"
-
 	pfp_puppet_resistance_idea_2_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
+
 	pfp_puppet_resistance_idea_3:0 "Resistencia Local"
-
 	pfp_puppet_resistance_idea_3_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
+
 	pfp_puppet_resistance_idea_4:0 "Resistencia Local"
-
 	pfp_puppet_resistance_idea_4_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
-	pfp_puppet_resistance_idea_5:0 "Resistencia Local"
 
+	pfp_puppet_resistance_idea_5:0 "Resistencia Local"
 	pfp_puppet_resistance_idea_5_desc:0 "Los ocupados no han olvidado quiénes eran. En las calles, en los campos, en las conversaciones en susurros detrás de puertas cerradas — la defensa persiste. No se romperá fácilmente, y no se romperá en silencio."
 
 	pfp_military_police_idea_1:0 "Policía Militar"

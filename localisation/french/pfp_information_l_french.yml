@@ -98,6 +98,7 @@ l_french:
 
 	pfp_bread_and_circuses:0 "Du Pain et des Jeux"
 	pfp_bread_and_circuses_desc:0 "Toutes les chaînes ne sont pas faites de fer. Certaines sont faites de confort, de ventres pleins et de divertissements bon marché. Une population satisfaite est une population docile."
+
 	pfp_reshape_the_soul:0 "Remodeler l'Âme"
 	pfp_reshape_the_soul_desc:0 "La conformité imposée par la peur est fragile. Ce qui dure, c'est la croyance. Nous ne nous contenterons pas de contrôler ce que font nos sujets — nous changerons ce qu'ils désirent."
 
@@ -106,17 +107,17 @@ l_french:
 
 	pfp_puppet_resistance_idea_1:0 "Résistance Locale"
 	pfp_puppet_resistance_idea_1_desc:0 "Les occupés n'ont pas oublié qui ils étaient. Dans les rues, dans les champs, dans les conversations à voix basse derrière des portes closes — le défi s'attarde. Il ne cédera pas facilement, et il ne cédera pas silencieusement."
+
 	pfp_puppet_resistance_idea_2:0 "Résistance Locale"
-
 	pfp_puppet_resistance_idea_2_desc:0 "Les occupés n'ont pas oublié qui ils étaient. Dans les rues, dans les champs, dans les conversations à voix basse derrière des portes closes — le défi s'attarde. Il ne cédera pas facilement, et il ne cédera pas silencieusement."
+
 	pfp_puppet_resistance_idea_3:0 "Résistance Locale"
-
 	pfp_puppet_resistance_idea_3_desc:0 "Les occupés n'ont pas oublié qui ils étaient. Dans les rues, dans les champs, dans les conversations à voix basse derrière des portes closes — le défi s'attarde. Il ne cédera pas facilement, et il ne cédera pas silencieusement."
+
 	pfp_puppet_resistance_idea_4:0 "Résistance Locale"
-
 	pfp_puppet_resistance_idea_4_desc:0 "Les occupés n'ont pas oublié qui ils étaient. Dans les rues, dans les champs, dans les conversations à voix basse derrière des portes closes — le défi s'attarde. Il ne cédera pas facilement, et il ne cédera pas silencieusement."
-	pfp_puppet_resistance_idea_5:0 "Résistance Locale"
 
+	pfp_puppet_resistance_idea_5:0 "Résistance Locale"
 	pfp_puppet_resistance_idea_5_desc:0 "Les occupés n'ont pas oublié qui ils étaient. Dans les rues, dans les champs, dans les conversations à voix basse derrière des portes closes — le défi s'attarde. Il ne cédera pas facilement, et il ne cédera pas silencieusement."
 
 	pfp_military_police_idea_1:0 "Police Militaire"

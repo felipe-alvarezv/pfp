@@ -98,6 +98,7 @@ l_braz_por:
 
 	pfp_bread_and_circuses:0 "Pão e Circo"
 	pfp_bread_and_circuses_desc:0 "Nem todas as correntes são feitas de ferro. Algumas são feitas de conforto, de barrigas cheias e entretenimento barato. Uma população contente é uma população obediente."
+
 	pfp_reshape_the_soul:0 "Reformar a Alma"
 	pfp_reshape_the_soul_desc:0 "A conformidade imposta pelo medo é frágil. O que perdura é a crença. Não apenas controlaremos o que nossos súditos fazem — mudaremos o que eles querem."
 
@@ -106,17 +107,17 @@ l_braz_por:
 
 	pfp_puppet_resistance_idea_1:0 "Resistência Local"
 	pfp_puppet_resistance_idea_1_desc:0 "Os ocupados não esqueceram quem eram. Nas ruas, nos campos, nas conversas em voz baixa atrás de portas fechadas — a resistência persiste. Não quebrará facilmente, e não quebrará em silêncio."
+	
 	pfp_puppet_resistance_idea_2:0 "Resistência Local"
-
 	pfp_puppet_resistance_idea_2_desc:0 "Os ocupados não esqueceram quem eram. Nas ruas, nos campos, nas conversas em voz baixa atrás de portas fechadas — a resistência persiste. Não quebrará facilmente, e não quebrará em silêncio."
+	
 	pfp_puppet_resistance_idea_3:0 "Resistência Local"
-
 	pfp_puppet_resistance_idea_3_desc:0 "Os ocupados não esqueceram quem eram. Nas ruas, nos campos, nas conversas em voz baixa atrás de portas fechadas — a resistência persiste. Não quebrará facilmente, e não quebrará em silêncio."
+	
 	pfp_puppet_resistance_idea_4:0 "Resistência Local"
-
 	pfp_puppet_resistance_idea_4_desc:0 "Os ocupados não esqueceram quem eram. Nas ruas, nos campos, nas conversas em voz baixa atrás de portas fechadas — a resistência persiste. Não quebrará facilmente, e não quebrará em silêncio."
+	
 	pfp_puppet_resistance_idea_5:0 "Resistência Local"
-
 	pfp_puppet_resistance_idea_5_desc:0 "Os ocupados não esqueceram quem eram. Nas ruas, nos campos, nas conversas em voz baixa atrás de portas fechadas — a resistência persiste. Não quebrará facilmente, e não quebrará em silêncio."
 
 	pfp_military_police_idea_1:0 "Polícia Militar"
