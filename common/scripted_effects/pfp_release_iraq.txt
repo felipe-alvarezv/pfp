@@ -6,10 +6,16 @@ pfp_release_iraq = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			291 = { add_contested_owner  = P69 } #Baghdad
-			675 = { add_contested_owner  = P69 } #Al Hajara
-			1010 = { add_contested_owner  = P69 } #Al Anbar
-			1011 = { add_contested_owner  = P69 } #Al Basrah
+			291 = { add_contested_owner = P69 } #Baghdad
+			675 = { add_contested_owner = P69 } #Al Hajara
+			1010 = { add_contested_owner = P69 } #Al Anbar
+			1011 = { add_contested_owner = P69 } #Al Basrah
+
+			#Add claims to formable puppet
+			291 = { add_claim_by = P69 } #Baghdad
+			675 = { add_claim_by = P69 } #Al Hajara
+			1010 = { add_claim_by = P69 } #Al Anbar
+			1011 = { add_claim_by = P69 } #Al Basrah
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,9 +6,14 @@ pfp_release_papal_states = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			2 = { add_contested_owner  = P96 } #Lazio
-			157 = { add_contested_owner  = P96 } #Abruzzo
-			161 = { add_contested_owner  = P96 } #Emilia Romagna
+			2 = { add_contested_owner = P96 } #Lazio
+			157 = { add_contested_owner = P96 } #Abruzzo
+			161 = { add_contested_owner = P96 } #Emilia Romagna
+
+			#Add claims to formable puppet
+			2 = { add_claim_by = P96 } #Lazio
+			157 = { add_claim_by = P96 } #Abruzzo
+			161 = { add_claim_by = P96 } #Emilia Romagna
 
 			#Set formable puppet as controller of contested state
 			every_state = {

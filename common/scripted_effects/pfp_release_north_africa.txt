@@ -6,20 +6,36 @@ pfp_release_north_africa = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			273 = { add_contested_owner  = P30 } #Lybian Desert
-			447 = { add_contested_owner  = P30 } #Alexandria
-			448 = { add_contested_owner  = P30 } #Tripoli
-			449 = { add_contested_owner  = P30 } #El Agheila
-			450 = { add_contested_owner  = P30 } #Benghasi
-			451 = { add_contested_owner  = P30 } #Derna
-			452 = { add_contested_owner  = P30 } #Matrouh
-			456 = { add_contested_owner  = P30 } #Aswan
-			457 = { add_contested_owner  = P30 } #Eastern Desert
-			552 = { add_contested_owner  = P30 } #Western Desert
-			661 = { add_contested_owner  = P30 } #Tripolitania
-			662 = { add_contested_owner  = P30 } #Sirte
-			663 = { add_contested_owner  = P30 } #Cyrenaica
-			907 = { add_contested_owner  = P30 } #Cairo
+			273 = { add_contested_owner = P30 } #Lybian Desert
+			447 = { add_contested_owner = P30 } #Alexandria
+			448 = { add_contested_owner = P30 } #Tripoli
+			449 = { add_contested_owner = P30 } #El Agheila
+			450 = { add_contested_owner = P30 } #Benghasi
+			451 = { add_contested_owner = P30 } #Derna
+			452 = { add_contested_owner = P30 } #Matrouh
+			456 = { add_contested_owner = P30 } #Aswan
+			457 = { add_contested_owner = P30 } #Eastern Desert
+			552 = { add_contested_owner = P30 } #Western Desert
+			661 = { add_contested_owner = P30 } #Tripolitania
+			662 = { add_contested_owner = P30 } #Sirte
+			663 = { add_contested_owner = P30 } #Cyrenaica
+			907 = { add_contested_owner = P30 } #Cairo
+
+			#Add claims to formable puppet
+			273 = { add_claim_by = P30 } #Lybian Desert
+			447 = { add_claim_by = P30 } #Alexandria
+			448 = { add_claim_by = P30 } #Tripoli
+			449 = { add_claim_by = P30 } #El Agheila
+			450 = { add_claim_by = P30 } #Benghasi
+			451 = { add_claim_by = P30 } #Derna
+			452 = { add_claim_by = P30 } #Matrouh
+			456 = { add_claim_by = P30 } #Aswan
+			457 = { add_claim_by = P30 } #Eastern Desert
+			552 = { add_claim_by = P30 } #Western Desert
+			661 = { add_claim_by = P30 } #Tripolitania
+			662 = { add_claim_by = P30 } #Sirte
+			663 = { add_claim_by = P30 } #Cyrenaica
+			907 = { add_claim_by = P30 } #Cairo
 
 			#Set formable puppet as controller of contested state
 			every_state = {

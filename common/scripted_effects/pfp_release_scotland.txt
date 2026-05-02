@@ -6,10 +6,16 @@ pfp_release_scotland = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			120 = { add_contested_owner  = P81 } #Scottish Highlands
-			121 = { add_contested_owner  = P81 } #Lothian
-			133 = { add_contested_owner  = P81 } #Lanark
-			136 = { add_contested_owner  = P81 } #Aberdeenshire
+			120 = { add_contested_owner = P81 } #Scottish Highlands
+			121 = { add_contested_owner = P81 } #Lothian
+			133 = { add_contested_owner = P81 } #Lanark
+			136 = { add_contested_owner = P81 } #Aberdeenshire
+
+			#Add claims to formable puppet
+			120 = { add_claim_by = P81 } #Scottish Highlands
+			121 = { add_claim_by = P81 } #Lothian
+			133 = { add_claim_by = P81 } #Lanark
+			136 = { add_claim_by = P81 } #Aberdeenshire
 
 			#Set formable puppet as controller of contested state
 			every_state = {

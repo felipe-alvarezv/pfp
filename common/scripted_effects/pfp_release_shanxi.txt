@@ -6,7 +6,10 @@ pfp_release_shanxi = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			615 = { add_contested_owner  = Q13 } #Shanxi
+			615 = { add_contested_owner = Q13 } #Shanxi
+
+			#Add claims to formable puppet
+			615 = { add_claim_by = Q13 } #Shanxi
 
 			#Set formable puppet as controller of contested state
 			every_state = {

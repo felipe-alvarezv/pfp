@@ -6,7 +6,10 @@ pfp_release_northern_ireland = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			119 = { add_contested_owner  = P84 } #Northern Ireland
+			119 = { add_contested_owner = P84 } #Northern Ireland
+
+			#Add claims to formable puppet
+			119 = { add_claim_by = P84 } #Northern Ireland
 
 			#Set formable puppet as controller of contested state
 			every_state = {

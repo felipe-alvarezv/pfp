@@ -6,12 +6,20 @@ pfp_release_levant = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			454 = { add_contested_owner  = P67 } #Palestine
-			455 = { add_contested_owner  = P67 } #Jordan
-			553 = { add_contested_owner  = P67 } #Lebanon
-			554 = { add_contested_owner  = P67 } #Damascus
-			677 = { add_contested_owner  = P67 } #Aleppo
-			680 = { add_contested_owner  = P67 } #Deir-Az-Zur
+			454 = { add_contested_owner = P67 } #Palestine
+			455 = { add_contested_owner = P67 } #Jordan
+			553 = { add_contested_owner = P67 } #Lebanon
+			554 = { add_contested_owner = P67 } #Damascus
+			677 = { add_contested_owner = P67 } #Aleppo
+			680 = { add_contested_owner = P67 } #Deir-Az-Zur
+
+			#Add claims to formable puppet
+			454 = { add_claim_by = P67 } #Palestine
+			455 = { add_claim_by = P67 } #Jordan
+			553 = { add_claim_by = P67 } #Lebanon
+			554 = { add_claim_by = P67 } #Damascus
+			677 = { add_claim_by = P67 } #Aleppo
+			680 = { add_claim_by = P67 } #Deir-Az-Zur
 
 			#Set formable puppet as controller of contested state
 			every_state = {

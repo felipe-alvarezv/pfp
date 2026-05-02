@@ -6,18 +6,32 @@ pfp_release_siberia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			40 = { add_contested_owner  = P45 } #Altai Krai
-			516 = { add_contested_owner  = P45 } #Dudinka
-			566 = { add_contested_owner  = P45 } #Irkutsk
-			567 = { add_contested_owner  = P45 } #Bratsk
-			568 = { add_contested_owner  = P45 } #Krasnoyarsk
-			569 = { add_contested_owner  = P45 } #Khakassia
-			570 = { add_contested_owner  = P45 } #Novosibirsk
-			571 = { add_contested_owner  = P45 } #Omsk
-			575 = { add_contested_owner  = P45 } #Kirensk
-			576 = { add_contested_owner  = P45 } #Yeniseisk
-			578 = { add_contested_owner  = P45 } #Tomsk
-			878 = { add_contested_owner  = P45 } #Khatangsky
+			40 = { add_contested_owner = P45 } #Altai Krai
+			516 = { add_contested_owner = P45 } #Dudinka
+			566 = { add_contested_owner = P45 } #Irkutsk
+			567 = { add_contested_owner = P45 } #Bratsk
+			568 = { add_contested_owner = P45 } #Krasnoyarsk
+			569 = { add_contested_owner = P45 } #Khakassia
+			570 = { add_contested_owner = P45 } #Novosibirsk
+			571 = { add_contested_owner = P45 } #Omsk
+			575 = { add_contested_owner = P45 } #Kirensk
+			576 = { add_contested_owner = P45 } #Yeniseisk
+			578 = { add_contested_owner = P45 } #Tomsk
+			878 = { add_contested_owner = P45 } #Khatangsky
+
+			#Add claims to formable puppet
+			40 = { add_claim_by = P45 } #Altai Krai
+			516 = { add_claim_by = P45 } #Dudinka
+			566 = { add_claim_by = P45 } #Irkutsk
+			567 = { add_claim_by = P45 } #Bratsk
+			568 = { add_claim_by = P45 } #Krasnoyarsk
+			569 = { add_claim_by = P45 } #Khakassia
+			570 = { add_claim_by = P45 } #Novosibirsk
+			571 = { add_claim_by = P45 } #Omsk
+			575 = { add_claim_by = P45 } #Kirensk
+			576 = { add_claim_by = P45 } #Yeniseisk
+			578 = { add_claim_by = P45 } #Tomsk
+			878 = { add_claim_by = P45 } #Khatangsky
 
 			#Set formable puppet as controller of contested state
 			every_state = {

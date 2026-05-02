@@ -6,11 +6,18 @@ pfp_release_yugoslavia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			45 = { add_contested_owner  = P50 } #Vojvodina
-			105 = { add_contested_owner  = P50 } #Montenegro
-			107 = { add_contested_owner  = P50 } #Serbia
-			108 = { add_contested_owner  = P50 } #Morava
-			764 = { add_contested_owner  = P50 } #West Banat
+			45 = { add_contested_owner = P50 } #Vojvodina
+			105 = { add_contested_owner = P50 } #Montenegro
+			107 = { add_contested_owner = P50 } #Serbia
+			108 = { add_contested_owner = P50 } #Morava
+			764 = { add_contested_owner = P50 } #West Banat
+
+			#Add claims to formable puppet
+			45 = { add_claim_by = P50 } #Vojvodina
+			105 = { add_claim_by = P50 } #Montenegro
+			107 = { add_claim_by = P50 } #Serbia
+			108 = { add_claim_by = P50 } #Morava
+			764 = { add_claim_by = P50 } #West Banat
 
 			#Set formable puppet as controller of contested state
 			every_state = {

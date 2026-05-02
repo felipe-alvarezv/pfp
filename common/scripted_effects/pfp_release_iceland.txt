@@ -6,7 +6,10 @@ pfp_release_iceland = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			100 = { add_contested_owner  = P83 } #Iceland
+			100 = { add_contested_owner = P83 } #Iceland
+
+			#Add claims to formable puppet
+			100 = { add_claim_by = P83 } #Iceland
 
 			#Set formable puppet as controller of contested state
 			every_state = {

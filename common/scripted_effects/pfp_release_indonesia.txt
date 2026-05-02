@@ -6,13 +6,22 @@ pfp_release_indonesia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			334 = { add_contested_owner  = P17 } #Kalimantan
-			335 = { add_contested_owner  = P17 } #Java
-			667 = { add_contested_owner  = P17 } #Lesser Sunda Islands
-			668 = { add_contested_owner  = P17 } #The Moluccas
-			672 = { add_contested_owner  = P17 } #Sumatra
-			673 = { add_contested_owner  = P17 } #Sulawesi
-			1022 = { add_contested_owner  = P17 } #Inner Borneo
+			334 = { add_contested_owner = P17 } #Kalimantan
+			335 = { add_contested_owner = P17 } #Java
+			667 = { add_contested_owner = P17 } #Lesser Sunda Islands
+			668 = { add_contested_owner = P17 } #The Moluccas
+			672 = { add_contested_owner = P17 } #Sumatra
+			673 = { add_contested_owner = P17 } #Sulawesi
+			1022 = { add_contested_owner = P17 } #Inner Borneo
+
+			#Add claims to formable puppet
+			334 = { add_claim_by = P17 } #Kalimantan
+			335 = { add_claim_by = P17 } #Java
+			667 = { add_claim_by = P17 } #Lesser Sunda Islands
+			668 = { add_claim_by = P17 } #The Moluccas
+			672 = { add_claim_by = P17 } #Sumatra
+			673 = { add_claim_by = P17 } #Sulawesi
+			1022 = { add_claim_by = P17 } #Inner Borneo
 
 			#Set formable puppet as controller of contested state
 			every_state = {

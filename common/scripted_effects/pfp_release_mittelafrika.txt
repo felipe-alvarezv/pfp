@@ -6,12 +6,20 @@ pfp_release_mittelafrika = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			541 = { add_contested_owner  = P53 } #Khomas
-			546 = { add_contested_owner  = P53 } #Tanganyika
-			773 = { add_contested_owner  = P53 } #Cameroon
-			894 = { add_contested_owner  = P53 } #Kuene
-			895 = { add_contested_owner  = P53 } #Otjozondjupa
-			893 = { add_contested_owner  = P53 } #Karas
+			541 = { add_contested_owner = P53 } #Khomas
+			546 = { add_contested_owner = P53 } #Tanganyika
+			773 = { add_contested_owner = P53 } #Cameroon
+			894 = { add_contested_owner = P53 } #Kuene
+			895 = { add_contested_owner = P53 } #Otjozondjupa
+			893 = { add_contested_owner = P53 } #Karas
+
+			#Add claims to formable puppet
+			541 = { add_claim_by = P53 } #Khomas
+			546 = { add_claim_by = P53 } #Tanganyika
+			773 = { add_claim_by = P53 } #Cameroon
+			894 = { add_claim_by = P53 } #Kuene
+			895 = { add_claim_by = P53 } #Otjozondjupa
+			893 = { add_claim_by = P53 } #Karas
 
 			#Set formable puppet as controller of contested state
 			every_state = {

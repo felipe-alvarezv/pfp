@@ -6,7 +6,10 @@ pfp_release_wales = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			122 = { add_contested_owner  = P82 } #Wales
+			122 = { add_contested_owner = P82 } #Wales
+
+			#Add claims to formable puppet
+			122 = { add_claim_by = P82 } #Wales
 
 			#Set formable puppet as controller of contested state
 			every_state = {

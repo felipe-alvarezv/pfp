@@ -6,13 +6,22 @@ pfp_release_southern_russia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			217 = { add_contested_owner  = P40 } #Stalingrad
-			218 = { add_contested_owner  = P40 } #Rostov
-			236 = { add_contested_owner  = P40 } #Astrakhan
-			237 = { add_contested_owner  = P40 } #Kalmykia
-			238 = { add_contested_owner  = P40 } #Volgodonsk
-			245 = { add_contested_owner  = P40 } #Millerovo
-			265 = { add_contested_owner  = P40 } #Mikhaylovka
+			217 = { add_contested_owner = P40 } #Stalingrad
+			218 = { add_contested_owner = P40 } #Rostov
+			236 = { add_contested_owner = P40 } #Astrakhan
+			237 = { add_contested_owner = P40 } #Kalmykia
+			238 = { add_contested_owner = P40 } #Volgodonsk
+			245 = { add_contested_owner = P40 } #Millerovo
+			265 = { add_contested_owner = P40 } #Mikhaylovka
+
+			#Add claims to formable puppet
+			217 = { add_claim_by = P40 } #Stalingrad
+			218 = { add_claim_by = P40 } #Rostov
+			236 = { add_claim_by = P40 } #Astrakhan
+			237 = { add_claim_by = P40 } #Kalmykia
+			238 = { add_claim_by = P40 } #Volgodonsk
+			245 = { add_claim_by = P40 } #Millerovo
+			265 = { add_claim_by = P40 } #Mikhaylovka
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,9 +6,14 @@ pfp_release_netherlands = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			7 = { add_contested_owner  = P05 } #Holland
-			35 = { add_contested_owner  = P05 } #Brabant
-			36 = { add_contested_owner  = P05 } #Friesland
+			7 = { add_contested_owner = P05 } #Holland
+			35 = { add_contested_owner = P05 } #Brabant
+			36 = { add_contested_owner = P05 } #Friesland
+
+			#Add claims to formable puppet
+			7 = { add_claim_by = P05 } #Holland
+			35 = { add_claim_by = P05 } #Brabant
+			36 = { add_claim_by = P05 } #Friesland
 
 			#Set formable puppet as controller of contested state
 			every_state = {

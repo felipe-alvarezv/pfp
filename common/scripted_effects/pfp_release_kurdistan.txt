@@ -6,9 +6,14 @@ pfp_release_kurdistan = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			350 = { add_contested_owner  = P70 } #Diyarbakir
-			352 = { add_contested_owner  = P70 } #Hakkari
-			353 = { add_contested_owner  = P70 } #Tunceli
+			350 = { add_contested_owner = P70 } #Diyarbakir
+			352 = { add_contested_owner = P70 } #Hakkari
+			353 = { add_contested_owner = P70 } #Tunceli
+
+			#Add claims to formable puppet
+			350 = { add_claim_by = P70 } #Diyarbakir
+			352 = { add_claim_by = P70 } #Hakkari
+			353 = { add_claim_by = P70 } #Tunceli
 
 			#Set formable puppet as controller of contested state
 			every_state = {

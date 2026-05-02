@@ -6,13 +6,22 @@ pfp_release_afghanistan = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			267 = { add_contested_owner  = P76 } #Kabul
-			415 = { add_contested_owner  = P76 } #Herat
-			1005 = { add_contested_owner  = P76 } #Qataghan
-			1006 = { add_contested_owner  = P76 } #Khyber Pass
-			1007 = { add_contested_owner  = P76 } #Maymanah
-			1008 = { add_contested_owner  = P76 } #Qandahar
-			1009 = { add_contested_owner  = P76 } #Farah
+			267 = { add_contested_owner = P76 } #Kabul
+			415 = { add_contested_owner = P76 } #Herat
+			1005 = { add_contested_owner = P76 } #Qataghan
+			1006 = { add_contested_owner = P76 } #Khyber Pass
+			1007 = { add_contested_owner = P76 } #Maymanah
+			1008 = { add_contested_owner = P76 } #Qandahar
+			1009 = { add_contested_owner = P76 } #Farah
+
+			#Add claims to formable puppet
+			267 = { add_claim_by = P76 } #Kabul
+			415 = { add_claim_by = P76 } #Herat
+			1005 = { add_claim_by = P76 } #Qataghan
+			1006 = { add_claim_by = P76 } #Khyber Pass
+			1007 = { add_claim_by = P76 } #Maymanah
+			1008 = { add_claim_by = P76 } #Qandahar
+			1009 = { add_claim_by = P76 } #Farah
 
 			#Set formable puppet as controller of contested state
 			every_state = {

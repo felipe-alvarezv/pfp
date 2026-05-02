@@ -6,9 +6,14 @@ pfp_release_pacific_us = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			378 = { add_contested_owner  = P21 } #California
-			385 = { add_contested_owner  = P21 } #Oregon
-			386 = { add_contested_owner  = P21 } #Washington
+			378 = { add_contested_owner = P21 } #California
+			385 = { add_contested_owner = P21 } #Oregon
+			386 = { add_contested_owner = P21 } #Washington
+
+			#Add claims to formable puppet
+			378 = { add_claim_by = P21 } #California
+			385 = { add_claim_by = P21 } #Oregon
+			386 = { add_claim_by = P21 } #Washington
 
 			#Set formable puppet as controller of contested state
 			every_state = {

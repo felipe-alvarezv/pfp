@@ -6,9 +6,14 @@ pfp_release_eastern_canada = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			276 = { add_contested_owner  = P11 } #Southern Ontario
-			682 = { add_contested_owner  = P11 } #Northern Ontario
-			866 = { add_contested_owner  = P11 } #Districts of Ontario
+			276 = { add_contested_owner = P11 } #Southern Ontario
+			682 = { add_contested_owner = P11 } #Northern Ontario
+			866 = { add_contested_owner = P11 } #Districts of Ontario
+
+			#Add claims to formable puppet
+			276 = { add_claim_by = P11 } #Southern Ontario
+			682 = { add_claim_by = P11 } #Northern Ontario
+			866 = { add_claim_by = P11 } #Districts of Ontario
 
 			#Set formable puppet as controller of contested state
 			every_state = {

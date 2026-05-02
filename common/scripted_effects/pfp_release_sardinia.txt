@@ -6,7 +6,10 @@ pfp_release_sardinia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			114 = { add_contested_owner  = P94 } #Sardinia
+			114 = { add_contested_owner = P94 } #Sardinia
+
+			#Add claims to formable puppet
+			114 = { add_claim_by = P94 } #Sardinia
 
 			#Set formable puppet as controller of contested state
 			every_state = {

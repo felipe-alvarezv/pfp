@@ -6,10 +6,16 @@ pfp_release_inner_mongolia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			611 = { add_contested_owner  = Q09 } #Chahar
-			612 = { add_contested_owner  = Q09 } #Xilingol
-			621 = { add_contested_owner  = Q09 } #Suiyuan
-			1043 = { add_contested_owner  = Q09 } #Pailingmiao
+			611 = { add_contested_owner = Q09 } #Chahar
+			612 = { add_contested_owner = Q09 } #Xilingol
+			621 = { add_contested_owner = Q09 } #Suiyuan
+			1043 = { add_contested_owner = Q09 } #Pailingmiao
+
+			#Add claims to formable puppet
+			611 = { add_claim_by = Q09 } #Chahar
+			612 = { add_claim_by = Q09 } #Xilingol
+			621 = { add_claim_by = Q09 } #Suiyuan
+			1043 = { add_claim_by = Q09 } #Pailingmiao
 
 			#Set formable puppet as controller of contested state
 			every_state = {

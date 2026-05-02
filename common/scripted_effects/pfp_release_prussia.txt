@@ -6,14 +6,24 @@ pfp_release_prussia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			5 = { add_contested_owner  = P33 } #Ermland-Masuren
-			62 = { add_contested_owner  = P33 } #Vorpommern
-			63 = { add_contested_owner  = P33 } #Hinterpommern
-			64 = { add_contested_owner  = P33 } #Brandenburg
-			66 = { add_contested_owner  = P33 } #Niederschlesien
-			67 = { add_contested_owner  = P33 } #Oberschlesien
-			68 = { add_contested_owner  = P33 } #Ostmark
-			763 = { add_contested_owner  = P33 } #Konigsberg
+			5 = { add_contested_owner = P33 } #Ermland-Masuren
+			62 = { add_contested_owner = P33 } #Vorpommern
+			63 = { add_contested_owner = P33 } #Hinterpommern
+			64 = { add_contested_owner = P33 } #Brandenburg
+			66 = { add_contested_owner = P33 } #Niederschlesien
+			67 = { add_contested_owner = P33 } #Oberschlesien
+			68 = { add_contested_owner = P33 } #Ostmark
+			763 = { add_contested_owner = P33 } #Konigsberg
+
+			#Add claims to formable puppet
+			5 = { add_claim_by = P33 } #Ermland-Masuren
+			62 = { add_claim_by = P33 } #Vorpommern
+			63 = { add_claim_by = P33 } #Hinterpommern
+			64 = { add_claim_by = P33 } #Brandenburg
+			66 = { add_claim_by = P33 } #Niederschlesien
+			67 = { add_claim_by = P33 } #Oberschlesien
+			68 = { add_claim_by = P33 } #Ostmark
+			763 = { add_claim_by = P33 } #Konigsberg
 
 			#Set formable puppet as controller of contested state
 			every_state = {

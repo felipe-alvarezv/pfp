@@ -6,9 +6,14 @@ pfp_release_ireland = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			113 = { add_contested_owner  = P73 } #Leinster
-			134 = { add_contested_owner  = P73 } #Connaught
-			135 = { add_contested_owner  = P73 } #Munster
+			113 = { add_contested_owner = P73 } #Leinster
+			134 = { add_contested_owner = P73 } #Connaught
+			135 = { add_contested_owner = P73 } #Munster
+
+			#Add claims to formable puppet
+			113 = { add_claim_by = P73 } #Leinster
+			134 = { add_claim_by = P73 } #Connaught
+			135 = { add_claim_by = P73 } #Munster
 
 			#Set formable puppet as controller of contested state
 			every_state = {

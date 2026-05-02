@@ -6,8 +6,12 @@ pfp_release_kyushu = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			528 = { add_contested_owner  = Q07 } #Kitakyushu
-			1018 = { add_contested_owner  = Q07 } #Minami Kyushu
+			528 = { add_contested_owner = Q07 } #Kitakyushu
+			1018 = { add_contested_owner = Q07 } #Minami Kyushu
+
+			#Add claims to formable puppet
+			528 = { add_claim_by = Q07 } #Kitakyushu
+			1018 = { add_claim_by = Q07 } #Minami Kyushu
 
 			#Set formable puppet as controller of contested state
 			every_state = {

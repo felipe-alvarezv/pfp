@@ -6,7 +6,10 @@ pfp_release_kanto = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			282 = { add_contested_owner  = Q02 } #Kanto
+			282 = { add_contested_owner = Q02 } #Kanto
+
+			#Add claims to formable puppet
+			282 = { add_claim_by = Q02 } #Kanto
 
 			#Set formable puppet as controller of contested state
 			every_state = {

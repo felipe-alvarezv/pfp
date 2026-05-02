@@ -6,9 +6,14 @@ pfp_release_romania = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			46 = { add_contested_owner  = P79 } #Muntenia
-			79 = { add_contested_owner  = P79 } #Moldova
-			81 = { add_contested_owner  = P79 } #Oltenia
+			46 = { add_contested_owner = P79 } #Muntenia
+			79 = { add_contested_owner = P79 } #Moldova
+			81 = { add_contested_owner = P79 } #Oltenia
+
+			#Add claims to formable puppet
+			46 = { add_claim_by = P79 } #Muntenia
+			79 = { add_claim_by = P79 } #Moldova
+			81 = { add_claim_by = P79 } #Oltenia
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,7 +6,10 @@ pfp_release_shikoku = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			530 = { add_contested_owner  = Q06 } #Shikoku
+			530 = { add_contested_owner = Q06 } #Shikoku
+
+			#Add claims to formable puppet
+			530 = { add_claim_by = Q06 } #Shikoku
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,12 +6,20 @@ pfp_release_central_africa = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			295 = { add_contested_owner  = P07 } #Leopoldville
-			538 = { add_contested_owner  = P07 } #Coquilhatville
-			718 = { add_contested_owner  = P07 } #Stanleyville
-			888 = { add_contested_owner  = P07 } #Lusambo
-			889 = { add_contested_owner  = P07 } #Elisabethville
-			890 = { add_contested_owner  = P07 } #Costermansville
+			295 = { add_contested_owner = P07 } #Leopoldville
+			538 = { add_contested_owner = P07 } #Coquilhatville
+			718 = { add_contested_owner = P07 } #Stanleyville
+			888 = { add_contested_owner = P07 } #Lusambo
+			889 = { add_contested_owner = P07 } #Elisabethville
+			890 = { add_contested_owner = P07 } #Costermansville
+
+			#Add claims to formable puppet
+			295 = { add_claim_by = P07 } #Leopoldville
+			538 = { add_claim_by = P07 } #Coquilhatville
+			718 = { add_claim_by = P07 } #Stanleyville
+			888 = { add_claim_by = P07 } #Lusambo
+			889 = { add_claim_by = P07 } #Elisabethville
+			890 = { add_claim_by = P07 } #Costermansville
 
 			#Set formable puppet as controller of contested state
 			every_state = {

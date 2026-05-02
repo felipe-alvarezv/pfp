@@ -6,18 +6,32 @@ pfp_release_midwestern_us = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			261 = { add_contested_owner  = P18 } #Ohio
-			373 = { add_contested_owner  = P18 } #Missouri
-			383 = { add_contested_owner  = P18 } #Kansas
-			384 = { add_contested_owner  = P18 } #Nebraska
-			389 = { add_contested_owner  = P18 } #North Dakota
-			390 = { add_contested_owner  = P18 } #South Dakota
-			391 = { add_contested_owner  = P18 } #Minnesota
-			392 = { add_contested_owner  = P18 } #Iowa
-			393 = { add_contested_owner  = P18 } #Michigan
-			394 = { add_contested_owner  = P18 } #Wisconsin
-			395 = { add_contested_owner  = P18 } #Illinois
-			396 = { add_contested_owner  = P18 } #Indiana
+			261 = { add_contested_owner = P18 } #Ohio
+			373 = { add_contested_owner = P18 } #Missouri
+			383 = { add_contested_owner = P18 } #Kansas
+			384 = { add_contested_owner = P18 } #Nebraska
+			389 = { add_contested_owner = P18 } #North Dakota
+			390 = { add_contested_owner = P18 } #South Dakota
+			391 = { add_contested_owner = P18 } #Minnesota
+			392 = { add_contested_owner = P18 } #Iowa
+			393 = { add_contested_owner = P18 } #Michigan
+			394 = { add_contested_owner = P18 } #Wisconsin
+			395 = { add_contested_owner = P18 } #Illinois
+			396 = { add_contested_owner = P18 } #Indiana
+
+			#Add claims to formable puppet
+			261 = { add_claim_by = P18 } #Ohio
+			373 = { add_claim_by = P18 } #Missouri
+			383 = { add_claim_by = P18 } #Kansas
+			384 = { add_claim_by = P18 } #Nebraska
+			389 = { add_claim_by = P18 } #North Dakota
+			390 = { add_claim_by = P18 } #South Dakota
+			391 = { add_claim_by = P18 } #Minnesota
+			392 = { add_claim_by = P18 } #Iowa
+			393 = { add_claim_by = P18 } #Michigan
+			394 = { add_claim_by = P18 } #Wisconsin
+			395 = { add_claim_by = P18 } #Illinois
+			396 = { add_claim_by = P18 } #Indiana
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,13 +6,22 @@ pfp_release_east_turkestan = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			287 = { add_contested_owner  = Q23 } #Taklamakan
-			617 = { add_contested_owner  = Q23 } #Urumqi
-			618 = { add_contested_owner  = Q23 } #Dzungaria
-			619 = { add_contested_owner  = Q23 } #Yarkand
-			759 = { add_contested_owner  = Q23 } #Kunlun Shan
-			760 = { add_contested_owner  = Q23 } #Dabacheng
-			1042 = { add_contested_owner  = Q23 } #Khotan
+			287 = { add_contested_owner = Q23 } #Taklamakan
+			617 = { add_contested_owner = Q23 } #Urumqi
+			618 = { add_contested_owner = Q23 } #Dzungaria
+			619 = { add_contested_owner = Q23 } #Yarkand
+			759 = { add_contested_owner = Q23 } #Kunlun Shan
+			760 = { add_contested_owner = Q23 } #Dabacheng
+			1042 = { add_contested_owner = Q23 } #Khotan
+
+			#Add claims to formable puppet
+			287 = { add_claim_by = Q23 } #Taklamakan
+			617 = { add_claim_by = Q23 } #Urumqi
+			618 = { add_claim_by = Q23 } #Dzungaria
+			619 = { add_claim_by = Q23 } #Yarkand
+			759 = { add_claim_by = Q23 } #Kunlun Shan
+			760 = { add_claim_by = Q23 } #Dabacheng
+			1042 = { add_claim_by = Q23 } #Khotan
 
 			#Set formable puppet as controller of contested state
 			every_state = {

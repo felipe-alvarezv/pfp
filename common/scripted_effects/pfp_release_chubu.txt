@@ -6,9 +6,14 @@ pfp_release_chubu = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			532 = { add_contested_owner  = Q03 } #Tokai
-			534 = { add_contested_owner  = Q03 } #Koshinetsu
-			535 = { add_contested_owner  = Q03 } #Hokuriku
+			532 = { add_contested_owner = Q03 } #Tokai
+			534 = { add_contested_owner = Q03 } #Koshinetsu
+			535 = { add_contested_owner = Q03 } #Hokuriku
+
+			#Add claims to formable puppet
+			532 = { add_claim_by = Q03 } #Tokai
+			534 = { add_claim_by = Q03 } #Koshinetsu
+			535 = { add_claim_by = Q03 } #Hokuriku
 
 			#Set formable puppet as controller of contested state
 			every_state = {

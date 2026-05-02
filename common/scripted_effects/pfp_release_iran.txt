@@ -6,16 +6,28 @@ pfp_release_iran = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			266 = { add_contested_owner  = P71 } #Tehran
-			411 = { add_contested_owner  = P71 } #Isfahan
-			412 = { add_contested_owner  = P71 } #Fars
-			414 = { add_contested_owner  = P71 } #Kerman
-			416 = { add_contested_owner  = P71 } #Khorasan
-			417 = { add_contested_owner  = P71 } #Hamadan
-			418 = { add_contested_owner  = P71 } #Semnan
-			1002 = { add_contested_owner  = P71 } #Yazd
-			1003 = { add_contested_owner  = P71 } #South Khorasan
-			1004 = { add_contested_owner  = P71 } #North Khorasan
+			266 = { add_contested_owner = P71 } #Tehran
+			411 = { add_contested_owner = P71 } #Isfahan
+			412 = { add_contested_owner = P71 } #Fars
+			414 = { add_contested_owner = P71 } #Kerman
+			416 = { add_contested_owner = P71 } #Khorasan
+			417 = { add_contested_owner = P71 } #Hamadan
+			418 = { add_contested_owner = P71 } #Semnan
+			1002 = { add_contested_owner = P71 } #Yazd
+			1003 = { add_contested_owner = P71 } #South Khorasan
+			1004 = { add_contested_owner = P71 } #North Khorasan
+
+			#Add claims to formable puppet
+			266 = { add_claim_by = P71 } #Tehran
+			411 = { add_claim_by = P71 } #Isfahan
+			412 = { add_claim_by = P71 } #Fars
+			414 = { add_claim_by = P71 } #Kerman
+			416 = { add_claim_by = P71 } #Khorasan
+			417 = { add_claim_by = P71 } #Hamadan
+			418 = { add_claim_by = P71 } #Semnan
+			1002 = { add_claim_by = P71 } #Yazd
+			1003 = { add_claim_by = P71 } #South Khorasan
+			1004 = { add_claim_by = P71 } #North Khorasan
 
 			#Set formable puppet as controller of contested state
 			every_state = {

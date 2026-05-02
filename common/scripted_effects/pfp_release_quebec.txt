@@ -6,12 +6,20 @@ pfp_release_quebec = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			466 = { add_contested_owner  = P22 } #Nord du Quebec
-			468 = { add_contested_owner  = P22 } #Saint Lawrence
-			860 = { add_contested_owner  = P22 } #Cote-Nord
-			861 = { add_contested_owner  = P22 } #Saguenay
-			862 = { add_contested_owner  = P22 } #Ouest du Quebec
-			863 = { add_contested_owner  = P22 } #Maurice
+			466 = { add_contested_owner = P22 } #Nord du Quebec
+			468 = { add_contested_owner = P22 } #Saint Lawrence
+			860 = { add_contested_owner = P22 } #Cote-Nord
+			861 = { add_contested_owner = P22 } #Saguenay
+			862 = { add_contested_owner = P22 } #Ouest du Quebec
+			863 = { add_contested_owner = P22 } #Maurice
+
+			#Add claims to formable puppet
+			466 = { add_claim_by = P22 } #Nord du Quebec
+			468 = { add_claim_by = P22 } #Saint Lawrence
+			860 = { add_claim_by = P22 } #Cote-Nord
+			861 = { add_claim_by = P22 } #Saguenay
+			862 = { add_claim_by = P22 } #Ouest du Quebec
+			863 = { add_claim_by = P22 } #Maurice
 
 			#Set formable puppet as controller of contested state
 			every_state = {

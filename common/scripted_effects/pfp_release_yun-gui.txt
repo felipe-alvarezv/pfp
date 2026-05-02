@@ -6,10 +6,16 @@ pfp_release_yun-gui = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			325 = { add_contested_owner  = Q18 } #Yunnan
-			603 = { add_contested_owner  = Q18 } #Guizhou
-			747 = { add_contested_owner  = Q18 } #Dali
-			748 = { add_contested_owner  = Q18 } #Zunyi
+			325 = { add_contested_owner = Q18 } #Yunnan
+			603 = { add_contested_owner = Q18 } #Guizhou
+			747 = { add_contested_owner = Q18 } #Dali
+			748 = { add_contested_owner = Q18 } #Zunyi
+
+			#Add claims to formable puppet
+			325 = { add_claim_by = Q18 } #Yunnan
+			603 = { add_claim_by = Q18 } #Guizhou
+			747 = { add_claim_by = Q18 } #Dali
+			748 = { add_claim_by = Q18 } #Zunyi
 
 			#Set formable puppet as controller of contested state
 			every_state = {

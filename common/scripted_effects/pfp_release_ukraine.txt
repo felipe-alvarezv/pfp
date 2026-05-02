@@ -6,15 +6,26 @@ pfp_release_ukraine = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			193 = { add_contested_owner  = P66 } #Chernigov
-			196 = { add_contested_owner  = P66 } #Kherson
-			197 = { add_contested_owner  = P66 } #Mykolaiv
-			200 = { add_contested_owner  = P66 } #Zaporozhe
-			201 = { add_contested_owner  = P66 } #Zhytomyr
-			202 = { add_contested_owner  = P66 } #Kiev
-			203 = { add_contested_owner  = P66 } #Cherkasy
-			226 = { add_contested_owner  = P66 } #Dnipropetrovsk
-			259 = { add_contested_owner  = P66 } #Poltava
+			193 = { add_contested_owner = P66 } #Chernigov
+			196 = { add_contested_owner = P66 } #Kherson
+			197 = { add_contested_owner = P66 } #Mykolaiv
+			200 = { add_contested_owner = P66 } #Zaporozhe
+			201 = { add_contested_owner = P66 } #Zhytomyr
+			202 = { add_contested_owner = P66 } #Kiev
+			203 = { add_contested_owner = P66 } #Cherkasy
+			226 = { add_contested_owner = P66 } #Dnipropetrovsk
+			259 = { add_contested_owner = P66 } #Poltava
+
+			#Add claims to formable puppet
+			193 = { add_claim_by = P66 } #Chernigov
+			196 = { add_claim_by = P66 } #Kherson
+			197 = { add_claim_by = P66 } #Mykolaiv
+			200 = { add_claim_by = P66 } #Zaporozhe
+			201 = { add_claim_by = P66 } #Zhytomyr
+			202 = { add_claim_by = P66 } #Kiev
+			203 = { add_claim_by = P66 } #Cherkasy
+			226 = { add_claim_by = P66 } #Dnipropetrovsk
+			259 = { add_claim_by = P66 } #Poltava
 
 			#Set formable puppet as controller of contested state
 			every_state = {

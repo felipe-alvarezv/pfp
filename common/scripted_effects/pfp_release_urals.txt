@@ -6,16 +6,28 @@ pfp_release_urals = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			403 = { add_contested_owner  = P44 } #Tyumen
-			572 = { add_contested_owner  = P44 } #Chelyabinsk
-			573 = { add_contested_owner  = P44 } #Zlatoust
-			577 = { add_contested_owner  = P44 } #Surgut
-			579 = { add_contested_owner  = P44 } #Salekhard
-			580 = { add_contested_owner  = P44 } #Tobolsk
-			581 = { add_contested_owner  = P44 } #Northern Urals
-			582 = { add_contested_owner  = P44 } #Magnitogorsk
-			653 = { add_contested_owner  = P44 } #Sverdlovsk
-			824 = { add_contested_owner  = P44 } #Yamalia
+			403 = { add_contested_owner = P44 } #Tyumen
+			572 = { add_contested_owner = P44 } #Chelyabinsk
+			573 = { add_contested_owner = P44 } #Zlatoust
+			577 = { add_contested_owner = P44 } #Surgut
+			579 = { add_contested_owner = P44 } #Salekhard
+			580 = { add_contested_owner = P44 } #Tobolsk
+			581 = { add_contested_owner = P44 } #Northern Urals
+			582 = { add_contested_owner = P44 } #Magnitogorsk
+			653 = { add_contested_owner = P44 } #Sverdlovsk
+			824 = { add_contested_owner = P44 } #Yamalia
+
+			#Add claims to formable puppet
+			403 = { add_claim_by = P44 } #Tyumen
+			572 = { add_claim_by = P44 } #Chelyabinsk
+			573 = { add_claim_by = P44 } #Zlatoust
+			577 = { add_claim_by = P44 } #Surgut
+			579 = { add_claim_by = P44 } #Salekhard
+			580 = { add_claim_by = P44 } #Tobolsk
+			581 = { add_claim_by = P44 } #Northern Urals
+			582 = { add_claim_by = P44 } #Magnitogorsk
+			653 = { add_claim_by = P44 } #Sverdlovsk
+			824 = { add_claim_by = P44 } #Yamalia
 
 			#Set formable puppet as controller of contested state
 			every_state = {

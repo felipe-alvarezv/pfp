@@ -6,20 +6,36 @@ pfp_release_oceania = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			285 = { add_contested_owner  = P27 } #New South Wales
-			517 = { add_contested_owner  = P27 } #Victoria
-			518 = { add_contested_owner  = P27 } #Tasmania
-			519 = { add_contested_owner  = P27 } #South Australia
-			520 = { add_contested_owner  = P27 } #Northern Territory
-			521 = { add_contested_owner  = P27 } #Queensland
-			522 = { add_contested_owner  = P27 } #West Australia
-			674 = { add_contested_owner  = P27 } #Central Australia
-			870 = { add_contested_owner  = P27 } #North West Australia
-			871 = { add_contested_owner  = P27 } #South West Australia
-			872 = { add_contested_owner  = P27 } #North Queensland
-			873 = { add_contested_owner  = P27 } #South West Queensland
-			284 = { add_contested_owner  = P27 } #North Island
-			723 = { add_contested_owner  = P27 } #South Island
+			285 = { add_contested_owner = P27 } #New South Wales
+			517 = { add_contested_owner = P27 } #Victoria
+			518 = { add_contested_owner = P27 } #Tasmania
+			519 = { add_contested_owner = P27 } #South Australia
+			520 = { add_contested_owner = P27 } #Northern Territory
+			521 = { add_contested_owner = P27 } #Queensland
+			522 = { add_contested_owner = P27 } #West Australia
+			674 = { add_contested_owner = P27 } #Central Australia
+			870 = { add_contested_owner = P27 } #North West Australia
+			871 = { add_contested_owner = P27 } #South West Australia
+			872 = { add_contested_owner = P27 } #North Queensland
+			873 = { add_contested_owner = P27 } #South West Queensland
+			284 = { add_contested_owner = P27 } #North Island
+			723 = { add_contested_owner = P27 } #South Island
+
+			#Add claims to formable puppet
+			285 = { add_claim_by = P27 } #New South Wales
+			517 = { add_claim_by = P27 } #Victoria
+			518 = { add_claim_by = P27 } #Tasmania
+			519 = { add_claim_by = P27 } #South Australia
+			520 = { add_claim_by = P27 } #Northern Territory
+			521 = { add_claim_by = P27 } #Queensland
+			522 = { add_claim_by = P27 } #West Australia
+			674 = { add_claim_by = P27 } #Central Australia
+			870 = { add_claim_by = P27 } #North West Australia
+			871 = { add_claim_by = P27 } #South West Australia
+			872 = { add_claim_by = P27 } #North Queensland
+			873 = { add_claim_by = P27 } #South West Queensland
+			284 = { add_claim_by = P27 } #North Island
+			723 = { add_claim_by = P27 } #South Island
 
 			#Set formable puppet as controller of contested state
 			every_state = {

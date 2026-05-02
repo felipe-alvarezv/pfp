@@ -6,7 +6,10 @@ pfp_release_kansai = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			531 = { add_contested_owner  = Q04 } #Kansai
+			531 = { add_contested_owner = Q04 } #Kansai
+
+			#Add claims to formable puppet
+			531 = { add_claim_by = Q04 } #Kansai
 
 			#Set formable puppet as controller of contested state
 			every_state = {

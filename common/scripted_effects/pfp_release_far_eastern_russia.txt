@@ -6,18 +6,32 @@ pfp_release_far_eastern_russia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			408 = { add_contested_owner  = P46 } #Vladivostok
-			409 = { add_contested_owner  = P46 } #Khabarovsk
-			560 = { add_contested_owner  = P46 } #Nikolayevsk
-			561 = { add_contested_owner  = P46 } #Amur
-			562 = { add_contested_owner  = P46 } #Okhotsk
-			574 = { add_contested_owner  = P46 } #Yakutsk
-			637 = { add_contested_owner  = P46 } #Kamchatka
-			644 = { add_contested_owner  = P46 } #Kolyma
-			657 = { add_contested_owner  = P46 } #Birobidzhan
-			822 = { add_contested_owner  = P46 } #Chukotka
-			874 = { add_contested_owner  = P46 } #Magadan
-			877 = { add_contested_owner  = P46 } #Verkhoyansk
+			408 = { add_contested_owner = P46 } #Vladivostok
+			409 = { add_contested_owner = P46 } #Khabarovsk
+			560 = { add_contested_owner = P46 } #Nikolayevsk
+			561 = { add_contested_owner = P46 } #Amur
+			562 = { add_contested_owner = P46 } #Okhotsk
+			574 = { add_contested_owner = P46 } #Yakutsk
+			637 = { add_contested_owner = P46 } #Kamchatka
+			644 = { add_contested_owner = P46 } #Kolyma
+			657 = { add_contested_owner = P46 } #Birobidzhan
+			822 = { add_contested_owner = P46 } #Chukotka
+			874 = { add_contested_owner = P46 } #Magadan
+			877 = { add_contested_owner = P46 } #Verkhoyansk
+
+			#Add claims to formable puppet
+			408 = { add_claim_by = P46 } #Vladivostok
+			409 = { add_claim_by = P46 } #Khabarovsk
+			560 = { add_claim_by = P46 } #Nikolayevsk
+			561 = { add_claim_by = P46 } #Amur
+			562 = { add_claim_by = P46 } #Okhotsk
+			574 = { add_claim_by = P46 } #Yakutsk
+			637 = { add_claim_by = P46 } #Kamchatka
+			644 = { add_claim_by = P46 } #Kolyma
+			657 = { add_claim_by = P46 } #Birobidzhan
+			822 = { add_claim_by = P46 } #Chukotka
+			874 = { add_claim_by = P46 } #Magadan
+			877 = { add_claim_by = P46 } #Verkhoyansk
 
 			#Set formable puppet as controller of contested state
 			every_state = {

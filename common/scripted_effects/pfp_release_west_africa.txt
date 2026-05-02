@@ -6,19 +6,34 @@ pfp_release_west_africa = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			272 = { add_contested_owner  = P35 } #Senegal
-			515 = { add_contested_owner  = P35 } #Southern Sahara
-			556 = { add_contested_owner  = P35 } #Bamako
-			776 = { add_contested_owner  = P35 } #Dahomey
-			778 = { add_contested_owner  = P35 } #Upper Volta
-			779 = { add_contested_owner  = P35 } #Ivory Coast
-			780 = { add_contested_owner  = P35 } #Guinea
-			781 = { add_contested_owner  = P35 } #Niger
-			782 = { add_contested_owner  = P35 } #Tombouctou
-			898 = { add_contested_owner  = P35 } #Gao
-			899 = { add_contested_owner  = P35 } #Kayes-Koulikoro
-			557 = { add_contested_owner  = P35 } #Mauritania
-			786 = { add_contested_owner  = P35 } #Mauritanian Desert
+			272 = { add_contested_owner = P35 } #Senegal
+			515 = { add_contested_owner = P35 } #Southern Sahara
+			556 = { add_contested_owner = P35 } #Bamako
+			776 = { add_contested_owner = P35 } #Dahomey
+			778 = { add_contested_owner = P35 } #Upper Volta
+			779 = { add_contested_owner = P35 } #Ivory Coast
+			780 = { add_contested_owner = P35 } #Guinea
+			781 = { add_contested_owner = P35 } #Niger
+			782 = { add_contested_owner = P35 } #Tombouctou
+			898 = { add_contested_owner = P35 } #Gao
+			899 = { add_contested_owner = P35 } #Kayes-Koulikoro
+			557 = { add_contested_owner = P35 } #Mauritania
+			786 = { add_contested_owner = P35 } #Mauritanian Desert
+
+			#Add claims to formable puppet
+			272 = { add_claim_by = P35 } #Senegal
+			515 = { add_claim_by = P35 } #Southern Sahara
+			556 = { add_claim_by = P35 } #Bamako
+			776 = { add_claim_by = P35 } #Dahomey
+			778 = { add_claim_by = P35 } #Upper Volta
+			779 = { add_claim_by = P35 } #Ivory Coast
+			780 = { add_claim_by = P35 } #Guinea
+			781 = { add_claim_by = P35 } #Niger
+			782 = { add_claim_by = P35 } #Tombouctou
+			898 = { add_claim_by = P35 } #Gao
+			899 = { add_claim_by = P35 } #Kayes-Koulikoro
+			557 = { add_claim_by = P35 } #Mauritania
+			786 = { add_claim_by = P35 } #Mauritanian Desert
 
 			#Set formable puppet as controller of contested state
 			every_state = {

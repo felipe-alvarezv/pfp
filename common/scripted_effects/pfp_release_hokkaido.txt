@@ -6,7 +6,10 @@ pfp_release_hokkaido = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			536 = { add_contested_owner  = P99 } #Hokkaido
+			536 = { add_contested_owner = P99 } #Hokkaido
+
+			#Add claims to formable puppet
+			536 = { add_claim_by = P99 } #Hokkaido
 
 			#Set formable puppet as controller of contested state
 			every_state = {

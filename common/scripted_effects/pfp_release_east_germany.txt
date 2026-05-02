@@ -6,11 +6,18 @@ pfp_release_east_germany = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			60 = { add_contested_owner  = P32 } #Thuringen
-			61 = { add_contested_owner  = P32 } #Mecklenburg
-			62 = { add_contested_owner  = P32 } #Vorpommern
-			64 = { add_contested_owner  = P32 } #Brandenburg
-			65 = { add_contested_owner  = P32 } #Sachsen
+			60 = { add_contested_owner = P32 } #Thuringen
+			61 = { add_contested_owner = P32 } #Mecklenburg
+			62 = { add_contested_owner = P32 } #Vorpommern
+			64 = { add_contested_owner = P32 } #Brandenburg
+			65 = { add_contested_owner = P32 } #Sachsen
+
+			#Add claims to formable puppet
+			60 = { add_claim_by = P32 } #Thuringen
+			61 = { add_claim_by = P32 } #Mecklenburg
+			62 = { add_claim_by = P32 } #Vorpommern
+			64 = { add_claim_by = P32 } #Brandenburg
+			65 = { add_claim_by = P32 } #Sachsen
 
 			#Set formable puppet as controller of contested state
 			every_state = {

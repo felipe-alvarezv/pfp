@@ -6,10 +6,16 @@ pfp_release_french_alps = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			21 = { add_contested_owner  = P64 } #Bouches-Du-Rhone
-			32 = { add_contested_owner  = P64 } #Alpes
-			735 = { add_contested_owner  = P64 } #Savoy
-			851 = { add_contested_owner  = P64 } #Var
+			21 = { add_contested_owner = P64 } #Bouches-Du-Rhone
+			32 = { add_contested_owner = P64 } #Alpes
+			735 = { add_contested_owner = P64 } #Savoy
+			851 = { add_contested_owner = P64 } #Var
+
+			#Add claims to formable puppet
+			21 = { add_claim_by = P64 } #Bouches-Du-Rhone
+			32 = { add_claim_by = P64 } #Alpes
+			735 = { add_claim_by = P64 } #Savoy
+			851 = { add_claim_by = P64 } #Var
 
 			#Set formable puppet as controller of contested state
 			every_state = {

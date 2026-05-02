@@ -6,10 +6,16 @@ pfp_release_bulgaria = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			48 = { add_contested_owner  = P49 } #Sofia
-			211 = { add_contested_owner  = P49 } #Burgas
-			212 = { add_contested_owner  = P49 } #Plovdiv
-			801 = { add_contested_owner  = P49 } #Moesia
+			48 = { add_contested_owner = P49 } #Sofia
+			211 = { add_contested_owner = P49 } #Burgas
+			212 = { add_contested_owner = P49 } #Plovdiv
+			801 = { add_contested_owner = P49 } #Moesia
+
+			#Add claims to formable puppet
+			48 = { add_claim_by = P49 } #Sofia
+			211 = { add_claim_by = P49 } #Burgas
+			212 = { add_claim_by = P49 } #Plovdiv
+			801 = { add_claim_by = P49 } #Moesia
 
 			#Set formable puppet as controller of contested state
 			every_state = {

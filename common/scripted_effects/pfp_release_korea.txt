@@ -6,12 +6,20 @@ pfp_release_korea = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			525 = { add_contested_owner  = P72 } #Gyeonggi
-			527 = { add_contested_owner  = P72 } #Pyongan-Hwanghae
-			1028 = { add_contested_owner  = P72 } #Hamgyong
-			1029 = { add_contested_owner  = P72 } #Gangwon
-			1030 = { add_contested_owner  = P72 } #Gyeongsang
-			1031 = { add_contested_owner  = P72 } #Chungcheong-Jeolla
+			525 = { add_contested_owner = P72 } #Gyeonggi
+			527 = { add_contested_owner = P72 } #Pyongan-Hwanghae
+			1028 = { add_contested_owner = P72 } #Hamgyong
+			1029 = { add_contested_owner = P72 } #Gangwon
+			1030 = { add_contested_owner = P72 } #Gyeongsang
+			1031 = { add_contested_owner = P72 } #Chungcheong-Jeolla
+
+			#Add claims to formable puppet
+			525 = { add_claim_by = P72 } #Gyeonggi
+			527 = { add_claim_by = P72 } #Pyongan-Hwanghae
+			1028 = { add_claim_by = P72 } #Hamgyong
+			1029 = { add_claim_by = P72 } #Gangwon
+			1030 = { add_claim_by = P72 } #Gyeongsang
+			1031 = { add_claim_by = P72 } #Chungcheong-Jeolla
 
 			#Set formable puppet as controller of contested state
 			every_state = {

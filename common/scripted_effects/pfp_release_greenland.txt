@@ -6,7 +6,10 @@ pfp_release_greenland = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			101 = { add_contested_owner  = P85 } #Greenland
+			101 = { add_contested_owner = P85 } #Greenland
+
+			#Add claims to formable puppet
+			101 = { add_claim_by = P85 } #Greenland
 
 			#Set formable puppet as controller of contested state
 			every_state = {

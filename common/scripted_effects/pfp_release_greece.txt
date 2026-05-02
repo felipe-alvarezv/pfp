@@ -6,9 +6,14 @@ pfp_release_greece = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			47 = { add_contested_owner  = P14 } #Attica
-			185 = { add_contested_owner  = P14 } #Epirus
-			186 = { add_contested_owner  = P14 } #Peloponnese
+			47 = { add_contested_owner = P14 } #Attica
+			185 = { add_contested_owner = P14 } #Epirus
+			186 = { add_contested_owner = P14 } #Peloponnese
+
+			#Add claims to formable puppet
+			47 = { add_claim_by = P14 } #Attica
+			185 = { add_claim_by = P14 } #Epirus
+			186 = { add_claim_by = P14 } #Peloponnese
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,14 +6,24 @@ pfp_release_shaan-gan = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			283 = { add_contested_owner  = Q20 } #Gansu
-			622 = { add_contested_owner  = Q20 } #Shaanbei
-			744 = { add_contested_owner  = Q20 } #Xian
-			756 = { add_contested_owner  = Q20 } #Jiuquan
-			1032 = { add_contested_owner  = Q20 } #Yan'an
-			1044 = { add_contested_owner  = Q20 } #Wuwei
-			1045 = { add_contested_owner  = Q20 } #Guyuan
-			1046 = { add_contested_owner  = Q20 } #Yulin
+			283 = { add_contested_owner = Q20 } #Gansu
+			622 = { add_contested_owner = Q20 } #Shaanbei
+			744 = { add_contested_owner = Q20 } #Xian
+			756 = { add_contested_owner = Q20 } #Jiuquan
+			1032 = { add_contested_owner = Q20 } #Yan'an
+			1044 = { add_contested_owner = Q20 } #Wuwei
+			1045 = { add_contested_owner = Q20 } #Guyuan
+			1046 = { add_contested_owner = Q20 } #Yulin
+
+			#Add claims to formable puppet
+			283 = { add_claim_by = Q20 } #Gansu
+			622 = { add_claim_by = Q20 } #Shaanbei
+			744 = { add_claim_by = Q20 } #Xian
+			756 = { add_claim_by = Q20 } #Jiuquan
+			1032 = { add_claim_by = Q20 } #Yan'an
+			1044 = { add_claim_by = Q20 } #Wuwei
+			1045 = { add_claim_by = Q20 } #Guyuan
+			1046 = { add_claim_by = Q20 } #Yulin
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,8 +6,12 @@ pfp_release_lombardy-venetia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			159 = { add_contested_owner  = P92 } #Lombardy
-			160 = { add_contested_owner  = P92 } #Veneto
+			159 = { add_contested_owner = P92 } #Lombardy
+			160 = { add_contested_owner = P92 } #Veneto
+
+			#Add claims to formable puppet
+			159 = { add_claim_by = P92 } #Lombardy
+			160 = { add_claim_by = P92 } #Veneto
 
 			#Set formable puppet as controller of contested state
 			every_state = {

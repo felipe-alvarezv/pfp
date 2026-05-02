@@ -6,8 +6,12 @@ pfp_release_chile = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			279 = { add_contested_owner  = P54 } #Santiago
-			952 = { add_contested_owner  = P54 } #Atacama
+			279 = { add_contested_owner = P54 } #Santiago
+			952 = { add_contested_owner = P54 } #Atacama
+
+			#Add claims to formable puppet
+			279 = { add_claim_by = P54 } #Santiago
+			952 = { add_claim_by = P54 } #Atacama
 
 			#Set formable puppet as controller of contested state
 			every_state = {

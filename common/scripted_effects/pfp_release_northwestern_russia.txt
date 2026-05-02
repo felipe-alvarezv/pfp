@@ -6,20 +6,36 @@ pfp_release_northwestern_russia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			195 = { add_contested_owner  = P43 } #Leningrad
-			208 = { add_contested_owner  = P43 } #Luga
-			209 = { add_contested_owner  = P43 } #Pskov
-			210 = { add_contested_owner  = P43 } #Nevel
-			214 = { add_contested_owner  = P43 } #Arkhangelsk
-			244 = { add_contested_owner  = P43 } #Volkhov
-			262 = { add_contested_owner  = P43 } #Pechora
-			263 = { add_contested_owner  = P43 } #Novgorod
-			264 = { add_contested_owner  = P43 } #Tikhvin
-			351 = { add_contested_owner  = P43 } #Vologda
-			397 = { add_contested_owner  = P43 } #Syktyvkar
-			825 = { add_contested_owner  = P43 } #Nenets
-			879 = { add_contested_owner  = P43 } #Kargopol
-			880 = { add_contested_owner  = P43 } #Kotlas
+			195 = { add_contested_owner = P43 } #Leningrad
+			208 = { add_contested_owner = P43 } #Luga
+			209 = { add_contested_owner = P43 } #Pskov
+			210 = { add_contested_owner = P43 } #Nevel
+			214 = { add_contested_owner = P43 } #Arkhangelsk
+			244 = { add_contested_owner = P43 } #Volkhov
+			262 = { add_contested_owner = P43 } #Pechora
+			263 = { add_contested_owner = P43 } #Novgorod
+			264 = { add_contested_owner = P43 } #Tikhvin
+			351 = { add_contested_owner = P43 } #Vologda
+			397 = { add_contested_owner = P43 } #Syktyvkar
+			825 = { add_contested_owner = P43 } #Nenets
+			879 = { add_contested_owner = P43 } #Kargopol
+			880 = { add_contested_owner = P43 } #Kotlas
+
+			#Add claims to formable puppet
+			195 = { add_claim_by = P43 } #Leningrad
+			208 = { add_claim_by = P43 } #Luga
+			209 = { add_claim_by = P43 } #Pskov
+			210 = { add_claim_by = P43 } #Nevel
+			214 = { add_claim_by = P43 } #Arkhangelsk
+			244 = { add_claim_by = P43 } #Volkhov
+			262 = { add_claim_by = P43 } #Pechora
+			263 = { add_claim_by = P43 } #Novgorod
+			264 = { add_claim_by = P43 } #Tikhvin
+			351 = { add_claim_by = P43 } #Vologda
+			397 = { add_claim_by = P43 } #Syktyvkar
+			825 = { add_claim_by = P43 } #Nenets
+			879 = { add_claim_by = P43 } #Kargopol
+			880 = { add_claim_by = P43 } #Kotlas
 
 			#Set formable puppet as controller of contested state
 			every_state = {

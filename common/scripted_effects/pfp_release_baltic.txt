@@ -6,16 +6,28 @@ pfp_release_baltic = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			12 = { add_contested_owner  = P04 } #Vidzeme
-			13 = { add_contested_owner  = P04 } #Parnu
-			190 = { add_contested_owner  = P04 } #Kurzeme
-			191 = { add_contested_owner  = P04 } #Tartu
-			808 = { add_contested_owner  = P04 } #Riga
-			809 = { add_contested_owner  = P04 } #Zemgale
-			810 = { add_contested_owner  = P04 } #Latgale
-			811 = { add_contested_owner  = P04 } #Saaremaa
-			812 = { add_contested_owner  = P04 } #Harju
-			813 = { add_contested_owner  = P04 } #Virumaa
+			12 = { add_contested_owner = P04 } #Vidzeme
+			13 = { add_contested_owner = P04 } #Parnu
+			190 = { add_contested_owner = P04 } #Kurzeme
+			191 = { add_contested_owner = P04 } #Tartu
+			808 = { add_contested_owner = P04 } #Riga
+			809 = { add_contested_owner = P04 } #Zemgale
+			810 = { add_contested_owner = P04 } #Latgale
+			811 = { add_contested_owner = P04 } #Saaremaa
+			812 = { add_contested_owner = P04 } #Harju
+			813 = { add_contested_owner = P04 } #Virumaa
+
+			#Add claims to formable puppet
+			12 = { add_claim_by = P04 } #Vidzeme
+			13 = { add_claim_by = P04 } #Parnu
+			190 = { add_claim_by = P04 } #Kurzeme
+			191 = { add_claim_by = P04 } #Tartu
+			808 = { add_claim_by = P04 } #Riga
+			809 = { add_claim_by = P04 } #Zemgale
+			810 = { add_claim_by = P04 } #Latgale
+			811 = { add_claim_by = P04 } #Saaremaa
+			812 = { add_claim_by = P04 } #Harju
+			813 = { add_claim_by = P04 } #Virumaa
 
 			#Set formable puppet as controller of contested state
 			every_state = {

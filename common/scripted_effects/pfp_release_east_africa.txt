@@ -6,20 +6,36 @@ pfp_release_east_africa = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			271 = { add_contested_owner  = P10 } #Shewa
-			550 = { add_contested_owner  = P10 } #Eritrea
-			559 = { add_contested_owner  = P10 } #Somaliland
-			835 = { add_contested_owner  = P10 } #Hararghe
-			836 = { add_contested_owner  = P10 } #Bale
-			837 = { add_contested_owner  = P10 } #Sidamo
-			838 = { add_contested_owner  = P10 } #Illubabor-Kaffa
-			839 = { add_contested_owner  = P10 } #Welega
-			840 = { add_contested_owner  = P10 } #Gojjam
-			841 = { add_contested_owner  = P10 } #Begemder
-			842 = { add_contested_owner  = P10 } #Tigray
-			843 = { add_contested_owner  = P10 } #Wello
-			844 = { add_contested_owner  = P10 } #Jubaland
-			908 = { add_contested_owner  = P10 } #Afar
+			271 = { add_contested_owner = P10 } #Shewa
+			550 = { add_contested_owner = P10 } #Eritrea
+			559 = { add_contested_owner = P10 } #Somaliland
+			835 = { add_contested_owner = P10 } #Hararghe
+			836 = { add_contested_owner = P10 } #Bale
+			837 = { add_contested_owner = P10 } #Sidamo
+			838 = { add_contested_owner = P10 } #Illubabor-Kaffa
+			839 = { add_contested_owner = P10 } #Welega
+			840 = { add_contested_owner = P10 } #Gojjam
+			841 = { add_contested_owner = P10 } #Begemder
+			842 = { add_contested_owner = P10 } #Tigray
+			843 = { add_contested_owner = P10 } #Wello
+			844 = { add_contested_owner = P10 } #Jubaland
+			908 = { add_contested_owner = P10 } #Afar
+
+			#Add claims to formable puppet
+			271 = { add_claim_by = P10 } #Shewa
+			550 = { add_claim_by = P10 } #Eritrea
+			559 = { add_claim_by = P10 } #Somaliland
+			835 = { add_claim_by = P10 } #Hararghe
+			836 = { add_claim_by = P10 } #Bale
+			837 = { add_claim_by = P10 } #Sidamo
+			838 = { add_claim_by = P10 } #Illubabor-Kaffa
+			839 = { add_claim_by = P10 } #Welega
+			840 = { add_claim_by = P10 } #Gojjam
+			841 = { add_claim_by = P10 } #Begemder
+			842 = { add_claim_by = P10 } #Tigray
+			843 = { add_claim_by = P10 } #Wello
+			844 = { add_claim_by = P10 } #Jubaland
+			908 = { add_claim_by = P10 } #Afar
 
 			#Set formable puppet as controller of contested state
 			every_state = {

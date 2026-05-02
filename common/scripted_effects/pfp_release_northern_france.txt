@@ -6,12 +6,20 @@ pfp_release_northern_france = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			16 = { add_contested_owner  = P62 } #Ile de France
-			17 = { add_contested_owner  = P62 } #Franche-Comte
-			18 = { add_contested_owner  = P62 } #Champagne
-			24 = { add_contested_owner  = P62 } #Centre
-			27 = { add_contested_owner  = P62 } #Bourgogne
-			785 = { add_contested_owner  = P62 } #Picardy
+			16 = { add_contested_owner = P62 } #Ile de France
+			17 = { add_contested_owner = P62 } #Franche-Comte
+			18 = { add_contested_owner = P62 } #Champagne
+			24 = { add_contested_owner = P62 } #Centre
+			27 = { add_contested_owner = P62 } #Bourgogne
+			785 = { add_contested_owner = P62 } #Picardy
+
+			#Add claims to formable puppet
+			16 = { add_claim_by = P62 } #Ile de France
+			17 = { add_claim_by = P62 } #Franche-Comte
+			18 = { add_claim_by = P62 } #Champagne
+			24 = { add_claim_by = P62 } #Centre
+			27 = { add_claim_by = P62 } #Bourgogne
+			785 = { add_claim_by = P62 } #Picardy
 
 			#Set formable puppet as controller of contested state
 			every_state = {

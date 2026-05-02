@@ -6,8 +6,12 @@ pfp_release_czechia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add constestion to formable puppet
-			9 = { add_contested_owner  = P59 } #Bohemia
-			75 = { add_contested_owner  = P59 } #Moravia
+			9 = { add_contested_owner = P59 } #Bohemia
+			75 = { add_contested_owner = P59 } #Moravia
+
+			#Add claims to formable puppet
+			9 = { add_claim_by = P59 } #Bohemia
+			75 = { add_claim_by = P59 } #Moravia
 
 			#Set formable puppet as controller of contested state
 			every_state = {
