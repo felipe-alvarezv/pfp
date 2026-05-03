@@ -5,7 +5,7 @@ pfp_release_east_africa = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			271 = { add_contested_owner = P10 } #Shewa
 			550 = { add_contested_owner = P10 } #Eritrea
 			559 = { add_contested_owner = P10 } #Somaliland

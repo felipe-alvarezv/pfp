@@ -5,7 +5,7 @@ pfp_release_scandinavia = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			37 = { add_contested_owner = P24 } #Sjaelland
 			38 = { add_contested_owner = P24 } #Gävleborg
 			99 = { add_contested_owner = P24 } #Jylland

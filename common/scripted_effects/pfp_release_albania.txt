@@ -5,7 +5,7 @@ pfp_release_albania = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			44 = { add_contested_owner = P91 } #Central Albania
 			934 = { add_contested_owner = P91 } #Shkoder
 

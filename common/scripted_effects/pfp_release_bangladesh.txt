@@ -5,7 +5,7 @@ pfp_release_bangladesh = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			430 = { add_contested_owner = P38 } #East Bengal
 
 			#Add claims to formable puppet

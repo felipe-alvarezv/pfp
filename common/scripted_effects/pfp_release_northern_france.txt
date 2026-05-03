@@ -5,7 +5,7 @@ pfp_release_northern_france = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			16 = { add_contested_owner = P62 } #Ile de France
 			17 = { add_contested_owner = P62 } #Franche-Comte
 			18 = { add_contested_owner = P62 } #Champagne

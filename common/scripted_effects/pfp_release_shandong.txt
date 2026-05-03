@@ -5,7 +5,7 @@ pfp_release_shandong = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			597 = { add_contested_owner = Q11 } #Shandong
 			1038 = { add_contested_owner = Q11 } #Jinan
 

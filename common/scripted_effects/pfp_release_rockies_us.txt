@@ -5,7 +5,7 @@ pfp_release_rockies_us = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			376 = { add_contested_owner = P23 } #New Mexico
 			377 = { add_contested_owner = P23 } #Arizona
 			379 = { add_contested_owner = P23 } #Nevada

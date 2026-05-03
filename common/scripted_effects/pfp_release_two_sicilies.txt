@@ -5,7 +5,7 @@ pfp_release_two_sicilies = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			115 = { add_contested_owner = P97 } #Sicily
 			117 = { add_contested_owner = P97 } #Campania
 			156 = { add_contested_owner = P97 } #Calabria

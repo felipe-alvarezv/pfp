@@ -5,7 +5,7 @@ pfp_release_urals = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			403 = { add_contested_owner = P44 } #Tyumen
 			572 = { add_contested_owner = P44 } #Chelyabinsk
 			573 = { add_contested_owner = P44 } #Zlatoust

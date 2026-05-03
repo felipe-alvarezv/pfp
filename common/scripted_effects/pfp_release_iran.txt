@@ -5,7 +5,7 @@ pfp_release_iran = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			266 = { add_contested_owner = P71 } #Tehran
 			411 = { add_contested_owner = P71 } #Isfahan
 			412 = { add_contested_owner = P71 } #Fars

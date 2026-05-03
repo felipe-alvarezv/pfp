@@ -5,7 +5,7 @@ pfp_release_western_canada = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			467 = { add_contested_owner = P29 } #Manitoba
 			469 = { add_contested_owner = P29 } #Saskatchewan
 			470 = { add_contested_owner = P29 } #Alberta

@@ -5,7 +5,7 @@ pfp_release_belgium = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			6 = { add_contested_owner = P60 } #Vlaanderen
 			34 = { add_contested_owner = P60 } #Wallonie
 			977 = { add_contested_owner = P60 } #Antwerp

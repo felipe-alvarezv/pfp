@@ -5,7 +5,7 @@ pfp_release_great_britain = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			120 = { add_contested_owner = P02 } #Scottish Highlands
 			121 = { add_contested_owner = P02 } #Lothian
 			122 = { add_contested_owner = P02 } #Wales

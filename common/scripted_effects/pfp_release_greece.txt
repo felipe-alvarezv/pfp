@@ -5,7 +5,7 @@ pfp_release_greece = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			47 = { add_contested_owner = P14 } #Attica
 			185 = { add_contested_owner = P14 } #Epirus
 			186 = { add_contested_owner = P14 } #Peloponnese

@@ -5,7 +5,7 @@ pfp_release_midwestern_us = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			261 = { add_contested_owner = P18 } #Ohio
 			373 = { add_contested_owner = P18 } #Missouri
 			383 = { add_contested_owner = P18 } #Kansas

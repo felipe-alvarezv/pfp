@@ -5,7 +5,7 @@ pfp_release_turkey = {
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-			#Add constestion to formable puppet
+			#Add contestion to formable puppet
 			49 = { add_contested_owner = P68 } #Ankara
 			343 = { add_contested_owner = P68 } #Afyon
 			346 = { add_contested_owner = P68 } #Konya
