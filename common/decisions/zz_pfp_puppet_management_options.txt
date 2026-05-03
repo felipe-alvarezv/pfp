@@ -166,6 +166,7 @@ pfp_puppet_assistance = {
 		}
 		available = {
 			FROM = { exists = yes }
+			ROOT = { has_manpower > 2000 }
 		}
 		days_remove = 30
 		complete_effect = {
