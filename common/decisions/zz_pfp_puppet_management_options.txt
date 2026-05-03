@@ -19,6 +19,7 @@ pfp_puppet_management = {
 		icon = generic_industry
 
 		available = {
+			is_ai = no
 			custom_trigger_tooltip = {
 				tooltip = pfp_management_use_overlord_color_tooltip
 				all_country = {
