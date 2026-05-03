@@ -6,33 +6,62 @@
   COUNTRY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
   COUNTRY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
 
-  P04_GER_subject:0 "German Occupation of Ostland"
-  P05_GER_subject:0 "Military Administration in the Netherlands"
-  P09_GER_subject:0 "Military Administration in Hungary"
-  P14_GER_subject:0 "Military Administration in Greece"
-  P34_GER_subject:0 "Military Administration in Poland"
-  P39_GER_subject:0 "German Occupation of Central Russia"
-  P40_GER_subject:0 "German Occupation of Southern Russia"
-  P41_GER_subject:0 "German Occupation of the North Caucasus"
-  P42_GER_subject:0 "German Occupation of the Volga"
-  P43_GER_subject:0 "German Occupation of Northwestern Russia"
-  P44_GER_subject:0 "German Occupation of the Urals"
-  P45_GER_subject:0 "German Occupation of Siberia"
-  P46_GER_subject:0 "German Occupation of Far Eastern Russia"
-  P48_GER_subject:0 "German Occupation of Western Russia"
-  P50_GER_subject:0 "Military Administration in Yugoslavia"
-  P59_GER_subject:0 "Military Administration in Bohemia and Moravia"
-  P60_GER_subject:0 "Military Administration in Belgium"
-  P61_GER_subject:0 "Military Administration in Denmark"
-  P62_GER_subject:0 "Military Administration in Northern France"
-  P63_GER_subject:0 "Military Administration in Southern France"
-  P65_GER_subject:0 "Military Administration in Norway"
-  P66_GER_subject:0 "German Occupation of Ukraine"
-  P77_GER_subject:0 "Military Administration in Austria"
-  P86_GER_subject:0 "Military Administration in Croatia"
-  P87_GER_subject:0 "Military Administration in Slovenia"
-  P88_GER_subject:0 "Military Administration in Bosnia and Herzegovina"
-  P89_GER_subject:0 "Military Administration in Serbia"
-  P90_GER_subject:0 "Military Administration in Montenegro"
-  P91_GER_subject:0 "Military Administration in Albania"
-  P98_GER_subject:0 "Military Administration in Macedonia"
+  P04_GER_fascism_subject:0 "German Occupation of the Baltic"
+  P04_GER_fascism_subject_DEF:0 "the German Occupation of the Baltic"
+
+  P05_GER_fascism_subject:0 "German Occupation of the Netherlands"
+  P05_GER_fascism_subject_DEF:0 "the German Occupation of the Netherlands"
+
+  P09_GER_fascism_subject:0 "Kingdom of Hungary"
+  P09_GER_fascism_subject_DEF:0 "the Kingdom of Hungary"
+
+  P14_GER_fascism_subject:0 "Hellenic State"
+  P14_GER_fascism_subject_DEF:0 "the Hellenic State"
+
+  P28_GER_fascism_subject:0 "German Occupation of the Caucasus"
+  P28_GER_fascism_subject_DEF:0 "the German Occupation of the Caucasus"
+
+  P34_GER_fascism_subject:0 "General Governorate for the Occupied Polish Region"
+  P34_GER_fascism_subject_DEF:0 "the General Governorate for the Occupied Polish Region"
+
+  P39_GER_fascism_subject:0 "German Occupation of Muscovy"
+  P39_GER_fascism_subject_DEF:0 "the German Occupation of Muscovy"
+
+  P51_GER_fascism_subject:0 "German Occupation of Turkestan"
+  P51_GER_fascism_subject_DEF:0 "the German Occupation of Turkestan"
+
+  P59_GER_fascism_subject:0 "German Protectorate of Bohemia and Moravia"
+  P59_GER_fascism_subject_DEF:0 "the German Protectorate of Bohemia and Moravia"
+
+  P60_GER_fascism_subject:0 "German Military Administration in Belgium"
+  P60_GER_fascism_subject_DEF:0 "the German Military Administration in Belgium"
+
+  P61_GER_fascism_subject:0 "German Protectorate of Denmark"
+  P61_GER_fascism_subject_DEF:0 "the German Protectorate of Denmark"
+
+  P62_GER_fascism_subject:0 "German Military Administration in France"
+  P62_GER_fascism_subject_DEF:0 "the German Military Administration in France"
+
+  P63_GER_fascism_subject:0 "French State"
+  P63_GER_fascism_subject_DEF:0 "the French State"
+
+  P65_GER_fascism_subject:0 "German Occupation of Norway"
+  P65_GER_fascism_subject_DEF:0 "the German Occupation of Norway"
+
+  P66_GER_fascism_subject:0 "German Occupation of Ukraine"
+  P66_GER_fascism_subject_DEF:0 "the German Occupation of Ukraine"
+
+  P86_GER_fascism_subject:0 "Independent State of Croatia"
+  P86_GER_fascism_subject_DEF:0 "the Independent State of Croatia"
+
+  P89_GER_fascism_subject:0 "Territory of the Military Commander in Serbia"
+  P89_GER_fascism_subject_DEF:0 "the Territory of the Military Commander in Serbia"
+
+  P90_GER_fascism_subject:0 "German Occupation of Montenegro"
+  P90_GER_fascism_subject_DEF:0 "the German Occupation of Montenegro"
+
+  P91_GER_fascism_subject:0 "Kingdom of Albania"
+  P91_GER_fascism_subject_DEF:0 "the Kingdom of Albania"
+
+  P98_GER_fascism_subject:0 "Independent State of Macedonia"
+  P98_GER_fascism_subject_DEF:0 "the Independent State of Macedonia"
