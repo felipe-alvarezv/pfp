@@ -16,8 +16,8 @@
   P03_GER_communism_subject:0 "People's Republic of Arabia"
   P03_GER_communism_subject_DEF:0 "the People's Republic of Arabia"
 
-  P04_GER_communism_subject:0 "People's Republic of the Baltic States"
-  P04_GER_communism_subject_DEF:0 "the People's Republic of the Baltic States"
+  P04_GER_communism_subject:0 "Baltic Soviet Socialist Republic"
+  P04_GER_communism_subject_DEF:0 "the Baltic Soviet Socialist Republic"
 
   P05_GER_communism_subject:0 "People's Republic of the Netherlands"
   P05_GER_communism_subject_DEF:0 "the People's Republic of the Netherlands"
@@ -40,8 +40,8 @@
   P11_GER_communism_subject:0 "People's Republic of Eastern Canada"
   P11_GER_communism_subject_DEF:0 "the People's Republic of Eastern Canada"
 
-  P12_GER_communism_subject:0 "People's Republic of Finland"
-  P12_GER_communism_subject_DEF:0 "the People's Republic of Finland"
+  P12_GER_communism_subject:0 "Finnish Democratic Republic"
+  P12_GER_communism_subject_DEF:0 "the Finnish Democratic Republic"
 
   P14_GER_communism_subject:0 "People's Republic of Greece"
   P14_GER_communism_subject_DEF:0 "the People's Republic of Greece"
@@ -79,8 +79,8 @@
   P27_GER_communism_subject:0 "People's Republic of Oceania"
   P27_GER_communism_subject_DEF:0 "the People's Republic of Oceania"
 
-  P28_GER_communism_subject:0 "People's Republic of Transcaucasia"
-  P28_GER_communism_subject_DEF:0 "the People's Republic of Transcaucasia"
+  P28_GER_communism_subject:0 "Transcaucasian Soviet Federative Socialist Republic"
+  P28_GER_communism_subject_DEF:0 "the Transcaucasian Soviet Federative Socialist Republic"
 
   P29_GER_communism_subject:0 "People's Republic of Western Canada"
   P29_GER_communism_subject_DEF:0 "the People's Republic of Western Canada"
@@ -136,11 +136,11 @@
   P49_GER_communism_subject:0 "People's Republic of Bulgaria"
   P49_GER_communism_subject_DEF:0 "the People's Republic of Bulgaria"
 
-  P50_GER_communism_subject:0 "People's Republic of Yugoslavia"
-  P50_GER_communism_subject_DEF:0 "the People's Republic of Yugoslavia"
+  P50_GER_communism_subject:0 "Socialist Federal Republic of Yugoslavia"
+  P50_GER_communism_subject_DEF:0 "the Socialist Federal Republic of Yugoslavia"
 
-  P51_GER_communism_subject:0 "People's Republic of Turkestan"
-  P51_GER_communism_subject_DEF:0 "the People's Republic of Turkestan"
+  P51_GER_communism_subject:0 "Turkestan Soviet Socialist Republic"
+  P51_GER_communism_subject_DEF:0 "the Turkestan Soviet Socialist Republic"
 
   P52_GER_communism_subject:0 "People's Republic of Nepal"
   P52_GER_communism_subject_DEF:0 "the People's Republic of Nepal"
@@ -163,8 +163,8 @@
   P58_GER_communism_subject:0 "People's Republic of Mexico"
   P58_GER_communism_subject_DEF:0 "the People's Republic of Mexico"
 
-  P59_GER_communism_subject:0 "People's Republic of Czechoslovakia"
-  P59_GER_communism_subject_DEF:0 "the People's Republic of Czechoslovakia"
+  P59_GER_communism_subject:0 "Czechoslovak Socialist Republic"
+  P59_GER_communism_subject_DEF:0 "the Czechoslovak Socialist Republic"
 
   P60_GER_communism_subject:0 "People's Republic of Belgium"
   P60_GER_communism_subject_DEF:0 "the People's Republic of Belgium"
@@ -184,8 +184,8 @@
   P65_GER_communism_subject:0 "People's Republic of Norway"
   P65_GER_communism_subject_DEF:0 "the People's Republic of Norway"
 
-  P66_GER_communism_subject:0 "People's Republic of Ukraine"
-  P66_GER_communism_subject_DEF:0 "the People's Republic of Ukraine"
+  P66_GER_communism_subject:0 "Ukrainian Soviet Socialist Republic"
+  P66_GER_communism_subject_DEF:0 "the Ukrainian Soviet Socialist Republic"
 
   P67_GER_communism_subject:0 "People's Republic of the Levant"
   P67_GER_communism_subject_DEF:0 "the People's Republic of the Levant"
@@ -223,8 +223,8 @@
   P78_GER_communism_subject:0 "People's Republic of Switzerland"
   P78_GER_communism_subject_DEF:0 "the People's Republic of Switzerland"
 
-  P79_GER_communism_subject:0 "People's Republic of Romania"
-  P79_GER_communism_subject_DEF:0 "the People's Republic of Romania"
+  P79_GER_communism_subject:0 "Romanian People's Republic"
+  P79_GER_communism_subject_DEF:0 "the Romanian People's Republic"
 
   P80_GER_communism_subject:0 "People's Republic of England"
   P80_GER_communism_subject_DEF:0 "the People's Republic of England"
@@ -244,23 +244,23 @@
   P85_GER_communism_subject:0 "People's Republic of Greenland"
   P85_GER_communism_subject_DEF:0 "the People's Republic of Greenland"
 
-  P86_GER_communism_subject:0 "People's Republic of Croatia"
-  P86_GER_communism_subject_DEF:0 "the People's Republic of Croatia"
+  P86_GER_communism_subject:0 "Socialist Republic of Croatia"
+  P86_GER_communism_subject_DEF:0 "the Socialist Republic of Croatia"
 
-  P87_GER_communism_subject:0 "People's Republic of Slovenia"
-  P87_GER_communism_subject_DEF:0 "the People's Republic of Slovenia"
+  P87_GER_communism_subject:0 "Socialist Republic of Slovenia"
+  P87_GER_communism_subject_DEF:0 "the Socialist Republic of Slovenia"
 
-  P88_GER_communism_subject:0 "People's Republic of Bosnia-Herzegovina"
-  P88_GER_communism_subject_DEF:0 "the People's Republic of Bosnia-Herzegovina"
+  P88_GER_communism_subject:0 "Socialist Republic of Bosnia-Herzegovina"
+  P88_GER_communism_subject_DEF:0 "the Socialist Republic of Bosnia-Herzegovina"
 
-  P89_GER_communism_subject:0 "People's Republic of Serbia"
-  P89_GER_communism_subject_DEF:0 "the People's Republic of Serbia"
+  P89_GER_communism_subject:0 "Socialist Republic of Serbia"
+  P89_GER_communism_subject_DEF:0 "the Socialist Republic of Serbia"
 
-  P90_GER_communism_subject:0 "People's Republic of Montenegro"
-  P90_GER_communism_subject_DEF:0 "the People's Republic of Montenegro"
+  P90_GER_communism_subject:0 "Socialist Republic of Montenegro"
+  P90_GER_communism_subject_DEF:0 "the Socialist Republic of Montenegro"
 
-  P91_GER_communism_subject:0 "People's Republic of Albania"
-  P91_GER_communism_subject_DEF:0 "the People's Republic of Albania"
+  P91_GER_communism_subject:0 "People's Socialist Republic of Albania"
+  P91_GER_communism_subject_DEF:0 "the People's Socialist Republic of Albania"
 
   P92_GER_communism_subject:0 "People's Republic of Lombardy-Venetia"
   P92_GER_communism_subject_DEF:0 "the People's Republic of Lombardy-Venetia"
@@ -307,8 +307,8 @@
   Q07_GER_communism_subject:0 "People's Republic of Kyushu"
   Q07_GER_communism_subject_DEF:0 "the People's Republic of Kyushu"
 
-  Q08_GER_communism_subject:0 "People's Republic of Manchuria"
-  Q08_GER_communism_subject_DEF:0 "the People's Republic of Manchuria"
+  Q08_GER_communism_subject:0 "Manchurian People's Republic"
+  Q08_GER_communism_subject_DEF:0 "the Manchurian People's Republic"
 
   Q09_GER_communism_subject:0 "Inner Mongolian People's Republic"
   Q09_GER_communism_subject_DEF:0 "the Inner Mongolian People's Republic"
@@ -362,8 +362,8 @@
   P01_GER_democratic_subject:0 "Republic of Colombia"
   P01_GER_democratic_subject_DEF:0 "the Republic of Colombia"
 
-  P02_GER_democratic_subject:0 "Republic of Great Britain"
-  P02_GER_democratic_subject_DEF:0 "the Republic of Great Britain"
+  P02_GER_democratic_subject:0 "Commonwealth of Great Britain"
+  P02_GER_democratic_subject_DEF:0 "the Commonwealth of Great Britain"
 
   P03_GER_democratic_subject:0 "Republic of Arabia"
   P03_GER_democratic_subject_DEF:0 "the Republic of Arabia"
@@ -380,8 +380,8 @@
   P07_GER_democratic_subject:0 "Republic of Central Africa"
   P07_GER_democratic_subject_DEF:0 "the Republic of Central Africa"
 
-  P08_GER_democratic_subject:0 "Republic of Central America"
-  P08_GER_democratic_subject_DEF:0 "the Republic of Central America"
+  P08_GER_democratic_subject:0 "Central American Federation"
+  P08_GER_democratic_subject_DEF:0 "the Central American Federation"
 
   P09_GER_democratic_subject:0 "Republic of Hungary"
   P09_GER_democratic_subject_DEF:0 "the Republic of Hungary"
@@ -389,8 +389,8 @@
   P10_GER_democratic_subject:0 "Republic of East Africa"
   P10_GER_democratic_subject_DEF:0 "the Republic of East Africa"
 
-  P11_GER_democratic_subject:0 "Republic of Eastern Canada"
-  P11_GER_democratic_subject_DEF:0 "the Republic of Eastern Canada"
+  P11_GER_democratic_subject:0 "Dominion of Eastern Canada"
+  P11_GER_democratic_subject_DEF:0 "the Dominion of Eastern Canada"
 
   P12_GER_democratic_subject:0 "Republic of Finland"
   P12_GER_democratic_subject_DEF:0 "the Republic of Finland"
@@ -422,20 +422,20 @@
   P23_GER_democratic_subject:0 "Republic of the Rockies"
   P23_GER_democratic_subject_DEF:0 "the Republic of the Rockies"
 
-  P24_GER_democratic_subject:0 "Republic of Scandinavia"
-  P24_GER_democratic_subject_DEF:0 "the Republic of Scandinavia"
+  P24_GER_democratic_subject:0 "Scandinavian Union"
+  P24_GER_democratic_subject_DEF:0 "the Scandinavian Union"
 
   P26_GER_democratic_subject:0 "Republic of the South"
   P26_GER_democratic_subject_DEF:0 "the Republic of the South"
 
-  P27_GER_democratic_subject:0 "Republic of Oceania"
-  P27_GER_democratic_subject_DEF:0 "the Republic of Oceania"
+  P27_GER_democratic_subject:0 "Commonwealth of Australasia"
+  P27_GER_democratic_subject_DEF:0 "the Commonwealth of Australasia"
 
-  P28_GER_democratic_subject:0 "Republic of Transcaucasia"
-  P28_GER_democratic_subject_DEF:0 "the Republic of Transcaucasia"
+  P28_GER_democratic_subject:0 "Transcaucasian Democratic Federative Republic"
+  P28_GER_democratic_subject_DEF:0 "the Transcaucasian Democratic Federative Republic"
 
-  P29_GER_democratic_subject:0 "Republic of Western Canada"
-  P29_GER_democratic_subject_DEF:0 "the Republic of Western Canada"
+  P29_GER_democratic_subject:0 "Dominion of Western Canada"
+  P29_GER_democratic_subject_DEF:0 "the Dominion of Western Canada"
 
   P30_GER_democratic_subject:0 "Republic of North Africa"
   P30_GER_democratic_subject_DEF:0 "the Republic of North Africa"
@@ -446,8 +446,8 @@
   P35_GER_democratic_subject:0 "Republic of West Africa"
   P35_GER_democratic_subject_DEF:0 "the Republic of West Africa"
 
-  P36_GER_democratic_subject:0 "Republic of South Africa"
-  P36_GER_democratic_subject_DEF:0 "the Republic of South Africa"
+  P36_GER_democratic_subject:0 "Union of South Africa"
+  P36_GER_democratic_subject_DEF:0 "the Union of South Africa"
 
   P37_GER_democratic_subject:0 "Republic of India"
   P37_GER_democratic_subject_DEF:0 "the Republic of India"
@@ -482,14 +482,14 @@
   P47_GER_democratic_subject:0 "Republic of Mongolia"
   P47_GER_democratic_subject_DEF:0 "the Republic of Mongolia"
 
-  P48_GER_democratic_subject:0 "Republic of Western Russia"
-  P48_GER_democratic_subject_DEF:0 "the Republic of Western Russia"
+  P48_GER_democratic_subject:0 "Byelorussian Republic"
+  P48_GER_democratic_subject_DEF:0 "the Byelorussian Republic"
 
   P49_GER_democratic_subject:0 "Republic of Bulgaria"
   P49_GER_democratic_subject_DEF:0 "the Republic of Bulgaria"
 
-  P50_GER_democratic_subject:0 "Republic of Yugoslavia"
-  P50_GER_democratic_subject_DEF:0 "the Republic of Yugoslavia"
+  P50_GER_democratic_subject:0 "Federal Republic of Yugoslavia"
+  P50_GER_democratic_subject_DEF:0 "the Federal Republic of Yugoslavia"
 
   P51_GER_democratic_subject:0 "Republic of Turkestan"
   P51_GER_democratic_subject_DEF:0 "the Republic of Turkestan"
@@ -509,8 +509,8 @@
   P56_GER_democratic_subject:0 "Republic of Peru"
   P56_GER_democratic_subject_DEF:0 "the Republic of Peru"
 
-  P57_GER_democratic_subject:0 "Republic of Brazil"
-  P57_GER_democratic_subject_DEF:0 "the Republic of Brazil"
+  P57_GER_democratic_subject:0 "Federative Republic of Brazil"
+  P57_GER_democratic_subject_DEF:0 "the Federative Republic of Brazil"
 
   P58_GER_democratic_subject:0 "Republic of Mexico"
   P58_GER_democratic_subject_DEF:0 "the Republic of Mexico"
@@ -524,8 +524,8 @@
   P61_GER_democratic_subject:0 "Republic of Denmark"
   P61_GER_democratic_subject_DEF:0 "the Republic of Denmark"
 
-  P62_GER_democratic_subject:0 "Republic of Northern France"
-  P62_GER_democratic_subject_DEF:0 "the Republic of Northern France"
+  P62_GER_democratic_subject:0 "Republic of France"
+  P62_GER_democratic_subject_DEF:0 "the Republic of France"
 
   P63_GER_democratic_subject:0 "Republic of Southern France"
   P63_GER_democratic_subject_DEF:0 "the Republic of Southern France"
@@ -557,8 +557,8 @@
   P72_GER_democratic_subject:0 "Republic of Korea"
   P72_GER_democratic_subject_DEF:0 "the Republic of Korea"
 
-  P73_GER_democratic_subject:0 "Republic of Ireland"
-  P73_GER_democratic_subject_DEF:0 "the Republic of Ireland"
+  P73_GER_democratic_subject:0 "Irish Free State"
+  P73_GER_democratic_subject_DEF:0 "the Irish Free State"
 
   P74_GER_democratic_subject:0 "Republic of Sweden"
   P74_GER_democratic_subject_DEF:0 "the Republic of Sweden"
@@ -569,8 +569,8 @@
   P76_GER_democratic_subject:0 "Republic of Afghanistan"
   P76_GER_democratic_subject_DEF:0 "the Republic of Afghanistan"
 
-  P77_GER_democratic_subject:0 "Republic of Austria"
-  P77_GER_democratic_subject_DEF:0 "the Republic of Austria"
+  P77_GER_democratic_subject:0 "Federal Republic of Austria"
+  P77_GER_democratic_subject_DEF:0 "the Federal Republic of Austria"
 
   P78_GER_democratic_subject:0 "Swiss Confederation"
   P78_GER_democratic_subject_DEF:0 "the Swiss Confederation"
@@ -717,8 +717,8 @@
   P02_GER_neutrality_subject:0 "Kingdom of Great Britain"
   P02_GER_neutrality_subject_DEF:0 "the Kingdom of Great Britain"
 
-  P03_GER_neutrality_subject:0 "Kingdom of Arabia"
-  P03_GER_neutrality_subject_DEF:0 "the Kingdom of Arabia"
+  P03_GER_neutrality_subject:0 "Emirate of Arabia"
+  P03_GER_neutrality_subject_DEF:0 "the Emirate of Arabia"
 
   P04_GER_neutrality_subject:0 "United Baltic Duchy"
   P04_GER_neutrality_subject_DEF:0 "the United Baltic Duchy"
@@ -732,14 +732,14 @@
   P07_GER_neutrality_subject:0 "Kingdom of Central Africa"
   P07_GER_neutrality_subject_DEF:0 "the Kingdom of Central Africa"
 
-  P08_GER_neutrality_subject:0 "Kingdom of Central America"
-  P08_GER_neutrality_subject_DEF:0 "the Kingdom of Central America"
+  P08_GER_neutrality_subject:0 "Central American Confederation"
+  P08_GER_neutrality_subject_DEF:0 "the Central American Confederation"
 
   P09_GER_neutrality_subject:0 "Kingdom of Hungary"
   P09_GER_neutrality_subject_DEF:0 "the Kingdom of Hungary"
 
-  P10_GER_neutrality_subject:0 "Kingdom of East Africa"
-  P10_GER_neutrality_subject_DEF:0 "the Kingdom of East Africa"
+  P10_GER_neutrality_subject:0 "Sultanate of East Africa"
+  P10_GER_neutrality_subject_DEF:0 "the Sultanate of East Africa"
 
   P11_GER_neutrality_subject:0 "Kingdom of Eastern Canada"
   P11_GER_neutrality_subject_DEF:0 "the Kingdom of Eastern Canada"
@@ -768,8 +768,8 @@
   P21_GER_neutrality_subject:0 "Kingdom of Pacific America"
   P21_GER_neutrality_subject_DEF:0 "the Kingdom of Pacific America"
 
-  P22_GER_neutrality_subject:0 "Kingdom of Quebec"
-  P22_GER_neutrality_subject_DEF:0 "the Kingdom of Quebec"
+  P22_GER_neutrality_subject:0 "Province of Quebec"
+  P22_GER_neutrality_subject_DEF:0 "the Province of Quebec"
 
   P23_GER_neutrality_subject:0 "Kingdom of the Rockies"
   P23_GER_neutrality_subject_DEF:0 "the Kingdom of the Rockies"
@@ -783,14 +783,14 @@
   P27_GER_neutrality_subject:0 "Kingdom of Oceania"
   P27_GER_neutrality_subject_DEF:0 "the Kingdom of Oceania"
 
-  P28_GER_neutrality_subject:0 "Kingdom of Transcaucasia"
-  P28_GER_neutrality_subject_DEF:0 "the Kingdom of Transcaucasia"
+  P28_GER_neutrality_subject:0 "Caucasian Viceroyalty"
+  P28_GER_neutrality_subject_DEF:0 "the Caucasian Viceroyalty"
 
   P29_GER_neutrality_subject:0 "Kingdom of Western Canada"
   P29_GER_neutrality_subject_DEF:0 "the Kingdom of Western Canada"
 
-  P30_GER_neutrality_subject:0 "Kingdom of North Africa"
-  P30_GER_neutrality_subject_DEF:0 "the Kingdom of North Africa"
+  P30_GER_neutrality_subject:0 "Sultanate of North Africa"
+  P30_GER_neutrality_subject_DEF:0 "the Sultanate of North Africa"
 
   P34_GER_neutrality_subject:0 "Kingdom of Poland"
   P34_GER_neutrality_subject_DEF:0 "the Kingdom of Poland"
@@ -801,32 +801,32 @@
   P36_GER_neutrality_subject:0 "Kingdom of South Africa"
   P36_GER_neutrality_subject_DEF:0 "the Kingdom of South Africa"
 
-  P37_GER_neutrality_subject:0 "Kingdom of India"
-  P37_GER_neutrality_subject_DEF:0 "the Kingdom of India"
+  P37_GER_neutrality_subject:0 "Empire of India"
+  P37_GER_neutrality_subject_DEF:0 "the Empire of India"
 
-  P38_GER_neutrality_subject:0 "Kingdom of Bengal"
-  P38_GER_neutrality_subject_DEF:0 "the Kingdom of Bengal"
+  P38_GER_neutrality_subject:0 "Nawabate of Bengal"
+  P38_GER_neutrality_subject_DEF:0 "the Nawabate of Bengal"
 
-  P39_GER_neutrality_subject:0 "Kingdom of Central Russia"
-  P39_GER_neutrality_subject_DEF:0 "the Kingdom of Central Russia"
+  P39_GER_neutrality_subject:0 "Grand Duchy of Muscovy"
+  P39_GER_neutrality_subject_DEF:0 "the Grand Duchy of Muscovy"
 
-  P40_GER_neutrality_subject:0 "Kingdom of Southern Russia"
-  P40_GER_neutrality_subject_DEF:0 "the Kingdom of Southern Russia"
+  P40_GER_neutrality_subject:0 "Don Cossack State"
+  P40_GER_neutrality_subject_DEF:0 "the Don Cossack State"
 
   P41_GER_neutrality_subject:0 "Kingdom of the Caucasus"
   P41_GER_neutrality_subject_DEF:0 "the Kingdom of the Caucasus"
 
-  P42_GER_neutrality_subject:0 "Kingdom of Volga"
-  P42_GER_neutrality_subject_DEF:0 "the Kingdom of Volga"
+  P42_GER_neutrality_subject:0 "Idel-Ural State"
+  P42_GER_neutrality_subject_DEF:0 "the Idel-Ural State"
 
-  P43_GER_neutrality_subject:0 "Kingdom of Northwestern Russia"
-  P43_GER_neutrality_subject_DEF:0 "the Kingdom of Northwestern Russia"
+  P43_GER_neutrality_subject:0 "Republic of Novgorod"
+  P43_GER_neutrality_subject_DEF:0 "the Republic of Novgorod"
 
   P44_GER_neutrality_subject:0 "Kingdom of the Urals"
   P44_GER_neutrality_subject_DEF:0 "the Kingdom of the Urals"
 
-  P45_GER_neutrality_subject:0 "Kingdom of Siberia"
-  P45_GER_neutrality_subject_DEF:0 "the Kingdom of Siberia"
+  P45_GER_neutrality_subject:0 "Siberian Khanate"
+  P45_GER_neutrality_subject_DEF:0 "the Siberian Khanate"
 
   P46_GER_neutrality_subject:0 "Kingdom of the Far East"
   P46_GER_neutrality_subject_DEF:0 "the Kingdom of the Far East"
@@ -876,11 +876,11 @@
   P61_GER_neutrality_subject:0 "Kingdom of Denmark"
   P61_GER_neutrality_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_GER_neutrality_subject:0 "Kingdom of Northern France"
-  P62_GER_neutrality_subject_DEF:0 "the Kingdom of Northern France"
+  P62_GER_neutrality_subject:0 "Kingdom of France"
+  P62_GER_neutrality_subject_DEF:0 "the Kingdom of France"
 
-  P63_GER_neutrality_subject:0 "Kingdom of Southern France"
-  P63_GER_neutrality_subject_DEF:0 "the Kingdom of Southern France"
+  P63_GER_neutrality_subject:0 "Principality of Occitania"
+  P63_GER_neutrality_subject_DEF:0 "the Principality of Occitania"
 
   P64_GER_neutrality_subject:0 "Duchy of Savoy"
   P64_GER_neutrality_subject_DEF:0 "the Duchy of Savoy"
@@ -891,8 +891,8 @@
   P66_GER_neutrality_subject:0 "Hetmanate of Ukraine"
   P66_GER_neutrality_subject_DEF:0 "the Hetmanate of Ukraine"
 
-  P67_GER_neutrality_subject:0 "Kingdom of the Levant"
-  P67_GER_neutrality_subject_DEF:0 "the Kingdom of the Levant"
+  P67_GER_neutrality_subject:0 "Emirate of the Levant"
+  P67_GER_neutrality_subject_DEF:0 "the Emirate of the Levant"
 
   P68_GER_neutrality_subject:0 "Ottoman Sultanate"
   P68_GER_neutrality_subject_DEF:0 "the Ottoman Sultanate"
@@ -900,11 +900,11 @@
   P69_GER_neutrality_subject:0 "Kingdom of Iraq"
   P69_GER_neutrality_subject_DEF:0 "the Kingdom of Iraq"
 
-  P70_GER_neutrality_subject:0 "Kingdom of Kurdistan"
-  P70_GER_neutrality_subject_DEF:0 "the Kingdom of Kurdistan"
+  P70_GER_neutrality_subject:0 "Emirate of Kurdistan"
+  P70_GER_neutrality_subject_DEF:0 "the Emirate of Kurdistan"
 
-  P71_GER_neutrality_subject:0 "Kingdom of Iran"
-  P71_GER_neutrality_subject_DEF:0 "the Kingdom of Iran"
+  P71_GER_neutrality_subject:0 "Persian Empire"
+  P71_GER_neutrality_subject_DEF:0 "the Persian Empire"
 
   P72_GER_neutrality_subject:0 "Kingdom of Korea"
   P72_GER_neutrality_subject_DEF:0 "the Kingdom of Korea"
@@ -1066,8 +1066,8 @@
   P01_GER_fascism_subject:0 "National State of Colombia"
   P01_GER_fascism_subject_DEF:0 "the National State of Colombia"
 
-  P02_GER_fascism_subject:0 "National State of Great Britain"
-  P02_GER_fascism_subject_DEF:0 "the National State of Great Britain"
+  P02_GER_fascism_subject:0 "British Union State"
+  P02_GER_fascism_subject_DEF:0 "the British Union State"
 
   P03_GER_fascism_subject:0 "National State of Arabia"
   P03_GER_fascism_subject_DEF:0 "the National State of Arabia"
@@ -1075,8 +1075,8 @@
   P04_GER_fascism_subject:0 "Reichskommissariat Ostland"
   P04_GER_fascism_subject_DEF:0 "the Reichskommissariat Ostland"
 
-  P05_GER_fascism_subject:0 "National State of the Netherlands"
-  P05_GER_fascism_subject_DEF:0 "the National State of the Netherlands"
+  P05_GER_fascism_subject:0 "Dutch National State"
+  P05_GER_fascism_subject_DEF:0 "the Dutch National State"
 
   P06_GER_fascism_subject:0 "National State of the West Indies"
   P06_GER_fascism_subject_DEF:0 "the National State of the West Indies"
@@ -1087,11 +1087,11 @@
   P08_GER_fascism_subject:0 "National State of Central America"
   P08_GER_fascism_subject_DEF:0 "the National State of Central America"
 
-  P09_GER_fascism_subject:0 "National State of Hungary"
-  P09_GER_fascism_subject_DEF:0 "the National State of Hungary"
+  P09_GER_fascism_subject:0 "Kingdom of Hungary"
+  P09_GER_fascism_subject_DEF:0 "the Kingdom of Hungary"
 
-  P10_GER_fascism_subject:0 "National State of East Africa"
-  P10_GER_fascism_subject_DEF:0 "the National State of East Africa"
+  P10_GER_fascism_subject:0 "German East Africa"
+  P10_GER_fascism_subject_DEF:0 "German East Africa"
 
   P11_GER_fascism_subject:0 "National State of Eastern Canada"
   P11_GER_fascism_subject_DEF:0 "the National State of Eastern Canada"
@@ -1102,8 +1102,8 @@
   P14_GER_fascism_subject:0 "Hellenic State"
   P14_GER_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_GER_fascism_subject:0 "National State of Iberia"
-  P15_GER_fascism_subject_DEF:0 "the National State of Iberia"
+  P15_GER_fascism_subject:0 "Spanish State"
+  P15_GER_fascism_subject_DEF:0 "the Spanish State"
 
   P16_GER_fascism_subject:0 "National State of Indochina"
   P16_GER_fascism_subject_DEF:0 "the National State of Indochina"
@@ -1126,8 +1126,8 @@
   P23_GER_fascism_subject:0 "National State of the Rockies"
   P23_GER_fascism_subject_DEF:0 "the National State of the Rockies"
 
-  P24_GER_fascism_subject:0 "National State of Scandinavia"
-  P24_GER_fascism_subject_DEF:0 "the National State of Scandinavia"
+  P24_GER_fascism_subject:0 "Nordic State"
+  P24_GER_fascism_subject_DEF:0 "the Nordic State"
 
   P26_GER_fascism_subject:0 "National State of the South"
   P26_GER_fascism_subject_DEF:0 "the National State of the South"
@@ -1141,14 +1141,14 @@
   P29_GER_fascism_subject:0 "National State of Western Canada"
   P29_GER_fascism_subject_DEF:0 "the National State of Western Canada"
 
-  P30_GER_fascism_subject:0 "National State of North Africa"
-  P30_GER_fascism_subject_DEF:0 "the National State of North Africa"
+  P30_GER_fascism_subject:0 "German North Africa"
+  P30_GER_fascism_subject_DEF:0 "German North Africa"
 
   P34_GER_fascism_subject:0 "General Government"
   P34_GER_fascism_subject_DEF:0 "the General Government"
 
-  P35_GER_fascism_subject:0 "National State of West Africa"
-  P35_GER_fascism_subject_DEF:0 "the National State of West Africa"
+  P35_GER_fascism_subject:0 "German West Africa"
+  P35_GER_fascism_subject_DEF:0 "German West Africa"
 
   P36_GER_fascism_subject:0 "National State of South Africa"
   P36_GER_fascism_subject_DEF:0 "the National State of South Africa"
@@ -1183,17 +1183,17 @@
   P46_GER_fascism_subject:0 "German Protectorate of the Far East"
   P46_GER_fascism_subject_DEF:0 "the German Protectorate of the Far East"
 
-  P47_GER_fascism_subject:0 "National State of Mongolia"
-  P47_GER_fascism_subject_DEF:0 "the National State of Mongolia"
+  P47_GER_fascism_subject:0 "Mongolian National State"
+  P47_GER_fascism_subject_DEF:0 "the Mongolian National State"
 
   P48_GER_fascism_subject:0 "German Protectorate of Byelorussia"
   P48_GER_fascism_subject_DEF:0 "the German Protectorate of Byelorussia"
 
-  P49_GER_fascism_subject:0 "National State of Bulgaria"
-  P49_GER_fascism_subject_DEF:0 "the National State of Bulgaria"
+  P49_GER_fascism_subject:0 "Kingdom of Bulgaria"
+  P49_GER_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
 
-  P50_GER_fascism_subject:0 "National State of Yugoslavia"
-  P50_GER_fascism_subject_DEF:0 "the National State of Yugoslavia"
+  P50_GER_fascism_subject:0 "State of Yugoslavia"
+  P50_GER_fascism_subject_DEF:0 "the State of Yugoslavia"
 
   P51_GER_fascism_subject:0 "German Protectorate of Turkestan"
   P51_GER_fascism_subject_DEF:0 "the German Protectorate of Turkestan"
@@ -1213,32 +1213,32 @@
   P56_GER_fascism_subject:0 "National State of Peru"
   P56_GER_fascism_subject_DEF:0 "the National State of Peru"
 
-  P57_GER_fascism_subject:0 "National State of Brazil"
-  P57_GER_fascism_subject_DEF:0 "the National State of Brazil"
+  P57_GER_fascism_subject:0 "Integralist State of Brazil"
+  P57_GER_fascism_subject_DEF:0 "the Integralist State of Brazil"
 
-  P58_GER_fascism_subject:0 "National State of Mexico"
-  P58_GER_fascism_subject_DEF:0 "the National State of Mexico"
+  P58_GER_fascism_subject:0 "Synarchist State of Mexico"
+  P58_GER_fascism_subject_DEF:0 "the Synarchist State of Mexico"
 
   P59_GER_fascism_subject:0 "Protectorate of Bohemia and Moravia"
   P59_GER_fascism_subject_DEF:0 "the Protectorate of Bohemia and Moravia"
 
-  P60_GER_fascism_subject:0 "National State of Belgium"
-  P60_GER_fascism_subject_DEF:0 "the National State of Belgium"
+  P60_GER_fascism_subject:0 "Rexist State of Belgium"
+  P60_GER_fascism_subject_DEF:0 "the Rexist State of Belgium"
 
-  P61_GER_fascism_subject:0 "National State of Denmark"
-  P61_GER_fascism_subject_DEF:0 "the National State of Denmark"
+  P61_GER_fascism_subject:0 "Kingdom of Denmark"
+  P61_GER_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
   P62_GER_fascism_subject:0 "National State of Northern France"
   P62_GER_fascism_subject_DEF:0 "the National State of Northern France"
 
-  P63_GER_fascism_subject:0 "National State of Southern France"
-  P63_GER_fascism_subject_DEF:0 "the National State of Southern France"
+  P63_GER_fascism_subject:0 "French State"
+  P63_GER_fascism_subject_DEF:0 "the French State"
 
   P64_GER_fascism_subject:0 "National State of Savoy"
   P64_GER_fascism_subject_DEF:0 "the National State of Savoy"
 
-  P65_GER_fascism_subject:0 "National State of Norway"
-  P65_GER_fascism_subject_DEF:0 "the National State of Norway"
+  P65_GER_fascism_subject:0 "Norwegian National State"
+  P65_GER_fascism_subject_DEF:0 "the Norwegian National State"
 
   P66_GER_fascism_subject:0 "Reichskommissariat Ukraine"
   P66_GER_fascism_subject_DEF:0 "the Reichskommissariat Ukraine"
@@ -1246,11 +1246,11 @@
   P67_GER_fascism_subject:0 "National State of the Levant"
   P67_GER_fascism_subject_DEF:0 "the National State of the Levant"
 
-  P68_GER_fascism_subject:0 "National State of Turkey"
-  P68_GER_fascism_subject_DEF:0 "the National State of Turkey"
+  P68_GER_fascism_subject:0 "Turanist State of Turkey"
+  P68_GER_fascism_subject_DEF:0 "the Turanist State of Turkey"
 
-  P69_GER_fascism_subject:0 "National State of Iraq"
-  P69_GER_fascism_subject_DEF:0 "the National State of Iraq"
+  P69_GER_fascism_subject:0 "Golden Square Republic of Iraq"
+  P69_GER_fascism_subject_DEF:0 "the Golden Square Republic of Iraq"
 
   P70_GER_fascism_subject:0 "National State of Kurdistan"
   P70_GER_fascism_subject_DEF:0 "the National State of Kurdistan"
@@ -1261,11 +1261,11 @@
   P72_GER_fascism_subject:0 "National State of Korea"
   P72_GER_fascism_subject_DEF:0 "the National State of Korea"
 
-  P73_GER_fascism_subject:0 "National State of Ireland"
-  P73_GER_fascism_subject_DEF:0 "the National State of Ireland"
+  P73_GER_fascism_subject:0 "Irish Corporate State"
+  P73_GER_fascism_subject_DEF:0 "the Irish Corporate State"
 
-  P74_GER_fascism_subject:0 "National State of Sweden"
-  P74_GER_fascism_subject_DEF:0 "the National State of Sweden"
+  P74_GER_fascism_subject:0 "Swedish National State"
+  P74_GER_fascism_subject_DEF:0 "the Swedish National State"
 
   P75_GER_fascism_subject:0 "National State of Pakistan"
   P75_GER_fascism_subject_DEF:0 "the National State of Pakistan"
@@ -1273,14 +1273,14 @@
   P76_GER_fascism_subject:0 "National State of Afghanistan"
   P76_GER_fascism_subject_DEF:0 "the National State of Afghanistan"
 
-  P77_GER_fascism_subject:0 "National State of Austria"
-  P77_GER_fascism_subject_DEF:0 "the National State of Austria"
+  P77_GER_fascism_subject:0 "Federal State of Austria"
+  P77_GER_fascism_subject_DEF:0 "the Federal State of Austria"
 
   P78_GER_fascism_subject:0 "National State of Switzerland"
   P78_GER_fascism_subject_DEF:0 "the National State of Switzerland"
 
-  P79_GER_fascism_subject:0 "National State of Romania"
-  P79_GER_fascism_subject_DEF:0 "the National State of Romania"
+  P79_GER_fascism_subject:0 "National Legionary State of Romania"
+  P79_GER_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
   P80_GER_fascism_subject:0 "National State of England"
   P80_GER_fascism_subject_DEF:0 "the National State of England"
@@ -1312,11 +1312,11 @@
   P89_GER_fascism_subject:0 "Government of National Salvation"
   P89_GER_fascism_subject_DEF:0 "the Government of National Salvation"
 
-  P90_GER_fascism_subject:0 "National State of Montenegro"
-  P90_GER_fascism_subject_DEF:0 "the National State of Montenegro"
+  P90_GER_fascism_subject:0 "Kingdom of Montenegro"
+  P90_GER_fascism_subject_DEF:0 "the Kingdom of Montenegro"
 
-  P91_GER_fascism_subject:0 "National State of Albania"
-  P91_GER_fascism_subject_DEF:0 "the National State of Albania"
+  P91_GER_fascism_subject:0 "Albanian Regency"
+  P91_GER_fascism_subject_DEF:0 "the Albanian Regency"
 
   P92_GER_fascism_subject:0 "National State of Lombardy-Venetia"
   P92_GER_fascism_subject_DEF:0 "the National State of Lombardy-Venetia"
@@ -1424,8 +1424,8 @@
   P03_ITA_communism_subject:0 "People's Republic of Arabia"
   P03_ITA_communism_subject_DEF:0 "the People's Republic of Arabia"
 
-  P04_ITA_communism_subject:0 "People's Republic of the Baltic States"
-  P04_ITA_communism_subject_DEF:0 "the People's Republic of the Baltic States"
+  P04_ITA_communism_subject:0 "Baltic Soviet Socialist Republic"
+  P04_ITA_communism_subject_DEF:0 "the Baltic Soviet Socialist Republic"
 
   P05_ITA_communism_subject:0 "People's Republic of the Netherlands"
   P05_ITA_communism_subject_DEF:0 "the People's Republic of the Netherlands"
@@ -1448,11 +1448,11 @@
   P11_ITA_communism_subject:0 "People's Republic of Eastern Canada"
   P11_ITA_communism_subject_DEF:0 "the People's Republic of Eastern Canada"
 
-  P12_ITA_communism_subject:0 "People's Republic of Finland"
-  P12_ITA_communism_subject_DEF:0 "the People's Republic of Finland"
+  P12_ITA_communism_subject:0 "Finnish Democratic Republic"
+  P12_ITA_communism_subject_DEF:0 "the Finnish Democratic Republic"
 
-  P13_ITA_communism_subject:0 "People's Republic of Germany"
-  P13_ITA_communism_subject_DEF:0 "the People's Republic of Germany"
+  P13_ITA_communism_subject:0 "German People's Republic"
+  P13_ITA_communism_subject_DEF:0 "the German People's Republic"
 
   P14_ITA_communism_subject:0 "People's Republic of Greece"
   P14_ITA_communism_subject_DEF:0 "the People's Republic of Greece"
@@ -1496,8 +1496,8 @@
   P27_ITA_communism_subject:0 "People's Republic of Oceania"
   P27_ITA_communism_subject_DEF:0 "the People's Republic of Oceania"
 
-  P28_ITA_communism_subject:0 "People's Republic of Transcaucasia"
-  P28_ITA_communism_subject_DEF:0 "the People's Republic of Transcaucasia"
+  P28_ITA_communism_subject:0 "Transcaucasian Soviet Federative Socialist Republic"
+  P28_ITA_communism_subject_DEF:0 "the Transcaucasian Soviet Federative Socialist Republic"
 
   P29_ITA_communism_subject:0 "People's Republic of Western Canada"
   P29_ITA_communism_subject_DEF:0 "the People's Republic of Western Canada"
@@ -1508,8 +1508,8 @@
   P31_ITA_communism_subject:0 "People's Republic of West Germany"
   P31_ITA_communism_subject_DEF:0 "the People's Republic of West Germany"
 
-  P32_ITA_communism_subject:0 "People's Republic of East Germany"
-  P32_ITA_communism_subject_DEF:0 "the People's Republic of East Germany"
+  P32_ITA_communism_subject:0 "German Democratic Republic"
+  P32_ITA_communism_subject_DEF:0 "the German Democratic Republic"
 
   P33_ITA_communism_subject:0 "People's Republic of Prussia"
   P33_ITA_communism_subject_DEF:0 "the People's Republic of Prussia"
@@ -1556,17 +1556,17 @@
   P47_ITA_communism_subject:0 "Mongolian People's Republic"
   P47_ITA_communism_subject_DEF:0 "the Mongolian People's Republic"
 
-  P48_ITA_communism_subject:0 "People's Republic of Western Russia"
-  P48_ITA_communism_subject_DEF:0 "the People's Republic of Western Russia"
+  P48_ITA_communism_subject:0 "Byelorussian Soviet Socialist Republic"
+  P48_ITA_communism_subject_DEF:0 "the Byelorussian Soviet Socialist Republic"
 
   P49_ITA_communism_subject:0 "People's Republic of Bulgaria"
   P49_ITA_communism_subject_DEF:0 "the People's Republic of Bulgaria"
 
-  P50_ITA_communism_subject:0 "People's Republic of Yugoslavia"
-  P50_ITA_communism_subject_DEF:0 "the People's Republic of Yugoslavia"
+  P50_ITA_communism_subject:0 "Socialist Federal Republic of Yugoslavia"
+  P50_ITA_communism_subject_DEF:0 "the Socialist Federal Republic of Yugoslavia"
 
-  P51_ITA_communism_subject:0 "People's Republic of Turkestan"
-  P51_ITA_communism_subject_DEF:0 "the People's Republic of Turkestan"
+  P51_ITA_communism_subject:0 "Turkestan Soviet Socialist Republic"
+  P51_ITA_communism_subject_DEF:0 "the Turkestan Soviet Socialist Republic"
 
   P52_ITA_communism_subject:0 "People's Republic of Nepal"
   P52_ITA_communism_subject_DEF:0 "the People's Republic of Nepal"
@@ -1586,8 +1586,8 @@
   P58_ITA_communism_subject:0 "People's Republic of Mexico"
   P58_ITA_communism_subject_DEF:0 "the People's Republic of Mexico"
 
-  P59_ITA_communism_subject:0 "People's Republic of Czechoslovakia"
-  P59_ITA_communism_subject_DEF:0 "the People's Republic of Czechoslovakia"
+  P59_ITA_communism_subject:0 "Czechoslovak Socialist Republic"
+  P59_ITA_communism_subject_DEF:0 "the Czechoslovak Socialist Republic"
 
   P60_ITA_communism_subject:0 "People's Republic of Belgium"
   P60_ITA_communism_subject_DEF:0 "the People's Republic of Belgium"
@@ -1607,8 +1607,8 @@
   P65_ITA_communism_subject:0 "People's Republic of Norway"
   P65_ITA_communism_subject_DEF:0 "the People's Republic of Norway"
 
-  P66_ITA_communism_subject:0 "People's Republic of Ukraine"
-  P66_ITA_communism_subject_DEF:0 "the People's Republic of Ukraine"
+  P66_ITA_communism_subject:0 "Ukrainian Soviet Socialist Republic"
+  P66_ITA_communism_subject_DEF:0 "the Ukrainian Soviet Socialist Republic"
 
   P67_ITA_communism_subject:0 "People's Republic of the Levant"
   P67_ITA_communism_subject_DEF:0 "the People's Republic of the Levant"
@@ -1646,8 +1646,8 @@
   P78_ITA_communism_subject:0 "People's Republic of Switzerland"
   P78_ITA_communism_subject_DEF:0 "the People's Republic of Switzerland"
 
-  P79_ITA_communism_subject:0 "People's Republic of Romania"
-  P79_ITA_communism_subject_DEF:0 "the People's Republic of Romania"
+  P79_ITA_communism_subject:0 "Romanian People's Republic"
+  P79_ITA_communism_subject_DEF:0 "the Romanian People's Republic"
 
   P80_ITA_communism_subject:0 "People's Republic of England"
   P80_ITA_communism_subject_DEF:0 "the People's Republic of England"
@@ -1667,23 +1667,23 @@
   P85_ITA_communism_subject:0 "People's Republic of Greenland"
   P85_ITA_communism_subject_DEF:0 "the People's Republic of Greenland"
 
-  P86_ITA_communism_subject:0 "People's Republic of Croatia"
-  P86_ITA_communism_subject_DEF:0 "the People's Republic of Croatia"
+  P86_ITA_communism_subject:0 "Socialist Republic of Croatia"
+  P86_ITA_communism_subject_DEF:0 "the Socialist Republic of Croatia"
 
-  P87_ITA_communism_subject:0 "People's Republic of Slovenia"
-  P87_ITA_communism_subject_DEF:0 "the People's Republic of Slovenia"
+  P87_ITA_communism_subject:0 "Socialist Republic of Slovenia"
+  P87_ITA_communism_subject_DEF:0 "the Socialist Republic of Slovenia"
 
-  P88_ITA_communism_subject:0 "People's Republic of Bosnia-Herzegovina"
-  P88_ITA_communism_subject_DEF:0 "the People's Republic of Bosnia-Herzegovina"
+  P88_ITA_communism_subject:0 "Socialist Republic of Bosnia-Herzegovina"
+  P88_ITA_communism_subject_DEF:0 "the Socialist Republic of Bosnia-Herzegovina"
 
-  P89_ITA_communism_subject:0 "People's Republic of Serbia"
-  P89_ITA_communism_subject_DEF:0 "the People's Republic of Serbia"
+  P89_ITA_communism_subject:0 "Socialist Republic of Serbia"
+  P89_ITA_communism_subject_DEF:0 "the Socialist Republic of Serbia"
 
-  P90_ITA_communism_subject:0 "People's Republic of Montenegro"
-  P90_ITA_communism_subject_DEF:0 "the People's Republic of Montenegro"
+  P90_ITA_communism_subject:0 "Socialist Republic of Montenegro"
+  P90_ITA_communism_subject_DEF:0 "the Socialist Republic of Montenegro"
 
-  P91_ITA_communism_subject:0 "People's Republic of Albania"
-  P91_ITA_communism_subject_DEF:0 "the People's Republic of Albania"
+  P91_ITA_communism_subject:0 "People's Socialist Republic of Albania"
+  P91_ITA_communism_subject_DEF:0 "the People's Socialist Republic of Albania"
 
   P98_ITA_communism_subject:0 "People's Republic of Macedonia"
   P98_ITA_communism_subject_DEF:0 "the People's Republic of Macedonia"
@@ -1712,8 +1712,8 @@
   Q07_ITA_communism_subject:0 "People's Republic of Kyushu"
   Q07_ITA_communism_subject_DEF:0 "the People's Republic of Kyushu"
 
-  Q08_ITA_communism_subject:0 "People's Republic of Manchuria"
-  Q08_ITA_communism_subject_DEF:0 "the People's Republic of Manchuria"
+  Q08_ITA_communism_subject:0 "Manchurian People's Republic"
+  Q08_ITA_communism_subject_DEF:0 "the Manchurian People's Republic"
 
   Q09_ITA_communism_subject:0 "Inner Mongolian People's Republic"
   Q09_ITA_communism_subject_DEF:0 "the Inner Mongolian People's Republic"
@@ -1767,8 +1767,8 @@
   P01_ITA_democratic_subject:0 "Republic of Colombia"
   P01_ITA_democratic_subject_DEF:0 "the Republic of Colombia"
 
-  P02_ITA_democratic_subject:0 "Republic of Great Britain"
-  P02_ITA_democratic_subject_DEF:0 "the Republic of Great Britain"
+  P02_ITA_democratic_subject:0 "Commonwealth of Great Britain"
+  P02_ITA_democratic_subject_DEF:0 "the Commonwealth of Great Britain"
 
   P03_ITA_democratic_subject:0 "Republic of Arabia"
   P03_ITA_democratic_subject_DEF:0 "the Republic of Arabia"
@@ -1785,8 +1785,8 @@
   P07_ITA_democratic_subject:0 "Republic of Central Africa"
   P07_ITA_democratic_subject_DEF:0 "the Republic of Central Africa"
 
-  P08_ITA_democratic_subject:0 "Republic of Central America"
-  P08_ITA_democratic_subject_DEF:0 "the Republic of Central America"
+  P08_ITA_democratic_subject:0 "Central American Federation"
+  P08_ITA_democratic_subject_DEF:0 "the Central American Federation"
 
   P09_ITA_democratic_subject:0 "Republic of Hungary"
   P09_ITA_democratic_subject_DEF:0 "the Republic of Hungary"
@@ -1794,8 +1794,8 @@
   P10_ITA_democratic_subject:0 "Republic of East Africa"
   P10_ITA_democratic_subject_DEF:0 "the Republic of East Africa"
 
-  P11_ITA_democratic_subject:0 "Republic of Eastern Canada"
-  P11_ITA_democratic_subject_DEF:0 "the Republic of Eastern Canada"
+  P11_ITA_democratic_subject:0 "Dominion of Eastern Canada"
+  P11_ITA_democratic_subject_DEF:0 "the Dominion of Eastern Canada"
 
   P12_ITA_democratic_subject:0 "Republic of Finland"
   P12_ITA_democratic_subject_DEF:0 "the Republic of Finland"
@@ -1833,8 +1833,8 @@
   P23_ITA_democratic_subject:0 "Republic of the Rockies"
   P23_ITA_democratic_subject_DEF:0 "the Republic of the Rockies"
 
-  P24_ITA_democratic_subject:0 "Republic of Scandinavia"
-  P24_ITA_democratic_subject_DEF:0 "the Republic of Scandinavia"
+  P24_ITA_democratic_subject:0 "Scandinavian Union"
+  P24_ITA_democratic_subject_DEF:0 "the Scandinavian Union"
 
   P25_ITA_democratic_subject:0 "Free State of Bavaria"
   P25_ITA_democratic_subject_DEF:0 "the Free State of Bavaria"
@@ -1842,26 +1842,26 @@
   P26_ITA_democratic_subject:0 "Republic of the South"
   P26_ITA_democratic_subject_DEF:0 "the Republic of the South"
 
-  P27_ITA_democratic_subject:0 "Republic of Oceania"
-  P27_ITA_democratic_subject_DEF:0 "the Republic of Oceania"
+  P27_ITA_democratic_subject:0 "Commonwealth of Australasia"
+  P27_ITA_democratic_subject_DEF:0 "the Commonwealth of Australasia"
 
-  P28_ITA_democratic_subject:0 "Republic of Transcaucasia"
-  P28_ITA_democratic_subject_DEF:0 "the Republic of Transcaucasia"
+  P28_ITA_democratic_subject:0 "Transcaucasian Democratic Federative Republic"
+  P28_ITA_democratic_subject_DEF:0 "the Transcaucasian Democratic Federative Republic"
 
-  P29_ITA_democratic_subject:0 "Republic of Western Canada"
-  P29_ITA_democratic_subject_DEF:0 "the Republic of Western Canada"
+  P29_ITA_democratic_subject:0 "Dominion of Western Canada"
+  P29_ITA_democratic_subject_DEF:0 "the Dominion of Western Canada"
 
   P30_ITA_democratic_subject:0 "Republic of North Africa"
   P30_ITA_democratic_subject_DEF:0 "the Republic of North Africa"
 
-  P31_ITA_democratic_subject:0 "Republic of West Germany"
-  P31_ITA_democratic_subject_DEF:0 "the Republic of West Germany"
+  P31_ITA_democratic_subject:0 "Free State of West Germany"
+  P31_ITA_democratic_subject_DEF:0 "the Free State of West Germany"
 
   P32_ITA_democratic_subject:0 "Republic of East Germany"
   P32_ITA_democratic_subject_DEF:0 "the Republic of East Germany"
 
-  P33_ITA_democratic_subject:0 "Republic of Prussia"
-  P33_ITA_democratic_subject_DEF:0 "the Republic of Prussia"
+  P33_ITA_democratic_subject:0 "Free State of Prussia"
+  P33_ITA_democratic_subject_DEF:0 "the Free State of Prussia"
 
   P34_ITA_democratic_subject:0 "Republic of Poland"
   P34_ITA_democratic_subject_DEF:0 "the Republic of Poland"
@@ -1869,8 +1869,8 @@
   P35_ITA_democratic_subject:0 "Republic of West Africa"
   P35_ITA_democratic_subject_DEF:0 "the Republic of West Africa"
 
-  P36_ITA_democratic_subject:0 "Republic of South Africa"
-  P36_ITA_democratic_subject_DEF:0 "the Republic of South Africa"
+  P36_ITA_democratic_subject:0 "Union of South Africa"
+  P36_ITA_democratic_subject_DEF:0 "the Union of South Africa"
 
   P37_ITA_democratic_subject:0 "Republic of India"
   P37_ITA_democratic_subject_DEF:0 "the Republic of India"
@@ -1905,14 +1905,14 @@
   P47_ITA_democratic_subject:0 "Republic of Mongolia"
   P47_ITA_democratic_subject_DEF:0 "the Republic of Mongolia"
 
-  P48_ITA_democratic_subject:0 "Republic of Western Russia"
-  P48_ITA_democratic_subject_DEF:0 "the Republic of Western Russia"
+  P48_ITA_democratic_subject:0 "Byelorussian Republic"
+  P48_ITA_democratic_subject_DEF:0 "the Byelorussian Republic"
 
   P49_ITA_democratic_subject:0 "Republic of Bulgaria"
   P49_ITA_democratic_subject_DEF:0 "the Republic of Bulgaria"
 
-  P50_ITA_democratic_subject:0 "Republic of Yugoslavia"
-  P50_ITA_democratic_subject_DEF:0 "the Republic of Yugoslavia"
+  P50_ITA_democratic_subject:0 "Federal Republic of Yugoslavia"
+  P50_ITA_democratic_subject_DEF:0 "the Federal Republic of Yugoslavia"
 
   P51_ITA_democratic_subject:0 "Republic of Turkestan"
   P51_ITA_democratic_subject_DEF:0 "the Republic of Turkestan"
@@ -1929,8 +1929,8 @@
   P56_ITA_democratic_subject:0 "Republic of Peru"
   P56_ITA_democratic_subject_DEF:0 "the Republic of Peru"
 
-  P57_ITA_democratic_subject:0 "Republic of Brazil"
-  P57_ITA_democratic_subject_DEF:0 "the Republic of Brazil"
+  P57_ITA_democratic_subject:0 "Federative Republic of Brazil"
+  P57_ITA_democratic_subject_DEF:0 "the Federative Republic of Brazil"
 
   P58_ITA_democratic_subject:0 "Republic of Mexico"
   P58_ITA_democratic_subject_DEF:0 "the Republic of Mexico"
@@ -1944,8 +1944,8 @@
   P61_ITA_democratic_subject:0 "Republic of Denmark"
   P61_ITA_democratic_subject_DEF:0 "the Republic of Denmark"
 
-  P62_ITA_democratic_subject:0 "Republic of Northern France"
-  P62_ITA_democratic_subject_DEF:0 "the Republic of Northern France"
+  P62_ITA_democratic_subject:0 "Republic of France"
+  P62_ITA_democratic_subject_DEF:0 "the Republic of France"
 
   P63_ITA_democratic_subject:0 "Republic of Southern France"
   P63_ITA_democratic_subject_DEF:0 "the Republic of Southern France"
@@ -1956,8 +1956,8 @@
   P65_ITA_democratic_subject:0 "Republic of Norway"
   P65_ITA_democratic_subject_DEF:0 "the Republic of Norway"
 
-  P66_ITA_democratic_subject:0 "Republic of Ukraine"
-  P66_ITA_democratic_subject_DEF:0 "the Republic of Ukraine"
+  P66_ITA_democratic_subject:0 "Ukrainian People's Republic"
+  P66_ITA_democratic_subject_DEF:0 "the Ukrainian People's Republic"
 
   P67_ITA_democratic_subject:0 "Republic of the Levant"
   P67_ITA_democratic_subject_DEF:0 "the Republic of the Levant"
@@ -1977,8 +1977,8 @@
   P72_ITA_democratic_subject:0 "Republic of Korea"
   P72_ITA_democratic_subject_DEF:0 "the Republic of Korea"
 
-  P73_ITA_democratic_subject:0 "Republic of Ireland"
-  P73_ITA_democratic_subject_DEF:0 "the Republic of Ireland"
+  P73_ITA_democratic_subject:0 "Irish Free State"
+  P73_ITA_democratic_subject_DEF:0 "the Irish Free State"
 
   P74_ITA_democratic_subject:0 "Republic of Sweden"
   P74_ITA_democratic_subject_DEF:0 "the Republic of Sweden"
@@ -1989,8 +1989,8 @@
   P76_ITA_democratic_subject:0 "Republic of Afghanistan"
   P76_ITA_democratic_subject_DEF:0 "the Republic of Afghanistan"
 
-  P77_ITA_democratic_subject:0 "Republic of Austria"
-  P77_ITA_democratic_subject_DEF:0 "the Republic of Austria"
+  P77_ITA_democratic_subject:0 "Federal Republic of Austria"
+  P77_ITA_democratic_subject_DEF:0 "the Federal Republic of Austria"
 
   P78_ITA_democratic_subject:0 "Swiss Confederation"
   P78_ITA_democratic_subject_DEF:0 "the Swiss Confederation"
@@ -2119,8 +2119,8 @@
   P02_ITA_neutrality_subject:0 "Kingdom of Great Britain"
   P02_ITA_neutrality_subject_DEF:0 "the Kingdom of Great Britain"
 
-  P03_ITA_neutrality_subject:0 "Kingdom of Arabia"
-  P03_ITA_neutrality_subject_DEF:0 "the Kingdom of Arabia"
+  P03_ITA_neutrality_subject:0 "Emirate of Arabia"
+  P03_ITA_neutrality_subject_DEF:0 "the Emirate of Arabia"
 
   P04_ITA_neutrality_subject:0 "Kingdom of the Baltic States"
   P04_ITA_neutrality_subject_DEF:0 "the Kingdom of the Baltic States"
@@ -2134,14 +2134,14 @@
   P07_ITA_neutrality_subject:0 "Kingdom of Central Africa"
   P07_ITA_neutrality_subject_DEF:0 "the Kingdom of Central Africa"
 
-  P08_ITA_neutrality_subject:0 "Kingdom of Central America"
-  P08_ITA_neutrality_subject_DEF:0 "the Kingdom of Central America"
+  P08_ITA_neutrality_subject:0 "Central American Confederation"
+  P08_ITA_neutrality_subject_DEF:0 "the Central American Confederation"
 
   P09_ITA_neutrality_subject:0 "Kingdom of Hungary"
   P09_ITA_neutrality_subject_DEF:0 "the Kingdom of Hungary"
 
-  P10_ITA_neutrality_subject:0 "Kingdom of East Africa"
-  P10_ITA_neutrality_subject_DEF:0 "the Kingdom of East Africa"
+  P10_ITA_neutrality_subject:0 "Sultanate of East Africa"
+  P10_ITA_neutrality_subject_DEF:0 "the Sultanate of East Africa"
 
   P11_ITA_neutrality_subject:0 "Kingdom of Eastern Canada"
   P11_ITA_neutrality_subject_DEF:0 "the Kingdom of Eastern Canada"
@@ -2149,8 +2149,8 @@
   P12_ITA_neutrality_subject:0 "Grand Duchy of Finland"
   P12_ITA_neutrality_subject_DEF:0 "the Grand Duchy of Finland"
 
-  P13_ITA_neutrality_subject:0 "Kingdom of Germany"
-  P13_ITA_neutrality_subject_DEF:0 "the Kingdom of Germany"
+  P13_ITA_neutrality_subject:0 "German Empire"
+  P13_ITA_neutrality_subject_DEF:0 "the German Empire"
 
   P14_ITA_neutrality_subject:0 "Kingdom of Greece"
   P14_ITA_neutrality_subject_DEF:0 "the Kingdom of Greece"
@@ -2176,8 +2176,8 @@
   P21_ITA_neutrality_subject:0 "Kingdom of Pacific America"
   P21_ITA_neutrality_subject_DEF:0 "the Kingdom of Pacific America"
 
-  P22_ITA_neutrality_subject:0 "Kingdom of Quebec"
-  P22_ITA_neutrality_subject_DEF:0 "the Kingdom of Quebec"
+  P22_ITA_neutrality_subject:0 "Province of Quebec"
+  P22_ITA_neutrality_subject_DEF:0 "the Province of Quebec"
 
   P23_ITA_neutrality_subject:0 "Kingdom of the Rockies"
   P23_ITA_neutrality_subject_DEF:0 "the Kingdom of the Rockies"
@@ -2194,14 +2194,14 @@
   P27_ITA_neutrality_subject:0 "Kingdom of Oceania"
   P27_ITA_neutrality_subject_DEF:0 "the Kingdom of Oceania"
 
-  P28_ITA_neutrality_subject:0 "Kingdom of Transcaucasia"
-  P28_ITA_neutrality_subject_DEF:0 "the Kingdom of Transcaucasia"
+  P28_ITA_neutrality_subject:0 "Caucasian Viceroyalty"
+  P28_ITA_neutrality_subject_DEF:0 "the Caucasian Viceroyalty"
 
   P29_ITA_neutrality_subject:0 "Kingdom of Western Canada"
   P29_ITA_neutrality_subject_DEF:0 "the Kingdom of Western Canada"
 
-  P30_ITA_neutrality_subject:0 "Kingdom of North Africa"
-  P30_ITA_neutrality_subject_DEF:0 "the Kingdom of North Africa"
+  P30_ITA_neutrality_subject:0 "Sultanate of North Africa"
+  P30_ITA_neutrality_subject_DEF:0 "the Sultanate of North Africa"
 
   P31_ITA_neutrality_subject:0 "Kingdom of Westphalia"
   P31_ITA_neutrality_subject_DEF:0 "the Kingdom of Westphalia"
@@ -2221,32 +2221,32 @@
   P36_ITA_neutrality_subject:0 "Kingdom of South Africa"
   P36_ITA_neutrality_subject_DEF:0 "the Kingdom of South Africa"
 
-  P37_ITA_neutrality_subject:0 "Kingdom of India"
-  P37_ITA_neutrality_subject_DEF:0 "the Kingdom of India"
+  P37_ITA_neutrality_subject:0 "Empire of India"
+  P37_ITA_neutrality_subject_DEF:0 "the Empire of India"
 
-  P38_ITA_neutrality_subject:0 "Kingdom of Bengal"
-  P38_ITA_neutrality_subject_DEF:0 "the Kingdom of Bengal"
+  P38_ITA_neutrality_subject:0 "Nawabate of Bengal"
+  P38_ITA_neutrality_subject_DEF:0 "the Nawabate of Bengal"
 
-  P39_ITA_neutrality_subject:0 "Kingdom of Central Russia"
-  P39_ITA_neutrality_subject_DEF:0 "the Kingdom of Central Russia"
+  P39_ITA_neutrality_subject:0 "Grand Duchy of Muscovy"
+  P39_ITA_neutrality_subject_DEF:0 "the Grand Duchy of Muscovy"
 
-  P40_ITA_neutrality_subject:0 "Kingdom of Southern Russia"
-  P40_ITA_neutrality_subject_DEF:0 "the Kingdom of Southern Russia"
+  P40_ITA_neutrality_subject:0 "Don Cossack State"
+  P40_ITA_neutrality_subject_DEF:0 "the Don Cossack State"
 
   P41_ITA_neutrality_subject:0 "Kingdom of the Caucasus"
   P41_ITA_neutrality_subject_DEF:0 "the Kingdom of the Caucasus"
 
-  P42_ITA_neutrality_subject:0 "Kingdom of Volga"
-  P42_ITA_neutrality_subject_DEF:0 "the Kingdom of Volga"
+  P42_ITA_neutrality_subject:0 "Idel-Ural State"
+  P42_ITA_neutrality_subject_DEF:0 "the Idel-Ural State"
 
-  P43_ITA_neutrality_subject:0 "Kingdom of Northwestern Russia"
-  P43_ITA_neutrality_subject_DEF:0 "the Kingdom of Northwestern Russia"
+  P43_ITA_neutrality_subject:0 "Republic of Novgorod"
+  P43_ITA_neutrality_subject_DEF:0 "the Republic of Novgorod"
 
   P44_ITA_neutrality_subject:0 "Kingdom of the Urals"
   P44_ITA_neutrality_subject_DEF:0 "the Kingdom of the Urals"
 
-  P45_ITA_neutrality_subject:0 "Kingdom of Siberia"
-  P45_ITA_neutrality_subject_DEF:0 "the Kingdom of Siberia"
+  P45_ITA_neutrality_subject:0 "Siberian Khanate"
+  P45_ITA_neutrality_subject_DEF:0 "the Siberian Khanate"
 
   P46_ITA_neutrality_subject:0 "Kingdom of the Far East"
   P46_ITA_neutrality_subject_DEF:0 "the Kingdom of the Far East"
@@ -2254,8 +2254,8 @@
   P47_ITA_neutrality_subject:0 "Khanate of Mongolia"
   P47_ITA_neutrality_subject_DEF:0 "the Khanate of Mongolia"
 
-  P48_ITA_neutrality_subject:0 "Kingdom of Western Russia"
-  P48_ITA_neutrality_subject_DEF:0 "the Kingdom of Western Russia"
+  P48_ITA_neutrality_subject:0 "Grand Duchy of Lithuania"
+  P48_ITA_neutrality_subject_DEF:0 "the Grand Duchy of Lithuania"
 
   P49_ITA_neutrality_subject:0 "Kingdom of Bulgaria"
   P49_ITA_neutrality_subject_DEF:0 "the Kingdom of Bulgaria"
@@ -2293,11 +2293,11 @@
   P61_ITA_neutrality_subject:0 "Kingdom of Denmark"
   P61_ITA_neutrality_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_ITA_neutrality_subject:0 "Kingdom of Northern France"
-  P62_ITA_neutrality_subject_DEF:0 "the Kingdom of Northern France"
+  P62_ITA_neutrality_subject:0 "Kingdom of France"
+  P62_ITA_neutrality_subject_DEF:0 "the Kingdom of France"
 
-  P63_ITA_neutrality_subject:0 "Kingdom of Southern France"
-  P63_ITA_neutrality_subject_DEF:0 "the Kingdom of Southern France"
+  P63_ITA_neutrality_subject:0 "Principality of Occitania"
+  P63_ITA_neutrality_subject_DEF:0 "the Principality of Occitania"
 
   P64_ITA_neutrality_subject:0 "Duchy of Savoy"
   P64_ITA_neutrality_subject_DEF:0 "the Duchy of Savoy"
@@ -2305,11 +2305,11 @@
   P65_ITA_neutrality_subject:0 "Kingdom of Norway"
   P65_ITA_neutrality_subject_DEF:0 "the Kingdom of Norway"
 
-  P66_ITA_neutrality_subject:0 "Kingdom of Ukraine"
-  P66_ITA_neutrality_subject_DEF:0 "the Kingdom of Ukraine"
+  P66_ITA_neutrality_subject:0 "Hetmanate of Ukraine"
+  P66_ITA_neutrality_subject_DEF:0 "the Hetmanate of Ukraine"
 
-  P67_ITA_neutrality_subject:0 "Kingdom of the Levant"
-  P67_ITA_neutrality_subject_DEF:0 "the Kingdom of the Levant"
+  P67_ITA_neutrality_subject:0 "Emirate of the Levant"
+  P67_ITA_neutrality_subject_DEF:0 "the Emirate of the Levant"
 
   P68_ITA_neutrality_subject:0 "Ottoman Sultanate"
   P68_ITA_neutrality_subject_DEF:0 "the Ottoman Sultanate"
@@ -2317,11 +2317,11 @@
   P69_ITA_neutrality_subject:0 "Kingdom of Iraq"
   P69_ITA_neutrality_subject_DEF:0 "the Kingdom of Iraq"
 
-  P70_ITA_neutrality_subject:0 "Kingdom of Kurdistan"
-  P70_ITA_neutrality_subject_DEF:0 "the Kingdom of Kurdistan"
+  P70_ITA_neutrality_subject:0 "Emirate of Kurdistan"
+  P70_ITA_neutrality_subject_DEF:0 "the Emirate of Kurdistan"
 
-  P71_ITA_neutrality_subject:0 "Kingdom of Iran"
-  P71_ITA_neutrality_subject_DEF:0 "the Kingdom of Iran"
+  P71_ITA_neutrality_subject:0 "Persian Empire"
+  P71_ITA_neutrality_subject_DEF:0 "the Persian Empire"
 
   P72_ITA_neutrality_subject:0 "Kingdom of Korea"
   P72_ITA_neutrality_subject_DEF:0 "the Kingdom of Korea"
@@ -2466,8 +2466,8 @@
   P01_ITA_fascism_subject:0 "National State of Colombia"
   P01_ITA_fascism_subject_DEF:0 "the National State of Colombia"
 
-  P02_ITA_fascism_subject:0 "National State of Great Britain"
-  P02_ITA_fascism_subject_DEF:0 "the National State of Great Britain"
+  P02_ITA_fascism_subject:0 "British Union State"
+  P02_ITA_fascism_subject_DEF:0 "the British Union State"
 
   P03_ITA_fascism_subject:0 "Italian Protectorate of Arabia"
   P03_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Arabia"
@@ -2475,8 +2475,8 @@
   P04_ITA_fascism_subject:0 "National State of the Baltic States"
   P04_ITA_fascism_subject_DEF:0 "the National State of the Baltic States"
 
-  P05_ITA_fascism_subject:0 "National State of the Netherlands"
-  P05_ITA_fascism_subject_DEF:0 "the National State of the Netherlands"
+  P05_ITA_fascism_subject:0 "Dutch National State"
+  P05_ITA_fascism_subject_DEF:0 "the Dutch National State"
 
   P06_ITA_fascism_subject:0 "National State of the West Indies"
   P06_ITA_fascism_subject_DEF:0 "the National State of the West Indies"
@@ -2487,8 +2487,8 @@
   P08_ITA_fascism_subject:0 "National State of Central America"
   P08_ITA_fascism_subject_DEF:0 "the National State of Central America"
 
-  P09_ITA_fascism_subject:0 "National State of Hungary"
-  P09_ITA_fascism_subject_DEF:0 "the National State of Hungary"
+  P09_ITA_fascism_subject:0 "Kingdom of Hungary"
+  P09_ITA_fascism_subject_DEF:0 "the Kingdom of Hungary"
 
   P10_ITA_fascism_subject:0 "Italian East Africa"
   P10_ITA_fascism_subject_DEF:0 "Italian East Africa"
@@ -2505,8 +2505,8 @@
   P14_ITA_fascism_subject:0 "Hellenic State"
   P14_ITA_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_ITA_fascism_subject:0 "National State of Iberia"
-  P15_ITA_fascism_subject_DEF:0 "the National State of Iberia"
+  P15_ITA_fascism_subject:0 "Spanish State"
+  P15_ITA_fascism_subject_DEF:0 "the Spanish State"
 
   P16_ITA_fascism_subject:0 "National State of Indochina"
   P16_ITA_fascism_subject_DEF:0 "the National State of Indochina"
@@ -2532,8 +2532,8 @@
   P23_ITA_fascism_subject:0 "National State of the Rockies"
   P23_ITA_fascism_subject_DEF:0 "the National State of the Rockies"
 
-  P24_ITA_fascism_subject:0 "National State of Scandinavia"
-  P24_ITA_fascism_subject_DEF:0 "the National State of Scandinavia"
+  P24_ITA_fascism_subject:0 "Nordic State"
+  P24_ITA_fascism_subject_DEF:0 "the Nordic State"
 
   P25_ITA_fascism_subject:0 "National State of Bavaria"
   P25_ITA_fascism_subject_DEF:0 "the National State of Bavaria"
@@ -2607,8 +2607,8 @@
   P48_ITA_fascism_subject:0 "National State of Western Russia"
   P48_ITA_fascism_subject_DEF:0 "the National State of Western Russia"
 
-  P49_ITA_fascism_subject:0 "National State of Bulgaria"
-  P49_ITA_fascism_subject_DEF:0 "the National State of Bulgaria"
+  P49_ITA_fascism_subject:0 "Kingdom of Bulgaria"
+  P49_ITA_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
 
   P50_ITA_fascism_subject:0 "Italian Protectorate of Yugoslavia"
   P50_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Yugoslavia"
@@ -2628,32 +2628,32 @@
   P56_ITA_fascism_subject:0 "National State of Peru"
   P56_ITA_fascism_subject_DEF:0 "the National State of Peru"
 
-  P57_ITA_fascism_subject:0 "National State of Brazil"
-  P57_ITA_fascism_subject_DEF:0 "the National State of Brazil"
+  P57_ITA_fascism_subject:0 "Integralist State of Brazil"
+  P57_ITA_fascism_subject_DEF:0 "the Integralist State of Brazil"
 
-  P58_ITA_fascism_subject:0 "National State of Mexico"
-  P58_ITA_fascism_subject_DEF:0 "the National State of Mexico"
+  P58_ITA_fascism_subject:0 "Synarchist State of Mexico"
+  P58_ITA_fascism_subject_DEF:0 "the Synarchist State of Mexico"
 
   P59_ITA_fascism_subject:0 "National State of Bohemia"
   P59_ITA_fascism_subject_DEF:0 "the National State of Bohemia"
 
-  P60_ITA_fascism_subject:0 "National State of Belgium"
-  P60_ITA_fascism_subject_DEF:0 "the National State of Belgium"
+  P60_ITA_fascism_subject:0 "Rexist State of Belgium"
+  P60_ITA_fascism_subject_DEF:0 "the Rexist State of Belgium"
 
-  P61_ITA_fascism_subject:0 "National State of Denmark"
-  P61_ITA_fascism_subject_DEF:0 "the National State of Denmark"
+  P61_ITA_fascism_subject:0 "Kingdom of Denmark"
+  P61_ITA_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
   P62_ITA_fascism_subject:0 "National State of Northern France"
   P62_ITA_fascism_subject_DEF:0 "the National State of Northern France"
 
-  P63_ITA_fascism_subject:0 "National State of Southern France"
-  P63_ITA_fascism_subject_DEF:0 "the National State of Southern France"
+  P63_ITA_fascism_subject:0 "French State"
+  P63_ITA_fascism_subject_DEF:0 "the French State"
 
-  P64_ITA_fascism_subject:0 "National State of Savoy"
-  P64_ITA_fascism_subject_DEF:0 "the National State of Savoy"
+  P64_ITA_fascism_subject:0 "Duchy of Savoy"
+  P64_ITA_fascism_subject_DEF:0 "the Duchy of Savoy"
 
-  P65_ITA_fascism_subject:0 "National State of Norway"
-  P65_ITA_fascism_subject_DEF:0 "the National State of Norway"
+  P65_ITA_fascism_subject:0 "Norwegian National State"
+  P65_ITA_fascism_subject_DEF:0 "the Norwegian National State"
 
   P66_ITA_fascism_subject:0 "National State of Ukraine"
   P66_ITA_fascism_subject_DEF:0 "the National State of Ukraine"
@@ -2676,11 +2676,11 @@
   P72_ITA_fascism_subject:0 "National State of Korea"
   P72_ITA_fascism_subject_DEF:0 "the National State of Korea"
 
-  P73_ITA_fascism_subject:0 "National State of Ireland"
-  P73_ITA_fascism_subject_DEF:0 "the National State of Ireland"
+  P73_ITA_fascism_subject:0 "Irish Corporate State"
+  P73_ITA_fascism_subject_DEF:0 "the Irish Corporate State"
 
-  P74_ITA_fascism_subject:0 "National State of Sweden"
-  P74_ITA_fascism_subject_DEF:0 "the National State of Sweden"
+  P74_ITA_fascism_subject:0 "Swedish National State"
+  P74_ITA_fascism_subject_DEF:0 "the Swedish National State"
 
   P75_ITA_fascism_subject:0 "National State of Pakistan"
   P75_ITA_fascism_subject_DEF:0 "the National State of Pakistan"
@@ -2688,14 +2688,14 @@
   P76_ITA_fascism_subject:0 "National State of Afghanistan"
   P76_ITA_fascism_subject_DEF:0 "the National State of Afghanistan"
 
-  P77_ITA_fascism_subject:0 "National State of Austria"
-  P77_ITA_fascism_subject_DEF:0 "the National State of Austria"
+  P77_ITA_fascism_subject:0 "Federal State of Austria"
+  P77_ITA_fascism_subject_DEF:0 "the Federal State of Austria"
 
   P78_ITA_fascism_subject:0 "National State of Switzerland"
   P78_ITA_fascism_subject_DEF:0 "the National State of Switzerland"
 
-  P79_ITA_fascism_subject:0 "National State of Romania"
-  P79_ITA_fascism_subject_DEF:0 "the National State of Romania"
+  P79_ITA_fascism_subject:0 "National Legionary State of Romania"
+  P79_ITA_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
   P80_ITA_fascism_subject:0 "National State of England"
   P80_ITA_fascism_subject_DEF:0 "the National State of England"
@@ -2821,8 +2821,8 @@
   P03_JAP_communism_subject:0 "People's Republic of Arabia"
   P03_JAP_communism_subject_DEF:0 "the People's Republic of Arabia"
 
-  P04_JAP_communism_subject:0 "People's Republic of the Baltic"
-  P04_JAP_communism_subject_DEF:0 "the People's Republic of the Baltic"
+  P04_JAP_communism_subject:0 "Baltic Soviet Socialist Republic"
+  P04_JAP_communism_subject_DEF:0 "the Baltic Soviet Socialist Republic"
 
   P05_JAP_communism_subject:0 "People's Republic of the Netherlands"
   P05_JAP_communism_subject_DEF:0 "the People's Republic of the Netherlands"
@@ -2836,8 +2836,8 @@
   P08_JAP_communism_subject:0 "People's Republic of Central America"
   P08_JAP_communism_subject_DEF:0 "the People's Republic of Central America"
 
-  P09_JAP_communism_subject:0 "People's Republic of Hungary"
-  P09_JAP_communism_subject_DEF:0 "the People's Republic of Hungary"
+  P09_JAP_communism_subject:0 "Hungarian People's Republic"
+  P09_JAP_communism_subject_DEF:0 "the Hungarian People's Republic"
 
   P10_JAP_communism_subject:0 "People's Republic of East Africa"
   P10_JAP_communism_subject_DEF:0 "the People's Republic of East Africa"
@@ -2845,11 +2845,11 @@
   P11_JAP_communism_subject:0 "People's Republic of Eastern Canada"
   P11_JAP_communism_subject_DEF:0 "the People's Republic of Eastern Canada"
 
-  P12_JAP_communism_subject:0 "People's Republic of Finland"
-  P12_JAP_communism_subject_DEF:0 "the People's Republic of Finland"
+  P12_JAP_communism_subject:0 "Finnish Democratic Republic"
+  P12_JAP_communism_subject_DEF:0 "the Finnish Democratic Republic"
 
-  P13_JAP_communism_subject:0 "People's Republic of Germany"
-  P13_JAP_communism_subject_DEF:0 "the People's Republic of Germany"
+  P13_JAP_communism_subject:0 "German People's Republic"
+  P13_JAP_communism_subject_DEF:0 "the German People's Republic"
 
   P14_JAP_communism_subject:0 "People's Republic of Greece"
   P14_JAP_communism_subject_DEF:0 "the People's Republic of Greece"
@@ -2872,14 +2872,14 @@
   P24_JAP_communism_subject:0 "People's Republic of Scandinavia"
   P24_JAP_communism_subject_DEF:0 "the People's Republic of Scandinavia"
 
-  P25_JAP_communism_subject:0 "People's Republic of South Germany"
-  P25_JAP_communism_subject_DEF:0 "the People's Republic of South Germany"
+  P25_JAP_communism_subject:0 "Bavarian Soviet Republic"
+  P25_JAP_communism_subject_DEF:0 "the Bavarian Soviet Republic"
 
   P27_JAP_communism_subject:0 "People's Republic of Oceania"
   P27_JAP_communism_subject_DEF:0 "the People's Republic of Oceania"
 
-  P28_JAP_communism_subject:0 "People's Republic of Transcaucasia"
-  P28_JAP_communism_subject_DEF:0 "the People's Republic of Transcaucasia"
+  P28_JAP_communism_subject:0 "Transcaucasian Soviet Federative Socialist Republic"
+  P28_JAP_communism_subject_DEF:0 "the Transcaucasian Soviet Federative Socialist Republic"
 
   P29_JAP_communism_subject:0 "People's Republic of Western Canada"
   P29_JAP_communism_subject_DEF:0 "the People's Republic of Western Canada"
@@ -2890,14 +2890,14 @@
   P31_JAP_communism_subject:0 "People's Republic of West Germany"
   P31_JAP_communism_subject_DEF:0 "the People's Republic of West Germany"
 
-  P32_JAP_communism_subject:0 "People's Republic of East Germany"
-  P32_JAP_communism_subject_DEF:0 "the People's Republic of East Germany"
+  P32_JAP_communism_subject:0 "German Democratic Republic"
+  P32_JAP_communism_subject_DEF:0 "the German Democratic Republic"
 
   P33_JAP_communism_subject:0 "People's Republic of Prussia"
   P33_JAP_communism_subject_DEF:0 "the People's Republic of Prussia"
 
-  P34_JAP_communism_subject:0 "People's Republic of Poland"
-  P34_JAP_communism_subject_DEF:0 "the People's Republic of Poland"
+  P34_JAP_communism_subject:0 "Polish People's Republic"
+  P34_JAP_communism_subject_DEF:0 "the Polish People's Republic"
 
   P35_JAP_communism_subject:0 "People's Republic of West Africa"
   P35_JAP_communism_subject_DEF:0 "the People's Republic of West Africa"
@@ -2938,17 +2938,17 @@
   P47_JAP_communism_subject:0 "Mongolian People's Republic"
   P47_JAP_communism_subject_DEF:0 "the Mongolian People's Republic"
 
-  P48_JAP_communism_subject:0 "People's Republic of Byelorussia"
-  P48_JAP_communism_subject_DEF:0 "the People's Republic of Byelorussia"
+  P48_JAP_communism_subject:0 "Byelorussian Soviet Socialist Republic"
+  P48_JAP_communism_subject_DEF:0 "the Byelorussian Soviet Socialist Republic"
 
   P49_JAP_communism_subject:0 "People's Republic of Bulgaria"
   P49_JAP_communism_subject_DEF:0 "the People's Republic of Bulgaria"
 
-  P50_JAP_communism_subject:0 "People's Republic of Yugoslavia"
-  P50_JAP_communism_subject_DEF:0 "the People's Republic of Yugoslavia"
+  P50_JAP_communism_subject:0 "Socialist Federal Republic of Yugoslavia"
+  P50_JAP_communism_subject_DEF:0 "the Socialist Federal Republic of Yugoslavia"
 
-  P51_JAP_communism_subject:0 "People's Republic of Turkestan"
-  P51_JAP_communism_subject_DEF:0 "the People's Republic of Turkestan"
+  P51_JAP_communism_subject:0 "Turkestan Soviet Socialist Republic"
+  P51_JAP_communism_subject_DEF:0 "the Turkestan Soviet Socialist Republic"
 
   P52_JAP_communism_subject:0 "People's Republic of Nepal"
   P52_JAP_communism_subject_DEF:0 "the People's Republic of Nepal"
@@ -2968,8 +2968,8 @@
   P58_JAP_communism_subject:0 "People's Republic of Mexico"
   P58_JAP_communism_subject_DEF:0 "the People's Republic of Mexico"
 
-  P59_JAP_communism_subject:0 "People's Republic of Bohemia"
-  P59_JAP_communism_subject_DEF:0 "the People's Republic of Bohemia"
+  P59_JAP_communism_subject:0 "Czechoslovak Socialist Republic"
+  P59_JAP_communism_subject_DEF:0 "the Czechoslovak Socialist Republic"
 
   P60_JAP_communism_subject:0 "People's Republic of Belgium"
   P60_JAP_communism_subject_DEF:0 "the People's Republic of Belgium"
@@ -2989,8 +2989,8 @@
   P65_JAP_communism_subject:0 "People's Republic of Norway"
   P65_JAP_communism_subject_DEF:0 "the People's Republic of Norway"
 
-  P66_JAP_communism_subject:0 "People's Republic of Ukraine"
-  P66_JAP_communism_subject_DEF:0 "the People's Republic of Ukraine"
+  P66_JAP_communism_subject:0 "Ukrainian Soviet Socialist Republic"
+  P66_JAP_communism_subject_DEF:0 "the Ukrainian Soviet Socialist Republic"
 
   P67_JAP_communism_subject:0 "People's Republic of the Levant"
   P67_JAP_communism_subject_DEF:0 "the People's Republic of the Levant"
@@ -3028,8 +3028,8 @@
   P78_JAP_communism_subject:0 "People's Republic of Switzerland"
   P78_JAP_communism_subject_DEF:0 "the People's Republic of Switzerland"
 
-  P79_JAP_communism_subject:0 "People's Republic of Romania"
-  P79_JAP_communism_subject_DEF:0 "the People's Republic of Romania"
+  P79_JAP_communism_subject:0 "Romanian People's Republic"
+  P79_JAP_communism_subject_DEF:0 "the Romanian People's Republic"
 
   P80_JAP_communism_subject:0 "People's Republic of England"
   P80_JAP_communism_subject_DEF:0 "the People's Republic of England"
@@ -3049,23 +3049,23 @@
   P85_JAP_communism_subject:0 "People's Republic of Greenland"
   P85_JAP_communism_subject_DEF:0 "the People's Republic of Greenland"
 
-  P86_JAP_communism_subject:0 "People's Republic of Croatia"
-  P86_JAP_communism_subject_DEF:0 "the People's Republic of Croatia"
+  P86_JAP_communism_subject:0 "Socialist Republic of Croatia"
+  P86_JAP_communism_subject_DEF:0 "the Socialist Republic of Croatia"
 
-  P87_JAP_communism_subject:0 "People's Republic of Slovenia"
-  P87_JAP_communism_subject_DEF:0 "the People's Republic of Slovenia"
+  P87_JAP_communism_subject:0 "Socialist Republic of Slovenia"
+  P87_JAP_communism_subject_DEF:0 "the Socialist Republic of Slovenia"
 
-  P88_JAP_communism_subject:0 "People's Republic of Bosnia and Herzegovina"
-  P88_JAP_communism_subject_DEF:0 "the People's Republic of Bosnia and Herzegovina"
+  P88_JAP_communism_subject:0 "Socialist Republic of Bosnia-Herzegovina"
+  P88_JAP_communism_subject_DEF:0 "the Socialist Republic of Bosnia-Herzegovina"
 
-  P89_JAP_communism_subject:0 "People's Republic of Serbia"
-  P89_JAP_communism_subject_DEF:0 "the People's Republic of Serbia"
+  P89_JAP_communism_subject:0 "Socialist Republic of Serbia"
+  P89_JAP_communism_subject_DEF:0 "the Socialist Republic of Serbia"
 
-  P90_JAP_communism_subject:0 "People's Republic of Montenegro"
-  P90_JAP_communism_subject_DEF:0 "the People's Republic of Montenegro"
+  P90_JAP_communism_subject:0 "Socialist Republic of Montenegro"
+  P90_JAP_communism_subject_DEF:0 "the Socialist Republic of Montenegro"
 
-  P91_JAP_communism_subject:0 "People's Republic of Albania"
-  P91_JAP_communism_subject_DEF:0 "the People's Republic of Albania"
+  P91_JAP_communism_subject:0 "People's Socialist Republic of Albania"
+  P91_JAP_communism_subject_DEF:0 "the People's Socialist Republic of Albania"
 
   P92_JAP_communism_subject:0 "People's Republic of Lombardy-Venetia"
   P92_JAP_communism_subject_DEF:0 "the People's Republic of Lombardy-Venetia"
@@ -3085,8 +3085,8 @@
   P97_JAP_communism_subject:0 "People's Republic of the Two Sicilies"
   P97_JAP_communism_subject_DEF:0 "the People's Republic of the Two Sicilies"
 
-  P98_JAP_communism_subject:0 "People's Republic of Macedonia"
-  P98_JAP_communism_subject_DEF:0 "the People's Republic of Macedonia"
+  P98_JAP_communism_subject:0 "Socialist Republic of Macedonia"
+  P98_JAP_communism_subject_DEF:0 "the Socialist Republic of Macedonia"
 
   Q08_JAP_communism_subject:0 "People's Republic of Manchuria"
   Q08_JAP_communism_subject_DEF:0 "the People's Republic of Manchuria"
@@ -3143,8 +3143,8 @@
   P01_JAP_democratic_subject:0 "Republic of Colombia"
   P01_JAP_democratic_subject_DEF:0 "the Republic of Colombia"
 
-  P02_JAP_democratic_subject:0 "Republic of Great Britain"
-  P02_JAP_democratic_subject_DEF:0 "the Republic of Great Britain"
+  P02_JAP_democratic_subject:0 "Commonwealth of Great Britain"
+  P02_JAP_democratic_subject_DEF:0 "the Commonwealth of Great Britain"
 
   P03_JAP_democratic_subject:0 "Republic of Arabia"
   P03_JAP_democratic_subject_DEF:0 "the Republic of Arabia"
@@ -3161,8 +3161,8 @@
   P07_JAP_democratic_subject:0 "Republic of Central Africa"
   P07_JAP_democratic_subject_DEF:0 "the Republic of Central Africa"
 
-  P08_JAP_democratic_subject:0 "Republic of Central America"
-  P08_JAP_democratic_subject_DEF:0 "the Republic of Central America"
+  P08_JAP_democratic_subject:0 "Central American Federation"
+  P08_JAP_democratic_subject_DEF:0 "the Central American Federation"
 
   P09_JAP_democratic_subject:0 "Hungarian Republic"
   P09_JAP_democratic_subject_DEF:0 "the Hungarian Republic"
@@ -3170,8 +3170,8 @@
   P10_JAP_democratic_subject:0 "Republic of East Africa"
   P10_JAP_democratic_subject_DEF:0 "the Republic of East Africa"
 
-  P11_JAP_democratic_subject:0 "Republic of Eastern Canada"
-  P11_JAP_democratic_subject_DEF:0 "the Republic of Eastern Canada"
+  P11_JAP_democratic_subject:0 "Dominion of Eastern Canada"
+  P11_JAP_democratic_subject_DEF:0 "the Dominion of Eastern Canada"
 
   P12_JAP_democratic_subject:0 "Republic of Finland"
   P12_JAP_democratic_subject_DEF:0 "the Republic of Finland"
@@ -3203,14 +3203,14 @@
   P25_JAP_democratic_subject:0 "Free State of Bavaria"
   P25_JAP_democratic_subject_DEF:0 "the Free State of Bavaria"
 
-  P27_JAP_democratic_subject:0 "Republic of Oceania"
-  P27_JAP_democratic_subject_DEF:0 "the Republic of Oceania"
+  P27_JAP_democratic_subject:0 "Commonwealth of Australasia"
+  P27_JAP_democratic_subject_DEF:0 "the Commonwealth of Australasia"
 
-  P28_JAP_democratic_subject:0 "Republic of Transcaucasia"
-  P28_JAP_democratic_subject_DEF:0 "the Republic of Transcaucasia"
+  P28_JAP_democratic_subject:0 "Transcaucasian Democratic Federative Republic"
+  P28_JAP_democratic_subject_DEF:0 "the Transcaucasian Democratic Federative Republic"
 
-  P29_JAP_democratic_subject:0 "Republic of Western Canada"
-  P29_JAP_democratic_subject_DEF:0 "the Republic of Western Canada"
+  P29_JAP_democratic_subject:0 "Dominion of Western Canada"
+  P29_JAP_democratic_subject_DEF:0 "the Dominion of Western Canada"
 
   P30_JAP_democratic_subject:0 "Republic of North Africa"
   P30_JAP_democratic_subject_DEF:0 "the Republic of North Africa"
@@ -3230,8 +3230,8 @@
   P35_JAP_democratic_subject:0 "Republic of West Africa"
   P35_JAP_democratic_subject_DEF:0 "the Republic of West Africa"
 
-  P36_JAP_democratic_subject:0 "Republic of South Africa"
-  P36_JAP_democratic_subject_DEF:0 "the Republic of South Africa"
+  P36_JAP_democratic_subject:0 "Union of South Africa"
+  P36_JAP_democratic_subject_DEF:0 "the Union of South Africa"
 
   P37_JAP_democratic_subject:0 "Republic of India"
   P37_JAP_democratic_subject_DEF:0 "the Republic of India"
@@ -3266,8 +3266,8 @@
   P47_JAP_democratic_subject:0 "Republic of Mongolia"
   P47_JAP_democratic_subject_DEF:0 "the Republic of Mongolia"
 
-  P48_JAP_democratic_subject:0 "Republic of Byelorussia"
-  P48_JAP_democratic_subject_DEF:0 "the Republic of Byelorussia"
+  P48_JAP_democratic_subject:0 "Byelorussian Republic"
+  P48_JAP_democratic_subject_DEF:0 "the Byelorussian Republic"
 
   P49_JAP_democratic_subject:0 "Republic of Bulgaria"
   P49_JAP_democratic_subject_DEF:0 "the Republic of Bulgaria"
@@ -3290,8 +3290,8 @@
   P56_JAP_democratic_subject:0 "Republic of Peru"
   P56_JAP_democratic_subject_DEF:0 "the Republic of Peru"
 
-  P57_JAP_democratic_subject:0 "Republic of Brazil"
-  P57_JAP_democratic_subject_DEF:0 "the Republic of Brazil"
+  P57_JAP_democratic_subject:0 "Federative Republic of Brazil"
+  P57_JAP_democratic_subject_DEF:0 "the Federative Republic of Brazil"
 
   P58_JAP_democratic_subject:0 "Republic of Mexico"
   P58_JAP_democratic_subject_DEF:0 "the Republic of Mexico"
@@ -3317,8 +3317,8 @@
   P65_JAP_democratic_subject:0 "Republic of Norway"
   P65_JAP_democratic_subject_DEF:0 "the Republic of Norway"
 
-  P66_JAP_democratic_subject:0 "Republic of Ukraine"
-  P66_JAP_democratic_subject_DEF:0 "the Republic of Ukraine"
+  P66_JAP_democratic_subject:0 "Ukrainian People's Republic"
+  P66_JAP_democratic_subject_DEF:0 "the Ukrainian People's Republic"
 
   P67_JAP_democratic_subject:0 "Syrian Republic"
   P67_JAP_democratic_subject_DEF:0 "the Syrian Republic"
@@ -3338,8 +3338,8 @@
   P72_JAP_democratic_subject:0 "Republic of Korea"
   P72_JAP_democratic_subject_DEF:0 "the Republic of Korea"
 
-  P73_JAP_democratic_subject:0 "Republic of Ireland"
-  P73_JAP_democratic_subject_DEF:0 "the Republic of Ireland"
+  P73_JAP_democratic_subject:0 "Irish Free State"
+  P73_JAP_democratic_subject_DEF:0 "the Irish Free State"
 
   P74_JAP_democratic_subject:0 "Republic of Sweden"
   P74_JAP_democratic_subject_DEF:0 "the Republic of Sweden"
@@ -3350,8 +3350,8 @@
   P76_JAP_democratic_subject:0 "Republic of Afghanistan"
   P76_JAP_democratic_subject_DEF:0 "the Republic of Afghanistan"
 
-  P77_JAP_democratic_subject:0 "Republic of Austria"
-  P77_JAP_democratic_subject_DEF:0 "the Republic of Austria"
+  P77_JAP_democratic_subject:0 "Federal Republic of Austria"
+  P77_JAP_democratic_subject_DEF:0 "the Federal Republic of Austria"
 
   P78_JAP_democratic_subject:0 "Swiss Confederation"
   P78_JAP_democratic_subject_DEF:0 "the Swiss Confederation"
@@ -3474,8 +3474,8 @@
   P02_JAP_neutrality_subject:0 "Kingdom of Great Britain"
   P02_JAP_neutrality_subject_DEF:0 "the Kingdom of Great Britain"
 
-  P03_JAP_neutrality_subject:0 "Kingdom of Arabia"
-  P03_JAP_neutrality_subject_DEF:0 "the Kingdom of Arabia"
+  P03_JAP_neutrality_subject:0 "Emirate of Arabia"
+  P03_JAP_neutrality_subject_DEF:0 "the Emirate of Arabia"
 
   P04_JAP_neutrality_subject:0 "Kingdom of the Baltic States"
   P04_JAP_neutrality_subject_DEF:0 "the Kingdom of the Baltic States"
@@ -3495,8 +3495,8 @@
   P09_JAP_neutrality_subject:0 "Kingdom of Hungary"
   P09_JAP_neutrality_subject_DEF:0 "the Kingdom of Hungary"
 
-  P10_JAP_neutrality_subject:0 "Kingdom of East Africa"
-  P10_JAP_neutrality_subject_DEF:0 "the Kingdom of East Africa"
+  P10_JAP_neutrality_subject:0 "Sultanate of East Africa"
+  P10_JAP_neutrality_subject_DEF:0 "the Sultanate of East Africa"
 
   P11_JAP_neutrality_subject:0 "Kingdom of Eastern Canada"
   P11_JAP_neutrality_subject_DEF:0 "the Kingdom of Eastern Canada"
@@ -3555,8 +3555,8 @@
   P29_JAP_neutrality_subject:0 "Kingdom of Western Canada"
   P29_JAP_neutrality_subject_DEF:0 "the Kingdom of Western Canada"
 
-  P30_JAP_neutrality_subject:0 "Kingdom of North Africa"
-  P30_JAP_neutrality_subject_DEF:0 "the Kingdom of North Africa"
+  P30_JAP_neutrality_subject:0 "Sultanate of North Africa"
+  P30_JAP_neutrality_subject_DEF:0 "the Sultanate of North Africa"
 
   P31_JAP_neutrality_subject:0 "Kingdom of Westphalia"
   P31_JAP_neutrality_subject_DEF:0 "the Kingdom of Westphalia"
@@ -3576,32 +3576,32 @@
   P36_JAP_neutrality_subject:0 "Kingdom of South Africa"
   P36_JAP_neutrality_subject_DEF:0 "the Kingdom of South Africa"
 
-  P37_JAP_neutrality_subject:0 "Kingdom of India"
-  P37_JAP_neutrality_subject_DEF:0 "the Kingdom of India"
+  P37_JAP_neutrality_subject:0 "Empire of India"
+  P37_JAP_neutrality_subject_DEF:0 "the Empire of India"
 
-  P38_JAP_neutrality_subject:0 "Kingdom of Bengal"
-  P38_JAP_neutrality_subject_DEF:0 "the Kingdom of Bengal"
+  P38_JAP_neutrality_subject:0 "Nawabate of Bengal"
+  P38_JAP_neutrality_subject_DEF:0 "the Nawabate of Bengal"
 
-  P39_JAP_neutrality_subject:0 "Kingdom of Central Russia"
-  P39_JAP_neutrality_subject_DEF:0 "the Kingdom of Central Russia"
+  P39_JAP_neutrality_subject:0 "Grand Duchy of Muscovy"
+  P39_JAP_neutrality_subject_DEF:0 "the Grand Duchy of Muscovy"
 
-  P40_JAP_neutrality_subject:0 "Kingdom of Southern Russia"
-  P40_JAP_neutrality_subject_DEF:0 "the Kingdom of Southern Russia"
+  P40_JAP_neutrality_subject:0 "Don Cossack State"
+  P40_JAP_neutrality_subject_DEF:0 "the Don Cossack State"
 
-  P41_JAP_neutrality_subject:0 "Kingdom of the Caucasus"
-  P41_JAP_neutrality_subject_DEF:0 "the Kingdom of the Caucasus"
+  P41_JAP_neutrality_subject:0 "Emirate of the Northern Caucasus"
+  P41_JAP_neutrality_subject_DEF:0 "the Emirate of the Northern Caucasus"
 
-  P42_JAP_neutrality_subject:0 "Kingdom of Volga"
-  P42_JAP_neutrality_subject_DEF:0 "the Kingdom of Volga"
+  P42_JAP_neutrality_subject:0 "Idel-Ural State"
+  P42_JAP_neutrality_subject_DEF:0 "the Idel-Ural State"
 
-  P43_JAP_neutrality_subject:0 "Kingdom of Northwestern Russia"
-  P43_JAP_neutrality_subject_DEF:0 "the Kingdom of Northwestern Russia"
+  P43_JAP_neutrality_subject:0 "Republic of Novgorod"
+  P43_JAP_neutrality_subject_DEF:0 "the Republic of Novgorod"
 
   P44_JAP_neutrality_subject:0 "Kingdom of the Urals"
   P44_JAP_neutrality_subject_DEF:0 "the Kingdom of the Urals"
 
-  P45_JAP_neutrality_subject:0 "Kingdom of Siberia"
-  P45_JAP_neutrality_subject_DEF:0 "the Kingdom of Siberia"
+  P45_JAP_neutrality_subject:0 "Siberian Khanate"
+  P45_JAP_neutrality_subject_DEF:0 "the Siberian Khanate"
 
   P46_JAP_neutrality_subject:0 "Kingdom of the Far East"
   P46_JAP_neutrality_subject_DEF:0 "the Kingdom of the Far East"
@@ -3609,8 +3609,8 @@
   P47_JAP_neutrality_subject:0 "Khanate of Mongolia"
   P47_JAP_neutrality_subject_DEF:0 "the Khanate of Mongolia"
 
-  P48_JAP_neutrality_subject:0 "Kingdom of Western Russia"
-  P48_JAP_neutrality_subject_DEF:0 "the Kingdom of Western Russia"
+  P48_JAP_neutrality_subject:0 "Grand Duchy of Lithuania"
+  P48_JAP_neutrality_subject_DEF:0 "the Grand Duchy of Lithuania"
 
   P49_JAP_neutrality_subject:0 "Kingdom of Bulgaria"
   P49_JAP_neutrality_subject_DEF:0 "the Kingdom of Bulgaria"
@@ -3660,11 +3660,11 @@
   P65_JAP_neutrality_subject:0 "Kingdom of Norway"
   P65_JAP_neutrality_subject_DEF:0 "the Kingdom of Norway"
 
-  P66_JAP_neutrality_subject:0 "Kingdom of Ukraine"
-  P66_JAP_neutrality_subject_DEF:0 "the Kingdom of Ukraine"
+  P66_JAP_neutrality_subject:0 "Hetmanate of Ukraine"
+  P66_JAP_neutrality_subject_DEF:0 "the Hetmanate of Ukraine"
 
-  P67_JAP_neutrality_subject:0 "Kingdom of the Levant"
-  P67_JAP_neutrality_subject_DEF:0 "the Kingdom of the Levant"
+  P67_JAP_neutrality_subject:0 "Emirate of the Levant"
+  P67_JAP_neutrality_subject_DEF:0 "the Emirate of the Levant"
 
   P68_JAP_neutrality_subject:0 "Sultanate of Turkey"
   P68_JAP_neutrality_subject_DEF:0 "the Sultanate of Turkey"
@@ -3672,11 +3672,11 @@
   P69_JAP_neutrality_subject:0 "Kingdom of Iraq"
   P69_JAP_neutrality_subject_DEF:0 "the Kingdom of Iraq"
 
-  P70_JAP_neutrality_subject:0 "Kingdom of Kurdistan"
-  P70_JAP_neutrality_subject_DEF:0 "the Kingdom of Kurdistan"
+  P70_JAP_neutrality_subject:0 "Emirate of Kurdistan"
+  P70_JAP_neutrality_subject_DEF:0 "the Emirate of Kurdistan"
 
-  P71_JAP_neutrality_subject:0 "Kingdom of Iran"
-  P71_JAP_neutrality_subject_DEF:0 "the Kingdom of Iran"
+  P71_JAP_neutrality_subject:0 "Persian Empire"
+  P71_JAP_neutrality_subject_DEF:0 "the Persian Empire"
 
   P72_JAP_neutrality_subject:0 "Kingdom of Joseon"
   P72_JAP_neutrality_subject_DEF:0 "the Kingdom of Joseon"
@@ -3693,8 +3693,8 @@
   P76_JAP_neutrality_subject:0 "Emirate of Afghanistan"
   P76_JAP_neutrality_subject_DEF:0 "the Emirate of Afghanistan"
 
-  P77_JAP_neutrality_subject:0 "Kingdom of Austria"
-  P77_JAP_neutrality_subject_DEF:0 "the Kingdom of Austria"
+  P77_JAP_neutrality_subject:0 "Empire of Austria"
+  P77_JAP_neutrality_subject_DEF:0 "the Empire of Austria"
 
   P78_JAP_neutrality_subject:0 "Swiss Confederation"
   P78_JAP_neutrality_subject_DEF:0 "the Swiss Confederation"
@@ -3814,8 +3814,8 @@
   P01_JAP_fascism_subject:0 "State of Colombia"
   P01_JAP_fascism_subject_DEF:0 "the State of Colombia"
 
-  P02_JAP_fascism_subject:0 "State of Great Britain"
-  P02_JAP_fascism_subject_DEF:0 "the State of Great Britain"
+  P02_JAP_fascism_subject:0 "British Union State"
+  P02_JAP_fascism_subject_DEF:0 "the British Union State"
 
   P03_JAP_fascism_subject:0 "State of Arabia"
   P03_JAP_fascism_subject_DEF:0 "the State of Arabia"
@@ -3823,8 +3823,8 @@
   P04_JAP_fascism_subject:0 "State of the Baltic States"
   P04_JAP_fascism_subject_DEF:0 "the State of the Baltic States"
 
-  P05_JAP_fascism_subject:0 "State of the Netherlands"
-  P05_JAP_fascism_subject_DEF:0 "the State of the Netherlands"
+  P05_JAP_fascism_subject:0 "Dutch National State"
+  P05_JAP_fascism_subject_DEF:0 "the Dutch National State"
 
   P06_JAP_fascism_subject:0 "State of the West Indies"
   P06_JAP_fascism_subject_DEF:0 "the State of the West Indies"
@@ -3835,8 +3835,8 @@
   P08_JAP_fascism_subject:0 "State of Central America"
   P08_JAP_fascism_subject_DEF:0 "the State of Central America"
 
-  P09_JAP_fascism_subject:0 "State of Hungary"
-  P09_JAP_fascism_subject_DEF:0 "the State of Hungary"
+  P09_JAP_fascism_subject:0 "Kingdom of Hungary"
+  P09_JAP_fascism_subject_DEF:0 "the Kingdom of Hungary"
 
   P10_JAP_fascism_subject:0 "State of East Africa"
   P10_JAP_fascism_subject_DEF:0 "the State of East Africa"
@@ -3847,14 +3847,14 @@
   P12_JAP_fascism_subject:0 "State of Finland"
   P12_JAP_fascism_subject_DEF:0 "the State of Finland"
 
-  P13_JAP_fascism_subject:0 "State of Germany"
-  P13_JAP_fascism_subject_DEF:0 "the State of Germany"
+  P13_JAP_fascism_subject:0 "German National State"
+  P13_JAP_fascism_subject_DEF:0 "the German National State"
 
-  P14_JAP_fascism_subject:0 "State of Greece"
-  P14_JAP_fascism_subject_DEF:0 "the State of Greece"
+  P14_JAP_fascism_subject:0 "Hellenic State"
+  P14_JAP_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_JAP_fascism_subject:0 "State of Iberia"
-  P15_JAP_fascism_subject_DEF:0 "the State of Iberia"
+  P15_JAP_fascism_subject:0 "Spanish State"
+  P15_JAP_fascism_subject_DEF:0 "the Spanish State"
 
   P16_JAP_fascism_subject:0 "Empire of Vietnam"
   P16_JAP_fascism_subject_DEF:0 "the Empire of Vietnam"
@@ -3880,8 +3880,8 @@
   P23_JAP_fascism_subject:0 "State of the Rockies"
   P23_JAP_fascism_subject_DEF:0 "the State of the Rockies"
 
-  P24_JAP_fascism_subject:0 "State of Scandinavia"
-  P24_JAP_fascism_subject_DEF:0 "the State of Scandinavia"
+  P24_JAP_fascism_subject:0 "Nordic State"
+  P24_JAP_fascism_subject_DEF:0 "the Nordic State"
 
   P25_JAP_fascism_subject:0 "State of Bavaria"
   P25_JAP_fascism_subject_DEF:0 "the State of Bavaria"
@@ -3955,8 +3955,8 @@
   P48_JAP_fascism_subject:0 "State of Western Russia"
   P48_JAP_fascism_subject_DEF:0 "the State of Western Russia"
 
-  P49_JAP_fascism_subject:0 "State of Bulgaria"
-  P49_JAP_fascism_subject_DEF:0 "the State of Bulgaria"
+  P49_JAP_fascism_subject:0 "Kingdom of Bulgaria"
+  P49_JAP_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
 
   P50_JAP_fascism_subject:0 "State of Yugoslavia"
   P50_JAP_fascism_subject_DEF:0 "the State of Yugoslavia"
@@ -3976,23 +3976,23 @@
   P56_JAP_fascism_subject:0 "State of Peru"
   P56_JAP_fascism_subject_DEF:0 "the State of Peru"
 
-  P57_JAP_fascism_subject:0 "State of Brazil"
-  P57_JAP_fascism_subject_DEF:0 "the State of Brazil"
+  P57_JAP_fascism_subject:0 "Integralist State of Brazil"
+  P57_JAP_fascism_subject_DEF:0 "the Integralist State of Brazil"
 
-  P58_JAP_fascism_subject:0 "State of Mexico"
-  P58_JAP_fascism_subject_DEF:0 "the State of Mexico"
+  P58_JAP_fascism_subject:0 "Synarchist State of Mexico"
+  P58_JAP_fascism_subject_DEF:0 "the Synarchist State of Mexico"
 
-  P59_JAP_fascism_subject:0 "State of Bohemia"
-  P59_JAP_fascism_subject_DEF:0 "the State of Bohemia"
+  P59_JAP_fascism_subject:0 "Protectorate of Bohemia"
+  P59_JAP_fascism_subject_DEF:0 "the Protectorate of Bohemia"
 
-  P60_JAP_fascism_subject:0 "State of Belgium"
-  P60_JAP_fascism_subject_DEF:0 "the State of Belgium"
+  P60_JAP_fascism_subject:0 "Rexist State of Belgium"
+  P60_JAP_fascism_subject_DEF:0 "the Rexist State of Belgium"
 
-  P61_JAP_fascism_subject:0 "State of Denmark"
-  P61_JAP_fascism_subject_DEF:0 "the State of Denmark"
+  P61_JAP_fascism_subject:0 "Kingdom of Denmark"
+  P61_JAP_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_JAP_fascism_subject:0 "State of Northern France"
-  P62_JAP_fascism_subject_DEF:0 "the State of Northern France"
+  P62_JAP_fascism_subject:0 "French State"
+  P62_JAP_fascism_subject_DEF:0 "the French State"
 
   P63_JAP_fascism_subject:0 "State of Southern France"
   P63_JAP_fascism_subject_DEF:0 "the State of Southern France"
@@ -4000,20 +4000,20 @@
   P64_JAP_fascism_subject:0 "State of Savoy"
   P64_JAP_fascism_subject_DEF:0 "the State of Savoy"
 
-  P65_JAP_fascism_subject:0 "State of Norway"
-  P65_JAP_fascism_subject_DEF:0 "the State of Norway"
+  P65_JAP_fascism_subject:0 "Norwegian National State"
+  P65_JAP_fascism_subject_DEF:0 "the Norwegian National State"
 
-  P66_JAP_fascism_subject:0 "State of Ukraine"
-  P66_JAP_fascism_subject_DEF:0 "the State of Ukraine"
+  P66_JAP_fascism_subject:0 "Hetman State of Ukraine"
+  P66_JAP_fascism_subject_DEF:0 "the Hetman State of Ukraine"
 
   P67_JAP_fascism_subject:0 "State of the Levant"
   P67_JAP_fascism_subject_DEF:0 "the State of the Levant"
 
-  P68_JAP_fascism_subject:0 "State of Turkey"
-  P68_JAP_fascism_subject_DEF:0 "the State of Turkey"
+  P68_JAP_fascism_subject:0 "Turanist State of Turkey"
+  P68_JAP_fascism_subject_DEF:0 "the Turanist State of Turkey"
 
-  P69_JAP_fascism_subject:0 "State of Iraq"
-  P69_JAP_fascism_subject_DEF:0 "the State of Iraq"
+  P69_JAP_fascism_subject:0 "Golden Square Republic of Iraq"
+  P69_JAP_fascism_subject_DEF:0 "the Golden Square Republic of Iraq"
 
   P70_JAP_fascism_subject:0 "State of Kurdistan"
   P70_JAP_fascism_subject_DEF:0 "the State of Kurdistan"
@@ -4024,11 +4024,11 @@
   P72_JAP_fascism_subject:0 "State of Korea"
   P72_JAP_fascism_subject_DEF:0 "the State of Korea"
 
-  P73_JAP_fascism_subject:0 "State of Ireland"
-  P73_JAP_fascism_subject_DEF:0 "the State of Ireland"
+  P73_JAP_fascism_subject:0 "Irish Corporate State"
+  P73_JAP_fascism_subject_DEF:0 "the Irish Corporate State"
 
-  P74_JAP_fascism_subject:0 "State of Sweden"
-  P74_JAP_fascism_subject_DEF:0 "the State of Sweden"
+  P74_JAP_fascism_subject:0 "Swedish National State"
+  P74_JAP_fascism_subject_DEF:0 "the Swedish National State"
 
   P75_JAP_fascism_subject:0 "State of Pakistan"
   P75_JAP_fascism_subject_DEF:0 "the State of Pakistan"
@@ -4036,14 +4036,14 @@
   P76_JAP_fascism_subject:0 "State of Afghanistan"
   P76_JAP_fascism_subject_DEF:0 "the State of Afghanistan"
 
-  P77_JAP_fascism_subject:0 "State of Austria"
-  P77_JAP_fascism_subject_DEF:0 "the State of Austria"
+  P77_JAP_fascism_subject:0 "Federal State of Austria"
+  P77_JAP_fascism_subject_DEF:0 "the Federal State of Austria"
 
   P78_JAP_fascism_subject:0 "State of Switzerland"
   P78_JAP_fascism_subject_DEF:0 "the State of Switzerland"
 
-  P79_JAP_fascism_subject:0 "State of Romania"
-  P79_JAP_fascism_subject_DEF:0 "the State of Romania"
+  P79_JAP_fascism_subject:0 "National Legionary State of Romania"
+  P79_JAP_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
   P80_JAP_fascism_subject:0 "State of England"
   P80_JAP_fascism_subject_DEF:0 "the State of England"
@@ -4063,8 +4063,8 @@
   P85_JAP_fascism_subject:0 "State of Greenland"
   P85_JAP_fascism_subject_DEF:0 "the State of Greenland"
 
-  P86_JAP_fascism_subject:0 "State of Croatia"
-  P86_JAP_fascism_subject_DEF:0 "the State of Croatia"
+  P86_JAP_fascism_subject:0 "Independent State of Croatia"
+  P86_JAP_fascism_subject_DEF:0 "the Independent State of Croatia"
 
   P87_JAP_fascism_subject:0 "State of Slovenia"
   P87_JAP_fascism_subject_DEF:0 "the State of Slovenia"
@@ -4075,11 +4075,11 @@
   P89_JAP_fascism_subject:0 "State of Serbia"
   P89_JAP_fascism_subject_DEF:0 "the State of Serbia"
 
-  P90_JAP_fascism_subject:0 "State of Montenegro"
-  P90_JAP_fascism_subject_DEF:0 "the State of Montenegro"
+  P90_JAP_fascism_subject:0 "Kingdom of Montenegro"
+  P90_JAP_fascism_subject_DEF:0 "the Kingdom of Montenegro"
 
-  P91_JAP_fascism_subject:0 "State of Albania"
-  P91_JAP_fascism_subject_DEF:0 "the State of Albania"
+  P91_JAP_fascism_subject:0 "Albanian Regency"
+  P91_JAP_fascism_subject_DEF:0 "the Albanian Regency"
 
   P92_JAP_fascism_subject:0 "State of Lombardy-Venetia"
   P92_JAP_fascism_subject_DEF:0 "the State of Lombardy-Venetia"
@@ -4190,8 +4190,8 @@
   P12_SOV_communism_subject:0 "Finnish Democratic Republic"
   P12_SOV_communism_subject_DEF:0 "the Finnish Democratic Republic"
 
-  P13_SOV_communism_subject:0 "People's Republic of Germany"
-  P13_SOV_communism_subject_DEF:0 "the People's Republic of Germany"
+  P13_SOV_communism_subject:0 "German People's Republic"
+  P13_SOV_communism_subject_DEF:0 "the German People's Republic"
 
   P14_SOV_communism_subject:0 "Provisional Democratic Government of Greece"
   P14_SOV_communism_subject_DEF:0 "the Provisional Democratic Government of Greece"
@@ -4364,20 +4364,20 @@
   P85_SOV_communism_subject:0 "People's Republic of Greenland"
   P85_SOV_communism_subject_DEF:0 "the People's Republic of Greenland"
 
-  P86_SOV_communism_subject:0 "People's Republic of Croatia"
-  P86_SOV_communism_subject_DEF:0 "the People's Republic of Croatia"
+  P86_SOV_communism_subject:0 "Socialist Republic of Croatia"
+  P86_SOV_communism_subject_DEF:0 "the Socialist Republic of Croatia"
 
-  P87_SOV_communism_subject:0 "People's Republic of Slovenia"
-  P87_SOV_communism_subject_DEF:0 "the People's Republic of Slovenia"
+  P87_SOV_communism_subject:0 "Socialist Republic of Slovenia"
+  P87_SOV_communism_subject_DEF:0 "the Socialist Republic of Slovenia"
 
-  P88_SOV_communism_subject:0 "People's Republic of Bosnia and Herzegovina"
-  P88_SOV_communism_subject_DEF:0 "the People's Republic of Bosnia and Herzegovina"
+  P88_SOV_communism_subject:0 "Socialist Republic of Bosnia-Herzegovina"
+  P88_SOV_communism_subject_DEF:0 "the Socialist Republic of Bosnia-Herzegovina"
 
-  P89_SOV_communism_subject:0 "People's Republic of Serbia"
-  P89_SOV_communism_subject_DEF:0 "the People's Republic of Serbia"
+  P89_SOV_communism_subject:0 "Socialist Republic of Serbia"
+  P89_SOV_communism_subject_DEF:0 "the Socialist Republic of Serbia"
 
-  P90_SOV_communism_subject:0 "People's Republic of Montenegro"
-  P90_SOV_communism_subject_DEF:0 "the People's Republic of Montenegro"
+  P90_SOV_communism_subject:0 "Socialist Republic of Montenegro"
+  P90_SOV_communism_subject_DEF:0 "the Socialist Republic of Montenegro"
 
   P91_SOV_communism_subject:0 "People's Socialist Republic of Albania"
   P91_SOV_communism_subject_DEF:0 "the People's Socialist Republic of Albania"
@@ -4400,8 +4400,8 @@
   P97_SOV_communism_subject:0 "People's Republic of the Two Sicilies"
   P97_SOV_communism_subject_DEF:0 "the People's Republic of the Two Sicilies"
 
-  P98_SOV_communism_subject:0 "People's Republic of Macedonia"
-  P98_SOV_communism_subject_DEF:0 "the People's Republic of Macedonia"
+  P98_SOV_communism_subject:0 "Socialist Republic of Macedonia"
+  P98_SOV_communism_subject_DEF:0 "the Socialist Republic of Macedonia"
 
   P99_SOV_communism_subject:0 "People's Republic of Hokkaido"
   P99_SOV_communism_subject_DEF:0 "the People's Republic of Hokkaido"
@@ -4482,8 +4482,8 @@
   P01_SOV_democratic_subject:0 "Republic of Colombia"
   P01_SOV_democratic_subject_DEF:0 "the Republic of Colombia"
 
-  P02_SOV_democratic_subject:0 "Republic of Great Britain"
-  P02_SOV_democratic_subject_DEF:0 "the Republic of Great Britain"
+  P02_SOV_democratic_subject:0 "Commonwealth of Great Britain"
+  P02_SOV_democratic_subject_DEF:0 "the Commonwealth of Great Britain"
 
   P03_SOV_democratic_subject:0 "Republic of Arabia"
   P03_SOV_democratic_subject_DEF:0 "the Republic of Arabia"
@@ -4500,8 +4500,8 @@
   P07_SOV_democratic_subject:0 "Republic of Central Africa"
   P07_SOV_democratic_subject_DEF:0 "the Republic of Central Africa"
 
-  P08_SOV_democratic_subject:0 "Republic of Central America"
-  P08_SOV_democratic_subject_DEF:0 "the Republic of Central America"
+  P08_SOV_democratic_subject:0 "Central American Federation"
+  P08_SOV_democratic_subject_DEF:0 "the Central American Federation"
 
   P09_SOV_democratic_subject:0 "Hungarian Republic"
   P09_SOV_democratic_subject_DEF:0 "the Hungarian Republic"
@@ -4509,8 +4509,8 @@
   P10_SOV_democratic_subject:0 "Republic of East Africa"
   P10_SOV_democratic_subject_DEF:0 "the Republic of East Africa"
 
-  P11_SOV_democratic_subject:0 "Republic of Eastern Canada"
-  P11_SOV_democratic_subject_DEF:0 "the Republic of Eastern Canada"
+  P11_SOV_democratic_subject:0 "Dominion of Eastern Canada"
+  P11_SOV_democratic_subject_DEF:0 "the Dominion of Eastern Canada"
 
   P12_SOV_democratic_subject:0 "Republic of Finland"
   P12_SOV_democratic_subject_DEF:0 "the Republic of Finland"
@@ -4542,14 +4542,14 @@
   P25_SOV_democratic_subject:0 "Free State of Bavaria"
   P25_SOV_democratic_subject_DEF:0 "the Free State of Bavaria"
 
-  P27_SOV_democratic_subject:0 "Republic of Oceania"
-  P27_SOV_democratic_subject_DEF:0 "the Republic of Oceania"
+  P27_SOV_democratic_subject:0 "Commonwealth of Australasia"
+  P27_SOV_democratic_subject_DEF:0 "the Commonwealth of Australasia"
 
   P28_SOV_democratic_subject:0 "Transcaucasian Democratic Federative Republic"
   P28_SOV_democratic_subject_DEF:0 "the Transcaucasian Democratic Federative Republic"
 
-  P29_SOV_democratic_subject:0 "Republic of Western Canada"
-  P29_SOV_democratic_subject_DEF:0 "the Republic of Western Canada"
+  P29_SOV_democratic_subject:0 "Dominion of Western Canada"
+  P29_SOV_democratic_subject_DEF:0 "the Dominion of Western Canada"
 
   P30_SOV_democratic_subject:0 "Republic of North Africa"
   P30_SOV_democratic_subject_DEF:0 "the Republic of North Africa"
@@ -4569,8 +4569,8 @@
   P35_SOV_democratic_subject:0 "Republic of West Africa"
   P35_SOV_democratic_subject_DEF:0 "the Republic of West Africa"
 
-  P36_SOV_democratic_subject:0 "Republic of South Africa"
-  P36_SOV_democratic_subject_DEF:0 "the Republic of South Africa"
+  P36_SOV_democratic_subject:0 "Union of South Africa"
+  P36_SOV_democratic_subject_DEF:0 "the Union of South Africa"
 
   P37_SOV_democratic_subject:0 "Republic of India"
   P37_SOV_democratic_subject_DEF:0 "the Republic of India"
@@ -4602,8 +4602,8 @@
   P56_SOV_democratic_subject:0 "Republic of Peru"
   P56_SOV_democratic_subject_DEF:0 "the Republic of Peru"
 
-  P57_SOV_democratic_subject:0 "Republic of Brazil"
-  P57_SOV_democratic_subject_DEF:0 "the Republic of Brazil"
+  P57_SOV_democratic_subject:0 "Federative Republic of Brazil"
+  P57_SOV_democratic_subject_DEF:0 "the Federative Republic of Brazil"
 
   P58_SOV_democratic_subject:0 "Republic of Mexico"
   P58_SOV_democratic_subject_DEF:0 "the Republic of Mexico"
@@ -4650,8 +4650,8 @@
   P72_SOV_democratic_subject:0 "Republic of Korea"
   P72_SOV_democratic_subject_DEF:0 "the Republic of Korea"
 
-  P73_SOV_democratic_subject:0 "Republic of Ireland"
-  P73_SOV_democratic_subject_DEF:0 "the Republic of Ireland"
+  P73_SOV_democratic_subject:0 "Irish Free State"
+  P73_SOV_democratic_subject_DEF:0 "the Irish Free State"
 
   P74_SOV_democratic_subject:0 "Republic of Sweden"
   P74_SOV_democratic_subject_DEF:0 "the Republic of Sweden"
@@ -4662,8 +4662,8 @@
   P76_SOV_democratic_subject:0 "Republic of Afghanistan"
   P76_SOV_democratic_subject_DEF:0 "the Republic of Afghanistan"
 
-  P77_SOV_democratic_subject:0 "Republic of Austria"
-  P77_SOV_democratic_subject_DEF:0 "the Republic of Austria"
+  P77_SOV_democratic_subject:0 "Federal Republic of Austria"
+  P77_SOV_democratic_subject_DEF:0 "the Federal Republic of Austria"
 
   P78_SOV_democratic_subject:0 "Swiss Confederation"
   P78_SOV_democratic_subject_DEF:0 "the Swiss Confederation"
@@ -4810,8 +4810,8 @@
   P02_SOV_neutrality_subject:0 "Kingdom of Great Britain"
   P02_SOV_neutrality_subject_DEF:0 "the Kingdom of Great Britain"
 
-  P03_SOV_neutrality_subject:0 "Kingdom of Arabia"
-  P03_SOV_neutrality_subject_DEF:0 "the Kingdom of Arabia"
+  P03_SOV_neutrality_subject:0 "Emirate of Arabia"
+  P03_SOV_neutrality_subject_DEF:0 "the Emirate of Arabia"
 
   P04_SOV_neutrality_subject:0 "Baltic Governorate"
   P04_SOV_neutrality_subject_DEF:0 "the Baltic Governorate"
@@ -4831,8 +4831,8 @@
   P09_SOV_neutrality_subject:0 "Kingdom of Hungary"
   P09_SOV_neutrality_subject_DEF:0 "the Kingdom of Hungary"
 
-  P10_SOV_neutrality_subject:0 "Kingdom of East Africa"
-  P10_SOV_neutrality_subject_DEF:0 "the Kingdom of East Africa"
+  P10_SOV_neutrality_subject:0 "Sultanate of East Africa"
+  P10_SOV_neutrality_subject_DEF:0 "the Sultanate of East Africa"
 
   P11_SOV_neutrality_subject:0 "Kingdom of Eastern Canada"
   P11_SOV_neutrality_subject_DEF:0 "the Kingdom of Eastern Canada"
@@ -4876,8 +4876,8 @@
   P29_SOV_neutrality_subject:0 "Kingdom of Western Canada"
   P29_SOV_neutrality_subject_DEF:0 "the Kingdom of Western Canada"
 
-  P30_SOV_neutrality_subject:0 "Kingdom of North Africa"
-  P30_SOV_neutrality_subject_DEF:0 "the Kingdom of North Africa"
+  P30_SOV_neutrality_subject:0 "Sultanate of North Africa"
+  P30_SOV_neutrality_subject_DEF:0 "the Sultanate of North Africa"
 
   P31_SOV_neutrality_subject:0 "Kingdom of Westphalia"
   P31_SOV_neutrality_subject_DEF:0 "the Kingdom of Westphalia"
@@ -4900,8 +4900,8 @@
   P37_SOV_neutrality_subject:0 "Empire of India"
   P37_SOV_neutrality_subject_DEF:0 "the Empire of India"
 
-  P38_SOV_neutrality_subject:0 "Kingdom of Bengal"
-  P38_SOV_neutrality_subject_DEF:0 "the Kingdom of Bengal"
+  P38_SOV_neutrality_subject:0 "Nawabate of Bengal"
+  P38_SOV_neutrality_subject_DEF:0 "the Nawabate of Bengal"
 
   P47_SOV_neutrality_subject:0 "Bogd Khanate of Mongolia"
   P47_SOV_neutrality_subject_DEF:0 "the Bogd Khanate of Mongolia"
@@ -5132,8 +5132,8 @@
   P01_SOV_fascism_subject:0 "National State of Colombia"
   P01_SOV_fascism_subject_DEF:0 "the National State of Colombia"
 
-  P02_SOV_fascism_subject:0 "National State of Great Britain"
-  P02_SOV_fascism_subject_DEF:0 "the National State of Great Britain"
+  P02_SOV_fascism_subject:0 "British Union State"
+  P02_SOV_fascism_subject_DEF:0 "the British Union State"
 
   P03_SOV_fascism_subject:0 "National State of Arabia"
   P03_SOV_fascism_subject_DEF:0 "the National State of Arabia"
@@ -5141,8 +5141,8 @@
   P04_SOV_fascism_subject:0 "Russian Protectorate of the Baltic"
   P04_SOV_fascism_subject_DEF:0 "the Russian Protectorate of the Baltic"
 
-  P05_SOV_fascism_subject:0 "National State of the Netherlands"
-  P05_SOV_fascism_subject_DEF:0 "the National State of the Netherlands"
+  P05_SOV_fascism_subject:0 "Dutch National State"
+  P05_SOV_fascism_subject_DEF:0 "the Dutch National State"
 
   P06_SOV_fascism_subject:0 "National State of the Caribbean"
   P06_SOV_fascism_subject_DEF:0 "the National State of the Caribbean"
@@ -5153,8 +5153,8 @@
   P08_SOV_fascism_subject:0 "National State of Central America"
   P08_SOV_fascism_subject_DEF:0 "the National State of Central America"
 
-  P09_SOV_fascism_subject:0 "National State of Hungary"
-  P09_SOV_fascism_subject_DEF:0 "the National State of Hungary"
+  P09_SOV_fascism_subject:0 "Kingdom of Hungary"
+  P09_SOV_fascism_subject_DEF:0 "the Kingdom of Hungary"
 
   P10_SOV_fascism_subject:0 "National State of East Africa"
   P10_SOV_fascism_subject_DEF:0 "the National State of East Africa"
@@ -5165,14 +5165,14 @@
   P12_SOV_fascism_subject:0 "Russian Protectorate of Finland"
   P12_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Finland"
 
-  P13_SOV_fascism_subject:0 "National State of Germany"
-  P13_SOV_fascism_subject_DEF:0 "the National State of Germany"
+  P13_SOV_fascism_subject:0 "German National State"
+  P13_SOV_fascism_subject_DEF:0 "the German National State"
 
-  P14_SOV_fascism_subject:0 "National State of Greece"
-  P14_SOV_fascism_subject_DEF:0 "the National State of Greece"
+  P14_SOV_fascism_subject:0 "Hellenic State"
+  P14_SOV_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_SOV_fascism_subject:0 "National State of Iberia"
-  P15_SOV_fascism_subject_DEF:0 "the National State of Iberia"
+  P15_SOV_fascism_subject:0 "Spanish State"
+  P15_SOV_fascism_subject_DEF:0 "the Spanish State"
 
   P16_SOV_fascism_subject:0 "National State of Indochina"
   P16_SOV_fascism_subject_DEF:0 "the National State of Indochina"
@@ -5186,8 +5186,8 @@
   P22_SOV_fascism_subject:0 "National State of Quebec"
   P22_SOV_fascism_subject_DEF:0 "the National State of Quebec"
 
-  P24_SOV_fascism_subject:0 "National State of Scandinavia"
-  P24_SOV_fascism_subject_DEF:0 "the National State of Scandinavia"
+  P24_SOV_fascism_subject:0 "Nordic State"
+  P24_SOV_fascism_subject_DEF:0 "the Nordic State"
 
   P25_SOV_fascism_subject:0 "National State of South Germany"
   P25_SOV_fascism_subject_DEF:0 "the National State of South Germany"
@@ -5231,11 +5231,11 @@
   P47_SOV_fascism_subject:0 "Russian Protectorate of Mongolia"
   P47_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Mongolia"
 
-  P49_SOV_fascism_subject:0 "National State of Bulgaria"
-  P49_SOV_fascism_subject_DEF:0 "the National State of Bulgaria"
+  P49_SOV_fascism_subject:0 "Kingdom of Bulgaria"
+  P49_SOV_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
 
-  P50_SOV_fascism_subject:0 "National State of Yugoslavia"
-  P50_SOV_fascism_subject_DEF:0 "the National State of Yugoslavia"
+  P50_SOV_fascism_subject:0 "State of Yugoslavia"
+  P50_SOV_fascism_subject_DEF:0 "the State of Yugoslavia"
 
   P51_SOV_fascism_subject:0 "Russian Protectorate of Turkestan"
   P51_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Turkestan"
@@ -5252,23 +5252,23 @@
   P56_SOV_fascism_subject:0 "National State of Peru"
   P56_SOV_fascism_subject_DEF:0 "the National State of Peru"
 
-  P57_SOV_fascism_subject:0 "National State of Brazil"
-  P57_SOV_fascism_subject_DEF:0 "the National State of Brazil"
+  P57_SOV_fascism_subject:0 "Integralist State of Brazil"
+  P57_SOV_fascism_subject_DEF:0 "the Integralist State of Brazil"
 
-  P58_SOV_fascism_subject:0 "National State of Mexico"
-  P58_SOV_fascism_subject_DEF:0 "the National State of Mexico"
+  P58_SOV_fascism_subject:0 "Synarchist State of Mexico"
+  P58_SOV_fascism_subject_DEF:0 "the Synarchist State of Mexico"
 
-  P59_SOV_fascism_subject:0 "National State of Bohemia"
-  P59_SOV_fascism_subject_DEF:0 "the National State of Bohemia"
+  P59_SOV_fascism_subject:0 "Protectorate of Bohemia"
+  P59_SOV_fascism_subject_DEF:0 "the Protectorate of Bohemia"
 
-  P60_SOV_fascism_subject:0 "National State of Belgium"
-  P60_SOV_fascism_subject_DEF:0 "the National State of Belgium"
+  P60_SOV_fascism_subject:0 "Rexist State of Belgium"
+  P60_SOV_fascism_subject_DEF:0 "the Rexist State of Belgium"
 
-  P61_SOV_fascism_subject:0 "National State of Denmark"
-  P61_SOV_fascism_subject_DEF:0 "the National State of Denmark"
+  P61_SOV_fascism_subject:0 "Kingdom of Denmark"
+  P61_SOV_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_SOV_fascism_subject:0 "National State of Northern France"
-  P62_SOV_fascism_subject_DEF:0 "the National State of Northern France"
+  P62_SOV_fascism_subject:0 "French State"
+  P62_SOV_fascism_subject_DEF:0 "the French State"
 
   P63_SOV_fascism_subject:0 "National State of Southern France"
   P63_SOV_fascism_subject_DEF:0 "the National State of Southern France"
@@ -5276,8 +5276,8 @@
   P64_SOV_fascism_subject:0 "National State of the Alps"
   P64_SOV_fascism_subject_DEF:0 "the National State of the Alps"
 
-  P65_SOV_fascism_subject:0 "National State of Norway"
-  P65_SOV_fascism_subject_DEF:0 "the National State of Norway"
+  P65_SOV_fascism_subject:0 "Norwegian National State"
+  P65_SOV_fascism_subject_DEF:0 "the Norwegian National State"
 
   P66_SOV_fascism_subject:0 "Hetman State of Ukraine"
   P66_SOV_fascism_subject_DEF:0 "the Hetman State of Ukraine"
@@ -5285,11 +5285,11 @@
   P67_SOV_fascism_subject:0 "National State of the Levant"
   P67_SOV_fascism_subject_DEF:0 "the National State of the Levant"
 
-  P68_SOV_fascism_subject:0 "National State of Turkey"
-  P68_SOV_fascism_subject_DEF:0 "the National State of Turkey"
+  P68_SOV_fascism_subject:0 "Turanist State of Turkey"
+  P68_SOV_fascism_subject_DEF:0 "the Turanist State of Turkey"
 
-  P69_SOV_fascism_subject:0 "National State of Iraq"
-  P69_SOV_fascism_subject_DEF:0 "the National State of Iraq"
+  P69_SOV_fascism_subject:0 "Golden Square Republic of Iraq"
+  P69_SOV_fascism_subject_DEF:0 "the Golden Square Republic of Iraq"
 
   P70_SOV_fascism_subject:0 "National State of Kurdistan"
   P70_SOV_fascism_subject_DEF:0 "the National State of Kurdistan"
@@ -5300,11 +5300,11 @@
   P72_SOV_fascism_subject:0 "National State of Korea"
   P72_SOV_fascism_subject_DEF:0 "the National State of Korea"
 
-  P73_SOV_fascism_subject:0 "National State of Ireland"
-  P73_SOV_fascism_subject_DEF:0 "the National State of Ireland"
+  P73_SOV_fascism_subject:0 "Irish Corporate State"
+  P73_SOV_fascism_subject_DEF:0 "the Irish Corporate State"
 
-  P74_SOV_fascism_subject:0 "National State of Sweden"
-  P74_SOV_fascism_subject_DEF:0 "the National State of Sweden"
+  P74_SOV_fascism_subject:0 "Swedish National State"
+  P74_SOV_fascism_subject_DEF:0 "the Swedish National State"
 
   P75_SOV_fascism_subject:0 "National State of Pakistan"
   P75_SOV_fascism_subject_DEF:0 "the National State of Pakistan"
@@ -5312,14 +5312,14 @@
   P76_SOV_fascism_subject:0 "National State of Afghanistan"
   P76_SOV_fascism_subject_DEF:0 "the National State of Afghanistan"
 
-  P77_SOV_fascism_subject:0 "National State of Austria"
-  P77_SOV_fascism_subject_DEF:0 "the National State of Austria"
+  P77_SOV_fascism_subject:0 "Federal State of Austria"
+  P77_SOV_fascism_subject_DEF:0 "the Federal State of Austria"
 
   P78_SOV_fascism_subject:0 "National State of Switzerland"
   P78_SOV_fascism_subject_DEF:0 "the National State of Switzerland"
 
-  P79_SOV_fascism_subject:0 "National State of Romania"
-  P79_SOV_fascism_subject_DEF:0 "the National State of Romania"
+  P79_SOV_fascism_subject:0 "National Legionary State of Romania"
+  P79_SOV_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
   P80_SOV_fascism_subject:0 "National State of England"
   P80_SOV_fascism_subject_DEF:0 "the National State of England"
@@ -5339,23 +5339,23 @@
   P85_SOV_fascism_subject:0 "National State of Greenland"
   P85_SOV_fascism_subject_DEF:0 "the National State of Greenland"
 
-  P86_SOV_fascism_subject:0 "National State of Croatia"
-  P86_SOV_fascism_subject_DEF:0 "the National State of Croatia"
+  P86_SOV_fascism_subject:0 "Independent State of Croatia"
+  P86_SOV_fascism_subject_DEF:0 "the Independent State of Croatia"
 
-  P87_SOV_fascism_subject:0 "National State of Slovenia"
-  P87_SOV_fascism_subject_DEF:0 "the National State of Slovenia"
+  P87_SOV_fascism_subject:0 "State of Slovenia"
+  P87_SOV_fascism_subject_DEF:0 "the State of Slovenia"
 
-  P88_SOV_fascism_subject:0 "National State of Bosnia"
-  P88_SOV_fascism_subject_DEF:0 "the National State of Bosnia"
+  P88_SOV_fascism_subject:0 "State of Bosnia-Herzegovina"
+  P88_SOV_fascism_subject_DEF:0 "the State of Bosnia-Herzegovina"
 
-  P89_SOV_fascism_subject:0 "National State of Serbia"
-  P89_SOV_fascism_subject_DEF:0 "the National State of Serbia"
+  P89_SOV_fascism_subject:0 "State of Serbia"
+  P89_SOV_fascism_subject_DEF:0 "the State of Serbia"
 
-  P90_SOV_fascism_subject:0 "National State of Montenegro"
-  P90_SOV_fascism_subject_DEF:0 "the National State of Montenegro"
+  P90_SOV_fascism_subject:0 "Kingdom of Montenegro"
+  P90_SOV_fascism_subject_DEF:0 "the Kingdom of Montenegro"
 
-  P91_SOV_fascism_subject:0 "National State of Albania"
-  P91_SOV_fascism_subject_DEF:0 "the National State of Albania"
+  P91_SOV_fascism_subject:0 "Albanian Regency"
+  P91_SOV_fascism_subject_DEF:0 "the Albanian Regency"
 
   P92_SOV_fascism_subject:0 "National State of Lombardy-Venetia"
   P92_SOV_fascism_subject_DEF:0 "the National State of Lombardy-Venetia"
@@ -5375,35 +5375,35 @@
   P97_SOV_fascism_subject:0 "National State of the Two Sicilies"
   P97_SOV_fascism_subject_DEF:0 "the National State of the Two Sicilies"
 
-  P98_SOV_fascism_subject:0 "National State of Macedonia"
-  P98_SOV_fascism_subject_DEF:0 "the National State of Macedonia"
+  P98_SOV_fascism_subject:0 "State of Macedonia"
+  P98_SOV_fascism_subject_DEF:0 "the State of Macedonia"
 
-  P99_SOV_fascism_subject:0 "National State of Hokkaido"
-  P99_SOV_fascism_subject_DEF:0 "the National State of Hokkaido"
+  P99_SOV_fascism_subject:0 "Russian Protectorate of Hokkaido"
+  P99_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Hokkaido"
 
-  Q01_SOV_fascism_subject:0 "National State of Tohoku"
-  Q01_SOV_fascism_subject_DEF:0 "the National State of Tohoku"
+  Q01_SOV_fascism_subject:0 "Russian Protectorate of Tohoku"
+  Q01_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Tohoku"
 
-  Q02_SOV_fascism_subject:0 "National State of Kanto"
-  Q02_SOV_fascism_subject_DEF:0 "the National State of Kanto"
+  Q02_SOV_fascism_subject:0 "Russian Protectorate of Kanto"
+  Q02_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Kanto"
 
-  Q03_SOV_fascism_subject:0 "National State of Chubu"
-  Q03_SOV_fascism_subject_DEF:0 "the National State of Chubu"
+  Q03_SOV_fascism_subject:0 "Russian Protectorate of Chubu"
+  Q03_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Chubu"
 
-  Q04_SOV_fascism_subject:0 "National State of Kansai"
-  Q04_SOV_fascism_subject_DEF:0 "the National State of Kansai"
+  Q04_SOV_fascism_subject:0 "Russian Protectorate of Kansai"
+  Q04_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Kansai"
 
-  Q05_SOV_fascism_subject:0 "National State of Chugoku"
-  Q05_SOV_fascism_subject_DEF:0 "the National State of Chugoku"
+  Q05_SOV_fascism_subject:0 "Russian Protectorate of Chugoku"
+  Q05_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Chugoku"
 
-  Q06_SOV_fascism_subject:0 "National State of Shikoku"
-  Q06_SOV_fascism_subject_DEF:0 "the National State of Shikoku"
+  Q06_SOV_fascism_subject:0 "Russian Protectorate of Shikoku"
+  Q06_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Shikoku"
 
-  Q07_SOV_fascism_subject:0 "National State of Kyushu"
-  Q07_SOV_fascism_subject_DEF:0 "the National State of Kyushu"
+  Q07_SOV_fascism_subject:0 "Russian Protectorate of Kyushu"
+  Q07_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Kyushu"
 
-  Q08_SOV_fascism_subject:0 "National State of Manchuria"
-  Q08_SOV_fascism_subject_DEF:0 "the National State of Manchuria"
+  Q08_SOV_fascism_subject:0 "Russian Protectorate of Manchuria"
+  Q08_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Manchuria"
 
   Q09_SOV_fascism_subject:0 "National State of Inner Mongolia"
   Q09_SOV_fascism_subject_DEF:0 "the National State of Inner Mongolia"
