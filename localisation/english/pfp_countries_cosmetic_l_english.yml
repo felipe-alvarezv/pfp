@@ -6269,8 +6269,8 @@
   P18_FRA_neutrality_subject:0 "Imperial Administration of the Great Lakes"
   P18_FRA_neutrality_subject_DEF:0 "the Imperial Administration of the Great Lakes"
 
-  P19_FRA_neutrality_subject:0 "Kingdom of Westphalia"
-  P19_FRA_neutrality_subject_DEF:0 "the Kingdom of Westphalia"
+  P19_FRA_neutrality_subject:0 "Kingdom of Hanover"
+  P19_FRA_neutrality_subject_DEF:0 "the Kingdom of Hanover"
 
   P20_FRA_neutrality_subject:0 "Imperial Administration of New England"
   P20_FRA_neutrality_subject_DEF:0 "the Imperial Administration of New England"
@@ -6488,8 +6488,8 @@
   P91_FRA_neutrality_subject:0 "Kingdom of Albania"
   P91_FRA_neutrality_subject_DEF:0 "the Kingdom of Albania"
 
-  P92_FRA_neutrality_subject:0 "Kingdom of Italy"
-  P92_FRA_neutrality_subject_DEF:0 "the Kingdom of Italy"
+  P92_FRA_neutrality_subject:0 "Kingdom of Lombardy-Venetia"
+  P92_FRA_neutrality_subject_DEF:0 "the Kingdom of Lombardy-Venetia"
 
   P93_FRA_neutrality_subject:0 "Imperial Province of Piedmont"
   P93_FRA_neutrality_subject_DEF:0 "the Imperial Province of Piedmont"
@@ -6639,8 +6639,8 @@
   P18_FRA_fascism_subject:0 "French Military Administration of the Great Lakes"
   P18_FRA_fascism_subject_DEF:0 "the French Military Administration of the Great Lakes"
 
-  P19_FRA_fascism_subject:0 "Westphalian State"
-  P19_FRA_fascism_subject_DEF:0 "the Westphalian State"
+  P19_FRA_fascism_subject:0 "National State of North Germany"
+  P19_FRA_fascism_subject_DEF:0 "the National State of North Germany"
 
   P20_FRA_fascism_subject:0 "French Military Administration of New England"
   P20_FRA_fascism_subject_DEF:0 "the French Military Administration of New England"
