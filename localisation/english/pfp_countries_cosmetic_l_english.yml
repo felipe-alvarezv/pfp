@@ -1075,8 +1075,8 @@
   P04_GER_fascism_subject:0 "Reichskommissariat Ostland"
   P04_GER_fascism_subject_DEF:0 "the Reichskommissariat Ostland"
 
-  P05_GER_fascism_subject:0 "Dutch National State"
-  P05_GER_fascism_subject_DEF:0 "the Dutch National State"
+  P05_GER_fascism_subject:0 "Reichskommissariat Netherlands"
+  P05_GER_fascism_subject_DEF:0 "the Reichskommissariat Netherlands"
 
   P06_GER_fascism_subject:0 "National State of the West Indies"
   P06_GER_fascism_subject_DEF:0 "the National State of the West Indies"
@@ -1159,35 +1159,35 @@
   P38_GER_fascism_subject:0 "National State of Bengal"
   P38_GER_fascism_subject_DEF:0 "the National State of Bengal"
 
-  P39_GER_fascism_subject:0 "German Protectorate of Central Russia"
-  P39_GER_fascism_subject_DEF:0 "the German Protectorate of Central Russia"
+  P39_GER_fascism_subject:0 "Reichskommissariat Moskowien"
+  P39_GER_fascism_subject_DEF:0 "the Reichskommissariat Moskowien"
 
-  P40_GER_fascism_subject:0 "German Protectorate of Southern Russia"
-  P40_GER_fascism_subject_DEF:0 "the German Protectorate of Southern Russia"
+  P40_GER_fascism_subject:0 "German Military Administration of Southern Russia"
+  P40_GER_fascism_subject_DEF:0 "the German Military Administration of Southern Russia"
 
-  P41_GER_fascism_subject:0 "German Protectorate of the Caucasus"
-  P41_GER_fascism_subject_DEF:0 "the German Protectorate of the Caucasus"
+  P41_GER_fascism_subject:0 "Reichskommissariat Kaukasien"
+  P41_GER_fascism_subject_DEF:0 "the Reichskommissariat Kaukasien"
 
-  P42_GER_fascism_subject:0 "National State of Volga"
-  P42_GER_fascism_subject_DEF:0 "the National State of Volga"
+  P42_GER_fascism_subject:0 "Reichskommissariat Wolga-Ural"
+  P42_GER_fascism_subject_DEF:0 "the Reichskommissariat Wolga-Ural"
 
-  P43_GER_fascism_subject:0 "German Protectorate of Northwestern Russia"
-  P43_GER_fascism_subject_DEF:0 "the German Protectorate of Northwestern Russia"
+  P43_GER_fascism_subject:0 "German Military Administration of Northwestern Russia"
+  P43_GER_fascism_subject_DEF:0 "the German Military Administration of Northwestern Russia"
 
-  P44_GER_fascism_subject:0 "German Protectorate of the Urals"
-  P44_GER_fascism_subject_DEF:0 "the German Protectorate of the Urals"
+  P44_GER_fascism_subject:0 "German Military Administration of the Urals"
+  P44_GER_fascism_subject_DEF:0 "the German Military Administration of the Urals"
 
-  P45_GER_fascism_subject:0 "German Protectorate of Siberia"
-  P45_GER_fascism_subject_DEF:0 "the German Protectorate of Siberia"
+  P45_GER_fascism_subject:0 "German Military Administration of Siberia"
+  P45_GER_fascism_subject_DEF:0 "the German Military Administration of Siberia"
 
-  P46_GER_fascism_subject:0 "German Protectorate of the Far East"
-  P46_GER_fascism_subject_DEF:0 "the German Protectorate of the Far East"
+  P46_GER_fascism_subject:0 "German Military Administration of the Far East"
+  P46_GER_fascism_subject_DEF:0 "the German Military Administration of the Far East"
 
   P47_GER_fascism_subject:0 "Mongolian National State"
   P47_GER_fascism_subject_DEF:0 "the Mongolian National State"
 
-  P48_GER_fascism_subject:0 "German Protectorate of Byelorussia"
-  P48_GER_fascism_subject_DEF:0 "the German Protectorate of Byelorussia"
+  P48_GER_fascism_subject:0 "Reichskommissariat Weißruthenien"
+  P48_GER_fascism_subject_DEF:0 "the Reichskommissariat Weißruthenien"
 
   P49_GER_fascism_subject:0 "Kingdom of Bulgaria"
   P49_GER_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
@@ -1195,8 +1195,8 @@
   P50_GER_fascism_subject:0 "State of Yugoslavia"
   P50_GER_fascism_subject_DEF:0 "the State of Yugoslavia"
 
-  P51_GER_fascism_subject:0 "German Protectorate of Turkestan"
-  P51_GER_fascism_subject_DEF:0 "the German Protectorate of Turkestan"
+  P51_GER_fascism_subject:0 "Reichskommissariat Turkestan"
+  P51_GER_fascism_subject_DEF:0 "the Reichskommissariat Turkestan"
 
   P52_GER_fascism_subject:0 "National State of Nepal"
   P52_GER_fascism_subject_DEF:0 "the National State of Nepal"
@@ -1222,20 +1222,20 @@
   P59_GER_fascism_subject:0 "Protectorate of Bohemia and Moravia"
   P59_GER_fascism_subject_DEF:0 "the Protectorate of Bohemia and Moravia"
 
-  P60_GER_fascism_subject:0 "Rexist State of Belgium"
-  P60_GER_fascism_subject_DEF:0 "the Rexist State of Belgium"
+  P60_GER_fascism_subject:0 "Reichskommissariat Belgium"
+  P60_GER_fascism_subject_DEF:0 "the Reichskommissariat Belgium"
 
   P61_GER_fascism_subject:0 "Kingdom of Denmark"
   P61_GER_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_GER_fascism_subject:0 "National State of Northern France"
-  P62_GER_fascism_subject_DEF:0 "the National State of Northern France"
+  P62_GER_fascism_subject:0 "German Military Administration in Northern France"
+  P62_GER_fascism_subject_DEF:0 "the German Military Administration in Northern France"
 
   P63_GER_fascism_subject:0 "French State"
   P63_GER_fascism_subject_DEF:0 "the French State"
 
-  P64_GER_fascism_subject:0 "National State of Savoy"
-  P64_GER_fascism_subject_DEF:0 "the National State of Savoy"
+  P64_GER_fascism_subject:0 "German Military Administration of Savoy"
+  P64_GER_fascism_subject_DEF:0 "the German Military Administration of Savoy"
 
   P65_GER_fascism_subject:0 "Norwegian National State"
   P65_GER_fascism_subject_DEF:0 "the Norwegian National State"
@@ -1282,23 +1282,23 @@
   P79_GER_fascism_subject:0 "National Legionary State of Romania"
   P79_GER_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
-  P80_GER_fascism_subject:0 "National State of England"
-  P80_GER_fascism_subject_DEF:0 "the National State of England"
+  P80_GER_fascism_subject:0 "German Military Administration of England"
+  P80_GER_fascism_subject_DEF:0 "the German Military Administration of England"
 
-  P81_GER_fascism_subject:0 "National State of Scotland"
-  P81_GER_fascism_subject_DEF:0 "the National State of Scotland"
+  P81_GER_fascism_subject:0 "German Military Administration of Scotland"
+  P81_GER_fascism_subject_DEF:0 "the German Military Administration of Scotland"
 
-  P82_GER_fascism_subject:0 "National State of Wales"
-  P82_GER_fascism_subject_DEF:0 "the National State of Wales"
+  P82_GER_fascism_subject:0 "German Military Administration of Wales"
+  P82_GER_fascism_subject_DEF:0 "the German Military Administration of Wales"
 
-  P83_GER_fascism_subject:0 "National State of Iceland"
-  P83_GER_fascism_subject_DEF:0 "the National State of Iceland"
+  P83_GER_fascism_subject:0 "German Military Administration of Iceland"
+  P83_GER_fascism_subject_DEF:0 "the German Military Administration of Iceland"
 
-  P84_GER_fascism_subject:0 "National State of Northern Ireland"
-  P84_GER_fascism_subject_DEF:0 "the National State of Northern Ireland"
+  P84_GER_fascism_subject:0 "German Military Administration of Northern Ireland"
+  P84_GER_fascism_subject_DEF:0 "the German Military Administration of Northern Ireland"
 
-  P85_GER_fascism_subject:0 "National State of Greenland"
-  P85_GER_fascism_subject_DEF:0 "the National State of Greenland"
+  P85_GER_fascism_subject:0 "German Military Administration of Greenland"
+  P85_GER_fascism_subject_DEF:0 "the German Military Administration of Greenland"
 
   P86_GER_fascism_subject:0 "Independent State of Croatia"
   P86_GER_fascism_subject_DEF:0 "the Independent State of Croatia"
@@ -1318,23 +1318,23 @@
   P91_GER_fascism_subject:0 "Albanian Regency"
   P91_GER_fascism_subject_DEF:0 "the Albanian Regency"
 
-  P92_GER_fascism_subject:0 "National State of Lombardy-Venetia"
-  P92_GER_fascism_subject_DEF:0 "the National State of Lombardy-Venetia"
+  P92_GER_fascism_subject:0 "Italian Social Republic of Lombardy-Venetia"
+  P92_GER_fascism_subject_DEF:0 "the Italian Social Republic of Lombardy-Venetia"
 
-  P93_GER_fascism_subject:0 "National State of Piedmont"
-  P93_GER_fascism_subject_DEF:0 "the National State of Piedmont"
+  P93_GER_fascism_subject:0 "Italian Social Republic of Piedmont"
+  P93_GER_fascism_subject_DEF:0 "the Italian Social Republic of Piedmont"
 
-  P94_GER_fascism_subject:0 "National State of Sardinia"
-  P94_GER_fascism_subject_DEF:0 "the National State of Sardinia"
+  P94_GER_fascism_subject:0 "Italian Social Republic of Sardinia"
+  P94_GER_fascism_subject_DEF:0 "the Italian Social Republic of Sardinia"
 
-  P95_GER_fascism_subject:0 "National State of Tuscany"
-  P95_GER_fascism_subject_DEF:0 "the National State of Tuscany"
+  P95_GER_fascism_subject:0 "Italian Social Republic of Tuscany"
+  P95_GER_fascism_subject_DEF:0 "the Italian Social Republic of Tuscany"
 
-  P96_GER_fascism_subject:0 "National State of Rome"
-  P96_GER_fascism_subject_DEF:0 "the National State of Rome"
+  P96_GER_fascism_subject:0 "Italian Social Republic of Latium"
+  P96_GER_fascism_subject_DEF:0 "the Italian Social Republic of Latium"
 
-  P97_GER_fascism_subject:0 "National State of Southern Italy"
-  P97_GER_fascism_subject_DEF:0 "the National State of Southern Italy"
+  P97_GER_fascism_subject:0 "Italian Social Republic of Southern Italy"
+  P97_GER_fascism_subject_DEF:0 "the Italian Social Republic of Southern Italy"
 
   P98_GER_fascism_subject:0 "National State of Macedonia"
   P98_GER_fascism_subject_DEF:0 "the National State of Macedonia"
