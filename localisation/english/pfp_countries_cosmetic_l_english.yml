@@ -1571,9 +1571,6 @@
   P52_ITA_communism_subject:0 "People's Republic of Nepal"
   P52_ITA_communism_subject_DEF:0 "the People's Republic of Nepal"
 
-  P53_ITA_communism_subject:0 "People's Republic of Mittelafrika"
-  P53_ITA_communism_subject_DEF:0 "the People's Republic of Mittelafrika"
-
   P54_ITA_communism_subject:0 "People's Republic of Chile"
   P54_ITA_communism_subject_DEF:0 "the People's Republic of Chile"
 
@@ -1923,9 +1920,6 @@
   P52_ITA_democratic_subject:0 "Republic of Nepal"
   P52_ITA_democratic_subject_DEF:0 "the Republic of Nepal"
 
-  P53_ITA_democratic_subject:0 "Republic of Mittelafrika"
-  P53_ITA_democratic_subject_DEF:0 "the Republic of Mittelafrika"
-
   P54_ITA_democratic_subject:0 "Republic of Chile"
   P54_ITA_democratic_subject_DEF:0 "the Republic of Chile"
 
@@ -2274,9 +2268,6 @@
 
   P52_ITA_neutrality_subject:0 "Kingdom of Nepal"
   P52_ITA_neutrality_subject_DEF:0 "the Kingdom of Nepal"
-
-  P53_ITA_neutrality_subject:0 "Kingdom of Mittelafrika"
-  P53_ITA_neutrality_subject_DEF:0 "the Kingdom of Mittelafrika"
 
   P54_ITA_neutrality_subject:0 "Kingdom of Chile"
   P54_ITA_neutrality_subject_DEF:0 "the Kingdom of Chile"
@@ -2628,9 +2619,6 @@
   P52_ITA_fascism_subject:0 "National State of Nepal"
   P52_ITA_fascism_subject_DEF:0 "the National State of Nepal"
 
-  P53_ITA_fascism_subject:0 "Italian Protectorate of Mittelafrika"
-  P53_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Mittelafrika"
-
   P54_ITA_fascism_subject:0 "National State of Chile"
   P54_ITA_fascism_subject_DEF:0 "the National State of Chile"
 
@@ -2965,9 +2953,6 @@
   P52_JAP_communism_subject:0 "People's Republic of Nepal"
   P52_JAP_communism_subject_DEF:0 "the People's Republic of Nepal"
 
-  P53_JAP_communism_subject:0 "People's Republic of Mittelafrika"
-  P53_JAP_communism_subject_DEF:0 "the People's Republic of Mittelafrika"
-
   P54_JAP_communism_subject:0 "People's Republic of Chile"
   P54_JAP_communism_subject_DEF:0 "the People's Republic of Chile"
 
@@ -3295,9 +3280,6 @@
 
   P52_JAP_democratic_subject:0 "Republic of Nepal"
   P52_JAP_democratic_subject_DEF:0 "the Republic of Nepal"
-
-  P53_JAP_democratic_subject:0 "Republic of Mittelafrika"
-  P53_JAP_democratic_subject_DEF:0 "the Republic of Mittelafrika"
 
   P54_JAP_democratic_subject:0 "Republic of Chile"
   P54_JAP_democratic_subject_DEF:0 "the Republic of Chile"
@@ -3642,9 +3624,6 @@
   P52_JAP_neutrality_subject:0 "Kingdom of Nepal"
   P52_JAP_neutrality_subject_DEF:0 "the Kingdom of Nepal"
 
-  P53_JAP_neutrality_subject:0 "Kingdom of Mittelafrika"
-  P53_JAP_neutrality_subject_DEF:0 "the Kingdom of Mittelafrika"
-
   P54_JAP_neutrality_subject:0 "Kingdom of Chile"
   P54_JAP_neutrality_subject_DEF:0 "the Kingdom of Chile"
 
@@ -3988,9 +3967,6 @@
   P52_JAP_fascism_subject:0 "State of Nepal"
   P52_JAP_fascism_subject_DEF:0 "the State of Nepal"
 
-  P53_JAP_fascism_subject:0 "State of Mittelafrika"
-  P53_JAP_fascism_subject_DEF:0 "the State of Mittelafrika"
-
   P54_JAP_fascism_subject:0 "State of Chile"
   P54_JAP_fascism_subject_DEF:0 "the State of Chile"
 
@@ -4291,9 +4267,6 @@
 
   P52_SOV_communism_subject:0 "People's Republic of Nepal"
   P52_SOV_communism_subject_DEF:0 "the People's Republic of Nepal"
-
-  P53_SOV_communism_subject:0 "People's Republic of Mittelafrika"
-  P53_SOV_communism_subject_DEF:0 "the People's Republic of Mittelafrika"
 
   P54_SOV_communism_subject:0 "People's Republic of Chile"
   P54_SOV_communism_subject_DEF:0 "the People's Republic of Chile"
@@ -4620,9 +4593,6 @@
   P52_SOV_democratic_subject:0 "Republic of Nepal"
   P52_SOV_democratic_subject_DEF:0 "the Republic of Nepal"
 
-  P53_SOV_democratic_subject:0 "Republic of Mittelafrika"
-  P53_SOV_democratic_subject_DEF:0 "the Republic of Mittelafrika"
-
   P54_SOV_democratic_subject:0 "Republic of Chile"
   P54_SOV_democratic_subject_DEF:0 "the Republic of Chile"
 
@@ -4948,9 +4918,6 @@
   P52_SOV_neutrality_subject:0 "Kingdom of Nepal"
   P52_SOV_neutrality_subject_DEF:0 "the Kingdom of Nepal"
 
-  P53_SOV_neutrality_subject:0 "Kingdom of Mittelafrika"
-  P53_SOV_neutrality_subject_DEF:0 "the Kingdom of Mittelafrika"
-
   P54_SOV_neutrality_subject:0 "Kingdom of Chile"
   P54_SOV_neutrality_subject_DEF:0 "the Kingdom of Chile"
 
@@ -5275,9 +5242,6 @@
 
   P52_SOV_fascism_subject:0 "National State of Nepal"
   P52_SOV_fascism_subject_DEF:0 "the National State of Nepal"
-
-  P53_SOV_fascism_subject:0 "National State of Mittelafrika"
-  P53_SOV_fascism_subject_DEF:0 "the National State of Mittelafrika"
 
   P54_SOV_fascism_subject:0 "National State of Chile"
   P54_SOV_fascism_subject_DEF:0 "the National State of Chile"
@@ -5643,9 +5607,6 @@
   P52_FRA_communism_subject:0 "People's Republic of the Himalayan States"
   P52_FRA_communism_subject_DEF:0 "the People's Republic of the Himalayan States"
 
-  P53_FRA_communism_subject:0 "People's Republic of Central Africa"
-  P53_FRA_communism_subject_DEF:0 "the People's Republic of Central Africa"
-
   P54_FRA_communism_subject:0 "People's Republic of Chile"
   P54_FRA_communism_subject_DEF:0 "the People's Republic of Chile"
 
@@ -6000,9 +5961,6 @@
 
   P52_FRA_democratic_subject:0 "French Protectorate of the Himalayas"
   P52_FRA_democratic_subject_DEF:0 "the French Protectorate of the Himalayas"
-
-  P53_FRA_democratic_subject:0 "French Congo"
-  P53_FRA_democratic_subject_DEF:0 "the French Congo"
 
   P54_FRA_democratic_subject:0 "French Administration of Chile"
   P54_FRA_democratic_subject_DEF:0 "the French Administration of Chile"
@@ -6371,9 +6329,6 @@
   P52_FRA_neutrality_subject:0 "Imperial Protectorate of the Himalayas"
   P52_FRA_neutrality_subject_DEF:0 "the Imperial Protectorate of the Himalayas"
 
-  P53_FRA_neutrality_subject:0 "Imperial Colony of Central Africa"
-  P53_FRA_neutrality_subject_DEF:0 "the Imperial Colony of Central Africa"
-
   P54_FRA_neutrality_subject:0 "Imperial Administration of Chile"
   P54_FRA_neutrality_subject_DEF:0 "the Imperial Administration of Chile"
 
@@ -6741,9 +6696,6 @@
   P52_FRA_fascism_subject:0 "French Military Administration of the Himalayas"
   P52_FRA_fascism_subject_DEF:0 "the French Military Administration of the Himalayas"
 
-  P53_FRA_fascism_subject:0 "Colonial Government of Central Africa"
-  P53_FRA_fascism_subject_DEF:0 "the Colonial Government of Central Africa"
-
   P54_FRA_fascism_subject:0 "National State of Chile"
   P54_FRA_fascism_subject_DEF:0 "the National State of Chile"
 
@@ -7099,9 +7051,6 @@
   P52_ENG_communism_subject:0 "People's Republic of the Himalayan States"
   P52_ENG_communism_subject_DEF:0 "the People's Republic of the Himalayan States"
 
-  P53_ENG_communism_subject:0 "People's Republic of Mittelafrika"
-  P53_ENG_communism_subject_DEF:0 "the People's Republic of Mittelafrika"
-
   P54_ENG_communism_subject:0 "People's Republic of Chile"
   P54_ENG_communism_subject_DEF:0 "the People's Republic of Chile"
 
@@ -7441,9 +7390,6 @@
 
   P52_ENG_democratic_subject:0 "British Himalayan Protectorates"
   P52_ENG_democratic_subject_DEF:0 "the British Himalayan Protectorates"
-
-  P53_ENG_democratic_subject:0 "British Equatorial Africa"
-  P53_ENG_democratic_subject_DEF:0 "British Equatorial Africa"
 
   P54_ENG_democratic_subject:0 "British Administration of Chile"
   P54_ENG_democratic_subject_DEF:0 "the British Administration of Chile"
@@ -7790,9 +7736,6 @@
 
   P52_ENG_neutrality_subject:0 "Crown Protectorate of the Himalayan States"
   P52_ENG_neutrality_subject_DEF:0 "the Crown Protectorate of the Himalayan States"
-
-  P53_ENG_neutrality_subject:0 "Crown Colony of Equatorial Africa"
-  P53_ENG_neutrality_subject_DEF:0 "the Crown Colony of Equatorial Africa"
 
   P54_ENG_neutrality_subject:0 "Crown Territory of Chile"
   P54_ENG_neutrality_subject_DEF:0 "the Crown Territory of Chile"
@@ -8146,9 +8089,6 @@
   P52_ENG_fascism_subject:0 "British State of the Himalayan States"
   P52_ENG_fascism_subject_DEF:0 "the British State of the Himalayan States"
 
-  P53_ENG_fascism_subject:0 "British State of Equatorial Africa"
-  P53_ENG_fascism_subject_DEF:0 "the British State of Equatorial Africa"
-
   P54_ENG_fascism_subject:0 "British Military Administration of Chile"
   P54_ENG_fascism_subject_DEF:0 "the British Military Administration of Chile"
 
@@ -8488,9 +8428,6 @@
 
   P52_USA_communism_subject:0 "People's Republic of the Himalayas"
   P52_USA_communism_subject_DEF:0 "the People's Republic of the Himalayas"
-
-  P53_USA_communism_subject:0 "People's Republic of Central Africa"
-  P53_USA_communism_subject_DEF:0 "the People's Republic of Central Africa"
 
   P54_USA_communism_subject:0 "People's Republic of Chile"
   P54_USA_communism_subject_DEF:0 "the People's Republic of Chile"
@@ -8844,9 +8781,6 @@
   P52_USA_democratic_subject:0 "Himalayan Federation"
   P52_USA_democratic_subject_DEF:0 "the Himalayan Federation"
 
-  P53_USA_democratic_subject:0 "Republic of Central Africa"
-  P53_USA_democratic_subject_DEF:0 "the Republic of Central Africa"
-
   P54_USA_democratic_subject:0 "Republic of Chile"
   P54_USA_democratic_subject_DEF:0 "the Republic of Chile"
 
@@ -9199,9 +9133,6 @@
   P52_USA_neutrality_subject:0 "Kingdom of Nepal"
   P52_USA_neutrality_subject_DEF:0 "the Kingdom of Nepal"
 
-  P53_USA_neutrality_subject:0 "Confederate Territory of Central Africa"
-  P53_USA_neutrality_subject_DEF:0 "the Confederate Territory of Central Africa"
-
   P54_USA_neutrality_subject:0 "State of Chile"
   P54_USA_neutrality_subject_DEF:0 "the State of Chile"
 
@@ -9553,9 +9484,6 @@
 
   P52_USA_fascism_subject:0 "National State of Nepal"
   P52_USA_fascism_subject_DEF:0 "the National State of Nepal"
-
-  P53_USA_fascism_subject:0 "National State of Mittelafrika"
-  P53_USA_fascism_subject_DEF:0 "the National State of Mittelafrika"
 
   P54_USA_fascism_subject:0 "National State of Chile"
   P54_USA_fascism_subject_DEF:0 "the National State of Chile"
