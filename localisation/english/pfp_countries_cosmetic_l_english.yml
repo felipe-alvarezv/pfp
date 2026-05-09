@@ -7936,41 +7936,41 @@
   Q24_ENG_neutrality_subject_DEF:0 "the Crown Protectorate of Tibet"
 
   ## UNITED KINGDOM - FASCISM ##
-  P01_ENG_fascism_subject:0 "British Military Administration of Colombia"
-  P01_ENG_fascism_subject_DEF:0 "the British Military Administration of Colombia"
+  P01_ENG_fascism_subject:0 "British Occupation of Colombia"
+  P01_ENG_fascism_subject_DEF:0 "the British Occupation of Colombia"
 
-  P03_ENG_fascism_subject:0 "British State of Arabia"
-  P03_ENG_fascism_subject_DEF:0 "the British State of Arabia"
+  P03_ENG_fascism_subject:0 "British Occupation of Arabia"
+  P03_ENG_fascism_subject_DEF:0 "the British Occupation of Arabia"
 
-  P04_ENG_fascism_subject:0 "British Military Administration of the Baltic"
-  P04_ENG_fascism_subject_DEF:0 "the British Military Administration of the Baltic"
+  P04_ENG_fascism_subject:0 "British Occupation of the Baltic States"
+  P04_ENG_fascism_subject_DEF:0 "the British Occupation of the Baltic States"
 
-  P05_ENG_fascism_subject:0 "British Military Administration of the Netherlands"
-  P05_ENG_fascism_subject_DEF:0 "the British Military Administration of the Netherlands"
+  P05_ENG_fascism_subject:0 "British Occupation of the Netherlands"
+  P05_ENG_fascism_subject_DEF:0 "the British Occupation of the Netherlands"
 
-  P06_ENG_fascism_subject:0 "British State of the West Indies"
-  P06_ENG_fascism_subject_DEF:0 "the British State of the West Indies"
+  P06_ENG_fascism_subject:0 "British Occupation of the West Indies"
+  P06_ENG_fascism_subject_DEF:0 "the British Occupation of the West Indies"
 
-  P07_ENG_fascism_subject:0 "British State of Central Africa"
-  P07_ENG_fascism_subject_DEF:0 "the British State of Central Africa"
+  P07_ENG_fascism_subject:0 "British Occupation of Central Africa"
+  P07_ENG_fascism_subject_DEF:0 "the British Occupation of Central Africa"
 
-  P08_ENG_fascism_subject:0 "British State of Central America"
-  P08_ENG_fascism_subject_DEF:0 "the British State of Central America"
+  P08_ENG_fascism_subject:0 "British Occupation of Central America"
+  P08_ENG_fascism_subject_DEF:0 "the British Occupation of Central America"
 
   P09_ENG_fascism_subject:0 "Kingdom of Hungary"
   P09_ENG_fascism_subject_DEF:0 "the Kingdom of Hungary"
 
-  P10_ENG_fascism_subject:0 "British State of East Africa"
-  P10_ENG_fascism_subject_DEF:0 "the British State of East Africa"
+  P10_ENG_fascism_subject:0 "British Occupation of East Africa"
+  P10_ENG_fascism_subject_DEF:0 "the British Occupation of East Africa"
 
-  P11_ENG_fascism_subject:0 "British State of Eastern Canada"
-  P11_ENG_fascism_subject_DEF:0 "the British State of Eastern Canada"
+  P11_ENG_fascism_subject:0 "British Occupation of Eastern Canada"
+  P11_ENG_fascism_subject_DEF:0 "the British Occupation of Eastern Canada"
 
   P12_ENG_fascism_subject:0 "Finnish National State"
   P12_ENG_fascism_subject_DEF:0 "the Finnish National State"
 
-  P13_ENG_fascism_subject:0 "National State of Germany"
-  P13_ENG_fascism_subject_DEF:0 "the National State of Germany"
+  P13_ENG_fascism_subject:0 "British Occupation of Germany"
+  P13_ENG_fascism_subject_DEF:0 "the British Occupation of Germany"
 
   P14_ENG_fascism_subject:0 "Hellenic State"
   P14_ENG_fascism_subject_DEF:0 "the Hellenic State"
@@ -7978,209 +7978,209 @@
   P15_ENG_fascism_subject:0 "Iberian State"
   P15_ENG_fascism_subject_DEF:0 "the Iberian State"
 
-  P16_ENG_fascism_subject:0 "British Military Administration of Indochina"
-  P16_ENG_fascism_subject_DEF:0 "the British Military Administration of Indochina"
+  P16_ENG_fascism_subject:0 "British Occupation of Indochina"
+  P16_ENG_fascism_subject_DEF:0 "the British Occupation of Indochina"
 
-  P17_ENG_fascism_subject:0 "British Military Administration of the East Indies"
-  P17_ENG_fascism_subject_DEF:0 "the British Military Administration of the East Indies"
+  P17_ENG_fascism_subject:0 "British Occupation of the East Indies"
+  P17_ENG_fascism_subject_DEF:0 "the British Occupation of the East Indies"
 
-  P18_ENG_fascism_subject:0 "British Military Administration of the Great Lakes"
-  P18_ENG_fascism_subject_DEF:0 "the British Military Administration of the Great Lakes"
+  P18_ENG_fascism_subject:0 "British Occupation of the Great Lakes"
+  P18_ENG_fascism_subject_DEF:0 "the British Occupation of the Great Lakes"
 
-  P19_ENG_fascism_subject:0 "National State of North Germany"
-  P19_ENG_fascism_subject_DEF:0 "the National State of North Germany"
+  P19_ENG_fascism_subject:0 "British Occupation of Northern Germany"
+  P19_ENG_fascism_subject_DEF:0 "the British Occupation of Northern Germany"
 
-  P20_ENG_fascism_subject:0 "British Military Administration of New England"
-  P20_ENG_fascism_subject_DEF:0 "the British Military Administration of New England"
+  P20_ENG_fascism_subject:0 "British Occupation of New England"
+  P20_ENG_fascism_subject_DEF:0 "the British Occupation of New England"
 
-  P21_ENG_fascism_subject:0 "British Military Administration of Oregon"
-  P21_ENG_fascism_subject_DEF:0 "the British Military Administration of Oregon"
+  P21_ENG_fascism_subject:0 "British Occupation of Oregon"
+  P21_ENG_fascism_subject_DEF:0 "the British Occupation of Oregon"
 
-  P22_ENG_fascism_subject:0 "British State of Quebec"
-  P22_ENG_fascism_subject_DEF:0 "the British State of Quebec"
+  P22_ENG_fascism_subject:0 "British Occupation of Quebec"
+  P22_ENG_fascism_subject_DEF:0 "the British Occupation of Quebec"
 
-  P23_ENG_fascism_subject:0 "British Military Administration of the Mountain West"
-  P23_ENG_fascism_subject_DEF:0 "the British Military Administration of the Mountain West"
+  P23_ENG_fascism_subject:0 "British Occupation of the Mountain West"
+  P23_ENG_fascism_subject_DEF:0 "the British Occupation of the Mountain West"
 
   P24_ENG_fascism_subject:0 "Nordic State"
   P24_ENG_fascism_subject_DEF:0 "the Nordic State"
 
-  P25_ENG_fascism_subject:0 "National State of South Germany"
-  P25_ENG_fascism_subject_DEF:0 "the National State of South Germany"
+  P25_ENG_fascism_subject:0 "British Occupation of South Germany"
+  P25_ENG_fascism_subject_DEF:0 "the British Occupation of South Germany"
 
-  P26_ENG_fascism_subject:0 "British Military Administration of Dixie"
-  P26_ENG_fascism_subject_DEF:0 "the British Military Administration of Dixie"
+  P26_ENG_fascism_subject:0 "British Occupation of Dixie"
+  P26_ENG_fascism_subject_DEF:0 "the British Occupation of Dixie"
 
-  P27_ENG_fascism_subject:0 "British State of Australasia"
-  P27_ENG_fascism_subject_DEF:0 "the British State of Australasia"
+  P27_ENG_fascism_subject:0 "British Occupation of Australasia"
+  P27_ENG_fascism_subject_DEF:0 "the British Occupation of Australasia"
 
-  P28_ENG_fascism_subject:0 "British Military Administration of Transcaucasia"
-  P28_ENG_fascism_subject_DEF:0 "the British Military Administration of Transcaucasia"
+  P28_ENG_fascism_subject:0 "British Occupation of Transcaucasia"
+  P28_ENG_fascism_subject_DEF:0 "the British Occupation of Transcaucasia"
 
-  P29_ENG_fascism_subject:0 "British State of Western Canada"
-  P29_ENG_fascism_subject_DEF:0 "the British State of Western Canada"
+  P29_ENG_fascism_subject:0 "British Occupation of Western Canada"
+  P29_ENG_fascism_subject_DEF:0 "the British Occupation of Western Canada"
 
-  P30_ENG_fascism_subject:0 "British State of North Africa"
-  P30_ENG_fascism_subject_DEF:0 "the British State of North Africa"
+  P30_ENG_fascism_subject:0 "British Occupation of North Africa"
+  P30_ENG_fascism_subject_DEF:0 "the British Occupation of North Africa"
 
-  P31_ENG_fascism_subject:0 "National State of West Germany"
-  P31_ENG_fascism_subject_DEF:0 "the National State of West Germany"
+  P31_ENG_fascism_subject:0 "British Occupation of West Germany"
+  P31_ENG_fascism_subject_DEF:0 "the British Occupation of West Germany"
 
-  P32_ENG_fascism_subject:0 "National State of East Germany"
-  P32_ENG_fascism_subject_DEF:0 "the National State of East Germany"
+  P32_ENG_fascism_subject:0 "British Occupation of East Germany"
+  P32_ENG_fascism_subject_DEF:0 "the British Occupation of East Germany"
 
   P33_ENG_fascism_subject:0 "Prussian State"
   P33_ENG_fascism_subject_DEF:0 "the Prussian State"
 
-  P34_ENG_fascism_subject:0 "British Military Administration of Poland"
-  P34_ENG_fascism_subject_DEF:0 "the British Military Administration of Poland"
+  P34_ENG_fascism_subject:0 "British Occupation of Poland"
+  P34_ENG_fascism_subject_DEF:0 "the British Occupation of Poland"
 
-  P35_ENG_fascism_subject:0 "British State of West Africa"
-  P35_ENG_fascism_subject_DEF:0 "the British State of West Africa"
+  P35_ENG_fascism_subject:0 "British Occupation of West Africa"
+  P35_ENG_fascism_subject_DEF:0 "the British Occupation of West Africa"
 
-  P36_ENG_fascism_subject:0 "British State of South Africa"
-  P36_ENG_fascism_subject_DEF:0 "the British State of South Africa"
+  P36_ENG_fascism_subject:0 "British Occupation of South Africa"
+  P36_ENG_fascism_subject_DEF:0 "the British Occupation of South Africa"
 
-  P37_ENG_fascism_subject:0 "British State of India"
-  P37_ENG_fascism_subject_DEF:0 "the British State of India"
+  P37_ENG_fascism_subject:0 "British Occupation of India"
+  P37_ENG_fascism_subject_DEF:0 "the British Occupation of India"
 
-  P38_ENG_fascism_subject:0 "British State of Bengal"
-  P38_ENG_fascism_subject_DEF:0 "the British State of Bengal"
+  P38_ENG_fascism_subject:0 "British Occupation of Bengal"
+  P38_ENG_fascism_subject_DEF:0 "the British Occupation of Bengal"
 
-  P39_ENG_fascism_subject:0 "British Military Administration of Muscovy"
-  P39_ENG_fascism_subject_DEF:0 "the British Military Administration of Muscovy"
+  P39_ENG_fascism_subject:0 "British Occupation of Muscovy"
+  P39_ENG_fascism_subject_DEF:0 "the British Occupation of Muscovy"
 
-  P40_ENG_fascism_subject:0 "British Military Administration of the Don"
-  P40_ENG_fascism_subject_DEF:0 "the British Military Administration of the Don"
+  P40_ENG_fascism_subject:0 "British Occupation of the Don"
+  P40_ENG_fascism_subject_DEF:0 "the British Occupation of the Don"
 
-  P41_ENG_fascism_subject:0 "British Military Administration of the Northern Caucasus"
-  P41_ENG_fascism_subject_DEF:0 "the British Military Administration of the Northern Caucasus"
+  P41_ENG_fascism_subject:0 "British Occupation of the Northern Caucasus"
+  P41_ENG_fascism_subject_DEF:0 "the British Occupation of the Northern Caucasus"
 
-  P42_ENG_fascism_subject:0 "British Military Administration of the Volga"
-  P42_ENG_fascism_subject_DEF:0 "the British Military Administration of the Volga"
+  P42_ENG_fascism_subject:0 "British Occupation of the Volga"
+  P42_ENG_fascism_subject_DEF:0 "the British Occupation of the Volga"
 
-  P43_ENG_fascism_subject:0 "British Military Administration of Novgorod"
-  P43_ENG_fascism_subject_DEF:0 "the British Military Administration of Novgorod"
+  P43_ENG_fascism_subject:0 "British Occupation of Novgorod"
+  P43_ENG_fascism_subject_DEF:0 "the British Occupation of Novgorod"
 
-  P44_ENG_fascism_subject:0 "British Military Administration of the Urals"
-  P44_ENG_fascism_subject_DEF:0 "the British Military Administration of the Urals"
+  P44_ENG_fascism_subject:0 "British Occupation of the Urals"
+  P44_ENG_fascism_subject_DEF:0 "the British Occupation of the Urals"
 
-  P45_ENG_fascism_subject:0 "British Military Administration of Siberia"
-  P45_ENG_fascism_subject_DEF:0 "the British Military Administration of Siberia"
+  P45_ENG_fascism_subject:0 "British Occupation of Siberia"
+  P45_ENG_fascism_subject_DEF:0 "the British Occupation of Siberia"
 
-  P46_ENG_fascism_subject:0 "British Military Administration of the Far East"
-  P46_ENG_fascism_subject_DEF:0 "the British Military Administration of the Far East"
+  P46_ENG_fascism_subject:0 "British Occupation of the Far East"
+  P46_ENG_fascism_subject_DEF:0 "the British Occupation of the Far East"
 
-  P47_ENG_fascism_subject:0 "British Military Administration of Mongolia"
-  P47_ENG_fascism_subject_DEF:0 "the British Military Administration of Mongolia"
+  P47_ENG_fascism_subject:0 "British Occupation of Mongolia"
+  P47_ENG_fascism_subject_DEF:0 "the British Occupation of Mongolia"
 
-  P48_ENG_fascism_subject:0 "British Military Administration of White Russia"
-  P48_ENG_fascism_subject_DEF:0 "the British Military Administration of White Russia"
+  P48_ENG_fascism_subject:0 "British Occupation of White Russia"
+  P48_ENG_fascism_subject_DEF:0 "the British Occupation of White Russia"
 
   P49_ENG_fascism_subject:0 "Kingdom of Bulgaria"
   P49_ENG_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
 
-  P50_ENG_fascism_subject:0 "State of Yugoslavia"
-  P50_ENG_fascism_subject_DEF:0 "the State of Yugoslavia"
+  P50_ENG_fascism_subject:0 "British Occupation of Yugoslavia"
+  P50_ENG_fascism_subject_DEF:0 "the British Occupation of Yugoslavia"
 
-  P51_ENG_fascism_subject:0 "British Military Administration of Turkestan"
-  P51_ENG_fascism_subject_DEF:0 "the British Military Administration of Turkestan"
+  P51_ENG_fascism_subject:0 "British Occupation of Turkestan"
+  P51_ENG_fascism_subject_DEF:0 "the British Occupation of Turkestan"
 
-  P52_ENG_fascism_subject:0 "British State of the Himalayan States"
-  P52_ENG_fascism_subject_DEF:0 "the British State of the Himalayan States"
+  P52_ENG_fascism_subject:0 "British Occupation of the Himalayan States"
+  P52_ENG_fascism_subject_DEF:0 "the British Occupation of the Himalayan States"
 
-  P54_ENG_fascism_subject:0 "British Military Administration of Chile"
-  P54_ENG_fascism_subject_DEF:0 "the British Military Administration of Chile"
+  P54_ENG_fascism_subject:0 "British Occupation of Chile"
+  P54_ENG_fascism_subject_DEF:0 "the British Occupation of Chile"
 
-  P55_ENG_fascism_subject:0 "British Military Administration of Argentina"
-  P55_ENG_fascism_subject_DEF:0 "the British Military Administration of Argentina"
+  P55_ENG_fascism_subject:0 "British Occupation of Argentina"
+  P55_ENG_fascism_subject_DEF:0 "the British Occupation of Argentina"
 
-  P56_ENG_fascism_subject:0 "British Military Administration of Peru"
-  P56_ENG_fascism_subject_DEF:0 "the British Military Administration of Peru"
+  P56_ENG_fascism_subject:0 "British Occupation of Peru"
+  P56_ENG_fascism_subject_DEF:0 "the British Occupation of Peru"
 
-  P57_ENG_fascism_subject:0 "British Military Administration of Brazil"
-  P57_ENG_fascism_subject_DEF:0 "the British Military Administration of Brazil"
+  P57_ENG_fascism_subject:0 "British Occupation of Brazil"
+  P57_ENG_fascism_subject_DEF:0 "the British Occupation of Brazil"
 
-  P58_ENG_fascism_subject:0 "British Military Administration of Mexico"
-  P58_ENG_fascism_subject_DEF:0 "the British Military Administration of Mexico"
+  P58_ENG_fascism_subject:0 "British Occupation of Mexico"
+  P58_ENG_fascism_subject_DEF:0 "the British Occupation of Mexico"
 
   P59_ENG_fascism_subject:0 "Protectorate of Bohemia and Moravia"
   P59_ENG_fascism_subject_DEF:0 "the Protectorate of Bohemia and Moravia"
 
-  P60_ENG_fascism_subject:0 "Belgian National State"
-  P60_ENG_fascism_subject_DEF:0 "the Belgian National State"
+  P60_ENG_fascism_subject:0 "British Occupation of Belgium"
+  P60_ENG_fascism_subject_DEF:0 "the British Occupation of Belgium"
 
   P61_ENG_fascism_subject:0 "Kingdom of Denmark"
   P61_ENG_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_ENG_fascism_subject:0 "British Military Administration of Northern France"
-  P62_ENG_fascism_subject_DEF:0 "the British Military Administration of Northern France"
+  P62_ENG_fascism_subject:0 "British Occupation of Northern France"
+  P62_ENG_fascism_subject_DEF:0 "the British Occupation of Northern France"
 
   P63_ENG_fascism_subject:0 "French State"
   P63_ENG_fascism_subject_DEF:0 "the French State"
 
-  P64_ENG_fascism_subject:0 "British Military Administration of the Alps"
-  P64_ENG_fascism_subject_DEF:0 "the British Military Administration of the Alps"
+  P64_ENG_fascism_subject:0 "British Occupation of the Alps"
+  P64_ENG_fascism_subject_DEF:0 "the British Occupation of the Alps"
 
-  P65_ENG_fascism_subject:0 "Norwegian National State"
-  P65_ENG_fascism_subject_DEF:0 "the Norwegian National State"
+  P65_ENG_fascism_subject:0 "British Occupation of Norway"
+  P65_ENG_fascism_subject_DEF:0 "the British Occupation of Norway"
 
   P66_ENG_fascism_subject:0 "Ukrainian State"
   P66_ENG_fascism_subject_DEF:0 "the Ukrainian State"
 
-  P67_ENG_fascism_subject:0 "British State of the Levant"
-  P67_ENG_fascism_subject_DEF:0 "the British State of the Levant"
+  P67_ENG_fascism_subject:0 "British Occupation of the Levant"
+  P67_ENG_fascism_subject_DEF:0 "the British Occupation of the Levant"
 
   P68_ENG_fascism_subject:0 "Turkish National State"
   P68_ENG_fascism_subject_DEF:0 "the Turkish National State"
 
-  P69_ENG_fascism_subject:0 "British State of Iraq"
-  P69_ENG_fascism_subject_DEF:0 "the British State of Iraq"
+  P69_ENG_fascism_subject:0 "British Occupation of Iraq"
+  P69_ENG_fascism_subject_DEF:0 "the British Occupation of Iraq"
 
-  P70_ENG_fascism_subject:0 "British Military Administration of Kurdistan"
-  P70_ENG_fascism_subject_DEF:0 "the British Military Administration of Kurdistan"
+  P70_ENG_fascism_subject:0 "British Occupation of Kurdistan"
+  P70_ENG_fascism_subject_DEF:0 "the British Occupation of Kurdistan"
 
-  P71_ENG_fascism_subject:0 "British Military Administration of Persia"
-  P71_ENG_fascism_subject_DEF:0 "the British Military Administration of Persia"
+  P71_ENG_fascism_subject:0 "British Occupation of Persia"
+  P71_ENG_fascism_subject_DEF:0 "the British Occupation of Persia"
 
-  P72_ENG_fascism_subject:0 "British Military Administration of Korea"
-  P72_ENG_fascism_subject_DEF:0 "the British Military Administration of Korea"
+  P72_ENG_fascism_subject:0 "British Occupation of Korea"
+  P72_ENG_fascism_subject_DEF:0 "the British Occupation of Korea"
 
-  P73_ENG_fascism_subject:0 "British State of Ireland"
-  P73_ENG_fascism_subject_DEF:0 "the British State of Ireland"
+  P73_ENG_fascism_subject:0 "British Occupation of Ireland"
+  P73_ENG_fascism_subject_DEF:0 "the British Occupation of Ireland"
 
-  P74_ENG_fascism_subject:0 "Swedish National State"
-  P74_ENG_fascism_subject_DEF:0 "the Swedish National State"
+  P74_ENG_fascism_subject:0 "British Occupation of Sweden"
+  P74_ENG_fascism_subject_DEF:0 "the British Occupation of Sweden"
 
-  P75_ENG_fascism_subject:0 "British State of Northwest India"
-  P75_ENG_fascism_subject_DEF:0 "the British State of Northwest India"
+  P75_ENG_fascism_subject:0 "British Occupation of Northwest India"
+  P75_ENG_fascism_subject_DEF:0 "the British Occupation of Northwest India"
 
-  P76_ENG_fascism_subject:0 "British State of Afghanistan"
-  P76_ENG_fascism_subject_DEF:0 "the British State of Afghanistan"
+  P76_ENG_fascism_subject:0 "British Occupation of Afghanistan"
+  P76_ENG_fascism_subject_DEF:0 "the British Occupation of Afghanistan"
 
   P77_ENG_fascism_subject:0 "Federal State of Austria"
   P77_ENG_fascism_subject_DEF:0 "the Federal State of Austria"
 
-  P78_ENG_fascism_subject:0 "British Military Administration of Switzerland"
-  P78_ENG_fascism_subject_DEF:0 "the British Military Administration of Switzerland"
+  P78_ENG_fascism_subject:0 "British Occupation of Switzerland"
+  P78_ENG_fascism_subject_DEF:0 "the British Occupation of Switzerland"
 
   P79_ENG_fascism_subject:0 "National Legionary State of Romania"
   P79_ENG_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
-  P83_ENG_fascism_subject:0 "British Military Administration of Iceland"
-  P83_ENG_fascism_subject_DEF:0 "the British Military Administration of Iceland"
+  P83_ENG_fascism_subject:0 "British Occupation of Iceland"
+  P83_ENG_fascism_subject_DEF:0 "the British Occupation of Iceland"
 
-  P85_ENG_fascism_subject:0 "British Military Administration of Greenland"
-  P85_ENG_fascism_subject_DEF:0 "the British Military Administration of Greenland"
+  P85_ENG_fascism_subject:0 "British Occupation of Greenland"
+  P85_ENG_fascism_subject_DEF:0 "the British Occupation of Greenland"
 
   P86_ENG_fascism_subject:0 "Independent State of Croatia"
   P86_ENG_fascism_subject_DEF:0 "the Independent State of Croatia"
 
-  P87_ENG_fascism_subject:0 "Slovenian National State"
-  P87_ENG_fascism_subject_DEF:0 "the Slovenian National State"
+  P87_ENG_fascism_subject:0 "British Occupation of Slovenia"
+  P87_ENG_fascism_subject_DEF:0 "the British Occupation of Slovenia"
 
-  P88_ENG_fascism_subject:0 "National State of Bosnia-Herzegovina"
-  P88_ENG_fascism_subject_DEF:0 "the National State of Bosnia-Herzegovina"
+  P88_ENG_fascism_subject:0 "British Occupation of Bosnia-Herzegovina"
+  P88_ENG_fascism_subject_DEF:0 "the British Occupation of Bosnia-Herzegovina"
 
   P89_ENG_fascism_subject:0 "Serbian State"
   P89_ENG_fascism_subject_DEF:0 "the Serbian State"
@@ -8191,101 +8191,101 @@
   P91_ENG_fascism_subject:0 "Albanian State"
   P91_ENG_fascism_subject_DEF:0 "the Albanian State"
 
-  P92_ENG_fascism_subject:0 "British Military Administration of Lombardy-Venetia"
-  P92_ENG_fascism_subject_DEF:0 "the British Military Administration of Lombardy-Venetia"
+  P92_ENG_fascism_subject:0 "British Occupation of Lombardy-Venetia"
+  P92_ENG_fascism_subject_DEF:0 "the British Occupation of Lombardy-Venetia"
 
-  P93_ENG_fascism_subject:0 "British Military Administration of Piedmont"
-  P93_ENG_fascism_subject_DEF:0 "the British Military Administration of Piedmont"
+  P93_ENG_fascism_subject:0 "British Occupation of Piedmont"
+  P93_ENG_fascism_subject_DEF:0 "the British Occupation of Piedmont"
 
-  P94_ENG_fascism_subject:0 "British Military Administration of Sardinia"
-  P94_ENG_fascism_subject_DEF:0 "the British Military Administration of Sardinia"
+  P94_ENG_fascism_subject:0 "British Occupation of Sardinia"
+  P94_ENG_fascism_subject_DEF:0 "the British Occupation of Sardinia"
 
-  P95_ENG_fascism_subject:0 "British Military Administration of Tuscany"
-  P95_ENG_fascism_subject_DEF:0 "the British Military Administration of Tuscany"
+  P95_ENG_fascism_subject:0 "British Occupation of Tuscany"
+  P95_ENG_fascism_subject_DEF:0 "the British Occupation of Tuscany"
 
-  P96_ENG_fascism_subject:0 "British Military Administration of Latium"
-  P96_ENG_fascism_subject_DEF:0 "the British Military Administration of Latium"
+  P96_ENG_fascism_subject:0 "British Occupation of Latium"
+  P96_ENG_fascism_subject_DEF:0 "the British Occupation of Latium"
 
-  P97_ENG_fascism_subject:0 "British Military Administration of Southern Italy"
-  P97_ENG_fascism_subject_DEF:0 "the British Military Administration of Southern Italy"
+  P97_ENG_fascism_subject:0 "British Occupation of the Two Sicilies"
+  P97_ENG_fascism_subject_DEF:0 "the British Occupation of the Two Sicilies"
 
-  P98_ENG_fascism_subject:0 "Independent State of Macedonia"
-  P98_ENG_fascism_subject_DEF:0 "the Independent State of Macedonia"
+  P98_ENG_fascism_subject:0 "British Occupation of Macedonia"
+  P98_ENG_fascism_subject_DEF:0 "the British Occupation of Macedonia"
 
-  P99_ENG_fascism_subject:0 "British Military Administration of Hokkaido"
-  P99_ENG_fascism_subject_DEF:0 "the British Military Administration of Hokkaido"
+  P99_ENG_fascism_subject:0 "British Occupation of Hokkaido"
+  P99_ENG_fascism_subject_DEF:0 "the British Occupation of Hokkaido"
 
-  Q01_ENG_fascism_subject:0 "British Military Administration of Tohoku"
-  Q01_ENG_fascism_subject_DEF:0 "the British Military Administration of Tohoku"
+  Q01_ENG_fascism_subject:0 "British Occupation of Tohoku"
+  Q01_ENG_fascism_subject_DEF:0 "the British Occupation of Tohoku"
 
-  Q02_ENG_fascism_subject:0 "British Military Administration of Kanto"
-  Q02_ENG_fascism_subject_DEF:0 "the British Military Administration of Kanto"
+  Q02_ENG_fascism_subject:0 "British Occupation of Kanto"
+  Q02_ENG_fascism_subject_DEF:0 "the British Occupation of Kanto"
 
-  Q03_ENG_fascism_subject:0 "British Military Administration of Chubu"
-  Q03_ENG_fascism_subject_DEF:0 "the British Military Administration of Chubu"
+  Q03_ENG_fascism_subject:0 "British Occupation of Chubu"
+  Q03_ENG_fascism_subject_DEF:0 "the British Occupation of Chubu"
 
-  Q04_ENG_fascism_subject:0 "British Military Administration of Kansai"
-  Q04_ENG_fascism_subject_DEF:0 "the British Military Administration of Kansai"
+  Q04_ENG_fascism_subject:0 "British Occupation of Kansai"
+  Q04_ENG_fascism_subject_DEF:0 "the British Occupation of Kansai"
 
-  Q05_ENG_fascism_subject:0 "British Military Administration of Chugoku"
-  Q05_ENG_fascism_subject_DEF:0 "the British Military Administration of Chugoku"
+  Q05_ENG_fascism_subject:0 "British Occupation of Chugoku"
+  Q05_ENG_fascism_subject_DEF:0 "the British Occupation of Chugoku"
 
-  Q06_ENG_fascism_subject:0 "British Military Administration of Shikoku"
-  Q06_ENG_fascism_subject_DEF:0 "the British Military Administration of Shikoku"
+  Q06_ENG_fascism_subject:0 "British Occupation of Shikoku"
+  Q06_ENG_fascism_subject_DEF:0 "the British Occupation of Shikoku"
 
-  Q07_ENG_fascism_subject:0 "British Military Administration of Kyushu"
-  Q07_ENG_fascism_subject_DEF:0 "the British Military Administration of Kyushu"
+  Q07_ENG_fascism_subject:0 "British Occupation of Kyushu"
+  Q07_ENG_fascism_subject_DEF:0 "the British Occupation of Kyushu"
 
-  Q08_ENG_fascism_subject:0 "British Military Administration of Manchuria"
-  Q08_ENG_fascism_subject_DEF:0 "the British Military Administration of Manchuria"
+  Q08_ENG_fascism_subject:0 "British Occupation of Manchuria"
+  Q08_ENG_fascism_subject_DEF:0 "the British Occupation of Manchuria"
 
-  Q09_ENG_fascism_subject:0 "British Military Administration of Inner Mongolia"
-  Q09_ENG_fascism_subject_DEF:0 "the British Military Administration of Inner Mongolia"
+  Q09_ENG_fascism_subject:0 "British Occupation of Inner Mongolia"
+  Q09_ENG_fascism_subject_DEF:0 "the British Occupation of Inner Mongolia"
 
-  Q10_ENG_fascism_subject:0 "British Military Administration of North China"
-  Q10_ENG_fascism_subject_DEF:0 "the British Military Administration of North China"
+  Q10_ENG_fascism_subject:0 "British Occupation of North China"
+  Q10_ENG_fascism_subject_DEF:0 "the British Occupation of North China"
 
-  Q11_ENG_fascism_subject:0 "British Military Administration of Shandong"
-  Q11_ENG_fascism_subject_DEF:0 "the British Military Administration of Shandong"
+  Q11_ENG_fascism_subject:0 "British Occupation of Shandong"
+  Q11_ENG_fascism_subject_DEF:0 "the British Occupation of Shandong"
 
-  Q12_ENG_fascism_subject:0 "British Military Administration of Henan"
-  Q12_ENG_fascism_subject_DEF:0 "the British Military Administration of Henan"
+  Q12_ENG_fascism_subject:0 "British Occupation of Henan"
+  Q12_ENG_fascism_subject_DEF:0 "the British Occupation of Henan"
 
-  Q13_ENG_fascism_subject:0 "British Military Administration of Shanxi"
-  Q13_ENG_fascism_subject_DEF:0 "the British Military Administration of Shanxi"
+  Q13_ENG_fascism_subject:0 "British Occupation of Shanxi"
+  Q13_ENG_fascism_subject_DEF:0 "the British Occupation of Shanxi"
 
-  Q14_ENG_fascism_subject:0 "British Military Administration of Jiangnan"
-  Q14_ENG_fascism_subject_DEF:0 "the British Military Administration of Jiangnan"
+  Q14_ENG_fascism_subject:0 "British Occupation of Jiangnan"
+  Q14_ENG_fascism_subject_DEF:0 "the British Occupation of Jiangnan"
 
-  Q15_ENG_fascism_subject:0 "British Military Administration of Fujian and Zhejiang"
-  Q15_ENG_fascism_subject_DEF:0 "the British Military Administration of Fujian and Zhejiang"
+  Q15_ENG_fascism_subject:0 "British Occupation of Fujian and Zhejiang"
+  Q15_ENG_fascism_subject_DEF:0 "the British Occupation of Fujian and Zhejiang"
 
-  Q16_ENG_fascism_subject:0 "British Military Administration of Huguang"
-  Q16_ENG_fascism_subject_DEF:0 "the British Military Administration of Huguang"
+  Q16_ENG_fascism_subject:0 "British Occupation of Huguang"
+  Q16_ENG_fascism_subject_DEF:0 "the British Occupation of Huguang"
 
-  Q17_ENG_fascism_subject:0 "British Military Administration of Guangdong and Guangxi"
-  Q17_ENG_fascism_subject_DEF:0 "the British Military Administration of Guangdong and Guangxi"
+  Q17_ENG_fascism_subject:0 "British Occupation of Guangdong and Guangxi"
+  Q17_ENG_fascism_subject_DEF:0 "the British Occupation of Guangdong and Guangxi"
 
-  Q18_ENG_fascism_subject:0 "British Military Administration of Yunnan and Guizhou"
-  Q18_ENG_fascism_subject_DEF:0 "the British Military Administration of Yunnan and Guizhou"
+  Q18_ENG_fascism_subject:0 "British Occupation of Yunnan and Guizhou"
+  Q18_ENG_fascism_subject_DEF:0 "the British Occupation of Yunnan and Guizhou"
 
-  Q19_ENG_fascism_subject:0 "British Military Administration of Sichuan"
-  Q19_ENG_fascism_subject_DEF:0 "the British Military Administration of Sichuan"
+  Q19_ENG_fascism_subject:0 "British Occupation of Sichuan"
+  Q19_ENG_fascism_subject_DEF:0 "the British Occupation of Sichuan"
 
-  Q20_ENG_fascism_subject:0 "British Military Administration of Shaanxi and Gansu"
-  Q20_ENG_fascism_subject_DEF:0 "the British Military Administration of Shaanxi and Gansu"
+  Q20_ENG_fascism_subject:0 "British Occupation of Shaanxi and Gansu"
+  Q20_ENG_fascism_subject_DEF:0 "the British Occupation of Shaanxi and Gansu"
 
-  Q21_ENG_fascism_subject:0 "British Military Administration of Qinghai"
-  Q21_ENG_fascism_subject_DEF:0 "the British Military Administration of Qinghai"
+  Q21_ENG_fascism_subject:0 "British Occupation of Qinghai"
+  Q21_ENG_fascism_subject_DEF:0 "the British Occupation of Qinghai"
 
-  Q22_ENG_fascism_subject:0 "British State of Formosa"
-  Q22_ENG_fascism_subject_DEF:0 "the British State of Formosa"
+  Q22_ENG_fascism_subject:0 "British Occupation of Formosa"
+  Q22_ENG_fascism_subject_DEF:0 "the British Occupation of Formosa"
 
-  Q23_ENG_fascism_subject:0 "British Military Administration of East Turkestan"
-  Q23_ENG_fascism_subject_DEF:0 "the British Military Administration of East Turkestan"
+  Q23_ENG_fascism_subject:0 "British Occupation of East Turkestan"
+  Q23_ENG_fascism_subject_DEF:0 "the British Occupation of East Turkestan"
 
-  Q24_ENG_fascism_subject:0 "British State of Tibet"
-  Q24_ENG_fascism_subject_DEF:0 "the British State of Tibet"
+  Q24_ENG_fascism_subject:0 "British Occupation of Tibet"
+  Q24_ENG_fascism_subject_DEF:0 "the British Occupation of Tibet"
 
   #United States - Communism
   P01_USA_communism_subject:0 "People's Republic of Colombia"
