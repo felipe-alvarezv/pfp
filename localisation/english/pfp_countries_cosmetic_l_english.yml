@@ -359,35 +359,35 @@
   Q24_GER_communism_subject_DEF:0 "the German Occupation of Tibet"
 
   ## GERMANY - DEMOCRACY ##
-  P01_GER_democratic_subject:0 "Republic of Colombia"
-  P01_GER_democratic_subject_DEF:0 "the Republic of Colombia"
+  P01_GER_democratic_subject:0 "German Occupation of Colombia"
+  P01_GER_democratic_subject_DEF:0 "the German Occupation of Colombia"
 
   P02_GER_democratic_subject:0 "Commonwealth of Great Britain"
   P02_GER_democratic_subject_DEF:0 "the Commonwealth of Great Britain"
 
-  P03_GER_democratic_subject:0 "Republic of Arabia"
-  P03_GER_democratic_subject_DEF:0 "the Republic of Arabia"
+  P03_GER_democratic_subject:0 "German Occupation of Arabia"
+  P03_GER_democratic_subject_DEF:0 "the German Occupation of Arabia"
 
-  P04_GER_democratic_subject:0 "Republic of the Baltic States"
-  P04_GER_democratic_subject_DEF:0 "the Republic of the Baltic States"
+  P04_GER_democratic_subject:0 "German Occupation of the Baltic States"
+  P04_GER_democratic_subject_DEF:0 "the German Occupation of the Baltic States"
 
-  P05_GER_democratic_subject:0 "Republic of the Netherlands"
-  P05_GER_democratic_subject_DEF:0 "the Republic of the Netherlands"
+  P05_GER_democratic_subject:0 "German Occupation of the Netherlands"
+  P05_GER_democratic_subject_DEF:0 "the German Occupation of the Netherlands"
 
-  P06_GER_democratic_subject:0 "Republic of the West Indies"
-  P06_GER_democratic_subject_DEF:0 "the Republic of the West Indies"
+  P06_GER_democratic_subject:0 "German Occupation of the West Indies"
+  P06_GER_democratic_subject_DEF:0 "the German Occupation of the West Indies"
 
-  P07_GER_democratic_subject:0 "Republic of Central Africa"
-  P07_GER_democratic_subject_DEF:0 "the Republic of Central Africa"
+  P07_GER_democratic_subject:0 "German Occupation of Central Africa"
+  P07_GER_democratic_subject_DEF:0 "the German Occupation of Central Africa"
 
   P08_GER_democratic_subject:0 "Central American Federation"
   P08_GER_democratic_subject_DEF:0 "the Central American Federation"
 
-  P09_GER_democratic_subject:0 "Republic of Hungary"
-  P09_GER_democratic_subject_DEF:0 "the Republic of Hungary"
+  P09_GER_democratic_subject:0 "German Occupation of Hungary"
+  P09_GER_democratic_subject_DEF:0 "the German Occupation of Hungary"
 
-  P10_GER_democratic_subject:0 "Republic of East Africa"
-  P10_GER_democratic_subject_DEF:0 "the Republic of East Africa"
+  P10_GER_democratic_subject:0 "German Occupation of East Africa"
+  P10_GER_democratic_subject_DEF:0 "the German Occupation of East Africa"
 
   P11_GER_democratic_subject:0 "Dominion of Eastern Canada"
   P11_GER_democratic_subject_DEF:0 "the Dominion of Eastern Canada"
@@ -401,32 +401,32 @@
   P15_GER_democratic_subject:0 "Spanish Republic"
   P15_GER_democratic_subject_DEF:0 "the Spanish Republic"
 
-  P16_GER_democratic_subject:0 "Republic of Indochina"
-  P16_GER_democratic_subject_DEF:0 "the Republic of Indochina"
+  P16_GER_democratic_subject:0 "German Occupation of Indochina"
+  P16_GER_democratic_subject_DEF:0 "the German Occupation of Indochina"
 
-  P17_GER_democratic_subject:0 "Republic of Indonesia"
-  P17_GER_democratic_subject_DEF:0 "the Republic of Indonesia"
+  P17_GER_democratic_subject:0 "German Occupation of Indonesia"
+  P17_GER_democratic_subject_DEF:0 "the German Occupation of Indonesia"
 
-  P18_GER_democratic_subject:0 "Republic of the Midwest"
-  P18_GER_democratic_subject_DEF:0 "the Republic of the Midwest"
+  P18_GER_democratic_subject:0 "German Occupation of the Midwest"
+  P18_GER_democratic_subject_DEF:0 "the German Occupation of the Midwest"
 
-  P20_GER_democratic_subject:0 "Republic of Northeastern America"
-  P20_GER_democratic_subject_DEF:0 "the Republic of Northeastern America"
+  P20_GER_democratic_subject:0 "German Occupation of Northeastern America"
+  P20_GER_democratic_subject_DEF:0 "the German Occupation of Northeastern America"
 
-  P21_GER_democratic_subject:0 "Republic of Pacific America"
-  P21_GER_democratic_subject_DEF:0 "the Republic of Pacific America"
+  P21_GER_democratic_subject:0 "German Occupation of Pacific America"
+  P21_GER_democratic_subject_DEF:0 "the German Occupation of Pacific America"
 
-  P22_GER_democratic_subject:0 "Republic of Quebec"
-  P22_GER_democratic_subject_DEF:0 "the Republic of Quebec"
+  P22_GER_democratic_subject:0 "German Occupation of Quebec"
+  P22_GER_democratic_subject_DEF:0 "the German Occupation of Quebec"
 
-  P23_GER_democratic_subject:0 "Republic of the Rockies"
-  P23_GER_democratic_subject_DEF:0 "the Republic of the Rockies"
+  P23_GER_democratic_subject:0 "German Occupation of the Rockies"
+  P23_GER_democratic_subject_DEF:0 "the German Occupation of the Rockies"
 
   P24_GER_democratic_subject:0 "Scandinavian Union"
   P24_GER_democratic_subject_DEF:0 "the Scandinavian Union"
 
-  P26_GER_democratic_subject:0 "Republic of the South"
-  P26_GER_democratic_subject_DEF:0 "the Republic of the South"
+  P26_GER_democratic_subject:0 "German Occupation of the South"
+  P26_GER_democratic_subject_DEF:0 "the German Occupation of the South"
 
   P27_GER_democratic_subject:0 "Commonwealth of Australasia"
   P27_GER_democratic_subject_DEF:0 "the Commonwealth of Australasia"
@@ -437,14 +437,14 @@
   P29_GER_democratic_subject:0 "Dominion of Western Canada"
   P29_GER_democratic_subject_DEF:0 "the Dominion of Western Canada"
 
-  P30_GER_democratic_subject:0 "Republic of North Africa"
-  P30_GER_democratic_subject_DEF:0 "the Republic of North Africa"
+  P30_GER_democratic_subject:0 "German Occupation of North Africa"
+  P30_GER_democratic_subject_DEF:0 "the German Occupation of North Africa"
 
   P34_GER_democratic_subject:0 "Republic of Poland"
   P34_GER_democratic_subject_DEF:0 "the Republic of Poland"
 
-  P35_GER_democratic_subject:0 "Republic of West Africa"
-  P35_GER_democratic_subject_DEF:0 "the Republic of West Africa"
+  P35_GER_democratic_subject:0 "German Occupation of West Africa"
+  P35_GER_democratic_subject_DEF:0 "the German Occupation of West Africa"
 
   P36_GER_democratic_subject:0 "Union of South Africa"
   P36_GER_democratic_subject_DEF:0 "the Union of South Africa"
@@ -452,32 +452,32 @@
   P37_GER_democratic_subject:0 "Republic of India"
   P37_GER_democratic_subject_DEF:0 "the Republic of India"
 
-  P38_GER_democratic_subject:0 "Republic of Bengal"
-  P38_GER_democratic_subject_DEF:0 "the Republic of Bengal"
+  P38_GER_democratic_subject:0 "German Occupation of Bengal"
+  P38_GER_democratic_subject_DEF:0 "the German Occupation of Bengal"
 
-  P39_GER_democratic_subject:0 "Republic of Central Russia"
-  P39_GER_democratic_subject_DEF:0 "the Republic of Central Russia"
+  P39_GER_democratic_subject:0 "German Occupation of Central Russia"
+  P39_GER_democratic_subject_DEF:0 "the German Occupation of Central Russia"
 
-  P40_GER_democratic_subject:0 "Republic of Southern Russia"
-  P40_GER_democratic_subject_DEF:0 "the Republic of Southern Russia"
+  P40_GER_democratic_subject:0 "German Occupation of Southern Russia"
+  P40_GER_democratic_subject_DEF:0 "the German Occupation of Southern Russia"
 
-  P41_GER_democratic_subject:0 "Republic of the Caucasus"
-  P41_GER_democratic_subject_DEF:0 "the Republic of the Caucasus"
+  P41_GER_democratic_subject:0 "German Occupation of the Caucasus"
+  P41_GER_democratic_subject_DEF:0 "the German Occupation of the Caucasus"
 
-  P42_GER_democratic_subject:0 "Republic of Volga"
-  P42_GER_democratic_subject_DEF:0 "the Republic of Volga"
+  P42_GER_democratic_subject:0 "German Occupation of the Volga"
+  P42_GER_democratic_subject_DEF:0 "the German Occupation of the Volga"
 
-  P43_GER_democratic_subject:0 "Republic of Northwestern Russia"
-  P43_GER_democratic_subject_DEF:0 "the Republic of Northwestern Russia"
+  P43_GER_democratic_subject:0 "German Occupation of Northwestern Russia"
+  P43_GER_democratic_subject_DEF:0 "the German Occupation of Northwestern Russia"
 
-  P44_GER_democratic_subject:0 "Republic of the Urals"
-  P44_GER_democratic_subject_DEF:0 "the Republic of the Urals"
+  P44_GER_democratic_subject:0 "German Occupation of the Urals"
+  P44_GER_democratic_subject_DEF:0 "the German Occupation of the Urals"
 
-  P45_GER_democratic_subject:0 "Republic of Siberia"
-  P45_GER_democratic_subject_DEF:0 "the Republic of Siberia"
+  P45_GER_democratic_subject:0 "German Occupation of Siberia"
+  P45_GER_democratic_subject_DEF:0 "the German Occupation of Siberia"
 
-  P46_GER_democratic_subject:0 "Republic of the Far East"
-  P46_GER_democratic_subject_DEF:0 "the Republic of the Far East"
+  P46_GER_democratic_subject:0 "German Occupation of the Far East"
+  P46_GER_democratic_subject_DEF:0 "the German Occupation of the Far East"
 
   P47_GER_democratic_subject:0 "Republic of Mongolia"
   P47_GER_democratic_subject_DEF:0 "the Republic of Mongolia"
@@ -485,8 +485,8 @@
   P48_GER_democratic_subject:0 "Byelorussian Republic"
   P48_GER_democratic_subject_DEF:0 "the Byelorussian Republic"
 
-  P49_GER_democratic_subject:0 "Republic of Bulgaria"
-  P49_GER_democratic_subject_DEF:0 "the Republic of Bulgaria"
+  P49_GER_democratic_subject:0 "German Occupation of Bulgaria"
+  P49_GER_democratic_subject_DEF:0 "the German Occupation of Bulgaria"
 
   P50_GER_democratic_subject:0 "Federal Republic of Yugoslavia"
   P50_GER_democratic_subject_DEF:0 "the Federal Republic of Yugoslavia"
@@ -494,65 +494,65 @@
   P51_GER_democratic_subject:0 "Republic of Turkestan"
   P51_GER_democratic_subject_DEF:0 "the Republic of Turkestan"
 
-  P52_GER_democratic_subject:0 "Republic of Nepal"
-  P52_GER_democratic_subject_DEF:0 "the Republic of Nepal"
+  P52_GER_democratic_subject:0 "German Occupation of Nepal"
+  P52_GER_democratic_subject_DEF:0 "the German Occupation of Nepal"
 
-  P53_GER_democratic_subject:0 "Republic of Mittelafrika"
-  P53_GER_democratic_subject_DEF:0 "the Republic of Mittelafrika"
+  P53_GER_democratic_subject:0 "German Occupation of Mittelafrika"
+  P53_GER_democratic_subject_DEF:0 "the German Occupation of Mittelafrika"
 
-  P54_GER_democratic_subject:0 "Republic of Chile"
-  P54_GER_democratic_subject_DEF:0 "the Republic of Chile"
+  P54_GER_democratic_subject:0 "German Occupation of Chile"
+  P54_GER_democratic_subject_DEF:0 "the German Occupation of Chile"
 
-  P55_GER_democratic_subject:0 "Republic of Argentina"
-  P55_GER_democratic_subject_DEF:0 "the Republic of Argentina"
+  P55_GER_democratic_subject:0 "German Occupation of Argentina"
+  P55_GER_democratic_subject_DEF:0 "the German Occupation of Argentina"
 
-  P56_GER_democratic_subject:0 "Republic of Peru"
-  P56_GER_democratic_subject_DEF:0 "the Republic of Peru"
+  P56_GER_democratic_subject:0 "German Occupation of Peru"
+  P56_GER_democratic_subject_DEF:0 "the German Occupation of Peru"
 
   P57_GER_democratic_subject:0 "Federative Republic of Brazil"
   P57_GER_democratic_subject_DEF:0 "the Federative Republic of Brazil"
 
-  P58_GER_democratic_subject:0 "Republic of Mexico"
-  P58_GER_democratic_subject_DEF:0 "the Republic of Mexico"
+  P58_GER_democratic_subject:0 "German Occupation of Mexico"
+  P58_GER_democratic_subject_DEF:0 "the German Occupation of Mexico"
 
   P59_GER_democratic_subject:0 "Czechoslovak Republic"
   P59_GER_democratic_subject_DEF:0 "the Czechoslovak Republic"
 
-  P60_GER_democratic_subject:0 "Republic of Belgium"
-  P60_GER_democratic_subject_DEF:0 "the Republic of Belgium"
+  P60_GER_democratic_subject:0 "German Occupation of Belgium"
+  P60_GER_democratic_subject_DEF:0 "the German Occupation of Belgium"
 
-  P61_GER_democratic_subject:0 "Republic of Denmark"
-  P61_GER_democratic_subject_DEF:0 "the Republic of Denmark"
+  P61_GER_democratic_subject:0 "Kingdom of Denmark"
+  P61_GER_democratic_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_GER_democratic_subject:0 "Republic of France"
-  P62_GER_democratic_subject_DEF:0 "the Republic of France"
+  P62_GER_democratic_subject:0 "German Occupation of Northern France"
+  P62_GER_democratic_subject_DEF:0 "the German Occupation of Northern France"
 
-  P63_GER_democratic_subject:0 "Republic of Southern France"
-  P63_GER_democratic_subject_DEF:0 "the Republic of Southern France"
+  P63_GER_democratic_subject:0 "German Occupation of Southern France"
+  P63_GER_democratic_subject_DEF:0 "the German Occupation of Southern France"
 
-  P64_GER_democratic_subject:0 "Republic of Savoy"
-  P64_GER_democratic_subject_DEF:0 "the Republic of Savoy"
+  P64_GER_democratic_subject:0 "German Occupation of Savoy"
+  P64_GER_democratic_subject_DEF:0 "the German Occupation of Savoy"
 
-  P65_GER_democratic_subject:0 "Republic of Norway"
-  P65_GER_democratic_subject_DEF:0 "the Republic of Norway"
+  P65_GER_democratic_subject:0 "Kingdom of Norway"
+  P65_GER_democratic_subject_DEF:0 "the Kingdom of Norway"
 
   P66_GER_democratic_subject:0 "Republic of Ukraine"
   P66_GER_democratic_subject_DEF:0 "the Republic of Ukraine"
 
-  P67_GER_democratic_subject:0 "Republic of the Levant"
-  P67_GER_democratic_subject_DEF:0 "the Republic of the Levant"
+  P67_GER_democratic_subject:0 "German Occupation of the Levant"
+  P67_GER_democratic_subject_DEF:0 "the German Occupation of the Levant"
 
   P68_GER_democratic_subject:0 "Republic of Turkey"
   P68_GER_democratic_subject_DEF:0 "the Republic of Turkey"
 
-  P69_GER_democratic_subject:0 "Republic of Iraq"
-  P69_GER_democratic_subject_DEF:0 "the Republic of Iraq"
+  P69_GER_democratic_subject:0 "German Occupation of Iraq"
+  P69_GER_democratic_subject_DEF:0 "the German Occupation of Iraq"
 
-  P70_GER_democratic_subject:0 "Republic of Kurdistan"
-  P70_GER_democratic_subject_DEF:0 "the Republic of Kurdistan"
+  P70_GER_democratic_subject:0 "German Occupation of Kurdistan"
+  P70_GER_democratic_subject_DEF:0 "the German Occupation of Kurdistan"
 
-  P71_GER_democratic_subject:0 "Republic of Iran"
-  P71_GER_democratic_subject_DEF:0 "the Republic of Iran"
+  P71_GER_democratic_subject:0 "German Occupation of Iran"
+  P71_GER_democratic_subject_DEF:0 "the German Occupation of Iran"
 
   P72_GER_democratic_subject:0 "Republic of Korea"
   P72_GER_democratic_subject_DEF:0 "the Republic of Korea"
@@ -560,14 +560,14 @@
   P73_GER_democratic_subject:0 "Irish Free State"
   P73_GER_democratic_subject_DEF:0 "the Irish Free State"
 
-  P74_GER_democratic_subject:0 "Republic of Sweden"
-  P74_GER_democratic_subject_DEF:0 "the Republic of Sweden"
+  P74_GER_democratic_subject:0 "Kingdom of Sweden"
+  P74_GER_democratic_subject_DEF:0 "the Kingdom of Sweden"
 
-  P75_GER_democratic_subject:0 "Republic of Pakistan"
-  P75_GER_democratic_subject_DEF:0 "the Republic of Pakistan"
+  P75_GER_democratic_subject:0 "German Occupation of Pakistan"
+  P75_GER_democratic_subject_DEF:0 "the German Occupation of Pakistan"
 
-  P76_GER_democratic_subject:0 "Republic of Afghanistan"
-  P76_GER_democratic_subject_DEF:0 "the Republic of Afghanistan"
+  P76_GER_democratic_subject:0 "German Occupation of Afghanistan"
+  P76_GER_democratic_subject_DEF:0 "the German Occupation of Afghanistan"
 
   P77_GER_democratic_subject:0 "Federal Republic of Austria"
   P77_GER_democratic_subject_DEF:0 "the Federal Republic of Austria"
@@ -575,26 +575,26 @@
   P78_GER_democratic_subject:0 "Swiss Confederation"
   P78_GER_democratic_subject_DEF:0 "the Swiss Confederation"
 
-  P79_GER_democratic_subject:0 "Republic of Romania"
-  P79_GER_democratic_subject_DEF:0 "the Republic of Romania"
+  P79_GER_democratic_subject:0 "German Occupation of Romania"
+  P79_GER_democratic_subject_DEF:0 "the German Occupation of Romania"
 
-  P80_GER_democratic_subject:0 "Republic of England"
-  P80_GER_democratic_subject_DEF:0 "the Republic of England"
+  P80_GER_democratic_subject:0 "German Occupation of England"
+  P80_GER_democratic_subject_DEF:0 "the German Occupation of England"
 
-  P81_GER_democratic_subject:0 "Republic of Scotland"
-  P81_GER_democratic_subject_DEF:0 "the Republic of Scotland"
+  P81_GER_democratic_subject:0 "German Occupation of Scotland"
+  P81_GER_democratic_subject_DEF:0 "the German Occupation of Scotland"
 
-  P82_GER_democratic_subject:0 "Republic of Wales"
-  P82_GER_democratic_subject_DEF:0 "the Republic of Wales"
+  P82_GER_democratic_subject:0 "German Occupation of Wales"
+  P82_GER_democratic_subject_DEF:0 "the German Occupation of Wales"
 
   P83_GER_democratic_subject:0 "Republic of Iceland"
   P83_GER_democratic_subject_DEF:0 "the Republic of Iceland"
 
-  P84_GER_democratic_subject:0 "Republic of Northern Ireland"
-  P84_GER_democratic_subject_DEF:0 "the Republic of Northern Ireland"
+  P84_GER_democratic_subject:0 "German Occupation of Northern Ireland"
+  P84_GER_democratic_subject_DEF:0 "the German Occupation of Northern Ireland"
 
-  P85_GER_democratic_subject:0 "Republic of Greenland"
-  P85_GER_democratic_subject_DEF:0 "the Republic of Greenland"
+  P85_GER_democratic_subject:0 "German Occupation of Greenland"
+  P85_GER_democratic_subject_DEF:0 "the German Occupation of Greenland"
 
   P86_GER_democratic_subject:0 "Republic of Croatia"
   P86_GER_democratic_subject_DEF:0 "the Republic of Croatia"
@@ -614,92 +614,92 @@
   P91_GER_democratic_subject:0 "Republic of Albania"
   P91_GER_democratic_subject_DEF:0 "the Republic of Albania"
 
-  P92_GER_democratic_subject:0 "Republic of Lombardy-Venetia"
-  P92_GER_democratic_subject_DEF:0 "the Republic of Lombardy-Venetia"
+  P92_GER_democratic_subject:0 "German Occupation of Lombardy-Venetia"
+  P92_GER_democratic_subject_DEF:0 "the German Occupation of Lombardy-Venetia"
 
-  P93_GER_democratic_subject:0 "Republic of Piedmont"
-  P93_GER_democratic_subject_DEF:0 "the Republic of Piedmont"
+  P93_GER_democratic_subject:0 "German Occupation of Piedmont"
+  P93_GER_democratic_subject_DEF:0 "the German Occupation of Piedmont"
 
-  P94_GER_democratic_subject:0 "Republic of Sardinia"
-  P94_GER_democratic_subject_DEF:0 "the Republic of Sardinia"
+  P94_GER_democratic_subject:0 "German Occupation of Sardinia"
+  P94_GER_democratic_subject_DEF:0 "the German Occupation of Sardinia"
 
-  P95_GER_democratic_subject:0 "Republic of Tuscany"
-  P95_GER_democratic_subject_DEF:0 "the Republic of Tuscany"
+  P95_GER_democratic_subject:0 "German Occupation of Tuscany"
+  P95_GER_democratic_subject_DEF:0 "the German Occupation of Tuscany"
 
-  P96_GER_democratic_subject:0 "Republic of Rome"
-  P96_GER_democratic_subject_DEF:0 "the Republic of Rome"
+  P96_GER_democratic_subject:0 "German Occupation of Latium"
+  P96_GER_democratic_subject_DEF:0 "the German Occupation of Latium"
 
-  P97_GER_democratic_subject:0 "Republic of Southern Italy"
-  P97_GER_democratic_subject_DEF:0 "the Republic of Southern Italy"
+  P97_GER_democratic_subject:0 "German Occupation of the Two Sicilies"
+  P97_GER_democratic_subject_DEF:0 "the German Occupation of the Two Sicilies"
 
-  P98_GER_democratic_subject:0 "Republic of Macedonia"
-  P98_GER_democratic_subject_DEF:0 "the Republic of Macedonia"
+  P98_GER_democratic_subject:0 "German Occupation of Macedonia"
+  P98_GER_democratic_subject_DEF:0 "the German Occupation of Macedonia"
 
-  P99_GER_democratic_subject:0 "Republic of Hokkaido"
-  P99_GER_democratic_subject_DEF:0 "the Republic of Hokkaido"
+  P99_GER_democratic_subject:0 "German Occupation of Hokkaido"
+  P99_GER_democratic_subject_DEF:0 "the German Occupation of Hokkaido"
 
-  Q01_GER_democratic_subject:0 "Republic of Tohoku"
-  Q01_GER_democratic_subject_DEF:0 "the Republic of Tohoku"
+  Q01_GER_democratic_subject:0 "German Occupation of Tohoku"
+  Q01_GER_democratic_subject_DEF:0 "the German Occupation of Tohoku"
 
-  Q02_GER_democratic_subject:0 "Republic of Kanto"
-  Q02_GER_democratic_subject_DEF:0 "the Republic of Kanto"
+  Q02_GER_democratic_subject:0 "German Occupation of Kanto"
+  Q02_GER_democratic_subject_DEF:0 "the German Occupation of Kanto"
 
-  Q03_GER_democratic_subject:0 "Republic of Chubu"
-  Q03_GER_democratic_subject_DEF:0 "the Republic of Chubu"
+  Q03_GER_democratic_subject:0 "German Occupation of Chubu"
+  Q03_GER_democratic_subject_DEF:0 "the German Occupation of Chubu"
 
-  Q04_GER_democratic_subject:0 "Republic of Kansai"
-  Q04_GER_democratic_subject_DEF:0 "the Republic of Kansai"
+  Q04_GER_democratic_subject:0 "German Occupation of Kansai"
+  Q04_GER_democratic_subject_DEF:0 "the German Occupation of Kansai"
 
-  Q05_GER_democratic_subject:0 "Republic of Chugoku"
-  Q05_GER_democratic_subject_DEF:0 "the Republic of Chugoku"
+  Q05_GER_democratic_subject:0 "German Occupation of Chugoku"
+  Q05_GER_democratic_subject_DEF:0 "the German Occupation of Chugoku"
 
-  Q06_GER_democratic_subject:0 "Republic of Shikoku"
-  Q06_GER_democratic_subject_DEF:0 "the Republic of Shikoku"
+  Q06_GER_democratic_subject:0 "German Occupation of Shikoku"
+  Q06_GER_democratic_subject_DEF:0 "the German Occupation of Shikoku"
 
-  Q07_GER_democratic_subject:0 "Republic of Kyushu"
-  Q07_GER_democratic_subject_DEF:0 "the Republic of Kyushu"
+  Q07_GER_democratic_subject:0 "German Occupation of Kyushu"
+  Q07_GER_democratic_subject_DEF:0 "the German Occupation of Kyushu"
 
   Q08_GER_democratic_subject:0 "Republic of Manchuria"
   Q08_GER_democratic_subject_DEF:0 "the Republic of Manchuria"
 
-  Q09_GER_democratic_subject:0 "Republic of Inner Mongolia"
-  Q09_GER_democratic_subject_DEF:0 "the Republic of Inner Mongolia"
+  Q09_GER_democratic_subject:0 "German Occupation of Inner Mongolia"
+  Q09_GER_democratic_subject_DEF:0 "the German Occupation of Inner Mongolia"
 
-  Q10_GER_democratic_subject:0 "Republic of North China"
-  Q10_GER_democratic_subject_DEF:0 "the Republic of North China"
+  Q10_GER_democratic_subject:0 "German Occupation of North China"
+  Q10_GER_democratic_subject_DEF:0 "the German Occupation of North China"
 
-  Q11_GER_democratic_subject:0 "Republic of Shandong"
-  Q11_GER_democratic_subject_DEF:0 "the Republic of Shandong"
+  Q11_GER_democratic_subject:0 "German Occupation of Shandong"
+  Q11_GER_democratic_subject_DEF:0 "the German Occupation of Shandong"
 
-  Q12_GER_democratic_subject:0 "Republic of Henan"
-  Q12_GER_democratic_subject_DEF:0 "the Republic of Henan"
+  Q12_GER_democratic_subject:0 "German Occupation of Henan"
+  Q12_GER_democratic_subject_DEF:0 "the German Occupation of Henan"
 
-  Q13_GER_democratic_subject:0 "Republic of Shanxi"
-  Q13_GER_democratic_subject_DEF:0 "the Republic of Shanxi"
+  Q13_GER_democratic_subject:0 "German Occupation of Shanxi"
+  Q13_GER_democratic_subject_DEF:0 "the German Occupation of Shanxi"
 
-  Q14_GER_democratic_subject:0 "Republic of Jiangnan"
-  Q14_GER_democratic_subject_DEF:0 "the Republic of Jiangnan"
+  Q14_GER_democratic_subject:0 "German Occupation of Jiangnan"
+  Q14_GER_democratic_subject_DEF:0 "the German Occupation of Jiangnan"
 
-  Q15_GER_democratic_subject:0 "Republic of Min-Zhe"
-  Q15_GER_democratic_subject_DEF:0 "the Republic of Min-Zhe"
+  Q15_GER_democratic_subject:0 "German Occupation of Min-Zhe"
+  Q15_GER_democratic_subject_DEF:0 "the German Occupation of Min-Zhe"
 
-  Q16_GER_democratic_subject:0 "Republic of Huguang"
-  Q16_GER_democratic_subject_DEF:0 "the Republic of Huguang"
+  Q16_GER_democratic_subject:0 "German Occupation of Huguang"
+  Q16_GER_democratic_subject_DEF:0 "the German Occupation of Huguang"
 
-  Q17_GER_democratic_subject:0 "Republic of Liangguang"
-  Q17_GER_democratic_subject_DEF:0 "the Republic of Liangguang"
+  Q17_GER_democratic_subject:0 "German Occupation of Liangguang"
+  Q17_GER_democratic_subject_DEF:0 "the German Occupation of Liangguang"
 
-  Q18_GER_democratic_subject:0 "Republic of Yunnan"
-  Q18_GER_democratic_subject_DEF:0 "the Republic of Yunnan"
+  Q18_GER_democratic_subject:0 "German Occupation of Yunnan"
+  Q18_GER_democratic_subject_DEF:0 "the German Occupation of Yunnan"
 
-  Q19_GER_democratic_subject:0 "Republic of Sichuan"
-  Q19_GER_democratic_subject_DEF:0 "the Republic of Sichuan"
+  Q19_GER_democratic_subject:0 "German Occupation of Sichuan"
+  Q19_GER_democratic_subject_DEF:0 "the German Occupation of Sichuan"
 
-  Q20_GER_democratic_subject:0 "Republic of Shaanxi"
-  Q20_GER_democratic_subject_DEF:0 "the Republic of Shaanxi"
+  Q20_GER_democratic_subject:0 "German Occupation of Shaanxi"
+  Q20_GER_democratic_subject_DEF:0 "the German Occupation of Shaanxi"
 
-  Q21_GER_democratic_subject:0 "Republic of Qinghai"
-  Q21_GER_democratic_subject_DEF:0 "the Republic of Qinghai"
+  Q21_GER_democratic_subject:0 "German Occupation of Qinghai"
+  Q21_GER_democratic_subject_DEF:0 "the German Occupation of Qinghai"
 
   Q22_GER_democratic_subject:0 "Republic of China"
   Q22_GER_democratic_subject_DEF:0 "the Republic of China"
@@ -707,8 +707,8 @@
   Q23_GER_democratic_subject:0 "Republic of East Turkestan"
   Q23_GER_democratic_subject_DEF:0 "the Republic of East Turkestan"
 
-  Q24_GER_democratic_subject:0 "Republic of Tibet"
-  Q24_GER_democratic_subject_DEF:0 "the Republic of Tibet"
+  Q24_GER_democratic_subject:0 "German Occupation of Tibet"
+  Q24_GER_democratic_subject_DEF:0 "the German Occupation of Tibet"
 
   ## GERMANY - NEUTRALITY ##
   P01_GER_neutrality_subject:0 "Kingdom of Colombia"
