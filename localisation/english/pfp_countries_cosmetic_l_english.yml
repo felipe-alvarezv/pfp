@@ -4157,8 +4157,8 @@
   P01_SOV_communism_subject:0 "People's Republic of Colombia"
   P01_SOV_communism_subject_DEF:0 "the People's Republic of Colombia"
 
-  P02_SOV_communism_subject:0 "People's Republic of Great Britain"
-  P02_SOV_communism_subject_DEF:0 "the People's Republic of Great Britain"
+  P02_SOV_communism_subject:0 "Soviet Occupation of Great Britain"
+  P02_SOV_communism_subject_DEF:0 "the Soviet Occupation of Great Britain"
 
   P03_SOV_communism_subject:0 "People's Democratic Republic of Arabia"
   P03_SOV_communism_subject_DEF:0 "the People's Democratic Republic of Arabia"
@@ -4286,11 +4286,11 @@
   P59_SOV_communism_subject:0 "Czechoslovak Socialist Republic"
   P59_SOV_communism_subject_DEF:0 "the Czechoslovak Socialist Republic"
 
-  P60_SOV_communism_subject:0 "People's Republic of Belgium"
-  P60_SOV_communism_subject_DEF:0 "the People's Republic of Belgium"
+  P60_SOV_communism_subject:0 "Soviet Occupation of Belgium"
+  P60_SOV_communism_subject_DEF:0 "the Soviet Occupation of Belgium"
 
-  P61_SOV_communism_subject:0 "People's Republic of Denmark"
-  P61_SOV_communism_subject_DEF:0 "the People's Republic of Denmark"
+  P61_SOV_communism_subject:0 "Soviet Occupation of Denmark"
+  P61_SOV_communism_subject_DEF:0 "the Soviet Occupation of Denmark"
 
   P62_SOV_communism_subject:0 "People's Republic of Northern France"
   P62_SOV_communism_subject_DEF:0 "the People's Republic of Northern France"
@@ -4301,8 +4301,8 @@
   P64_SOV_communism_subject:0 "People's Republic of the Alps"
   P64_SOV_communism_subject_DEF:0 "the People's Republic of the Alps"
 
-  P65_SOV_communism_subject:0 "People's Republic of Norway"
-  P65_SOV_communism_subject_DEF:0 "the People's Republic of Norway"
+  P65_SOV_communism_subject:0 "Soviet Occupation of Norway"
+  P65_SOV_communism_subject_DEF:0 "the Soviet Occupation of Norway"
 
   P66_SOV_communism_subject:0 "Ukrainian Soviet Socialist Republic"
   P66_SOV_communism_subject_DEF:0 "the Ukrainian Soviet Socialist Republic"
@@ -4325,11 +4325,11 @@
   P72_SOV_communism_subject:0 "Democratic People's Republic of Korea"
   P72_SOV_communism_subject_DEF:0 "the Democratic People's Republic of Korea"
 
-  P73_SOV_communism_subject:0 "People's Republic of Ireland"
-  P73_SOV_communism_subject_DEF:0 "the People's Republic of Ireland"
+  P73_SOV_communism_subject:0 "Soviet Occupation of Ireland"
+  P73_SOV_communism_subject_DEF:0 "the Soviet Occupation of Ireland"
 
-  P74_SOV_communism_subject:0 "People's Republic of Sweden"
-  P74_SOV_communism_subject_DEF:0 "the People's Republic of Sweden"
+  P74_SOV_communism_subject:0 "Soviet Occupation of Sweden"
+  P74_SOV_communism_subject_DEF:0 "the Soviet Occupation of Sweden"
 
   P75_SOV_communism_subject:0 "People's Republic of Pakistan"
   P75_SOV_communism_subject_DEF:0 "the People's Republic of Pakistan"
@@ -4337,32 +4337,32 @@
   P76_SOV_communism_subject:0 "Democratic Republic of Afghanistan"
   P76_SOV_communism_subject_DEF:0 "the Democratic Republic of Afghanistan"
 
-  P77_SOV_communism_subject:0 "People's Republic of Austria"
-  P77_SOV_communism_subject_DEF:0 "the People's Republic of Austria"
+  P77_SOV_communism_subject:0 "Soviet Occupation of Austria"
+  P77_SOV_communism_subject_DEF:0 "the Soviet Occupation of Austria"
 
-  P78_SOV_communism_subject:0 "People's Republic of Switzerland"
-  P78_SOV_communism_subject_DEF:0 "the People's Republic of Switzerland"
+  P78_SOV_communism_subject:0 "Soviet Occupation of Switzerland"
+  P78_SOV_communism_subject_DEF:0 "the Soviet Occupation of Switzerland"
 
   P79_SOV_communism_subject:0 "Romanian People's Republic"
   P79_SOV_communism_subject_DEF:0 "the Romanian People's Republic"
 
-  P80_SOV_communism_subject:0 "People's Republic of England"
-  P80_SOV_communism_subject_DEF:0 "the People's Republic of England"
+  P80_SOV_communism_subject:0 "Soviet Occupation of England"
+  P80_SOV_communism_subject_DEF:0 "the Soviet Occupation of England"
 
-  P81_SOV_communism_subject:0 "People's Republic of Scotland"
-  P81_SOV_communism_subject_DEF:0 "the People's Republic of Scotland"
+  P81_SOV_communism_subject:0 "Soviet Occupation of Scotland"
+  P81_SOV_communism_subject_DEF:0 "the Soviet Occupation of Scotland"
 
-  P82_SOV_communism_subject:0 "People's Republic of Wales"
-  P82_SOV_communism_subject_DEF:0 "the People's Republic of Wales"
+  P82_SOV_communism_subject:0 "Soviet Occupation of Wales"
+  P82_SOV_communism_subject_DEF:0 "the Soviet Occupation of Wales"
 
-  P83_SOV_communism_subject:0 "People's Republic of Iceland"
-  P83_SOV_communism_subject_DEF:0 "the People's Republic of Iceland"
+  P83_SOV_communism_subject:0 "Soviet Occupation of Iceland"
+  P83_SOV_communism_subject_DEF:0 "the Soviet Occupation of Iceland"
 
-  P84_SOV_communism_subject:0 "People's Republic of Northern Ireland"
-  P84_SOV_communism_subject_DEF:0 "the People's Republic of Northern Ireland"
+  P84_SOV_communism_subject:0 "Soviet Occupation of Northern Ireland"
+  P84_SOV_communism_subject_DEF:0 "the Soviet Occupation of Northern Ireland"
 
-  P85_SOV_communism_subject:0 "People's Republic of Greenland"
-  P85_SOV_communism_subject_DEF:0 "the People's Republic of Greenland"
+  P85_SOV_communism_subject:0 "Soviet Occupation of Greenland"
+  P85_SOV_communism_subject_DEF:0 "the Soviet Occupation of Greenland"
 
   P86_SOV_communism_subject:0 "Socialist Republic of Croatia"
   P86_SOV_communism_subject_DEF:0 "the Socialist Republic of Croatia"
