@@ -2463,8 +2463,8 @@
 
   ## ITALY - FASCISM ##
 
-  P01_ITA_fascism_subject:0 "National State of Colombia"
-  P01_ITA_fascism_subject_DEF:0 "the National State of Colombia"
+  P01_ITA_fascism_subject:0 "Italian Occupation of Colombia"
+  P01_ITA_fascism_subject_DEF:0 "the Italian Occupation of Colombia"
 
   P02_ITA_fascism_subject:0 "British Union State"
   P02_ITA_fascism_subject_DEF:0 "the British Union State"
@@ -2472,20 +2472,20 @@
   P03_ITA_fascism_subject:0 "Italian Protectorate of Arabia"
   P03_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Arabia"
 
-  P04_ITA_fascism_subject:0 "National State of the Baltic States"
-  P04_ITA_fascism_subject_DEF:0 "the National State of the Baltic States"
+  P04_ITA_fascism_subject:0 "Italian Occupation of the Baltic States"
+  P04_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Baltic States"
 
-  P05_ITA_fascism_subject:0 "Dutch National State"
-  P05_ITA_fascism_subject_DEF:0 "the Dutch National State"
+  P05_ITA_fascism_subject:0 "Italian Occupation of the Netherlands"
+  P05_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Netherlands"
 
-  P06_ITA_fascism_subject:0 "National State of the West Indies"
-  P06_ITA_fascism_subject_DEF:0 "the National State of the West Indies"
+  P06_ITA_fascism_subject:0 "Italian Occupation of the West Indies"
+  P06_ITA_fascism_subject_DEF:0 "the Italian Occupation of the West Indies"
 
   P07_ITA_fascism_subject:0 "Italian Protectorate of Central Africa"
   P07_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Central Africa"
 
-  P08_ITA_fascism_subject:0 "National State of Central America"
-  P08_ITA_fascism_subject_DEF:0 "the National State of Central America"
+  P08_ITA_fascism_subject:0 "Italian Occupation of Central America"
+  P08_ITA_fascism_subject_DEF:0 "the Italian Occupation of Central America"
 
   P09_ITA_fascism_subject:0 "Kingdom of Hungary"
   P09_ITA_fascism_subject_DEF:0 "the Kingdom of Hungary"
@@ -2493,77 +2493,77 @@
   P10_ITA_fascism_subject:0 "Italian East Africa"
   P10_ITA_fascism_subject_DEF:0 "Italian East Africa"
 
-  P11_ITA_fascism_subject:0 "National State of Eastern Canada"
-  P11_ITA_fascism_subject_DEF:0 "the National State of Eastern Canada"
+  P11_ITA_fascism_subject:0 "Italian Occupation of Eastern Canada"
+  P11_ITA_fascism_subject_DEF:0 "the Italian Occupation of Eastern Canada"
 
-  P12_ITA_fascism_subject:0 "National State of Finland"
-  P12_ITA_fascism_subject_DEF:0 "the National State of Finland"
+  P12_ITA_fascism_subject:0 "Italian Occupation of Finland"
+  P12_ITA_fascism_subject_DEF:0 "the Italian Occupation of Finland"
 
-  P13_ITA_fascism_subject:0 "National State of Germany"
-  P13_ITA_fascism_subject_DEF:0 "the National State of Germany"
+  P13_ITA_fascism_subject:0 "Italian Occupation of Germany"
+  P13_ITA_fascism_subject_DEF:0 "the Italian Occupation of Germany"
 
   P14_ITA_fascism_subject:0 "Hellenic State"
   P14_ITA_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_ITA_fascism_subject:0 "Spanish State"
-  P15_ITA_fascism_subject_DEF:0 "the Spanish State"
+  P15_ITA_fascism_subject:0 "Iberian State"
+  P15_ITA_fascism_subject_DEF:0 "the Iberian State"
 
-  P16_ITA_fascism_subject:0 "National State of Indochina"
-  P16_ITA_fascism_subject_DEF:0 "the National State of Indochina"
+  P16_ITA_fascism_subject:0 "Italian Occupation of Indochina"
+  P16_ITA_fascism_subject_DEF:0 "the Italian Occupation of Indochina"
 
-  P17_ITA_fascism_subject:0 "National State of Indonesia"
-  P17_ITA_fascism_subject_DEF:0 "the National State of Indonesia"
+  P17_ITA_fascism_subject:0 "Italian Occupation of Indonesia"
+  P17_ITA_fascism_subject_DEF:0 "the Italian Occupation of Indonesia"
 
-  P18_ITA_fascism_subject:0 "National State of the Midwest"
-  P18_ITA_fascism_subject_DEF:0 "the National State of the Midwest"
+  P18_ITA_fascism_subject:0 "Italian Occupation of the Midwest"
+  P18_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Midwest"
 
-  P19_ITA_fascism_subject:0 "National State of North Germany"
-  P19_ITA_fascism_subject_DEF:0 "the National State of North Germany"
+  P19_ITA_fascism_subject:0 "Italian Occupation of Northern Germany"
+  P19_ITA_fascism_subject_DEF:0 "the Italian Occupation of Northern Germany"
 
-  P20_ITA_fascism_subject:0 "National State of Northeastern America"
-  P20_ITA_fascism_subject_DEF:0 "the National State of Northeastern America"
+  P20_ITA_fascism_subject:0 "Italian Occupation of Northeastern America"
+  P20_ITA_fascism_subject_DEF:0 "the Italian Occupation of Northeastern America"
 
-  P21_ITA_fascism_subject:0 "National State of Pacific America"
-  P21_ITA_fascism_subject_DEF:0 "the National State of Pacific America"
+  P21_ITA_fascism_subject:0 "Italian Occupation of Pacific America"
+  P21_ITA_fascism_subject_DEF:0 "the Italian Occupation of Pacific America"
 
-  P22_ITA_fascism_subject:0 "National State of Quebec"
-  P22_ITA_fascism_subject_DEF:0 "the National State of Quebec"
+  P22_ITA_fascism_subject:0 "Italian Occupation of Quebec"
+  P22_ITA_fascism_subject_DEF:0 "the Italian Occupation of Quebec"
 
-  P23_ITA_fascism_subject:0 "National State of the Rockies"
-  P23_ITA_fascism_subject_DEF:0 "the National State of the Rockies"
+  P23_ITA_fascism_subject:0 "Italian Occupation of the Rockies"
+  P23_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Rockies"
 
   P24_ITA_fascism_subject:0 "Nordic State"
   P24_ITA_fascism_subject_DEF:0 "the Nordic State"
 
-  P25_ITA_fascism_subject:0 "National State of Bavaria"
-  P25_ITA_fascism_subject_DEF:0 "the National State of Bavaria"
+  P25_ITA_fascism_subject:0 "Italian Occupation of Bavaria"
+  P25_ITA_fascism_subject_DEF:0 "the Italian Occupation of Bavaria"
 
-  P26_ITA_fascism_subject:0 "National State of the South"
-  P26_ITA_fascism_subject_DEF:0 "the National State of the South"
+  P26_ITA_fascism_subject:0 "Italian Occupation of the South"
+  P26_ITA_fascism_subject_DEF:0 "the Italian Occupation of the South"
 
-  P27_ITA_fascism_subject:0 "National State of Oceania"
-  P27_ITA_fascism_subject_DEF:0 "the National State of Oceania"
+  P27_ITA_fascism_subject:0 "Italian Occupation of Oceania"
+  P27_ITA_fascism_subject_DEF:0 "the Italian Occupation of Oceania"
 
-  P28_ITA_fascism_subject:0 "National State of Transcaucasia"
-  P28_ITA_fascism_subject_DEF:0 "the National State of Transcaucasia"
+  P28_ITA_fascism_subject:0 "Italian Occupation of Transcaucasia"
+  P28_ITA_fascism_subject_DEF:0 "the Italian Occupation of Transcaucasia"
 
-  P29_ITA_fascism_subject:0 "National State of Western Canada"
-  P29_ITA_fascism_subject_DEF:0 "the National State of Western Canada"
+  P29_ITA_fascism_subject:0 "Italian Occupation of Western Canada"
+  P29_ITA_fascism_subject_DEF:0 "the Italian Occupation of Western Canada"
 
   P30_ITA_fascism_subject:0 "Italian North Africa"
   P30_ITA_fascism_subject_DEF:0 "Italian North Africa"
 
-  P31_ITA_fascism_subject:0 "National State of West Germany"
-  P31_ITA_fascism_subject_DEF:0 "the National State of West Germany"
+  P31_ITA_fascism_subject:0 "Italian Occupation of West Germany"
+  P31_ITA_fascism_subject_DEF:0 "the Italian Occupation of West Germany"
 
-  P32_ITA_fascism_subject:0 "National State of East Germany"
-  P32_ITA_fascism_subject_DEF:0 "the National State of East Germany"
+  P32_ITA_fascism_subject:0 "Italian Occupation of East Germany"
+  P32_ITA_fascism_subject_DEF:0 "the Italian Occupation of East Germany"
 
-  P33_ITA_fascism_subject:0 "National State of Prussia"
-  P33_ITA_fascism_subject_DEF:0 "the National State of Prussia"
+  P33_ITA_fascism_subject:0 "Italian Occupation of Prussia"
+  P33_ITA_fascism_subject_DEF:0 "the Italian Occupation of Prussia"
 
-  P34_ITA_fascism_subject:0 "National State of Poland"
-  P34_ITA_fascism_subject_DEF:0 "the National State of Poland"
+  P34_ITA_fascism_subject:0 "Italian Occupation of Poland"
+  P34_ITA_fascism_subject_DEF:0 "the Italian Occupation of Poland"
 
   P35_ITA_fascism_subject:0 "Italian Protectorate of West Africa"
   P35_ITA_fascism_subject_DEF:0 "the Italian Protectorate of West Africa"
@@ -2571,41 +2571,41 @@
   P36_ITA_fascism_subject:0 "Italian Protectorate of South Africa"
   P36_ITA_fascism_subject_DEF:0 "the Italian Protectorate of South Africa"
 
-  P37_ITA_fascism_subject:0 "National State of India"
-  P37_ITA_fascism_subject_DEF:0 "the National State of India"
+  P37_ITA_fascism_subject:0 "Italian Occupation of India"
+  P37_ITA_fascism_subject_DEF:0 "the Italian Occupation of India"
 
-  P38_ITA_fascism_subject:0 "National State of Bengal"
-  P38_ITA_fascism_subject_DEF:0 "the National State of Bengal"
+  P38_ITA_fascism_subject:0 "Italian Occupation of Bengal"
+  P38_ITA_fascism_subject_DEF:0 "the Italian Occupation of Bengal"
 
-  P39_ITA_fascism_subject:0 "Italian Military Administration of Central Russia"
-  P39_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Central Russia"
+  P39_ITA_fascism_subject:0 "Italian Occupation of Central Russia"
+  P39_ITA_fascism_subject_DEF:0 "the Italian Occupation of Central Russia"
 
-  P40_ITA_fascism_subject:0 "Italian Military Administration of Southern Russia"
-  P40_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Southern Russia"
+  P40_ITA_fascism_subject:0 "Italian Occupation of Southern Russia"
+  P40_ITA_fascism_subject_DEF:0 "the Italian Occupation of Southern Russia"
 
-  P41_ITA_fascism_subject:0 "Italian Military Administration of the Caucasus"
-  P41_ITA_fascism_subject_DEF:0 "the Italian Military Administration of the Caucasus"
+  P41_ITA_fascism_subject:0 "Italian Occupation of the Caucasus"
+  P41_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Caucasus"
 
-  P42_ITA_fascism_subject:0 "Italian Military Administration of the Volga"
-  P42_ITA_fascism_subject_DEF:0 "the Italian Military Administration of the Volga"
+  P42_ITA_fascism_subject:0 "Italian Occupation of the Volga"
+  P42_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Volga"
 
-  P43_ITA_fascism_subject:0 "Italian Military Administration of Northwestern Russia"
-  P43_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Northwestern Russia"
+  P43_ITA_fascism_subject:0 "Italian Occupation of Northwestern Russia"
+  P43_ITA_fascism_subject_DEF:0 "the Italian Occupation of Northwestern Russia"
 
-  P44_ITA_fascism_subject:0 "Italian Military Administration of the Urals"
-  P44_ITA_fascism_subject_DEF:0 "the Italian Military Administration of the Urals"
+  P44_ITA_fascism_subject:0 "Italian Occupation of the Urals"
+  P44_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Urals"
 
-  P45_ITA_fascism_subject:0 "Italian Military Administration of Siberia"
-  P45_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Siberia"
+  P45_ITA_fascism_subject:0 "Italian Occupation of Siberia"
+  P45_ITA_fascism_subject_DEF:0 "the Italian Occupation of Siberia"
 
-  P46_ITA_fascism_subject:0 "Italian Military Administration of the Far East"
-  P46_ITA_fascism_subject_DEF:0 "the Italian Military Administration of the Far East"
+  P46_ITA_fascism_subject:0 "Italian Occupation of the Far East"
+  P46_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Far East"
 
-  P47_ITA_fascism_subject:0 "National State of Mongolia"
-  P47_ITA_fascism_subject_DEF:0 "the National State of Mongolia"
+  P47_ITA_fascism_subject:0 "Italian Occupation of Mongolia"
+  P47_ITA_fascism_subject_DEF:0 "the Italian Occupation of Mongolia"
 
-  P48_ITA_fascism_subject:0 "Italian Military Administration of Western Russia"
-  P48_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Western Russia"
+  P48_ITA_fascism_subject:0 "Italian Occupation of Western Russia"
+  P48_ITA_fascism_subject_DEF:0 "the Italian Occupation of Western Russia"
 
   P49_ITA_fascism_subject:0 "Kingdom of Bulgaria"
   P49_ITA_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
@@ -2613,20 +2613,20 @@
   P50_ITA_fascism_subject:0 "Italian Protectorate of Yugoslavia"
   P50_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Yugoslavia"
 
-  P51_ITA_fascism_subject:0 "National State of Turkestan"
-  P51_ITA_fascism_subject_DEF:0 "the National State of Turkestan"
+  P51_ITA_fascism_subject:0 "Italian Occupation of Turkestan"
+  P51_ITA_fascism_subject_DEF:0 "the Italian Occupation of Turkestan"
 
-  P52_ITA_fascism_subject:0 "National State of Nepal"
-  P52_ITA_fascism_subject_DEF:0 "the National State of Nepal"
+  P52_ITA_fascism_subject:0 "Italian Occupation of Nepal"
+  P52_ITA_fascism_subject_DEF:0 "the Italian Occupation of Nepal"
 
-  P54_ITA_fascism_subject:0 "National State of Chile"
-  P54_ITA_fascism_subject_DEF:0 "the National State of Chile"
+  P54_ITA_fascism_subject:0 "Italian Occupation of Chile"
+  P54_ITA_fascism_subject_DEF:0 "the Italian Occupation of Chile"
 
-  P55_ITA_fascism_subject:0 "National State of Argentina"
-  P55_ITA_fascism_subject_DEF:0 "the National State of Argentina"
+  P55_ITA_fascism_subject:0 "Italian Occupation of Argentina"
+  P55_ITA_fascism_subject_DEF:0 "the Italian Occupation of Argentina"
 
-  P56_ITA_fascism_subject:0 "National State of Peru"
-  P56_ITA_fascism_subject_DEF:0 "the National State of Peru"
+  P56_ITA_fascism_subject:0 "Italian Occupation of Peru"
+  P56_ITA_fascism_subject_DEF:0 "the Italian Occupation of Peru"
 
   P57_ITA_fascism_subject:0 "Integralist State of Brazil"
   P57_ITA_fascism_subject_DEF:0 "the Integralist State of Brazil"
@@ -2634,8 +2634,8 @@
   P58_ITA_fascism_subject:0 "Synarchist State of Mexico"
   P58_ITA_fascism_subject_DEF:0 "the Synarchist State of Mexico"
 
-  P59_ITA_fascism_subject:0 "National State of Bohemia"
-  P59_ITA_fascism_subject_DEF:0 "the National State of Bohemia"
+  P59_ITA_fascism_subject:0 "Italian Occupation of Bohemia"
+  P59_ITA_fascism_subject_DEF:0 "the Italian Occupation of Bohemia"
 
   P60_ITA_fascism_subject:0 "Rexist State of Belgium"
   P60_ITA_fascism_subject_DEF:0 "the Rexist State of Belgium"
@@ -2643,8 +2643,8 @@
   P61_ITA_fascism_subject:0 "Kingdom of Denmark"
   P61_ITA_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_ITA_fascism_subject:0 "Italian Occupation Zone of Northern France"
-  P62_ITA_fascism_subject_DEF:0 "the Italian Occupation Zone of Northern France"
+  P62_ITA_fascism_subject:0 "Italian Occupation of Northern France"
+  P62_ITA_fascism_subject_DEF:0 "the Italian Occupation of Northern France"
 
   P63_ITA_fascism_subject:0 "French State"
   P63_ITA_fascism_subject_DEF:0 "the French State"
@@ -2652,68 +2652,68 @@
   P64_ITA_fascism_subject:0 "Duchy of Savoy"
   P64_ITA_fascism_subject_DEF:0 "the Duchy of Savoy"
 
-  P65_ITA_fascism_subject:0 "Norwegian National State"
-  P65_ITA_fascism_subject_DEF:0 "the Norwegian National State"
+  P65_ITA_fascism_subject:0 "Italian Occupation of Norway"
+  P65_ITA_fascism_subject_DEF:0 "the Italian Occupation of Norway"
 
-  P66_ITA_fascism_subject:0 "National State of Ukraine"
-  P66_ITA_fascism_subject_DEF:0 "the National State of Ukraine"
+  P66_ITA_fascism_subject:0 "Italian Occupation of Ukraine"
+  P66_ITA_fascism_subject_DEF:0 "the Italian Occupation of Ukraine"
 
   P67_ITA_fascism_subject:0 "Italian Protectorate of the Levant"
   P67_ITA_fascism_subject_DEF:0 "the Italian Protectorate of the Levant"
 
-  P68_ITA_fascism_subject:0 "National State of Turkey"
-  P68_ITA_fascism_subject_DEF:0 "the National State of Turkey"
+  P68_ITA_fascism_subject:0 "Italian Occupation of Turkey"
+  P68_ITA_fascism_subject_DEF:0 "the Italian Occupation of Turkey"
 
-  P69_ITA_fascism_subject:0 "National State of Iraq"
-  P69_ITA_fascism_subject_DEF:0 "the National State of Iraq"
+  P69_ITA_fascism_subject:0 "Italian Occupation of Iraq"
+  P69_ITA_fascism_subject_DEF:0 "the Italian Occupation of Iraq"
 
-  P70_ITA_fascism_subject:0 "National State of Kurdistan"
-  P70_ITA_fascism_subject_DEF:0 "the National State of Kurdistan"
+  P70_ITA_fascism_subject:0 "Italian Occupation of Kurdistan"
+  P70_ITA_fascism_subject_DEF:0 "the Italian Occupation of Kurdistan"
 
-  P71_ITA_fascism_subject:0 "National State of Iran"
-  P71_ITA_fascism_subject_DEF:0 "the National State of Iran"
+  P71_ITA_fascism_subject:0 "Italian Occupation of Iran"
+  P71_ITA_fascism_subject_DEF:0 "the Italian Occupation of Iran"
 
-  P72_ITA_fascism_subject:0 "National State of Korea"
-  P72_ITA_fascism_subject_DEF:0 "the National State of Korea"
+  P72_ITA_fascism_subject:0 "Italian Occupation of Korea"
+  P72_ITA_fascism_subject_DEF:0 "the Italian Occupation of Korea"
 
   P73_ITA_fascism_subject:0 "Irish Corporate State"
   P73_ITA_fascism_subject_DEF:0 "the Irish Corporate State"
 
-  P74_ITA_fascism_subject:0 "Swedish National State"
-  P74_ITA_fascism_subject_DEF:0 "the Swedish National State"
+  P74_ITA_fascism_subject:0 "Italian Occupation of Sweden"
+  P74_ITA_fascism_subject_DEF:0 "the Italian Occupation of Sweden"
 
-  P75_ITA_fascism_subject:0 "National State of Pakistan"
-  P75_ITA_fascism_subject_DEF:0 "the National State of Pakistan"
+  P75_ITA_fascism_subject:0 "Italian Occupation of Pakistan"
+  P75_ITA_fascism_subject_DEF:0 "the Italian Occupation of Pakistan"
 
-  P76_ITA_fascism_subject:0 "National State of Afghanistan"
-  P76_ITA_fascism_subject_DEF:0 "the National State of Afghanistan"
+  P76_ITA_fascism_subject:0 "Italian Occupation of Afghanistan"
+  P76_ITA_fascism_subject_DEF:0 "the Italian Occupation of Afghanistan"
 
   P77_ITA_fascism_subject:0 "Federal State of Austria"
   P77_ITA_fascism_subject_DEF:0 "the Federal State of Austria"
 
-  P78_ITA_fascism_subject:0 "National State of Switzerland"
-  P78_ITA_fascism_subject_DEF:0 "the National State of Switzerland"
+  P78_ITA_fascism_subject:0 "Italian Occupation of Switzerland"
+  P78_ITA_fascism_subject_DEF:0 "the Italian Occupation of Switzerland"
 
   P79_ITA_fascism_subject:0 "National Legionary State of Romania"
   P79_ITA_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
-  P80_ITA_fascism_subject:0 "Italian Military Administration of England"
-  P80_ITA_fascism_subject_DEF:0 "the Italian Military Administration of England"
+  P80_ITA_fascism_subject:0 "Italian Occupation of England"
+  P80_ITA_fascism_subject_DEF:0 "the Italian Occupation of England"
 
-  P81_ITA_fascism_subject:0 "Italian Military Administration of Scotland"
-  P81_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Scotland"
+  P81_ITA_fascism_subject:0 "Italian Occupation of Scotland"
+  P81_ITA_fascism_subject_DEF:0 "the Italian Occupation of Scotland"
 
-  P82_ITA_fascism_subject:0 "Italian Military Administration of Wales"
-  P82_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Wales"
+  P82_ITA_fascism_subject:0 "Italian Occupation of Wales"
+  P82_ITA_fascism_subject_DEF:0 "the Italian Occupation of Wales"
 
-  P83_ITA_fascism_subject:0 "Italian Military Administration of Iceland"
-  P83_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Iceland"
+  P83_ITA_fascism_subject:0 "Italian Occupation of Iceland"
+  P83_ITA_fascism_subject_DEF:0 "the Italian Occupation of Iceland"
 
-  P84_ITA_fascism_subject:0 "Italian Military Administration of Northern Ireland"
-  P84_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Northern Ireland"
+  P84_ITA_fascism_subject:0 "Italian Occupation of Northern Ireland"
+  P84_ITA_fascism_subject_DEF:0 "the Italian Occupation of Northern Ireland"
 
-  P85_ITA_fascism_subject:0 "Italian Military Administration of Greenland"
-  P85_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Greenland"
+  P85_ITA_fascism_subject:0 "Italian Occupation of Greenland"
+  P85_ITA_fascism_subject_DEF:0 "the Italian Occupation of Greenland"
 
   P86_ITA_fascism_subject:0 "Independent State of Croatia"
   P86_ITA_fascism_subject_DEF:0 "the Independent State of Croatia"
@@ -2721,8 +2721,8 @@
   P87_ITA_fascism_subject:0 "Province of Ljubljana"
   P87_ITA_fascism_subject_DEF:0 "the Province of Ljubljana"
 
-  P88_ITA_fascism_subject:0 "National State of Bosnia-Herzegovina"
-  P88_ITA_fascism_subject_DEF:0 "the National State of Bosnia-Herzegovina"
+  P88_ITA_fascism_subject:0 "Italian Occupation of Bosnia-Herzegovina"
+  P88_ITA_fascism_subject_DEF:0 "the Italian Occupation of Bosnia-Herzegovina"
 
   P89_ITA_fascism_subject:0 "Government of National Salvation"
   P89_ITA_fascism_subject_DEF:0 "the Government of National Salvation"
@@ -2733,83 +2733,83 @@
   P91_ITA_fascism_subject:0 "Italian Protectorate of Albania"
   P91_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Albania"
 
-  P98_ITA_fascism_subject:0 "National State of Macedonia"
-  P98_ITA_fascism_subject_DEF:0 "the National State of Macedonia"
+  P98_ITA_fascism_subject:0 "Italian Occupation of Macedonia"
+  P98_ITA_fascism_subject_DEF:0 "the Italian Occupation of Macedonia"
 
-  P99_ITA_fascism_subject:0 "Italian Military Administration of Hokkaido"
-  P99_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Hokkaido"
+  P99_ITA_fascism_subject:0 "Italian Occupation of Hokkaido"
+  P99_ITA_fascism_subject_DEF:0 "the Italian Occupation of Hokkaido"
 
-  Q01_ITA_fascism_subject:0 "Italian Military Administration of Tohoku"
-  Q01_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Tohoku"
+  Q01_ITA_fascism_subject:0 "Italian Occupation of Tohoku"
+  Q01_ITA_fascism_subject_DEF:0 "the Italian Occupation of Tohoku"
 
-  Q02_ITA_fascism_subject:0 "Italian Military Administration of Kanto"
-  Q02_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Kanto"
+  Q02_ITA_fascism_subject:0 "Italian Occupation of Kanto"
+  Q02_ITA_fascism_subject_DEF:0 "the Italian Occupation of Kanto"
 
-  Q03_ITA_fascism_subject:0 "Italian Military Administration of Chubu"
-  Q03_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Chubu"
+  Q03_ITA_fascism_subject:0 "Italian Occupation of Chubu"
+  Q03_ITA_fascism_subject_DEF:0 "the Italian Occupation of Chubu"
 
-  Q04_ITA_fascism_subject:0 "Italian Military Administration of Kansai"
-  Q04_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Kansai"
+  Q04_ITA_fascism_subject:0 "Italian Occupation of Kansai"
+  Q04_ITA_fascism_subject_DEF:0 "the Italian Occupation of Kansai"
 
-  Q05_ITA_fascism_subject:0 "Italian Military Administration of Chugoku"
-  Q05_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Chugoku"
+  Q05_ITA_fascism_subject:0 "Italian Occupation of Chugoku"
+  Q05_ITA_fascism_subject_DEF:0 "the Italian Occupation of Chugoku"
 
-  Q06_ITA_fascism_subject:0 "Italian Military Administration of Shikoku"
-  Q06_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Shikoku"
+  Q06_ITA_fascism_subject:0 "Italian Occupation of Shikoku"
+  Q06_ITA_fascism_subject_DEF:0 "the Italian Occupation of Shikoku"
 
-  Q07_ITA_fascism_subject:0 "Italian Military Administration of Kyushu"
-  Q07_ITA_fascism_subject_DEF:0 "the Italian Military Administration of Kyushu"
+  Q07_ITA_fascism_subject:0 "Italian Occupation of Kyushu"
+  Q07_ITA_fascism_subject_DEF:0 "the Italian Occupation of Kyushu"
 
-  Q08_ITA_fascism_subject:0 "National State of Manchuria"
-  Q08_ITA_fascism_subject_DEF:0 "the National State of Manchuria"
+  Q08_ITA_fascism_subject:0 "Italian Occupation of Manchuria"
+  Q08_ITA_fascism_subject_DEF:0 "the Italian Occupation of Manchuria"
 
-  Q09_ITA_fascism_subject:0 "National State of Inner Mongolia"
-  Q09_ITA_fascism_subject_DEF:0 "the National State of Inner Mongolia"
+  Q09_ITA_fascism_subject:0 "Italian Occupation of Inner Mongolia"
+  Q09_ITA_fascism_subject_DEF:0 "the Italian Occupation of Inner Mongolia"
 
-  Q10_ITA_fascism_subject:0 "National State of North China"
-  Q10_ITA_fascism_subject_DEF:0 "the National State of North China"
+  Q10_ITA_fascism_subject:0 "Italian Occupation of North China"
+  Q10_ITA_fascism_subject_DEF:0 "the Italian Occupation of North China"
 
-  Q11_ITA_fascism_subject:0 "National State of Shandong"
-  Q11_ITA_fascism_subject_DEF:0 "the National State of Shandong"
+  Q11_ITA_fascism_subject:0 "Italian Occupation of Shandong"
+  Q11_ITA_fascism_subject_DEF:0 "the Italian Occupation of Shandong"
 
-  Q12_ITA_fascism_subject:0 "National State of Henan"
-  Q12_ITA_fascism_subject_DEF:0 "the National State of Henan"
+  Q12_ITA_fascism_subject:0 "Italian Occupation of Henan"
+  Q12_ITA_fascism_subject_DEF:0 "the Italian Occupation of Henan"
 
-  Q13_ITA_fascism_subject:0 "National State of Shanxi"
-  Q13_ITA_fascism_subject_DEF:0 "the National State of Shanxi"
+  Q13_ITA_fascism_subject:0 "Italian Occupation of Shanxi"
+  Q13_ITA_fascism_subject_DEF:0 "the Italian Occupation of Shanxi"
 
-  Q14_ITA_fascism_subject:0 "National State of Jiangnan"
-  Q14_ITA_fascism_subject_DEF:0 "the National State of Jiangnan"
+  Q14_ITA_fascism_subject:0 "Italian Occupation of Jiangnan"
+  Q14_ITA_fascism_subject_DEF:0 "the Italian Occupation of Jiangnan"
 
-  Q15_ITA_fascism_subject:0 "National State of Min-Zhe"
-  Q15_ITA_fascism_subject_DEF:0 "the National State of Min-Zhe"
+  Q15_ITA_fascism_subject:0 "Italian Occupation of Min-Zhe"
+  Q15_ITA_fascism_subject_DEF:0 "the Italian Occupation of Min-Zhe"
 
-  Q16_ITA_fascism_subject:0 "National State of Huguang"
-  Q16_ITA_fascism_subject_DEF:0 "the National State of Huguang"
+  Q16_ITA_fascism_subject:0 "Italian Occupation of Huguang"
+  Q16_ITA_fascism_subject_DEF:0 "the Italian Occupation of Huguang"
 
-  Q17_ITA_fascism_subject:0 "National State of Liangguang"
-  Q17_ITA_fascism_subject_DEF:0 "the National State of Liangguang"
+  Q17_ITA_fascism_subject:0 "Italian Occupation of Liangguang"
+  Q17_ITA_fascism_subject_DEF:0 "the Italian Occupation of Liangguang"
 
-  Q18_ITA_fascism_subject:0 "National State of Yunnan"
-  Q18_ITA_fascism_subject_DEF:0 "the National State of Yunnan"
+  Q18_ITA_fascism_subject:0 "Italian Occupation of Yunnan"
+  Q18_ITA_fascism_subject_DEF:0 "the Italian Occupation of Yunnan"
 
-  Q19_ITA_fascism_subject:0 "National State of Sichuan"
-  Q19_ITA_fascism_subject_DEF:0 "the National State of Sichuan"
+  Q19_ITA_fascism_subject:0 "Italian Occupation of Sichuan"
+  Q19_ITA_fascism_subject_DEF:0 "the Italian Occupation of Sichuan"
 
-  Q20_ITA_fascism_subject:0 "National State of Shaanxi"
-  Q20_ITA_fascism_subject_DEF:0 "the National State of Shaanxi"
+  Q20_ITA_fascism_subject:0 "Italian Occupation of Shaanxi"
+  Q20_ITA_fascism_subject_DEF:0 "the Italian Occupation of Shaanxi"
 
-  Q21_ITA_fascism_subject:0 "National State of Qinghai"
-  Q21_ITA_fascism_subject_DEF:0 "the National State of Qinghai"
+  Q21_ITA_fascism_subject:0 "Italian Occupation of Qinghai"
+  Q21_ITA_fascism_subject_DEF:0 "the Italian Occupation of Qinghai"
 
-  Q22_ITA_fascism_subject:0 "National State of Formosa"
-  Q22_ITA_fascism_subject_DEF:0 "the National State of Formosa"
+  Q22_ITA_fascism_subject:0 "Italian Occupation of Formosa"
+  Q22_ITA_fascism_subject_DEF:0 "the Italian Occupation of Formosa"
 
-  Q23_ITA_fascism_subject:0 "National State of East Turkestan"
-  Q23_ITA_fascism_subject_DEF:0 "the National State of East Turkestan"
+  Q23_ITA_fascism_subject:0 "Italian Occupation of East Turkestan"
+  Q23_ITA_fascism_subject_DEF:0 "the Italian Occupation of East Turkestan"
 
-  Q24_ITA_fascism_subject:0 "National State of Tibet"
-  Q24_ITA_fascism_subject_DEF:0 "the National State of Tibet"
+  Q24_ITA_fascism_subject:0 "Italian Occupation of Tibet"
+  Q24_ITA_fascism_subject_DEF:0 "the Italian Occupation of Tibet"
 
   ## JAPAN - COMMUNISM ##
   P01_JAP_communism_subject:0 "People's Republic of Colombia"
