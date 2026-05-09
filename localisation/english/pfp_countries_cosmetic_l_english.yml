@@ -1764,41 +1764,41 @@
   Q24_ITA_communism_subject_DEF:0 "the Italian Occupation of Tibet"
 
   ## ITALY - DEMOCRATIC ##
-  P01_ITA_democratic_subject:0 "Republic of Colombia"
-  P01_ITA_democratic_subject_DEF:0 "the Republic of Colombia"
+  P01_ITA_democratic_subject:0 "Italian Occupation of Colombia"
+  P01_ITA_democratic_subject_DEF:0 "the Italian Occupation of Colombia"
 
-  P02_ITA_democratic_subject:0 "Commonwealth of Great Britain"
-  P02_ITA_democratic_subject_DEF:0 "the Commonwealth of Great Britain"
+  P02_ITA_democratic_subject:0 "Italian Occupation of Great Britain"
+  P02_ITA_democratic_subject_DEF:0 "the Italian Occupation of Great Britain"
 
-  P03_ITA_democratic_subject:0 "Republic of Arabia"
-  P03_ITA_democratic_subject_DEF:0 "the Republic of Arabia"
+  P03_ITA_democratic_subject:0 "Italian Occupation of Arabia"
+  P03_ITA_democratic_subject_DEF:0 "the Italian Occupation of Arabia"
 
-  P04_ITA_democratic_subject:0 "Republic of the Baltic States"
-  P04_ITA_democratic_subject_DEF:0 "the Republic of the Baltic States"
+  P04_ITA_democratic_subject:0 "Italian Occupation of the Baltic States"
+  P04_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Baltic States"
 
-  P05_ITA_democratic_subject:0 "Republic of the Netherlands"
-  P05_ITA_democratic_subject_DEF:0 "the Republic of the Netherlands"
+  P05_ITA_democratic_subject:0 "Italian Occupation of the Netherlands"
+  P05_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Netherlands"
 
-  P06_ITA_democratic_subject:0 "Republic of the West Indies"
-  P06_ITA_democratic_subject_DEF:0 "the Republic of the West Indies"
+  P06_ITA_democratic_subject:0 "Italian Occupation of the West Indies"
+  P06_ITA_democratic_subject_DEF:0 "the Italian Occupation of the West Indies"
 
-  P07_ITA_democratic_subject:0 "Republic of Central Africa"
-  P07_ITA_democratic_subject_DEF:0 "the Republic of Central Africa"
+  P07_ITA_democratic_subject:0 "Italian Occupation of Central Africa"
+  P07_ITA_democratic_subject_DEF:0 "the Italian Occupation of Central Africa"
 
   P08_ITA_democratic_subject:0 "Central American Federation"
   P08_ITA_democratic_subject_DEF:0 "the Central American Federation"
 
-  P09_ITA_democratic_subject:0 "Republic of Hungary"
-  P09_ITA_democratic_subject_DEF:0 "the Republic of Hungary"
+  P09_ITA_democratic_subject:0 "Italian Occupation of Hungary"
+  P09_ITA_democratic_subject_DEF:0 "the Italian Occupation of Hungary"
 
-  P10_ITA_democratic_subject:0 "Republic of East Africa"
-  P10_ITA_democratic_subject_DEF:0 "the Republic of East Africa"
+  P10_ITA_democratic_subject:0 "Italian Occupation of East Africa"
+  P10_ITA_democratic_subject_DEF:0 "the Italian Occupation of East Africa"
 
   P11_ITA_democratic_subject:0 "Dominion of Eastern Canada"
   P11_ITA_democratic_subject_DEF:0 "the Dominion of Eastern Canada"
 
-  P12_ITA_democratic_subject:0 "Republic of Finland"
-  P12_ITA_democratic_subject_DEF:0 "the Republic of Finland"
+  P12_ITA_democratic_subject:0 "Italian Occupation of Finland"
+  P12_ITA_democratic_subject_DEF:0 "the Italian Occupation of Finland"
 
   P13_ITA_democratic_subject:0 "Weimar Republic"
   P13_ITA_democratic_subject_DEF:0 "the Weimar Republic"
@@ -1806,32 +1806,32 @@
   P14_ITA_democratic_subject:0 "Hellenic Republic"
   P14_ITA_democratic_subject_DEF:0 "the Hellenic Republic"
 
-  P15_ITA_democratic_subject:0 "Spanish Republic"
-  P15_ITA_democratic_subject_DEF:0 "the Spanish Republic"
+  P15_ITA_democratic_subject:0 "Italian Occupation of Iberia"
+  P15_ITA_democratic_subject_DEF:0 "the Italian Occupation of Iberia"
 
-  P16_ITA_democratic_subject:0 "Republic of Indochina"
-  P16_ITA_democratic_subject_DEF:0 "the Republic of Indochina"
+  P16_ITA_democratic_subject:0 "Italian Occupation of Indochina"
+  P16_ITA_democratic_subject_DEF:0 "the Italian Occupation of Indochina"
 
-  P17_ITA_democratic_subject:0 "Republic of Indonesia"
-  P17_ITA_democratic_subject_DEF:0 "the Republic of Indonesia"
+  P17_ITA_democratic_subject:0 "Italian Occupation of Indonesia"
+  P17_ITA_democratic_subject_DEF:0 "the Italian Occupation of Indonesia"
 
-  P18_ITA_democratic_subject:0 "Republic of the Midwest"
-  P18_ITA_democratic_subject_DEF:0 "the Republic of the Midwest"
+  P18_ITA_democratic_subject:0 "Italian Occupation of the Midwest"
+  P18_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Midwest"
 
-  P19_ITA_democratic_subject:0 "Republic of North Germany"
-  P19_ITA_democratic_subject_DEF:0 "the Republic of North Germany"
+  P19_ITA_democratic_subject:0 "Italian Occupation of Northern Germany"
+  P19_ITA_democratic_subject_DEF:0 "the Italian Occupation of Northern Germany"
 
-  P20_ITA_democratic_subject:0 "Republic of Northeastern America"
-  P20_ITA_democratic_subject_DEF:0 "the Republic of Northeastern America"
+  P20_ITA_democratic_subject:0 "Italian Occupation of Northeastern America"
+  P20_ITA_democratic_subject_DEF:0 "the Italian Occupation of Northeastern America"
 
-  P21_ITA_democratic_subject:0 "Republic of Pacific America"
-  P21_ITA_democratic_subject_DEF:0 "the Republic of Pacific America"
+  P21_ITA_democratic_subject:0 "Italian Occupation of Pacific America"
+  P21_ITA_democratic_subject_DEF:0 "the Italian Occupation of Pacific America"
 
-  P22_ITA_democratic_subject:0 "Republic of Quebec"
-  P22_ITA_democratic_subject_DEF:0 "the Republic of Quebec"
+  P22_ITA_democratic_subject:0 "Italian Occupation of Quebec"
+  P22_ITA_democratic_subject_DEF:0 "the Italian Occupation of Quebec"
 
-  P23_ITA_democratic_subject:0 "Republic of the Rockies"
-  P23_ITA_democratic_subject_DEF:0 "the Republic of the Rockies"
+  P23_ITA_democratic_subject:0 "Italian Occupation of the Rockies"
+  P23_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Rockies"
 
   P24_ITA_democratic_subject:0 "Scandinavian Union"
   P24_ITA_democratic_subject_DEF:0 "the Scandinavian Union"
@@ -1839,8 +1839,8 @@
   P25_ITA_democratic_subject:0 "Free State of Bavaria"
   P25_ITA_democratic_subject_DEF:0 "the Free State of Bavaria"
 
-  P26_ITA_democratic_subject:0 "Republic of the South"
-  P26_ITA_democratic_subject_DEF:0 "the Republic of the South"
+  P26_ITA_democratic_subject:0 "Italian Occupation of the South"
+  P26_ITA_democratic_subject_DEF:0 "the Italian Occupation of the South"
 
   P27_ITA_democratic_subject:0 "Commonwealth of Australasia"
   P27_ITA_democratic_subject_DEF:0 "the Commonwealth of Australasia"
@@ -1851,143 +1851,143 @@
   P29_ITA_democratic_subject:0 "Dominion of Western Canada"
   P29_ITA_democratic_subject_DEF:0 "the Dominion of Western Canada"
 
-  P30_ITA_democratic_subject:0 "Republic of North Africa"
-  P30_ITA_democratic_subject_DEF:0 "the Republic of North Africa"
+  P30_ITA_democratic_subject:0 "Italian Occupation of North Africa"
+  P30_ITA_democratic_subject_DEF:0 "the Italian Occupation of North Africa"
 
   P31_ITA_democratic_subject:0 "Free State of West Germany"
   P31_ITA_democratic_subject_DEF:0 "the Free State of West Germany"
 
-  P32_ITA_democratic_subject:0 "Republic of East Germany"
-  P32_ITA_democratic_subject_DEF:0 "the Republic of East Germany"
+  P32_ITA_democratic_subject:0 "Italian Occupation of East Germany"
+  P32_ITA_democratic_subject_DEF:0 "the Italian Occupation of East Germany"
 
   P33_ITA_democratic_subject:0 "Free State of Prussia"
   P33_ITA_democratic_subject_DEF:0 "the Free State of Prussia"
 
-  P34_ITA_democratic_subject:0 "Republic of Poland"
-  P34_ITA_democratic_subject_DEF:0 "the Republic of Poland"
+  P34_ITA_democratic_subject:0 "Italian Occupation of Poland"
+  P34_ITA_democratic_subject_DEF:0 "the Italian Occupation of Poland"
 
-  P35_ITA_democratic_subject:0 "Republic of West Africa"
-  P35_ITA_democratic_subject_DEF:0 "the Republic of West Africa"
+  P35_ITA_democratic_subject:0 "Italian Occupation of West Africa"
+  P35_ITA_democratic_subject_DEF:0 "the Italian Occupation of West Africa"
 
   P36_ITA_democratic_subject:0 "Union of South Africa"
   P36_ITA_democratic_subject_DEF:0 "the Union of South Africa"
 
-  P37_ITA_democratic_subject:0 "Republic of India"
-  P37_ITA_democratic_subject_DEF:0 "the Republic of India"
+  P37_ITA_democratic_subject:0 "Italian Occupation of India"
+  P37_ITA_democratic_subject_DEF:0 "the Italian Occupation of India"
 
-  P38_ITA_democratic_subject:0 "Republic of Bengal"
-  P38_ITA_democratic_subject_DEF:0 "the Republic of Bengal"
+  P38_ITA_democratic_subject:0 "Italian Occupation of Bengal"
+  P38_ITA_democratic_subject_DEF:0 "the Italian Occupation of Bengal"
 
-  P39_ITA_democratic_subject:0 "Republic of Central Russia"
-  P39_ITA_democratic_subject_DEF:0 "the Republic of Central Russia"
+  P39_ITA_democratic_subject:0 "Italian Occupation of Central Russia"
+  P39_ITA_democratic_subject_DEF:0 "the Italian Occupation of Central Russia"
 
-  P40_ITA_democratic_subject:0 "Republic of Southern Russia"
-  P40_ITA_democratic_subject_DEF:0 "the Republic of Southern Russia"
+  P40_ITA_democratic_subject:0 "Italian Occupation of Southern Russia"
+  P40_ITA_democratic_subject_DEF:0 "the Italian Occupation of Southern Russia"
 
-  P41_ITA_democratic_subject:0 "Republic of the Caucasus"
-  P41_ITA_democratic_subject_DEF:0 "the Republic of the Caucasus"
+  P41_ITA_democratic_subject:0 "Italian Occupation of the Caucasus"
+  P41_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Caucasus"
 
-  P42_ITA_democratic_subject:0 "Republic of Volga"
-  P42_ITA_democratic_subject_DEF:0 "the Republic of Volga"
+  P42_ITA_democratic_subject:0 "Italian Occupation of the Volga"
+  P42_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Volga"
 
-  P43_ITA_democratic_subject:0 "Republic of Northwestern Russia"
-  P43_ITA_democratic_subject_DEF:0 "the Republic of Northwestern Russia"
+  P43_ITA_democratic_subject:0 "Italian Occupation of Northwestern Russia"
+  P43_ITA_democratic_subject_DEF:0 "the Italian Occupation of Northwestern Russia"
 
-  P44_ITA_democratic_subject:0 "Republic of the Urals"
-  P44_ITA_democratic_subject_DEF:0 "the Republic of the Urals"
+  P44_ITA_democratic_subject:0 "Italian Occupation of the Urals"
+  P44_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Urals"
 
-  P45_ITA_democratic_subject:0 "Republic of Siberia"
-  P45_ITA_democratic_subject_DEF:0 "the Republic of Siberia"
+  P45_ITA_democratic_subject:0 "Italian Occupation of Siberia"
+  P45_ITA_democratic_subject_DEF:0 "the Italian Occupation of Siberia"
 
-  P46_ITA_democratic_subject:0 "Republic of the Far East"
-  P46_ITA_democratic_subject_DEF:0 "the Republic of the Far East"
+  P46_ITA_democratic_subject:0 "Italian Occupation of the Far East"
+  P46_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Far East"
 
-  P47_ITA_democratic_subject:0 "Republic of Mongolia"
-  P47_ITA_democratic_subject_DEF:0 "the Republic of Mongolia"
+  P47_ITA_democratic_subject:0 "Italian Occupation of Mongolia"
+  P47_ITA_democratic_subject_DEF:0 "the Italian Occupation of Mongolia"
 
   P48_ITA_democratic_subject:0 "Byelorussian Republic"
   P48_ITA_democratic_subject_DEF:0 "the Byelorussian Republic"
 
-  P49_ITA_democratic_subject:0 "Republic of Bulgaria"
-  P49_ITA_democratic_subject_DEF:0 "the Republic of Bulgaria"
+  P49_ITA_democratic_subject:0 "Italian Occupation of Bulgaria"
+  P49_ITA_democratic_subject_DEF:0 "the Italian Occupation of Bulgaria"
 
   P50_ITA_democratic_subject:0 "Federal Republic of Yugoslavia"
   P50_ITA_democratic_subject_DEF:0 "the Federal Republic of Yugoslavia"
 
-  P51_ITA_democratic_subject:0 "Republic of Turkestan"
-  P51_ITA_democratic_subject_DEF:0 "the Republic of Turkestan"
+  P51_ITA_democratic_subject:0 "Italian Occupation of Turkestan"
+  P51_ITA_democratic_subject_DEF:0 "the Italian Occupation of Turkestan"
 
-  P52_ITA_democratic_subject:0 "Republic of Nepal"
-  P52_ITA_democratic_subject_DEF:0 "the Republic of Nepal"
+  P52_ITA_democratic_subject:0 "Italian Occupation of Nepal"
+  P52_ITA_democratic_subject_DEF:0 "the Italian Occupation of Nepal"
 
-  P54_ITA_democratic_subject:0 "Republic of Chile"
-  P54_ITA_democratic_subject_DEF:0 "the Republic of Chile"
+  P54_ITA_democratic_subject:0 "Italian Occupation of Chile"
+  P54_ITA_democratic_subject_DEF:0 "the Italian Occupation of Chile"
 
-  P55_ITA_democratic_subject:0 "Republic of Argentina"
-  P55_ITA_democratic_subject_DEF:0 "the Republic of Argentina"
+  P55_ITA_democratic_subject:0 "Italian Occupation of Argentina"
+  P55_ITA_democratic_subject_DEF:0 "the Italian Occupation of Argentina"
 
-  P56_ITA_democratic_subject:0 "Republic of Peru"
-  P56_ITA_democratic_subject_DEF:0 "the Republic of Peru"
+  P56_ITA_democratic_subject:0 "Italian Occupation of Peru"
+  P56_ITA_democratic_subject_DEF:0 "the Italian Occupation of Peru"
 
   P57_ITA_democratic_subject:0 "Federative Republic of Brazil"
   P57_ITA_democratic_subject_DEF:0 "the Federative Republic of Brazil"
 
-  P58_ITA_democratic_subject:0 "Republic of Mexico"
-  P58_ITA_democratic_subject_DEF:0 "the Republic of Mexico"
+  P58_ITA_democratic_subject:0 "Italian Occupation of Mexico"
+  P58_ITA_democratic_subject_DEF:0 "the Italian Occupation of Mexico"
 
   P59_ITA_democratic_subject:0 "Czechoslovak Republic"
   P59_ITA_democratic_subject_DEF:0 "the Czechoslovak Republic"
 
-  P60_ITA_democratic_subject:0 "Republic of Belgium"
-  P60_ITA_democratic_subject_DEF:0 "the Republic of Belgium"
+  P60_ITA_democratic_subject:0 "Italian Occupation of Belgium"
+  P60_ITA_democratic_subject_DEF:0 "the Italian Occupation of Belgium"
 
-  P61_ITA_democratic_subject:0 "Republic of Denmark"
-  P61_ITA_democratic_subject_DEF:0 "the Republic of Denmark"
+  P61_ITA_democratic_subject:0 "Kingdom of Denmark"
+  P61_ITA_democratic_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_ITA_democratic_subject:0 "Republic of France"
-  P62_ITA_democratic_subject_DEF:0 "the Republic of France"
+  P62_ITA_democratic_subject:0 "Italian Occupation of Northern France"
+  P62_ITA_democratic_subject_DEF:0 "the Italian Occupation of Northern France"
 
-  P63_ITA_democratic_subject:0 "Republic of Southern France"
-  P63_ITA_democratic_subject_DEF:0 "the Republic of Southern France"
+  P63_ITA_democratic_subject:0 "Italian Occupation of Southern France"
+  P63_ITA_democratic_subject_DEF:0 "the Italian Occupation of Southern France"
 
-  P64_ITA_democratic_subject:0 "Republic of Savoy"
-  P64_ITA_democratic_subject_DEF:0 "the Republic of Savoy"
+  P64_ITA_democratic_subject:0 "Italian Occupation of Savoy"
+  P64_ITA_democratic_subject_DEF:0 "the Italian Occupation of Savoy"
 
-  P65_ITA_democratic_subject:0 "Republic of Norway"
-  P65_ITA_democratic_subject_DEF:0 "the Republic of Norway"
+  P65_ITA_democratic_subject:0 "Kingdom of Norway"
+  P65_ITA_democratic_subject_DEF:0 "the Kingdom of Norway"
 
   P66_ITA_democratic_subject:0 "Ukrainian People's Republic"
   P66_ITA_democratic_subject_DEF:0 "the Ukrainian People's Republic"
 
-  P67_ITA_democratic_subject:0 "Republic of the Levant"
-  P67_ITA_democratic_subject_DEF:0 "the Republic of the Levant"
+  P67_ITA_democratic_subject:0 "Italian Occupation of the Levant"
+  P67_ITA_democratic_subject_DEF:0 "the Italian Occupation of the Levant"
 
-  P68_ITA_democratic_subject:0 "Republic of Turkey"
-  P68_ITA_democratic_subject_DEF:0 "the Republic of Turkey"
+  P68_ITA_democratic_subject:0 "Italian Occupation of Turkey"
+  P68_ITA_democratic_subject_DEF:0 "the Italian Occupation of Turkey"
 
-  P69_ITA_democratic_subject:0 "Republic of Iraq"
-  P69_ITA_democratic_subject_DEF:0 "the Republic of Iraq"
+  P69_ITA_democratic_subject:0 "Italian Occupation of Iraq"
+  P69_ITA_democratic_subject_DEF:0 "the Italian Occupation of Iraq"
 
-  P70_ITA_democratic_subject:0 "Republic of Kurdistan"
-  P70_ITA_democratic_subject_DEF:0 "the Republic of Kurdistan"
+  P70_ITA_democratic_subject:0 "Italian Occupation of Kurdistan"
+  P70_ITA_democratic_subject_DEF:0 "the Italian Occupation of Kurdistan"
 
-  P71_ITA_democratic_subject:0 "Republic of Iran"
-  P71_ITA_democratic_subject_DEF:0 "the Republic of Iran"
+  P71_ITA_democratic_subject:0 "Italian Occupation of Iran"
+  P71_ITA_democratic_subject_DEF:0 "the Italian Occupation of Iran"
 
-  P72_ITA_democratic_subject:0 "Republic of Korea"
-  P72_ITA_democratic_subject_DEF:0 "the Republic of Korea"
+  P72_ITA_democratic_subject:0 "Italian Occupation of Korea"
+  P72_ITA_democratic_subject_DEF:0 "the Italian Occupation of Korea"
 
   P73_ITA_democratic_subject:0 "Irish Free State"
   P73_ITA_democratic_subject_DEF:0 "the Irish Free State"
 
-  P74_ITA_democratic_subject:0 "Republic of Sweden"
-  P74_ITA_democratic_subject_DEF:0 "the Republic of Sweden"
+  P74_ITA_democratic_subject:0 "Kingdom of Sweden"
+  P74_ITA_democratic_subject_DEF:0 "the Kingdom of Sweden"
 
-  P75_ITA_democratic_subject:0 "Republic of Pakistan"
-  P75_ITA_democratic_subject_DEF:0 "the Republic of Pakistan"
+  P75_ITA_democratic_subject:0 "Italian Occupation of Pakistan"
+  P75_ITA_democratic_subject_DEF:0 "the Italian Occupation of Pakistan"
 
-  P76_ITA_democratic_subject:0 "Republic of Afghanistan"
-  P76_ITA_democratic_subject_DEF:0 "the Republic of Afghanistan"
+  P76_ITA_democratic_subject:0 "Italian Occupation of Afghanistan"
+  P76_ITA_democratic_subject_DEF:0 "the Italian Occupation of Afghanistan"
 
   P77_ITA_democratic_subject:0 "Federal Republic of Austria"
   P77_ITA_democratic_subject_DEF:0 "the Federal Republic of Austria"
@@ -1995,122 +1995,122 @@
   P78_ITA_democratic_subject:0 "Swiss Confederation"
   P78_ITA_democratic_subject_DEF:0 "the Swiss Confederation"
 
-  P79_ITA_democratic_subject:0 "Republic of Romania"
-  P79_ITA_democratic_subject_DEF:0 "the Republic of Romania"
+  P79_ITA_democratic_subject:0 "Italian Occupation of Romania"
+  P79_ITA_democratic_subject_DEF:0 "the Italian Occupation of Romania"
 
-  P80_ITA_democratic_subject:0 "Republic of England"
-  P80_ITA_democratic_subject_DEF:0 "the Republic of England"
+  P80_ITA_democratic_subject:0 "Italian Occupation of England"
+  P80_ITA_democratic_subject_DEF:0 "the Italian Occupation of England"
 
-  P81_ITA_democratic_subject:0 "Republic of Scotland"
-  P81_ITA_democratic_subject_DEF:0 "the Republic of Scotland"
+  P81_ITA_democratic_subject:0 "Italian Occupation of Scotland"
+  P81_ITA_democratic_subject_DEF:0 "the Italian Occupation of Scotland"
 
-  P82_ITA_democratic_subject:0 "Republic of Wales"
-  P82_ITA_democratic_subject_DEF:0 "the Republic of Wales"
+  P82_ITA_democratic_subject:0 "Italian Occupation of Wales"
+  P82_ITA_democratic_subject_DEF:0 "the Italian Occupation of Wales"
 
-  P83_ITA_democratic_subject:0 "Republic of Iceland"
-  P83_ITA_democratic_subject_DEF:0 "the Republic of Iceland"
+  P83_ITA_democratic_subject:0 "Italian Occupation of Iceland"
+  P83_ITA_democratic_subject_DEF:0 "the Italian Occupation of Iceland"
 
-  P84_ITA_democratic_subject:0 "Republic of Northern Ireland"
-  P84_ITA_democratic_subject_DEF:0 "the Republic of Northern Ireland"
+  P84_ITA_democratic_subject:0 "Italian Occupation of Northern Ireland"
+  P84_ITA_democratic_subject_DEF:0 "the Italian Occupation of Northern Ireland"
 
-  P85_ITA_democratic_subject:0 "Republic of Greenland"
-  P85_ITA_democratic_subject_DEF:0 "the Republic of Greenland"
+  P85_ITA_democratic_subject:0 "Italian Occupation of Greenland"
+  P85_ITA_democratic_subject_DEF:0 "the Italian Occupation of Greenland"
 
-  P86_ITA_democratic_subject:0 "Republic of Croatia"
-  P86_ITA_democratic_subject_DEF:0 "the Republic of Croatia"
+  P86_ITA_democratic_subject:0 "Italian Occupation of Croatia"
+  P86_ITA_democratic_subject_DEF:0 "the Italian Occupation of Croatia"
 
-  P87_ITA_democratic_subject:0 "Republic of Slovenia"
-  P87_ITA_democratic_subject_DEF:0 "the Republic of Slovenia"
+  P87_ITA_democratic_subject:0 "Italian Occupation of Slovenia"
+  P87_ITA_democratic_subject_DEF:0 "the Italian Occupation of Slovenia"
 
-  P88_ITA_democratic_subject:0 "Republic of Bosnia-Herzegovina"
-  P88_ITA_democratic_subject_DEF:0 "the Republic of Bosnia-Herzegovina"
+  P88_ITA_democratic_subject:0 "Italian Occupation of Bosnia-Herzegovina"
+  P88_ITA_democratic_subject_DEF:0 "the Italian Occupation of Bosnia-Herzegovina"
 
-  P89_ITA_democratic_subject:0 "Republic of Serbia"
-  P89_ITA_democratic_subject_DEF:0 "the Republic of Serbia"
+  P89_ITA_democratic_subject:0 "Italian Occupation of Serbia"
+  P89_ITA_democratic_subject_DEF:0 "the Italian Occupation of Serbia"
 
-  P90_ITA_democratic_subject:0 "Republic of Montenegro"
-  P90_ITA_democratic_subject_DEF:0 "the Republic of Montenegro"
+  P90_ITA_democratic_subject:0 "Italian Occupation of Montenegro"
+  P90_ITA_democratic_subject_DEF:0 "the Italian Occupation of Montenegro"
 
-  P91_ITA_democratic_subject:0 "Republic of Albania"
-  P91_ITA_democratic_subject_DEF:0 "the Republic of Albania"
+  P91_ITA_democratic_subject:0 "Italian Occupation of Albania"
+  P91_ITA_democratic_subject_DEF:0 "the Italian Occupation of Albania"
 
-  P98_ITA_democratic_subject:0 "Republic of Macedonia"
-  P98_ITA_democratic_subject_DEF:0 "the Republic of Macedonia"
+  P98_ITA_democratic_subject:0 "Italian Occupation of Macedonia"
+  P98_ITA_democratic_subject_DEF:0 "the Italian Occupation of Macedonia"
 
-  P99_ITA_democratic_subject:0 "Republic of Hokkaido"
-  P99_ITA_democratic_subject_DEF:0 "the Republic of Hokkaido"
+  P99_ITA_democratic_subject:0 "Italian Occupation of Hokkaido"
+  P99_ITA_democratic_subject_DEF:0 "the Italian Occupation of Hokkaido"
 
-  Q01_ITA_democratic_subject:0 "Republic of Tohoku"
-  Q01_ITA_democratic_subject_DEF:0 "the Republic of Tohoku"
+  Q01_ITA_democratic_subject:0 "Italian Occupation of Tohoku"
+  Q01_ITA_democratic_subject_DEF:0 "the Italian Occupation of Tohoku"
 
-  Q02_ITA_democratic_subject:0 "Republic of Kanto"
-  Q02_ITA_democratic_subject_DEF:0 "the Republic of Kanto"
+  Q02_ITA_democratic_subject:0 "Italian Occupation of Kanto"
+  Q02_ITA_democratic_subject_DEF:0 "the Italian Occupation of Kanto"
 
-  Q03_ITA_democratic_subject:0 "Republic of Chubu"
-  Q03_ITA_democratic_subject_DEF:0 "the Republic of Chubu"
+  Q03_ITA_democratic_subject:0 "Italian Occupation of Chubu"
+  Q03_ITA_democratic_subject_DEF:0 "the Italian Occupation of Chubu"
 
-  Q04_ITA_democratic_subject:0 "Republic of Kansai"
-  Q04_ITA_democratic_subject_DEF:0 "the Republic of Kansai"
+  Q04_ITA_democratic_subject:0 "Italian Occupation of Kansai"
+  Q04_ITA_democratic_subject_DEF:0 "the Italian Occupation of Kansai"
 
-  Q05_ITA_democratic_subject:0 "Republic of Chugoku"
-  Q05_ITA_democratic_subject_DEF:0 "the Republic of Chugoku"
+  Q05_ITA_democratic_subject:0 "Italian Occupation of Chugoku"
+  Q05_ITA_democratic_subject_DEF:0 "the Italian Occupation of Chugoku"
 
-  Q06_ITA_democratic_subject:0 "Republic of Shikoku"
-  Q06_ITA_democratic_subject_DEF:0 "the Republic of Shikoku"
+  Q06_ITA_democratic_subject:0 "Italian Occupation of Shikoku"
+  Q06_ITA_democratic_subject_DEF:0 "the Italian Occupation of Shikoku"
 
-  Q07_ITA_democratic_subject:0 "Republic of Kyushu"
-  Q07_ITA_democratic_subject_DEF:0 "the Republic of Kyushu"
+  Q07_ITA_democratic_subject:0 "Italian Occupation of Kyushu"
+  Q07_ITA_democratic_subject_DEF:0 "the Italian Occupation of Kyushu"
 
-  Q08_ITA_democratic_subject:0 "Republic of Manchuria"
-  Q08_ITA_democratic_subject_DEF:0 "the Republic of Manchuria"
+  Q08_ITA_democratic_subject:0 "Italian Occupation of Manchuria"
+  Q08_ITA_democratic_subject_DEF:0 "the Italian Occupation of Manchuria"
 
-  Q09_ITA_democratic_subject:0 "Republic of Inner Mongolia"
-  Q09_ITA_democratic_subject_DEF:0 "the Republic of Inner Mongolia"
+  Q09_ITA_democratic_subject:0 "Italian Occupation of Inner Mongolia"
+  Q09_ITA_democratic_subject_DEF:0 "the Italian Occupation of Inner Mongolia"
 
-  Q10_ITA_democratic_subject:0 "Republic of North China"
-  Q10_ITA_democratic_subject_DEF:0 "the Republic of North China"
+  Q10_ITA_democratic_subject:0 "Italian Occupation of North China"
+  Q10_ITA_democratic_subject_DEF:0 "the Italian Occupation of North China"
 
-  Q11_ITA_democratic_subject:0 "Republic of Shandong"
-  Q11_ITA_democratic_subject_DEF:0 "the Republic of Shandong"
+  Q11_ITA_democratic_subject:0 "Italian Occupation of Shandong"
+  Q11_ITA_democratic_subject_DEF:0 "the Italian Occupation of Shandong"
 
-  Q12_ITA_democratic_subject:0 "Republic of Henan"
-  Q12_ITA_democratic_subject_DEF:0 "the Republic of Henan"
+  Q12_ITA_democratic_subject:0 "Italian Occupation of Henan"
+  Q12_ITA_democratic_subject_DEF:0 "the Italian Occupation of Henan"
 
-  Q13_ITA_democratic_subject:0 "Republic of Shanxi"
-  Q13_ITA_democratic_subject_DEF:0 "the Republic of Shanxi"
+  Q13_ITA_democratic_subject:0 "Italian Occupation of Shanxi"
+  Q13_ITA_democratic_subject_DEF:0 "the Italian Occupation of Shanxi"
 
-  Q14_ITA_democratic_subject:0 "Republic of Jiangnan"
-  Q14_ITA_democratic_subject_DEF:0 "the Republic of Jiangnan"
+  Q14_ITA_democratic_subject:0 "Italian Occupation of Jiangnan"
+  Q14_ITA_democratic_subject_DEF:0 "the Italian Occupation of Jiangnan"
 
-  Q15_ITA_democratic_subject:0 "Republic of Min-Zhe"
-  Q15_ITA_democratic_subject_DEF:0 "the Republic of Min-Zhe"
+  Q15_ITA_democratic_subject:0 "Italian Occupation of Min-Zhe"
+  Q15_ITA_democratic_subject_DEF:0 "the Italian Occupation of Min-Zhe"
 
-  Q16_ITA_democratic_subject:0 "Republic of Huguang"
-  Q16_ITA_democratic_subject_DEF:0 "the Republic of Huguang"
+  Q16_ITA_democratic_subject:0 "Italian Occupation of Huguang"
+  Q16_ITA_democratic_subject_DEF:0 "the Italian Occupation of Huguang"
 
-  Q17_ITA_democratic_subject:0 "Republic of Liangguang"
-  Q17_ITA_democratic_subject_DEF:0 "the Republic of Liangguang"
+  Q17_ITA_democratic_subject:0 "Italian Occupation of Liangguang"
+  Q17_ITA_democratic_subject_DEF:0 "the Italian Occupation of Liangguang"
 
-  Q18_ITA_democratic_subject:0 "Republic of Yunnan"
-  Q18_ITA_democratic_subject_DEF:0 "the Republic of Yunnan"
+  Q18_ITA_democratic_subject:0 "Italian Occupation of Yunnan"
+  Q18_ITA_democratic_subject_DEF:0 "the Italian Occupation of Yunnan"
 
-  Q19_ITA_democratic_subject:0 "Republic of Sichuan"
-  Q19_ITA_democratic_subject_DEF:0 "the Republic of Sichuan"
+  Q19_ITA_democratic_subject:0 "Italian Occupation of Sichuan"
+  Q19_ITA_democratic_subject_DEF:0 "the Italian Occupation of Sichuan"
 
-  Q20_ITA_democratic_subject:0 "Republic of Shaanxi"
-  Q20_ITA_democratic_subject_DEF:0 "the Republic of Shaanxi"
+  Q20_ITA_democratic_subject:0 "Italian Occupation of Shaanxi"
+  Q20_ITA_democratic_subject_DEF:0 "the Italian Occupation of Shaanxi"
 
-  Q21_ITA_democratic_subject:0 "Republic of Qinghai"
-  Q21_ITA_democratic_subject_DEF:0 "the Republic of Qinghai"
+  Q21_ITA_democratic_subject:0 "Italian Occupation of Qinghai"
+  Q21_ITA_democratic_subject_DEF:0 "the Italian Occupation of Qinghai"
 
-  Q22_ITA_democratic_subject:0 "Republic of China"
-  Q22_ITA_democratic_subject_DEF:0 "the Republic of China"
+  Q22_ITA_democratic_subject:0 "Italian Occupation of Taiwan"
+  Q22_ITA_democratic_subject_DEF:0 "the Italian Occupation of Taiwan"
 
-  Q23_ITA_democratic_subject:0 "Republic of East Turkestan"
-  Q23_ITA_democratic_subject_DEF:0 "the Republic of East Turkestan"
+  Q23_ITA_democratic_subject:0 "Italian Occupation of East Turkestan"
+  Q23_ITA_democratic_subject_DEF:0 "the Italian Occupation of East Turkestan"
 
-  Q24_ITA_democratic_subject:0 "Republic of Tibet"
-  Q24_ITA_democratic_subject_DEF:0 "the Republic of Tibet"
+  Q24_ITA_democratic_subject:0 "Italian Occupation of Tibet"
+  Q24_ITA_democratic_subject_DEF:0 "the Italian Occupation of Tibet"
 
   ## ITALY - NEUTRALITY ##
   P01_ITA_neutrality_subject:0 "Kingdom of Colombia"
