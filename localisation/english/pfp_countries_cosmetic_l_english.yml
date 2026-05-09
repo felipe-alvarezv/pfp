@@ -4488,11 +4488,11 @@
   P03_SOV_democratic_subject:0 "Republic of Arabia"
   P03_SOV_democratic_subject_DEF:0 "the Republic of Arabia"
 
-  P04_SOV_democratic_subject:0 "Baltic Republic"
-  P04_SOV_democratic_subject_DEF:0 "the Baltic Republic"
+  P04_SOV_democratic_subject:0 "Russian Occupation of the Baltic"
+  P04_SOV_democratic_subject_DEF:0 "the Russian Occupation of the Baltic"
 
-  P05_SOV_democratic_subject:0 "Republic of the Netherlands"
-  P05_SOV_democratic_subject_DEF:0 "the Republic of the Netherlands"
+  P05_SOV_democratic_subject:0 "Russian Occupation of the Netherlands"
+  P05_SOV_democratic_subject_DEF:0 "the Russian Occupation of the Netherlands"
 
   P06_SOV_democratic_subject:0 "Republic of the Caribbean"
   P06_SOV_democratic_subject_DEF:0 "the Republic of the Caribbean"
@@ -4503,8 +4503,8 @@
   P08_SOV_democratic_subject:0 "Central American Federation"
   P08_SOV_democratic_subject_DEF:0 "the Central American Federation"
 
-  P09_SOV_democratic_subject:0 "Hungarian Republic"
-  P09_SOV_democratic_subject_DEF:0 "the Hungarian Republic"
+  P09_SOV_democratic_subject:0 "Russian Occupation of Hungary"
+  P09_SOV_democratic_subject_DEF:0 "the Russian Occupation of Hungary"
 
   P10_SOV_democratic_subject:0 "Republic of East Africa"
   P10_SOV_democratic_subject_DEF:0 "the Republic of East Africa"
@@ -4530,8 +4530,8 @@
   P17_SOV_democratic_subject:0 "Republic of Indonesia"
   P17_SOV_democratic_subject_DEF:0 "the Republic of Indonesia"
 
-  P19_SOV_democratic_subject:0 "Republic of North Germany"
-  P19_SOV_democratic_subject_DEF:0 "the Republic of North Germany"
+  P19_SOV_democratic_subject:0 "Russian Occupation of Northern Germany"
+  P19_SOV_democratic_subject_DEF:0 "the Russian Occupation of Northern Germany"
 
   P22_SOV_democratic_subject:0 "Republic of Quebec"
   P22_SOV_democratic_subject_DEF:0 "the Republic of Quebec"
@@ -4554,11 +4554,11 @@
   P30_SOV_democratic_subject:0 "Republic of North Africa"
   P30_SOV_democratic_subject_DEF:0 "the Republic of North Africa"
 
-  P31_SOV_democratic_subject:0 "Republic of West Germany"
-  P31_SOV_democratic_subject_DEF:0 "the Republic of West Germany"
+  P31_SOV_democratic_subject:0 "Russian Occupation of Western Germany"
+  P31_SOV_democratic_subject_DEF:0 "the Russian Occupation of Western Germany"
 
-  P32_SOV_democratic_subject:0 "Republic of East Germany"
-  P32_SOV_democratic_subject_DEF:0 "the Republic of East Germany"
+  P32_SOV_democratic_subject:0 "Russian Occupation of Eastern Germany"
+  P32_SOV_democratic_subject_DEF:0 "the Russian Occupation of Eastern Germany"
 
   P33_SOV_democratic_subject:0 "Free State of Prussia"
   P33_SOV_democratic_subject_DEF:0 "the Free State of Prussia"
@@ -4581,8 +4581,8 @@
   P47_SOV_democratic_subject:0 "Republic of Mongolia"
   P47_SOV_democratic_subject_DEF:0 "the Republic of Mongolia"
 
-  P49_SOV_democratic_subject:0 "Republic of Bulgaria"
-  P49_SOV_democratic_subject_DEF:0 "the Republic of Bulgaria"
+  P49_SOV_democratic_subject:0 "Russian Occupation of Bulgaria"
+  P49_SOV_democratic_subject_DEF:0 "the Russian Occupation of Bulgaria"
 
   P50_SOV_democratic_subject:0 "Federal Republic of Yugoslavia"
   P50_SOV_democratic_subject_DEF:0 "the Federal Republic of Yugoslavia"
@@ -4611,23 +4611,23 @@
   P59_SOV_democratic_subject:0 "Czechoslovak Republic"
   P59_SOV_democratic_subject_DEF:0 "the Czechoslovak Republic"
 
-  P60_SOV_democratic_subject:0 "Republic of Belgium"
-  P60_SOV_democratic_subject_DEF:0 "the Republic of Belgium"
+  P60_SOV_democratic_subject:0 "Russian Occupation of Belgium"
+  P60_SOV_democratic_subject_DEF:0 "the Russian Occupation of Belgium"
 
-  P61_SOV_democratic_subject:0 "Republic of Denmark"
-  P61_SOV_democratic_subject_DEF:0 "the Republic of Denmark"
+  P61_SOV_democratic_subject:0 "Russian Occupation of Denmark"
+  P61_SOV_democratic_subject_DEF:0 "the Russian Occupation of Denmark"
 
-  P62_SOV_democratic_subject:0 "Republic of Northern France"
-  P62_SOV_democratic_subject_DEF:0 "the Republic of Northern France"
+  P62_SOV_democratic_subject:0 "Russian Occupation of Northern France"
+  P62_SOV_democratic_subject_DEF:0 "the Russian Occupation of Northern France"
 
-  P63_SOV_democratic_subject:0 "Republic of Southern France"
-  P63_SOV_democratic_subject_DEF:0 "the Republic of Southern France"
+  P63_SOV_democratic_subject:0 "Russian Occupation of Southern France"
+  P63_SOV_democratic_subject_DEF:0 "the Russian Occupation of Southern France"
 
   P64_SOV_democratic_subject:0 "Republic of the Alps"
   P64_SOV_democratic_subject_DEF:0 "the Republic of the Alps"
 
-  P65_SOV_democratic_subject:0 "Republic of Norway"
-  P65_SOV_democratic_subject_DEF:0 "the Republic of Norway"
+  P65_SOV_democratic_subject:0 "Russian Occupation of Norway"
+  P65_SOV_democratic_subject_DEF:0 "the Russian Occupation of Norway"
 
   P66_SOV_democratic_subject:0 "Ukrainian People's Republic"
   P66_SOV_democratic_subject_DEF:0 "the Ukrainian People's Republic"
@@ -4653,8 +4653,8 @@
   P73_SOV_democratic_subject:0 "Irish Free State"
   P73_SOV_democratic_subject_DEF:0 "the Irish Free State"
 
-  P74_SOV_democratic_subject:0 "Republic of Sweden"
-  P74_SOV_democratic_subject_DEF:0 "the Republic of Sweden"
+  P74_SOV_democratic_subject:0 "Kingdom of Sweden"
+  P74_SOV_democratic_subject_DEF:0 "the Kingdom of Sweden"
 
   P75_SOV_democratic_subject:0 "Republic of Pakistan"
   P75_SOV_democratic_subject_DEF:0 "the Republic of Pakistan"
@@ -4668,65 +4668,65 @@
   P78_SOV_democratic_subject:0 "Swiss Confederation"
   P78_SOV_democratic_subject_DEF:0 "the Swiss Confederation"
 
-  P79_SOV_democratic_subject:0 "Republic of Romania"
-  P79_SOV_democratic_subject_DEF:0 "the Republic of Romania"
+  P79_SOV_democratic_subject:0 "Russian Occupation of Romania"
+  P79_SOV_democratic_subject_DEF:0 "the Russian Occupation of Romania"
 
-  P80_SOV_democratic_subject:0 "Republic of England"
-  P80_SOV_democratic_subject_DEF:0 "the Republic of England"
+  P80_SOV_democratic_subject:0 "Russian Occupation of England"
+  P80_SOV_democratic_subject_DEF:0 "the Russian Occupation of England"
 
-  P81_SOV_democratic_subject:0 "Republic of Scotland"
-  P81_SOV_democratic_subject_DEF:0 "the Republic of Scotland"
+  P81_SOV_democratic_subject:0 "Russian Occupation of Scotland"
+  P81_SOV_democratic_subject_DEF:0 "the Russian Occupation of Scotland"
 
-  P82_SOV_democratic_subject:0 "Republic of Wales"
-  P82_SOV_democratic_subject_DEF:0 "the Republic of Wales"
+  P82_SOV_democratic_subject:0 "Russian Occupation of Wales"
+  P82_SOV_democratic_subject_DEF:0 "the Russian Occupation of Wales"
 
   P83_SOV_democratic_subject:0 "Republic of Iceland"
   P83_SOV_democratic_subject_DEF:0 "the Republic of Iceland"
 
-  P84_SOV_democratic_subject:0 "Republic of Northern Ireland"
-  P84_SOV_democratic_subject_DEF:0 "the Republic of Northern Ireland"
+  P84_SOV_democratic_subject:0 "Russian Occupation of Northern Ireland"
+  P84_SOV_democratic_subject_DEF:0 "the Russian Occupation of Northern Ireland"
 
-  P85_SOV_democratic_subject:0 "Republic of Greenland"
-  P85_SOV_democratic_subject_DEF:0 "the Republic of Greenland"
+  P85_SOV_democratic_subject:0 "Russian Occupation of Greenland"
+  P85_SOV_democratic_subject_DEF:0 "the Russian Occupation of Greenland"
 
-  P86_SOV_democratic_subject:0 "Republic of Croatia"
-  P86_SOV_democratic_subject_DEF:0 "the Republic of Croatia"
+  P86_SOV_democratic_subject:0 "Russian Occupation of Croatia"
+  P86_SOV_democratic_subject_DEF:0 "the Russian Occupation of Croatia"
 
-  P87_SOV_democratic_subject:0 "Republic of Slovenia"
-  P87_SOV_democratic_subject_DEF:0 "the Republic of Slovenia"
+  P87_SOV_democratic_subject:0 "Russian Occupation of Slovenia"
+  P87_SOV_democratic_subject_DEF:0 "the Russian Occupation of Slovenia"
 
-  P88_SOV_democratic_subject:0 "Republic of Bosnia and Herzegovina"
-  P88_SOV_democratic_subject_DEF:0 "the Republic of Bosnia and Herzegovina"
+  P88_SOV_democratic_subject:0 "Russian Occupation of Bosnia and Herzegovina"
+  P88_SOV_democratic_subject_DEF:0 "the Russian Occupation of Bosnia and Herzegovina"
 
-  P89_SOV_democratic_subject:0 "Republic of Serbia"
-  P89_SOV_democratic_subject_DEF:0 "the Republic of Serbia"
+  P89_SOV_democratic_subject:0 "Russian Occupation of Serbia"
+  P89_SOV_democratic_subject_DEF:0 "the Russian Occupation of Serbia"
 
-  P90_SOV_democratic_subject:0 "Republic of Montenegro"
-  P90_SOV_democratic_subject_DEF:0 "the Republic of Montenegro"
+  P90_SOV_democratic_subject:0 "Russian Occupation of Montenegro"
+  P90_SOV_democratic_subject_DEF:0 "the Russian Occupation of Montenegro"
 
-  P91_SOV_democratic_subject:0 "Republic of Albania"
-  P91_SOV_democratic_subject_DEF:0 "the Republic of Albania"
+  P91_SOV_democratic_subject:0 "Russian Occupation of Albania"
+  P91_SOV_democratic_subject_DEF:0 "the Russian Occupation of Albania"
 
-  P92_SOV_democratic_subject:0 "Republic of Lombardy-Venetia"
-  P92_SOV_democratic_subject_DEF:0 "the Republic of Lombardy-Venetia"
+  P92_SOV_democratic_subject:0 "Russian Occupation of Lombardy-Venetia"
+  P92_SOV_democratic_subject_DEF:0 "the Russian Occupation of Lombardy-Venetia"
 
-  P93_SOV_democratic_subject:0 "Republic of Piedmont"
-  P93_SOV_democratic_subject_DEF:0 "the Republic of Piedmont"
+  P93_SOV_democratic_subject:0 "Russian Occupation of Piedmont"
+  P93_SOV_democratic_subject_DEF:0 "the Russian Occupation of Piedmont"
 
-  P94_SOV_democratic_subject:0 "Republic of Sardinia"
-  P94_SOV_democratic_subject_DEF:0 "the Republic of Sardinia"
+  P94_SOV_democratic_subject:0 "Russian Occupation of Sardinia"
+  P94_SOV_democratic_subject_DEF:0 "the Russian Occupation of Sardinia"
 
-  P95_SOV_democratic_subject:0 "Republic of Tuscany"
-  P95_SOV_democratic_subject_DEF:0 "the Republic of Tuscany"
+  P95_SOV_democratic_subject:0 "Russian Occupation of Tuscany"
+  P95_SOV_democratic_subject_DEF:0 "the Russian Occupation of Tuscany"
 
-  P96_SOV_democratic_subject:0 "Roman Republic"
-  P96_SOV_democratic_subject_DEF:0 "the Roman Republic"
+  P96_SOV_democratic_subject:0 "Russian Occupation of Latium"
+  P96_SOV_democratic_subject_DEF:0 "the Russian Occupation of Latium"
 
-  P97_SOV_democratic_subject:0 "Republic of the Two Sicilies"
-  P97_SOV_democratic_subject_DEF:0 "the Republic of the Two Sicilies"
+  P97_SOV_democratic_subject:0 "Russian Occupation of Southern Italy"
+  P97_SOV_democratic_subject_DEF:0 "the Russian Occupation of Southern Italy"
 
-  P98_SOV_democratic_subject:0 "Republic of Macedonia"
-  P98_SOV_democratic_subject_DEF:0 "the Republic of Macedonia"
+  P98_SOV_democratic_subject:0 "Russian Occupation of Macedonia"
+  P98_SOV_democratic_subject_DEF:0 "the Russian Occupation of Macedonia"
 
   P99_SOV_democratic_subject:0 "Republic of Hokkaido"
   P99_SOV_democratic_subject_DEF:0 "the Republic of Hokkaido"
