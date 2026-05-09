@@ -5141,8 +5141,8 @@
   P04_SOV_fascism_subject:0 "Russian Protectorate of the Baltic"
   P04_SOV_fascism_subject_DEF:0 "the Russian Protectorate of the Baltic"
 
-  P05_SOV_fascism_subject:0 "Dutch National State"
-  P05_SOV_fascism_subject_DEF:0 "the Dutch National State"
+  P05_SOV_fascism_subject:0 "Russian Military Administration of the Netherlands"
+  P05_SOV_fascism_subject_DEF:0 "the Russian Military Administration of the Netherlands"
 
   P06_SOV_fascism_subject:0 "National State of the Caribbean"
   P06_SOV_fascism_subject_DEF:0 "the National State of the Caribbean"
@@ -5180,8 +5180,8 @@
   P17_SOV_fascism_subject:0 "National State of Indonesia"
   P17_SOV_fascism_subject_DEF:0 "the National State of Indonesia"
 
-  P19_SOV_fascism_subject:0 "National State of North Germany"
-  P19_SOV_fascism_subject_DEF:0 "the National State of North Germany"
+  P19_SOV_fascism_subject:0 "Russian Military Administration of Northern Germany"
+  P19_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Northern Germany"
 
   P22_SOV_fascism_subject:0 "National State of Quebec"
   P22_SOV_fascism_subject_DEF:0 "the National State of Quebec"
@@ -5189,8 +5189,8 @@
   P24_SOV_fascism_subject:0 "Nordic State"
   P24_SOV_fascism_subject_DEF:0 "the Nordic State"
 
-  P25_SOV_fascism_subject:0 "National State of South Germany"
-  P25_SOV_fascism_subject_DEF:0 "the National State of South Germany"
+  P25_SOV_fascism_subject:0 "Russian Military Administration of Southern Germany"
+  P25_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Southern Germany"
 
   P27_SOV_fascism_subject:0 "National State of Oceania"
   P27_SOV_fascism_subject_DEF:0 "the National State of Oceania"
@@ -5204,14 +5204,14 @@
   P30_SOV_fascism_subject:0 "National State of North Africa"
   P30_SOV_fascism_subject_DEF:0 "the National State of North Africa"
 
-  P31_SOV_fascism_subject:0 "National State of West Germany"
-  P31_SOV_fascism_subject_DEF:0 "the National State of West Germany"
+  P31_SOV_fascism_subject:0 "Russian Military Administration of Western Germany"
+  P31_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Western Germany"
 
-  P32_SOV_fascism_subject:0 "National State of East Germany"
-  P32_SOV_fascism_subject_DEF:0 "the National State of East Germany"
+  P32_SOV_fascism_subject:0 "Russian Military Administration of Eastern Germany"
+  P32_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Eastern Germany"
 
-  P33_SOV_fascism_subject:0 "National State of Prussia"
-  P33_SOV_fascism_subject_DEF:0 "the National State of Prussia"
+  P33_SOV_fascism_subject:0 "Russian Military Administration of Prussia"
+  P33_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Prussia"
 
   P34_SOV_fascism_subject:0 "Russian Protectorate of Poland"
   P34_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Poland"
@@ -5267,14 +5267,14 @@
   P61_SOV_fascism_subject:0 "Kingdom of Denmark"
   P61_SOV_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_SOV_fascism_subject:0 "Soviet Military Administration of Northern France"
-  P62_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Northern France"
+  P62_SOV_fascism_subject:0 "Russian Military Administration of Northern France"
+  P62_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Northern France"
 
   P63_SOV_fascism_subject:0 "French State"
   P63_SOV_fascism_subject_DEF:0 "the French State"
 
-  P64_SOV_fascism_subject:0 "National State of the Alps"
-  P64_SOV_fascism_subject_DEF:0 "the National State of the Alps"
+  P64_SOV_fascism_subject:0 "Russian Military Administration of Savoy"
+  P64_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Savoy"
 
   P65_SOV_fascism_subject:0 "Norwegian National State"
   P65_SOV_fascism_subject_DEF:0 "the Norwegian National State"
@@ -5315,41 +5315,41 @@
   P77_SOV_fascism_subject:0 "Federal State of Austria"
   P77_SOV_fascism_subject_DEF:0 "the Federal State of Austria"
 
-  P78_SOV_fascism_subject:0 "National State of Switzerland"
-  P78_SOV_fascism_subject_DEF:0 "the National State of Switzerland"
+  P78_SOV_fascism_subject:0 "Russian Military Administration of Switzerland"
+  P78_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Switzerland"
 
   P79_SOV_fascism_subject:0 "National Legionary State of Romania"
   P79_SOV_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
-  P80_SOV_fascism_subject:0 "Soviet Military Administration of England"
-  P80_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of England"
+  P80_SOV_fascism_subject:0 "Russian Military Administration of England"
+  P80_SOV_fascism_subject_DEF:0 "the Russian Military Administration of England"
 
-  P81_SOV_fascism_subject:0 "Soviet Military Administration of Scotland"
-  P81_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Scotland"
+  P81_SOV_fascism_subject:0 "Russian Military Administration of Scotland"
+  P81_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Scotland"
 
-  P82_SOV_fascism_subject:0 "Soviet Military Administration of Wales"
-  P82_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Wales"
+  P82_SOV_fascism_subject:0 "Russian Military Administration of Wales"
+  P82_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Wales"
 
-  P83_SOV_fascism_subject:0 "Soviet Military Administration of Iceland"
-  P83_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Iceland"
+  P83_SOV_fascism_subject:0 "Russian Military Administration of Iceland"
+  P83_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Iceland"
 
-  P84_SOV_fascism_subject:0 "Soviet Military Administration of Northern Ireland"
-  P84_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Northern Ireland"
+  P84_SOV_fascism_subject:0 "Russian Military Administration of Northern Ireland"
+  P84_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Northern Ireland"
 
-  P85_SOV_fascism_subject:0 "Soviet Military Administration of Greenland"
-  P85_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Greenland"
+  P85_SOV_fascism_subject:0 "Russian Military Administration of Greenland"
+  P85_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Greenland"
 
   P86_SOV_fascism_subject:0 "Independent State of Croatia"
   P86_SOV_fascism_subject_DEF:0 "the Independent State of Croatia"
 
-  P87_SOV_fascism_subject:0 "State of Slovenia"
-  P87_SOV_fascism_subject_DEF:0 "the State of Slovenia"
+  P87_SOV_fascism_subject:0 "Russian Military Administration of Slovenia"
+  P87_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Slovenia"
 
-  P88_SOV_fascism_subject:0 "State of Bosnia-Herzegovina"
-  P88_SOV_fascism_subject_DEF:0 "the State of Bosnia-Herzegovina"
+  P88_SOV_fascism_subject:0 "Russian Military Administration of Bosnia-Herzegovina"
+  P88_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Bosnia-Herzegovina"
 
-  P89_SOV_fascism_subject:0 "State of Serbia"
-  P89_SOV_fascism_subject_DEF:0 "the State of Serbia"
+  P89_SOV_fascism_subject:0 "Russian Military Administration of Serbia"
+  P89_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Serbia"
 
   P90_SOV_fascism_subject:0 "Kingdom of Montenegro"
   P90_SOV_fascism_subject_DEF:0 "the Kingdom of Montenegro"
@@ -5357,26 +5357,26 @@
   P91_SOV_fascism_subject:0 "Albanian Regency"
   P91_SOV_fascism_subject_DEF:0 "the Albanian Regency"
 
-  P92_SOV_fascism_subject:0 "Soviet Military Administration of Lombardy-Venetia"
-  P92_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Lombardy-Venetia"
+  P92_SOV_fascism_subject:0 "Russian Military Administration of Lombardy-Venetia"
+  P92_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Lombardy-Venetia"
 
-  P93_SOV_fascism_subject:0 "Soviet Military Administration of Piedmont"
-  P93_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Piedmont"
+  P93_SOV_fascism_subject:0 "Russian Military Administration of Piedmont"
+  P93_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Piedmont"
 
-  P94_SOV_fascism_subject:0 "Soviet Military Administration of Sardinia"
-  P94_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Sardinia"
+  P94_SOV_fascism_subject:0 "Russian Military Administration of Sardinia"
+  P94_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Sardinia"
 
-  P95_SOV_fascism_subject:0 "Soviet Military Administration of Tuscany"
-  P95_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Tuscany"
+  P95_SOV_fascism_subject:0 "Russian Military Administration of Tuscany"
+  P95_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Tuscany"
 
-  P96_SOV_fascism_subject:0 "Soviet Military Administration of Latium"
-  P96_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Latium"
+  P96_SOV_fascism_subject:0 "Russian Military Administration of Latium"
+  P96_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Latium"
 
-  P97_SOV_fascism_subject:0 "Soviet Military Administration of Southern Italy"
-  P97_SOV_fascism_subject_DEF:0 "the Soviet Military Administration of Southern Italy"
+  P97_SOV_fascism_subject:0 "Russian Military Administration of Southern Italy"
+  P97_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Southern Italy"
 
-  P98_SOV_fascism_subject:0 "State of Macedonia"
-  P98_SOV_fascism_subject_DEF:0 "the State of Macedonia"
+  P98_SOV_fascism_subject:0 "Russian Military Administration of Macedonia"
+  P98_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Macedonia"
 
   P99_SOV_fascism_subject:0 "Russian Protectorate of Hokkaido"
   P99_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Hokkaido"
