@@ -5141,8 +5141,8 @@
   P04_SOV_fascism_subject:0 "Russian Protectorate of the Baltic"
   P04_SOV_fascism_subject_DEF:0 "the Russian Protectorate of the Baltic"
 
-  P05_SOV_fascism_subject:0 "Russian Military Administration of the Netherlands"
-  P05_SOV_fascism_subject_DEF:0 "the Russian Military Administration of the Netherlands"
+  P05_SOV_fascism_subject:0 "Russian Military Occupation of the Netherlands"
+  P05_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of the Netherlands"
 
   P06_SOV_fascism_subject:0 "National State of the Caribbean"
   P06_SOV_fascism_subject_DEF:0 "the National State of the Caribbean"
@@ -5180,8 +5180,8 @@
   P17_SOV_fascism_subject:0 "National State of Indonesia"
   P17_SOV_fascism_subject_DEF:0 "the National State of Indonesia"
 
-  P19_SOV_fascism_subject:0 "Russian Military Administration of Northern Germany"
-  P19_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Northern Germany"
+  P19_SOV_fascism_subject:0 "Russian Military Occupation of Northern Germany"
+  P19_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Northern Germany"
 
   P22_SOV_fascism_subject:0 "National State of Quebec"
   P22_SOV_fascism_subject_DEF:0 "the National State of Quebec"
@@ -5189,8 +5189,8 @@
   P24_SOV_fascism_subject:0 "Nordic State"
   P24_SOV_fascism_subject_DEF:0 "the Nordic State"
 
-  P25_SOV_fascism_subject:0 "Russian Military Administration of Southern Germany"
-  P25_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Southern Germany"
+  P25_SOV_fascism_subject:0 "Russian Military Occupation of Southern Germany"
+  P25_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Southern Germany"
 
   P27_SOV_fascism_subject:0 "National State of Oceania"
   P27_SOV_fascism_subject_DEF:0 "the National State of Oceania"
@@ -5204,14 +5204,14 @@
   P30_SOV_fascism_subject:0 "National State of North Africa"
   P30_SOV_fascism_subject_DEF:0 "the National State of North Africa"
 
-  P31_SOV_fascism_subject:0 "Russian Military Administration of Western Germany"
-  P31_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Western Germany"
+  P31_SOV_fascism_subject:0 "Russian Military Occupation of Western Germany"
+  P31_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Western Germany"
 
   P32_SOV_fascism_subject:0 "Russian Military Administration of Eastern Germany"
   P32_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Eastern Germany"
 
-  P33_SOV_fascism_subject:0 "Russian Military Administration of Prussia"
-  P33_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Prussia"
+  P33_SOV_fascism_subject:0 "Russian Military Occupation of Prussia"
+  P33_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Prussia"
 
   P34_SOV_fascism_subject:0 "Russian Protectorate of Poland"
   P34_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Poland"
@@ -5267,14 +5267,14 @@
   P61_SOV_fascism_subject:0 "Kingdom of Denmark"
   P61_SOV_fascism_subject_DEF:0 "the Kingdom of Denmark"
 
-  P62_SOV_fascism_subject:0 "Russian Military Administration of Northern France"
-  P62_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Northern France"
+  P62_SOV_fascism_subject:0 "Russian Military Occupation of Northern France"
+  P62_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Northern France"
 
   P63_SOV_fascism_subject:0 "French State"
   P63_SOV_fascism_subject_DEF:0 "the French State"
 
-  P64_SOV_fascism_subject:0 "Russian Military Administration of Savoy"
-  P64_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Savoy"
+  P64_SOV_fascism_subject:0 "Russian Military Occupation of Savoy"
+  P64_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Savoy"
 
   P65_SOV_fascism_subject:0 "Norwegian National State"
   P65_SOV_fascism_subject_DEF:0 "the Norwegian National State"
@@ -5315,41 +5315,41 @@
   P77_SOV_fascism_subject:0 "Federal State of Austria"
   P77_SOV_fascism_subject_DEF:0 "the Federal State of Austria"
 
-  P78_SOV_fascism_subject:0 "Russian Military Administration of Switzerland"
-  P78_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Switzerland"
+  P78_SOV_fascism_subject:0 "Russian Military Occupation of Switzerland"
+  P78_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Switzerland"
 
   P79_SOV_fascism_subject:0 "National Legionary State of Romania"
   P79_SOV_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
-  P80_SOV_fascism_subject:0 "Russian Military Administration of England"
-  P80_SOV_fascism_subject_DEF:0 "the Russian Military Administration of England"
+  P80_SOV_fascism_subject:0 "Russian Military Occupation of England"
+  P80_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of England"
 
-  P81_SOV_fascism_subject:0 "Russian Military Administration of Scotland"
-  P81_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Scotland"
+  P81_SOV_fascism_subject:0 "Russian Military Occupation of Scotland"
+  P81_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Scotland"
 
-  P82_SOV_fascism_subject:0 "Russian Military Administration of Wales"
-  P82_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Wales"
+  P82_SOV_fascism_subject:0 "Russian Military Occupation of Wales"
+  P82_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Wales"
 
-  P83_SOV_fascism_subject:0 "Russian Military Administration of Iceland"
-  P83_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Iceland"
+  P83_SOV_fascism_subject:0 "Russian Military Occupation of Iceland"
+  P83_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Iceland"
 
-  P84_SOV_fascism_subject:0 "Russian Military Administration of Northern Ireland"
-  P84_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Northern Ireland"
+  P84_SOV_fascism_subject:0 "Russian Military Occupation of Northern Ireland"
+  P84_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Northern Ireland"
 
-  P85_SOV_fascism_subject:0 "Russian Military Administration of Greenland"
-  P85_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Greenland"
+  P85_SOV_fascism_subject:0 "Russian Military Occupation of Greenland"
+  P85_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Greenland"
 
   P86_SOV_fascism_subject:0 "Independent State of Croatia"
   P86_SOV_fascism_subject_DEF:0 "the Independent State of Croatia"
 
-  P87_SOV_fascism_subject:0 "Russian Military Administration of Slovenia"
-  P87_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Slovenia"
+  P87_SOV_fascism_subject:0 "Russian Military Occupation of Slovenia"
+  P87_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Slovenia"
 
-  P88_SOV_fascism_subject:0 "Russian Military Administration of Bosnia-Herzegovina"
-  P88_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Bosnia-Herzegovina"
+  P88_SOV_fascism_subject:0 "Russian Military Occupation of Bosnia-Herzegovina"
+  P88_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Bosnia-Herzegovina"
 
-  P89_SOV_fascism_subject:0 "Russian Military Administration of Serbia"
-  P89_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Serbia"
+  P89_SOV_fascism_subject:0 "Russian Military Occupation of Serbia"
+  P89_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Serbia"
 
   P90_SOV_fascism_subject:0 "Kingdom of Montenegro"
   P90_SOV_fascism_subject_DEF:0 "the Kingdom of Montenegro"
@@ -5357,26 +5357,26 @@
   P91_SOV_fascism_subject:0 "Albanian Regency"
   P91_SOV_fascism_subject_DEF:0 "the Albanian Regency"
 
-  P92_SOV_fascism_subject:0 "Russian Military Administration of Lombardy-Venetia"
-  P92_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Lombardy-Venetia"
+  P92_SOV_fascism_subject:0 "Russian Military Occupation of Lombardy-Venetia"
+  P92_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Lombardy-Venetia"
 
-  P93_SOV_fascism_subject:0 "Russian Military Administration of Piedmont"
-  P93_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Piedmont"
+  P93_SOV_fascism_subject:0 "Russian Military Occupation of Piedmont"
+  P93_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Piedmont"
 
-  P94_SOV_fascism_subject:0 "Russian Military Administration of Sardinia"
-  P94_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Sardinia"
+  P94_SOV_fascism_subject:0 "Russian Military Occupation of Sardinia"
+  P94_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Sardinia"
 
-  P95_SOV_fascism_subject:0 "Russian Military Administration of Tuscany"
-  P95_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Tuscany"
+  P95_SOV_fascism_subject:0 "Russian Military Occupation of Tuscany"
+  P95_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Tuscany"
 
-  P96_SOV_fascism_subject:0 "Russian Military Administration of Latium"
-  P96_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Latium"
+  P96_SOV_fascism_subject:0 "Russian Military Occupation of Latium"
+  P96_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Latium"
 
-  P97_SOV_fascism_subject:0 "Russian Military Administration of Southern Italy"
-  P97_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Southern Italy"
+  P97_SOV_fascism_subject:0 "Russian Military Occupation of the Two Sicilies"
+  P97_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of the Two Sicilies"
 
-  P98_SOV_fascism_subject:0 "Russian Military Administration of Macedonia"
-  P98_SOV_fascism_subject_DEF:0 "the Russian Military Administration of Macedonia"
+  P98_SOV_fascism_subject:0 "Russian Military Occupation of Macedonia"
+  P98_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Macedonia"
 
   P99_SOV_fascism_subject:0 "Russian Protectorate of Hokkaido"
   P99_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Hokkaido"
@@ -6540,14 +6540,14 @@
   Q24_FRA_neutrality_subject_DEF:0 "the Imperial Protectorate of Tibet"
 
   #FRANCE - FASCISM
-  P01_FRA_fascism_subject:0 "French Military Administration of Colombia"
-  P01_FRA_fascism_subject_DEF:0 "the French Military Administration of Colombia"
+  P01_FRA_fascism_subject:0 "French Military Occupation of Colombia"
+  P01_FRA_fascism_subject_DEF:0 "the French Military Occupation of Colombia"
 
   P02_FRA_fascism_subject:0 "French Occupation of Great Britain"
   P02_FRA_fascism_subject_DEF:0 "the French Occupation of Great Britain"
 
-  P03_FRA_fascism_subject:0 "French Military Administration of Arabia"
-  P03_FRA_fascism_subject_DEF:0 "the French Military Administration of Arabia"
+  P03_FRA_fascism_subject:0 "French Military Occupation of Arabia"
+  P03_FRA_fascism_subject_DEF:0 "the French Military Occupation of Arabia"
 
   P04_FRA_fascism_subject:0 "French Occupation of the Baltic States"
   P04_FRA_fascism_subject_DEF:0 "the French Occupation of the Baltic States"
@@ -6561,8 +6561,8 @@
   P07_FRA_fascism_subject:0 "French Occupation of Equatorial Africa"
   P07_FRA_fascism_subject_DEF:0 "the French Occupation of Equatorial Africa"
 
-  P08_FRA_fascism_subject:0 "French Military Administration of Central America"
-  P08_FRA_fascism_subject_DEF:0 "the French Military Administration of Central America"
+  P08_FRA_fascism_subject:0 "French Military Occupation of Central America"
+  P08_FRA_fascism_subject_DEF:0 "the French Military Occupation of Central America"
 
   P09_FRA_fascism_subject:0 "French Occupation of Hungary"
   P09_FRA_fascism_subject_DEF:0 "the French Occupation of Hungary"
@@ -6570,8 +6570,8 @@
   P10_FRA_fascism_subject:0 "French Occupation of East Africa"
   P10_FRA_fascism_subject_DEF:0 "the French Occupation of East Africa"
 
-  P11_FRA_fascism_subject:0 "French Military Administration of Eastern Canada"
-  P11_FRA_fascism_subject_DEF:0 "the French Military Administration of Eastern Canada"
+  P11_FRA_fascism_subject:0 "French Military Occupation of Eastern Canada"
+  P11_FRA_fascism_subject_DEF:0 "the French Military Occupation of Eastern Canada"
 
   P12_FRA_fascism_subject:0 "French Occupation of Finland"
   P12_FRA_fascism_subject_DEF:0 "the French Occupation of Finland"
@@ -6588,26 +6588,26 @@
   P16_FRA_fascism_subject:0 "French Indochina"
   P16_FRA_fascism_subject_DEF:0 "French Indochina"
 
-  P17_FRA_fascism_subject:0 "French Military Administration of Indonesia"
-  P17_FRA_fascism_subject_DEF:0 "the French Military Administration of Indonesia"
+  P17_FRA_fascism_subject:0 "French Military Occupation of Indonesia"
+  P17_FRA_fascism_subject_DEF:0 "the French Military Occupation of Indonesia"
 
-  P18_FRA_fascism_subject:0 "French Military Administration of the Great Lakes"
-  P18_FRA_fascism_subject_DEF:0 "the French Military Administration of the Great Lakes"
+  P18_FRA_fascism_subject:0 "French Military Occupation of the Great Lakes"
+  P18_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Great Lakes"
 
   P19_FRA_fascism_subject:0 "French Occupation of Northern Germany"
   P19_FRA_fascism_subject_DEF:0 "the French Occupation of Northern Germany"
 
-  P20_FRA_fascism_subject:0 "French Military Administration of New England"
-  P20_FRA_fascism_subject_DEF:0 "the French Military Administration of New England"
+  P20_FRA_fascism_subject:0 "French Military Occupation of New England"
+  P20_FRA_fascism_subject_DEF:0 "the French Military Occupation of New England"
 
-  P21_FRA_fascism_subject:0 "French Military Administration of the Pacific Coast"
-  P21_FRA_fascism_subject_DEF:0 "the French Military Administration of the Pacific Coast"
+  P21_FRA_fascism_subject:0 "French Military Occupation of the Pacific Coast"
+  P21_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Pacific Coast"
 
   P22_FRA_fascism_subject:0 "French Occupation of Quebec"
   P22_FRA_fascism_subject_DEF:0 "the French Occupation of Quebec"
 
-  P23_FRA_fascism_subject:0 "French Military Administration of the Rockies"
-  P23_FRA_fascism_subject_DEF:0 "the French Military Administration of the Rockies"
+  P23_FRA_fascism_subject:0 "French Military Occupation of the Rockies"
+  P23_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Rockies"
 
   P24_FRA_fascism_subject:0 "French Occupation of Scandinavia"
   P24_FRA_fascism_subject_DEF:0 "the French Occupation of Scandinavia"
@@ -6615,17 +6615,17 @@
   P25_FRA_fascism_subject:0 "French Occupation of Bavaria"
   P25_FRA_fascism_subject_DEF:0 "the French Occupation of Bavaria"
 
-  P26_FRA_fascism_subject:0 "French Military Administration of the South"
-  P26_FRA_fascism_subject_DEF:0 "the French Military Administration of the South"
+  P26_FRA_fascism_subject:0 "French Military Occupation of the South"
+  P26_FRA_fascism_subject_DEF:0 "the French Military Occupation of the South"
 
   P27_FRA_fascism_subject:0 "French Occupation of Oceania"
   P27_FRA_fascism_subject_DEF:0 "the French Occupation of Oceania"
 
-  P28_FRA_fascism_subject:0 "French Military Administration of Transcaucasia"
-  P28_FRA_fascism_subject_DEF:0 "the French Military Administration of Transcaucasia"
+  P28_FRA_fascism_subject:0 "French Military Occupation of Transcaucasia"
+  P28_FRA_fascism_subject_DEF:0 "the French Military Occupation of Transcaucasia"
 
-  P29_FRA_fascism_subject:0 "French Military Administration of Western Canada"
-  P29_FRA_fascism_subject_DEF:0 "the French Military Administration of Western Canada"
+  P29_FRA_fascism_subject:0 "French Military Occupation of Western Canada"
+  P29_FRA_fascism_subject_DEF:0 "the French Military Occupation of Western Canada"
 
   P30_FRA_fascism_subject:0 "French Protectorate of North Africa"
   P30_FRA_fascism_subject_DEF:0 "the French Protectorate of North Africa"
@@ -6654,32 +6654,32 @@
   P38_FRA_fascism_subject:0 "French Occupation of Bengal"
   P38_FRA_fascism_subject_DEF:0 "the French Occupation of Bengal"
 
-  P39_FRA_fascism_subject:0 "French Military Administration of Muscovy"
-  P39_FRA_fascism_subject_DEF:0 "the French Military Administration of Muscovy"
+  P39_FRA_fascism_subject:0 "French Military Occupation of Muscovy"
+  P39_FRA_fascism_subject_DEF:0 "the French Military Occupation of Muscovy"
 
-  P40_FRA_fascism_subject:0 "French Military Administration of the Don"
-  P40_FRA_fascism_subject_DEF:0 "the French Military Administration of the Don"
+  P40_FRA_fascism_subject:0 "French Military Occupation of the Don"
+  P40_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Don"
 
-  P41_FRA_fascism_subject:0 "French Military Administration of the Northern Caucasus"
-  P41_FRA_fascism_subject_DEF:0 "the French Military Administration of the Northern Caucasus"
+  P41_FRA_fascism_subject:0 "French Military Occupation of the Northern Caucasus"
+  P41_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Northern Caucasus"
 
-  P42_FRA_fascism_subject:0 "French Military Administration of the Volga"
-  P42_FRA_fascism_subject_DEF:0 "the French Military Administration of the Volga"
+  P42_FRA_fascism_subject:0 "French Military Occupation of the Volga"
+  P42_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Volga"
 
-  P43_FRA_fascism_subject:0 "French Military Administration of Novgorod"
-  P43_FRA_fascism_subject_DEF:0 "the French Military Administration of Novgorod"
+  P43_FRA_fascism_subject:0 "French Military Occupation of Novgorod"
+  P43_FRA_fascism_subject_DEF:0 "the French Military Occupation of Novgorod"
 
-  P44_FRA_fascism_subject:0 "French Military Administration of the Urals"
-  P44_FRA_fascism_subject_DEF:0 "the French Military Administration of the Urals"
+  P44_FRA_fascism_subject:0 "French Military Occupation of the Urals"
+  P44_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Urals"
 
-  P45_FRA_fascism_subject:0 "French Military Administration of Siberia"
-  P45_FRA_fascism_subject_DEF:0 "the French Military Administration of Siberia"
+  P45_FRA_fascism_subject:0 "French Military Occupation of Siberia"
+  P45_FRA_fascism_subject_DEF:0 "the French Military Occupation of Siberia"
 
-  P46_FRA_fascism_subject:0 "French Military Administration of the Far East"
-  P46_FRA_fascism_subject_DEF:0 "the French Military Administration of the Far East"
+  P46_FRA_fascism_subject:0 "French Military Occupation of the Far East"
+  P46_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Far East"
 
-  P47_FRA_fascism_subject:0 "French Military Administration of Mongolia"
-  P47_FRA_fascism_subject_DEF:0 "the French Military Administration of Mongolia"
+  P47_FRA_fascism_subject:0 "French Military Occupation of Mongolia"
+  P47_FRA_fascism_subject_DEF:0 "the French Military Occupation of Mongolia"
 
   P48_FRA_fascism_subject:0 "French Occupation of Byelorussia"
   P48_FRA_fascism_subject_DEF:0 "the French Occupation of Byelorussia"
@@ -6690,11 +6690,11 @@
   P50_FRA_fascism_subject:0 "French Occupation of Yugoslavia"
   P50_FRA_fascism_subject_DEF:0 "the French Occupation of Yugoslavia"
 
-  P51_FRA_fascism_subject:0 "French Military Administration of Turkestan"
-  P51_FRA_fascism_subject_DEF:0 "the French Military Administration of Turkestan"
+  P51_FRA_fascism_subject:0 "French Military Occupation of Turkestan"
+  P51_FRA_fascism_subject_DEF:0 "the French Military Occupation of Turkestan"
 
-  P52_FRA_fascism_subject:0 "French Military Administration of the Himalayas"
-  P52_FRA_fascism_subject_DEF:0 "the French Military Administration of the Himalayas"
+  P52_FRA_fascism_subject:0 "French Military Occupation of the Himalayas"
+  P52_FRA_fascism_subject_DEF:0 "the French Military Occupation of the Himalayas"
 
   P54_FRA_fascism_subject:0 "French Occupation of Chile"
   P54_FRA_fascism_subject_DEF:0 "the French Occupation of Chile"
@@ -6702,8 +6702,8 @@
   P55_FRA_fascism_subject:0 "French Occupation of Argentina"
   P55_FRA_fascism_subject_DEF:0 "the French Occupation of Argentina"
 
-  P56_FRA_fascism_subject:0 "French Military Administration of Peru"
-  P56_FRA_fascism_subject_DEF:0 "the French Military Administration of Peru"
+  P56_FRA_fascism_subject:0 "French Military Occupation of Peru"
+  P56_FRA_fascism_subject_DEF:0 "the French Military Occupation of Peru"
 
   P57_FRA_fascism_subject:0 "Integralist State of Brazil"
   P57_FRA_fascism_subject_DEF:0 "the Integralist State of Brazil"
@@ -6729,20 +6729,20 @@
   P67_FRA_fascism_subject:0 "French Protectorate of the Levant"
   P67_FRA_fascism_subject_DEF:0 "the French Protectorate of the Levant"
 
-  P68_FRA_fascism_subject:0 "French Military Administration of Turkey"
-  P68_FRA_fascism_subject_DEF:0 "the French Military Administration of Turkey"
+  P68_FRA_fascism_subject:0 "French Military Occupation of Turkey"
+  P68_FRA_fascism_subject_DEF:0 "the French Military Occupation of Turkey"
 
   P69_FRA_fascism_subject:0 "French Occupation of Iraq"
   P69_FRA_fascism_subject_DEF:0 "the French Occupation of Iraq"
 
-  P70_FRA_fascism_subject:0 "French Military Administration of Kurdistan"
-  P70_FRA_fascism_subject_DEF:0 "the French Military Administration of Kurdistan"
+  P70_FRA_fascism_subject:0 "French Military Occupation of Kurdistan"
+  P70_FRA_fascism_subject_DEF:0 "the French Military Occupation of Kurdistan"
 
   P71_FRA_fascism_subject:0 "French Occupation of Iran"
   P71_FRA_fascism_subject_DEF:0 "the French Occupation of Iran"
 
-  P72_FRA_fascism_subject:0 "French Military Administration of Korea"
-  P72_FRA_fascism_subject_DEF:0 "the French Military Administration of Korea"
+  P72_FRA_fascism_subject:0 "French Military Occupation of Korea"
+  P72_FRA_fascism_subject_DEF:0 "the French Military Occupation of Korea"
 
   P73_FRA_fascism_subject:0 "Irish Corporate State"
   P73_FRA_fascism_subject_DEF:0 "the Irish Corporate State"
@@ -6750,11 +6750,11 @@
   P74_FRA_fascism_subject:0 "French Occupation of Sweden"
   P74_FRA_fascism_subject_DEF:0 "the French Occupation of Sweden"
 
-  P75_FRA_fascism_subject:0 "French Military Administration of Pakistan"
-  P75_FRA_fascism_subject_DEF:0 "the French Military Administration of Pakistan"
+  P75_FRA_fascism_subject:0 "French Military Occupation of Pakistan"
+  P75_FRA_fascism_subject_DEF:0 "the French Military Occupation of Pakistan"
 
-  P76_FRA_fascism_subject:0 "French Military Administration of Afghanistan"
-  P76_FRA_fascism_subject_DEF:0 "the French Military Administration of Afghanistan"
+  P76_FRA_fascism_subject:0 "French Military Occupation of Afghanistan"
+  P76_FRA_fascism_subject_DEF:0 "the French Military Occupation of Afghanistan"
 
   P77_FRA_fascism_subject:0 "Federal State of Austria"
   P77_FRA_fascism_subject_DEF:0 "the Federal State of Austria"
@@ -6765,23 +6765,23 @@
   P79_FRA_fascism_subject:0 "National Legionary State of Romania"
   P79_FRA_fascism_subject_DEF:0 "the National Legionary State of Romania"
 
-  P80_FRA_fascism_subject:0 "French Military Administration of England"
-  P80_FRA_fascism_subject_DEF:0 "the French Military Administration of England"
+  P80_FRA_fascism_subject:0 "French Military Occupation of England"
+  P80_FRA_fascism_subject_DEF:0 "the French Military Occupation of England"
 
-  P81_FRA_fascism_subject:0 "French Military Administration of Scotland"
-  P81_FRA_fascism_subject_DEF:0 "the French Military Administration of Scotland"
+  P81_FRA_fascism_subject:0 "French Military Occupation of Scotland"
+  P81_FRA_fascism_subject_DEF:0 "the French Military Occupation of Scotland"
 
-  P82_FRA_fascism_subject:0 "French Military Administration of Wales"
-  P82_FRA_fascism_subject_DEF:0 "the French Military Administration of Wales"
+  P82_FRA_fascism_subject:0 "French Military Occupation of Wales"
+  P82_FRA_fascism_subject_DEF:0 "the French Military Occupation of Wales"
 
-  P83_FRA_fascism_subject:0 "French Military Administration of Iceland"
-  P83_FRA_fascism_subject_DEF:0 "the French Military Administration of Iceland"
+  P83_FRA_fascism_subject:0 "French Military Occupation of Iceland"
+  P83_FRA_fascism_subject_DEF:0 "the French Military Occupation of Iceland"
 
-  P84_FRA_fascism_subject:0 "French Military Administration of Northern Ireland"
-  P84_FRA_fascism_subject_DEF:0 "the French Military Administration of Northern Ireland"
+  P84_FRA_fascism_subject:0 "French Military Occupation of Northern Ireland"
+  P84_FRA_fascism_subject_DEF:0 "the French Military Occupation of Northern Ireland"
 
-  P85_FRA_fascism_subject:0 "French Military Administration of Greenland"
-  P85_FRA_fascism_subject_DEF:0 "the French Military Administration of Greenland"
+  P85_FRA_fascism_subject:0 "French Military Occupation of Greenland"
+  P85_FRA_fascism_subject_DEF:0 "the French Military Occupation of Greenland"
 
   P86_FRA_fascism_subject:0 "Independent State of Croatia"
   P86_FRA_fascism_subject_DEF:0 "the Independent State of Croatia"
@@ -6822,29 +6822,29 @@
   P98_FRA_fascism_subject:0 "French Occupation of Macedonia"
   P98_FRA_fascism_subject_DEF:0 "the French Occupation of Macedonia"
 
-  P99_FRA_fascism_subject:0 "French Military Administration of Hokkaido"
-  P99_FRA_fascism_subject_DEF:0 "the French Military Administration of Hokkaido"
+  P99_FRA_fascism_subject:0 "French Military Occupation of Hokkaido"
+  P99_FRA_fascism_subject_DEF:0 "the French Military Occupation of Hokkaido"
 
-  Q01_FRA_fascism_subject:0 "French Military Administration of Tohoku"
-  Q01_FRA_fascism_subject_DEF:0 "the French Military Administration of Tohoku"
+  Q01_FRA_fascism_subject:0 "French Military Occupation of Tohoku"
+  Q01_FRA_fascism_subject_DEF:0 "the French Military Occupation of Tohoku"
 
-  Q02_FRA_fascism_subject:0 "French Military Administration of Kanto"
-  Q02_FRA_fascism_subject_DEF:0 "the French Military Administration of Kanto"
+  Q02_FRA_fascism_subject:0 "French Military Occupation of Kanto"
+  Q02_FRA_fascism_subject_DEF:0 "the French Military Occupation of Kanto"
 
-  Q03_FRA_fascism_subject:0 "French Military Administration of Chubu"
-  Q03_FRA_fascism_subject_DEF:0 "the French Military Administration of Chubu"
+  Q03_FRA_fascism_subject:0 "French Military Occupation of Chubu"
+  Q03_FRA_fascism_subject_DEF:0 "the French Military Occupation of Chubu"
 
-  Q04_FRA_fascism_subject:0 "French Military Administration of Kansai"
-  Q04_FRA_fascism_subject_DEF:0 "the French Military Administration of Kansai"
+  Q04_FRA_fascism_subject:0 "French Military Occupation of Kansai"
+  Q04_FRA_fascism_subject_DEF:0 "the French Military Occupation of Kansai"
 
-  Q05_FRA_fascism_subject:0 "French Military Administration of Chugoku"
-  Q05_FRA_fascism_subject_DEF:0 "the French Military Administration of Chugoku"
+  Q05_FRA_fascism_subject:0 "French Military Occupation of Chugoku"
+  Q05_FRA_fascism_subject_DEF:0 "the French Military Occupation of Chugoku"
 
-  Q06_FRA_fascism_subject:0 "French Military Administration of Shikoku"
-  Q06_FRA_fascism_subject_DEF:0 "the French Military Administration of Shikoku"
+  Q06_FRA_fascism_subject:0 "French Military Occupation of Shikoku"
+  Q06_FRA_fascism_subject_DEF:0 "the French Military Occupation of Shikoku"
 
-  Q07_FRA_fascism_subject:0 "French Military Administration of Kyushu"
-  Q07_FRA_fascism_subject_DEF:0 "the French Military Administration of Kyushu"
+  Q07_FRA_fascism_subject:0 "French Military Occupation of Kyushu"
+  Q07_FRA_fascism_subject_DEF:0 "the French Military Occupation of Kyushu"
 
   Q08_FRA_fascism_subject:0 "Manchurian State"
   Q08_FRA_fascism_subject_DEF:0 "the Manchurian State"
@@ -6855,47 +6855,47 @@
   Q10_FRA_fascism_subject:0 "Provisional Government of North China"
   Q10_FRA_fascism_subject_DEF:0 "the Provisional Government of North China"
 
-  Q11_FRA_fascism_subject:0 "French Military Administration of Shandong"
-  Q11_FRA_fascism_subject_DEF:0 "the French Military Administration of Shandong"
+  Q11_FRA_fascism_subject:0 "French Military Occupation of Shandong"
+  Q11_FRA_fascism_subject_DEF:0 "the French Military Occupation of Shandong"
 
-  Q12_FRA_fascism_subject:0 "French Military Administration of Henan"
-  Q12_FRA_fascism_subject_DEF:0 "the French Military Administration of Henan"
+  Q12_FRA_fascism_subject:0 "French Military Occupation of Henan"
+  Q12_FRA_fascism_subject_DEF:0 "the French Military Occupation of Henan"
 
-  Q13_FRA_fascism_subject:0 "French Military Administration of Shanxi"
-  Q13_FRA_fascism_subject_DEF:0 "the French Military Administration of Shanxi"
+  Q13_FRA_fascism_subject:0 "French Military Occupation of Shanxi"
+  Q13_FRA_fascism_subject_DEF:0 "the French Military Occupation of Shanxi"
 
   Q14_FRA_fascism_subject:0 "Nanjing National Government"
   Q14_FRA_fascism_subject_DEF:0 "the Nanjing National Government"
 
-  Q15_FRA_fascism_subject:0 "French Military Administration of Min-Zhe"
-  Q15_FRA_fascism_subject_DEF:0 "the French Military Administration of Min-Zhe"
+  Q15_FRA_fascism_subject:0 "French Military Occupation of Min-Zhe"
+  Q15_FRA_fascism_subject_DEF:0 "the French Military Occupation of Min-Zhe"
 
-  Q16_FRA_fascism_subject:0 "French Military Administration of Huguang"
-  Q16_FRA_fascism_subject_DEF:0 "the French Military Administration of Huguang"
+  Q16_FRA_fascism_subject:0 "French Military Occupation of Huguang"
+  Q16_FRA_fascism_subject_DEF:0 "the French Military Occupation of Huguang"
 
-  Q17_FRA_fascism_subject:0 "French Military Administration of Liangguang"
-  Q17_FRA_fascism_subject_DEF:0 "the French Military Administration of Liangguang"
+  Q17_FRA_fascism_subject:0 "French Military Occupation of Liangguang"
+  Q17_FRA_fascism_subject_DEF:0 "the French Military Occupation of Liangguang"
 
-  Q18_FRA_fascism_subject:0 "French Military Administration of Yunnan-Guizhou"
-  Q18_FRA_fascism_subject_DEF:0 "the French Military Administration of Yunnan-Guizhou"
+  Q18_FRA_fascism_subject:0 "French Military Occupation of Yunnan-Guizhou"
+  Q18_FRA_fascism_subject_DEF:0 "the French Military Occupation of Yunnan-Guizhou"
 
-  Q19_FRA_fascism_subject:0 "French Military Administration of Sichuan"
-  Q19_FRA_fascism_subject_DEF:0 "the French Military Administration of Sichuan"
+  Q19_FRA_fascism_subject:0 "French Military Occupation of Sichuan"
+  Q19_FRA_fascism_subject_DEF:0 "the French Military Occupation of Sichuan"
 
-  Q20_FRA_fascism_subject:0 "French Military Administration of Shaanxi-Gansu"
-  Q20_FRA_fascism_subject_DEF:0 "the French Military Administration of Shaanxi-Gansu"
+  Q20_FRA_fascism_subject:0 "French Military Occupation of Shaanxi-Gansu"
+  Q20_FRA_fascism_subject_DEF:0 "the French Military Occupation of Shaanxi-Gansu"
 
-  Q21_FRA_fascism_subject:0 "French Military Administration of Qinghai"
-  Q21_FRA_fascism_subject_DEF:0 "the French Military Administration of Qinghai"
+  Q21_FRA_fascism_subject:0 "French Military Occupation of Qinghai"
+  Q21_FRA_fascism_subject_DEF:0 "the French Military Occupation of Qinghai"
 
   Q22_FRA_fascism_subject:0 "French Occupation of Formosa"
   Q22_FRA_fascism_subject_DEF:0 "the French Occupation of Formosa"
 
-  Q23_FRA_fascism_subject:0 "French Military Administration of East Turkestan"
-  Q23_FRA_fascism_subject_DEF:0 "the French Military Administration of East Turkestan"
+  Q23_FRA_fascism_subject:0 "French Military Occupation of East Turkestan"
+  Q23_FRA_fascism_subject_DEF:0 "the French Military Occupation of East Turkestan"
 
-  Q24_FRA_fascism_subject:0 "French Military Administration of Tibet"
-  Q24_FRA_fascism_subject_DEF:0 "the French Military Administration of Tibet"
+  Q24_FRA_fascism_subject:0 "French Military Occupation of Tibet"
+  Q24_FRA_fascism_subject_DEF:0 "the French Military Occupation of Tibet"
 
   ## UNITED KINGDOM - COMMUNISM ##
   P01_ENG_communism_subject:0 "British Occupation of Colombia"
