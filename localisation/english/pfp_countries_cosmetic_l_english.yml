@@ -1063,14 +1063,14 @@
   Q24_GER_neutrality_subject_DEF:0 "the Kingdom of Tibet"
 
   ## GERMANY - FASCISM ##
-  P01_GER_fascism_subject:0 "National State of Colombia"
-  P01_GER_fascism_subject_DEF:0 "the National State of Colombia"
+  P01_GER_fascism_subject:0 "German Occupation of Colombia"
+  P01_GER_fascism_subject_DEF:0 "the German Occupation of Colombia"
 
-  P02_GER_fascism_subject:0 "British Union State"
-  P02_GER_fascism_subject_DEF:0 "the British Union State"
+  P02_GER_fascism_subject:0 "German Occupation of Great Britain"
+  P02_GER_fascism_subject_DEF:0 "the German Occupation of Great Britain"
 
-  P03_GER_fascism_subject:0 "National State of Arabia"
-  P03_GER_fascism_subject_DEF:0 "the National State of Arabia"
+  P03_GER_fascism_subject:0 "German Occupation of Arabia"
+  P03_GER_fascism_subject_DEF:0 "the German Occupation of Arabia"
 
   P04_GER_fascism_subject:0 "Reichskommissariat Ostland"
   P04_GER_fascism_subject_DEF:0 "the Reichskommissariat Ostland"
@@ -1078,14 +1078,14 @@
   P05_GER_fascism_subject:0 "Reichskommissariat Netherlands"
   P05_GER_fascism_subject_DEF:0 "the Reichskommissariat Netherlands"
 
-  P06_GER_fascism_subject:0 "National State of the West Indies"
-  P06_GER_fascism_subject_DEF:0 "the National State of the West Indies"
+  P06_GER_fascism_subject:0 "German Occupation of the West Indies"
+  P06_GER_fascism_subject_DEF:0 "the German Occupation of the West Indies"
 
-  P07_GER_fascism_subject:0 "National State of Central Africa"
-  P07_GER_fascism_subject_DEF:0 "the National State of Central Africa"
+  P07_GER_fascism_subject:0 "German Occupation of Central Africa"
+  P07_GER_fascism_subject_DEF:0 "the German Occupation of Central Africa"
 
-  P08_GER_fascism_subject:0 "National State of Central America"
-  P08_GER_fascism_subject_DEF:0 "the National State of Central America"
+  P08_GER_fascism_subject:0 "German Occupation of Central America"
+  P08_GER_fascism_subject_DEF:0 "the German Occupation of Central America"
 
   P09_GER_fascism_subject:0 "Kingdom of Hungary"
   P09_GER_fascism_subject_DEF:0 "the Kingdom of Hungary"
@@ -1093,8 +1093,8 @@
   P10_GER_fascism_subject:0 "German East Africa"
   P10_GER_fascism_subject_DEF:0 "German East Africa"
 
-  P11_GER_fascism_subject:0 "National State of Eastern Canada"
-  P11_GER_fascism_subject_DEF:0 "the National State of Eastern Canada"
+  P11_GER_fascism_subject:0 "German Occupation of Eastern Canada"
+  P11_GER_fascism_subject_DEF:0 "the German Occupation of Eastern Canada"
 
   P12_GER_fascism_subject:0 "German Occupation of Finland"
   P12_GER_fascism_subject_DEF:0 "the German Occupation of Finland"
@@ -1102,44 +1102,44 @@
   P14_GER_fascism_subject:0 "Hellenic State"
   P14_GER_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_GER_fascism_subject:0 "Iberian State"
-  P15_GER_fascism_subject_DEF:0 "the Iberian State"
+  P15_GER_fascism_subject:0 "German Occupation of Iberia"
+  P15_GER_fascism_subject_DEF:0 "the German Occupation of Iberia"
 
-  P16_GER_fascism_subject:0 "National State of Indochina"
-  P16_GER_fascism_subject_DEF:0 "the National State of Indochina"
+  P16_GER_fascism_subject:0 "German Occupation of Indochina"
+  P16_GER_fascism_subject_DEF:0 "the German Occupation of Indochina"
 
-  P17_GER_fascism_subject:0 "National State of Indonesia"
-  P17_GER_fascism_subject_DEF:0 "the National State of Indonesia"
+  P17_GER_fascism_subject:0 "German Occupation of Indonesia"
+  P17_GER_fascism_subject_DEF:0 "the German Occupation of Indonesia"
 
-  P18_GER_fascism_subject:0 "National State of the Midwest"
-  P18_GER_fascism_subject_DEF:0 "the National State of the Midwest"
+  P18_GER_fascism_subject:0 "German Occupation of the Midwest"
+  P18_GER_fascism_subject_DEF:0 "the German Occupation of the Midwest"
 
-  P20_GER_fascism_subject:0 "National State of Northeastern America"
-  P20_GER_fascism_subject_DEF:0 "the National State of Northeastern America"
+  P20_GER_fascism_subject:0 "German Occupation of Northeastern America"
+  P20_GER_fascism_subject_DEF:0 "the German Occupation of Northeastern America"
 
-  P21_GER_fascism_subject:0 "National State of Pacific America"
-  P21_GER_fascism_subject_DEF:0 "the National State of Pacific America"
+  P21_GER_fascism_subject:0 "German Occupation of Pacific America"
+  P21_GER_fascism_subject_DEF:0 "the German Occupation of Pacific America"
 
-  P22_GER_fascism_subject:0 "National State of Quebec"
-  P22_GER_fascism_subject_DEF:0 "the National State of Quebec"
+  P22_GER_fascism_subject:0 "German Occupation of Quebec"
+  P22_GER_fascism_subject_DEF:0 "the German Occupation of Quebec"
 
-  P23_GER_fascism_subject:0 "National State of the Rockies"
-  P23_GER_fascism_subject_DEF:0 "the National State of the Rockies"
+  P23_GER_fascism_subject:0 "German Occupation of the Rockies"
+  P23_GER_fascism_subject_DEF:0 "the German Occupation of the Rockies"
 
-  P24_GER_fascism_subject:0 "Nordic State"
-  P24_GER_fascism_subject_DEF:0 "the Nordic State"
+  P24_GER_fascism_subject:0 "German Occupation of Scandinavia"
+  P24_GER_fascism_subject_DEF:0 "the German Occupation of Scandinavia"
 
-  P26_GER_fascism_subject:0 "National State of the South"
-  P26_GER_fascism_subject_DEF:0 "the National State of the South"
+  P26_GER_fascism_subject:0 "German Occupation of the South"
+  P26_GER_fascism_subject_DEF:0 "the German Occupation of the South"
 
-  P27_GER_fascism_subject:0 "National State of Oceania"
-  P27_GER_fascism_subject_DEF:0 "the National State of Oceania"
+  P27_GER_fascism_subject:0 "German Occupation of Oceania"
+  P27_GER_fascism_subject_DEF:0 "the German Occupation of Oceania"
 
-  P28_GER_fascism_subject:0 "National State of Transcaucasia"
-  P28_GER_fascism_subject_DEF:0 "the National State of Transcaucasia"
+  P28_GER_fascism_subject:0 "German Occupation of Transcaucasia"
+  P28_GER_fascism_subject_DEF:0 "the German Occupation of Transcaucasia"
 
-  P29_GER_fascism_subject:0 "National State of Western Canada"
-  P29_GER_fascism_subject_DEF:0 "the National State of Western Canada"
+  P29_GER_fascism_subject:0 "German Occupation of Western Canada"
+  P29_GER_fascism_subject_DEF:0 "the German Occupation of Western Canada"
 
   P30_GER_fascism_subject:0 "German North Africa"
   P30_GER_fascism_subject_DEF:0 "German North Africa"
@@ -1150,14 +1150,14 @@
   P35_GER_fascism_subject:0 "German West Africa"
   P35_GER_fascism_subject_DEF:0 "German West Africa"
 
-  P36_GER_fascism_subject:0 "National State of South Africa"
-  P36_GER_fascism_subject_DEF:0 "the National State of South Africa"
+  P36_GER_fascism_subject:0 "German Occupation of South Africa"
+  P36_GER_fascism_subject_DEF:0 "the German Occupation of South Africa"
 
-  P37_GER_fascism_subject:0 "National State of India"
-  P37_GER_fascism_subject_DEF:0 "the National State of India"
+  P37_GER_fascism_subject:0 "German Occupation of India"
+  P37_GER_fascism_subject_DEF:0 "the German Occupation of India"
 
-  P38_GER_fascism_subject:0 "National State of Bengal"
-  P38_GER_fascism_subject_DEF:0 "the National State of Bengal"
+  P38_GER_fascism_subject:0 "German Occupation of Bengal"
+  P38_GER_fascism_subject_DEF:0 "the German Occupation of Bengal"
 
   P39_GER_fascism_subject:0 "Reichskommissariat Moskowien"
   P39_GER_fascism_subject_DEF:0 "the Reichskommissariat Moskowien"
@@ -1183,8 +1183,8 @@
   P46_GER_fascism_subject:0 "German Military Administration of the Far East"
   P46_GER_fascism_subject_DEF:0 "the German Military Administration of the Far East"
 
-  P47_GER_fascism_subject:0 "Mongolian National State"
-  P47_GER_fascism_subject_DEF:0 "the Mongolian National State"
+  P47_GER_fascism_subject:0 "German Occupation of Mongolia"
+  P47_GER_fascism_subject_DEF:0 "the German Occupation of Mongolia"
 
   P48_GER_fascism_subject:0 "Reichskommissariat Weißruthenien"
   P48_GER_fascism_subject_DEF:0 "the Reichskommissariat Weißruthenien"
@@ -1192,26 +1192,26 @@
   P49_GER_fascism_subject:0 "Kingdom of Bulgaria"
   P49_GER_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
 
-  P50_GER_fascism_subject:0 "State of Yugoslavia"
-  P50_GER_fascism_subject_DEF:0 "the State of Yugoslavia"
+  P50_GER_fascism_subject:0 "German Occupation of Yugoslavia"
+  P50_GER_fascism_subject_DEF:0 "the German Occupation of Yugoslavia"
 
   P51_GER_fascism_subject:0 "Reichskommissariat Turkestan"
   P51_GER_fascism_subject_DEF:0 "the Reichskommissariat Turkestan"
 
-  P52_GER_fascism_subject:0 "National State of Nepal"
-  P52_GER_fascism_subject_DEF:0 "the National State of Nepal"
+  P52_GER_fascism_subject:0 "German Occupation of Nepal"
+  P52_GER_fascism_subject_DEF:0 "the German Occupation of Nepal"
 
   P53_GER_fascism_subject:0 "German Occupation of Mittelafrika"
   P53_GER_fascism_subject_DEF:0 "the German Occupation of Mittelafrika"
 
-  P54_GER_fascism_subject:0 "National State of Chile"
-  P54_GER_fascism_subject_DEF:0 "the National State of Chile"
+  P54_GER_fascism_subject:0 "German Occupation of Chile"
+  P54_GER_fascism_subject_DEF:0 "the German Occupation of Chile"
 
-  P55_GER_fascism_subject:0 "National State of Argentina"
-  P55_GER_fascism_subject_DEF:0 "the National State of Argentina"
+  P55_GER_fascism_subject:0 "German Occupation of Argentina"
+  P55_GER_fascism_subject_DEF:0 "the German Occupation of Argentina"
 
-  P56_GER_fascism_subject:0 "National State of Peru"
-  P56_GER_fascism_subject_DEF:0 "the National State of Peru"
+  P56_GER_fascism_subject:0 "German Occupation of Peru"
+  P56_GER_fascism_subject_DEF:0 "the German Occupation of Peru"
 
   P57_GER_fascism_subject:0 "Integralist State of Brazil"
   P57_GER_fascism_subject_DEF:0 "the Integralist State of Brazil"
@@ -1243,41 +1243,41 @@
   P66_GER_fascism_subject:0 "Reichskommissariat Ukraine"
   P66_GER_fascism_subject_DEF:0 "the Reichskommissariat Ukraine"
 
-  P67_GER_fascism_subject:0 "National State of the Levant"
-  P67_GER_fascism_subject_DEF:0 "the National State of the Levant"
+  P67_GER_fascism_subject:0 "German Occupation of the Levant"
+  P67_GER_fascism_subject_DEF:0 "the German Occupation of the Levant"
 
-  P68_GER_fascism_subject:0 "Turanist State of Turkey"
-  P68_GER_fascism_subject_DEF:0 "the Turanist State of Turkey"
+  P68_GER_fascism_subject:0 "German Occupation of Turkey"
+  P68_GER_fascism_subject_DEF:0 "the German Occupation of Turkey"
 
   P69_GER_fascism_subject:0 "Golden Square Republic of Iraq"
   P69_GER_fascism_subject_DEF:0 "the Golden Square Republic of Iraq"
 
-  P70_GER_fascism_subject:0 "National State of Kurdistan"
-  P70_GER_fascism_subject_DEF:0 "the National State of Kurdistan"
+  P70_GER_fascism_subject:0 "German Occupation of Kurdistan"
+  P70_GER_fascism_subject_DEF:0 "the German Occupation of Kurdistan"
 
-  P71_GER_fascism_subject:0 "National State of Iran"
-  P71_GER_fascism_subject_DEF:0 "the National State of Iran"
+  P71_GER_fascism_subject:0 "German Occupation of Iran"
+  P71_GER_fascism_subject_DEF:0 "the German Occupation of Iran"
 
-  P72_GER_fascism_subject:0 "National State of Korea"
-  P72_GER_fascism_subject_DEF:0 "the National State of Korea"
+  P72_GER_fascism_subject:0 "German Occupation of Korea"
+  P72_GER_fascism_subject_DEF:0 "the German Occupation of Korea"
 
   P73_GER_fascism_subject:0 "Irish Corporate State"
   P73_GER_fascism_subject_DEF:0 "the Irish Corporate State"
 
-  P74_GER_fascism_subject:0 "Swedish National State"
-  P74_GER_fascism_subject_DEF:0 "the Swedish National State"
+  P74_GER_fascism_subject:0 "German Occupation of Sweden"
+  P74_GER_fascism_subject_DEF:0 "the German Occupation of Sweden"
 
-  P75_GER_fascism_subject:0 "National State of Pakistan"
-  P75_GER_fascism_subject_DEF:0 "the National State of Pakistan"
+  P75_GER_fascism_subject:0 "German Occupation of Pakistan"
+  P75_GER_fascism_subject_DEF:0 "the German Occupation of Pakistan"
 
-  P76_GER_fascism_subject:0 "National State of Afghanistan"
-  P76_GER_fascism_subject_DEF:0 "the National State of Afghanistan"
+  P76_GER_fascism_subject:0 "German Occupation of Afghanistan"
+  P76_GER_fascism_subject_DEF:0 "the German Occupation of Afghanistan"
 
   P77_GER_fascism_subject:0 "Federal State of Austria"
   P77_GER_fascism_subject_DEF:0 "the Federal State of Austria"
 
-  P78_GER_fascism_subject:0 "National State of Switzerland"
-  P78_GER_fascism_subject_DEF:0 "the National State of Switzerland"
+  P78_GER_fascism_subject:0 "German Occupation of Switzerland"
+  P78_GER_fascism_subject_DEF:0 "the German Occupation of Switzerland"
 
   P79_GER_fascism_subject:0 "National Legionary State of Romania"
   P79_GER_fascism_subject_DEF:0 "the National Legionary State of Romania"
@@ -1306,8 +1306,8 @@
   P87_GER_fascism_subject:0 "German Occupation of Slovenia"
   P87_GER_fascism_subject_DEF:0 "the German Occupation of Slovenia"
 
-  P88_GER_fascism_subject:0 "National State of Bosnia-Herzegovina"
-  P88_GER_fascism_subject_DEF:0 "the National State of Bosnia-Herzegovina"
+  P88_GER_fascism_subject:0 "German Occupation of Bosnia-Herzegovina"
+  P88_GER_fascism_subject_DEF:0 "the German Occupation of Bosnia-Herzegovina"
 
   P89_GER_fascism_subject:0 "Government of National Salvation"
   P89_GER_fascism_subject_DEF:0 "the Government of National Salvation"
@@ -1336,83 +1336,83 @@
   P97_GER_fascism_subject:0 "Italian Social Republic of the Two Sicilies"
   P97_GER_fascism_subject_DEF:0 "the Italian Social Republic of the Two Sicilies"
 
-  P98_GER_fascism_subject:0 "National State of Macedonia"
-  P98_GER_fascism_subject_DEF:0 "the National State of Macedonia"
+  P98_GER_fascism_subject:0 "German Occupation of Macedonia"
+  P98_GER_fascism_subject_DEF:0 "the German Occupation of Macedonia"
 
-  P99_GER_fascism_subject:0 "National State of Hokkaido"
-  P99_GER_fascism_subject_DEF:0 "the National State of Hokkaido"
+  P99_GER_fascism_subject:0 "German Occupation of Hokkaido"
+  P99_GER_fascism_subject_DEF:0 "the German Occupation of Hokkaido"
 
-  Q01_GER_fascism_subject:0 "National State of Tohoku"
-  Q01_GER_fascism_subject_DEF:0 "the National State of Tohoku"
+  Q01_GER_fascism_subject:0 "German Occupation of Tohoku"
+  Q01_GER_fascism_subject_DEF:0 "the German Occupation of Tohoku"
 
-  Q02_GER_fascism_subject:0 "National State of Kanto"
-  Q02_GER_fascism_subject_DEF:0 "the National State of Kanto"
+  Q02_GER_fascism_subject:0 "German Occupation of Kanto"
+  Q02_GER_fascism_subject_DEF:0 "the German Occupation of Kanto"
 
-  Q03_GER_fascism_subject:0 "National State of Chubu"
-  Q03_GER_fascism_subject_DEF:0 "the National State of Chubu"
+  Q03_GER_fascism_subject:0 "German Occupation of Chubu"
+  Q03_GER_fascism_subject_DEF:0 "the German Occupation of Chubu"
 
-  Q04_GER_fascism_subject:0 "National State of Kansai"
-  Q04_GER_fascism_subject_DEF:0 "the National State of Kansai"
+  Q04_GER_fascism_subject:0 "German Occupation of Kansai"
+  Q04_GER_fascism_subject_DEF:0 "the German Occupation of Kansai"
 
-  Q05_GER_fascism_subject:0 "National State of Chugoku"
-  Q05_GER_fascism_subject_DEF:0 "the National State of Chugoku"
+  Q05_GER_fascism_subject:0 "German Occupation of Chugoku"
+  Q05_GER_fascism_subject_DEF:0 "the German Occupation of Chugoku"
 
-  Q06_GER_fascism_subject:0 "National State of Shikoku"
-  Q06_GER_fascism_subject_DEF:0 "the National State of Shikoku"
+  Q06_GER_fascism_subject:0 "German Occupation of Shikoku"
+  Q06_GER_fascism_subject_DEF:0 "the German Occupation of Shikoku"
 
-  Q07_GER_fascism_subject:0 "National State of Kyushu"
-  Q07_GER_fascism_subject_DEF:0 "the National State of Kyushu"
+  Q07_GER_fascism_subject:0 "German Occupation of Kyushu"
+  Q07_GER_fascism_subject_DEF:0 "the German Occupation of Kyushu"
 
-  Q08_GER_fascism_subject:0 "National State of Manchuria"
-  Q08_GER_fascism_subject_DEF:0 "the National State of Manchuria"
+  Q08_GER_fascism_subject:0 "German Occupation of Manchuria"
+  Q08_GER_fascism_subject_DEF:0 "the German Occupation of Manchuria"
 
-  Q09_GER_fascism_subject:0 "National State of Inner Mongolia"
-  Q09_GER_fascism_subject_DEF:0 "the National State of Inner Mongolia"
+  Q09_GER_fascism_subject:0 "German Occupation of Inner Mongolia"
+  Q09_GER_fascism_subject_DEF:0 "the German Occupation of Inner Mongolia"
 
-  Q10_GER_fascism_subject:0 "National State of North China"
-  Q10_GER_fascism_subject_DEF:0 "the National State of North China"
+  Q10_GER_fascism_subject:0 "German Occupation of North China"
+  Q10_GER_fascism_subject_DEF:0 "the German Occupation of North China"
 
-  Q11_GER_fascism_subject:0 "National State of Shandong"
-  Q11_GER_fascism_subject_DEF:0 "the National State of Shandong"
+  Q11_GER_fascism_subject:0 "German Occupation of Shandong"
+  Q11_GER_fascism_subject_DEF:0 "the German Occupation of Shandong"
 
-  Q12_GER_fascism_subject:0 "National State of Henan"
-  Q12_GER_fascism_subject_DEF:0 "the National State of Henan"
+  Q12_GER_fascism_subject:0 "German Occupation of Henan"
+  Q12_GER_fascism_subject_DEF:0 "the German Occupation of Henan"
 
-  Q13_GER_fascism_subject:0 "National State of Shanxi"
-  Q13_GER_fascism_subject_DEF:0 "the National State of Shanxi"
+  Q13_GER_fascism_subject:0 "German Occupation of Shanxi"
+  Q13_GER_fascism_subject_DEF:0 "the German Occupation of Shanxi"
 
-  Q14_GER_fascism_subject:0 "National State of Jiangnan"
-  Q14_GER_fascism_subject_DEF:0 "the National State of Jiangnan"
+  Q14_GER_fascism_subject:0 "German Occupation of Jiangnan"
+  Q14_GER_fascism_subject_DEF:0 "the German Occupation of Jiangnan"
 
-  Q15_GER_fascism_subject:0 "National State of Min-Zhe"
-  Q15_GER_fascism_subject_DEF:0 "the National State of Min-Zhe"
+  Q15_GER_fascism_subject:0 "German Occupation of Min-Zhe"
+  Q15_GER_fascism_subject_DEF:0 "the German Occupation of Min-Zhe"
 
-  Q16_GER_fascism_subject:0 "National State of Huguang"
-  Q16_GER_fascism_subject_DEF:0 "the National State of Huguang"
+  Q16_GER_fascism_subject:0 "German Occupation of Huguang"
+  Q16_GER_fascism_subject_DEF:0 "the German Occupation of Huguang"
 
-  Q17_GER_fascism_subject:0 "National State of Liangguang"
-  Q17_GER_fascism_subject_DEF:0 "the National State of Liangguang"
+  Q17_GER_fascism_subject:0 "German Occupation of Liangguang"
+  Q17_GER_fascism_subject_DEF:0 "the German Occupation of Liangguang"
 
-  Q18_GER_fascism_subject:0 "National State of Yunnan"
-  Q18_GER_fascism_subject_DEF:0 "the National State of Yunnan"
+  Q18_GER_fascism_subject:0 "German Occupation of Yunnan"
+  Q18_GER_fascism_subject_DEF:0 "the German Occupation of Yunnan"
 
-  Q19_GER_fascism_subject:0 "National State of Sichuan"
-  Q19_GER_fascism_subject_DEF:0 "the National State of Sichuan"
+  Q19_GER_fascism_subject:0 "German Occupation of Sichuan"
+  Q19_GER_fascism_subject_DEF:0 "the German Occupation of Sichuan"
 
-  Q20_GER_fascism_subject:0 "National State of Shaanxi"
-  Q20_GER_fascism_subject_DEF:0 "the National State of Shaanxi"
+  Q20_GER_fascism_subject:0 "German Occupation of Shaanxi"
+  Q20_GER_fascism_subject_DEF:0 "the German Occupation of Shaanxi"
 
-  Q21_GER_fascism_subject:0 "National State of Qinghai"
-  Q21_GER_fascism_subject_DEF:0 "the National State of Qinghai"
+  Q21_GER_fascism_subject:0 "German Occupation of Qinghai"
+  Q21_GER_fascism_subject_DEF:0 "the German Occupation of Qinghai"
 
-  Q22_GER_fascism_subject:0 "National State of Formosa"
-  Q22_GER_fascism_subject_DEF:0 "the National State of Formosa"
+  Q22_GER_fascism_subject:0 "German Occupation of Formosa"
+  Q22_GER_fascism_subject_DEF:0 "the German Occupation of Formosa"
 
-  Q23_GER_fascism_subject:0 "National State of East Turkestan"
-  Q23_GER_fascism_subject_DEF:0 "the National State of East Turkestan"
+  Q23_GER_fascism_subject:0 "German Occupation of East Turkestan"
+  Q23_GER_fascism_subject_DEF:0 "the German Occupation of East Turkestan"
 
-  Q24_GER_fascism_subject:0 "National State of Tibet"
-  Q24_GER_fascism_subject_DEF:0 "the National State of Tibet"
+  Q24_GER_fascism_subject:0 "German Occupation of Tibet"
+  Q24_GER_fascism_subject_DEF:0 "the German Occupation of Tibet"
 
   ## ITALY - COMMUNISM ##
   P01_ITA_communism_subject:0 "Italian Occupation of Colombia"
