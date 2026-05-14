@@ -49,8 +49,8 @@
   P15_GER_communism_subject:0 "German Occupation of Iberia"
   P15_GER_communism_subject_DEF:0 "the German Occupation of Iberia"
 
-  P16_GER_communism_subject:0 "Democratic Republic of Vietnam"
-  P16_GER_communism_subject_DEF:0 "the Democratic Republic of Vietnam"
+  P16_GER_communism_subject:0 "People's Republic of Indochina"
+  P16_GER_communism_subject_DEF:0 "the People's Republic of Indochina"
 
   P17_GER_communism_subject:0 "German Occupation of Indonesia"
   P17_GER_communism_subject_DEF:0 "the German Occupation of Indonesia"
@@ -398,8 +398,8 @@
   P14_GER_democratic_subject:0 "Hellenic Republic"
   P14_GER_democratic_subject_DEF:0 "the Hellenic Republic"
 
-  P15_GER_democratic_subject:0 "Spanish Republic"
-  P15_GER_democratic_subject_DEF:0 "the Spanish Republic"
+  P15_GER_democratic_subject:0 "Iberian Republic"
+  P15_GER_democratic_subject_DEF:0 "the Iberian Republic"
 
   P16_GER_democratic_subject:0 "German Occupation of Indochina"
   P16_GER_democratic_subject_DEF:0 "the German Occupation of Indochina"
@@ -1460,8 +1460,8 @@
   P15_ITA_communism_subject:0 "Italian Occupation of Iberia"
   P15_ITA_communism_subject_DEF:0 "the Italian Occupation of Iberia"
 
-  P16_ITA_communism_subject:0 "Democratic Republic of Vietnam"
-  P16_ITA_communism_subject_DEF:0 "the Democratic Republic of Vietnam"
+  P16_ITA_communism_subject:0 "People's Republic of Indochina"
+  P16_ITA_communism_subject_DEF:0 "the People's Republic of Indochina"
 
   P17_ITA_communism_subject:0 "Italian Occupation of Indonesia"
   P17_ITA_communism_subject_DEF:0 "the Italian Occupation of Indonesia"
@@ -2466,11 +2466,11 @@
   P01_ITA_fascism_subject:0 "Italian Occupation of Colombia"
   P01_ITA_fascism_subject_DEF:0 "the Italian Occupation of Colombia"
 
-  P02_ITA_fascism_subject:0 "British Union State"
-  P02_ITA_fascism_subject_DEF:0 "the British Union State"
+  P02_ITA_fascism_subject:0 "Italian Occupation of Great Britain"
+  P02_ITA_fascism_subject_DEF:0 "the Italian Occupation of Great Britain"
 
-  P03_ITA_fascism_subject:0 "Italian Protectorate of Arabia"
-  P03_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Arabia"
+  P03_ITA_fascism_subject:0 "Italian Occupation of Arabia"
+  P03_ITA_fascism_subject_DEF:0 "the Italian Occupation of Arabia"
 
   P04_ITA_fascism_subject:0 "Italian Occupation of the Baltic States"
   P04_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Baltic States"
@@ -2481,8 +2481,8 @@
   P06_ITA_fascism_subject:0 "Italian Occupation of the West Indies"
   P06_ITA_fascism_subject_DEF:0 "the Italian Occupation of the West Indies"
 
-  P07_ITA_fascism_subject:0 "Italian Protectorate of Central Africa"
-  P07_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Central Africa"
+  P07_ITA_fascism_subject:0 "Italian Occupation of Central Africa"
+  P07_ITA_fascism_subject_DEF:0 "the Italian Occupation of Central Africa"
 
   P08_ITA_fascism_subject:0 "Italian Occupation of Central America"
   P08_ITA_fascism_subject_DEF:0 "the Italian Occupation of Central America"
@@ -2505,8 +2505,8 @@
   P14_ITA_fascism_subject:0 "Hellenic State"
   P14_ITA_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_ITA_fascism_subject:0 "Iberian State"
-  P15_ITA_fascism_subject_DEF:0 "the Iberian State"
+  P15_ITA_fascism_subject:0 "Italian Occupation of Iberia"
+  P15_ITA_fascism_subject_DEF:0 "the Italian Occupation of Iberia"
 
   P16_ITA_fascism_subject:0 "Italian Occupation of Indochina"
   P16_ITA_fascism_subject_DEF:0 "the Italian Occupation of Indochina"
@@ -2532,8 +2532,8 @@
   P23_ITA_fascism_subject:0 "Italian Occupation of the Rockies"
   P23_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Rockies"
 
-  P24_ITA_fascism_subject:0 "Nordic State"
-  P24_ITA_fascism_subject_DEF:0 "the Nordic State"
+  P24_ITA_fascism_subject:0 "Italian Occupation of Scandinavia"
+  P24_ITA_fascism_subject_DEF:0 "the Italian Occupation of Scandinavia"
 
   P25_ITA_fascism_subject:0 "Italian Occupation of Bavaria"
   P25_ITA_fascism_subject_DEF:0 "the Italian Occupation of Bavaria"
@@ -2565,11 +2565,11 @@
   P34_ITA_fascism_subject:0 "Italian Occupation of Poland"
   P34_ITA_fascism_subject_DEF:0 "the Italian Occupation of Poland"
 
-  P35_ITA_fascism_subject:0 "Italian Protectorate of West Africa"
-  P35_ITA_fascism_subject_DEF:0 "the Italian Protectorate of West Africa"
+  P35_ITA_fascism_subject:0 "Italian Occupation of West Africa"
+  P35_ITA_fascism_subject_DEF:0 "the Italian Occupation of West Africa"
 
-  P36_ITA_fascism_subject:0 "Italian Protectorate of South Africa"
-  P36_ITA_fascism_subject_DEF:0 "the Italian Protectorate of South Africa"
+  P36_ITA_fascism_subject:0 "Italian Occupation of South Africa"
+  P36_ITA_fascism_subject_DEF:0 "the Italian Occupation of South Africa"
 
   P37_ITA_fascism_subject:0 "Italian Occupation of India"
   P37_ITA_fascism_subject_DEF:0 "the Italian Occupation of India"
@@ -2610,8 +2610,8 @@
   P49_ITA_fascism_subject:0 "Kingdom of Bulgaria"
   P49_ITA_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
 
-  P50_ITA_fascism_subject:0 "Italian Protectorate of Yugoslavia"
-  P50_ITA_fascism_subject_DEF:0 "the Italian Protectorate of Yugoslavia"
+  P50_ITA_fascism_subject:0 "Italian Occupation of Yugoslavia"
+  P50_ITA_fascism_subject_DEF:0 "the Italian Occupation of Yugoslavia"
 
   P51_ITA_fascism_subject:0 "Italian Occupation of Turkestan"
   P51_ITA_fascism_subject_DEF:0 "the Italian Occupation of Turkestan"
@@ -2658,8 +2658,8 @@
   P66_ITA_fascism_subject:0 "Italian Occupation of Ukraine"
   P66_ITA_fascism_subject_DEF:0 "the Italian Occupation of Ukraine"
 
-  P67_ITA_fascism_subject:0 "Italian Protectorate of the Levant"
-  P67_ITA_fascism_subject_DEF:0 "the Italian Protectorate of the Levant"
+  P67_ITA_fascism_subject:0 "Italian Occupation of the Levant"
+  P67_ITA_fascism_subject_DEF:0 "the Italian Occupation of the Levant"
 
   P68_ITA_fascism_subject:0 "Italian Occupation of Turkey"
   P68_ITA_fascism_subject_DEF:0 "the Italian Occupation of Turkey"
@@ -2857,8 +2857,8 @@
   P15_JAP_communism_subject:0 "Japanese Occupation of Iberia"
   P15_JAP_communism_subject_DEF:0 "the Japanese Occupation of Iberia"
 
-  P16_JAP_communism_subject:0 "Democratic Republic of Vietnam"
-  P16_JAP_communism_subject_DEF:0 "the Democratic Republic of Vietnam"
+  P16_JAP_communism_subject:0 "People's Republic of Indochina"
+  P16_JAP_communism_subject_DEF:0 "the People's Republic of Indochina"
 
   P17_JAP_communism_subject:0 "Japanese Occupation of Indonesia"
   P17_JAP_communism_subject_DEF:0 "the Japanese Occupation of Indonesia"
@@ -3185,8 +3185,8 @@
   P15_JAP_democratic_subject:0 "Japanese Occupation of Iberia"
   P15_JAP_democratic_subject_DEF:0 "the Japanese Occupation of Iberia"
 
-  P16_JAP_democratic_subject:0 "Japanese Occupation of Vietnam"
-  P16_JAP_democratic_subject_DEF:0 "the Japanese Occupation of Vietnam"
+  P16_JAP_democratic_subject:0 "Japanese Occupation of Indochina"
+  P16_JAP_democratic_subject_DEF:0 "the Japanese Occupation of Indochina"
 
   P17_JAP_democratic_subject:0 "Japanese Occupation of Indonesia"
   P17_JAP_democratic_subject_DEF:0 "the Japanese Occupation of Indonesia"
@@ -3814,8 +3814,8 @@
   P01_JAP_fascism_subject:0 "Japanese Occupation of Colombia"
   P01_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Colombia"
 
-  P02_JAP_fascism_subject:0 "British Union State"
-  P02_JAP_fascism_subject_DEF:0 "the British Union State"
+  P02_JAP_fascism_subject:0 "Japanese Occupation of Great Britain"
+  P02_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Great Britain"
 
   P03_JAP_fascism_subject:0 "Japanese Occupation of Arabia"
   P03_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Arabia"
@@ -3853,11 +3853,11 @@
   P14_JAP_fascism_subject:0 "Hellenic State"
   P14_JAP_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_JAP_fascism_subject:0 "Iberian State"
-  P15_JAP_fascism_subject_DEF:0 "the Iberian State"
+  P15_JAP_fascism_subject:0 "Japanese Occupation of Iberia"
+  P15_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Iberia"
 
-  P16_JAP_fascism_subject:0 "Empire of Vietnam"
-  P16_JAP_fascism_subject_DEF:0 "the Empire of Vietnam"
+  P16_JAP_fascism_subject:0 "Japanese Occupation of Indochina"
+  P16_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Indochina"
 
   P17_JAP_fascism_subject:0 "Republic of Indonesia"
   P17_JAP_fascism_subject_DEF:0 "the Republic of Indonesia"
@@ -3880,8 +3880,8 @@
   P23_JAP_fascism_subject:0 "Japanese Occupation of the Rockies"
   P23_JAP_fascism_subject_DEF:0 "the Japanese Occupation of the Rockies"
 
-  P24_JAP_fascism_subject:0 "Nordic State"
-  P24_JAP_fascism_subject_DEF:0 "the Nordic State"
+  P24_JAP_fascism_subject:0 "Japanese Occupation of Scandinavia"
+  P24_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Scandinavia"
 
   P25_JAP_fascism_subject:0 "Japanese Occupation of Bavaria"
   P25_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Bavaria"
@@ -3982,8 +3982,8 @@
   P58_JAP_fascism_subject:0 "Synarchist State of Mexico"
   P58_JAP_fascism_subject_DEF:0 "the Synarchist State of Mexico"
 
-  P59_JAP_fascism_subject:0 "Protectorate of Bohemia"
-  P59_JAP_fascism_subject_DEF:0 "the Protectorate of Bohemia"
+  P59_JAP_fascism_subject:0 "Japanese Occupation of Bohemia"
+  P59_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Bohemia"
 
   P60_JAP_fascism_subject:0 "Rexist State of Belgium"
   P60_JAP_fascism_subject_DEF:0 "the Rexist State of Belgium"
@@ -4009,8 +4009,8 @@
   P67_JAP_fascism_subject:0 "Japanese Occupation of the Levant"
   P67_JAP_fascism_subject_DEF:0 "the Japanese Occupation of the Levant"
 
-  P68_JAP_fascism_subject:0 "Turanist State of Turkey"
-  P68_JAP_fascism_subject_DEF:0 "the Turanist State of Turkey"
+  P68_JAP_fascism_subject:0 "Japanese Occupation of Turkey"
+  P68_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Turkey"
 
   P69_JAP_fascism_subject:0 "Golden Square Republic of Iraq"
   P69_JAP_fascism_subject_DEF:0 "the Golden Square Republic of Iraq"
@@ -4042,8 +4042,8 @@
   P78_JAP_fascism_subject:0 "Japanese Occupation of Switzerland"
   P78_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Switzerland"
 
-  P79_JAP_fascism_subject:0 "National Legionary State of Romania"
-  P79_JAP_fascism_subject_DEF:0 "the National Legionary State of Romania"
+  P79_JAP_fascism_subject:0 "Japanese Occupation of Romania"
+  P79_JAP_fascism_subject_DEF:0 "the Japanese Occupation of Romania"
 
   P80_JAP_fascism_subject:0 "Japanese Occupation of England"
   P80_JAP_fascism_subject_DEF:0 "the Japanese Occupation of England"
@@ -4199,8 +4199,8 @@
   P15_SOV_communism_subject:0 "People's Republic of Iberia"
   P15_SOV_communism_subject_DEF:0 "the People's Republic of Iberia"
 
-  P16_SOV_communism_subject:0 "Democratic Republic of Vietnam"
-  P16_SOV_communism_subject_DEF:0 "the Democratic Republic of Vietnam"
+  P16_SOV_communism_subject:0 "People's Republic of Indochina"
+  P16_SOV_communism_subject_DEF:0 "the People's Republic of Indochina"
 
   P17_SOV_communism_subject:0 "People's Republic of Indonesia"
   P17_SOV_communism_subject_DEF:0 "the People's Republic of Indonesia"
@@ -4521,11 +4521,11 @@
   P14_SOV_democratic_subject:0 "Hellenic Republic"
   P14_SOV_democratic_subject_DEF:0 "the Hellenic Republic"
 
-  P15_SOV_democratic_subject:0 "Spanish Republic"
-  P15_SOV_democratic_subject_DEF:0 "the Spanish Republic"
+  P15_SOV_democratic_subject:0 "Iberian Republic"
+  P15_SOV_democratic_subject_DEF:0 "the Iberian Republic"
 
-  P16_SOV_democratic_subject:0 "Republic of Vietnam"
-  P16_SOV_democratic_subject_DEF:0 "the Republic of Vietnam"
+  P16_SOV_democratic_subject:0 "Republic of Indochina"
+  P16_SOV_democratic_subject_DEF:0 "the Republic of Indochina"
 
   P17_SOV_democratic_subject:0 "Republic of Indonesia"
   P17_SOV_democratic_subject_DEF:0 "the Republic of Indonesia"
@@ -4846,8 +4846,8 @@
   P14_SOV_neutrality_subject:0 "Kingdom of Greece"
   P14_SOV_neutrality_subject_DEF:0 "the Kingdom of Greece"
 
-  P15_SOV_neutrality_subject:0 "Kingdom of Spain"
-  P15_SOV_neutrality_subject_DEF:0 "the Kingdom of Spain"
+  P15_SOV_neutrality_subject:0 "Kingdom of Iberia"
+  P15_SOV_neutrality_subject_DEF:0 "the Kingdom of Iberia"
 
   P16_SOV_neutrality_subject:0 "Kingdom of Indochina"
   P16_SOV_neutrality_subject_DEF:0 "the Kingdom of Indochina"
@@ -5129,80 +5129,80 @@
   Q24_SOV_neutrality_subject_DEF:0 "the Kingdom of Tibet"
 
   ## SOVIET UNION - FASCISM ##
-  P01_SOV_fascism_subject:0 "National State of Colombia"
-  P01_SOV_fascism_subject_DEF:0 "the National State of Colombia"
+  P01_SOV_fascism_subject:0 "Russian Occupation of Colombia"
+  P01_SOV_fascism_subject_DEF:0 "the Russian Occupation of Colombia"
 
-  P02_SOV_fascism_subject:0 "British Union State"
-  P02_SOV_fascism_subject_DEF:0 "the British Union State"
+  P02_SOV_fascism_subject:0 "Russian Occupation of Great Britain"
+  P02_SOV_fascism_subject_DEF:0 "the Russian Occupation of Great Britain"
 
-  P03_SOV_fascism_subject:0 "National State of Arabia"
-  P03_SOV_fascism_subject_DEF:0 "the National State of Arabia"
+  P03_SOV_fascism_subject:0 "Russian Occupation of Arabia"
+  P03_SOV_fascism_subject_DEF:0 "the Russian Occupation of Arabia"
 
-  P04_SOV_fascism_subject:0 "Russian Protectorate of the Baltic"
-  P04_SOV_fascism_subject_DEF:0 "the Russian Protectorate of the Baltic"
+  P04_SOV_fascism_subject:0 "Russian Occupation of the Baltic States"
+  P04_SOV_fascism_subject_DEF:0 "the Russian Occupation of the Baltic States"
 
   P05_SOV_fascism_subject:0 "Russian Military Occupation of the Netherlands"
   P05_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of the Netherlands"
 
-  P06_SOV_fascism_subject:0 "National State of the Caribbean"
-  P06_SOV_fascism_subject_DEF:0 "the National State of the Caribbean"
+  P06_SOV_fascism_subject:0 "Russian Occupation of the Caribbean"
+  P06_SOV_fascism_subject_DEF:0 "the Russian Occupation of the Caribbean"
 
-  P07_SOV_fascism_subject:0 "National State of Central Africa"
-  P07_SOV_fascism_subject_DEF:0 "the National State of Central Africa"
+  P07_SOV_fascism_subject:0 "Russian Occupation of Central Africa"
+  P07_SOV_fascism_subject_DEF:0 "the Russian Occupation of Central Africa"
 
-  P08_SOV_fascism_subject:0 "National State of Central America"
-  P08_SOV_fascism_subject_DEF:0 "the National State of Central America"
+  P08_SOV_fascism_subject:0 "Russian Occupation of Central America"
+  P08_SOV_fascism_subject_DEF:0 "the Russian Occupation of Central America"
 
   P09_SOV_fascism_subject:0 "Kingdom of Hungary"
   P09_SOV_fascism_subject_DEF:0 "the Kingdom of Hungary"
 
-  P10_SOV_fascism_subject:0 "National State of East Africa"
-  P10_SOV_fascism_subject_DEF:0 "the National State of East Africa"
+  P10_SOV_fascism_subject:0 "Russian Occupation of East Africa"
+  P10_SOV_fascism_subject_DEF:0 "the Russian Occupation of East Africa"
 
-  P11_SOV_fascism_subject:0 "National State of Eastern Canada"
-  P11_SOV_fascism_subject_DEF:0 "the National State of Eastern Canada"
+  P11_SOV_fascism_subject:0 "Russian Occupation of Eastern Canada"
+  P11_SOV_fascism_subject_DEF:0 "the Russian Occupation of Eastern Canada"
 
-  P12_SOV_fascism_subject:0 "Russian Protectorate of Finland"
-  P12_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Finland"
+  P12_SOV_fascism_subject:0 "Russian Occupation of Finland"
+  P12_SOV_fascism_subject_DEF:0 "the Russian Occupation of Finland"
 
-  P13_SOV_fascism_subject:0 "German National State"
-  P13_SOV_fascism_subject_DEF:0 "the German National State"
+  P13_SOV_fascism_subject:0 "Russian Occupation of Germany"
+  P13_SOV_fascism_subject_DEF:0 "the Russian Occupation of Germany"
 
   P14_SOV_fascism_subject:0 "Hellenic State"
   P14_SOV_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_SOV_fascism_subject:0 "Spanish State"
-  P15_SOV_fascism_subject_DEF:0 "the Spanish State"
+  P15_SOV_fascism_subject:0 "Russian Occupation of Iberia"
+  P15_SOV_fascism_subject_DEF:0 "the Russian Occupation of Iberia"
 
-  P16_SOV_fascism_subject:0 "National State of Indochina"
-  P16_SOV_fascism_subject_DEF:0 "the National State of Indochina"
+  P16_SOV_fascism_subject:0 "Russian Occupation of Indochina"
+  P16_SOV_fascism_subject_DEF:0 "the Russian Occupation of Indochina"
 
-  P17_SOV_fascism_subject:0 "National State of Indonesia"
-  P17_SOV_fascism_subject_DEF:0 "the National State of Indonesia"
+  P17_SOV_fascism_subject:0 "Russian Occupation of Indonesia"
+  P17_SOV_fascism_subject_DEF:0 "the Russian Occupation of Indonesia"
 
   P19_SOV_fascism_subject:0 "Russian Military Occupation of Northern Germany"
   P19_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Northern Germany"
 
-  P22_SOV_fascism_subject:0 "National State of Quebec"
-  P22_SOV_fascism_subject_DEF:0 "the National State of Quebec"
+  P22_SOV_fascism_subject:0 "Russian Occupation of Quebec"
+  P22_SOV_fascism_subject_DEF:0 "the Russian Occupation of Quebec"
 
-  P24_SOV_fascism_subject:0 "Nordic State"
-  P24_SOV_fascism_subject_DEF:0 "the Nordic State"
+  P24_SOV_fascism_subject:0 "Russian Occupation of Scandinavia"
+  P24_SOV_fascism_subject_DEF:0 "the Russian Occupation of Scandinavia"
 
   P25_SOV_fascism_subject:0 "Russian Military Occupation of Southern Germany"
   P25_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Southern Germany"
 
-  P27_SOV_fascism_subject:0 "National State of Oceania"
-  P27_SOV_fascism_subject_DEF:0 "the National State of Oceania"
+  P27_SOV_fascism_subject:0 "Russian Occupation of Oceania"
+  P27_SOV_fascism_subject_DEF:0 "the Russian Occupation of Oceania"
 
-  P28_SOV_fascism_subject:0 "Russian Protectorate of the Caucasus"
-  P28_SOV_fascism_subject_DEF:0 "the Russian Protectorate of the Caucasus"
+  P28_SOV_fascism_subject:0 "Russian Occupation of the Caucasus"
+  P28_SOV_fascism_subject_DEF:0 "the Russian Occupation of the Caucasus"
 
-  P29_SOV_fascism_subject:0 "National State of Western Canada"
-  P29_SOV_fascism_subject_DEF:0 "the National State of Western Canada"
+  P29_SOV_fascism_subject:0 "Russian Occupation of Western Canada"
+  P29_SOV_fascism_subject_DEF:0 "the Russian Occupation of Western Canada"
 
-  P30_SOV_fascism_subject:0 "National State of North Africa"
-  P30_SOV_fascism_subject_DEF:0 "the National State of North Africa"
+  P30_SOV_fascism_subject:0 "Russian Occupation of North Africa"
+  P30_SOV_fascism_subject_DEF:0 "the Russian Occupation of North Africa"
 
   P31_SOV_fascism_subject:0 "Russian Military Occupation of Western Germany"
   P31_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Western Germany"
@@ -5213,44 +5213,44 @@
   P33_SOV_fascism_subject:0 "Russian Military Occupation of Prussia"
   P33_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Prussia"
 
-  P34_SOV_fascism_subject:0 "Russian Protectorate of Poland"
-  P34_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Poland"
+  P34_SOV_fascism_subject:0 "Russian Occupation of Poland"
+  P34_SOV_fascism_subject_DEF:0 "the Russian Occupation of Poland"
 
-  P35_SOV_fascism_subject:0 "National State of West Africa"
-  P35_SOV_fascism_subject_DEF:0 "the National State of West Africa"
+  P35_SOV_fascism_subject:0 "Russian Occupation of West Africa"
+  P35_SOV_fascism_subject_DEF:0 "the Russian Occupation of West Africa"
 
-  P36_SOV_fascism_subject:0 "National State of South Africa"
-  P36_SOV_fascism_subject_DEF:0 "the National State of South Africa"
+  P36_SOV_fascism_subject:0 "Russian Occupation of South Africa"
+  P36_SOV_fascism_subject_DEF:0 "the Russian Occupation of South Africa"
 
-  P37_SOV_fascism_subject:0 "National State of India"
-  P37_SOV_fascism_subject_DEF:0 "the National State of India"
+  P37_SOV_fascism_subject:0 "Russian Occupation of India"
+  P37_SOV_fascism_subject_DEF:0 "the Russian Occupation of India"
 
-  P38_SOV_fascism_subject:0 "National State of Bengal"
-  P38_SOV_fascism_subject_DEF:0 "the National State of Bengal"
+  P38_SOV_fascism_subject:0 "Russian Occupation of Bengal"
+  P38_SOV_fascism_subject_DEF:0 "the Russian Occupation of Bengal"
 
-  P47_SOV_fascism_subject:0 "Russian Protectorate of Mongolia"
-  P47_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Mongolia"
+  P47_SOV_fascism_subject:0 "Russian Occupation of Mongolia"
+  P47_SOV_fascism_subject_DEF:0 "the Russian Occupation of Mongolia"
 
   P49_SOV_fascism_subject:0 "Kingdom of Bulgaria"
   P49_SOV_fascism_subject_DEF:0 "the Kingdom of Bulgaria"
 
-  P50_SOV_fascism_subject:0 "State of Yugoslavia"
-  P50_SOV_fascism_subject_DEF:0 "the State of Yugoslavia"
+  P50_SOV_fascism_subject:0 "Russian Occupation of Yugoslavia"
+  P50_SOV_fascism_subject_DEF:0 "the Russian Occupation of Yugoslavia"
 
-  P51_SOV_fascism_subject:0 "Russian Protectorate of Turkestan"
-  P51_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Turkestan"
+  P51_SOV_fascism_subject:0 "Russian Occupation of Turkestan"
+  P51_SOV_fascism_subject_DEF:0 "the Russian Occupation of Turkestan"
 
-  P52_SOV_fascism_subject:0 "National State of Nepal"
-  P52_SOV_fascism_subject_DEF:0 "the National State of Nepal"
+  P52_SOV_fascism_subject:0 "Russian Occupation of Nepal"
+  P52_SOV_fascism_subject_DEF:0 "the Russian Occupation of Nepal"
 
-  P54_SOV_fascism_subject:0 "National State of Chile"
-  P54_SOV_fascism_subject_DEF:0 "the National State of Chile"
+  P54_SOV_fascism_subject:0 "Russian Occupation of Chile"
+  P54_SOV_fascism_subject_DEF:0 "the Russian Occupation of Chile"
 
-  P55_SOV_fascism_subject:0 "National State of Argentina"
-  P55_SOV_fascism_subject_DEF:0 "the National State of Argentina"
+  P55_SOV_fascism_subject:0 "Russian Occupation of Argentina"
+  P55_SOV_fascism_subject_DEF:0 "the Russian Occupation of Argentina"
 
-  P56_SOV_fascism_subject:0 "National State of Peru"
-  P56_SOV_fascism_subject_DEF:0 "the National State of Peru"
+  P56_SOV_fascism_subject:0 "Russian Occupation of Peru"
+  P56_SOV_fascism_subject_DEF:0 "the Russian Occupation of Peru"
 
   P57_SOV_fascism_subject:0 "Integralist State of Brazil"
   P57_SOV_fascism_subject_DEF:0 "the Integralist State of Brazil"
@@ -5258,8 +5258,8 @@
   P58_SOV_fascism_subject:0 "Synarchist State of Mexico"
   P58_SOV_fascism_subject_DEF:0 "the Synarchist State of Mexico"
 
-  P59_SOV_fascism_subject:0 "Protectorate of Bohemia"
-  P59_SOV_fascism_subject_DEF:0 "the Protectorate of Bohemia"
+  P59_SOV_fascism_subject:0 "Russian Occupation of Bohemia"
+  P59_SOV_fascism_subject_DEF:0 "the Russian Occupation of Bohemia"
 
   P60_SOV_fascism_subject:0 "Rexist State of Belgium"
   P60_SOV_fascism_subject_DEF:0 "the Rexist State of Belgium"
@@ -5276,41 +5276,41 @@
   P64_SOV_fascism_subject:0 "Russian Military Occupation of Savoy"
   P64_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Savoy"
 
-  P65_SOV_fascism_subject:0 "Norwegian National State"
-  P65_SOV_fascism_subject_DEF:0 "the Norwegian National State"
+  P65_SOV_fascism_subject:0 "Russian Occupation of Norway"
+  P65_SOV_fascism_subject_DEF:0 "the Russian Occupation of Norway"
 
   P66_SOV_fascism_subject:0 "Hetman State of Ukraine"
   P66_SOV_fascism_subject_DEF:0 "the Hetman State of Ukraine"
 
-  P67_SOV_fascism_subject:0 "National State of the Levant"
-  P67_SOV_fascism_subject_DEF:0 "the National State of the Levant"
+  P67_SOV_fascism_subject:0 "Russian Occupation of the Levant"
+  P67_SOV_fascism_subject_DEF:0 "the Russian Occupation of the Levant"
 
-  P68_SOV_fascism_subject:0 "Turanist State of Turkey"
-  P68_SOV_fascism_subject_DEF:0 "the Turanist State of Turkey"
+  P68_SOV_fascism_subject:0 "Russian Occupation of Turkey"
+  P68_SOV_fascism_subject_DEF:0 "the Russian Occupation of Turkey"
 
   P69_SOV_fascism_subject:0 "Golden Square Republic of Iraq"
   P69_SOV_fascism_subject_DEF:0 "the Golden Square Republic of Iraq"
 
-  P70_SOV_fascism_subject:0 "National State of Kurdistan"
-  P70_SOV_fascism_subject_DEF:0 "the National State of Kurdistan"
+  P70_SOV_fascism_subject:0 "Russian Occupation of Kurdistan"
+  P70_SOV_fascism_subject_DEF:0 "the Russian Occupation of Kurdistan"
 
-  P71_SOV_fascism_subject:0 "National State of Iran"
-  P71_SOV_fascism_subject_DEF:0 "the National State of Iran"
+  P71_SOV_fascism_subject:0 "Russian Occupation of Iran"
+  P71_SOV_fascism_subject_DEF:0 "the Russian Occupation of Iran"
 
-  P72_SOV_fascism_subject:0 "National State of Korea"
-  P72_SOV_fascism_subject_DEF:0 "the National State of Korea"
+  P72_SOV_fascism_subject:0 "Russian Occupation of Korea"
+  P72_SOV_fascism_subject_DEF:0 "the Russian Occupation of Korea"
 
   P73_SOV_fascism_subject:0 "Irish Corporate State"
   P73_SOV_fascism_subject_DEF:0 "the Irish Corporate State"
 
-  P74_SOV_fascism_subject:0 "Swedish National State"
-  P74_SOV_fascism_subject_DEF:0 "the Swedish National State"
+  P74_SOV_fascism_subject:0 "Russian Occupation of Sweden"
+  P74_SOV_fascism_subject_DEF:0 "the Russian Occupation of Sweden"
 
-  P75_SOV_fascism_subject:0 "National State of Pakistan"
-  P75_SOV_fascism_subject_DEF:0 "the National State of Pakistan"
+  P75_SOV_fascism_subject:0 "Russian Occupation of Pakistan"
+  P75_SOV_fascism_subject_DEF:0 "the Russian Occupation of Pakistan"
 
-  P76_SOV_fascism_subject:0 "National State of Afghanistan"
-  P76_SOV_fascism_subject_DEF:0 "the National State of Afghanistan"
+  P76_SOV_fascism_subject:0 "Russian Occupation of Afghanistan"
+  P76_SOV_fascism_subject_DEF:0 "the Russian Occupation of Afghanistan"
 
   P77_SOV_fascism_subject:0 "Federal State of Austria"
   P77_SOV_fascism_subject_DEF:0 "the Federal State of Austria"
@@ -5318,8 +5318,8 @@
   P78_SOV_fascism_subject:0 "Russian Military Occupation of Switzerland"
   P78_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Switzerland"
 
-  P79_SOV_fascism_subject:0 "National Legionary State of Romania"
-  P79_SOV_fascism_subject_DEF:0 "the National Legionary State of Romania"
+  P79_SOV_fascism_subject:0 "Russian Occupation of Romania"
+  P79_SOV_fascism_subject_DEF:0 "the Russian Occupation of Romania"
 
   P80_SOV_fascism_subject:0 "Russian Military Occupation of England"
   P80_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of England"
@@ -5378,80 +5378,80 @@
   P98_SOV_fascism_subject:0 "Russian Military Occupation of Macedonia"
   P98_SOV_fascism_subject_DEF:0 "the Russian Military Occupation of Macedonia"
 
-  P99_SOV_fascism_subject:0 "Russian Protectorate of Hokkaido"
-  P99_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Hokkaido"
+  P99_SOV_fascism_subject:0 "Russian Occupation of Hokkaido"
+  P99_SOV_fascism_subject_DEF:0 "the Russian Occupation of Hokkaido"
 
-  Q01_SOV_fascism_subject:0 "Russian Protectorate of Tohoku"
-  Q01_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Tohoku"
+  Q01_SOV_fascism_subject:0 "Russian Occupation of Tohoku"
+  Q01_SOV_fascism_subject_DEF:0 "the Russian Occupation of Tohoku"
 
-  Q02_SOV_fascism_subject:0 "Russian Protectorate of Kanto"
-  Q02_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Kanto"
+  Q02_SOV_fascism_subject:0 "Russian Occupation of Kanto"
+  Q02_SOV_fascism_subject_DEF:0 "the Russian Occupation of Kanto"
 
-  Q03_SOV_fascism_subject:0 "Russian Protectorate of Chubu"
-  Q03_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Chubu"
+  Q03_SOV_fascism_subject:0 "Russian Occupation of Chubu"
+  Q03_SOV_fascism_subject_DEF:0 "the Russian Occupation of Chubu"
 
-  Q04_SOV_fascism_subject:0 "Russian Protectorate of Kansai"
-  Q04_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Kansai"
+  Q04_SOV_fascism_subject:0 "Russian Occupation of Kansai"
+  Q04_SOV_fascism_subject_DEF:0 "the Russian Occupation of Kansai"
 
-  Q05_SOV_fascism_subject:0 "Russian Protectorate of Chugoku"
-  Q05_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Chugoku"
+  Q05_SOV_fascism_subject:0 "Russian Occupation of Chugoku"
+  Q05_SOV_fascism_subject_DEF:0 "the Russian Occupation of Chugoku"
 
-  Q06_SOV_fascism_subject:0 "Russian Protectorate of Shikoku"
-  Q06_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Shikoku"
+  Q06_SOV_fascism_subject:0 "Russian Occupation of Shikoku"
+  Q06_SOV_fascism_subject_DEF:0 "the Russian Occupation of Shikoku"
 
-  Q07_SOV_fascism_subject:0 "Russian Protectorate of Kyushu"
-  Q07_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Kyushu"
+  Q07_SOV_fascism_subject:0 "Russian Occupation of Kyushu"
+  Q07_SOV_fascism_subject_DEF:0 "the Russian Occupation of Kyushu"
 
-  Q08_SOV_fascism_subject:0 "Russian Protectorate of Manchuria"
-  Q08_SOV_fascism_subject_DEF:0 "the Russian Protectorate of Manchuria"
+  Q08_SOV_fascism_subject:0 "Russian Occupation of Manchuria"
+  Q08_SOV_fascism_subject_DEF:0 "the Russian Occupation of Manchuria"
 
-  Q09_SOV_fascism_subject:0 "National State of Inner Mongolia"
-  Q09_SOV_fascism_subject_DEF:0 "the National State of Inner Mongolia"
+  Q09_SOV_fascism_subject:0 "Russian Occupation of Inner Mongolia"
+  Q09_SOV_fascism_subject_DEF:0 "the Russian Occupation of Inner Mongolia"
 
-  Q10_SOV_fascism_subject:0 "National State of North China"
-  Q10_SOV_fascism_subject_DEF:0 "the National State of North China"
+  Q10_SOV_fascism_subject:0 "Russian Occupation of North China"
+  Q10_SOV_fascism_subject_DEF:0 "the Russian Occupation of North China"
 
-  Q11_SOV_fascism_subject:0 "National State of Shandong"
-  Q11_SOV_fascism_subject_DEF:0 "the National State of Shandong"
+  Q11_SOV_fascism_subject:0 "Russian Occupation of Shandong"
+  Q11_SOV_fascism_subject_DEF:0 "the Russian Occupation of Shandong"
 
-  Q12_SOV_fascism_subject:0 "National State of Henan"
-  Q12_SOV_fascism_subject_DEF:0 "the National State of Henan"
+  Q12_SOV_fascism_subject:0 "Russian Occupation of Henan"
+  Q12_SOV_fascism_subject_DEF:0 "the Russian Occupation of Henan"
 
-  Q13_SOV_fascism_subject:0 "National State of Shanxi"
-  Q13_SOV_fascism_subject_DEF:0 "the National State of Shanxi"
+  Q13_SOV_fascism_subject:0 "Russian Occupation of Shanxi"
+  Q13_SOV_fascism_subject_DEF:0 "the Russian Occupation of Shanxi"
 
-  Q14_SOV_fascism_subject:0 "National State of Jiangnan"
-  Q14_SOV_fascism_subject_DEF:0 "the National State of Jiangnan"
+  Q14_SOV_fascism_subject:0 "Russian Occupation of Jiangnan"
+  Q14_SOV_fascism_subject_DEF:0 "the Russian Occupation of Jiangnan"
 
-  Q15_SOV_fascism_subject:0 "National State of Min-Zhe"
-  Q15_SOV_fascism_subject_DEF:0 "the National State of Min-Zhe"
+  Q15_SOV_fascism_subject:0 "Russian Occupation of Min-Zhe"
+  Q15_SOV_fascism_subject_DEF:0 "the Russian Occupation of Min-Zhe"
 
-  Q16_SOV_fascism_subject:0 "National State of Huguang"
-  Q16_SOV_fascism_subject_DEF:0 "the National State of Huguang"
+  Q16_SOV_fascism_subject:0 "Russian Occupation of Huguang"
+  Q16_SOV_fascism_subject_DEF:0 "the Russian Occupation of Huguang"
 
-  Q17_SOV_fascism_subject:0 "National State of South China"
-  Q17_SOV_fascism_subject_DEF:0 "the National State of South China"
+  Q17_SOV_fascism_subject:0 "Russian Occupation of South China"
+  Q17_SOV_fascism_subject_DEF:0 "the Russian Occupation of South China"
 
-  Q18_SOV_fascism_subject:0 "National State of Yunnan"
-  Q18_SOV_fascism_subject_DEF:0 "the National State of Yunnan"
+  Q18_SOV_fascism_subject:0 "Russian Occupation of Yunnan"
+  Q18_SOV_fascism_subject_DEF:0 "the Russian Occupation of Yunnan"
 
-  Q19_SOV_fascism_subject:0 "National State of Sichuan"
-  Q19_SOV_fascism_subject_DEF:0 "the National State of Sichuan"
+  Q19_SOV_fascism_subject:0 "Russian Occupation of Sichuan"
+  Q19_SOV_fascism_subject_DEF:0 "the Russian Occupation of Sichuan"
 
-  Q20_SOV_fascism_subject:0 "National State of Northwestern China"
-  Q20_SOV_fascism_subject_DEF:0 "the National State of Northwestern China"
+  Q20_SOV_fascism_subject:0 "Russian Occupation of Northwestern China"
+  Q20_SOV_fascism_subject_DEF:0 "the Russian Occupation of Northwestern China"
 
-  Q21_SOV_fascism_subject:0 "National State of Qinghai"
-  Q21_SOV_fascism_subject_DEF:0 "the National State of Qinghai"
+  Q21_SOV_fascism_subject:0 "Russian Occupation of Qinghai"
+  Q21_SOV_fascism_subject_DEF:0 "the Russian Occupation of Qinghai"
 
-  Q22_SOV_fascism_subject:0 "National State of Taiwan"
-  Q22_SOV_fascism_subject_DEF:0 "the National State of Taiwan"
+  Q22_SOV_fascism_subject:0 "Russian Occupation of Taiwan"
+  Q22_SOV_fascism_subject_DEF:0 "the Russian Occupation of Taiwan"
 
-  Q23_SOV_fascism_subject:0 "National State of East Turkestan"
-  Q23_SOV_fascism_subject_DEF:0 "the National State of East Turkestan"
+  Q23_SOV_fascism_subject:0 "Russian Occupation of East Turkestan"
+  Q23_SOV_fascism_subject_DEF:0 "the Russian Occupation of East Turkestan"
 
-  Q24_SOV_fascism_subject:0 "National State of Tibet"
-  Q24_SOV_fascism_subject_DEF:0 "the National State of Tibet"
+  Q24_SOV_fascism_subject:0 "Russian Occupation of Tibet"
+  Q24_SOV_fascism_subject_DEF:0 "the Russian Occupation of Tibet"
 
   ## FRANCE - COMMUNISM ##
   P01_FRA_communism_subject:0 "French Occupation of Colombia"
@@ -7966,8 +7966,8 @@
   P11_ENG_fascism_subject:0 "British Occupation of Eastern Canada"
   P11_ENG_fascism_subject_DEF:0 "the British Occupation of Eastern Canada"
 
-  P12_ENG_fascism_subject:0 "Finnish National State"
-  P12_ENG_fascism_subject_DEF:0 "the Finnish National State"
+  P12_ENG_fascism_subject:0 "British Occupation of Finland"
+  P12_ENG_fascism_subject_DEF:0 "the British Occupation of Finland"
 
   P13_ENG_fascism_subject:0 "British Occupation of Germany"
   P13_ENG_fascism_subject_DEF:0 "the British Occupation of Germany"
@@ -7975,8 +7975,8 @@
   P14_ENG_fascism_subject:0 "Hellenic State"
   P14_ENG_fascism_subject_DEF:0 "the Hellenic State"
 
-  P15_ENG_fascism_subject:0 "Iberian State"
-  P15_ENG_fascism_subject_DEF:0 "the Iberian State"
+  P15_ENG_fascism_subject:0 "British Occupation of Iberia"
+  P15_ENG_fascism_subject_DEF:0 "the British Occupation of Iberia"
 
   P16_ENG_fascism_subject:0 "British Occupation of Indochina"
   P16_ENG_fascism_subject_DEF:0 "the British Occupation of Indochina"
@@ -8002,8 +8002,8 @@
   P23_ENG_fascism_subject:0 "British Occupation of the Mountain West"
   P23_ENG_fascism_subject_DEF:0 "the British Occupation of the Mountain West"
 
-  P24_ENG_fascism_subject:0 "Nordic State"
-  P24_ENG_fascism_subject_DEF:0 "the Nordic State"
+  P24_ENG_fascism_subject:0 "British Occupation of Scandinavia"
+  P24_ENG_fascism_subject_DEF:0 "the British Occupation of Scandinavia"
 
   P25_ENG_fascism_subject:0 "British Occupation of South Germany"
   P25_ENG_fascism_subject_DEF:0 "the British Occupation of South Germany"
@@ -8029,8 +8029,8 @@
   P32_ENG_fascism_subject:0 "British Occupation of East Germany"
   P32_ENG_fascism_subject_DEF:0 "the British Occupation of East Germany"
 
-  P33_ENG_fascism_subject:0 "Prussian State"
-  P33_ENG_fascism_subject_DEF:0 "the Prussian State"
+  P33_ENG_fascism_subject:0 "British Occupation of Prussia"
+  P33_ENG_fascism_subject_DEF:0 "the British Occupation of Prussia"
 
   P34_ENG_fascism_subject:0 "British Occupation of Poland"
   P34_ENG_fascism_subject_DEF:0 "the British Occupation of Poland"
@@ -8104,8 +8104,8 @@
   P58_ENG_fascism_subject:0 "British Occupation of Mexico"
   P58_ENG_fascism_subject_DEF:0 "the British Occupation of Mexico"
 
-  P59_ENG_fascism_subject:0 "Protectorate of Bohemia and Moravia"
-  P59_ENG_fascism_subject_DEF:0 "the Protectorate of Bohemia and Moravia"
+  P59_ENG_fascism_subject:0 "British Occupation of Bohemia"
+  P59_ENG_fascism_subject_DEF:0 "the British Occupation of Bohemia"
 
   P60_ENG_fascism_subject:0 "British Occupation of Belgium"
   P60_ENG_fascism_subject_DEF:0 "the British Occupation of Belgium"
@@ -8125,14 +8125,14 @@
   P65_ENG_fascism_subject:0 "British Occupation of Norway"
   P65_ENG_fascism_subject_DEF:0 "the British Occupation of Norway"
 
-  P66_ENG_fascism_subject:0 "Ukrainian State"
-  P66_ENG_fascism_subject_DEF:0 "the Ukrainian State"
+  P66_ENG_fascism_subject:0 "British Occupation of Ukraine"
+  P66_ENG_fascism_subject_DEF:0 "the British Occupation of Ukraine"
 
   P67_ENG_fascism_subject:0 "British Occupation of the Levant"
   P67_ENG_fascism_subject_DEF:0 "the British Occupation of the Levant"
 
-  P68_ENG_fascism_subject:0 "Turkish National State"
-  P68_ENG_fascism_subject_DEF:0 "the Turkish National State"
+  P68_ENG_fascism_subject:0 "British Occupation of Turkey"
+  P68_ENG_fascism_subject_DEF:0 "the British Occupation of Turkey"
 
   P69_ENG_fascism_subject:0 "British Occupation of Iraq"
   P69_ENG_fascism_subject_DEF:0 "the British Occupation of Iraq"
@@ -8164,8 +8164,8 @@
   P78_ENG_fascism_subject:0 "British Occupation of Switzerland"
   P78_ENG_fascism_subject_DEF:0 "the British Occupation of Switzerland"
 
-  P79_ENG_fascism_subject:0 "National Legionary State of Romania"
-  P79_ENG_fascism_subject_DEF:0 "the National Legionary State of Romania"
+  P79_ENG_fascism_subject:0 "British Occupation of Romania"
+  P79_ENG_fascism_subject_DEF:0 "the British Occupation of Romania"
 
   P83_ENG_fascism_subject:0 "British Occupation of Iceland"
   P83_ENG_fascism_subject_DEF:0 "the British Occupation of Iceland"
@@ -8182,14 +8182,14 @@
   P88_ENG_fascism_subject:0 "British Occupation of Bosnia-Herzegovina"
   P88_ENG_fascism_subject_DEF:0 "the British Occupation of Bosnia-Herzegovina"
 
-  P89_ENG_fascism_subject:0 "Serbian State"
-  P89_ENG_fascism_subject_DEF:0 "the Serbian State"
+  P89_ENG_fascism_subject:0 "British Occupation of Serbia"
+  P89_ENG_fascism_subject_DEF:0 "the British Occupation of Serbia"
 
-  P90_ENG_fascism_subject:0 "Montenegrin State"
-  P90_ENG_fascism_subject_DEF:0 "the Montenegrin State"
+  P90_ENG_fascism_subject:0 "British Occupation of Montenegro"
+  P90_ENG_fascism_subject_DEF:0 "the British Occupation of Montenegro"
 
-  P91_ENG_fascism_subject:0 "Albanian State"
-  P91_ENG_fascism_subject_DEF:0 "the Albanian State"
+  P91_ENG_fascism_subject:0 "British Occupation of Albania"
+  P91_ENG_fascism_subject_DEF:0 "the British Occupation of Albania"
 
   P92_ENG_fascism_subject:0 "British Occupation of Lombardy-Venetia"
   P92_ENG_fascism_subject_DEF:0 "the British Occupation of Lombardy-Venetia"
@@ -9034,8 +9034,8 @@
   P14_USA_neutrality_subject:0 "Kingdom of Greece"
   P14_USA_neutrality_subject_DEF:0 "the Kingdom of Greece"
 
-  P15_USA_neutrality_subject:0 "Kingdom of Spain"
-  P15_USA_neutrality_subject_DEF:0 "the Kingdom of Spain"
+  P15_USA_neutrality_subject:0 "Kingdom of Iberia"
+  P15_USA_neutrality_subject_DEF:0 "the Kingdom of Iberia"
 
   P16_USA_neutrality_subject:0 "State of Indochina"
   P16_USA_neutrality_subject_DEF:0 "the State of Indochina"
@@ -9428,8 +9428,8 @@
   P33_USA_fascism_subject:0 "American Occupation of Prussia"
   P33_USA_fascism_subject_DEF:0 "the American Occupation of Prussia"
 
-  P34_USA_fascism_subject:0 "General Government of Poland"
-  P34_USA_fascism_subject_DEF:0 "the General Government of Poland"
+  P34_USA_fascism_subject:0 "American Occupation of Poland"
+  P34_USA_fascism_subject_DEF:0 "the American Occupation of Poland"
 
   P35_USA_fascism_subject:0 "American Occupation of West Africa"
   P35_USA_fascism_subject_DEF:0 "the American Occupation of West Africa"
@@ -9500,8 +9500,8 @@
   P58_USA_fascism_subject:0 "Synarchist State of Mexico"
   P58_USA_fascism_subject_DEF:0 "the Synarchist State of Mexico"
 
-  P59_USA_fascism_subject:0 "Protectorate of Bohemia"
-  P59_USA_fascism_subject_DEF:0 "the Protectorate of Bohemia"
+  P59_USA_fascism_subject:0 "American Occupation of Bohemia"
+  P59_USA_fascism_subject_DEF:0 "the American Occupation of Bohemia"
 
   P60_USA_fascism_subject:0 "Rexist State of Belgium"
   P60_USA_fascism_subject_DEF:0 "the Rexist State of Belgium"
@@ -9518,20 +9518,20 @@
   P64_USA_fascism_subject:0 "American Occupation of the Alps"
   P64_USA_fascism_subject_DEF:0 "the American Occupation of the Alps"
 
-  P65_USA_fascism_subject:0 "Norwegian National State"
-  P65_USA_fascism_subject_DEF:0 "the Norwegian National State"
+  P65_USA_fascism_subject:0 "American Occupation of Norway"
+  P65_USA_fascism_subject_DEF:0 "the American Occupation of Norway"
 
-  P66_USA_fascism_subject:0 "Ukrainian National State"
-  P66_USA_fascism_subject_DEF:0 "the Ukrainian National State"
+  P66_USA_fascism_subject:0 "American Occupation of Ukraine"
+  P66_USA_fascism_subject_DEF:0 "the American Occupation of Ukraine"
 
-  P67_USA_fascism_subject:0 "Syrian National State"
-  P67_USA_fascism_subject_DEF:0 "the Syrian National State"
+  P67_USA_fascism_subject:0 "American Occupation of Syria"
+  P67_USA_fascism_subject_DEF:0 "the American Occupation of Syria"
 
-  P68_USA_fascism_subject:0 "Turanian State"
-  P68_USA_fascism_subject_DEF:0 "the Turanian State"
+  P68_USA_fascism_subject:0 "American Occupation of Turkey"
+  P68_USA_fascism_subject_DEF:0 "the American Occupation of Turkey"
 
-  P69_USA_fascism_subject:0 "Government of National Defense"
-  P69_USA_fascism_subject_DEF:0 "the Government of National Defense"
+  P69_USA_fascism_subject:0 "American Occupation of Iraq"
+  P69_USA_fascism_subject_DEF:0 "the American Occupation of Iraq"
 
   P70_USA_fascism_subject:0 "American Occupation of Kurdistan"
   P70_USA_fascism_subject_DEF:0 "the American Occupation of Kurdistan"
@@ -9560,8 +9560,8 @@
   P78_USA_fascism_subject:0 "American Occupation of Switzerland"
   P78_USA_fascism_subject_DEF:0 "the American Occupation of Switzerland"
 
-  P79_USA_fascism_subject:0 "National Legionary State"
-  P79_USA_fascism_subject_DEF:0 "the National Legionary State"
+  P79_USA_fascism_subject:0 "American Occupation of Romania"
+  P79_USA_fascism_subject_DEF:0 "the American Occupation of Romania"
 
   P80_USA_fascism_subject:0 "American Occupation of England"
   P80_USA_fascism_subject_DEF:0 "the American Occupation of England"
@@ -9584,8 +9584,8 @@
   P86_USA_fascism_subject:0 "Independent State of Croatia"
   P86_USA_fascism_subject_DEF:0 "the Independent State of Croatia"
 
-  P87_USA_fascism_subject:0 "Province of Ljubljana"
-  P87_USA_fascism_subject_DEF:0 "the Province of Ljubljana"
+  P87_USA_fascism_subject:0 "American Occupation of Slovenia"
+  P87_USA_fascism_subject_DEF:0 "the American Occupation of Slovenia"
 
   P88_USA_fascism_subject:0 "American Occupation of Bosnia-Herzegovina"
   P88_USA_fascism_subject_DEF:0 "the American Occupation of Bosnia-Herzegovina"
