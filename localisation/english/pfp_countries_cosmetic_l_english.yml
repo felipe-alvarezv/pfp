@@ -5631,14 +5631,8 @@
   P61_FRA_communism_subject:0 "French Denmark"
   P61_FRA_communism_subject_DEF:0 "the French Denmark"
 
-  P62_FRA_communism_subject:0 "French Northern France"
-  P62_FRA_communism_subject_DEF:0 "the French Northern France"
 
-  P63_FRA_communism_subject:0 "French Southern France"
-  P63_FRA_communism_subject_DEF:0 "the French Southern France"
 
-  P64_FRA_communism_subject:0 "French French Alps"
-  P64_FRA_communism_subject_DEF:0 "the French French Alps"
 
   P65_FRA_communism_subject:0 "French Norway"
   P65_FRA_communism_subject_DEF:0 "the French Norway"
@@ -5986,14 +5980,8 @@
   P61_FRA_democratic_subject:0 "French Denmark"
   P61_FRA_democratic_subject_DEF:0 "the French Denmark"
 
-  P62_FRA_democratic_subject:0 "French Northern France"
-  P62_FRA_democratic_subject_DEF:0 "the French Northern France"
 
-  P63_FRA_democratic_subject:0 "French Southern France"
-  P63_FRA_democratic_subject_DEF:0 "the French Southern France"
 
-  P64_FRA_democratic_subject:0 "French French Alps"
-  P64_FRA_democratic_subject_DEF:0 "the French French Alps"
 
   P65_FRA_democratic_subject:0 "French Norway"
   P65_FRA_democratic_subject_DEF:0 "the French Norway"
@@ -6353,14 +6341,8 @@
   P61_FRA_neutrality_subject:0 "French Denmark"
   P61_FRA_neutrality_subject_DEF:0 "the French Denmark"
 
-  P62_FRA_neutrality_subject:0 "French Northern France"
-  P62_FRA_neutrality_subject_DEF:0 "the French Northern France"
 
-  P63_FRA_neutrality_subject:0 "French Southern France"
-  P63_FRA_neutrality_subject_DEF:0 "the French Southern France"
 
-  P64_FRA_neutrality_subject:0 "French French Alps"
-  P64_FRA_neutrality_subject_DEF:0 "the French French Alps"
 
   P65_FRA_neutrality_subject:0 "French Norway"
   P65_FRA_neutrality_subject_DEF:0 "the French Norway"
