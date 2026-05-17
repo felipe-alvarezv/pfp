@@ -43,6 +43,9 @@
   P12_GER_communism_subject:0 "German Finland"
   P12_GER_communism_subject_DEF:0 "German Finland"
 
+  P13_GER_communism_subject:0 "German Germany"
+  P13_GER_communism_subject_DEF:0 "German Germany"
+
   P14_GER_communism_subject:0 "German Greece"
   P14_GER_communism_subject_DEF:0 "German Greece"
 
@@ -57,6 +60,9 @@
 
   P18_GER_communism_subject:0 "German Midwestern U.S."
   P18_GER_communism_subject_DEF:0 "German Midwestern U.S."
+
+  P19_GER_communism_subject:0 "German North Germany"
+  P19_GER_communism_subject_DEF:0 "German North Germany"
 
   P20_GER_communism_subject:0 "German Northeastern U.S."
   P20_GER_communism_subject_DEF:0 "German Northeastern U.S."
@@ -73,6 +79,9 @@
   P24_GER_communism_subject:0 "German Scandinavia"
   P24_GER_communism_subject_DEF:0 "German Scandinavia"
 
+  P25_GER_communism_subject:0 "German South Germany"
+  P25_GER_communism_subject_DEF:0 "German South Germany"
+
   P26_GER_communism_subject:0 "German Southern U.S."
   P26_GER_communism_subject_DEF:0 "German Southern U.S."
 
@@ -87,6 +96,15 @@
 
   P30_GER_communism_subject:0 "German North Africa"
   P30_GER_communism_subject_DEF:0 "German North Africa"
+
+  P31_GER_communism_subject:0 "German West Germany"
+  P31_GER_communism_subject_DEF:0 "German West Germany"
+
+  P32_GER_communism_subject:0 "German East Germany"
+  P32_GER_communism_subject_DEF:0 "German East Germany"
+
+  P33_GER_communism_subject:0 "German Prussia"
+  P33_GER_communism_subject_DEF:0 "German Prussia"
 
   P34_GER_communism_subject:0 "German Poland"
   P34_GER_communism_subject_DEF:0 "German Poland"
@@ -358,7 +376,7 @@
   Q24_GER_communism_subject:0 "German Tibet"
   Q24_GER_communism_subject_DEF:0 "German Tibet"
 
-  ## GERMANY - DEMOCRACY ##
+  ## GERMANY - DEMOCRATIC ##
   P01_GER_democratic_subject:0 "German Colombia"
   P01_GER_democratic_subject_DEF:0 "German Colombia"
 
@@ -395,6 +413,9 @@
   P12_GER_democratic_subject:0 "German Finland"
   P12_GER_democratic_subject_DEF:0 "German Finland"
 
+  P13_GER_democratic_subject:0 "German Germany"
+  P13_GER_democratic_subject_DEF:0 "German Germany"
+
   P14_GER_democratic_subject:0 "German Greece"
   P14_GER_democratic_subject_DEF:0 "German Greece"
 
@@ -409,6 +430,9 @@
 
   P18_GER_democratic_subject:0 "German Midwestern U.S."
   P18_GER_democratic_subject_DEF:0 "German Midwestern U.S."
+
+  P19_GER_democratic_subject:0 "German North Germany"
+  P19_GER_democratic_subject_DEF:0 "German North Germany"
 
   P20_GER_democratic_subject:0 "German Northeastern U.S."
   P20_GER_democratic_subject_DEF:0 "German Northeastern U.S."
@@ -425,6 +449,9 @@
   P24_GER_democratic_subject:0 "German Scandinavia"
   P24_GER_democratic_subject_DEF:0 "German Scandinavia"
 
+  P25_GER_democratic_subject:0 "German South Germany"
+  P25_GER_democratic_subject_DEF:0 "German South Germany"
+
   P26_GER_democratic_subject:0 "German Southern U.S."
   P26_GER_democratic_subject_DEF:0 "German Southern U.S."
 
@@ -439,6 +466,15 @@
 
   P30_GER_democratic_subject:0 "German North Africa"
   P30_GER_democratic_subject_DEF:0 "German North Africa"
+
+  P31_GER_democratic_subject:0 "German West Germany"
+  P31_GER_democratic_subject_DEF:0 "German West Germany"
+
+  P32_GER_democratic_subject:0 "German East Germany"
+  P32_GER_democratic_subject_DEF:0 "German East Germany"
+
+  P33_GER_democratic_subject:0 "German Prussia"
+  P33_GER_democratic_subject_DEF:0 "German Prussia"
 
   P34_GER_democratic_subject:0 "German Poland"
   P34_GER_democratic_subject_DEF:0 "German Poland"
@@ -747,6 +783,9 @@
   P12_GER_neutrality_subject:0 "German Finland"
   P12_GER_neutrality_subject_DEF:0 "German Finland"
 
+  P13_GER_neutrality_subject:0 "German Germany"
+  P13_GER_neutrality_subject_DEF:0 "German Germany"
+
   P14_GER_neutrality_subject:0 "German Greece"
   P14_GER_neutrality_subject_DEF:0 "German Greece"
 
@@ -761,6 +800,9 @@
 
   P18_GER_neutrality_subject:0 "German Midwestern U.S."
   P18_GER_neutrality_subject_DEF:0 "German Midwestern U.S."
+
+  P19_GER_neutrality_subject:0 "German North Germany"
+  P19_GER_neutrality_subject_DEF:0 "German North Germany"
 
   P20_GER_neutrality_subject:0 "German Northeastern U.S."
   P20_GER_neutrality_subject_DEF:0 "German Northeastern U.S."
@@ -777,6 +819,9 @@
   P24_GER_neutrality_subject:0 "German Scandinavia"
   P24_GER_neutrality_subject_DEF:0 "German Scandinavia"
 
+  P25_GER_neutrality_subject:0 "German South Germany"
+  P25_GER_neutrality_subject_DEF:0 "German South Germany"
+
   P26_GER_neutrality_subject:0 "German Southern U.S."
   P26_GER_neutrality_subject_DEF:0 "German Southern U.S."
 
@@ -791,6 +836,15 @@
 
   P30_GER_neutrality_subject:0 "German North Africa"
   P30_GER_neutrality_subject_DEF:0 "German North Africa"
+
+  P31_GER_neutrality_subject:0 "German West Germany"
+  P31_GER_neutrality_subject_DEF:0 "German West Germany"
+
+  P32_GER_neutrality_subject:0 "German East Germany"
+  P32_GER_neutrality_subject_DEF:0 "German East Germany"
+
+  P33_GER_neutrality_subject:0 "German Prussia"
+  P33_GER_neutrality_subject_DEF:0 "German Prussia"
 
   P34_GER_neutrality_subject:0 "German Poland"
   P34_GER_neutrality_subject_DEF:0 "German Poland"
@@ -1099,6 +1153,9 @@
   P12_GER_fascism_subject:0 "German Finland"
   P12_GER_fascism_subject_DEF:0 "German Finland"
 
+  P13_GER_fascism_subject:0 "German Germany"
+  P13_GER_fascism_subject_DEF:0 "German Germany"
+
   P14_GER_fascism_subject:0 "German Greece"
   P14_GER_fascism_subject_DEF:0 "German Greece"
 
@@ -1113,6 +1170,9 @@
 
   P18_GER_fascism_subject:0 "German Midwestern U.S."
   P18_GER_fascism_subject_DEF:0 "German Midwestern U.S."
+
+  P19_GER_fascism_subject:0 "German North Germany"
+  P19_GER_fascism_subject_DEF:0 "German North Germany"
 
   P20_GER_fascism_subject:0 "German Northeastern U.S."
   P20_GER_fascism_subject_DEF:0 "German Northeastern U.S."
@@ -1129,6 +1189,9 @@
   P24_GER_fascism_subject:0 "German Scandinavia"
   P24_GER_fascism_subject_DEF:0 "German Scandinavia"
 
+  P25_GER_fascism_subject:0 "German South Germany"
+  P25_GER_fascism_subject_DEF:0 "German South Germany"
+
   P26_GER_fascism_subject:0 "German Southern U.S."
   P26_GER_fascism_subject_DEF:0 "German Southern U.S."
 
@@ -1143,6 +1206,15 @@
 
   P30_GER_fascism_subject:0 "German North Africa"
   P30_GER_fascism_subject_DEF:0 "German North Africa"
+
+  P31_GER_fascism_subject:0 "German West Germany"
+  P31_GER_fascism_subject_DEF:0 "German West Germany"
+
+  P32_GER_fascism_subject:0 "German East Germany"
+  P32_GER_fascism_subject_DEF:0 "German East Germany"
+
+  P33_GER_fascism_subject:0 "German Prussia"
+  P33_GER_fascism_subject_DEF:0 "German Prussia"
 
   P34_GER_fascism_subject:0 "German Poland"
   P34_GER_fascism_subject_DEF:0 "German Poland"
@@ -1571,6 +1643,9 @@
   P52_ITA_communism_subject:0 "Italian Himalayas"
   P52_ITA_communism_subject_DEF:0 "Italian Himalayas"
 
+  P53_ITA_communism_subject:0 "Italian Mittelafrika"
+  P53_ITA_communism_subject_DEF:0 "Italian Mittelafrika"
+
   P54_ITA_communism_subject:0 "Italian Chile"
   P54_ITA_communism_subject_DEF:0 "Italian Chile"
 
@@ -1684,6 +1759,24 @@
 
   P91_ITA_communism_subject:0 "Italian Albania"
   P91_ITA_communism_subject_DEF:0 "Italian Albania"
+
+  P92_ITA_communism_subject:0 "Italian Lombardy-Venetia"
+  P92_ITA_communism_subject_DEF:0 "Italian Lombardy-Venetia"
+
+  P93_ITA_communism_subject:0 "Italian Piedmont"
+  P93_ITA_communism_subject_DEF:0 "Italian Piedmont"
+
+  P94_ITA_communism_subject:0 "Italian Sardinia"
+  P94_ITA_communism_subject_DEF:0 "Italian Sardinia"
+
+  P95_ITA_communism_subject:0 "Italian Tuscany"
+  P95_ITA_communism_subject_DEF:0 "Italian Tuscany"
+
+  P96_ITA_communism_subject:0 "Italian Papal States"
+  P96_ITA_communism_subject_DEF:0 "Italian Papal States"
+
+  P97_ITA_communism_subject:0 "Italian Two Sicilies"
+  P97_ITA_communism_subject_DEF:0 "Italian Two Sicilies"
 
   P98_ITA_communism_subject:0 "Italian Macedonia"
   P98_ITA_communism_subject_DEF:0 "Italian Macedonia"
@@ -1920,6 +2013,9 @@
   P52_ITA_democratic_subject:0 "Italian Himalayas"
   P52_ITA_democratic_subject_DEF:0 "Italian Himalayas"
 
+  P53_ITA_democratic_subject:0 "Italian Mittelafrika"
+  P53_ITA_democratic_subject_DEF:0 "Italian Mittelafrika"
+
   P54_ITA_democratic_subject:0 "Italian Chile"
   P54_ITA_democratic_subject_DEF:0 "Italian Chile"
 
@@ -2033,6 +2129,24 @@
 
   P91_ITA_democratic_subject:0 "Italian Albania"
   P91_ITA_democratic_subject_DEF:0 "Italian Albania"
+
+  P92_ITA_democratic_subject:0 "Italian Lombardy-Venetia"
+  P92_ITA_democratic_subject_DEF:0 "Italian Lombardy-Venetia"
+
+  P93_ITA_democratic_subject:0 "Italian Piedmont"
+  P93_ITA_democratic_subject_DEF:0 "Italian Piedmont"
+
+  P94_ITA_democratic_subject:0 "Italian Sardinia"
+  P94_ITA_democratic_subject_DEF:0 "Italian Sardinia"
+
+  P95_ITA_democratic_subject:0 "Italian Tuscany"
+  P95_ITA_democratic_subject_DEF:0 "Italian Tuscany"
+
+  P96_ITA_democratic_subject:0 "Italian Papal States"
+  P96_ITA_democratic_subject_DEF:0 "Italian Papal States"
+
+  P97_ITA_democratic_subject:0 "Italian Two Sicilies"
+  P97_ITA_democratic_subject_DEF:0 "Italian Two Sicilies"
 
   P98_ITA_democratic_subject:0 "Italian Macedonia"
   P98_ITA_democratic_subject_DEF:0 "Italian Macedonia"
@@ -2269,6 +2383,9 @@
   P52_ITA_neutrality_subject:0 "Italian Himalayas"
   P52_ITA_neutrality_subject_DEF:0 "Italian Himalayas"
 
+  P53_ITA_neutrality_subject:0 "Italian Mittelafrika"
+  P53_ITA_neutrality_subject_DEF:0 "Italian Mittelafrika"
+
   P54_ITA_neutrality_subject:0 "Italian Chile"
   P54_ITA_neutrality_subject_DEF:0 "Italian Chile"
 
@@ -2383,6 +2500,24 @@
   P91_ITA_neutrality_subject:0 "Italian Albania"
   P91_ITA_neutrality_subject_DEF:0 "Italian Albania"
 
+  P92_ITA_neutrality_subject:0 "Italian Lombardy-Venetia"
+  P92_ITA_neutrality_subject_DEF:0 "Italian Lombardy-Venetia"
+
+  P93_ITA_neutrality_subject:0 "Italian Piedmont"
+  P93_ITA_neutrality_subject_DEF:0 "Italian Piedmont"
+
+  P94_ITA_neutrality_subject:0 "Italian Sardinia"
+  P94_ITA_neutrality_subject_DEF:0 "Italian Sardinia"
+
+  P95_ITA_neutrality_subject:0 "Italian Tuscany"
+  P95_ITA_neutrality_subject_DEF:0 "Italian Tuscany"
+
+  P96_ITA_neutrality_subject:0 "Italian Papal States"
+  P96_ITA_neutrality_subject_DEF:0 "Italian Papal States"
+
+  P97_ITA_neutrality_subject:0 "Italian Two Sicilies"
+  P97_ITA_neutrality_subject_DEF:0 "Italian Two Sicilies"
+
   P98_ITA_neutrality_subject:0 "Italian Macedonia"
   P98_ITA_neutrality_subject_DEF:0 "Italian Macedonia"
 
@@ -2462,7 +2597,6 @@
   Q24_ITA_neutrality_subject_DEF:0 "Italian Tibet"
 
   ## ITALY - FASCISM ##
-
   P01_ITA_fascism_subject:0 "Italian Colombia"
   P01_ITA_fascism_subject_DEF:0 "Italian Colombia"
 
@@ -2619,6 +2753,9 @@
   P52_ITA_fascism_subject:0 "Italian Himalayas"
   P52_ITA_fascism_subject_DEF:0 "Italian Himalayas"
 
+  P53_ITA_fascism_subject:0 "Italian Mittelafrika"
+  P53_ITA_fascism_subject_DEF:0 "Italian Mittelafrika"
+
   P54_ITA_fascism_subject:0 "Italian Chile"
   P54_ITA_fascism_subject_DEF:0 "Italian Chile"
 
@@ -2732,6 +2869,24 @@
 
   P91_ITA_fascism_subject:0 "Italian Albania"
   P91_ITA_fascism_subject_DEF:0 "Italian Albania"
+
+  P92_ITA_fascism_subject:0 "Italian Lombardy-Venetia"
+  P92_ITA_fascism_subject_DEF:0 "Italian Lombardy-Venetia"
+
+  P93_ITA_fascism_subject:0 "Italian Piedmont"
+  P93_ITA_fascism_subject_DEF:0 "Italian Piedmont"
+
+  P94_ITA_fascism_subject:0 "Italian Sardinia"
+  P94_ITA_fascism_subject_DEF:0 "Italian Sardinia"
+
+  P95_ITA_fascism_subject:0 "Italian Tuscany"
+  P95_ITA_fascism_subject_DEF:0 "Italian Tuscany"
+
+  P96_ITA_fascism_subject:0 "Italian Papal States"
+  P96_ITA_fascism_subject_DEF:0 "Italian Papal States"
+
+  P97_ITA_fascism_subject:0 "Italian Two Sicilies"
+  P97_ITA_fascism_subject_DEF:0 "Italian Two Sicilies"
 
   P98_ITA_fascism_subject:0 "Italian Macedonia"
   P98_ITA_fascism_subject_DEF:0 "Italian Macedonia"
@@ -2863,17 +3018,32 @@
   P17_JAP_communism_subject:0 "Japanese Indonesia"
   P17_JAP_communism_subject_DEF:0 "Japanese Indonesia"
 
+  P18_JAP_communism_subject:0 "Japanese Midwestern U.S."
+  P18_JAP_communism_subject_DEF:0 "Japanese Midwestern U.S."
+
   P19_JAP_communism_subject:0 "Japanese North Germany"
   P19_JAP_communism_subject_DEF:0 "Japanese North Germany"
 
+  P20_JAP_communism_subject:0 "Japanese Northeastern U.S."
+  P20_JAP_communism_subject_DEF:0 "Japanese Northeastern U.S."
+
+  P21_JAP_communism_subject:0 "Japanese Pacific U.S."
+  P21_JAP_communism_subject_DEF:0 "Japanese Pacific U.S."
+
   P22_JAP_communism_subject:0 "Japanese Quebec"
   P22_JAP_communism_subject_DEF:0 "Japanese Quebec"
+
+  P23_JAP_communism_subject:0 "Japanese U.S. Rockies"
+  P23_JAP_communism_subject_DEF:0 "Japanese U.S. Rockies"
 
   P24_JAP_communism_subject:0 "Japanese Scandinavia"
   P24_JAP_communism_subject_DEF:0 "Japanese Scandinavia"
 
   P25_JAP_communism_subject:0 "Japanese South Germany"
   P25_JAP_communism_subject_DEF:0 "Japanese South Germany"
+
+  P26_JAP_communism_subject:0 "Japanese Southern U.S."
+  P26_JAP_communism_subject_DEF:0 "Japanese Southern U.S."
 
   P27_JAP_communism_subject:0 "Japanese Oceania"
   P27_JAP_communism_subject_DEF:0 "Japanese Oceania"
@@ -2952,6 +3122,9 @@
 
   P52_JAP_communism_subject:0 "Japanese Himalayas"
   P52_JAP_communism_subject_DEF:0 "Japanese Himalayas"
+
+  P53_JAP_communism_subject:0 "Japanese Mittelafrika"
+  P53_JAP_communism_subject_DEF:0 "Japanese Mittelafrika"
 
   P54_JAP_communism_subject:0 "Japanese Chile"
   P54_JAP_communism_subject_DEF:0 "Japanese Chile"
@@ -3088,6 +3261,30 @@
   P98_JAP_communism_subject:0 "Japanese Macedonia"
   P98_JAP_communism_subject_DEF:0 "Japanese Macedonia"
 
+  P99_JAP_communism_subject:0 "Japanese Hokkaido"
+  P99_JAP_communism_subject_DEF:0 "Japanese Hokkaido"
+
+  Q01_JAP_communism_subject:0 "Japanese Tohoku"
+  Q01_JAP_communism_subject_DEF:0 "Japanese Tohoku"
+
+  Q02_JAP_communism_subject:0 "Japanese Kanto"
+  Q02_JAP_communism_subject_DEF:0 "Japanese Kanto"
+
+  Q03_JAP_communism_subject:0 "Japanese Chubu"
+  Q03_JAP_communism_subject_DEF:0 "Japanese Chubu"
+
+  Q04_JAP_communism_subject:0 "Japanese Kansai"
+  Q04_JAP_communism_subject_DEF:0 "Japanese Kansai"
+
+  Q05_JAP_communism_subject:0 "Japanese Chugoku"
+  Q05_JAP_communism_subject_DEF:0 "Japanese Chugoku"
+
+  Q06_JAP_communism_subject:0 "Japanese Shikoku"
+  Q06_JAP_communism_subject_DEF:0 "Japanese Shikoku"
+
+  Q07_JAP_communism_subject:0 "Japanese Kyushu"
+  Q07_JAP_communism_subject_DEF:0 "Japanese Kyushu"
+
   Q08_JAP_communism_subject:0 "Japanese Manchuria"
   Q08_JAP_communism_subject_DEF:0 "Japanese Manchuria"
 
@@ -3191,17 +3388,32 @@
   P17_JAP_democratic_subject:0 "Japanese Indonesia"
   P17_JAP_democratic_subject_DEF:0 "Japanese Indonesia"
 
+  P18_JAP_democratic_subject:0 "Japanese Midwestern U.S."
+  P18_JAP_democratic_subject_DEF:0 "Japanese Midwestern U.S."
+
   P19_JAP_democratic_subject:0 "Japanese North Germany"
   P19_JAP_democratic_subject_DEF:0 "Japanese North Germany"
 
+  P20_JAP_democratic_subject:0 "Japanese Northeastern U.S."
+  P20_JAP_democratic_subject_DEF:0 "Japanese Northeastern U.S."
+
+  P21_JAP_democratic_subject:0 "Japanese Pacific U.S."
+  P21_JAP_democratic_subject_DEF:0 "Japanese Pacific U.S."
+
   P22_JAP_democratic_subject:0 "Japanese Quebec"
   P22_JAP_democratic_subject_DEF:0 "Japanese Quebec"
+
+  P23_JAP_democratic_subject:0 "Japanese U.S. Rockies"
+  P23_JAP_democratic_subject_DEF:0 "Japanese U.S. Rockies"
 
   P24_JAP_democratic_subject:0 "Japanese Scandinavia"
   P24_JAP_democratic_subject_DEF:0 "Japanese Scandinavia"
 
   P25_JAP_democratic_subject:0 "Japanese South Germany"
   P25_JAP_democratic_subject_DEF:0 "Japanese South Germany"
+
+  P26_JAP_democratic_subject:0 "Japanese Southern U.S."
+  P26_JAP_democratic_subject_DEF:0 "Japanese Southern U.S."
 
   P27_JAP_democratic_subject:0 "Japanese Oceania"
   P27_JAP_democratic_subject_DEF:0 "Japanese Oceania"
@@ -3280,6 +3492,9 @@
 
   P52_JAP_democratic_subject:0 "Japanese Himalayas"
   P52_JAP_democratic_subject_DEF:0 "Japanese Himalayas"
+
+  P53_JAP_democratic_subject:0 "Japanese Mittelafrika"
+  P53_JAP_democratic_subject_DEF:0 "Japanese Mittelafrika"
 
   P54_JAP_democratic_subject:0 "Japanese Chile"
   P54_JAP_democratic_subject_DEF:0 "Japanese Chile"
@@ -3415,6 +3630,30 @@
 
   P98_JAP_democratic_subject:0 "Japanese Macedonia"
   P98_JAP_democratic_subject_DEF:0 "Japanese Macedonia"
+
+  P99_JAP_democratic_subject:0 "Japanese Hokkaido"
+  P99_JAP_democratic_subject_DEF:0 "Japanese Hokkaido"
+
+  Q01_JAP_democratic_subject:0 "Japanese Tohoku"
+  Q01_JAP_democratic_subject_DEF:0 "Japanese Tohoku"
+
+  Q02_JAP_democratic_subject:0 "Japanese Kanto"
+  Q02_JAP_democratic_subject_DEF:0 "Japanese Kanto"
+
+  Q03_JAP_democratic_subject:0 "Japanese Chubu"
+  Q03_JAP_democratic_subject_DEF:0 "Japanese Chubu"
+
+  Q04_JAP_democratic_subject:0 "Japanese Kansai"
+  Q04_JAP_democratic_subject_DEF:0 "Japanese Kansai"
+
+  Q05_JAP_democratic_subject:0 "Japanese Chugoku"
+  Q05_JAP_democratic_subject_DEF:0 "Japanese Chugoku"
+
+  Q06_JAP_democratic_subject:0 "Japanese Shikoku"
+  Q06_JAP_democratic_subject_DEF:0 "Japanese Shikoku"
+
+  Q07_JAP_democratic_subject:0 "Japanese Kyushu"
+  Q07_JAP_democratic_subject_DEF:0 "Japanese Kyushu"
 
   Q08_JAP_democratic_subject:0 "Japanese Manchuria"
   Q08_JAP_democratic_subject_DEF:0 "Japanese Manchuria"
@@ -3624,6 +3863,9 @@
   P52_JAP_neutrality_subject:0 "Japanese Himalayas"
   P52_JAP_neutrality_subject_DEF:0 "Japanese Himalayas"
 
+  P53_JAP_neutrality_subject:0 "Japanese Mittelafrika"
+  P53_JAP_neutrality_subject_DEF:0 "Japanese Mittelafrika"
+
   P54_JAP_neutrality_subject:0 "Japanese Chile"
   P54_JAP_neutrality_subject_DEF:0 "Japanese Chile"
 
@@ -3758,6 +4000,30 @@
 
   P98_JAP_neutrality_subject:0 "Japanese Macedonia"
   P98_JAP_neutrality_subject_DEF:0 "Japanese Macedonia"
+
+  P99_JAP_neutrality_subject:0 "Japanese Hokkaido"
+  P99_JAP_neutrality_subject_DEF:0 "Japanese Hokkaido"
+
+  Q01_JAP_neutrality_subject:0 "Japanese Tohoku"
+  Q01_JAP_neutrality_subject_DEF:0 "Japanese Tohoku"
+
+  Q02_JAP_neutrality_subject:0 "Japanese Kanto"
+  Q02_JAP_neutrality_subject_DEF:0 "Japanese Kanto"
+
+  Q03_JAP_neutrality_subject:0 "Japanese Chubu"
+  Q03_JAP_neutrality_subject_DEF:0 "Japanese Chubu"
+
+  Q04_JAP_neutrality_subject:0 "Japanese Kansai"
+  Q04_JAP_neutrality_subject_DEF:0 "Japanese Kansai"
+
+  Q05_JAP_neutrality_subject:0 "Japanese Chugoku"
+  Q05_JAP_neutrality_subject_DEF:0 "Japanese Chugoku"
+
+  Q06_JAP_neutrality_subject:0 "Japanese Shikoku"
+  Q06_JAP_neutrality_subject_DEF:0 "Japanese Shikoku"
+
+  Q07_JAP_neutrality_subject:0 "Japanese Kyushu"
+  Q07_JAP_neutrality_subject_DEF:0 "Japanese Kyushu"
 
   Q08_JAP_neutrality_subject:0 "Japanese Manchuria"
   Q08_JAP_neutrality_subject_DEF:0 "Japanese Manchuria"
@@ -3967,6 +4233,9 @@
   P52_JAP_fascism_subject:0 "Japanese Himalayas"
   P52_JAP_fascism_subject_DEF:0 "Japanese Himalayas"
 
+  P53_JAP_fascism_subject:0 "Japanese Mittelafrika"
+  P53_JAP_fascism_subject_DEF:0 "Japanese Mittelafrika"
+
   P54_JAP_fascism_subject:0 "Japanese Chile"
   P54_JAP_fascism_subject_DEF:0 "Japanese Chile"
 
@@ -4102,6 +4371,30 @@
   P98_JAP_fascism_subject:0 "Japanese Macedonia"
   P98_JAP_fascism_subject_DEF:0 "Japanese Macedonia"
 
+  P99_JAP_fascism_subject:0 "Japanese Hokkaido"
+  P99_JAP_fascism_subject_DEF:0 "Japanese Hokkaido"
+
+  Q01_JAP_fascism_subject:0 "Japanese Tohoku"
+  Q01_JAP_fascism_subject_DEF:0 "Japanese Tohoku"
+
+  Q02_JAP_fascism_subject:0 "Japanese Kanto"
+  Q02_JAP_fascism_subject_DEF:0 "Japanese Kanto"
+
+  Q03_JAP_fascism_subject:0 "Japanese Chubu"
+  Q03_JAP_fascism_subject_DEF:0 "Japanese Chubu"
+
+  Q04_JAP_fascism_subject:0 "Japanese Kansai"
+  Q04_JAP_fascism_subject_DEF:0 "Japanese Kansai"
+
+  Q05_JAP_fascism_subject:0 "Japanese Chugoku"
+  Q05_JAP_fascism_subject_DEF:0 "Japanese Chugoku"
+
+  Q06_JAP_fascism_subject:0 "Japanese Shikoku"
+  Q06_JAP_fascism_subject_DEF:0 "Japanese Shikoku"
+
+  Q07_JAP_fascism_subject:0 "Japanese Kyushu"
+  Q07_JAP_fascism_subject_DEF:0 "Japanese Kyushu"
+
   Q08_JAP_fascism_subject:0 "Japanese Manchuria"
   Q08_JAP_fascism_subject_DEF:0 "Japanese Manchuria"
 
@@ -4154,329 +4447,374 @@
   Q24_JAP_fascism_subject_DEF:0 "Japanese Tibet"
 
   ## SOVIET UNION - COMMUNISM ##
-  P01_SOV_communism_subject:0 "Russian Colombia"
-  P01_SOV_communism_subject_DEF:0 "Russian Colombia"
+  P01_SOV_communism_subject:0 "Soviet Colombia"
+  P01_SOV_communism_subject_DEF:0 "Soviet Colombia"
 
-  P02_SOV_communism_subject:0 "Russian Great Britain"
-  P02_SOV_communism_subject_DEF:0 "Russian Great Britain"
+  P02_SOV_communism_subject:0 "Soviet Great Britain"
+  P02_SOV_communism_subject_DEF:0 "Soviet Great Britain"
 
-  P03_SOV_communism_subject:0 "Russian Arabia"
-  P03_SOV_communism_subject_DEF:0 "Russian Arabia"
+  P03_SOV_communism_subject:0 "Soviet Arabia"
+  P03_SOV_communism_subject_DEF:0 "Soviet Arabia"
 
-  P04_SOV_communism_subject:0 "Russian Baltic"
-  P04_SOV_communism_subject_DEF:0 "Russian Baltic"
+  P04_SOV_communism_subject:0 "Baltic SSR"
+  P04_SOV_communism_subject_DEF:0 "Baltic SSR"
 
-  P05_SOV_communism_subject:0 "Russian Netherlands"
-  P05_SOV_communism_subject_DEF:0 "Russian Netherlands"
+  P05_SOV_communism_subject:0 "Soviet Netherlands"
+  P05_SOV_communism_subject_DEF:0 "Soviet Netherlands"
 
-  P06_SOV_communism_subject:0 "Russian West Indies"
-  P06_SOV_communism_subject_DEF:0 "Russian West Indies"
+  P06_SOV_communism_subject:0 "Soviet West Indies"
+  P06_SOV_communism_subject_DEF:0 "Soviet West Indies"
 
-  P07_SOV_communism_subject:0 "Russian Central Africa"
-  P07_SOV_communism_subject_DEF:0 "Russian Central Africa"
+  P07_SOV_communism_subject:0 "Soviet Central Africa"
+  P07_SOV_communism_subject_DEF:0 "Soviet Central Africa"
 
-  P08_SOV_communism_subject:0 "Russian Central America"
-  P08_SOV_communism_subject_DEF:0 "Russian Central America"
+  P08_SOV_communism_subject:0 "Soviet Central America"
+  P08_SOV_communism_subject_DEF:0 "Soviet Central America"
 
-  P09_SOV_communism_subject:0 "Russian Hungary"
-  P09_SOV_communism_subject_DEF:0 "Russian Hungary"
+  P09_SOV_communism_subject:0 "Soviet Hungary"
+  P09_SOV_communism_subject_DEF:0 "Soviet Hungary"
 
-  P10_SOV_communism_subject:0 "Russian East Africa"
-  P10_SOV_communism_subject_DEF:0 "Russian East Africa"
+  P10_SOV_communism_subject:0 "Soviet East Africa"
+  P10_SOV_communism_subject_DEF:0 "Soviet East Africa"
 
-  P11_SOV_communism_subject:0 "Russian Eastern Canada"
-  P11_SOV_communism_subject_DEF:0 "Russian Eastern Canada"
+  P11_SOV_communism_subject:0 "Soviet Eastern Canada"
+  P11_SOV_communism_subject_DEF:0 "Soviet Eastern Canada"
 
-  P12_SOV_communism_subject:0 "Russian Finland"
-  P12_SOV_communism_subject_DEF:0 "Russian Finland"
+  P12_SOV_communism_subject:0 "Finnish Democratic Republic"
+  P12_SOV_communism_subject_DEF:0 "Finnish Democratic Republic"
 
-  P13_SOV_communism_subject:0 "Russian Germany"
-  P13_SOV_communism_subject_DEF:0 "Russian Germany"
+  P13_SOV_communism_subject:0 "Soviet Germany"
+  P13_SOV_communism_subject_DEF:0 "Soviet Germany"
 
-  P14_SOV_communism_subject:0 "Russian Greece"
-  P14_SOV_communism_subject_DEF:0 "Russian Greece"
+  P14_SOV_communism_subject:0 "Soviet Greece"
+  P14_SOV_communism_subject_DEF:0 "Soviet Greece"
 
-  P15_SOV_communism_subject:0 "Russian Iberia"
-  P15_SOV_communism_subject_DEF:0 "Russian Iberia"
+  P15_SOV_communism_subject:0 "Soviet Iberia"
+  P15_SOV_communism_subject_DEF:0 "Soviet Iberia"
 
-  P16_SOV_communism_subject:0 "Russian Indochina"
-  P16_SOV_communism_subject_DEF:0 "Russian Indochina"
+  P16_SOV_communism_subject:0 "Soviet Indochina"
+  P16_SOV_communism_subject_DEF:0 "Soviet Indochina"
 
-  P17_SOV_communism_subject:0 "Russian Indonesia"
-  P17_SOV_communism_subject_DEF:0 "Russian Indonesia"
+  P17_SOV_communism_subject:0 "Soviet Indonesia"
+  P17_SOV_communism_subject_DEF:0 "Soviet Indonesia"
 
-  P19_SOV_communism_subject:0 "Russian North Germany"
-  P19_SOV_communism_subject_DEF:0 "Russian North Germany"
+  P18_SOV_communism_subject:0 "Soviet Midwestern U.S."
+  P18_SOV_communism_subject_DEF:0 "Soviet Midwestern U.S."
 
-  P22_SOV_communism_subject:0 "Russian Quebec"
-  P22_SOV_communism_subject_DEF:0 "Russian Quebec"
+  P19_SOV_communism_subject:0 "Soviet North Germany"
+  P19_SOV_communism_subject_DEF:0 "Soviet North Germany"
 
-  P24_SOV_communism_subject:0 "Russian Scandinavia"
-  P24_SOV_communism_subject_DEF:0 "Russian Scandinavia"
+  P20_SOV_communism_subject:0 "Soviet Northeastern U.S."
+  P20_SOV_communism_subject_DEF:0 "Soviet Northeastern U.S."
 
-  P25_SOV_communism_subject:0 "Russian South Germany"
-  P25_SOV_communism_subject_DEF:0 "Russian South Germany"
+  P21_SOV_communism_subject:0 "Soviet Pacific U.S."
+  P21_SOV_communism_subject_DEF:0 "Soviet Pacific U.S."
 
-  P27_SOV_communism_subject:0 "Russian Oceania"
-  P27_SOV_communism_subject_DEF:0 "Russian Oceania"
+  P22_SOV_communism_subject:0 "Soviet Quebec"
+  P22_SOV_communism_subject_DEF:0 "Soviet Quebec"
 
-  P28_SOV_communism_subject:0 "Russian Transcaucasia"
-  P28_SOV_communism_subject_DEF:0 "Russian Transcaucasia"
+  P23_SOV_communism_subject:0 "Soviet U.S. Rockies"
+  P23_SOV_communism_subject_DEF:0 "Soviet U.S. Rockies"
 
-  P29_SOV_communism_subject:0 "Russian Western Canada"
-  P29_SOV_communism_subject_DEF:0 "Russian Western Canada"
+  P24_SOV_communism_subject:0 "Soviet Scandinavia"
+  P24_SOV_communism_subject_DEF:0 "Soviet Scandinavia"
 
-  P30_SOV_communism_subject:0 "Russian North Africa"
-  P30_SOV_communism_subject_DEF:0 "Russian North Africa"
+  P25_SOV_communism_subject:0 "Soviet South Germany"
+  P25_SOV_communism_subject_DEF:0 "Soviet South Germany"
 
-  P31_SOV_communism_subject:0 "Russian West Germany"
-  P31_SOV_communism_subject_DEF:0 "Russian West Germany"
+  P26_SOV_communism_subject:0 "Soviet Southern U.S."
+  P26_SOV_communism_subject_DEF:0 "Soviet Southern U.S."
 
-  P32_SOV_communism_subject:0 "Russian East Germany"
-  P32_SOV_communism_subject_DEF:0 "Russian East Germany"
+  P27_SOV_communism_subject:0 "Soviet Oceania"
+  P27_SOV_communism_subject_DEF:0 "Soviet Oceania"
 
-  P33_SOV_communism_subject:0 "Russian Prussia"
-  P33_SOV_communism_subject_DEF:0 "Russian Prussia"
+  P28_SOV_communism_subject:0 "Transcaucasian SSR"
+  P28_SOV_communism_subject_DEF:0 "Transcaucasian SSR"
 
-  P34_SOV_communism_subject:0 "Russian Poland"
-  P34_SOV_communism_subject_DEF:0 "Russian Poland"
+  P29_SOV_communism_subject:0 "Soviet Western Canada"
+  P29_SOV_communism_subject_DEF:0 "Soviet Western Canada"
 
-  P35_SOV_communism_subject:0 "Russian West Africa"
-  P35_SOV_communism_subject_DEF:0 "Russian West Africa"
+  P30_SOV_communism_subject:0 "Soviet North Africa"
+  P30_SOV_communism_subject_DEF:0 "Soviet North Africa"
 
-  P36_SOV_communism_subject:0 "Russian South Africa"
-  P36_SOV_communism_subject_DEF:0 "Russian South Africa"
+  P31_SOV_communism_subject:0 "Soviet West Germany"
+  P31_SOV_communism_subject_DEF:0 "Soviet West Germany"
 
-  P37_SOV_communism_subject:0 "Russian India"
-  P37_SOV_communism_subject_DEF:0 "Russian India"
+  P32_SOV_communism_subject:0 "Soviet East Germany"
+  P32_SOV_communism_subject_DEF:0 "Soviet East Germany"
 
-  P38_SOV_communism_subject:0 "Russian Bangladesh"
-  P38_SOV_communism_subject_DEF:0 "Russian Bangladesh"
+  P33_SOV_communism_subject:0 "Soviet Prussia"
+  P33_SOV_communism_subject_DEF:0 "Soviet Prussia"
 
-  P47_SOV_communism_subject:0 "Russian Mongolia"
-  P47_SOV_communism_subject_DEF:0 "Russian Mongolia"
+  P34_SOV_communism_subject:0 "Soviet Poland"
+  P34_SOV_communism_subject_DEF:0 "Soviet Poland"
 
-  P49_SOV_communism_subject:0 "Russian Bulgaria"
-  P49_SOV_communism_subject_DEF:0 "Russian Bulgaria"
+  P35_SOV_communism_subject:0 "Soviet West Africa"
+  P35_SOV_communism_subject_DEF:0 "Soviet West Africa"
 
-  P50_SOV_communism_subject:0 "Russian Yugoslavia"
-  P50_SOV_communism_subject_DEF:0 "Russian Yugoslavia"
+  P36_SOV_communism_subject:0 "Soviet South Africa"
+  P36_SOV_communism_subject_DEF:0 "Soviet South Africa"
 
-  P51_SOV_communism_subject:0 "Russian Turkestan"
-  P51_SOV_communism_subject_DEF:0 "Russian Turkestan"
+  P37_SOV_communism_subject:0 "Soviet India"
+  P37_SOV_communism_subject_DEF:0 "Soviet India"
 
-  P52_SOV_communism_subject:0 "Russian Himalayas"
-  P52_SOV_communism_subject_DEF:0 "Russian Himalayas"
+  P38_SOV_communism_subject:0 "Soviet Bangladesh"
+  P38_SOV_communism_subject_DEF:0 "Soviet Bangladesh"
 
-  P54_SOV_communism_subject:0 "Russian Chile"
-  P54_SOV_communism_subject_DEF:0 "Russian Chile"
+  P39_SOV_communism_subject:0 "Soviet Central Russia"
+  P39_SOV_communism_subject_DEF:0 "Soviet Central Russia"
 
-  P55_SOV_communism_subject:0 "Russian Argentina"
-  P55_SOV_communism_subject_DEF:0 "Russian Argentina"
+  P40_SOV_communism_subject:0 "Soviet Southern Russia"
+  P40_SOV_communism_subject_DEF:0 "Soviet Southern Russia"
 
-  P56_SOV_communism_subject:0 "Russian Peru"
-  P56_SOV_communism_subject_DEF:0 "Russian Peru"
+  P41_SOV_communism_subject:0 "Soviet Northern Caucasus"
+  P41_SOV_communism_subject_DEF:0 "Soviet Northern Caucasus"
 
-  P57_SOV_communism_subject:0 "Russian Brazil"
-  P57_SOV_communism_subject_DEF:0 "Russian Brazil"
+  P42_SOV_communism_subject:0 "Soviet Volga"
+  P42_SOV_communism_subject_DEF:0 "Soviet Volga"
 
-  P58_SOV_communism_subject:0 "Russian Mexico"
-  P58_SOV_communism_subject_DEF:0 "Russian Mexico"
+  P43_SOV_communism_subject:0 "Soviet Northwestern Russia"
+  P43_SOV_communism_subject_DEF:0 "Soviet Northwestern Russia"
 
-  P59_SOV_communism_subject:0 "Russian Czechia"
-  P59_SOV_communism_subject_DEF:0 "Russian Czechia"
+  P44_SOV_communism_subject:0 "Soviet Urals"
+  P44_SOV_communism_subject_DEF:0 "Soviet Urals"
 
-  P60_SOV_communism_subject:0 "Russian Belgium"
-  P60_SOV_communism_subject_DEF:0 "Russian Belgium"
+  P45_SOV_communism_subject:0 "Soviet Siberia"
+  P45_SOV_communism_subject_DEF:0 "Soviet Siberia"
 
-  P61_SOV_communism_subject:0 "Russian Denmark"
-  P61_SOV_communism_subject_DEF:0 "Russian Denmark"
+  P46_SOV_communism_subject:0 "Soviet Far East Russia"
+  P46_SOV_communism_subject_DEF:0 "Soviet Far East Russia"
 
-  P62_SOV_communism_subject:0 "Russian Northern France"
-  P62_SOV_communism_subject_DEF:0 "Russian Northern France"
+  P47_SOV_communism_subject:0 "Mongolian People's Republic"
+  P47_SOV_communism_subject_DEF:0 "Mongolian People's Republic"
 
-  P63_SOV_communism_subject:0 "Russian Southern France"
-  P63_SOV_communism_subject_DEF:0 "Russian Southern France"
+  P48_SOV_communism_subject:0 "Soviet Western Russia"
+  P48_SOV_communism_subject_DEF:0 "Soviet Western Russia"
 
-  P64_SOV_communism_subject:0 "Russian French Alps"
-  P64_SOV_communism_subject_DEF:0 "Russian French Alps"
+  P49_SOV_communism_subject:0 "Soviet Bulgaria"
+  P49_SOV_communism_subject_DEF:0 "Soviet Bulgaria"
 
-  P65_SOV_communism_subject:0 "Russian Norway"
-  P65_SOV_communism_subject_DEF:0 "Russian Norway"
+  P50_SOV_communism_subject:0 "Soviet Yugoslavia"
+  P50_SOV_communism_subject_DEF:0 "Soviet Yugoslavia"
 
-  P66_SOV_communism_subject:0 "Russian Ukraine"
-  P66_SOV_communism_subject_DEF:0 "Russian Ukraine"
+  P51_SOV_communism_subject:0 "Turkestan SSR"
+  P51_SOV_communism_subject_DEF:0 "Turkestan SSR"
 
-  P67_SOV_communism_subject:0 "Russian Levant"
-  P67_SOV_communism_subject_DEF:0 "Russian Levant"
+  P52_SOV_communism_subject:0 "Soviet Himalayas"
+  P52_SOV_communism_subject_DEF:0 "Soviet Himalayas"
 
-  P68_SOV_communism_subject:0 "Russian Turkey"
-  P68_SOV_communism_subject_DEF:0 "Russian Turkey"
+  P53_SOV_communism_subject:0 "Soviet Mittelafrika"
+  P53_SOV_communism_subject_DEF:0 "Soviet Mittelafrika"
 
-  P69_SOV_communism_subject:0 "Russian Iraq"
-  P69_SOV_communism_subject_DEF:0 "Russian Iraq"
+  P54_SOV_communism_subject:0 "Soviet Chile"
+  P54_SOV_communism_subject_DEF:0 "Soviet Chile"
 
-  P70_SOV_communism_subject:0 "Russian Kurdistan"
-  P70_SOV_communism_subject_DEF:0 "Russian Kurdistan"
+  P55_SOV_communism_subject:0 "Soviet Argentina"
+  P55_SOV_communism_subject_DEF:0 "Soviet Argentina"
 
-  P71_SOV_communism_subject:0 "Russian Iran"
-  P71_SOV_communism_subject_DEF:0 "Russian Iran"
+  P56_SOV_communism_subject:0 "Soviet Peru"
+  P56_SOV_communism_subject_DEF:0 "Soviet Peru"
 
-  P72_SOV_communism_subject:0 "Russian Korea"
-  P72_SOV_communism_subject_DEF:0 "Russian Korea"
+  P57_SOV_communism_subject:0 "Soviet Brazil"
+  P57_SOV_communism_subject_DEF:0 "Soviet Brazil"
 
-  P73_SOV_communism_subject:0 "Russian Ireland"
-  P73_SOV_communism_subject_DEF:0 "Russian Ireland"
+  P58_SOV_communism_subject:0 "Soviet Mexico"
+  P58_SOV_communism_subject_DEF:0 "Soviet Mexico"
 
-  P74_SOV_communism_subject:0 "Russian Sweden"
-  P74_SOV_communism_subject_DEF:0 "Russian Sweden"
+  P59_SOV_communism_subject:0 "Soviet Czechia"
+  P59_SOV_communism_subject_DEF:0 "Soviet Czechia"
 
-  P75_SOV_communism_subject:0 "Russian Pakistan"
-  P75_SOV_communism_subject_DEF:0 "Russian Pakistan"
+  P60_SOV_communism_subject:0 "Soviet Belgium"
+  P60_SOV_communism_subject_DEF:0 "Soviet Belgium"
 
-  P76_SOV_communism_subject:0 "Russian Afghanistan"
-  P76_SOV_communism_subject_DEF:0 "Russian Afghanistan"
+  P61_SOV_communism_subject:0 "Soviet Denmark"
+  P61_SOV_communism_subject_DEF:0 "Soviet Denmark"
 
-  P77_SOV_communism_subject:0 "Russian Austria"
-  P77_SOV_communism_subject_DEF:0 "Russian Austria"
+  P62_SOV_communism_subject:0 "Soviet Northern France"
+  P62_SOV_communism_subject_DEF:0 "Soviet Northern France"
 
-  P78_SOV_communism_subject:0 "Russian Switzerland"
-  P78_SOV_communism_subject_DEF:0 "Russian Switzerland"
+  P63_SOV_communism_subject:0 "Soviet Southern France"
+  P63_SOV_communism_subject_DEF:0 "Soviet Southern France"
 
-  P79_SOV_communism_subject:0 "Russian Romania"
-  P79_SOV_communism_subject_DEF:0 "Russian Romania"
+  P64_SOV_communism_subject:0 "Soviet French Alps"
+  P64_SOV_communism_subject_DEF:0 "Soviet French Alps"
 
-  P80_SOV_communism_subject:0 "Russian England"
-  P80_SOV_communism_subject_DEF:0 "Russian England"
+  P65_SOV_communism_subject:0 "Soviet Norway"
+  P65_SOV_communism_subject_DEF:0 "Soviet Norway"
 
-  P81_SOV_communism_subject:0 "Russian Scotland"
-  P81_SOV_communism_subject_DEF:0 "Russian Scotland"
+  P66_SOV_communism_subject:0 "Ukrainian SSR"
+  P66_SOV_communism_subject_DEF:0 "Ukrainian SSR"
 
-  P82_SOV_communism_subject:0 "Russian Wales"
-  P82_SOV_communism_subject_DEF:0 "Russian Wales"
+  P67_SOV_communism_subject:0 "Soviet Levant"
+  P67_SOV_communism_subject_DEF:0 "Soviet Levant"
 
-  P83_SOV_communism_subject:0 "Russian Iceland"
-  P83_SOV_communism_subject_DEF:0 "Russian Iceland"
+  P68_SOV_communism_subject:0 "Soviet Turkey"
+  P68_SOV_communism_subject_DEF:0 "Soviet Turkey"
 
-  P84_SOV_communism_subject:0 "Russian Northern Ireland"
-  P84_SOV_communism_subject_DEF:0 "Russian Northern Ireland"
+  P69_SOV_communism_subject:0 "Soviet Iraq"
+  P69_SOV_communism_subject_DEF:0 "Soviet Iraq"
 
-  P85_SOV_communism_subject:0 "Russian Greenland"
-  P85_SOV_communism_subject_DEF:0 "Russian Greenland"
+  P70_SOV_communism_subject:0 "Soviet Kurdistan"
+  P70_SOV_communism_subject_DEF:0 "Soviet Kurdistan"
 
-  P86_SOV_communism_subject:0 "Russian Croatia"
-  P86_SOV_communism_subject_DEF:0 "Russian Croatia"
+  P71_SOV_communism_subject:0 "Soviet Iran"
+  P71_SOV_communism_subject_DEF:0 "Soviet Iran"
 
-  P87_SOV_communism_subject:0 "Russian Slovenia"
-  P87_SOV_communism_subject_DEF:0 "Russian Slovenia"
+  P72_SOV_communism_subject:0 "Soviet Korea"
+  P72_SOV_communism_subject_DEF:0 "Soviet Korea"
 
-  P88_SOV_communism_subject:0 "Russian Bosnia-Herzegovina"
-  P88_SOV_communism_subject_DEF:0 "Russian Bosnia-Herzegovina"
+  P73_SOV_communism_subject:0 "Soviet Ireland"
+  P73_SOV_communism_subject_DEF:0 "Soviet Ireland"
 
-  P89_SOV_communism_subject:0 "Russian Serbia"
-  P89_SOV_communism_subject_DEF:0 "Russian Serbia"
+  P74_SOV_communism_subject:0 "Soviet Sweden"
+  P74_SOV_communism_subject_DEF:0 "Soviet Sweden"
 
-  P90_SOV_communism_subject:0 "Russian Montenegro"
-  P90_SOV_communism_subject_DEF:0 "Russian Montenegro"
+  P75_SOV_communism_subject:0 "Soviet Pakistan"
+  P75_SOV_communism_subject_DEF:0 "Soviet Pakistan"
 
-  P91_SOV_communism_subject:0 "Russian Albania"
-  P91_SOV_communism_subject_DEF:0 "Russian Albania"
+  P76_SOV_communism_subject:0 "Soviet Afghanistan"
+  P76_SOV_communism_subject_DEF:0 "Soviet Afghanistan"
 
-  P92_SOV_communism_subject:0 "Russian Lombardy-Venetia"
-  P92_SOV_communism_subject_DEF:0 "Russian Lombardy-Venetia"
+  P77_SOV_communism_subject:0 "Soviet Austria"
+  P77_SOV_communism_subject_DEF:0 "Soviet Austria"
 
-  P93_SOV_communism_subject:0 "Russian Piedmont"
-  P93_SOV_communism_subject_DEF:0 "Russian Piedmont"
+  P78_SOV_communism_subject:0 "Soviet Switzerland"
+  P78_SOV_communism_subject_DEF:0 "Soviet Switzerland"
 
-  P94_SOV_communism_subject:0 "Russian Sardinia"
-  P94_SOV_communism_subject_DEF:0 "Russian Sardinia"
+  P79_SOV_communism_subject:0 "Soviet Romania"
+  P79_SOV_communism_subject_DEF:0 "Soviet Romania"
 
-  P95_SOV_communism_subject:0 "Russian Tuscany"
-  P95_SOV_communism_subject_DEF:0 "Russian Tuscany"
+  P80_SOV_communism_subject:0 "Soviet England"
+  P80_SOV_communism_subject_DEF:0 "Soviet England"
 
-  P96_SOV_communism_subject:0 "Russian Papal States"
-  P96_SOV_communism_subject_DEF:0 "Russian Papal States"
+  P81_SOV_communism_subject:0 "Soviet Scotland"
+  P81_SOV_communism_subject_DEF:0 "Soviet Scotland"
 
-  P97_SOV_communism_subject:0 "Russian Two Sicilies"
-  P97_SOV_communism_subject_DEF:0 "Russian Two Sicilies"
+  P82_SOV_communism_subject:0 "Soviet Wales"
+  P82_SOV_communism_subject_DEF:0 "Soviet Wales"
 
-  P98_SOV_communism_subject:0 "Russian Macedonia"
-  P98_SOV_communism_subject_DEF:0 "Russian Macedonia"
+  P83_SOV_communism_subject:0 "Soviet Iceland"
+  P83_SOV_communism_subject_DEF:0 "Soviet Iceland"
 
-  P99_SOV_communism_subject:0 "Russian Hokkaido"
-  P99_SOV_communism_subject_DEF:0 "Russian Hokkaido"
+  P84_SOV_communism_subject:0 "Soviet Northern Ireland"
+  P84_SOV_communism_subject_DEF:0 "Soviet Northern Ireland"
 
-  Q01_SOV_communism_subject:0 "Russian Tohoku"
-  Q01_SOV_communism_subject_DEF:0 "Russian Tohoku"
+  P85_SOV_communism_subject:0 "Soviet Greenland"
+  P85_SOV_communism_subject_DEF:0 "Soviet Greenland"
 
-  Q02_SOV_communism_subject:0 "Russian Kanto"
-  Q02_SOV_communism_subject_DEF:0 "Russian Kanto"
+  P86_SOV_communism_subject:0 "Soviet Croatia"
+  P86_SOV_communism_subject_DEF:0 "Soviet Croatia"
 
-  Q03_SOV_communism_subject:0 "Russian Chubu"
-  Q03_SOV_communism_subject_DEF:0 "Russian Chubu"
+  P87_SOV_communism_subject:0 "Soviet Slovenia"
+  P87_SOV_communism_subject_DEF:0 "Soviet Slovenia"
 
-  Q04_SOV_communism_subject:0 "Russian Kansai"
-  Q04_SOV_communism_subject_DEF:0 "Russian Kansai"
+  P88_SOV_communism_subject:0 "Soviet Bosnia-Herzegovina"
+  P88_SOV_communism_subject_DEF:0 "Soviet Bosnia-Herzegovina"
 
-  Q05_SOV_communism_subject:0 "Russian Chugoku"
-  Q05_SOV_communism_subject_DEF:0 "Russian Chugoku"
+  P89_SOV_communism_subject:0 "Soviet Serbia"
+  P89_SOV_communism_subject_DEF:0 "Soviet Serbia"
 
-  Q06_SOV_communism_subject:0 "Russian Shikoku"
-  Q06_SOV_communism_subject_DEF:0 "Russian Shikoku"
+  P90_SOV_communism_subject:0 "Soviet Montenegro"
+  P90_SOV_communism_subject_DEF:0 "Soviet Montenegro"
 
-  Q07_SOV_communism_subject:0 "Russian Kyushu"
-  Q07_SOV_communism_subject_DEF:0 "Russian Kyushu"
+  P91_SOV_communism_subject:0 "Soviet Albania"
+  P91_SOV_communism_subject_DEF:0 "Soviet Albania"
 
-  Q08_SOV_communism_subject:0 "Russian Manchuria"
-  Q08_SOV_communism_subject_DEF:0 "Russian Manchuria"
+  P92_SOV_communism_subject:0 "Soviet Lombardy-Venetia"
+  P92_SOV_communism_subject_DEF:0 "Soviet Lombardy-Venetia"
 
-  Q09_SOV_communism_subject:0 "Russian Inner Mongolia"
-  Q09_SOV_communism_subject_DEF:0 "Russian Inner Mongolia"
+  P93_SOV_communism_subject:0 "Soviet Piedmont"
+  P93_SOV_communism_subject_DEF:0 "Soviet Piedmont"
 
-  Q10_SOV_communism_subject:0 "Russian Zhili"
-  Q10_SOV_communism_subject_DEF:0 "Russian Zhili"
+  P94_SOV_communism_subject:0 "Soviet Sardinia"
+  P94_SOV_communism_subject_DEF:0 "Soviet Sardinia"
 
-  Q11_SOV_communism_subject:0 "Russian Shandong"
-  Q11_SOV_communism_subject_DEF:0 "Russian Shandong"
+  P95_SOV_communism_subject:0 "Soviet Tuscany"
+  P95_SOV_communism_subject_DEF:0 "Soviet Tuscany"
 
-  Q12_SOV_communism_subject:0 "Russian Henan"
-  Q12_SOV_communism_subject_DEF:0 "Russian Henan"
+  P96_SOV_communism_subject:0 "Soviet Papal States"
+  P96_SOV_communism_subject_DEF:0 "Soviet Papal States"
 
-  Q13_SOV_communism_subject:0 "Russian Shanxi"
-  Q13_SOV_communism_subject_DEF:0 "Russian Shanxi"
+  P97_SOV_communism_subject:0 "Soviet Two Sicilies"
+  P97_SOV_communism_subject_DEF:0 "Soviet Two Sicilies"
 
-  Q14_SOV_communism_subject:0 "Russian Liangjiang"
-  Q14_SOV_communism_subject_DEF:0 "Russian Liangjiang"
+  P98_SOV_communism_subject:0 "Soviet Macedonia"
+  P98_SOV_communism_subject_DEF:0 "Soviet Macedonia"
 
-  Q15_SOV_communism_subject:0 "Russian Min-Zhe"
-  Q15_SOV_communism_subject_DEF:0 "Russian Min-Zhe"
+  P99_SOV_communism_subject:0 "Soviet Hokkaido"
+  P99_SOV_communism_subject_DEF:0 "Soviet Hokkaido"
 
-  Q16_SOV_communism_subject:0 "Russian Huguang"
-  Q16_SOV_communism_subject_DEF:0 "Russian Huguang"
+  Q01_SOV_communism_subject:0 "Soviet Tohoku"
+  Q01_SOV_communism_subject_DEF:0 "Soviet Tohoku"
 
-  Q17_SOV_communism_subject:0 "Russian Liangguang"
-  Q17_SOV_communism_subject_DEF:0 "Russian Liangguang"
+  Q02_SOV_communism_subject:0 "Soviet Kanto"
+  Q02_SOV_communism_subject_DEF:0 "Soviet Kanto"
 
-  Q18_SOV_communism_subject:0 "Russian Yun-Gui"
-  Q18_SOV_communism_subject_DEF:0 "Russian Yun-Gui"
+  Q03_SOV_communism_subject:0 "Soviet Chubu"
+  Q03_SOV_communism_subject_DEF:0 "Soviet Chubu"
 
-  Q19_SOV_communism_subject:0 "Russian Sichuan"
-  Q19_SOV_communism_subject_DEF:0 "Russian Sichuan"
+  Q04_SOV_communism_subject:0 "Soviet Kansai"
+  Q04_SOV_communism_subject_DEF:0 "Soviet Kansai"
 
-  Q20_SOV_communism_subject:0 "Russian Shaan-Gan"
-  Q20_SOV_communism_subject_DEF:0 "Russian Shaan-Gan"
+  Q05_SOV_communism_subject:0 "Soviet Chugoku"
+  Q05_SOV_communism_subject_DEF:0 "Soviet Chugoku"
 
-  Q21_SOV_communism_subject:0 "Russian Qinghai"
-  Q21_SOV_communism_subject_DEF:0 "Russian Qinghai"
+  Q06_SOV_communism_subject:0 "Soviet Shikoku"
+  Q06_SOV_communism_subject_DEF:0 "Soviet Shikoku"
 
-  Q22_SOV_communism_subject:0 "Russian Taiwan"
-  Q22_SOV_communism_subject_DEF:0 "Russian Taiwan"
+  Q07_SOV_communism_subject:0 "Soviet Kyushu"
+  Q07_SOV_communism_subject_DEF:0 "Soviet Kyushu"
 
-  Q23_SOV_communism_subject:0 "Russian East Turkestan"
-  Q23_SOV_communism_subject_DEF:0 "Russian East Turkestan"
+  Q08_SOV_communism_subject:0 "Manchurian SSR"
+  Q08_SOV_communism_subject_DEF:0 "Manchurian SSR"
 
-  Q24_SOV_communism_subject:0 "Russian Tibet"
-  Q24_SOV_communism_subject_DEF:0 "Russian Tibet"
+  Q09_SOV_communism_subject:0 "Soviet Inner Mongolia"
+  Q09_SOV_communism_subject_DEF:0 "Soviet Inner Mongolia"
+
+  Q10_SOV_communism_subject:0 "Soviet Zhili"
+  Q10_SOV_communism_subject_DEF:0 "Soviet Zhili"
+
+  Q11_SOV_communism_subject:0 "Soviet Shandong"
+  Q11_SOV_communism_subject_DEF:0 "Soviet Shandong"
+
+  Q12_SOV_communism_subject:0 "Soviet Henan"
+  Q12_SOV_communism_subject_DEF:0 "Soviet Henan"
+
+  Q13_SOV_communism_subject:0 "Soviet Shanxi"
+  Q13_SOV_communism_subject_DEF:0 "Soviet Shanxi"
+
+  Q14_SOV_communism_subject:0 "Soviet Liangjiang"
+  Q14_SOV_communism_subject_DEF:0 "Soviet Liangjiang"
+
+  Q15_SOV_communism_subject:0 "Soviet Min-Zhe"
+  Q15_SOV_communism_subject_DEF:0 "Soviet Min-Zhe"
+
+  Q16_SOV_communism_subject:0 "Soviet Huguang"
+  Q16_SOV_communism_subject_DEF:0 "Soviet Huguang"
+
+  Q17_SOV_communism_subject:0 "Soviet Liangguang"
+  Q17_SOV_communism_subject_DEF:0 "Soviet Liangguang"
+
+  Q18_SOV_communism_subject:0 "Soviet Yun-Gui"
+  Q18_SOV_communism_subject_DEF:0 "Soviet Yun-Gui"
+
+  Q19_SOV_communism_subject:0 "Soviet Sichuan"
+  Q19_SOV_communism_subject_DEF:0 "Soviet Sichuan"
+
+  Q20_SOV_communism_subject:0 "Soviet Shaan-Gan"
+  Q20_SOV_communism_subject_DEF:0 "Soviet Shaan-Gan"
+
+  Q21_SOV_communism_subject:0 "Soviet Qinghai"
+  Q21_SOV_communism_subject_DEF:0 "Soviet Qinghai"
+
+  Q22_SOV_communism_subject:0 "Soviet Taiwan"
+  Q22_SOV_communism_subject_DEF:0 "Soviet Taiwan"
+
+  Q23_SOV_communism_subject:0 "Sinkiang SSR"
+  Q23_SOV_communism_subject_DEF:0 "Sinkiang SSR"
+
+  Q24_SOV_communism_subject:0 "Soviet Tibet"
+  Q24_SOV_communism_subject_DEF:0 "Soviet Tibet"
 
   ## SOVIET UNION - DEMOCRATIC ##
   P01_SOV_democratic_subject:0 "Russian Colombia"
@@ -4530,17 +4868,32 @@
   P17_SOV_democratic_subject:0 "Russian Indonesia"
   P17_SOV_democratic_subject_DEF:0 "Russian Indonesia"
 
+  P18_SOV_democratic_subject:0 "Russian Midwestern U.S."
+  P18_SOV_democratic_subject_DEF:0 "Russian Midwestern U.S."
+
   P19_SOV_democratic_subject:0 "Russian North Germany"
   P19_SOV_democratic_subject_DEF:0 "Russian North Germany"
 
+  P20_SOV_democratic_subject:0 "Russian Northeastern U.S."
+  P20_SOV_democratic_subject_DEF:0 "Russian Northeastern U.S."
+
+  P21_SOV_democratic_subject:0 "Russian Pacific U.S."
+  P21_SOV_democratic_subject_DEF:0 "Russian Pacific U.S."
+
   P22_SOV_democratic_subject:0 "Russian Quebec"
   P22_SOV_democratic_subject_DEF:0 "Russian Quebec"
+
+  P23_SOV_democratic_subject:0 "Russian U.S. Rockies"
+  P23_SOV_democratic_subject_DEF:0 "Russian U.S. Rockies"
 
   P24_SOV_democratic_subject:0 "Russian Scandinavia"
   P24_SOV_democratic_subject_DEF:0 "Russian Scandinavia"
 
   P25_SOV_democratic_subject:0 "Russian South Germany"
   P25_SOV_democratic_subject_DEF:0 "Russian South Germany"
+
+  P26_SOV_democratic_subject:0 "Russian Southern U.S."
+  P26_SOV_democratic_subject_DEF:0 "Russian Southern U.S."
 
   P27_SOV_democratic_subject:0 "Russian Oceania"
   P27_SOV_democratic_subject_DEF:0 "Russian Oceania"
@@ -4578,8 +4931,35 @@
   P38_SOV_democratic_subject:0 "Russian Bangladesh"
   P38_SOV_democratic_subject_DEF:0 "Russian Bangladesh"
 
+  P39_SOV_democratic_subject:0 "Russian Central Russia"
+  P39_SOV_democratic_subject_DEF:0 "Russian Central Russia"
+
+  P40_SOV_democratic_subject:0 "Russian Southern Russia"
+  P40_SOV_democratic_subject_DEF:0 "Russian Southern Russia"
+
+  P41_SOV_democratic_subject:0 "Russian Northern Caucasus"
+  P41_SOV_democratic_subject_DEF:0 "Russian Northern Caucasus"
+
+  P42_SOV_democratic_subject:0 "Russian Volga"
+  P42_SOV_democratic_subject_DEF:0 "Russian Volga"
+
+  P43_SOV_democratic_subject:0 "Russian Northwestern Russia"
+  P43_SOV_democratic_subject_DEF:0 "Russian Northwestern Russia"
+
+  P44_SOV_democratic_subject:0 "Russian Urals"
+  P44_SOV_democratic_subject_DEF:0 "Russian Urals"
+
+  P45_SOV_democratic_subject:0 "Russian Siberia"
+  P45_SOV_democratic_subject_DEF:0 "Russian Siberia"
+
+  P46_SOV_democratic_subject:0 "Russian Far East Russia"
+  P46_SOV_democratic_subject_DEF:0 "Russian Far East Russia"
+
   P47_SOV_democratic_subject:0 "Russian Mongolia"
   P47_SOV_democratic_subject_DEF:0 "Russian Mongolia"
+
+  P48_SOV_democratic_subject:0 "Russian Western Russia"
+  P48_SOV_democratic_subject_DEF:0 "Russian Western Russia"
 
   P49_SOV_democratic_subject:0 "Russian Bulgaria"
   P49_SOV_democratic_subject_DEF:0 "Russian Bulgaria"
@@ -4592,6 +4972,9 @@
 
   P52_SOV_democratic_subject:0 "Russian Himalayas"
   P52_SOV_democratic_subject_DEF:0 "Russian Himalayas"
+
+  P53_SOV_democratic_subject:0 "Russian Mittelafrika"
+  P53_SOV_democratic_subject_DEF:0 "Russian Mittelafrika"
 
   P54_SOV_democratic_subject:0 "Russian Chile"
   P54_SOV_democratic_subject_DEF:0 "Russian Chile"
@@ -4855,17 +5238,32 @@
   P17_SOV_neutrality_subject:0 "Russian Indonesia"
   P17_SOV_neutrality_subject_DEF:0 "Russian Indonesia"
 
+  P18_SOV_neutrality_subject:0 "Russian Midwestern U.S."
+  P18_SOV_neutrality_subject_DEF:0 "Russian Midwestern U.S."
+
   P19_SOV_neutrality_subject:0 "Russian North Germany"
   P19_SOV_neutrality_subject_DEF:0 "Russian North Germany"
 
+  P20_SOV_neutrality_subject:0 "Russian Northeastern U.S."
+  P20_SOV_neutrality_subject_DEF:0 "Russian Northeastern U.S."
+
+  P21_SOV_neutrality_subject:0 "Russian Pacific U.S."
+  P21_SOV_neutrality_subject_DEF:0 "Russian Pacific U.S."
+
   P22_SOV_neutrality_subject:0 "Russian Quebec"
   P22_SOV_neutrality_subject_DEF:0 "Russian Quebec"
+
+  P23_SOV_neutrality_subject:0 "Russian U.S. Rockies"
+  P23_SOV_neutrality_subject_DEF:0 "Russian U.S. Rockies"
 
   P24_SOV_neutrality_subject:0 "Russian Scandinavia"
   P24_SOV_neutrality_subject_DEF:0 "Russian Scandinavia"
 
   P25_SOV_neutrality_subject:0 "Russian South Germany"
   P25_SOV_neutrality_subject_DEF:0 "Russian South Germany"
+
+  P26_SOV_neutrality_subject:0 "Russian Southern U.S."
+  P26_SOV_neutrality_subject_DEF:0 "Russian Southern U.S."
 
   P27_SOV_neutrality_subject:0 "Russian Oceania"
   P27_SOV_neutrality_subject_DEF:0 "Russian Oceania"
@@ -4903,8 +5301,35 @@
   P38_SOV_neutrality_subject:0 "Russian Bangladesh"
   P38_SOV_neutrality_subject_DEF:0 "Russian Bangladesh"
 
+  P39_SOV_neutrality_subject:0 "Russian Central Russia"
+  P39_SOV_neutrality_subject_DEF:0 "Russian Central Russia"
+
+  P40_SOV_neutrality_subject:0 "Russian Southern Russia"
+  P40_SOV_neutrality_subject_DEF:0 "Russian Southern Russia"
+
+  P41_SOV_neutrality_subject:0 "Russian Northern Caucasus"
+  P41_SOV_neutrality_subject_DEF:0 "Russian Northern Caucasus"
+
+  P42_SOV_neutrality_subject:0 "Russian Volga"
+  P42_SOV_neutrality_subject_DEF:0 "Russian Volga"
+
+  P43_SOV_neutrality_subject:0 "Russian Northwestern Russia"
+  P43_SOV_neutrality_subject_DEF:0 "Russian Northwestern Russia"
+
+  P44_SOV_neutrality_subject:0 "Russian Urals"
+  P44_SOV_neutrality_subject_DEF:0 "Russian Urals"
+
+  P45_SOV_neutrality_subject:0 "Russian Siberia"
+  P45_SOV_neutrality_subject_DEF:0 "Russian Siberia"
+
+  P46_SOV_neutrality_subject:0 "Russian Far East Russia"
+  P46_SOV_neutrality_subject_DEF:0 "Russian Far East Russia"
+
   P47_SOV_neutrality_subject:0 "Russian Mongolia"
   P47_SOV_neutrality_subject_DEF:0 "Russian Mongolia"
+
+  P48_SOV_neutrality_subject:0 "Russian Western Russia"
+  P48_SOV_neutrality_subject_DEF:0 "Russian Western Russia"
 
   P49_SOV_neutrality_subject:0 "Russian Bulgaria"
   P49_SOV_neutrality_subject_DEF:0 "Russian Bulgaria"
@@ -4917,6 +5342,9 @@
 
   P52_SOV_neutrality_subject:0 "Russian Himalayas"
   P52_SOV_neutrality_subject_DEF:0 "Russian Himalayas"
+
+  P53_SOV_neutrality_subject:0 "Russian Mittelafrika"
+  P53_SOV_neutrality_subject_DEF:0 "Russian Mittelafrika"
 
   P54_SOV_neutrality_subject:0 "Russian Chile"
   P54_SOV_neutrality_subject_DEF:0 "Russian Chile"
@@ -5180,17 +5608,32 @@
   P17_SOV_fascism_subject:0 "Russian Indonesia"
   P17_SOV_fascism_subject_DEF:0 "Russian Indonesia"
 
+  P18_SOV_fascism_subject:0 "Russian Midwestern U.S."
+  P18_SOV_fascism_subject_DEF:0 "Russian Midwestern U.S."
+
   P19_SOV_fascism_subject:0 "Russian North Germany"
   P19_SOV_fascism_subject_DEF:0 "Russian North Germany"
 
+  P20_SOV_fascism_subject:0 "Russian Northeastern U.S."
+  P20_SOV_fascism_subject_DEF:0 "Russian Northeastern U.S."
+
+  P21_SOV_fascism_subject:0 "Russian Pacific U.S."
+  P21_SOV_fascism_subject_DEF:0 "Russian Pacific U.S."
+
   P22_SOV_fascism_subject:0 "Russian Quebec"
   P22_SOV_fascism_subject_DEF:0 "Russian Quebec"
+
+  P23_SOV_fascism_subject:0 "Russian U.S. Rockies"
+  P23_SOV_fascism_subject_DEF:0 "Russian U.S. Rockies"
 
   P24_SOV_fascism_subject:0 "Russian Scandinavia"
   P24_SOV_fascism_subject_DEF:0 "Russian Scandinavia"
 
   P25_SOV_fascism_subject:0 "Russian South Germany"
   P25_SOV_fascism_subject_DEF:0 "Russian South Germany"
+
+  P26_SOV_fascism_subject:0 "Russian Southern U.S."
+  P26_SOV_fascism_subject_DEF:0 "Russian Southern U.S."
 
   P27_SOV_fascism_subject:0 "Russian Oceania"
   P27_SOV_fascism_subject_DEF:0 "Russian Oceania"
@@ -5228,8 +5671,35 @@
   P38_SOV_fascism_subject:0 "Russian Bangladesh"
   P38_SOV_fascism_subject_DEF:0 "Russian Bangladesh"
 
+  P39_SOV_fascism_subject:0 "Russian Central Russia"
+  P39_SOV_fascism_subject_DEF:0 "Russian Central Russia"
+
+  P40_SOV_fascism_subject:0 "Russian Southern Russia"
+  P40_SOV_fascism_subject_DEF:0 "Russian Southern Russia"
+
+  P41_SOV_fascism_subject:0 "Russian Northern Caucasus"
+  P41_SOV_fascism_subject_DEF:0 "Russian Northern Caucasus"
+
+  P42_SOV_fascism_subject:0 "Russian Volga"
+  P42_SOV_fascism_subject_DEF:0 "Russian Volga"
+
+  P43_SOV_fascism_subject:0 "Russian Northwestern Russia"
+  P43_SOV_fascism_subject_DEF:0 "Russian Northwestern Russia"
+
+  P44_SOV_fascism_subject:0 "Russian Urals"
+  P44_SOV_fascism_subject_DEF:0 "Russian Urals"
+
+  P45_SOV_fascism_subject:0 "Russian Siberia"
+  P45_SOV_fascism_subject_DEF:0 "Russian Siberia"
+
+  P46_SOV_fascism_subject:0 "Russian Far East Russia"
+  P46_SOV_fascism_subject_DEF:0 "Russian Far East Russia"
+
   P47_SOV_fascism_subject:0 "Russian Mongolia"
   P47_SOV_fascism_subject_DEF:0 "Russian Mongolia"
+
+  P48_SOV_fascism_subject:0 "Russian Western Russia"
+  P48_SOV_fascism_subject_DEF:0 "Russian Western Russia"
 
   P49_SOV_fascism_subject:0 "Russian Bulgaria"
   P49_SOV_fascism_subject_DEF:0 "Russian Bulgaria"
@@ -5242,6 +5712,9 @@
 
   P52_SOV_fascism_subject:0 "Russian Himalayas"
   P52_SOV_fascism_subject_DEF:0 "Russian Himalayas"
+
+  P53_SOV_fascism_subject:0 "Russian Mittelafrika"
+  P53_SOV_fascism_subject_DEF:0 "Russian Mittelafrika"
 
   P54_SOV_fascism_subject:0 "Russian Chile"
   P54_SOV_fascism_subject_DEF:0 "Russian Chile"
@@ -5457,6 +5930,9 @@
   P01_FRA_communism_subject:0 "French Colombia"
   P01_FRA_communism_subject_DEF:0 "French Colombia"
 
+  P02_FRA_communism_subject:0 "French Great Britain"
+  P02_FRA_communism_subject_DEF:0 "French Great Britain"
+
   P03_FRA_communism_subject:0 "French Arabia"
   P03_FRA_communism_subject_DEF:0 "French Arabia"
 
@@ -5469,8 +5945,8 @@
   P06_FRA_communism_subject:0 "French West Indies"
   P06_FRA_communism_subject_DEF:0 "French West Indies"
 
-  P07_FRA_communism_subject:0 "French Central Africa"
-  P07_FRA_communism_subject_DEF:0 "French Central Africa"
+  P07_FRA_communism_subject:0 "French Equatorial Africa"
+  P07_FRA_communism_subject_DEF:0 "French Equatorial Africa"
 
   P08_FRA_communism_subject:0 "French Central America"
   P08_FRA_communism_subject_DEF:0 "French Central America"
@@ -5607,6 +6083,9 @@
   P52_FRA_communism_subject:0 "French Himalayas"
   P52_FRA_communism_subject_DEF:0 "French Himalayas"
 
+  P53_FRA_communism_subject:0 "French Mittelafrika"
+  P53_FRA_communism_subject_DEF:0 "French Mittelafrika"
+
   P54_FRA_communism_subject:0 "French Chile"
   P54_FRA_communism_subject_DEF:0 "French Chile"
 
@@ -5631,8 +6110,14 @@
   P61_FRA_communism_subject:0 "French Denmark"
   P61_FRA_communism_subject_DEF:0 "French Denmark"
 
+  P62_FRA_communism_subject:0 "French Northern France"
+  P62_FRA_communism_subject_DEF:0 "French Northern France"
 
+  P63_FRA_communism_subject:0 "French Southern France"
+  P63_FRA_communism_subject_DEF:0 "French Southern France"
 
+  P64_FRA_communism_subject:0 "French French Alps"
+  P64_FRA_communism_subject_DEF:0 "French French Alps"
 
   P65_FRA_communism_subject:0 "French Norway"
   P65_FRA_communism_subject_DEF:0 "French Norway"
@@ -5640,8 +6125,8 @@
   P66_FRA_communism_subject:0 "French Ukraine"
   P66_FRA_communism_subject_DEF:0 "French Ukraine"
 
-  P67_FRA_communism_subject:0 "French Levant"
-  P67_FRA_communism_subject_DEF:0 "French Levant"
+  P67_FRA_communism_subject:0 "French Mandate of the Levant"
+  P67_FRA_communism_subject_DEF:0 "French Mandate of the Levant"
 
   P68_FRA_communism_subject:0 "French Turkey"
   P68_FRA_communism_subject_DEF:0 "French Turkey"
@@ -5679,8 +6164,20 @@
   P79_FRA_communism_subject:0 "French Romania"
   P79_FRA_communism_subject_DEF:0 "French Romania"
 
+  P80_FRA_communism_subject:0 "French England"
+  P80_FRA_communism_subject_DEF:0 "French England"
+
+  P81_FRA_communism_subject:0 "French Scotland"
+  P81_FRA_communism_subject_DEF:0 "French Scotland"
+
+  P82_FRA_communism_subject:0 "French Wales"
+  P82_FRA_communism_subject_DEF:0 "French Wales"
+
   P83_FRA_communism_subject:0 "French Iceland"
   P83_FRA_communism_subject_DEF:0 "French Iceland"
+
+  P84_FRA_communism_subject:0 "French Northern Ireland"
+  P84_FRA_communism_subject_DEF:0 "French Northern Ireland"
 
   P85_FRA_communism_subject:0 "French Greenland"
   P85_FRA_communism_subject_DEF:0 "French Greenland"
@@ -5818,8 +6315,8 @@
   P06_FRA_democratic_subject:0 "French West Indies"
   P06_FRA_democratic_subject_DEF:0 "French West Indies"
 
-  P07_FRA_democratic_subject:0 "French Central Africa"
-  P07_FRA_democratic_subject_DEF:0 "French Central Africa"
+  P07_FRA_democratic_subject:0 "French Equatorial Africa"
+  P07_FRA_democratic_subject_DEF:0 "French Equatorial Africa"
 
   P08_FRA_democratic_subject:0 "French Central America"
   P08_FRA_democratic_subject_DEF:0 "French Central America"
@@ -5956,6 +6453,9 @@
   P52_FRA_democratic_subject:0 "French Himalayas"
   P52_FRA_democratic_subject_DEF:0 "French Himalayas"
 
+  P53_FRA_democratic_subject:0 "French Mittelafrika"
+  P53_FRA_democratic_subject_DEF:0 "French Mittelafrika"
+
   P54_FRA_democratic_subject:0 "French Chile"
   P54_FRA_democratic_subject_DEF:0 "French Chile"
 
@@ -5980,8 +6480,14 @@
   P61_FRA_democratic_subject:0 "French Denmark"
   P61_FRA_democratic_subject_DEF:0 "French Denmark"
 
+  P62_FRA_democratic_subject:0 "French Northern France"
+  P62_FRA_democratic_subject_DEF:0 "French Northern France"
 
+  P63_FRA_democratic_subject:0 "French Southern France"
+  P63_FRA_democratic_subject_DEF:0 "French Southern France"
 
+  P64_FRA_democratic_subject:0 "French French Alps"
+  P64_FRA_democratic_subject_DEF:0 "French French Alps"
 
   P65_FRA_democratic_subject:0 "French Norway"
   P65_FRA_democratic_subject_DEF:0 "French Norway"
@@ -5989,8 +6495,8 @@
   P66_FRA_democratic_subject:0 "French Ukraine"
   P66_FRA_democratic_subject_DEF:0 "French Ukraine"
 
-  P67_FRA_democratic_subject:0 "French Levant"
-  P67_FRA_democratic_subject_DEF:0 "French Levant"
+  P67_FRA_democratic_subject:0 "French Mandate of the Levant"
+  P67_FRA_democratic_subject_DEF:0 "French Mandate of the Levant"
 
   P68_FRA_democratic_subject:0 "French Turkey"
   P68_FRA_democratic_subject_DEF:0 "French Turkey"
@@ -6158,7 +6664,7 @@
   Q23_FRA_democratic_subject_DEF:0 "French East Turkestan"
 
   Q24_FRA_democratic_subject:0 "French Tibet"
-  Q24_FRA_democratic_subject_DEF:0 "French Tibet"  
+  Q24_FRA_democratic_subject_DEF:0 "French Tibet"
 
   ## FRANCE - NEUTRALITY ##
   P01_FRA_neutrality_subject:0 "French Colombia"
@@ -6179,8 +6685,8 @@
   P06_FRA_neutrality_subject:0 "French West Indies"
   P06_FRA_neutrality_subject_DEF:0 "French West Indies"
 
-  P07_FRA_neutrality_subject:0 "French Central Africa"
-  P07_FRA_neutrality_subject_DEF:0 "French Central Africa"
+  P07_FRA_neutrality_subject:0 "French Equatorial Africa"
+  P07_FRA_neutrality_subject_DEF:0 "French Equatorial Africa"
 
   P08_FRA_neutrality_subject:0 "French Central America"
   P08_FRA_neutrality_subject_DEF:0 "French Central America"
@@ -6317,6 +6823,9 @@
   P52_FRA_neutrality_subject:0 "French Himalayas"
   P52_FRA_neutrality_subject_DEF:0 "French Himalayas"
 
+  P53_FRA_neutrality_subject:0 "French Mittelafrika"
+  P53_FRA_neutrality_subject_DEF:0 "French Mittelafrika"
+
   P54_FRA_neutrality_subject:0 "French Chile"
   P54_FRA_neutrality_subject_DEF:0 "French Chile"
 
@@ -6341,8 +6850,14 @@
   P61_FRA_neutrality_subject:0 "French Denmark"
   P61_FRA_neutrality_subject_DEF:0 "French Denmark"
 
+  P62_FRA_neutrality_subject:0 "French Northern France"
+  P62_FRA_neutrality_subject_DEF:0 "French Northern France"
 
+  P63_FRA_neutrality_subject:0 "French Southern France"
+  P63_FRA_neutrality_subject_DEF:0 "French Southern France"
 
+  P64_FRA_neutrality_subject:0 "French French Alps"
+  P64_FRA_neutrality_subject_DEF:0 "French French Alps"
 
   P65_FRA_neutrality_subject:0 "French Norway"
   P65_FRA_neutrality_subject_DEF:0 "French Norway"
@@ -6350,8 +6865,8 @@
   P66_FRA_neutrality_subject:0 "French Ukraine"
   P66_FRA_neutrality_subject_DEF:0 "French Ukraine"
 
-  P67_FRA_neutrality_subject:0 "French Levant"
-  P67_FRA_neutrality_subject_DEF:0 "French Levant"
+  P67_FRA_neutrality_subject:0 "French Mandate of the Levant"
+  P67_FRA_neutrality_subject_DEF:0 "French Mandate of the Levant"
 
   P68_FRA_neutrality_subject:0 "French Turkey"
   P68_FRA_neutrality_subject_DEF:0 "French Turkey"
@@ -6521,7 +7036,7 @@
   Q24_FRA_neutrality_subject:0 "French Tibet"
   Q24_FRA_neutrality_subject_DEF:0 "French Tibet"
 
-  #FRANCE - FASCISM
+  ## FRANCE - FASCISM ##
   P01_FRA_fascism_subject:0 "French Colombia"
   P01_FRA_fascism_subject_DEF:0 "French Colombia"
 
@@ -6540,8 +7055,8 @@
   P06_FRA_fascism_subject:0 "French West Indies"
   P06_FRA_fascism_subject_DEF:0 "French West Indies"
 
-  P07_FRA_fascism_subject:0 "French Central Africa"
-  P07_FRA_fascism_subject_DEF:0 "French Central Africa"
+  P07_FRA_fascism_subject:0 "French Equatorial Africa"
+  P07_FRA_fascism_subject_DEF:0 "French Equatorial Africa"
 
   P08_FRA_fascism_subject:0 "French Central America"
   P08_FRA_fascism_subject_DEF:0 "French Central America"
@@ -6678,6 +7193,9 @@
   P52_FRA_fascism_subject:0 "French Himalayas"
   P52_FRA_fascism_subject_DEF:0 "French Himalayas"
 
+  P53_FRA_fascism_subject:0 "French Mittelafrika"
+  P53_FRA_fascism_subject_DEF:0 "French Mittelafrika"
+
   P54_FRA_fascism_subject:0 "French Chile"
   P54_FRA_fascism_subject_DEF:0 "French Chile"
 
@@ -6702,14 +7220,23 @@
   P61_FRA_fascism_subject:0 "French Denmark"
   P61_FRA_fascism_subject_DEF:0 "French Denmark"
 
+  P62_FRA_fascism_subject:0 "French Northern France"
+  P62_FRA_fascism_subject_DEF:0 "French Northern France"
+
+  P63_FRA_fascism_subject:0 "French Southern France"
+  P63_FRA_fascism_subject_DEF:0 "French Southern France"
+
+  P64_FRA_fascism_subject:0 "French French Alps"
+  P64_FRA_fascism_subject_DEF:0 "French French Alps"
+
   P65_FRA_fascism_subject:0 "French Norway"
   P65_FRA_fascism_subject_DEF:0 "French Norway"
 
   P66_FRA_fascism_subject:0 "French Ukraine"
   P66_FRA_fascism_subject_DEF:0 "French Ukraine"
 
-  P67_FRA_fascism_subject:0 "French Levant"
-  P67_FRA_fascism_subject_DEF:0 "French Levant"
+  P67_FRA_fascism_subject:0 "French Mandate of the Levant"
+  P67_FRA_fascism_subject_DEF:0 "French Mandate of the Levant"
 
   P68_FRA_fascism_subject:0 "French Turkey"
   P68_FRA_fascism_subject_DEF:0 "French Turkey"
@@ -6883,6 +7410,9 @@
   P01_ENG_communism_subject:0 "British Colombia"
   P01_ENG_communism_subject_DEF:0 "British Colombia"
 
+  P02_ENG_communism_subject:0 "British Great Britain"
+  P02_ENG_communism_subject_DEF:0 "British Great Britain"
+
   P03_ENG_communism_subject:0 "British Arabia"
   P03_ENG_communism_subject_DEF:0 "British Arabia"
 
@@ -7033,6 +7563,9 @@
   P52_ENG_communism_subject:0 "British Himalayas"
   P52_ENG_communism_subject_DEF:0 "British Himalayas"
 
+  P53_ENG_communism_subject:0 "British Mittelafrika"
+  P53_ENG_communism_subject_DEF:0 "British Mittelafrika"
+
   P54_ENG_communism_subject:0 "British Chile"
   P54_ENG_communism_subject_DEF:0 "British Chile"
 
@@ -7111,8 +7644,20 @@
   P79_ENG_communism_subject:0 "British Romania"
   P79_ENG_communism_subject_DEF:0 "British Romania"
 
+  P80_ENG_communism_subject:0 "British England"
+  P80_ENG_communism_subject_DEF:0 "British England"
+
+  P81_ENG_communism_subject:0 "British Scotland"
+  P81_ENG_communism_subject_DEF:0 "British Scotland"
+
+  P82_ENG_communism_subject:0 "British Wales"
+  P82_ENG_communism_subject_DEF:0 "British Wales"
+
   P83_ENG_communism_subject:0 "British Iceland"
   P83_ENG_communism_subject_DEF:0 "British Iceland"
+
+  P84_ENG_communism_subject:0 "British Northern Ireland"
+  P84_ENG_communism_subject_DEF:0 "British Northern Ireland"
 
   P85_ENG_communism_subject:0 "British Greenland"
   P85_ENG_communism_subject_DEF:0 "British Greenland"
@@ -7235,6 +7780,12 @@
   P01_ENG_democratic_subject:0 "British Colombia"
   P01_ENG_democratic_subject_DEF:0 "British Colombia"
 
+  P02_ENG_democratic_subject:0 "British Great Britain"
+  P02_ENG_democratic_subject_DEF:0 "British Great Britain"
+
+  P03_ENG_democratic_subject:0 "British Arabia"
+  P03_ENG_democratic_subject_DEF:0 "British Arabia"
+
   P04_ENG_democratic_subject:0 "British Baltic"
   P04_ENG_democratic_subject_DEF:0 "British Baltic"
 
@@ -7252,6 +7803,9 @@
 
   P09_ENG_democratic_subject:0 "British Hungary"
   P09_ENG_democratic_subject_DEF:0 "British Hungary"
+
+  P10_ENG_democratic_subject:0 "British East Africa"
+  P10_ENG_democratic_subject_DEF:0 "British East Africa"
 
   P11_ENG_democratic_subject:0 "British Eastern Canada"
   P11_ENG_democratic_subject_DEF:0 "British Eastern Canada"
@@ -7301,8 +7855,8 @@
   P26_ENG_democratic_subject:0 "British Southern U.S."
   P26_ENG_democratic_subject_DEF:0 "British Southern U.S."
 
-  P27_ENG_democratic_subject:0 "British Oceania"
-  P27_ENG_democratic_subject_DEF:0 "British Oceania"
+  P27_ENG_democratic_subject:0 "Dominion of Australasia"
+  P27_ENG_democratic_subject_DEF:0 "the Dominion of Australasia"
 
   P28_ENG_democratic_subject:0 "British Transcaucasia"
   P28_ENG_democratic_subject_DEF:0 "British Transcaucasia"
@@ -7327,6 +7881,12 @@
 
   P35_ENG_democratic_subject:0 "British West Africa"
   P35_ENG_democratic_subject_DEF:0 "British West Africa"
+
+  P36_ENG_democratic_subject:0 "Union of South Africa"
+  P36_ENG_democratic_subject_DEF:0 "the Union of South Africa"
+
+  P37_ENG_democratic_subject:0 "British India"
+  P37_ENG_democratic_subject_DEF:0 "British India"
 
   P38_ENG_democratic_subject:0 "British Bangladesh"
   P38_ENG_democratic_subject_DEF:0 "British Bangladesh"
@@ -7373,6 +7933,9 @@
   P52_ENG_democratic_subject:0 "British Himalayas"
   P52_ENG_democratic_subject_DEF:0 "British Himalayas"
 
+  P53_ENG_democratic_subject:0 "British Mittelafrika"
+  P53_ENG_democratic_subject_DEF:0 "British Mittelafrika"
+
   P54_ENG_democratic_subject:0 "British Chile"
   P54_ENG_democratic_subject_DEF:0 "British Chile"
 
@@ -7412,8 +7975,14 @@
   P66_ENG_democratic_subject:0 "British Ukraine"
   P66_ENG_democratic_subject_DEF:0 "British Ukraine"
 
+  P67_ENG_democratic_subject:0 "British Mandate of the Levant"
+  P67_ENG_democratic_subject_DEF:0 "British Mandate of the Levant"
+
   P68_ENG_democratic_subject:0 "British Turkey"
   P68_ENG_democratic_subject_DEF:0 "British Turkey"
+
+  P69_ENG_democratic_subject:0 "British Iraq"
+  P69_ENG_democratic_subject_DEF:0 "British Iraq"
 
   P70_ENG_democratic_subject:0 "British Kurdistan"
   P70_ENG_democratic_subject_DEF:0 "British Kurdistan"
@@ -7424,8 +7993,8 @@
   P72_ENG_democratic_subject:0 "British Korea"
   P72_ENG_democratic_subject_DEF:0 "British Korea"
 
-  P73_ENG_democratic_subject:0 "British Ireland"
-  P73_ENG_democratic_subject_DEF:0 "British Ireland"
+  P73_ENG_democratic_subject:0 "Dominion of Ireland"
+  P73_ENG_democratic_subject_DEF:0 "the Dominion of Ireland"
 
   P74_ENG_democratic_subject:0 "British Sweden"
   P74_ENG_democratic_subject_DEF:0 "British Sweden"
@@ -7445,8 +8014,20 @@
   P79_ENG_democratic_subject:0 "British Romania"
   P79_ENG_democratic_subject_DEF:0 "British Romania"
 
+  P80_ENG_democratic_subject:0 "British England"
+  P80_ENG_democratic_subject_DEF:0 "British England"
+
+  P81_ENG_democratic_subject:0 "British Scotland"
+  P81_ENG_democratic_subject_DEF:0 "British Scotland"
+
+  P82_ENG_democratic_subject:0 "British Wales"
+  P82_ENG_democratic_subject_DEF:0 "British Wales"
+
   P83_ENG_democratic_subject:0 "British Iceland"
   P83_ENG_democratic_subject_DEF:0 "British Iceland"
+
+  P84_ENG_democratic_subject:0 "British Northern Ireland"
+  P84_ENG_democratic_subject_DEF:0 "British Northern Ireland"
 
   P85_ENG_democratic_subject:0 "British Greenland"
   P85_ENG_democratic_subject_DEF:0 "British Greenland"
@@ -7569,6 +8150,9 @@
   P01_ENG_neutrality_subject:0 "British Colombia"
   P01_ENG_neutrality_subject_DEF:0 "British Colombia"
 
+  P02_ENG_neutrality_subject:0 "British Great Britain"
+  P02_ENG_neutrality_subject_DEF:0 "British Great Britain"
+
   P03_ENG_neutrality_subject:0 "British Arabia"
   P03_ENG_neutrality_subject_DEF:0 "British Arabia"
 
@@ -7641,8 +8225,8 @@
   P26_ENG_neutrality_subject:0 "British Southern U.S."
   P26_ENG_neutrality_subject_DEF:0 "British Southern U.S."
 
-  P27_ENG_neutrality_subject:0 "British Oceania"
-  P27_ENG_neutrality_subject_DEF:0 "British Oceania"
+  P27_ENG_neutrality_subject:0 "Dominion of Australasia"
+  P27_ENG_neutrality_subject_DEF:0 "the Dominion of Australasia"
 
   P28_ENG_neutrality_subject:0 "British Transcaucasia"
   P28_ENG_neutrality_subject_DEF:0 "British Transcaucasia"
@@ -7668,8 +8252,8 @@
   P35_ENG_neutrality_subject:0 "British West Africa"
   P35_ENG_neutrality_subject_DEF:0 "British West Africa"
 
-  P36_ENG_neutrality_subject:0 "British South Africa"
-  P36_ENG_neutrality_subject_DEF:0 "British South Africa"
+  P36_ENG_neutrality_subject:0 "Union of South Africa"
+  P36_ENG_neutrality_subject_DEF:0 "the Union of South Africa"
 
   P37_ENG_neutrality_subject:0 "British India"
   P37_ENG_neutrality_subject_DEF:0 "British India"
@@ -7719,6 +8303,9 @@
   P52_ENG_neutrality_subject:0 "British Himalayas"
   P52_ENG_neutrality_subject_DEF:0 "British Himalayas"
 
+  P53_ENG_neutrality_subject:0 "British Mittelafrika"
+  P53_ENG_neutrality_subject_DEF:0 "British Mittelafrika"
+
   P54_ENG_neutrality_subject:0 "British Chile"
   P54_ENG_neutrality_subject_DEF:0 "British Chile"
 
@@ -7758,8 +8345,8 @@
   P66_ENG_neutrality_subject:0 "British Ukraine"
   P66_ENG_neutrality_subject_DEF:0 "British Ukraine"
 
-  P67_ENG_neutrality_subject:0 "British Levant"
-  P67_ENG_neutrality_subject_DEF:0 "British Levant"
+  P67_ENG_neutrality_subject:0 "British Mandate of the Levant"
+  P67_ENG_neutrality_subject_DEF:0 "British Mandate of the Levant"
 
   P68_ENG_neutrality_subject:0 "British Turkey"
   P68_ENG_neutrality_subject_DEF:0 "British Turkey"
@@ -7776,8 +8363,8 @@
   P72_ENG_neutrality_subject:0 "British Korea"
   P72_ENG_neutrality_subject_DEF:0 "British Korea"
 
-  P73_ENG_neutrality_subject:0 "British Ireland"
-  P73_ENG_neutrality_subject_DEF:0 "British Ireland"
+  P73_ENG_neutrality_subject:0 "Dominion of Ireland"
+  P73_ENG_neutrality_subject_DEF:0 "the Dominion of Ireland"
 
   P74_ENG_neutrality_subject:0 "British Sweden"
   P74_ENG_neutrality_subject_DEF:0 "British Sweden"
@@ -7797,8 +8384,20 @@
   P79_ENG_neutrality_subject:0 "British Romania"
   P79_ENG_neutrality_subject_DEF:0 "British Romania"
 
+  P80_ENG_neutrality_subject:0 "British England"
+  P80_ENG_neutrality_subject_DEF:0 "British England"
+
+  P81_ENG_neutrality_subject:0 "British Scotland"
+  P81_ENG_neutrality_subject_DEF:0 "British Scotland"
+
+  P82_ENG_neutrality_subject:0 "British Wales"
+  P82_ENG_neutrality_subject_DEF:0 "British Wales"
+
   P83_ENG_neutrality_subject:0 "British Iceland"
   P83_ENG_neutrality_subject_DEF:0 "British Iceland"
+
+  P84_ENG_neutrality_subject:0 "British Northern Ireland"
+  P84_ENG_neutrality_subject_DEF:0 "British Northern Ireland"
 
   P85_ENG_neutrality_subject:0 "British Greenland"
   P85_ENG_neutrality_subject_DEF:0 "British Greenland"
@@ -7920,6 +8519,9 @@
   ## UNITED KINGDOM - FASCISM ##
   P01_ENG_fascism_subject:0 "British Colombia"
   P01_ENG_fascism_subject_DEF:0 "British Colombia"
+
+  P02_ENG_fascism_subject:0 "British Great Britain"
+  P02_ENG_fascism_subject_DEF:0 "British Great Britain"
 
   P03_ENG_fascism_subject:0 "British Arabia"
   P03_ENG_fascism_subject_DEF:0 "British Arabia"
@@ -8071,6 +8673,9 @@
   P52_ENG_fascism_subject:0 "British Himalayas"
   P52_ENG_fascism_subject_DEF:0 "British Himalayas"
 
+  P53_ENG_fascism_subject:0 "British Mittelafrika"
+  P53_ENG_fascism_subject_DEF:0 "British Mittelafrika"
+
   P54_ENG_fascism_subject:0 "British Chile"
   P54_ENG_fascism_subject_DEF:0 "British Chile"
 
@@ -8149,8 +8754,20 @@
   P79_ENG_fascism_subject:0 "British Romania"
   P79_ENG_fascism_subject_DEF:0 "British Romania"
 
+  P80_ENG_fascism_subject:0 "British England"
+  P80_ENG_fascism_subject_DEF:0 "British England"
+
+  P81_ENG_fascism_subject:0 "British Scotland"
+  P81_ENG_fascism_subject_DEF:0 "British Scotland"
+
+  P82_ENG_fascism_subject:0 "British Wales"
+  P82_ENG_fascism_subject_DEF:0 "British Wales"
+
   P83_ENG_fascism_subject:0 "British Iceland"
   P83_ENG_fascism_subject_DEF:0 "British Iceland"
+
+  P84_ENG_fascism_subject:0 "British Northern Ireland"
+  P84_ENG_fascism_subject_DEF:0 "British Northern Ireland"
 
   P85_ENG_fascism_subject:0 "British Greenland"
   P85_ENG_fascism_subject_DEF:0 "British Greenland"
@@ -8269,7 +8886,7 @@
   Q24_ENG_fascism_subject:0 "British Tibet"
   Q24_ENG_fascism_subject_DEF:0 "British Tibet"
 
-  #United States - Communism
+  ## UNITED STATES - COMMUNISM ##
   P01_USA_communism_subject:0 "American Colombia"
   P01_USA_communism_subject_DEF:0 "American Colombia"
 
@@ -8321,17 +8938,32 @@
   P17_USA_communism_subject:0 "American Indonesia"
   P17_USA_communism_subject_DEF:0 "American Indonesia"
 
+  P18_USA_communism_subject:0 "American Midwestern U.S."
+  P18_USA_communism_subject_DEF:0 "American Midwestern U.S."
+
   P19_USA_communism_subject:0 "American North Germany"
   P19_USA_communism_subject_DEF:0 "American North Germany"
 
+  P20_USA_communism_subject:0 "American Northeastern U.S."
+  P20_USA_communism_subject_DEF:0 "American Northeastern U.S."
+
+  P21_USA_communism_subject:0 "American Pacific U.S."
+  P21_USA_communism_subject_DEF:0 "American Pacific U.S."
+
   P22_USA_communism_subject:0 "American Quebec"
   P22_USA_communism_subject_DEF:0 "American Quebec"
+
+  P23_USA_communism_subject:0 "American U.S. Rockies"
+  P23_USA_communism_subject_DEF:0 "American U.S. Rockies"
 
   P24_USA_communism_subject:0 "American Scandinavia"
   P24_USA_communism_subject_DEF:0 "American Scandinavia"
 
   P25_USA_communism_subject:0 "American South Germany"
   P25_USA_communism_subject_DEF:0 "American South Germany"
+
+  P26_USA_communism_subject:0 "American Southern U.S."
+  P26_USA_communism_subject_DEF:0 "American Southern U.S."
 
   P27_USA_communism_subject:0 "American Oceania"
   P27_USA_communism_subject_DEF:0 "American Oceania"
@@ -8410,6 +9042,9 @@
 
   P52_USA_communism_subject:0 "American Himalayas"
   P52_USA_communism_subject_DEF:0 "American Himalayas"
+
+  P53_USA_communism_subject:0 "American Mittelafrika"
+  P53_USA_communism_subject_DEF:0 "American Mittelafrika"
 
   P54_USA_communism_subject:0 "American Chile"
   P54_USA_communism_subject_DEF:0 "American Chile"
@@ -8673,17 +9308,32 @@
   P17_USA_democratic_subject:0 "American Indonesia"
   P17_USA_democratic_subject_DEF:0 "American Indonesia"
 
+  P18_USA_democratic_subject:0 "American Midwestern U.S."
+  P18_USA_democratic_subject_DEF:0 "American Midwestern U.S."
+
   P19_USA_democratic_subject:0 "American North Germany"
   P19_USA_democratic_subject_DEF:0 "American North Germany"
 
+  P20_USA_democratic_subject:0 "American Northeastern U.S."
+  P20_USA_democratic_subject_DEF:0 "American Northeastern U.S."
+
+  P21_USA_democratic_subject:0 "American Pacific U.S."
+  P21_USA_democratic_subject_DEF:0 "American Pacific U.S."
+
   P22_USA_democratic_subject:0 "American Quebec"
   P22_USA_democratic_subject_DEF:0 "American Quebec"
+
+  P23_USA_democratic_subject:0 "American U.S. Rockies"
+  P23_USA_democratic_subject_DEF:0 "American U.S. Rockies"
 
   P24_USA_democratic_subject:0 "American Scandinavia"
   P24_USA_democratic_subject_DEF:0 "American Scandinavia"
 
   P25_USA_democratic_subject:0 "American South Germany"
   P25_USA_democratic_subject_DEF:0 "American South Germany"
+
+  P26_USA_democratic_subject:0 "American Southern U.S."
+  P26_USA_democratic_subject_DEF:0 "American Southern U.S."
 
   P27_USA_democratic_subject:0 "American Oceania"
   P27_USA_democratic_subject_DEF:0 "American Oceania"
@@ -8762,6 +9412,9 @@
 
   P52_USA_democratic_subject:0 "American Himalayas"
   P52_USA_democratic_subject_DEF:0 "American Himalayas"
+
+  P53_USA_democratic_subject:0 "American Mittelafrika"
+  P53_USA_democratic_subject_DEF:0 "American Mittelafrika"
 
   P54_USA_democratic_subject:0 "American Chile"
   P54_USA_democratic_subject_DEF:0 "American Chile"
@@ -9025,17 +9678,32 @@
   P17_USA_neutrality_subject:0 "American Indonesia"
   P17_USA_neutrality_subject_DEF:0 "American Indonesia"
 
+  P18_USA_neutrality_subject:0 "American Midwestern U.S."
+  P18_USA_neutrality_subject_DEF:0 "American Midwestern U.S."
+
   P19_USA_neutrality_subject:0 "American North Germany"
   P19_USA_neutrality_subject_DEF:0 "American North Germany"
 
+  P20_USA_neutrality_subject:0 "American Northeastern U.S."
+  P20_USA_neutrality_subject_DEF:0 "American Northeastern U.S."
+
+  P21_USA_neutrality_subject:0 "American Pacific U.S."
+  P21_USA_neutrality_subject_DEF:0 "American Pacific U.S."
+
   P22_USA_neutrality_subject:0 "American Quebec"
   P22_USA_neutrality_subject_DEF:0 "American Quebec"
+
+  P23_USA_neutrality_subject:0 "American U.S. Rockies"
+  P23_USA_neutrality_subject_DEF:0 "American U.S. Rockies"
 
   P24_USA_neutrality_subject:0 "American Scandinavia"
   P24_USA_neutrality_subject_DEF:0 "American Scandinavia"
 
   P25_USA_neutrality_subject:0 "American South Germany"
   P25_USA_neutrality_subject_DEF:0 "American South Germany"
+
+  P26_USA_neutrality_subject:0 "American Southern U.S."
+  P26_USA_neutrality_subject_DEF:0 "American Southern U.S."
 
   P27_USA_neutrality_subject:0 "American Oceania"
   P27_USA_neutrality_subject_DEF:0 "American Oceania"
@@ -9114,6 +9782,9 @@
 
   P52_USA_neutrality_subject:0 "American Himalayas"
   P52_USA_neutrality_subject_DEF:0 "American Himalayas"
+
+  P53_USA_neutrality_subject:0 "American Mittelafrika"
+  P53_USA_neutrality_subject_DEF:0 "American Mittelafrika"
 
   P54_USA_neutrality_subject:0 "American Chile"
   P54_USA_neutrality_subject_DEF:0 "American Chile"
@@ -9377,17 +10048,32 @@
   P17_USA_fascism_subject:0 "American Indonesia"
   P17_USA_fascism_subject_DEF:0 "American Indonesia"
 
+  P18_USA_fascism_subject:0 "American Midwestern U.S."
+  P18_USA_fascism_subject_DEF:0 "American Midwestern U.S."
+
   P19_USA_fascism_subject:0 "American North Germany"
   P19_USA_fascism_subject_DEF:0 "American North Germany"
 
+  P20_USA_fascism_subject:0 "American Northeastern U.S."
+  P20_USA_fascism_subject_DEF:0 "American Northeastern U.S."
+
+  P21_USA_fascism_subject:0 "American Pacific U.S."
+  P21_USA_fascism_subject_DEF:0 "American Pacific U.S."
+
   P22_USA_fascism_subject:0 "American Quebec"
   P22_USA_fascism_subject_DEF:0 "American Quebec"
+
+  P23_USA_fascism_subject:0 "American U.S. Rockies"
+  P23_USA_fascism_subject_DEF:0 "American U.S. Rockies"
 
   P24_USA_fascism_subject:0 "American Scandinavia"
   P24_USA_fascism_subject_DEF:0 "American Scandinavia"
 
   P25_USA_fascism_subject:0 "American South Germany"
   P25_USA_fascism_subject_DEF:0 "American South Germany"
+
+  P26_USA_fascism_subject:0 "American Southern U.S."
+  P26_USA_fascism_subject_DEF:0 "American Southern U.S."
 
   P27_USA_fascism_subject:0 "American Oceania"
   P27_USA_fascism_subject_DEF:0 "American Oceania"
@@ -9466,6 +10152,9 @@
 
   P52_USA_fascism_subject:0 "American Himalayas"
   P52_USA_fascism_subject_DEF:0 "American Himalayas"
+
+  P53_USA_fascism_subject:0 "American Mittelafrika"
+  P53_USA_fascism_subject_DEF:0 "American Mittelafrika"
 
   P54_USA_fascism_subject:0 "American Chile"
   P54_USA_fascism_subject_DEF:0 "American Chile"
@@ -9676,3 +10365,4 @@
 
   Q24_USA_fascism_subject:0 "American Tibet"
   Q24_USA_fascism_subject_DEF:0 "American Tibet"
+
