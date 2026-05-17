@@ -368,8 +368,8 @@
   P03_GER_democratic_subject:0 "German Arabia"
   P03_GER_democratic_subject_DEF:0 "German Arabia"
 
-  P04_GER_democratic_subject:0 "German Baltic States"
-  P04_GER_democratic_subject_DEF:0 "German Baltic States"
+  P04_GER_democratic_subject:0 "German Baltic"
+  P04_GER_democratic_subject_DEF:0 "German Baltic"
 
   P05_GER_democratic_subject:0 "German Netherlands"
   P05_GER_democratic_subject_DEF:0 "German Netherlands"
@@ -425,8 +425,8 @@
   P24_GER_democratic_subject:0 "German Scandinavia"
   P24_GER_democratic_subject_DEF:0 "German Scandinavia"
 
-  P26_GER_democratic_subject:0 "German South"
-  P26_GER_democratic_subject_DEF:0 "German South"
+  P26_GER_democratic_subject:0 "German Southern U.S."
+  P26_GER_democratic_subject_DEF:0 "German Southern U.S."
 
   P27_GER_democratic_subject:0 "German Oceania"
   P27_GER_democratic_subject_DEF:0 "German Oceania"
@@ -1072,8 +1072,8 @@
   P03_GER_fascism_subject:0 "German Arabia"
   P03_GER_fascism_subject_DEF:0 "German Arabia"
 
-  P04_GER_fascism_subject:0 "German Baltic"
-  P04_GER_fascism_subject_DEF:0 "German Baltic"
+  P04_GER_fascism_subject:0 "Reichskommissariat Ostland"
+  P04_GER_fascism_subject_DEF:0 "Reichskommissariat Ostland"
 
   P05_GER_fascism_subject:0 "Reichskommissariat Niederlande"
   P05_GER_fascism_subject_DEF:0 "Reichskommissariat Niederlande"
@@ -1129,14 +1129,14 @@
   P24_GER_fascism_subject:0 "German Scandinavia"
   P24_GER_fascism_subject_DEF:0 "German Scandinavia"
 
-  P26_GER_fascism_subject:0 "German South"
-  P26_GER_fascism_subject_DEF:0 "German South"
+  P26_GER_fascism_subject:0 "German Southern U.S."
+  P26_GER_fascism_subject_DEF:0 "German Southern U.S."
 
   P27_GER_fascism_subject:0 "German Oceania"
   P27_GER_fascism_subject_DEF:0 "German Oceania"
 
-  P28_GER_fascism_subject:0 "German Transcaucasia"
-  P28_GER_fascism_subject_DEF:0 "German Transcaucasia"
+  P28_GER_fascism_subject:0 "Reichskommissariat Kaukasus"
+  P28_GER_fascism_subject_DEF:0 "Reichskommissariat Kaukasus"
 
   P29_GER_fascism_subject:0 "German Western Canada"
   P29_GER_fascism_subject_DEF:0 "German Western Canada"
@@ -1159,8 +1159,8 @@
   P38_GER_fascism_subject:0 "German Bangladesh"
   P38_GER_fascism_subject_DEF:0 "German Bangladesh"
 
-  P39_GER_fascism_subject:0 "German Central Russia"
-  P39_GER_fascism_subject_DEF:0 "German Central Russia"
+  P39_GER_fascism_subject:0 "Reichskommissariat Moskowien"
+  P39_GER_fascism_subject_DEF:0 "Reichskommissariat Moskowien"
 
   P40_GER_fascism_subject:0 "German Southern Russia"
   P40_GER_fascism_subject_DEF:0 "German Southern Russia"
@@ -1195,8 +1195,8 @@
   P50_GER_fascism_subject:0 "German Yugoslavia"
   P50_GER_fascism_subject_DEF:0 "German Yugoslavia"
 
-  P51_GER_fascism_subject:0 "German Turkestan"
-  P51_GER_fascism_subject_DEF:0 "German Turkestan"
+  P51_GER_fascism_subject:0 "Reichskommissariat Turkestan"
+  P51_GER_fascism_subject_DEF:0 "Reichskommissariat Turkestan"
 
   P52_GER_fascism_subject:0 "German Himalayas"
   P52_GER_fascism_subject_DEF:0 "German Himalayas"
@@ -1219,17 +1219,17 @@
   P58_GER_fascism_subject:0 "German Mexico"
   P58_GER_fascism_subject_DEF:0 "German Mexico"
 
-  P59_GER_fascism_subject:0 "German Czechia"
-  P59_GER_fascism_subject_DEF:0 "German Czechia"
+  P59_GER_fascism_subject:0 "Reichsprotektorat Böhmen und Mähren"
+  P59_GER_fascism_subject_DEF:0 "Reichsprotektorat Böhmen und Mähren"
 
   P60_GER_fascism_subject:0 "German Military Administration in Belgium"
-  P60_GER_fascism_subject_DEF:0 "German Military Administration in Belgium"
+  P60_GER_fascism_subject_DEF:0 "the German Military Administration in Belgium"
 
   P61_GER_fascism_subject:0 "German Denmark"
   P61_GER_fascism_subject_DEF:0 "German Denmark"
 
-  P62_GER_fascism_subject:0 "German Northern France"
-  P62_GER_fascism_subject_DEF:0 "German Northern France"
+  P62_GER_fascism_subject:0 "German Military Administration in France"
+  P62_GER_fascism_subject_DEF:0 "the German Military Administration in France"
 
   P63_GER_fascism_subject:0 "German Southern France"
   P63_GER_fascism_subject_DEF:0 "German Southern France"
@@ -1237,11 +1237,11 @@
   P64_GER_fascism_subject:0 "German French Alps"
   P64_GER_fascism_subject_DEF:0 "German French Alps"
 
-  P65_GER_fascism_subject:0 "Norwegian National Government"
-  P65_GER_fascism_subject_DEF:0 "Norwegian National Government"
+  P65_GER_fascism_subject:0 "German Norway"
+  P65_GER_fascism_subject_DEF:0 "German Norway"
 
-  P66_GER_fascism_subject:0 "German Ukraine"
-  P66_GER_fascism_subject_DEF:0 "German Ukraine"
+  P66_GER_fascism_subject:0 "Reichskommissariat Ukraine"
+  P66_GER_fascism_subject_DEF:0 "Reichskommissariat Ukraine"
 
   P67_GER_fascism_subject:0 "German Levant"
   P67_GER_fascism_subject_DEF:0 "German Levant"
