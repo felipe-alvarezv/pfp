@@ -1,5 +1,5 @@
 #South Germany
-capital = 4 #Vienna
+capital = 52 #Oberbayern
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3

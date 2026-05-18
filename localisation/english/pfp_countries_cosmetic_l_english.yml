@@ -1216,8 +1216,8 @@
   P33_GER_fascism_subject:0 "German Prussia"
   P33_GER_fascism_subject_DEF:0 "German Prussia"
 
-  P34_GER_fascism_subject:0 "German Poland"
-  P34_GER_fascism_subject_DEF:0 "German Poland"
+  P34_GER_fascism_subject:0 "General Governorate for the Occupied Polish Region"
+  P34_GER_fascism_subject_DEF:0 "the General Governorate for the Occupied Polish Region"
 
   P35_GER_fascism_subject:0 "German West Africa"
   P35_GER_fascism_subject_DEF:0 "German West Africa"
@@ -1297,17 +1297,17 @@
   P60_GER_fascism_subject:0 "German Military Administration in Belgium"
   P60_GER_fascism_subject_DEF:0 "the German Military Administration in Belgium"
 
-  P61_GER_fascism_subject:0 "German Denmark"
-  P61_GER_fascism_subject_DEF:0 "German Denmark"
+  P61_GER_fascism_subject:0 "State of Denmark"
+  P61_GER_fascism_subject_DEF:0 "State of Denmark"
 
   P62_GER_fascism_subject:0 "German Military Administration in France"
   P62_GER_fascism_subject_DEF:0 "the German Military Administration in France"
 
-  P63_GER_fascism_subject:0 "German Southern France"
-  P63_GER_fascism_subject_DEF:0 "German Southern France"
+  P63_GER_fascism_subject:0 "Vichy France"
+  P63_GER_fascism_subject_DEF:0 "Vichy France"
 
-  P64_GER_fascism_subject:0 "German French Alps"
-  P64_GER_fascism_subject_DEF:0 "German French Alps"
+  P64_GER_fascism_subject:0 "German Military Administration in the French Alps"
+  P64_GER_fascism_subject_DEF:0 "the German Military Administration in the French Alps"
 
   P65_GER_fascism_subject:0 "German Norway"
   P65_GER_fascism_subject_DEF:0 "German Norway"
@@ -1345,8 +1345,8 @@
   P76_GER_fascism_subject:0 "German Afghanistan"
   P76_GER_fascism_subject_DEF:0 "German Afghanistan"
 
-  P77_GER_fascism_subject:0 "German Austria"
-  P77_GER_fascism_subject_DEF:0 "German Austria"
+  P77_GER_fascism_subject:0 "State of Austria"
+  P77_GER_fascism_subject_DEF:0 "State of Austria"
 
   P78_GER_fascism_subject:0 "German Switzerland"
   P78_GER_fascism_subject_DEF:0 "German Switzerland"
@@ -4471,8 +4471,8 @@
   P08_SOV_communism_subject:0 "Soviet Central America"
   P08_SOV_communism_subject_DEF:0 "Soviet Central America"
 
-  P09_SOV_communism_subject:0 "Soviet Hungary"
-  P09_SOV_communism_subject_DEF:0 "Soviet Hungary"
+  P09_SOV_communism_subject:0 "Hungarian People's Republic"
+  P09_SOV_communism_subject_DEF:0 "Hungarian People's Republic"
 
   P10_SOV_communism_subject:0 "Soviet East Africa"
   P10_SOV_communism_subject_DEF:0 "Soviet East Africa"
@@ -4483,11 +4483,11 @@
   P12_SOV_communism_subject:0 "Finnish Democratic Republic"
   P12_SOV_communism_subject_DEF:0 "Finnish Democratic Republic"
 
-  P13_SOV_communism_subject:0 "Soviet Germany"
-  P13_SOV_communism_subject_DEF:0 "Soviet Germany"
+  P13_SOV_communism_subject:0 "German Democratic Republic"
+  P13_SOV_communism_subject_DEF:0 "the German Democratic Republic"
 
-  P14_SOV_communism_subject:0 "Soviet Greece"
-  P14_SOV_communism_subject_DEF:0 "Soviet Greece"
+  P14_SOV_communism_subject:0 "Greek Provisional Democratic Government"
+  P14_SOV_communism_subject_DEF:0 "the Greek Provisional Democratic Government"
 
   P15_SOV_communism_subject:0 "Soviet Iberia"
   P15_SOV_communism_subject_DEF:0 "Soviet Iberia"
@@ -4543,11 +4543,11 @@
   P32_SOV_communism_subject:0 "Soviet East Germany"
   P32_SOV_communism_subject_DEF:0 "Soviet East Germany"
 
-  P33_SOV_communism_subject:0 "Soviet Prussia"
-  P33_SOV_communism_subject_DEF:0 "Soviet Prussia"
+  P33_SOV_communism_subject:0 "Prussian Democratic Republic"
+  P33_SOV_communism_subject_DEF:0 "the Prussian Democratic Republic"
 
-  P34_SOV_communism_subject:0 "Soviet Poland"
-  P34_SOV_communism_subject_DEF:0 "Soviet Poland"
+  P34_SOV_communism_subject:0 "Polish People's Republic"
+  P34_SOV_communism_subject_DEF:0 "the Polish People's Republic"
 
   P35_SOV_communism_subject:0 "Soviet West Africa"
   P35_SOV_communism_subject_DEF:0 "Soviet West Africa"
@@ -4591,11 +4591,11 @@
   P48_SOV_communism_subject:0 "Soviet Western Russia"
   P48_SOV_communism_subject_DEF:0 "Soviet Western Russia"
 
-  P49_SOV_communism_subject:0 "Soviet Bulgaria"
-  P49_SOV_communism_subject_DEF:0 "Soviet Bulgaria"
+  P49_SOV_communism_subject:0 "People's Republic of Bulgaria"
+  P49_SOV_communism_subject_DEF:0 "the People's Republic of Bulgaria"
 
-  P50_SOV_communism_subject:0 "Soviet Yugoslavia"
-  P50_SOV_communism_subject_DEF:0 "Soviet Yugoslavia"
+  P50_SOV_communism_subject:0 "Socialist Federal Republic of Yugoslavia"
+  P50_SOV_communism_subject_DEF:0 "the Socialist Federal Republic of Yugoslavia"
 
   P51_SOV_communism_subject:0 "Turkestan SSR"
   P51_SOV_communism_subject_DEF:0 "Turkestan SSR"
@@ -4621,8 +4621,8 @@
   P58_SOV_communism_subject:0 "Soviet Mexico"
   P58_SOV_communism_subject_DEF:0 "Soviet Mexico"
 
-  P59_SOV_communism_subject:0 "Soviet Czechia"
-  P59_SOV_communism_subject_DEF:0 "Soviet Czechia"
+  P59_SOV_communism_subject:0 "Czech Socialist Republic"
+  P59_SOV_communism_subject_DEF:0 "the Czech Socialist Republic"
 
   P60_SOV_communism_subject:0 "Soviet Belgium"
   P60_SOV_communism_subject_DEF:0 "Soviet Belgium"
@@ -4681,8 +4681,8 @@
   P78_SOV_communism_subject:0 "Soviet Switzerland"
   P78_SOV_communism_subject_DEF:0 "Soviet Switzerland"
 
-  P79_SOV_communism_subject:0 "Soviet Romania"
-  P79_SOV_communism_subject_DEF:0 "Soviet Romania"
+  P79_SOV_communism_subject:0 "Romanian People's Republic"
+  P79_SOV_communism_subject_DEF:0 "the Romanian People's Republic"
 
   P80_SOV_communism_subject:0 "Soviet England"
   P80_SOV_communism_subject_DEF:0 "Soviet England"
@@ -4702,23 +4702,23 @@
   P85_SOV_communism_subject:0 "Soviet Greenland"
   P85_SOV_communism_subject_DEF:0 "Soviet Greenland"
 
-  P86_SOV_communism_subject:0 "Soviet Croatia"
-  P86_SOV_communism_subject_DEF:0 "Soviet Croatia"
+  P86_SOV_communism_subject:0 "Socialist Republic of Croatia"
+  P86_SOV_communism_subject_DEF:0 "the Socialist Republic of Croatia"
 
-  P87_SOV_communism_subject:0 "Soviet Slovenia"
-  P87_SOV_communism_subject_DEF:0 "Soviet Slovenia"
+  P87_SOV_communism_subject:0 "Socialist Republic of Slovenia"
+  P87_SOV_communism_subject_DEF:0 "the Socialist Republic of Slovenia"
 
-  P88_SOV_communism_subject:0 "Soviet Bosnia-Herzegovina"
-  P88_SOV_communism_subject_DEF:0 "Soviet Bosnia-Herzegovina"
+  P88_SOV_communism_subject:0 "Socialist Republic of Bosnia and Herzegovina"
+  P88_SOV_communism_subject_DEF:0 "the Socialist Republic of Bosnia and Herzegovina"
 
-  P89_SOV_communism_subject:0 "Soviet Serbia"
-  P89_SOV_communism_subject_DEF:0 "Soviet Serbia"
+  P89_SOV_communism_subject:0 "Socialist Republic of Serbia"
+  P89_SOV_communism_subject_DEF:0 "the Socialist Republic of Serbia"
 
-  P90_SOV_communism_subject:0 "Soviet Montenegro"
-  P90_SOV_communism_subject_DEF:0 "Soviet Montenegro"
+  P90_SOV_communism_subject:0 "Socialist Republic of Montenegro"
+  P90_SOV_communism_subject_DEF:0 "Socialist Republic of Montenegro"
 
-  P91_SOV_communism_subject:0 "Soviet Albania"
-  P91_SOV_communism_subject_DEF:0 "Soviet Albania"
+  P91_SOV_communism_subject:0 "People's Republic of Albania"
+  P91_SOV_communism_subject_DEF:0 "the People's Republic of Albania"
 
   P92_SOV_communism_subject:0 "Soviet Lombardy-Venetia"
   P92_SOV_communism_subject_DEF:0 "Soviet Lombardy-Venetia"
@@ -4738,8 +4738,8 @@
   P97_SOV_communism_subject:0 "Soviet Two Sicilies"
   P97_SOV_communism_subject_DEF:0 "Soviet Two Sicilies"
 
-  P98_SOV_communism_subject:0 "Soviet Macedonia"
-  P98_SOV_communism_subject_DEF:0 "Soviet Macedonia"
+  P98_SOV_communism_subject:0 "Socialist Republic of Macedonia"
+  P98_SOV_communism_subject_DEF:0 "the Socialist Republic of Macedonia"
 
   P99_SOV_communism_subject:0 "Soviet Hokkaido"
   P99_SOV_communism_subject_DEF:0 "Soviet Hokkaido"
