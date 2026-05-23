@@ -1126,11 +1126,11 @@
   P03_GER_fascism_subject:0 "German Arabia"
   P03_GER_fascism_subject_DEF:0 "German Arabia"
 
-  P04_GER_fascism_subject:0 "Reichskommissariat Ostland"
-  P04_GER_fascism_subject_DEF:0 "Reichskommissariat Ostland"
+  P04_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Ostland"
+  P04_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Ostland"
 
-  P05_GER_fascism_subject:0 "Reichskommissariat Niederlande"
-  P05_GER_fascism_subject_DEF:0 "Reichskommissariat Niederlande"
+  P05_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Niederlande"
+  P05_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Niederlande"
 
   P06_GER_fascism_subject:0 "German West Indies"
   P06_GER_fascism_subject_DEF:0 "German West Indies"
@@ -1216,8 +1216,8 @@
   P33_GER_fascism_subject:0 "German Prussia"
   P33_GER_fascism_subject_DEF:0 "German Prussia"
 
-  P34_GER_fascism_subject:0 "General Governorate for the Occupied Polish Region"
-  P34_GER_fascism_subject_DEF:0 "the General Governorate for the Occupied Polish Region"
+  P34_GERMANY_PUPPET_GER_fascism_subject:0 "General Governorate for the Occupied Polish Region"
+  P34_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the General Governorate for the Occupied Polish Region"
 
   P35_GER_fascism_subject:0 "German West Africa"
   P35_GER_fascism_subject_DEF:0 "German West Africa"
@@ -1291,14 +1291,14 @@
   P58_GER_fascism_subject:0 "German Mexico"
   P58_GER_fascism_subject_DEF:0 "German Mexico"
 
-  P59_GER_fascism_subject:0 "Reichsprotektorat Böhmen und Mähren"
-  P59_GER_fascism_subject_DEF:0 "Reichsprotektorat Böhmen und Mähren"
+  P59_GERMANY_PUPPET_GER_fascism_subject:0 "Reichsprotektorat Böhmen und Mähren"
+  P59_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichsprotektorat Böhmen und Mähren"
 
-  P60_GER_fascism_subject:0 "German Military Administration in Belgium"
-  P60_GER_fascism_subject_DEF:0 "the German Military Administration in Belgium"
+  P60_GERMANY_PUPPET_GER_fascism_subject:0 "German Military Administration in Belgium"
+  P60_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the German Military Administration in Belgium"
 
-  P61_GER_fascism_subject:0 "State of Denmark"
-  P61_GER_fascism_subject_DEF:0 "State of Denmark"
+  P61_GERMANY_PUPPET_GER_fascism_subject:0 "State of Denmark"
+  P61_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "State of Denmark"
 
   P62_GER_fascism_subject:0 "German Military Administration in France"
   P62_GER_fascism_subject_DEF:0 "the German Military Administration in France"
@@ -6125,8 +6125,8 @@
   P66_FRA_communism_subject:0 "French Ukraine"
   P66_FRA_communism_subject_DEF:0 "French Ukraine"
 
-  P67_FRA_communism_subject:0 "French Mandate of the Levant"
-  P67_FRA_communism_subject_DEF:0 "French Mandate of the Levant"
+  P67_FRA_communism_subject:0 "French Levant"
+  P67_FRA_communism_subject_DEF:0 "French Levant"
 
   P68_FRA_communism_subject:0 "French Turkey"
   P68_FRA_communism_subject_DEF:0 "French Turkey"
@@ -7235,8 +7235,8 @@
   P66_FRA_fascism_subject:0 "French Ukraine"
   P66_FRA_fascism_subject_DEF:0 "French Ukraine"
 
-  P67_FRA_fascism_subject:0 "French Mandate of the Levant"
-  P67_FRA_fascism_subject_DEF:0 "French Mandate of the Levant"
+  P67_FRA_fascism_subject:0 "French Levant"
+  P67_FRA_fascism_subject_DEF:0 "French Levant"
 
   P68_FRA_fascism_subject:0 "French Turkey"
   P68_FRA_fascism_subject_DEF:0 "French Turkey"
@@ -7981,8 +7981,8 @@
   P68_ENG_democratic_subject:0 "British Turkey"
   P68_ENG_democratic_subject_DEF:0 "British Turkey"
 
-  P69_ENG_democratic_subject:0 "British Iraq"
-  P69_ENG_democratic_subject_DEF:0 "British Iraq"
+  P69_ENG_democratic_subject:0 "British Mandate of Iraq"
+  P69_ENG_democratic_subject_DEF:0 "the British Mandate of Iraq"
 
   P70_ENG_democratic_subject:0 "British Kurdistan"
   P70_ENG_democratic_subject_DEF:0 "British Kurdistan"
@@ -8351,8 +8351,8 @@
   P68_ENG_neutrality_subject:0 "British Turkey"
   P68_ENG_neutrality_subject_DEF:0 "British Turkey"
 
-  P69_ENG_neutrality_subject:0 "British Iraq"
-  P69_ENG_neutrality_subject_DEF:0 "British Iraq"
+  P69_ENG_neutrality_subject:0 "British Mandate of Iraq"
+  P69_ENG_neutrality_subject_DEF:0 "the British Mandate of Iraq"
 
   P70_ENG_neutrality_subject:0 "British Kurdistan"
   P70_ENG_neutrality_subject_DEF:0 "British Kurdistan"
