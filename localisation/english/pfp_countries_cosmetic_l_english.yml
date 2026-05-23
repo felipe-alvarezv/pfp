@@ -1198,8 +1198,8 @@
   P27_GER_fascism_subject:0 "German Oceania"
   P27_GER_fascism_subject_DEF:0 "German Oceania"
 
-  P28_GER_fascism_subject:0 "Reichskommissariat Kaukasus"
-  P28_GER_fascism_subject_DEF:0 "Reichskommissariat Kaukasus"
+  P28_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Kaukasus"
+  P28_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Kaukasus"
 
   P29_GER_fascism_subject:0 "German Western Canada"
   P29_GER_fascism_subject_DEF:0 "German Western Canada"
@@ -1231,8 +1231,8 @@
   P38_GER_fascism_subject:0 "German Bangladesh"
   P38_GER_fascism_subject_DEF:0 "German Bangladesh"
 
-  P39_GER_fascism_subject:0 "Reichskommissariat Moskowien"
-  P39_GER_fascism_subject_DEF:0 "Reichskommissariat Moskowien"
+  P39_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Moskowien"
+  P39_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Moskowien"
 
   P40_GER_fascism_subject:0 "German Southern Russia"
   P40_GER_fascism_subject_DEF:0 "German Southern Russia"
@@ -1267,8 +1267,8 @@
   P50_GER_fascism_subject:0 "German Yugoslavia"
   P50_GER_fascism_subject_DEF:0 "German Yugoslavia"
 
-  P51_GER_fascism_subject:0 "Reichskommissariat Turkestan"
-  P51_GER_fascism_subject_DEF:0 "Reichskommissariat Turkestan"
+  P51_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Turkestan"
+  P51_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Turkestan"
 
   P52_GER_fascism_subject:0 "German Himalayas"
   P52_GER_fascism_subject_DEF:0 "German Himalayas"
@@ -1300,20 +1300,20 @@
   P61_GERMANY_PUPPET_GER_fascism_subject:0 "State of Denmark"
   P61_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "State of Denmark"
 
-  P62_GER_fascism_subject:0 "German Military Administration in France"
-  P62_GER_fascism_subject_DEF:0 "the German Military Administration in France"
+  P62_GERMANY_PUPPET_GER_fascism_subject:0 "German Military Administration in France"
+  P62_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the German Military Administration in France"
 
-  P63_GER_fascism_subject:0 "Vichy France"
-  P63_GER_fascism_subject_DEF:0 "Vichy France"
+  P63_GERMANY_PUPPET_GER_fascism_subject:0 "Vichy France"
+  P63_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Vichy France"
 
-  P64_GER_fascism_subject:0 "German Military Administration in the French Alps"
-  P64_GER_fascism_subject_DEF:0 "the German Military Administration in the French Alps"
+  P64_GERMANY_PUPPET_GER_fascism_subject:0 "German Military Administration in the French Alps"
+  P64_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the German Military Administration in the French Alps"
 
   P65_GER_fascism_subject:0 "German Norway"
   P65_GER_fascism_subject_DEF:0 "German Norway"
 
-  P66_GER_fascism_subject:0 "Reichskommissariat Ukraine"
-  P66_GER_fascism_subject_DEF:0 "Reichskommissariat Ukraine"
+  P66_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Ukraine"
+  P66_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Ukraine"
 
   P67_GER_fascism_subject:0 "German Levant"
   P67_GER_fascism_subject_DEF:0 "German Levant"
@@ -1345,8 +1345,8 @@
   P76_GER_fascism_subject:0 "German Afghanistan"
   P76_GER_fascism_subject_DEF:0 "German Afghanistan"
 
-  P77_GER_fascism_subject:0 "State of Austria"
-  P77_GER_fascism_subject_DEF:0 "State of Austria"
+  P77_GERMANY_PUPPET_GER_fascism_subject:0 "State of Austria"
+  P77_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "State of Austria"
 
   P78_GER_fascism_subject:0 "German Switzerland"
   P78_GER_fascism_subject_DEF:0 "German Switzerland"
