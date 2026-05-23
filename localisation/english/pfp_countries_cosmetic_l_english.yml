@@ -16,17 +16,17 @@
   P05_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Niederlande"
   P05_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Niederlande"
 
-  P09_GERMANY_PUPPET_GER_fascism_subject:0 "Kingdom of Hungary"
-  P09_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Kingdom of Hungary"
+  P09_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Ungarn"
+  P09_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Ungarn"
 
-  P12_GERMANY_PUPPET_GER_fascism_subject:0 "Kingdom of Finland"
-  P12_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Kingdom of Finland"
+  P12_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Finnland"
+  P12_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Finnland"
 
-  P14_GERMANY_PUPPET_GER_fascism_subject:0 "Hellenic State"
-  P14_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Hellenic State"
+  P14_GERMANY_PUPPET_GER_fascism_subject:0 "Hellenischer Staat"
+  P14_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Hellenischer Staat"
 
-  P15_GERMANY_PUPPET_GER_fascism_subject:0 "Iberian State"
-  P15_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Iberian State"
+  P15_GERMANY_PUPPET_GER_fascism_subject:0 "Iberischer Staat"
+  P15_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Iberischer Staat"
 
   P28_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Kaukasus"
   P28_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Kaukasus"
@@ -58,8 +58,8 @@
   P46_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Fernost"
   P46_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Fernost"
 
-  P49_GERMANY_PUPPET_GER_fascism_subject:0 "Kingdom of Bulgaria"
-  P49_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Kingdom of Bulgaria"
+  P49_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Bulgarien"
+  P49_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Bulgarien"
 
   P50_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Jugoslawien"
   P50_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Jugoslawien"
@@ -73,63 +73,63 @@
   P60_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Belgien"
   P60_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Belgien"
 
-  P61_GERMANY_PUPPET_GER_fascism_subject:0 "State of Denmark"
-  P61_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "State of Denmark"
+  P61_GERMANY_PUPPET_GER_fascism_subject:0 "Dänemark"
+  P61_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Dänemark"
 
-  P62_GERMANY_PUPPET_GER_fascism_subject:0 "German Military Administration in France"
-  P62_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the German Military Administration in France"
+  P62_GERMANY_PUPPET_GER_fascism_subject:0 "Deutsche Militärverwaltung in Frankreich"
+  P62_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Deutsche Militärverwaltung in Frankreich"
 
-  P63_GERMANY_PUPPET_GER_fascism_subject:0 "Vichy France"
-  P63_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Vichy France"
+  P63_GERMANY_PUPPET_GER_fascism_subject:0 "Französischer Staat"
+  P63_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Französischer Staat"
 
-  P64_GERMANY_PUPPET_GER_fascism_subject:0 "German Military Administration in the French Alps"
-  P64_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the German Military Administration in the French Alps"
+  P64_GERMANY_PUPPET_GER_fascism_subject:0 "Deutsche Militärverwaltung in den Französischen Alpen"
+  P64_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Deutsche Militärverwaltung in den Französischen Alpen"
 
   P66_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Ukraine"
   P66_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Ukraine"
 
-  P68_GERMANY_PUPPET_GER_fascism_subject:0 "Turkish State"
-  P68_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Turkish State"
+  P68_GERMANY_PUPPET_GER_fascism_subject:0 "Türkischer Staat"
+  P68_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Türkischer Staat"
 
-  P73_GERMANY_PUPPET_GER_fascism_subject:0 "Irish State"
-  P73_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Irish State"
+  P73_GERMANY_PUPPET_GER_fascism_subject:0 "Irischer Staat"
+  P73_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Irischer Staat"
 
-  P77_GERMANY_PUPPET_GER_fascism_subject:0 "State of Austria"
-  P77_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "State of Austria"
+  P77_GERMANY_PUPPET_GER_fascism_subject:0 "Ostmark"
+  P77_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Ostmark"
 
-  P79_GERMANY_PUPPET_GER_fascism_subject:0 "Kingdom of Romania"
-  P79_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Kingdom of Romania"
+  P79_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Rumänien"
+  P79_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Rumänien"
 
   P80_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat England"
   P80_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat England"
 
-  P81_GERMANY_PUPPET_GER_fascism_subject:0 "Kingdom of Scotland"
-  P81_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Kingdom of Scotland"
+  P81_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Schottland"
+  P81_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Schottland"
 
-  P82_GERMANY_PUPPET_GER_fascism_subject:0 "Principality of Wales"
-  P82_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Principality of Wales"
+  P82_GERMANY_PUPPET_GER_fascism_subject:0 "Fürstentum Wales"
+  P82_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Fürstentum Wales"
 
-  P84_GERMANY_PUPPET_GER_fascism_subject:0 "Province of Ulster"
-  P84_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Province of Ulster"
+  P84_GERMANY_PUPPET_GER_fascism_subject:0 "Provinz Ulster"
+  P84_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Provinz Ulster"
 
-  P86_GERMANY_PUPPET_GER_fascism_subject:0 "Independent State of Croatia"
-  P86_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the Independent State of Croatia"
+  P86_GERMANY_PUPPET_GER_fascism_subject:0 "Unabhängiger Staat Kroatien"
+  P86_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Unabhängiger Staat Kroatien"
 
-  P87_GERMANY_PUPPET_GER_fascism_subject:0 "State of Slovenia"
-  P87_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "State of Slovenia"
+  P87_GERMANY_PUPPET_GER_fascism_subject:0 "Slowenien"
+  P87_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Slowenien"
 
   P88_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Bosnien"
   P88_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Bosnien"
 
-  P89_GERMANY_PUPPET_GER_fascism_subject:0 "Territory of the Military Commander in Serbia"
-  P89_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the Territory of the Military Commander in Serbia"
+  P89_GERMANY_PUPPET_GER_fascism_subject:0 "Gebiet des Militärbefehlshabers in Serbien"
+  P89_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Gebiet des Militärbefehlshabers in Serbien"
 
-  P90_GERMANY_PUPPET_GER_fascism_subject:0 "Kingdom of Montenegro"
-  P90_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Kingdom of Montenegro"
+  P90_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Montenegro"
+  P90_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Montenegro"
 
-  P91_GERMANY_PUPPET_GER_fascism_subject:0 "Kingdom of Albania"
-  P91_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Kingdom of Albania"
+  P91_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Albanien"
+  P91_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Albanien"
 
-  P98_GERMANY_PUPPET_GER_fascism_subject:0 "Independent State of Macedonia"
-  P98_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "the Independent State of Macedonia"
+  P98_GERMANY_PUPPET_GER_fascism_subject:0 "Unabhängiger Staat Mazedonien"
+  P98_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Unabhängiger Staat Mazedonien"
 
