@@ -150,12 +150,6 @@ Source:  https://commons.wikimedia.org/wiki/File:Logo_du_Parti_populaire_francai
 
 -------------------------------------------------------------------------------
 
-All remaining assets (coats of arms of sovereign states, historical flags,
-and official state symbols) are in the public domain as official insignia or
-historical works with expired copyright.
-
--------------------------------------------------------------------------------
-
 OTHER FLAG ASSETS
 -----------------
 
@@ -163,5 +157,11 @@ Asset:   Flag of Western Canada
 Author:  HarleyKing
 Licence: CC BY-SA 3.0
 Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Western_Canada.svg
+
+-------------------------------------------------------------------------------
+
+All remaining assets (coats of arms of sovereign states, historical flags,
+and official state symbols) are in the public domain as official insignia or
+historical works with expired copyright.
 
 ===============================================================================
