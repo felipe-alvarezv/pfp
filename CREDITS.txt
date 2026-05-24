@@ -1,0 +1,157 @@
+CREDITS
+=======
+Pipe's Formable Puppets — Flag Asset Credits
+
+The following assets were used in the creation of the German fascist puppet
+flags included in this mod. All assets sourced from Wikimedia Commons unless
+otherwise noted. Modifications were made to some assets to fit the flag designs.
+
+All licences listed require attribution. Licence texts are available at:
+  CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+  CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+  CC BY 3.0    — https://creativecommons.org/licenses/by/3.0/
+  GFDL 1.2     — https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
+  CC0          — https://creativecommons.org/publicdomain/zero/1.0/
+
+-------------------------------------------------------------------------------
+
+ASSETS REQUIRING ATTRIBUTION
+-----------------------------
+
+Asset:   Amur Tiger
+Author:  Аргенций
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Amur_tiger.svg
+
+Asset:   Arms of the Netherlands (with Crown)
+Author:  Ssolbergj, Katepanomegas, Sodacan
+Licence: CC BY-SA 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Arms_of_the_Netherlands_(with_crown).svg
+Note:    Modified from original.
+
+Asset:   Blason Île-de-France (Unofficial)
+Author:  Superbenjamin
+Licence: CC BY-SA 3.0
+Source:  https://commons.wikimedia.org/wiki/File:BlasonIledeFranceUnofficiel.svg
+
+Asset:   Celtic-Style Crossed Circle
+Author:  Unknown
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Celtic-style_crossed_circle.svg
+
+Asset:   Coat of Arms of the Siberian Tsarstvo (1882)
+Author:  Лобачев Владимир (Lobachev Vladimir)
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Siberian_Tsarstvo_1882.svg
+Note:    Modified from original.
+
+Asset:   Coat of Arms of Ulster
+Author:  Ssolbergj
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Ulster.svg
+
+Asset:   Coat of Arms of Ural Oblast (1878)
+Author:  Лобачев Владимир (Lobachev Vladimir)
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Ural_Oblast_1878.svg
+Note:    Modified from original.
+
+Asset:   Coat of Arms of Bosnia and Herzegovina (Fojnica Armorial, 17th century)
+Author:  Madboy74
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Coa_Bosnia_and_Herzegovina_Country_History_(Fojnica_Armorial)_(17th_century).svg
+
+Asset:   Ustaše Emblem
+Author:  Rowanwindwhistler (derivative work of Barryob)
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:EscudoUstacha.svg
+
+Asset:   Fire Cross / Ugunskrusts
+Author:  RootOfAllLight
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Fire_Cross_(Ugunskrusts).svg
+
+Asset:   Flag of the Rassemblement National Populaire
+Author:  NsMn
+Licence: CC BY-SA 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_the_Rassemblement_National_Populaire.svg
+
+Asset:   Flash and Circle (British Union of Fascists Emblem)
+Author:  R-41
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Flash_and_circle.svg
+
+Asset:   La Francisque (État Français)
+Author:  Mliu92
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:La_Francisque_insigne_du_Mar%C3%A9chal_de_France,_Chef_de_l%27%C3%89tat_Fran%C3%A7ais.svg
+
+Asset:   League of Saint George Emblem
+Author:  Wikiprobe
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://en.wikipedia.org/wiki/File:League_of_Saint_George_emblem.svg
+Note:    Modified from original.
+
+Asset:   National Coat of Arms of Denmark
+Author:  Galico~commonswiki
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:National_coat_of_arms_of_Denmark.svg
+Note:    Modified from original.
+
+Asset:   Emblem of the Organisation of Ukrainian Nationalists (OUN-M)
+Author:  Alex Tora
+Licence: CC BY 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Organization_of_Ukrainian_Nationalists-M.svg
+
+Asset:   Pērkonkrusts Flag
+Author:  Jānis Stūrītis
+Licence: CC BY-SA 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Perkonkrusta_karogs.svg
+
+Asset:   Royal Arms of Belgium
+Author:  Sodacan
+Licence: CC BY-SA 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Belgium.svg
+
+Asset:   Tamga of Ashina
+Author:  International Turkic Academy
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Tamga_of_Ashina.svg
+
+Asset:   Welsh Dragon (Y Ddraig Goch)
+Author:  Sodacan
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Welsh_Dragon_(Y_Ddraig_Goch).svg
+
+Asset:   Yoke and Arrows (Falange)
+Author:  Az88
+Licence: CC BY-SA 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Yoke_and_Arrows.svg
+
+Asset:   Greek National Socialist Party Emblem
+Author:  Giannisfl
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CE%BF%CF%83%CE%BF%CF%83%CE%B9%CE%B1%CE%BB%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CF%8C_%CE%9A%CF%8C%CE%BC%CE%BC%CE%B1.svg
+
+-------------------------------------------------------------------------------
+
+PUBLIC DOMAIN / CC0 (no attribution required)
+----------------------------------------------
+
+Asset:   Emblem of the Arrow Cross Party
+Author:  Thommy
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_the_Arrow_Cross_Party.svg
+
+Asset:   Logo of the French Popular Party
+Author:  R-41
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:Logo_du_Parti_populaire_francais.svg
+
+-------------------------------------------------------------------------------
+
+All remaining assets (coats of arms of sovereign states, historical flags,
+and official state symbols) are in the public domain as official insignia or
+historical works with expired copyright.
+
+===============================================================================
