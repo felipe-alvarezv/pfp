@@ -2,11 +2,13 @@ CREDITS
 =======
 Pipe's Formable Puppets — Flag Asset Credits
 
-The following assets were used in the creation of the German fascist puppet
-flags included in this mod. All assets sourced from Wikimedia Commons unless
-otherwise noted. Modifications were made to some assets to fit the flag designs.
+The following assets were used in the creation of flags included in this mod,
+covering German and Italian fascist puppet flags, formable nation flags, and
+all other flag variants. Wikimedia assets are sourced from Wikimedia Commons
+unless otherwise noted. Modifications were made to some assets to fit the flag
+designs.
 
-All licences listed require attribution. Licence texts are available at:
+Licence texts for referenced licences are available at:
   CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
   CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
   CC BY 3.0    — https://creativecommons.org/licenses/by/3.0/
@@ -15,29 +17,28 @@ All licences listed require attribution. Licence texts are available at:
 
 -------------------------------------------------------------------------------
 
-ASSETS REQUIRING ATTRIBUTION
------------------------------
+GERMANY PUPPET FLAGS — ASSETS REQUIRING ATTRIBUTION
+-----------------------------------------------------
 
 Asset:   Amur Tiger
 Author:  Аргенций
 Licence: CC BY-SA 4.0
 Source:  https://commons.wikimedia.org/wiki/File:Amur_tiger.svg
 
-Asset:   Arms of the Netherlands (with Crown)
-Author:  Ssolbergj, Katepanomegas, Sodacan
-Licence: CC BY-SA 3.0
-Source:  https://commons.wikimedia.org/wiki/File:Arms_of_the_Netherlands_(with_crown).svg
-Note:    Modified from original.
-
-Asset:   Blason Île-de-France (Unofficial)
-Author:  Superbenjamin
-Licence: CC BY-SA 3.0
-Source:  https://commons.wikimedia.org/wiki/File:BlasonIledeFranceUnofficiel.svg
-
 Asset:   Celtic-Style Crossed Circle
 Author:  Unknown
 Licence: CC BY-SA 3.0 / GFDL 1.2
 Source:  https://commons.wikimedia.org/wiki/File:Celtic-style_crossed_circle.svg
+
+Asset:   Coat of Arms of Bosnia and Herzegovina (Fojnica Armorial, 17th century)
+Author:  Madboy74
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Coa_Bosnia_and_Herzegovina_Country_History_(Fojnica_Armorial)_(17th_century).svg
+
+Asset:   Coat of Arms of Iceland (1904)
+Author:  Ssolbergj
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Iceland_(1904).svg
 
 Asset:   Coat of Arms of the Siberian Tsarstvo (1882)
 Author:  Лобачев Владимир (Lobachev Vladimir)
@@ -56,15 +57,10 @@ Licence: CC BY-SA 4.0
 Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Ural_Oblast_1878.svg
 Note:    Modified from original.
 
-Asset:   Coat of Arms of Bosnia and Herzegovina (Fojnica Armorial, 17th century)
-Author:  Madboy74
-Licence: CC BY-SA 4.0
-Source:  https://commons.wikimedia.org/wiki/File:Coa_Bosnia_and_Herzegovina_Country_History_(Fojnica_Armorial)_(17th_century).svg
-
-Asset:   Ustaše Emblem
-Author:  Rowanwindwhistler (derivative work of Barryob)
-Licence: CC BY-SA 3.0 / GFDL 1.2
-Source:  https://commons.wikimedia.org/wiki/File:EscudoUstacha.svg
+Asset:   Emblem of the Organisation of Ukrainian Nationalists (OUN-M)
+Author:  Alex Tora
+Licence: CC BY 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Organization_of_Ukrainian_Nationalists-M.svg
 
 Asset:   Fire Cross / Ugunskrusts
 Author:  RootOfAllLight
@@ -76,10 +72,20 @@ Author:  NsMn
 Licence: CC BY-SA 3.0
 Source:  https://commons.wikimedia.org/wiki/File:Flag_of_the_Rassemblement_National_Populaire.svg
 
+Asset:   Flag of the Volga Germans
+Author:  Argean
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Volga_Germans_(version).svg
+
 Asset:   Flash and Circle (British Union of Fascists Emblem)
 Author:  R-41
 Licence: CC BY-SA 4.0
 Source:  https://commons.wikimedia.org/wiki/File:Flash_and_circle.svg
+
+Asset:   Kolovrat (Slavic Sun Wheel)
+Author:  Bassas1
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Kolovorat_ih_History.jpg
 
 Asset:   La Francisque (État Français)
 Author:  Mliu92
@@ -98,16 +104,6 @@ Licence: CC BY-SA 3.0 / GFDL 1.2
 Source:  https://commons.wikimedia.org/wiki/File:National_coat_of_arms_of_Denmark.svg
 Note:    Modified from original.
 
-Asset:   Emblem of the Organisation of Ukrainian Nationalists (OUN-M)
-Author:  Alex Tora
-Licence: CC BY 3.0
-Source:  https://commons.wikimedia.org/wiki/File:Organization_of_Ukrainian_Nationalists-M.svg
-
-Asset:   Pērkonkrusts Flag
-Author:  Jānis Stūrītis
-Licence: CC BY-SA 3.0
-Source:  https://commons.wikimedia.org/wiki/File:Perkonkrusta_karogs.svg
-
 Asset:   Royal Arms of Belgium
 Author:  Sodacan
 Licence: CC BY-SA 3.0
@@ -117,6 +113,11 @@ Asset:   Tamga of Ashina
 Author:  International Turkic Academy
 Licence: CC BY-SA 4.0
 Source:  https://commons.wikimedia.org/wiki/File:Tamga_of_Ashina.svg
+
+Asset:   Ustaše Emblem
+Author:  Rowanwindwhistler (derivative work of Barryob)
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:EscudoUstacha.svg
 
 Asset:   Welsh Dragon (Y Ddraig Goch)
 Author:  Sodacan
@@ -128,35 +129,389 @@ Author:  Az88
 Licence: CC BY-SA 3.0
 Source:  https://commons.wikimedia.org/wiki/File:Yoke_and_Arrows.svg
 
-Asset:   Greek National Socialist Party Emblem
-Author:  Giannisfl
-Licence: CC BY-SA 4.0
-Source:  https://commons.wikimedia.org/wiki/File:%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CE%BF%CF%83%CE%BF%CF%83%CE%B9%CE%B1%CE%BB%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CF%8C_%CE%9A%CF%8C%CE%BC%CE%BC%CE%B1.svg
-
 -------------------------------------------------------------------------------
 
-PUBLIC DOMAIN / CC0 (no attribution required)
-----------------------------------------------
+GERMANY PUPPET FLAGS — PUBLIC DOMAIN / CC0
+-------------------------------------------
+
+Asset:   Ailtirí na hAiséirghe Emblem
+Author:  MrPenguin20
+Licence: Public Domain (simple geometric design — below copyright threshold)
+Source:  https://commons.wikimedia.org/wiki/File:Aitir%C3%AD_na_hAis%C3%A9irghe_Emblem.svg
+
+Asset:   Arms of Armenia
+Author:  Ssolbergj / Kentronhayastan
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:Arms_of_Armenia.svg
+
+Asset:   Coat of Arms of Austria
+Author:  David Liuzzo
+Licence: Public Domain (§ 7 UrhG Austrian Copyright Law — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Austria.svg
+
+Asset:   Coat of Arms of Greenland
+Author:  Octane
+Licence: Public Domain (released by author)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Greenland.svg
+
+Asset:   Coat of Arms of Montenegro
+Author:  Radoslav Rotković et al.
+Licence: Public Domain (Montenegro Copyright Law — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Montenegro.svg
+
+Asset:   Coat of Arms of Moscow (St. George and the Dragon)
+Author:  Oren neu dag (after Vector-Images.com)
+Licence: Public Domain (Article 1259, Russian Civil Code — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Moscow.svg
+Note:    Modified from original.
+
+Asset:   Coat of Arms of the All-Great Don Cossack Host
+Author:  Л. Якценюк
+Licence: Public Domain (PD-Russia-1996)
+Source:  https://commons.wikimedia.org/wiki/File:Cort_of_arms_of_Vsevelikoe_Voisko_Donskoe.png
 
 Asset:   Emblem of the Arrow Cross Party
 Author:  Thommy
 Licence: CC0 (Public Domain)
 Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_the_Arrow_Cross_Party.svg
 
+Asset:   Flag of Macedonia (1992–1995) (Vergina Sun)
+Author:  Mysid
+Licence: Public Domain (official state flag)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Macedonia_(1992%E2%80%931995).svg
+
+Asset:   Flag of the Union of Bulgarian National Legions
+Author:  Mrmw
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Union_of_Bulgarian_National_Legions.svg
+
+Asset:   Greek Meander Symbol
+Author:  Ancient Greek origin
+Licence: Public Domain (ancient symbol, no copyright)
+Source:  N/A
+
+Asset:   Iron Guard Emblem (Legion of the Archangel Michael)
+Author:  SkyBon
+Licence: Public Domain (no original authorship)
+Source:  https://commons.wikimedia.org/wiki/File:Guardiadehierro.svg
+
+Asset:   Lapuan liike (Lapua Movement) Logo
+Author:  qWerk
+Licence: Public Domain (PD-anon-70-EU / released by copyright holder)
+Source:  https://commons.wikimedia.org/wiki/File:Lapuan_liike.svg
+
 Asset:   Logo of the French Popular Party
 Author:  R-41
 Licence: CC0 (Public Domain)
 Source:  https://commons.wikimedia.org/wiki/File:Logo_du_Parti_populaire_francais.svg
 
+Asset:   Milliyetçi Hareket Partisi (MHP) Logo
+Author:  MHP (vectorised by Oliver Wolters)
+Licence: Public Domain (common property, no original authorship)
+Source:  https://commons.wikimedia.org/wiki/File:Milliyetçi_Hareket_Partisi_Logo.svg
+Note:    May be protected as a trademark in some jurisdictions.
+
+Asset:   Nasjonal Samling Insignia
+Author:  Ssolbergj
+Licence: Public Domain (simple geometry, below copyright threshold)
+Source:  https://commons.wikimedia.org/wiki/File:Nasjonal_Samling_insignia.svg
+Note:    Modified from original (used in black and white).
+
+Asset:   Small Coat of Arms of Nizhny Novgorod
+Author:  AlexTref871
+Licence: Public Domain (Article 1259, Russian Civil Code — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Small_Coat_of_arms_Nizhny_Novgorod.svg
+
+Asset:   Small Coat of Arms of the Czech Republic (Bohemian Lion)
+Author:  Tlusťa (after Jiří Louda)
+Licence: Public Domain (Czech Copyright Law No. 121/2000 — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Small_coat_of_arms_of_the_Czech_Republic.svg
+
+Asset:   Terek Cossacks' Flag
+Author:  Unknown
+Licence: Public Domain (simple geometric design — below copyright threshold)
+Source:  https://commons.wikimedia.org/wiki/File:Terek_Cossacks%E2%80%99_flag.gif
+
+Asset:   Wapen van Nederland klein (Coat of Arms of the Netherlands)
+Author:  Johannes Evert van Leeuwen (SVG: D'Arch et al.)
+Licence: Public Domain (released by copyright holder)
+Source:  https://commons.wikimedia.org/wiki/File:Wapen_van_Nederland_klein.svg
+
 -------------------------------------------------------------------------------
 
-OTHER FLAG ASSETS
------------------
+ITALY PUPPET FLAGS — ASSETS REQUIRING ATTRIBUTION
+--------------------------------------------------
+
+Asset:   Arms of Llywelyn (Wales)
+Author:  Sodacan
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Arms_of_Llywelyn.svg
+
+Asset:   Arms of the Kingdom of Bavaria (1835–1918)
+Author:  Glasshouse
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Arms_of_the_Kingdom_of_Bavaria_1835-1918.svg
+
+Asset:   Arms of the United Kingdom
+Author:  Sodacan
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Arms_of_the_United_Kingdom.svg
+
+Asset:   Blason du Comté de Forcalquier
+Author:  Kontributor 2K
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Blason_comt%C3%A9_fr_Forcalquier.svg
+
+Asset:   Cartouche de l'État Français (Vichy France)
+Author:  Mliu92
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Le_cartouche_de_l%27%C3%89tat_Fran%C3%A7ais.svg
+
+Asset:   Coat of Arms of Austria (1934–1938)
+Author:  David Liuzzo
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:%C3%96sterreich-Wappen_(1934-1938).svg
+
+Asset:   Coat of Arms of Croatia (1941–1945)
+Author:  Barryob
+Licence: CC BY-SA 4.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Croatia_(1941%E2%80%931945).svg
+
+Asset:   Coat of Arms of Ireland
+Author:  Setanta Saki
+Licence: CC BY 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Ireland.svg
+
+Asset:   Coat of Arms of Italian East Africa
+Author:  OddHerring
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:COA_of_Italian_East_Africa_(Wiki_Style).svg
+
+Asset:   Coat of Arms of the Kingdom of Iraq
+Author:  Cid-Vicious
+Licence: CC BY 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Kingdom_of_Iraq_CoA.png
+
+Asset:   Coat of Arms of the Kingdom of Romania
+Author:  Răzvan Pala (corrections by Alex Daneș)
+Licence: CC BY 3.0
+Source:  https://commons.wikimedia.org/wiki/File:Kingdom_of_Romania_-_Small_CoA.svg
+
+Asset:   Coat of Arms of the Kingdom of Yugoslavia
+Author:  ХЕРАЛДИКР СССС
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Kingdom_of_Yugoslavia_(small).svg
+
+Asset:   Royal Arms of England
+Author:  Sodacan
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Royal_arms_of_England.svg
+
+Asset:   Royal Arms of Greece (1936–1967)
+Author:  Sodacan
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Greece_(1936-1967).svg
+
+Asset:   Royal Arms of the Kingdom of Scotland
+Author:  Sodacan
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Royal_Arms_of_the_Kingdom_of_Scotland.svg
+
+Asset:   Royal Coat of Arms of Spain (1580–1668)
+Author:  Heralder
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Royal_Coat_of_Arms_of_Spain_(1580-1668).svg
+
+Asset:   State Achievement of Bulgaria (1908–1946)
+Author:  Glasshouse (elements by Sodacan)
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:State_Achievement_of_Bulgaria_1908-1946.svg
+
+-------------------------------------------------------------------------------
+
+ITALY PUPPET FLAGS — PUBLIC DOMAIN / CC0
+-----------------------------------------
+
+Asset:   Arms of the French Republic
+Author:  Hans-Ulrich Herzog
+Licence: Public Domain
+Source:  https://commons.wikimedia.org/wiki/File:Arms_of_the_French_Republic.svg
+
+Asset:   Coat of Arms of Bosnia and Herzegovina (1992–1998)
+Author:  LeCorbusierB NRMostar / FiliusBosnensis
+Licence: Public Domain (BiH Copyright Law)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Bosnia_and_Herzegovina_(1992%E2%80%931998).svg
+
+Asset:   Coat of Arms of Brandenburg
+Author:  David Liuzzo
+Licence: Public Domain (§5 German Copyright Law)
+Source:  https://commons.wikimedia.org/wiki/File:DEU_Brandenburg_COA.svg
+
+Asset:   Coat of Arms of Hungary (1915–1946)
+Author:  Thommy9
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Hungary_(1915-1918,_1919-1946,_1990).svg
+
+Asset:   Coat of Arms of Montenegro (Seal)
+Author:  Apiya
+Licence: Public Domain
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Montenegro_(seal).svg
+
+Asset:   Coat of Arms of North Macedonia
+Author:  MacedonianBoy
+Licence: Public Domain
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_North_Macedonia.svg
+
+Asset:   Coat of Arms of Poland (Herb Polski)
+Author:  Denelson83 / Follow by white rabbit (after Andrzej Heidrich)
+Licence: Public Domain (Polish Copyright Law — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Herb_Polski.svg
+Note:    Full version used in Italy puppet flag; eagle motif extracted and modified for Germany puppet flag.
+
+Asset:   Coat of Arms of Romania
+Author:  Alex:D
+Licence: Public Domain (Romanian Law No. 8/1996 — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Romania.svg
+
+Asset:   Coat of Arms of Serbia
+Author:  Madden
+Licence: Public Domain
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Serbia_small.svg
+Note:    Also used in Germany puppet flag.
+
+Asset:   Coat of Arms of Slovenia
+Author:  Zscout370 (after Marko Pogačnik)
+Licence: Public Domain (Article 9, Slovene Copyright Act — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Slovenia.svg
+Note:    Also used in Germany puppet flag.
+
+Asset:   Coat of Arms of Switzerland
+Author:  Zscout370 et al.
+Licence: Public Domain
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Switzerland_(Pantone).svg
+
+Asset:   Coat of Arms of Ukraine
+Author:  Андрей Перцев (after Vasyl Krychevsky)
+Licence: Public Domain (Ukrainian Law on Copyright Art. 8 — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Ukraine.svg
+
+Asset:   Flag of Albania
+Author:  Sadik Kaceli
+Licence: Public Domain (official state symbol, Albanian Copyright Law No.35/2016)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Albania.svg
+Note:    Used in both Germany and Italy puppet flags.
+
+Asset:   Flag of Italy (1861–1946) Crowned
+Author:  F l a n k e r
+Licence: Public Domain (official flag, released by author)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Italy_(1861-1946)_crowned.svg
+
+Asset:   German Imperial Eagle (Reichsadler 1889)
+Author:  David Liuzzo (vectorization; original by Emil Doepler)
+Licence: Public Domain
+Source:  https://commons.wikimedia.org/wiki/File:Wappen_Deutsches_Reich_-_Reichsadler_1889.svg
+
+Asset:   Lesser Coat of Arms of Georgia
+Author:  Vakhtang Jokhadze
+Licence: Public Domain (Georgian law)
+Source:  https://commons.wikimedia.org/wiki/File:Lesser_coat_of_arms_of_Georgia.svg
+
+Asset:   Reichsadler of the German Reich (1935–1945)
+Author:  RsVe
+Licence: Public Domain (§5 German Copyright Law)
+Source:  https://commons.wikimedia.org/wiki/File:Reichsadler_Deutsches_Reich_(1935%E2%80%931945).svg
+
+Asset:   Turkey Emblem
+Author:  Jelican9
+Licence: Public Domain
+Source:  https://commons.wikimedia.org/wiki/File:Turkey_emblem_round.svg
+
+-------------------------------------------------------------------------------
+
+SINGLE-VARIANT FLAG ASSETS — ATTRIBUTION REQUIRED
+--------------------------------------------------
+
+Asset:   Flag of Sardinia
+Author:  icnussa / Xander89
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Sardinia.svg
+Note:    Used for Sardinia (P94).
 
 Asset:   Flag of Western Canada
 Author:  HarleyKing
 Licence: CC BY-SA 3.0
 Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Western_Canada.svg
+Note:    Used for Western Canada (P29).
+
+Asset:   Reichskolonialflagge (German Colonial Flag, 1871–1918)
+Author:  David Liuzzo
+Licence: Free to use for any purpose with attribution to David Liuzzo
+Source:  https://commons.wikimedia.org/wiki/File:Reichskolonialflagge.svg
+Note:    Used for Mittelafrika (P53).
+
+-------------------------------------------------------------------------------
+
+SINGLE-VARIANT FLAG ASSETS — PUBLIC DOMAIN / CC0
+-------------------------------------------------
+
+Asset:   Flag of California
+Author:  Devin Cook (vectorisation of design by Donald Graeme Kelley, 1953)
+Licence: Public Domain (U.S. government work)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_California.svg
+Note:    Used for Pacific U.S. (P21).
+
+Asset:   Flag of Germany (1867–1918)
+Author:  B1mbo / Madden
+Licence: Public Domain (simple geometric design — no original authorship)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg
+Note:    Used for North Germany (P19).
+
+Asset:   Flag of Missouri
+Author:  Xrmap flag collection
+Licence: Public Domain (released by copyright holder)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Missouri.svg
+Note:    Used for Midwestern U.S. (P18).
+
+Asset:   Flag of Moscow
+Author:  Unknown
+Licence: Public Domain (Article 1259, Russian Civil Code — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Moscow,_Russia.svg
+Note:    Used for Central Russia (P39).
+
+Asset:   Flag of Piedmont
+Author:  Orzetto
+Licence: Public Domain (released by author)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Piedmont.svg
+Note:    Used for Piedmont (P93).
+
+Asset:   Flag of Washington, D.C.
+Author:  cs:User:-xfi-
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Washington,_D.C..svg
+Note:    Used for Northeastern U.S. (P20).
+
+Asset:   Kokbayraq Flag (East Turkestan Independence Movement)
+Author:  Tarkan / Zscout370
+Licence: Public Domain (simple geometry — below copyright threshold)
+Source:  https://commons.wikimedia.org/wiki/File:Kokbayraq_flag.svg
+Note:    Used for East Turkestan (Q23).
+
+-------------------------------------------------------------------------------
+
+BASE FLAG ASSETS — PARADOX INTERACTIVE
+---------------------------------------
+
+Asset:   Formable Nation Ideology Flags
+Author:  Paradox Interactive
+Licence: © Paradox Interactive — used under the Hearts of Iron IV End User Licence Agreement
+Source:  Hearts of Iron IV (Paradox Interactive, 2016)
+Note:    Communism, democratic, fascism, and neutrality variants for all formable nations.
+
+Asset:   South German Federation Flag
+Author:  Paradox Interactive
+Licence: © Paradox Interactive — used under the Victoria II End User Licence Agreement
+Source:  Victoria II (Paradox Interactive, 2010)
+Note:    Used for South Germany (P25).
 
 -------------------------------------------------------------------------------
 
