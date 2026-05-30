@@ -133,4 +133,22 @@
   P98_GERMANY_PUPPET_GER_fascism_subject:0 "Unabhängiger Staat Mazedonien"
   P98_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Unabhängiger Staat Mazedonien"
 
+  ## ITALY - NEUTRALITY ##
+  P10_ITALY_PUPPET_ITA_neutrality_subject:0 "Africa Orientale Italiana"
+  P10_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Africa Orientale Italiana"
+
+  P30_ITALY_PUPPET_ITA_neutrality_subject:0 "Africa Settentrionale Italiana"
+  P30_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Africa Settentrionale Italiana"
+
+  P67_ITALY_PUPPET_ITA_neutrality_subject:0 "Levante Italiano"
+  P67_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Levante Italiano"
+
   ## ITALY - FASCISM ##
+  P10_ITALY_PUPPET_ITA_fascism_subject:0 "Africa Orientale Italiana"
+  P10_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Africa Orientale Italiana"
+
+  P30_ITALY_PUPPET_ITA_fascism_subject:0 "Africa Settentrionale Italiana"
+  P30_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Africa Settentrionale Italiana"
+
+  P67_ITALY_PUPPET_ITA_fascism_subject:0 "Levante Italiano"
+  P67_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Levante Italiano"
