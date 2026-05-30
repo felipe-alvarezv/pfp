@@ -590,6 +590,54 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
+                        original_tag = P03
+                    }
+                }
+                set_cosmetic_tag = P03_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P04
+                    }
+                }
+                set_cosmetic_tag = P04_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P05
+                    }
+                }
+                set_cosmetic_tag = P05_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
                         original_tag = P09
                     }
                 }
@@ -610,6 +658,22 @@ on_actions = {
                     }
                 }
                 set_cosmetic_tag = P10_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P12
+                    }
+                }
+                set_cosmetic_tag = P12_ITALY_PUPPET
             }
 
             else_if = {
@@ -670,6 +734,38 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
+                        original_tag = P19
+                    }
+                }
+                set_cosmetic_tag = P19_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P24
+                    }
+                }
+                set_cosmetic_tag = P24_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
                         original_tag = P25
                     }
                 }
@@ -702,6 +798,38 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
+                        original_tag = P30
+                    }
+                }
+                set_cosmetic_tag = P30_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P31
+                    }
+                }
+                set_cosmetic_tag = P31_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
                         original_tag = P32
                     }
                 }
@@ -718,10 +846,90 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
+                        original_tag = P33
+                    }
+                }
+                set_cosmetic_tag = P33_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
                         original_tag = P34
                     }
                 }
                 set_cosmetic_tag = P34_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P39
+                    }
+                }
+                set_cosmetic_tag = P39_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P41
+                    }
+                }
+                set_cosmetic_tag = P41_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P42
+                    }
+                }
+                set_cosmetic_tag = P42_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P43
+                    }
+                }
+                set_cosmetic_tag = P43_ITALY_PUPPET
             }
 
             else_if = {
@@ -754,6 +962,70 @@ on_actions = {
                     }
                 }
                 set_cosmetic_tag = P50_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P51
+                    }
+                }
+                set_cosmetic_tag = P51_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P59
+                    }
+                }
+                set_cosmetic_tag = P59_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P60
+                    }
+                }
+                set_cosmetic_tag = P60_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P61
+                    }
+                }
+                set_cosmetic_tag = P61_ITALY_PUPPET
             }
 
             else_if = {
@@ -814,10 +1086,42 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
+                        original_tag = P65
+                    }
+                }
+                set_cosmetic_tag = P65_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
                         original_tag = P66
                     }
                 }
                 set_cosmetic_tag = P66_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P67
+                    }
+                }
+                set_cosmetic_tag = P67_ITALY_PUPPET
             }
 
             else_if = {
@@ -862,10 +1166,58 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
+                        original_tag = P70
+                    }
+                }
+                set_cosmetic_tag = P70_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P71
+                    }
+                }
+                set_cosmetic_tag = P71_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
                         original_tag = P73
                     }
                 }
                 set_cosmetic_tag = P73_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P74
+                    }
+                }
+                set_cosmetic_tag = P74_ITALY_PUPPET
             }
 
             else_if = {
@@ -974,10 +1326,42 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
+                        original_tag = P83
+                    }
+                }
+                set_cosmetic_tag = P83_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
                         original_tag = P84
                     }
                 }
                 set_cosmetic_tag = P84_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P85
+                    }
+                }
+                set_cosmetic_tag = P85_ITALY_PUPPET
             }
 
             else_if = {
