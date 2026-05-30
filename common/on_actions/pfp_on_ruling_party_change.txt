@@ -894,6 +894,22 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
+                        original_tag = P40
+                    }
+                }
+                set_cosmetic_tag = P40_ITALY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = ITA
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
                         original_tag = P41
                     }
                 }
