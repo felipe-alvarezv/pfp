@@ -28,6 +28,9 @@
   P15_GERMANY_PUPPET_GER_fascism_subject:0 "Iberischer Staat"
   P15_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Iberischer Staat"
 
+  P24_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Skandinavien"
+  P24_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Skandinavien"
+
   P28_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Kaukasus"
   P28_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Kaukasus"
 
@@ -58,6 +61,9 @@
   P46_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Fernost"
   P46_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Fernost"
 
+  P48_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Westrussland"
+  P48_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Westrussland"
+
   P49_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Bulgarien"
   P49_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Bulgarien"
 
@@ -85,6 +91,9 @@
   P64_GERMANY_PUPPET_GER_fascism_subject:0 "Deutsche Militärverwaltung in den Französischen Alpen"
   P64_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Deutsche Militärverwaltung in den Französischen Alpen"
 
+  P65_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Norwegen"
+  P65_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Norwegen"
+
   P66_GERMANY_PUPPET_GER_fascism_subject:0 "Reichskommissariat Ukraine"
   P66_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Reichskommissariat Ukraine"
 
@@ -94,8 +103,14 @@
   P73_GERMANY_PUPPET_GER_fascism_subject:0 "Irischer Staat"
   P73_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Irischer Staat"
 
+  P74_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Schweden"
+  P74_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Schweden"
+
   P77_GERMANY_PUPPET_GER_fascism_subject:0 "Ostmark"
   P77_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Ostmark"
+
+  P78_GERMANY_PUPPET_GER_fascism_subject:0 "Schweiz"
+  P78_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Schweiz"
 
   P79_GERMANY_PUPPET_GER_fascism_subject:0 "Königreich Rumänien"
   P79_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Königreich Rumänien"
@@ -109,8 +124,14 @@
   P82_GERMANY_PUPPET_GER_fascism_subject:0 "Fürstentum Wales"
   P82_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Fürstentum Wales"
 
+  P83_GERMANY_PUPPET_GER_fascism_subject:0 "Deutsche Militärverwaltung auf Island"
+  P83_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Deutsche Militärverwaltung auf Island"
+
   P84_GERMANY_PUPPET_GER_fascism_subject:0 "Provinz Ulster"
   P84_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Provinz Ulster"
+
+  P85_GERMANY_PUPPET_GER_fascism_subject:0 "Deutsche Militärverwaltung in Grönland"
+  P85_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Deutsche Militärverwaltung in Grönland"
 
   P86_GERMANY_PUPPET_GER_fascism_subject:0 "Unabhängiger Staat Kroatien"
   P86_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Unabhängiger Staat Kroatien"
