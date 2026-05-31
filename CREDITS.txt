@@ -344,6 +344,11 @@ Author:  Sodacan
 Licence: CC BY-SA 3.0 / GFDL 1.2
 Source:  https://commons.wikimedia.org/wiki/File:Royal_Arms_of_the_Kingdom_of_Scotland.svg
 
+Asset:   Royal Coat of Arms of Russia (17th century)
+Author:  TRAJAN 117
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Royal_Coat_of_arms_of_Russia_(17th_century).svg
+
 Asset:   Royal Coat of Arms of Spain (1580–1668)
 Author:  Heralder
 Licence: CC BY-SA 3.0 / GFDL 1.2

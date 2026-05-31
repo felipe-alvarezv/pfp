@@ -134,21 +134,357 @@
   P98_GERMANY_PUPPET_GER_fascism_subject_DEF:0 "Unabhängiger Staat Mazedonien"
 
   ## ITALY - NEUTRALITY ##
+  P02_ITALY_PUPPET_ITA_neutrality_subject:0 "Britannia Italiana"
+  P02_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Britannia Italiana"
+
+  P03_ITALY_PUPPET_ITA_neutrality_subject:0 "Arabia Italiana"
+  P03_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Arabia Italiana"
+
+  P04_ITALY_PUPPET_ITA_neutrality_subject:0 "Baltico Italiano"
+  P04_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Baltico Italiano"
+
+  P05_ITALY_PUPPET_ITA_neutrality_subject:0 "Olanda Italiana"
+  P05_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Olanda Italiana"
+
+  P09_ITALY_PUPPET_ITA_neutrality_subject:0 "Pannonia Italiana"
+  P09_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Pannonia Italiana"
+
   P10_ITALY_PUPPET_ITA_neutrality_subject:0 "Africa Orientale Italiana"
   P10_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Africa Orientale Italiana"
+
+  P12_ITALY_PUPPET_ITA_neutrality_subject:0 "Finlandia Italiana"
+  P12_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Finlandia Italiana"
+
+  P13_ITALY_PUPPET_ITA_neutrality_subject:0 "Germania Italiana"
+  P13_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Germania Italiana"
+
+  P14_ITALY_PUPPET_ITA_neutrality_subject:0 "Acaia Italiana"
+  P14_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Acaia Italiana"
+
+  P15_ITALY_PUPPET_ITA_neutrality_subject:0 "Hispania Italiana"
+  P15_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Hispania Italiana"
+
+  P19_ITALY_PUPPET_ITA_neutrality_subject:0 "Germania Settentrionale Italiana"
+  P19_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Germania Settentrionale Italiana"
+
+  P24_ITALY_PUPPET_ITA_neutrality_subject:0 "Scandinavia Italiana"
+  P24_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Scandinavia Italiana"
+
+  P25_ITALY_PUPPET_ITA_neutrality_subject:0 "Germania Meridionale Italiana"
+  P25_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Germania Meridionale Italiana"
+
+  P28_ITALY_PUPPET_ITA_neutrality_subject:0 "Transcaucaso Italiano"
+  P28_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Transcaucaso Italiano"
 
   P30_ITALY_PUPPET_ITA_neutrality_subject:0 "Africa Settentrionale Italiana"
   P30_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Africa Settentrionale Italiana"
 
+  P31_ITALY_PUPPET_ITA_neutrality_subject:0 "Germania Occidentale Italiana"
+  P31_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Germania Occidentale Italiana"
+
+  P32_ITALY_PUPPET_ITA_neutrality_subject:0 "Germania Orientale Italiana"
+  P32_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Germania Orientale Italiana"
+
+  P33_ITALY_PUPPET_ITA_neutrality_subject:0 "Prussia Italiana"
+  P33_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Prussia Italiana"
+
+  P34_ITALY_PUPPET_ITA_neutrality_subject:0 "Polonia Italiana"
+  P34_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Polonia Italiana"
+
+  P39_ITALY_PUPPET_ITA_neutrality_subject:0 "Russia Centrale Italiana"
+  P39_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Russia Centrale Italiana"
+
+  P40_ITALY_PUPPET_ITA_neutrality_subject:0 "Russia Meridionale Italiana"
+  P40_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Russia Meridionale Italiana"
+
+  P41_ITALY_PUPPET_ITA_neutrality_subject:0 "Caucaso Settentrionale Italiano"
+  P41_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Caucaso Settentrionale Italiano"
+
+  P42_ITALY_PUPPET_ITA_neutrality_subject:0 "Volga Italiana"
+  P42_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Volga Italiana"
+
+  P43_ITALY_PUPPET_ITA_neutrality_subject:0 "Russia Nordoccidentale Italiana"
+  P43_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Russia Nordoccidentale Italiana"
+
+  P48_ITALY_PUPPET_ITA_neutrality_subject:0 "Russia Occidentale Italiana"
+  P48_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Russia Occidentale Italiana"
+
+  P49_ITALY_PUPPET_ITA_neutrality_subject:0 "Mesia Italiana"
+  P49_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Mesia Italiana"
+
+  P50_ITALY_PUPPET_ITA_neutrality_subject:0 "Illirico Italiano"
+  P50_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Illirico Italiano"
+
+  P51_ITALY_PUPPET_ITA_neutrality_subject:0 "Turkestan Italiano"
+  P51_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Turkestan Italiano"
+
+  P59_ITALY_PUPPET_ITA_neutrality_subject:0 "Boemia Italiana"
+  P59_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Boemia Italiana"
+
+  P60_ITALY_PUPPET_ITA_neutrality_subject:0 "Belgio Italiano"
+  P60_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Belgio Italiano"
+
+  P61_ITALY_PUPPET_ITA_neutrality_subject:0 "Danimarca Italiana"
+  P61_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Danimarca Italiana"
+
+  P62_ITALY_PUPPET_ITA_neutrality_subject:0 "Francia Settentrionale Italiana"
+  P62_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Francia Settentrionale Italiana"
+
+  P63_ITALY_PUPPET_ITA_neutrality_subject:0 "Provincia Italiana"
+  P63_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Provincia Italiana"
+
+  P64_ITALY_PUPPET_ITA_neutrality_subject:0 "Alpi Italiane"
+  P64_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Alpi Italiane"
+
+  P65_ITALY_PUPPET_ITA_neutrality_subject:0 "Norvegia Italiana"
+  P65_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Norvegia Italiana"
+
+  P66_ITALY_PUPPET_ITA_neutrality_subject:0 "Ucraina Italiana"
+  P66_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Ucraina Italiana"
+
   P67_ITALY_PUPPET_ITA_neutrality_subject:0 "Levante Italiano"
   P67_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Levante Italiano"
 
+  P68_ITALY_PUPPET_ITA_neutrality_subject:0 "Anatolia Italiana"
+  P68_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Anatolia Italiana"
+
+  P69_ITALY_PUPPET_ITA_neutrality_subject:0 "Mesopotamia Italiana"
+  P69_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Mesopotamia Italiana"
+
+  P70_ITALY_PUPPET_ITA_neutrality_subject:0 "Kurdistan Italiano"
+  P70_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Kurdistan Italiano"
+
+  P71_ITALY_PUPPET_ITA_neutrality_subject:0 "Persia Italiana"
+  P71_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Persia Italiana"
+
+  P73_ITALY_PUPPET_ITA_neutrality_subject:0 "Irlanda Italiana"
+  P73_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Irlanda Italiana"
+
+  P74_ITALY_PUPPET_ITA_neutrality_subject:0 "Svezia Italiana"
+  P74_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Svezia Italiana"
+
+  P77_ITALY_PUPPET_ITA_neutrality_subject:0 "Norico Italiano"
+  P77_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Norico Italiano"
+
+  P78_ITALY_PUPPET_ITA_neutrality_subject:0 "Elvezia Italiana"
+  P78_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Elvezia Italiana"
+
+  P79_ITALY_PUPPET_ITA_neutrality_subject:0 "Dacia Italiana"
+  P79_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Dacia Italiana"
+
+  P80_ITALY_PUPPET_ITA_neutrality_subject:0 "Inghilterra Italiana"
+  P80_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Inghilterra Italiana"
+
+  P81_ITALY_PUPPET_ITA_neutrality_subject:0 "Scozia Italiana"
+  P81_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Scozia Italiana"
+
+  P82_ITALY_PUPPET_ITA_neutrality_subject:0 "Galles Italiano"
+  P82_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Galles Italiano"
+
+  P83_ITALY_PUPPET_ITA_neutrality_subject:0 "Islanda Italiana"
+  P83_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Islanda Italiana"
+
+  P84_ITALY_PUPPET_ITA_neutrality_subject:0 "Irlanda del Nord Italiana"
+  P84_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Irlanda del Nord Italiana"
+
+  P85_ITALY_PUPPET_ITA_neutrality_subject:0 "Groenlandia Italiana"
+  P85_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Groenlandia Italiana"
+
+  P86_ITALY_PUPPET_ITA_neutrality_subject:0 "Dalmazia Italiana"
+  P86_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Dalmazia Italiana"
+
+  P87_ITALY_PUPPET_ITA_neutrality_subject:0 "Slovenia Italiana"
+  P87_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Slovenia Italiana"
+
+  P88_ITALY_PUPPET_ITA_neutrality_subject:0 "Bosnia-Erzegovina Italiana"
+  P88_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Bosnia-Erzegovina Italiana"
+
+  P89_ITALY_PUPPET_ITA_neutrality_subject:0 "Serbia Italiana"
+  P89_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Serbia Italiana"
+
+  P90_ITALY_PUPPET_ITA_neutrality_subject:0 "Montenegro Italiano"
+  P90_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Montenegro Italiano"
+
+  P91_ITALY_PUPPET_ITA_neutrality_subject:0 "Albania Italiana"
+  P91_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Albania Italiana"
+
+  P98_ITALY_PUPPET_ITA_neutrality_subject:0 "Macedonia Italiana"
+  P98_ITALY_PUPPET_ITA_neutrality_subject_DEF:0 "Macedonia Italiana"
+
   ## ITALY - FASCISM ##
+  P02_ITALY_PUPPET_ITA_fascism_subject:0 "Britannia Italiana"
+  P02_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Britannia Italiana"
+
+  P03_ITALY_PUPPET_ITA_fascism_subject:0 "Arabia Italiana"
+  P03_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Arabia Italiana"
+
+  P04_ITALY_PUPPET_ITA_fascism_subject:0 "Baltico Italiano"
+  P04_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Baltico Italiano"
+
+  P05_ITALY_PUPPET_ITA_fascism_subject:0 "Olanda Italiana"
+  P05_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Olanda Italiana"
+
+  P09_ITALY_PUPPET_ITA_fascism_subject:0 "Pannonia Italiana"
+  P09_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Pannonia Italiana"
+
   P10_ITALY_PUPPET_ITA_fascism_subject:0 "Africa Orientale Italiana"
   P10_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Africa Orientale Italiana"
+
+  P12_ITALY_PUPPET_ITA_fascism_subject:0 "Finlandia Italiana"
+  P12_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Finlandia Italiana"
+
+  P13_ITALY_PUPPET_ITA_fascism_subject:0 "Germania Italiana"
+  P13_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Germania Italiana"
+
+  P14_ITALY_PUPPET_ITA_fascism_subject:0 "Acaia Italiana"
+  P14_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Acaia Italiana"
+
+  P15_ITALY_PUPPET_ITA_fascism_subject:0 "Hispania Italiana"
+  P15_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Hispania Italiana"
+
+  P19_ITALY_PUPPET_ITA_fascism_subject:0 "Germania Settentrionale Italiana"
+  P19_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Germania Settentrionale Italiana"
+
+  P24_ITALY_PUPPET_ITA_fascism_subject:0 "Scandinavia Italiana"
+  P24_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Scandinavia Italiana"
+
+  P25_ITALY_PUPPET_ITA_fascism_subject:0 "Germania Meridionale Italiana"
+  P25_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Germania Meridionale Italiana"
+
+  P28_ITALY_PUPPET_ITA_fascism_subject:0 "Transcaucaso Italiano"
+  P28_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Transcaucaso Italiano"
 
   P30_ITALY_PUPPET_ITA_fascism_subject:0 "Africa Settentrionale Italiana"
   P30_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Africa Settentrionale Italiana"
 
+  P31_ITALY_PUPPET_ITA_fascism_subject:0 "Germania Occidentale Italiana"
+  P31_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Germania Occidentale Italiana"
+
+  P32_ITALY_PUPPET_ITA_fascism_subject:0 "Germania Orientale Italiana"
+  P32_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Germania Orientale Italiana"
+
+  P33_ITALY_PUPPET_ITA_fascism_subject:0 "Prussia Italiana"
+  P33_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Prussia Italiana"
+
+  P34_ITALY_PUPPET_ITA_fascism_subject:0 "Polonia Italiana"
+  P34_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Polonia Italiana"
+
+  P39_ITALY_PUPPET_ITA_fascism_subject:0 "Russia Centrale Italiana"
+  P39_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Russia Centrale Italiana"
+
+  P40_ITALY_PUPPET_ITA_fascism_subject:0 "Russia Meridionale Italiana"
+  P40_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Russia Meridionale Italiana"
+
+  P41_ITALY_PUPPET_ITA_fascism_subject:0 "Caucaso Settentrionale Italiano"
+  P41_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Caucaso Settentrionale Italiano"
+
+  P42_ITALY_PUPPET_ITA_fascism_subject:0 "Volga Italiana"
+  P42_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Volga Italiana"
+
+  P43_ITALY_PUPPET_ITA_fascism_subject:0 "Russia Nordoccidentale Italiana"
+  P43_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Russia Nordoccidentale Italiana"
+
+  P48_ITALY_PUPPET_ITA_fascism_subject:0 "Russia Occidentale Italiana"
+  P48_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Russia Occidentale Italiana"
+
+  P49_ITALY_PUPPET_ITA_fascism_subject:0 "Mesia Italiana"
+  P49_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Mesia Italiana"
+
+  P50_ITALY_PUPPET_ITA_fascism_subject:0 "Illirico Italiano"
+  P50_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Illirico Italiano"
+
+  P51_ITALY_PUPPET_ITA_fascism_subject:0 "Turkestan Italiano"
+  P51_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Turkestan Italiano"
+
+  P59_ITALY_PUPPET_ITA_fascism_subject:0 "Boemia Italiana"
+  P59_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Boemia Italiana"
+
+  P60_ITALY_PUPPET_ITA_fascism_subject:0 "Belgio Italiano"
+  P60_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Belgio Italiano"
+
+  P61_ITALY_PUPPET_ITA_fascism_subject:0 "Danimarca Italiana"
+  P61_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Danimarca Italiana"
+
+  P62_ITALY_PUPPET_ITA_fascism_subject:0 "Francia Settentrionale Italiana"
+  P62_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Francia Settentrionale Italiana"
+
+  P63_ITALY_PUPPET_ITA_fascism_subject:0 "Provincia Italiana"
+  P63_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Provincia Italiana"
+
+  P64_ITALY_PUPPET_ITA_fascism_subject:0 "Alpi Italiane"
+  P64_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Alpi Italiane"
+
+  P65_ITALY_PUPPET_ITA_fascism_subject:0 "Norvegia Italiana"
+  P65_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Norvegia Italiana"
+
+  P66_ITALY_PUPPET_ITA_fascism_subject:0 "Ucraina Italiana"
+  P66_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Ucraina Italiana"
+
   P67_ITALY_PUPPET_ITA_fascism_subject:0 "Levante Italiano"
   P67_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Levante Italiano"
+
+  P68_ITALY_PUPPET_ITA_fascism_subject:0 "Anatolia Italiana"
+  P68_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Anatolia Italiana"
+
+  P69_ITALY_PUPPET_ITA_fascism_subject:0 "Mesopotamia Italiana"
+  P69_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Mesopotamia Italiana"
+
+  P70_ITALY_PUPPET_ITA_fascism_subject:0 "Kurdistan Italiano"
+  P70_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Kurdistan Italiano"
+
+  P71_ITALY_PUPPET_ITA_fascism_subject:0 "Persia Italiana"
+  P71_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Persia Italiana"
+
+  P73_ITALY_PUPPET_ITA_fascism_subject:0 "Irlanda Italiana"
+  P73_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Irlanda Italiana"
+
+  P74_ITALY_PUPPET_ITA_fascism_subject:0 "Svezia Italiana"
+  P74_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Svezia Italiana"
+
+  P77_ITALY_PUPPET_ITA_fascism_subject:0 "Norico Italiano"
+  P77_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Norico Italiano"
+
+  P78_ITALY_PUPPET_ITA_fascism_subject:0 "Elvezia Italiana"
+  P78_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Elvezia Italiana"
+
+  P79_ITALY_PUPPET_ITA_fascism_subject:0 "Dacia Italiana"
+  P79_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Dacia Italiana"
+
+  P80_ITALY_PUPPET_ITA_fascism_subject:0 "Inghilterra Italiana"
+  P80_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Inghilterra Italiana"
+
+  P81_ITALY_PUPPET_ITA_fascism_subject:0 "Scozia Italiana"
+  P81_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Scozia Italiana"
+
+  P82_ITALY_PUPPET_ITA_fascism_subject:0 "Galles Italiano"
+  P82_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Galles Italiano"
+
+  P83_ITALY_PUPPET_ITA_fascism_subject:0 "Islanda Italiana"
+  P83_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Islanda Italiana"
+
+  P84_ITALY_PUPPET_ITA_fascism_subject:0 "Irlanda del Nord Italiana"
+  P84_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Irlanda del Nord Italiana"
+
+  P85_ITALY_PUPPET_ITA_fascism_subject:0 "Groenlandia Italiana"
+  P85_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Groenlandia Italiana"
+
+  P86_ITALY_PUPPET_ITA_fascism_subject:0 "Dalmazia Italiana"
+  P86_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Dalmazia Italiana"
+
+  P87_ITALY_PUPPET_ITA_fascism_subject:0 "Slovenia Italiana"
+  P87_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Slovenia Italiana"
+
+  P88_ITALY_PUPPET_ITA_fascism_subject:0 "Bosnia-Erzegovina Italiana"
+  P88_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Bosnia-Erzegovina Italiana"
+
+  P89_ITALY_PUPPET_ITA_fascism_subject:0 "Serbia Italiana"
+  P89_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Serbia Italiana"
+
+  P90_ITALY_PUPPET_ITA_fascism_subject:0 "Montenegro Italiano"
+  P90_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Montenegro Italiano"
+
+  P91_ITALY_PUPPET_ITA_fascism_subject:0 "Albania Italiana"
+  P91_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Albania Italiana"
+
+  P98_ITALY_PUPPET_ITA_fascism_subject:0 "Macedonia Italiana"
+  P98_ITALY_PUPPET_ITA_fascism_subject_DEF:0 "Macedonia Italiana"
