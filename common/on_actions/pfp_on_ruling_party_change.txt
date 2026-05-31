@@ -115,6 +115,19 @@ on_actions = {
                             original_tag = GER
                             has_government = fascism
                         }
+                        original_tag = P24
+                    }
+                }
+                set_cosmetic_tag = P24_GERMANY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = GER
+                            has_government = fascism
+                        }
                         original_tag = P28
                     }
                 }
@@ -245,6 +258,19 @@ on_actions = {
                             original_tag = GER
                             has_government = fascism
                         }
+                        original_tag = P48
+                    }
+                }
+                set_cosmetic_tag = P48_GERMANY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = GER
+                            has_government = fascism
+                        }
                         original_tag = P49
                     }
                 }
@@ -362,6 +388,19 @@ on_actions = {
                             original_tag = GER
                             has_government = fascism
                         }
+                        original_tag = P65
+                    }
+                }
+                set_cosmetic_tag = P65_GERMANY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = GER
+                            has_government = fascism
+                        }
                         original_tag = P66
                     }
                 }
@@ -401,10 +440,36 @@ on_actions = {
                             original_tag = GER
                             has_government = fascism
                         }
+                        original_tag = P74
+                    }
+                }
+                set_cosmetic_tag = P74_GERMANY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = GER
+                            has_government = fascism
+                        }
                         original_tag = P77
                     }
                 }
                 set_cosmetic_tag = P77_GERMANY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = GER
+                            has_government = fascism
+                        }
+                        original_tag = P78
+                    }
+                }
+                set_cosmetic_tag = P78_GERMANY_PUPPET
             }
 
             else_if = {
@@ -466,10 +531,36 @@ on_actions = {
                             original_tag = GER
                             has_government = fascism
                         }
+                        original_tag = P83
+                    }
+                }
+                set_cosmetic_tag = P83_GERMANY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = GER
+                            has_government = fascism
+                        }
                         original_tag = P84
                     }
                 }
                 set_cosmetic_tag = P84_GERMANY_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = GER
+                            has_government = fascism
+                        }
+                        original_tag = P85
+                    }
+                }
+                set_cosmetic_tag = P85_GERMANY_PUPPET
             }
 
             else_if = {
