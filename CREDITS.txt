@@ -40,6 +40,11 @@ Author:  Ssolbergj
 Licence: CC BY-SA 3.0 / GFDL 1.2
 Source:  https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Iceland_(1904).svg
 
+Asset:   Coat of Arms of the Kolchak Government (Unofficial)
+Author:  Michael Mustafin
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Kolchak_government_(unofficial).png
+
 Asset:   Coat of Arms of the Siberian Tsarstvo (1882)
 Author:  Лобачев Владимир (Lobachev Vladimir)
 Licence: CC BY-SA 4.0
@@ -118,6 +123,16 @@ Asset:   Ustaše Emblem
 Author:  Rowanwindwhistler (derivative work of Barryob)
 Licence: CC BY-SA 3.0 / GFDL 1.2
 Source:  https://commons.wikimedia.org/wiki/File:EscudoUstacha.svg
+
+Asset:   Valknut (Three Interlocked Triangles)
+Author:  Enyavar
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Valknut_variations.svg
+
+Asset:   Vasakarven (Vasa Sheaf)
+Author:  Halibutt (raster); Bastianow (vector)
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:PB_Vasa_CoA.svg
 
 Asset:   Welsh Dragon (Y Ddraig Goch)
 Author:  Sodacan
