@@ -1642,10 +1642,10 @@ on_actions = {
                                 has_government = neutrality
                             }
                         }
-                        original_tag = P24
+                        original_tag = P27
                     }
                 }
-                set_cosmetic_tag = P24_JAPANESE_PUPPET
+                set_cosmetic_tag = P27_JAPANESE_PUPPET
             }
 
             else_if = {
