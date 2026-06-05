@@ -563,6 +563,16 @@ Source:  https://commons.wikimedia.org/wiki/File:Turkey_emblem_round.svg
 JAPAN PUPPET FLAGS — ASSETS REQUIRING ATTRIBUTION
 --------------------------------------------------
 
+Asset:   Arms of the Qing Dynasty (Fictitious)
+Author:  Sodacan
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Arms_of_the_Qing_Dynasty_(fictitious).svg
+
+Asset:   Coat of Arms of the Republic of Vietnam (1967–1975)
+Author:  Sodacan
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Republic_of_Vietnam_(1967%E2%80%931975).svg
+
 Asset:   Emblem of Tibet
 Author:  Sodacan
 Licence: CC BY-SA 3.0 / GFDL 1.2
@@ -583,10 +593,10 @@ Author:  Orange Tuesday (after Andrew Dunhan; 2021 version by Yeemuha)
 Licence: CC0 (Public Domain)
 Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_Afghanistan_(1931%E2%80%931973).svg
 
-Asset:   Emblem of East Bengal (1947–1956)
-Author:  Meghmollar2017
-Licence: Public Domain (Pakistani Copyright Ordinance — government work, 50+ years)
-Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_East_Bengal_(1947-1956).svg
+Asset:   Emblem of Afghanistan (1992–2002)
+Author:  Saul ip
+Licence: Public Domain (Afghan copyright law)
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_Afghanistan_(1992%E2%80%932002).svg
 
 Asset:   Emblem of India (Lion Capital of Ashoka)
 Author:  Government of India
@@ -598,10 +608,10 @@ Author:  Samhanin
 Licence: CC0 (Public Domain)
 Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_Mongolia_(1911%E2%80%9324).svg
 
-Asset:   Emblem of Pakistan (1947–1954)
+Asset:   Emblem of Pakistan (1954–1972)
 Author:  Meghmollar2017
 Licence: Public Domain (Pakistani Copyright Ordinance — government work, 50+ years)
-Source:  https://commons.wikimedia.org/wiki/File:Pakistan_Emblem_(1947-1954).svg
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_Pakistan_(1954-1972).svg
 
 Asset:   Flag of Korea (1882–1910) / Taegeukgi
 Author:  Daniil Ivanov
@@ -627,6 +637,11 @@ Asset:   Meihua (ROC Plum Blossom Emblem)
 Author:  Bigmorr; overhauled by Ericmetro
 Licence: Public Domain (ROC Copyright Act Article 9 — official state symbol)
 Source:  https://commons.wikimedia.org/wiki/File:Meihua_ROC.svg
+
+Asset:   National Emblem of Bangladesh
+Author:  Mojo.bangladesh
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:National_Emblem_of_Bangladesh.svg
 
 -------------------------------------------------------------------------------
 
