@@ -560,6 +560,76 @@ Source:  https://commons.wikimedia.org/wiki/File:Turkey_emblem_round.svg
 
 -------------------------------------------------------------------------------
 
+JAPAN PUPPET FLAGS — ASSETS REQUIRING ATTRIBUTION
+--------------------------------------------------
+
+Asset:   Emblem of Tibet
+Author:  Sodacan
+Licence: CC BY-SA 3.0 / GFDL 1.2
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_Tibet.svg
+
+Asset:   Hoàng Đế chi bảo (Vietnamese Imperial Seal)
+Author:  RCraig09
+Licence: CC BY-SA 4.0
+Source:  https://commons.wikimedia.org/wiki/File:Ho%C3%A0ng_%C4%90%E1%BA%BF_chi_b%E1%BA%A3o_(%E7%9A%87%E5%B8%9D%E4%B9%8B%E5%AF%B6).svg
+
+-------------------------------------------------------------------------------
+
+JAPAN PUPPET FLAGS — PUBLIC DOMAIN / CC0
+-----------------------------------------
+
+Asset:   Emblem of Afghanistan (1931–1973)
+Author:  Orange Tuesday (after Andrew Dunhan; 2021 version by Yeemuha)
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_Afghanistan_(1931%E2%80%931973).svg
+
+Asset:   Emblem of East Bengal (1947–1956)
+Author:  Meghmollar2017
+Licence: Public Domain (Pakistani Copyright Ordinance — government work, 50+ years)
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_East_Bengal_(1947-1956).svg
+
+Asset:   Emblem of India (Lion Capital of Ashoka)
+Author:  Government of India
+Licence: Public Domain (Indian Copyright Act 1957 — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_India.svg
+
+Asset:   Emblem of Mongolia (1911–1924)
+Author:  Samhanin
+Licence: CC0 (Public Domain)
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_Mongolia_(1911%E2%80%9324).svg
+
+Asset:   Emblem of Pakistan (1947–1954)
+Author:  Meghmollar2017
+Licence: Public Domain (Pakistani Copyright Ordinance — government work, 50+ years)
+Source:  https://commons.wikimedia.org/wiki/File:Pakistan_Emblem_(1947-1954).svg
+
+Asset:   Flag of Korea (1882–1910) / Taegeukgi
+Author:  Daniil Ivanov
+Licence: Public Domain (expired copyright — original dated 1882)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Korea_(1882%E2%80%931910).svg
+
+Asset:   Flag of Samoa
+Author:  MapGrid et al.
+Licence: Public Domain (simple geometric design — below copyright threshold)
+Source:  https://commons.wikimedia.org/wiki/File:Flag_of_Samoa.svg
+
+Asset:   Garuda Pancasila (National Emblem of Indonesia)
+Author:  Gunkarta (Gunawan Kartapranata)
+Licence: Public Domain (Indonesian Law 28/2014 on Copyrights — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:National_emblem_of_Indonesia_Garuda_Pancasila.svg
+
+Asset:   Imperial Seal of Manchukuo
+Author:  Shuntian
+Licence: Public Domain (released by author)
+Source:  https://commons.wikimedia.org/wiki/File:Emblem_of_the_Emperor_of_Manchukuo.svg
+
+Asset:   Meihua (ROC Plum Blossom Emblem)
+Author:  Bigmorr; overhauled by Ericmetro
+Licence: Public Domain (ROC Copyright Act Article 9 — official state symbol)
+Source:  https://commons.wikimedia.org/wiki/File:Meihua_ROC.svg
+
+-------------------------------------------------------------------------------
+
 SINGLE-VARIANT FLAG ASSETS — ATTRIBUTION REQUIRED
 --------------------------------------------------
 
@@ -626,7 +696,7 @@ Asset:   Kokbayraq Flag (East Turkestan Independence Movement)
 Author:  Tarkan / Zscout370
 Licence: Public Domain (simple geometry — below copyright threshold)
 Source:  https://commons.wikimedia.org/wiki/File:Kokbayraq_flag.svg
-Note:    Used for East Turkestan (Q23).
+Note:    Used for East Turkestan (Q23). Also used in Japanese puppet flag.
 
 -------------------------------------------------------------------------------
 

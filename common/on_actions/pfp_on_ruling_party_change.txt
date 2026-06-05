@@ -1598,6 +1598,295 @@ on_actions = {
                 }
                 set_cosmetic_tag = P98_ITALY_PUPPET
             }
+
+            #Fascist/Neutral Japan Cosmetic Tag
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P16
+                    }
+                }
+                set_cosmetic_tag = P16_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P17
+                    }
+                }
+                set_cosmetic_tag = P17_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P24
+                    }
+                }
+                set_cosmetic_tag = P24_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P37
+                    }
+                }
+                set_cosmetic_tag = P37_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P38
+                    }
+                }
+                set_cosmetic_tag = P38_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P44
+                    }
+                }
+                set_cosmetic_tag = P44_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P45
+                    }
+                }
+                set_cosmetic_tag = P45_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P46
+                    }
+                }
+                set_cosmetic_tag = P46_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P47
+                    }
+                }
+                set_cosmetic_tag = P47_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P51
+                    }
+                }
+                set_cosmetic_tag = P51_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P71
+                    }
+                }
+                set_cosmetic_tag = P71_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P72
+                    }
+                }
+                set_cosmetic_tag = P72_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P75
+                    }
+                }
+                set_cosmetic_tag = P75_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = P76
+                    }
+                }
+                set_cosmetic_tag = P76_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = Q08
+                    }
+                }
+                set_cosmetic_tag = Q08_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = Q22
+                    }
+                }
+                set_cosmetic_tag = Q22_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = Q23
+                    }
+                }
+                set_cosmetic_tag = Q23_JAPANESE_PUPPET
+            }
+
+            else_if = {
+                limit = {
+                    AND = {
+                        overlord = {
+                            original_tag = JAP
+                            OR = {
+                                has_government = fascism
+                                has_government = neutrality
+                            }
+                        }
+                        original_tag = Q24
+                    }
+                }
+                set_cosmetic_tag = Q24_JAPANESE_PUPPET
+            }
         }
     }
 }
