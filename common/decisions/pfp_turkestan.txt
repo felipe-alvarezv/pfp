@@ -122,7 +122,7 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 102 #Akhtubinsk
+				has_full_control_of_state = 402 #Akhtubinsk
 				has_full_control_of_state = 404 #Kyzyl Orda
 				has_full_control_of_state = 405 #Tashkent
 				has_full_control_of_state = 406 #Guryev
