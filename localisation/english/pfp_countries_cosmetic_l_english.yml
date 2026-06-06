@@ -556,6 +556,45 @@
   Q08_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Manshūkoku"
   Q08_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Manshūkoku"
 
+  Q09_JAP_neutrality_subject:0 "Mōko Rengō Jichi Seifu"
+  Q09_JAP_neutrality_subject_DEF:0 "Mōko Rengō Jichi Seifu"
+
+  Q10_JAP_neutrality_subject:0 "Chokuri Gunsei-fu"
+  Q10_JAP_neutrality_subject_DEF:0 "Chokuri Gunsei-fu"
+
+  Q11_JAP_neutrality_subject:0 "Santō Gunsei-fu"
+  Q11_JAP_neutrality_subject_DEF:0 "Santō Gunsei-fu"
+
+  Q12_JAP_neutrality_subject:0 "Kanan Gunsei-fu"
+  Q12_JAP_neutrality_subject_DEF:0 "Kanan Gunsei-fu"
+
+  Q13_JAP_neutrality_subject:0 "Sansei Gunsei-fu"
+  Q13_JAP_neutrality_subject_DEF:0 "Sansei Gunsei-fu"
+
+  Q14_JAP_neutrality_subject:0 "Nankin Gunsei-fu"
+  Q14_JAP_neutrality_subject_DEF:0 "Nankin Gunsei-fu"
+
+  Q15_JAP_neutrality_subject:0 "Binsetsu Gunsei-fu"
+  Q15_JAP_neutrality_subject_DEF:0 "Binsetsu Gunsei-fu"
+
+  Q16_JAP_neutrality_subject:0 "Kokō Gunsei-fu"
+  Q16_JAP_neutrality_subject_DEF:0 "Kokō Gunsei-fu"
+
+  Q17_JAP_neutrality_subject:0 "Ryōkō Gunsei-fu"
+  Q17_JAP_neutrality_subject_DEF:0 "Ryōkō Gunsei-fu"
+
+  Q18_JAP_neutrality_subject:0 "Unkei Gunsei-fu"
+  Q18_JAP_neutrality_subject_DEF:0 "Unkei Gunsei-fu"
+
+  Q19_JAP_neutrality_subject:0 "Shisen Gunsei-fu"
+  Q19_JAP_neutrality_subject_DEF:0 "Shisen Gunsei-fu"
+
+  Q20_JAP_neutrality_subject:0 "Senkan Gunsei-fu"
+  Q20_JAP_neutrality_subject_DEF:0 "Senkan Gunsei-fu"
+
+  Q21_JAP_neutrality_subject:0 "Seihai Gunsei-fu"
+  Q21_JAP_neutrality_subject_DEF:0 "Seihai Gunsei-fu"
+
   Q22_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Taiwan Sōtokufu"
   Q22_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Taiwan Sōtokufu"
 
@@ -566,8 +605,8 @@
   Q24_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Chibetto Hogokoku"
 
   ## JAPAN - FASCISM ##
-  P16_JAPANESE_PUPPET_JAP_fascism_subject:0 "Indoshina Seifu"
-  P16_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Indoshina Seifu"
+  P16_JAPANESE_PUPPET_JAP_fascism_subject:0 "Nippon Indoshina Seifu"
+  P16_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Nippon Indoshina Seifu"
 
   P17_JAPANESE_PUPPET_JAP_fascism_subject:0 "Higashi Indo Gunsei-fu"
   P17_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Higashi Indo Gunsei-fu"
@@ -590,111 +629,71 @@
   P46_JAPANESE_PUPPET_JAP_fascism_subject:0 "Kyokutō Gunsei-fu"
   P46_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Kyokutō Gunsei-fu"
 
-  P47_JAPANESE_PUPPET_JAP_fascism_subject:0 "Mōko-koku"
-  P47_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Mōko-koku"
+  P47_JAPANESE_PUPPET_JAP_fascism_subject:0 "Mōko Hogokoku"
+  P47_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Mōko Hogokoku"
 
-  P51_JAPANESE_PUPPET_JAP_fascism_subject:0 "Torukisutan-koku"
-  P51_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Torukisutan-koku"
+  P51_JAPANESE_PUPPET_JAP_fascism_subject:0 "Torukisutan Hogokoku"
+  P51_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Torukisutan Hogokoku"
 
-  P71_JAPANESE_PUPPET_JAP_fascism_subject:0 "Perushia-koku"
-  P71_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Perushia-koku"
+  P71_JAPANESE_PUPPET_JAP_fascism_subject:0 "Iran Hogokoku"
+  P71_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Iran Hogokoku"
 
-  P72_JAPANESE_PUPPET_JAP_fascism_subject:0 "Chōsen-koku"
-  P72_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Chōsen-koku"
+  P72_JAPANESE_PUPPET_JAP_fascism_subject:0 "Chōsen Sōtokufu"
+  P72_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Chōsen Sōtokufu"
 
-  P75_JAPANESE_PUPPET_JAP_fascism_subject:0 "Pakisutan-koku"
-  P75_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Pakisutan-koku"
+  P75_JAPANESE_PUPPET_JAP_fascism_subject:0 "Pakisutan Hogokoku"
+  P75_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Pakisutan Hogokoku"
 
-  P76_JAPANESE_PUPPET_JAP_fascism_subject:0 "Afuganisutan-koku"
-  P76_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Afuganisutan-koku"
+  P76_JAPANESE_PUPPET_JAP_fascism_subject:0 "Afuganisutan Hogokoku"
+  P76_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Afuganisutan Hogokoku"
 
   Q08_JAPANESE_PUPPET_JAP_fascism_subject:0 "Manshūkoku"
   Q08_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Manshūkoku"
 
-  Q22_JAPANESE_PUPPET_JAP_fascism_subject:0 "Taiwan-koku"
-  Q22_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Taiwan-koku"
+  Q09_JAP_fascism_subject:0 "Mōko Rengō Jichi Seifu"
+  Q09_JAP_fascism_subject_DEF:0 "Mōko Rengō Jichi Seifu"
 
-  Q23_JAPANESE_PUPPET_JAP_fascism_subject:0 "Higashi Torukisutan-koku"
-  Q23_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Higashi Torukisutan-koku"
+  Q10_JAP_fascism_subject:0 "Chokuri Gunsei-fu"
+  Q10_JAP_fascism_subject_DEF:0 "Chokuri Gunsei-fu"
 
-  Q24_JAPANESE_PUPPET_JAP_fascism_subject:0 "Nippon Chibetto-koku"
-  Q24_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Nippon Chibetto-koku"
+  Q11_JAP_fascism_subject:0 "Santō Gunsei-fu"
+  Q11_JAP_fascism_subject_DEF:0 "Santō Gunsei-fu"
 
-  ## JAPAN - CHINESE REGIONS ##
-  Q09_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Mōko Rengō Jichi Seifu"
-  Q09_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Mōko Rengō Jichi Seifu"
+  Q12_JAP_fascism_subject:0 "Kanan Gunsei-fu"
+  Q12_JAP_fascism_subject_DEF:0 "Kanan Gunsei-fu"
 
-  Q10_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Chokuri Gunsei-fu"
-  Q10_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Chokuri Gunsei-fu"
+  Q13_JAP_fascism_subject:0 "Sansei Gunsei-fu"
+  Q13_JAP_fascism_subject_DEF:0 "Sansei Gunsei-fu"
 
-  Q11_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Santō Gunsei-fu"
-  Q11_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Santō Gunsei-fu"
+  Q14_JAP_fascism_subject:0 "Nankin Gunsei-fu"
+  Q14_JAP_fascism_subject_DEF:0 "Nankin Gunsei-fu"
 
-  Q12_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Kanan Gunsei-fu"
-  Q12_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Kanan Gunsei-fu"
+  Q15_JAP_fascism_subject:0 "Binsetsu Gunsei-fu"
+  Q15_JAP_fascism_subject_DEF:0 "Binsetsu Gunsei-fu"
 
-  Q13_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Sansei Gunsei-fu"
-  Q13_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Sansei Gunsei-fu"
+  Q16_JAP_fascism_subject:0 "Kokō Gunsei-fu"
+  Q16_JAP_fascism_subject_DEF:0 "Kokō Gunsei-fu"
 
-  Q14_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Nankin Gunsei-fu"
-  Q14_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Nankin Gunsei-fu"
+  Q17_JAP_fascism_subject:0 "Ryōkō Gunsei-fu"
+  Q17_JAP_fascism_subject_DEF:0 "Ryōkō Gunsei-fu"
 
-  Q15_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Binsetsu Gunsei-fu"
-  Q15_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Binsetsu Gunsei-fu"
+  Q18_JAP_fascism_subject:0 "Unkei Gunsei-fu"
+  Q18_JAP_fascism_subject_DEF:0 "Unkei Gunsei-fu"
 
-  Q16_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Kokō Gunsei-fu"
-  Q16_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Kokō Gunsei-fu"
+  Q19_JAP_fascism_subject:0 "Shisen Gunsei-fu"
+  Q19_JAP_fascism_subject_DEF:0 "Shisen Gunsei-fu"
 
-  Q17_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Ryōkō Gunsei-fu"
-  Q17_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Ryōkō Gunsei-fu"
+  Q20_JAP_fascism_subject:0 "Senkan Gunsei-fu"
+  Q20_JAP_fascism_subject_DEF:0 "Senkan Gunsei-fu"
 
-  Q18_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Unkei Gunsei-fu"
-  Q18_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Unkei Gunsei-fu"
+  Q21_JAP_fascism_subject:0 "Seihai Gunsei-fu"
+  Q21_JAP_fascism_subject_DEF:0 "Seihai Gunsei-fu"
 
-  Q19_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Shisen Gunsei-fu"
-  Q19_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Shisen Gunsei-fu"
+  Q22_JAPANESE_PUPPET_JAP_fascism_subject:0 "Taiwan Sōtokufu"
+  Q22_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Taiwan Sōtokufu"
 
-  Q20_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Senkan Gunsei-fu"
-  Q20_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Senkan Gunsei-fu"
+  Q23_JAPANESE_PUPPET_JAP_fascism_subject:0 "Higashi Torukisutan Hogokoku"
+  Q23_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Higashi Torukisutan Hogokoku"
 
-  Q21_JAPANESE_PUPPET_JAP_neutrality_subject:0 "Seihai Gunsei-fu"
-  Q21_JAPANESE_PUPPET_JAP_neutrality_subject_DEF:0 "Seihai Gunsei-fu"
-
-  Q09_JAPANESE_PUPPET_JAP_fascism_subject:0 "Mōko Rengō Jichi Seifu"
-  Q09_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Mōko Rengō Jichi Seifu"
-
-  Q10_JAPANESE_PUPPET_JAP_fascism_subject:0 "Chokuri Gunsei-fu"
-  Q10_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Chokuri Gunsei-fu"
-
-  Q11_JAPANESE_PUPPET_JAP_fascism_subject:0 "Santō Gunsei-fu"
-  Q11_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Santō Gunsei-fu"
-
-  Q12_JAPANESE_PUPPET_JAP_fascism_subject:0 "Kanan Gunsei-fu"
-  Q12_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Kanan Gunsei-fu"
-
-  Q13_JAPANESE_PUPPET_JAP_fascism_subject:0 "Sansei Gunsei-fu"
-  Q13_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Sansei Gunsei-fu"
-
-  Q14_JAPANESE_PUPPET_JAP_fascism_subject:0 "Nankin Gunsei-fu"
-  Q14_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Nankin Gunsei-fu"
-
-  Q15_JAPANESE_PUPPET_JAP_fascism_subject:0 "Binsetsu Gunsei-fu"
-  Q15_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Binsetsu Gunsei-fu"
-
-  Q16_JAPANESE_PUPPET_JAP_fascism_subject:0 "Kokō Gunsei-fu"
-  Q16_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Kokō Gunsei-fu"
-
-  Q17_JAPANESE_PUPPET_JAP_fascism_subject:0 "Ryōkō Gunsei-fu"
-  Q17_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Ryōkō Gunsei-fu"
-
-  Q18_JAPANESE_PUPPET_JAP_fascism_subject:0 "Unkei Gunsei-fu"
-  Q18_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Unkei Gunsei-fu"
-
-  Q19_JAPANESE_PUPPET_JAP_fascism_subject:0 "Shisen Gunsei-fu"
-  Q19_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Shisen Gunsei-fu"
-
-  Q20_JAPANESE_PUPPET_JAP_fascism_subject:0 "Senkan Gunsei-fu"
-  Q20_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Senkan Gunsei-fu"
-
-  Q21_JAPANESE_PUPPET_JAP_fascism_subject:0 "Seihai Gunsei-fu"
-  Q21_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Seihai Gunsei-fu"
+  Q24_JAPANESE_PUPPET_JAP_fascism_subject:0 "Chibetto Hogokoku"
+  Q24_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Chibetto Hogokoku"
