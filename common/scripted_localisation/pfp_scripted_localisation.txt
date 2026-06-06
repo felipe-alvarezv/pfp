@@ -12,6 +12,19 @@ defined_text = {
 }
 
 defined_text = {
+    name = pfp_flag_mechanics_status
+    text = {
+        trigger = {
+            has_global_flag = pfp_use_overlord_flag
+        }
+        localization_key = pfp_management_option_enabled
+    }
+    text = {
+        localization_key = pfp_management_option_disabled
+    }
+}
+
+defined_text = {
     name = pfp_use_overlord_color_status
     text = {
         trigger = {

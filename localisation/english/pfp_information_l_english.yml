@@ -4,13 +4,18 @@ l_english:
 	pfp_category_desc:0 "As we gain more territory, it has become a complicated problem to administer all of it. To address this problem, puppet governments loyal to our nation should be established in the regions we have conquered. This will allow us to place our attention elsewhere, while the region helps our cause."
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Management"
-	pfp_puppet_management_desc:0 "After establishing our military occupation, we may need to make adjustments regarding the administration and its territories.\n\n§YUse Overlord Color:§! [pfp_use_overlord_color_status]\n§YResistance Mechanics:§! [pfp_resistance_mechanics_status]"
+	pfp_puppet_management_desc:0 "After establishing our military occupation, we may need to make adjustments regarding the administration and its territories.\n\n§YUse Overlord Color:§! [pfp_use_overlord_color_status]\n§YResistance Mechanics:§! [pfp_resistance_mechanics_status]\n§YUse Overlord Flag:§! [pfp_flag_mechanics_status]"
 	pfp_management_option_enabled:0 "Enabled"
 	pfp_management_option_disabled:0 "Disabled"
 
 	pfp_management_window:0 "Open Management Menu"
+
 	pfp_management_use_overlord_color:0 "Toggle Use Overlord Color"
+	pfp_management_use_overlord_color_desc:0 "This decision enables or disables puppets having the same color as their overlord."
 	pfp_management_use_overlord_color_tooltip:0 "All player controlled countries are at peace."
+
+	pfp_management_use_overlord_flag:0 "Toggle Use Overlord Flag"
+	pfp_management_use_overlord_flag_desc:0 "This decision enables or disables puppets having the same flag as their overlord."
 
 	pfp_management_resistance:0 "Toggle Resistance Mechanics"
 	pfp_management_resistance_desc:0 "This decision enables or disables the resistance mechanics. If enabled, formable puppets will not get cores and will have to complete focuses and decisions to raise compliance and lower resistance. A state will be cored once compliance is above 80% and resistance is below 20%."

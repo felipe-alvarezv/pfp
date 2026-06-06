@@ -85,6 +85,51 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+
+	#Decision to display overlord flag for puppets
+	pfp_management_use_overlord_flag = {
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			if = {
+				limit = { has_global_flag = pfp_use_overlord_flag }
+
+				clr_global_flag = pfp_use_overlord_flag
+
+				
+				every_subject_country  = {
+                	limit = {
+						OR = {
+							has_autonomy_state = pfp_autonomy_military_occupation
+							has_autonomy_state = pfp_autonomy_military_occupation_painted
+						}
+                	}
+					
+					pfp_set_use_overlord_flag = yes
+            	}
+			}
+			else = {
+				set_global_flag = pfp_use_overlord_flag
+
+				every_subject_country  = {
+                	limit = {
+						OR = {
+							has_autonomy_state = pfp_autonomy_military_occupation
+							has_autonomy_state = pfp_autonomy_military_occupation_painted
+						}
+                	}
+					
+					pfp_set_use_overlord_flag = yes
+            	}
+			}
+		}
+	}
 }
 
 pfp_puppet_integration = {
