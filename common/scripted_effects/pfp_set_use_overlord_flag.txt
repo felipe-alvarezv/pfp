@@ -35,6 +35,81 @@ pfp_set_use_overlord_flag = {
             limit = { overlord = { original_tag = JAP } }
             set_cosmetic_tag = PFP_JAP_PUPPET
         }
+        else_if = {
+            limit = { 
+                overlord = {
+                    OR = {
+                        has_cosmetic_tag = BYZ_UNIFIED_communism
+                        has_cosmetic_tag = BYZ_UNIFIED_democratic
+                        has_cosmetic_tag = BYZ_UNIFIED_fascism
+                        has_cosmetic_tag = BYZ_UNIFIED_neutrality
+                    }
+                }
+            }
+            set_cosmetic_tag = PFP_BYZANTINE_UNIFIED_PUPPET
+        }
+        else_if = {
+            limit = { 
+                overlord = {
+                    OR = {
+                        has_cosmetic_tag = OTT_UNIFIED_communism
+                        has_cosmetic_tag = OTT_UNIFIED_democratic
+                        has_cosmetic_tag = OTT_UNIFIED_fascism
+                        has_cosmetic_tag = OTT_UNIFIED_neutrality
+                    }
+                }
+            }
+            set_cosmetic_tag = PFP_OTTOMAN_UNIFIED_PUPPET
+        }
+        else_if = {
+            limit = { 
+                overlord = {
+                    OR = {
+                        has_cosmetic_tag = OTT_SULTANATE_communism
+                        has_cosmetic_tag = OTT_SULTANATE_democratic
+                        has_cosmetic_tag = OTT_SULTANATE_neutrality
+                        has_cosmetic_tag = OTT_SULTANATE_fascism
+                    }
+                }
+            }
+            set_cosmetic_tag = PFP_OTTOMAN_SULTANATE_PUPPET
+        }
+        else_if = {
+            limit = { 
+                overlord = { has_cosmetic_tag = SWE_greater_nordic_reich_tag }
+            }
+            set_cosmetic_tag = PFP_GREATER_NORDIC_REICH_PUPPET
+        }
+        else_if = {
+            limit = { 
+                overlord = { has_cosmetic_tag = MAN_restored }
+            }
+            set_cosmetic_tag = PFP_MANCHUKUO_RESTORED_PUPPET
+        }
+        else_if = {
+            limit = { 
+                overlord = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
+            }
+            set_cosmetic_tag = PFP_KINGDOM_PORTUGAL_AND_BRAZIL_PUPPET
+        }
+        else_if = {
+            limit = { 
+                overlord = { has_cosmetic_tag = SPR_carlist_spain }
+            }
+            set_cosmetic_tag = PFP_CARLIST_SPAIN_PUPPET
+        }
+        else_if = {
+            limit = { 
+                overlord = { has_cosmetic_tag = SPR_castille }
+            }
+            set_cosmetic_tag = PFP_CASTILLE_SPAIN_PUPPET
+        }
+        else_if = {
+            limit = { 
+                overlord = { has_cosmetic_tag = SPR_habsburg }
+            }
+            set_cosmetic_tag = PFP_HABSBURG_SPAIN_PUPPET
+        }
     }
     #If use overlord flag is disabled
     else = {
