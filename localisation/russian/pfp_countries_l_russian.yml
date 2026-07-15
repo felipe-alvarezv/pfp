@@ -518,7 +518,7 @@
   pfp_indonesia_required_states_west_java:0 "Контролирует §Y[335.GetName]§!."
   pfp_indonesia_required_states_batavia:0 "Контролирует §Y[1058.GetName]§!."
   pfp_indonesia_required_states_east_java:0 "Контролирует §Y[1051.GetName]§!."
-  pfp_indonesia_transfer_capital:0 "§YИндонезия§! становится владельцем §Y[335.GetName]§!."
+  pfp_indonesia_transfer_capital:0 "§YИндонезия§! становится владельцем §Y[1058.GetName]§!."
   pfp_indonesia_puppet:0 "§YИндонезия§! становится марионеткой §Y[Root.GetName]§!.\n"
   pfp_indonesia_occupation_type:0 "§YИндонезия§! получает [pfp_contest_or_core_status] на всех перечисленных территориях.\n"
   pfp_indonesia_state_controller:0 "§YИндонезия§! становится контролёром всех перечисленных территорий.\n"
