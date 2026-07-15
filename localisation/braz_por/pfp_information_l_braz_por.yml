@@ -10,7 +10,11 @@ l_braz_por:
 
 	pfp_management_window:0 "Abrir menu de gerenciamento"
 	pfp_management_use_overlord_color:0 "Alternar fantoches com a cor do soberano"
+	pfp_management_use_overlord_color_desc:0 "Esta decisão ativa ou desativa fantoches tendo a mesma cor que seu soberano."
 	pfp_management_use_overlord_color_tooltip:0 "Todos os países controlados pelo jogador estão em paz."
+
+	pfp_management_use_overlord_flag:0 "Alternar fantoches com a bandeira do soberano"
+	pfp_management_use_overlord_flag_desc:0 "Esta decisão ativa ou desativa fantoches tendo a mesma bandeira que seu soberano."
 
 	pfp_management_resistance:0 "Alternar Mecânicas de Resistência"
 	pfp_management_resistance_desc:0 "Esta decisão ativa ou desativa as mecânicas de resistência. Se ativada, os fantoches formáveis não obterão territórios centrais e terão que completar focos e decisões para aumentar a conformidade e reduzir a resistência. Um estado se tornará território central quando a conformidade superar 80% e a resistência estiver abaixo de 20%."

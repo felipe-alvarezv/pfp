@@ -10,7 +10,11 @@ l_korean:
 
 	pfp_management_window:0 "관리 메뉴 열기"
 	pfp_management_use_overlord_color:0 "종주국 색상 괴뢰국가 표시 전환"
+	pfp_management_use_overlord_color_desc:0 "이 결정은 괴뢰국가가 종주국과 같은 색상을 갖는 것을 활성화하거나 비활성화합니다."
 	pfp_management_use_overlord_color_tooltip:0 "플레이어가 지배하는 모든 국가는 평화 상태입니다."
+
+	pfp_management_use_overlord_flag:0 "종주국 국기 괴뢰국가 표시 전환"
+	pfp_management_use_overlord_flag_desc:0 "이 결정은 괴뢰국가가 종주국과 같은 국기를 갖는 것을 활성화하거나 비활성화합니다."
 
 	pfp_management_resistance:0 "저항 메커니즘 전환"
 	pfp_management_resistance_desc:0 "이 결정은 저항 메커니즘을 활성화하거나 비활성화합니다. 활성화하면 형성 가능한 괴뢰 국가는 핵심 지역을 얻지 못하며, 순응도를 높이고 저항을 낮추기 위한 포커스와 결정을 완료해야 합니다. 순응도가 80%를 초과하고 저항이 20% 미만이 되면 주가 핵심이 됩니다."

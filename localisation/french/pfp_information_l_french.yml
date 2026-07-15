@@ -10,7 +10,11 @@ l_french:
 
 	pfp_management_window:0 "Ouvrir le menu de gestion"
 	pfp_management_use_overlord_color:0 "Basculer les marionnettes aux couleurs du suzerain"
+	pfp_management_use_overlord_color_desc:0 "Cette décision active ou désactive le fait que les marionnettes aient la même couleur que leur suzerain."
 	pfp_management_use_overlord_color_tooltip:0 "Tous les pays contrôlés par le joueur sont en paix."
+
+	pfp_management_use_overlord_flag:0 "Basculer les marionnettes au drapeau du suzerain"
+	pfp_management_use_overlord_flag_desc:0 "Cette décision active ou désactive le fait que les marionnettes aient le même drapeau que leur suzerain."
 
 	pfp_management_resistance:0 "Activer les mécaniques de résistance"
 	pfp_management_resistance_desc:0 "Cette décision active ou désactive les mécaniques de résistance. Si activée, les marionnettes formables n'obtiendront pas de coeurs et devront compléter des objectifs et des décisions pour augmenter la conformité et réduire la résistance. Un État sera intégré une fois que la conformité dépasse 80% et la résistance est en dessous de 20%."

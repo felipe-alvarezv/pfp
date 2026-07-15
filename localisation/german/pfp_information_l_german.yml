@@ -10,7 +10,11 @@ l_german:
 
 	pfp_management_window:0 "Verwaltungsmenü öffnen"
 	pfp_management_use_overlord_color:0 "Vasallen in Oberherrn-Farbe umschalten"
+	pfp_management_use_overlord_color_desc:0 "Diese Entscheidung aktiviert oder deaktiviert, dass Marionettenstaaten die gleiche Farbe wie ihr Oberherr haben."
 	pfp_management_use_overlord_color_tooltip:0 "Alle vom Spieler kontrollierten Länder befinden sich im Frieden."
+
+	pfp_management_use_overlord_flag:0 "Vasallen in Oberherrn-Flagge umschalten"
+	pfp_management_use_overlord_flag_desc:0 "Diese Entscheidung aktiviert oder deaktiviert, dass Marionettenstaaten die gleiche Flagge wie ihr Oberherr haben."
 
 	pfp_management_resistance:0 "Widerstandsmechaniken umschalten"
 	pfp_management_resistance_desc:0 "Diese Entscheidung aktiviert oder deaktiviert die Widerstandsmechaniken. Wenn aktiviert, erhalten formierbare Marionettenstaaten keine Kerngebiete und müssen Fokuspunkte und Entscheidungen abschließen, um die Compliance zu erhöhen und den Widerstand zu senken. Ein Staat wird zum Kerngebiet, sobald die Compliance über 80% und der Widerstand unter 20% liegt."

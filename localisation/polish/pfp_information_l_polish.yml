@@ -10,7 +10,11 @@ l_polish:
 
 	pfp_management_window:0 "Otwórz menu zarządzania"
 	pfp_management_use_overlord_color:0 "Przełącz kolory marionetek suzerena"
+	pfp_management_use_overlord_color_desc:0 "Ta decyzja włącza lub wyłącza posiadanie przez marionetki tego samego koloru co ich suzeren."
 	pfp_management_use_overlord_color_tooltip:0 "Wszystkie kraje kontrolowane przez gracza są w stanie pokoju."
+
+	pfp_management_use_overlord_flag:0 "Przełącz flagę marionetek suzerena"
+	pfp_management_use_overlord_flag_desc:0 "Ta decyzja włącza lub wyłącza posiadanie przez marionetki tej samej flagi co ich suzeren."
 
 	pfp_management_resistance:0 "Przełącz mechaniki oporu"
 	pfp_management_resistance_desc:0 "Ta decyzja włącza lub wyłącza mechaniki oporu. Jeśli włączone, formowalne marionetkowe państwa nie otrzymają terytoriów rdzennych i będą musiały ukończyć fokuse i decyzje, aby zwiększyć zgodność i zmniejszyć opór. Państwo stanie się terytorium rdzennym, gdy zgodność przekroczy 80%, a opór spadnie poniżej 20%."

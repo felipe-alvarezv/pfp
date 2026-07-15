@@ -10,7 +10,11 @@ l_spanish:
 
 	pfp_management_window:0 "Abrir menú de gestión"
 	pfp_management_use_overlord_color:0 "Alternar estados títeres con color del señor supremo"
+	pfp_management_use_overlord_color_desc:0 "Esta decisión activa o desactiva que los títeres tengan el mismo color que su señor supremo."
 	pfp_management_use_overlord_color_tooltip:0 "Todos los países controlados por el jugador están en paz."
+
+	pfp_management_use_overlord_flag:0 "Alternar estados títeres con bandera del señor supremo"
+	pfp_management_use_overlord_flag_desc:0 "Esta decisión activa o desactiva que los títeres tengan la misma bandera que su señor supremo."
 
 	pfp_management_resistance:0 "Alternar Mecánicas de Resistencia"
 	pfp_management_resistance_desc:0 "Esta decisión activa o desactiva las mecánicas de resistencia. Si está activada, los títeres formables no obtendrán territorios centrales y deberán completar enfoques y decisiones para aumentar el cumplimiento y reducir la resistencia. Un estado se convertirá en territorio central cuando el cumplimiento supere el 80% y la resistencia esté por debajo del 20%."

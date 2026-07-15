@@ -10,7 +10,11 @@ l_japanese:
 
 	pfp_management_window:0 "管理メニューを開く"
 	pfp_management_use_overlord_color:0 "宗主国色の傀儡国家表示を切り替え"
+	pfp_management_use_overlord_color_desc:0 "この決定は、傀儡国家が宗主国と同じ色を持つかどうかを有効または無効にします。"
 	pfp_management_use_overlord_color_tooltip:0 "プレイヤーが支配するすべての国は平和状態にある。"
+
+	pfp_management_use_overlord_flag:0 "宗主国旗の傀儡国家表示を切り替え"
+	pfp_management_use_overlord_flag_desc:0 "この決定は、傀儡国家が宗主国と同じ旗を持つかどうかを有効または無効にします。"
 
 	pfp_management_resistance:0 "抵抗力学の切り替え"
 	pfp_management_resistance_desc:0 "この決定は抵抗力学を有効または無効にします。有効にすると、形成可能な傀儡国はコア地域を取得できず、服従度を上げて抵抗を下げるためのフォーカスや決定を完了する必要があります。服従度が80%を超え、抵抗が20%を下回ると、州がコアになります。"

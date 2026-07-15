@@ -10,7 +10,11 @@ l_simp_chinese:
 
 	pfp_management_window:0 "打开管理菜单"
 	pfp_management_use_overlord_color:0 "切换宗主国彩色傀儡"
+	pfp_management_use_overlord_color_desc:0 "此决定启用或禁用傀儡国家拥有与其宗主国相同的颜色。"
 	pfp_management_use_overlord_color_tooltip:0 "所有玩家控制的国家均处于和平状态。"
+
+	pfp_management_use_overlord_flag:0 "切换宗主国旗帜傀儡"
+	pfp_management_use_overlord_flag_desc:0 "此决定启用或禁用傀儡国家拥有与其宗主国相同的旗帜。"
 
 	pfp_management_resistance:0 "切换抵抗机制"
 	pfp_management_resistance_desc:0 "此决定启用或禁用抵抗机制。启用后，可组建的傀儡国将无法获得核心领土，必须完成国策和决定来提升服从度并降低抵抗。当服从度超过80%且抵抗低于20%时，该州将成为核心领土。"
