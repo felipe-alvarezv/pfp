@@ -1,5 +1,5 @@
 #Indonesia
-capital = 335 #Java
+capital = 1058 #Batavia
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -95,17 +95,29 @@ recruit_character = P17_neutrality_leader
 recruit_character = P17_fascism_leader
 
 #Indonesia Initial States
-add_to_array = { P17.pfp_possible_cores = 334 } #Kalimantan
-add_to_array = { P17.pfp_possible_cores = 335 } #Java
-add_to_array = { P17.pfp_possible_cores = 667 } #Lesser Sunda Islands
-add_to_array = { P17.pfp_possible_cores = 668 } #The Moluccas
-add_to_array = { P17.pfp_possible_cores = 672 } #Sumatra
-add_to_array = { P17.pfp_possible_cores = 673 } #Sulawesi
-add_to_array = { P17.pfp_possible_cores = 1022 } #Inner Borneo
+add_to_array = { P17.pfp_possible_cores = 1050 } #Atjeh
+add_to_array = { P17.pfp_possible_cores = 1049 } #Medan and Riouw
+add_to_array = { P17.pfp_possible_cores = 1048 } #Padang
+add_to_array = { P17.pfp_possible_cores = 1047 } #Bangka-Belitung
+add_to_array = { P17.pfp_possible_cores = 672 } #South Sumatra
+add_to_array = { P17.pfp_possible_cores = 335 } #West Java
+add_to_array = { P17.pfp_possible_cores = 1058 } #Batavia
+add_to_array = { P17.pfp_possible_cores = 1051 } #East Java
 
 #Indonesia Territories
+add_to_array = { P17.pfp_possible_cores = 667 } #West Nusa Tenggara
+add_to_array = { P17.pfp_possible_cores = 1053 } #East Nusa Tenggara
+add_to_array = { P17.pfp_possible_cores = 1052 } #Bali
+add_to_array = { P17.pfp_possible_cores = 1054 } #Dutch Timor
+add_to_array = { P17.pfp_possible_cores = 1057 } #Dutch Papua
+add_to_array = { P17.pfp_possible_cores = 669 } #Dutch New Guinea
+add_to_array = { P17.pfp_possible_cores = 738 } #Aru Islands
+add_to_array = { P17.pfp_possible_cores = 668 } #The Moluccas
+add_to_array = { P17.pfp_possible_cores = 673 } #Sulawesi
+add_to_array = { P17.pfp_possible_cores = 1056 } #Manado
+add_to_array = { P17.pfp_possible_cores = 1055 } #East Kalimantan
+add_to_array = { P17.pfp_possible_cores = 1022 } #Interior Borneo
+add_to_array = { P17.pfp_possible_cores = 334 } #Kalimantan Barat
 add_to_array = { P17.pfp_possible_cores = 333 } #North Borneo
 add_to_array = { P17.pfp_possible_cores = 336 } #Singapore
-add_to_array = { P17.pfp_possible_cores = 669 } #West Papua
 add_to_array = { P17.pfp_possible_cores = 721 } #Portuguese Timor
-add_to_array = { P17.pfp_possible_cores = 738 } #Aru Islands

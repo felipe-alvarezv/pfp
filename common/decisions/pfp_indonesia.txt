@@ -7,63 +7,70 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Kalimantan
+			#Atjeh
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_kalimantan
-				has_full_control_of_state = 334 #Kalimantan
+				tooltip = pfp_indonesia_required_states_atjeh
+				has_full_control_of_state = 1050 #Atjeh
 			}
-			#Java
+			#Medan and Riouw
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_java
-				has_full_control_of_state = 335 #Java
+				tooltip = pfp_indonesia_required_states_medan_and_riouw
+				has_full_control_of_state = 1049 #Medan and Riouw
 			}
-			#Lesser Sunda Islands
+			#Padang
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_lesser_sunda_islands
-				has_full_control_of_state = 667 #Lesser Sunda Islands
+				tooltip = pfp_indonesia_required_states_padang
+				has_full_control_of_state = 1048 #Padang
 			}
-			#The Moluccas
+			#Bangka-Belitung
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_the_moluccas
-				has_full_control_of_state = 668 #The Moluccas
+				tooltip = pfp_indonesia_required_states_bangka_belitung
+				has_full_control_of_state = 1047 #Bangka-Belitung
 			}
-			#Sumatra
+			#South Sumatra
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_sumatra
-				has_full_control_of_state = 672 #Sumatra
+				tooltip = pfp_indonesia_required_states_south_sumatra
+				has_full_control_of_state = 672 #South Sumatra
 			}
-			#Sulawesi
+			#West Java
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_sulawesi
-				has_full_control_of_state = 673 #Sulawesi
+				tooltip = pfp_indonesia_required_states_west_java
+				has_full_control_of_state = 335 #West Java
 			}
-			#Inner Borneo
+			#Batavia
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_inner_borneo
-				has_full_control_of_state = 1022 #Inner Borneo
+				tooltip = pfp_indonesia_required_states_batavia
+				has_full_control_of_state = 1058 #Batavia
+			}
+			#East Java
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_east_java
+				has_full_control_of_state = 1051 #East Java
 			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 334 #Kalimantan
-				has_full_control_of_state = 335 #Java
-				has_full_control_of_state = 667 #Lesser Sunda Islands
-				has_full_control_of_state = 668 #The Moluccas
-				has_full_control_of_state = 672 #Sumatra
-				has_full_control_of_state = 673 #Sulawesi
-				has_full_control_of_state = 1022 #Inner Borneo
+				has_full_control_of_state = 1050 #Atjeh
+				has_full_control_of_state = 1049 #Medan and Riouw
+				has_full_control_of_state = 1048 #Padang
+				has_full_control_of_state = 1047 #Bangka-Belitung
+				has_full_control_of_state = 672 #South Sumatra
+				has_full_control_of_state = 335 #West Java
+				has_full_control_of_state = 1058 #Batavia
+				has_full_control_of_state = 1051 #East Java
 			}
 			NOT = { has_global_flag = pfp_indonesia_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { 
-				state = 334 #Kalimantan
-				state = 335 #Java
-				state = 667 #Lesser Sunda Islands
-				state = 668 #The Moluccas
-				state = 672 #Sumatra
-				state = 673 #Sulawesi
-				state = 1022 #Inner Borneo
+			highlight_state_targets = {
+				state = 1050 #Atjeh
+				state = 1049 #Medan and Riouw
+				state = 1048 #Padang
+				state = 1047 #Bangka-Belitung
+				state = 672 #South Sumatra
+				state = 335 #West Java
+				state = 1058 #Batavia
+				state = 1051 #East Java
 			}
 		}
 		icon = generic_military
@@ -76,7 +83,7 @@ pfp_category = {
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
 				#Transfer control and ownership of capital to formable puppet
-				335 = { transfer_state_to = P17 } #Java
+				1058 = { transfer_state_to = P17 } #Batavia
 
 				#Formable puppet becomes a puppet of ROOT
 				puppet = P17
