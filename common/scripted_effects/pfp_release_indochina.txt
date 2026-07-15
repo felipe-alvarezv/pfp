@@ -6,25 +6,33 @@ pfp_release_indochina = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			286 = { add_contested_owner = P16 } #Champa
-			670 = { add_contested_owner = P16 } #Laos
 			671 = { add_contested_owner = P16 } #Tonkin
+			670 = { add_contested_owner = P16 } #Laos
+			1069 = { add_contested_owner = P16 } #Lan Chang
+			1017 = { add_contested_owner = P16 } #North Annam
+			286 = { add_contested_owner = P16 } #South Annam
+			1068 = { add_contested_owner = P16 } #Bassac
 			741 = { add_contested_owner = P16 } #Cambodia
-			1017 = { add_contested_owner = P16 } #Trung Bo
+			1066 = { add_contested_owner = P16 } #Cochinchine
+			1067 = { add_contested_owner = P16 } #Battambang
 
 			#Add claims to formable puppet
-			286 = { add_claim_by = P16 } #Champa
-			670 = { add_claim_by = P16 } #Laos
 			671 = { add_claim_by = P16 } #Tonkin
+			670 = { add_claim_by = P16 } #Laos
+			1069 = { add_claim_by = P16 } #Lan Chang
+			1017 = { add_claim_by = P16 } #North Annam
+			286 = { add_claim_by = P16 } #South Annam
+			1068 = { add_claim_by = P16 } #Bassac
 			741 = { add_claim_by = P16 } #Cambodia
-			1017 = { add_claim_by = P16 } #Trung Bo
+			1066 = { add_claim_by = P16 } #Cochinchine
+			1067 = { add_claim_by = P16 } #Battambang
 
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P16 }
-				
+
 				#If ROOT owns the state, transfer control and ownership to formable puppet
-				if = { 
+				if = {
 					limit = { is_owned_by = ROOT }
 					transfer_state_to = P16
 				}
@@ -41,18 +49,22 @@ pfp_release_indochina = {
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {
 			#Add cores to formable puppet
-			286 = { add_core_of = P16 } #Champa
-			670 = { add_core_of = P16 } #Laos
 			671 = { add_core_of = P16 } #Tonkin
+			670 = { add_core_of = P16 } #Laos
+			1069 = { add_core_of = P16 } #Lan Chang
+			1017 = { add_core_of = P16 } #North Annam
+			286 = { add_core_of = P16 } #South Annam
+			1068 = { add_core_of = P16 } #Bassac
 			741 = { add_core_of = P16 } #Cambodia
-			1017 = { add_core_of = P16 } #Trung Bo
+			1066 = { add_core_of = P16 } #Cochinchine
+			1067 = { add_core_of = P16 } #Battambang
 
 			#Set formable puppet as owner and controller of core state
 			every_state = {
 				limit = { is_core_of = P16 }
 
 				#If ROOT owns the state, transfer control and ownership to formable puppet
-				if = { 
+				if = {
 					limit = { is_owned_by = ROOT }
 
 					add_contested_owner = P16

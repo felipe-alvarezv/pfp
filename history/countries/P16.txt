@@ -95,24 +95,38 @@ recruit_character = P16_neutrality_leader
 recruit_character = P16_fascism_leader
 
 #Indochina Initial States
-add_to_array = { P16.pfp_possible_cores = 286 } #Champa
-add_to_array = { P16.pfp_possible_cores = 670 } #Laos
 add_to_array = { P16.pfp_possible_cores = 671 } #Tonkin
+add_to_array = { P16.pfp_possible_cores = 670 } #Laos
+add_to_array = { P16.pfp_possible_cores = 1069 } #Lan Chang
+add_to_array = { P16.pfp_possible_cores = 1017 } #North Annam
+add_to_array = { P16.pfp_possible_cores = 286 } #South Annam
+add_to_array = { P16.pfp_possible_cores = 1068 } #Bassac
 add_to_array = { P16.pfp_possible_cores = 741 } #Cambodia
-add_to_array = { P16.pfp_possible_cores = 1017 } #Trung Bo
+add_to_array = { P16.pfp_possible_cores = 1066 } #Cochinchine
+add_to_array = { P16.pfp_possible_cores = 1067 } #Battambang
 
 #Indochina Territories
-add_to_array = { P16.pfp_possible_cores = 288 } #Magwe
-add_to_array = { P16.pfp_possible_cores = 289 } #Siam
-add_to_array = { P16.pfp_possible_cores = 336 } #Singapore
-add_to_array = { P16.pfp_possible_cores = 640 } #Mandalay
-add_to_array = { P16.pfp_possible_cores = 724 } #Northern Malay
-add_to_array = { P16.pfp_possible_cores = 868 } #Isan
-add_to_array = { P16.pfp_possible_cores = 869 } #Lanna
 add_to_array = { P16.pfp_possible_cores = 993 } #Kentung and Yawnghwe
-add_to_array = { P16.pfp_possible_cores = 994 } #Tenasserim
-add_to_array = { P16.pfp_possible_cores = 995 } #Pegu
-add_to_array = { P16.pfp_possible_cores = 996 } #Irrawaddy
-add_to_array = { P16.pfp_possible_cores = 997 } #Arakan
-add_to_array = { P16.pfp_possible_cores = 998 } #Sagaing
 add_to_array = { P16.pfp_possible_cores = 999 } #Federated Shan
+add_to_array = { P16.pfp_possible_cores = 998 } #Sagaing
+add_to_array = { P16.pfp_possible_cores = 640 } #Mandalay
+add_to_array = { P16.pfp_possible_cores = 288 } #Magwe
+add_to_array = { P16.pfp_possible_cores = 997 } #Arakan
+add_to_array = { P16.pfp_possible_cores = 996 } #Irrawaddy
+add_to_array = { P16.pfp_possible_cores = 995 } #Pegu
+add_to_array = { P16.pfp_possible_cores = 994 } #Tenasserim
+add_to_array = { P16.pfp_possible_cores = 869 } #Lanna
+add_to_array = { P16.pfp_possible_cores = 1077 } #Central Siam
+add_to_array = { P16.pfp_possible_cores = 868 } #Isan
+add_to_array = { P16.pfp_possible_cores = 1078 } #Eastern Siam
+add_to_array = { P16.pfp_possible_cores = 1076 } #Bangkok State
+add_to_array = { P16.pfp_possible_cores = 289 } #Western Siam
+add_to_array = { P16.pfp_possible_cores = 724 } #Southern Siam
+add_to_array = { P16.pfp_possible_cores = 1062 } #Kelantan-Terengganu
+add_to_array = { P16.pfp_possible_cores = 1061 } #Perlis-Kedah
+add_to_array = { P16.pfp_possible_cores = 1065 } #Penang
+add_to_array = { P16.pfp_possible_cores = 1064 } #Perak
+add_to_array = { P16.pfp_possible_cores = 336 } #Kuala Lumpur
+add_to_array = { P16.pfp_possible_cores = 1063 } #Pahang
+add_to_array = { P16.pfp_possible_cores = 1060 } #Johor
+add_to_array = { P16.pfp_possible_cores = 1021 } #Singapore

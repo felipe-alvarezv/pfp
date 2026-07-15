@@ -9,49 +9,77 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Champa
+			#Tonkin
 			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_champa
-				has_full_control_of_state = 286 #Champa
+				tooltip = pfp_indochina_required_states_tonkin
+				has_full_control_of_state = 671 #Tonkin
 			}
 			#Laos
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_laos
 				has_full_control_of_state = 670 #Laos
 			}
-			#Tonkin
+			#Lan Chang
 			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_tonkin
-				has_full_control_of_state = 671 #Tonkin
+				tooltip = pfp_indochina_required_states_lan_chang
+				has_full_control_of_state = 1069 #Lan Chang
+			}
+			#North Annam
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_north_annam
+				has_full_control_of_state = 1017 #North Annam
+			}
+			#South Annam
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_south_annam
+				has_full_control_of_state = 286 #South Annam
+			}
+			#Bassac
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_bassac
+				has_full_control_of_state = 1068 #Bassac
 			}
 			#Cambodia
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_cambodia
 				has_full_control_of_state = 741 #Cambodia
 			}
-			#Trung Bo
+			#Cochinchine
 			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_trung_bo
-				has_full_control_of_state = 1017 #Trung Bo
+				tooltip = pfp_indochina_required_states_cochinchine
+				has_full_control_of_state = 1066 #Cochinchine
+			}
+			#Battambang
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_battambang
+				has_full_control_of_state = 1067 #Battambang
 			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 286 #Champa
-				has_full_control_of_state = 670 #Laos
 				has_full_control_of_state = 671 #Tonkin
+				has_full_control_of_state = 670 #Laos
+				has_full_control_of_state = 1069 #Lan Chang
+				has_full_control_of_state = 1017 #North Annam
+				has_full_control_of_state = 286 #South Annam
+				has_full_control_of_state = 1068 #Bassac
 				has_full_control_of_state = 741 #Cambodia
-				has_full_control_of_state = 1017 #Trung Bo
+				has_full_control_of_state = 1066 #Cochinchine
+				has_full_control_of_state = 1067 #Battambang
 			}
 			NOT = { has_global_flag = pfp_indochina_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { 
-				state = 286 #Champa
-				state = 670 #Laos
+			highlight_state_targets = {
 				state = 671 #Tonkin
+				state = 670 #Laos
+				state = 1069 #Lan Chang
+				state = 1017 #North Annam
+				state = 286 #South Annam
+				state = 1068 #Bassac
 				state = 741 #Cambodia
-				state = 1017 #Trung Bo
+				state = 1066 #Cochinchine
+				state = 1067 #Battambang
 			}
 		}
 		icon = generic_military
