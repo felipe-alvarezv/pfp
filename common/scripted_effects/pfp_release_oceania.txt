@@ -12,14 +12,19 @@ pfp_release_oceania = {
 			519 = { add_contested_owner = P27 } #South Australia
 			520 = { add_contested_owner = P27 } #Northern Territory
 			521 = { add_contested_owner = P27 } #Queensland
-			522 = { add_contested_owner = P27 } #West Australia
+			522 = { add_contested_owner = P27 } #Western Australia
 			674 = { add_contested_owner = P27 } #Central Australia
 			870 = { add_contested_owner = P27 } #North West Australia
 			871 = { add_contested_owner = P27 } #South West Australia
 			872 = { add_contested_owner = P27 } #North Queensland
 			873 = { add_contested_owner = P27 } #South West Queensland
-			284 = { add_contested_owner = P27 } #North Island
-			723 = { add_contested_owner = P27 } #South Island
+			1075 = { add_contested_owner = P27 } #West Queensland
+			1074 = { add_contested_owner = P27 } #Central Western Australia
+			284 = { add_contested_owner = P27 } #Wellington
+			723 = { add_contested_owner = P27 } #Canterbury
+			1079 = { add_contested_owner = P27 } #Auckland
+			1080 = { add_contested_owner = P27 } #Marlborough
+			1081 = { add_contested_owner = P27 } #Otago
 
 			#Add claims to formable puppet
 			285 = { add_claim_by = P27 } #New South Wales
@@ -28,21 +33,26 @@ pfp_release_oceania = {
 			519 = { add_claim_by = P27 } #South Australia
 			520 = { add_claim_by = P27 } #Northern Territory
 			521 = { add_claim_by = P27 } #Queensland
-			522 = { add_claim_by = P27 } #West Australia
+			522 = { add_claim_by = P27 } #Western Australia
 			674 = { add_claim_by = P27 } #Central Australia
 			870 = { add_claim_by = P27 } #North West Australia
 			871 = { add_claim_by = P27 } #South West Australia
 			872 = { add_claim_by = P27 } #North Queensland
 			873 = { add_claim_by = P27 } #South West Queensland
-			284 = { add_claim_by = P27 } #North Island
-			723 = { add_claim_by = P27 } #South Island
+			1075 = { add_claim_by = P27 } #West Queensland
+			1074 = { add_claim_by = P27 } #Central Western Australia
+			284 = { add_claim_by = P27 } #Wellington
+			723 = { add_claim_by = P27 } #Canterbury
+			1079 = { add_claim_by = P27 } #Auckland
+			1080 = { add_claim_by = P27 } #Marlborough
+			1081 = { add_claim_by = P27 } #Otago
 
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P27 }
-				
+
 				#If ROOT owns the state, transfer control and ownership to formable puppet
-				if = { 
+				if = {
 					limit = { is_owned_by = ROOT }
 					transfer_state_to = P27
 				}
@@ -65,21 +75,26 @@ pfp_release_oceania = {
 			519 = { add_core_of = P27 } #South Australia
 			520 = { add_core_of = P27 } #Northern Territory
 			521 = { add_core_of = P27 } #Queensland
-			522 = { add_core_of = P27 } #West Australia
+			522 = { add_core_of = P27 } #Western Australia
 			674 = { add_core_of = P27 } #Central Australia
 			870 = { add_core_of = P27 } #North West Australia
 			871 = { add_core_of = P27 } #South West Australia
 			872 = { add_core_of = P27 } #North Queensland
 			873 = { add_core_of = P27 } #South West Queensland
-			284 = { add_core_of = P27 } #North Island
-			723 = { add_core_of = P27 } #South Island
+			1075 = { add_core_of = P27 } #West Queensland
+			1074 = { add_core_of = P27 } #Central Western Australia
+			284 = { add_core_of = P27 } #Wellington
+			723 = { add_core_of = P27 } #Canterbury
+			1079 = { add_core_of = P27 } #Auckland
+			1080 = { add_core_of = P27 } #Marlborough
+			1081 = { add_core_of = P27 } #Otago
 
 			#Set formable puppet as owner and controller of core state
 			every_state = {
 				limit = { is_core_of = P27 }
 
 				#If ROOT owns the state, transfer control and ownership to formable puppet
-				if = { 
+				if = {
 					limit = { is_owned_by = ROOT }
 
 					add_contested_owner = P27

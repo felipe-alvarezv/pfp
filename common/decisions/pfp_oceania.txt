@@ -38,10 +38,10 @@ pfp_category = {
 				tooltip = pfp_oceania_required_states_queensland
 				has_full_control_of_state = 521 #Queensland
 			}
-			#West Australia
+			#Western Australia
 			custom_trigger_tooltip = {
 				tooltip = pfp_oceania_required_states_west_australia
-				has_full_control_of_state = 522 #West Australia
+				has_full_control_of_state = 522 #Western Australia
 			}
 			#Central Australia
 			custom_trigger_tooltip = {
@@ -68,52 +68,87 @@ pfp_category = {
 				tooltip = pfp_oceania_required_states_south_west_queensland
 				has_full_control_of_state = 873 #South West Queensland
 			}
-			#North Island
+			#West Queensland
 			custom_trigger_tooltip = {
-				tooltip = pfp_oceania_required_states_north_island
-				has_full_control_of_state = 284 #North Island
+				tooltip = pfp_oceania_required_states_west_queensland
+				has_full_control_of_state = 1075 #West Queensland
 			}
-			#South Island
+			#Central Western Australia
 			custom_trigger_tooltip = {
-				tooltip = pfp_oceania_required_states_south_island
-				has_full_control_of_state = 723 #South Island
+				tooltip = pfp_oceania_required_states_central_western_australia
+				has_full_control_of_state = 1074 #Central Western Australia
+			}
+			#Wellington
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_wellington
+				has_full_control_of_state = 284 #Wellington
+			}
+			#Canterbury
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_canterbury
+				has_full_control_of_state = 723 #Canterbury
+			}
+			#Auckland
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_auckland
+				has_full_control_of_state = 1079 #Auckland
+			}
+			#Marlborough
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_marlborough
+				has_full_control_of_state = 1080 #Marlborough
+			}
+			#Otago
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_otago
+				has_full_control_of_state = 1081 #Otago
 			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 284 #North Island
+				has_full_control_of_state = 284 #Wellington
 				has_full_control_of_state = 285 #New South Wales
 				has_full_control_of_state = 517 #Victoria
 				has_full_control_of_state = 518 #Tasmania
 				has_full_control_of_state = 519 #South Australia
 				has_full_control_of_state = 520 #Northern Territory
 				has_full_control_of_state = 521 #Queensland
-				has_full_control_of_state = 522 #West Australia
+				has_full_control_of_state = 522 #Western Australia
 				has_full_control_of_state = 674 #Central Australia
-				has_full_control_of_state = 723 #South Island
+				has_full_control_of_state = 723 #Canterbury
 				has_full_control_of_state = 870 #North West Australia
 				has_full_control_of_state = 871 #South West Australia
 				has_full_control_of_state = 872 #North Queensland
 				has_full_control_of_state = 873 #South West Queensland
+				has_full_control_of_state = 1074 #Central Western Australia
+				has_full_control_of_state = 1075 #West Queensland
+				has_full_control_of_state = 1079 #Auckland
+				has_full_control_of_state = 1080 #Marlborough
+				has_full_control_of_state = 1081 #Otago
 			}
 			NOT = { has_global_flag = pfp_oceania_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
-				state = 284 #North Island
+				state = 284 #Wellington
 				state = 285 #New South Wales
 				state = 517 #Victoria
 				state = 518 #Tasmania
 				state = 519 #South Australia
 				state = 520 #Northern Territory
 				state = 521 #Queensland
-				state = 522 #West Australia
+				state = 522 #Western Australia
 				state = 674 #Central Australia
-				state = 723 #South Island
+				state = 723 #Canterbury
 				state = 870 #North West Australia
 				state = 871 #South West Australia
 				state = 872 #North Queensland
-				state = 873 #South West Queensland	
+				state = 873 #South West Queensland
+				state = 1074 #Central Western Australia
+				state = 1075 #West Queensland
+				state = 1079 #Auckland
+				state = 1080 #Marlborough
+				state = 1081 #Otago
 			}
 		}
 		icon = generic_military
