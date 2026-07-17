@@ -1,0 +1,91 @@
+#Scripted effect to release the Philippines (Q25)
+pfp_release_philippines = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			327 = { add_contested_owner = Q25 } #Manila
+			1027 = { add_contested_owner = Q25 } #Bataan
+			623 = { add_contested_owner = Q25 } #Luzon
+			624 = { add_contested_owner = Q25 } #Central Islands
+			625 = { add_contested_owner = Q25 } #Eastern Visayas
+			1026 = { add_contested_owner = Q25 } #Northern Mindanao
+			628 = { add_contested_owner = Q25 } #Western Visayas
+			1025 = { add_contested_owner = Q25 } #Zamboanga
+			627 = { add_contested_owner = Q25 } #Davao
+			626 = { add_contested_owner = Q25 } #Palawan
+
+			#Add claims to formable puppet
+			327 = { add_claim_by = Q25 } #Manila
+			1027 = { add_claim_by = Q25 } #Bataan
+			623 = { add_claim_by = Q25 } #Luzon
+			624 = { add_claim_by = Q25 } #Central Islands
+			625 = { add_claim_by = Q25 } #Eastern Visayas
+			1026 = { add_claim_by = Q25 } #Northern Mindanao
+			628 = { add_claim_by = Q25 } #Western Visayas
+			1025 = { add_claim_by = Q25 } #Zamboanga
+			627 = { add_claim_by = Q25 } #Davao
+			626 = { add_claim_by = Q25 } #Palawan
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = Q25 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q25
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q25
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q25 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			327 = { add_core_of = Q25 } #Manila
+			1027 = { add_core_of = Q25 } #Bataan
+			623 = { add_core_of = Q25 } #Luzon
+			624 = { add_core_of = Q25 } #Central Islands
+			625 = { add_core_of = Q25 } #Eastern Visayas
+			1026 = { add_core_of = Q25 } #Northern Mindanao
+			628 = { add_core_of = Q25 } #Western Visayas
+			1025 = { add_core_of = Q25 } #Zamboanga
+			627 = { add_core_of = Q25 } #Davao
+			626 = { add_core_of = Q25 } #Palawan
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = Q25 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q25
+					transfer_state_to = Q25
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q25
+					set_state_controller_to = Q25
+				}
+			}
+
+			Q25 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}
