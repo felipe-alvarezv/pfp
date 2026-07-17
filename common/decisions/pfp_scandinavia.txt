@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_scandinavia = {
 		allowed = {
 			NOT = {
@@ -15,10 +15,10 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_sjaelland
 				has_full_control_of_state = 37 #Sjaelland
 			}
-			#Gävleborg
+			#GÃ¤vleborg
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_gavleborg
-				has_full_control_of_state = 38 #Gävleborg
+				has_full_control_of_state = 38 #GÃ¤vleborg
 			}
 			#Jylland
 			custom_trigger_tooltip = {
@@ -30,10 +30,10 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_oslofjord
 				has_full_control_of_state = 110 #Oslofjord
 			}
-			#Skåne
+			#SkÃ¥ne
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_skane
-				has_full_control_of_state = 138 #Skåne
+				has_full_control_of_state = 138 #SkÃ¥ne
 			}
 			#Smaland
 			custom_trigger_tooltip = {
@@ -45,20 +45,20 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_vastergotland
 				has_full_control_of_state = 140 #Vastergotland
 			}
-			#Södermanland
+			#SÃ¶dermanland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_sodermanland
-				has_full_control_of_state = 141 #Södermanland
+				has_full_control_of_state = 141 #SÃ¶dermanland
 			}
 			#Vestlandet
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_vestlandet
 				has_full_control_of_state = 142 #Vestlandet
 			}
-			#Trøndelag
+			#TrÃ¸ndelag
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_trondelag
-				has_full_control_of_state = 143 #Trøndelag
+				has_full_control_of_state = 143 #TrÃ¸ndelag
 			}
 			#Nordland
 			custom_trigger_tooltip = {
@@ -75,40 +75,40 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_fyn
 				has_full_control_of_state = 911 #Fyn
 			}
-			#Sønderjylland
+			#SÃ¸nderjylland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_sonderjylland
-				has_full_control_of_state = 912 #Sønderjylland
+				has_full_control_of_state = 912 #SÃ¸nderjylland
 			}
-			#Östergötland
+			#Ã–stergÃ¶tland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_ostergotland
-				has_full_control_of_state = 913 #Östergötland
+				has_full_control_of_state = 913 #Ã–stergÃ¶tland
 			}
-			#Bohuslän
+			#BohuslÃ¤n
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_bohuslan
-				has_full_control_of_state = 915 #Bohuslän
+				has_full_control_of_state = 915 #BohuslÃ¤n
 			}
 			#Dalarna
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_dalarna
 				has_full_control_of_state = 916 #Dalarna
 			}
-			#Jämtland
+			#JÃ¤mtland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_jamtland
-				has_full_control_of_state = 917 #Jämtland
+				has_full_control_of_state = 917 #JÃ¤mtland
 			}
-			#Västerbotten
+			#VÃ¤sterbotten
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_vasterbotten
-				has_full_control_of_state = 918 #Västerbotten
+				has_full_control_of_state = 918 #VÃ¤sterbotten
 			}
-			#Värmland
+			#VÃ¤rmland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_varmland
-				has_full_control_of_state = 919 #Värmland
+				has_full_control_of_state = 919 #VÃ¤rmland
 			}
 			#Opplandene
 			custom_trigger_tooltip = {
@@ -144,25 +144,25 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 37 #Sjaelland
-				has_full_control_of_state = 38 #Gävleborg
+				has_full_control_of_state = 38 #GÃ¤vleborg
 				has_full_control_of_state = 99 #Jylland
 				has_full_control_of_state = 110 #Oslofjord
-				has_full_control_of_state = 138 #Skåne
+				has_full_control_of_state = 138 #SkÃ¥ne
 				has_full_control_of_state = 139 #Smaland
 				has_full_control_of_state = 140 #Vastergotland
-				has_full_control_of_state = 141 #Södermanland
+				has_full_control_of_state = 141 #SÃ¶dermanland
 				has_full_control_of_state = 142 #Vestlandet
-				has_full_control_of_state = 143 #Trøndelag
+				has_full_control_of_state = 143 #TrÃ¸ndelag
 				has_full_control_of_state = 144 #Nordland
 				has_full_control_of_state = 666 #Norrbotten
 				has_full_control_of_state = 911 #Fyn
-				has_full_control_of_state = 912 #Sønderjylland
-				has_full_control_of_state = 913 #Östergötland
-				has_full_control_of_state = 915 #Bohuslän
+				has_full_control_of_state = 912 #SÃ¸nderjylland
+				has_full_control_of_state = 913 #Ã–stergÃ¶tland
+				has_full_control_of_state = 915 #BohuslÃ¤n
 				has_full_control_of_state = 916 #Dalarna
-				has_full_control_of_state = 917 #Jämtland
-				has_full_control_of_state = 918 #Västerbotten
-				has_full_control_of_state = 919 #Värmland
+				has_full_control_of_state = 917 #JÃ¤mtland
+				has_full_control_of_state = 918 #VÃ¤sterbotten
+				has_full_control_of_state = 919 #VÃ¤rmland
 				has_full_control_of_state = 920 #Opplandene
 				has_full_control_of_state = 921 #Telemark
 				has_full_control_of_state = 922 #Agder
@@ -175,25 +175,25 @@ pfp_category = {
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 37 #Sjaelland
-				state = 38 #Gävleborg
+				state = 38 #GÃ¤vleborg
 				state = 99 #Jylland
 				state = 110 #Oslofjord
-				state = 138 #Skåne
+				state = 138 #SkÃ¥ne
 				state = 139 #Smaland
 				state = 140 #Vastergotland
-				state = 141 #Södermanland
+				state = 141 #SÃ¶dermanland
 				state = 142 #Vestlandet
-				state = 143 #Trøndelag
+				state = 143 #TrÃ¸ndelag
 				state = 144 #Nordland
 				state = 666 #Norrbotten
 				state = 911 #Fyn
-				state = 912 #Sønderjylland
-				state = 913 #Östergötland
-				state = 915 #Bohuslän
+				state = 912 #SÃ¸nderjylland
+				state = 913 #Ã–stergÃ¶tland
+				state = 915 #BohuslÃ¤n
 				state = 916 #Dalarna
-				state = 917 #Jämtland
-				state = 918 #Västerbotten
-				state = 919 #Värmland
+				state = 917 #JÃ¤mtland
+				state = 918 #VÃ¤sterbotten
+				state = 919 #VÃ¤rmland
 				state = 920 #Opplandene
 				state = 921 #Telemark
 				state = 922 #Agder
@@ -221,6 +221,17 @@ pfp_category = {
 				set_temp_variable = { pfp_portrait_tag = P24 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
 
 				#Formable puppet will core or contest its designated territory
 				pfp_release_scandinavia = yes

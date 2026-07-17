@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_east_germany = {
 		allowed = {
 			NOT = {
@@ -77,6 +77,17 @@ pfp_category = {
 				set_temp_variable = { pfp_portrait_tag = P32 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
 
 				#Formable puppet will core or contest its designated territory
 				pfp_release_east_germany = yes

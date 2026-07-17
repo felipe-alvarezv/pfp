@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_hungary = {
 		allowed = {
 			NOT = {
@@ -22,10 +22,10 @@ pfp_category = {
 				tooltip = pfp_hungary_required_states_north_transdanubia
 				has_full_control_of_state = 155 #North Transdanubia
 			}
-			#Bács-Kiskun
+			#BÃ¡cs-Kiskun
 			custom_trigger_tooltip = {
 				tooltip = pfp_hungary_required_states_bacs_kiskun
-				has_full_control_of_state = 973 #Bács-Kiskun
+				has_full_control_of_state = 973 #BÃ¡cs-Kiskun
 			}
 			#South Transdanubia
 			custom_trigger_tooltip = {
@@ -38,7 +38,7 @@ pfp_category = {
 				has_full_control_of_state = 43 #Northern Hungary
 				has_full_control_of_state = 154 #Transtisza
 				has_full_control_of_state = 155 #North Transdanubia
-				has_full_control_of_state = 973 #Bács-Kiskun
+				has_full_control_of_state = 973 #BÃ¡cs-Kiskun
 				has_full_control_of_state = 974 #South Transdanubia
 			}
 			NOT = { has_global_flag = pfp_hungary_flag }
@@ -48,7 +48,7 @@ pfp_category = {
 				state = 43 #Northern Hungary
 				state = 154 #Transtisza
 				state = 155 #North Transdanubia
-				state = 973 #Bács-Kiskun
+				state = 973 #BÃ¡cs-Kiskun
 				state = 974 #South Transdanubia
 			}
 		}
@@ -71,6 +71,17 @@ pfp_category = {
 				set_temp_variable = { pfp_portrait_tag = P09 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
 
 				#Formable puppet will core or contest its designated territory
 				pfp_release_hungary = yes
