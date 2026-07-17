@@ -1,0 +1,42 @@
+pfp_set_puppet_ideology = {
+	if = {
+		limit = { ROOT = { has_government = democratic } }
+		set_politics = { ruling_party = democratic }
+		set_popularities = {
+			democratic = 100
+			fascism = 0
+			communism = 0
+			neutrality = 0
+		}
+	}
+	else_if = {
+		limit = { ROOT = { has_government = fascism } }
+		set_politics = { ruling_party = fascism }
+		set_popularities = {
+			democratic = 0
+			fascism = 100
+			communism = 0
+			neutrality = 0
+		}
+	}
+	else_if = {
+		limit = { ROOT = { has_government = communism } }
+		set_politics = { ruling_party = communism }
+		set_popularities = {
+			democratic = 0
+			fascism = 0
+			communism = 100
+			neutrality = 0
+		}
+	}
+	else_if = {
+		limit = { ROOT = { has_government = neutrality } }
+		set_politics = { ruling_party = neutrality }
+		set_popularities = {
+			democratic = 0
+			fascism = 0
+			communism = 0
+			neutrality = 100
+		}
+	}
+}

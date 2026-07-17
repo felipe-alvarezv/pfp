@@ -122,6 +122,7 @@ pfp_category = {
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
 				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
 					if = {
 						limit = {
 							OR = {
