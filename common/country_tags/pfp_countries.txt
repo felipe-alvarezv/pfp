@@ -123,3 +123,4 @@ Q23 = "countries/Q23.txt" #East Turkestan
 Q24 = "countries/Q24.txt" #Tibet
 Q25 = "countries/Q25.txt" #Philippines
 Q26 = "countries/Q26.txt" #Morocco
+Q27 = "countries/Q27.txt" #Algeria

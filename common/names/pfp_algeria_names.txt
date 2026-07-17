@@ -1,0 +1,28 @@
+#Algeria
+Q27 = {
+	male = {
+		names = {
+			Aali "Abd Al-Latif"  Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
+			Idris Imen Iskandar "Ismai'il" Jafar Jamal Jibril Karim Latif Mahometus Maqsud "Mikha'il" Mohammed Mostafa Murtada Nadeem Najm Navid Nur Omar Osama Qasim Rais Rashid Rayan Ruh Saif Salih Shad Shakir
+			Shukri Sulaiman Taj Tayyib Wafai Yakub Yuhanna Zahi Zawar Zulfaqar
+			#Algeria Specific
+			Abdelaziz Abdelkader Abdelmalek Albert Boualem Chadli Frantz Ferhat Giorgio Houari Jacques Kamel Kateb Madjid Mehdi Moufdi Nabil Rabah Rafik Sofiane Yacine Yasmina
+		}
+	}
+	female = {
+		names = {
+			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Israa Jathibiyya Khalida Latifa Maha Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar Samia Sarah
+			Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha
+			#Algeria Specific
+			Ahlam Assia Hélène
+		}
+	}
+	surnames = {
+		Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
+		Saqqaf Sultan Tawfeek Tawfiq Zaman
+		#Algeria Specific
+		Abbas Abeid Arkoun "Ben Bella" Bendjedid Bentaleb Bitat Bougherra Boumediene Bouteflika Brahimi Camus Chiellini Cixous Daoud Derrida Djebar Djebbour "El Djezairi" Fanon Feghouli Ghilas Khadra Mosteghanemi Sansal
+		Sellal Yacine Zakaria
+	}
+	callsigns = { }
+}
