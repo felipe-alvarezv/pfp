@@ -15,6 +15,42 @@ on_actions = {
                     set_politics = {
                         ruling_party = var:overlord
                     }
+                    if = {
+                        limit = { has_government = democratic }
+                        set_popularities = {
+                            democratic = 100
+                            fascism = 0
+                            communism = 0
+                            neutrality = 0
+                        }
+                    }
+                    else_if = {
+                        limit = { has_government = fascism }
+                        set_popularities = {
+                            democratic = 0
+                            fascism = 100
+                            communism = 0
+                            neutrality = 0
+                        }
+                    }
+                    else_if = {
+                        limit = { has_government = communism }
+                        set_popularities = {
+                            democratic = 0
+                            fascism = 0
+                            communism = 100
+                            neutrality = 0
+                        }
+                    }
+                    else_if = {
+                        limit = { has_government = neutrality }
+                        set_popularities = {
+                            democratic = 0
+                            fascism = 0
+                            communism = 0
+                            neutrality = 100
+                        }
+                    }
                 }
 
                 #Set puppet flag according to selected setting
