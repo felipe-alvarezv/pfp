@@ -1,0 +1,39 @@
+#Morocco
+Q26 = {
+	male = {
+		names = {
+			Aali "Abd Al-Latif"  Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
+			Idris Imen Iskandar "Ismai'il" Jafar Jamal Jibril Karim Latif Mahometus Maqsud "Mikha'il" Mohammed Mostafa Murtada Nadeem Najm Navid Nur Omar Osama Qasim Rais Rashid Rayan Ruh Saif Salih Shad Shakir
+			Shukri Sulaiman Taj Tayyib Wafai Yakub Yuhanna Zahi Zawar Zulfaqar
+			#Morocco Specific
+			Abbas Abd Abdalaati Abdallah Abdelaziz Abdelhak Abdelilah Abdelkader Abdellatif Abdessadeq "Abu Bakr" Ahmed Alber Albert Ali Andre Azzeddine Bachir Bouchaib Bouchta Brahim David Driss Elam Eli Faouzi Gad Hassan Hicham
+			Henry Hicham Imad Isaac Ismael Jamal Jamel Jaouad Jo Judah Kacem Khalid Laarbi Omar Maati Mahmoud Mehdi Mohamed Mohammed Moshe Mouad Moulay Nabil Nadir Najib Rachid Ralph Rhadi Robert Ryan Said Salah Samuel Samy
+			Shlomo
+		}
+		surnames = {
+			Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
+			Saqqaf Sultan Tawfeek Tawfiq Zaman
+			#Morocco Specific
+			Aamara Abdelhadi Abouzeid Aflalo "ibn Al-Aftas" Alfasi "Abed Al-Jabri" Amhali Attar Balafej Basri Belhsen "Ben-Ami" Benhima Bensaidi "El Bidaoui" Bitton Bouabid Chami "Ali Cherif" Debbouze Elbaz Essaidi "Al-Fasi"
+			Ferroukhi "El Ghazzali" Guinia Hakmoun "Al-Hassar" "ben David Hayyuj" Ibrahim Jay Kaghat Khayat Laabi Lahlou Laraki Maan "El Marikh" Mezouar "El Moutawakel" Noury "El Othmani" Pinto Reno Roukhe Skah Tamsamani  Tietjen
+			Youssoufi Zarra
+		}
+	}
+	female = {
+		names = {
+			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Isaac Israa Jathibiyya Khalida Latifa Maha Mahi Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar Samia Sarah
+			Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha
+			#Morocco Specific
+			Amina Danielle Halima Hasna Latifa Leila Nadia Najat Nezha Sanaa Shatha Simone Sofia Yasmine
+		}
+		surnames = {
+			Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
+			Saqqaf Sultan Tawfeek Tawfiq Zaman
+			#Morocco Specific
+			Aamara Abdelhadi Abouzeid Aflalo "bint Al-Aftas" Alfasi "Abed Al-Jabri" Amhali Attar Balafej Basri Belhsen "Ben-Ami" Benhima Bensaidi "El Bidaoui" Bitton Bouabid Chami "Ali Cherif" Debbouze Elbaz Essaidi "Al-Fasi"
+			Ferroukhi "El Ghazzali" Guinia Hakmoun "Al-Hassar" "ben David Hayyuj" Ibrahim Jay Kaghat Khayat Laabi Lahlou Laraki Maan "El Marikh" Mezouar "El Moutawakel" Noury "El Othmani" Pinto Reno Roukhe Skah Tamsamani  Tietjen
+			Youssoufi Zarra
+		}
+	}
+	callsigns = { }
+}

@@ -1,0 +1,6 @@
+#Morocco
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
+color = { 102 51 0 }
+color = rgb { 102 51 0 }
+color_ui = rgb { 102 51 0 }
