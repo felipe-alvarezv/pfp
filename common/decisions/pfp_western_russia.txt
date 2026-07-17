@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
     pfp_western_russia = {
         allowed = {
             NOT = {
