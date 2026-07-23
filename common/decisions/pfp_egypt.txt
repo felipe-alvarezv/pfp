@@ -1,0 +1,106 @@
+pfp_category = {
+	pfp_egypt = {
+		allowed = {
+			NOT = {
+				original_tag = EGY #Egypt
+			}
+		}
+		available = {
+			is_subject = no
+			#Matrouh
+			custom_trigger_tooltip = {
+				tooltip = pfp_egypt_required_states_matrouh
+				has_full_control_of_state = 452 #Matrouh
+			}
+			#Western Desert
+			custom_trigger_tooltip = {
+				tooltip = pfp_egypt_required_states_western_desert
+				has_full_control_of_state = 552 #Western Desert
+			}
+			#Alexandria
+			custom_trigger_tooltip = {
+				tooltip = pfp_egypt_required_states_alexandria
+				has_full_control_of_state = 447 #Alexandria
+			}
+			#Cairo
+			custom_trigger_tooltip = {
+				tooltip = pfp_egypt_required_states_cairo
+				has_full_control_of_state = 907 #Cairo
+			}
+			#Aswan
+			custom_trigger_tooltip = {
+				tooltip = pfp_egypt_required_states_aswan
+				has_full_control_of_state = 456 #Aswan
+			}
+			#Eastern Desert
+			custom_trigger_tooltip = {
+				tooltip = pfp_egypt_required_states_eastern_desert
+				has_full_control_of_state = 457 #Eastern Desert
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 452 #Matrouh
+				has_full_control_of_state = 552 #Western Desert
+				has_full_control_of_state = 447 #Alexandria
+				has_full_control_of_state = 907 #Cairo
+				has_full_control_of_state = 456 #Aswan
+				has_full_control_of_state = 457 #Eastern Desert
+			}
+			NOT = { has_global_flag = pfp_egypt_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 452 #Matrouh
+				state = 552 #Western Desert
+				state = 447 #Alexandria
+				state = 907 #Cairo
+				state = 456 #Aswan
+				state = 457 #Eastern Desert
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_egypt_transfer_capital
+			custom_effect_tooltip = pfp_egypt_puppet
+			custom_effect_tooltip = pfp_egypt_occupation_type
+			custom_effect_tooltip = pfp_egypt_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				907 = { transfer_state_to = Q30 } #Cairo
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q30
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q30 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_egypt = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q30 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_egypt_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
