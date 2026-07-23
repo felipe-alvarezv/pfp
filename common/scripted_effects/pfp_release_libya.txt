@@ -1,0 +1,85 @@
+#Scripted effect to release Libya (Q29)
+pfp_release_libya = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			661 = { add_contested_owner = Q29 } #Tripolitania
+			448 = { add_contested_owner = Q29 } #Tripoli
+			449 = { add_contested_owner = Q29 } #El Agheila
+			662 = { add_contested_owner = Q29 } #Sirte
+			450 = { add_contested_owner = Q29 } #Benghasi
+			451 = { add_contested_owner = Q29 } #Derna
+			663 = { add_contested_owner = Q29 } #Cyrenaica
+			273 = { add_contested_owner = Q29 } #Libyan Desert
+
+			#Add claims to formable puppet
+			661 = { add_claim_by = Q29 } #Tripolitania
+			448 = { add_claim_by = Q29 } #Tripoli
+			449 = { add_claim_by = Q29 } #El Agheila
+			662 = { add_claim_by = Q29 } #Sirte
+			450 = { add_claim_by = Q29 } #Benghasi
+			451 = { add_claim_by = Q29 } #Derna
+			663 = { add_claim_by = Q29 } #Cyrenaica
+			273 = { add_claim_by = Q29 } #Libyan Desert
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = Q29 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q29
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to = Q29
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q29 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			661 = { add_core_of = Q29 } #Tripolitania
+			448 = { add_core_of = Q29 } #Tripoli
+			449 = { add_core_of = Q29 } #El Agheila
+			662 = { add_core_of = Q29 } #Sirte
+			450 = { add_core_of = Q29 } #Benghasi
+			451 = { add_core_of = Q29 } #Derna
+			663 = { add_core_of = Q29 } #Cyrenaica
+			273 = { add_core_of = Q29 } #Libyan Desert
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = Q29 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q29
+					transfer_state_to = Q29
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q29
+					set_state_controller_to = Q29
+				}
+			}
+
+			Q29 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}
