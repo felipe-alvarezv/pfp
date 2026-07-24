@@ -1,0 +1,18 @@
+#Congo-Brazzaville
+RCG = {
+	male = {
+		names = {
+			Alain Andre Barel Bill Burnel Curd Delvin Denis Edson Emmanuel Ferdinand Francine Francis Francois Goma Guy Henri Isidore Jean "Jean-Michel" Jerome Paul Rodolphe Sebastien Serge Sylvain Tchichelle
+		}
+	}
+	female = {
+		names = {
+			Adele Annette Cecile Claudia Elsie Jeannette Paula Rhode Tatiana Yolande
+		}
+	}
+	surnames = {
+		Adada Akanati Ayayen Bathsheba Bemba "Caby-Livannah" Diamoneka Dongala Essous Etoumba Ibaka Kamba Kouelany Lambu Laurans Litsing "Lomami-Tshibamba" Lopes Mabanckou Mafouta "Makout-Mboukou" Malonga Matondo Mendga Milongo
+		Minga Mouangassa Mouko Mvouba Ndebeka "N'Dinga" Nguesso Nkodia "Okana-Stazi" Ossebi Ridel Tchichelle Tchissoukou Tchivela Tsila Tsolo Yoka
+	}
+	callsigns = { }
+}
