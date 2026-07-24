@@ -1,0 +1,22 @@
+#Niger
+NGR = {
+	male = {
+		names = {
+			Abdou Abdoulaye Aboubacar Adamou Albade Alhassane Ali Aliou Amadou Ambroise Aminatou Andre Badie Barcourgne Boubou Boukary Brigi Damoure Dary Daouda Djibo Falke Foumakoye Garba Gremah Habi Hama Hamani Hamid Hamidou
+			Harouna Hassoumi Ibrahim Ide Idrissa Ilguilas Ismael Issa Issake Issouf Issoufou Kader Kalla Karidjo Karim Kassaly Mahamadou Mahamane Malam Mamadou Maman Mamane Mano Mayaki Mdou Mohamadou Mohamed Moumouni Mounkaila
+			Moussa Moustapha Nassirou Nnimmo Omara Ouhoumoudou Oum Oumar Oumarou Ousmane Ouwo Rabiou Rabo Rhissa Salamtou Salou Saloum Sanoussi Seyni Souley Yacouba William Zakari Zodi
+		}
+	}
+	female = {
+		names = {
+			Aichatou Amina Balkissa Lailatou Mariama Nafissa Nafissatou Rachidatou Salifou
+		}
+	}
+	surnames = {
+		Abani Abdoulahi Abdoulaye Abouba Adamou Adji Aissata Alassane Algabid Alhassan Ali Amadou Ankourao Assoumane Ba Bacharou Bakary Bana Bare Bassey Bazeye Bazindre Bazoum Bo Boucar "ag Boula" Cheiffou Cisse Courmo Daborg
+		Danda Daouda Dasuda Dayak Diori Djermakoye Djibo Gabde Gado Gamatie Ganda Gao Garba Gourouza Habou Hama Harouna Hassane Hima Ide Ikhia Issaka Issoufou Jackou Kaka Kountche Labo Lago Lambo Lamine Laouali
+		Lele Lompo Maazou "ag Maha" Mahamadou Mahamidou Maidah Maiga Maikido Mainassara Maliki Mamani Marte Massaoudou Mayaki Mindaoudou Moctar Moumouni "N'Gounou" Oubandawaki Ouedraogo Ouhoumoudou Oumarou Oumarou Ousmane
+		Ovnteni Rafini Ramatou Sabo Saguirou Saibou "Saidou-Djermakoye" Saley Salifou Salissou Saminou Seydou Sidibe Sidikou Sido Souleymane Tandja Tondi Traore Toure Wanke Weila Zeine Zika
+	}
+	callsigns = { }
+}
