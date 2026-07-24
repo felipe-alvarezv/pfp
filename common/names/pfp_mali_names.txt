@@ -1,0 +1,23 @@
+#Mali
+MLI = {
+	male = {
+		names = {
+			Abdoulaye Abu Adama Afel Alioune Alpha Amadou Amadu Barema Boucader Brehima Cheick Daba Dramane Drissa Habib Ibrahima Ismael Issa Janvier "Jean-Charles" Keletigui Koman Lamine Louis Mamadou Manthia Mari Massa Mohamed
+			Mohammed Moussa Ousmane Seku Soueloum Soumaila Soumbeila Soungalo Souleymane Sulayman Tiebile Toumani Waly Yaya Yoro
+		}
+		surnames = {
+			Abouta "Al-Sahili" Aya Ba Bagayogo Bagayoko Bastide Bocoum Camara Cisse Coulibaly Dabo Damba Dembele Diabate Diagho Diakite Diallo Diarra Diawara Diop Doumbia Drame Fakoly "ibn Gao" Guindo "ag Hamani" "Al Kaburi" Keita
+			"Ba Konare" Konare Kone Kouyate Maiga "Maiga-Ba" Mariko "Al Massufi" "M'Bodji" Modja "N'Diaye" Niare Oiane Ouologuem Taleb Taya Teguedi Timbo Tolba Toure Tall Tamboura Tireira Tounkara Toure Traore "ibn Umar" Zabo
+		}
+	}
+	female = {
+		names = {
+			Astan Diene Fanta Fatoumata Kadiatou Mah Mariam Mariatou Mintou Nagnouma Nare Rahmatou Ramata Sidibe
+		}
+		surnames = {
+			Abouta "Al-Sahili" Aya Ba Bagayogo Bagayoko Bastide Bocoum Camara Cisse Coulibaly Dabo Damba Dembele Diabate Diagho Diakite Diallo Diarra Diawara Diop Doumbia Drame Fakoly "bint Gao" Guindo "ag Hamani" "Al Kaburi" Keita
+			"Ba Konare" Konare Kone Kouyate Maiga "Maiga-Ba" Mariko "Al Massufi" "M'Bodji" Modja "N'Diaye" Niare Oiane Ouologuem Taleb Taya Teguedi Timbo Tolba Toure Tall Tamboura Tireira Tounkara Toure Traore "bint Umar" Zabo
+		}
+	}
+	callsigns = { }
+}
