@@ -1,0 +1,21 @@
+#Ubangi-Shari
+CAR = {
+	male = {
+		names = {
+			Abel Adolphe Agba Alexandre Alias "André-Dieudonné" "Ange-Felix" Anicet "Anicet-Richard" Antoine "Aubin-Thierry" Aymard Barthelemy Bernard Bertrand Beti Bosse Bruno Celestin Charles Christian Come David Derant Edouard
+			Elie Enoch "Faustin-Archange" Ferdinand Foxi Francois Gabriel Gbongou Georges Habib Henri "Jean-Edouard" "Jean-Jacques" "Jean-Marie" "Jean-Paul" "Jean-Serge" "Jerome-Michel-Francis" Josue "Leandre-Alain" Leroy Lionel
+			Marcel Martial Martin Michel Mickael Mohamed Mouhamadou Narcisse Nguende Nicolas Raphael Romain Sanda Serge Simon Sylvie Taki Timothee
+		}
+	}
+	female = {
+		names = {
+			Elisabeth Marie Mireille
+		}
+	}
+	surnames = {
+		Abdoulkarim "Agba-Otikpo" Amadi Ambowode Ayandho Baker Banza Beranger Binoua Boganda Bokassa Bomayako Bongongo Boui Bozanga Conjungo Datty Demafouth Derebona Djotodia Dologuele Domitien Dote Frank Gaombalet "Gbezera-Bria"
+		Goporo Goumba Habibou Kethevoama Kolingba Koyambounou Lakoue Lavodrama Lembakoali Liango Longoude Maidou Malendoma Mandaba Marace Martin Massi Metefara Mezode Mokole Nassif Ngoupande "Nzabakomada-Yakoma" Oumarou Patasse
+		Puzere Sato "Souchon-Koguia" Tiangaye Touadera Yangouvonda Ziguele Zoumara
+	}
+	callsigns = { }
+}
