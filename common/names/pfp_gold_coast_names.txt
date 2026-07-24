@@ -1,0 +1,21 @@
+#Ghana
+GHA = {
+	male = {
+		names = {
+			Abdul Ablade Akwasi Albert Alex Aliu Anthony Ataa Austin Ave Awal Ben Bernard Cephas Clement Daniel Ebenezer Eddie Edward El Elom Emmanuel Ephraim Eric Francis Frank Fred George Gloria Godfried Gyearbuor Hilla
+			Ignatius Isaac Jackie James Jerry Joachim Joe John Joseph Joshua Kobina Koby Kofi Kow Kudjoe Kwadwo Kwaku Kwame Kwamena Kwaw Kwesi Majid Mamood Mark Maxwell Michael Mikki Mohammed Nana Nat Nii Obed Obo Oli Patrick
+			Peter Philip Prince Richie Rikki Rudolf Sammi Samuel Shamo Simon Tetteh Van Victor Yaw
+		}
+	}
+	female = {
+		names = {
+			Akosua Cecilia Juliet Leila Mavis Nadia Nana Shirley Suzzy Yvonne
+		}
+	}
+	surnames = {
+		Abongo Adablah Addy Adjei Adu Affutu Agbee Aggudey Aidoo Akuetteh "Akufo-Addo" Alhassan Amadu Amankwah "Amenga-Etego" Amissah Amoah Amu Anatsui Anin Annan Ansah Apea Arkaah Aryee Asante Ayensu Baah Berko Blay Buari Busia
+		Chireh Djansi Dossey "Frimpong-Manso" Gbeho "de Graft-Johnson" Ibrahim Kalilu Konadu Kuffour Kumah Labi Limann Mahama McBrown Mensah Michel Mumuni Nikoi Nyarko Oko Ollennu Preko Quartey Quaynor Rahman "Sintim-Misa"
+		"Wemega-Kwawu" Yaw
+	}
+	callsigns = { }
+}

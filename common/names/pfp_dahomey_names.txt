@@ -1,0 +1,22 @@
+#Dahomey
+DAH = {
+	male = {
+		names = {
+			Abdoulaye Abou Abraham Adrien Alois Alpohonse Angueran Anicet Antoine Assogba Aziz Basile Benoit Calixte Chabi Christian Christophe Daniel Dauda Djimon Edgar Emile Felix Florent Frederic Gabriel Georges Gnonnas Guy
+			Hubert Jean "Jean-Baptiste" "Jean-Marie" Jose Joseph Justin Khaled Leonard Lionel Mathiue Maurice Michel Migan Moussa Nicephore Noel Olympe Pascal Paul "Paul-Emile" Paulin Pierre "Rene-Marie" Robert Rogatien Romuald
+			Shafiq Simon Sourou Tahirou Theodore Theophile Tiamiou Tometin Wilfried Yayi Zul
+		}
+	}
+	female = {
+		names = {
+			Adelaide Angelique "Berthe-Evelyne" Christine Colette Fabienne Gloria Mariam "Marie-Elise" Odile Rosine
+		}
+	}
+	surnames = {
+		Adeagbo Adenon Adjamonsi Adjibade Affo Agba Ahomadegbe Ahouanmenou Ahouanwanou Alladaye Alley Apithy Badaru Balagoun "Bhely-Quenum" Biaou Boni Chitou Congacou "Couao-Zotti" Couchoro Dakpogan Dansou Darboux Diallo Dohou
+		Dossou "Dossou-Yavo" Edjekpan Ehouzou Ehuzu Fantodji Fassinou Feraez Gbaguidi Gbedo Gnanligo Gnimagon Gnonlonfoun Hacheme Hazoume Holo Houeto Houngbedji Hounsou Hountondji Idohou Joachim Kerekou Kidjo Kolawole Kotchoni
+		Kouandete Koussihouede Loueke Lozes Maga Maiga Mama Monnou Moumouni Nata Ogoudjobi Ogouma Okanla Oke Oladipo Osho Ouzerou Pedro Pliva Pliya Salami Savi Sinzogan Soglo "de Souza" Tawema Tevoedjre Wantchekon Zinsou
+		Zinzindohoue
+	}
+	callsigns = { }
+}

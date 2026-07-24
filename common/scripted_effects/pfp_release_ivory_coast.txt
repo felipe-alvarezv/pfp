@@ -1,0 +1,64 @@
+#Scripted effect to release Ivory Coast (Q44)
+pfp_release_ivory_coast = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			779 = { add_contested_owner = Q44 } #Ivory Coast
+
+			#Add claims to formable puppet
+			779 = { add_claim_by = Q44 } #Ivory Coast
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = Q44 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q44
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to = Q44
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q44 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			779 = { add_core_of = Q44 } #Ivory Coast
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = Q44 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q44
+					transfer_state_to = Q44
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q44
+					set_state_controller_to = Q44
+				}
+			}
+
+			Q44 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}
