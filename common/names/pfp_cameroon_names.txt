@@ -1,0 +1,21 @@
+#Cameroon
+CMR = {
+	male = {
+		names = {
+			Achille Ahmadou Albert Alphonse "Andre-Marie" Andy Armand Augustin Bello Ben Bernard Bili Charles Cornelius Daniel Diboue Emile Emmanuel Ephraim Felix Fracoise Francis Goddy Henri "Jacques-Roger" Jean "Jean-Baptiste"
+			"Jean-Bernard" "Jean-Pierre" Joel John Joseph Josh Lauren Luc Koko Maikano Manu Mbella Mbonda Modeste Mongo Moni Ndedi Ndumbe Nicolas Njacko Njomgang Ntone Nzo Ousmane Patrice Patrick Paul Richard Roger Rudolf Sadou
+			Samuel Seraphin Serge Severin Simon Wes William
+		}
+	}
+	female = {
+		names = {
+			Axelle Bebe Calixte Chantal Charlotte Coco Ellie Henriette "Jeanne-Irene" "Marie-Therese" Mingana Myra Therese Werewere Yana
+		}
+	}
+	surnames = {
+		Abanda Abdoulaye Abega Achu Ahanda Ahidjo Allo Alnoudji Assale Atangana Ayang Ayissi Backo Bebey Bekolo Beleoken Bell Beni Bessala Beti Beyala Bibal Bidjocka Bile Billie Biya Black Blue Bona "Booh-Booh" Branco Dibango
+		Dikongue Dipanda Dipoko Ebongo Edjabe Ekangaki Ekoko Ela Elie Endeley Epalle Essomba Essome Esua Etone "Eto'o" Eyango Eyog Foncha Fonlon Forlon Fosso Fouda Foumbi Frankie Hayatou Inoni Isaac Jocky Kabou Kamwa Kome Komegne
+		Kotouo Kouomegni "Kuoh-Moukouri" Lecco Leye Liking Madiko Maigari Maimoh Manga Mayer "M'bami" Mbassi Mbembe Mbida "M'bo" Mboma Mboumoua Mey Meyong Milla
+	}
+	callsigns = { }
+}

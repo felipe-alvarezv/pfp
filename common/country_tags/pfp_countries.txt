@@ -132,3 +132,4 @@ Q32 = "countries/Q32.txt" #Chad
 Q33 = "countries/Q33.txt" #Niger
 Q34 = "countries/Q34.txt" #Mali
 Q35 = "countries/Q35.txt" #Nigeria
+Q36 = "countries/Q36.txt" #Cameroon

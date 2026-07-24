@@ -1,0 +1,71 @@
+pfp_category = {
+	pfp_cameroon = {
+		allowed = {
+			NOT = {
+				original_tag = CMR #Cameroon
+			}
+		}
+		available = {
+			is_subject = no
+			#Cameroon
+			custom_trigger_tooltip = {
+				tooltip = pfp_cameroon_required_states_cameroon
+				has_full_control_of_state = 773 #Cameroon
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 773 #Cameroon
+			}
+			NOT = { has_global_flag = pfp_cameroon_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 773 #Cameroon
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_cameroon_transfer_capital
+			custom_effect_tooltip = pfp_cameroon_puppet
+			custom_effect_tooltip = pfp_cameroon_occupation_type
+			custom_effect_tooltip = pfp_cameroon_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				773 = { transfer_state_to = Q36 } #Cameroon
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q36
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q36 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_cameroon = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q36 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_cameroon_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
