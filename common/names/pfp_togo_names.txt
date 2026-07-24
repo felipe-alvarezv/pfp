@@ -1,0 +1,19 @@
+#Togo
+TOG = {
+	male = {
+		names = {
+			Bachirou Claude Daré Edem Emmanuel Faure Félix Gilchrist Gnassingbé Jan Joseph Kodjo Kossi Kouami Kwesi Lankantien Moustapha Nicolas Paul Peniel Pyabelo Razak Roland Sami Sénah Sénouvo Serge Sylvanus Tavio
+			"Tété-Michel"
+		}
+	}
+	female = {
+		names = {
+			Adzo "Anne-Laure" Bamab Bella
+		}
+	}
+	surnames = {
+		Adebayor Aguessy "Ahoomey-Zunu" Ahyi Akakpo Amedokpo Amorin Awumey Bellow Boukari Couchoro Denanyoh Efoui Eyadéma Folly Gnassingbé Grunitzky Kodjo Kouly Kpomassie Kpossi Kpotsra Lamboni Mango Mlapa Napo Nibombé Olympio
+		Salifou Salou Sekpona Tchak Tossou Zinsou
+	}
+	callsigns = { }
+}
