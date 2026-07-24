@@ -1,0 +1,19 @@
+#Guinea-Bissau
+GNB = {
+	male = {
+		names = {
+			Abdulai Adelino Adiato Adilson Adul Alamara Alfredo Amarildo Amilcar Antonio Aristides Artur Baciro Bubo Caetano Carlos Cipriano Constantino Faustino Fernando Flora Francisco Helder Henrique Holder Ibraima Joao Jose
+			Kimi Kumba Luis Malam Mamadi Mamadu Manuel Mario Martinho Mohamed Raimundo Rogerio Rui Soares Talata Vasco Verissimo Victor Zamora
+		}
+	}
+	female = {
+		names = {
+			Carmen Domingas Eneida Graciela Jacira Maria
+		}
+	}
+	surnames = {
+		Almeida Arlete Balde "de Barros" "na Bissign" Cabral Cassama Correia "da Costa" Dabo Dja Djabate Djalo Embalo Fadul Gomes Herbert Iala Imbali Indjai Induta Kabi Kuruma Maria Marta Martins Mendes Mendonca Monteiro Nandigna
+		Nhamadjo Nhasse "N'Tchama" Pereira Pires Proenca Queita Queta Rosa Sambu Sanha Schwarz Seabra Sila "da Silva" Tchuto Teixeira Togna Vieira
+	}
+	callsigns = { }
+}

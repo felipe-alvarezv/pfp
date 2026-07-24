@@ -1,0 +1,20 @@
+#Gambia
+GAM = {
+	male = {
+		names = {
+			Abdou Abdoulie Alhaji Alieu Assan "Baboucarr-Blaise" Bakary Bala Crispin Daniel Dawda Dembo Deydra Ebou Ebrima Edward Famara Farimang Fodeh Foday Halifa Hamat Hassan Hassoum Isaac Jali Jaysuma Joseph Juldeh Kausu
+			Kenneth Kukoi Laba Lamin Lang Lenrie Maba Madi Malando Michael Modou Momodou Musa Njoga Omar Ousainou Ousman Pa Pap Patrick Phillis Pierre Sheriff Sidi Sidia Sulayman Suwaibou Tijan William Yahya
+		}
+	}
+	female = {
+		names = {
+			Adama Angela Belinda Fatou Hannah Isatou Janet Julia Nyimasata Patience Sally Saruba Sona
+		}
+	}
+	surnames = {
+		"Badjan-Young" Bah Bajo Baldeh "Banatu-Gomez" Bensouda Best Bidwell Camara Cham Ceesay Colley Conton Darboe Dibba Gassama Gaye "Grey-Johnson" Hydara Jagne Jahumpa Jallow Jammeh Janneh Jatta Jawara Jeng Jobarteh Jobe
+		Joiner Jones Joof Kolley Konte Koroma Kuyateh Manneh Mansally "M'Boob" Mendy Ndure Njie "Njie-Saidy" "N'Jie" Nyang Peters Saine Sallah Sanneh "Sanneh-Bojang" Sanyang Secka Sey Singateh Small "Sonko-Godwin" Sosseh Sowe
+		Suso Susso Tamba Tiyana Touray Wheatley
+	}
+	callsigns = { }
+}
