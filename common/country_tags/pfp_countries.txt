@@ -128,3 +128,4 @@ Q28 = "countries/Q28.txt" #Tunisia
 Q29 = "countries/Q29.txt" #Libya
 Q30 = "countries/Q30.txt" #Egypt
 Q31 = "countries/Q31.txt" #Sudan
+Q32 = "countries/Q32.txt" #Chad
