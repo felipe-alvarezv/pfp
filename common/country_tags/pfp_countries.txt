@@ -168,3 +168,4 @@ Q68 = "countries/Q68.txt" #Mozambique
 Q69 = "countries/Q69.txt" #Southern Rhodesia
 Q70 = "countries/Q70.txt" #Bechuanaland
 Q71 = "countries/Q71.txt" #South West Africa
+Q72 = "countries/Q72.txt" #Madagascar

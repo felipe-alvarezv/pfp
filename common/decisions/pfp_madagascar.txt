@@ -1,0 +1,71 @@
+pfp_category = {
+	pfp_madagascar = {
+		allowed = {
+			NOT = {
+				original_tag = MAD #Madagascar
+			}
+		}
+		available = {
+			is_subject = no
+			#Madagascar
+			custom_trigger_tooltip = {
+				tooltip = pfp_madagascar_required_states_madagascar
+				has_full_control_of_state = 543 #Madagascar
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 543 #Madagascar
+			}
+			NOT = { has_global_flag = pfp_madagascar_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 543 #Madagascar
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_madagascar_transfer_capital
+			custom_effect_tooltip = pfp_madagascar_puppet
+			custom_effect_tooltip = pfp_madagascar_occupation_type
+			custom_effect_tooltip = pfp_madagascar_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				543 = { transfer_state_to = Q72 } #Madagascar
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q72
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q72 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_madagascar = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q72 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_madagascar_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
