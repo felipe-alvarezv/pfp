@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Eritrea
+capital = 550 #Eritrea
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,11 +88,10 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q56_communism_leader
+recruit_character = Q56_democratic_leader
+recruit_character = Q56_neutrality_leader
+recruit_character = Q56_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Eritrea Initial States
+add_to_array = { Q56.pfp_possible_cores = 550 } #Eritrea

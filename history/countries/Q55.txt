@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Ethiopia
+capital = 271 #Shewa
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,11 +88,26 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q55_communism_leader
+recruit_character = Q55_democratic_leader
+recruit_character = Q55_neutrality_leader
+recruit_character = Q55_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Ethiopia Initial States
+add_to_array = { Q55.pfp_possible_cores = 271 } #Shewa
+add_to_array = { Q55.pfp_possible_cores = 842 } #Tigray
+add_to_array = { Q55.pfp_possible_cores = 841 } #Begemder
+add_to_array = { Q55.pfp_possible_cores = 843 } #Wello
+add_to_array = { Q55.pfp_possible_cores = 840 } #Gojjam
+add_to_array = { Q55.pfp_possible_cores = 839 } #Welega
+add_to_array = { Q55.pfp_possible_cores = 838 } #Illubabor-Kaffa
+add_to_array = { Q55.pfp_possible_cores = 835 } #Hararghe
+add_to_array = { Q55.pfp_possible_cores = 836 } #Bale
+add_to_array = { Q55.pfp_possible_cores = 837 } #Sidamo
+add_to_array = { Q55.pfp_possible_cores = 559 } #Somaliland
+add_to_array = { Q55.pfp_possible_cores = 844 } #Jubaland
+add_to_array = { Q55.pfp_possible_cores = 269 } #British Somaliland
+add_to_array = { Q55.pfp_possible_cores = 268 } #French Somaliland
+add_to_array = { Q55.pfp_possible_cores = 908 } #Afar
+add_to_array = { Q55.pfp_possible_cores = 550 } #Eritrea
+add_to_array = { Q55.pfp_possible_cores = 906 } #Socotra

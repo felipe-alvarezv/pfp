@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Western Sahara
+capital = 699 #Rio de Oro
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,11 +88,11 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q53_communism_leader
+recruit_character = Q53_democratic_leader
+recruit_character = Q53_neutrality_leader
+recruit_character = Q53_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Western Sahara Initial States
+add_to_array = { Q53.pfp_possible_cores = 699 } #Rio de Oro
+add_to_array = { Q53.pfp_possible_cores = 178 } #Islas Canarias

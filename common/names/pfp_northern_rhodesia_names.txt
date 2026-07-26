@@ -1,0 +1,21 @@
+#Northern Rhodesia
+ZAM = {
+	male = {
+		names = {
+			Ahmad Alick Amon Andrew Baldwin Cassius Chilu Christon Cornelius Dafydd Daniel Davis Elijah Ellis Enoch Evelyn Fackson Felix Frederick George Godfrey Guy Hammerskjoeld Harry Hastings Henry Jeffrey John Kebby Keith
+			Kennedy Kenneth Lazarus Leo Levy Lewanika Lottie Lupando Maiko Mainza Malimba Michael Mpezeni Mwesa Nalumino Nevers Nyumbu Obed Paul "Philippe-Henri" Precious Raphael Reuben Robert Rupiah Samuel Sebetwane Sekeletu
+			Simon Stanley Tawny Tony Victor Wilbur Yunus
+		}
+	}
+	female = {
+		names = {
+			Alice Binwell Dambisa Denise Julia Lucky Lukwesa Mamochisane Rachel Tasila Victoria
+		}
+	}
+	surnames = {
+		Badat Banda Brown Burak Bwalya Chibuye Chiluba Chiyanika Chona Earnshaw Edmond Edmonds Fischer Gregan Gray Hone James Jones Kachaka Kamanga Kapwepwe Kaunda Kavindele Kenyanta Krige Kunda Lange Lemba Lenshina Lisulo
+		Makina Mapoma Masheke Matete Miyanda Moyo Mudenda Mumba Mundia Musokotwane Mutale Mutanya Mwale Mwanawasa Mwape Nachula Ngozi Nkandu Nkhata Nkumbula Rose Sata Scott Simutowe Simwinga Sinyangwe Smith Tayali Tembo Thomson
+		Wamulwa Welensky Whitley Zulu
+	}
+	callsigns = { }
+}

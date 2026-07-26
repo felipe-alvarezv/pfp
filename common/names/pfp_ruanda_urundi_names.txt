@@ -1,0 +1,22 @@
+#Ruanda-Urundi
+BRD = {
+	male = {
+		names = {
+			Aboubakar Aime Alexis Aloys Alphonse Arthemon Augustin Beni Bilgho Charles Cyprien Dani David Dieudonne Domitien Dramane Egide Ernest Evariste Faustin Francois Frédéric Gabriel Gael Gaston Gerard Germain Gilbert
+			Isidore "Jean-Baptiste" "Jean-Claude" "Jean-Patrick" Joachim Joseph Justin Kassim Laurent Louis Melchior Michel Moro Mutaga Mwambutsa Mwami Ntare Olivier Onèsphore Pierre Renovat Simon Sylvestre Therence Venerand
+			Venuste Zabore Zacharie
+		}
+	}
+	female = {
+		names = {
+			Alice Antoinette Diane Elsie Esther Francine Immaculée Khadja Marina Marthe Odette Sylvie
+		}
+	}
+	surnames = {
+		Bagaza Bakevyumusaya Bamina Bamvuginyumvira Bangiricenge Barampama Barancira Batumubwira Bigirimana Binobagira Bizimana Buyoya Bwakira Gahutu Gisabo Habarugira Hatungimana Irabaruta Kabushemeye Kamatari Kavakure Kavumbagu
+		Kinigi Kitenge Kwizera Manirumva Mbariza Mbikije Micombero Mutamo Kabore "Ki-Zerbo" Koala Kobeane Kone Kora Kougri Kouyate Lamizana Ndaday Ndagushimiye Ndayirukiye Ndayuizeye Nduhirubusa Ndikumana Nduwimanaana Ngendandumwe
+		Ngeze Ngoyagoye Nibizi Nin Nkunzimana Niyongabo Niyonsaba Niyonzigiye Niyonizigiye Niyoyankana Niyungeko Nizigama Nkazamyampi Nsanze Nshimirimana Ntahomvukiye Ntahondereye Ntahonvukiye Ntamwana "Nukuri-Johnson" Nyandwi
+		Ntaryamira Ntibantunganya Ntisezerana Nyandwi Nzojibwami Nzomukunda Nzoyisaba Rugamba Rwagasore Sinduhije Sinunguruza Tuhabonye Uwamahoro
+	}
+	callsigns = { }
+}

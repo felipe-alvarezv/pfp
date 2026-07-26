@@ -1,0 +1,15 @@
+#Kenya
+KEN = {
+	male = {
+		names = {
+			Uhuru William Ekwee Justin Githu Dedan Jomo Warũhiũ Koitalel Kango Onyango Musa
+		}
+	}
+	female = {
+		names = { Kimbe Nala Ngozi Afaafa Akeyo }
+	}
+	surnames = {
+		Kenyatta Ruto Ethuro Muturi Muigai Kimathi Itote Samoei Muchai Obama Mwariama Mathenge
+	}
+	callsigns = { }
+}

@@ -1,0 +1,22 @@
+#Eritrea
+ERI = {
+	male = {
+		names = {
+			Abdalla Abdulkadir Abel Abraha Abraham Ahmed Alamin Alemayo Ali Araya Arefaine Bahta Beraki Berehet Bereket Berhane Daniel Dawit Ermias Fesshaye Fikrejesus Filipos Filmon Gergis Germano Ghebreselassie Ghirmai Girma
+			Haile Hais Hamid Haregot Herman Ibrahim Isaias Jemal Kidane Mahmoud Meb Menghesteab Mesfin Michael Mohamed Mohammed Nevi Ogbe Osman Paulos Petros Remo Saleh Samson Samuel Sebhat Semere Seyoum Solomon Srafel Sulaiman
+			Tedla Teklay Tekle Teklemariam Tesfai Tesfaye Tesfayohannes Testfaldet Umar Woldai Wodeab Woldemichael Worku Yared Yegizaw Yemane Yinekachew Yohannes Yonas Zekarias Zerai Zersenay
+		}
+	}
+	female = {
+		names = {
+			Abeba Amna Askalu Aster Dehab Fozia Furtuna Hannah Helen Meraf Nebiat Ruth Senait Simret Zeudi
+		}
+	}
+	surnames = {
+		Abbai Abdalla Abdella Abdu Abera Abraha Brehe Addonia Adonai Aferworki Afewerki Ahmed Alamin Ali Amahazion Araya Asgedom Asmerom Awate Ayele Baduri Bahta Bairu Baria Berhe Cristaldi Debas Deres Desta Ephrem Faytinga
+		Fissehatsion Francois Futur Gebreab Bhebrehiwet Ghebremariam Ghebremeskez Ghebreselassie Ghirmazion Girone Goitom Habtemariam Hagos Haile Hashim Hassan Himid Isaak Jabir Kebire Keflezighi Kekya Kidane Kiflay Kifle
+		Kiflemariam Medhin Mehari Meki Meles Mengisteab Menkerios Mesfen Michael Mohammed Mukhtar Nati Nawd Nurhusein Omer Pool Russom Samuel Selassie Sherifo Shimangus Simon Solomon Sultan Tadese Tadesse Tedros Teklehaymanot
+		Teklemichael Teklerb Tesfagiorgis Tesfamariam Tesfamichael Tesfaszghi Tilahun Tsegay Tsehaye Tseqay Welday Wolday Woldemariam Woldense Woldeyohannes Yohannes Yoseph Zegergish
+	}
+	callsigns = { }
+}

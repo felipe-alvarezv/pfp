@@ -1,0 +1,22 @@
+#Nyasaland
+MLW = {
+	male = {
+		names = {
+			Aaron Alan Aleke Bakili Bazuka Billy Bingu Boston Brown Cassim Chakufwa Charlton Chauncy Chimunthu Cornelius Cuthy David Desmond Dick Donton Du Drake Enoch Evison Fisher Focus Fraser Goodall Gregory Han Harvey Harry
+			Hastings Henry Hetherwick Jack Jibu Joe John Joseph Justin Kay Kenneth Kingsley Kondwani Khumbo Levi Loti Lucius Lyton Mabvuto Maxwell Michael "Michael-Fredrick" Mike Moses Mtendere Mwiza Nicholas Onesimo Orton
+			Patrick Peter Percy Rafiq Ralph Raphael Robert Samuel Stanley Steve Steven Tamika Theo Tony Twaibu William Yona
+		}
+	}
+	female = {
+		names = {
+			Anastasia Angela Anjimile Annie Ambwene Callista Catherine Chimango Ethel Evance Hawa Jessie Joyce Lily Lucia Margaret Mary Nasrin Patricia Reen Seodi Tapiwa Vera Zahra
+		}
+	}
+	surnames = {
+		Alfonso Allen Ayesu Banda Bird Blair Buchanan Chandamale Chihana Chikwakwa Chilembwe Chilumpha Chimombo Chimphamba Chipembere Chiromo Chirwa Chisiza Chiwina Choi Dausi Dzonzi Fumulani Gadama Gondwe Gwaza Hajat Hara Jooma
+		Kabweza "Kabwila-Kapasula" Kachali Kachere Kachipande Kamkwamba Kaphuka Kasambara Kaunda Kenani Kondowe Kunkuyu Lwanda Mabedi Makalamba Malenga Malevwezi Manduwa Mapanje Master Matafale Matenje Mauwa Mede Mhango Mjiga
+		Mkandawire Mkangala Mkwezalamba Moyo Mpasu Mphande Mponda Msosa Mughogho Mukhito Muluzi Mumba Munthali "wa Mutharika" Mutharika Mwalwanda Mwanyungwa Mwanza Mwathiwa Nakhumwa Namakhwa Namoko Ndilowe "Ng'ambi" Nihorya
+		Ntaha Nyirenda Nyondo Oponyo Phiri Phoya Pillane Pinto Sangala Sani Sauka Shawa Simbeye Simukonda Sindima Tafatatha Tebulo Tembo Tenthani Thadzi Thindwa Thompson Thomson Usi Walesi White Zachepa
+	}
+	callsigns = { }
+}

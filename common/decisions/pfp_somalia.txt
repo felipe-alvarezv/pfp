@@ -1,0 +1,77 @@
+pfp_category = {
+	pfp_somalia = {
+		allowed = {
+			NOT = {
+				original_tag = SOM #Somalia
+			}
+		}
+		available = {
+			is_subject = no
+			#Somalia
+			custom_trigger_tooltip = {
+				tooltip = pfp_somalia_required_states_somaliland
+				has_full_control_of_state = 559 #Somaliland
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_somalia_required_states_jubaland
+				has_full_control_of_state = 844 #Jubaland
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 559 #Somaliland
+				has_full_control_of_state = 844 #Jubaland
+			}
+			NOT = { has_global_flag = pfp_somalia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 559 #Somaliland
+				state = 844 #Jubaland
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_somalia_transfer_capital
+			custom_effect_tooltip = pfp_somalia_puppet
+			custom_effect_tooltip = pfp_somalia_occupation_type
+			custom_effect_tooltip = pfp_somalia_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				559 = { transfer_state_to = Q59 } #Somaliland
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q59
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q59 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_somalia = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q59 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_somalia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

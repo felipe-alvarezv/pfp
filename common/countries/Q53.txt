@@ -1,0 +1,3 @@
+graphical_culture = middleeastern_gfx
+graphical_culture_2d = middleeastern_2d
+color = { 255 178 102 }

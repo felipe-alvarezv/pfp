@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Somaliland
+capital = 269 #British Somaliland
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,11 +88,10 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q58_communism_leader
+recruit_character = Q58_democratic_leader
+recruit_character = Q58_neutrality_leader
+recruit_character = Q58_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Somaliland Initial States
+add_to_array = { Q58.pfp_possible_cores = 269 } #British Somaliland

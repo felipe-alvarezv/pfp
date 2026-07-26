@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Ruanda-Urundi
+capital = 769 #Burundi
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,11 +88,11 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q66_communism_leader
+recruit_character = Q66_democratic_leader
+recruit_character = Q66_neutrality_leader
+recruit_character = Q66_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Ruanda-Urundi Initial States
+add_to_array = { Q66.pfp_possible_cores = 768 } #Rwanda
+add_to_array = { Q66.pfp_possible_cores = 769 } #Burundi

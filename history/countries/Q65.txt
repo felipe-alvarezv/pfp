@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Congo
+capital = 295 #Léopoldville
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,11 +88,18 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q65_communism_leader
+recruit_character = Q65_democratic_leader
+recruit_character = Q65_neutrality_leader
+recruit_character = Q65_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Congo Initial States
+add_to_array = { Q65.pfp_possible_cores = 295 } #Léopoldville
+add_to_array = { Q65.pfp_possible_cores = 538 } #Coquilhatville
+add_to_array = { Q65.pfp_possible_cores = 718 } #Stanleyville
+add_to_array = { Q65.pfp_possible_cores = 888 } #Lusambo
+add_to_array = { Q65.pfp_possible_cores = 889 } #Elisabethville
+add_to_array = { Q65.pfp_possible_cores = 890 } #Costermansville
+add_to_array = { Q65.pfp_possible_cores = 768 } #Rwanda
+add_to_array = { Q65.pfp_possible_cores = 769 } #Burundi
+add_to_array = { Q65.pfp_possible_cores = 796 } #Cabinda

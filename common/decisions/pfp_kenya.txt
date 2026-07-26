@@ -1,0 +1,89 @@
+pfp_category = {
+	pfp_kenya = {
+		allowed = {
+			NOT = {
+				original_tag = KEN #Kenya
+			}
+		}
+		available = {
+			is_subject = no
+			#Kenya
+			custom_trigger_tooltip = {
+				tooltip = pfp_kenya_required_states_garissa
+				has_full_control_of_state = 903 #Garissa
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_kenya_required_states_nairobi
+				has_full_control_of_state = 547 #Nairobi
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_kenya_required_states_mombasa
+				has_full_control_of_state = 905 #Mombasa
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_kenya_required_states_nyanza_rift_valley
+				has_full_control_of_state = 904 #Nyanza-Rift Valley
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 903 #Garissa
+				has_full_control_of_state = 547 #Nairobi
+				has_full_control_of_state = 905 #Mombasa
+				has_full_control_of_state = 904 #Nyanza-Rift Valley
+			}
+			NOT = { has_global_flag = pfp_kenya_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 903 #Garissa
+				state = 547 #Nairobi
+				state = 905 #Mombasa
+				state = 904 #Nyanza-Rift Valley
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_kenya_transfer_capital
+			custom_effect_tooltip = pfp_kenya_puppet
+			custom_effect_tooltip = pfp_kenya_occupation_type
+			custom_effect_tooltip = pfp_kenya_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				547 = { transfer_state_to = Q60 } #Nairobi
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q60
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q60 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_kenya = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q60 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_kenya_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

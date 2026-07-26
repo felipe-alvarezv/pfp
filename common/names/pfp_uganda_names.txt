@@ -1,0 +1,18 @@
+#Uganda
+UGA = {
+	male = {
+		names = {
+			Amama Aronda Ayub Charles Danny David Emmanuel Geoffrey Ibrahim Idi John Joseph Kassim Kizza Marcel Martin Milton Moses Mutesa Muwenda Phill Rahim Richard Savio Scott Shekhar Shimit Simon Stephen Tito Vincent Yoweri
+		}
+	}
+	female = {
+		names = {
+			Alice Betty Irshad Iryn Jacqueline Juliana Yasmin
+		}
+	}
+	surnames = {
+		"Akii-Bua" "Alibhai-Brown" Amin Auma Besigye Gibson Hicks Jaffer Kalule Kato Kanyomozi Keough Kiprotich Kipsiro Kuper Lewis Lwanga Manji Mayanja Mbabazi Mehta Mugabi Museveni Nalubale Namubiru Nsereko Nyakairima Obote
+		Obua Okello Okino Okwi Oryema Otti Ouma Sekagya Sentamu Ssempa Theroux
+	}
+	callsigns = { }
+}

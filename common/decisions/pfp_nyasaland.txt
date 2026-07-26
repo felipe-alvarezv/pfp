@@ -1,0 +1,69 @@
+pfp_category = {
+	pfp_nyasaland = {
+		allowed = {
+			NOT = {
+				original_tag = MLW #Malawi
+			}
+		}
+		available = {
+			is_subject = no
+			#Nyasaland
+			custom_trigger_tooltip = {
+				tooltip = pfp_nyasaland_required_states_malawi
+				has_full_control_of_state = 770 #Malawi
+			}
+		}
+		visible = {
+			has_full_control_of_state = 770 #Malawi
+			NOT = { has_global_flag = pfp_nyasaland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 770 #Malawi
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_nyasaland_transfer_capital
+			custom_effect_tooltip = pfp_nyasaland_puppet
+			custom_effect_tooltip = pfp_nyasaland_occupation_type
+			custom_effect_tooltip = pfp_nyasaland_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				770 = { transfer_state_to = Q64 } #Malawi
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q64
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q64 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_nyasaland = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q64 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_nyasaland_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

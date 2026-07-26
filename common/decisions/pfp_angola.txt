@@ -1,0 +1,83 @@
+pfp_category = {
+	pfp_angola = {
+		allowed = {
+			NOT = {
+				original_tag = ANG #Angola
+			}
+		}
+		available = {
+			is_subject = no
+			#Angola
+			custom_trigger_tooltip = {
+				tooltip = pfp_angola_required_states_luanda
+				has_full_control_of_state = 540 #Luanda
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_angola_required_states_zambesi
+				has_full_control_of_state = 891 #Zambesi
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_angola_required_states_south_west_angola
+				has_full_control_of_state = 892 #South West Angola
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 540 #Luanda
+				has_full_control_of_state = 891 #Zambesi
+				has_full_control_of_state = 892 #South West Angola
+			}
+			NOT = { has_global_flag = pfp_angola_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 540 #Luanda
+				state = 891 #Zambesi
+				state = 892 #South West Angola
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_angola_transfer_capital
+			custom_effect_tooltip = pfp_angola_puppet
+			custom_effect_tooltip = pfp_angola_occupation_type
+			custom_effect_tooltip = pfp_angola_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				540 = { transfer_state_to = Q67 } #Luanda
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q67
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q67 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_angola = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q67 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_angola_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

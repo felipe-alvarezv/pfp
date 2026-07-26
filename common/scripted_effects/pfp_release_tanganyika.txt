@@ -1,0 +1,64 @@
+#Scripted effect to release Tanganyika (Q62)
+pfp_release_tanganyika = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			546 = { add_contested_owner = Q62 } #Tanganyika
+
+			#Add claims to formable puppet
+			546 = { add_claim_by = Q62 } #Tanganyika
+
+			#Set formable puppet as controller of contested states
+			every_state = {
+				limit = { has_contested_owner = Q62 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q62
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to = Q62
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q62 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			546 = { add_core_of = Q62 } #Tanganyika
+
+			#Set formable puppet as owner and controller of core states
+			every_state = {
+				limit = { is_core_of = Q62 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q62
+					transfer_state_to = Q62
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q62
+					set_state_controller_to = Q62
+				}
+			}
+
+			Q62 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

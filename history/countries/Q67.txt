@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Angola
+capital = 540 #Luanda
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,11 +88,13 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q67_communism_leader
+recruit_character = Q67_democratic_leader
+recruit_character = Q67_neutrality_leader
+recruit_character = Q67_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Angola Initial States
+add_to_array = { Q67.pfp_possible_cores = 540 } #Luanda
+add_to_array = { Q67.pfp_possible_cores = 891 } #Zambesi
+add_to_array = { Q67.pfp_possible_cores = 892 } #South West Angola
+add_to_array = { Q67.pfp_possible_cores = 796 } #Cabinda
