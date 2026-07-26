@@ -1,5 +1,5 @@
-#Mali
-MLI = {
+﻿#Mali
+Q34 = {
 	male = {
 		names = {
 			Abdoulaye Abu Adama Afel Alioune Alpha Amadou Amadu Barema Boucader Brehima Cheick Daba Dramane Drissa Habib Ibrahima Ismael Issa Janvier "Jean-Charles" Keletigui Koman Lamine Louis Mamadou Manthia Mari Massa Mohamed

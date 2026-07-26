@@ -1,5 +1,5 @@
-#Gambia
-GAM = {
+﻿#Gambia
+Q50 = {
 	male = {
 		names = {
 			Abdou Abdoulie Alhaji Alieu Assan "Baboucarr-Blaise" Bakary Bala Crispin Daniel Dawda Dembo Deydra Ebou Ebrima Edward Famara Farimang Fodeh Foday Halifa Hamat Hassan Hassoum Isaac Jali Jaysuma Joseph Juldeh Kausu

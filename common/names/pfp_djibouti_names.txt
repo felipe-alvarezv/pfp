@@ -1,5 +1,5 @@
-#Djibouti
-DJI = {
+﻿#Djibouti
+Q57 = {
 	male = {
 		names = {
 			Aali "Abd Al-Latif"  Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim

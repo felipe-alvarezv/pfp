@@ -1,5 +1,5 @@
-#Nigeria
-NGA = {
+﻿#Nigeria
+Q35 = {
 	male = {
 		names = {
 			Abidemi Abiodun Abubakar Adebayo Adebowale Adegoke Adisa Akachi Akpofure Alhaji Amadi Ayodele Ayomide Azubuike Babatunde Bitrus Chibueze Chibuzo Chidiebere Chidiegwu Chidubem Chijindum Chikelu Chima Chinedu Chinwe

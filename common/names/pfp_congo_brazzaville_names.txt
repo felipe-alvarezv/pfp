@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-RCG = {
+﻿#Congo-Brazzaville
+Q39 = {
 	male = {
 		names = {
 			Alain Andre Barel Bill Burnel Curd Delvin Denis Edson Emmanuel Ferdinand Francine Francis Francois Goma Guy Henri Isidore Jean "Jean-Michel" Jerome Paul Rodolphe Sebastien Serge Sylvain Tchichelle

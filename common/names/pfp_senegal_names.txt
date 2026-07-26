@@ -1,19 +1,19 @@
-#Senegal
-SEN = {
+﻿#Senegal
+Q49 = {
 	male = {
 		names = {
-			Abdala Abdou Abdoulaye Aïyb Alioune Amadou Amath Assane Baaba Blaise Cheikh Demba DeSagana Didier Djibril Doudou "El Hadji" Guirane Habib Henri Idrissa Ismaël Ismaila Jimi Lamine Léopold Leyti Macky Mamadou Mansour
+			Abdala Abdou Abdoulaye AÃ¯yb Alioune Amadou Amath Assane Baaba Blaise Cheikh Demba DeSagana Didier Djibril Doudou "El Hadji" Guirane Habib Henri Idrissa IsmaÃ«l Ismaila Jimi Lamine LÃ©opold Leyti Macky Mamadou Mansour
 			Mbaye Mola Mor Morgaro Ndiss Nuru Ousmane Papa Papiss Patrice Paulin Seckou Thione Tony Umar Youssou
 		}
 	}
 	female = {
 		names = {
-			Fatou Julia Mariama Safi Ségolène Viviane
+			Fatou Julia Mariama Safi SÃ©golÃ¨ne Viviane
 		}
 	}
 	surnames = {
-		Awadi Ba Badji Camara Cissé Dansokho Dia Diagne Diakite Faye Dieng Diome Diop Diouf Evra Fall Faye Gomis Guèye Gueye Diouf Kane Keita Konte Lô Lo Maal Mambéty Mbaye Nder "N'Daw" "N'Dour" Ndour Rose Royal Sall Sane Sarr
-		Seck Senghor Sembène Senghor Sylla Sylva Tal Thiam Vieyra Wade
+		Awadi Ba Badji Camara CissÃ© Dansokho Dia Diagne Diakite Faye Dieng Diome Diop Diouf Evra Fall Faye Gomis GuÃ¨ye Gueye Diouf Kane Keita Konte LÃ´ Lo Maal MambÃ©ty Mbaye Nder "N'Daw" "N'Dour" Ndour Rose Royal Sall Sane Sarr
+		Seck Senghor SembÃ¨ne Senghor Sylla Sylva Tal Thiam Vieyra Wade
 	}
 	callsigns = { }
 }

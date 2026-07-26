@@ -1,5 +1,5 @@
-#Ethiopia
-ETH = {
+﻿#Ethiopia
+Q55 = {
 	male = {
 		names = {
 			Abate Abebe Aberra Abiye Ademe Admassu Afawarq Aklilu Amare Amde Anbassu Asfawossen Asrate Atikam Ayalew Balambaras Beine Bekele Belew Berhanu Berihun Beshah Bezibibeh Birru Damtew Debebe Demissie Desta Emmanual Endelkachew Gessesse Getachew Geteye Girma Haile Hailemariam Hapte Kass Kassa Kebbede Kelile Makonnen Mariam Melekot Mengesha Merid Mikael Nasibu Negasi Saleh Sebhat Seged Selassie Seyum Sileshi Tedeamme Wasane Wondosson Wossen Zeamanuel Zelleka Zewde

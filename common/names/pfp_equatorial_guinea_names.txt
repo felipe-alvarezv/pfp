@@ -1,5 +1,5 @@
-#Equatorial Guinea
-EQG = {
+﻿#Equatorial Guinea
+Q54 = {
 	male = {
 		names = {
 			Adolfo Angel Anselmo Antumi Atanasio Ben Benjamin Bienvenido Bonifacio Camilo Candido Celestino Chupe Cristino Cruz Donato Eloy Emilio Eric Fabian Fausto Francisco Genoveva Gerardo Gregorio Gumersindo Gustavo Ignacio

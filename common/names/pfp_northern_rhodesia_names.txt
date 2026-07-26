@@ -1,5 +1,5 @@
-#Northern Rhodesia
-ZAM = {
+﻿#Northern Rhodesia
+Q63 = {
 	male = {
 		names = {
 			Ahmad Alick Amon Andrew Baldwin Cassius Chilu Christon Cornelius Dafydd Daniel Davis Elijah Ellis Enoch Evelyn Fackson Felix Frederick George Godfrey Guy Hammerskjoeld Harry Hastings Henry Jeffrey John Kebby Keith

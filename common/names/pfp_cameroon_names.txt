@@ -1,5 +1,5 @@
-#Cameroon
-CMR = {
+﻿#Cameroon
+Q36 = {
 	male = {
 		names = {
 			Achille Ahmadou Albert Alphonse "Andre-Marie" Andy Armand Augustin Bello Ben Bernard Bili Charles Cornelius Daniel Diboue Emile Emmanuel Ephraim Felix Fracoise Francis Goddy Henri "Jacques-Roger" Jean "Jean-Baptiste"

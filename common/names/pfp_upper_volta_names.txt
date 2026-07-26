@@ -1,5 +1,5 @@
-#Upper Volta
-VOL = {
+﻿#Upper Volta
+Q43 = {
 	male = {
 		names = {
 			Ablasse Aboubakar Adama Alain Alidou Andre Aristide Bilgho Blaise Boubacar Boureima Constantin Dani Daniel Dieudonne Djibrill Dramane Emile Franck Francois Frederic Fulgence Gabin Gaston Gerard Hama Henri Idrissa Jacky Jean "Jean-Baptiste" Joseph Julien

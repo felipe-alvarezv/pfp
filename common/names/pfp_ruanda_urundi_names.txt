@@ -1,15 +1,15 @@
-#Ruanda-Urundi
-BRD = {
+﻿#Ruanda-Urundi
+Q66 = {
 	male = {
 		names = {
-			Aboubakar Aime Alexis Aloys Alphonse Arthemon Augustin Beni Bilgho Charles Cyprien Dani David Dieudonne Domitien Dramane Egide Ernest Evariste Faustin Francois Frédéric Gabriel Gael Gaston Gerard Germain Gilbert
-			Isidore "Jean-Baptiste" "Jean-Claude" "Jean-Patrick" Joachim Joseph Justin Kassim Laurent Louis Melchior Michel Moro Mutaga Mwambutsa Mwami Ntare Olivier Onèsphore Pierre Renovat Simon Sylvestre Therence Venerand
+			Aboubakar Aime Alexis Aloys Alphonse Arthemon Augustin Beni Bilgho Charles Cyprien Dani David Dieudonne Domitien Dramane Egide Ernest Evariste Faustin Francois FrÃ©dÃ©ric Gabriel Gael Gaston Gerard Germain Gilbert
+			Isidore "Jean-Baptiste" "Jean-Claude" "Jean-Patrick" Joachim Joseph Justin Kassim Laurent Louis Melchior Michel Moro Mutaga Mwambutsa Mwami Ntare Olivier OnÃ¨sphore Pierre Renovat Simon Sylvestre Therence Venerand
 			Venuste Zabore Zacharie
 		}
 	}
 	female = {
 		names = {
-			Alice Antoinette Diane Elsie Esther Francine Immaculée Khadja Marina Marthe Odette Sylvie
+			Alice Antoinette Diane Elsie Esther Francine ImmaculÃ©e Khadja Marina Marthe Odette Sylvie
 		}
 	}
 	surnames = {

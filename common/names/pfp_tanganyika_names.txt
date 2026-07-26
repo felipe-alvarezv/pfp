@@ -1,5 +1,5 @@
-#Tanganyika
-TZN = {
+﻿#Tanganyika
+Q62 = {
 	male = {
 		names = {
 			Benjamin Chief Daniel Dully Euphrase George Godfrey Hasheem Hukwe Imani Jakaya James Jayantilal Joseph Julius Juma Justinian Mangi Mizengo Mohammed Muhammed Mustafa Paul Reginald Thomas Tumi William Wilson

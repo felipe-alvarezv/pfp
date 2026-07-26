@@ -1,5 +1,5 @@
-#Bechuanaland
-BOT = {
+﻿#Bechuanaland
+Q70 = {
 	male = {
 		names = {
 			Seretse Goitsebeng Maphiri Sekgoma Quett Ketumile Joni Ian Tebogo Dikgakgamatso

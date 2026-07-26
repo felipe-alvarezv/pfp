@@ -1,4 +1,4 @@
-MAD = {
+Q72 = {
 	male = {
 		names = {
 			Albert Ali Andrianafidisoa Andrianary Andre Andry Anicet Antoine Armand Azaly Benja Bruce Cecile Charles Christian Claude Desire Didier Dimitri Elie Emmanuel Erick Eugene Eusebe Fetra Fidelis Francisque Francois Frank

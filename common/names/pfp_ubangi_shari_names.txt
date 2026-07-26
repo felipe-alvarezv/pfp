@@ -1,8 +1,8 @@
-#Ubangi-Shari
-CAR = {
+﻿#Ubangi-Shari
+Q37 = {
 	male = {
 		names = {
-			Abel Adolphe Agba Alexandre Alias "André-Dieudonné" "Ange-Felix" Anicet "Anicet-Richard" Antoine "Aubin-Thierry" Aymard Barthelemy Bernard Bertrand Beti Bosse Bruno Celestin Charles Christian Come David Derant Edouard
+			Abel Adolphe Agba Alexandre Alias "AndrÃ©-DieudonnÃ©" "Ange-Felix" Anicet "Anicet-Richard" Antoine "Aubin-Thierry" Aymard Barthelemy Bernard Bertrand Beti Bosse Bruno Celestin Charles Christian Come David Derant Edouard
 			Elie Enoch "Faustin-Archange" Ferdinand Foxi Francois Gabriel Gbongou Georges Habib Henri "Jean-Edouard" "Jean-Jacques" "Jean-Marie" "Jean-Paul" "Jean-Serge" "Jerome-Michel-Francis" Josue "Leandre-Alain" Leroy Lionel
 			Marcel Martial Martin Michel Mickael Mohamed Mouhamadou Narcisse Nguende Nicolas Raphael Romain Sanda Serge Simon Sylvie Taki Timothee
 		}

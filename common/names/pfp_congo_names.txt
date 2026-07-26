@@ -1,8 +1,8 @@
-#Congo
-COG = {
+﻿#Congo
+Q65 = {
 	male = {
 		names = {
-			Mobutu Joseph Patrice Antoine Laurent Albert Moise Etienne Nzimbi Ngbale Jérôme
+			Mobutu Joseph Patrice Antoine Laurent Albert Moise Etienne Nzimbi Ngbale JÃ©rÃ´me
 		}
 	}
 	female = {

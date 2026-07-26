@@ -1,27 +1,27 @@
-#Cape Verde
-CBV = {
+﻿#Cape Verde
+Q51 = {
 	male = {
 		names = {
-			Abel Adriano Afonso Alberto Alexandre Alfredo Álvaro André António Aquilino
-			Artur Augusto Bartolomeu Bernardo Bruno Caetano Cândido Carlos Christovão Cláudio
-			Damião Daniel David Dinis Diogo Duarte Ernesto Estêvão Eugénio Fernando
-			Filipe Francisco Gastão Hermenegildo Ignácio JErónimo João Joaquim Jorge
-			José Júlio Leopoldo Luís Manuel Mário Miguel Nicolau Nuno Orlando
-			Óscar Pascoal Paulo Pedro Rafael Raul Roberto Rodrigo Rui Santiago
-			Sebastião Teodoro Teófilo Tiago Tomé Urbano Vasco Vicente Vitorino Vitório
+			Abel Adriano Afonso Alberto Alexandre Alfredo Ãlvaro AndrÃ© AntÃ³nio Aquilino
+			Artur Augusto Bartolomeu Bernardo Bruno Caetano CÃ¢ndido Carlos ChristovÃ£o ClÃ¡udio
+			DamiÃ£o Daniel David Dinis Diogo Duarte Ernesto EstÃªvÃ£o EugÃ©nio Fernando
+			Filipe Francisco GastÃ£o Hermenegildo IgnÃ¡cio JErÃ³nimo JoÃ£o Joaquim Jorge
+			JosÃ© JÃºlio Leopoldo LuÃ­s Manuel MÃ¡rio Miguel Nicolau Nuno Orlando
+			Ã“scar Pascoal Paulo Pedro Rafael Raul Roberto Rodrigo Rui Santiago
+			SebastiÃ£o Teodoro TeÃ³filo Tiago TomÃ© Urbano Vasco Vicente Vitorino VitÃ³rio
 		}
 	}
 	female = {
-		names = { Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa Constança }
+		names = { Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa ConstanÃ§a }
 	}
 	surnames = {
 		Amaral Barreto Bleck Braga Cabral Capelo Carmona Coelho Correia Coutinho
-		"da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Bragança" "de Bragança-Coburgo" "de Carvalho"
-		"de Castro" "de Gusmão" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos"
+		"da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de BraganÃ§a" "de BraganÃ§a-Coburgo" "de Carvalho"
+		"de Castro" "de GusmÃ£o" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos"
 		Dias "dos Reis" "dos Santos" Fernandes Ferreira Figueira "Freire de Andrade" Gago Gil Gomes
-		Herculano Ivens Keil Lopes Machado Magalhães Mendes Moniz Mouzinho Nogueira
-		Nunes Ortigão Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
-		Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira
+		Herculano Ivens Keil Lopes Machado MagalhÃ£es Mendes Moniz Mouzinho Nogueira
+		Nunes OrtigÃ£o Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
+		Ribeiro Rodrigues Salazar Sampaio SÃ©rgio Silveira Tavares Teixeira Vidigal Vieira
 	}
 	callsigns = { }
 }

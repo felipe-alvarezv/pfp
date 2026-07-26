@@ -1,5 +1,5 @@
-#Nyasaland
-MLW = {
+﻿#Nyasaland
+Q64 = {
 	male = {
 		names = {
 			Aaron Alan Aleke Bakili Bazuka Billy Bingu Boston Brown Cassim Chakufwa Charlton Chauncy Chimunthu Cornelius Cuthy David Desmond Dick Donton Du Drake Enoch Evison Fisher Focus Fraser Goodall Gregory Han Harvey Harry

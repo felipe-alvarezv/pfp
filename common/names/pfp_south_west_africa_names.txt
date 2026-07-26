@@ -1,5 +1,5 @@
-#South West Africa
-NMB = {
+﻿#South West Africa
+Q71 = {
 	male = {
 		names = {
 			Albert Alfredo Andimba Asser Ben Bernard Calle Constance Danie Dawid Deon Dirk Dorian Elia Erastus Evilastus Fanuel Frankie Frans Hage Hans Hansina Harry Hendrick Hidipo Hifikepunye Hosea Ida Immanuel Jackson John

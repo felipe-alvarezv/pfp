@@ -1,8 +1,8 @@
-#Mozambique
-MZB = {
+﻿#Mozambique
+Q68 = {
 	male = {
 		names = {
-			José Eduardo Henrique Alberto Joaquim Dinho Demosthenes Amos Kafundanga Jeremias Valdemar Mendes Rodrigues Agostinho Viriato Nito
+			JosÃ© Eduardo Henrique Alberto Joaquim Dinho Demosthenes Amos Kafundanga Jeremias Valdemar Mendes Rodrigues Agostinho Viriato Nito
 		}
 	}
 	female = {

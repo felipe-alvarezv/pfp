@@ -1,5 +1,5 @@
-#Mauritania
-MRT = {
+﻿#Mauritania
+Q52 = {
 	male = {
 		names = {
 			Abdallahi Abderrahmane Abdoulaye Adama Ahmad Ahmed Ahmedou Ba Birama Boulah Cheikh Dah Dahmed Diallo Doudou Drissa Ely Hmeida Ibrahima Jidou Khalid Maaouya Mahfoud Messaoud Mohamed Moktar Moulaye Moussa Moustapha

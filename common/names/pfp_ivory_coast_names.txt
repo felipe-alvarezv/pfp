@@ -1,5 +1,5 @@
-#Ivory Coast
-IVO = {
+﻿#Ivory Coast
+Q44 = {
 	male = {
 		names = {
 			Aboubakar Abraham Adogon Ahmadou Ahmed Alain Alcide Alfred Alpha Amadou Amara Amon Ananias Athanase Bamba Barthelemy "Ben-Youssef" Bernard Brice Brou Charles Christian Constance Daniel Denis Edgar Emmanuel Emile Ernest

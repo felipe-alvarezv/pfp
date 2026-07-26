@@ -1,5 +1,5 @@
-#Niger
-NGR = {
+﻿#Niger
+Q33 = {
 	male = {
 		names = {
 			Abdou Abdoulaye Aboubacar Adamou Albade Alhassane Ali Aliou Amadou Ambroise Aminatou Andre Badie Barcourgne Boubou Boukary Brigi Damoure Dary Daouda Djibo Falke Foumakoye Garba Gremah Habi Hama Hamani Hamid Hamidou

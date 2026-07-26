@@ -1,5 +1,5 @@
-#Guinea
-GNA = {
+﻿#Guinea
+Q46 = {
 	male = {
 		names = {
 			Abdoulaye Abdourahmane Aboubacar Achkar Ahmed Alassane Albert Alexandre Alfa Alioune Alpha Alseny Amara Arafan Bakary Balla Bengaly Boubacar Camara Cellou Condetto Damantang Diarra Diawadou Djeli Djely Djibril Edouard

@@ -1,8 +1,8 @@
-#Kenya
-KEN = {
+﻿#Kenya
+Q60 = {
 	male = {
 		names = {
-			Uhuru William Ekwee Justin Githu Dedan Jomo Warũhiũ Koitalel Kango Onyango Musa
+			Uhuru William Ekwee Justin Githu Dedan Jomo WarÅ©hiÅ© Koitalel Kango Onyango Musa
 		}
 	}
 	female = {

@@ -1,5 +1,5 @@
-#Ghana
-GHA = {
+﻿#Ghana
+Q42 = {
 	male = {
 		names = {
 			Abdul Ablade Akwasi Albert Alex Aliu Anthony Ataa Austin Ave Awal Ben Bernard Cephas Clement Daniel Ebenezer Eddie Edward El Elom Emmanuel Ephraim Eric Francis Frank Fred George Gloria Godfried Gyearbuor Hilla

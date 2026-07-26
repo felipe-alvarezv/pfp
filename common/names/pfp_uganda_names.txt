@@ -1,5 +1,5 @@
-#Uganda
-UGA = {
+﻿#Uganda
+Q61 = {
 	male = {
 		names = {
 			Amama Aronda Ayub Charles Danny David Emmanuel Geoffrey Ibrahim Idi John Joseph Kassim Kizza Marcel Martin Milton Moses Mutesa Muwenda Phill Rahim Richard Savio Scott Shekhar Shimit Simon Stephen Tito Vincent Yoweri

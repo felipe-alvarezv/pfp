@@ -1,12 +1,12 @@
-#Angola
-ANG = {
+﻿#Angola
+Q67 = {
 	male = {
 		names = {
-			José Eduardo Henrique Alberto Joaquim Dinho Demosthenes Amos Kafundanga Jeremias Valdemar Mendes Rodrigues Agostinho Viriato Nito
+			JosÃ© Eduardo Henrique Alberto Joaquim Dinho Demosthenes Amos Kafundanga Jeremias Valdemar Mendes Rodrigues Agostinho Viriato Nito
 		}
 	}
 	female = {
-		names = { Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa Constança }
+		names = { Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa ConstanÃ§a }
 	}
 	surnames = {
 		"dos Santos" Tiago "N'zita" Vinama Chingunji Chilingutila Chitunda Chidondo "de Carvalho" Mingas Neto "da Cruz" Alves

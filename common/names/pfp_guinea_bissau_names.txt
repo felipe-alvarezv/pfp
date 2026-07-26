@@ -1,5 +1,5 @@
-#Guinea-Bissau
-GNB = {
+﻿#Guinea-Bissau
+Q48 = {
 	male = {
 		names = {
 			Abdulai Adelino Adiato Adilson Adul Alamara Alfredo Amarildo Amilcar Antonio Aristides Artur Baciro Bubo Caetano Carlos Cipriano Constantino Faustino Fernando Flora Francisco Helder Henrique Holder Ibraima Joao Jose

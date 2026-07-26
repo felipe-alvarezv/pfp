@@ -1,5 +1,5 @@
-#Sierra Leone
-SIE = {
+﻿#Sierra Leone
+Q47 = {
 	male = {
 		names = {
 			Abioseh Ahmad Albert Alimamy Aluspah Bai Bankole Christopher Ernest Farid Herbert Horace Ibrahim Ishmael John Joseph Julius Kabba Karamoh Madieu Michael Milton Mohamed Nabih Obi Roda Samuel Sarway Sheriff Siaka
