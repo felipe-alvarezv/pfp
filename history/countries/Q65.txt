@@ -100,6 +100,8 @@ add_to_array = { Q65.pfp_possible_cores = 718 } #Stanleyville
 add_to_array = { Q65.pfp_possible_cores = 888 } #Lusambo
 add_to_array = { Q65.pfp_possible_cores = 889 } #Elisabethville
 add_to_array = { Q65.pfp_possible_cores = 890 } #Costermansville
+
+#Congo Territories
 add_to_array = { Q65.pfp_possible_cores = 768 } #Rwanda
 add_to_array = { Q65.pfp_possible_cores = 769 } #Burundi
 add_to_array = { Q65.pfp_possible_cores = 796 } #Cabinda

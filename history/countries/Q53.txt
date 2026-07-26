@@ -95,4 +95,6 @@ recruit_character = Q53_fascism_leader
 
 #Western Sahara Initial States
 add_to_array = { Q53.pfp_possible_cores = 699 } #Rio de Oro
+
+#Western Sahara Territories
 add_to_array = { Q53.pfp_possible_cores = 178 } #Islas Canarias

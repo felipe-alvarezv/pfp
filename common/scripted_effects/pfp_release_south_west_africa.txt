@@ -1,0 +1,73 @@
+#Scripted effect to release South West Africa (Q71)
+pfp_release_south_west_africa = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			895 = { add_contested_owner = Q71 } #Otjozondjupa
+			894 = { add_contested_owner = Q71 } #Kunene
+			541 = { add_contested_owner = Q71 } #Khomas
+			893 = { add_contested_owner = Q71 } #Karas
+
+			#Add claims to formable puppet
+			895 = { add_claim_by = Q71 } #Otjozondjupa
+			894 = { add_claim_by = Q71 } #Kunene
+			541 = { add_claim_by = Q71 } #Khomas
+			893 = { add_claim_by = Q71 } #Karas
+
+			#Set formable puppet as controller of contested states
+			every_state = {
+				limit = { has_contested_owner = Q71 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q71
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to = Q71
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q71 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			895 = { add_core_of = Q71 } #Otjozondjupa
+			894 = { add_core_of = Q71 } #Kunene
+			541 = { add_core_of = Q71 } #Khomas
+			893 = { add_core_of = Q71 } #Karas
+
+			#Set formable puppet as owner and controller of core states
+			every_state = {
+				limit = { is_core_of = Q71 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q71
+					transfer_state_to = Q71
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q71
+					set_state_controller_to = Q71
+				}
+			}
+
+			Q71 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

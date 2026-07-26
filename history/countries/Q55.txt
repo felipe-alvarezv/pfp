@@ -104,6 +104,8 @@ add_to_array = { Q55.pfp_possible_cores = 838 } #Illubabor-Kaffa
 add_to_array = { Q55.pfp_possible_cores = 835 } #Hararghe
 add_to_array = { Q55.pfp_possible_cores = 836 } #Bale
 add_to_array = { Q55.pfp_possible_cores = 837 } #Sidamo
+
+#Ethiopia Territories
 add_to_array = { Q55.pfp_possible_cores = 559 } #Somaliland
 add_to_array = { Q55.pfp_possible_cores = 844 } #Jubaland
 add_to_array = { Q55.pfp_possible_cores = 269 } #British Somaliland

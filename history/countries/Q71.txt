@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#South West Africa
+capital = 541 #Khomas
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,13 +88,13 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q71_communism_leader
+recruit_character = Q71_democratic_leader
+recruit_character = Q71_neutrality_leader
+recruit_character = Q71_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-
-#Congo-Brazzaville Territories
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#South West Africa Initial States
+add_to_array = { Q71.pfp_possible_cores = 895 } #Otjozondjupa
+add_to_array = { Q71.pfp_possible_cores = 894 } #Kunene
+add_to_array = { Q71.pfp_possible_cores = 541 } #Khomas
+add_to_array = { Q71.pfp_possible_cores = 893 } #Karas

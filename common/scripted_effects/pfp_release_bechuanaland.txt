@@ -1,66 +1,60 @@
-#Scripted effect to release South Africa (P36)
-pfp_release_south_africa = {
+#Scripted effect to release Bechuanaland (Q70)
+pfp_release_bechuanaland = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
 		if = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			275 = { add_contested_owner = P36 } #Transvaal
-			681 = { add_contested_owner = P36 } #Cape
-			719 = { add_contested_owner = P36 } #Natal
+			542 = { add_contested_owner = Q70 } #Bechuanaland
 
 			#Add claims to formable puppet
-			275 = { add_claim_by = P36 } #Transvaal
-			681 = { add_claim_by = P36 } #Cape
-			719 = { add_claim_by = P36 } #Natal
+			542 = { add_claim_by = Q70 } #Bechuanaland
 
-			#Set formable puppet as controller of contested state
+			#Set formable puppet as controller of contested states
 			every_state = {
-				limit = { has_contested_owner = P36 }
-				
+				limit = { has_contested_owner = Q70 }
+
 				#If ROOT owns the state, transfer control and ownership to formable puppet
-				if = { 
+				if = {
 					limit = { is_owned_by = ROOT }
-					transfer_state_to = P36
+					transfer_state_to = Q70
 				}
 
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					set_state_controller_to  = P36
+					set_state_controller_to = Q70
 				}
 			}
 
 			#Set custom focus tree to combat resistance
-			P36 = { load_focus_tree = pfp_formable_puppet_focus }
+			Q70 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
 		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
 		else = {
 			#Add cores to formable puppet
-			275 = { add_core_of = P36 } #Transvaal
-			681 = { add_core_of = P36 } #Cape
-			719 = { add_core_of = P36 } #Natal
+			542 = { add_core_of = Q70 } #Bechuanaland
 
-			#Set formable puppet as owner and controller of core state
+			#Set formable puppet as owner and controller of core states
 			every_state = {
-				limit = { is_core_of = P36 }
+				limit = { is_core_of = Q70 }
 
 				#If ROOT owns the state, transfer control and ownership to formable puppet
-				if = { 
+				if = {
 					limit = { is_owned_by = ROOT }
 
-					add_contested_owner = P36
-					transfer_state_to = P36
+					add_contested_owner = Q70
+					transfer_state_to = Q70
 				}
 
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					add_contested_owner = P36
-					set_state_controller_to = P36
+					add_contested_owner = Q70
+					set_state_controller_to = Q70
 				}
 			}
 
-			P36 = {
+			Q70 = {
 				remove_ideas = {
 					pfp_puppet_resistance_idea_1
 				}

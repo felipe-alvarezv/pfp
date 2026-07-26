@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Mozambique
+capital = 544 #Lourenço Marques
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,13 +88,12 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q68_communism_leader
+recruit_character = Q68_democratic_leader
+recruit_character = Q68_neutrality_leader
+recruit_character = Q68_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-
-#Congo-Brazzaville Territories
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Mozambique Initial States
+add_to_array = { Q68.pfp_possible_cores = 897 } #Zambezia-Moçambique
+add_to_array = { Q68.pfp_possible_cores = 896 } #Manica e Sofala
+add_to_array = { Q68.pfp_possible_cores = 544 } #Lourenço Marques

@@ -13,11 +13,6 @@ pfp_category = {
 				has_full_control_of_state = 275 #Transvaal
 			}
 
-			#Bechuanaland
-			custom_trigger_tooltip = {
-				tooltip = pfp_south_africa_required_states_bechuanaland
-				has_full_control_of_state = 542 #Bechuanaland
-			}
 			#Cape
 			custom_trigger_tooltip = {
 				tooltip = pfp_south_africa_required_states_cape
@@ -32,7 +27,6 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 275 #Transvaal
-				has_full_control_of_state = 542 #Bechuanaland
 				has_full_control_of_state = 681 #Cape
 				has_full_control_of_state = 719 #Natal
 			}
@@ -41,7 +35,6 @@ pfp_category = {
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 275 #Transvaal
-				state = 542 #Becuanaland
 				state = 681 #Cape
 				state = 719 #Natal
 			}

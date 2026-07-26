@@ -1,0 +1,15 @@
+#Mozambique
+MZB = {
+	male = {
+		names = {
+			José Eduardo Henrique Alberto Joaquim Dinho Demosthenes Amos Kafundanga Jeremias Valdemar Mendes Rodrigues Agostinho Viriato Nito
+		}
+	}
+	female = {
+		names = { Yuran Mussa Jassi Jossais Adia Bongani }
+	}
+	surnames = {
+		"dos Santos" Tiago "N'zita" Vinama Chingunji Chilingutila Chitunda Chidondo "de Carvalho" Mingas Neto "da Cruz" Alves Machel
+	}
+	callsigns = { }
+}

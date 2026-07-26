@@ -1,5 +1,5 @@
-#Congo-Brazzaville
-capital = 772 #Middle Congo
+#Bechuanaland
+capital = 542 #Bechuanaland
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -88,13 +88,10 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = Q39_communism_leader
-recruit_character = Q39_democratic_leader
-recruit_character = Q39_neutrality_leader
-recruit_character = Q39_fascism_leader
+recruit_character = Q70_communism_leader
+recruit_character = Q70_democratic_leader
+recruit_character = Q70_neutrality_leader
+recruit_character = Q70_fascism_leader
 
-#Congo-Brazzaville Initial States
-add_to_array = { Q39.pfp_possible_cores = 772 } #Middle Congo
-
-#Congo-Brazzaville Territories
-add_to_array = { Q39.pfp_possible_cores = 796 } #Cabinda
+#Bechuanaland Initial States
+add_to_array = { Q70.pfp_possible_cores = 542 } #Bechuanaland

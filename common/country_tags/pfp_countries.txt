@@ -164,3 +164,7 @@ Q64 = "countries/Q64.txt" #Nyasaland
 Q65 = "countries/Q65.txt" #Congo
 Q66 = "countries/Q66.txt" #Ruanda-Urundi
 Q67 = "countries/Q67.txt" #Angola
+Q68 = "countries/Q68.txt" #Mozambique
+Q69 = "countries/Q69.txt" #Southern Rhodesia
+Q70 = "countries/Q70.txt" #Bechuanaland
+Q71 = "countries/Q71.txt" #South West Africa

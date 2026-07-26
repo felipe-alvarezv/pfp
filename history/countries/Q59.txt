@@ -96,4 +96,6 @@ recruit_character = Q59_fascism_leader
 #Somalia Initial States
 add_to_array = { Q59.pfp_possible_cores = 559 } #Somaliland
 add_to_array = { Q59.pfp_possible_cores = 844 } #Jubaland
+
+#Somalia Territories
 add_to_array = { Q59.pfp_possible_cores = 269 } #British Somaliland

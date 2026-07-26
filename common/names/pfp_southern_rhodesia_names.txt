@@ -1,0 +1,15 @@
+#Southern Rhodesia
+ZIM = {
+	male = {
+		names = {
+			Desmond Abel Kadungure Sekuru Robert Lobengula Joshua Dumiso Leopold Joseph Gabriel Mqabuko Nyongolo Thomas Letswansto Ndabaningi
+		}
+	}
+	female = {
+		names = { Barulaganye Dikeledi Goitsemedi Aizivaishe Akatendeka Zendaya Vimbo }
+	}
+	surnames = {
+		Tutu Muzorewa Nkomo Mapondera Kaguvi Khumalo Dabengwa Msika Takawira Masuku Sithole Tekere Nkala Nyagumbo
+	}
+	callsigns = { }
+}
