@@ -1,0 +1,6 @@
+#Rif
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
+color = { 138 13 13 }
+color = rgb { 138 13 13 }
+color_ui = rgb { 138 13 13 }

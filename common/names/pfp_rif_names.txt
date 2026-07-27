@@ -1,0 +1,29 @@
+#Rif
+Q73 = {
+	male = {
+		names = {
+			Abbas Abd Abdalaati Abdallah Abdelaziz Abdelhak Abdelilah Abdelkader Abdellatif Abdessadeq "Abu Bakr" Ahmed Alber Albert Ali Andre Azzeddine Bachir Bouchaib Bouchta Brahim David Driss Elam Eli Faouzi Gad Hassan Hicham
+			Henry Hicham Imad Isaac Ismael Jamal Jamel Jaouad Jo Judah Kacem Khalid Laarbi Omar Maati Mahmoud Mehdi Mohamed Mohammed Moshe Mouad Moulay Nabil Nadir Najib Rachid Ralph Rhadi Robert Ryan Said Salah Samuel Samy
+			Shlomo
+			Aderfi Hajj Aksil Amastan Meddur Sufian Ridha Yimlul
+		}
+		surnames = {
+			Aamara Abdelhadi Abouzeid Aflalo "ibn Al-Aftas" Alfasi "Abed Al-Jabri" Amhali Attar Balafej Basri Belhsen "Ben-Ami" Benhima Bensaidi "El Bidaoui" Bitton Bouabid Chami "Ali Cherif" Debbouze Elbaz Essaidi "Al-Fasi"
+			Ferroukhi "El Ghazzali" Guinia Hakmoun "Al-Hassar" "ben David Hayyuj" Ibrahim Jay Kaghat Khayat Laabi Lahlou Laraki Maan "El Marikh" Mezouar "El Moutawakel" Noury "El Othmani" Pinto Reno Roukhe Skah Tamsamani Tietjen
+			Youssoufi Zarra
+		}
+	}
+	female = {
+		names = {
+			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Isaac Israa Jathibiyya Khalida Latifa Maha Mahi Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar Samia Sarah
+			Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha
+			Amina Danielle Halima Hasna Latifa Leila Nadia Najat Nezha Sanaa Shatha Simone Sofia Yasmine
+		}
+		surnames = {
+			Aamara Abdelhadi Abouzeid Aflalo "bint Al-Aftas" Alfasi "Abed Al-Jabri" Amhali Attar Balafej Basri Belhsen "Ben-Ami" Benhima Bensaidi "El Bidaoui" Bitton Bouabid Chami "Ali Cherif" Debbouze Elbaz Essaidi "Al-Fasi"
+			Ferroukhi "El Ghazzali" Guinia Hakmoun "Al-Hassar" "ben David Hayyuj" Ibrahim Jay Kaghat Khayat Laabi Lahlou Laraki Maan "El Marikh" Mezouar "El Moutawakel" Noury "El Othmani" Pinto Reno Roukhe Skah Tamsamani Tietjen
+			Youssoufi Zarra
+		}
+	}
+	callsigns = { }
+}

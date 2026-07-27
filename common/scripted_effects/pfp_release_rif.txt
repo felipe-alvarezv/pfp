@@ -1,0 +1,64 @@
+#Scripted effect to release Rif (Q73)
+pfp_release_rif = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			290 = { add_contested_owner = Q73 } #Spanish Africa
+
+			#Add claims to formable puppet
+			290 = { add_claim_by = Q73 } #Spanish Africa
+
+			#Set formable puppet as controller of contested states
+			every_state = {
+				limit = { has_contested_owner = Q73 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q73
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q73
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q73 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			290 = { add_core_of = Q73 } #Spanish Africa
+
+			#Set formable puppet as owner and controller of core states
+			every_state = {
+				limit = { is_core_of = Q73 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q73
+					transfer_state_to = Q73
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q73
+					set_state_controller_to = Q73
+				}
+			}
+
+			Q73 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}
