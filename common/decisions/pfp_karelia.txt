@@ -1,0 +1,51 @@
+pfp_category = {
+	pfp_karelia = {
+		allowed = { NOT = { original_tag = KAR #Karelia } }
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_karelia_required_states_onega
+				has_full_control_of_state = 215 #Onega
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_karelia_required_states_olonets
+				has_full_control_of_state = 216 #Olonets
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 215
+				has_full_control_of_state = 216
+			}
+			NOT = { has_global_flag = pfp_karelia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 215
+				state = 216
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_karelia_transfer_capital
+			custom_effect_tooltip = pfp_karelia_puppet
+			custom_effect_tooltip = pfp_karelia_occupation_type
+			custom_effect_tooltip = pfp_karelia_state_controller
+			hidden_effect = {
+				215 = { transfer_state_to = Q76 }
+				puppet = Q76
+				set_temp_variable = { pfp_portrait_tag = Q76 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = { limit = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } pfp_set_use_overlord_flag = yes }
+				}
+				pfp_release_karelia = yes
+				Q76 = { pfp_transfer_technology = yes }
+				set_global_flag = pfp_karelia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
