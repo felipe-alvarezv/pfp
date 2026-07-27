@@ -1,0 +1,42 @@
+pfp_category = {
+	pfp_transcarpathia = {
+		allowed = {
+			NOT = { original_tag = UKR #Ukraine }
+			NOT = { original_tag = SLO #Slovakia }
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcarpathia_required_states_podkarpatska_rus
+				has_full_control_of_state = 73 #Podkarpatská Rus
+			}
+		}
+		visible = {
+			OR = { has_full_control_of_state = 73 }
+			NOT = { has_global_flag = pfp_transcarpathia_flag }
+		}
+		highlight_states = { highlight_state_targets = { state = 73 } }
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_transcarpathia_transfer_capital
+			custom_effect_tooltip = pfp_transcarpathia_puppet
+			custom_effect_tooltip = pfp_transcarpathia_occupation_type
+			custom_effect_tooltip = pfp_transcarpathia_state_controller
+			hidden_effect = {
+				73 = { transfer_state_to = Q79 }
+				puppet = Q79
+				set_temp_variable = { pfp_portrait_tag = Q79 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = { limit = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } pfp_set_use_overlord_flag = yes }
+				}
+				pfp_release_transcarpathia = yes
+				Q79 = { pfp_transfer_technology = yes }
+				set_global_flag = pfp_transcarpathia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
