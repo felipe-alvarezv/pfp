@@ -106,7 +106,7 @@ pfp_category = {
 				}
 
 				#Formable puppet will core or contest its designated territory
-				pfp_release_north_sudan = yes
+				pfp_release_sudan = yes
 
 				#Transfer all technology from ROOT to formable puppet
 				Q31 = { pfp_transfer_technology = yes }
