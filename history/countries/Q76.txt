@@ -99,3 +99,4 @@ add_to_array = { Q76.pfp_possible_cores = 216 } #Olonets
 
 #Karelia Territories
 add_to_array = { Q76.pfp_possible_cores = 146 } #Karjala
+add_to_array = { Q76.pfp_possible_cores = 147 } #Salla
