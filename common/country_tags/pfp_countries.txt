@@ -173,3 +173,4 @@ Q73 = "countries/Q73.txt" #Rif
 Q74 = "countries/Q74.txt" #Belarus
 Q75 = "countries/Q75.txt" #Königsberg
 Q76 = "countries/Q76.txt" #Karelia
+Q77 = "countries/Q77.txt" #Murmansk
