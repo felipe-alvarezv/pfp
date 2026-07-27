@@ -12,7 +12,7 @@ l_english:
 
 	pfp_management_use_overlord_color:0 "Toggle Use Overlord Color"
 	pfp_management_use_overlord_color_desc:0 "This decision enables or disables puppets having the same color as their overlord."
-	pfp_management_use_overlord_color_tooltip:0 "All player controlled countries are at peace."
+	pfp_management_use_overlord_color_tooltip:0 "All countries are at peace."
 
 	pfp_management_use_overlord_flag:0 "Toggle Use Overlord Flag"
 	pfp_management_use_overlord_flag_desc:0 "This decision enables or disables puppets having the same flag as their overlord."
