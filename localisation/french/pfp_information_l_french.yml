@@ -11,7 +11,7 @@ l_french:
 	pfp_management_window:0 "Ouvrir le menu de gestion"
 	pfp_management_use_overlord_color:0 "Basculer les marionnettes aux couleurs du suzerain"
 	pfp_management_use_overlord_color_desc:0 "Cette décision active ou désactive le fait que les marionnettes aient la même couleur que leur suzerain."
-	pfp_management_use_overlord_color_tooltip:0 "Tous les pays contrôlés par le joueur sont en paix."
+	pfp_management_use_overlord_color_tooltip:0 "Tous les pays sont en paix."
 
 	pfp_management_use_overlord_flag:0 "Basculer les marionnettes au drapeau du suzerain"
 	pfp_management_use_overlord_flag_desc:0 "Cette décision active ou désactive le fait que les marionnettes aient le même drapeau que leur suzerain."
@@ -29,7 +29,7 @@ l_french:
 	pfp_contest_state_tooltip:0 "contestation"
 	pfp_core_state_tooltip:0 "coeurs"
 
-	pfp_default_puppet_leader:0 "Military Governor"
+	pfp_default_puppet_leader:0 "Gouverneur militaire"
 
 	pfp_autonomy_military_occupation:0 "Occupation militaire"
 	pfp_autonomy_military_occupation_painted:0 "Occupation militaire"
@@ -151,5 +151,5 @@ l_french:
 	pfp_deploy_reinforcements:0 "Déployer des Renforts à [FROM.GetName]"
 	pfp_deploy_reinforcements_desc:0 "Les territoires occupés sont agités, et notre garnison est à bout de souffle. Un nouveau déploiement de troupes renforcera notre présence sur le terrain, rappelant à la population que notre portée est longue et que notre patience pour le désordre est courte. Chaque soldat envoyé est un clou de plus dans le cercueil de la résistance organisée."
 
-	pfp_ship_arms_to_garrison:0 "Expédier des Armes à la Garnison de [FROM.GetName]"
-	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."
+	pfp_ship_arms_to_garrison:0 "Expédier des armes à la garnison de [FROM.GetName]"
+	pfp_ship_arms_to_garrison_desc:0 "Une garnison dépourvue d'un équipement adéquat n'est guère plus qu'une présence en uniforme. Nous veillerons à ce que nos forces dans les territoires occupés soient correctement armées — non seulement pour combattre, mais aussi pour rappeler à chaque rue et à chaque village qui détient réellement le pouvoir ici. Des soldats bien approvisionnés ne négocient pas. Ils font respecter l'ordre."
