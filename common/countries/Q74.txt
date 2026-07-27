@@ -1,0 +1,6 @@
+#Belarus
+graphical_culture = eastern_european_gfx
+graphical_culture_2d = eastern_european_2d
+color = { 180 220 190 }
+color = rgb { 180 220 190 }
+color_ui = rgb { 180 220 190 }

@@ -170,3 +170,4 @@ Q70 = "countries/Q70.txt" #Bechuanaland
 Q71 = "countries/Q71.txt" #South West Africa
 Q72 = "countries/Q72.txt" #Madagascar
 Q73 = "countries/Q73.txt" #Rif
+Q74 = "countries/Q74.txt" #Belarus

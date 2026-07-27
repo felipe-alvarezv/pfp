@@ -1,0 +1,85 @@
+#Scripted effect to release Belarus (Q74)
+pfp_release_belarus = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			206 = { add_contested_owner = Q74 } #Minsk
+			95 = { add_contested_owner = Q74 } #Nowogródek
+			96 = { add_contested_owner = Q74 } #Wilejka
+			94 = { add_contested_owner = Q74 } #Polesie
+			194 = { add_contested_owner = Q74 } #Mozyr
+			204 = { add_contested_owner = Q74 } #Bobruysk
+			207 = { add_contested_owner = Q74 } #Vitebsk
+			241 = { add_contested_owner = Q74 } #Gomel
+
+			#Add claims to formable puppet
+			206 = { add_claim_by = Q74 } #Minsk
+			95 = { add_claim_by = Q74 } #Nowogródek
+			96 = { add_claim_by = Q74 } #Wilejka
+			94 = { add_claim_by = Q74 } #Polesie
+			194 = { add_claim_by = Q74 } #Mozyr
+			204 = { add_claim_by = Q74 } #Bobruysk
+			207 = { add_claim_by = Q74 } #Vitebsk
+			241 = { add_claim_by = Q74 } #Gomel
+
+			#Set formable puppet as controller of contested states
+			every_state = {
+				limit = { has_contested_owner = Q74 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q74
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q74
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q74 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			206 = { add_core_of = Q74 } #Minsk
+			95 = { add_core_of = Q74 } #Nowogródek
+			96 = { add_core_of = Q74 } #Wilejka
+			94 = { add_core_of = Q74 } #Polesie
+			194 = { add_core_of = Q74 } #Mozyr
+			204 = { add_core_of = Q74 } #Bobruysk
+			207 = { add_core_of = Q74 } #Vitebsk
+			241 = { add_core_of = Q74 } #Gomel
+
+			#Set formable puppet as owner and controller of core states
+			every_state = {
+				limit = { is_core_of = Q74 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q74
+					transfer_state_to = Q74
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q74
+					set_state_controller_to = Q74
+				}
+			}
+
+			Q74 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

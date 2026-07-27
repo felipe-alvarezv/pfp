@@ -1,0 +1,113 @@
+pfp_category = {
+	pfp_belarus = {
+		allowed = {
+			NOT = {
+				original_tag = BLR #Belarus
+			}
+		}
+		available = {
+			is_subject = no
+			#Belarus
+			custom_trigger_tooltip = {
+				tooltip = pfp_belarus_required_states_minsk
+				has_full_control_of_state = 206 #Minsk
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_belarus_required_states_nowogrodek
+				has_full_control_of_state = 95 #Nowogródek
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_belarus_required_states_wilejka
+				has_full_control_of_state = 96 #Wilejka
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_belarus_required_states_polesie
+				has_full_control_of_state = 94 #Polesie
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_belarus_required_states_mozyr
+				has_full_control_of_state = 194 #Mozyr
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_belarus_required_states_bobruysk
+				has_full_control_of_state = 204 #Bobruysk
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_belarus_required_states_vitebsk
+				has_full_control_of_state = 207 #Vitebsk
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_belarus_required_states_gomel
+				has_full_control_of_state = 241 #Gomel
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 206 #Minsk
+				has_full_control_of_state = 95 #Nowogródek
+				has_full_control_of_state = 96 #Wilejka
+				has_full_control_of_state = 94 #Polesie
+				has_full_control_of_state = 194 #Mozyr
+				has_full_control_of_state = 204 #Bobruysk
+				has_full_control_of_state = 207 #Vitebsk
+				has_full_control_of_state = 241 #Gomel
+			}
+			NOT = { has_global_flag = pfp_belarus_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 206 #Minsk
+				state = 95 #Nowogródek
+				state = 96 #Wilejka
+				state = 94 #Polesie
+				state = 194 #Mozyr
+				state = 204 #Bobruysk
+				state = 207 #Vitebsk
+				state = 241 #Gomel
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_belarus_transfer_capital
+			custom_effect_tooltip = pfp_belarus_puppet
+			custom_effect_tooltip = pfp_belarus_occupation_type
+			custom_effect_tooltip = pfp_belarus_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				206 = { transfer_state_to = Q74 } #Minsk
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q74
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q74 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_belarus = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q74 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_belarus_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
