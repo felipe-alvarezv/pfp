@@ -29,7 +29,7 @@ l_french:
 	pfp_contest_state_tooltip:0 "contestation"
 	pfp_core_state_tooltip:0 "coeurs"
 
-	pfp_default_puppet_leader:0 "Gouverneur militaire"
+	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "Occupation militaire"
 	pfp_autonomy_military_occupation_painted:0 "Occupation militaire"
