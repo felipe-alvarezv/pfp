@@ -1,5 +1,5 @@
-#Ghana
-capital = 274 #Ghana
+#Gold Coast
+capital = 274 #Gold Coast
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -93,5 +93,5 @@ recruit_character = Q42_democratic_leader
 recruit_character = Q42_neutrality_leader
 recruit_character = Q42_fascism_leader
 
-#Ghana Initial States
-add_to_array = { Q42.pfp_possible_cores = 274 } #Ghana
+#Gold Coast Initial States
+add_to_array = { Q42.pfp_possible_cores = 274 } #Gold Coast

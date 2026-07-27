@@ -1,3 +1,6 @@
+#Cape Verde
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 color = { 0 102 204 }
+color = rgb { 0 102 204 }
+color_ui = rgb { 0 102 204 }

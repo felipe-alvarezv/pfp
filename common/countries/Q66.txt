@@ -1,3 +1,6 @@
+#Ruanda-Urundi
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 color = { 204 153 0 }
+color = rgb { 204 153 0 }
+color_ui = rgb { 204 153 0 }

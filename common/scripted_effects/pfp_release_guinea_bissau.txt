@@ -23,7 +23,7 @@ pfp_release_guinea_bissau = {
 
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					set_state_controller_to = Q48
+					set_state_controller_to  = Q48
 				}
 			}
 

@@ -1,3 +1,6 @@
+#Djibouti
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 color = { 0 102 153 }
+color = rgb { 0 102 153 }
+color_ui = rgb { 0 102 153 }

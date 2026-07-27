@@ -1,3 +1,6 @@
+#South West Africa
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 color = { 229 204 255 }
+color = rgb { 229 204 255 }
+color_ui = rgb { 229 204 255 }

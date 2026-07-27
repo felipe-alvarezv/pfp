@@ -1,3 +1,6 @@
+#Ubangi-Shari
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 color = { 51 153 255 }
+color = rgb { 51 153 255 }
+color_ui = rgb { 51 153 255 }

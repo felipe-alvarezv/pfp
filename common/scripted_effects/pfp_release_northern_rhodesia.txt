@@ -25,7 +25,7 @@ pfp_release_northern_rhodesia = {
 
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					set_state_controller_to = Q63
+					set_state_controller_to  = Q63
 				}
 			}
 

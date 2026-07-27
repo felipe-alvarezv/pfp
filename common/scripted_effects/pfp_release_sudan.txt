@@ -1,5 +1,5 @@
 #Scripted effect to release North Sudan (Q31)
-pfp_release_north_sudan = {
+pfp_release_sudan = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
 		if = {
@@ -37,7 +37,7 @@ pfp_release_north_sudan = {
 
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					set_state_controller_to = Q31
+					set_state_controller_to  = Q31
 				}
 			}
 

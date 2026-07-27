@@ -23,7 +23,7 @@ pfp_release_bechuanaland = {
 
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					set_state_controller_to = Q70
+					set_state_controller_to  = Q70
 				}
 			}
 

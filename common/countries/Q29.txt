@@ -1,3 +1,6 @@
+#Libya
 graphical_culture = middle_eastern_gfx
 graphical_culture_2d = middle_eastern_2d
 color = { 200 180 90 }
+color = rgb { 200 180 90 }
+color_ui = rgb { 200 180 90 }

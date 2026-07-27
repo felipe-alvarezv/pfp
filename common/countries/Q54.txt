@@ -1,3 +1,6 @@
+#Equatorial Guinea
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 color = { 255 204 0 }
+color = rgb { 255 204 0 }
+color_ui = rgb { 255 204 0 }

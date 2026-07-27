@@ -1,4 +1,4 @@
-﻿#Ghana
+﻿#Gold Coast
 Q42 = {
 	male = {
 		names = {

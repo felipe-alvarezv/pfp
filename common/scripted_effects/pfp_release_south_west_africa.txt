@@ -29,7 +29,7 @@ pfp_release_south_west_africa = {
 
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					set_state_controller_to = Q71
+					set_state_controller_to  = Q71
 				}
 			}
 

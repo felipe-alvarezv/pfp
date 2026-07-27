@@ -1,3 +1,6 @@
+#Guinea
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 color = { 102 153 255 }
+color = rgb { 102 153 255 }
+color_ui = rgb { 102 153 255 }

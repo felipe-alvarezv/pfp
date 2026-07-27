@@ -23,7 +23,7 @@ pfp_release_gabon = {
 
 				#If ROOT does not own the state, transfer control to formable puppet
 				else = {
-					set_state_controller_to = Q38
+					set_state_controller_to  = Q38
 				}
 			}
 

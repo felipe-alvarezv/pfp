@@ -1,4 +1,4 @@
-#North Sudan
+#Sudan
 Q31 = {
 	male = {
 		names = {
