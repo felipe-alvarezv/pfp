@@ -7,25 +7,39 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
+			#Königsberg
 			custom_trigger_tooltip = {
 				tooltip = pfp_konigsberg_required_states_konigsberg
 				has_full_control_of_state = 763 #Königsberg
 			}
 		}
 		visible = {
-			OR = { has_full_control_of_state = 763 }
+			OR = {
+				has_full_control_of_state = 763 #Königsberg
+			}
 			NOT = { has_global_flag = pfp_konigsberg_flag }
 		}
-		highlight_states = { highlight_state_targets = { state = 763 } }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 763 #Königsberg
+			}
+		}
 		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_konigsberg_transfer_capital
 			custom_effect_tooltip = pfp_konigsberg_puppet
 			custom_effect_tooltip = pfp_konigsberg_occupation_type
 			custom_effect_tooltip = pfp_konigsberg_state_controller
+
+			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				763 = { transfer_state_to = Q75 }
+				#Transfer control and ownership of capital to formable puppet
+				763 = { transfer_state_to = Q75 } #Königsberg
+
+				#Formable puppet becomes a puppet of ROOT
 				puppet = Q75
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = Q75 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
@@ -41,8 +55,14 @@ pfp_category = {
 						pfp_set_use_overlord_flag = yes
 					}
 				}
+
+				#Formable puppet will core or contest its designated territory
 				pfp_release_konigsberg = yes
+
+				#Transfer all technology from ROOT to formable puppet
 				Q75 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
 				set_global_flag = pfp_konigsberg_flag
 			}
 		}

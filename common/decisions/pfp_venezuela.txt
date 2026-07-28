@@ -7,6 +7,7 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
+			#Venezuela
 			custom_trigger_tooltip = {
 				tooltip = pfp_venezuela_required_states_miranda
 				has_full_control_of_state = 307 #Miranda
@@ -22,17 +23,17 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 307
-				has_full_control_of_state = 489
-				has_full_control_of_state = 488
+				has_full_control_of_state = 307 #Miranda
+				has_full_control_of_state = 489 #Zulia
+				has_full_control_of_state = 488 #Bolivar
 			}
 			NOT = { has_global_flag = pfp_venezuela_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
-				state = 307
-				state = 489
-				state = 488
+				state = 307 #Miranda
+				state = 489 #Zulia
+				state = 488 #Bolivar
 			}
 		}
 		icon = generic_military
@@ -41,9 +42,16 @@ pfp_category = {
 			custom_effect_tooltip = pfp_venezuela_puppet
 			custom_effect_tooltip = pfp_venezuela_occupation_type
 			custom_effect_tooltip = pfp_venezuela_state_controller
+
+			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				307 = { transfer_state_to = Q82 }
+				#Transfer control and ownership of capital to formable puppet
+				307 = { transfer_state_to = Q82 } #Miranda
+
+				#Formable puppet becomes a puppet of ROOT
 				puppet = Q82
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = Q82 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
@@ -59,8 +67,14 @@ pfp_category = {
 						pfp_set_use_overlord_flag = yes
 					}
 				}
+
+				#Formable puppet will core or contest its designated territory
 				pfp_release_venezuela = yes
+
+				#Transfer all technology from ROOT to formable puppet
 				Q82 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
 				set_global_flag = pfp_venezuela_flag
 			}
 		}

@@ -7,6 +7,7 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
+			#Slovakia
 			custom_trigger_tooltip = {
 				tooltip = pfp_slovakia_required_states_western_slovakia
 				has_full_control_of_state = 70 #Western Slovakia
@@ -22,17 +23,17 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 70
-				has_full_control_of_state = 71
-				has_full_control_of_state = 664
+				has_full_control_of_state = 70 #Western Slovakia
+				has_full_control_of_state = 71 #Eastern Slovakia
+				has_full_control_of_state = 664 #Southern Slovakia
 			}
 			NOT = { has_global_flag = pfp_slovakia_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
-				state = 70
-				state = 71
-				state = 664
+				state = 70 #Western Slovakia
+				state = 71 #Eastern Slovakia
+				state = 664 #Southern Slovakia
 			}
 		}
 		icon = generic_military
@@ -41,9 +42,16 @@ pfp_category = {
 			custom_effect_tooltip = pfp_slovakia_puppet
 			custom_effect_tooltip = pfp_slovakia_occupation_type
 			custom_effect_tooltip = pfp_slovakia_state_controller
+
+			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				70 = { transfer_state_to = Q78 }
+				#Transfer control and ownership of capital to formable puppet
+				70 = { transfer_state_to = Q78 } #Western Slovakia
+
+				#Formable puppet becomes a puppet of ROOT
 				puppet = Q78
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = Q78 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
@@ -59,8 +67,14 @@ pfp_category = {
 						pfp_set_use_overlord_flag = yes
 					}
 				}
+
+				#Formable puppet will core or contest its designated territory
 				pfp_release_slovakia = yes
+
+				#Transfer all technology from ROOT to formable puppet
 				Q78 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
 				set_global_flag = pfp_slovakia_flag
 			}
 		}

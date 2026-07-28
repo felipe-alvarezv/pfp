@@ -16,6 +16,7 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
+			#Spain
 			custom_trigger_tooltip = {
 				tooltip = pfp_spain_required_states_madrid
 				has_full_control_of_state = 41 #Madrid
@@ -99,51 +100,51 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 41
-				has_full_control_of_state = 791
-				has_full_control_of_state = 174
-				has_full_control_of_state = 790
-				has_full_control_of_state = 176
-				has_full_control_of_state = 793
-				has_full_control_of_state = 788
-				has_full_control_of_state = 166
-				has_full_control_of_state = 794
-				has_full_control_of_state = 167
-				has_full_control_of_state = 168
-				has_full_control_of_state = 175
-				has_full_control_of_state = 170
-				has_full_control_of_state = 169
-				has_full_control_of_state = 789
-				has_full_control_of_state = 173
-				has_full_control_of_state = 165
-				has_full_control_of_state = 172
-				has_full_control_of_state = 792
-				has_full_control_of_state = 171
+				has_full_control_of_state = 41 #Madrid
+				has_full_control_of_state = 791 #Valladolid
+				has_full_control_of_state = 174 #León
+				has_full_control_of_state = 790 #Asturias
+				has_full_control_of_state = 176 #Burgos
+				has_full_control_of_state = 793 #Guadalajara
+				has_full_control_of_state = 788 #Salamanca
+				has_full_control_of_state = 166 #Western Aragón
+				has_full_control_of_state = 794 #Eastern Aragón
+				has_full_control_of_state = 167 #Valencia
+				has_full_control_of_state = 168 #Murcia
+				has_full_control_of_state = 175 #Ciudad Real
+				has_full_control_of_state = 170 #Extremadura
+				has_full_control_of_state = 169 #Sevilla
+				has_full_control_of_state = 789 #Córdoba
+				has_full_control_of_state = 173 #Granada
+				has_full_control_of_state = 165 #Catalunya
+				has_full_control_of_state = 172 #Navarra
+				has_full_control_of_state = 792 #País Vasco
+				has_full_control_of_state = 171 #Galicia
 			}
 			NOT = { has_global_flag = pfp_spain_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
-				state = 41
-				state = 791
-				state = 174
-				state = 790
-				state = 176
-				state = 793
-				state = 788
-				state = 166
-				state = 794
-				state = 167
-				state = 168
-				state = 175
-				state = 170
-				state = 169
-				state = 789
-				state = 173
-				state = 165
-				state = 172
-				state = 792
-				state = 171
+				state = 41 #Madrid
+				state = 791 #Valladolid
+				state = 174 #León
+				state = 790 #Asturias
+				state = 176 #Burgos
+				state = 793 #Guadalajara
+				state = 788 #Salamanca
+				state = 166 #Western Aragón
+				state = 794 #Eastern Aragón
+				state = 167 #Valencia
+				state = 168 #Murcia
+				state = 175 #Ciudad Real
+				state = 170 #Extremadura
+				state = 169 #Sevilla
+				state = 789 #Córdoba
+				state = 173 #Granada
+				state = 165 #Catalunya
+				state = 172 #Navarra
+				state = 792 #País Vasco
+				state = 171 #Galicia
 			}
 		}
 		icon = generic_military
@@ -152,9 +153,16 @@ pfp_category = {
 			custom_effect_tooltip = pfp_spain_puppet
 			custom_effect_tooltip = pfp_spain_occupation_type
 			custom_effect_tooltip = pfp_spain_state_controller
+
+			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				41 = { transfer_state_to = Q80 }
+				#Transfer control and ownership of capital to formable puppet
+				41 = { transfer_state_to = Q80 } #Madrid
+
+				#Formable puppet becomes a puppet of ROOT
 				puppet = Q80
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = Q80 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
@@ -170,8 +178,14 @@ pfp_category = {
 						pfp_set_use_overlord_flag = yes
 					}
 				}
+
+				#Formable puppet will core or contest its designated territory
 				pfp_release_spain = yes
+
+				#Transfer all technology from ROOT to formable puppet
 				Q80 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
 				set_global_flag = pfp_spain_flag
 			}
 		}

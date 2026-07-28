@@ -7,25 +7,39 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
+			#Murmansk
 			custom_trigger_tooltip = {
 				tooltip = pfp_murmansk_required_states_murmansk
 				has_full_control_of_state = 213 #Murmansk
 			}
 		}
 		visible = {
-			OR = { has_full_control_of_state = 213 }
+			OR = {
+				has_full_control_of_state = 213 #Murmansk
+			}
 			NOT = { has_global_flag = pfp_murmansk_flag }
 		}
-		highlight_states = { highlight_state_targets = { state = 213 } }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 213 #Murmansk
+			}
+		}
 		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_murmansk_transfer_capital
 			custom_effect_tooltip = pfp_murmansk_puppet
 			custom_effect_tooltip = pfp_murmansk_occupation_type
 			custom_effect_tooltip = pfp_murmansk_state_controller
+
+			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				213 = { transfer_state_to = Q77 }
+				#Transfer control and ownership of capital to formable puppet
+				213 = { transfer_state_to = Q77 } #Murmansk
+
+				#Formable puppet becomes a puppet of ROOT
 				puppet = Q77
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = Q77 }
 				pfp_set_generic_portrait = yes
 				pfp_set_autonomy_color = yes
@@ -41,8 +55,14 @@ pfp_category = {
 						pfp_set_use_overlord_flag = yes
 					}
 				}
+
+				#Formable puppet will core or contest its designated territory
 				pfp_release_murmansk = yes
+
+				#Transfer all technology from ROOT to formable puppet
 				Q77 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
 				set_global_flag = pfp_murmansk_flag
 			}
 		}
