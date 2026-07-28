@@ -1,0 +1,69 @@
+pfp_category = {
+	pfp_venezuela = {
+		allowed = {
+			NOT = {
+				original_tag = VEN #Venezuela
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_venezuela_required_states_miranda
+				has_full_control_of_state = 307 #Miranda
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_venezuela_required_states_zulia
+				has_full_control_of_state = 489 #Zulia
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_venezuela_required_states_bolivar
+				has_full_control_of_state = 488 #Bolivar
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 307
+				has_full_control_of_state = 489
+				has_full_control_of_state = 488
+			}
+			NOT = { has_global_flag = pfp_venezuela_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 307
+				state = 489
+				state = 488
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_venezuela_transfer_capital
+			custom_effect_tooltip = pfp_venezuela_puppet
+			custom_effect_tooltip = pfp_venezuela_occupation_type
+			custom_effect_tooltip = pfp_venezuela_state_controller
+			hidden_effect = {
+				307 = { transfer_state_to = Q82 }
+				puppet = Q82
+				set_temp_variable = { pfp_portrait_tag = Q82 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+				pfp_release_venezuela = yes
+				Q82 = { pfp_transfer_technology = yes }
+				set_global_flag = pfp_venezuela_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

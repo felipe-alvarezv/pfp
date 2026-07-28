@@ -1,0 +1,70 @@
+#Scripted effect to release Venezuela (Q82)
+pfp_release_venezuela = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			307 = { add_contested_owner = Q82 } #Miranda
+			489 = { add_contested_owner = Q82 } #Zulia
+			488 = { add_contested_owner = Q82 } #Bolivar
+
+			#Add claims to formable puppet
+			307 = { add_claim_by = Q82 } #Miranda
+			489 = { add_claim_by = Q82 } #Zulia
+			488 = { add_claim_by = Q82 } #Bolivar
+
+			#Set formable puppet as controller of contested states
+			every_state = {
+				limit = { has_contested_owner = Q82 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q82
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q82
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q82 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			307 = { add_core_of = Q82 } #Miranda
+			489 = { add_core_of = Q82 } #Zulia
+			488 = { add_core_of = Q82 } #Bolivar
+
+			#Set formable puppet as owner and controller of core states
+			every_state = {
+				limit = { is_core_of = Q82 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q82
+					transfer_state_to = Q82
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q82
+					set_state_controller_to = Q82
+				}
+			}
+
+			Q82 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}
