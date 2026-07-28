@@ -1,10 +1,18 @@
 pfp_category = {
 	pfp_spain = {
 		allowed = {
-			NOT = { original_tag = SPR #Spain }
-			NOT = { original_tag = GAL #Galicia }
-			NOT = { original_tag = NAV #Basque }
-			NOT = { original_tag = CAT #Catalonia }
+			NOT = {
+				original_tag = SPR #Spain
+			}
+			NOT = {
+				original_tag = GAL #Galicia
+			}
+			NOT = {
+				original_tag = NAV #Basque
+			}
+			NOT = {
+				original_tag = CAT #Catalonia
+			}
 		}
 		available = {
 			is_subject = no
@@ -152,7 +160,15 @@ pfp_category = {
 				pfp_set_autonomy_color = yes
 				var:pfp_portrait_tag = {
 					pfp_set_puppet_ideology = yes
-					if = { limit = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } pfp_set_use_overlord_flag = yes }
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
 				}
 				pfp_release_spain = yes
 				Q80 = { pfp_transfer_technology = yes }

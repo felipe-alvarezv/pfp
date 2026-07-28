@@ -1,6 +1,10 @@
 pfp_category = {
 	pfp_murmansk = {
-		allowed = { NOT = { original_tag = SMI #Sapmi } }
+		allowed = {
+			NOT = {
+				original_tag = SMI #Sapmi
+			}
+		}
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
@@ -27,7 +31,15 @@ pfp_category = {
 				pfp_set_autonomy_color = yes
 				var:pfp_portrait_tag = {
 					pfp_set_puppet_ideology = yes
-					if = { limit = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } pfp_set_use_overlord_flag = yes }
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
 				}
 				pfp_release_murmansk = yes
 				Q77 = { pfp_transfer_technology = yes }

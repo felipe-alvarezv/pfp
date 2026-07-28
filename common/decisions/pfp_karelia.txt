@@ -1,6 +1,10 @@
 pfp_category = {
 	pfp_karelia = {
-		allowed = { NOT = { original_tag = KAR #Karelia } }
+		allowed = {
+			NOT = {
+				original_tag = KAR #Karelia
+			}
+		}
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
@@ -39,7 +43,15 @@ pfp_category = {
 				pfp_set_autonomy_color = yes
 				var:pfp_portrait_tag = {
 					pfp_set_puppet_ideology = yes
-					if = { limit = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } pfp_set_use_overlord_flag = yes }
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
 				}
 				pfp_release_karelia = yes
 				Q76 = { pfp_transfer_technology = yes }
