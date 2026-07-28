@@ -177,3 +177,4 @@ Q77 = "countries/Q77.txt" #Murmansk
 Q78 = "countries/Q78.txt" #Slovakia
 Q79 = "countries/Q79.txt" #Transcarpathia
 Q80 = "countries/Q80.txt" #Spain
+Q81 = "countries/Q81.txt" #Portugal
