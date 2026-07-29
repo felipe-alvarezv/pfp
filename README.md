@@ -10,6 +10,8 @@ In the base game, the only nation which can create puppets from decisions is Ger
 - Optional resistance system — when enabled, newly formed puppets contest their states instead of immediately coring them.
 - Ability to send manpower and equipment directly to struggling puppets to keep them afloat.
 - Overlord color option — display all your puppets in your nation's color.
+- Overlord flag option — puppets display their overlord's flag; supported for all seven major powers and select formable nations.
+- Custom puppet flags for Germany, Italy, and Japan — puppets created by these nations display unique flags reflecting their overlord.
 #### Current Compatibility?
 As this modification targets vanilla state IDs, any other mod that adds/modifies states will be incompatible (ex. Beautiful States, Satisfying States).\
 \
