@@ -152,4 +152,4 @@ l_russian:
 	pfp_deploy_reinforcements_desc:0 "Оккупированные территории неспокойны, а наш гарнизон растянут. Новое развёртывание войск укрепит наше присутствие на местах, напоминая населению, что наша рука длинна, а терпение к беспорядку коротко. Каждый отправленный солдат — ещё один гвоздь в гроб организованного сопротивления."
 
 	pfp_ship_arms_to_garrison:0 "Доставить оружие гарнизону [FROM.GetName]"
-	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."
+	pfp_ship_arms_to_garrison_desc:0 "Гарнизон без надлежащего снаряжения — не более чем присутствие в мундирах. Мы позаботимся о том, чтобы наши силы на оккупированных территориях были должным образом вооружены — не только для боя, но и чтобы напомнить каждой улице и каждой деревне, кто здесь держит власть. Хорошо снабжённые солдаты не ведут переговоров. Они принуждают."

@@ -152,4 +152,4 @@ l_korean:
 	pfp_deploy_reinforcements_desc:0 "점령 지역은 불안하고, 우리 수비대는 얇게 펼쳐져 있다. 신선한 병력 배치는 현장에서 우리의 존재를 강화하고, 우리의 손이 길고 무질서에 대한 인내가 짧다는 것을 인구에게 상기시킬 것이다. 보내지는 병사 한 명 한 명은 조직된 저항의 관에 박힌 또 하나의 못이다."
 
 	pfp_ship_arms_to_garrison:0 "[FROM.GetName] 수비대에 무기 수송"
-	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."
+	pfp_ship_arms_to_garrison_desc:0 "적절한 장비 없는 수비대는 제복을 입은 존재에 불과합니다. 점령지의 우리 병력이 적절히 무장되도록 할 것입니다 — 싸우기 위해서만이 아니라, 모든 거리와 모든 마을에 여기서 누가 권력을 쥐고 있는지를 상기시키기 위해서입니다. 충분히 보급된 병사들은 협상하지 않습니다. 그들은 집행합니다."

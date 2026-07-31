@@ -152,4 +152,4 @@ l_braz_por:
 	pfp_deploy_reinforcements_desc:0 "Os territórios ocupados estão inquietos, e nossa guarnição está esticada. Uma nova implantação de tropas reforçará nossa presença no terreno, lembrando à população que nosso alcance é longo e nossa paciência para a desordem é curta. Cada soldado enviado é mais um prego no caixão da resistência organizada."
 
 	pfp_ship_arms_to_garrison:0 "Enviar Armas para a Guarnição de [FROM.GetName]"
-	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."
+	pfp_ship_arms_to_garrison_desc:0 "Uma guarnição sem equipamento adequado é pouco mais que uma presença fardada. Garantiremos que nossas forças nos territórios ocupados estejam devidamente armadas — não apenas para combater, mas para lembrar a cada rua e cada aldeia exatamente quem detém o poder aqui. Soldados bem abastecidos não negociam. Eles impõem."

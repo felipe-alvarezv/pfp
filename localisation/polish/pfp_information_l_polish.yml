@@ -152,4 +152,4 @@ l_polish:
 	pfp_deploy_reinforcements_desc:0 "Ocupowane terytoria są niespokojne, a nasz garnizon jest rozciągnięty. Nowe rozmieszczenie wojsk wzmocni naszą obecność w terenie, przypominając populacji, że nasz zasięg jest długi, a nasza cierpliwość wobec nieporządku krótka. Każdy wysłany żołnierz to kolejny gwóźdź do trumny zorganizowanego oporu."
 
 	pfp_ship_arms_to_garrison:0 "Wyślij broń do garnizonu [FROM.GetName]"
-	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."
+	pfp_ship_arms_to_garrison_desc:0 "Garnizon bez odpowiedniego wyposażenia to ledwie mundurowa obecność. Zadbamy o to, by nasze siły na okupowanych terytoriach były właściwie uzbrojone — nie tylko po to, by walczyć, lecz by przypomnieć każdej ulicy i każdej wiosce, kto tutaj dzierży władzę. Dobrze zaopatrzeni żołnierze nie negocjują. Oni egzekwują."

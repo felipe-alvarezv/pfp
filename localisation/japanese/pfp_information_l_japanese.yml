@@ -152,4 +152,4 @@ l_japanese:
 	pfp_deploy_reinforcements_desc:0 "占領地域は不穏で、駐屯地は手薄だ。新鮮な部隊の展開は現地での我々の存在を強化し、我々の手が長く、秩序への我々の忍耐が短いことを人口に思い知らせるだろう。送られる兵士一人一人は、組織された抵抗の棺にまた一本の釘だ。"
 
 	pfp_ship_arms_to_garrison:0 "[FROM.GetName]駐屯地への武器輸送"
-	pfp_ship_arms_to_garrison_desc:0 "A garrison without adequate equipment is little more than a uniformed presence. We will see to it that our forces in the occupied territories are properly armed — not just to fight, but to remind every street and every village exactly who holds power here. Well supplied soldiers do not negotiate. They enforce."
+	pfp_ship_arms_to_garrison_desc:0 "適切な装備を持たない駐屯地は、制服を着た存在に過ぎません。占領地にある我々の軍が適切に武装されるよう手配します — 戦うためだけでなく、すべての通りとすべての村に、ここで誰が権力を握っているかを思い知らせるために。十分に補給された兵士は交渉しません。彼らは強制執行します。"
