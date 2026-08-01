@@ -4751,9 +4751,6 @@
 
   pfp_belarus:0 "Ustanów okupację wojskową na Białorusi"
   pfp_belarus_required_states_minsk:0 "Kontroluje §Y[206.GetName]§!."
-  pfp_belarus_required_states_nowogrodek:0 "Kontroluje §Y[95.GetName]§!."
-  pfp_belarus_required_states_wilejka:0 "Kontroluje §Y[96.GetName]§!."
-  pfp_belarus_required_states_polesie:0 "Kontroluje §Y[94.GetName]§!."
   pfp_belarus_required_states_mozyr:0 "Kontroluje §Y[194.GetName]§!."
   pfp_belarus_required_states_bobruysk:0 "Kontroluje §Y[204.GetName]§!."
   pfp_belarus_required_states_vitebsk:0 "Kontroluje §Y[207.GetName]§!."

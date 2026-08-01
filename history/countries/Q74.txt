@@ -95,13 +95,13 @@ recruit_character = Q74_fascism_leader
 
 #Belarus Initial States
 add_to_array = { Q74.pfp_possible_cores = 206 } #Minsk
-add_to_array = { Q74.pfp_possible_cores = 95 } #Nowogródek
-add_to_array = { Q74.pfp_possible_cores = 96 } #Wilejka
-add_to_array = { Q74.pfp_possible_cores = 94 } #Polesie
 add_to_array = { Q74.pfp_possible_cores = 194 } #Mozyr
 add_to_array = { Q74.pfp_possible_cores = 204 } #Bobruysk
 add_to_array = { Q74.pfp_possible_cores = 207 } #Vitebsk
 add_to_array = { Q74.pfp_possible_cores = 241 } #Gomel
 
 #Belarus Territories
+add_to_array = { Q74.pfp_possible_cores = 95 } #Nowogródek
+add_to_array = { Q74.pfp_possible_cores = 96 } #Wilejka
+add_to_array = { Q74.pfp_possible_cores = 94 } #Polesie
 add_to_array = { Q74.pfp_possible_cores = 97 } #Białystok

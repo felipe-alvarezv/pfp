@@ -7,9 +7,6 @@ pfp_release_belarus = {
 
 			#Add contestion to formable puppet
 			206 = { add_contested_owner = Q74 } #Minsk
-			95 = { add_contested_owner = Q74 } #Nowogródek
-			96 = { add_contested_owner = Q74 } #Wilejka
-			94 = { add_contested_owner = Q74 } #Polesie
 			194 = { add_contested_owner = Q74 } #Mozyr
 			204 = { add_contested_owner = Q74 } #Bobruysk
 			207 = { add_contested_owner = Q74 } #Vitebsk
@@ -17,9 +14,6 @@ pfp_release_belarus = {
 
 			#Add claims to formable puppet
 			206 = { add_claim_by = Q74 } #Minsk
-			95 = { add_claim_by = Q74 } #Nowogródek
-			96 = { add_claim_by = Q74 } #Wilejka
-			94 = { add_claim_by = Q74 } #Polesie
 			194 = { add_claim_by = Q74 } #Mozyr
 			204 = { add_claim_by = Q74 } #Bobruysk
 			207 = { add_claim_by = Q74 } #Vitebsk
@@ -48,9 +42,6 @@ pfp_release_belarus = {
 		else = {
 			#Add cores to formable puppet
 			206 = { add_core_of = Q74 } #Minsk
-			95 = { add_core_of = Q74 } #Nowogródek
-			96 = { add_core_of = Q74 } #Wilejka
-			94 = { add_core_of = Q74 } #Polesie
 			194 = { add_core_of = Q74 } #Mozyr
 			204 = { add_core_of = Q74 } #Bobruysk
 			207 = { add_core_of = Q74 } #Vitebsk

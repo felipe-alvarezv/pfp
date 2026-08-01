@@ -4751,9 +4751,6 @@
 
   pfp_belarus:0 "벨라루스에 군사 점령을 수립"
   pfp_belarus_required_states_minsk:0 "점령 중 §Y[206.GetName]§!."
-  pfp_belarus_required_states_nowogrodek:0 "점령 중 §Y[95.GetName]§!."
-  pfp_belarus_required_states_wilejka:0 "점령 중 §Y[96.GetName]§!."
-  pfp_belarus_required_states_polesie:0 "점령 중 §Y[94.GetName]§!."
   pfp_belarus_required_states_mozyr:0 "점령 중 §Y[194.GetName]§!."
   pfp_belarus_required_states_bobruysk:0 "점령 중 §Y[204.GetName]§!."
   pfp_belarus_required_states_vitebsk:0 "점령 중 §Y[207.GetName]§!."

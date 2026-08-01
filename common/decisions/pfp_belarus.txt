@@ -12,19 +12,7 @@ pfp_category = {
 				tooltip = pfp_belarus_required_states_minsk
 				has_full_control_of_state = 206 #Minsk
 			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_belarus_required_states_nowogrodek
-				has_full_control_of_state = 95 #Nowogródek
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_belarus_required_states_wilejka
-				has_full_control_of_state = 96 #Wilejka
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_belarus_required_states_polesie
-				has_full_control_of_state = 94 #Polesie
-			}
-			custom_trigger_tooltip = {
+custom_trigger_tooltip = {
 				tooltip = pfp_belarus_required_states_mozyr
 				has_full_control_of_state = 194 #Mozyr
 			}
@@ -44,9 +32,6 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 206 #Minsk
-				has_full_control_of_state = 95 #Nowogródek
-				has_full_control_of_state = 96 #Wilejka
-				has_full_control_of_state = 94 #Polesie
 				has_full_control_of_state = 194 #Mozyr
 				has_full_control_of_state = 204 #Bobruysk
 				has_full_control_of_state = 207 #Vitebsk
@@ -57,9 +42,6 @@ pfp_category = {
 		highlight_states = {
 			highlight_state_targets = {
 				state = 206 #Minsk
-				state = 95 #Nowogródek
-				state = 96 #Wilejka
-				state = 94 #Polesie
 				state = 194 #Mozyr
 				state = 204 #Bobruysk
 				state = 207 #Vitebsk
