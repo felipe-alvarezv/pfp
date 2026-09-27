@@ -5,3 +5,56 @@
   COUNTRY_pfp_autonomy_military_occupation_painted:0 "$NONIDEOLOGY$"
   COUNTRY_pfp_autonomy_military_occupation_painted_DEF:0 "$NONIDEOLOGYDEF$"
   COUNTRY_pfp_autonomy_military_occupation_painted_ADJ:0 "$NONIDEOLOGYADJ$"
+
+  ## PPL MERGED NATIONS ##
+  PFP_CANADA:0 "加拿大"
+  PFP_CANADA_DEF:0 "加拿大"
+  PFP_CANADA_ADJ:0 "加拿大"
+
+  PFP_GREAT_BRITAIN:0 "大不列颠"
+  PFP_GREAT_BRITAIN_DEF:0 "大不列颠"
+  PFP_GREAT_BRITAIN_ADJ:0 "英国"
+
+  PFP_UK:0 "大不列颠及北爱尔兰"
+  PFP_UK_DEF:0 "大不列颠及北爱尔兰"
+  PFP_UK_ADJ:0 "英国"
+
+  PFP_GERMANY:0 "德国"
+  PFP_GERMANY_DEF:0 "德国"
+  PFP_GERMANY_ADJ:0 "德国"
+
+  PFP_USA:0 "美利坚合众国"
+  PFP_USA_DEF:0 "美利坚合众国"
+  PFP_USA_ADJ:0 "美国"
+
+  PFP_FRANCE:0 "法国"
+  PFP_FRANCE_DEF:0 "法国"
+  PFP_FRANCE_ADJ:0 "法国"
+
+  PFP_YUGOSLAVIA:0 "南斯拉夫"
+  PFP_YUGOSLAVIA_DEF:0 "南斯拉夫"
+  PFP_YUGOSLAVIA_ADJ:0 "南斯拉夫"
+
+  PFP_ITALY:0 "意大利"
+  PFP_ITALY_DEF:0 "意大利"
+  PFP_ITALY_ADJ:0 "意大利"
+
+  PFP_JAPAN:0 "日本"
+  PFP_JAPAN_DEF:0 "日本"
+  PFP_JAPAN_ADJ:0 "日本"
+
+  PFP_IBERIA:0 "伊比利亚"
+  PFP_IBERIA_DEF:0 "伊比利亚"
+  PFP_IBERIA_ADJ:0 "伊比利亚"
+
+  PFP_EAST_AFRICA:0 "东非"
+  PFP_EAST_AFRICA_DEF:0 "东非"
+  PFP_EAST_AFRICA_ADJ:0 "东非"
+
+  PFP_CHINA:0 "中国"
+  PFP_CHINA_DEF:0 "中国"
+  PFP_CHINA_ADJ:0 "中国"
+
+  PFP_RUSSIA:0 "俄罗斯"
+  PFP_RUSSIA_DEF:0 "俄罗斯"
+  PFP_RUSSIA_ADJ:0 "俄罗斯"

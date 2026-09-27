@@ -5,3 +5,56 @@
   COUNTRY_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
   COUNTRY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ $NONIDEOLOGYDEF$"
   COUNTRY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ $NONIDEOLOGYADJ$"
+
+  ## PPL MERGED NATIONS ##
+  PFP_CANADA:0 "カナダ"
+  PFP_CANADA_DEF:0 "カナダ"
+  PFP_CANADA_ADJ:0 "カナダ"
+
+  PFP_GREAT_BRITAIN:0 "グレートブリテン"
+  PFP_GREAT_BRITAIN_DEF:0 "グレートブリテン"
+  PFP_GREAT_BRITAIN_ADJ:0 "イギリス"
+
+  PFP_UK:0 "グレートブリテン及び北アイルランド"
+  PFP_UK_DEF:0 "グレートブリテン及び北アイルランド"
+  PFP_UK_ADJ:0 "イギリス"
+
+  PFP_GERMANY:0 "ドイツ"
+  PFP_GERMANY_DEF:0 "ドイツ"
+  PFP_GERMANY_ADJ:0 "ドイツ"
+
+  PFP_USA:0 "アメリカ合衆国"
+  PFP_USA_DEF:0 "アメリカ合衆国"
+  PFP_USA_ADJ:0 "アメリカ"
+
+  PFP_FRANCE:0 "フランス"
+  PFP_FRANCE_DEF:0 "フランス"
+  PFP_FRANCE_ADJ:0 "フランス"
+
+  PFP_YUGOSLAVIA:0 "ユーゴスラビア"
+  PFP_YUGOSLAVIA_DEF:0 "ユーゴスラビア"
+  PFP_YUGOSLAVIA_ADJ:0 "ユーゴスラビア"
+
+  PFP_ITALY:0 "イタリア"
+  PFP_ITALY_DEF:0 "イタリア"
+  PFP_ITALY_ADJ:0 "イタリア"
+
+  PFP_JAPAN:0 "日本"
+  PFP_JAPAN_DEF:0 "日本"
+  PFP_JAPAN_ADJ:0 "日本"
+
+  PFP_IBERIA:0 "イベリア"
+  PFP_IBERIA_DEF:0 "イベリア"
+  PFP_IBERIA_ADJ:0 "イベリア"
+
+  PFP_EAST_AFRICA:0 "東アフリカ"
+  PFP_EAST_AFRICA_DEF:0 "東アフリカ"
+  PFP_EAST_AFRICA_ADJ:0 "東アフリカ"
+
+  PFP_CHINA:0 "中国"
+  PFP_CHINA_DEF:0 "中国"
+  PFP_CHINA_ADJ:0 "中国"
+
+  PFP_RUSSIA:0 "ロシア"
+  PFP_RUSSIA_DEF:0 "ロシア"
+  PFP_RUSSIA_ADJ:0 "ロシア"

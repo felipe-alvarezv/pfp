@@ -697,3 +697,56 @@
 
   Q24_JAPANESE_PUPPET_JAP_fascism_subject:0 "Chibetto Hogokoku"
   Q24_JAPANESE_PUPPET_JAP_fascism_subject_DEF:0 "Chibetto Hogokoku"
+
+  ## PPL MERGED NATIONS ##
+  PFP_CANADA:0 "Canada"
+  PFP_CANADA_DEF:0 "Canada"
+  PFP_CANADA_ADJ:0 "Canadian"
+
+  PFP_GREAT_BRITAIN:0 "Great Britain"
+  PFP_GREAT_BRITAIN_DEF:0 "Great Britain"
+  PFP_GREAT_BRITAIN_ADJ:0 "British"
+
+  PFP_UK:0 "Great Britain and Northern Ireland"
+  PFP_UK_DEF:0 "Great Britain and Northern Ireland"
+  PFP_UK_ADJ:0 "British"
+
+  PFP_GERMANY:0 "Germany"
+  PFP_GERMANY_DEF:0 "Germany"
+  PFP_GERMANY_ADJ:0 "German"
+
+  PFP_USA:0 "United States"
+  PFP_USA_DEF:0 "United States"
+  PFP_USA_ADJ:0 "American"
+
+  PFP_FRANCE:0 "France"
+  PFP_FRANCE_DEF:0 "France"
+  PFP_FRANCE_ADJ:0 "French"
+
+  PFP_YUGOSLAVIA:0 "Yugoslavia"
+  PFP_YUGOSLAVIA_DEF:0 "Yugoslavia"
+  PFP_YUGOSLAVIA_ADJ:0 "Yugoslav"
+
+  PFP_ITALY:0 "Italy"
+  PFP_ITALY_DEF:0 "Italy"
+  PFP_ITALY_ADJ:0 "Italian"
+
+  PFP_JAPAN:0 "Japan"
+  PFP_JAPAN_DEF:0 "Japan"
+  PFP_JAPAN_ADJ:0 "Japanese"
+
+  PFP_IBERIA:0 "Iberia"
+  PFP_IBERIA_DEF:0 "Iberia"
+  PFP_IBERIA_ADJ:0 "Iberian"
+
+  PFP_EAST_AFRICA:0 "East Africa"
+  PFP_EAST_AFRICA_DEF:0 "East Africa"
+  PFP_EAST_AFRICA_ADJ:0 "East African"
+
+  PFP_CHINA:0 "China"
+  PFP_CHINA_DEF:0 "China"
+  PFP_CHINA_ADJ:0 "Chinese"
+
+  PFP_RUSSIA:0 "Russia"
+  PFP_RUSSIA_DEF:0 "Russia"
+  PFP_RUSSIA_ADJ:0 "Russian"
