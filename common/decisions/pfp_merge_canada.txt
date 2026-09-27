@@ -46,6 +46,16 @@ pfp_category = {
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
 				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
 			}
 			P29 = {
 				is_subject_of = ROOT
@@ -54,6 +64,16 @@ pfp_category = {
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
 					}
 				}
 			}
@@ -90,6 +110,13 @@ pfp_category = {
 
 					P11 = { clr_country_flag = pfp_canada_winner }
 
+					# Transfer P29's coreable territories to P11 before P29 is annexed
+					for_each_loop = {
+						array = P29.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { P11.pfp_possible_cores = pfp_temp_core_id }
+					}
+
 					# Strip P29's cores, claims, and contested ownership from every relevant state.
 					# every_state covers both owned states (cores) and overlord-owned contested states.
 					every_state = {
@@ -99,6 +126,7 @@ pfp_category = {
 								has_contested_owner = P29
 							}
 						}
+						add_core_of = P11
 						remove_core_of = P29
 						remove_claim_by = P29
 						remove_contested_owner = P29
@@ -117,6 +145,13 @@ pfp_category = {
 
 					P29 = { clr_country_flag = pfp_canada_winner }
 
+					# Transfer P11's coreable territories to P29 before P11 is annexed
+					for_each_loop = {
+						array = P11.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { P29.pfp_possible_cores = pfp_temp_core_id }
+					}
+
 					# Strip P11's cores, claims, and contested ownership from every relevant state
 					every_state = {
 						limit = {
@@ -125,6 +160,7 @@ pfp_category = {
 								has_contested_owner = P11
 							}
 						}
+						add_core_of = P29
 						remove_core_of = P11
 						remove_claim_by = P11
 						remove_contested_owner = P11
@@ -188,7 +224,19 @@ pfp_category = {
 
 		complete_effect = {
 			hidden_effect = {
-				# Strip Quebec's cores, claims, and contested ownership from every relevant state
+				# Save a reference to the merged Canada so the state loop can add its cores,
+				# and transfer P22's coreable territories to it before P22 is annexed
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_canada }
+					save_global_event_target_as = pfp_canada_country
+					for_each_loop = {
+						array = P22.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				# Strip Quebec's cores/claims from every relevant state and transfer them to merged Canada
 				every_state = {
 					limit = {
 						OR = {
@@ -196,6 +244,7 @@ pfp_category = {
 							has_contested_owner = P22
 						}
 					}
+					add_core_of = event_target:pfp_canada_country
 					remove_core_of = P22
 					remove_claim_by = P22
 					remove_contested_owner = P22
@@ -206,6 +255,8 @@ pfp_category = {
 					limit = { has_country_flag = pfp_is_canada }
 					annex_country = { target = P22 transfer_troops = yes }
 				}
+
+				clear_global_event_target = pfp_canada_country
 
 				# Lock this follow-up permanently
 				set_global_flag = pfp_canada_absorbed_quebec

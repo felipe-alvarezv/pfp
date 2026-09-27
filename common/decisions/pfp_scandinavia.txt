@@ -110,7 +110,7 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_varmland
 				has_full_control_of_state = 919 #VÃ¤rmland
 			}
-			#Opplandene
+			#OPFPandene
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_opplandene
 				has_full_control_of_state = 920 #Opplandene

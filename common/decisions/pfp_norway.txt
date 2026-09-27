@@ -28,7 +28,7 @@ pfp_category = {
 				tooltip = pfp_norway_required_states_nordland
 				has_full_control_of_state = 144 #Nordland
 			}
-			#Opplandene
+			#OPFPandene
 			custom_trigger_tooltip = {
 				tooltip = pfp_norway_required_states_opplandene
 				has_full_control_of_state = 920 #Opplandene

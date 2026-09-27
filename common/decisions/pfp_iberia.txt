@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_iberia = {
 		allowed = {
 			NOT = {
@@ -139,7 +139,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			always = no #Replaced by PPL merger system
+			always = no #Replaced by PFP merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 

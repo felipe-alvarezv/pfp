@@ -4972,10 +4972,11 @@
   pfp_venezuela_occupation_type:0 "§YVenezuela§! gains [pfp_contest_or_core_status] on all listed states.\n"
   pfp_venezuela_state_controller:0 "§YVenezuela§! becomes controller of all listed states.\n"
 
-  ## PPL MERGER DECISIONS ##
+  ## PFP MERGER DECISIONS ##
 
-  # Shared tooltip - reused by all merger decisions
+  # Shared tooltips - reused by all merger decisions
   pfp_merge_subject_is_military_occupation_tt:0 "Is a Military Occupation puppet of [ROOT.GetName]."
+  pfp_merge_puppet_must_core_owned_territories_tt:0 "Must have cored all held territories from its integration list."
 
   # Canada
   pfp_merge_canada:0 "Unite Canada"
