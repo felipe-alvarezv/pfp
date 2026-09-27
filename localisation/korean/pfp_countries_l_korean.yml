@@ -4978,3 +4978,9 @@
 
   pfp_merge_canada_quebec:0 "퀘벡을 캐나다에 통합"
   pfp_merge_canada_quebec_desc:0 "캐나다가 통일된 이제 §Y퀘벡§!을 흡수하여 캐나다 영토를 하나의 국가로 완전히 통합할 수 있습니다."
+  # Shared tooltip
+  pfp_merge_subject_is_military_occupation_tt:0 "[ROOT.GetName]의 군사 점령 괴뢰 국가입니다."
+  # Canada
+  pfp_merge_canada_not_yet_formed_tt:0 "캐나다는 아직 통합되지 않았습니다."
+  pfp_merge_canada_is_formed_tt:0 "통일된 캐나다가 우리 괴뢰 중에 존재합니다."
+  pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "퀘벡은 아직 캐나다에 통합되지 않았습니다."

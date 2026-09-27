@@ -4978,3 +4978,9 @@
 
   pfp_merge_canada_quebec:0 "ケベックをカナダに吸収する"
   pfp_merge_canada_quebec_desc:0 "カナダが統一されたことで、§Yケベック§!を取り込み、カナダ領土の一国への統合を完了することができます。"
+  # Shared tooltip
+  pfp_merge_subject_is_military_occupation_tt:0 "[ROOT.GetName]の軍事占領傀儡国家です。"
+  # Canada
+  pfp_merge_canada_not_yet_formed_tt:0 "カナダはまだ統一されていません。"
+  pfp_merge_canada_is_formed_tt:0 "統一されたカナダが傀儡国の中に存在します。"
+  pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "ケベックはまだカナダに吸収されていません。"
