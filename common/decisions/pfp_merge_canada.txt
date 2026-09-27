@@ -1,0 +1,200 @@
+##########################################################################
+# MERGE DECISIONS - CANADA
+# Allows the overlord to merge Canadian puppet states into a unified Canada.
+#
+# Decision 1: pfp_merge_canada
+#   Requires Eastern Canada (P11) AND Western Canada (P29) as PFP subjects.
+#   The puppet with more total factories annexes the other and becomes Canada.
+#
+# Decision 2: pfp_merge_canada_quebec
+#   Follow-up available after Canada is formed.
+#   Requires Quebec (P22) as a PFP subject. Merges Quebec into formed Canada.
+##########################################################################
+
+pfp_category = {
+
+	# ----------------------------------------------------------------
+	# Eastern Canada (P11) + Western Canada (P29) -> Canada
+	# ----------------------------------------------------------------
+	pfp_merge_canada = {
+		icon = generic_nationalism
+
+		# Only show if Canada has not yet been formed and the overlord holds
+		# at least one of the two Canadian puppets
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_canada_merged }
+			OR = {
+				P11 = { is_subject_of = ROOT }
+				P29 = { is_subject_of = ROOT }
+			}
+		}
+
+		# Both puppets must be PFP subjects of the overlord
+		available = {
+			is_ai = no
+			NOT = { has_global_flag = pfp_canada_merged }
+			P11 = {
+				is_subject_of = ROOT
+				OR = {
+					has_autonomy_state = pfp_autonomy_military_occupation
+					has_autonomy_state = pfp_autonomy_military_occupation_painted
+				}
+			}
+			P29 = {
+				is_subject_of = ROOT
+				OR = {
+					has_autonomy_state = pfp_autonomy_military_occupation
+					has_autonomy_state = pfp_autonomy_military_occupation_painted
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			hidden_effect = {
+				# Count total factories (mil + civ) for each puppet
+				P11 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+				}
+				P29 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+				}
+
+				# P11 wins by default (equal or more factories).
+				# P29 wins only if it strictly has more factories than P11.
+				P11 = { set_country_flag = pfp_canada_winner }
+				P29 = {
+					if = {
+						limit = { check_variable = { pfp_fac > P11.pfp_fac } }
+						set_country_flag = pfp_canada_winner
+						P11 = { clr_country_flag = pfp_canada_winner }
+					}
+				}
+
+				# P11 Eastern Canada wins
+				if = {
+					limit = { P11 = { has_country_flag = pfp_canada_winner } }
+
+					P11 = { clr_country_flag = pfp_canada_winner }
+
+					# Strip P29's cores, claims, and contested ownership from every relevant state.
+					# every_state covers both owned states (cores) and overlord-owned contested states.
+					every_state = {
+						limit = {
+							OR = {
+								is_owned_by = P29
+								has_contested_owner = P29
+							}
+						}
+						remove_core_of = P29
+						remove_claim_by = P29
+						remove_contested_owner = P29
+					}
+
+					# P11 annexes P29, becomes Canada
+					P11 = {
+						annex_country = { target = P29 transfer_troops = yes }
+						set_cosmetic_tag = PFP_CANADA
+						set_country_flag = pfp_is_canada  # used by follow-up decision to find the formed country
+					}
+				}
+
+				# P29 Western Canada wins
+				else = {
+
+					P29 = { clr_country_flag = pfp_canada_winner }
+
+					# Strip P11's cores, claims, and contested ownership from every relevant state
+					every_state = {
+						limit = {
+							OR = {
+								is_owned_by = P11
+								has_contested_owner = P11
+							}
+						}
+						remove_core_of = P11
+						remove_claim_by = P11
+						remove_contested_owner = P11
+					}
+
+					# P29 annexes P11, becomes Canada
+					P29 = {
+						annex_country = { target = P11 transfer_troops = yes }
+						set_cosmetic_tag = PFP_CANADA
+						set_country_flag = pfp_is_canada  # used by follow-up decision to find the formed country
+					}
+				}
+
+				# Lock this decision permanently
+				set_global_flag = pfp_canada_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed Canada + Quebec (P22) -> absorb Quebec into Canada
+	# Follow-up: only available after pfp_merge_canada has fired
+	# ----------------------------------------------------------------
+	pfp_merge_canada_quebec = {
+		icon = generic_nationalism
+
+		# Only show after Canada is formed and Quebec has not yet been absorbed
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_canada_merged
+			NOT = { has_global_flag = pfp_canada_absorbed_quebec }
+			P22 = { is_subject_of = ROOT }
+		}
+
+		# Quebec must be a PFP subject and Canada must exist among the overlord's subjects
+		available = {
+			is_ai = no
+			NOT = { has_global_flag = pfp_canada_absorbed_quebec }
+			any_subject_country = { has_country_flag = pfp_is_canada }
+			P22 = {
+				is_subject_of = ROOT
+				OR = {
+					has_autonomy_state = pfp_autonomy_military_occupation
+					has_autonomy_state = pfp_autonomy_military_occupation_painted
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			hidden_effect = {
+				# Strip Quebec's cores, claims, and contested ownership from every relevant state
+				every_state = {
+					limit = {
+						OR = {
+							is_owned_by = P22
+							has_contested_owner = P22
+						}
+					}
+					remove_core_of = P22
+					remove_claim_by = P22
+					remove_contested_owner = P22
+				}
+
+				# Find whichever puppet won the Canada merge and have it annex Quebec
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_canada }
+					annex_country = { target = P22 transfer_troops = yes }
+				}
+
+				# Lock this follow-up permanently
+				set_global_flag = pfp_canada_absorbed_quebec
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}
