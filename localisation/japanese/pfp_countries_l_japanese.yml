@@ -4971,3 +4971,10 @@
   pfp_venezuela_puppet:0 "§Yベネズエラ§! は §Y[Root.GetName]§! の傀儡国家となる。\n"
   pfp_venezuela_occupation_type:0 "§Yベネズエラ§!はすべての記載された州に[pfp_contest_or_core_status]を獲得する。\n"
   pfp_venezuela_state_controller:0 "§Yベネズエラ§!はすべての記載された州の支配者となる。\n"
+
+  ## PPL MERGER DECISIONS ##
+  pfp_merge_canada:0 "カナダを統一する"
+  pfp_merge_canada_desc:0 "§Y東カナダ§!と§Y西カナダ§!は共通の歴史と運命を持っています。一つの旗の下に統合することで、より強力なカナダ国家を樹立できます。工業的に発展した地域が連合を率い、もう一方を併合して統一カナダを形成します。"
+
+  pfp_merge_canada_quebec:0 "ケベックをカナダに吸収する"
+  pfp_merge_canada_quebec_desc:0 "カナダが統一されたことで、§Yケベック§!を取り込み、カナダ領土の一国への統合を完了することができます。"

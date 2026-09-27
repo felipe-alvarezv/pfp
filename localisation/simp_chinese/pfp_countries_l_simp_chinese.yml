@@ -4971,3 +4971,10 @@
   pfp_venezuela_puppet:0 "§Y委内瑞拉§! 成为 §Y[Root.GetName]§! 的傀儡国家。\n"
   pfp_venezuela_occupation_type:0 "§Y委内瑞拉§!在所有列出的地区获得[pfp_contest_or_core_status]。\n"
   pfp_venezuela_state_controller:0 "§Y委内瑞拉§!成为所有列出地区的控制者。\n"
+
+  ## PPL MERGER DECISIONS ##
+  pfp_merge_canada:0 "统一加拿大"
+  pfp_merge_canada_desc:0 "§Y东部加拿大§!与§Y西部加拿大§!共享共同的历史与命运。通过将它们统一在同一旗帜下，我们可以建立一个更强大的加拿大国家。工业更发达的地区将领导联盟，吞并另一方，形成统一的加拿大。"
+
+  pfp_merge_canada_quebec:0 "将魁北克并入加拿大"
+  pfp_merge_canada_quebec_desc:0 "随着加拿大的统一，我们现在可以将§Y魁北克§!纳入其中，完成我们加拿大领土合并为一个国家的进程。"

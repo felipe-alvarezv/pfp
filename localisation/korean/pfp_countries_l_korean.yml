@@ -4971,3 +4971,10 @@
   pfp_venezuela_puppet:0 "§Y베네수엘라§! 이(가) §Y[Root.GetName]§! 의 괴뢰국이 됩니다.\n"
   pfp_venezuela_occupation_type:0 "§Y베네수엘라§!이(가) 열거된 모든 주에 [pfp_contest_or_core_status]을(를) 획득합니다.\n"
   pfp_venezuela_state_controller:0 "§Y베네수엘라§!이(가) 열거된 모든 주의 통제자가 됩니다.\n"
+
+  ## PPL MERGER DECISIONS ##
+  pfp_merge_canada:0 "캐나다 통합"
+  pfp_merge_canada_desc:0 "§Y동부 캐나다§!와 §Y서부 캐나다§!는 공통된 역사와 운명을 공유합니다. 하나의 깃발 아래 통합함으로써 더 강력한 캐나다 국가를 수립할 수 있습니다. 더 산업적으로 발전된 지역이 연합을 이끌며 상대방을 합병하여 통일된 캐나다를 형성합니다."
+
+  pfp_merge_canada_quebec:0 "퀘벡을 캐나다에 통합"
+  pfp_merge_canada_quebec_desc:0 "캐나다가 통일된 이제 §Y퀘벡§!을 흡수하여 캐나다 영토를 하나의 국가로 완전히 통합할 수 있습니다."

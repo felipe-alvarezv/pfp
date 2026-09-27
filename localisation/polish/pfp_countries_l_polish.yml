@@ -4971,3 +4971,10 @@
   pfp_venezuela_puppet:0 "§YWenezuela§! staje się marionetką §Y[Root.GetName]§!.\n"
   pfp_venezuela_occupation_type:0 "§YWenezuela§! zyskuje [pfp_contest_or_core_status] na wszystkich wymienionych stanach.\n"
   pfp_venezuela_state_controller:0 "§YWenezuela§! staje się kontrolerem wszystkich wymienionych stanów.\n"
+
+  ## PPL MERGER DECISIONS ##
+  pfp_merge_canada:0 "Zjednoczyć Kanadę"
+  pfp_merge_canada_desc:0 "§YWschodnia Kanada§! i §YZachodnia Kanada§! dzielą wspólną historię i przeznaczenie. Łącząc je pod jednym sztandarem, możemy ustanowić silniejsze państwo kanadyjskie. Bardziej rozwinięte przemysłowo terytorium poprowadzi unię, anektując drugie i tworząc zjednoczoną Kanadę."
+
+  pfp_merge_canada_quebec:0 "Wchłonąć Québec do Kanady"
+  pfp_merge_canada_quebec_desc:0 "Z zjednoczoną Kanadą możemy teraz włączyć §YQuébec§!, kończąc konsolidację naszych kanadyjskich terytoriów w jeden naród."

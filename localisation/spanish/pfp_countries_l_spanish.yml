@@ -4971,3 +4971,10 @@
   pfp_venezuela_puppet:0 "§YVenezuela§! se convierte en un estado títere de §Y[Root.GetName]§!.\n"
   pfp_venezuela_occupation_type:0 "§YVenezuela§! obtiene [pfp_contest_or_core_status] en todos los estados listados.\n"
   pfp_venezuela_state_controller:0 "§YVenezuela§! se convierte en controlador de todos los estados listados.\n"
+
+  ## PPL MERGER DECISIONS ##
+  pfp_merge_canada:0 "Unir Canadá"
+  pfp_merge_canada_desc:0 "§YCanadá Oriental§! y §YCanadá Occidental§! comparten una historia y destino común. Al unirlos bajo una misma bandera, podemos establecer un Estado canadiense más fuerte. El territorio más desarrollado industrialmente liderará la unión, anexando al otro y formando un Canadá unificado."
+
+  pfp_merge_canada_quebec:0 "Absorber Quebec en Canadá"
+  pfp_merge_canada_quebec_desc:0 "Con Canadá unificado, ahora podemos incorporar §YQuebec§!, completando la consolidación de nuestros territorios canadienses en una sola nación."

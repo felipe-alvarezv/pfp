@@ -4971,3 +4971,10 @@
   pfp_venezuela_puppet:0 "§YVenezuela§! wird zum Vasallenstaat von §Y[Root.GetName]§!.\n"
   pfp_venezuela_occupation_type:0 "§YVenezuela§! erhält [pfp_contest_or_core_status] auf alle aufgelisteten Gebiete.\n"
   pfp_venezuela_state_controller:0 "§YVenezuela§! wird Kontrolleur aller aufgelisteten Gebiete.\n"
+
+  ## PPL MERGER DECISIONS ##
+  pfp_merge_canada:0 "Kanada vereinen"
+  pfp_merge_canada_desc:0 "§YOstkanada§! und §YWestkanada§! teilen eine gemeinsame Geschichte und Zukunft. Durch ihre Vereinigung unter einem Banner können wir einen stärkeren kanadischen Staat errichten. Das industriell entwickeltere Gebiet wird die Union anführen, das andere annektieren und ein vereintes Kanada bilden."
+
+  pfp_merge_canada_quebec:0 "Québec in Kanada eingliedern"
+  pfp_merge_canada_quebec_desc:0 "Mit dem vereinten Kanada können wir nun §YQuébec§! eingliedern und die Konsolidierung unserer kanadischen Gebiete zu einer Nation abschließen."
