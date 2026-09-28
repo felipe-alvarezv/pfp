@@ -5049,6 +5049,7 @@
   pfp_merge_china_east_turkestan:0 "Absorb East Turkestan into China"
   pfp_merge_china_east_turkestan_desc:0 "With China unified, we can now bring §YEast Turkestan§! into the fold."
   pfp_merge_china_east_turkestan_not_yet_absorbed_tt:0 "East Turkestan has not yet been absorbed into China."
+  pfp_merge_china_east_turkestan_requires_border_tt:0 "Tibet, Qinghai, or Shaan-Gan must first be absorbed into China."
   pfp_merge_china_east_turkestan_effect_annex:0 "§YChina§! annexes §YEast Turkestan§!, gaining its cores and coreable territories.\n"
 
   pfp_merge_china_tibet:0 "Absorb Tibet into China"

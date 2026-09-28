@@ -5047,6 +5047,7 @@
   pfp_merge_china_east_turkestan:0 "Ostturkestan in China eingliedern"
   pfp_merge_china_east_turkestan_desc:0 "Mit einem vereinten China können wir nun §YOstturkestan§! in die Nation integrieren."
   pfp_merge_china_east_turkestan_not_yet_absorbed_tt:0 "Ostturkestan wurde noch nicht in China eingegliedert."
+  pfp_merge_china_east_turkestan_requires_border_tt:0 "Tibet, Qinghai oder Shaan-Gan muss zuerst in China eingegliedert werden."
   pfp_merge_china_east_turkestan_effect_annex:0 "§YChina§! annektiert §YOstturkestan§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
 
   pfp_merge_china_tibet:0 "Tibet in China eingliedern"

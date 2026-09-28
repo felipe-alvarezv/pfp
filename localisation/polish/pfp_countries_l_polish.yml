@@ -5047,6 +5047,7 @@
   pfp_merge_china_east_turkestan:0 "Wcielić Wschodni Turkiestan do Chin"
   pfp_merge_china_east_turkestan_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YWschodni Turkiestan§! do narodu."
   pfp_merge_china_east_turkestan_not_yet_absorbed_tt:0 "Wschodni Turkiestan nie został jeszcze wchłonięty przez Chiny."
+  pfp_merge_china_east_turkestan_requires_border_tt:0 "Tybet, Qinghai lub Shaan-Gan musi zostać najpierw wchłonięty przez Chiny."
   pfp_merge_china_east_turkestan_effect_annex:0 "§YChiny§! anektują §YWschodni Turkiestan§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
 
   pfp_merge_china_tibet:0 "Wcielić Tybet do Chin"

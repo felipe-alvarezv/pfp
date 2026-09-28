@@ -977,6 +977,14 @@ pfp_unification = {
 				tooltip = pfp_merge_china_is_formed_tt
 				any_subject_country = { has_country_flag = pfp_is_china }
 			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_east_turkestan_requires_border_tt
+				OR = {
+					has_global_flag = pfp_china_absorbed_tibet
+					has_global_flag = pfp_china_absorbed_qinghai
+					has_global_flag = pfp_china_absorbed_shaan_gan
+				}
+			}
 			Q23 = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {

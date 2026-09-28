@@ -5047,6 +5047,7 @@
   pfp_merge_china_east_turkestan:0 "동투르키스탄을 중국에 흡수"
   pfp_merge_china_east_turkestan_desc:0 "중국이 통일되어, 이제 §Y동투르키스탄§!을 국가에 통합할 수 있습니다."
   pfp_merge_china_east_turkestan_not_yet_absorbed_tt:0 "동투르키스탄은 아직 중국에 흡수되지 않았습니다."
+  pfp_merge_china_east_turkestan_requires_border_tt:0 "티베트, 칭하이, 또는 산간을 먼저 중국에 흡수해야 합니다."
   pfp_merge_china_east_turkestan_effect_annex:0 "§Y중국§!은 §Y동투르키스탄§!을 병합하여 핵심지와 핵심화 가능 영토를 획득합니다.\n"
 
   pfp_merge_china_tibet:0 "티베트를 중국에 흡수"

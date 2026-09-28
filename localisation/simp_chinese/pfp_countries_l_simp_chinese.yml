@@ -5047,6 +5047,7 @@
   pfp_merge_china_east_turkestan:0 "将东突厥斯坦并入中国"
   pfp_merge_china_east_turkestan_desc:0 "随着中国统一，我们现在可以将§Y东突厥斯坦§!纳入版图。"
   pfp_merge_china_east_turkestan_not_yet_absorbed_tt:0 "东突厥斯坦尚未并入中国。"
+  pfp_merge_china_east_turkestan_requires_border_tt:0 "西藏、青海或陕甘必须首先并入中国。"
   pfp_merge_china_east_turkestan_effect_annex:0 "§Y中国§!兼并§Y东突厥斯坦§!，获得其核心及可核心化领土。\n"
 
   pfp_merge_china_tibet:0 "将西藏并入中国"
