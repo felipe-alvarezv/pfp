@@ -5054,3 +5054,32 @@
   pfp_merge_china_tibet_desc:0 "La Chine unifiée, nous pouvons désormais intégrer §YLe Tibet§! dans la nation."
   pfp_merge_china_tibet_not_yet_absorbed_tt:0 "Le Tibet n'a pas encore été absorbé dans la Chine."
   pfp_merge_china_tibet_effect_annex:0 "§YLa Chine§! annexe §YLe Tibet§!, gagnant ses noyaux et territoires annexables.\n"
+
+  # East Africa
+  pfp_merge_east_africa:0 "Unifier l'Afrique de l'Est"
+  pfp_merge_east_africa_desc:0 "§YL'Éthiopie§!, §YL'Érythrée§!, §YDjibouti§!, §YLe Somaliland§! et §YLa Somalie§! partagent la Corne de l'Afrique. En les unissant sous une même bannière, nous pouvons établir un État est-africain dominant. Le territoire le plus industrialisé et peuplé mènera l'union, annexant les autres."
+  pfp_merge_east_africa_not_yet_formed_tt:0 "L'Afrique de l'Est n'a pas encore été unifiée."
+  pfp_merge_east_africa_effect_form:0 "§YL'Afrique de l'Est§! est formée par le pantin le plus industrialisé et peuplé.\n"
+  pfp_merge_east_africa_effect_annex:0 "§YL'Afrique de l'Est§! annexe les pantins précédemment listés.\n"
+  pfp_merge_east_africa_effect_cores:0 "§YL'Afrique de l'Est§! hérite des noyaux et territoires annexables des pantins précédemment listés.\n"
+  pfp_merge_east_africa_is_formed_tt:0 "Une Afrique de l'Est unifiée existe parmi nos pantins."
+
+  pfp_merge_east_africa_kenya:0 "Absorber le Kenya dans l'Afrique de l'Est"
+  pfp_merge_east_africa_kenya_desc:0 "L'Afrique de l'Est unifiée, nous pouvons désormais intégrer §YLe Kenya§! dans la nation."
+  pfp_merge_east_africa_kenya_not_yet_absorbed_tt:0 "Le Kenya n'a pas encore été absorbé dans l'Afrique de l'Est."
+  pfp_merge_east_africa_kenya_effect_annex:0 "§YL'Afrique de l'Est§! annexe §YLe Kenya§!, gagnant ses noyaux et territoires annexables.\n"
+
+  pfp_merge_east_africa_uganda:0 "Absorber l'Ouganda dans l'Afrique de l'Est"
+  pfp_merge_east_africa_uganda_desc:0 "L'Afrique de l'Est unifiée, nous pouvons désormais intégrer §YL'Ouganda§! dans la nation."
+  pfp_merge_east_africa_uganda_not_yet_absorbed_tt:0 "L'Ouganda n'a pas encore été absorbé dans l'Afrique de l'Est."
+  pfp_merge_east_africa_uganda_effect_annex:0 "§YL'Afrique de l'Est§! annexe §YL'Ouganda§!, gagnant ses noyaux et territoires annexables.\n"
+
+  pfp_merge_east_africa_tanganyika:0 "Absorber le Tanganyika dans l'Afrique de l'Est"
+  pfp_merge_east_africa_tanganyika_desc:0 "L'Afrique de l'Est unifiée, nous pouvons désormais intégrer §YLe Tanganyika§! dans la nation."
+  pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "Le Tanganyika n'a pas encore été absorbé dans l'Afrique de l'Est."
+  pfp_merge_east_africa_tanganyika_effect_annex:0 "§YL'Afrique de l'Est§! annexe §YLe Tanganyika§!, gagnant ses noyaux et territoires annexables.\n"
+
+  pfp_merge_east_africa_ruanda_urundi:0 "Absorber le Ruanda-Urundi dans l'Afrique de l'Est"
+  pfp_merge_east_africa_ruanda_urundi_desc:0 "L'Afrique de l'Est unifiée, nous pouvons désormais intégrer §YLe Ruanda-Urundi§! dans la nation."
+  pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "Le Ruanda-Urundi n'a pas encore été absorbé dans l'Afrique de l'Est."
+  pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§YL'Afrique de l'Est§! annexe §YLe Ruanda-Urundi§!, gagnant ses noyaux et territoires annexables.\n"

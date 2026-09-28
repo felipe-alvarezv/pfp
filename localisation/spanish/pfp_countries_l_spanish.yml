@@ -5054,3 +5054,32 @@
   pfp_merge_china_tibet_desc:0 "Con China unificada, ahora podemos incorporar §YEl Tíbet§! a la nación."
   pfp_merge_china_tibet_not_yet_absorbed_tt:0 "El Tíbet aún no ha sido absorbido en China."
   pfp_merge_china_tibet_effect_annex:0 "§YChina§! anexa §YEl Tíbet§!, ganando sus núcleos y territorios anexables.\n"
+
+  # East Africa
+  pfp_merge_east_africa:0 "Unificar África Oriental"
+  pfp_merge_east_africa_desc:0 "§YEtiopía§!, §YEritrea§!, §YDjibouti§!, §YSomalilandia§! y §YSomalia§! comparten el Cuerno de África. Al unirlos bajo una sola bandera, podemos establecer un Estado dominante de África Oriental. El territorio más industrializado y poblado liderará la unión, anexando a los demás."
+  pfp_merge_east_africa_not_yet_formed_tt:0 "África Oriental aún no ha sido unificada."
+  pfp_merge_east_africa_effect_form:0 "§YÁfrica Oriental§! es formada por el títere más industrializado y poblado.\n"
+  pfp_merge_east_africa_effect_annex:0 "§YÁfrica Oriental§! anexa los títeres previamente enumerados.\n"
+  pfp_merge_east_africa_effect_cores:0 "§YÁfrica Oriental§! hereda núcleos y territorios anexables de los títeres previamente enumerados.\n"
+  pfp_merge_east_africa_is_formed_tt:0 "Una África Oriental unificada existe entre nuestros títeres."
+
+  pfp_merge_east_africa_kenya:0 "Absorber Kenia en África Oriental"
+  pfp_merge_east_africa_kenya_desc:0 "Con África Oriental unificada, ahora podemos incorporar §YKenia§! a la nación."
+  pfp_merge_east_africa_kenya_not_yet_absorbed_tt:0 "Kenia aún no ha sido absorbida en África Oriental."
+  pfp_merge_east_africa_kenya_effect_annex:0 "§YÁfrica Oriental§! anexa §YKenia§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_east_africa_uganda:0 "Absorber Uganda en África Oriental"
+  pfp_merge_east_africa_uganda_desc:0 "Con África Oriental unificada, ahora podemos incorporar §YUganda§! a la nación."
+  pfp_merge_east_africa_uganda_not_yet_absorbed_tt:0 "Uganda aún no ha sido absorbida en África Oriental."
+  pfp_merge_east_africa_uganda_effect_annex:0 "§YÁfrica Oriental§! anexa §YUganda§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_east_africa_tanganyika:0 "Absorber Tanganica en África Oriental"
+  pfp_merge_east_africa_tanganyika_desc:0 "Con África Oriental unificada, ahora podemos incorporar §YTanganica§! a la nación."
+  pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "Tanganica aún no ha sido absorbida en África Oriental."
+  pfp_merge_east_africa_tanganyika_effect_annex:0 "§YÁfrica Oriental§! anexa §YTanganica§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_east_africa_ruanda_urundi:0 "Absorber Ruanda-Urundi en África Oriental"
+  pfp_merge_east_africa_ruanda_urundi_desc:0 "Con África Oriental unificada, ahora podemos incorporar §YRuanda-Urundi§! a la nación."
+  pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "Ruanda-Urundi aún no ha sido absorbido en África Oriental."
+  pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§YÁfrica Oriental§! anexa §YRuanda-Urundi§!, ganando sus núcleos y territorios anexables.\n"

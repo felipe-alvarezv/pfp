@@ -5054,3 +5054,32 @@
   pfp_merge_china_tibet_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YTybet§! do narodu."
   pfp_merge_china_tibet_not_yet_absorbed_tt:0 "Tybet nie został jeszcze wchłonięty przez Chiny."
   pfp_merge_china_tibet_effect_annex:0 "§YChiny§! anektują §YTybet§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  # East Africa
+  pfp_merge_east_africa:0 "Zjednoczyć Afrykę Wschodnią"
+  pfp_merge_east_africa_desc:0 "§YEtiopia§!, §YErytrea§!, §YDżibuti§!, §YSomaliland§! i §YSomalia§! dzielą Róg Afryki. Konsolidując je pod jednym sztandarem, możemy ustanowić dominujące państwo wschodnioafrykańskie. Najbardziej przemysłowo rozwinięte i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_east_africa_not_yet_formed_tt:0 "Afryka Wschodnia nie została jeszcze zjednoczona."
+  pfp_merge_east_africa_effect_form:0 "§YAfryka Wschodnia§! jest formowana przez najbardziej przemysłowo rozwiniętą i zaludnioną marionetkę.\n"
+  pfp_merge_east_africa_effect_annex:0 "§YAfryka Wschodnia§! anektuje wcześniej wymienione marionetki.\n"
+  pfp_merge_east_africa_effect_cores:0 "§YAfryka Wschodnia§! dziedziczy rdzenie i możliwe do zrdzeniowania terytoria wcześniej wymienionych marionetek.\n"
+  pfp_merge_east_africa_is_formed_tt:0 "Zjednoczona Afryka Wschodnia istnieje wśród naszych marionetek."
+
+  pfp_merge_east_africa_kenya:0 "Wcielić Kenię do Afryki Wschodniej"
+  pfp_merge_east_africa_kenya_desc:0 "Po zjednoczeniu Afryki Wschodniej możemy teraz włączyć §YKenię§! do narodu."
+  pfp_merge_east_africa_kenya_not_yet_absorbed_tt:0 "Kenia nie została jeszcze wchłonięta przez Afrykę Wschodnią."
+  pfp_merge_east_africa_kenya_effect_annex:0 "§YAfryka Wschodnia§! anektuje §YKenię§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_east_africa_uganda:0 "Wcielić Ugandę do Afryki Wschodniej"
+  pfp_merge_east_africa_uganda_desc:0 "Po zjednoczeniu Afryki Wschodniej możemy teraz włączyć §YUgandę§! do narodu."
+  pfp_merge_east_africa_uganda_not_yet_absorbed_tt:0 "Uganda nie została jeszcze wchłonięta przez Afrykę Wschodnią."
+  pfp_merge_east_africa_uganda_effect_annex:0 "§YAfryka Wschodnia§! anektuje §YUgandę§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_east_africa_tanganyika:0 "Wcielić Tanganikę do Afryki Wschodniej"
+  pfp_merge_east_africa_tanganyika_desc:0 "Po zjednoczeniu Afryki Wschodniej możemy teraz włączyć §YTanganikę§! do narodu."
+  pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "Tanganika nie została jeszcze wchłonięta przez Afrykę Wschodnią."
+  pfp_merge_east_africa_tanganyika_effect_annex:0 "§YAfryka Wschodnia§! anektuje §YTanganikę§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_east_africa_ruanda_urundi:0 "Wcielić Ruandę-Urundi do Afryki Wschodniej"
+  pfp_merge_east_africa_ruanda_urundi_desc:0 "Po zjednoczeniu Afryki Wschodniej możemy teraz włączyć §YRuandę-Urundi§! do narodu."
+  pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "Ruanda-Urundi nie została jeszcze wchłonięta przez Afrykę Wschodnią."
+  pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§YAfryka Wschodnia§! anektuje §YRuandę-Urundi§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"

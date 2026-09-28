@@ -5054,3 +5054,32 @@
   pfp_merge_china_tibet_desc:0 "随着中国统一，我们现在可以将§Y西藏§!纳入版图。"
   pfp_merge_china_tibet_not_yet_absorbed_tt:0 "西藏尚未并入中国。"
   pfp_merge_china_tibet_effect_annex:0 "§Y中国§!兼并§Y西藏§!，获得其核心及可核心化领土。\n"
+
+  # East Africa
+  pfp_merge_east_africa:0 "统一东非"
+  pfp_merge_east_africa_desc:0 "§Y埃塞俄比亚§!、§Y厄立特里亚§!、§Y吉布提§!、§Y索马里兰§!和§Y索马里§!共享非洲之角。将它们整合在一面旗帜下，我们可以建立一个强大的东非国家。工业最发达、人口最多的傀儡将主导联盟，并吞并其他傀儡。"
+  pfp_merge_east_africa_not_yet_formed_tt:0 "东非尚未统一。"
+  pfp_merge_east_africa_effect_form:0 "§Y东非§!由工业最发达、人口最多的傀儡组建。\n"
+  pfp_merge_east_africa_effect_annex:0 "§Y东非§!兼并前述傀儡。\n"
+  pfp_merge_east_africa_effect_cores:0 "§Y东非§!继承前述傀儡的核心及可核心化领土。\n"
+  pfp_merge_east_africa_is_formed_tt:0 "统一的东非已存在于我们的傀儡之中。"
+
+  pfp_merge_east_africa_kenya:0 "将肯尼亚并入东非"
+  pfp_merge_east_africa_kenya_desc:0 "随着东非统一，我们现在可以将§Y肯尼亚§!纳入版图。"
+  pfp_merge_east_africa_kenya_not_yet_absorbed_tt:0 "肯尼亚尚未并入东非。"
+  pfp_merge_east_africa_kenya_effect_annex:0 "§Y东非§!兼并§Y肯尼亚§!，获得其核心及可核心化领土。\n"
+
+  pfp_merge_east_africa_uganda:0 "将乌干达并入东非"
+  pfp_merge_east_africa_uganda_desc:0 "随着东非统一，我们现在可以将§Y乌干达§!纳入版图。"
+  pfp_merge_east_africa_uganda_not_yet_absorbed_tt:0 "乌干达尚未并入东非。"
+  pfp_merge_east_africa_uganda_effect_annex:0 "§Y东非§!兼并§Y乌干达§!，获得其核心及可核心化领土。\n"
+
+  pfp_merge_east_africa_tanganyika:0 "将坦噶尼喀并入东非"
+  pfp_merge_east_africa_tanganyika_desc:0 "随着东非统一，我们现在可以将§Y坦噶尼喀§!纳入版图。"
+  pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "坦噶尼喀尚未并入东非。"
+  pfp_merge_east_africa_tanganyika_effect_annex:0 "§Y东非§!兼并§Y坦噶尼喀§!，获得其核心及可核心化领土。\n"
+
+  pfp_merge_east_africa_ruanda_urundi:0 "将卢旺达-布隆迪并入东非"
+  pfp_merge_east_africa_ruanda_urundi_desc:0 "随着东非统一，我们现在可以将§Y卢旺达-布隆迪§!纳入版图。"
+  pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "卢旺达-布隆迪尚未并入东非。"
+  pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§Y东非§!兼并§Y卢旺达-布隆迪§!，获得其核心及可核心化领土。\n"

@@ -5054,3 +5054,32 @@
   pfp_merge_china_tibet_desc:0 "Mit einem vereinten China können wir nun §YTibet§! in die Nation integrieren."
   pfp_merge_china_tibet_not_yet_absorbed_tt:0 "Tibet wurde noch nicht in China eingegliedert."
   pfp_merge_china_tibet_effect_annex:0 "§YChina§! annektiert §YTibet§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
+
+  # East Africa
+  pfp_merge_east_africa:0 "Ostafrika vereinen"
+  pfp_merge_east_africa_desc:0 "§YÄthiopien§!, §YEritrea§!, §YDschibuti§!, §YBritisch-Somaliland§! und §YSomalia§! teilen das Horn von Afrika. Indem wir sie unter einem Banner vereinen, können wir einen dominanten ostafrikanischen Staat errichten. Das industriell am weitesten entwickelte und bevölkerungsreichste Gebiet wird die Union anführen und die anderen annektieren."
+  pfp_merge_east_africa_not_yet_formed_tt:0 "Ostafrika wurde noch nicht vereint."
+  pfp_merge_east_africa_effect_form:0 "§YOstafrika§! wird vom industriell entwickeltsten und bevölkerungsreichsten Marionettenstaat gebildet.\n"
+  pfp_merge_east_africa_effect_annex:0 "§YOstafrika§! annektiert die zuvor aufgeführten Marionettenstaaten.\n"
+  pfp_merge_east_africa_effect_cores:0 "§YOstafrika§! übernimmt Kerngebiete und annektierbare Territorien der zuvor aufgeführten Marionettenstaaten.\n"
+  pfp_merge_east_africa_is_formed_tt:0 "Ein vereintes Ostafrika existiert unter unseren Marionettenstaaten."
+
+  pfp_merge_east_africa_kenya:0 "Kenia in Ostafrika eingliedern"
+  pfp_merge_east_africa_kenya_desc:0 "Mit einem vereinten Ostafrika können wir nun §YKenia§! in die Nation integrieren."
+  pfp_merge_east_africa_kenya_not_yet_absorbed_tt:0 "Kenia wurde noch nicht in Ostafrika eingegliedert."
+  pfp_merge_east_africa_kenya_effect_annex:0 "§YOstafrika§! annektiert §YKenia§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
+
+  pfp_merge_east_africa_uganda:0 "Uganda in Ostafrika eingliedern"
+  pfp_merge_east_africa_uganda_desc:0 "Mit einem vereinten Ostafrika können wir nun §YUganda§! in die Nation integrieren."
+  pfp_merge_east_africa_uganda_not_yet_absorbed_tt:0 "Uganda wurde noch nicht in Ostafrika eingegliedert."
+  pfp_merge_east_africa_uganda_effect_annex:0 "§YOstafrika§! annektiert §YUganda§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
+
+  pfp_merge_east_africa_tanganyika:0 "Tanganjika in Ostafrika eingliedern"
+  pfp_merge_east_africa_tanganyika_desc:0 "Mit einem vereinten Ostafrika können wir nun §YTanganjika§! in die Nation integrieren."
+  pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "Tanganjika wurde noch nicht in Ostafrika eingegliedert."
+  pfp_merge_east_africa_tanganyika_effect_annex:0 "§YOstafrika§! annektiert §YTanganjika§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
+
+  pfp_merge_east_africa_ruanda_urundi:0 "Ruanda-Urundi in Ostafrika eingliedern"
+  pfp_merge_east_africa_ruanda_urundi_desc:0 "Mit einem vereinten Ostafrika können wir nun §YRuanda-Urundi§! in die Nation integrieren."
+  pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "Ruanda-Urundi wurde noch nicht in Ostafrika eingegliedert."
+  pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§YOstafrika§! annektiert §YRuanda-Urundi§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"

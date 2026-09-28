@@ -5054,3 +5054,32 @@
   pfp_merge_china_tibet_desc:0 "中国が統一されたので、§Yチベット§!を国家に組み込むことができます。"
   pfp_merge_china_tibet_not_yet_absorbed_tt:0 "チベットはまだ中国に吸収されていません。"
   pfp_merge_china_tibet_effect_annex:0 "§Y中国§!は§Yチベット§!を併合し、そのコアと編入可能な領土を獲得します。\n"
+
+  # East Africa
+  pfp_merge_east_africa:0 "東アフリカを統一する"
+  pfp_merge_east_africa_desc:0 "§Yエチオピア§!、§Yエリトリア§!、§Yジブチ§!、§Yソマリランド§!、§Yソマリア§!はアフリカの角を共有しています。これらを一つの旗の下に統合することで、支配的な東アフリカ国家を樹立できます。最も工業的に発展した人口の多い傀儡が盟主となり、他を併合します。"
+  pfp_merge_east_africa_not_yet_formed_tt:0 "東アフリカはまだ統一されていません。"
+  pfp_merge_east_africa_effect_form:0 "§Y東アフリカ§!は最も工業的に発展した人口の多い傀儡によって形成されます。\n"
+  pfp_merge_east_africa_effect_annex:0 "§Y東アフリカ§!は前述の傀儡を併合します。\n"
+  pfp_merge_east_africa_effect_cores:0 "§Y東アフリカ§!は前述の傀儡からコアと編入可能な領土を引き継ぎます。\n"
+  pfp_merge_east_africa_is_formed_tt:0 "統一された東アフリカが我々の傀儡の中に存在します。"
+
+  pfp_merge_east_africa_kenya:0 "ケニアを東アフリカに吸収する"
+  pfp_merge_east_africa_kenya_desc:0 "東アフリカが統一されたので、§Yケニア§!を国家に組み込むことができます。"
+  pfp_merge_east_africa_kenya_not_yet_absorbed_tt:0 "ケニアはまだ東アフリカに吸収されていません。"
+  pfp_merge_east_africa_kenya_effect_annex:0 "§Y東アフリカ§!は§Yケニア§!を併合し、そのコアと編入可能な領土を獲得します。\n"
+
+  pfp_merge_east_africa_uganda:0 "ウガンダを東アフリカに吸収する"
+  pfp_merge_east_africa_uganda_desc:0 "東アフリカが統一されたので、§Yウガンダ§!を国家に組み込むことができます。"
+  pfp_merge_east_africa_uganda_not_yet_absorbed_tt:0 "ウガンダはまだ東アフリカに吸収されていません。"
+  pfp_merge_east_africa_uganda_effect_annex:0 "§Y東アフリカ§!は§Yウガンダ§!を併合し、そのコアと編入可能な領土を獲得します。\n"
+
+  pfp_merge_east_africa_tanganyika:0 "タンガニーカを東アフリカに吸収する"
+  pfp_merge_east_africa_tanganyika_desc:0 "東アフリカが統一されたので、§Yタンガニーカ§!を国家に組み込むことができます。"
+  pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "タンガニーカはまだ東アフリカに吸収されていません。"
+  pfp_merge_east_africa_tanganyika_effect_annex:0 "§Y東アフリカ§!は§Yタンガニーカ§!を併合し、そのコアと編入可能な領土を獲得します。\n"
+
+  pfp_merge_east_africa_ruanda_urundi:0 "ルアンダ・ウルンジを東アフリカに吸収する"
+  pfp_merge_east_africa_ruanda_urundi_desc:0 "東アフリカが統一されたので、§Yルアンダ・ウルンジ§!を国家に組み込むことができます。"
+  pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "ルアンダ・ウルンジはまだ東アフリカに吸収されていません。"
+  pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§Y東アフリカ§!は§Yルアンダ・ウルンジ§!を併合し、そのコアと編入可能な領土を獲得します。\n"
