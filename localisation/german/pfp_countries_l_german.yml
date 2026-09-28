@@ -4989,3 +4989,22 @@
   pfp_merge_canada_is_formed_tt:0 "Ein vereintes Kanada existiert unter unseren Marionettenstaaten."
   pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "Québec wurde noch nicht in Kanada eingegliedert."
   pfp_merge_canada_quebec_effect_annex:0 "§YKanada§! annektiert §YQuébec§! und erhält dessen Kerngebiete und kernfähige Gebiete.\n"
+
+  # United States
+  pfp_merge_usa:0 "Die Vereinigten Staaten vereinen"
+  pfp_merge_usa_desc:0 "§YNordosten§!, §YMittlerer Westen§! und §YSüden§! der USA teilen ein gemeinsames Erbe und Schicksal. Indem wir sie unter einem Banner vereinen, können wir die Vereinigten Staaten wiederherstellen. Das am stärksten industrialisierte und bevölkerungsreichste Gebiet wird die Union anführen und die anderen annektieren."
+  pfp_merge_usa_not_yet_formed_tt:0 "Die Vereinigten Staaten wurden noch nicht wiedervereinigt."
+  pfp_merge_usa_effect_form:0 "§YDie Vereinigten Staaten§! werden vom industriell entwickeltsten und bevölkerungsreichsten Marionettenstaat geformt.\n"
+  pfp_merge_usa_effect_annex:0 "§YDie Vereinigten Staaten§! annektieren die zuvor aufgeführten Marionetten.\n"
+  pfp_merge_usa_effect_cores:0 "§YDie Vereinigten Staaten§! erben die Kerngebiete und annektierbaren Territorien der zuvor aufgeführten Marionetten.\n"
+
+  pfp_merge_usa_rockies:0 "Die Rocky Mountains in die Vereinigten Staaten eingliedern"
+  pfp_merge_usa_rockies_desc:0 "Mit den wiederhergestellten Kern-USA können wir nun §YUSA Rocky Mountains§! in die Nation integrieren."
+  pfp_merge_usa_is_formed_tt:0 "Ein vereintes Amerika existiert unter unseren Marionetten."
+  pfp_merge_usa_rockies_not_yet_absorbed_tt:0 "Die Rocky Mountains wurden noch nicht in die Vereinigten Staaten aufgenommen."
+  pfp_merge_usa_rockies_effect_annex:0 "§YDie Vereinigten Staaten§! annektieren §YUSA Rocky Mountains§! und gewinnen ihre Kerngebiete und annektierbaren Territorien.\n"
+
+  pfp_merge_usa_pacific:0 "Den Pazifik in die Vereinigten Staaten eingliedern"
+  pfp_merge_usa_pacific_desc:0 "Mit den wiederhergestellten Kern-USA können wir nun §YUSA Pazifik§! in die Nation integrieren."
+  pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "Der Pazifik wurde noch nicht in die Vereinigten Staaten aufgenommen."
+  pfp_merge_usa_pacific_effect_annex:0 "§YDie Vereinigten Staaten§! annektieren §YUSA Pazifik§! und gewinnen ihre Kerngebiete und annektierbaren Territorien.\n"

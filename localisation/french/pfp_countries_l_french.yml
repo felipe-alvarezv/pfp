@@ -4989,3 +4989,22 @@
   pfp_merge_canada_is_formed_tt:0 "Un Canada unifié existe parmi nos nations-fantoche."
   pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "Le Québec n'a pas encore été absorbé dans le Canada."
   pfp_merge_canada_quebec_effect_annex:0 "§YLe Canada§! annexe §Yle Québec§!, obtenant ses noyaux et territoires pouvant être annexés.\n"
+
+  # United States
+  pfp_merge_usa:0 "Unifier les États-Unis"
+  pfp_merge_usa_desc:0 "§YNord-Est§!, §YMidwest§! et §YSud§! des États-Unis partagent un héritage et une destinée commune. En les unissant sous une même bannière, nous pouvons restaurer les États-Unis. Le territoire le plus industrialisé et peuplé mènera l'union, annexant les autres."
+  pfp_merge_usa_not_yet_formed_tt:0 "Les États-Unis n'ont pas encore été réunifiés."
+  pfp_merge_usa_effect_form:0 "§YLes États-Unis§! sont formés par le pantin le plus industrialisé et peuplé.\n"
+  pfp_merge_usa_effect_annex:0 "§YLes États-Unis§! annexent les pantins précédemment listés.\n"
+  pfp_merge_usa_effect_cores:0 "§YLes États-Unis§! héritent des noyaux et territoires annexables des pantins précédemment listés.\n"
+
+  pfp_merge_usa_rockies:0 "Absorber les Rocheuses dans les États-Unis"
+  pfp_merge_usa_rockies_desc:0 "Les États-Unis centraux restaurés, nous pouvons désormais intégrer §YÉtats-Unis Rocheuses§! dans la nation."
+  pfp_merge_usa_is_formed_tt:0 "Des États-Unis unifiés existent parmi nos pantins."
+  pfp_merge_usa_rockies_not_yet_absorbed_tt:0 "Les Rocheuses n'ont pas encore été absorbées dans les États-Unis."
+  pfp_merge_usa_rockies_effect_annex:0 "§YLes États-Unis§! annexent §YÉtats-Unis Rocheuses§!, gagnant ses noyaux et territoires annexables.\n"
+
+  pfp_merge_usa_pacific:0 "Absorber le Pacifique dans les États-Unis"
+  pfp_merge_usa_pacific_desc:0 "Les États-Unis centraux restaurés, nous pouvons désormais intégrer §YÉtats-Unis Pacifique§! dans la nation."
+  pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "Le Pacifique n'a pas encore été absorbé dans les États-Unis."
+  pfp_merge_usa_pacific_effect_annex:0 "§YLes États-Unis§! annexent §YÉtats-Unis Pacifique§!, gagnant ses noyaux et territoires annexables.\n"

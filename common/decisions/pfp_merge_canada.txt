@@ -1,4 +1,4 @@
-﻿#######################################################################
+#######################################################################
 # MERGE DECISIONS - CANADA
 # Allows the overlord to merge Canadian puppet states into a unified Canada.
 #
@@ -139,7 +139,7 @@ pfp_unification = {
 					# P11 annexes P29, becomes Canada
 					P11 = {
 						annex_country = { target = P29 transfer_troops = yes }
-						set_cosmetic_tag = PFP_CANADA
+						set_cosmetic_tag = CAN
 						set_country_flag = pfp_is_canada  # used by follow-up decision to find the formed country
 					}
 				}
@@ -174,7 +174,7 @@ pfp_unification = {
 					# P29 annexes P11, becomes Canada
 					P29 = {
 						annex_country = { target = P11 transfer_troops = yes }
-						set_cosmetic_tag = PFP_CANADA
+						set_cosmetic_tag = CAN
 						set_country_flag = pfp_is_canada  # used by follow-up decision to find the formed country
 					}
 				}

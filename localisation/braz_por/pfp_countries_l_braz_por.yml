@@ -4989,3 +4989,22 @@
   pfp_merge_canada_is_formed_tt:0 "Um Canadá unificado existe entre nossos fantoches."
   pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "Quebec ainda não foi absorvido pelo Canadá."
   pfp_merge_canada_quebec_effect_annex:0 "§YCanadá§! anexa §YQuebec§!, obtendo seus núcleos e territórios nucleáveis.\n"
+
+  # United States
+  pfp_merge_usa:0 "Unir os Estados Unidos"
+  pfp_merge_usa_desc:0 "§YNordeste§!, §YMeio-Oeste§! e §YSul§! dos EUA compartilham uma herança e destino comum. Ao uni-los sob uma mesma bandeira, podemos restaurar os Estados Unidos. O território mais industrializado e populoso liderará a união, anexando os demais."
+  pfp_merge_usa_not_yet_formed_tt:0 "Os Estados Unidos ainda não foram reunificados."
+  pfp_merge_usa_effect_form:0 "§YOs Estados Unidos§! são formados pelo fantoche mais industrializado e populoso.\n"
+  pfp_merge_usa_effect_annex:0 "§YOs Estados Unidos§! anexam os fantoches listados anteriormente.\n"
+  pfp_merge_usa_effect_cores:0 "§YOs Estados Unidos§! herdam os núcleos e territórios nucleáveis dos fantoches listados anteriormente.\n"
+
+  pfp_merge_usa_rockies:0 "Absorver as Rochosas nos Estados Unidos"
+  pfp_merge_usa_rockies_desc:0 "Com os Estados Unidos centrais restaurados, agora podemos integrar §YEUA Rochosas§! à nação."
+  pfp_merge_usa_is_formed_tt:0 "Um Estados Unidos unificado existe entre nossos fantoches."
+  pfp_merge_usa_rockies_not_yet_absorbed_tt:0 "As Rochosas ainda não foram absorvidas pelos Estados Unidos."
+  pfp_merge_usa_rockies_effect_annex:0 "§YOs Estados Unidos§! anexam §YEUA Rochosas§!, ganhando seus núcleos e territórios nucleáveis.\n"
+
+  pfp_merge_usa_pacific:0 "Absorver o Pacífico nos Estados Unidos"
+  pfp_merge_usa_pacific_desc:0 "Com os Estados Unidos centrais restaurados, agora podemos integrar §YEUA Pacífico§! à nação."
+  pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "O Pacífico ainda não foi absorvido pelos Estados Unidos."
+  pfp_merge_usa_pacific_effect_annex:0 "§YOs Estados Unidos§! anexam §YEUA Pacífico§!, ganhando seus núcleos e territórios nucleáveis.\n"

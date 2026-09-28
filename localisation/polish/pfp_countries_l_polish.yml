@@ -4989,3 +4989,22 @@
   pfp_merge_canada_is_formed_tt:0 "Zjednoczona Kanada istnieje wśród naszych marionetek."
   pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "Québec nie został jeszcze wchłonięty przez Kanadę."
   pfp_merge_canada_quebec_effect_annex:0 "§YKanada§! anektuje §YQuébec§!, zdobywając jego rdzenie i terytoria możliwe do rdzenia.\n"
+
+  # United States
+  pfp_merge_usa:0 "Zjednoczyć Stany Zjednoczone"
+  pfp_merge_usa_desc:0 "§YPółnocny-Wschód§!, §YŚrodkowy Zachód§! i §YPołudnie§! USA dzielą wspólne dziedzictwo i przeznaczenie. Łącząc je pod jednym sztandarem, możemy przywrócić Stany Zjednoczone. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_usa_not_yet_formed_tt:0 "Stany Zjednoczone nie zostały jeszcze zjednoczone."
+  pfp_merge_usa_effect_form:0 "§YStany Zjednoczone§! są tworzone przez najbardziej uprzemysłowioną i zaludnioną marionetkę.\n"
+  pfp_merge_usa_effect_annex:0 "§YStany Zjednoczone§! anektują wymienione wcześniej marionetki.\n"
+  pfp_merge_usa_effect_cores:0 "§YStany Zjednoczone§! dziedziczą rdzenie i anektowalne terytoria wymienionych wcześniej marionetek.\n"
+
+  pfp_merge_usa_rockies:0 "Wchłonąć Góry Skaliste do Stanów Zjednoczonych"
+  pfp_merge_usa_rockies_desc:0 "Po przywróceniu rdzeniowych Stanów Zjednoczonych możemy teraz zintegrować §YUSA Góry Skaliste§! z narodem."
+  pfp_merge_usa_is_formed_tt:0 "Zjednoczone Stany Zjednoczone istnieją wśród naszych marionetek."
+  pfp_merge_usa_rockies_not_yet_absorbed_tt:0 "Góry Skaliste nie zostały jeszcze wchłonięte przez Stany Zjednoczone."
+  pfp_merge_usa_rockies_effect_annex:0 "§YStany Zjednoczone§! anektują §YUSA Góry Skaliste§!, przejmując ich rdzenie i anektowalne terytoria.\n"
+
+  pfp_merge_usa_pacific:0 "Wchłonąć Pacyfik do Stanów Zjednoczonych"
+  pfp_merge_usa_pacific_desc:0 "Po przywróceniu rdzeniowych Stanów Zjednoczonych możemy teraz zintegrować §YUSA Pacyfik§! z narodem."
+  pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "Pacyfik nie został jeszcze wchłonięty przez Stany Zjednoczone."
+  pfp_merge_usa_pacific_effect_annex:0 "§YStany Zjednoczone§! anektują §YUSA Pacyfik§!, przejmując ich rdzenie i anektowalne terytoria.\n"

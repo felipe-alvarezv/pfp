@@ -4989,3 +4989,22 @@
   pfp_merge_canada_is_formed_tt:0 "統一されたカナダが傀儡国の中に存在します。"
   pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "ケベックはまだカナダに吸収されていません。"
   pfp_merge_canada_quebec_effect_annex:0 "§Yカナダ§!は§Yケベック§!を併合し、そのコアと核化可能な領土を獲得します。\n"
+
+  # United States
+  pfp_merge_usa:0 "アメリカを統一する"
+  pfp_merge_usa_desc:0 "§Y米国北東部§!、§Y米国中西部§!、§Y米国南部§!は共通の遺産と運命を共有しています。一つの旗の下に結集することで、アメリカ合衆国を復興できます。最も工業的に発展し人口の多い地域が連合を率い、他を併合します。"
+  pfp_merge_usa_not_yet_formed_tt:0 "アメリカ合衆国はまだ再統一されていません。"
+  pfp_merge_usa_effect_form:0 "§Yアメリカ合衆国§!は最も工業的に発展し人口の多い傀儡によって形成されます。\n"
+  pfp_merge_usa_effect_annex:0 "§Yアメリカ合衆国§!は上記の傀儡を併合します。\n"
+  pfp_merge_usa_effect_cores:0 "§Yアメリカ合衆国§!は上記の傀儡のコアおよびコア化可能な領土を継承します。\n"
+
+  pfp_merge_usa_rockies:0 "ロッキー山脈をアメリカ合衆国に吸収する"
+  pfp_merge_usa_rockies_desc:0 "中核となるアメリカ合衆国が回復したので、§Y米国ロッキー§!を国家に統合できます。"
+  pfp_merge_usa_is_formed_tt:0 "統一されたアメリカ合衆国が我々の傀儡の中に存在しています。"
+  pfp_merge_usa_rockies_not_yet_absorbed_tt:0 "ロッキー山脈はまだアメリカ合衆国に吸収されていません。"
+  pfp_merge_usa_rockies_effect_annex:0 "§Yアメリカ合衆国§!は§Y米国ロッキー§!を併合し、そのコアとコア化可能な領土を獲得します。\n"
+
+  pfp_merge_usa_pacific:0 "太平洋地域をアメリカ合衆国に吸収する"
+  pfp_merge_usa_pacific_desc:0 "中核となるアメリカ合衆国が回復したので、§Y米国太平洋§!を国家に統合できます。"
+  pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "太平洋地域はまだアメリカ合衆国に吸収されていません。"
+  pfp_merge_usa_pacific_effect_annex:0 "§Yアメリカ合衆国§!は§Y米国太平洋§!を併合し、そのコアとコア化可能な領土を獲得します。\n"
