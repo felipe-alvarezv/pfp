@@ -14,51 +14,155 @@
   PFP_CANADA_ADJ:0 "캐나다의"
   PFP_CANADA_subject: "$OVERLORDADJ$ 캐나다"
 
+  PFP_CANADA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 캐나다"
+  PFP_CANADA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 캐나다"
+  PFP_CANADA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 캐나다"
+
+  PFP_CANADA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 캐나다"
+  PFP_CANADA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 캐나다"
+  PFP_CANADA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 캐나다"
+
   PFP_CHINA:0 "중국"
   PFP_CHINA_DEF:0 "중국"
   PFP_CHINA_ADJ:0 "중국의"
+
+  PFP_CHINA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 중국"
+  PFP_CHINA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 중국"
+  PFP_CHINA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 중국"
+
+  PFP_CHINA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 중국"
+  PFP_CHINA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 중국"
+  PFP_CHINA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 중국"
 
   PFP_EAST_AFRICA:0 "동아프리카"
   PFP_EAST_AFRICA_DEF:0 "동아프리카"
   PFP_EAST_AFRICA_ADJ:0 "동아프리카의"
 
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 동아프리카"
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 동아프리카"
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 동아프리카"
+
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 동아프리카"
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 동아프리카"
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 동아프리카"
+
   PFP_FRANCE:0 "프랑스"
   PFP_FRANCE_DEF:0 "프랑스"
   PFP_FRANCE_ADJ:0 "프랑스의"
+
+  PFP_FRANCE_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 프랑스"
+  PFP_FRANCE_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 프랑스"
+  PFP_FRANCE_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 프랑스"
+
+  PFP_FRANCE_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 프랑스"
+  PFP_FRANCE_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 프랑스"
+  PFP_FRANCE_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 프랑스"
 
   PFP_GERMANY:0 "독일"
   PFP_GERMANY_DEF:0 "독일"
   PFP_GERMANY_ADJ:0 "독일의"
 
+  PFP_GERMANY_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 독일"
+  PFP_GERMANY_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 독일"
+  PFP_GERMANY_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 독일"
+
+  PFP_GERMANY_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 독일"
+  PFP_GERMANY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 독일"
+  PFP_GERMANY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 독일"
+
   PFP_GREAT_BRITAIN:0 "그레이트브리튼"
   PFP_GREAT_BRITAIN_DEF:0 "그레이트브리튼"
   PFP_GREAT_BRITAIN_ADJ:0 "영국의"
+
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 그레이트브리튼"
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 그레이트브리튼"
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 그레이트브리튼"
+
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 그레이트브리튼"
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 그레이트브리튼"
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 그레이트브리튼"
 
   PFP_IBERIA:0 "이베리아"
   PFP_IBERIA_DEF:0 "이베리아"
   PFP_IBERIA_ADJ:0 "이베리아의"
 
+  PFP_IBERIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 이베리아"
+  PFP_IBERIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 이베리아"
+  PFP_IBERIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 이베리아"
+
+  PFP_IBERIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 이베리아"
+  PFP_IBERIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 이베리아"
+  PFP_IBERIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 이베리아"
+
   PFP_ITALY:0 "이탈리아"
   PFP_ITALY_DEF:0 "이탈리아"
   PFP_ITALY_ADJ:0 "이탈리아의"
+
+  PFP_ITALY_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 이탈리아"
+  PFP_ITALY_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 이탈리아"
+  PFP_ITALY_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 이탈리아"
+
+  PFP_ITALY_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 이탈리아"
+  PFP_ITALY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 이탈리아"
+  PFP_ITALY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 이탈리아"
 
   PFP_JAPAN:0 "일본"
   PFP_JAPAN_DEF:0 "일본"
   PFP_JAPAN_ADJ:0 "일본의"
 
+  PFP_JAPAN_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 일본"
+  PFP_JAPAN_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 일본"
+  PFP_JAPAN_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 일본"
+
+  PFP_JAPAN_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 일본"
+  PFP_JAPAN_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 일본"
+  PFP_JAPAN_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 일본"
+
   PFP_RUSSIA:0 "러시아"
   PFP_RUSSIA_DEF:0 "러시아"
   PFP_RUSSIA_ADJ:0 "러시아의"
 
+  PFP_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 러시아"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 러시아"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 러시아"
+
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 러시아"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 러시아"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 러시아"
+
   PFP_UK:0 "그레이트브리튼 및 북아일랜드"
   PFP_UK_DEF:0 "그레이트브리튼 및 북아일랜드"
   PFP_UK_ADJ:0 "영국의"
+
+  PFP_UK_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 그레이트브리튼 및 북아일랜드"
+  PFP_UK_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 그레이트브리튼 및 북아일랜드"
+  PFP_UK_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 그레이트브리튼 및 북아일랜드"
+
+  PFP_UK_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 그레이트브리튼 및 북아일랜드"
+  PFP_UK_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 그레이트브리튼 및 북아일랜드"
+  PFP_UK_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 그레이트브리튼 및 북아일랜드"
 
   PFP_USA:0 "미국"
   PFP_USA_DEF:0 "미국"
   PFP_USA_ADJ:0 "미국의"
   PFP_USA_subject: "$OVERLORDADJ$ 미국"
 
+  PFP_USA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 미국"
+  PFP_USA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 미국"
+  PFP_USA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 미국"
+
+  PFP_USA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 미국"
+  PFP_USA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 미국"
+  PFP_USA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 미국"
+
   PFP_YUGOSLAVIA:0 "유고슬라비아"
   PFP_YUGOSLAVIA_DEF:0 "유고슬라비아"
   PFP_YUGOSLAVIA_ADJ:0 "유고슬라비아의"
+
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 유고슬라비아"
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 유고슬라비아"
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 유고슬라비아"
+
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 유고슬라비아"
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 유고슬라비아"
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 유고슬라비아"

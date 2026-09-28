@@ -704,51 +704,155 @@
   PFP_CANADA_ADJ:0 "Canadian"
   PFP_CANADA_subject: "$OVERLORDADJ$ Canada"
 
+  PFP_CANADA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Canada"
+  PFP_CANADA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Canada"
+  PFP_CANADA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Canada"
+
+  PFP_CANADA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Canada"
+  PFP_CANADA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Canada"
+  PFP_CANADA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Canada"
+
   PFP_CHINA:0 "China"
   PFP_CHINA_DEF:0 "China"
   PFP_CHINA_ADJ:0 "Chinese"
+
+  PFP_CHINA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ China"
+  PFP_CHINA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ China"
+  PFP_CHINA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ China"
+
+  PFP_CHINA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ China"
+  PFP_CHINA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ China"
+  PFP_CHINA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ China"
 
   PFP_EAST_AFRICA:0 "East Africa"
   PFP_EAST_AFRICA_DEF:0 "East Africa"
   PFP_EAST_AFRICA_ADJ:0 "East African"
 
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ East Africa"
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ East Africa"
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ East Africa"
+
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ East Africa"
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ East Africa"
+  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ East Africa"
+
   PFP_FRANCE:0 "France"
   PFP_FRANCE_DEF:0 "France"
   PFP_FRANCE_ADJ:0 "French"
+
+  PFP_FRANCE_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ France"
+  PFP_FRANCE_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ France"
+  PFP_FRANCE_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ France"
+
+  PFP_FRANCE_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ France"
+  PFP_FRANCE_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ France"
+  PFP_FRANCE_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ France"
 
   PFP_GERMANY:0 "Germany"
   PFP_GERMANY_DEF:0 "Germany"
   PFP_GERMANY_ADJ:0 "German"
 
+  PFP_GERMANY_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Germany"
+  PFP_GERMANY_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Germany"
+  PFP_GERMANY_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Germany"
+
+  PFP_GERMANY_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Germany"
+  PFP_GERMANY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Germany"
+  PFP_GERMANY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Germany"
+
   PFP_GREAT_BRITAIN:0 "Great Britain"
   PFP_GREAT_BRITAIN_DEF:0 "Great Britain"
   PFP_GREAT_BRITAIN_ADJ:0 "British"
+
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Great Britain"
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Great Britain"
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Great Britain"
+
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Great Britain"
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Great Britain"
+  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Great Britain"
 
   PFP_IBERIA:0 "Iberia"
   PFP_IBERIA_DEF:0 "Iberia"
   PFP_IBERIA_ADJ:0 "Iberian"
 
+  PFP_IBERIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Iberia"
+  PFP_IBERIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Iberia"
+  PFP_IBERIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Iberia"
+
+  PFP_IBERIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Iberia"
+  PFP_IBERIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Iberia"
+  PFP_IBERIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Iberia"
+
   PFP_ITALY:0 "Italy"
   PFP_ITALY_DEF:0 "Italy"
   PFP_ITALY_ADJ:0 "Italian"
+
+  PFP_ITALY_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Italy"
+  PFP_ITALY_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Italy"
+  PFP_ITALY_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Italy"
+
+  PFP_ITALY_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Italy"
+  PFP_ITALY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Italy"
+  PFP_ITALY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Italy"
 
   PFP_JAPAN:0 "Japan"
   PFP_JAPAN_DEF:0 "Japan"
   PFP_JAPAN_ADJ:0 "Japanese"
 
+  PFP_JAPAN_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Japan"
+  PFP_JAPAN_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Japan"
+  PFP_JAPAN_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Japan"
+
+  PFP_JAPAN_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Japan"
+  PFP_JAPAN_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Japan"
+  PFP_JAPAN_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Japan"
+
   PFP_RUSSIA:0 "Russia"
   PFP_RUSSIA_DEF:0 "Russia"
   PFP_RUSSIA_ADJ:0 "Russian"
+
+  PFP_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Russia"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Russia"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Russia"
+
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Russia"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Russia"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Russia"
 
   PFP_UK:0 "Great Britain and Northern Ireland"
   PFP_UK_DEF:0 "Great Britain and Northern Ireland"
   PFP_UK_ADJ:0 "British"
 
+  PFP_UK_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Great Britain and Northern Ireland"
+  PFP_UK_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Great Britain and Northern Ireland"
+  PFP_UK_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Great Britain and Northern Ireland"
+
+  PFP_UK_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Great Britain and Northern Ireland"
+  PFP_UK_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Great Britain and Northern Ireland"
+  PFP_UK_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Great Britain and Northern Ireland"
+
   PFP_USA:0 "United States"
   PFP_USA_DEF:0 "United States"
   PFP_USA_ADJ:0 "American"
-  PFP_USA_subject: "$OVERLORDADJ$ United States"
+  PFP_USA_subject:0 "$OVERLORDADJ$ United States"
+
+  PFP_USA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ United States"
+  PFP_USA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ United States"
+  PFP_USA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ United States"
+
+  PFP_USA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ United States"
+  PFP_USA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ United States"
+  PFP_USA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ United States"
 
   PFP_YUGOSLAVIA:0 "Yugoslavia"
   PFP_YUGOSLAVIA_DEF:0 "Yugoslavia"
   PFP_YUGOSLAVIA_ADJ:0 "Yugoslav"
+
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Yugoslavia"
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Yugoslavia"
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Yugoslavia"
+
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Yugoslavia"
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Yugoslavia"
+  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Yugoslavia"
