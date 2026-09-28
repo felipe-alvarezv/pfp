@@ -1,0 +1,1102 @@
+###########################################################################
+# MERGE DECISIONS - CHINA
+# Allows the overlord to merge Chinese puppet states into a unified China.
+#
+# Decision 1: pfp_merge_china
+#   Requires all 10 core Chinese puppets as PFP subjects:
+#   Zhili (Q10), Shandong (Q11), Henan (Q12), Shanxi (Q13),
+#   Liangjiang (Q14), Min-Zhe (Q15), Huguang (Q16), Liangguang (Q17),
+#   Yun-Gui (Q18), Sichuan (Q19).
+#   The puppet with the most total factories + scaled manpower becomes China.
+#
+# Follow-up decisions (available after China is formed, all independent):
+#   pfp_merge_china_manchuria       - Absorbs Manchuria (Q08)
+#   pfp_merge_china_inner_mongolia  - Absorbs Inner Mongolia (Q09)
+#   pfp_merge_china_shaan_gan       - Absorbs Shaan-Gan (Q20)
+#   pfp_merge_china_qinghai         - Absorbs Qinghai (Q21)
+#   pfp_merge_china_taiwan          - Absorbs Taiwan (Q22)
+#   pfp_merge_china_east_turkestan  - Absorbs East Turkestan (Q23)
+#   pfp_merge_china_tibet           - Absorbs Tibet (Q24)
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Zhili (Q10) + Shandong (Q11) + Henan (Q12) + Shanxi (Q13) +
+	# Liangjiang (Q14) + Min-Zhe (Q15) + Huguang (Q16) +
+	# Liangguang (Q17) + Yun-Gui (Q18) + Sichuan (Q19) -> China
+	# ----------------------------------------------------------------
+	pfp_merge_china = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_china_merged }
+			OR = {
+				Q10 = { is_subject_of = ROOT }
+				Q11 = { is_subject_of = ROOT }
+				Q12 = { is_subject_of = ROOT }
+				Q13 = { is_subject_of = ROOT }
+				Q14 = { is_subject_of = ROOT }
+				Q15 = { is_subject_of = ROOT }
+				Q16 = { is_subject_of = ROOT }
+				Q17 = { is_subject_of = ROOT }
+				Q18 = { is_subject_of = ROOT }
+				Q19 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_china_merged }
+			}
+			Q10 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q11 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q12 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q13 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q14 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q15 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q16 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q17 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q18 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			Q19 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_china_effect_form
+			custom_effect_tooltip = pfp_merge_china_effect_annex
+			custom_effect_tooltip = pfp_merge_china_effect_cores
+			hidden_effect = {
+				# Score = mil factories + civ factories + (manpower / 100000)
+				# Q10 Zhili initializes as default winner.
+				# Each subsequent tag wins if it strictly has a higher score.
+				Q10 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					save_global_event_target_as = pfp_china_winner
+				}
+				Q11 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+				Q12 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+				Q13 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+				Q14 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+				Q15 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+				Q16 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+				Q17 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+				Q18 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+				Q19 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
+						save_global_event_target_as = pfp_china_winner
+					}
+				}
+
+				# Transfer state cores/ownership from losers to winner
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q10 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q10  has_contested_owner = Q10 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q10
+						remove_claim_by = Q10
+						remove_contested_owner = Q10
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q11 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q11  has_contested_owner = Q11 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q11
+						remove_claim_by = Q11
+						remove_contested_owner = Q11
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q12 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q12  has_contested_owner = Q12 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q12
+						remove_claim_by = Q12
+						remove_contested_owner = Q12
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q13 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q13  has_contested_owner = Q13 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q13
+						remove_claim_by = Q13
+						remove_contested_owner = Q13
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q14 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q14  has_contested_owner = Q14 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q14
+						remove_claim_by = Q14
+						remove_contested_owner = Q14
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q15 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q15  has_contested_owner = Q15 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q15
+						remove_claim_by = Q15
+						remove_contested_owner = Q15
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q16 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q16  has_contested_owner = Q16 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q16
+						remove_claim_by = Q16
+						remove_contested_owner = Q16
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q17 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q17  has_contested_owner = Q17 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q17
+						remove_claim_by = Q17
+						remove_contested_owner = Q17
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q18 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q18  has_contested_owner = Q18 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q18
+						remove_claim_by = Q18
+						remove_contested_owner = Q18
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_china_winner = { tag = Q19 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q19  has_contested_owner = Q19 } }
+						add_core_of = event_target:pfp_china_winner
+						add_contested_owner = event_target:pfp_china_winner
+						remove_core_of = Q19
+						remove_claim_by = Q19
+						remove_contested_owner = Q19
+					}
+				}
+
+				# Transfer pfp_possible_cores arrays, annex losers, set tag and flag
+				event_target:pfp_china_winner = {
+					if = {
+						limit = { NOT = { tag = Q10 } }
+						for_each_loop = {
+							array = Q10.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q11 } }
+						for_each_loop = {
+							array = Q11.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q12 } }
+						for_each_loop = {
+							array = Q12.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q13 } }
+						for_each_loop = {
+							array = Q13.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q14 } }
+						for_each_loop = {
+							array = Q14.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q15 } }
+						for_each_loop = {
+							array = Q15.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q16 } }
+						for_each_loop = {
+							array = Q16.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q17 } }
+						for_each_loop = {
+							array = Q17.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q18 } }
+						for_each_loop = {
+							array = Q18.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = Q19 } }
+						for_each_loop = {
+							array = Q19.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = { limit = { NOT = { tag = Q10 } } annex_country = { target = Q10 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q11 } } annex_country = { target = Q11 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q12 } } annex_country = { target = Q12 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q13 } } annex_country = { target = Q13 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q14 } } annex_country = { target = Q14 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q15 } } annex_country = { target = Q15 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q16 } } annex_country = { target = Q16 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q17 } } annex_country = { target = Q17 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q18 } } annex_country = { target = Q18 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q19 } } annex_country = { target = Q19 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_CHINA
+					set_country_flag = pfp_is_china
+				}
+
+				clear_global_event_target = pfp_china_winner
+				set_global_flag = pfp_china_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed China + Manchuria (Q08) -> absorb Manchuria into China
+	# Follow-up: only available after pfp_merge_china has fired
+	# ----------------------------------------------------------------
+	pfp_merge_china_manchuria = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_china_merged
+			NOT = { has_global_flag = pfp_china_absorbed_manchuria }
+			Q08 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_manchuria_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_china_absorbed_manchuria }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_china }
+			}
+			Q08 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_china_manchuria_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					save_global_event_target_as = pfp_china_country
+					for_each_loop = {
+						array = Q08.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q08  has_contested_owner = Q08 } }
+					add_core_of = event_target:pfp_china_country
+					add_contested_owner = event_target:pfp_china_country
+					remove_core_of = Q08
+					remove_claim_by = Q08
+					remove_contested_owner = Q08
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					annex_country = { target = Q08 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_china_country
+				set_global_flag = pfp_china_absorbed_manchuria
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed China + Inner Mongolia (Q09) -> absorb into China
+	# Follow-up: only available after pfp_merge_china has fired
+	# ----------------------------------------------------------------
+	pfp_merge_china_inner_mongolia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_china_merged
+			NOT = { has_global_flag = pfp_china_absorbed_inner_mongolia }
+			Q09 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_inner_mongolia_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_china_absorbed_inner_mongolia }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_china }
+			}
+			Q09 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_china_inner_mongolia_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					save_global_event_target_as = pfp_china_country
+					for_each_loop = {
+						array = Q09.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q09  has_contested_owner = Q09 } }
+					add_core_of = event_target:pfp_china_country
+					add_contested_owner = event_target:pfp_china_country
+					remove_core_of = Q09
+					remove_claim_by = Q09
+					remove_contested_owner = Q09
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					annex_country = { target = Q09 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_china_country
+				set_global_flag = pfp_china_absorbed_inner_mongolia
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed China + Shaan-Gan (Q20) -> absorb into China
+	# Follow-up: only available after pfp_merge_china has fired
+	# ----------------------------------------------------------------
+	pfp_merge_china_shaan_gan = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_china_merged
+			NOT = { has_global_flag = pfp_china_absorbed_shaan_gan }
+			Q20 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_shaan_gan_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_china_absorbed_shaan_gan }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_china }
+			}
+			Q20 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_china_shaan_gan_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					save_global_event_target_as = pfp_china_country
+					for_each_loop = {
+						array = Q20.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q20  has_contested_owner = Q20 } }
+					add_core_of = event_target:pfp_china_country
+					add_contested_owner = event_target:pfp_china_country
+					remove_core_of = Q20
+					remove_claim_by = Q20
+					remove_contested_owner = Q20
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					annex_country = { target = Q20 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_china_country
+				set_global_flag = pfp_china_absorbed_shaan_gan
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed China + Qinghai (Q21) -> absorb into China
+	# Follow-up: only available after pfp_merge_china has fired
+	# ----------------------------------------------------------------
+	pfp_merge_china_qinghai = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_china_merged
+			NOT = { has_global_flag = pfp_china_absorbed_qinghai }
+			Q21 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_qinghai_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_china_absorbed_qinghai }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_china }
+			}
+			Q21 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_china_qinghai_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					save_global_event_target_as = pfp_china_country
+					for_each_loop = {
+						array = Q21.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q21  has_contested_owner = Q21 } }
+					add_core_of = event_target:pfp_china_country
+					add_contested_owner = event_target:pfp_china_country
+					remove_core_of = Q21
+					remove_claim_by = Q21
+					remove_contested_owner = Q21
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					annex_country = { target = Q21 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_china_country
+				set_global_flag = pfp_china_absorbed_qinghai
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed China + Taiwan (Q22) -> absorb into China
+	# Follow-up: only available after pfp_merge_china has fired
+	# ----------------------------------------------------------------
+	pfp_merge_china_taiwan = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_china_merged
+			NOT = { has_global_flag = pfp_china_absorbed_taiwan }
+			Q22 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_taiwan_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_china_absorbed_taiwan }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_china }
+			}
+			Q22 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_china_taiwan_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					save_global_event_target_as = pfp_china_country
+					for_each_loop = {
+						array = Q22.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q22  has_contested_owner = Q22 } }
+					add_core_of = event_target:pfp_china_country
+					add_contested_owner = event_target:pfp_china_country
+					remove_core_of = Q22
+					remove_claim_by = Q22
+					remove_contested_owner = Q22
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					annex_country = { target = Q22 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_china_country
+				set_global_flag = pfp_china_absorbed_taiwan
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed China + East Turkestan (Q23) -> absorb into China
+	# Follow-up: only available after pfp_merge_china has fired
+	# ----------------------------------------------------------------
+	pfp_merge_china_east_turkestan = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_china_merged
+			NOT = { has_global_flag = pfp_china_absorbed_east_turkestan }
+			Q23 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_east_turkestan_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_china_absorbed_east_turkestan }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_china }
+			}
+			Q23 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_china_east_turkestan_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					save_global_event_target_as = pfp_china_country
+					for_each_loop = {
+						array = Q23.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q23  has_contested_owner = Q23 } }
+					add_core_of = event_target:pfp_china_country
+					add_contested_owner = event_target:pfp_china_country
+					remove_core_of = Q23
+					remove_claim_by = Q23
+					remove_contested_owner = Q23
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					annex_country = { target = Q23 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_china_country
+				set_global_flag = pfp_china_absorbed_east_turkestan
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed China + Tibet (Q24) -> absorb into China
+	# Follow-up: only available after pfp_merge_china has fired
+	# ----------------------------------------------------------------
+	pfp_merge_china_tibet = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_china_merged
+			NOT = { has_global_flag = pfp_china_absorbed_tibet }
+			Q24 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_tibet_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_china_absorbed_tibet }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_china_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_china }
+			}
+			Q24 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_china_tibet_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					save_global_event_target_as = pfp_china_country
+					for_each_loop = {
+						array = Q24.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q24  has_contested_owner = Q24 } }
+					add_core_of = event_target:pfp_china_country
+					add_contested_owner = event_target:pfp_china_country
+					remove_core_of = Q24
+					remove_claim_by = Q24
+					remove_contested_owner = Q24
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_china }
+					annex_country = { target = Q24 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_china_country
+				set_global_flag = pfp_china_absorbed_tibet
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

@@ -5009,3 +5009,47 @@
   pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "Pacyfik nie został jeszcze wchłonięty przez Stany Zjednoczone."
   pfp_merge_usa_pacific_effect_annex:0 "§YStany Zjednoczone§! anektują §YUSA Pacyfik§!, przejmując ich rdzenie i anektowalne terytoria.\n"
   pfp_merge_usa_pacific_requires_rockies_tt:0 "Góry Skaliste muszą najpierw zostać włączone do Stanów Zjednoczonych."
+
+  # China
+  pfp_merge_china:0 "Zjednoczyć Chiny"
+  pfp_merge_china_desc:0 "§YZhili§!, §YSzantung§!, §YHenan§!, §YSzansi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§! i §YSyczuan§! były niegdyś częścią zjednoczonych Chin. Konsolidując je pod jednym sztandarem, możemy przywrócić państwo chińskie. Najbardziej przemysłowo rozwinięte i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_china_not_yet_formed_tt:0 "Chiny nie zostały jeszcze zjednoczone."
+  pfp_merge_china_effect_form:0 "§YChiny§! są formowane przez najbardziej przemysłowo rozwiniętą i zaludnioną marionetkę.\n"
+  pfp_merge_china_effect_annex:0 "§YChiny§! anektują wcześniej wymienione marionetki.\n"
+  pfp_merge_china_effect_cores:0 "§YChiny§! dziedziczą rdzenie i możliwe do zrdzeniowania terytoria wcześniej wymienionych marionetek.\n"
+
+  pfp_merge_china_manchuria:0 "Wcielić Mandżurię do Chin"
+  pfp_merge_china_manchuria_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YMandżurię§! do narodu, kończąc konsolidację terytoriów północno-wschodnich."
+  pfp_merge_china_is_formed_tt:0 "Zjednoczone Chiny istnieją wśród naszych marionetek."
+  pfp_merge_china_manchuria_not_yet_absorbed_tt:0 "Mandżuria nie została jeszcze wchłonięta przez Chiny."
+  pfp_merge_china_manchuria_effect_annex:0 "§YChiny§! anektują §YMandżurię§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_china_inner_mongolia:0 "Wcielić Mongolię Wewnętrzną do Chin"
+  pfp_merge_china_inner_mongolia_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YMongolię Wewnętrzną§! do narodu."
+  pfp_merge_china_inner_mongolia_not_yet_absorbed_tt:0 "Mongolia Wewnętrzna nie została jeszcze wchłonięta przez Chiny."
+  pfp_merge_china_inner_mongolia_effect_annex:0 "§YChiny§! anektują §YMongolię Wewnętrzną§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_china_shaan_gan:0 "Wcielić Shaan-Gan do Chin"
+  pfp_merge_china_shaan_gan_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YShaan-Gan§! do narodu."
+  pfp_merge_china_shaan_gan_not_yet_absorbed_tt:0 "Shaan-Gan nie został jeszcze wchłonięty przez Chiny."
+  pfp_merge_china_shaan_gan_effect_annex:0 "§YChiny§! anektują §YShaan-Gan§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_china_qinghai:0 "Wcielić Qinghai do Chin"
+  pfp_merge_china_qinghai_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YQinghai§! do narodu."
+  pfp_merge_china_qinghai_not_yet_absorbed_tt:0 "Qinghai nie został jeszcze wchłonięty przez Chiny."
+  pfp_merge_china_qinghai_effect_annex:0 "§YChiny§! anektują §YQinghai§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_china_taiwan:0 "Wcielić Tajwan do Chin"
+  pfp_merge_china_taiwan_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YTajwan§! do narodu."
+  pfp_merge_china_taiwan_not_yet_absorbed_tt:0 "Tajwan nie został jeszcze wchłonięty przez Chiny."
+  pfp_merge_china_taiwan_effect_annex:0 "§YChiny§! anektują §YTajwan§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_china_east_turkestan:0 "Wcielić Wschodni Turkiestan do Chin"
+  pfp_merge_china_east_turkestan_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YWschodni Turkiestan§! do narodu."
+  pfp_merge_china_east_turkestan_not_yet_absorbed_tt:0 "Wschodni Turkiestan nie został jeszcze wchłonięty przez Chiny."
+  pfp_merge_china_east_turkestan_effect_annex:0 "§YChiny§! anektują §YWschodni Turkiestan§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  pfp_merge_china_tibet:0 "Wcielić Tybet do Chin"
+  pfp_merge_china_tibet_desc:0 "Po zjednoczeniu Chin możemy teraz włączyć §YTybet§! do narodu."
+  pfp_merge_china_tibet_not_yet_absorbed_tt:0 "Tybet nie został jeszcze wchłonięty przez Chiny."
+  pfp_merge_china_tibet_effect_annex:0 "§YChiny§! anektują §YTybet§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"

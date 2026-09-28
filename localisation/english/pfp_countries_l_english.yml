@@ -5011,3 +5011,47 @@
   pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "The Pacific has not yet been absorbed into the United States."
   pfp_merge_usa_pacific_effect_annex:0 "§YThe United States§! annexes §YPacific U.S.§!, gaining its cores and coreable territories.\n"
   pfp_merge_usa_pacific_requires_rockies_tt:0 "The Rocky Mountains must first be absorbed into the United States."
+
+  # China
+  pfp_merge_china:0 "Unite China"
+  pfp_merge_china_desc:0 "§YZhili§!, §YShandong§!, §YHenan§!, §YShanxi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§!, and §YSichuan§! were once part of a unified China. By consolidating them under one banner, we can restore the Chinese state. The most industrially developed and populated territory will lead the union, annexing the others."
+  pfp_merge_china_not_yet_formed_tt:0 "China has not yet been unified."
+  pfp_merge_china_effect_form:0 "§YChina§! is formed by the most industrially developed and populated puppet.\n"
+  pfp_merge_china_effect_annex:0 "§YChina§! annexes the previously listed puppets.\n"
+  pfp_merge_china_effect_cores:0 "§YChina§! inherits cores and coreable territories from previously listed puppets.\n"
+
+  pfp_merge_china_manchuria:0 "Absorb Manchuria into China"
+  pfp_merge_china_manchuria_desc:0 "With China unified, we can now bring §YManchuria§! into the fold, completing our northeastern territories."
+  pfp_merge_china_is_formed_tt:0 "A unified China exists among our puppets."
+  pfp_merge_china_manchuria_not_yet_absorbed_tt:0 "Manchuria has not yet been absorbed into China."
+  pfp_merge_china_manchuria_effect_annex:0 "§YChina§! annexes §YManchuria§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_china_inner_mongolia:0 "Absorb Inner Mongolia into China"
+  pfp_merge_china_inner_mongolia_desc:0 "With China unified, we can now bring §YInner Mongolia§! into the fold."
+  pfp_merge_china_inner_mongolia_not_yet_absorbed_tt:0 "Inner Mongolia has not yet been absorbed into China."
+  pfp_merge_china_inner_mongolia_effect_annex:0 "§YChina§! annexes §YInner Mongolia§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_china_shaan_gan:0 "Absorb Shaan-Gan into China"
+  pfp_merge_china_shaan_gan_desc:0 "With China unified, we can now bring §YShaan-Gan§! into the fold."
+  pfp_merge_china_shaan_gan_not_yet_absorbed_tt:0 "Shaan-Gan has not yet been absorbed into China."
+  pfp_merge_china_shaan_gan_effect_annex:0 "§YChina§! annexes §YShaan-Gan§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_china_qinghai:0 "Absorb Qinghai into China"
+  pfp_merge_china_qinghai_desc:0 "With China unified, we can now bring §YQinghai§! into the fold."
+  pfp_merge_china_qinghai_not_yet_absorbed_tt:0 "Qinghai has not yet been absorbed into China."
+  pfp_merge_china_qinghai_effect_annex:0 "§YChina§! annexes §YQinghai§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_china_taiwan:0 "Absorb Taiwan into China"
+  pfp_merge_china_taiwan_desc:0 "With China unified, we can now bring §YTaiwan§! into the fold."
+  pfp_merge_china_taiwan_not_yet_absorbed_tt:0 "Taiwan has not yet been absorbed into China."
+  pfp_merge_china_taiwan_effect_annex:0 "§YChina§! annexes §YTaiwan§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_china_east_turkestan:0 "Absorb East Turkestan into China"
+  pfp_merge_china_east_turkestan_desc:0 "With China unified, we can now bring §YEast Turkestan§! into the fold."
+  pfp_merge_china_east_turkestan_not_yet_absorbed_tt:0 "East Turkestan has not yet been absorbed into China."
+  pfp_merge_china_east_turkestan_effect_annex:0 "§YChina§! annexes §YEast Turkestan§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_china_tibet:0 "Absorb Tibet into China"
+  pfp_merge_china_tibet_desc:0 "With China unified, we can now bring §YTibet§! into the fold."
+  pfp_merge_china_tibet_not_yet_absorbed_tt:0 "Tibet has not yet been absorbed into China."
+  pfp_merge_china_tibet_effect_annex:0 "§YChina§! annexes §YTibet§!, gaining its cores and coreable territories.\n"

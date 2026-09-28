@@ -5009,3 +5009,47 @@
   pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "El Pacífico aún no ha sido absorbido en los Estados Unidos."
   pfp_merge_usa_pacific_effect_annex:0 "§YLos Estados Unidos§! anexan a §YEE.UU. Pacífico§!, obteniendo sus núcleos y territorios conquistables.\n"
   pfp_merge_usa_pacific_requires_rockies_tt:0 "Las Montañas Rocosas deben ser absorbidas primero en los Estados Unidos."
+
+  # China
+  pfp_merge_china:0 "Unificar China"
+  pfp_merge_china_desc:0 "§YZhili§!, §YShandong§!, §YHenan§!, §YShanxi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§! y §YSichuan§! formaron parte de una China unificada. Al consolidarlos bajo una sola bandera, podemos restaurar el Estado chino. El territorio más industrializado y poblado liderará la unión, anexando a los demás."
+  pfp_merge_china_not_yet_formed_tt:0 "China aún no ha sido unificada."
+  pfp_merge_china_effect_form:0 "§YChina§! es formada por el títere más industrializado y poblado.\n"
+  pfp_merge_china_effect_annex:0 "§YChina§! anexa los títeres previamente enumerados.\n"
+  pfp_merge_china_effect_cores:0 "§YChina§! hereda núcleos y territorios anexables de los títeres previamente enumerados.\n"
+
+  pfp_merge_china_manchuria:0 "Absorber Manchuria en China"
+  pfp_merge_china_manchuria_desc:0 "Con China unificada, ahora podemos incorporar §YManchuria§! a la nación, completando nuestros territorios del noreste."
+  pfp_merge_china_is_formed_tt:0 "Una China unificada existe entre nuestros títeres."
+  pfp_merge_china_manchuria_not_yet_absorbed_tt:0 "Manchuria aún no ha sido absorbida en China."
+  pfp_merge_china_manchuria_effect_annex:0 "§YChina§! anexa §YManchuria§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_china_inner_mongolia:0 "Absorber Mongolia Interior en China"
+  pfp_merge_china_inner_mongolia_desc:0 "Con China unificada, ahora podemos incorporar §YMongolia Interior§! a la nación."
+  pfp_merge_china_inner_mongolia_not_yet_absorbed_tt:0 "Mongolia Interior aún no ha sido absorbida en China."
+  pfp_merge_china_inner_mongolia_effect_annex:0 "§YChina§! anexa §YMongolia Interior§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_china_shaan_gan:0 "Absorber Shaan-Gan en China"
+  pfp_merge_china_shaan_gan_desc:0 "Con China unificada, ahora podemos incorporar §YShaan-Gan§! a la nación."
+  pfp_merge_china_shaan_gan_not_yet_absorbed_tt:0 "Shaan-Gan aún no ha sido absorbido en China."
+  pfp_merge_china_shaan_gan_effect_annex:0 "§YChina§! anexa §YShaan-Gan§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_china_qinghai:0 "Absorber Qinghai en China"
+  pfp_merge_china_qinghai_desc:0 "Con China unificada, ahora podemos incorporar §YQinghai§! a la nación."
+  pfp_merge_china_qinghai_not_yet_absorbed_tt:0 "Qinghai aún no ha sido absorbido en China."
+  pfp_merge_china_qinghai_effect_annex:0 "§YChina§! anexa §YQinghai§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_china_taiwan:0 "Absorber Taiwán en China"
+  pfp_merge_china_taiwan_desc:0 "Con China unificada, ahora podemos incorporar §YTaiwán§! a la nación."
+  pfp_merge_china_taiwan_not_yet_absorbed_tt:0 "Taiwán aún no ha sido absorbido en China."
+  pfp_merge_china_taiwan_effect_annex:0 "§YChina§! anexa §YTaiwán§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_china_east_turkestan:0 "Absorber el Turquestán Oriental en China"
+  pfp_merge_china_east_turkestan_desc:0 "Con China unificada, ahora podemos incorporar §YEl Turquestán Oriental§! a la nación."
+  pfp_merge_china_east_turkestan_not_yet_absorbed_tt:0 "El Turquestán Oriental aún no ha sido absorbido en China."
+  pfp_merge_china_east_turkestan_effect_annex:0 "§YChina§! anexa §YEl Turquestán Oriental§!, ganando sus núcleos y territorios anexables.\n"
+
+  pfp_merge_china_tibet:0 "Absorber el Tíbet en China"
+  pfp_merge_china_tibet_desc:0 "Con China unificada, ahora podemos incorporar §YEl Tíbet§! a la nación."
+  pfp_merge_china_tibet_not_yet_absorbed_tt:0 "El Tíbet aún no ha sido absorbido en China."
+  pfp_merge_china_tibet_effect_annex:0 "§YChina§! anexa §YEl Tíbet§!, ganando sus núcleos y territorios anexables.\n"
