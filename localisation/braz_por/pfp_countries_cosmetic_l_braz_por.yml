@@ -12,6 +12,7 @@
   PFP_CANADA:0 "Canadá"
   PFP_CANADA_DEF:0 "Canadá"
   PFP_CANADA_ADJ:0 "Canadense"
+  PFP_CANADA_subject:0 "$OVERLORDADJ$ Canadá"
 
   PFP_CHINA:0 "China"
   PFP_CHINA_DEF:0 "China"
@@ -56,6 +57,7 @@
   PFP_USA:0 "Estados Unidos"
   PFP_USA_DEF:0 "Estados Unidos"
   PFP_USA_ADJ:0 "Americano"
+  PFP_USA_subject:0 "$OVERLORDADJ$ Estados Unidos"
 
   PFP_YUGOSLAVIA:0 "Iugoslávia"
   PFP_YUGOSLAVIA_DEF:0 "Iugoslávia"

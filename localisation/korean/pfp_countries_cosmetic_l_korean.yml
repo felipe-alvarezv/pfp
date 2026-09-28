@@ -12,6 +12,7 @@
   PFP_CANADA:0 "캐나다"
   PFP_CANADA_DEF:0 "캐나다"
   PFP_CANADA_ADJ:0 "캐나다의"
+  PFP_CANADA_subject:0 "$OVERLORDADJ$ 캐나다"
 
   PFP_CHINA:0 "중국"
   PFP_CHINA_DEF:0 "중국"
@@ -56,6 +57,7 @@
   PFP_USA:0 "미국"
   PFP_USA_DEF:0 "미국"
   PFP_USA_ADJ:0 "미국의"
+  PFP_USA_subject:0 "$OVERLORDADJ$ 미국"
 
   PFP_YUGOSLAVIA:0 "유고슬라비아"
   PFP_YUGOSLAVIA_DEF:0 "유고슬라비아"
