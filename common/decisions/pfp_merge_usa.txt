@@ -380,7 +380,6 @@ pfp_unification = {
 		visible = {
 			is_subject = no
 			has_global_flag = pfp_usa_merged
-			has_global_flag = pfp_usa_absorbed_rockies
 			NOT = { has_global_flag = pfp_usa_absorbed_pacific }
 			P21 = { is_subject_of = ROOT }
 		}
