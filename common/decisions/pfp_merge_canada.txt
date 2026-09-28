@@ -1,4 +1,4 @@
-##########################################################################
+﻿#######################################################################
 # MERGE DECISIONS - CANADA
 # Allows the overlord to merge Canadian puppet states into a unified Canada.
 #
@@ -130,6 +130,7 @@ pfp_unification = {
 							}
 						}
 						add_core_of = P11
+						add_contested_owner = P11
 						remove_core_of = P29
 						remove_claim_by = P29
 						remove_contested_owner = P29
@@ -164,6 +165,7 @@ pfp_unification = {
 							}
 						}
 						add_core_of = P29
+						add_contested_owner = P29
 						remove_core_of = P11
 						remove_claim_by = P11
 						remove_contested_owner = P11
@@ -249,6 +251,7 @@ pfp_unification = {
 						}
 					}
 					add_core_of = event_target:pfp_canada_country
+					add_contested_owner = event_target:pfp_canada_country
 					remove_core_of = P22
 					remove_claim_by = P22
 					remove_contested_owner = P22
