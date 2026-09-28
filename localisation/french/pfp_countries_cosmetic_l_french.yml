@@ -9,32 +9,33 @@
   ## PFP MERGED NATIONS ##
 
 
-  PFP_GREAT_BRITAIN:0 "Grande-Bretagne"
-  PFP_GREAT_BRITAIN_DEF:0 "Grande-Bretagne"
-  PFP_GREAT_BRITAIN_ADJ:0 "Britannique"
-
-  PFP_UK:0 "Grande-Bretagne et Irlande du Nord"
-  PFP_UK_DEF:0 "Grande-Bretagne et Irlande du Nord"
-  PFP_UK_ADJ:0 "Britannique"
-
-  PFP_GERMANY:0 "Allemagne"
-  PFP_GERMANY_DEF:0 "Allemagne"
-  PFP_GERMANY_ADJ:0 "Allemand"
-
-  PFP_USA:0 "États-Unis"
-  PFP_USA_DEF:0 "États-Unis"
-  PFP_USA_ADJ:0 "Américain"
   PFP_CANADA:0 "Canada"
   PFP_CANADA_DEF:0 "Canada"
   PFP_CANADA_ADJ:0 "Canadien"
+
+  PFP_CHINA:0 "Chine"
+  PFP_CHINA_DEF:0 "Chine"
+  PFP_CHINA_ADJ:0 "Chinois"
+
+  PFP_EAST_AFRICA:0 "Afrique orientale"
+  PFP_EAST_AFRICA_DEF:0 "Afrique orientale"
+  PFP_EAST_AFRICA_ADJ:0 "Africain oriental"
 
   PFP_FRANCE:0 "France"
   PFP_FRANCE_DEF:0 "France"
   PFP_FRANCE_ADJ:0 "Français"
 
-  PFP_YUGOSLAVIA:0 "Yougoslavie"
-  PFP_YUGOSLAVIA_DEF:0 "Yougoslavie"
-  PFP_YUGOSLAVIA_ADJ:0 "Yougoslave"
+  PFP_GERMANY:0 "Allemagne"
+  PFP_GERMANY_DEF:0 "Allemagne"
+  PFP_GERMANY_ADJ:0 "Allemand"
+
+  PFP_GREAT_BRITAIN:0 "Grande-Bretagne"
+  PFP_GREAT_BRITAIN_DEF:0 "Grande-Bretagne"
+  PFP_GREAT_BRITAIN_ADJ:0 "Britannique"
+
+  PFP_IBERIA:0 "Ibérie"
+  PFP_IBERIA_DEF:0 "Ibérie"
+  PFP_IBERIA_ADJ:0 "Ibérique"
 
   PFP_ITALY:0 "Italie"
   PFP_ITALY_DEF:0 "Italie"
@@ -44,18 +45,18 @@
   PFP_JAPAN_DEF:0 "Japon"
   PFP_JAPAN_ADJ:0 "Japonais"
 
-  PFP_IBERIA:0 "Ibérie"
-  PFP_IBERIA_DEF:0 "Ibérie"
-  PFP_IBERIA_ADJ:0 "Ibérique"
-
-  PFP_EAST_AFRICA:0 "Afrique orientale"
-  PFP_EAST_AFRICA_DEF:0 "Afrique orientale"
-  PFP_EAST_AFRICA_ADJ:0 "Africain oriental"
-
-  PFP_CHINA:0 "Chine"
-  PFP_CHINA_DEF:0 "Chine"
-  PFP_CHINA_ADJ:0 "Chinois"
-
   PFP_RUSSIA:0 "Russie"
   PFP_RUSSIA_DEF:0 "Russie"
   PFP_RUSSIA_ADJ:0 "Russe"
+
+  PFP_UK:0 "Grande-Bretagne et Irlande du Nord"
+  PFP_UK_DEF:0 "Grande-Bretagne et Irlande du Nord"
+  PFP_UK_ADJ:0 "Britannique"
+
+  PFP_USA:0 "États-Unis"
+  PFP_USA_DEF:0 "États-Unis"
+  PFP_USA_ADJ:0 "Américain"
+
+  PFP_YUGOSLAVIA:0 "Yougoslavie"
+  PFP_YUGOSLAVIA_DEF:0 "Yougoslavie"
+  PFP_YUGOSLAVIA_ADJ:0 "Yougoslave"

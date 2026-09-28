@@ -9,32 +9,33 @@
   ## PFP MERGED NATIONS ##
 
 
-  PFP_GREAT_BRITAIN:0 "Великобритания"
-  PFP_GREAT_BRITAIN_DEF:0 "Великобритания"
-  PFP_GREAT_BRITAIN_ADJ:0 "Британский"
-
-  PFP_UK:0 "Великобритания и Северная Ирландия"
-  PFP_UK_DEF:0 "Великобритания и Северная Ирландия"
-  PFP_UK_ADJ:0 "Британский"
-
-  PFP_GERMANY:0 "Германия"
-  PFP_GERMANY_DEF:0 "Германия"
-  PFP_GERMANY_ADJ:0 "Немецкий"
-
-  PFP_USA:0 "Соединённые Штаты"
-  PFP_USA_DEF:0 "Соединённые Штаты"
-  PFP_USA_ADJ:0 "Американский"
   PFP_CANADA:0 "Канада"
   PFP_CANADA_DEF:0 "Канада"
   PFP_CANADA_ADJ:0 "Канадский"
+
+  PFP_CHINA:0 "Китай"
+  PFP_CHINA_DEF:0 "Китай"
+  PFP_CHINA_ADJ:0 "Китайский"
+
+  PFP_EAST_AFRICA:0 "Восточная Африка"
+  PFP_EAST_AFRICA_DEF:0 "Восточная Африка"
+  PFP_EAST_AFRICA_ADJ:0 "Восточноафриканский"
 
   PFP_FRANCE:0 "Франция"
   PFP_FRANCE_DEF:0 "Франция"
   PFP_FRANCE_ADJ:0 "Французский"
 
-  PFP_YUGOSLAVIA:0 "Югославия"
-  PFP_YUGOSLAVIA_DEF:0 "Югославия"
-  PFP_YUGOSLAVIA_ADJ:0 "Югославский"
+  PFP_GERMANY:0 "Германия"
+  PFP_GERMANY_DEF:0 "Германия"
+  PFP_GERMANY_ADJ:0 "Немецкий"
+
+  PFP_GREAT_BRITAIN:0 "Великобритания"
+  PFP_GREAT_BRITAIN_DEF:0 "Великобритания"
+  PFP_GREAT_BRITAIN_ADJ:0 "Британский"
+
+  PFP_IBERIA:0 "Иберия"
+  PFP_IBERIA_DEF:0 "Иберия"
+  PFP_IBERIA_ADJ:0 "Иберийский"
 
   PFP_ITALY:0 "Италия"
   PFP_ITALY_DEF:0 "Италия"
@@ -44,18 +45,18 @@
   PFP_JAPAN_DEF:0 "Япония"
   PFP_JAPAN_ADJ:0 "Японский"
 
-  PFP_IBERIA:0 "Иберия"
-  PFP_IBERIA_DEF:0 "Иберия"
-  PFP_IBERIA_ADJ:0 "Иберийский"
-
-  PFP_EAST_AFRICA:0 "Восточная Африка"
-  PFP_EAST_AFRICA_DEF:0 "Восточная Африка"
-  PFP_EAST_AFRICA_ADJ:0 "Восточноафриканский"
-
-  PFP_CHINA:0 "Китай"
-  PFP_CHINA_DEF:0 "Китай"
-  PFP_CHINA_ADJ:0 "Китайский"
-
   PFP_RUSSIA:0 "Россия"
   PFP_RUSSIA_DEF:0 "Россия"
   PFP_RUSSIA_ADJ:0 "Российский"
+
+  PFP_UK:0 "Великобритания и Северная Ирландия"
+  PFP_UK_DEF:0 "Великобритания и Северная Ирландия"
+  PFP_UK_ADJ:0 "Британский"
+
+  PFP_USA:0 "Соединённые Штаты"
+  PFP_USA_DEF:0 "Соединённые Штаты"
+  PFP_USA_ADJ:0 "Американский"
+
+  PFP_YUGOSLAVIA:0 "Югославия"
+  PFP_YUGOSLAVIA_DEF:0 "Югославия"
+  PFP_YUGOSLAVIA_ADJ:0 "Югославский"
