@@ -2,6 +2,8 @@
 l_french:
 	pfp_category:0 "Marionnettes formables de Pipe"
 	pfp_category_desc:0 "À mesure que nous gagnons du territoire, il devient de plus en plus compliqué de tout administrer. Pour résoudre ce problème, des gouvernements fantoches loyaux envers notre nation devraient être établis dans les régions conquises. Cela nous permettra de porter notre attention ailleurs, tandis que la région soutiendra notre cause."
+	pfp_unification:0 "Marionnettes Formables de Pipe — Unification des Marionnettes"
+	pfp_unification_desc:0 "Des administrations séparées engendrent l’inefficacité, la rivalité et l’illusion de l’indépendance. Une marionnette unifiée est une marionnette reconnaissante — et bien plus utile. Nous faisons cela pour leur bien, bien sûr."
 
 	pfp_puppet_management:0 "Marionnettes formables de Pipe - Gestion"
 	pfp_puppet_management_desc:0 "Après avoir établi notre occupation militaire, nous pourrions avoir besoin d’apporter des ajustements à l’administration et à ses territoires."

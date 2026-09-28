@@ -2,6 +2,8 @@
 l_german:
 	pfp_category:0 "Pipe's Formable Puppets"
 	pfp_category_desc:0 "Mit der Ausweitung unseres Territoriums ist es zunehmend schwierig geworden, all dies zu verwalten. Um dieses Problem zu lösen, sollten Marionettenregierungen eingerichtet werden, die unserem Land treu ergeben sind. Dies erlaubt uns, unsere Aufmerksamkeit anderen Dingen zuzuwenden, während die Region unsere Sache unterstützt."
+	pfp_unification:0 "Pipes formierbare Marionettenstaaten — Marionettenvereinigung"
+	pfp_unification_desc:0 "Getrennte Verwaltungen erzeugen Ineffizienz, Rivalität und die Illusion der Unabhängigkeit. Ein vereinter Marionettenstaat ist ein dankbarer Marionettenstaat — und ein weitaus nützlicherer. Wir tun dies zu ihrem Besten, natürlich."
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Verwaltung"
 	pfp_puppet_management_desc:0 "Nach der Errichtung unserer Militärbesatzung müssen wir möglicherweise Anpassungen in Bezug auf die Verwaltung und ihre Gebiete vornehmen."

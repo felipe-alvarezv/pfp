@@ -2,6 +2,8 @@
 l_spanish:
 	pfp_category:0 "Pipe's Formable Puppets"
 	pfp_category_desc:0 "A medida que ganamos más territorio, administrarlo todo se ha convertido en un problema complicado. Para solucionar esto, deben establecerse gobiernos títeres leales a nuestra nación en las regiones que hemos conquistado. Esto nos permitirá centrar nuestra atención en otro lugar, mientras la región apoya nuestra causa."
+	pfp_unification:0 "Marionetas Formables de Pipe — Unificación de Marionetas"
+	pfp_unification_desc:0 "Las administraciones separadas generan ineficiencia, rivalidad y la ilusión de independencia. Una marioneta unificada es una marioneta agradecida — y mucho más útil. Lo hacemos por su bien, por supuesto."
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Gestión"
 	pfp_puppet_management_desc:0 "Tras establecer nuestra ocupación militar, es posible que necesitemos realizar ajustes en la administración y sus territorios."

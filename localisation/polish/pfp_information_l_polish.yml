@@ -2,6 +2,8 @@
 l_polish:
 	pfp_category:0 "Pipe's Formable Puppets"
 	pfp_category_desc:0 "W miarę zdobywania kolejnych terytoriów, zarządzanie nimi stało się skomplikowanym problemem. Aby go rozwiązać, w podbitych przez nas regionach należy ustanowić marionetkowe rządy lojalne wobec naszego narodu. Pozwoli nam to skupić uwagę gdzie indziej, podczas gdy region wspiera naszą sprawę."
+	pfp_unification:0 "Formowalne Marionetkowe Państwa Pipe — Unifikacja Marionetkowa"
+	pfp_unification_desc:0 "Oddzielne administracje rodzą nieefektywność, rywalizację i iluzję niezależności. Zjednoczona marionetka to wdzięczna marionetka — i znacznie bardziej użyteczna. Robimy to dla ich dobra, oczywiście."
 
 	pfp_puppet_management:0 "Pipe's Formable Puppets - Zarządzanie"
 	pfp_puppet_management_desc:0 "Po ustanowieniu okupacji wojskowej może być konieczne wprowadzenie zmian dotyczących administracji i jej terytoriów."
