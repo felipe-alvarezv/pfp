@@ -5089,3 +5089,17 @@
   pfp_merge_east_africa_sudan_desc:0 "Com a África Oriental unificada, podemos agora incorporar §YO Sudão§! à nação."
   pfp_merge_east_africa_sudan_not_yet_absorbed_tt:0 "O Sudão ainda não foi absorvido pela África Oriental."
   pfp_merge_east_africa_sudan_effect_annex:0 "§YA África Oriental§! anexa §YO Sudão§!, ganhando seus núcleos e territórios anexáveis.\n"
+
+  # France
+  pfp_merge_france:0 "Unificar a França"
+  pfp_merge_france_desc:0 "§YFrança do Norte§! e §YFrança do Sul§! são as duas metades de uma nação outrora grandiosa. Ao fundi-las sob uma única bandeira, podemos restaurar a França à sua antiga glória. O território mais industrializado e populoso liderará a união, anexando o outro."
+  pfp_merge_france_not_yet_formed_tt:0 "A França ainda não foi unificada."
+  pfp_merge_france_effect_form:0 "§YA França§! é formada pelo fantoche mais industrializado e populoso.\n"
+  pfp_merge_france_effect_annex:0 "§YA França§! anexa o fantoche anteriormente listado.\n"
+  pfp_merge_france_effect_cores:0 "§YA França§! herda núcleos e territórios anexáveis do fantoche anteriormente listado.\n"
+  pfp_merge_france_is_formed_tt:0 "Uma França unificada existe entre os nossos fantoches."
+
+  pfp_merge_france_alps:0 "Absorver os Alpes Franceses pela França"
+  pfp_merge_france_alps_desc:0 "Com a França unificada, podemos agora incorporar §YOs Alpes Franceses§! à nação."
+  pfp_merge_france_alps_not_yet_absorbed_tt:0 "Os Alpes Franceses ainda não foram absorvidos pela França."
+  pfp_merge_france_alps_effect_annex:0 "§YA França§! anexa §YOs Alpes Franceses§!, ganhando seus núcleos e territórios anexáveis.\n"

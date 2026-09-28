@@ -5089,3 +5089,17 @@
   pfp_merge_east_africa_sudan_desc:0 "Po zjednoczeniu Afryki Wschodniej możemy teraz włączyć §YSudan§! do narodu."
   pfp_merge_east_africa_sudan_not_yet_absorbed_tt:0 "Sudan nie został jeszcze wchłonięty przez Afrykę Wschodnią."
   pfp_merge_east_africa_sudan_effect_annex:0 "§YAfryka Wschodnia§! anektuje §YSudan§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
+
+  # France
+  pfp_merge_france:0 "Zjednoczyć Francję"
+  pfp_merge_france_desc:0 "§YFrancja Północna§! i §YFrancja Południowa§! są dwoma podzielonymi połówkami niegdyś wielkiego narodu. Łącząc je pod jednym sztandarem, możemy przywrócić Francji jej dawną chwałę. Najbardziej przemysłowo rozwinięte i zaludnione terytorium poprowadzi unię, anektując drugą."
+  pfp_merge_france_not_yet_formed_tt:0 "Francja nie została jeszcze zjednoczona."
+  pfp_merge_france_effect_form:0 "§YFrancja§! jest formowana przez najbardziej przemysłowo rozwiniętą i zaludnioną marionetkę.\n"
+  pfp_merge_france_effect_annex:0 "§YFrancja§! anektuje wcześniej wymienioną marionetkę.\n"
+  pfp_merge_france_effect_cores:0 "§YFrancja§! dziedziczy rdzenie i możliwe do zrdzeniowania terytoria wcześniej wymienionej marionetki.\n"
+  pfp_merge_france_is_formed_tt:0 "Zjednoczona Francja istnieje wśród naszych marionetek."
+
+  pfp_merge_france_alps:0 "Wcielić Alpy Francuskie do Francji"
+  pfp_merge_france_alps_desc:0 "Po zjednoczeniu Francji możemy teraz włączyć §YAlpy Francuskie§! do narodu."
+  pfp_merge_france_alps_not_yet_absorbed_tt:0 "Alpy Francuskie nie zostały jeszcze wchłonięte przez Francję."
+  pfp_merge_france_alps_effect_annex:0 "§YFrancja§! anektuje §YAlpy Francuskie§!, zyskując ich rdzenie i możliwe do zrdzeniowania terytoria.\n"

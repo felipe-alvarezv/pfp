@@ -5089,3 +5089,17 @@
   pfp_merge_east_africa_sudan_desc:0 "Con África Oriental unificada, ahora podemos incorporar §YSudán§! a la nación."
   pfp_merge_east_africa_sudan_not_yet_absorbed_tt:0 "Sudán aún no ha sido absorbido en África Oriental."
   pfp_merge_east_africa_sudan_effect_annex:0 "§YÁfrica Oriental§! anexa §YSudán§!, ganando sus núcleos y territorios anexables.\n"
+
+  # France
+  pfp_merge_france:0 "Unificar Francia"
+  pfp_merge_france_desc:0 "§YFrancia del Norte§! y §YFrancia del Sur§! son las dos mitades de una nación otrora grande. Al fusionarlas bajo una sola bandera, podemos restaurar Francia a su antigua gloria. El territorio más industrializado y poblado liderará la unión, anexando al otro."
+  pfp_merge_france_not_yet_formed_tt:0 "Francia aún no ha sido unificada."
+  pfp_merge_france_effect_form:0 "§YFrancia§! es formada por el títere más industrializado y poblado.\n"
+  pfp_merge_france_effect_annex:0 "§YFrancia§! anexa el títere previamente enumerado.\n"
+  pfp_merge_france_effect_cores:0 "§YFrancia§! hereda núcleos y territorios anexables del títere previamente enumerado.\n"
+  pfp_merge_france_is_formed_tt:0 "Una Francia unificada existe entre nuestros títeres."
+
+  pfp_merge_france_alps:0 "Absorber los Alpes Franceses en Francia"
+  pfp_merge_france_alps_desc:0 "Con Francia unificada, ahora podemos incorporar §YLos Alpes Franceses§! a la nación."
+  pfp_merge_france_alps_not_yet_absorbed_tt:0 "Los Alpes Franceses aún no han sido absorbidos en Francia."
+  pfp_merge_france_alps_effect_annex:0 "§YFrancia§! anexa §YLos Alpes Franceses§!, ganando sus núcleos y territorios anexables.\n"
