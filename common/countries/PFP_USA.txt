@@ -1,3 +1,0 @@
-color = { 0 57 166 }
-color = rgb { 0 57 166 }
-color_ui = rgb { 0 57 166 }

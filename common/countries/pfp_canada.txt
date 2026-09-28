@@ -1,0 +1,3 @@
+color = { 233 59 59 }
+color = rgb { 233 59 59 }
+color_ui = rgb { 233 59 59 }

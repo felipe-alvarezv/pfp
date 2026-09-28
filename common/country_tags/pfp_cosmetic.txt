@@ -1,0 +1,2 @@
+PFP_CANADA = "countries/pfp_canada.txt" #Merged Canada cosmetic tag
+PFP_USA = "countries/pfp_usa.txt" #Merged USA cosmetic tag
