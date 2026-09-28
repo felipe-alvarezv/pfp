@@ -5077,9 +5077,15 @@
   pfp_merge_east_africa_tanganyika:0 "タンガニーカを東アフリカに吸収する"
   pfp_merge_east_africa_tanganyika_desc:0 "東アフリカが統一されたので、§Yタンガニーカ§!を国家に組み込むことができます。"
   pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "タンガニーカはまだ東アフリカに吸収されていません。"
+  pfp_merge_east_africa_tanganyika_requires_kenya_tt:0 "ケニアを先に東アフリカに吸収する必要があります。"
   pfp_merge_east_africa_tanganyika_effect_annex:0 "§Y東アフリカ§!は§Yタンガニーカ§!を併合し、そのコアと編入可能な領土を獲得します。\n"
 
   pfp_merge_east_africa_ruanda_urundi:0 "ルアンダ・ウルンジを東アフリカに吸収する"
   pfp_merge_east_africa_ruanda_urundi_desc:0 "東アフリカが統一されたので、§Yルアンダ・ウルンジ§!を国家に組み込むことができます。"
   pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "ルアンダ・ウルンジはまだ東アフリカに吸収されていません。"
   pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§Y東アフリカ§!は§Yルアンダ・ウルンジ§!を併合し、そのコアと編入可能な領土を獲得します。\n"
+
+  pfp_merge_east_africa_sudan:0 "スーダンを東アフリカに吸収する"
+  pfp_merge_east_africa_sudan_desc:0 "東アフリカが統一されたので、§Yスーダン§!を国家に組み込むことができます。"
+  pfp_merge_east_africa_sudan_not_yet_absorbed_tt:0 "スーダンはまだ東アフリカに吸収されていません。"
+  pfp_merge_east_africa_sudan_effect_annex:0 "§Y東アフリカ§!は§Yスーダン§!を併合し、そのコアと編入可能な領土を獲得します。\n"

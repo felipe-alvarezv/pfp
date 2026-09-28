@@ -5077,9 +5077,15 @@
   pfp_merge_east_africa_tanganyika:0 "将坦噶尼喀并入东非"
   pfp_merge_east_africa_tanganyika_desc:0 "随着东非统一，我们现在可以将§Y坦噶尼喀§!纳入版图。"
   pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "坦噶尼喀尚未并入东非。"
+  pfp_merge_east_africa_tanganyika_requires_kenya_tt:0 "必须先将肯尼亚并入东非。"
   pfp_merge_east_africa_tanganyika_effect_annex:0 "§Y东非§!兼并§Y坦噶尼喀§!，获得其核心及可核心化领土。\n"
 
   pfp_merge_east_africa_ruanda_urundi:0 "将卢旺达-布隆迪并入东非"
   pfp_merge_east_africa_ruanda_urundi_desc:0 "随着东非统一，我们现在可以将§Y卢旺达-布隆迪§!纳入版图。"
   pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "卢旺达-布隆迪尚未并入东非。"
   pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§Y东非§!兼并§Y卢旺达-布隆迪§!，获得其核心及可核心化领土。\n"
+
+  pfp_merge_east_africa_sudan:0 "将苏丹并入东非"
+  pfp_merge_east_africa_sudan_desc:0 "随着东非统一，我们现在可以将§Y苏丹§!纳入版图。"
+  pfp_merge_east_africa_sudan_not_yet_absorbed_tt:0 "苏丹尚未并入东非。"
+  pfp_merge_east_africa_sudan_effect_annex:0 "§Y东非§!兼并§Y苏丹§!，获得其核心及可核心化领土。\n"

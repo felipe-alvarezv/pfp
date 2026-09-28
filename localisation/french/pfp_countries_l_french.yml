@@ -5077,9 +5077,15 @@
   pfp_merge_east_africa_tanganyika:0 "Absorber le Tanganyika dans l'Afrique de l'Est"
   pfp_merge_east_africa_tanganyika_desc:0 "L'Afrique de l'Est unifiée, nous pouvons désormais intégrer §YLe Tanganyika§! dans la nation."
   pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "Le Tanganyika n'a pas encore été absorbé dans l'Afrique de l'Est."
+  pfp_merge_east_africa_tanganyika_requires_kenya_tt:0 "Le Kenya doit d'abord être absorbé dans l'Afrique de l'Est."
   pfp_merge_east_africa_tanganyika_effect_annex:0 "§YL'Afrique de l'Est§! annexe §YLe Tanganyika§!, gagnant ses noyaux et territoires annexables.\n"
 
   pfp_merge_east_africa_ruanda_urundi:0 "Absorber le Ruanda-Urundi dans l'Afrique de l'Est"
   pfp_merge_east_africa_ruanda_urundi_desc:0 "L'Afrique de l'Est unifiée, nous pouvons désormais intégrer §YLe Ruanda-Urundi§! dans la nation."
   pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "Le Ruanda-Urundi n'a pas encore été absorbé dans l'Afrique de l'Est."
   pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§YL'Afrique de l'Est§! annexe §YLe Ruanda-Urundi§!, gagnant ses noyaux et territoires annexables.\n"
+
+  pfp_merge_east_africa_sudan:0 "Absorber le Soudan dans l'Afrique de l'Est"
+  pfp_merge_east_africa_sudan_desc:0 "L'Afrique de l'Est unifiée, nous pouvons désormais intégrer §YLe Soudan§! dans la nation."
+  pfp_merge_east_africa_sudan_not_yet_absorbed_tt:0 "Le Soudan n'a pas encore été absorbé dans l'Afrique de l'Est."
+  pfp_merge_east_africa_sudan_effect_annex:0 "§YL'Afrique de l'Est§! annexe §YLe Soudan§!, gagnant ses noyaux et territoires annexables.\n"

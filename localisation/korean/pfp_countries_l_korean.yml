@@ -5077,9 +5077,15 @@
   pfp_merge_east_africa_tanganyika:0 "탕가니카를 동아프리카에 흡수"
   pfp_merge_east_africa_tanganyika_desc:0 "동아프리카가 통일되어, 이제 §Y탕가니카§!를 국가에 통합할 수 있습니다."
   pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "탕가니카는 아직 동아프리카에 흡수되지 않았습니다."
+  pfp_merge_east_africa_tanganyika_requires_kenya_tt:0 "케냐를 먼저 동아프리카에 흡수해야 합니다."
   pfp_merge_east_africa_tanganyika_effect_annex:0 "§Y동아프리카§!는 §Y탕가니카§!를 병합하여 핵심지와 핵심화 가능 영토를 획득합니다.\n"
 
   pfp_merge_east_africa_ruanda_urundi:0 "루안다-우룬디를 동아프리카에 흡수"
   pfp_merge_east_africa_ruanda_urundi_desc:0 "동아프리카가 통일되어, 이제 §Y루안다-우룬디§!를 국가에 통합할 수 있습니다."
   pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "루안다-우룬디는 아직 동아프리카에 흡수되지 않았습니다."
   pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§Y동아프리카§!는 §Y루안다-우룬디§!를 병합하여 핵심지와 핵심화 가능 영토를 획득합니다.\n"
+
+  pfp_merge_east_africa_sudan:0 "수단을 동아프리카에 흡수"
+  pfp_merge_east_africa_sudan_desc:0 "동아프리카가 통일되어, 이제 §Y수단§!을 국가에 통합할 수 있습니다."
+  pfp_merge_east_africa_sudan_not_yet_absorbed_tt:0 "수단은 아직 동아프리카에 흡수되지 않았습니다."
+  pfp_merge_east_africa_sudan_effect_annex:0 "§Y동아프리카§!는 §Y수단§!을 병합하여 핵심지와 핵심화 가능 영토를 획득합니다.\n"

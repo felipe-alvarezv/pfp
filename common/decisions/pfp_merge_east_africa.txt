@@ -473,7 +473,7 @@ pfp_unification = {
 
 	# ----------------------------------------------------------------
 	# Formed East Africa + Tanganyika (Q62) -> absorb into East Africa
-	# Follow-up: only available after pfp_merge_east_africa has fired
+	# Follow-up: requires Kenya absorbed first (geographic link)
 	# ----------------------------------------------------------------
 	pfp_merge_east_africa_tanganyika = {
 		icon = generic_nationalism
@@ -494,6 +494,10 @@ pfp_unification = {
 			custom_trigger_tooltip = {
 				tooltip = pfp_merge_east_africa_is_formed_tt
 				any_subject_country = { has_country_flag = pfp_is_east_africa }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_east_africa_tanganyika_requires_kenya_tt
+				has_global_flag = pfp_east_africa_absorbed_kenya
 			}
 			Q62 = {
 				is_subject_of = ROOT
@@ -611,6 +615,79 @@ pfp_unification = {
 
 				clear_global_event_target = pfp_east_africa_country
 				set_global_flag = pfp_east_africa_absorbed_ruanda_urundi
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed East Africa + Sudan (Q31) -> absorb Sudan into East Africa
+	# Follow-up: only available after pfp_merge_east_africa has fired
+	# ----------------------------------------------------------------
+	pfp_merge_east_africa_sudan = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_east_africa_merged
+			NOT = { has_global_flag = pfp_east_africa_absorbed_sudan }
+			Q31 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_east_africa_sudan_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_east_africa_absorbed_sudan }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_east_africa_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_east_africa }
+			}
+			Q31 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_east_africa_sudan_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_east_africa }
+					save_global_event_target_as = pfp_east_africa_country
+					for_each_loop = {
+						array = Q31.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q31  has_contested_owner = Q31 } }
+					add_core_of = event_target:pfp_east_africa_country
+					add_contested_owner = event_target:pfp_east_africa_country
+					remove_core_of = Q31
+					remove_claim_by = Q31
+					remove_contested_owner = Q31
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_east_africa }
+					annex_country = { target = Q31 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_east_africa_country
+				set_global_flag = pfp_east_africa_absorbed_sudan
 			}
 		}
 

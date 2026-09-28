@@ -5079,9 +5079,15 @@
   pfp_merge_east_africa_tanganyika:0 "Absorb Tanganyika into East Africa"
   pfp_merge_east_africa_tanganyika_desc:0 "With East Africa unified, we can now bring §YTanganyika§! into the fold."
   pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt:0 "Tanganyika has not yet been absorbed into East Africa."
+  pfp_merge_east_africa_tanganyika_requires_kenya_tt:0 "Kenya must first be absorbed into East Africa."
   pfp_merge_east_africa_tanganyika_effect_annex:0 "§YEast Africa§! annexes §YTanganyika§!, gaining its cores and coreable territories.\n"
 
   pfp_merge_east_africa_ruanda_urundi:0 "Absorb Ruanda-Urundi into East Africa"
   pfp_merge_east_africa_ruanda_urundi_desc:0 "With East Africa unified, we can now bring §YRuanda-Urundi§! into the fold."
   pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "Ruanda-Urundi has not yet been absorbed into East Africa."
   pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§YEast Africa§! annexes §YRuanda-Urundi§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_east_africa_sudan:0 "Absorb Sudan into East Africa"
+  pfp_merge_east_africa_sudan_desc:0 "With East Africa unified, we can now bring §YSudan§! into the fold."
+  pfp_merge_east_africa_sudan_not_yet_absorbed_tt:0 "Sudan has not yet been absorbed into East Africa."
+  pfp_merge_east_africa_sudan_effect_annex:0 "§YEast Africa§! annexes §YSudan§!, gaining its cores and coreable territories.\n"
