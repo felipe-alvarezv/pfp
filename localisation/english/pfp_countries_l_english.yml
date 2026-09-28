@@ -5010,3 +5010,4 @@
   pfp_merge_usa_pacific_desc:0 "With the core United States restored, we can now integrate §YPacific U.S.§! into the nation."
   pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "The Pacific has not yet been absorbed into the United States."
   pfp_merge_usa_pacific_effect_annex:0 "§YThe United States§! annexes §YPacific U.S.§!, gaining its cores and coreable territories.\n"
+  pfp_merge_usa_pacific_requires_rockies_tt:0 "The Rocky Mountains must first be absorbed into the United States."

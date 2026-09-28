@@ -380,6 +380,7 @@ pfp_unification = {
 		visible = {
 			is_subject = no
 			has_global_flag = pfp_usa_merged
+			has_global_flag = pfp_usa_absorbed_rockies
 			NOT = { has_global_flag = pfp_usa_absorbed_pacific }
 			P21 = { is_subject_of = ROOT }
 		}
@@ -393,6 +394,10 @@ pfp_unification = {
 			custom_trigger_tooltip = {
 				tooltip = pfp_merge_usa_is_formed_tt
 				any_subject_country = { has_country_flag = pfp_is_united_states }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_usa_pacific_requires_rockies_tt
+				has_global_flag = pfp_usa_absorbed_rockies
 			}
 			P21 = {
 				is_subject_of = ROOT

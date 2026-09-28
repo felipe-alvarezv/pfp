@@ -5008,3 +5008,4 @@
   pfp_merge_usa_pacific_desc:0 "Com os Estados Unidos centrais restaurados, agora podemos integrar §YEUA Pacífico§! à nação."
   pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "O Pacífico ainda não foi absorvido pelos Estados Unidos."
   pfp_merge_usa_pacific_effect_annex:0 "§YOs Estados Unidos§! anexam §YEUA Pacífico§!, ganhando seus núcleos e territórios nucleáveis.\n"
+  pfp_merge_usa_pacific_requires_rockies_tt:0 "As Montanhas Rochosas devem primeiro ser absorvidas pelos Estados Unidos."

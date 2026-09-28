@@ -5008,3 +5008,4 @@
   pfp_merge_usa_pacific_desc:0 "核心美国恢复后，我们现在可以将§Y美国太平洋§!并入国家。"
   pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "太平洋地区尚未被美国吸收。"
   pfp_merge_usa_pacific_effect_annex:0 "§Y美利坚合众国§!吞并§Y美国太平洋§!，获得其核心及可核心化领土。\n"
+  pfp_merge_usa_pacific_requires_rockies_tt:0 "落基山脉必须首先并入美利坚合众国。"
