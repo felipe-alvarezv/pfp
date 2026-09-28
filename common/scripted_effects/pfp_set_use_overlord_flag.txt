@@ -10,7 +10,18 @@ pfp_set_use_overlord_flag = {
         if = {
             limit = { is_subject = yes }
 
+            # Merged nation puppets keep their own cosmetic tag regardless of overlord flag settings
             if = {
+                limit = { has_country_flag = pfp_is_canada }
+                set_cosmetic_tag = PFP_CANADA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_united_states }
+                set_cosmetic_tag = PFP_USA
+            }
+
+            else_if = {
                 limit = { overlord = { original_tag = GER } }
                 set_cosmetic_tag = PFP_GER_PUPPET
             }
@@ -126,12 +137,12 @@ pfp_set_use_overlord_flag = {
             # Merged nation puppets
             if = {
                 limit = { has_country_flag = pfp_is_canada }
-                set_cosmetic_tag = CAN
+                set_cosmetic_tag = PFP_CANADA
             }
 
             else_if = {
                 limit = { has_country_flag = pfp_is_united_states }
-                set_cosmetic_tag = USA
+                set_cosmetic_tag = PFP_USA
             }
 
             #Fascist Germany Cosmetic Tag

@@ -24,6 +24,9 @@
   PFP_USA:0 "Estados Unidos"
   PFP_USA_DEF:0 "Estados Unidos"
   PFP_USA_ADJ:0 "Americano"
+  PFP_CANADA:0 "Canadá"
+  PFP_CANADA_DEF:0 "Canadá"
+  PFP_CANADA_ADJ:0 "Canadense"
 
   PFP_FRANCE:0 "França"
   PFP_FRANCE_DEF:0 "França"

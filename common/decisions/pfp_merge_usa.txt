@@ -201,7 +201,7 @@ pfp_unification = {
 					P20 = {
 						annex_country = { target = P18 transfer_troops = yes }
 						annex_country = { target = P26 transfer_troops = yes }
-						set_cosmetic_tag = USA
+						set_cosmetic_tag = PFP_USA
 						set_country_flag = pfp_is_united_states
 					}
 				}
@@ -243,7 +243,7 @@ pfp_unification = {
 					P18 = {
 						annex_country = { target = P20 transfer_troops = yes }
 						annex_country = { target = P26 transfer_troops = yes }
-						set_cosmetic_tag = USA
+						set_cosmetic_tag = PFP_USA
 						set_country_flag = pfp_is_united_states
 					}
 				}
@@ -284,7 +284,7 @@ pfp_unification = {
 					P26 = {
 						annex_country = { target = P20 transfer_troops = yes }
 						annex_country = { target = P18 transfer_troops = yes }
-						set_cosmetic_tag = USA
+						set_cosmetic_tag = PFP_USA
 						set_country_flag = pfp_is_united_states
 					}
 				}

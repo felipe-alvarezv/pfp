@@ -714,6 +714,9 @@
   PFP_USA:0 "United States"
   PFP_USA_DEF:0 "United States"
   PFP_USA_ADJ:0 "American"
+  PFP_CANADA:0 "Canada"
+  PFP_CANADA_DEF:0 "Canada"
+  PFP_CANADA_ADJ:0 "Canadian"
 
   PFP_FRANCE:0 "France"
   PFP_FRANCE_DEF:0 "France"
