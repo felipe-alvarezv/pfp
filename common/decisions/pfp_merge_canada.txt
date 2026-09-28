@@ -11,7 +11,7 @@
 #   Requires Quebec (P22) as a PFP subject. Merges Quebec into formed Canada.
 ##########################################################################
 
-pfp_category = {
+pfp_unification = {
 
 	# ----------------------------------------------------------------
 	# Eastern Canada (P11) + Western Canada (P29) -> Canada
