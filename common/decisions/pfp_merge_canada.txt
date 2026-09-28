@@ -82,6 +82,9 @@ pfp_unification = {
 		fire_only_once = yes
 
 		complete_effect = {
+			custom_effect_tooltip = pfp_merge_canada_effect_form
+			custom_effect_tooltip = pfp_merge_canada_effect_annex
+			custom_effect_tooltip = pfp_merge_canada_effect_cores
 			hidden_effect = {
 				# Count total factories (mil + civ) for each puppet
 				P11 = {
@@ -223,6 +226,7 @@ pfp_unification = {
 		fire_only_once = yes
 
 		complete_effect = {
+			custom_effect_tooltip = pfp_merge_canada_quebec_effect_annex
 			hidden_effect = {
 				# Save a reference to the merged Canada so the state loop can add its cores,
 				# and transfer P22's coreable territories to it before P22 is annexed
