@@ -179,3 +179,6 @@ Q79 = "countries/Q79.txt" #Transcarpathia
 Q80 = "countries/Q80.txt" #Spain
 Q81 = "countries/Q81.txt" #Portugal
 Q82 = "countries/Q82.txt" #Venezuela
+
+PFP_CANADA = "countries/PFP_CANADA.txt" #Merged Canada cosmetic tag
+PFP_USA = "countries/PFP_USA.txt" #Merged USA cosmetic tag
