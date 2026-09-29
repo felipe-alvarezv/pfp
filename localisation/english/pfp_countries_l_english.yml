@@ -5193,6 +5193,7 @@
   pfp_merge_western_russia_karelia:0 "Absorb Karelia"
   pfp_merge_western_russia_karelia_desc:0 "Karelia can be absorbed into Western Russia."
   pfp_merge_western_russia_karelia_not_yet_absorbed_tt:0 "Karelia has not yet been absorbed."
+  pfp_merge_western_russia_karelia_is_absorbed_tt:0 "§YKarelia§! must be absorbed into §YWestern Russia§! first.\n"
   pfp_merge_western_russia_karelia_effect_annex:0 "§YWestern Russia§! annexes §YKarelia§!, gaining its cores and coreable territories.\n"
 
   pfp_merge_western_russia_murmansk:0 "Absorb Murmansk"

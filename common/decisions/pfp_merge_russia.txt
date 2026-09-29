@@ -313,6 +313,7 @@ pfp_unification = {
 		visible = {
 			is_subject = no
 			has_global_flag = pfp_western_russia_merged
+			has_global_flag = pfp_western_russia_absorbed_karelia
 			NOT = { has_global_flag = pfp_western_russia_absorbed_murmansk }
 			Q77 = { is_subject_of = ROOT }
 		}
@@ -326,6 +327,10 @@ pfp_unification = {
 			custom_trigger_tooltip = {
 				tooltip = pfp_merge_western_russia_is_formed_tt
 				any_subject_country = { has_country_flag = pfp_is_western_russia }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_karelia_is_absorbed_tt
+				has_global_flag = pfp_western_russia_absorbed_karelia
 			}
 			Q77 = {
 				is_subject_of = ROOT

@@ -5191,6 +5191,7 @@
   pfp_merge_western_russia_karelia:0 "Absorber la Carélie"
   pfp_merge_western_russia_karelia_desc:0 "La Carélie peut être absorbée dans la Russie Occidentale."
   pfp_merge_western_russia_karelia_not_yet_absorbed_tt:0 "La Carélie n'a pas encore été absorbée."
+  pfp_merge_western_russia_karelia_is_absorbed_tt:0 "§YLa Carélie§! doit d'abord être absorbée par §YRussie Occidentale§!.\n"
   pfp_merge_western_russia_karelia_effect_annex:0 "§YLa Russie Occidentale§! annexe §YLa Carélie§!, gagnant ses noyaux et territoires annexables.\n"
 
   pfp_merge_western_russia_murmansk:0 "Absorber Mourmansk"

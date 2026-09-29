@@ -5191,6 +5191,7 @@
   pfp_merge_western_russia_karelia:0 "카렐리야 흡수"
   pfp_merge_western_russia_karelia_desc:0 "카렐리야를 서부 러시아에 흡수할 수 있습니다."
   pfp_merge_western_russia_karelia_not_yet_absorbed_tt:0 "카렐리야는 아직 흡수되지 않았습니다."
+  pfp_merge_western_russia_karelia_is_absorbed_tt:0 "§Y카렐리야§!를 먼저 §Y서부 러시아§!에 흡수해야 합니다.\n"
   pfp_merge_western_russia_karelia_effect_annex:0 "§Y서부 러시아§!는 §Y카렐리야§!를 병합하여 핵심지와 핵심화 가능 영토를 획득합니다.\n"
 
   pfp_merge_western_russia_murmansk:0 "무르만스크 흡수"

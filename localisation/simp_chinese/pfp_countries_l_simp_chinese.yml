@@ -5191,6 +5191,7 @@
   pfp_merge_western_russia_karelia:0 "吸收卡累利阿"
   pfp_merge_western_russia_karelia_desc:0 "卡累利阿可以被西俄罗斯吸收。"
   pfp_merge_western_russia_karelia_not_yet_absorbed_tt:0 "卡累利阿尚未被吸收。"
+  pfp_merge_western_russia_karelia_is_absorbed_tt:0 "§Y卡累利阿§!必须先被§Y西俄罗斯§!吸收。\n"
   pfp_merge_western_russia_karelia_effect_annex:0 "§Y西俄罗斯§!兼并§Y卡累利阿§!，获得其核心及可核心化领土。\n"
 
   pfp_merge_western_russia_murmansk:0 "吸收摩尔曼斯克"

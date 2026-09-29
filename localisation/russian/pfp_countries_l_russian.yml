@@ -5191,6 +5191,7 @@
   pfp_merge_western_russia_karelia:0 "Поглотить Карелию"
   pfp_merge_western_russia_karelia_desc:0 "Карелия может быть поглощена Западной Россией."
   pfp_merge_western_russia_karelia_not_yet_absorbed_tt:0 "Карелия ещё не поглощена."
+  pfp_merge_western_russia_karelia_is_absorbed_tt:0 "§YКарелия§! должна быть поглощена §YЗападной Россией§! первой.\n"
   pfp_merge_western_russia_karelia_effect_annex:0 "§YЗападная Россия§! аннексирует §YКарелию§!, получая её ядра и присоединяемые территории.\n"
 
   pfp_merge_western_russia_murmansk:0 "Поглотить Мурманск"

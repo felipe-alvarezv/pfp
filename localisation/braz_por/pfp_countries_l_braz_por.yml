@@ -5191,6 +5191,7 @@
   pfp_merge_western_russia_karelia:0 "Absorver a Carélia"
   pfp_merge_western_russia_karelia_desc:0 "A Carélia pode ser absorvida pela Rússia Ocidental."
   pfp_merge_western_russia_karelia_not_yet_absorbed_tt:0 "A Carélia ainda não foi absorvida."
+  pfp_merge_western_russia_karelia_is_absorbed_tt:0 "§YA Carélia§! deve ser absorvida pela §YRússia Ocidental§! primeiro.\n"
   pfp_merge_western_russia_karelia_effect_annex:0 "§YA Rússia Ocidental§! anexa §YA Carélia§!, ganhando seus núcleos e territórios anexáveis.\n"
 
   pfp_merge_western_russia_murmansk:0 "Absorver Murmansk"

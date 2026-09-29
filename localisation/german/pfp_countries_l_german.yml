@@ -5191,6 +5191,7 @@
   pfp_merge_western_russia_karelia:0 "Karelien aufnehmen"
   pfp_merge_western_russia_karelia_desc:0 "Karelien kann in Westrussland aufgenommen werden."
   pfp_merge_western_russia_karelia_not_yet_absorbed_tt:0 "Karelien wurde noch nicht aufgenommen."
+  pfp_merge_western_russia_karelia_is_absorbed_tt:0 "§YKarelien§! muss zuerst in §YWestrussland§! aufgenommen werden.\n"
   pfp_merge_western_russia_karelia_effect_annex:0 "§YWestrussland§! annektiert §YKarelien§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
 
   pfp_merge_western_russia_murmansk:0 "Murmansk aufnehmen"
