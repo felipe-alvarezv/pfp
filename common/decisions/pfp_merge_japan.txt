@@ -1,0 +1,176 @@
+###########################################################################
+# MERGE DECISIONS - JAPAN
+# Allows the overlord to merge Japanese puppet states into a unified Japan.
+#
+# Decision 1: pfp_merge_japan
+#   Requires Hokkaido (P99), Tohoku (Q01), Kanto (Q02), Chubu (Q03),
+#   Kansai (Q04), Chugoku (Q05), Shikoku (Q06), and Kyushu (Q07)
+#   as PFP subjects.
+#   The puppet with the most total factories + scaled manpower becomes
+#   Japan (PFP_JAPAN).
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Hokkaido + Tohoku + Kanto + Chubu + Kansai + Chugoku + Shikoku
+	# + Kyushu -> Japan
+	# ----------------------------------------------------------------
+	pfp_merge_japan = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_japan_merged }
+			OR = {
+				P99 = { is_subject_of = ROOT }
+				Q01 = { is_subject_of = ROOT }
+				Q02 = { is_subject_of = ROOT }
+				Q03 = { is_subject_of = ROOT }
+				Q04 = { is_subject_of = ROOT }
+				Q05 = { is_subject_of = ROOT }
+				Q06 = { is_subject_of = ROOT }
+				Q07 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_japan_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_japan_merged }
+			}
+			P99 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+			}
+			Q01 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+			}
+			Q02 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+			}
+			Q03 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+			}
+			Q04 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+			}
+			Q05 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+			}
+			Q06 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+			}
+			Q07 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+			}
+			NOT = { P99 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { Q01 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { Q02 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { Q03 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { Q04 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { Q05 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { Q06 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { Q07 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_japan_effect_form
+			custom_effect_tooltip = pfp_merge_japan_effect_annex
+			custom_effect_tooltip = pfp_merge_japan_effect_cores
+			hidden_effect = {
+				# Score = mil factories + civ factories + (manpower / 100000)
+				P99 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				Q01 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				Q02 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				Q03 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				Q04 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				Q05 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				Q06 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				Q07 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+
+				# Initialize winner with P99, then linear challenge
+				P99 = { save_global_event_target_as = pfp_japan_winner }
+				if = { limit = { check_variable = { Q01.pfp_fac > event_target:pfp_japan_winner.pfp_fac } } Q01 = { save_global_event_target_as = pfp_japan_winner } }
+				if = { limit = { check_variable = { Q02.pfp_fac > event_target:pfp_japan_winner.pfp_fac } } Q02 = { save_global_event_target_as = pfp_japan_winner } }
+				if = { limit = { check_variable = { Q03.pfp_fac > event_target:pfp_japan_winner.pfp_fac } } Q03 = { save_global_event_target_as = pfp_japan_winner } }
+				if = { limit = { check_variable = { Q04.pfp_fac > event_target:pfp_japan_winner.pfp_fac } } Q04 = { save_global_event_target_as = pfp_japan_winner } }
+				if = { limit = { check_variable = { Q05.pfp_fac > event_target:pfp_japan_winner.pfp_fac } } Q05 = { save_global_event_target_as = pfp_japan_winner } }
+				if = { limit = { check_variable = { Q06.pfp_fac > event_target:pfp_japan_winner.pfp_fac } } Q06 = { save_global_event_target_as = pfp_japan_winner } }
+				if = { limit = { check_variable = { Q07.pfp_fac > event_target:pfp_japan_winner.pfp_fac } } Q07 = { save_global_event_target_as = pfp_japan_winner } }
+
+				# Transfer state cores/ownership from non-winner subjects to winner
+				if = { limit = { NOT = { event_target:pfp_japan_winner = { tag = P99 } } } every_state = { limit = { OR = { is_owned_by = P99 has_contested_owner = P99 } } add_core_of = event_target:pfp_japan_winner add_contested_owner = event_target:pfp_japan_winner remove_core_of = P99 remove_claim_by = P99 remove_contested_owner = P99 } }
+				if = { limit = { NOT = { event_target:pfp_japan_winner = { tag = Q01 } } } every_state = { limit = { OR = { is_owned_by = Q01 has_contested_owner = Q01 } } add_core_of = event_target:pfp_japan_winner add_contested_owner = event_target:pfp_japan_winner remove_core_of = Q01 remove_claim_by = Q01 remove_contested_owner = Q01 } }
+				if = { limit = { NOT = { event_target:pfp_japan_winner = { tag = Q02 } } } every_state = { limit = { OR = { is_owned_by = Q02 has_contested_owner = Q02 } } add_core_of = event_target:pfp_japan_winner add_contested_owner = event_target:pfp_japan_winner remove_core_of = Q02 remove_claim_by = Q02 remove_contested_owner = Q02 } }
+				if = { limit = { NOT = { event_target:pfp_japan_winner = { tag = Q03 } } } every_state = { limit = { OR = { is_owned_by = Q03 has_contested_owner = Q03 } } add_core_of = event_target:pfp_japan_winner add_contested_owner = event_target:pfp_japan_winner remove_core_of = Q03 remove_claim_by = Q03 remove_contested_owner = Q03 } }
+				if = { limit = { NOT = { event_target:pfp_japan_winner = { tag = Q04 } } } every_state = { limit = { OR = { is_owned_by = Q04 has_contested_owner = Q04 } } add_core_of = event_target:pfp_japan_winner add_contested_owner = event_target:pfp_japan_winner remove_core_of = Q04 remove_claim_by = Q04 remove_contested_owner = Q04 } }
+				if = { limit = { NOT = { event_target:pfp_japan_winner = { tag = Q05 } } } every_state = { limit = { OR = { is_owned_by = Q05 has_contested_owner = Q05 } } add_core_of = event_target:pfp_japan_winner add_contested_owner = event_target:pfp_japan_winner remove_core_of = Q05 remove_claim_by = Q05 remove_contested_owner = Q05 } }
+				if = { limit = { NOT = { event_target:pfp_japan_winner = { tag = Q06 } } } every_state = { limit = { OR = { is_owned_by = Q06 has_contested_owner = Q06 } } add_core_of = event_target:pfp_japan_winner add_contested_owner = event_target:pfp_japan_winner remove_core_of = Q06 remove_claim_by = Q06 remove_contested_owner = Q06 } }
+				if = { limit = { NOT = { event_target:pfp_japan_winner = { tag = Q07 } } } every_state = { limit = { OR = { is_owned_by = Q07 has_contested_owner = Q07 } } add_core_of = event_target:pfp_japan_winner add_contested_owner = event_target:pfp_japan_winner remove_core_of = Q07 remove_claim_by = Q07 remove_contested_owner = Q07 } }
+
+				# Transfer pfp_possible_cores arrays, annex non-winners, set tag and flag
+				event_target:pfp_japan_winner = {
+					if = { limit = { NOT = { tag = P99 } } for_each_loop = { array = P99.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q01 } } for_each_loop = { array = Q01.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q02 } } for_each_loop = { array = Q02.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q03 } } for_each_loop = { array = Q03.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q04 } } for_each_loop = { array = Q04.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q05 } } for_each_loop = { array = Q05.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q06 } } for_each_loop = { array = Q06.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q07 } } for_each_loop = { array = Q07.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P99 } } annex_country = { target = P99 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q01 } } annex_country = { target = Q01 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q02 } } annex_country = { target = Q02 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q03 } } annex_country = { target = Q03 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q04 } } annex_country = { target = Q04 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q05 } } annex_country = { target = Q05 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q06 } } annex_country = { target = Q06 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q07 } } annex_country = { target = Q07 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_JAPAN
+					set_country_flag = pfp_is_japan
+				}
+
+				clear_global_event_target = pfp_japan_winner
+				set_global_flag = pfp_japan_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

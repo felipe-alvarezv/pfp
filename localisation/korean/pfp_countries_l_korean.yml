@@ -5152,3 +5152,10 @@
   pfp_merge_italy_sardinia_desc:0 "이탈리아가 통일된 지금, §Y사르데냐§!를 편입하여 이탈리아 반도와 그 섬들에 대한 지배를 완성할 수 있습니다."
   pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "사르데냐는 아직 이탈리아에 흡수되지 않았습니다."
   pfp_merge_italy_sardinia_effect_annex:0 "§Y이탈리아§!는 §Y사르데냐§!를 병합하여 핵심지와 핵심화 가능 영토를 획득합니다.\n"
+
+  pfp_merge_japan:0 "일본 통일"
+  pfp_merge_japan_desc:0 "§Y홋카이도§!, §Y도호쿠§!, §Y간토§!, §Y주부§!, §Y간사이§!, §Y주고쿠§!, §Y시코쿠§!, §Y규슈§!는 일본 본도의 분열된 지역들입니다. 하나의 깃발 아래 통일함으로써 일본 국가를 복원할 수 있습니다. 산업적으로 가장 발전하고 인구가 많은 지역이 연합을 이끌며 나머지를 병합합니다."
+  pfp_merge_japan_not_yet_formed_tt:0 "일본은 아직 통일되지 않았습니다."
+  pfp_merge_japan_effect_form:0 "§Y일본§!은 산업적으로 가장 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
+  pfp_merge_japan_effect_annex:0 "§Y일본§!은 앞서 나열된 괴뢰들을 병합합니다.\n"
+  pfp_merge_japan_effect_cores:0 "§Y일본§!은 앞서 나열된 괴뢰들로부터 핵심지와 핵심화 가능 영토를 계승합니다.\n"

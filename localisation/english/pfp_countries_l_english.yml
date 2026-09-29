@@ -5154,3 +5154,10 @@
   pfp_merge_italy_sardinia_desc:0 "With Italy unified, we can now bring §YSardinia§! into the fold, completing our hold over the Italian peninsula and its islands."
   pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "Sardinia has not yet been absorbed into Italy."
   pfp_merge_italy_sardinia_effect_annex:0 "§YItaly§! annexes §YSardinia§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_japan:0 "Unite Japan"
+  pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§!, and §YKyushu§! are the divided regions of the Japanese home islands. By uniting them under one banner, we can restore the Japanese state. The most industrially developed and populated territory will lead the union, annexing the others."
+  pfp_merge_japan_not_yet_formed_tt:0 "Japan has not yet been unified."
+  pfp_merge_japan_effect_form:0 "§YJapan§! is formed by the most industrially developed and populated puppet.\n"
+  pfp_merge_japan_effect_annex:0 "§YJapan§! annexes the previously listed puppets.\n"
+  pfp_merge_japan_effect_cores:0 "§YJapan§! inherits cores and coreable territories from previously listed puppets.\n"

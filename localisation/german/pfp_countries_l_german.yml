@@ -5152,3 +5152,10 @@
   pfp_merge_italy_sardinia_desc:0 "Mit dem vereinten Italien können wir nun §YSardinien§! eingliedern und damit unsere Kontrolle über die italienische Halbinsel und ihre Inseln vervollständigen."
   pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "Sardinien wurde noch nicht in Italien eingegliedert."
   pfp_merge_italy_sardinia_effect_annex:0 "§YItalien§! annektiert §YSardinien§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
+
+  pfp_merge_japan:0 "Japan vereinen"
+  pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§! und §YKyushu§! sind die geteilten Regionen der japanischen Hauptinseln. Durch ihre Vereinigung unter einem Banner können wir den japanischen Staat wiederherstellen. Das am stärksten industrialisierte und bevölkerungsreichste Territorium wird die Union anführen und die anderen annektieren."
+  pfp_merge_japan_not_yet_formed_tt:0 "Japan wurde noch nicht vereint."
+  pfp_merge_japan_effect_form:0 "§YJapan§! wird durch den am stärksten industrialisierten und bevölkerungsreichsten Marionettenstaat gebildet.\n"
+  pfp_merge_japan_effect_annex:0 "§YJapan§! annektiert die zuvor genannten Marionettenstaaten.\n"
+  pfp_merge_japan_effect_cores:0 "§YJapan§! übernimmt Kerngebiete und annektierbare Territorien der zuvor genannten Marionettenstaaten.\n"
