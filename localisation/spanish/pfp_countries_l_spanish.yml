@@ -5117,3 +5117,4 @@
   pfp_merge_germany_konigsberg_desc:0 "Con Alemania unificada, ahora podemos incorporar §YKönigsberg§! a la nación."
   pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg aún no ha sido absorbido en Alemania."
   pfp_merge_germany_konigsberg_effect_annex:0 "§YAlemania§! anexa §YKönigsberg§!, ganando sus núcleos y territorios anexables.\n"
+  pfp_merge_germany_requires_combo_tt:0 "Se requiere una combinación válida de marionetas alemanas: §YAlemania Occidental§! + §YAlemania Oriental§!, §YPrusia§! + §YAlemania Occidental§!, §YAlemania del Norte§! + §YAlemania del Sur§!, o §YPrusia§! + §YAlemania del Sur§!.\n"

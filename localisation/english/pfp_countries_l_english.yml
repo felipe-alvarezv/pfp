@@ -5119,3 +5119,4 @@
   pfp_merge_germany_konigsberg_desc:0 "With Germany unified, we can now bring §YKönigsberg§! into the fold."
   pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg has not yet been absorbed into Germany."
   pfp_merge_germany_konigsberg_effect_annex:0 "§YGermany§! annexes §YKönigsberg§!, gaining its cores and coreable territories.\n"
+  pfp_merge_germany_requires_combo_tt:0 "A valid combination of German puppets is required: §YWest Germany§! + §YEast Germany§!, §YPrussia§! + §YWest Germany§!, §YNorth Germany§! + §YSouth Germany§!, or §YPrussia§! + §YSouth Germany§!.\n"

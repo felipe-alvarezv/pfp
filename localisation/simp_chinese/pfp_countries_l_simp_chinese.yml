@@ -5117,3 +5117,4 @@
   pfp_merge_germany_konigsberg_desc:0 "随着德国统一，我们现在可以将§Y柯尼斯堡§!纳入版图。"
   pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "柯尼斯堡尚未并入德国。"
   pfp_merge_germany_konigsberg_effect_annex:0 "§Y德国§!兼并§Y柯尼斯堡§!，获得其核心及可核心化领土。\n"
+  pfp_merge_germany_requires_combo_tt:0 "需要一个有效的德国傀儡组合：§Y西德§! + §Y东德§!、§Y普鲁士§! + §Y西德§!、§Y北德意志§! + §Y南德意志§!，或§Y普鲁士§! + §Y南德意志§!。\n"

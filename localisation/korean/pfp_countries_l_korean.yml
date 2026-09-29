@@ -5117,3 +5117,4 @@
   pfp_merge_germany_konigsberg_desc:0 "독일이 통일되어, 이제 §Y쾨니히스베르크§!를 국가에 통합할 수 있습니다."
   pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "쾨니히스베르크는 아직 독일에 흡수되지 않았습니다."
   pfp_merge_germany_konigsberg_effect_annex:0 "§Y독일§!은 §Y쾨니히스베르크§!를 병합하여 핵심지와 핵심화 가능 영토를 획득합니다.\n"
+  pfp_merge_germany_requires_combo_tt:0 "유효한 독일 괴뢰 조합이 필요합니다: §Y서독§! + §Y동독§!, §Y프로이센§! + §Y서독§!, §Y북독일§! + §Y남독일§!, 또는 §Y프로이센§! + §Y남독일§!.\n"

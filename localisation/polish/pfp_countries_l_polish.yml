@@ -5117,3 +5117,4 @@
   pfp_merge_germany_konigsberg_desc:0 "Po zjednoczeniu Niemiec możemy teraz włączyć §YKrólewiec§! do narodu."
   pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Królewiec nie został jeszcze wchłonięty przez Niemcy."
   pfp_merge_germany_konigsberg_effect_annex:0 "§YNiemcy§! anektują §YKrólewiec§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
+  pfp_merge_germany_requires_combo_tt:0 "Wymagana jest prawidłowa kombinacja niemieckich marionetek: §YNiemcy Zachodnie§! + §YNiemcy Wschodnie§!, §YPrusy§! + §YNiemcy Zachodnie§!, §YNiemcy Północne§! + §YNiemcy Południowe§!, lub §YPrusy§! + §YNiemcy Południowe§!.\n"

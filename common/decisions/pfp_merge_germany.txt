@@ -3,7 +3,11 @@
 # Allows the overlord to merge German puppet states into a unified Germany.
 #
 # Decision 1: pfp_merge_germany
-#   Requires West Germany (P31) and East Germany (P32) as PFP subjects.
+#   Requires one of four valid pairings as PFP subjects:
+#     West Germany (P31) + East Germany  (P32)
+#     Prussia      (P33) + West Germany  (P31)
+#     North Germany(P19) + South Germany (P25)
+#     Prussia      (P33) + South Germany (P25)
 #   The puppet with the most total factories + scaled manpower becomes Germany.
 #
 # Follow-up decisions (available after Germany is formed):
@@ -13,7 +17,8 @@
 pfp_unification = {
 
 	# ----------------------------------------------------------------
-	# West Germany (P31) + East Germany (P32) -> Germany
+	# Any valid German pairing -> Germany
+	# Valid combos: P31+P32 | P31+P33 | P19+P25 | P25+P33
 	# ----------------------------------------------------------------
 	pfp_merge_germany = {
 		icon = generic_nationalism
@@ -22,8 +27,11 @@ pfp_unification = {
 			is_subject = no
 			NOT = { has_global_flag = pfp_germany_merged }
 			OR = {
+				P19 = { is_subject_of = ROOT }
+				P25 = { is_subject_of = ROOT }
 				P31 = { is_subject_of = ROOT }
 				P32 = { is_subject_of = ROOT }
+				P33 = { is_subject_of = ROOT }
 			}
 		}
 
@@ -33,46 +41,28 @@ pfp_unification = {
 				tooltip = pfp_merge_germany_not_yet_formed_tt
 				NOT = { has_global_flag = pfp_germany_merged }
 			}
-			P31 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
+			# At least one valid pairing must be present
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_germany_requires_combo_tt
+				OR = {
+					AND = { P31 = { is_subject_of = ROOT } P32 = { is_subject_of = ROOT } }
+					AND = { P31 = { is_subject_of = ROOT } P33 = { is_subject_of = ROOT } }
+					AND = { P19 = { is_subject_of = ROOT } P25 = { is_subject_of = ROOT } }
+					AND = { P33 = { is_subject_of = ROOT } P25 = { is_subject_of = ROOT } }
 				}
 			}
-			P32 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
-			}
+			# Each present subject must have military occupation autonomy
+			OR = { NOT = { P19 = { is_subject_of = ROOT } } P19 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
+			OR = { NOT = { P25 = { is_subject_of = ROOT } } P25 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
+			OR = { NOT = { P31 = { is_subject_of = ROOT } } P31 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
+			OR = { NOT = { P32 = { is_subject_of = ROOT } } P32 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
+			OR = { NOT = { P33 = { is_subject_of = ROOT } } P33 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
+			# Each present subject must have cored all its owned territories
+			OR = { NOT = { P19 = { is_subject_of = ROOT } } NOT = { P19 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } } }
+			OR = { NOT = { P25 = { is_subject_of = ROOT } } NOT = { P25 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } } }
+			OR = { NOT = { P31 = { is_subject_of = ROOT } } NOT = { P31 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } } }
+			OR = { NOT = { P32 = { is_subject_of = ROOT } } NOT = { P32 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } } }
+			OR = { NOT = { P33 = { is_subject_of = ROOT } } NOT = { P33 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } } }
 		}
 
 		fire_only_once = yes
@@ -83,30 +73,51 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_germany_effect_cores
 			hidden_effect = {
 				# Score = mil factories + civ factories + (manpower / 100000)
-				# P31 West Germany initializes as default winner.
-				P31 = {
-					set_variable = { pfp_fac = num_of_military_factories }
-					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
-					save_global_event_target_as = pfp_germany_winner
-				}
-				P32 = {
-					set_variable = { pfp_fac = num_of_military_factories }
-					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
-					if = {
-						limit = { check_variable = { pfp_fac > event_target:pfp_germany_winner.pfp_fac } }
-						save_global_event_target_as = pfp_germany_winner
+				# Only score tags that are actually subjects.
+				if = { limit = { P19 = { is_subject_of = ROOT } } P19 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } } }
+				if = { limit = { P25 = { is_subject_of = ROOT } } P25 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } } }
+				if = { limit = { P31 = { is_subject_of = ROOT } } P31 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } } }
+				if = { limit = { P32 = { is_subject_of = ROOT } } P32 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } } }
+				if = { limit = { P33 = { is_subject_of = ROOT } } P33 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } } }
+
+				# Initialize winner with first present subject, then linear challenge.
+				if = { limit = { P19 = { is_subject_of = ROOT } } P19 = { save_global_event_target_as = pfp_germany_winner } }
+				else_if = { limit = { P25 = { is_subject_of = ROOT } } P25 = { save_global_event_target_as = pfp_germany_winner } }
+				else_if = { limit = { P31 = { is_subject_of = ROOT } } P31 = { save_global_event_target_as = pfp_germany_winner } }
+				else_if = { limit = { P32 = { is_subject_of = ROOT } } P32 = { save_global_event_target_as = pfp_germany_winner } }
+				else_if = { limit = { P33 = { is_subject_of = ROOT } } P33 = { save_global_event_target_as = pfp_germany_winner } }
+
+				if = { limit = { P19 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P19 } } check_variable = { P19.pfp_fac > event_target:pfp_germany_winner.pfp_fac } } P19 = { save_global_event_target_as = pfp_germany_winner } }
+				if = { limit = { P25 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P25 } } check_variable = { P25.pfp_fac > event_target:pfp_germany_winner.pfp_fac } } P25 = { save_global_event_target_as = pfp_germany_winner } }
+				if = { limit = { P31 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P31 } } check_variable = { P31.pfp_fac > event_target:pfp_germany_winner.pfp_fac } } P31 = { save_global_event_target_as = pfp_germany_winner } }
+				if = { limit = { P32 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P32 } } check_variable = { P32.pfp_fac > event_target:pfp_germany_winner.pfp_fac } } P32 = { save_global_event_target_as = pfp_germany_winner } }
+				if = { limit = { P33 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P33 } } check_variable = { P33.pfp_fac > event_target:pfp_germany_winner.pfp_fac } } P33 = { save_global_event_target_as = pfp_germany_winner } }
+
+				# Transfer state cores/ownership from all non-winner subjects to winner
+				if = {
+					limit = { P19 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P19 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = P19  has_contested_owner = P19 } }
+						add_core_of = event_target:pfp_germany_winner
+						add_contested_owner = event_target:pfp_germany_winner
+						remove_core_of = P19
+						remove_claim_by = P19
+						remove_contested_owner = P19
 					}
 				}
-
-				# Transfer state cores/ownership from loser to winner
 				if = {
-					limit = { NOT = { event_target:pfp_germany_winner = { tag = P31 } } }
+					limit = { P25 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P25 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = P25  has_contested_owner = P25 } }
+						add_core_of = event_target:pfp_germany_winner
+						add_contested_owner = event_target:pfp_germany_winner
+						remove_core_of = P25
+						remove_claim_by = P25
+						remove_contested_owner = P25
+					}
+				}
+				if = {
+					limit = { P31 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P31 } } }
 					every_state = {
 						limit = { OR = { is_owned_by = P31  has_contested_owner = P31 } }
 						add_core_of = event_target:pfp_germany_winner
@@ -117,7 +128,7 @@ pfp_unification = {
 					}
 				}
 				if = {
-					limit = { NOT = { event_target:pfp_germany_winner = { tag = P32 } } }
+					limit = { P32 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P32 } } }
 					every_state = {
 						limit = { OR = { is_owned_by = P32  has_contested_owner = P32 } }
 						add_core_of = event_target:pfp_germany_winner
@@ -127,27 +138,30 @@ pfp_unification = {
 						remove_contested_owner = P32
 					}
 				}
+				if = {
+					limit = { P33 = { is_subject_of = ROOT } NOT = { event_target:pfp_germany_winner = { tag = P33 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = P33  has_contested_owner = P33 } }
+						add_core_of = event_target:pfp_germany_winner
+						add_contested_owner = event_target:pfp_germany_winner
+						remove_core_of = P33
+						remove_claim_by = P33
+						remove_contested_owner = P33
+					}
+				}
 
-				# Transfer pfp_possible_cores arrays, annex loser, set tag and flag
+				# Transfer pfp_possible_cores arrays, annex non-winner subjects, set tag and flag
 				event_target:pfp_germany_winner = {
-					if = {
-						limit = { NOT = { tag = P31 } }
-						for_each_loop = {
-							array = P31.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = P32 } }
-						for_each_loop = {
-							array = P32.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = { limit = { NOT = { tag = P31 } } annex_country = { target = P31 transfer_troops = yes } }
-					if = { limit = { NOT = { tag = P32 } } annex_country = { target = P32 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P19 } P19 = { is_subject_of = ROOT } } for_each_loop = { array = P19.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P25 } P25 = { is_subject_of = ROOT } } for_each_loop = { array = P25.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P31 } P31 = { is_subject_of = ROOT } } for_each_loop = { array = P31.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P32 } P32 = { is_subject_of = ROOT } } for_each_loop = { array = P32.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P33 } P33 = { is_subject_of = ROOT } } for_each_loop = { array = P33.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P19 } P19 = { is_subject_of = ROOT } } annex_country = { target = P19 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P25 } P25 = { is_subject_of = ROOT } } annex_country = { target = P25 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P31 } P31 = { is_subject_of = ROOT } } annex_country = { target = P31 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P32 } P32 = { is_subject_of = ROOT } } annex_country = { target = P32 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P33 } P33 = { is_subject_of = ROOT } } annex_country = { target = P33 transfer_troops = yes } }
 					set_cosmetic_tag = PFP_GERMANY
 					set_country_flag = pfp_is_germany
 				}
