@@ -5139,3 +5139,16 @@
   pfp_merge_iberia_effect_form:0 "§Y伊比利亚§!由工业最发达、人口最多的傀儡组建。\n"
   pfp_merge_iberia_effect_annex:0 "§Y伊比利亚§!兼并前述傀儡。\n"
   pfp_merge_iberia_effect_cores:0 "§Y伊比利亚§!从前述傀儡继承核心及可核心化领土。\n"
+
+  pfp_merge_italy:0 "统一意大利"
+  pfp_merge_italy_desc:0 "§Y伦巴第-威尼西亚§!、§Y皮埃蒙特§!、§Y托斯卡纳§!、§Y教皇国§!和§Y两西西里§!是这座伟大半岛的碎片。通过将它们统一在一面旗帜下，我们可以缔造统一的意大利国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
+  pfp_merge_italy_not_yet_formed_tt:0 "意大利尚未统一。"
+  pfp_merge_italy_effect_form:0 "§Y意大利§!由工业最发达、人口最多的傀儡组建。\n"
+  pfp_merge_italy_effect_annex:0 "§Y意大利§!兼并前述傀儡。\n"
+  pfp_merge_italy_effect_cores:0 "§Y意大利§!从前述傀儡继承核心及可核心化领土。\n"
+  pfp_merge_italy_is_formed_tt:0 "统一的意大利存在于我们的傀儡之中。"
+
+  pfp_merge_italy_sardinia:0 "将撒丁岛并入意大利"
+  pfp_merge_italy_sardinia_desc:0 "意大利统一后，我们现在可以将§Y撒丁岛§!纳入版图，完成对意大利半岛及其岛屿的控制。"
+  pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "撒丁岛尚未被意大利吸收。"
+  pfp_merge_italy_sardinia_effect_annex:0 "§Y意大利§!兼并§Y撒丁岛§!，获得其核心及可核心化领土。\n"

@@ -5141,3 +5141,16 @@
   pfp_merge_iberia_effect_form:0 "§YIberia§! is formed by the most industrially developed and populated puppet.\n"
   pfp_merge_iberia_effect_annex:0 "§YIberia§! annexes the previously listed puppet.\n"
   pfp_merge_iberia_effect_cores:0 "§YIberia§! inherits cores and coreable territories from the previously listed puppet.\n"
+
+  pfp_merge_italy:0 "Unite Italy"
+  pfp_merge_italy_desc:0 "§YLombardy-Venetia§!, §YPiedmont§!, §YTuscany§!, §YThe Papal States§!, and §YThe Two Sicilies§! are the fragmented pieces of a once-great peninsula. By uniting them under one banner, we can forge a unified Italian state. The most industrially developed and populated territory will lead the union, annexing the others."
+  pfp_merge_italy_not_yet_formed_tt:0 "Italy has not yet been unified."
+  pfp_merge_italy_effect_form:0 "§YItaly§! is formed by the most industrially developed and populated puppet.\n"
+  pfp_merge_italy_effect_annex:0 "§YItaly§! annexes the previously listed puppets.\n"
+  pfp_merge_italy_effect_cores:0 "§YItaly§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_italy_is_formed_tt:0 "A unified Italy exists among our puppets."
+
+  pfp_merge_italy_sardinia:0 "Absorb Sardinia into Italy"
+  pfp_merge_italy_sardinia_desc:0 "With Italy unified, we can now bring §YSardinia§! into the fold, completing our hold over the Italian peninsula and its islands."
+  pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "Sardinia has not yet been absorbed into Italy."
+  pfp_merge_italy_sardinia_effect_annex:0 "§YItaly§! annexes §YSardinia§!, gaining its cores and coreable territories.\n"

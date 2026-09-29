@@ -5139,3 +5139,16 @@
   pfp_merge_iberia_effect_form:0 "§Yイベリア§!は最も工業が発展し人口の多い傀儡によって形成されます。\n"
   pfp_merge_iberia_effect_annex:0 "§Yイベリア§!は前述の傀儡を併合します。\n"
   pfp_merge_iberia_effect_cores:0 "§Yイベリア§!は前述の傀儡からコアと編入可能な領土を継承します。\n"
+
+  pfp_merge_italy:0 "イタリアを統一する"
+  pfp_merge_italy_desc:0 "§Yロンバルディア＝ヴェネツィア§!、§Yピエモンテ§!、§Yトスカーナ§!、§Y教皇領§!、および§Y両シチリア§!はかつて偉大な半島の断片です。一つの旗の下に統一することで、統一イタリア国家を築くことができます。最も工業が発展し人口の多い地域が連合を率い、他を併合します。"
+  pfp_merge_italy_not_yet_formed_tt:0 "イタリアはまだ統一されていません。"
+  pfp_merge_italy_effect_form:0 "§Yイタリア§!は最も工業が発展し人口の多い傀儡によって形成されます。\n"
+  pfp_merge_italy_effect_annex:0 "§Yイタリア§!は前述の傀儡を併合します。\n"
+  pfp_merge_italy_effect_cores:0 "§Yイタリア§!は前述の傀儡からコアと編入可能な領土を継承します。\n"
+  pfp_merge_italy_is_formed_tt:0 "統一されたイタリアが我々の傀儡の中に存在します。"
+
+  pfp_merge_italy_sardinia:0 "サルデーニャをイタリアに吸収する"
+  pfp_merge_italy_sardinia_desc:0 "イタリアが統一された今、§Yサルデーニャ§!を取り込み、イタリア半島とその島々への支配を完成させることができます。"
+  pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "サルデーニャはまだイタリアに吸収されていません。"
+  pfp_merge_italy_sardinia_effect_annex:0 "§Yイタリア§!は§Yサルデーニャ§!を併合し、そのコアと編入可能な領土を獲得します。\n"

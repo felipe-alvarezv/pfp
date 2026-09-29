@@ -5139,3 +5139,16 @@
   pfp_merge_iberia_effect_form:0 "§YIberia§! jest tworzona przez najbardziej uprzemysłowioną i zaludnioną marionetkę.\n"
   pfp_merge_iberia_effect_annex:0 "§YIberia§! anektuje wcześniej wymienioną marionetkę.\n"
   pfp_merge_iberia_effect_cores:0 "§YIberia§! dziedziczy rdzenie i możliwe do zrdzeniowania terytoria z wcześniej wymienionej marionetki.\n"
+
+  pfp_merge_italy:0 "Zjednoczyć Włochy"
+  pfp_merge_italy_desc:0 "§YLombardia-Wenecja§!, §YPiemont§!, §YToskania§!, §YPaństwo Kościelne§! i §YDwie Sycylie§! to fragmenty niegdyś wielkiego półwyspu. Jednocząc je pod jednym sztandarem, możemy ukształtować zjednoczone państwo włoskie. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_italy_not_yet_formed_tt:0 "Włochy nie zostały jeszcze zjednoczone."
+  pfp_merge_italy_effect_form:0 "§YWłochy§! są tworzone przez najbardziej uprzemysłowioną i zaludnioną marionetkę.\n"
+  pfp_merge_italy_effect_annex:0 "§YWłochy§! anektują wcześniej wymienione marionetki.\n"
+  pfp_merge_italy_effect_cores:0 "§YWłochy§! dziedziczą rdzenie i możliwe do zrdzeniowania terytoria z wcześniej wymienionych marionetek.\n"
+  pfp_merge_italy_is_formed_tt:0 "Zjednoczone Włochy istnieją wśród naszych marionetek."
+
+  pfp_merge_italy_sardinia:0 "Wchłonąć Sardynię do Włoch"
+  pfp_merge_italy_sardinia_desc:0 "Ze zjednoczonymi Włochami możemy teraz włączyć §YSardynię§! do naszych posiadłości, kończąc kontrolę nad półwyspem włoskim i jego wyspami."
+  pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "Sardynia nie została jeszcze wchłonięta przez Włochy."
+  pfp_merge_italy_sardinia_effect_annex:0 "§YWłochy§! anektują §YSardynię§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"

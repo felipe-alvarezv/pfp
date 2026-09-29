@@ -5139,3 +5139,16 @@
   pfp_merge_iberia_effect_form:0 "§YIberia§! es formada por el títere más industrialmente desarrollado y poblado.\n"
   pfp_merge_iberia_effect_annex:0 "§YIberia§! anexa el títere previamente listado.\n"
   pfp_merge_iberia_effect_cores:0 "§YIberia§! hereda los núcleos y territorios anexables del títere previamente listado.\n"
+
+  pfp_merge_italy:0 "Unir Italia"
+  pfp_merge_italy_desc:0 "§YLombardia-Venecia§!, §YPiamonte§!, §YToscana§!, §YLos Estados Pontificios§! y §YLas Dos Sicilias§! son los fragmentos dispersos de una gran península. Al unirlos bajo una misma bandera, podemos forjar un Estado italiano unificado. El territorio más industrialmente desarrollado y poblado liderará la unión, anexando a los demás."
+  pfp_merge_italy_not_yet_formed_tt:0 "Italia no ha sido unificada todavía."
+  pfp_merge_italy_effect_form:0 "§YItalia§! es formada por el títere más industrialmente desarrollado y poblado.\n"
+  pfp_merge_italy_effect_annex:0 "§YItalia§! anexa los títeres previamente listados.\n"
+  pfp_merge_italy_effect_cores:0 "§YItalia§! hereda los núcleos y territorios anexables de los títeres previamente listados.\n"
+  pfp_merge_italy_is_formed_tt:0 "Una Italia unificada existe entre nuestros títeres."
+
+  pfp_merge_italy_sardinia:0 "Absorber Cerdeña en Italia"
+  pfp_merge_italy_sardinia_desc:0 "Con Italia unificada, ahora podemos traer §YCerdeña§! al redil, completando nuestro dominio sobre la península italiana y sus islas."
+  pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "Cerdeña no ha sido absorbida en Italia todavía."
+  pfp_merge_italy_sardinia_effect_annex:0 "§YItalia§! anexa §YCerdeña§!, ganando sus núcleos y territorios anexables.\n"

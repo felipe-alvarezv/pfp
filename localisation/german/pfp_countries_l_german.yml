@@ -5139,3 +5139,16 @@
   pfp_merge_iberia_effect_form:0 "§YIberien§! wird durch den am stärksten industrialisierten und bevölkerungsreichsten Marionettenstaat gebildet.\n"
   pfp_merge_iberia_effect_annex:0 "§YIberien§! annektiert den zuvor genannten Marionettenstaat.\n"
   pfp_merge_iberia_effect_cores:0 "§YIberien§! übernimmt Kerngebiete und annektierbare Territorien des zuvor genannten Marionettenstaats.\n"
+
+  pfp_merge_italy:0 "Italien vereinen"
+  pfp_merge_italy_desc:0 "§YLombardei-Venetien§!, §YPiemont§!, §YToskana§!, §YDer Kirchenstaat§! und §YDie Beiden Sizilien§! sind die zersplitterten Teile einer einst großen Halbinsel. Durch ihre Vereinigung unter einem Banner können wir einen vereinten italienischen Staat schmieden. Das am stärksten industrialisierte und bevölkerungsreichste Territorium wird die Union anführen und die anderen annektieren."
+  pfp_merge_italy_not_yet_formed_tt:0 "Italien wurde noch nicht vereint."
+  pfp_merge_italy_effect_form:0 "§YItalien§! wird durch den am stärksten industrialisierten und bevölkerungsreichsten Marionettenstaat gebildet.\n"
+  pfp_merge_italy_effect_annex:0 "§YItalien§! annektiert die zuvor genannten Marionettenstaaten.\n"
+  pfp_merge_italy_effect_cores:0 "§YItalien§! übernimmt Kerngebiete und annektierbare Territorien der zuvor genannten Marionettenstaaten.\n"
+  pfp_merge_italy_is_formed_tt:0 "Ein vereintes Italien existiert unter unseren Marionettenstaaten."
+
+  pfp_merge_italy_sardinia:0 "Sardinien in Italien eingliedern"
+  pfp_merge_italy_sardinia_desc:0 "Mit dem vereinten Italien können wir nun §YSardinien§! eingliedern und damit unsere Kontrolle über die italienische Halbinsel und ihre Inseln vervollständigen."
+  pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "Sardinien wurde noch nicht in Italien eingegliedert."
+  pfp_merge_italy_sardinia_effect_annex:0 "§YItalien§! annektiert §YSardinien§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"

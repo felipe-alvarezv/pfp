@@ -5139,3 +5139,16 @@
   pfp_merge_iberia_effect_form:0 "§YL'Ibérie§! est formée par la marionnette la plus industriellement développée et peuplée.\n"
   pfp_merge_iberia_effect_annex:0 "§YL'Ibérie§! annexe la marionnette précédemment listée.\n"
   pfp_merge_iberia_effect_cores:0 "§YL'Ibérie§! hérite des noyaux et des territoires annexables de la marionnette précédemment listée.\n"
+
+  pfp_merge_italy:0 "Unifier l'Italie"
+  pfp_merge_italy_desc:0 "§YLa Lombardie-Vénétie§!, §YLe Piémont§!, §YLa Toscane§!, §YLes États pontificaux§! et §YLes Deux-Siciles§! sont les fragments épars d'une grande péninsule. En les unissant sous une même bannière, nous pouvons forger un État italien unifié. Le territoire le plus industriellement développé et peuplé dirigera l'union en annexant les autres."
+  pfp_merge_italy_not_yet_formed_tt:0 "L'Italie n'a pas encore été unifiée."
+  pfp_merge_italy_effect_form:0 "§YL'Italie§! est formée par la marionnette la plus industriellement développée et peuplée.\n"
+  pfp_merge_italy_effect_annex:0 "§YL'Italie§! annexe les marionnettes précédemment listées.\n"
+  pfp_merge_italy_effect_cores:0 "§YL'Italie§! hérite des noyaux et des territoires annexables des marionnettes précédemment listées.\n"
+  pfp_merge_italy_is_formed_tt:0 "Une Italie unifiée existe parmi nos marionnettes."
+
+  pfp_merge_italy_sardinia:0 "Absorber la Sardaigne dans l'Italie"
+  pfp_merge_italy_sardinia_desc:0 "Avec l'Italie unifiée, nous pouvons maintenant intégrer §YLa Sardaigne§! dans notre giron, complétant notre emprise sur la péninsule italienne et ses îles."
+  pfp_merge_italy_sardinia_not_yet_absorbed_tt:0 "La Sardaigne n'a pas encore été absorbée dans l'Italie."
+  pfp_merge_italy_sardinia_effect_annex:0 "§YL'Italie§! annexe §YLa Sardaigne§!, gagnant ses noyaux et territoires annexables.\n"
