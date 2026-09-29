@@ -1,0 +1,115 @@
+###########################################################################
+# MERGE DECISIONS - IBERIA
+# Allows the overlord to merge Iberian puppet states into a unified Iberia.
+#
+# Decision 1: pfp_merge_iberia
+#   Requires Spain (Q80) and Portugal (Q81) as PFP subjects.
+#   The puppet with the most total factories + scaled manpower becomes
+#   Iberia (PFP_IBERIA).
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Spain + Portugal -> Iberia
+	# ----------------------------------------------------------------
+	pfp_merge_iberia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_iberia_merged }
+			OR = {
+				Q80 = { is_subject_of = ROOT }
+				Q81 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_iberia_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_iberia_merged }
+			}
+			Q80 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			Q81 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			NOT = { Q80 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { Q81 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_iberia_effect_form
+			custom_effect_tooltip = pfp_merge_iberia_effect_annex
+			custom_effect_tooltip = pfp_merge_iberia_effect_cores
+			hidden_effect = {
+				# Score = mil factories + civ factories + (manpower / 100000)
+				Q80 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				Q81 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+
+				# Initialize winner with Q80, challenge with Q81
+				Q80 = { save_global_event_target_as = pfp_iberia_winner }
+				if = { limit = { check_variable = { Q81.pfp_fac > event_target:pfp_iberia_winner.pfp_fac } } Q81 = { save_global_event_target_as = pfp_iberia_winner } }
+
+				# Transfer state cores/ownership from non-winner to winner
+				if = {
+					limit = { NOT = { event_target:pfp_iberia_winner = { tag = Q80 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q80  has_contested_owner = Q80 } }
+						add_core_of = event_target:pfp_iberia_winner
+						add_contested_owner = event_target:pfp_iberia_winner
+						remove_core_of = Q80
+						remove_claim_by = Q80
+						remove_contested_owner = Q80
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_iberia_winner = { tag = Q81 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q81  has_contested_owner = Q81 } }
+						add_core_of = event_target:pfp_iberia_winner
+						add_contested_owner = event_target:pfp_iberia_winner
+						remove_core_of = Q81
+						remove_claim_by = Q81
+						remove_contested_owner = Q81
+					}
+				}
+
+				# Transfer pfp_possible_cores array, annex loser, set tag and flag
+				event_target:pfp_iberia_winner = {
+					if = { limit = { NOT = { tag = Q80 } } for_each_loop = { array = Q80.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q81 } } for_each_loop = { array = Q81.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q80 } } annex_country = { target = Q80 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q81 } } annex_country = { target = Q81 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_IBERIA
+					set_country_flag = pfp_is_iberia
+				}
+
+				clear_global_event_target = pfp_iberia_winner
+				set_global_flag = pfp_iberia_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

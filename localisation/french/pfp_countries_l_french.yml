@@ -5132,3 +5132,10 @@
   pfp_merge_great_britain_northern_ireland_not_yet_absorbed_tt:0 "L'Irlande du Nord n'a pas encore été absorbée dans la Grande-Bretagne."
   pfp_merge_great_britain_northern_ireland_effect_annex:0 "§YLa Grande-Bretagne§! annexe §YL'Irlande du Nord§!, gagnant ses noyaux et territoires annexables.\n"
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YLa Grande-Bretagne§! est renommée §YGrande-Bretagne et Irlande du Nord§!.\n"
+
+  pfp_merge_iberia:0 "Unifier l'Ibérie"
+  pfp_merge_iberia_desc:0 "§YL'Espagne§! et §YLe Portugal§! partagent la péninsule ibérique et une longue histoire commune. En les unissant sous une même bannière, nous pouvons établir un état ibérique dominant. Le territoire le plus industriellement développé et peuplé dirigera l'union en annexant l'autre."
+  pfp_merge_iberia_not_yet_formed_tt:0 "L'Ibérie n'a pas encore été unifiée."
+  pfp_merge_iberia_effect_form:0 "§YL'Ibérie§! est formée par la marionnette la plus industriellement développée et peuplée.\n"
+  pfp_merge_iberia_effect_annex:0 "§YL'Ibérie§! annexe la marionnette précédemment listée.\n"
+  pfp_merge_iberia_effect_cores:0 "§YL'Ibérie§! hérite des noyaux et des territoires annexables de la marionnette précédemment listée.\n"

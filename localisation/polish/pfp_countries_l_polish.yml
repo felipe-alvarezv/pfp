@@ -5132,3 +5132,10 @@
   pfp_merge_great_britain_northern_ireland_not_yet_absorbed_tt:0 "Irlandia Północna nie została jeszcze wchłonięta przez Wielką Brytanię."
   pfp_merge_great_britain_northern_ireland_effect_annex:0 "§YWielka Brytania§! anektuje §YIrlandię Północną§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YWielka Brytania§! zostaje przemianowana na §YWielką Brytanię i Irlandię Północną§!.\n"
+
+  pfp_merge_iberia:0 "Zjednoczyć Iberię"
+  pfp_merge_iberia_desc:0 "§YHiszpania§! i §YPortugalia§! dzielą Półwysep Iberyjski i mają długą, przeplatającą się historię. Jednocząc je pod jednym sztandarem, możemy ustanowić potężne państwo iberyjskie. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując drugie."
+  pfp_merge_iberia_not_yet_formed_tt:0 "Iberia nie została jeszcze zjednoczona."
+  pfp_merge_iberia_effect_form:0 "§YIberia§! jest tworzona przez najbardziej uprzemysłowioną i zaludnioną marionetkę.\n"
+  pfp_merge_iberia_effect_annex:0 "§YIberia§! anektuje wcześniej wymienioną marionetkę.\n"
+  pfp_merge_iberia_effect_cores:0 "§YIberia§! dziedziczy rdzenie i możliwe do zrdzeniowania terytoria z wcześniej wymienionej marionetki.\n"
