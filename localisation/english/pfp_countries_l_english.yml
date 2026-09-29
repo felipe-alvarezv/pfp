@@ -5105,3 +5105,17 @@
   pfp_merge_france_alps_desc:0 "With France unified, we can now bring §YThe French Alps§! into the fold."
   pfp_merge_france_alps_not_yet_absorbed_tt:0 "The French Alps have not yet been absorbed into France."
   pfp_merge_france_alps_effect_annex:0 "§YFrance§! annexes §YThe French Alps§!, gaining its cores and coreable territories.\n"
+
+  # Germany
+  pfp_merge_germany:0 "Unite Germany"
+  pfp_merge_germany_desc:0 "§YWest Germany§! and §YEast Germany§! are the divided halves of a once-unified nation. By merging them under one banner, we can restore Germany to its former glory. The most industrially developed and populated territory will lead the union, annexing the other."
+  pfp_merge_germany_not_yet_formed_tt:0 "Germany has not yet been unified."
+  pfp_merge_germany_effect_form:0 "§YGermany§! is formed by the most industrially developed and populated puppet.\n"
+  pfp_merge_germany_effect_annex:0 "§YGermany§! annexes the previously listed puppet.\n"
+  pfp_merge_germany_effect_cores:0 "§YGermany§! inherits cores and coreable territories from the previously listed puppet.\n"
+  pfp_merge_germany_is_formed_tt:0 "A unified Germany exists among our puppets."
+
+  pfp_merge_germany_konigsberg:0 "Absorb Königsberg into Germany"
+  pfp_merge_germany_konigsberg_desc:0 "With Germany unified, we can now bring §YKönigsberg§! into the fold."
+  pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg has not yet been absorbed into Germany."
+  pfp_merge_germany_konigsberg_effect_annex:0 "§YGermany§! annexes §YKönigsberg§!, gaining its cores and coreable territories.\n"

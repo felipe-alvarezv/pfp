@@ -5103,3 +5103,17 @@
   pfp_merge_france_alps_desc:0 "Com a França unificada, podemos agora incorporar §YOs Alpes Franceses§! à nação."
   pfp_merge_france_alps_not_yet_absorbed_tt:0 "Os Alpes Franceses ainda não foram absorvidos pela França."
   pfp_merge_france_alps_effect_annex:0 "§YA França§! anexa §YOs Alpes Franceses§!, ganhando seus núcleos e territórios anexáveis.\n"
+
+  # Germany
+  pfp_merge_germany:0 "Unificar a Alemanha"
+  pfp_merge_germany_desc:0 "§YAlemanha Ocidental§! e §YAlemanha Oriental§! são as duas metades divididas de uma nação que outrora foi unificada. Ao fundi-las sob uma única bandeira, podemos restaurar a Alemanha à sua antiga glória. O território mais industrializado e populoso liderará a união, anexando o outro."
+  pfp_merge_germany_not_yet_formed_tt:0 "A Alemanha ainda não foi unificada."
+  pfp_merge_germany_effect_form:0 "§YA Alemanha§! é formada pelo fantoche mais industrializado e populoso.\n"
+  pfp_merge_germany_effect_annex:0 "§YA Alemanha§! anexa o fantoche anteriormente listado.\n"
+  pfp_merge_germany_effect_cores:0 "§YA Alemanha§! herda núcleos e territórios anexáveis do fantoche anteriormente listado.\n"
+  pfp_merge_germany_is_formed_tt:0 "Uma Alemanha unificada existe entre os nossos fantoches."
+
+  pfp_merge_germany_konigsberg:0 "Absorver Königsberg pela Alemanha"
+  pfp_merge_germany_konigsberg_desc:0 "Com a Alemanha unificada, podemos agora incorporar §YKönigsberg§! à nação."
+  pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg ainda não foi absorvida pela Alemanha."
+  pfp_merge_germany_konigsberg_effect_annex:0 "§YA Alemanha§! anexa §YKönigsberg§!, ganhando seus núcleos e territórios anexáveis.\n"

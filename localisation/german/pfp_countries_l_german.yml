@@ -5103,3 +5103,17 @@
   pfp_merge_france_alps_desc:0 "Mit einem vereinten Frankreich können wir nun §YDie Französischen Alpen§! in die Nation integrieren."
   pfp_merge_france_alps_not_yet_absorbed_tt:0 "Die Französischen Alpen wurden noch nicht in Frankreich eingegliedert."
   pfp_merge_france_alps_effect_annex:0 "§YFrankreich§! annektiert §YDie Französischen Alpen§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
+
+  # Germany
+  pfp_merge_germany:0 "Deutschland vereinen"
+  pfp_merge_germany_desc:0 "§YWestdeutschland§! und §YOstdeutschland§! sind die geteilten Hälften einer einst geeinten Nation. Indem wir sie unter einem Banner vereinen, können wir Deutschland zu seiner früheren Größe zurückführen. Das industriell am weitesten entwickelte und bevölkerungsreichste Gebiet wird die Union anführen und das andere annektieren."
+  pfp_merge_germany_not_yet_formed_tt:0 "Deutschland wurde noch nicht vereint."
+  pfp_merge_germany_effect_form:0 "§YDeutschland§! wird vom industriell entwickeltsten und bevölkerungsreichsten Marionettenstaat gebildet.\n"
+  pfp_merge_germany_effect_annex:0 "§YDeutschland§! annektiert den zuvor aufgeführten Marionettenstaat.\n"
+  pfp_merge_germany_effect_cores:0 "§YDeutschland§! übernimmt Kerngebiete und annektierbare Territorien des zuvor aufgeführten Marionettenstaats.\n"
+  pfp_merge_germany_is_formed_tt:0 "Ein vereintes Deutschland existiert unter unseren Marionettenstaaten."
+
+  pfp_merge_germany_konigsberg:0 "Königsberg in Deutschland eingliedern"
+  pfp_merge_germany_konigsberg_desc:0 "Mit einem vereinten Deutschland können wir nun §YKönigsberg§! in die Nation integrieren."
+  pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg wurde noch nicht in Deutschland eingegliedert."
+  pfp_merge_germany_konigsberg_effect_annex:0 "§YDeutschland§! annektiert §YKönigsberg§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"

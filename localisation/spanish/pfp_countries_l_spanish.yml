@@ -5103,3 +5103,17 @@
   pfp_merge_france_alps_desc:0 "Con Francia unificada, ahora podemos incorporar §YLos Alpes Franceses§! a la nación."
   pfp_merge_france_alps_not_yet_absorbed_tt:0 "Los Alpes Franceses aún no han sido absorbidos en Francia."
   pfp_merge_france_alps_effect_annex:0 "§YFrancia§! anexa §YLos Alpes Franceses§!, ganando sus núcleos y territorios anexables.\n"
+
+  # Germany
+  pfp_merge_germany:0 "Unificar Alemania"
+  pfp_merge_germany_desc:0 "§YAlemania Occidental§! y §YAlemania Oriental§! son las dos mitades divididas de una nación que una vez estuvo unida. Al fusionarlas bajo una sola bandera, podemos restaurar Alemania a su antigua gloria. El territorio más industrializado y poblado liderará la unión, anexando al otro."
+  pfp_merge_germany_not_yet_formed_tt:0 "Alemania aún no ha sido unificada."
+  pfp_merge_germany_effect_form:0 "§YAlemania§! es formada por el títere más industrializado y poblado.\n"
+  pfp_merge_germany_effect_annex:0 "§YAlemania§! anexa el títere previamente enumerado.\n"
+  pfp_merge_germany_effect_cores:0 "§YAlemania§! hereda núcleos y territorios anexables del títere previamente enumerado.\n"
+  pfp_merge_germany_is_formed_tt:0 "Una Alemania unificada existe entre nuestros títeres."
+
+  pfp_merge_germany_konigsberg:0 "Absorber Königsberg en Alemania"
+  pfp_merge_germany_konigsberg_desc:0 "Con Alemania unificada, ahora podemos incorporar §YKönigsberg§! a la nación."
+  pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg aún no ha sido absorbido en Alemania."
+  pfp_merge_germany_konigsberg_effect_annex:0 "§YAlemania§! anexa §YKönigsberg§!, ganando sus núcleos y territorios anexables.\n"

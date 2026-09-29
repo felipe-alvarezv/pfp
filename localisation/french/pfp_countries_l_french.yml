@@ -5103,3 +5103,17 @@
   pfp_merge_france_alps_desc:0 "La France unifiée, nous pouvons désormais intégrer §YLes Alpes françaises§! dans la nation."
   pfp_merge_france_alps_not_yet_absorbed_tt:0 "Les Alpes françaises n'ont pas encore été absorbées dans la France."
   pfp_merge_france_alps_effect_annex:0 "§YLa France§! annexe §YLes Alpes françaises§!, gagnant ses noyaux et territoires annexables.\n"
+
+  # Germany
+  pfp_merge_germany:0 "Unifier l'Allemagne"
+  pfp_merge_germany_desc:0 "§YL'Allemagne de l'Ouest§! et §YL'Allemagne de l'Est§! sont les deux moitiés divisées d'une nation autrefois unifiée. En les fusionnant sous une même bannière, nous pouvons restaurer l'Allemagne à sa grandeur passée. Le territoire le plus industrialisé et peuplé mènera l'union, annexant l'autre."
+  pfp_merge_germany_not_yet_formed_tt:0 "L'Allemagne n'a pas encore été unifiée."
+  pfp_merge_germany_effect_form:0 "§YL'Allemagne§! est formée par le pantin le plus industrialisé et peuplé.\n"
+  pfp_merge_germany_effect_annex:0 "§YL'Allemagne§! annexe le pantin précédemment listé.\n"
+  pfp_merge_germany_effect_cores:0 "§YL'Allemagne§! hérite des noyaux et territoires annexables du pantin précédemment listé.\n"
+  pfp_merge_germany_is_formed_tt:0 "Une Allemagne unifiée existe parmi nos pantins."
+
+  pfp_merge_germany_konigsberg:0 "Absorber Königsberg dans l'Allemagne"
+  pfp_merge_germany_konigsberg_desc:0 "L'Allemagne unifiée, nous pouvons désormais intégrer §YKönigsberg§! dans la nation."
+  pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg n'a pas encore été absorbé dans l'Allemagne."
+  pfp_merge_germany_konigsberg_effect_annex:0 "§YL'Allemagne§! annexe §YKönigsberg§!, gagnant ses noyaux et territoires annexables.\n"

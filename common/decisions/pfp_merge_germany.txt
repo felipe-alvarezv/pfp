@@ -1,0 +1,236 @@
+###########################################################################
+# MERGE DECISIONS - GERMANY
+# Allows the overlord to merge German puppet states into a unified Germany.
+#
+# Decision 1: pfp_merge_germany
+#   Requires West Germany (P31) and East Germany (P32) as PFP subjects.
+#   The puppet with the most total factories + scaled manpower becomes Germany.
+#
+# Follow-up decisions (available after Germany is formed):
+#   pfp_merge_germany_konigsberg  - Absorbs Königsberg (Q75)
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# West Germany (P31) + East Germany (P32) -> Germany
+	# ----------------------------------------------------------------
+	pfp_merge_germany = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_germany_merged }
+			OR = {
+				P31 = { is_subject_of = ROOT }
+				P32 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_germany_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_germany_merged }
+			}
+			P31 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+			P32 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_germany_effect_form
+			custom_effect_tooltip = pfp_merge_germany_effect_annex
+			custom_effect_tooltip = pfp_merge_germany_effect_cores
+			hidden_effect = {
+				# Score = mil factories + civ factories + (manpower / 100000)
+				# P31 West Germany initializes as default winner.
+				P31 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					save_global_event_target_as = pfp_germany_winner
+				}
+				P32 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_germany_winner.pfp_fac } }
+						save_global_event_target_as = pfp_germany_winner
+					}
+				}
+
+				# Transfer state cores/ownership from loser to winner
+				if = {
+					limit = { NOT = { event_target:pfp_germany_winner = { tag = P31 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = P31  has_contested_owner = P31 } }
+						add_core_of = event_target:pfp_germany_winner
+						add_contested_owner = event_target:pfp_germany_winner
+						remove_core_of = P31
+						remove_claim_by = P31
+						remove_contested_owner = P31
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_germany_winner = { tag = P32 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = P32  has_contested_owner = P32 } }
+						add_core_of = event_target:pfp_germany_winner
+						add_contested_owner = event_target:pfp_germany_winner
+						remove_core_of = P32
+						remove_claim_by = P32
+						remove_contested_owner = P32
+					}
+				}
+
+				# Transfer pfp_possible_cores arrays, annex loser, set tag and flag
+				event_target:pfp_germany_winner = {
+					if = {
+						limit = { NOT = { tag = P31 } }
+						for_each_loop = {
+							array = P31.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = {
+						limit = { NOT = { tag = P32 } }
+						for_each_loop = {
+							array = P32.pfp_possible_cores
+							value = pfp_temp_core_id
+							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+						}
+					}
+					if = { limit = { NOT = { tag = P31 } } annex_country = { target = P31 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P32 } } annex_country = { target = P32 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_GERMANY
+					set_country_flag = pfp_is_germany
+				}
+
+				clear_global_event_target = pfp_germany_winner
+				set_global_flag = pfp_germany_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed Germany + Königsberg (Q75) -> absorb into Germany
+	# Follow-up: only available after pfp_merge_germany has fired
+	# ----------------------------------------------------------------
+	pfp_merge_germany_konigsberg = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_germany_merged
+			NOT = { has_global_flag = pfp_germany_absorbed_konigsberg }
+			Q75 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_germany_konigsberg_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_germany_absorbed_konigsberg }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_germany_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_germany }
+			}
+			Q75 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_germany_konigsberg_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_germany }
+					save_global_event_target_as = pfp_germany_country
+					for_each_loop = {
+						array = Q75.pfp_possible_cores
+						value = pfp_temp_core_id
+						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					}
+				}
+
+				every_state = {
+					limit = { OR = { is_owned_by = Q75  has_contested_owner = Q75 } }
+					add_core_of = event_target:pfp_germany_country
+					add_contested_owner = event_target:pfp_germany_country
+					remove_core_of = Q75
+					remove_claim_by = Q75
+					remove_contested_owner = Q75
+				}
+
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_germany }
+					annex_country = { target = Q75 transfer_troops = yes }
+				}
+
+				clear_global_event_target = pfp_germany_country
+				set_global_flag = pfp_germany_absorbed_konigsberg
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}
