@@ -5118,3 +5118,17 @@
   pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg aún no ha sido absorbido en Alemania."
   pfp_merge_germany_konigsberg_effect_annex:0 "§YAlemania§! anexa §YKönigsberg§!, ganando sus núcleos y territorios anexables.\n"
   pfp_merge_germany_requires_combo_tt:0 "Se requiere una combinación válida de marionetas alemanas: §YAlemania Occidental§! + §YAlemania Oriental§!, §YPrusia§! + §YAlemania Occidental§!, §YAlemania del Norte§! + §YAlemania del Sur§!, o §YPrusia§! + §YAlemania del Sur§!.\n"
+
+  pfp_merge_great_britain:0 "Unir Gran Bretaña"
+  pfp_merge_great_britain_desc:0 "§YInglaterra§!, §YEscocia§! y §YGales§! comparten la isla de Gran Bretaña y una larga historia entrelazada. Al unirlos bajo una misma bandera, podemos restaurar el estado británico. El territorio más industrialmente desarrollado y poblado liderará la unión, anexando a los demás."
+  pfp_merge_great_britain_not_yet_formed_tt:0 "Gran Bretaña no ha sido unificada todavía."
+  pfp_merge_great_britain_effect_form:0 "§YGran Bretaña§! es formada por el títere más industrialmente desarrollado y poblado.\n"
+  pfp_merge_great_britain_effect_annex:0 "§YGran Bretaña§! anexa los títeres previamente listados.\n"
+  pfp_merge_great_britain_effect_cores:0 "§YGran Bretaña§! hereda los núcleos y territorios anexables de los títeres previamente listados.\n"
+  pfp_merge_great_britain_is_formed_tt:0 "Una Gran Bretaña unificada existe entre nuestros títeres."
+
+  pfp_merge_great_britain_northern_ireland:0 "Absorber Irlanda del Norte en Gran Bretaña"
+  pfp_merge_great_britain_northern_ireland_desc:0 "Con Gran Bretaña unificada, ahora podemos traer §YIrlanda del Norte§! al redil, completando nuestro dominio sobre las Islas Británicas."
+  pfp_merge_great_britain_northern_ireland_not_yet_absorbed_tt:0 "Irlanda del Norte no ha sido absorbida en Gran Bretaña todavía."
+  pfp_merge_great_britain_northern_ireland_effect_annex:0 "§YGran Bretaña§! anexa §YIrlanda del Norte§!, ganando sus núcleos y territorios anexables.\n"
+  pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YGran Bretaña§! es renombrada §YGran Bretaña e Irlanda del Norte§!.\n"

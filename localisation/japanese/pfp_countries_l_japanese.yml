@@ -5118,3 +5118,17 @@
   pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "ケーニヒスベルクはまだドイツに吸収されていません。"
   pfp_merge_germany_konigsberg_effect_annex:0 "§Yドイツ§!は§Yケーニヒスベルク§!を併合し、そのコアと編入可能な領土を獲得します。\n"
   pfp_merge_germany_requires_combo_tt:0 "有効なドイツ傀儡の組み合わせが必要です：§Y西ドイツ§! + §Y東ドイツ§!、§Yプロイセン§! + §Y西ドイツ§!、§Y北ドイツ§! + §Y南ドイツ§!、または§Yプロイセン§! + §Y南ドイツ§!。\n"
+
+  pfp_merge_great_britain:0 "大英帝国を統一する"
+  pfp_merge_great_britain_desc:0 "§Yイングランド§!、§Yスコットランド§!、および§Yウェールズ§!はグレートブリテン島を共有し、長い歴史で結ばれています。一つの旗の下に統一することで、英国国家を復活させることができます。最も工業が発展し人口の多い地域が連合を率い、他を併合します。"
+  pfp_merge_great_britain_not_yet_formed_tt:0 "大英帝国はまだ統一されていません。"
+  pfp_merge_great_britain_effect_form:0 "§Yグレートブリテン§!は最も工業が発展し人口の多い傀儡によって形成されます。\n"
+  pfp_merge_great_britain_effect_annex:0 "§Yグレートブリテン§!は前述の傀儡を併合します。\n"
+  pfp_merge_great_britain_effect_cores:0 "§Yグレートブリテン§!は前述の傀儡からコアと編入可能な領土を継承します。\n"
+  pfp_merge_great_britain_is_formed_tt:0 "統一されたグレートブリテンが我々の傀儡の中に存在します。"
+
+  pfp_merge_great_britain_northern_ireland:0 "北アイルランドをグレートブリテンに吸収する"
+  pfp_merge_great_britain_northern_ireland_desc:0 "グレートブリテンが統一された今、§Y北アイルランド§!を取り込み、ブリテン諸島への支配を完成させることができます。"
+  pfp_merge_great_britain_northern_ireland_not_yet_absorbed_tt:0 "北アイルランドはまだグレートブリテンに吸収されていません。"
+  pfp_merge_great_britain_northern_ireland_effect_annex:0 "§Yグレートブリテン§!は§Y北アイルランド§!を併合し、そのコアと編入可能な領土を獲得します。\n"
+  pfp_merge_great_britain_northern_ireland_effect_uk:0 "§Yグレートブリテン§!は§Yグレートブリテンおよび北アイルランド§!に改称されます。\n"

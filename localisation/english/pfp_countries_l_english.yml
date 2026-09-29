@@ -5120,3 +5120,17 @@
   pfp_merge_germany_konigsberg_not_yet_absorbed_tt:0 "Königsberg has not yet been absorbed into Germany."
   pfp_merge_germany_konigsberg_effect_annex:0 "§YGermany§! annexes §YKönigsberg§!, gaining its cores and coreable territories.\n"
   pfp_merge_germany_requires_combo_tt:0 "A valid combination of German puppets is required: §YWest Germany§! + §YEast Germany§!, §YPrussia§! + §YWest Germany§!, §YNorth Germany§! + §YSouth Germany§!, or §YPrussia§! + §YSouth Germany§!.\n"
+
+  pfp_merge_great_britain:0 "Unite Great Britain"
+  pfp_merge_great_britain_desc:0 "§YEngland§!, §YScotland§!, and §YWales§! share the island of Great Britain and a long, intertwined history. By uniting them under one banner, we can restore the British state. The most industrially developed and populated territory will lead the union, annexing the others."
+  pfp_merge_great_britain_not_yet_formed_tt:0 "Great Britain has not yet been unified."
+  pfp_merge_great_britain_effect_form:0 "§YGreat Britain§! is formed by the most industrially developed and populated puppet.\n"
+  pfp_merge_great_britain_effect_annex:0 "§YGreat Britain§! annexes the previously listed puppets.\n"
+  pfp_merge_great_britain_effect_cores:0 "§YGreat Britain§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_great_britain_is_formed_tt:0 "A unified Great Britain exists among our puppets."
+
+  pfp_merge_great_britain_northern_ireland:0 "Absorb Northern Ireland into Great Britain"
+  pfp_merge_great_britain_northern_ireland_desc:0 "With Great Britain unified, we can now bring §YNorthern Ireland§! into the fold, completing our hold over the British Isles."
+  pfp_merge_great_britain_northern_ireland_not_yet_absorbed_tt:0 "Northern Ireland has not yet been absorbed into Great Britain."
+  pfp_merge_great_britain_northern_ireland_effect_annex:0 "§YGreat Britain§! annexes §YNorthern Ireland§!, gaining its cores and coreable territories.\n"
+  pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YGreat Britain§! is renamed §YGreat Britain and Northern Ireland§!.\n"
