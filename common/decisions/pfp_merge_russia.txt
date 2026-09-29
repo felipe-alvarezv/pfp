@@ -556,16 +556,22 @@ pfp_unification = {
 					}
 				}
 			}
-			NOT = {
-				any_subject_country = {
-					has_country_flag = pfp_is_western_russia
-					any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } }
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+				NOT = {
+					any_subject_country = {
+						has_country_flag = pfp_is_western_russia
+						any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } }
+					}
 				}
 			}
-			NOT = {
-				any_subject_country = {
-					has_country_flag = pfp_is_eastern_russia
-					any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } }
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+				NOT = {
+					any_subject_country = {
+						has_country_flag = pfp_is_eastern_russia
+						any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } }
+					}
 				}
 			}
 		}
