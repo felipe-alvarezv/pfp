@@ -1,0 +1,588 @@
+###########################################################################
+# MERGE DECISIONS - RUSSIA
+# Three-tier merge system:
+#   1. pfp_merge_western_russia: P39+P40+P42+P43 -> PFP_WESTERN_RUSSIA
+#      Follow-ups: P41 Northern Caucasus, Q76 Karelia, Q77 Murmansk
+#   2. pfp_merge_eastern_russia: P44+P45+P46 -> PFP_EASTERN_RUSSIA
+#   3. pfp_merge_russia: PFP_WESTERN_RUSSIA + PFP_EASTERN_RUSSIA -> PFP_RUSSIA
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Central Russia + Southern Russia + Volga + Northwestern Russia
+	# -> Western Russia (PFP_WESTERN_RUSSIA)
+	# ----------------------------------------------------------------
+	pfp_merge_western_russia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_western_russia_merged }
+			OR = {
+				P39 = { is_subject_of = ROOT }
+				P40 = { is_subject_of = ROOT }
+				P42 = { is_subject_of = ROOT }
+				P43 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_western_russia_merged }
+			}
+			P39 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			P40 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			P42 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			P43 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			NOT = { P39 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { P40 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { P42 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { P43 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_western_russia_effect_form
+			custom_effect_tooltip = pfp_merge_western_russia_effect_annex
+			custom_effect_tooltip = pfp_merge_western_russia_effect_cores
+			hidden_effect = {
+				# Score = mil factories + civ factories + (manpower / 100000)
+				P39 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				P40 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				P42 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				P43 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+
+				# Initialize winner with P39, then linear challenge
+				P39 = { save_global_event_target_as = pfp_western_russia_winner }
+				if = { limit = { check_variable = { P40.pfp_fac > event_target:pfp_western_russia_winner.pfp_fac } } P40 = { save_global_event_target_as = pfp_western_russia_winner } }
+				if = { limit = { check_variable = { P42.pfp_fac > event_target:pfp_western_russia_winner.pfp_fac } } P42 = { save_global_event_target_as = pfp_western_russia_winner } }
+				if = { limit = { check_variable = { P43.pfp_fac > event_target:pfp_western_russia_winner.pfp_fac } } P43 = { save_global_event_target_as = pfp_western_russia_winner } }
+
+				# Transfer state cores/ownership from non-winners to winner
+				if = {
+					limit = { NOT = { event_target:pfp_western_russia_winner = { tag = P39 } } }
+					every_state = { limit = { OR = { is_owned_by = P39 has_contested_owner = P39 } } add_core_of = event_target:pfp_western_russia_winner add_contested_owner = event_target:pfp_western_russia_winner remove_core_of = P39 remove_claim_by = P39 remove_contested_owner = P39 }
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_western_russia_winner = { tag = P40 } } }
+					every_state = { limit = { OR = { is_owned_by = P40 has_contested_owner = P40 } } add_core_of = event_target:pfp_western_russia_winner add_contested_owner = event_target:pfp_western_russia_winner remove_core_of = P40 remove_claim_by = P40 remove_contested_owner = P40 }
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_western_russia_winner = { tag = P42 } } }
+					every_state = { limit = { OR = { is_owned_by = P42 has_contested_owner = P42 } } add_core_of = event_target:pfp_western_russia_winner add_contested_owner = event_target:pfp_western_russia_winner remove_core_of = P42 remove_claim_by = P42 remove_contested_owner = P42 }
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_western_russia_winner = { tag = P43 } } }
+					every_state = { limit = { OR = { is_owned_by = P43 has_contested_owner = P43 } } add_core_of = event_target:pfp_western_russia_winner add_contested_owner = event_target:pfp_western_russia_winner remove_core_of = P43 remove_claim_by = P43 remove_contested_owner = P43 }
+				}
+
+				# Transfer pfp_possible_cores arrays, annex non-winners, set tag and flag
+				event_target:pfp_western_russia_winner = {
+					if = { limit = { NOT = { tag = P39 } } for_each_loop = { array = P39.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P40 } } for_each_loop = { array = P40.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P42 } } for_each_loop = { array = P42.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P43 } } for_each_loop = { array = P43.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P39 } } annex_country = { target = P39 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P40 } } annex_country = { target = P40 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P42 } } annex_country = { target = P42 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P43 } } annex_country = { target = P43 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_WESTERN_RUSSIA
+					set_country_flag = pfp_is_western_russia
+				}
+
+				clear_global_event_target = pfp_western_russia_winner
+				set_global_flag = pfp_western_russia_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed Western Russia + Northern Caucasus (P41)
+	# ----------------------------------------------------------------
+	pfp_merge_western_russia_northern_caucasus = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_western_russia_merged
+			NOT = { has_global_flag = pfp_western_russia_absorbed_northern_caucasus }
+			P41 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_northern_caucasus_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_western_russia_absorbed_northern_caucasus }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_western_russia }
+			}
+			P41 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_western_russia_northern_caucasus_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_western_russia }
+					save_global_event_target_as = pfp_western_russia_country
+					for_each_loop = { array = P41.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = P41 has_contested_owner = P41 } }
+					add_core_of = event_target:pfp_western_russia_country
+					add_contested_owner = event_target:pfp_western_russia_country
+					remove_core_of = P41
+					remove_claim_by = P41
+					remove_contested_owner = P41
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_western_russia }
+					annex_country = { target = P41 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_western_russia_country
+				set_global_flag = pfp_western_russia_absorbed_northern_caucasus
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed Western Russia + Karelia (Q76)
+	# ----------------------------------------------------------------
+	pfp_merge_western_russia_karelia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_western_russia_merged
+			NOT = { has_global_flag = pfp_western_russia_absorbed_karelia }
+			Q76 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_karelia_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_western_russia_absorbed_karelia }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_western_russia }
+			}
+			Q76 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_western_russia_karelia_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_western_russia }
+					save_global_event_target_as = pfp_western_russia_country
+					for_each_loop = { array = Q76.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q76 has_contested_owner = Q76 } }
+					add_core_of = event_target:pfp_western_russia_country
+					add_contested_owner = event_target:pfp_western_russia_country
+					remove_core_of = Q76
+					remove_claim_by = Q76
+					remove_contested_owner = Q76
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_western_russia }
+					annex_country = { target = Q76 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_western_russia_country
+				set_global_flag = pfp_western_russia_absorbed_karelia
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Formed Western Russia + Murmansk (Q77)
+	# ----------------------------------------------------------------
+	pfp_merge_western_russia_murmansk = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_western_russia_merged
+			NOT = { has_global_flag = pfp_western_russia_absorbed_murmansk }
+			Q77 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_murmansk_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_western_russia_absorbed_murmansk }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_western_russia }
+			}
+			Q77 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_western_russia_murmansk_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_western_russia }
+					save_global_event_target_as = pfp_western_russia_country
+					for_each_loop = { array = Q77.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q77 has_contested_owner = Q77 } }
+					add_core_of = event_target:pfp_western_russia_country
+					add_contested_owner = event_target:pfp_western_russia_country
+					remove_core_of = Q77
+					remove_claim_by = Q77
+					remove_contested_owner = Q77
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_western_russia }
+					annex_country = { target = Q77 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_western_russia_country
+				set_global_flag = pfp_western_russia_absorbed_murmansk
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Urals + Siberia + Far East Russia -> Eastern Russia (PFP_EASTERN_RUSSIA)
+	# ----------------------------------------------------------------
+	pfp_merge_eastern_russia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_eastern_russia_merged }
+			OR = {
+				P44 = { is_subject_of = ROOT }
+				P45 = { is_subject_of = ROOT }
+				P46 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_eastern_russia_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_eastern_russia_merged }
+			}
+			P44 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			P45 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			P46 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_subject_is_military_occupation_tt
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			NOT = { P44 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { P45 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+			NOT = { P46 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_eastern_russia_effect_form
+			custom_effect_tooltip = pfp_merge_eastern_russia_effect_annex
+			custom_effect_tooltip = pfp_merge_eastern_russia_effect_cores
+			hidden_effect = {
+				P44 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				P45 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				P46 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+
+				P44 = { save_global_event_target_as = pfp_eastern_russia_winner }
+				if = { limit = { check_variable = { P45.pfp_fac > event_target:pfp_eastern_russia_winner.pfp_fac } } P45 = { save_global_event_target_as = pfp_eastern_russia_winner } }
+				if = { limit = { check_variable = { P46.pfp_fac > event_target:pfp_eastern_russia_winner.pfp_fac } } P46 = { save_global_event_target_as = pfp_eastern_russia_winner } }
+
+				if = {
+					limit = { NOT = { event_target:pfp_eastern_russia_winner = { tag = P44 } } }
+					every_state = { limit = { OR = { is_owned_by = P44 has_contested_owner = P44 } } add_core_of = event_target:pfp_eastern_russia_winner add_contested_owner = event_target:pfp_eastern_russia_winner remove_core_of = P44 remove_claim_by = P44 remove_contested_owner = P44 }
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_eastern_russia_winner = { tag = P45 } } }
+					every_state = { limit = { OR = { is_owned_by = P45 has_contested_owner = P45 } } add_core_of = event_target:pfp_eastern_russia_winner add_contested_owner = event_target:pfp_eastern_russia_winner remove_core_of = P45 remove_claim_by = P45 remove_contested_owner = P45 }
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_eastern_russia_winner = { tag = P46 } } }
+					every_state = { limit = { OR = { is_owned_by = P46 has_contested_owner = P46 } } add_core_of = event_target:pfp_eastern_russia_winner add_contested_owner = event_target:pfp_eastern_russia_winner remove_core_of = P46 remove_claim_by = P46 remove_contested_owner = P46 }
+				}
+
+				event_target:pfp_eastern_russia_winner = {
+					if = { limit = { NOT = { tag = P44 } } for_each_loop = { array = P44.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P45 } } for_each_loop = { array = P45.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P46 } } for_each_loop = { array = P46.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P44 } } annex_country = { target = P44 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P45 } } annex_country = { target = P45 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P46 } } annex_country = { target = P46 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_EASTERN_RUSSIA
+					set_country_flag = pfp_is_eastern_russia
+				}
+
+				clear_global_event_target = pfp_eastern_russia_winner
+				set_global_flag = pfp_eastern_russia_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Western Russia + Eastern Russia -> Russia (PFP_RUSSIA)
+	# ----------------------------------------------------------------
+	pfp_merge_russia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_western_russia_merged
+			has_global_flag = pfp_eastern_russia_merged
+			NOT = { has_global_flag = pfp_russia_merged }
+			OR = {
+				any_subject_country = { has_country_flag = pfp_is_western_russia }
+				any_subject_country = { has_country_flag = pfp_is_eastern_russia }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_russia_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_russia_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_western_russia }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_eastern_russia_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_eastern_russia }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_subject_is_military_occupation_tt
+				any_subject_country = {
+					has_country_flag = pfp_is_western_russia
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_subject_is_military_occupation_tt
+				any_subject_country = {
+					has_country_flag = pfp_is_eastern_russia
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			NOT = {
+				any_subject_country = {
+					has_country_flag = pfp_is_western_russia
+					any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } }
+				}
+			}
+			NOT = {
+				any_subject_country = {
+					has_country_flag = pfp_is_eastern_russia
+					any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } }
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_russia_effect_form
+			custom_effect_tooltip = pfp_merge_russia_effect_annex
+			custom_effect_tooltip = pfp_merge_russia_effect_cores
+			hidden_effect = {
+				# Score both formables and initialize winner as western russia
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_western_russia }
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					save_global_event_target_as = pfp_russia_west
+					save_global_event_target_as = pfp_russia_winner
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_eastern_russia }
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					set_variable = { pfp_mp_temp = manpower }
+					divide_variable = { pfp_mp_temp = 100000 }
+					add_to_variable = { pfp_fac = pfp_mp_temp }
+					save_global_event_target_as = pfp_russia_east
+				}
+
+				# Eastern Russia challenges western for winner
+				if = {
+					limit = { check_variable = { event_target:pfp_russia_east.pfp_fac > event_target:pfp_russia_winner.pfp_fac } }
+					event_target:pfp_russia_east = { save_global_event_target_as = pfp_russia_winner }
+				}
+
+				# Transfer western russia states if it is not the winner
+				if = {
+					limit = { NOT = { event_target:pfp_russia_winner = { has_country_flag = pfp_is_western_russia } } }
+					every_state = {
+						limit = { OR = { is_owned_by = event_target:pfp_russia_west has_contested_owner = event_target:pfp_russia_west } }
+						add_core_of = event_target:pfp_russia_winner
+						add_contested_owner = event_target:pfp_russia_winner
+						remove_core_of = event_target:pfp_russia_west
+						remove_claim_by = event_target:pfp_russia_west
+						remove_contested_owner = event_target:pfp_russia_west
+					}
+					event_target:pfp_russia_winner = {
+						for_each_loop = { array = event_target:pfp_russia_west.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+						annex_country = { target = event_target:pfp_russia_west transfer_troops = yes }
+					}
+				}
+
+				# Transfer eastern russia states if it is not the winner
+				if = {
+					limit = { NOT = { event_target:pfp_russia_winner = { has_country_flag = pfp_is_eastern_russia } } }
+					every_state = {
+						limit = { OR = { is_owned_by = event_target:pfp_russia_east has_contested_owner = event_target:pfp_russia_east } }
+						add_core_of = event_target:pfp_russia_winner
+						add_contested_owner = event_target:pfp_russia_winner
+						remove_core_of = event_target:pfp_russia_east
+						remove_claim_by = event_target:pfp_russia_east
+						remove_contested_owner = event_target:pfp_russia_east
+					}
+					event_target:pfp_russia_winner = {
+						for_each_loop = { array = event_target:pfp_russia_east.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+						annex_country = { target = event_target:pfp_russia_east transfer_troops = yes }
+					}
+				}
+
+				event_target:pfp_russia_winner = {
+					set_cosmetic_tag = PFP_RUSSIA
+					set_country_flag = pfp_is_russia
+				}
+
+				clear_global_event_target = pfp_russia_west
+				clear_global_event_target = pfp_russia_east
+				clear_global_event_target = pfp_russia_winner
+				set_global_flag = pfp_russia_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

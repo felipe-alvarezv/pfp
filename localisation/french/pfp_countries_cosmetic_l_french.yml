@@ -130,6 +130,30 @@
   PFP_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "Russie"
   PFP_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "Russie"
 
+  PFP_WESTERN_RUSSIA:0 "Russie Occidentale"
+  PFP_WESTERN_RUSSIA_DEF:0 "Russie Occidentale"
+  PFP_WESTERN_RUSSIA_ADJ:0 "Russo-Occidental"
+
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation:0 "Russie Occidentale"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "Russie Occidentale"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "Russie Occidentale"
+
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "Russie Occidentale"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "Russie Occidentale"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "Russie Occidentale"
+
+  PFP_EASTERN_RUSSIA:0 "Russie Orientale"
+  PFP_EASTERN_RUSSIA_DEF:0 "Russie Orientale"
+  PFP_EASTERN_RUSSIA_ADJ:0 "Russo-Oriental"
+
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation:0 "Russie Orientale"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "Russie Orientale"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "Russie Orientale"
+
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "Russie Orientale"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "Russie Orientale"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "Russie Orientale"
+
   PFP_UK:0 "Grande-Bretagne et Irlande du Nord"
   PFP_UK_DEF:0 "Grande-Bretagne et Irlande du Nord"
   PFP_UK_ADJ:0 "Britannique"

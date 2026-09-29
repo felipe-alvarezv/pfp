@@ -274,6 +274,7 @@ pfp_category = {
             }
         }
         visible = {
+            always = no #Replaced by PFP merger system
             OR = {
                 has_full_control_of_state = 195 #Leningrad
                 has_full_control_of_state = 205 #Kaluga

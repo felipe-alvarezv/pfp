@@ -130,6 +130,30 @@
   PFP_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 러시아"
   PFP_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 러시아"
 
+  PFP_WESTERN_RUSSIA:0 "서부 러시아"
+  PFP_WESTERN_RUSSIA_DEF:0 "서부 러시아"
+  PFP_WESTERN_RUSSIA_ADJ:0 "서부 러시아의"
+
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 서부 러시아"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 서부 러시아"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 서부 러시아"
+
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 서부 러시아"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 서부 러시아"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 서부 러시아"
+
+  PFP_EASTERN_RUSSIA:0 "동부 러시아"
+  PFP_EASTERN_RUSSIA_DEF:0 "동부 러시아"
+  PFP_EASTERN_RUSSIA_ADJ:0 "동부 러시아의"
+
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 동부 러시아"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 동부 러시아"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 동부 러시아"
+
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 동부 러시아"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 동부 러시아"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 동부 러시아"
+
   PFP_UK:0 "그레이트브리튼 및 북아일랜드"
   PFP_UK_DEF:0 "그레이트브리튼 및 북아일랜드"
   PFP_UK_ADJ:0 "영국의"

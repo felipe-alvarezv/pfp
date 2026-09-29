@@ -820,6 +820,30 @@
   PFP_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Russia"
   PFP_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Russia"
 
+  PFP_WESTERN_RUSSIA:0 "Western Russia"
+  PFP_WESTERN_RUSSIA_DEF:0 "Western Russia"
+  PFP_WESTERN_RUSSIA_ADJ:0 "West Russian"
+
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Western Russia"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Western Russia"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Western Russia"
+
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Western Russia"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Western Russia"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Western Russia"
+
+  PFP_EASTERN_RUSSIA:0 "Eastern Russia"
+  PFP_EASTERN_RUSSIA_DEF:0 "Eastern Russia"
+  PFP_EASTERN_RUSSIA_ADJ:0 "East Russian"
+
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Eastern Russia"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Eastern Russia"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Eastern Russia"
+
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Eastern Russia"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Eastern Russia"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Eastern Russia"
+
   PFP_UK:0 "Great Britain and Northern Ireland"
   PFP_UK_DEF:0 "Great Britain and Northern Ireland"
   PFP_UK_ADJ:0 "British"
