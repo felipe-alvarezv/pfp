@@ -46,12 +46,32 @@ pfp_unification = {
 					tooltip = pfp_merge_subject_is_military_occupation_tt
 					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
 				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
 			}
 			Q01 = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = pfp_merge_subject_is_military_occupation_tt
 					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
 				}
 			}
 			Q02 = {
@@ -60,12 +80,32 @@ pfp_unification = {
 					tooltip = pfp_merge_subject_is_military_occupation_tt
 					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
 				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
 			}
 			Q03 = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = pfp_merge_subject_is_military_occupation_tt
 					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
 				}
 			}
 			Q04 = {
@@ -74,12 +114,32 @@ pfp_unification = {
 					tooltip = pfp_merge_subject_is_military_occupation_tt
 					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
 				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
 			}
 			Q05 = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = pfp_merge_subject_is_military_occupation_tt
 					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
+				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
 				}
 			}
 			Q06 = {
@@ -88,6 +148,16 @@ pfp_unification = {
 					tooltip = pfp_merge_subject_is_military_occupation_tt
 					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
 				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
 			}
 			Q07 = {
 				is_subject_of = ROOT
@@ -95,15 +165,17 @@ pfp_unification = {
 					tooltip = pfp_merge_subject_is_military_occupation_tt
 					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
 				}
+				custom_trigger_tooltip = {
+					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
 			}
-			NOT = { P99 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
-			NOT = { Q01 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
-			NOT = { Q02 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
-			NOT = { Q03 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
-			NOT = { Q04 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
-			NOT = { Q05 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
-			NOT = { Q06 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
-			NOT = { Q07 = { any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } } } }
 		}
 
 		fire_only_once = yes
