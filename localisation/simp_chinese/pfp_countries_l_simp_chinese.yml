@@ -4992,7 +4992,7 @@
 
   # United States
   pfp_merge_usa:0 "统一美国"
-  pfp_merge_usa_desc:0 "§Y美国东北部§!、§Y美国中西部§!和§Y美国南部§!有着共同的历史与命运。将它们团结在一面旗帜下，我们可以恢复美利坚合众国。工业最发达、人口最多的地区将领导联盟，吞并其他地区。"
+  pfp_merge_usa_desc:0 "§Y美国东北部§!、§Y美国中西部§!和§Y美国南部§!有着共同的历史与命运。将它们团结在一面旗帜下，我们可以恢复美利坚合众国。工业最发达的地区将领导联盟，吞并其他地区。"
   pfp_merge_usa_not_yet_formed_tt:0 "美利坚合众国尚未实现统一。"
   pfp_merge_usa_effect_form:0 "§Y美利坚合众国§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_usa_effect_annex:0 "§Y美利坚合众国§!吞并其统一所需的傀儡政权。\n"
@@ -5012,7 +5012,7 @@
 
   # China
   pfp_merge_china:0 "统一中国"
-  pfp_merge_china_desc:0 "§Y直隶§!、§Y山东§!、§Y河南§!、§Y山西§!、§Y两江§!、§Y闽浙§!、§Y湖广§!、§Y两广§!、§Y云贵§!和§Y四川§!曾是统一中国的一部分。将它们整合在一面旗帜下，我们可以恢复中华国家。工业最发达、人口最多的地区将领导联合，兼并其他地区。"
+  pfp_merge_china_desc:0 "§Y直隶§!、§Y山东§!、§Y河南§!、§Y山西§!、§Y两江§!、§Y闽浙§!、§Y湖广§!、§Y两广§!、§Y云贵§!和§Y四川§!曾是统一中国的一部分。将它们整合在一面旗帜下，我们可以恢复中华国家。工业最发达的地区将领导联合，兼并其他地区。"
   pfp_merge_china_not_yet_formed_tt:0 "中国尚未统一。"
   pfp_merge_china_effect_form:0 "§Y中国§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_china_effect_annex:0 "§Y中国§!吞并其统一所需的傀儡政权。\n"
@@ -5057,7 +5057,7 @@
 
   # East Africa
   pfp_merge_east_africa:0 "统一东非"
-  pfp_merge_east_africa_desc:0 "§Y埃塞俄比亚§!、§Y厄立特里亚§!、§Y吉布提§!、§Y索马里兰§!和§Y索马里§!共享非洲之角。将它们整合在一面旗帜下，我们可以建立一个强大的东非国家。工业最发达、人口最多的傀儡将主导联盟，并吞并其他傀儡。"
+  pfp_merge_east_africa_desc:0 "§Y埃塞俄比亚§!、§Y厄立特里亚§!、§Y吉布提§!、§Y索马里兰§!和§Y索马里§!共享非洲之角。将它们整合在一面旗帜下，我们可以建立一个强大的东非国家。工业最发达的傀儡将主导联盟，并吞并其他傀儡。"
   pfp_merge_east_africa_not_yet_formed_tt:0 "东非尚未统一。"
   pfp_merge_east_africa_effect_form:0 "§Y东非§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_east_africa_effect_annex:0 "§Y东非§!吞并其统一所需的傀儡政权。\n"
@@ -5092,7 +5092,7 @@
 
   # France
   pfp_merge_france:0 "统一法国"
-  pfp_merge_france_desc:0 "§Y北法国§!和§Y南法国§!是曾经伟大国家的两个分裂部分。将它们整合在一面旗帜下，我们可以恢复法国昔日的荣光。工业最发达、人口最多的傀儡将主导联盟，并吞并另一方。"
+  pfp_merge_france_desc:0 "§Y北法国§!和§Y南法国§!是曾经伟大国家的两个分裂部分。将它们整合在一面旗帜下，我们可以恢复法国昔日的荣光。工业最发达的傀儡将主导联盟，并吞并另一方。"
   pfp_merge_france_not_yet_formed_tt:0 "法国尚未统一。"
   pfp_merge_france_effect_form:0 "§Y法国§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_france_effect_annex:0 "§Y法国§!吞并其统一所需的傀儡政权。\n"
@@ -5106,7 +5106,7 @@
 
   # Germany
   pfp_merge_germany:0 "统一德国"
-  pfp_merge_germany_desc:0 "§Y西德§!和§Y东德§!是曾经统一国家的两个分裂部分。将它们整合在一面旗帜下，我们可以恢复德国昔日的荣光。工业最发达、人口最多的傀儡将主导联盟，并吞并另一方。"
+  pfp_merge_germany_desc:0 "§Y西德§!和§Y东德§!是曾经统一国家的两个分裂部分。将它们整合在一面旗帜下，我们可以恢复德国昔日的荣光。工业最发达的傀儡将主导联盟，并吞并另一方。"
   pfp_merge_germany_not_yet_formed_tt:0 "德国尚未统一。"
   pfp_merge_germany_effect_form:0 "§Y德国§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_germany_effect_annex:0 "§Y德国§!吞并其统一所需的傀儡政权。\n"
@@ -5120,7 +5120,7 @@
   pfp_merge_germany_requires_combo_tt:0 "需要一个有效的德国傀儡组合：§Y西德§! + §Y东德§!、§Y普鲁士§! + §Y西德§!、§Y北德意志§! + §Y南德意志§!，或§Y普鲁士§! + §Y南德意志§!。\n"
 
   pfp_merge_great_britain:0 "统一大不列颠"
-  pfp_merge_great_britain_desc:0 "§Y英格兰§!、§Y苏格兰§!和§Y威尔士§!共享大不列颠岛并拥有悠久的交织历史。通过将它们统一在一面旗帜下，我们可以恢复英国国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
+  pfp_merge_great_britain_desc:0 "§Y英格兰§!、§Y苏格兰§!和§Y威尔士§!共享大不列颠岛并拥有悠久的交织历史。通过将它们统一在一面旗帜下，我们可以恢复英国国家。工业最发达的领土将领导联盟，兼并其他领土。"
   pfp_merge_great_britain_not_yet_formed_tt:0 "大不列颠尚未统一。"
   pfp_merge_great_britain_effect_form:0 "§Y大不列颠§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_great_britain_effect_annex:0 "§Y大不列颠§!吞并其统一所需的傀儡政权。\n"
@@ -5134,14 +5134,14 @@
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§Y大不列颠§!更名为§Y大不列颠及北爱尔兰§!。\n"
 
   pfp_merge_iberia:0 "统一伊比利亚"
-  pfp_merge_iberia_desc:0 "§Y西班牙§!和§Y葡萄牙§!共享伊比利亚半岛并拥有悠久的交织历史。通过将它们统一在一面旗帜下，我们可以建立一个强大的伊比利亚国家。工业最发达、人口最多的领土将领导联盟，兼并另一方。"
+  pfp_merge_iberia_desc:0 "§Y西班牙§!和§Y葡萄牙§!共享伊比利亚半岛并拥有悠久的交织历史。通过将它们统一在一面旗帜下，我们可以建立一个强大的伊比利亚国家。工业最发达的领土将领导联盟，兼并另一方。"
   pfp_merge_iberia_not_yet_formed_tt:0 "伊比利亚尚未统一。"
   pfp_merge_iberia_effect_form:0 "§Y伊比利亚§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_iberia_effect_annex:0 "§Y伊比利亚§!吞并其统一所需的傀儡政权。\n"
   pfp_merge_iberia_effect_cores:0 "§Y伊比利亚§!获得被吞并傀儡政权的核心领土和主张。\n"
 
   pfp_merge_italy:0 "统一意大利"
-  pfp_merge_italy_desc:0 "§Y伦巴第-威尼西亚§!、§Y皮埃蒙特§!、§Y托斯卡纳§!、§Y教皇国§!和§Y两西西里§!是这座伟大半岛的碎片。通过将它们统一在一面旗帜下，我们可以缔造统一的意大利国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
+  pfp_merge_italy_desc:0 "§Y伦巴第-威尼西亚§!、§Y皮埃蒙特§!、§Y托斯卡纳§!、§Y教皇国§!和§Y两西西里§!是这座伟大半岛的碎片。通过将它们统一在一面旗帜下，我们可以缔造统一的意大利国家。工业最发达的领土将领导联盟，兼并其他领土。"
   pfp_merge_italy_not_yet_formed_tt:0 "意大利尚未统一。"
   pfp_merge_italy_effect_form:0 "§Y意大利§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_italy_effect_annex:0 "§Y意大利§!吞并其统一所需的傀儡政权。\n"
@@ -5154,13 +5154,13 @@
   pfp_merge_italy_sardinia_effect_annex:0 "§Y意大利§!兼并§Y撒丁岛§!，获得其核心及可核心化领土。\n"
 
   pfp_merge_japan:0 "统一日本"
-  pfp_merge_japan_desc:0 "§Y北海道§!、§Y东北§!、§Y关东§!、§Y中部§!、§Y关西§!、§Y中国地方§!、§Y四国§!和§Y九州§!是日本本土的分裂地区。通过将它们统一在一面旗帜下，我们可以恢复日本国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
+  pfp_merge_japan_desc:0 "§Y北海道§!、§Y东北§!、§Y关东§!、§Y中部§!、§Y关西§!、§Y中国地方§!、§Y四国§!和§Y九州§!是日本本土的分裂地区。通过将它们统一在一面旗帜下，我们可以恢复日本国家。工业最发达的领土将领导联盟，兼并其他领土。"
   pfp_merge_japan_not_yet_formed_tt:0 "日本尚未统一。"
   pfp_merge_japan_effect_form:0 "§Y日本§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_japan_effect_annex:0 "§Y日本§!吞并其统一所需的傀儡政权。\n"
   pfp_merge_japan_effect_cores:0 "§Y日本§!获得被吞并傀儡政权的核心领土和主张。\n"
   pfp_merge_yugoslavia:0 "统一南斯拉夫"
-  pfp_merge_yugoslavia_desc:0 "§Y克罗地亚§!、§Y斯洛文尼亚§!、§Y波斯尼亚-黑塞哥维那§!和§Y塞尔维亚§!共享西巴尔干半岛和共同的南斯拉夫遗产。通过将它们统一在一面旗帜下，我们可以建立强大的南斯拉夫国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
+  pfp_merge_yugoslavia_desc:0 "§Y克罗地亚§!、§Y斯洛文尼亚§!、§Y波斯尼亚-黑塞哥维那§!和§Y塞尔维亚§!共享西巴尔干半岛和共同的南斯拉夫遗产。通过将它们统一在一面旗帜下，我们可以建立强大的南斯拉夫国家。工业最发达的领土将领导联盟，兼并其他领土。"
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "南斯拉夫尚未统一。"
   pfp_merge_yugoslavia_effect_form:0 "§Y南斯拉夫§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_yugoslavia_effect_annex:0 "§Y南斯拉夫§!吞并其统一所需的傀儡政权。\n"

@@ -4992,7 +4992,7 @@
 
   # United States
   pfp_merge_usa:0 "Zjednoczyć Stany Zjednoczone"
-  pfp_merge_usa_desc:0 "§YPółnocny-Wschód§!, §YŚrodkowy Zachód§! i §YPołudnie§! USA dzielą wspólne dziedzictwo i przeznaczenie. Łącząc je pod jednym sztandarem, możemy przywrócić Stany Zjednoczone. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_usa_desc:0 "§YPółnocny-Wschód§!, §YŚrodkowy Zachód§! i §YPołudnie§! USA dzielą wspólne dziedzictwo i przeznaczenie. Łącząc je pod jednym sztandarem, możemy przywrócić Stany Zjednoczone. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując pozostałe."
   pfp_merge_usa_not_yet_formed_tt:0 "Stany Zjednoczone nie zostały jeszcze zjednoczone."
   pfp_merge_usa_effect_form:0 "§YStany Zjednoczone§! są formowane przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_usa_effect_annex:0 "§YStany Zjednoczone§! anektują marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5012,7 +5012,7 @@
 
   # China
   pfp_merge_china:0 "Zjednoczyć Chiny"
-  pfp_merge_china_desc:0 "§YZhili§!, §YSzantung§!, §YHenan§!, §YSzansi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§! i §YSyczuan§! były niegdyś częścią zjednoczonych Chin. Konsolidując je pod jednym sztandarem, możemy przywrócić państwo chińskie. Najbardziej przemysłowo rozwinięte i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_china_desc:0 "§YZhili§!, §YSzantung§!, §YHenan§!, §YSzansi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§! i §YSyczuan§! były niegdyś częścią zjednoczonych Chin. Konsolidując je pod jednym sztandarem, możemy przywrócić państwo chińskie. Najbardziej przemysłowo rozwinięte terytorium poprowadzi unię, anektując pozostałe."
   pfp_merge_china_not_yet_formed_tt:0 "Chiny nie zostały jeszcze zjednoczone."
   pfp_merge_china_effect_form:0 "§YChiny§! są formowane przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_china_effect_annex:0 "§YChiny§! anektują marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5057,7 +5057,7 @@
 
   # East Africa
   pfp_merge_east_africa:0 "Zjednoczyć Afrykę Wschodnią"
-  pfp_merge_east_africa_desc:0 "§YEtiopia§!, §YErytrea§!, §YDżibuti§!, §YSomaliland§! i §YSomalia§! dzielą Róg Afryki. Konsolidując je pod jednym sztandarem, możemy ustanowić dominujące państwo wschodnioafrykańskie. Najbardziej przemysłowo rozwinięte i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_east_africa_desc:0 "§YEtiopia§!, §YErytrea§!, §YDżibuti§!, §YSomaliland§! i §YSomalia§! dzielą Róg Afryki. Konsolidując je pod jednym sztandarem, możemy ustanowić dominujące państwo wschodnioafrykańskie. Najbardziej przemysłowo rozwinięte terytorium poprowadzi unię, anektując pozostałe."
   pfp_merge_east_africa_not_yet_formed_tt:0 "Afryka Wschodnia nie została jeszcze zjednoczona."
   pfp_merge_east_africa_effect_form:0 "§YAfryka Wschodnia§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_east_africa_effect_annex:0 "§YAfryka Wschodnia§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5092,7 +5092,7 @@
 
   # France
   pfp_merge_france:0 "Zjednoczyć Francję"
-  pfp_merge_france_desc:0 "§YFrancja Północna§! i §YFrancja Południowa§! są dwoma podzielonymi połówkami niegdyś wielkiego narodu. Łącząc je pod jednym sztandarem, możemy przywrócić Francji jej dawną chwałę. Najbardziej przemysłowo rozwinięte i zaludnione terytorium poprowadzi unię, anektując drugą."
+  pfp_merge_france_desc:0 "§YFrancja Północna§! i §YFrancja Południowa§! są dwoma podzielonymi połówkami niegdyś wielkiego narodu. Łącząc je pod jednym sztandarem, możemy przywrócić Francji jej dawną chwałę. Najbardziej przemysłowo rozwinięte terytorium poprowadzi unię, anektując drugą."
   pfp_merge_france_not_yet_formed_tt:0 "Francja nie została jeszcze zjednoczona."
   pfp_merge_france_effect_form:0 "§YFrancja§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_france_effect_annex:0 "§YFrancja§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5106,7 +5106,7 @@
 
   # Germany
   pfp_merge_germany:0 "Zjednoczyć Niemcy"
-  pfp_merge_germany_desc:0 "§YNiemcy Zachodnie§! i §YNiemcy Wschodnie§! są dwoma podzielonymi połówkami niegdyś zjednoczonego narodu. Łącząc je pod jednym sztandarem, możemy przywrócić Niemcom ich dawną chwałę. Najbardziej przemysłowo rozwinięte i zaludnione terytorium poprowadzi unię, anektując drugie."
+  pfp_merge_germany_desc:0 "§YNiemcy Zachodnie§! i §YNiemcy Wschodnie§! są dwoma podzielonymi połówkami niegdyś zjednoczonego narodu. Łącząc je pod jednym sztandarem, możemy przywrócić Niemcom ich dawną chwałę. Najbardziej przemysłowo rozwinięte terytorium poprowadzi unię, anektując drugie."
   pfp_merge_germany_not_yet_formed_tt:0 "Niemcy nie zostały jeszcze zjednoczone."
   pfp_merge_germany_effect_form:0 "§YNiemcy§! są formowane przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_germany_effect_annex:0 "§YNiemcy§! anektują marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5120,7 +5120,7 @@
   pfp_merge_germany_requires_combo_tt:0 "Wymagana jest prawidłowa kombinacja niemieckich marionetek: §YNiemcy Zachodnie§! + §YNiemcy Wschodnie§!, §YPrusy§! + §YNiemcy Zachodnie§!, §YNiemcy Północne§! + §YNiemcy Południowe§!, lub §YPrusy§! + §YNiemcy Południowe§!.\n"
 
   pfp_merge_great_britain:0 "Zjednoczyć Wielką Brytanię"
-  pfp_merge_great_britain_desc:0 "§YAnglia§!, §YSzkocja§! i §YWalia§! dzielą wyspę Wielka Brytania i mają długą, przeplatającą się historię. Jednocząc je pod jednym sztandarem, możemy przywrócić państwo brytyjskie. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_great_britain_desc:0 "§YAnglia§!, §YSzkocja§! i §YWalia§! dzielą wyspę Wielka Brytania i mają długą, przeplatającą się historię. Jednocząc je pod jednym sztandarem, możemy przywrócić państwo brytyjskie. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując pozostałe."
   pfp_merge_great_britain_not_yet_formed_tt:0 "Wielka Brytania nie została jeszcze zjednoczona."
   pfp_merge_great_britain_effect_form:0 "§YWielka Brytania§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_great_britain_effect_annex:0 "§YWielka Brytania§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5134,14 +5134,14 @@
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YWielka Brytania§! zostaje przemianowana na §YWielką Brytanię i Irlandię Północną§!.\n"
 
   pfp_merge_iberia:0 "Zjednoczyć Iberię"
-  pfp_merge_iberia_desc:0 "§YHiszpania§! i §YPortugalia§! dzielą Półwysep Iberyjski i mają długą, przeplatającą się historię. Jednocząc je pod jednym sztandarem, możemy ustanowić potężne państwo iberyjskie. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując drugie."
+  pfp_merge_iberia_desc:0 "§YHiszpania§! i §YPortugalia§! dzielą Półwysep Iberyjski i mają długą, przeplatającą się historię. Jednocząc je pod jednym sztandarem, możemy ustanowić potężne państwo iberyjskie. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując drugie."
   pfp_merge_iberia_not_yet_formed_tt:0 "Iberia nie została jeszcze zjednoczona."
   pfp_merge_iberia_effect_form:0 "§YIberia§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_iberia_effect_annex:0 "§YIberia§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
   pfp_merge_iberia_effect_cores:0 "§YIberia§! zdobywa rdzenie i roszczenia anektowanych marionetkowych państw.\n"
 
   pfp_merge_italy:0 "Zjednoczyć Włochy"
-  pfp_merge_italy_desc:0 "§YLombardia-Wenecja§!, §YPiemont§!, §YToskania§!, §YPaństwo Kościelne§! i §YDwie Sycylie§! to fragmenty niegdyś wielkiego półwyspu. Jednocząc je pod jednym sztandarem, możemy ukształtować zjednoczone państwo włoskie. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_italy_desc:0 "§YLombardia-Wenecja§!, §YPiemont§!, §YToskania§!, §YPaństwo Kościelne§! i §YDwie Sycylie§! to fragmenty niegdyś wielkiego półwyspu. Jednocząc je pod jednym sztandarem, możemy ukształtować zjednoczone państwo włoskie. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując pozostałe."
   pfp_merge_italy_not_yet_formed_tt:0 "Włochy nie zostały jeszcze zjednoczone."
   pfp_merge_italy_effect_form:0 "§YWłochy§! są formowane przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_italy_effect_annex:0 "§YWłochy§! anektują marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5154,13 +5154,13 @@
   pfp_merge_italy_sardinia_effect_annex:0 "§YWłochy§! anektują §YSardynię§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
 
   pfp_merge_japan:0 "Zjednoczyć Japonię"
-  pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§! i §YKyushu§! to podzielone regiony japońskich wysp głównych. Jednocząc je pod jednym sztandarem, możemy przywrócić państwo japońskie. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§! i §YKyushu§! to podzielone regiony japońskich wysp głównych. Jednocząc je pod jednym sztandarem, możemy przywrócić państwo japońskie. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując pozostałe."
   pfp_merge_japan_not_yet_formed_tt:0 "Japonia nie została jeszcze zjednoczona."
   pfp_merge_japan_effect_form:0 "§YJaponia§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_japan_effect_annex:0 "§YJaponia§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
   pfp_merge_japan_effect_cores:0 "§YJaponia§! zdobywa rdzenie i roszczenia anektowanych marionetkowych państw.\n"
   pfp_merge_yugoslavia:0 "Zjednoczyć Jugosławię"
-  pfp_merge_yugoslavia_desc:0 "§YChorwacja§!, §YSłowenia§!, §YBośnia i Hercegowina§! i §YSerbia§! dzielą zachodni Bałkan i wspólne dziedzictwo południowosłowiańskie. Jednocząc je pod jednym sztandarem, możemy ustanowić potężne państwo jugosłowiańskie. Najbardziej uprzemysłowione i zaludnione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_yugoslavia_desc:0 "§YChorwacja§!, §YSłowenia§!, §YBośnia i Hercegowina§! i §YSerbia§! dzielą zachodni Bałkan i wspólne dziedzictwo południowosłowiańskie. Jednocząc je pod jednym sztandarem, możemy ustanowić potężne państwo jugosłowiańskie. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując pozostałe."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "Jugosławia nie została jeszcze zjednoczona."
   pfp_merge_yugoslavia_effect_form:0 "§YJugosławia§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_yugoslavia_effect_annex:0 "§YJugosławia§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
