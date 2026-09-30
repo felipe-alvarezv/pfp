@@ -82,22 +82,16 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_france_effect_annex
 			custom_effect_tooltip = pfp_merge_france_effect_cores
 			hidden_effect = {
-				# Score = mil factories + civ factories + (manpower / 100000)
+				# Score = mil factories + civ factories
 				# P62 Northern France initializes as default winner.
 				P62 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					save_global_event_target_as = pfp_france_winner
 				}
 				P63 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_france_winner.pfp_fac } }
 						save_global_event_target_as = pfp_france_winner

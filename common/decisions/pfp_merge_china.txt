@@ -261,23 +261,17 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_china_effect_annex
 			custom_effect_tooltip = pfp_merge_china_effect_cores
 			hidden_effect = {
-				# Score = mil factories + civ factories + (manpower / 100000)
+				# Score = mil factories + civ factories
 				# Q10 Zhili initializes as default winner.
 				# Each subsequent tag wins if it strictly has a higher score.
 				Q10 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					save_global_event_target_as = pfp_china_winner
 				}
 				Q11 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner
@@ -286,9 +280,6 @@ pfp_unification = {
 				Q12 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner
@@ -297,9 +288,6 @@ pfp_unification = {
 				Q13 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner
@@ -308,9 +296,6 @@ pfp_unification = {
 				Q14 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner
@@ -319,9 +304,6 @@ pfp_unification = {
 				Q15 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner
@@ -330,9 +312,6 @@ pfp_unification = {
 				Q16 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner
@@ -341,9 +320,6 @@ pfp_unification = {
 				Q17 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner
@@ -352,9 +328,6 @@ pfp_unification = {
 				Q18 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner
@@ -363,9 +336,6 @@ pfp_unification = {
 				Q19 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_china_winner.pfp_fac } }
 						save_global_event_target_as = pfp_china_winner

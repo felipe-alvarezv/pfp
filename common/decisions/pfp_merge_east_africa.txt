@@ -153,23 +153,17 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_east_africa_effect_annex
 			custom_effect_tooltip = pfp_merge_east_africa_effect_cores
 			hidden_effect = {
-				# Score = mil factories + civ factories + (manpower / 100000)
+				# Score = mil factories + civ factories
 				# Q55 Ethiopia initializes as default winner.
 				# Each subsequent tag wins if it strictly has a higher score.
 				Q55 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					save_global_event_target_as = pfp_east_africa_winner
 				}
 				Q56 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_east_africa_winner.pfp_fac } }
 						save_global_event_target_as = pfp_east_africa_winner
@@ -178,9 +172,6 @@ pfp_unification = {
 				Q57 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_east_africa_winner.pfp_fac } }
 						save_global_event_target_as = pfp_east_africa_winner
@@ -189,9 +180,6 @@ pfp_unification = {
 				Q58 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_east_africa_winner.pfp_fac } }
 						save_global_event_target_as = pfp_east_africa_winner
@@ -200,9 +188,6 @@ pfp_unification = {
 				Q59 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					if = {
 						limit = { check_variable = { pfp_fac > event_target:pfp_east_africa_winner.pfp_fac } }
 						save_global_event_target_as = pfp_east_africa_winner

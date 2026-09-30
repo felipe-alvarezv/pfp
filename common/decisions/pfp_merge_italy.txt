@@ -148,12 +148,12 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_italy_effect_annex
 			custom_effect_tooltip = pfp_merge_italy_effect_cores
 			hidden_effect = {
-				# Score = mil factories + civ factories + (manpower / 100000)
-				P92 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P93 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P95 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P96 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P97 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				# Score = mil factories + civ factories
+				P92 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P93 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P95 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P96 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P97 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
 
 				# Initialize winner with P92, then linear challenge
 				P92 = { save_global_event_target_as = pfp_italy_winner }

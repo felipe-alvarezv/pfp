@@ -128,11 +128,11 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_yugoslavia_effect_annex
 			custom_effect_tooltip = pfp_merge_yugoslavia_effect_cores
 			hidden_effect = {
-				# Score = mil factories + civ factories + (manpower / 100000)
-				P86 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P87 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P88 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P89 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				# Score = mil factories + civ factories
+				P86 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P87 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P88 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P89 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
 
 				# Initialize winner with P86, then linear challenge
 				P86 = { save_global_event_target_as = pfp_yugoslavia_winner }

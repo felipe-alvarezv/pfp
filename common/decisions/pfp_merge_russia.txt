@@ -122,11 +122,11 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_western_russia_effect_annex
 			custom_effect_tooltip = pfp_merge_western_russia_effect_cores
 			hidden_effect = {
-				# Score = mil factories + civ factories + (manpower / 100000)
-				P39 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P40 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P42 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P43 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				# Score = mil factories + civ factories
+				P39 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P40 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P42 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P43 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
 
 				# Initialize winner with P39, then linear challenge
 				P39 = { save_global_event_target_as = pfp_western_russia_winner }
@@ -465,9 +465,9 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_eastern_russia_effect_annex
 			custom_effect_tooltip = pfp_merge_eastern_russia_effect_cores
 			hidden_effect = {
-				P44 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P45 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
-				P46 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } set_variable = { pfp_mp_temp = manpower } divide_variable = { pfp_mp_temp = 100000 } add_to_variable = { pfp_fac = pfp_mp_temp } }
+				P44 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P45 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P46 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
 
 				P44 = { save_global_event_target_as = pfp_eastern_russia_winner }
 				if = { limit = { check_variable = { P45.pfp_fac > event_target:pfp_eastern_russia_winner.pfp_fac } } P45 = { save_global_event_target_as = pfp_eastern_russia_winner } }
@@ -588,9 +588,6 @@ pfp_unification = {
 					limit = { has_country_flag = pfp_is_western_russia }
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					save_global_event_target_as = pfp_russia_west
 					save_global_event_target_as = pfp_russia_winner
 				}
@@ -598,9 +595,6 @@ pfp_unification = {
 					limit = { has_country_flag = pfp_is_eastern_russia }
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 					save_global_event_target_as = pfp_russia_east
 				}
 

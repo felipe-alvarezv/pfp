@@ -110,27 +110,18 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_usa_effect_annex
 			custom_effect_tooltip = pfp_merge_usa_effect_cores
 			hidden_effect = {
-				# Score = mil factories + civ factories + (manpower / 100000)
+				# Score = mil factories + civ factories
 				P20 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 				}
 				P18 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 				}
 				P26 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
-					set_variable = { pfp_mp_temp = manpower }
-					divide_variable = { pfp_mp_temp = 100000 }
-					add_to_variable = { pfp_fac = pfp_mp_temp }
 				}
 
 				# P20 Northeastern wins by default.
