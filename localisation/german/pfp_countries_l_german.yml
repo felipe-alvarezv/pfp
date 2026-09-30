@@ -4983,12 +4983,9 @@
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "Kanada wurde noch nicht vereint."
   pfp_merge_puppet_must_core_owned_territories_tt:0 "Muss alle derzeit besetzten kernfähigen Gebiete als Kerngebiete eingegliedert haben."
-  pfp_merge_canada_effect_form:0 "§YKanada§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.
-"
-  pfp_merge_canada_effect_annex:0 "§YKanada§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.
-"
-  pfp_merge_canada_effect_cores:0 "§YKanada§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.
-"
+  pfp_merge_canada_effect_form:0 "§YKanada§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_canada_effect_annex:0 "§YKanada§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_canada_effect_cores:0 "§YKanada§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_canada_is_formed_tt:0 "Ein vereintes Kanada existiert unter unseren Marionettenstaaten."
   pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "Québec wurde noch nicht in Kanada eingegliedert."
   pfp_merge_canada_quebec_effect_annex:0 "§YKanada§! annektiert §YQuébec§! und erhält dessen Kerngebiete und kernfähige Gebiete.\n"
@@ -4997,12 +4994,9 @@
   pfp_merge_usa:0 "Die Vereinigten Staaten vereinen"
   pfp_merge_usa_desc:0 "§YNordosten§!, §YMittlerer Westen§! und §YSüden§! der USA teilen ein gemeinsames Erbe und Schicksal. Indem wir sie unter einem Banner vereinen, können wir die Vereinigten Staaten wiederherstellen. Das am stärksten industrialisierte und bevölkerungsreichste Gebiet wird die Union anführen und die anderen annektieren."
   pfp_merge_usa_not_yet_formed_tt:0 "Die Vereinigten Staaten wurden noch nicht wiedervereinigt."
-  pfp_merge_usa_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YDie Vereinigten Staaten§!.
-"
-  pfp_merge_usa_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YDie Vereinigten Staaten§! integriert.
-"
-  pfp_merge_usa_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YDie Vereinigten Staaten§! übertragen.
-"
+  pfp_merge_usa_effect_form:0 "§YDie Vereinigten Staaten§! werden vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_usa_effect_annex:0 "§YDie Vereinigten Staaten§! annektieren die für ihre Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_usa_effect_cores:0 "§YDie Vereinigten Staaten§! erhalten die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
 
   pfp_merge_usa_rockies:0 "Die Rocky Mountains in die Vereinigten Staaten eingliedern"
   pfp_merge_usa_rockies_desc:0 "Mit den wiederhergestellten Kern-USA können wir nun §YUSA Rocky Mountains§! in die Nation integrieren."
@@ -5020,12 +5014,9 @@
   pfp_merge_china:0 "China vereinen"
   pfp_merge_china_desc:0 "§YZhili§!, §YShandong§!, §YHenan§!, §YShanxi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§! und §YSichuan§! waren einst Teil eines vereinten Chinas. Indem wir sie unter einem Banner vereinen, können wir den chinesischen Staat wiederherstellen. Das industriell entwickeltste und bevölkerungsreichste Territorium wird die Union anführen und die anderen annektieren."
   pfp_merge_china_not_yet_formed_tt:0 "China wurde noch nicht vereint."
-  pfp_merge_china_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YChina§!.
-"
-  pfp_merge_china_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YChina§! integriert.
-"
-  pfp_merge_china_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YChina§! übertragen.
-"
+  pfp_merge_china_effect_form:0 "§YChina§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_china_effect_annex:0 "§YChina§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_china_effect_cores:0 "§YChina§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
 
   pfp_merge_china_manchuria:0 "Die Mandschurei in China eingliedern"
   pfp_merge_china_manchuria_desc:0 "Mit einem vereinten China können wir nun §YDie Mandschurei§! in die Nation integrieren und unsere nordöstlichen Territorien vervollständigen."
@@ -5068,12 +5059,9 @@
   pfp_merge_east_africa:0 "Ostafrika vereinen"
   pfp_merge_east_africa_desc:0 "§YÄthiopien§!, §YEritrea§!, §YDschibuti§!, §YBritisch-Somaliland§! und §YSomalia§! teilen das Horn von Afrika. Indem wir sie unter einem Banner vereinen, können wir einen dominanten ostafrikanischen Staat errichten. Das industriell am weitesten entwickelte und bevölkerungsreichste Gebiet wird die Union anführen und die anderen annektieren."
   pfp_merge_east_africa_not_yet_formed_tt:0 "Ostafrika wurde noch nicht vereint."
-  pfp_merge_east_africa_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YOstafrika§!.
-"
-  pfp_merge_east_africa_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YOstafrika§! integriert.
-"
-  pfp_merge_east_africa_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YOstafrika§! übertragen.
-"
+  pfp_merge_east_africa_effect_form:0 "§YOstafrika§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_east_africa_effect_annex:0 "§YOstafrika§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_east_africa_effect_cores:0 "§YOstafrika§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_east_africa_is_formed_tt:0 "Ein vereintes Ostafrika existiert unter unseren Marionettenstaaten."
 
   pfp_merge_east_africa_kenya:0 "Kenia in Ostafrika eingliedern"
@@ -5106,12 +5094,9 @@
   pfp_merge_france:0 "Frankreich vereinen"
   pfp_merge_france_desc:0 "§YNordfrankreich§! und §YSüdfrankreich§! sind die geteilten Hälften einer einst großen Nation. Indem wir sie unter einem Banner vereinen, können wir Frankreich zu seiner früheren Größe zurückführen. Das industriell am weitesten entwickelte und bevölkerungsreichste Gebiet wird die Union anführen und das andere annektieren."
   pfp_merge_france_not_yet_formed_tt:0 "Frankreich wurde noch nicht vereint."
-  pfp_merge_france_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YFrankreich§!.
-"
-  pfp_merge_france_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YFrankreich§! integriert.
-"
-  pfp_merge_france_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YFrankreich§! übertragen.
-"
+  pfp_merge_france_effect_form:0 "§YFrankreich§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_france_effect_annex:0 "§YFrankreich§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_france_effect_cores:0 "§YFrankreich§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_france_is_formed_tt:0 "Ein vereintes Frankreich existiert unter unseren Marionettenstaaten."
 
   pfp_merge_france_alps:0 "Die Französischen Alpen in Frankreich eingliedern"
@@ -5123,12 +5108,9 @@
   pfp_merge_germany:0 "Deutschland vereinen"
   pfp_merge_germany_desc:0 "§YWestdeutschland§! und §YOstdeutschland§! sind die geteilten Hälften einer einst geeinten Nation. Indem wir sie unter einem Banner vereinen, können wir Deutschland zu seiner früheren Größe zurückführen. Das industriell am weitesten entwickelte und bevölkerungsreichste Gebiet wird die Union anführen und das andere annektieren."
   pfp_merge_germany_not_yet_formed_tt:0 "Deutschland wurde noch nicht vereint."
-  pfp_merge_germany_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YDeutschland§!.
-"
-  pfp_merge_germany_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YDeutschland§! integriert.
-"
-  pfp_merge_germany_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YDeutschland§! übertragen.
-"
+  pfp_merge_germany_effect_form:0 "§YDeutschland§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_germany_effect_annex:0 "§YDeutschland§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_germany_effect_cores:0 "§YDeutschland§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_germany_is_formed_tt:0 "Ein vereintes Deutschland existiert unter unseren Marionettenstaaten."
 
   pfp_merge_germany_konigsberg:0 "Königsberg in Deutschland eingliedern"
@@ -5140,12 +5122,9 @@
   pfp_merge_great_britain:0 "Großbritannien vereinen"
   pfp_merge_great_britain_desc:0 "§YEngland§!, §YSchottland§! und §YWales§! teilen die Insel Großbritannien und eine lange, miteinander verwobene Geschichte. Durch ihre Vereinigung unter einem Banner können wir den britischen Staat wiederherstellen. Das am stärksten industrialisierte und bevölkerungsreichste Territorium wird die Union anführen und die anderen annektieren."
   pfp_merge_great_britain_not_yet_formed_tt:0 "Großbritannien wurde noch nicht vereint."
-  pfp_merge_great_britain_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YGroßbritannien§!.
-"
-  pfp_merge_great_britain_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YGroßbritannien§! integriert.
-"
-  pfp_merge_great_britain_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YGroßbritannien§! übertragen.
-"
+  pfp_merge_great_britain_effect_form:0 "§YGroßbritannien§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_great_britain_effect_annex:0 "§YGroßbritannien§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_great_britain_effect_cores:0 "§YGroßbritannien§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_great_britain_is_formed_tt:0 "Ein vereintes Großbritannien existiert unter unseren Marionettenstaaten."
 
   pfp_merge_great_britain_northern_ireland:0 "Nordirland in Großbritannien eingliedern"
@@ -5157,22 +5136,16 @@
   pfp_merge_iberia:0 "Iberien vereinen"
   pfp_merge_iberia_desc:0 "§YSpanien§! und §YPortugal§! teilen die Iberische Halbinsel und eine lange, miteinander verwobene Geschichte. Durch ihre Vereinigung unter einem Banner können wir einen dominanten iberischen Staat errichten. Das am stärksten industrialisierte und bevölkerungsreichste Territorium wird die Union anführen und das andere annektieren."
   pfp_merge_iberia_not_yet_formed_tt:0 "Iberien wurde noch nicht vereint."
-  pfp_merge_iberia_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YIberien§!.
-"
-  pfp_merge_iberia_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YIberien§! integriert.
-"
-  pfp_merge_iberia_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YIberien§! übertragen.
-"
+  pfp_merge_iberia_effect_form:0 "§YIberien§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_iberia_effect_annex:0 "§YIberien§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_iberia_effect_cores:0 "§YIberien§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
 
   pfp_merge_italy:0 "Italien vereinen"
   pfp_merge_italy_desc:0 "§YLombardei-Venetien§!, §YPiemont§!, §YToskana§!, §YDer Kirchenstaat§! und §YDie Beiden Sizilien§! sind die zersplitterten Teile einer einst großen Halbinsel. Durch ihre Vereinigung unter einem Banner können wir einen vereinten italienischen Staat schmieden. Das am stärksten industrialisierte und bevölkerungsreichste Territorium wird die Union anführen und die anderen annektieren."
   pfp_merge_italy_not_yet_formed_tt:0 "Italien wurde noch nicht vereint."
-  pfp_merge_italy_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YItalien§!.
-"
-  pfp_merge_italy_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YItalien§! integriert.
-"
-  pfp_merge_italy_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YItalien§! übertragen.
-"
+  pfp_merge_italy_effect_form:0 "§YItalien§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_italy_effect_annex:0 "§YItalien§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_italy_effect_cores:0 "§YItalien§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_italy_is_formed_tt:0 "Ein vereintes Italien existiert unter unseren Marionettenstaaten."
 
   pfp_merge_italy_sardinia:0 "Sardinien in Italien eingliedern"
@@ -5183,21 +5156,15 @@
   pfp_merge_japan:0 "Japan vereinen"
   pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§! und §YKyushu§! sind die geteilten Regionen der japanischen Hauptinseln. Durch ihre Vereinigung unter einem Banner können wir den japanischen Staat wiederherstellen. Das am stärksten industrialisierte und bevölkerungsreichste Territorium wird die Union anführen und die anderen annektieren."
   pfp_merge_japan_not_yet_formed_tt:0 "Japan wurde noch nicht vereint."
-  pfp_merge_japan_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YJapan§!.
-"
-  pfp_merge_japan_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YJapan§! integriert.
-"
-  pfp_merge_japan_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YJapan§! übertragen.
-"
+  pfp_merge_japan_effect_form:0 "§YJapan§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_japan_effect_annex:0 "§YJapan§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_japan_effect_cores:0 "§YJapan§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_yugoslavia:0 "Jugoslawien vereinen"
   pfp_merge_yugoslavia_desc:0 "§YKroatien§!, §YSlowenien§!, §YBosnien-Herzegowina§! und §YSerbien§! teilen den westlichen Balkan und ein gemeinsames südslavisches Erbe. Durch ihre Vereinigung unter einem Banner können wir einen mächtigen jugoslawischen Staat errichten. Das am stärksten industrialisierte und bevölkerungsreichste Territorium wird die Union anführen und die anderen annektieren."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "Jugoslawien wurde noch nicht vereint."
-  pfp_merge_yugoslavia_effect_form:0 "Der Marionettenstaat mit den meisten Fabriken bildet §YJugoslawien§!.
-"
-  pfp_merge_yugoslavia_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YJugoslawien§! integriert.
-"
-  pfp_merge_yugoslavia_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YJugoslawien§! übertragen.
-"
+  pfp_merge_yugoslavia_effect_form:0 "§YJugoslawien§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_yugoslavia_effect_annex:0 "§YJugoslawien§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_yugoslavia_effect_cores:0 "§YJugoslawien§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_yugoslavia_is_formed_tt:0 "Ein vereintes Jugoslawien existiert unter unseren Marionettenstaaten."
   pfp_merge_yugoslavia_montenegro:0 "Montenegro in Jugoslawien eingliedern"
   pfp_merge_yugoslavia_montenegro_desc:0 "Mit dem vereinten Jugoslawien können wir nun §YMontenegro§! eingliedern und damit unsere Kontrolle über den Balkan stärken."
@@ -5212,10 +5179,8 @@
   pfp_merge_western_russia_desc:0 "Die westlichen russischen Marionettenstaaten können zu einem einzigen westrussischen Staat vereinigt werden. Zentralrussland, Südrussland, Wolga und Nordwestrussland bilden das Fundament dieser neuen Nation."
   pfp_merge_western_russia_not_yet_formed_tt:0 "Westrussland wurde noch nicht gegründet."
   pfp_merge_western_russia_effect_form:0 "Der mächtigste Staat aus §YZentralrussland§!, §YSüdrussland§!, §YWolga§! und §YNordwestrussland§! wird zu §YWestrussland§!.\n"
-  pfp_merge_western_russia_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YWestrussland§! integriert.
-"
-  pfp_merge_western_russia_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YWestrussland§! übertragen.
-"
+  pfp_merge_western_russia_effect_annex:0 "§YWestrussland§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_western_russia_effect_cores:0 "§YWestrussland§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_western_russia_is_formed_tt:0 "Westrussland wurde gegründet."
 
   pfp_merge_western_russia_northern_caucasus:0 "Nordkaukasus aufnehmen"
@@ -5238,17 +5203,13 @@
   pfp_merge_eastern_russia_desc:0 "Die östlichen russischen Marionettenstaaten können zu einem einzigen ostrussischen Staat vereinigt werden. Der Ural, Sibirien und der russische Ferne Osten bilden diese weitläufige Nation."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "Ostrussland wurde noch nicht gegründet."
   pfp_merge_eastern_russia_effect_form:0 "Der mächtigste Staat aus §YUral§!, §YSibirien§! und §YRussischer Ferner Osten§! wird zu §YOstrussland§!.\n"
-  pfp_merge_eastern_russia_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YOstrussland§! integriert.
-"
-  pfp_merge_eastern_russia_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YOstrussland§! übertragen.
-"
+  pfp_merge_eastern_russia_effect_annex:0 "§YOstrussland§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_eastern_russia_effect_cores:0 "§YOstrussland§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_eastern_russia_is_formed_tt:0 "Ostrussland wurde gegründet."
 
   pfp_merge_russia:0 "Russland vereinigen"
   pfp_merge_russia_desc:0 "Mit Westrussland und Ostrussland unter unserer Kontrolle ist die Zeit gekommen, die russischen Länder zu einer einzigen großen Nation zu vereinigen."
   pfp_merge_russia_not_yet_formed_tt:0 "Russland wurde noch nicht gegründet."
   pfp_merge_russia_effect_form:0 "Der mächtigste Staat aus §YWestrussland§! und §YOstrussland§! wird zu §YRussland§!.\n"
-  pfp_merge_russia_effect_annex:0 "Alle oben aufgeführten Marionettenstaaten werden in §YRussland§! integriert.
-"
-  pfp_merge_russia_effect_cores:0 "Die Kerngebiete und Ansprüche der oben aufgeführten Marionettenstaaten werden auf §YRussland§! übertragen.
-"
+  pfp_merge_russia_effect_annex:0 "§YRussland§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_russia_effect_cores:0 "§YRussland§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"

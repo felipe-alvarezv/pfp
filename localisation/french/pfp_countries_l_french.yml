@@ -4983,12 +4983,9 @@
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "Le Canada n'a pas encore été unifié."
   pfp_merge_puppet_must_core_owned_territories_tt:0 "Doit avoir incorporé tous les territoires occupés actuellement pouvant être annexés."
-  pfp_merge_canada_effect_form:0 "§YLe Canada§! est formé par la marionnette ayant le plus d'usines.
-"
-  pfp_merge_canada_effect_annex:0 "§YLe Canada§! annexe les marionnettes requises pour son unification.
-"
-  pfp_merge_canada_effect_cores:0 "§YLe Canada§! acquiert les noyaux et revendications des marionnettes annexées.
-"
+  pfp_merge_canada_effect_form:0 "§YLe Canada§! est formé par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_canada_effect_annex:0 "§YLe Canada§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_canada_effect_cores:0 "§YLe Canada§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_canada_is_formed_tt:0 "Un Canada unifié existe parmi nos nations-fantoche."
   pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "Le Québec n'a pas encore été absorbé dans le Canada."
   pfp_merge_canada_quebec_effect_annex:0 "§YLe Canada§! annexe §Yle Québec§!, obtenant ses noyaux et territoires pouvant être annexés.\n"
@@ -4997,12 +4994,9 @@
   pfp_merge_usa:0 "Unifier les États-Unis"
   pfp_merge_usa_desc:0 "§YNord-Est§!, §YMidwest§! et §YSud§! des États-Unis partagent un héritage et une destinée commune. En les unissant sous une même bannière, nous pouvons restaurer les États-Unis. Le territoire le plus industrialisé et peuplé mènera l'union, annexant les autres."
   pfp_merge_usa_not_yet_formed_tt:0 "Les États-Unis n'ont pas encore été réunifiés."
-  pfp_merge_usa_effect_form:0 "La marionnette ayant le plus d'usines forme §YLes États-Unis§!.
-"
-  pfp_merge_usa_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLes États-Unis§!.
-"
-  pfp_merge_usa_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLes États-Unis§!.
-"
+  pfp_merge_usa_effect_form:0 "§YLes États-Unis§! sont formés par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_usa_effect_annex:0 "§YLes États-Unis§! annexent les marionnettes requises pour leur unification.\n"
+  pfp_merge_usa_effect_cores:0 "§YLes États-Unis§! acquièrent les noyaux et revendications des marionnettes annexées.\n"
 
   pfp_merge_usa_rockies:0 "Absorber les Rocheuses dans les États-Unis"
   pfp_merge_usa_rockies_desc:0 "Les États-Unis centraux restaurés, nous pouvons désormais intégrer §YÉtats-Unis Rocheuses§! dans la nation."
@@ -5020,12 +5014,9 @@
   pfp_merge_china:0 "Unifier la Chine"
   pfp_merge_china_desc:0 "§YZhili§!, §YShandong§!, §YHenan§!, §YShanxi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§! et §YSichuan§! faisaient autrefois partie d'une Chine unifiée. En les consolidant sous une même bannière, nous pouvons restaurer l'État chinois. Le territoire le plus industrialisé et peuplé mènera l'union, annexant les autres."
   pfp_merge_china_not_yet_formed_tt:0 "La Chine n'a pas encore été unifiée."
-  pfp_merge_china_effect_form:0 "La marionnette ayant le plus d'usines forme §YLa Chine§!.
-"
-  pfp_merge_china_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLa Chine§!.
-"
-  pfp_merge_china_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLa Chine§!.
-"
+  pfp_merge_china_effect_form:0 "§YLa Chine§! est formée par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_china_effect_annex:0 "§YLa Chine§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_china_effect_cores:0 "§YLa Chine§! acquiert les noyaux et revendications des marionnettes annexées.\n"
 
   pfp_merge_china_manchuria:0 "Absorber la Mandchourie dans la Chine"
   pfp_merge_china_manchuria_desc:0 "La Chine unifiée, nous pouvons désormais intégrer §YLa Mandchourie§! dans la nation, complétant nos territoires du nord-est."
@@ -5068,12 +5059,9 @@
   pfp_merge_east_africa:0 "Unifier l'Afrique de l'Est"
   pfp_merge_east_africa_desc:0 "§YL'Éthiopie§!, §YL'Érythrée§!, §YDjibouti§!, §YLe Somaliland§! et §YLa Somalie§! partagent la Corne de l'Afrique. En les unissant sous une même bannière, nous pouvons établir un État est-africain dominant. Le territoire le plus industrialisé et peuplé mènera l'union, annexant les autres."
   pfp_merge_east_africa_not_yet_formed_tt:0 "L'Afrique de l'Est n'a pas encore été unifiée."
-  pfp_merge_east_africa_effect_form:0 "La marionnette ayant le plus d'usines forme §YL'Afrique de l'Est§!.
-"
-  pfp_merge_east_africa_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YL'Afrique de l'Est§!.
-"
-  pfp_merge_east_africa_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YL'Afrique de l'Est§!.
-"
+  pfp_merge_east_africa_effect_form:0 "§YL'Afrique de l'Est§! est formée par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_east_africa_effect_annex:0 "§YL'Afrique de l'Est§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_east_africa_effect_cores:0 "§YL'Afrique de l'Est§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_east_africa_is_formed_tt:0 "Une Afrique de l'Est unifiée existe parmi nos pantins."
 
   pfp_merge_east_africa_kenya:0 "Absorber le Kenya dans l'Afrique de l'Est"
@@ -5106,12 +5094,9 @@
   pfp_merge_france:0 "Unifier la France"
   pfp_merge_france_desc:0 "§YLa France du Nord§! et §YLa France du Sud§! sont les deux moitiés d'une nation autrefois grande. En les fusionnant sous une même bannière, nous pouvons restaurer la France à sa grandeur passée. Le territoire le plus industrialisé et peuplé mènera l'union, annexant l'autre."
   pfp_merge_france_not_yet_formed_tt:0 "La France n'a pas encore été unifiée."
-  pfp_merge_france_effect_form:0 "La marionnette ayant le plus d'usines forme §YLa France§!.
-"
-  pfp_merge_france_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLa France§!.
-"
-  pfp_merge_france_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLa France§!.
-"
+  pfp_merge_france_effect_form:0 "§YLa France§! est formée par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_france_effect_annex:0 "§YLa France§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_france_effect_cores:0 "§YLa France§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_france_is_formed_tt:0 "Une France unifiée existe parmi nos pantins."
 
   pfp_merge_france_alps:0 "Absorber les Alpes françaises dans la France"
@@ -5123,12 +5108,9 @@
   pfp_merge_germany:0 "Unifier l'Allemagne"
   pfp_merge_germany_desc:0 "§YL'Allemagne de l'Ouest§! et §YL'Allemagne de l'Est§! sont les deux moitiés divisées d'une nation autrefois unifiée. En les fusionnant sous une même bannière, nous pouvons restaurer l'Allemagne à sa grandeur passée. Le territoire le plus industrialisé et peuplé mènera l'union, annexant l'autre."
   pfp_merge_germany_not_yet_formed_tt:0 "L'Allemagne n'a pas encore été unifiée."
-  pfp_merge_germany_effect_form:0 "La marionnette ayant le plus d'usines forme §YL'Allemagne§!.
-"
-  pfp_merge_germany_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YL'Allemagne§!.
-"
-  pfp_merge_germany_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YL'Allemagne§!.
-"
+  pfp_merge_germany_effect_form:0 "§YL'Allemagne§! est formée par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_germany_effect_annex:0 "§YL'Allemagne§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_germany_effect_cores:0 "§YL'Allemagne§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_germany_is_formed_tt:0 "Une Allemagne unifiée existe parmi nos pantins."
 
   pfp_merge_germany_konigsberg:0 "Absorber Königsberg dans l'Allemagne"
@@ -5140,12 +5122,9 @@
   pfp_merge_great_britain:0 "Unifier la Grande-Bretagne"
   pfp_merge_great_britain_desc:0 "§YL'Angleterre§!, §YL'Écosse§! et §YLe Pays de Galles§! partagent l'île de Grande-Bretagne et une longue histoire commune. En les unissant sous une même bannière, nous pouvons restaurer l'État britannique. Le territoire le plus industriellement développé et peuplé dirigera l'union en annexant les autres."
   pfp_merge_great_britain_not_yet_formed_tt:0 "La Grande-Bretagne n'a pas encore été unifiée."
-  pfp_merge_great_britain_effect_form:0 "La marionnette ayant le plus d'usines forme §YLa Grande-Bretagne§!.
-"
-  pfp_merge_great_britain_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLa Grande-Bretagne§!.
-"
-  pfp_merge_great_britain_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLa Grande-Bretagne§!.
-"
+  pfp_merge_great_britain_effect_form:0 "§YLa Grande-Bretagne§! est formée par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_great_britain_effect_annex:0 "§YLa Grande-Bretagne§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_great_britain_effect_cores:0 "§YLa Grande-Bretagne§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_great_britain_is_formed_tt:0 "Une Grande-Bretagne unifiée existe parmi nos marionnettes."
 
   pfp_merge_great_britain_northern_ireland:0 "Absorber l'Irlande du Nord dans la Grande-Bretagne"
@@ -5157,22 +5136,16 @@
   pfp_merge_iberia:0 "Unifier l'Ibérie"
   pfp_merge_iberia_desc:0 "§YL'Espagne§! et §YLe Portugal§! partagent la péninsule ibérique et une longue histoire commune. En les unissant sous une même bannière, nous pouvons établir un état ibérique dominant. Le territoire le plus industriellement développé et peuplé dirigera l'union en annexant l'autre."
   pfp_merge_iberia_not_yet_formed_tt:0 "L'Ibérie n'a pas encore été unifiée."
-  pfp_merge_iberia_effect_form:0 "La marionnette ayant le plus d'usines forme §YL'Ibérie§!.
-"
-  pfp_merge_iberia_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YL'Ibérie§!.
-"
-  pfp_merge_iberia_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YL'Ibérie§!.
-"
+  pfp_merge_iberia_effect_form:0 "§YL'Ibérie§! est formée par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_iberia_effect_annex:0 "§YL'Ibérie§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_iberia_effect_cores:0 "§YL'Ibérie§! acquiert les noyaux et revendications des marionnettes annexées.\n"
 
   pfp_merge_italy:0 "Unifier l'Italie"
   pfp_merge_italy_desc:0 "§YLa Lombardie-Vénétie§!, §YLe Piémont§!, §YLa Toscane§!, §YLes États pontificaux§! et §YLes Deux-Siciles§! sont les fragments épars d'une grande péninsule. En les unissant sous une même bannière, nous pouvons forger un État italien unifié. Le territoire le plus industriellement développé et peuplé dirigera l'union en annexant les autres."
   pfp_merge_italy_not_yet_formed_tt:0 "L'Italie n'a pas encore été unifiée."
-  pfp_merge_italy_effect_form:0 "La marionnette ayant le plus d'usines forme §YL'Italie§!.
-"
-  pfp_merge_italy_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YL'Italie§!.
-"
-  pfp_merge_italy_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YL'Italie§!.
-"
+  pfp_merge_italy_effect_form:0 "§YL'Italie§! est formée par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_italy_effect_annex:0 "§YL'Italie§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_italy_effect_cores:0 "§YL'Italie§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_italy_is_formed_tt:0 "Une Italie unifiée existe parmi nos marionnettes."
 
   pfp_merge_italy_sardinia:0 "Absorber la Sardaigne dans l'Italie"
@@ -5183,21 +5156,15 @@
   pfp_merge_japan:0 "Unifier le Japon"
   pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§! et §YKyushu§! sont les régions divisées des îles principales japonaises. En les unissant sous une même bannière, nous pouvons restaurer l'État japonais. Le territoire le plus industriellement développé et peuplé dirigera l'union en annexant les autres."
   pfp_merge_japan_not_yet_formed_tt:0 "Le Japon n'a pas encore été unifié."
-  pfp_merge_japan_effect_form:0 "La marionnette ayant le plus d'usines forme §YLe Japon§!.
-"
-  pfp_merge_japan_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLe Japon§!.
-"
-  pfp_merge_japan_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLe Japon§!.
-"
+  pfp_merge_japan_effect_form:0 "§YLe Japon§! est formé par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_japan_effect_annex:0 "§YLe Japon§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_japan_effect_cores:0 "§YLe Japon§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_yugoslavia:0 "Unifier la Yougoslavie"
   pfp_merge_yugoslavia_desc:0 "§YLa Croatie§!, §YLa Slovénie§!, §YLa Bosnie-Herzégovine§! et §YLa Serbie§! partagent les Balkans occidentaux et un patrimoine commun slave du Sud. En les unissant sous une même bannière, nous pouvons établir un puissant État yougoslave. Le territoire le plus industriellement développé et peuplé dirigera l'union en annexant les autres."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "La Yougoslavie n'a pas encore été unifiée."
-  pfp_merge_yugoslavia_effect_form:0 "La marionnette ayant le plus d'usines forme §YLa Yougoslavie§!.
-"
-  pfp_merge_yugoslavia_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLa Yougoslavie§!.
-"
-  pfp_merge_yugoslavia_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLa Yougoslavie§!.
-"
+  pfp_merge_yugoslavia_effect_form:0 "§YLa Yougoslavie§! est formée par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_yugoslavia_effect_annex:0 "§YLa Yougoslavie§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_yugoslavia_effect_cores:0 "§YLa Yougoslavie§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_yugoslavia_is_formed_tt:0 "Une Yougoslavie unifiée existe parmi nos marionnettes."
   pfp_merge_yugoslavia_montenegro:0 "Absorber le Monténégro dans la Yougoslavie"
   pfp_merge_yugoslavia_montenegro_desc:0 "Avec la Yougoslavie unifiée, nous pouvons maintenant intégrer §YLe Monténégro§! dans notre giron, renforçant notre emprise sur les Balkans."
@@ -5212,10 +5179,8 @@
   pfp_merge_western_russia_desc:0 "Les marionnettes russes de l'ouest peuvent être unies en un seul État de Russie Occidentale. La Russie Centrale, Méridionale, la Volga et la Russie du Nord-Ouest formeront la base de cette nouvelle nation."
   pfp_merge_western_russia_not_yet_formed_tt:0 "La Russie Occidentale n'a pas encore été formée."
   pfp_merge_western_russia_effect_form:0 "La plus puissante de §YRussie Centrale§!, §YRussie Méridionale§!, §YVolga§! et §YRussie du Nord-Ouest§! devient §YRussie Occidentale§!.\n"
-  pfp_merge_western_russia_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLa Russie Occidentale§!.
-"
-  pfp_merge_western_russia_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLa Russie Occidentale§!.
-"
+  pfp_merge_western_russia_effect_annex:0 "§YLa Russie Occidentale§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_western_russia_effect_cores:0 "§YLa Russie Occidentale§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_western_russia_is_formed_tt:0 "La Russie Occidentale a été formée."
 
   pfp_merge_western_russia_northern_caucasus:0 "Absorber le Caucase du Nord"
@@ -5238,17 +5203,13 @@
   pfp_merge_eastern_russia_desc:0 "Les marionnettes russes de l'est peuvent être unies en un seul État de Russie Orientale. L'Oural, la Sibérie et l'Extrême-Orient russe formeront cette vaste nation."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "La Russie Orientale n'a pas encore été formée."
   pfp_merge_eastern_russia_effect_form:0 "La plus puissante de §YOural§!, §YSibérie§! et §YExtrême-Orient russe§! devient §YRussie Orientale§!.\n"
-  pfp_merge_eastern_russia_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLa Russie Orientale§!.
-"
-  pfp_merge_eastern_russia_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLa Russie Orientale§!.
-"
+  pfp_merge_eastern_russia_effect_annex:0 "§YLa Russie Orientale§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_eastern_russia_effect_cores:0 "§YLa Russie Orientale§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_eastern_russia_is_formed_tt:0 "La Russie Orientale a été formée."
 
   pfp_merge_russia:0 "Unifier la Russie"
   pfp_merge_russia_desc:0 "Avec la Russie Occidentale et Orientale sous notre contrôle, le moment est venu de réunifier les terres russes en une seule grande nation."
   pfp_merge_russia_not_yet_formed_tt:0 "La Russie n'a pas encore été formée."
   pfp_merge_russia_effect_form:0 "La plus puissante de §YRussie Occidentale§! et §YRussie Orientale§! devient §YRussie§!.\n"
-  pfp_merge_russia_effect_annex:0 "Toutes les marionnettes listées ci-dessus sont intégrées dans §YLa Russie§!.
-"
-  pfp_merge_russia_effect_cores:0 "Les noyaux et revendications des marionnettes listées ci-dessus sont transférés à §YLa Russie§!.
-"
+  pfp_merge_russia_effect_annex:0 "§YLa Russie§! annexe les marionnettes requises pour son unification.\n"
+  pfp_merge_russia_effect_cores:0 "§YLa Russie§! acquiert les noyaux et revendications des marionnettes annexées.\n"
