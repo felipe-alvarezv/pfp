@@ -4996,9 +4996,9 @@
   pfp_merge_usa:0 "Unite the United States"
   pfp_merge_usa_desc:0 "§YNortheastern§!, §YMidwestern§!, and §YSouthern§! U.S. share a common heritage and destiny. By uniting them under one banner, we can restore the United States. The most industrially developed and populated territory will lead the union, annexing the others."
   pfp_merge_usa_not_yet_formed_tt:0 "The United States has not yet been reunified."
-  pfp_merge_usa_effect_form:0 "§YThe United States§! is formed by the puppet with the most factories.\n"
-  pfp_merge_usa_effect_annex:0 "§YThe United States§! annexes the puppets required for its unification.\n"
-  pfp_merge_usa_effect_cores:0 "§YThe United States§! gains the cores and claims of the annexed puppets.\n"
+  pfp_merge_usa_effect_form:0 "§YUnited States§! is formed by the puppet with the most factories.\n"
+  pfp_merge_usa_effect_annex:0 "§YUnited States§! annexes the puppets required for its unification.\n"
+  pfp_merge_usa_effect_cores:0 "§YUnited States§! gains the cores and claims of the annexed puppets.\n"
 
   pfp_merge_usa_rockies:0 "Absorb the Rockies into the United States"
   pfp_merge_usa_rockies_desc:0 "With the core United States restored, we can now integrate §YRockies U.S.§! into the nation."

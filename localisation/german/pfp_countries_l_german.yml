@@ -4994,9 +4994,9 @@
   pfp_merge_usa:0 "Die Vereinigten Staaten vereinen"
   pfp_merge_usa_desc:0 "§YNordosten§!, §YMittlerer Westen§! und §YSüden§! der USA teilen ein gemeinsames Erbe und Schicksal. Indem wir sie unter einem Banner vereinen, können wir die Vereinigten Staaten wiederherstellen. Das am stärksten industrialisierte und bevölkerungsreichste Gebiet wird die Union anführen und die anderen annektieren."
   pfp_merge_usa_not_yet_formed_tt:0 "Die Vereinigten Staaten wurden noch nicht wiedervereinigt."
-  pfp_merge_usa_effect_form:0 "§YDie Vereinigten Staaten§! werden vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
-  pfp_merge_usa_effect_annex:0 "§YDie Vereinigten Staaten§! annektieren die für ihre Vereinigung erforderlichen Marionettenstaaten.\n"
-  pfp_merge_usa_effect_cores:0 "§YDie Vereinigten Staaten§! erhalten die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
+  pfp_merge_usa_effect_form:0 "§YVereinigte Staaten§! werden vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
+  pfp_merge_usa_effect_annex:0 "§YVereinigte Staaten§! annektieren die für ihre Vereinigung erforderlichen Marionettenstaaten.\n"
+  pfp_merge_usa_effect_cores:0 "§YVereinigte Staaten§! erhalten die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
 
   pfp_merge_usa_rockies:0 "Die Rocky Mountains in die Vereinigten Staaten eingliedern"
   pfp_merge_usa_rockies_desc:0 "Mit den wiederhergestellten Kern-USA können wir nun §YUSA Rocky Mountains§! in die Nation integrieren."

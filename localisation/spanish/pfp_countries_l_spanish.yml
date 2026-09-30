@@ -4994,9 +4994,9 @@
   pfp_merge_usa:0 "Unir los Estados Unidos"
   pfp_merge_usa_desc:0 "§YNordeste§!, §YMedio Oeste§! y §YSur§! de EE.UU. comparten una herencia y destino común. Al unirlos bajo una misma bandera, podemos restaurar los Estados Unidos. El territorio más industrializado y poblado liderará la unión, anexando a los demás."
   pfp_merge_usa_not_yet_formed_tt:0 "Los Estados Unidos aún no han sido reunificados."
-  pfp_merge_usa_effect_form:0 "§YLos Estados Unidos§! son formados por el títere con más fábricas.\n"
-  pfp_merge_usa_effect_annex:0 "§YLos Estados Unidos§! anexan los títeres requeridos para su unificación.\n"
-  pfp_merge_usa_effect_cores:0 "§YLos Estados Unidos§! ganan los núcleos y reclamaciones de los títeres anexados.\n"
+  pfp_merge_usa_effect_form:0 "§YEstados Unidos§! son formados por el títere con más fábricas.\n"
+  pfp_merge_usa_effect_annex:0 "§YEstados Unidos§! anexan los títeres requeridos para su unificación.\n"
+  pfp_merge_usa_effect_cores:0 "§YEstados Unidos§! ganan los núcleos y reclamaciones de los títeres anexados.\n"
 
   pfp_merge_usa_rockies:0 "Absorber las Rocosas en los Estados Unidos"
   pfp_merge_usa_rockies_desc:0 "Con los Estados Unidos centrales restaurados, ahora podemos integrar §YEE.UU. Rocosas§! en la nación."

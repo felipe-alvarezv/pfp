@@ -4994,9 +4994,9 @@
   pfp_merge_usa:0 "Unifier les États-Unis"
   pfp_merge_usa_desc:0 "§YNord-Est§!, §YMidwest§! et §YSud§! des États-Unis partagent un héritage et une destinée commune. En les unissant sous une même bannière, nous pouvons restaurer les États-Unis. Le territoire le plus industrialisé et peuplé mènera l'union, annexant les autres."
   pfp_merge_usa_not_yet_formed_tt:0 "Les États-Unis n'ont pas encore été réunifiés."
-  pfp_merge_usa_effect_form:0 "§YLes États-Unis§! sont formés par la marionnette ayant le plus d'usines.\n"
-  pfp_merge_usa_effect_annex:0 "§YLes États-Unis§! annexent les marionnettes requises pour leur unification.\n"
-  pfp_merge_usa_effect_cores:0 "§YLes États-Unis§! acquièrent les noyaux et revendications des marionnettes annexées.\n"
+  pfp_merge_usa_effect_form:0 "§YÉtats-Unis§! sont formés par la marionnette ayant le plus d'usines.\n"
+  pfp_merge_usa_effect_annex:0 "§YÉtats-Unis§! annexent les marionnettes requises pour leur unification.\n"
+  pfp_merge_usa_effect_cores:0 "§YÉtats-Unis§! acquièrent les noyaux et revendications des marionnettes annexées.\n"
 
   pfp_merge_usa_rockies:0 "Absorber les Rocheuses dans les États-Unis"
   pfp_merge_usa_rockies_desc:0 "Les États-Unis centraux restaurés, nous pouvons désormais intégrer §YÉtats-Unis Rocheuses§! dans la nation."
