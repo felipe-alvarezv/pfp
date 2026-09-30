@@ -4982,9 +4982,12 @@
   pfp_merge_canada:0 "Unite Canada"
   pfp_merge_canada_desc:0 "§YEastern Canada§! and §YWestern Canada§! share a common history and destiny. By uniting them under one banner, we can establish a stronger Canadian state. The more industrially developed territory will lead the union, annexing the other and forming a unified Canada."
   pfp_merge_canada_not_yet_formed_tt:0 "Canada has not yet been unified."
-  pfp_merge_canada_effect_form:0 "The puppet with the most factories forms §YCanada§!.\n"
-  pfp_merge_canada_effect_annex:0 "All puppets listed above are integrated into §YCanada§!.\n"
-  pfp_merge_canada_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YCanada§!.\n"
+  pfp_merge_canada_effect_form:0 "§YCanada§! is formed by the puppet with the most factories.
+"
+  pfp_merge_canada_effect_annex:0 "§YCanada§! annexes the puppets required for its unification.
+"
+  pfp_merge_canada_effect_cores:0 "§YCanada§! gains the cores and claims of the annexed puppets.
+"
 
   pfp_merge_canada_quebec:0 "Absorb Quebec into Canada"
   pfp_merge_canada_quebec_desc:0 "With Canada unified, we can now bring §YQuebec§! into the fold, completing the consolidation of our Canadian territories into one nation."
