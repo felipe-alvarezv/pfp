@@ -4994,9 +4994,12 @@
   pfp_merge_usa:0 "Unir os Estados Unidos"
   pfp_merge_usa_desc:0 "§YNordeste§!, §YMeio-Oeste§! e §YSul§! dos EUA compartilham uma herança e destino comum. Ao uni-los sob uma mesma bandeira, podemos restaurar os Estados Unidos. O território mais industrializado e populoso liderará a união, anexando os demais."
   pfp_merge_usa_not_yet_formed_tt:0 "Os Estados Unidos ainda não foram reunificados."
-  pfp_merge_usa_effect_form:0 "§YOs Estados Unidos§! são formados pelo fantoche mais industrializado e populoso.\n"
-  pfp_merge_usa_effect_annex:0 "§YOs Estados Unidos§! anexam os fantoches listados anteriormente.\n"
-  pfp_merge_usa_effect_cores:0 "§YOs Estados Unidos§! herdam os núcleos e territórios nucleáveis dos fantoches listados anteriormente.\n"
+  pfp_merge_usa_effect_form:0 "O fantoche com mais fábricas forma §YEstados Unidos§!.
+"
+  pfp_merge_usa_effect_annex:0 "Todos os fantoches listados acima são integrados aos §YEstados Unidos§!.
+"
+  pfp_merge_usa_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para os §YEstados Unidos§!.
+"
 
   pfp_merge_usa_rockies:0 "Absorver as Rochosas nos Estados Unidos"
   pfp_merge_usa_rockies_desc:0 "Com os Estados Unidos centrais restaurados, agora podemos integrar §YEUA Rochosas§! à nação."
@@ -5014,9 +5017,12 @@
   pfp_merge_china:0 "Unificar a China"
   pfp_merge_china_desc:0 "§YZhili§!, §YShandong§!, §YHenan§!, §YShanxi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§! e §YSichuan§! faziam parte de uma China unificada. Ao consolidá-los sob uma única bandeira, podemos restaurar o Estado chinês. O território mais industrialmente desenvolvido e populoso liderará a união, anexando os demais."
   pfp_merge_china_not_yet_formed_tt:0 "A China ainda não foi unificada."
-  pfp_merge_china_effect_form:0 "§YA China§! é formada pelo fantoche mais industrializado e populoso.\n"
-  pfp_merge_china_effect_annex:0 "§YA China§! anexa os fantoches anteriormente listados.\n"
-  pfp_merge_china_effect_cores:0 "§YA China§! herda núcleos e territórios anexáveis dos fantoches anteriormente listados.\n"
+  pfp_merge_china_effect_form:0 "O fantoche com mais fábricas forma §YChina§!.
+"
+  pfp_merge_china_effect_annex:0 "Todos os fantoches listados acima são integrados à §YChina§!.
+"
+  pfp_merge_china_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YChina§!.
+"
 
   pfp_merge_china_manchuria:0 "Absorver a Manchúria pela China"
   pfp_merge_china_manchuria_desc:0 "Com a China unificada, podemos agora incorporar §YA Manchúria§! à nação, completando nossos territórios do nordeste."
@@ -5059,9 +5065,12 @@
   pfp_merge_east_africa:0 "Unificar a África Oriental"
   pfp_merge_east_africa_desc:0 "§YEtiópia§!, §YEritréia§!, §YDjibouti§!, §YSomaliland§! e §YSomália§! compartilham o Chifre da África. Ao consolidá-los sob uma única bandeira, podemos estabelecer um Estado dominante da África Oriental. O território mais industrializado e populoso liderará a união, anexando os demais."
   pfp_merge_east_africa_not_yet_formed_tt:0 "A África Oriental ainda não foi unificada."
-  pfp_merge_east_africa_effect_form:0 "§YA África Oriental§! é formada pelo fantoche mais industrializado e populoso.\n"
-  pfp_merge_east_africa_effect_annex:0 "§YA África Oriental§! anexa os fantoches anteriormente listados.\n"
-  pfp_merge_east_africa_effect_cores:0 "§YA África Oriental§! herda núcleos e territórios anexáveis dos fantoches anteriormente listados.\n"
+  pfp_merge_east_africa_effect_form:0 "O fantoche com mais fábricas forma §YÁfrica Oriental§!.
+"
+  pfp_merge_east_africa_effect_annex:0 "Todos os fantoches listados acima são integrados à §YÁfrica Oriental§!.
+"
+  pfp_merge_east_africa_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YÁfrica Oriental§!.
+"
   pfp_merge_east_africa_is_formed_tt:0 "Uma África Oriental unificada existe entre os nossos fantoches."
 
   pfp_merge_east_africa_kenya:0 "Absorver o Quênia pela África Oriental"
@@ -5094,9 +5103,12 @@
   pfp_merge_france:0 "Unificar a França"
   pfp_merge_france_desc:0 "§YFrança do Norte§! e §YFrança do Sul§! são as duas metades de uma nação outrora grandiosa. Ao fundi-las sob uma única bandeira, podemos restaurar a França à sua antiga glória. O território mais industrializado e populoso liderará a união, anexando o outro."
   pfp_merge_france_not_yet_formed_tt:0 "A França ainda não foi unificada."
-  pfp_merge_france_effect_form:0 "§YA França§! é formada pelo fantoche mais industrializado e populoso.\n"
-  pfp_merge_france_effect_annex:0 "§YA França§! anexa o fantoche anteriormente listado.\n"
-  pfp_merge_france_effect_cores:0 "§YA França§! herda núcleos e territórios anexáveis do fantoche anteriormente listado.\n"
+  pfp_merge_france_effect_form:0 "O fantoche com mais fábricas forma §YFrança§!.
+"
+  pfp_merge_france_effect_annex:0 "Todos os fantoches listados acima são integrados à §YFrança§!.
+"
+  pfp_merge_france_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YFrança§!.
+"
   pfp_merge_france_is_formed_tt:0 "Uma França unificada existe entre os nossos fantoches."
 
   pfp_merge_france_alps:0 "Absorver os Alpes Franceses pela França"
@@ -5108,9 +5120,12 @@
   pfp_merge_germany:0 "Unificar a Alemanha"
   pfp_merge_germany_desc:0 "§YAlemanha Ocidental§! e §YAlemanha Oriental§! são as duas metades divididas de uma nação que outrora foi unificada. Ao fundi-las sob uma única bandeira, podemos restaurar a Alemanha à sua antiga glória. O território mais industrializado e populoso liderará a união, anexando o outro."
   pfp_merge_germany_not_yet_formed_tt:0 "A Alemanha ainda não foi unificada."
-  pfp_merge_germany_effect_form:0 "§YA Alemanha§! é formada pelo fantoche mais industrializado e populoso.\n"
-  pfp_merge_germany_effect_annex:0 "§YA Alemanha§! anexa o fantoche anteriormente listado.\n"
-  pfp_merge_germany_effect_cores:0 "§YA Alemanha§! herda núcleos e territórios anexáveis do fantoche anteriormente listado.\n"
+  pfp_merge_germany_effect_form:0 "O fantoche com mais fábricas forma §YAlemanha§!.
+"
+  pfp_merge_germany_effect_annex:0 "Todos os fantoches listados acima são integrados à §YAlemanha§!.
+"
+  pfp_merge_germany_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YAlemanha§!.
+"
   pfp_merge_germany_is_formed_tt:0 "Uma Alemanha unificada existe entre os nossos fantoches."
 
   pfp_merge_germany_konigsberg:0 "Absorver Königsberg pela Alemanha"
@@ -5122,9 +5137,12 @@
   pfp_merge_great_britain:0 "Unir a Grã-Bretanha"
   pfp_merge_great_britain_desc:0 "§YInglaterra§!, §YEscócia§! e §YGales§! compartilham a ilha da Grã-Bretanha e uma longa história entrelaçada. Ao uni-los sob uma única bandeira, podemos restaurar o estado britânico. O território mais industrialmente desenvolvido e populoso liderará a união, anexando os demais."
   pfp_merge_great_britain_not_yet_formed_tt:0 "A Grã-Bretanha ainda não foi unificada."
-  pfp_merge_great_britain_effect_form:0 "§YA Grã-Bretanha§! é formada pelo fantoche mais industrialmente desenvolvido e populoso.\n"
-  pfp_merge_great_britain_effect_annex:0 "§YA Grã-Bretanha§! anexa os fantoches listados anteriormente.\n"
-  pfp_merge_great_britain_effect_cores:0 "§YA Grã-Bretanha§! hereda núcleos e territórios anexáveis dos fantoches listados anteriormente.\n"
+  pfp_merge_great_britain_effect_form:0 "O fantoche com mais fábricas forma §YGrã-Bretanha§!.
+"
+  pfp_merge_great_britain_effect_annex:0 "Todos os fantoches listados acima são integrados à §YGrã-Bretanha§!.
+"
+  pfp_merge_great_britain_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YGrã-Bretanha§!.
+"
   pfp_merge_great_britain_is_formed_tt:0 "Uma Grã-Bretanha unificada existe entre nossos fantoches."
 
   pfp_merge_great_britain_northern_ireland:0 "Absorver a Irlanda do Norte na Grã-Bretanha"
@@ -5136,16 +5154,22 @@
   pfp_merge_iberia:0 "Unir a Ibéria"
   pfp_merge_iberia_desc:0 "§YEspanha§! e §YPortugal§! compartilham a Península Ibérica e uma longa história entrelaçada. Ao uni-los sob uma única bandeira, podemos estabelecer um poderoso estado ibérico. O território mais industrialmente desenvolvido e populoso liderará a união, anexando o outro."
   pfp_merge_iberia_not_yet_formed_tt:0 "A Ibéria ainda não foi unificada."
-  pfp_merge_iberia_effect_form:0 "§YA Ibéria§! é formada pelo fantoche mais industrialmente desenvolvido e populoso.\n"
-  pfp_merge_iberia_effect_annex:0 "§YA Ibéria§! anexa o fantoche listado anteriormente.\n"
-  pfp_merge_iberia_effect_cores:0 "§YA Ibéria§! herda núcleos e territórios anexáveis do fantoche listado anteriormente.\n"
+  pfp_merge_iberia_effect_form:0 "O fantoche com mais fábricas forma §YIbéria§!.
+"
+  pfp_merge_iberia_effect_annex:0 "Todos os fantoches listados acima são integrados à §YIbéria§!.
+"
+  pfp_merge_iberia_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YIbéria§!.
+"
 
   pfp_merge_italy:0 "Unir a Itália"
   pfp_merge_italy_desc:0 "§YLombardia-Veneza§!, §YPiemonte§!, §YToscana§!, §YOs Estados Papais§! e §YAs Duas Sicílias§! são os fragmentos dispersos de uma grande península. Ao uni-los sob uma única bandeira, podemos forjar um Estado italiano unificado. O território mais industrialmente desenvolvido e populoso liderará a união, anexando os demais."
   pfp_merge_italy_not_yet_formed_tt:0 "A Itália ainda não foi unificada."
-  pfp_merge_italy_effect_form:0 "§YA Itália§! é formada pelo fantoche mais industrialmente desenvolvido e populoso.\n"
-  pfp_merge_italy_effect_annex:0 "§YA Itália§! anexa os fantoches listados anteriormente.\n"
-  pfp_merge_italy_effect_cores:0 "§YA Itália§! herda núcleos e territórios anexáveis dos fantoches listados anteriormente.\n"
+  pfp_merge_italy_effect_form:0 "O fantoche com mais fábricas forma §YItália§!.
+"
+  pfp_merge_italy_effect_annex:0 "Todos os fantoches listados acima são integrados à §YItália§!.
+"
+  pfp_merge_italy_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YItália§!.
+"
   pfp_merge_italy_is_formed_tt:0 "Uma Itália unificada existe entre nossos fantoches."
 
   pfp_merge_italy_sardinia:0 "Absorver a Sardenha na Itália"
@@ -5156,15 +5180,21 @@
   pfp_merge_japan:0 "Unir o Japão"
   pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§! e §YKyushu§! são as regiões divididas das ilhas principais japonesas. Ao uni-los sob uma única bandeira, podemos restaurar o estado japonês. O território mais industrialmente desenvolvido e populoso liderará a união, anexando os demais."
   pfp_merge_japan_not_yet_formed_tt:0 "O Japão ainda não foi unificado."
-  pfp_merge_japan_effect_form:0 "§YO Japão§! é formado pelo fantoche mais industrialmente desenvolvido e populoso.\n"
-  pfp_merge_japan_effect_annex:0 "§YO Japão§! anexa os fantoches listados anteriormente.\n"
-  pfp_merge_japan_effect_cores:0 "§YO Japão§! herda núcleos e territórios anexáveis dos fantoches listados anteriormente.\n"
+  pfp_merge_japan_effect_form:0 "O fantoche com mais fábricas forma §YJapão§!.
+"
+  pfp_merge_japan_effect_annex:0 "Todos os fantoches listados acima são integrados ao §YJapão§!.
+"
+  pfp_merge_japan_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para o §YJapão§!.
+"
   pfp_merge_yugoslavia:0 "Unir a Iugoslávia"
   pfp_merge_yugoslavia_desc:0 "§YA Croácia§!, §YA Eslovênia§!, §YA Bósnia-Herzegovina§! e §YA Sérvia§! compartilham os Bálcãs ocidentais e um patrimônio eslavo meridional comum. Ao uni-los sob uma única bandeira, podemos estabelecer um poderoso estado iugoslavo. O território mais industrialmente desenvolvido e populoso liderará a união, anexando os demais."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "A Iugoslávia ainda não foi unificada."
-  pfp_merge_yugoslavia_effect_form:0 "§YA Iugoslávia§! é formada pelo fantoche mais industrialmente desenvolvido e populoso.\n"
-  pfp_merge_yugoslavia_effect_annex:0 "§YA Iugoslávia§! anexa os fantoches listados anteriormente.\n"
-  pfp_merge_yugoslavia_effect_cores:0 "§YA Iugoslávia§! herda núcleos e territórios anexáveis dos fantoches listados anteriormente.\n"
+  pfp_merge_yugoslavia_effect_form:0 "O fantoche com mais fábricas forma §YIugoslávia§!.
+"
+  pfp_merge_yugoslavia_effect_annex:0 "Todos os fantoches listados acima são integrados à §YIugoslávia§!.
+"
+  pfp_merge_yugoslavia_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YIugoslávia§!.
+"
   pfp_merge_yugoslavia_is_formed_tt:0 "Uma Iugoslávia unificada existe entre nossos fantoches."
   pfp_merge_yugoslavia_montenegro:0 "Absorver Montenegro na Iugoslávia"
   pfp_merge_yugoslavia_montenegro_desc:0 "Com a Iugoslávia unificada, podemos agora trazer §YMontenegro§! para o nosso controle, fortalecendo nossa dominação sobre os Bálcãs."
@@ -5179,8 +5209,10 @@
   pfp_merge_western_russia_desc:0 "Os fantoches russos do oeste podem se unir em um único Estado da Rússia Ocidental. A Rússia Central, Rússia Meridional, Volga e Rússia do Noroeste formarão a base desta nova nação."
   pfp_merge_western_russia_not_yet_formed_tt:0 "A Rússia Ocidental ainda não foi formada."
   pfp_merge_western_russia_effect_form:0 "O mais poderoso entre §YRússia Central§!, §YRússia Meridional§!, §YVolga§! e §YRússia do Noroeste§! torna-se §YRússia Ocidental§!.\n"
-  pfp_merge_western_russia_effect_annex:0 "§YA Rússia Ocidental§! anexa os fantoches russos ocidentais restantes, ganhando suas tropas.\n"
-  pfp_merge_western_russia_effect_cores:0 "§YA Rússia Ocidental§! ganha os núcleos e territórios anexáveis de todos os fantoches anexados.\n"
+  pfp_merge_western_russia_effect_annex:0 "Todos os fantoches listados acima são integrados à §YRússia Ocidental§!.
+"
+  pfp_merge_western_russia_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YRússia Ocidental§!.
+"
   pfp_merge_western_russia_is_formed_tt:0 "A Rússia Ocidental foi formada."
 
   pfp_merge_western_russia_northern_caucasus:0 "Absorver o Cáucaso do Norte"
@@ -5203,13 +5235,17 @@
   pfp_merge_eastern_russia_desc:0 "Os fantoches russos do leste podem se unir em um único Estado da Rússia Oriental. Os Urais, a Sibéria e o Extremo Oriente russo formarão esta vasta nação."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "A Rússia Oriental ainda não foi formada."
   pfp_merge_eastern_russia_effect_form:0 "O mais poderoso entre §YUrais§!, §YSibéria§! e §YExtremo Oriente Russo§! torna-se §YRússia Oriental§!.\n"
-  pfp_merge_eastern_russia_effect_annex:0 "§YA Rússia Oriental§! anexa os fantoches russos orientais restantes, ganhando suas tropas.\n"
-  pfp_merge_eastern_russia_effect_cores:0 "§YA Rússia Oriental§! ganha os núcleos e territórios anexáveis de todos os fantoches anexados.\n"
+  pfp_merge_eastern_russia_effect_annex:0 "Todos os fantoches listados acima são integrados à §YRússia Oriental§!.
+"
+  pfp_merge_eastern_russia_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YRússia Oriental§!.
+"
   pfp_merge_eastern_russia_is_formed_tt:0 "A Rússia Oriental foi formada."
 
   pfp_merge_russia:0 "Unir a Rússia"
   pfp_merge_russia_desc:0 "Com a Rússia Ocidental e Oriental sob nosso controle, chegou a hora de reunificar as terras russas em uma única grande nação."
   pfp_merge_russia_not_yet_formed_tt:0 "A Rússia ainda não foi formada."
   pfp_merge_russia_effect_form:0 "O mais poderoso entre §YRússia Ocidental§! e §YRússia Oriental§! torna-se §YRússia§!.\n"
-  pfp_merge_russia_effect_annex:0 "§YA Rússia§! anexa o formável russo restante, ganhando suas tropas.\n"
-  pfp_merge_russia_effect_cores:0 "§YA Rússia§! ganha os núcleos e territórios anexáveis do formável anexado.\n"
+  pfp_merge_russia_effect_annex:0 "Todos os fantoches listados acima são integrados à §YRússia§!.
+"
+  pfp_merge_russia_effect_cores:0 "Os núcleos e reivindicações dos fantoches listados acima são transferidos para a §YRússia§!.
+"

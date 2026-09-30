@@ -4994,9 +4994,12 @@
   pfp_merge_usa:0 "미국 통일"
   pfp_merge_usa_desc:0 "§Y미국 북동부§!, §Y미국 중서부§!, §Y미국 남부§!는 공통의 유산과 운명을 공유합니다. 하나의 깃발 아래 통합함으로써 미국을 복원할 수 있습니다. 가장 산업화되고 인구가 많은 지역이 연합을 이끌고 다른 지역을 병합합니다."
   pfp_merge_usa_not_yet_formed_tt:0 "미국은 아직 재통일되지 않았습니다."
-  pfp_merge_usa_effect_form:0 "§Y미국§!은 가장 산업화되고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_usa_effect_annex:0 "§Y미국§!은 이전에 나열된 괴뢰들을 합병합니다.\n"
-  pfp_merge_usa_effect_cores:0 "§Y미국§!은 이전에 나열된 괴뢰들의 코어와 코어화 가능한 영토를 계승합니다.\n"
+  pfp_merge_usa_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y미국§!을 형성합니다.
+"
+  pfp_merge_usa_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y미국§!에 통합됩니다.
+"
+  pfp_merge_usa_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y미국§!으로 이전됩니다.
+"
 
   pfp_merge_usa_rockies:0 "로키 산맥을 미국에 흡수"
   pfp_merge_usa_rockies_desc:0 "핵심 미국이 회복되어 이제 §Y미국 로키§!를 국가에 통합할 수 있습니다."
@@ -5014,9 +5017,12 @@
   pfp_merge_china:0 "중국 통일"
   pfp_merge_china_desc:0 "§Y직례§!, §Y산둥§!, §Y허난§!, §Y산시§!, §Y량장§!, §Y민저§!, §Y후광§!, §Y량광§!, §Y윈구이§!, §Y쓰촨§!은 한때 통일된 중국의 일부였습니다. 이들을 하나의 깃발 아래 통합함으로써 중국 국가를 복원할 수 있습니다. 가장 산업적으로 발전하고 인구가 많은 지역이 연합을 이끌며 다른 지역들을 병합합니다."
   pfp_merge_china_not_yet_formed_tt:0 "중국은 아직 통일되지 않았습니다."
-  pfp_merge_china_effect_form:0 "§Y중국§!은 가장 산업적으로 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_china_effect_annex:0 "§Y중국§!은 이전에 나열된 괴뢰들을 병합합니다.\n"
-  pfp_merge_china_effect_cores:0 "§Y중국§!은 이전에 나열된 괴뢰들로부터 핵심지와 핵심화 가능 영토를 상속합니다.\n"
+  pfp_merge_china_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y중국§!을 형성합니다.
+"
+  pfp_merge_china_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y중국§!에 통합됩니다.
+"
+  pfp_merge_china_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y중국§!으로 이전됩니다.
+"
 
   pfp_merge_china_manchuria:0 "만주를 중국에 흡수"
   pfp_merge_china_manchuria_desc:0 "중국이 통일되어, 이제 §Y만주§!를 국가에 통합하여 동북 영토를 완성할 수 있습니다."
@@ -5059,9 +5065,12 @@
   pfp_merge_east_africa:0 "동아프리카 통일"
   pfp_merge_east_africa_desc:0 "§Y에티오피아§!, §Y에리트레아§!, §Y지부티§!, §Y소말릴란드§!, §Y소말리아§!는 아프리카의 뿔을 공유합니다. 이들을 하나의 깃발 아래 통합하여 지배적인 동아프리카 국가를 수립할 수 있습니다. 가장 산업적으로 발전하고 인구가 많은 괴뢰가 연합을 이끌며 나머지를 병합합니다."
   pfp_merge_east_africa_not_yet_formed_tt:0 "동아프리카는 아직 통일되지 않았습니다."
-  pfp_merge_east_africa_effect_form:0 "§Y동아프리카§!는 가장 산업적으로 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_east_africa_effect_annex:0 "§Y동아프리카§!는 이전에 나열된 괴뢰들을 병합합니다.\n"
-  pfp_merge_east_africa_effect_cores:0 "§Y동아프리카§!는 이전에 나열된 괴뢰들로부터 핵심지와 핵심화 가능 영토를 상속합니다.\n"
+  pfp_merge_east_africa_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y동아프리카§!를 형성합니다.
+"
+  pfp_merge_east_africa_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y동아프리카§!에 통합됩니다.
+"
+  pfp_merge_east_africa_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y동아프리카§!로 이전됩니다.
+"
   pfp_merge_east_africa_is_formed_tt:0 "통일된 동아프리카가 우리 괴뢰들 사이에 존재합니다."
 
   pfp_merge_east_africa_kenya:0 "케냐를 동아프리카에 흡수"
@@ -5094,9 +5103,12 @@
   pfp_merge_france:0 "프랑스 통일"
   pfp_merge_france_desc:0 "§Y북프랑스§!와 §Y남프랑스§!는 한때 위대했던 국가의 두 반쪽입니다. 이들을 하나의 깃발 아래 통합하여 프랑스를 과거의 영광으로 되돌릴 수 있습니다. 가장 산업적으로 발전하고 인구가 많은 괴뢰가 연합을 이끌며 나머지를 병합합니다."
   pfp_merge_france_not_yet_formed_tt:0 "프랑스는 아직 통일되지 않았습니다."
-  pfp_merge_france_effect_form:0 "§Y프랑스§!는 가장 산업적으로 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_france_effect_annex:0 "§Y프랑스§!는 이전에 나열된 괴뢰를 병합합니다.\n"
-  pfp_merge_france_effect_cores:0 "§Y프랑스§!는 이전에 나열된 괴뢰로부터 핵심지와 핵심화 가능 영토를 상속합니다.\n"
+  pfp_merge_france_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y프랑스§!를 형성합니다.
+"
+  pfp_merge_france_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y프랑스§!에 통합됩니다.
+"
+  pfp_merge_france_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y프랑스§!로 이전됩니다.
+"
   pfp_merge_france_is_formed_tt:0 "통일된 프랑스가 우리 괴뢰들 사이에 존재합니다."
 
   pfp_merge_france_alps:0 "프랑스 알프스를 프랑스에 흡수"
@@ -5108,9 +5120,12 @@
   pfp_merge_germany:0 "독일 통일"
   pfp_merge_germany_desc:0 "§Y서독§!과 §Y동독§!은 한때 통일되어 있던 국가의 두 분단된 반쪽입니다. 이들을 하나의 깃발 아래 통합하여 독일을 과거의 영광으로 되돌릴 수 있습니다. 가장 산업적으로 발전하고 인구가 많은 괴뢰가 연합을 이끌며 나머지를 병합합니다."
   pfp_merge_germany_not_yet_formed_tt:0 "독일은 아직 통일되지 않았습니다."
-  pfp_merge_germany_effect_form:0 "§Y독일§!은 가장 산업적으로 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_germany_effect_annex:0 "§Y독일§!은 이전에 나열된 괴뢰를 병합합니다.\n"
-  pfp_merge_germany_effect_cores:0 "§Y독일§!은 이전에 나열된 괴뢰로부터 핵심지와 핵심화 가능 영토를 상속합니다.\n"
+  pfp_merge_germany_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y독일§!을 형성합니다.
+"
+  pfp_merge_germany_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y독일§!에 통합됩니다.
+"
+  pfp_merge_germany_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y독일§!로 이전됩니다.
+"
   pfp_merge_germany_is_formed_tt:0 "통일된 독일이 우리 괴뢰들 사이에 존재합니다."
 
   pfp_merge_germany_konigsberg:0 "쾨니히스베르크를 독일에 흡수"
@@ -5122,9 +5137,12 @@
   pfp_merge_great_britain:0 "대영제국 통일"
   pfp_merge_great_britain_desc:0 "§Y잉글랜드§!, §Y스코틀랜드§!, §Y웨일스§!는 그레이트브리튼 섬을 공유하며 오랜 역사로 얽혀 있습니다. 하나의 깃발 아래 통일함으로써 영국 국가를 복원할 수 있습니다. 산업적으로 가장 발전하고 인구가 많은 지역이 연합을 이끌며 나머지를 병합합니다."
   pfp_merge_great_britain_not_yet_formed_tt:0 "그레이트브리튼은 아직 통일되지 않았습니다."
-  pfp_merge_great_britain_effect_form:0 "§Y그레이트브리튼§!은 산업적으로 가장 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_great_britain_effect_annex:0 "§Y그레이트브리튼§!은 앞서 나열된 괴뢰들을 병합합니다.\n"
-  pfp_merge_great_britain_effect_cores:0 "§Y그레이트브리튼§!은 앞서 나열된 괴뢰들로부터 핵심지와 핵심화 가능 영토를 계승합니다.\n"
+  pfp_merge_great_britain_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y그레이트브리튼§!을 형성합니다.
+"
+  pfp_merge_great_britain_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y그레이트브리튼§!에 통합됩니다.
+"
+  pfp_merge_great_britain_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y그레이트브리튼§!으로 이전됩니다.
+"
   pfp_merge_great_britain_is_formed_tt:0 "통일된 그레이트브리튼이 우리의 괴뢰 중에 존재합니다."
 
   pfp_merge_great_britain_northern_ireland:0 "북아일랜드를 그레이트브리튼에 흡수"
@@ -5136,16 +5154,22 @@
   pfp_merge_iberia:0 "이베리아 통일"
   pfp_merge_iberia_desc:0 "§Y스페인§!과 §Y포르투갈§!은 이베리아 반도를 공유하며 오랜 역사로 얽혀 있습니다. 하나의 깃발 아래 통일함으로써 강력한 이베리아 국가를 수립할 수 있습니다. 산업적으로 가장 발전하고 인구가 많은 지역이 연합을 이끌며 다른 한 쪽을 병합합니다."
   pfp_merge_iberia_not_yet_formed_tt:0 "이베리아는 아직 통일되지 않았습니다."
-  pfp_merge_iberia_effect_form:0 "§Y이베리아§!는 산업적으로 가장 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_iberia_effect_annex:0 "§Y이베리아§!는 앞서 나열된 괴뢰를 병합합니다.\n"
-  pfp_merge_iberia_effect_cores:0 "§Y이베리아§!는 앞서 나열된 괴뢰로부터 핵심지와 핵심화 가능 영토를 계승합니다.\n"
+  pfp_merge_iberia_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y이베리아§!를 형성합니다.
+"
+  pfp_merge_iberia_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y이베리아§!에 통합됩니다.
+"
+  pfp_merge_iberia_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y이베리아§!로 이전됩니다.
+"
 
   pfp_merge_italy:0 "이탈리아 통일"
   pfp_merge_italy_desc:0 "§Y롬바르디아-베네치아§!, §Y피에몬테§!, §Y토스카나§!, §Y교황령§!, §Y양 시칠리아§!는 한때 위대했던 반도의 파편들입니다. 하나의 깃발 아래 통일함으로써 통일 이탈리아 국가를 건설할 수 있습니다. 산업적으로 가장 발전하고 인구가 많은 지역이 연합을 이끌며 나머지를 병합합니다."
   pfp_merge_italy_not_yet_formed_tt:0 "이탈리아는 아직 통일되지 않았습니다."
-  pfp_merge_italy_effect_form:0 "§Y이탈리아§!는 산업적으로 가장 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_italy_effect_annex:0 "§Y이탈리아§!는 앞서 나열된 괴뢰들을 병합합니다.\n"
-  pfp_merge_italy_effect_cores:0 "§Y이탈리아§!는 앞서 나열된 괴뢰들로부터 핵심지와 핵심화 가능 영토를 계승합니다.\n"
+  pfp_merge_italy_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y이탈리아§!를 형성합니다.
+"
+  pfp_merge_italy_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y이탈리아§!에 통합됩니다.
+"
+  pfp_merge_italy_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y이탈리아§!로 이전됩니다.
+"
   pfp_merge_italy_is_formed_tt:0 "통일된 이탈리아가 우리의 괴뢰 중에 존재합니다."
 
   pfp_merge_italy_sardinia:0 "사르데냐를 이탈리아에 흡수"
@@ -5156,15 +5180,21 @@
   pfp_merge_japan:0 "일본 통일"
   pfp_merge_japan_desc:0 "§Y홋카이도§!, §Y도호쿠§!, §Y간토§!, §Y주부§!, §Y간사이§!, §Y주고쿠§!, §Y시코쿠§!, §Y규슈§!는 일본 본도의 분열된 지역들입니다. 하나의 깃발 아래 통일함으로써 일본 국가를 복원할 수 있습니다. 산업적으로 가장 발전하고 인구가 많은 지역이 연합을 이끌며 나머지를 병합합니다."
   pfp_merge_japan_not_yet_formed_tt:0 "일본은 아직 통일되지 않았습니다."
-  pfp_merge_japan_effect_form:0 "§Y일본§!은 산업적으로 가장 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_japan_effect_annex:0 "§Y일본§!은 앞서 나열된 괴뢰들을 병합합니다.\n"
-  pfp_merge_japan_effect_cores:0 "§Y일본§!은 앞서 나열된 괴뢰들로부터 핵심지와 핵심화 가능 영토를 계승합니다.\n"
+  pfp_merge_japan_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y일본§!을 형성합니다.
+"
+  pfp_merge_japan_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y일본§!에 통합됩니다.
+"
+  pfp_merge_japan_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y일본§!으로 이전됩니다.
+"
   pfp_merge_yugoslavia:0 "유고슬라비아 통일"
   pfp_merge_yugoslavia_desc:0 "§Y크로아티아§!, §Y슬로베니아§!, §Y보스니아-헤르체고비나§!, §Y세르비아§!는 서부 발칸과 남슬라브 공통 유산을 공유합니다. 하나의 깃발 아래 통일함으로써 강력한 유고슬라비아 국가를 수립할 수 있습니다. 산업적으로 가장 발전하고 인구가 많은 지역이 연합을 이끌며 나머지를 병합합니다."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "유고슬라비아는 아직 통일되지 않았습니다."
-  pfp_merge_yugoslavia_effect_form:0 "§Y유고슬라비아§!는 산업적으로 가장 발전하고 인구가 많은 괴뢰에 의해 형성됩니다.\n"
-  pfp_merge_yugoslavia_effect_annex:0 "§Y유고슬라비아§!는 앞서 나열된 괴뢰들을 병합합니다.\n"
-  pfp_merge_yugoslavia_effect_cores:0 "§Y유고슬라비아§!는 앞서 나열된 괴뢰들로부터 핵심지와 핵심화 가능 영토를 계승합니다.\n"
+  pfp_merge_yugoslavia_effect_form:0 "가장 많은 공장을 보유한 괴뢰국이 §Y유고슬라비아§!를 형성합니다.
+"
+  pfp_merge_yugoslavia_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y유고슬라비아§!에 통합됩니다.
+"
+  pfp_merge_yugoslavia_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y유고슬라비아§!로 이전됩니다.
+"
   pfp_merge_yugoslavia_is_formed_tt:0 "통일된 유고슬라비아가 우리의 괴뢰 중에 존재합니다."
   pfp_merge_yugoslavia_montenegro:0 "몬테네그로를 유고슬라비아에 흡수"
   pfp_merge_yugoslavia_montenegro_desc:0 "유고슬라비아가 통일된 지금, §Y몬테네그로§!를 편입하여 발칸에 대한 지배를 강화할 수 있습니다."
@@ -5179,8 +5209,10 @@
   pfp_merge_western_russia_desc:0 "서부 러시아 괴뢰 국가들을 통합하여 하나의 서부 러시아 국가를 수립할 수 있습니다. 중앙 러시아, 남부 러시아, 볼가, 북서부 러시아가 이 새로운 국가의 기반이 될 것입니다."
   pfp_merge_western_russia_not_yet_formed_tt:0 "서부 러시아는 아직 수립되지 않았습니다."
   pfp_merge_western_russia_effect_form:0 "§Y중앙 러시아§!, §Y남부 러시아§!, §Y볼가§!, §Y북서부 러시아§! 중 가장 강력한 국가가 §Y서부 러시아§!가 됩니다.\n"
-  pfp_merge_western_russia_effect_annex:0 "§Y서부 러시아§!는 나머지 서부 러시아 괴뢰 국가들을 병합하여 그들의 군대를 획득합니다.\n"
-  pfp_merge_western_russia_effect_cores:0 "§Y서부 러시아§!는 병합된 모든 괴뢰 국가의 핵심지와 핵심화 가능 영토를 획득합니다.\n"
+  pfp_merge_western_russia_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y서부 러시아§!에 통합됩니다.
+"
+  pfp_merge_western_russia_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y서부 러시아§!로 이전됩니다.
+"
   pfp_merge_western_russia_is_formed_tt:0 "서부 러시아가 수립되었습니다."
 
   pfp_merge_western_russia_northern_caucasus:0 "북캅카스 흡수"
@@ -5203,13 +5235,17 @@
   pfp_merge_eastern_russia_desc:0 "동부 러시아 괴뢰 국가들을 통합하여 하나의 동부 러시아 국가를 수립할 수 있습니다. 우랄, 시베리아, 극동 러시아가 이 광대한 국가를 형성합니다."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "동부 러시아는 아직 수립되지 않았습니다."
   pfp_merge_eastern_russia_effect_form:0 "§Y우랄§!, §Y시베리아§!, §Y극동 러시아§! 중 가장 강력한 국가가 §Y동부 러시아§!가 됩니다.\n"
-  pfp_merge_eastern_russia_effect_annex:0 "§Y동부 러시아§!는 나머지 동부 러시아 괴뢰 국가들을 병합하여 그들의 군대를 획득합니다.\n"
-  pfp_merge_eastern_russia_effect_cores:0 "§Y동부 러시아§!는 병합된 모든 괴뢰 국가의 핵심지와 핵심화 가능 영토를 획득합니다.\n"
+  pfp_merge_eastern_russia_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y동부 러시아§!에 통합됩니다.
+"
+  pfp_merge_eastern_russia_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y동부 러시아§!로 이전됩니다.
+"
   pfp_merge_eastern_russia_is_formed_tt:0 "동부 러시아가 수립되었습니다."
 
   pfp_merge_russia:0 "러시아 통일"
   pfp_merge_russia_desc:0 "서부 러시아와 동부 러시아가 모두 우리의 지배하에 들어온 지금, 러시아 땅을 하나의 강대국으로 재통일할 때가 왔습니다."
   pfp_merge_russia_not_yet_formed_tt:0 "러시아는 아직 수립되지 않았습니다."
   pfp_merge_russia_effect_form:0 "§Y서부 러시아§!와 §Y동부 러시아§! 중 가장 강력한 국가가 §Y러시아§!가 됩니다.\n"
-  pfp_merge_russia_effect_annex:0 "§Y러시아§!는 나머지 러시아 포머블을 병합하여 그 군대를 획득합니다.\n"
-  pfp_merge_russia_effect_cores:0 "§Y러시아§!는 병합된 포머블의 핵심지와 핵심화 가능 영토를 획득합니다.\n"
+  pfp_merge_russia_effect_annex:0 "위에 나열된 모든 괴뢰국이 §Y러시아§!에 통합됩니다.
+"
+  pfp_merge_russia_effect_cores:0 "위에 나열된 괴뢰국들의 핵심 영토와 주장이 §Y러시아§!로 이전됩니다.
+"

@@ -4994,9 +4994,12 @@
   pfp_merge_usa:0 "Unir los Estados Unidos"
   pfp_merge_usa_desc:0 "§YNordeste§!, §YMedio Oeste§! y §YSur§! de EE.UU. comparten una herencia y destino común. Al unirlos bajo una misma bandera, podemos restaurar los Estados Unidos. El territorio más industrializado y poblado liderará la unión, anexando a los demás."
   pfp_merge_usa_not_yet_formed_tt:0 "Los Estados Unidos aún no han sido reunificados."
-  pfp_merge_usa_effect_form:0 "§YLos Estados Unidos§! son formados por el títere más industrializado y poblado.\n"
-  pfp_merge_usa_effect_annex:0 "§YLos Estados Unidos§! anexan a los títeres listados anteriormente.\n"
-  pfp_merge_usa_effect_cores:0 "§YLos Estados Unidos§! heredan los núcleos y territorios conquistables de los títeres listados anteriormente.\n"
+  pfp_merge_usa_effect_form:0 "El títere con más fábricas forma §YLos Estados Unidos§!.
+"
+  pfp_merge_usa_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YLos Estados Unidos§!.
+"
+  pfp_merge_usa_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YLos Estados Unidos§!.
+"
 
   pfp_merge_usa_rockies:0 "Absorber las Rocosas en los Estados Unidos"
   pfp_merge_usa_rockies_desc:0 "Con los Estados Unidos centrales restaurados, ahora podemos integrar §YEE.UU. Rocosas§! en la nación."
@@ -5014,9 +5017,12 @@
   pfp_merge_china:0 "Unificar China"
   pfp_merge_china_desc:0 "§YZhili§!, §YShandong§!, §YHenan§!, §YShanxi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§! y §YSichuan§! formaron parte de una China unificada. Al consolidarlos bajo una sola bandera, podemos restaurar el Estado chino. El territorio más industrializado y poblado liderará la unión, anexando a los demás."
   pfp_merge_china_not_yet_formed_tt:0 "China aún no ha sido unificada."
-  pfp_merge_china_effect_form:0 "§YChina§! es formada por el títere más industrializado y poblado.\n"
-  pfp_merge_china_effect_annex:0 "§YChina§! anexa los títeres previamente enumerados.\n"
-  pfp_merge_china_effect_cores:0 "§YChina§! hereda núcleos y territorios anexables de los títeres previamente enumerados.\n"
+  pfp_merge_china_effect_form:0 "El títere con más fábricas forma §YChina§!.
+"
+  pfp_merge_china_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YChina§!.
+"
+  pfp_merge_china_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YChina§!.
+"
 
   pfp_merge_china_manchuria:0 "Absorber Manchuria en China"
   pfp_merge_china_manchuria_desc:0 "Con China unificada, ahora podemos incorporar §YManchuria§! a la nación, completando nuestros territorios del noreste."
@@ -5059,9 +5065,12 @@
   pfp_merge_east_africa:0 "Unificar África Oriental"
   pfp_merge_east_africa_desc:0 "§YEtiopía§!, §YEritrea§!, §YDjibouti§!, §YSomalilandia§! y §YSomalia§! comparten el Cuerno de África. Al unirlos bajo una sola bandera, podemos establecer un Estado dominante de África Oriental. El territorio más industrializado y poblado liderará la unión, anexando a los demás."
   pfp_merge_east_africa_not_yet_formed_tt:0 "África Oriental aún no ha sido unificada."
-  pfp_merge_east_africa_effect_form:0 "§YÁfrica Oriental§! es formada por el títere más industrializado y poblado.\n"
-  pfp_merge_east_africa_effect_annex:0 "§YÁfrica Oriental§! anexa los títeres previamente enumerados.\n"
-  pfp_merge_east_africa_effect_cores:0 "§YÁfrica Oriental§! hereda núcleos y territorios anexables de los títeres previamente enumerados.\n"
+  pfp_merge_east_africa_effect_form:0 "El títere con más fábricas forma §YÁfrica Oriental§!.
+"
+  pfp_merge_east_africa_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YÁfrica Oriental§!.
+"
+  pfp_merge_east_africa_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YÁfrica Oriental§!.
+"
   pfp_merge_east_africa_is_formed_tt:0 "Una África Oriental unificada existe entre nuestros títeres."
 
   pfp_merge_east_africa_kenya:0 "Absorber Kenia en África Oriental"
@@ -5094,9 +5103,12 @@
   pfp_merge_france:0 "Unificar Francia"
   pfp_merge_france_desc:0 "§YFrancia del Norte§! y §YFrancia del Sur§! son las dos mitades de una nación otrora grande. Al fusionarlas bajo una sola bandera, podemos restaurar Francia a su antigua gloria. El territorio más industrializado y poblado liderará la unión, anexando al otro."
   pfp_merge_france_not_yet_formed_tt:0 "Francia aún no ha sido unificada."
-  pfp_merge_france_effect_form:0 "§YFrancia§! es formada por el títere más industrializado y poblado.\n"
-  pfp_merge_france_effect_annex:0 "§YFrancia§! anexa el títere previamente enumerado.\n"
-  pfp_merge_france_effect_cores:0 "§YFrancia§! hereda núcleos y territorios anexables del títere previamente enumerado.\n"
+  pfp_merge_france_effect_form:0 "El títere con más fábricas forma §YFrancia§!.
+"
+  pfp_merge_france_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YFrancia§!.
+"
+  pfp_merge_france_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YFrancia§!.
+"
   pfp_merge_france_is_formed_tt:0 "Una Francia unificada existe entre nuestros títeres."
 
   pfp_merge_france_alps:0 "Absorber los Alpes Franceses en Francia"
@@ -5108,9 +5120,12 @@
   pfp_merge_germany:0 "Unificar Alemania"
   pfp_merge_germany_desc:0 "§YAlemania Occidental§! y §YAlemania Oriental§! son las dos mitades divididas de una nación que una vez estuvo unida. Al fusionarlas bajo una sola bandera, podemos restaurar Alemania a su antigua gloria. El territorio más industrializado y poblado liderará la unión, anexando al otro."
   pfp_merge_germany_not_yet_formed_tt:0 "Alemania aún no ha sido unificada."
-  pfp_merge_germany_effect_form:0 "§YAlemania§! es formada por el títere más industrializado y poblado.\n"
-  pfp_merge_germany_effect_annex:0 "§YAlemania§! anexa el títere previamente enumerado.\n"
-  pfp_merge_germany_effect_cores:0 "§YAlemania§! hereda núcleos y territorios anexables del títere previamente enumerado.\n"
+  pfp_merge_germany_effect_form:0 "El títere con más fábricas forma §YAlemania§!.
+"
+  pfp_merge_germany_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YAlemania§!.
+"
+  pfp_merge_germany_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YAlemania§!.
+"
   pfp_merge_germany_is_formed_tt:0 "Una Alemania unificada existe entre nuestros títeres."
 
   pfp_merge_germany_konigsberg:0 "Absorber Königsberg en Alemania"
@@ -5122,9 +5137,12 @@
   pfp_merge_great_britain:0 "Unir Gran Bretaña"
   pfp_merge_great_britain_desc:0 "§YInglaterra§!, §YEscocia§! y §YGales§! comparten la isla de Gran Bretaña y una larga historia entrelazada. Al unirlos bajo una misma bandera, podemos restaurar el estado británico. El territorio más industrialmente desarrollado y poblado liderará la unión, anexando a los demás."
   pfp_merge_great_britain_not_yet_formed_tt:0 "Gran Bretaña no ha sido unificada todavía."
-  pfp_merge_great_britain_effect_form:0 "§YGran Bretaña§! es formada por el títere más industrialmente desarrollado y poblado.\n"
-  pfp_merge_great_britain_effect_annex:0 "§YGran Bretaña§! anexa los títeres previamente listados.\n"
-  pfp_merge_great_britain_effect_cores:0 "§YGran Bretaña§! hereda los núcleos y territorios anexables de los títeres previamente listados.\n"
+  pfp_merge_great_britain_effect_form:0 "El títere con más fábricas forma §YGran Bretaña§!.
+"
+  pfp_merge_great_britain_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YGran Bretaña§!.
+"
+  pfp_merge_great_britain_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YGran Bretaña§!.
+"
   pfp_merge_great_britain_is_formed_tt:0 "Una Gran Bretaña unificada existe entre nuestros títeres."
 
   pfp_merge_great_britain_northern_ireland:0 "Absorber Irlanda del Norte en Gran Bretaña"
@@ -5136,16 +5154,22 @@
   pfp_merge_iberia:0 "Unir Iberia"
   pfp_merge_iberia_desc:0 "§YEspaña§! y §YPortugal§! comparten la Península Ibérica y una larga historia entrelazada. Al unirlos bajo una misma bandera, podemos establecer un poderoso estado ibérico. El territorio más industrialmente desarrollado y poblado liderará la unión, anexando al otro."
   pfp_merge_iberia_not_yet_formed_tt:0 "Iberia no ha sido unificada todavía."
-  pfp_merge_iberia_effect_form:0 "§YIberia§! es formada por el títere más industrialmente desarrollado y poblado.\n"
-  pfp_merge_iberia_effect_annex:0 "§YIberia§! anexa el títere previamente listado.\n"
-  pfp_merge_iberia_effect_cores:0 "§YIberia§! hereda los núcleos y territorios anexables del títere previamente listado.\n"
+  pfp_merge_iberia_effect_form:0 "El títere con más fábricas forma §YIberia§!.
+"
+  pfp_merge_iberia_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YIberia§!.
+"
+  pfp_merge_iberia_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YIberia§!.
+"
 
   pfp_merge_italy:0 "Unir Italia"
   pfp_merge_italy_desc:0 "§YLombardia-Venecia§!, §YPiamonte§!, §YToscana§!, §YLos Estados Pontificios§! y §YLas Dos Sicilias§! son los fragmentos dispersos de una gran península. Al unirlos bajo una misma bandera, podemos forjar un Estado italiano unificado. El territorio más industrialmente desarrollado y poblado liderará la unión, anexando a los demás."
   pfp_merge_italy_not_yet_formed_tt:0 "Italia no ha sido unificada todavía."
-  pfp_merge_italy_effect_form:0 "§YItalia§! es formada por el títere más industrialmente desarrollado y poblado.\n"
-  pfp_merge_italy_effect_annex:0 "§YItalia§! anexa los títeres previamente listados.\n"
-  pfp_merge_italy_effect_cores:0 "§YItalia§! hereda los núcleos y territorios anexables de los títeres previamente listados.\n"
+  pfp_merge_italy_effect_form:0 "El títere con más fábricas forma §YItalia§!.
+"
+  pfp_merge_italy_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YItalia§!.
+"
+  pfp_merge_italy_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YItalia§!.
+"
   pfp_merge_italy_is_formed_tt:0 "Una Italia unificada existe entre nuestros títeres."
 
   pfp_merge_italy_sardinia:0 "Absorber Cerdeña en Italia"
@@ -5156,15 +5180,21 @@
   pfp_merge_japan:0 "Unir Japón"
   pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§! y §YKyushu§! son las regiones divididas de las islas principales japonesas. Al unirlos bajo una misma bandera, podemos restaurar el estado japonés. El territorio más industrialmente desarrollado y poblado liderará la unión, anexando a los demás."
   pfp_merge_japan_not_yet_formed_tt:0 "Japón no ha sido unificado todavía."
-  pfp_merge_japan_effect_form:0 "§YJapón§! es formado por el títere más industrialmente desarrollado y poblado.\n"
-  pfp_merge_japan_effect_annex:0 "§YJapón§! anexa los títeres previamente listados.\n"
-  pfp_merge_japan_effect_cores:0 "§YJapón§! hereda los núcleos y territorios anexables de los títeres previamente listados.\n"
+  pfp_merge_japan_effect_form:0 "El títere con más fábricas forma §YJapón§!.
+"
+  pfp_merge_japan_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YJapón§!.
+"
+  pfp_merge_japan_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YJapón§!.
+"
   pfp_merge_yugoslavia:0 "Unir Yugoslavia"
   pfp_merge_yugoslavia_desc:0 "§YCroacia§!, §YEslovenia§!, §YBosnia-Herzegovina§! y §YSerbia§! comparten los Balcanes occidentales y un patrimonio eslavo del sur común. Al unirlos bajo una misma bandera, podemos establecer un poderoso Estado yugoslavo. El territorio más industrialmente desarrollado y poblado liderará la unión, anexando a los demás."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "Yugoslavia no ha sido unificada todavía."
-  pfp_merge_yugoslavia_effect_form:0 "§YYugoslavia§! es formada por el títere más industrialmente desarrollado y poblado.\n"
-  pfp_merge_yugoslavia_effect_annex:0 "§YYugoslavia§! anexa los títeres previamente listados.\n"
-  pfp_merge_yugoslavia_effect_cores:0 "§YYugoslavia§! hereda los núcleos y territorios anexables de los títeres previamente listados.\n"
+  pfp_merge_yugoslavia_effect_form:0 "El títere con más fábricas forma §YYugoslavia§!.
+"
+  pfp_merge_yugoslavia_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YYugoslavia§!.
+"
+  pfp_merge_yugoslavia_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YYugoslavia§!.
+"
   pfp_merge_yugoslavia_is_formed_tt:0 "Una Yugoslavia unificada existe entre nuestros títeres."
   pfp_merge_yugoslavia_montenegro:0 "Absorber Montenegro en Yugoslavia"
   pfp_merge_yugoslavia_montenegro_desc:0 "Con Yugoslavia unificada, ahora podemos traer §YMontenegro§! al redil, fortaleciendo nuestro dominio sobre los Balcanes."
@@ -5179,8 +5209,10 @@
   pfp_merge_western_russia_desc:0 "Los títeres rusos del oeste pueden unirse en un único Estado de Rusia Occidental. Rusia Central, Rusia Meridional, Volga y Rusia del Noroeste formarán los cimientos de esta nueva nación."
   pfp_merge_western_russia_not_yet_formed_tt:0 "Rusia Occidental aún no ha sido formada."
   pfp_merge_western_russia_effect_form:0 "El más poderoso de §YRusia Central§!, §YRusia Meridional§!, §YVolga§! y §YRusia del Noroeste§! se convierte en §YRusia Occidental§!.\n"
-  pfp_merge_western_russia_effect_annex:0 "§YRusia Occidental§! anexa los títeres rusos occidentales restantes, obteniendo sus tropas.\n"
-  pfp_merge_western_russia_effect_cores:0 "§YRusia Occidental§! obtiene los núcleos y territorios anexables de todos los títeres anexados.\n"
+  pfp_merge_western_russia_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YRusia Occidental§!.
+"
+  pfp_merge_western_russia_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YRusia Occidental§!.
+"
   pfp_merge_western_russia_is_formed_tt:0 "Rusia Occidental ha sido formada."
 
   pfp_merge_western_russia_northern_caucasus:0 "Absorber el Cáucaso del Norte"
@@ -5203,13 +5235,17 @@
   pfp_merge_eastern_russia_desc:0 "Los títeres rusos del este pueden unirse en un único Estado de Rusia Oriental. Los Urales, Siberia y el Extremo Oriente ruso formarán esta vasta nación."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "Rusia Oriental aún no ha sido formada."
   pfp_merge_eastern_russia_effect_form:0 "El más poderoso de §YUrales§!, §YSiberia§! y §YExtremo Oriente Ruso§! se convierte en §YRusia Oriental§!.\n"
-  pfp_merge_eastern_russia_effect_annex:0 "§YRusia Oriental§! anexa los títeres rusos orientales restantes, obteniendo sus tropas.\n"
-  pfp_merge_eastern_russia_effect_cores:0 "§YRusia Oriental§! obtiene los núcleos y territorios anexables de todos los títeres anexados.\n"
+  pfp_merge_eastern_russia_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YRusia Oriental§!.
+"
+  pfp_merge_eastern_russia_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YRusia Oriental§!.
+"
   pfp_merge_eastern_russia_is_formed_tt:0 "Rusia Oriental ha sido formada."
 
   pfp_merge_russia:0 "Unir Rusia"
   pfp_merge_russia_desc:0 "Con Rusia Occidental y Oriental bajo nuestro control, ha llegado el momento de reunificar las tierras rusas en una sola gran nación."
   pfp_merge_russia_not_yet_formed_tt:0 "Rusia aún no ha sido formada."
   pfp_merge_russia_effect_form:0 "El más poderoso de §YRusia Occidental§! y §YRusia Oriental§! se convierte en §YRusia§!.\n"
-  pfp_merge_russia_effect_annex:0 "§YRusia§! anexa el formable ruso restante, obteniendo sus tropas.\n"
-  pfp_merge_russia_effect_cores:0 "§YRusia§! obtiene los núcleos y territorios anexables del formable anexado.\n"
+  pfp_merge_russia_effect_annex:0 "Todos los títeres listados anteriormente son integrados en §YRusia§!.
+"
+  pfp_merge_russia_effect_cores:0 "Los núcleos y reclamaciones de los títeres listados anteriormente son transferidos a §YRusia§!.
+"

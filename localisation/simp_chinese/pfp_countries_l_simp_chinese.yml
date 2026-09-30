@@ -4994,9 +4994,12 @@
   pfp_merge_usa:0 "统一美国"
   pfp_merge_usa_desc:0 "§Y美国东北部§!、§Y美国中西部§!和§Y美国南部§!有着共同的历史与命运。将它们团结在一面旗帜下，我们可以恢复美利坚合众国。工业最发达、人口最多的地区将领导联盟，吞并其他地区。"
   pfp_merge_usa_not_yet_formed_tt:0 "美利坚合众国尚未实现统一。"
-  pfp_merge_usa_effect_form:0 "§Y美利坚合众国§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_usa_effect_annex:0 "§Y美利坚合众国§!吞并上列傀儡。\n"
-  pfp_merge_usa_effect_cores:0 "§Y美利坚合众国§!继承上列傀儡的核心及可核心化领土。\n"
+  pfp_merge_usa_effect_form:0 "拥有最多工厂的傀儡政权建立§Y美利坚合众国§!。
+"
+  pfp_merge_usa_effect_annex:0 "上述所有傀儡政权被整合入§Y美利坚合众国§!。
+"
+  pfp_merge_usa_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y美利坚合众国§!。
+"
 
   pfp_merge_usa_rockies:0 "将落基山脉并入美国"
   pfp_merge_usa_rockies_desc:0 "核心美国恢复后，我们现在可以将§Y美国落基山脉§!并入国家。"
@@ -5014,9 +5017,12 @@
   pfp_merge_china:0 "统一中国"
   pfp_merge_china_desc:0 "§Y直隶§!、§Y山东§!、§Y河南§!、§Y山西§!、§Y两江§!、§Y闽浙§!、§Y湖广§!、§Y两广§!、§Y云贵§!和§Y四川§!曾是统一中国的一部分。将它们整合在一面旗帜下，我们可以恢复中华国家。工业最发达、人口最多的地区将领导联合，兼并其他地区。"
   pfp_merge_china_not_yet_formed_tt:0 "中国尚未统一。"
-  pfp_merge_china_effect_form:0 "§Y中国§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_china_effect_annex:0 "§Y中国§!兼并前述傀儡。\n"
-  pfp_merge_china_effect_cores:0 "§Y中国§!继承前述傀儡的核心及可核心化领土。\n"
+  pfp_merge_china_effect_form:0 "拥有最多工厂的傀儡政权建立§Y中国§!。
+"
+  pfp_merge_china_effect_annex:0 "上述所有傀儡政权被整合入§Y中国§!。
+"
+  pfp_merge_china_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y中国§!。
+"
 
   pfp_merge_china_manchuria:0 "将满洲并入中国"
   pfp_merge_china_manchuria_desc:0 "随着中国统一，我们现在可以将§Y满洲§!纳入版图，完成东北领土的整合。"
@@ -5059,9 +5065,12 @@
   pfp_merge_east_africa:0 "统一东非"
   pfp_merge_east_africa_desc:0 "§Y埃塞俄比亚§!、§Y厄立特里亚§!、§Y吉布提§!、§Y索马里兰§!和§Y索马里§!共享非洲之角。将它们整合在一面旗帜下，我们可以建立一个强大的东非国家。工业最发达、人口最多的傀儡将主导联盟，并吞并其他傀儡。"
   pfp_merge_east_africa_not_yet_formed_tt:0 "东非尚未统一。"
-  pfp_merge_east_africa_effect_form:0 "§Y东非§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_east_africa_effect_annex:0 "§Y东非§!兼并前述傀儡。\n"
-  pfp_merge_east_africa_effect_cores:0 "§Y东非§!继承前述傀儡的核心及可核心化领土。\n"
+  pfp_merge_east_africa_effect_form:0 "拥有最多工厂的傀儡政权建立§Y东非§!。
+"
+  pfp_merge_east_africa_effect_annex:0 "上述所有傀儡政权被整合入§Y东非§!。
+"
+  pfp_merge_east_africa_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y东非§!。
+"
   pfp_merge_east_africa_is_formed_tt:0 "统一的东非已存在于我们的傀儡之中。"
 
   pfp_merge_east_africa_kenya:0 "将肯尼亚并入东非"
@@ -5094,9 +5103,12 @@
   pfp_merge_france:0 "统一法国"
   pfp_merge_france_desc:0 "§Y北法国§!和§Y南法国§!是曾经伟大国家的两个分裂部分。将它们整合在一面旗帜下，我们可以恢复法国昔日的荣光。工业最发达、人口最多的傀儡将主导联盟，并吞并另一方。"
   pfp_merge_france_not_yet_formed_tt:0 "法国尚未统一。"
-  pfp_merge_france_effect_form:0 "§Y法国§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_france_effect_annex:0 "§Y法国§!兼并前述傀儡。\n"
-  pfp_merge_france_effect_cores:0 "§Y法国§!继承前述傀儡的核心及可核心化领土。\n"
+  pfp_merge_france_effect_form:0 "拥有最多工厂的傀儡政权建立§Y法国§!。
+"
+  pfp_merge_france_effect_annex:0 "上述所有傀儡政权被整合入§Y法国§!。
+"
+  pfp_merge_france_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y法国§!。
+"
   pfp_merge_france_is_formed_tt:0 "统一的法国已存在于我们的傀儡之中。"
 
   pfp_merge_france_alps:0 "将法国阿尔卑斯山并入法国"
@@ -5108,9 +5120,12 @@
   pfp_merge_germany:0 "统一德国"
   pfp_merge_germany_desc:0 "§Y西德§!和§Y东德§!是曾经统一国家的两个分裂部分。将它们整合在一面旗帜下，我们可以恢复德国昔日的荣光。工业最发达、人口最多的傀儡将主导联盟，并吞并另一方。"
   pfp_merge_germany_not_yet_formed_tt:0 "德国尚未统一。"
-  pfp_merge_germany_effect_form:0 "§Y德国§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_germany_effect_annex:0 "§Y德国§!兼并前述傀儡。\n"
-  pfp_merge_germany_effect_cores:0 "§Y德国§!继承前述傀儡的核心及可核心化领土。\n"
+  pfp_merge_germany_effect_form:0 "拥有最多工厂的傀儡政权建立§Y德国§!。
+"
+  pfp_merge_germany_effect_annex:0 "上述所有傀儡政权被整合入§Y德国§!。
+"
+  pfp_merge_germany_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y德国§!。
+"
   pfp_merge_germany_is_formed_tt:0 "统一的德国已存在于我们的傀儡之中。"
 
   pfp_merge_germany_konigsberg:0 "将柯尼斯堡并入德国"
@@ -5122,9 +5137,12 @@
   pfp_merge_great_britain:0 "统一大不列颠"
   pfp_merge_great_britain_desc:0 "§Y英格兰§!、§Y苏格兰§!和§Y威尔士§!共享大不列颠岛并拥有悠久的交织历史。通过将它们统一在一面旗帜下，我们可以恢复英国国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
   pfp_merge_great_britain_not_yet_formed_tt:0 "大不列颠尚未统一。"
-  pfp_merge_great_britain_effect_form:0 "§Y大不列颠§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_great_britain_effect_annex:0 "§Y大不列颠§!兼并前述傀儡。\n"
-  pfp_merge_great_britain_effect_cores:0 "§Y大不列颠§!从前述傀儡继承核心及可核心化领土。\n"
+  pfp_merge_great_britain_effect_form:0 "拥有最多工厂的傀儡政权建立§Y大不列颠§!。
+"
+  pfp_merge_great_britain_effect_annex:0 "上述所有傀儡政权被整合入§Y大不列颠§!。
+"
+  pfp_merge_great_britain_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y大不列颠§!。
+"
   pfp_merge_great_britain_is_formed_tt:0 "统一的大不列颠存在于我们的傀儡之中。"
 
   pfp_merge_great_britain_northern_ireland:0 "将北爱尔兰并入大不列颠"
@@ -5136,16 +5154,22 @@
   pfp_merge_iberia:0 "统一伊比利亚"
   pfp_merge_iberia_desc:0 "§Y西班牙§!和§Y葡萄牙§!共享伊比利亚半岛并拥有悠久的交织历史。通过将它们统一在一面旗帜下，我们可以建立一个强大的伊比利亚国家。工业最发达、人口最多的领土将领导联盟，兼并另一方。"
   pfp_merge_iberia_not_yet_formed_tt:0 "伊比利亚尚未统一。"
-  pfp_merge_iberia_effect_form:0 "§Y伊比利亚§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_iberia_effect_annex:0 "§Y伊比利亚§!兼并前述傀儡。\n"
-  pfp_merge_iberia_effect_cores:0 "§Y伊比利亚§!从前述傀儡继承核心及可核心化领土。\n"
+  pfp_merge_iberia_effect_form:0 "拥有最多工厂的傀儡政权建立§Y伊比利亚§!。
+"
+  pfp_merge_iberia_effect_annex:0 "上述所有傀儡政权被整合入§Y伊比利亚§!。
+"
+  pfp_merge_iberia_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y伊比利亚§!。
+"
 
   pfp_merge_italy:0 "统一意大利"
   pfp_merge_italy_desc:0 "§Y伦巴第-威尼西亚§!、§Y皮埃蒙特§!、§Y托斯卡纳§!、§Y教皇国§!和§Y两西西里§!是这座伟大半岛的碎片。通过将它们统一在一面旗帜下，我们可以缔造统一的意大利国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
   pfp_merge_italy_not_yet_formed_tt:0 "意大利尚未统一。"
-  pfp_merge_italy_effect_form:0 "§Y意大利§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_italy_effect_annex:0 "§Y意大利§!兼并前述傀儡。\n"
-  pfp_merge_italy_effect_cores:0 "§Y意大利§!从前述傀儡继承核心及可核心化领土。\n"
+  pfp_merge_italy_effect_form:0 "拥有最多工厂的傀儡政权建立§Y意大利§!。
+"
+  pfp_merge_italy_effect_annex:0 "上述所有傀儡政权被整合入§Y意大利§!。
+"
+  pfp_merge_italy_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y意大利§!。
+"
   pfp_merge_italy_is_formed_tt:0 "统一的意大利存在于我们的傀儡之中。"
 
   pfp_merge_italy_sardinia:0 "将撒丁岛并入意大利"
@@ -5156,15 +5180,21 @@
   pfp_merge_japan:0 "统一日本"
   pfp_merge_japan_desc:0 "§Y北海道§!、§Y东北§!、§Y关东§!、§Y中部§!、§Y关西§!、§Y中国地方§!、§Y四国§!和§Y九州§!是日本本土的分裂地区。通过将它们统一在一面旗帜下，我们可以恢复日本国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
   pfp_merge_japan_not_yet_formed_tt:0 "日本尚未统一。"
-  pfp_merge_japan_effect_form:0 "§Y日本§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_japan_effect_annex:0 "§Y日本§!兼并前述傀儡。\n"
-  pfp_merge_japan_effect_cores:0 "§Y日本§!从前述傀儡继承核心及可核心化领土。\n"
+  pfp_merge_japan_effect_form:0 "拥有最多工厂的傀儡政权建立§Y日本§!。
+"
+  pfp_merge_japan_effect_annex:0 "上述所有傀儡政权被整合入§Y日本§!。
+"
+  pfp_merge_japan_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y日本§!。
+"
   pfp_merge_yugoslavia:0 "统一南斯拉夫"
   pfp_merge_yugoslavia_desc:0 "§Y克罗地亚§!、§Y斯洛文尼亚§!、§Y波斯尼亚-黑塞哥维那§!和§Y塞尔维亚§!共享西巴尔干半岛和共同的南斯拉夫遗产。通过将它们统一在一面旗帜下，我们可以建立强大的南斯拉夫国家。工业最发达、人口最多的领土将领导联盟，兼并其他领土。"
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "南斯拉夫尚未统一。"
-  pfp_merge_yugoslavia_effect_form:0 "§Y南斯拉夫§!由工业最发达、人口最多的傀儡组建。\n"
-  pfp_merge_yugoslavia_effect_annex:0 "§Y南斯拉夫§!兼并前述傀儡。\n"
-  pfp_merge_yugoslavia_effect_cores:0 "§Y南斯拉夫§!从前述傀儡继承核心及可核心化领土。\n"
+  pfp_merge_yugoslavia_effect_form:0 "拥有最多工厂的傀儡政权建立§Y南斯拉夫§!。
+"
+  pfp_merge_yugoslavia_effect_annex:0 "上述所有傀儡政权被整合入§Y南斯拉夫§!。
+"
+  pfp_merge_yugoslavia_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y南斯拉夫§!。
+"
   pfp_merge_yugoslavia_is_formed_tt:0 "统一的南斯拉夫存在于我们的傀儡之中。"
   pfp_merge_yugoslavia_montenegro:0 "将黑山并入南斯拉夫"
   pfp_merge_yugoslavia_montenegro_desc:0 "南斯拉夫统一后，我们现在可以将§Y黑山§!纳入版图，加强对巴尔干半岛的控制。"
@@ -5179,8 +5209,10 @@
   pfp_merge_western_russia_desc:0 "西部俄罗斯傀儡国可以统合为一个西俄罗斯国家。中部俄罗斯、南部俄罗斯、伏尔加和西北俄罗斯将成为这个新国家的基础。"
   pfp_merge_western_russia_not_yet_formed_tt:0 "西俄罗斯尚未组建。"
   pfp_merge_western_russia_effect_form:0 "§Y中部俄罗斯§!、§Y南部俄罗斯§!、§Y伏尔加§!和§Y西北俄罗斯§!中最强大的国家成为§Y西俄罗斯§!。\n"
-  pfp_merge_western_russia_effect_annex:0 "§Y西俄罗斯§!兼并其余西部俄罗斯傀儡国，获得其军队。\n"
-  pfp_merge_western_russia_effect_cores:0 "§Y西俄罗斯§!获得所有被兼并傀儡国的核心及可核心化领土。\n"
+  pfp_merge_western_russia_effect_annex:0 "上述所有傀儡政权被整合入§Y西俄罗斯§!。
+"
+  pfp_merge_western_russia_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y西俄罗斯§!。
+"
   pfp_merge_western_russia_is_formed_tt:0 "西俄罗斯已组建。"
 
   pfp_merge_western_russia_northern_caucasus:0 "吸收北高加索"
@@ -5203,13 +5235,17 @@
   pfp_merge_eastern_russia_desc:0 "东部俄罗斯傀儡国可以统合为一个东俄罗斯国家。乌拉尔、西伯利亚和远东俄罗斯将组成这个广阔的国家。"
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "东俄罗斯尚未组建。"
   pfp_merge_eastern_russia_effect_form:0 "§Y乌拉尔§!、§Y西伯利亚§!和§Y远东俄罗斯§!中最强大的国家成为§Y东俄罗斯§!。\n"
-  pfp_merge_eastern_russia_effect_annex:0 "§Y东俄罗斯§!兼并其余东部俄罗斯傀儡国，获得其军队。\n"
-  pfp_merge_eastern_russia_effect_cores:0 "§Y东俄罗斯§!获得所有被兼并傀儡国的核心及可核心化领土。\n"
+  pfp_merge_eastern_russia_effect_annex:0 "上述所有傀儡政权被整合入§Y东俄罗斯§!。
+"
+  pfp_merge_eastern_russia_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y东俄罗斯§!。
+"
   pfp_merge_eastern_russia_is_formed_tt:0 "东俄罗斯已组建。"
 
   pfp_merge_russia:0 "统一俄罗斯"
   pfp_merge_russia_desc:0 "随着西俄罗斯和东俄罗斯都在我们的控制之下，将俄罗斯土地统一成一个伟大国家的时刻已经到来。"
   pfp_merge_russia_not_yet_formed_tt:0 "俄罗斯尚未组建。"
   pfp_merge_russia_effect_form:0 "§Y西俄罗斯§!和§Y东俄罗斯§!中最强大的国家成为§Y俄罗斯§!。\n"
-  pfp_merge_russia_effect_annex:0 "§Y俄罗斯§!兼并剩余的俄罗斯可组建国，获得其军队。\n"
-  pfp_merge_russia_effect_cores:0 "§Y俄罗斯§!获得被兼并的可组建国的核心及可核心化领土。\n"
+  pfp_merge_russia_effect_annex:0 "上述所有傀儡政权被整合入§Y俄罗斯§!。
+"
+  pfp_merge_russia_effect_cores:0 "上述傀儡政权的核心领土和主张转让给§Y俄罗斯§!。
+"

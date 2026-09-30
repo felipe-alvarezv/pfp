@@ -4996,9 +4996,12 @@
   pfp_merge_usa:0 "Unite the United States"
   pfp_merge_usa_desc:0 "§YNortheastern§!, §YMidwestern§!, and §YSouthern§! U.S. share a common heritage and destiny. By uniting them under one banner, we can restore the United States. The most industrially developed and populated territory will lead the union, annexing the others."
   pfp_merge_usa_not_yet_formed_tt:0 "The United States has not yet been reunified."
-  pfp_merge_usa_effect_form:0 "§YThe United States§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_usa_effect_annex:0 "§YThe United States§! annexes the previously listed puppets.\n"
-  pfp_merge_usa_effect_cores:0 "§YThe United States§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_usa_effect_form:0 "The puppet with the most factories forms §YThe United States§!.
+"
+  pfp_merge_usa_effect_annex:0 "All puppets listed above are integrated into §YThe United States§!.
+"
+  pfp_merge_usa_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YThe United States§!.
+"
 
   pfp_merge_usa_rockies:0 "Absorb the Rockies into the United States"
   pfp_merge_usa_rockies_desc:0 "With the core United States restored, we can now integrate §YRockies U.S.§! into the nation."
@@ -5016,9 +5019,12 @@
   pfp_merge_china:0 "Unite China"
   pfp_merge_china_desc:0 "§YZhili§!, §YShandong§!, §YHenan§!, §YShanxi§!, §YLiangjiang§!, §YMin-Zhe§!, §YHuguang§!, §YLiangguang§!, §YYun-Gui§!, and §YSichuan§! were once part of a unified China. By consolidating them under one banner, we can restore the Chinese state. The most industrially developed and populated territory will lead the union, annexing the others."
   pfp_merge_china_not_yet_formed_tt:0 "China has not yet been unified."
-  pfp_merge_china_effect_form:0 "§YChina§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_china_effect_annex:0 "§YChina§! annexes the previously listed puppets.\n"
-  pfp_merge_china_effect_cores:0 "§YChina§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_china_effect_form:0 "The puppet with the most factories forms §YChina§!.
+"
+  pfp_merge_china_effect_annex:0 "All puppets listed above are integrated into §YChina§!.
+"
+  pfp_merge_china_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YChina§!.
+"
 
   pfp_merge_china_manchuria:0 "Absorb Manchuria into China"
   pfp_merge_china_manchuria_desc:0 "With China unified, we can now bring §YManchuria§! into the fold, completing our northeastern territories."
@@ -5061,9 +5067,12 @@
   pfp_merge_east_africa:0 "Unite East Africa"
   pfp_merge_east_africa_desc:0 "§YEthiopia§!, §YEritrea§!, §YDjibouti§!, §YSomaliland§!, and §YSomalia§! share the Horn of Africa. By uniting them under one banner, we can establish a dominant East African state. The most industrially developed and populated territory will lead the union, annexing the others."
   pfp_merge_east_africa_not_yet_formed_tt:0 "East Africa has not yet been unified."
-  pfp_merge_east_africa_effect_form:0 "§YEast Africa§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_east_africa_effect_annex:0 "§YEast Africa§! annexes the previously listed puppets.\n"
-  pfp_merge_east_africa_effect_cores:0 "§YEast Africa§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_east_africa_effect_form:0 "The puppet with the most factories forms §YEast Africa§!.
+"
+  pfp_merge_east_africa_effect_annex:0 "All puppets listed above are integrated into §YEast Africa§!.
+"
+  pfp_merge_east_africa_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YEast Africa§!.
+"
   pfp_merge_east_africa_is_formed_tt:0 "A unified East Africa exists among our puppets."
 
   pfp_merge_east_africa_kenya:0 "Absorb Kenya into East Africa"
@@ -5096,9 +5105,12 @@
   pfp_merge_france:0 "Unite France"
   pfp_merge_france_desc:0 "§YNorthern France§! and §YSouthern France§! are divided halves of a once-great nation. By merging them under one banner, we can restore France to its former glory. The most industrially developed and populated territory will lead the union, annexing the other."
   pfp_merge_france_not_yet_formed_tt:0 "France has not yet been unified."
-  pfp_merge_france_effect_form:0 "§YFrance§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_france_effect_annex:0 "§YFrance§! annexes the previously listed puppet.\n"
-  pfp_merge_france_effect_cores:0 "§YFrance§! inherits cores and coreable territories from the previously listed puppet.\n"
+  pfp_merge_france_effect_form:0 "The puppet with the most factories forms §YFrance§!.
+"
+  pfp_merge_france_effect_annex:0 "All puppets listed above are integrated into §YFrance§!.
+"
+  pfp_merge_france_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YFrance§!.
+"
   pfp_merge_france_is_formed_tt:0 "A unified France exists among our puppets."
 
   pfp_merge_france_alps:0 "Absorb the French Alps into France"
@@ -5110,9 +5122,12 @@
   pfp_merge_germany:0 "Unite Germany"
   pfp_merge_germany_desc:0 "§YWest Germany§! and §YEast Germany§! are the divided halves of a once-unified nation. By merging them under one banner, we can restore Germany to its former glory. The most industrially developed and populated territory will lead the union, annexing the other."
   pfp_merge_germany_not_yet_formed_tt:0 "Germany has not yet been unified."
-  pfp_merge_germany_effect_form:0 "§YGermany§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_germany_effect_annex:0 "§YGermany§! annexes the previously listed puppet.\n"
-  pfp_merge_germany_effect_cores:0 "§YGermany§! inherits cores and coreable territories from the previously listed puppet.\n"
+  pfp_merge_germany_effect_form:0 "The puppet with the most factories forms §YGermany§!.
+"
+  pfp_merge_germany_effect_annex:0 "All puppets listed above are integrated into §YGermany§!.
+"
+  pfp_merge_germany_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YGermany§!.
+"
   pfp_merge_germany_is_formed_tt:0 "A unified Germany exists among our puppets."
 
   pfp_merge_germany_konigsberg:0 "Absorb Königsberg into Germany"
@@ -5124,9 +5139,12 @@
   pfp_merge_great_britain:0 "Unite Great Britain"
   pfp_merge_great_britain_desc:0 "§YEngland§!, §YScotland§!, and §YWales§! share the island of Great Britain and a long, intertwined history. By uniting them under one banner, we can restore the British state. The most industrially developed and populated territory will lead the union, annexing the others."
   pfp_merge_great_britain_not_yet_formed_tt:0 "Great Britain has not yet been unified."
-  pfp_merge_great_britain_effect_form:0 "§YGreat Britain§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_great_britain_effect_annex:0 "§YGreat Britain§! annexes the previously listed puppets.\n"
-  pfp_merge_great_britain_effect_cores:0 "§YGreat Britain§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_great_britain_effect_form:0 "The puppet with the most factories forms §YGreat Britain§!.
+"
+  pfp_merge_great_britain_effect_annex:0 "All puppets listed above are integrated into §YGreat Britain§!.
+"
+  pfp_merge_great_britain_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YGreat Britain§!.
+"
   pfp_merge_great_britain_is_formed_tt:0 "A unified Great Britain exists among our puppets."
 
   pfp_merge_great_britain_northern_ireland:0 "Absorb Northern Ireland into Great Britain"
@@ -5138,16 +5156,22 @@
   pfp_merge_iberia:0 "Unite Iberia"
   pfp_merge_iberia_desc:0 "§YSpain§! and §YPortugal§! share the Iberian Peninsula and a long, intertwined history. By uniting them under one banner, we can establish a dominant Iberian state. The most industrially developed and populated territory will lead the union, annexing the other."
   pfp_merge_iberia_not_yet_formed_tt:0 "Iberia has not yet been unified."
-  pfp_merge_iberia_effect_form:0 "§YIberia§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_iberia_effect_annex:0 "§YIberia§! annexes the previously listed puppet.\n"
-  pfp_merge_iberia_effect_cores:0 "§YIberia§! inherits cores and coreable territories from the previously listed puppet.\n"
+  pfp_merge_iberia_effect_form:0 "The puppet with the most factories forms §YIberia§!.
+"
+  pfp_merge_iberia_effect_annex:0 "All puppets listed above are integrated into §YIberia§!.
+"
+  pfp_merge_iberia_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YIberia§!.
+"
 
   pfp_merge_italy:0 "Unite Italy"
   pfp_merge_italy_desc:0 "§YLombardy-Venetia§!, §YPiedmont§!, §YTuscany§!, §YThe Papal States§!, and §YThe Two Sicilies§! are the fragmented pieces of a once-great peninsula. By uniting them under one banner, we can forge a unified Italian state. The most industrially developed and populated territory will lead the union, annexing the others."
   pfp_merge_italy_not_yet_formed_tt:0 "Italy has not yet been unified."
-  pfp_merge_italy_effect_form:0 "§YItaly§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_italy_effect_annex:0 "§YItaly§! annexes the previously listed puppets.\n"
-  pfp_merge_italy_effect_cores:0 "§YItaly§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_italy_effect_form:0 "The puppet with the most factories forms §YItaly§!.
+"
+  pfp_merge_italy_effect_annex:0 "All puppets listed above are integrated into §YItaly§!.
+"
+  pfp_merge_italy_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YItaly§!.
+"
   pfp_merge_italy_is_formed_tt:0 "A unified Italy exists among our puppets."
 
   pfp_merge_italy_sardinia:0 "Absorb Sardinia into Italy"
@@ -5158,15 +5182,21 @@
   pfp_merge_japan:0 "Unite Japan"
   pfp_merge_japan_desc:0 "§YHokkaido§!, §YTohoku§!, §YKanto§!, §YChubu§!, §YKansai§!, §YChugoku§!, §YShikoku§!, and §YKyushu§! are the divided regions of the Japanese home islands. By uniting them under one banner, we can restore the Japanese state. The most industrially developed and populated territory will lead the union, annexing the others."
   pfp_merge_japan_not_yet_formed_tt:0 "Japan has not yet been unified."
-  pfp_merge_japan_effect_form:0 "§YJapan§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_japan_effect_annex:0 "§YJapan§! annexes the previously listed puppets.\n"
-  pfp_merge_japan_effect_cores:0 "§YJapan§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_japan_effect_form:0 "The puppet with the most factories forms §YJapan§!.
+"
+  pfp_merge_japan_effect_annex:0 "All puppets listed above are integrated into §YJapan§!.
+"
+  pfp_merge_japan_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YJapan§!.
+"
   pfp_merge_yugoslavia:0 "Unite Yugoslavia"
   pfp_merge_yugoslavia_desc:0 "§YCroatia§!, §YSlovenia§!, §YBosnia-Herzegovina§!, and §YSerbia§! share the western Balkans and a common South Slavic heritage. By uniting them under one banner, we can establish a powerful Yugoslav state. The most industrially developed and populated territory will lead the union, annexing the others."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "Yugoslavia has not yet been unified."
-  pfp_merge_yugoslavia_effect_form:0 "§YYugoslavia§! is formed by the most industrially developed and populated puppet.\n"
-  pfp_merge_yugoslavia_effect_annex:0 "§YYugoslavia§! annexes the previously listed puppets.\n"
-  pfp_merge_yugoslavia_effect_cores:0 "§YYugoslavia§! inherits cores and coreable territories from previously listed puppets.\n"
+  pfp_merge_yugoslavia_effect_form:0 "The puppet with the most factories forms §YYugoslavia§!.
+"
+  pfp_merge_yugoslavia_effect_annex:0 "All puppets listed above are integrated into §YYugoslavia§!.
+"
+  pfp_merge_yugoslavia_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YYugoslavia§!.
+"
   pfp_merge_yugoslavia_is_formed_tt:0 "A unified Yugoslavia exists among our puppets."
   pfp_merge_yugoslavia_montenegro:0 "Absorb Montenegro into Yugoslavia"
   pfp_merge_yugoslavia_montenegro_desc:0 "With Yugoslavia unified, we can now bring §YMontenegro§! into the fold, strengthening our hold over the Balkans."
@@ -5181,8 +5211,10 @@
   pfp_merge_western_russia_desc:0 "The western Russian puppets can be united into a single Western Russian state. Central Russia, Southern Russia, Volga, and Northwestern Russia shall form the foundation of this new nation."
   pfp_merge_western_russia_not_yet_formed_tt:0 "Western Russia has not yet been formed."
   pfp_merge_western_russia_effect_form:0 "The most powerful of §YCentral Russia§!, §YSouthern Russia§!, §YVolga§!, and §YNorthwestern Russia§! becomes §YWestern Russia§!.\n"
-  pfp_merge_western_russia_effect_annex:0 "§YWestern Russia§! annexes the remaining western Russian puppets, gaining their troops.\n"
-  pfp_merge_western_russia_effect_cores:0 "§YWestern Russia§! gains the cores and coreable territories of all annexed puppets.\n"
+  pfp_merge_western_russia_effect_annex:0 "All puppets listed above are integrated into §YWestern Russia§!.
+"
+  pfp_merge_western_russia_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YWestern Russia§!.
+"
   pfp_merge_western_russia_is_formed_tt:0 "Western Russia has been formed."
 
   pfp_merge_western_russia_northern_caucasus:0 "Absorb Northern Caucasus"
@@ -5205,13 +5237,17 @@
   pfp_merge_eastern_russia_desc:0 "The eastern Russian puppets can be united into a single Eastern Russian state. The Urals, Siberia, and Far Eastern Russia shall form this vast nation."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "Eastern Russia has not yet been formed."
   pfp_merge_eastern_russia_effect_form:0 "The most powerful of §YUrals§!, §YSiberia§!, and §YFar Eastern Russia§! becomes §YEastern Russia§!.\n"
-  pfp_merge_eastern_russia_effect_annex:0 "§YEastern Russia§! annexes the remaining eastern Russian puppets, gaining their troops.\n"
-  pfp_merge_eastern_russia_effect_cores:0 "§YEastern Russia§! gains the cores and coreable territories of all annexed puppets.\n"
+  pfp_merge_eastern_russia_effect_annex:0 "All puppets listed above are integrated into §YEastern Russia§!.
+"
+  pfp_merge_eastern_russia_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YEastern Russia§!.
+"
   pfp_merge_eastern_russia_is_formed_tt:0 "Eastern Russia has been formed."
 
   pfp_merge_russia:0 "Unite Russia"
   pfp_merge_russia_desc:0 "With both Western and Eastern Russia under our control, the time has come to reunite the Russian lands into a single great nation."
   pfp_merge_russia_not_yet_formed_tt:0 "Russia has not yet been formed."
   pfp_merge_russia_effect_form:0 "The most powerful of §YWestern Russia§! and §YEastern Russia§! becomes §YRussia§!.\n"
-  pfp_merge_russia_effect_annex:0 "§YRussia§! annexes the remaining Russian formable, gaining its troops.\n"
-  pfp_merge_russia_effect_cores:0 "§YRussia§! gains the cores and coreable territories of the annexed formable.\n"
+  pfp_merge_russia_effect_annex:0 "All puppets listed above are integrated into §YRussia§!.
+"
+  pfp_merge_russia_effect_cores:0 "The cores and claims of the puppets listed above are transferred to §YRussia§!.
+"
