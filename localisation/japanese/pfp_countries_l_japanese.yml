@@ -4983,9 +4983,9 @@
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "カナダはまだ統一されていません。"
   pfp_merge_puppet_must_core_owned_territories_tt:0 "現在占領中のすべての核化可能な領土を核化している必要があります。"
-  pfp_merge_canada_effect_form:0 "§Yカナダ§!は最も工業的に発展した傀偲によって形成されます。\n"
-  pfp_merge_canada_effect_annex:0 "§Yカナダ§!は以前に一覧表示された傀偲を併合します。\n"
-  pfp_merge_canada_effect_cores:0 "§Yカナダ§!は以前に一覧表示された傀偲からコアと核化可能な領土を引き継ぎます。\n"
+  pfp_merge_canada_effect_form:0 "最も多くの工場を持つ傀儡が§Yカナダ§!を形成します。\n"
+  pfp_merge_canada_effect_annex:0 "上記に一覧表示されたすべての傀儡が§Yカナダ§!に統合されます。\n"
+  pfp_merge_canada_effect_cores:0 "上記に一覧表示された傀儡のコアと権益が§Yカナダ§!に移転されます。\n"
   pfp_merge_canada_is_formed_tt:0 "統一されたカナダが傀儡国の中に存在します。"
   pfp_merge_canada_quebec_not_yet_absorbed_tt:0 "ケベックはまだカナダに吸収されていません。"
   pfp_merge_canada_quebec_effect_annex:0 "§Yカナダ§!は§Yケベック§!を併合し、そのコアと核化可能な領土を獲得します。\n"
