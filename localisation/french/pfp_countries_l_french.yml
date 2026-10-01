@@ -4980,6 +4980,7 @@
   pfp_merge_canada_quebec_desc:0 "Le cœur francophone sur les rives du Saint-Laurent défend sa langue et sa culture distincte depuis trois siècles — assez longtemps pour mériter le nom de belle province. Le Canada étant unifié, le moment est venu de l'intégrer dans la nation ; ses rivières, ses villes et ses habitants appartiennent au pays qui les entoure."
   # Shared tooltip
   pfp_merge_subject_is_military_occupation_tt:0 "Est une nation-fantoche d'occupation militaire de [ROOT.GetName]."
+  pfp_merge_puppet_ready_tt:0 "Doit être un sujet d'occupation militaire avec tous les territoires incorporés"
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "Le Canada n'a pas encore été unifié."
   pfp_merge_puppet_must_core_owned_territories_tt:0 "Doit avoir incorporé tous les territoires occupés actuellement pouvant être annexés."

@@ -4980,6 +4980,7 @@
   pfp_merge_canada_quebec_desc:0 "세인트로렌스 강변의 불어권 심장부는 삼 세기 동안 자신의 언어와 독특한 문화를 지켜왔으며, la belle province이라는 이름을 얻기에 충분한 시간이다. 캐나다가 통일된 지금, 이 지역을 국가의 품에 안을 때가 왔다. 그 강과 도시와 사람들은 이 지역을 둘러싸고 있는 나라에 속한다."
   # Shared tooltip
   pfp_merge_subject_is_military_occupation_tt:0 "[ROOT.GetName]의 군사 점령 괴뢰 국가입니다."
+  pfp_merge_puppet_ready_tt:0 "모든 영토가 편입된 군사 점령 괴뢰국이어야 합니다"
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "캐나다는 아직 통합되지 않았습니다."
   pfp_merge_puppet_must_core_owned_territories_tt:0 "현재 점령 중인 모든 핵화 가능한 영토를 핵화해야 합니다."

@@ -40,16 +40,13 @@ pfp_unification = {
 				NOT = { has_global_flag = pfp_yugoslavia_merged }
 			}
 			P86 = {
-				is_subject_of = ROOT
 				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
+					tooltip = pfp_merge_puppet_ready_tt
+					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -60,16 +57,13 @@ pfp_unification = {
 				}
 			}
 			P87 = {
-				is_subject_of = ROOT
 				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
+					tooltip = pfp_merge_puppet_ready_tt
+					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -80,16 +74,13 @@ pfp_unification = {
 				}
 			}
 			P88 = {
-				is_subject_of = ROOT
 				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
+					tooltip = pfp_merge_puppet_ready_tt
+					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -100,16 +91,13 @@ pfp_unification = {
 				}
 			}
 			P89 = {
-				is_subject_of = ROOT
 				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
+					tooltip = pfp_merge_puppet_ready_tt
+					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores

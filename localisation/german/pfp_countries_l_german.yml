@@ -4980,6 +4980,7 @@
   pfp_merge_canada_quebec_desc:0 "Das frankophone Kernland an den Ufern des Sankt-Lorenz-Stroms bewahrt seit drei Jahrhunderten seine Sprache und eigenständige Kultur — lang genug, um den Namen la belle province zu verdienen. Mit dem vereinten Kanada ist es an der Zeit, es in die Nation einzugliedern; seine Flüsse, seine Städte und seine Menschen gehören zum Land, das sie umgibt."
   # Shared tooltip
   pfp_merge_subject_is_military_occupation_tt:0 "Ist ein Militärbesatzungs-Marionettenregime von [ROOT.GetName]."
+  pfp_merge_puppet_ready_tt:0 "Muss ein Militärbesatzungssubjekt mit allen eingegliederten Gebieten sein"
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "Kanada wurde noch nicht vereint."
   pfp_merge_puppet_must_core_owned_territories_tt:0 "Muss alle derzeit besetzten kernfähigen Gebiete als Kerngebiete eingegliedert haben."

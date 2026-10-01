@@ -4976,6 +4976,7 @@
 
   # Shared tooltips - reused by all merger decisions
   pfp_merge_subject_is_military_occupation_tt:0 "Is a Military Occupation puppet of [ROOT.GetName]."
+  pfp_merge_puppet_ready_tt:0 "Must be a Military Occupation subject with all territories cored"
   pfp_merge_puppet_must_core_owned_territories_tt:0 "Must have cored all currently occupied coreable territories."
 
   # Canada

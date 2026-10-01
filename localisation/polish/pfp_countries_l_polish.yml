@@ -4980,6 +4980,7 @@
   pfp_merge_canada_quebec_desc:0 "Frankofońskie serce nad brzegami rzeki Świętego Wawrzyńca strzeże swojego języka i odrębnej kultury od trzech stuleci — dość długo, by zasłużyć na miano la belle province. Ze zjednoczoną Kanadą nadszedł czas, by włączyć je do narodu; jego rzeki, miasta i ludzie należą do kraju, który je otacza."
   # Shared tooltip
   pfp_merge_subject_is_military_occupation_tt:0 "Jest marionetkowym państwem okupacji wojskowej [ROOT.GetName]."
+  pfp_merge_puppet_ready_tt:0 "Musi być marionetką okupacji wojskowej z włączonymi wszystkimi terytoriami"
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "Kanada nie została jeszcze zjednoczona."
   pfp_merge_puppet_must_core_owned_territories_tt:0 "Musi mieć rdzeń na wszystkich aktualnie zajmowanych terytoriach, które mogą stać się rdzeniami."

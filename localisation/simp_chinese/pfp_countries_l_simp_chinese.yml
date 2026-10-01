@@ -4980,6 +4980,7 @@
   pfp_merge_canada_quebec_desc:0 "圣劳伦斯河畔的法语中心地带守护着自己的语言和独特文化已有三个世纪，足以赢得「美丽省份」之名。加拿大统一后，是时候将其纳入国家了——它的河流、城市和人民都属于围绕着它的这个国家。"
   # Shared tooltip
   pfp_merge_subject_is_military_occupation_tt:0 "是[ROOT.GetName]的军事占领傀儡国家。"
+  pfp_merge_puppet_ready_tt:0 "必须是已并入所有领土的军事占领傀儡"
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "加拿大尚未统一。"
   pfp_merge_puppet_must_core_owned_territories_tt:0 "必须已将所有当前占领的可核化领土纳入核心领土。"

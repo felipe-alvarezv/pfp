@@ -4980,6 +4980,7 @@
   pfp_merge_canada_quebec_desc:0 "セント・ローレンス川沿岸のフランコフォンの中心地は、三世紀にわたってその言語と独自の文化を守り続け、「ラ・ベル・プロヴァンス」の名にふさわしい。カナダが統一された今、それを国家に組み込む時が来た——その川、都市、そして人々は、周囲を囲む国家に属している。"
   # Shared tooltip
   pfp_merge_subject_is_military_occupation_tt:0 "[ROOT.GetName]の軍事占領傀儡国家です。"
+  pfp_merge_puppet_ready_tt:0 "すべての領土を編入済みの軍事占領傀儡でなければならない"
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "カナダはまだ統一されていません。"
   pfp_merge_puppet_must_core_owned_territories_tt:0 "現在占領中のすべての核化可能な領土を核化している必要があります。"

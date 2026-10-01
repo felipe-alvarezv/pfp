@@ -4980,6 +4980,7 @@
   pfp_merge_canada_quebec_desc:0 "O coração francófono às margens do São Lourenço defende sua língua e cultura distinta há três séculos — tempo suficiente para merecer o nome de la belle province. Com o Canadá unificado, chegou o momento de integrá-lo à nação; seus rios, suas cidades e seu povo pertencem ao país que os rodeia."
   # Shared tooltip
   pfp_merge_subject_is_military_occupation_tt:0 "É um estado fantoche de ocupação militar de [ROOT.GetName]."
+  pfp_merge_puppet_ready_tt:0 "Deve ser um sujeito de ocupação militar com todos os territórios incorporados"
   # Canada
   pfp_merge_canada_not_yet_formed_tt:0 "O Canadá ainda não foi unificado."
   pfp_merge_puppet_must_core_owned_territories_tt:0 "Deve ter incorporado todos os territórios ocupados atualmente que podem se tornar núcleos."
