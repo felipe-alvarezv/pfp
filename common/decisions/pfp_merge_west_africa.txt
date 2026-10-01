@@ -55,12 +55,104 @@ pfp_unification = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = pfp_merge_west_africa_puppets_ready_tt
+				Q33 = { is_subject_of = ROOT }
+				Q34 = { is_subject_of = ROOT }
+				Q35 = { is_subject_of = ROOT }
+				Q40 = { is_subject_of = ROOT }
+				Q41 = { is_subject_of = ROOT }
+				Q42 = { is_subject_of = ROOT }
+				Q43 = { is_subject_of = ROOT }
+				Q44 = { is_subject_of = ROOT }
+				Q46 = { is_subject_of = ROOT }
+				Q47 = { is_subject_of = ROOT }
+				Q49 = { is_subject_of = ROOT }
+				Q50 = { is_subject_of = ROOT }
+				Q52 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_subject_is_military_occupation_tt
 				Q33 = {
-					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
+				}
+				Q34 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q35 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q40 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q41 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q42 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q43 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q44 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q46 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q47 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q49 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q50 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+				Q52 = {
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+				Q33 = {
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -70,11 +162,6 @@ pfp_unification = {
 					}
 				}
 				Q34 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -84,11 +171,6 @@ pfp_unification = {
 					}
 				}
 				Q35 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -98,11 +180,6 @@ pfp_unification = {
 					}
 				}
 				Q40 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -112,11 +189,6 @@ pfp_unification = {
 					}
 				}
 				Q41 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -126,11 +198,6 @@ pfp_unification = {
 					}
 				}
 				Q42 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -140,11 +207,6 @@ pfp_unification = {
 					}
 				}
 				Q43 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -154,11 +216,6 @@ pfp_unification = {
 					}
 				}
 				Q44 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -168,11 +225,6 @@ pfp_unification = {
 					}
 				}
 				Q46 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -182,11 +234,6 @@ pfp_unification = {
 					}
 				}
 				Q47 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -196,11 +243,6 @@ pfp_unification = {
 					}
 				}
 				Q49 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -210,11 +252,6 @@ pfp_unification = {
 					}
 				}
 				Q50 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -224,11 +261,6 @@ pfp_unification = {
 					}
 				}
 				Q52 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
