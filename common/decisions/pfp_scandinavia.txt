@@ -142,35 +142,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 37 #Sjaelland
-				has_full_control_of_state = 38 #GÃ¤vleborg
-				has_full_control_of_state = 99 #Jylland
-				has_full_control_of_state = 110 #Oslofjord
-				has_full_control_of_state = 138 #SkÃ¥ne
-				has_full_control_of_state = 139 #Smaland
-				has_full_control_of_state = 140 #Vastergotland
-				has_full_control_of_state = 141 #SÃ¶dermanland
-				has_full_control_of_state = 142 #Vestlandet
-				has_full_control_of_state = 143 #TrÃ¸ndelag
-				has_full_control_of_state = 144 #Nordland
-				has_full_control_of_state = 666 #Norrbotten
-				has_full_control_of_state = 911 #Fyn
-				has_full_control_of_state = 912 #SÃ¸nderjylland
-				has_full_control_of_state = 913 #Ã–stergÃ¶tland
-				has_full_control_of_state = 915 #BohuslÃ¤n
-				has_full_control_of_state = 916 #Dalarna
-				has_full_control_of_state = 917 #JÃ¤mtland
-				has_full_control_of_state = 918 #VÃ¤sterbotten
-				has_full_control_of_state = 919 #VÃ¤rmland
-				has_full_control_of_state = 920 #Opplandene
-				has_full_control_of_state = 921 #Telemark
-				has_full_control_of_state = 922 #Agder
-				has_full_control_of_state = 923 #Helgeland
-				has_full_control_of_state = 924 #Troms
-				has_full_control_of_state = 925 #Finnmark
-			}
-			NOT = { has_global_flag = pfp_scandinavia_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 
