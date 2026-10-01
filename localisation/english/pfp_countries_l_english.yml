@@ -4980,7 +4980,7 @@
 
   # Canada
   pfp_merge_canada:0 "Unite Canada"
-  pfp_merge_canada_desc:0 "A single dominion once stretched across the northern half of the continent from the Atlantic shores to the western prairies, bound by the transcontinental railway and a shared colonial heritage. The distance between Halifax and Vancouver is vast, but the ties of law, language, and history run deeper than any temporary division. The most industrially developed territory will lead the union, annexing the other and restoring a united Canada."
+  pfp_merge_canada_desc:0 "A single dominion once stretched across the northern half of the continent from the Atlantic shores to the western prairies, bound by the transcontinental railway and a shared colonial heritage. The distance between Halifax and Vancouver is vast, but the ties of law, language, and history run deeper than any temporary division."
   pfp_merge_canada_not_yet_formed_tt:0 "Canada has not yet been unified."
   pfp_merge_canada_effect_form:0 "§YCanada§! is formed by the puppet with the most factories.\n"
   pfp_merge_canada_effect_annex:0 "§YCanada§! annexes the puppets required for its unification.\n"
@@ -4994,7 +4994,7 @@
 
   # United States
   pfp_merge_usa:0 "Unite the United States"
-  pfp_merge_usa_desc:0 "From the factories and ports of the northeast to the fields and cities of the south and the great industrial heartland of the midwest, these three regions were the pillars of the most powerful nation the world had ever seen. The Union was preserved once before at enormous cost; it can be rebuilt again. The most industrially developed territory will lead the reunion, annexing the others and restoring the United States."
+  pfp_merge_usa_desc:0 "From the factories and ports of the northeast to the fields and cities of the south and the great industrial heartland of the midwest, these three regions were the pillars of the most powerful nation the world had ever seen. The Union was preserved once before at enormous cost; it can be rebuilt again."
   pfp_merge_usa_not_yet_formed_tt:0 "The United States has not yet been reunified."
   pfp_merge_usa_effect_form:0 "§YUnited States§! is formed by the puppet with the most factories.\n"
   pfp_merge_usa_effect_annex:0 "§YUnited States§! annexes the puppets required for its unification.\n"
@@ -5014,7 +5014,7 @@
 
   # China
   pfp_merge_china:0 "Unite China"
-  pfp_merge_china_desc:0 "For more than two thousand years, the provinces of the Middle Kingdom answered to a single court, bound by the Mandate of Heaven and the Confucian order that outlasted every dynasty. Each carries the memory of a unified China — the fragmentation was a disaster, not a destiny. The most industrially developed territory will lead the reunion, annexing the others and restoring the Middle Kingdom."
+  pfp_merge_china_desc:0 "For more than two thousand years, the provinces of the Middle Kingdom answered to a single court, bound by the Mandate of Heaven and the Confucian order that outlasted every dynasty. Each carries the memory of a unified China — the fragmentation was a disaster, not a destiny."
   pfp_merge_china_not_yet_formed_tt:0 "China has not yet been unified."
   pfp_merge_china_effect_form:0 "§YChina§! is formed by the puppet with the most factories.\n"
   pfp_merge_china_effect_annex:0 "§YChina§! annexes the puppets required for its unification.\n"
@@ -5059,7 +5059,7 @@
 
   # East Africa
   pfp_merge_east_africa:0 "Unite East Africa"
-  pfp_merge_east_africa_desc:0 "Alone among African nations, Ethiopia turned back a European army at Adwa, its highland warriors defending the last uncolonized empire on the continent. Commanding the gateway between the Red Sea and the Indian Ocean, the lands of the Horn sit astride the ancient routes that once linked Africa to the whole of the ancient world. United, they can become the dominant power of this corner of the continent. The most industrially developed territory will lead the union, annexing the others."
+  pfp_merge_east_africa_desc:0 "Alone among African nations, Ethiopia turned back a European army at Adwa, its highland warriors defending the last uncolonized empire on the continent. Commanding the gateway between the Red Sea and the Indian Ocean, the lands of the Horn sit astride the ancient routes that once linked Africa to the whole of the ancient world. United, they can become the dominant power of this corner of the continent."
   pfp_merge_east_africa_not_yet_formed_tt:0 "East Africa has not yet been unified."
   pfp_merge_east_africa_effect_form:0 "§YEast Africa§! is formed by the puppet with the most factories.\n"
   pfp_merge_east_africa_effect_annex:0 "§YEast Africa§! annexes the puppets required for its unification.\n"
@@ -5094,7 +5094,7 @@
 
   # France
   pfp_merge_france:0 "Unite France"
-  pfp_merge_france_desc:0 "Liberté, égalité, fraternité — the ideals of the Republic do not belong to any single region; they belong to all of France. The industrial north, scarred by two great wars fought on its soil, and the sun-warmed south with roots stretching back to Roman Gaul, are two halves of one civilization. The tricolor flew over both; it will again. The most industrially developed territory will lead the reunion, annexing the other and restoring la France."
+  pfp_merge_france_desc:0 "Liberté, égalité, fraternité — the ideals of the Republic do not belong to any single region; they belong to all of France. The industrial north, scarred by two great wars fought on its soil, and the sun-warmed south with roots stretching back to Roman Gaul, are two halves of one civilization. The tricolor flew over both; it will again."
   pfp_merge_france_not_yet_formed_tt:0 "France has not yet been unified."
   pfp_merge_france_effect_form:0 "§YFrance§! is formed by the puppet with the most factories.\n"
   pfp_merge_france_effect_annex:0 "§YFrance§! annexes the puppets required for its unification.\n"
@@ -5108,7 +5108,7 @@
 
   # Germany
   pfp_merge_germany:0 "Unite Germany"
-  pfp_merge_germany_desc:0 "Bismarck forged the German nation from iron and blood — it took two catastrophic wars to shatter it again. Whether divided along the Rhine, the Elbe, or older Hohenzollern frontiers, the German lands share one language, one culture, and a millennium of intertwined history stretching back to the Holy Roman Empire. The most industrially developed territory will lead the reunion, annexing the others and restoring what the wars tore apart."
+  pfp_merge_germany_desc:0 "Bismarck forged the German nation from iron and blood — it took two catastrophic wars to shatter it again. Whether divided along the Rhine, the Elbe, or older Hohenzollern frontiers, the German lands share one language, one culture, and a millennium of intertwined history stretching back to the Holy Roman Empire."
   pfp_merge_germany_not_yet_formed_tt:0 "Germany has not yet been unified."
   pfp_merge_germany_effect_form:0 "§YGermany§! is formed by the puppet with the most factories.\n"
   pfp_merge_germany_effect_annex:0 "§YGermany§! annexes the puppets required for its unification.\n"
@@ -5122,7 +5122,7 @@
   pfp_merge_germany_requires_combo_tt:0 "A valid combination of German puppets is required: §YWest Germany§! + §YEast Germany§!, §YPrussia§! + §YWest Germany§!, §YNorth Germany§! + §YSouth Germany§!, or §YPrussia§! + §YSouth Germany§!.\n"
 
   pfp_merge_great_britain:0 "Unite Great Britain"
-  pfp_merge_great_britain_desc:0 "Three nations sharing a single island have been bound by a Crown since the Acts of Union, yet the bonds between them run deeper than any royal decree. From the coal valleys of the Welsh south to the shipyards of the Clyde and the factories of the Midlands, these peoples built an empire together. It is time to rebuild the union that empire was built upon. The most industrially developed territory will lead the restoration, annexing the others."
+  pfp_merge_great_britain_desc:0 "Three nations sharing a single island have been bound by a Crown since the Acts of Union, yet the bonds between them run deeper than any royal decree. From the coal valleys of the Welsh south to the shipyards of the Clyde and the factories of the Midlands, these peoples built an empire together. It is time to rebuild the union that empire was built upon."
   pfp_merge_great_britain_not_yet_formed_tt:0 "Great Britain has not yet been unified."
   pfp_merge_great_britain_effect_form:0 "§YGreat Britain§! is formed by the puppet with the most factories.\n"
   pfp_merge_great_britain_effect_annex:0 "§YGreat Britain§! annexes the puppets required for its unification.\n"
@@ -5136,14 +5136,14 @@
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YGreat Britain§! is renamed §YGreat Britain and Northern Ireland§!.\n"
 
   pfp_merge_iberia:0 "Unite Iberia"
-  pfp_merge_iberia_desc:0 "The kingdoms that launched the Age of Discovery from the same sun-baked peninsula divided the world between themselves at Tordesillas. Their centuries-old rivalry is real, but so is their kinship — the same Roman roads connect Lisbon to Madrid, the same Atlantic winds shaped both crowns. United as Iberia, they can project the prestige of the old Iberian world once more. The most industrially developed territory will lead the union, annexing the other."
+  pfp_merge_iberia_desc:0 "The kingdoms that launched the Age of Discovery from the same sun-baked peninsula divided the world between themselves at Tordesillas. Their centuries-old rivalry is real, but so is their kinship — the same Roman roads connect Lisbon to Madrid, the same Atlantic winds shaped both crowns. United as Iberia, they can project the prestige of the old Iberian world once more."
   pfp_merge_iberia_not_yet_formed_tt:0 "Iberia has not yet been unified."
   pfp_merge_iberia_effect_form:0 "§YIberia§! is formed by the puppet with the most factories.\n"
   pfp_merge_iberia_effect_annex:0 "§YIberia§! annexes the puppets required for its unification.\n"
   pfp_merge_iberia_effect_cores:0 "§YIberia§! gains the cores and claims of the annexed puppets.\n"
 
   pfp_merge_italy:0 "Unite Italy"
-  pfp_merge_italy_desc:0 "Since Dante wrote of one Italy and Machiavelli dreamed of a prince who could unite it, the peninsula has resisted unification. The scattered heirs to Roman civilization — each proud of their own past, yet each incomplete without the others — have waited long enough. The Risorgimento was only the first attempt; now it can be finished. The most industrially developed territory will lead the unification, annexing the others."
+  pfp_merge_italy_desc:0 "Since Dante wrote of one Italy and Machiavelli dreamed of a prince who could unite it, the peninsula has resisted unification. The scattered heirs to Roman civilization — each proud of their own past, yet each incomplete without the others — have waited long enough. The Risorgimento was only the first attempt; now it can be finished."
   pfp_merge_italy_not_yet_formed_tt:0 "Italy has not yet been unified."
   pfp_merge_italy_effect_form:0 "§YItaly§! is formed by the puppet with the most factories.\n"
   pfp_merge_italy_effect_annex:0 "§YItaly§! annexes the puppets required for its unification.\n"
@@ -5156,13 +5156,13 @@
   pfp_merge_italy_sardinia_effect_annex:0 "§YItaly§! annexes §YSardinia§!, gaining its cores and coreable territories.\n"
 
   pfp_merge_japan:0 "Unite Japan"
-  pfp_merge_japan_desc:0 "The sacred home islands have been one nation since the age of the ancient Emperors. Their division is an aberration, a wound inflicted upon a people defined by unity. The restoration of the home islands is not merely a political act — it is the fulfillment of the kokutai, the national essence itself. The most industrially developed territory will lead the reunion, annexing the others."
+  pfp_merge_japan_desc:0 "The sacred home islands have been one nation since the age of the ancient Emperors. Their division is an aberration, a wound inflicted upon a people defined by unity. The restoration of the home islands is not merely a political act — it is the fulfillment of the kokutai, the national essence itself."
   pfp_merge_japan_not_yet_formed_tt:0 "Japan has not yet been unified."
   pfp_merge_japan_effect_form:0 "§YJapan§! is formed by the puppet with the most factories.\n"
   pfp_merge_japan_effect_annex:0 "§YJapan§! annexes the puppets required for its unification.\n"
   pfp_merge_japan_effect_cores:0 "§YJapan§! gains the cores and claims of the annexed puppets.\n"
   pfp_merge_yugoslavia:0 "Unite Yugoslavia"
-  pfp_merge_yugoslavia_desc:0 "Carved from the ruins of the Ottoman and Habsburg empires, the South Slavic peoples — Južni Slaveni — were long dismissed as dreamers for believing these lands could be one. Now the dream stands within reach. Brotherhood and unity — bratstvo i jedinstvo — will be more than a slogan. The most industrially developed territory will lead the union, annexing the others."
+  pfp_merge_yugoslavia_desc:0 "Carved from the ruins of the Ottoman and Habsburg empires, the South Slavic peoples — Južni Slaveni — were long dismissed as dreamers for believing these lands could be one. Now the dream stands within reach. Brotherhood and unity — bratstvo i jedinstvo — will be more than a slogan."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "Yugoslavia has not yet been unified."
   pfp_merge_yugoslavia_effect_form:0 "§YYugoslavia§! is formed by the puppet with the most factories.\n"
   pfp_merge_yugoslavia_effect_annex:0 "§YYugoslavia§! annexes the puppets required for its unification.\n"
@@ -5178,9 +5178,9 @@
   pfp_merge_yugoslavia_macedonia_effect_annex:0 "§YYugoslavia§! annexes §YMacedonia§!, gaining its cores and coreable territories.\n"
 
   pfp_merge_western_russia:0 "Form Western Russia"
-  pfp_merge_western_russia_desc:0 "The great rivers of the western plain — the Volga, the Don, the Dnieper — have always been the arteries of Russian civilization, binding together lands that have answered to a single authority since the age of the Tsars. These territories were never truly separate nations; they were fragments of a broken whole. The most industrially developed territory will lead the restoration, forging them into a unified Western Russia."
+  pfp_merge_western_russia_desc:0 "The great rivers of the western plain — the Volga, the Don, the Dnieper — have always been the arteries of Russian civilization, binding together lands that have answered to a single authority since the age of the Tsars. These territories were never truly separate nations; they were fragments of a broken whole."
   pfp_merge_western_russia_not_yet_formed_tt:0 "Western Russia has not yet been formed."
-  pfp_merge_western_russia_effect_form:0 "The most powerful of §YCentral Russia§!, §YSouthern Russia§!, §YVolga§!, and §YNorthwestern Russia§! becomes §YWestern Russia§!.\n"
+  pfp_merge_western_russia_effect_form:0 "§YWestern Russia§! is formed by the puppet with the most factories.\n"
   pfp_merge_western_russia_effect_annex:0 "§YWestern Russia§! annexes the puppets required for its unification.\n"
   pfp_merge_western_russia_effect_cores:0 "§YWestern Russia§! gains the cores and claims of the annexed puppets.\n"
   pfp_merge_western_russia_is_formed_tt:0 "Western Russia has been formed."
@@ -5202,9 +5202,9 @@
   pfp_merge_western_russia_murmansk_effect_annex:0 "§YWestern Russia§! annexes §YMurmansk§!, gaining its cores and coreable territories.\n"
 
   pfp_merge_eastern_russia:0 "Form Eastern Russia"
-  pfp_merge_eastern_russia_desc:0 "Beyond the Ural Mountains lies the world's largest contiguous landmass, stretching from the mountain spine of Asia all the way to Vladivostok on the Pacific shore. The Trans-Siberian Railway was built to make this vastness governable; now it will bind these territories together under one authority. The most industrially developed territory will lead the union, annexing the others."
+  pfp_merge_eastern_russia_desc:0 "Beyond the Ural Mountains lies the world's largest contiguous landmass, stretching from the mountain spine of Asia all the way to Vladivostok on the Pacific shore. The Trans-Siberian Railway was built to make this vastness governable; now it will bind these territories together under one authority."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "Eastern Russia has not yet been formed."
-  pfp_merge_eastern_russia_effect_form:0 "The most powerful of §YUrals§!, §YSiberia§!, and §YFar Eastern Russia§! becomes §YEastern Russia§!.\n"
+  pfp_merge_eastern_russia_effect_form:0 "§YEastern Russia§! is formed by the puppet with the most factories.\n"
   pfp_merge_eastern_russia_effect_annex:0 "§YEastern Russia§! annexes the puppets required for its unification.\n"
   pfp_merge_eastern_russia_effect_cores:0 "§YEastern Russia§! gains the cores and claims of the annexed puppets.\n"
   pfp_merge_eastern_russia_is_formed_tt:0 "Eastern Russia has been formed."
@@ -5212,6 +5212,6 @@
   pfp_merge_russia:0 "Unite Russia"
   pfp_merge_russia_desc:0 "Two halves of one colossus, artificially divided by the same catastrophe that shattered the state. From the Baltic coast to the Pacific, from the Arctic tundra to the Caucasus foothills — the Russian lands belong together. The Bear has endured. Russia is whole again."
   pfp_merge_russia_not_yet_formed_tt:0 "Russia has not yet been formed."
-  pfp_merge_russia_effect_form:0 "The most powerful of §YWestern Russia§! and §YEastern Russia§! becomes §YRussia§!.\n"
+  pfp_merge_russia_effect_form:0 "§YRussia§! is formed by the puppet with the most factories.\n"
   pfp_merge_russia_effect_annex:0 "§YRussia§! annexes the puppets required for its unification.\n"
   pfp_merge_russia_effect_cores:0 "§YRussia§! gains the cores and claims of the annexed puppets.\n"

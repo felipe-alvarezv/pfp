@@ -4974,7 +4974,7 @@
 
   ## PFP MERGER DECISIONS ##
   pfp_merge_canada:0 "Unifier le Canada"
-  pfp_merge_canada_desc:0 "Un seul dominion s'étendait autrefois sur la moitié nord du continent, des rivages de l'Atlantique aux prairies de l'ouest, uni par le chemin de fer transcontinental et un héritage colonial commun. La distance entre Halifax et Vancouver est vaste, mais les liens du droit, de la langue et de l'histoire sont plus profonds que toute division temporaire. Le territoire le plus industrialisé mènera l'union, annexant l'autre et restaurant un Canada uni."
+  pfp_merge_canada_desc:0 "Un seul dominion s'étendait autrefois sur la moitié nord du continent, des rivages de l'Atlantique aux prairies de l'ouest, uni par le chemin de fer transcontinental et un héritage colonial commun. La distance entre Halifax et Vancouver est vaste, mais les liens du droit, de la langue et de l'histoire sont plus profonds que toute division temporaire."
 
   pfp_merge_canada_quebec:0 "Absorber le Québec dans le Canada"
   pfp_merge_canada_quebec_desc:0 "Le cœur francophone sur les rives du Saint-Laurent défend sa langue et sa culture distincte depuis trois siècles — assez longtemps pour mériter le nom de belle province. Le Canada étant unifié, le moment est venu de l'intégrer dans la nation ; ses rivières, ses villes et ses habitants appartiennent au pays qui les entoure."
@@ -4992,7 +4992,7 @@
 
   # United States
   pfp_merge_usa:0 "Unifier les États-Unis"
-  pfp_merge_usa_desc:0 "Des usines et des ports du nord-est aux champs et aux villes du sud, en passant par le grand cœur industriel du midwest, ces trois régions furent les piliers de la nation la plus puissante que le monde ait jamais connue. L'Union a été préservée une fois au prix énorme ; elle peut être rebâtie. Le territoire le plus industrialisé mènera la réunification, annexant les autres et restaurant les États-Unis."
+  pfp_merge_usa_desc:0 "Des usines et des ports du nord-est aux champs et aux villes du sud, en passant par le grand cœur industriel du midwest, ces trois régions furent les piliers de la nation la plus puissante que le monde ait jamais connue. L'Union a été préservée une fois au prix énorme ; elle peut être rebâtie."
   pfp_merge_usa_not_yet_formed_tt:0 "Les États-Unis n'ont pas encore été réunifiés."
   pfp_merge_usa_effect_form:0 "§YÉtats-Unis§! sont formés par la marionnette ayant le plus d'usines.\n"
   pfp_merge_usa_effect_annex:0 "§YÉtats-Unis§! annexent les marionnettes requises pour leur unification.\n"
@@ -5012,7 +5012,7 @@
 
   # China
   pfp_merge_china:0 "Unifier la Chine"
-  pfp_merge_china_desc:0 "Pendant plus de deux mille ans, les provinces du Royaume du Milieu répondaient à une seule cour, liées par le Mandat du Ciel et l'ordre confucéen qui a survécu à chaque dynastie. Chacune porte la mémoire d'une Chine unifiée — la fragmentation fut une catastrophe, non une destinée. Le territoire le plus industrialisé mènera la réunification, annexant les autres et restaurant le Royaume du Milieu."
+  pfp_merge_china_desc:0 "Pendant plus de deux mille ans, les provinces du Royaume du Milieu répondaient à une seule cour, liées par le Mandat du Ciel et l'ordre confucéen qui a survécu à chaque dynastie. Chacune porte la mémoire d'une Chine unifiée — la fragmentation fut une catastrophe, non une destinée."
   pfp_merge_china_not_yet_formed_tt:0 "La Chine n'a pas encore été unifiée."
   pfp_merge_china_effect_form:0 "§YLa Chine§! est formée par la marionnette ayant le plus d'usines.\n"
   pfp_merge_china_effect_annex:0 "§YLa Chine§! annexe les marionnettes requises pour son unification.\n"
@@ -5057,7 +5057,7 @@
 
   # East Africa
   pfp_merge_east_africa:0 "Unifier l'Afrique de l'Est"
-  pfp_merge_east_africa_desc:0 "Seule parmi les nations africaines, l'Éthiopie a repoussé une armée européenne à Adwa, ses guerriers des hautes terres défendant le dernier empire non colonisé du continent. Commandant la porte entre la mer Rouge et l'océan Indien, les terres de la Corne se trouvent sur les anciennes routes qui reliaient autrefois l'Afrique au monde entier. Unies, elles peuvent devenir la puissance dominante de cette partie du continent. Le territoire le plus industrialisé mènera l'union, annexant les autres."
+  pfp_merge_east_africa_desc:0 "Seule parmi les nations africaines, l'Éthiopie a repoussé une armée européenne à Adwa, ses guerriers des hautes terres défendant le dernier empire non colonisé du continent. Commandant la porte entre la mer Rouge et l'océan Indien, les terres de la Corne se trouvent sur les anciennes routes qui reliaient autrefois l'Afrique au monde entier. Unies, elles peuvent devenir la puissance dominante de cette partie du continent."
   pfp_merge_east_africa_not_yet_formed_tt:0 "L'Afrique de l'Est n'a pas encore été unifiée."
   pfp_merge_east_africa_effect_form:0 "§YL'Afrique de l'Est§! est formée par la marionnette ayant le plus d'usines.\n"
   pfp_merge_east_africa_effect_annex:0 "§YL'Afrique de l'Est§! annexe les marionnettes requises pour son unification.\n"
@@ -5092,7 +5092,7 @@
 
   # France
   pfp_merge_france:0 "Unifier la France"
-  pfp_merge_france_desc:0 "Liberté, égalité, fraternité — les idéaux de la République n'appartiennent à aucune région en particulier ; ils appartiennent à toute la France. Le nord industriel, marqué par deux grandes guerres livrées sur son sol, et le sud ensoleillé aux racines plongeant dans la Gaule romaine, sont deux moitiés d'une même civilisation. Le tricolore a flotté sur les deux ; il flottera de nouveau. Le territoire le plus industrialisé mènera la réunification, annexant l'autre et restaurant la France."
+  pfp_merge_france_desc:0 "Liberté, égalité, fraternité — les idéaux de la République n'appartiennent à aucune région en particulier ; ils appartiennent à toute la France. Le nord industriel, marqué par deux grandes guerres livrées sur son sol, et le sud ensoleillé aux racines plongeant dans la Gaule romaine, sont deux moitiés d'une même civilisation. Le tricolore a flotté sur les deux ; il flottera de nouveau."
   pfp_merge_france_not_yet_formed_tt:0 "La France n'a pas encore été unifiée."
   pfp_merge_france_effect_form:0 "§YLa France§! est formée par la marionnette ayant le plus d'usines.\n"
   pfp_merge_france_effect_annex:0 "§YLa France§! annexe les marionnettes requises pour son unification.\n"
@@ -5106,7 +5106,7 @@
 
   # Germany
   pfp_merge_germany:0 "Unifier l'Allemagne"
-  pfp_merge_germany_desc:0 "Bismarck a forgé la nation allemande par le fer et le sang — il a fallu deux guerres catastrophiques pour la briser à nouveau. Qu'elle soit divisée le long du Rhin, de l'Elbe ou d'anciennes frontières hohenzollern, les terres allemandes partagent une langue, une culture et un millénaire d'histoire commune remontant au Saint-Empire romain germanique. Le territoire le plus industrialisé mènera la réunification, annexant les autres et restaurant ce que les guerres ont déchiré."
+  pfp_merge_germany_desc:0 "Bismarck a forgé la nation allemande par le fer et le sang — il a fallu deux guerres catastrophiques pour la briser à nouveau. Qu'elle soit divisée le long du Rhin, de l'Elbe ou d'anciennes frontières hohenzollern, les terres allemandes partagent une langue, une culture et un millénaire d'histoire commune remontant au Saint-Empire romain germanique."
   pfp_merge_germany_not_yet_formed_tt:0 "L'Allemagne n'a pas encore été unifiée."
   pfp_merge_germany_effect_form:0 "§YL'Allemagne§! est formée par la marionnette ayant le plus d'usines.\n"
   pfp_merge_germany_effect_annex:0 "§YL'Allemagne§! annexe les marionnettes requises pour son unification.\n"
@@ -5120,7 +5120,7 @@
   pfp_merge_germany_requires_combo_tt:0 "Une combinaison valide de marionnettes allemandes est requise : §YAlemagne de l'Ouest§! + §YAlemagne de l'Est§!, §YPrusse§! + §YAlemagne de l'Ouest§!, §YAllemagne du Nord§! + §YAllemagne du Sud§!, ou §YPrusse§! + §YAllemagne du Sud§!.\n"
 
   pfp_merge_great_britain:0 "Unifier la Grande-Bretagne"
-  pfp_merge_great_britain_desc:0 "Trois nations partageant une seule île sont liées par une Couronne depuis les Actes d'Union, mais les liens entre elles vont plus loin que tout décret royal. Des vallées charbonnières du sud du Pays de Galles aux chantiers navals de la Clyde et aux usines des Midlands, ces peuples ont bâti un empire ensemble. Il est temps de rebâtir l'union sur laquelle cet empire était fondé. Le territoire le plus industrialisé mènera la restauration, annexant les autres."
+  pfp_merge_great_britain_desc:0 "Trois nations partageant une seule île sont liées par une Couronne depuis les Actes d'Union, mais les liens entre elles vont plus loin que tout décret royal. Des vallées charbonnières du sud du Pays de Galles aux chantiers navals de la Clyde et aux usines des Midlands, ces peuples ont bâti un empire ensemble. Il est temps de rebâtir l'union sur laquelle cet empire était fondé."
   pfp_merge_great_britain_not_yet_formed_tt:0 "La Grande-Bretagne n'a pas encore été unifiée."
   pfp_merge_great_britain_effect_form:0 "§YLa Grande-Bretagne§! est formée par la marionnette ayant le plus d'usines.\n"
   pfp_merge_great_britain_effect_annex:0 "§YLa Grande-Bretagne§! annexe les marionnettes requises pour son unification.\n"
@@ -5134,14 +5134,14 @@
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YLa Grande-Bretagne§! est renommée §YGrande-Bretagne et Irlande du Nord§!.\n"
 
   pfp_merge_iberia:0 "Unifier l'Ibérie"
-  pfp_merge_iberia_desc:0 "Les royaumes qui lancèrent l'ère des découvertes depuis la même péninsule ensoleillée se partagèrent le monde à Tordesillas. Leur rivalité séculaire est réelle, mais leur parenté l'est aussi — les mêmes voies romaines relient Lisbonne à Madrid, les mêmes vents atlantiques ont façonné les deux couronnes. Unies en Ibérie, elles peuvent rayonner de nouveau le prestige de l'ancien monde ibérique. Le territoire le plus industrialisé mènera l'union, annexant l'autre."
+  pfp_merge_iberia_desc:0 "Les royaumes qui lancèrent l'ère des découvertes depuis la même péninsule ensoleillée se partagèrent le monde à Tordesillas. Leur rivalité séculaire est réelle, mais leur parenté l'est aussi — les mêmes voies romaines relient Lisbonne à Madrid, les mêmes vents atlantiques ont façonné les deux couronnes. Unies en Ibérie, elles peuvent rayonner de nouveau le prestige de l'ancien monde ibérique."
   pfp_merge_iberia_not_yet_formed_tt:0 "L'Ibérie n'a pas encore été unifiée."
   pfp_merge_iberia_effect_form:0 "§YL'Ibérie§! est formée par la marionnette ayant le plus d'usines.\n"
   pfp_merge_iberia_effect_annex:0 "§YL'Ibérie§! annexe les marionnettes requises pour son unification.\n"
   pfp_merge_iberia_effect_cores:0 "§YL'Ibérie§! acquiert les noyaux et revendications des marionnettes annexées.\n"
 
   pfp_merge_italy:0 "Unifier l'Italie"
-  pfp_merge_italy_desc:0 "Depuis que Dante écrivit sur une Italie unie et que Machiavel rêva d'un prince qui pourrait l'unifier, la péninsule résiste à l'unification. Les héritiers épars de la civilisation romaine — chacun fier de son propre passé, mais chacun incomplet sans les autres — ont attendu assez longtemps. Le Risorgimento n'était que la première tentative ; il peut maintenant être achevé. Le territoire le plus industrialisé mènera l'unification, annexant les autres."
+  pfp_merge_italy_desc:0 "Depuis que Dante écrivit sur une Italie unie et que Machiavel rêva d'un prince qui pourrait l'unifier, la péninsule résiste à l'unification. Les héritiers épars de la civilisation romaine — chacun fier de son propre passé, mais chacun incomplet sans les autres — ont attendu assez longtemps. Le Risorgimento n'était que la première tentative ; il peut maintenant être achevé."
   pfp_merge_italy_not_yet_formed_tt:0 "L'Italie n'a pas encore été unifiée."
   pfp_merge_italy_effect_form:0 "§YL'Italie§! est formée par la marionnette ayant le plus d'usines.\n"
   pfp_merge_italy_effect_annex:0 "§YL'Italie§! annexe les marionnettes requises pour son unification.\n"
@@ -5154,13 +5154,13 @@
   pfp_merge_italy_sardinia_effect_annex:0 "§YL'Italie§! annexe §YLa Sardaigne§!, gagnant ses noyaux et territoires annexables.\n"
 
   pfp_merge_japan:0 "Unifier le Japon"
-  pfp_merge_japan_desc:0 "Les îles natales sacrées forment une seule nation depuis l'ère des anciens empereurs. Leur division est une aberration, une blessure infligée à un peuple défini par l'unité. La restauration des îles natales n'est pas seulement un acte politique — c'est l'accomplissement du kokutai, l'essence nationale elle-même. Le territoire le plus industrialisé mènera la réunification, annexant les autres."
+  pfp_merge_japan_desc:0 "Les îles natales sacrées forment une seule nation depuis l'ère des anciens empereurs. Leur division est une aberration, une blessure infligée à un peuple défini par l'unité. La restauration des îles natales n'est pas seulement un acte politique — c'est l'accomplissement du kokutai, l'essence nationale elle-même."
   pfp_merge_japan_not_yet_formed_tt:0 "Le Japon n'a pas encore été unifié."
   pfp_merge_japan_effect_form:0 "§YLe Japon§! est formé par la marionnette ayant le plus d'usines.\n"
   pfp_merge_japan_effect_annex:0 "§YLe Japon§! annexe les marionnettes requises pour son unification.\n"
   pfp_merge_japan_effect_cores:0 "§YLe Japon§! acquiert les noyaux et revendications des marionnettes annexées.\n"
   pfp_merge_yugoslavia:0 "Unifier la Yougoslavie"
-  pfp_merge_yugoslavia_desc:0 "Taillés dans les ruines des empires ottoman et habsbourgeois, les peuples slaves du sud — Južni Slaveni — furent longtemps pris pour des rêveurs en croyant que ces terres pouvaient n'en former qu'une. Le rêve est désormais à portée de main. Fraternité et unité — bratstvo i jedinstvo — seront plus qu'un slogan. Le territoire le plus industrialisé mènera l'union, annexant les autres."
+  pfp_merge_yugoslavia_desc:0 "Taillés dans les ruines des empires ottoman et habsbourgeois, les peuples slaves du sud — Južni Slaveni — furent longtemps pris pour des rêveurs en croyant que ces terres pouvaient n'en former qu'une. Le rêve est désormais à portée de main. Fraternité et unité — bratstvo i jedinstvo — seront plus qu'un slogan."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "La Yougoslavie n'a pas encore été unifiée."
   pfp_merge_yugoslavia_effect_form:0 "§YLa Yougoslavie§! est formée par la marionnette ayant le plus d'usines.\n"
   pfp_merge_yugoslavia_effect_annex:0 "§YLa Yougoslavie§! annexe les marionnettes requises pour son unification.\n"
@@ -5176,7 +5176,7 @@
   pfp_merge_yugoslavia_macedonia_effect_annex:0 "§YLa Yougoslavie§! annexe §YLa Macédoine§!, gagnant ses noyaux et territoires annexables.\n"
 
   pfp_merge_western_russia:0 "Former la Russie Occidentale"
-  pfp_merge_western_russia_desc:0 "Les grands fleuves de la plaine occidentale — la Volga, le Don, le Dniepr — ont toujours été les artères de la civilisation russe, reliant des terres qui ont répondu à une seule autorité depuis l'époque des Tsars. Ces territoires n'ont jamais été de vraies nations séparées ; ils étaient des fragments d'un ensemble brisé. Le territoire le plus industrialisé mènera la restauration, les forgeant en une Russie occidentale unifiée."
+  pfp_merge_western_russia_desc:0 "Les grands fleuves de la plaine occidentale — la Volga, le Don, le Dniepr — ont toujours été les artères de la civilisation russe, reliant des terres qui ont répondu à une seule autorité depuis l'époque des Tsars. Ces territoires n'ont jamais été de vraies nations séparées ; ils étaient des fragments d'un ensemble brisé."
   pfp_merge_western_russia_not_yet_formed_tt:0 "La Russie Occidentale n'a pas encore été formée."
   pfp_merge_western_russia_effect_form:0 "La plus puissante de §YRussie Centrale§!, §YRussie Méridionale§!, §YVolga§! et §YRussie du Nord-Ouest§! devient §YRussie Occidentale§!.\n"
   pfp_merge_western_russia_effect_annex:0 "§YLa Russie Occidentale§! annexe les marionnettes requises pour son unification.\n"
@@ -5200,7 +5200,7 @@
   pfp_merge_western_russia_murmansk_effect_annex:0 "§YLa Russie Occidentale§! annexe §YMourmansk§!, gagnant ses noyaux et territoires annexables.\n"
 
   pfp_merge_eastern_russia:0 "Former la Russie Orientale"
-  pfp_merge_eastern_russia_desc:0 "Au-delà des monts Oural s'étend la plus grande masse continentale du monde, depuis l'épine dorsale montagneuse de l'Asie jusqu'à Vladivostok sur la côte pacifique. Le Transsibérien fut construit pour rendre cette immensité gouvernable ; il reliera désormais ces territoires sous une seule autorité. Le territoire le plus industrialisé mènera l'union, annexant les autres."
+  pfp_merge_eastern_russia_desc:0 "Au-delà des monts Oural s'étend la plus grande masse continentale du monde, depuis l'épine dorsale montagneuse de l'Asie jusqu'à Vladivostok sur la côte pacifique. Le Transsibérien fut construit pour rendre cette immensité gouvernable ; il reliera désormais ces territoires sous une seule autorité."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "La Russie Orientale n'a pas encore été formée."
   pfp_merge_eastern_russia_effect_form:0 "La plus puissante de §YOural§!, §YSibérie§! et §YExtrême-Orient russe§! devient §YRussie Orientale§!.\n"
   pfp_merge_eastern_russia_effect_annex:0 "§YLa Russie Orientale§! annexe les marionnettes requises pour son unification.\n"

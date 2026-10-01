@@ -4974,7 +4974,7 @@
 
   ## PFP MERGER DECISIONS ##
   pfp_merge_canada:0 "统一加拿大"
-  pfp_merge_canada_desc:0 "一个统一的自治领曾经横跨北美大陆北半部，从大西洋海岸延伸至西部草原，以横贯大陆的铁路和共同的殖民遗产为纽带。哈利法克斯与温哥华之间的距离虽然遥远，但法律、语言和历史的纽带比任何临时分裂都更为深厚。工业最发达的地区将领导联盟，吞并另一方，恢复统一的加拿大。"
+  pfp_merge_canada_desc:0 "一个统一的自治领曾经横跨北美大陆北半部，从大西洋海岸延伸至西部草原，以横贯大陆的铁路和共同的殖民遗产为纽带。哈利法克斯与温哥华之间的距离虽然遥远，但法律、语言和历史的纽带比任何临时分裂都更为深厚。"
 
   pfp_merge_canada_quebec:0 "将魁北克并入加拿大"
   pfp_merge_canada_quebec_desc:0 "圣劳伦斯河畔的法语中心地带守护着自己的语言和独特文化已有三个世纪，足以赢得「美丽省份」之名。加拿大统一后，是时候将其纳入国家了——它的河流、城市和人民都属于围绕着它的这个国家。"
@@ -4992,7 +4992,7 @@
 
   # United States
   pfp_merge_usa:0 "统一美国"
-  pfp_merge_usa_desc:0 "从东北部的工厂和港口，到南部的田野和城市，再到中西部的伟大工业心脏——这三个地区曾是世界上最强大国家的支柱。联邦曾以巨大代价保存下来；它可以再次重建。工业最发达的地区将领导重新统一，吞并其他地区，恢复美利坚合众国。"
+  pfp_merge_usa_desc:0 "从东北部的工厂和港口，到南部的田野和城市，再到中西部的伟大工业心脏——这三个地区曾是世界上最强大国家的支柱。联邦曾以巨大代价保存下来；它可以再次重建。"
   pfp_merge_usa_not_yet_formed_tt:0 "美利坚合众国尚未实现统一。"
   pfp_merge_usa_effect_form:0 "§Y美利坚合众国§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_usa_effect_annex:0 "§Y美利坚合众国§!吞并其统一所需的傀儡政权。\n"
@@ -5012,7 +5012,7 @@
 
   # China
   pfp_merge_china:0 "统一中国"
-  pfp_merge_china_desc:0 "两千余年间，中原各省听命于同一朝廷，以天命与历代王朝的儒家秩序为纽带。每一省都承载着统一中国的记忆——分裂是一场灾难，而非命运。工业最发达的地区将领导重新统一，吞并其他地区，恢复中原。"
+  pfp_merge_china_desc:0 "两千余年间，中原各省听命于同一朝廷，以天命与历代王朝的儒家秩序为纽带。每一省都承载着统一中国的记忆——分裂是一场灾难，而非命运。"
   pfp_merge_china_not_yet_formed_tt:0 "中国尚未统一。"
   pfp_merge_china_effect_form:0 "§Y中国§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_china_effect_annex:0 "§Y中国§!吞并其统一所需的傀儡政权。\n"
@@ -5057,7 +5057,7 @@
 
   # East Africa
   pfp_merge_east_africa:0 "统一东非"
-  pfp_merge_east_africa_desc:0 "在非洲各国中，唯有埃塞俄比亚在阿杜瓦击退了欧洲军队——其高地战士守护着大陆上最后一个未被殖民的帝国。非洲之角的土地扼守红海与印度洋之间的咽喉，位于曾将非洲与古代世界相连的商路之上。联合起来，它们可以成为这片大陆的主导力量。工业最发达的地区将领导联盟，吞并其他地区。"
+  pfp_merge_east_africa_desc:0 "在非洲各国中，唯有埃塞俄比亚在阿杜瓦击退了欧洲军队——其高地战士守护着大陆上最后一个未被殖民的帝国。非洲之角的土地扼守红海与印度洋之间的咽喉，位于曾将非洲与古代世界相连的商路之上。联合起来，它们可以成为这片大陆的主导力量。"
   pfp_merge_east_africa_not_yet_formed_tt:0 "东非尚未统一。"
   pfp_merge_east_africa_effect_form:0 "§Y东非§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_east_africa_effect_annex:0 "§Y东非§!吞并其统一所需的傀儡政权。\n"
@@ -5092,7 +5092,7 @@
 
   # France
   pfp_merge_france:0 "统一法国"
-  pfp_merge_france_desc:0 "自由、平等、博爱——共和国的理想不属于任何单一地区；它们属于整个法国。饱经两次大战洗礼的工业北部，与扎根于罗马高卢的温暖南部，是同一文明的两个半体。三色旗曾在两者上空飘扬；它将再次飘扬。工业最发达的地区将领导重新统一，吞并另一方，恢复法兰西。"
+  pfp_merge_france_desc:0 "自由、平等、博爱——共和国的理想不属于任何单一地区；它们属于整个法国。饱经两次大战洗礼的工业北部，与扎根于罗马高卢的温暖南部，是同一文明的两个半体。三色旗曾在两者上空飘扬；它将再次飘扬。"
   pfp_merge_france_not_yet_formed_tt:0 "法国尚未统一。"
   pfp_merge_france_effect_form:0 "§Y法国§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_france_effect_annex:0 "§Y法国§!吞并其统一所需的傀儡政权。\n"
@@ -5106,7 +5106,7 @@
 
   # Germany
   pfp_merge_germany:0 "统一德国"
-  pfp_merge_germany_desc:0 "俾斯麦以铁和血锻造了德意志民族——要再次将其打碎则需要两场灾难性的战争。无论沿莱茵河、易北河还是旧霍亨索伦边界分裂，德意志土地共享同一语言、同一文化，以及可追溯至神圣罗马帝国的千年交织历史。工业最发达的地区将领导重新统一，吞并其他地区，恢复战争所摧毁的一切。"
+  pfp_merge_germany_desc:0 "俾斯麦以铁和血锻造了德意志民族——要再次将其打碎则需要两场灾难性的战争。无论沿莱茵河、易北河还是旧霍亨索伦边界分裂，德意志土地共享同一语言、同一文化，以及可追溯至神圣罗马帝国的千年交织历史。"
   pfp_merge_germany_not_yet_formed_tt:0 "德国尚未统一。"
   pfp_merge_germany_effect_form:0 "§Y德国§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_germany_effect_annex:0 "§Y德国§!吞并其统一所需的傀儡政权。\n"
@@ -5120,7 +5120,7 @@
   pfp_merge_germany_requires_combo_tt:0 "需要一个有效的德国傀儡组合：§Y西德§! + §Y东德§!、§Y普鲁士§! + §Y西德§!、§Y北德意志§! + §Y南德意志§!，或§Y普鲁士§! + §Y南德意志§!。\n"
 
   pfp_merge_great_britain:0 "统一大不列颠"
-  pfp_merge_great_britain_desc:0 "共享一座岛屿的三个民族自《合并法令》起便由一顶王冠联结，然而它们之间的纽带比任何王室敕令都更为深厚。从威尔士南部的煤矿山谷，到克莱德河的造船厂，再到中部地区的工厂——这些民族共同建造了一个帝国。是时候重建这个帝国赖以建立的联合了。工业最发达的地区将领导恢复，吞并其他地区。"
+  pfp_merge_great_britain_desc:0 "共享一座岛屿的三个民族自《合并法令》起便由一顶王冠联结，然而它们之间的纽带比任何王室敕令都更为深厚。从威尔士南部的煤矿山谷，到克莱德河的造船厂，再到中部地区的工厂——这些民族共同建造了一个帝国。是时候重建这个帝国赖以建立的联合了。"
   pfp_merge_great_britain_not_yet_formed_tt:0 "大不列颠尚未统一。"
   pfp_merge_great_britain_effect_form:0 "§Y大不列颠§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_great_britain_effect_annex:0 "§Y大不列颠§!吞并其统一所需的傀儡政权。\n"
@@ -5134,14 +5134,14 @@
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§Y大不列颠§!更名为§Y大不列颠及北爱尔兰§!。\n"
 
   pfp_merge_iberia:0 "统一伊比利亚"
-  pfp_merge_iberia_desc:0 "从同一片烈日炙烤的半岛出发开启大航海时代的王国们，在托尔德西利亚斯条约中瓜分了世界。它们的数百年竞争是真实的，但它们的血脉渊源同样真实——同样的罗马大道连接里斯本与马德里，同样的大西洋风塑造了两顶王冠。作为伊比利亚统一起来，它们可以再次彰显旧伊比利亚世界的荣光。工业最发达的地区将领导联盟，吞并另一方。"
+  pfp_merge_iberia_desc:0 "从同一片烈日炙烤的半岛出发开启大航海时代的王国们，在托尔德西利亚斯条约中瓜分了世界。它们的数百年竞争是真实的，但它们的血脉渊源同样真实——同样的罗马大道连接里斯本与马德里，同样的大西洋风塑造了两顶王冠。作为伊比利亚统一起来，它们可以再次彰显旧伊比利亚世界的荣光。"
   pfp_merge_iberia_not_yet_formed_tt:0 "伊比利亚尚未统一。"
   pfp_merge_iberia_effect_form:0 "§Y伊比利亚§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_iberia_effect_annex:0 "§Y伊比利亚§!吞并其统一所需的傀儡政权。\n"
   pfp_merge_iberia_effect_cores:0 "§Y伊比利亚§!获得被吞并傀儡政权的核心领土和主张。\n"
 
   pfp_merge_italy:0 "统一意大利"
-  pfp_merge_italy_desc:0 "自但丁写下对统一意大利的憧憬、马基雅维利梦想能够统一它的君主以来，这片半岛便一直抵制统一。罗马文明的分散继承者们——各自为自己的过去而骄傲，却各自缺少彼此而不完整——已经等待足够久了。复兴运动只是第一次尝试；现在可以将其完成。工业最发达的地区将领导统一，吞并其他地区。"
+  pfp_merge_italy_desc:0 "自但丁写下对统一意大利的憧憬、马基雅维利梦想能够统一它的君主以来，这片半岛便一直抵制统一。罗马文明的分散继承者们——各自为自己的过去而骄傲，却各自缺少彼此而不完整——已经等待足够久了。复兴运动只是第一次尝试；现在可以将其完成。"
   pfp_merge_italy_not_yet_formed_tt:0 "意大利尚未统一。"
   pfp_merge_italy_effect_form:0 "§Y意大利§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_italy_effect_annex:0 "§Y意大利§!吞并其统一所需的傀儡政权。\n"
@@ -5154,13 +5154,13 @@
   pfp_merge_italy_sardinia_effect_annex:0 "§Y意大利§!兼并§Y撒丁岛§!，获得其核心及可核心化领土。\n"
 
   pfp_merge_japan:0 "统一日本"
-  pfp_merge_japan_desc:0 "神圣的本土岛屿自古代天皇时代起便是一个统一的国家。它们的分裂是一种反常，是对一个以统一为本质的民族的伤害。收复本土岛屿不仅仅是一个政治举动——它是国体，即国家本质本身的实现。工业最发达的地区将领导重新统一，吞并其他地区。"
+  pfp_merge_japan_desc:0 "神圣的本土岛屿自古代天皇时代起便是一个统一的国家。它们的分裂是一种反常，是对一个以统一为本质的民族的伤害。收复本土岛屿不仅仅是一个政治举动——它是国体，即国家本质本身的实现。"
   pfp_merge_japan_not_yet_formed_tt:0 "日本尚未统一。"
   pfp_merge_japan_effect_form:0 "§Y日本§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_japan_effect_annex:0 "§Y日本§!吞并其统一所需的傀儡政权。\n"
   pfp_merge_japan_effect_cores:0 "§Y日本§!获得被吞并傀儡政权的核心领土和主张。\n"
   pfp_merge_yugoslavia:0 "统一南斯拉夫"
-  pfp_merge_yugoslavia_desc:0 "从奥斯曼帝国和哈布斯堡帝国的废墟中雕刻而出，南斯拉夫各族人民——Južni Slaveni——因相信这片土地可以成为一体而长期被视为梦想家。如今梦想触手可及。兄弟情谊与统一——bratstvo i jedinstvo——将不仅仅是一句口号。工业最发达的地区将领导联盟，吞并其他地区。"
+  pfp_merge_yugoslavia_desc:0 "从奥斯曼帝国和哈布斯堡帝国的废墟中雕刻而出，南斯拉夫各族人民——Južni Slaveni——因相信这片土地可以成为一体而长期被视为梦想家。如今梦想触手可及。兄弟情谊与统一——bratstvo i jedinstvo——将不仅仅是一句口号。"
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "南斯拉夫尚未统一。"
   pfp_merge_yugoslavia_effect_form:0 "§Y南斯拉夫§!由拥有最多工厂的傀儡政权建立。\n"
   pfp_merge_yugoslavia_effect_annex:0 "§Y南斯拉夫§!吞并其统一所需的傀儡政权。\n"
@@ -5176,7 +5176,7 @@
   pfp_merge_yugoslavia_macedonia_effect_annex:0 "§Y南斯拉夫§!兼并§Y马其顿§!，获得其核心及可核心化领土。\n"
 
   pfp_merge_western_russia:0 "组建西俄罗斯"
-  pfp_merge_western_russia_desc:0 "西部平原的大河——伏尔加河、顿河、第聂伯河——始终是俄罗斯文明的动脉，将自沙皇时代起便听命于同一权威的土地连为一体。这些领土从未真正是独立的国家；它们是破碎整体的碎片。工业最发达的地区将领导恢复，将它们锻造成统一的西俄罗斯。"
+  pfp_merge_western_russia_desc:0 "西部平原的大河——伏尔加河、顿河、第聂伯河——始终是俄罗斯文明的动脉，将自沙皇时代起便听命于同一权威的土地连为一体。这些领土从未真正是独立的国家；它们是破碎整体的碎片。"
   pfp_merge_western_russia_not_yet_formed_tt:0 "西俄罗斯尚未组建。"
   pfp_merge_western_russia_effect_form:0 "§Y中部俄罗斯§!、§Y南部俄罗斯§!、§Y伏尔加§!和§Y西北俄罗斯§!中最强大的国家成为§Y西俄罗斯§!。\n"
   pfp_merge_western_russia_effect_annex:0 "§Y西俄罗斯§!吞并其统一所需的傀儡政权。\n"
@@ -5200,7 +5200,7 @@
   pfp_merge_western_russia_murmansk_effect_annex:0 "§Y西俄罗斯§!兼并§Y摩尔曼斯克§!，获得其核心及可核心化领土。\n"
 
   pfp_merge_eastern_russia:0 "组建东俄罗斯"
-  pfp_merge_eastern_russia_desc:0 "乌拉尔山脉以东是世界上最大的连片陆地——从亚洲的山脊一直延伸至太平洋岸边的符拉迪沃斯托克。西伯利亚大铁路的建造是为了使这片广袤之地可以治理；如今它将这些领土联结于同一权威之下。工业最发达的地区将领导联盟，吞并其他地区。"
+  pfp_merge_eastern_russia_desc:0 "乌拉尔山脉以东是世界上最大的连片陆地——从亚洲的山脊一直延伸至太平洋岸边的符拉迪沃斯托克。西伯利亚大铁路的建造是为了使这片广袤之地可以治理；如今它将这些领土联结于同一权威之下。"
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "东俄罗斯尚未组建。"
   pfp_merge_eastern_russia_effect_form:0 "§Y乌拉尔§!、§Y西伯利亚§!和§Y远东俄罗斯§!中最强大的国家成为§Y东俄罗斯§!。\n"
   pfp_merge_eastern_russia_effect_annex:0 "§Y东俄罗斯§!吞并其统一所需的傀儡政权。\n"

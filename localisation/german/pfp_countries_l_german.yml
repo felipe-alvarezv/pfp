@@ -4974,7 +4974,7 @@
 
   ## PFP MERGER DECISIONS ##
   pfp_merge_canada:0 "Kanada vereinen"
-  pfp_merge_canada_desc:0 "Ein einziges Dominion erstreckte sich einst über die nördliche Hälfte des Kontinents von den Atlantikküsten bis zu den westlichen Prärien, geeint durch die transkontinentale Eisenbahn und ein gemeinsames koloniales Erbe. Die Entfernung zwischen Halifax und Vancouver ist gewaltig, doch die Bande des Rechts, der Sprache und der Geschichte reichen tiefer als jede vorübergehende Teilung. Das industriell am weitesten entwickelte Gebiet wird die Union anführen, das andere annektieren und ein vereintes Kanada wiederherstellen."
+  pfp_merge_canada_desc:0 "Ein einziges Dominion erstreckte sich einst über die nördliche Hälfte des Kontinents von den Atlantikküsten bis zu den westlichen Prärien, geeint durch die transkontinentale Eisenbahn und ein gemeinsames koloniales Erbe. Die Entfernung zwischen Halifax und Vancouver ist gewaltig, doch die Bande des Rechts, der Sprache und der Geschichte reichen tiefer als jede vorübergehende Teilung."
 
   pfp_merge_canada_quebec:0 "Québec in Kanada eingliedern"
   pfp_merge_canada_quebec_desc:0 "Das frankophone Kernland an den Ufern des Sankt-Lorenz-Stroms bewahrt seit drei Jahrhunderten seine Sprache und eigenständige Kultur — lang genug, um den Namen la belle province zu verdienen. Mit dem vereinten Kanada ist es an der Zeit, es in die Nation einzugliedern; seine Flüsse, seine Städte und seine Menschen gehören zum Land, das sie umgibt."
@@ -4992,7 +4992,7 @@
 
   # United States
   pfp_merge_usa:0 "Die Vereinigten Staaten vereinen"
-  pfp_merge_usa_desc:0 "Von den Fabriken und Häfen des Nordostens bis zu den Feldern und Städten des Südens und dem großen industriellen Herzland des Mittleren Westens — diese drei Regionen waren die Pfeiler der mächtigsten Nation, die die Welt je gesehen hat. Die Union wurde einst zu enormen Kosten erhalten; sie kann wieder aufgebaut werden. Das industriell am weitesten entwickelte Gebiet wird die Wiedervereinigung anführen, die anderen annektieren und die Vereinigten Staaten wiederherstellen."
+  pfp_merge_usa_desc:0 "Von den Fabriken und Häfen des Nordostens bis zu den Feldern und Städten des Südens und dem großen industriellen Herzland des Mittleren Westens — diese drei Regionen waren die Pfeiler der mächtigsten Nation, die die Welt je gesehen hat. Die Union wurde einst zu enormen Kosten erhalten; sie kann wieder aufgebaut werden."
   pfp_merge_usa_not_yet_formed_tt:0 "Die Vereinigten Staaten wurden noch nicht wiedervereinigt."
   pfp_merge_usa_effect_form:0 "§YVereinigte Staaten§! werden vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_usa_effect_annex:0 "§YVereinigte Staaten§! annektieren die für ihre Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5012,7 +5012,7 @@
 
   # China
   pfp_merge_china:0 "China vereinen"
-  pfp_merge_china_desc:0 "Seit mehr als zweitausend Jahren antworteten die Provinzen des Reichs der Mitte einem einzigen Hof, gebunden durch das Mandat des Himmels und die konfuzianische Ordnung, die jede Dynastie überdauerte. Jede trägt die Erinnerung an ein vereintes China — die Zersplitterung war eine Katastrophe, kein Schicksal. Das industriell am weitesten entwickelte Gebiet wird die Wiedervereinigung anführen, die anderen annektieren und das Reich der Mitte wiederherstellen."
+  pfp_merge_china_desc:0 "Seit mehr als zweitausend Jahren antworteten die Provinzen des Reichs der Mitte einem einzigen Hof, gebunden durch das Mandat des Himmels und die konfuzianische Ordnung, die jede Dynastie überdauerte. Jede trägt die Erinnerung an ein vereintes China — die Zersplitterung war eine Katastrophe, kein Schicksal."
   pfp_merge_china_not_yet_formed_tt:0 "China wurde noch nicht vereint."
   pfp_merge_china_effect_form:0 "§YChina§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_china_effect_annex:0 "§YChina§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5057,7 +5057,7 @@
 
   # East Africa
   pfp_merge_east_africa:0 "Ostafrika vereinen"
-  pfp_merge_east_africa_desc:0 "Als einzige afrikanische Nation wehrte Äthiopien eine europäische Armee bei Adua ab, seine Hochland-Krieger verteidigten das letzte nicht kolonisierte Reich des Kontinents. Die Länder des Horns, die das Tor zwischen dem Roten Meer und dem Indischen Ozean beherrschen, liegen an den alten Routen, die einst Afrika mit der ganzen Welt verbanden. Vereint können sie zur dominanten Macht in diesem Teil des Kontinents werden. Das industriell am weitesten entwickelte Gebiet wird die Union anführen und die anderen annektieren."
+  pfp_merge_east_africa_desc:0 "Als einzige afrikanische Nation wehrte Äthiopien eine europäische Armee bei Adua ab, seine Hochland-Krieger verteidigten das letzte nicht kolonisierte Reich des Kontinents. Die Länder des Horns, die das Tor zwischen dem Roten Meer und dem Indischen Ozean beherrschen, liegen an den alten Routen, die einst Afrika mit der ganzen Welt verbanden. Vereint können sie zur dominanten Macht in diesem Teil des Kontinents werden."
   pfp_merge_east_africa_not_yet_formed_tt:0 "Ostafrika wurde noch nicht vereint."
   pfp_merge_east_africa_effect_form:0 "§YOstafrika§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_east_africa_effect_annex:0 "§YOstafrika§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5092,7 +5092,7 @@
 
   # France
   pfp_merge_france:0 "Frankreich vereinen"
-  pfp_merge_france_desc:0 "Liberté, égalité, fraternité — die Ideale der Republik gehören keiner einzelnen Region; sie gehören ganz Frankreich. Der industrielle Norden, gezeichnet von zwei großen auf seinem Boden ausgetragenen Kriegen, und der sonnenwarme Süden mit Wurzeln, die bis ins römische Gallien zurückreichen, sind zwei Hälften einer Zivilisation. Die Trikolore wehte über beiden; sie wird es wieder. Das industriell am weitesten entwickelte Gebiet wird die Wiedervereinigung anführen, das andere annektieren und Frankreich wiederherstellen."
+  pfp_merge_france_desc:0 "Liberté, égalité, fraternité — die Ideale der Republik gehören keiner einzelnen Region; sie gehören ganz Frankreich. Der industrielle Norden, gezeichnet von zwei großen auf seinem Boden ausgetragenen Kriegen, und der sonnenwarme Süden mit Wurzeln, die bis ins römische Gallien zurückreichen, sind zwei Hälften einer Zivilisation. Die Trikolore wehte über beiden; sie wird es wieder."
   pfp_merge_france_not_yet_formed_tt:0 "Frankreich wurde noch nicht vereint."
   pfp_merge_france_effect_form:0 "§YFrankreich§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_france_effect_annex:0 "§YFrankreich§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5106,7 +5106,7 @@
 
   # Germany
   pfp_merge_germany:0 "Deutschland vereinen"
-  pfp_merge_germany_desc:0 "Bismarck schmiedete die deutsche Nation durch Eisen und Blut — es bedurfte zweier katastrophaler Kriege, um sie erneut zu zerbrechen. Ob entlang des Rheins, der Elbe oder älterer Hohenzollern-Grenzen geteilt, teilen die deutschen Lande eine Sprache, eine Kultur und ein Jahrtausend verflochtener Geschichte bis zum Heiligen Römischen Reich. Das industriell am weitesten entwickelte Gebiet wird die Wiedervereinigung anführen, die anderen annektieren und das wiederherstellen, was die Kriege zerrissen haben."
+  pfp_merge_germany_desc:0 "Bismarck schmiedete die deutsche Nation durch Eisen und Blut — es bedurfte zweier katastrophaler Kriege, um sie erneut zu zerbrechen. Ob entlang des Rheins, der Elbe oder älterer Hohenzollern-Grenzen geteilt, teilen die deutschen Lande eine Sprache, eine Kultur und ein Jahrtausend verflochtener Geschichte bis zum Heiligen Römischen Reich."
   pfp_merge_germany_not_yet_formed_tt:0 "Deutschland wurde noch nicht vereint."
   pfp_merge_germany_effect_form:0 "§YDeutschland§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_germany_effect_annex:0 "§YDeutschland§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5120,7 +5120,7 @@
   pfp_merge_germany_requires_combo_tt:0 "Eine gültige Kombination deutscher Marionettenstaaten ist erforderlich: §YWestdeutschland§! + §YOstdeutschland§!, §YPreußen§! + §YWestdeutschland§!, §YNorddeutschland§! + §YSüddeutschland§!, oder §YPreußen§! + §YSüddeutschland§!.\n"
 
   pfp_merge_great_britain:0 "Großbritannien vereinen"
-  pfp_merge_great_britain_desc:0 "Drei Nationen, die sich eine Insel teilen, sind seit den Unionsgesetzen durch eine Krone verbunden, doch die Bande zwischen ihnen reichen tiefer als jedes königliche Dekret. Von den Kohlentälern des südlichen Wales bis zu den Werften des Clyde und den Fabriken der Midlands haben diese Völker gemeinsam ein Imperium aufgebaut. Es ist Zeit, die Union wiederzuaufbauen, auf der dieses Imperium errichtet wurde. Das industriell am weitesten entwickelte Gebiet wird die Restauration anführen und die anderen annektieren."
+  pfp_merge_great_britain_desc:0 "Drei Nationen, die sich eine Insel teilen, sind seit den Unionsgesetzen durch eine Krone verbunden, doch die Bande zwischen ihnen reichen tiefer als jedes königliche Dekret. Von den Kohlentälern des südlichen Wales bis zu den Werften des Clyde und den Fabriken der Midlands haben diese Völker gemeinsam ein Imperium aufgebaut. Es ist Zeit, die Union wiederzuaufbauen, auf der dieses Imperium errichtet wurde."
   pfp_merge_great_britain_not_yet_formed_tt:0 "Großbritannien wurde noch nicht vereint."
   pfp_merge_great_britain_effect_form:0 "§YGroßbritannien§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_great_britain_effect_annex:0 "§YGroßbritannien§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5134,14 +5134,14 @@
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YGroßbritannien§! wird in §YGroßbritannien und Nordirland§! umbenannt.\n"
 
   pfp_merge_iberia:0 "Iberien vereinen"
-  pfp_merge_iberia_desc:0 "Die Königreiche, die das Zeitalter der Entdeckungen von derselben sonnenverbrannten Halbinsel aus starteten, teilten die Welt zwischen sich in Tordesillas auf. Ihre jahrhundertealte Rivalität ist real, aber ebenso ihre Verwandtschaft — dieselben Römerstraßen verbinden Lissabon mit Madrid, dieselben Atlantikwinde formten beide Kronen. Als Iberien vereint können sie das Prestige der alten iberischen Welt erneut ausstrahlen. Das industriell am weitesten entwickelte Gebiet wird die Union anführen und das andere annektieren."
+  pfp_merge_iberia_desc:0 "Die Königreiche, die das Zeitalter der Entdeckungen von derselben sonnenverbrannten Halbinsel aus starteten, teilten die Welt zwischen sich in Tordesillas auf. Ihre jahrhundertealte Rivalität ist real, aber ebenso ihre Verwandtschaft — dieselben Römerstraßen verbinden Lissabon mit Madrid, dieselben Atlantikwinde formten beide Kronen. Als Iberien vereint können sie das Prestige der alten iberischen Welt erneut ausstrahlen."
   pfp_merge_iberia_not_yet_formed_tt:0 "Iberien wurde noch nicht vereint."
   pfp_merge_iberia_effect_form:0 "§YIberien§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_iberia_effect_annex:0 "§YIberien§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
   pfp_merge_iberia_effect_cores:0 "§YIberien§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
 
   pfp_merge_italy:0 "Italien vereinen"
-  pfp_merge_italy_desc:0 "Seit Dante von einem Italien schrieb und Machiavelli von einem Fürsten träumte, der es einen könnte, widersteht die Halbinsel der Vereinigung. Die zerstreuten Erben der römischen Zivilisation — jeder stolz auf seine eigene Vergangenheit, aber jeder unvollständig ohne die anderen — haben lang genug gewartet. Das Risorgimento war nur der erste Versuch; nun kann er vollendet werden. Das industriell am weitesten entwickelte Gebiet wird die Einigung anführen und die anderen annektieren."
+  pfp_merge_italy_desc:0 "Seit Dante von einem Italien schrieb und Machiavelli von einem Fürsten träumte, der es einen könnte, widersteht die Halbinsel der Vereinigung. Die zerstreuten Erben der römischen Zivilisation — jeder stolz auf seine eigene Vergangenheit, aber jeder unvollständig ohne die anderen — haben lang genug gewartet. Das Risorgimento war nur der erste Versuch; nun kann er vollendet werden."
   pfp_merge_italy_not_yet_formed_tt:0 "Italien wurde noch nicht vereint."
   pfp_merge_italy_effect_form:0 "§YItalien§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_italy_effect_annex:0 "§YItalien§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5154,13 +5154,13 @@
   pfp_merge_italy_sardinia_effect_annex:0 "§YItalien§! annektiert §YSardinien§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
 
   pfp_merge_japan:0 "Japan vereinen"
-  pfp_merge_japan_desc:0 "Die heiligen Heimatinseln bilden seit der Zeit der alten Kaiser eine einzige Nation. Ihre Teilung ist eine Aberration, eine Wunde, die einem Volk zugefügt wurde, das durch Einheit definiert wird. Die Wiederherstellung der Heimatinseln ist nicht nur ein politischer Akt — es ist die Erfüllung des Kokutai, des nationalen Wesens selbst. Das industriell am weitesten entwickelte Gebiet wird die Wiedervereinigung anführen und die anderen annektieren."
+  pfp_merge_japan_desc:0 "Die heiligen Heimatinseln bilden seit der Zeit der alten Kaiser eine einzige Nation. Ihre Teilung ist eine Aberration, eine Wunde, die einem Volk zugefügt wurde, das durch Einheit definiert wird. Die Wiederherstellung der Heimatinseln ist nicht nur ein politischer Akt — es ist die Erfüllung des Kokutai, des nationalen Wesens selbst."
   pfp_merge_japan_not_yet_formed_tt:0 "Japan wurde noch nicht vereint."
   pfp_merge_japan_effect_form:0 "§YJapan§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_japan_effect_annex:0 "§YJapan§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
   pfp_merge_japan_effect_cores:0 "§YJapan§! erhält die Kerngebiete und Ansprüche der annektierten Marionettenstaaten.\n"
   pfp_merge_yugoslavia:0 "Jugoslawien vereinen"
-  pfp_merge_yugoslavia_desc:0 "Aus den Trümmern der osmanischen und habsburgischen Reiche geschnitzt, wurden die südslawischen Völker — Južni Slaveni — lange als Träumer abgetan, die glaubten, diese Länder könnten eins sein. Nun ist der Traum zum Greifen nah. Brüderlichkeit und Einheit — bratstvo i jedinstvo — werden mehr als eine Parole sein. Das industriell am weitesten entwickelte Gebiet wird die Union anführen und die anderen annektieren."
+  pfp_merge_yugoslavia_desc:0 "Aus den Trümmern der osmanischen und habsburgischen Reiche geschnitzt, wurden die südslawischen Völker — Južni Slaveni — lange als Träumer abgetan, die glaubten, diese Länder könnten eins sein. Nun ist der Traum zum Greifen nah. Brüderlichkeit und Einheit — bratstvo i jedinstvo — werden mehr als eine Parole sein."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "Jugoslawien wurde noch nicht vereint."
   pfp_merge_yugoslavia_effect_form:0 "§YJugoslawien§! wird vom Marionettenstaat mit den meisten Fabriken gebildet.\n"
   pfp_merge_yugoslavia_effect_annex:0 "§YJugoslawien§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5176,7 +5176,7 @@
   pfp_merge_yugoslavia_macedonia_effect_annex:0 "§YJugoslawien§! annektiert §YMazedonien§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
 
   pfp_merge_western_russia:0 "Westrussland gründen"
-  pfp_merge_western_russia_desc:0 "Die großen Flüsse der westlichen Ebene — Wolga, Don, Dnjepr — waren stets die Lebensadern der russischen Zivilisation, die Länder zusammenbindend, die seit dem Zeitalter der Zaren einer einzigen Autorität gehorchten. Diese Territorien waren niemals wirklich getrennte Nationen; sie waren Fragmente eines zerbrochenen Ganzen. Das industriell am weitesten entwickelte Gebiet wird die Restauration anführen und sie zu einem vereinten Westrussland schmieden."
+  pfp_merge_western_russia_desc:0 "Die großen Flüsse der westlichen Ebene — Wolga, Don, Dnjepr — waren stets die Lebensadern der russischen Zivilisation, die Länder zusammenbindend, die seit dem Zeitalter der Zaren einer einzigen Autorität gehorchten. Diese Territorien waren niemals wirklich getrennte Nationen; sie waren Fragmente eines zerbrochenen Ganzen."
   pfp_merge_western_russia_not_yet_formed_tt:0 "Westrussland wurde noch nicht gegründet."
   pfp_merge_western_russia_effect_form:0 "Der mächtigste Staat aus §YZentralrussland§!, §YSüdrussland§!, §YWolga§! und §YNordwestrussland§! wird zu §YWestrussland§!.\n"
   pfp_merge_western_russia_effect_annex:0 "§YWestrussland§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"
@@ -5200,7 +5200,7 @@
   pfp_merge_western_russia_murmansk_effect_annex:0 "§YWestrussland§! annektiert §YMurmansk§! und erhält dessen Kerngebiete und annektierbare Territorien.\n"
 
   pfp_merge_eastern_russia:0 "Ostrussland gründen"
-  pfp_merge_eastern_russia_desc:0 "Jenseits des Uralgebirges liegt die größte zusammenhängende Landmasse der Welt, die sich von der Bergachse Asiens bis nach Wladiwostok an der Pazifikküste erstreckt. Die Transsibirische Eisenbahn wurde gebaut, um diese Weite regierbar zu machen; nun wird sie diese Territorien unter einer Autorität zusammenbinden. Das industriell am weitesten entwickelte Gebiet wird die Union anführen und die anderen annektieren."
+  pfp_merge_eastern_russia_desc:0 "Jenseits des Uralgebirges liegt die größte zusammenhängende Landmasse der Welt, die sich von der Bergachse Asiens bis nach Wladiwostok an der Pazifikküste erstreckt. Die Transsibirische Eisenbahn wurde gebaut, um diese Weite regierbar zu machen; nun wird sie diese Territorien unter einer Autorität zusammenbinden."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "Ostrussland wurde noch nicht gegründet."
   pfp_merge_eastern_russia_effect_form:0 "Der mächtigste Staat aus §YUral§!, §YSibirien§! und §YRussischer Ferner Osten§! wird zu §YOstrussland§!.\n"
   pfp_merge_eastern_russia_effect_annex:0 "§YOstrussland§! annektiert die für seine Vereinigung erforderlichen Marionettenstaaten.\n"

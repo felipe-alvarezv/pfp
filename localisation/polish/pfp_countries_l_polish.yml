@@ -4974,7 +4974,7 @@
 
   ## PFP MERGER DECISIONS ##
   pfp_merge_canada:0 "Zjednoczyć Kanadę"
-  pfp_merge_canada_desc:0 "Jedno dominium rozciągało się niegdyś przez północną połowę kontynentu — od atlantyckich wybrzeży po zachodnie prerie, spajane transkontynentalnę koleją i wspólnym dziedzictwem kolonialnym. Odległość między Halifax a Vancouver jest ogromna, lecz więzy prawa, języka i historii sięgają głębiej niż jakikolwiek tymczasowy podział. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując drugie i przywracając zjednoczoną Kanadę."
+  pfp_merge_canada_desc:0 "Jedno dominium rozciągało się niegdyś przez północną połowę kontynentu — od atlantyckich wybrzeży po zachodnie prerie, spajane transkontynentalnę koleją i wspólnym dziedzictwem kolonialnym. Odległość między Halifax a Vancouver jest ogromna, lecz więzy prawa, języka i historii sięgają głębiej niż jakikolwiek tymczasowy podział."
 
   pfp_merge_canada_quebec:0 "Wchłonąć Québec do Kanady"
   pfp_merge_canada_quebec_desc:0 "Frankofońskie serce nad brzegami rzeki Świętego Wawrzyńca strzeże swojego języka i odrębnej kultury od trzech stuleci — dość długo, by zasłużyć na miano la belle province. Ze zjednoczoną Kanadą nadszedł czas, by włączyć je do narodu; jego rzeki, miasta i ludzie należą do kraju, który je otacza."
@@ -4992,7 +4992,7 @@
 
   # United States
   pfp_merge_usa:0 "Zjednoczyć Stany Zjednoczone"
-  pfp_merge_usa_desc:0 "Od fabryk i portów północnego wschodu po pola i miasta południa, przez wielkie przemysłowe serce Środkowego Zachodu — te trzy regiony były filarami najpotężniejszego narodu, jaki świat kiedykolwiek widział. Unię zachowano raz za ogromną cenę; można ją odbudować. Najbardziej uprzemysłowione terytorium poprowadzi zjednoczenie, anektując pozostałe i przywracając Stany Zjednoczone."
+  pfp_merge_usa_desc:0 "Od fabryk i portów północnego wschodu po pola i miasta południa, przez wielkie przemysłowe serce Środkowego Zachodu — te trzy regiony były filarami najpotężniejszego narodu, jaki świat kiedykolwiek widział. Unię zachowano raz za ogromną cenę; można ją odbudować."
   pfp_merge_usa_not_yet_formed_tt:0 "Stany Zjednoczone nie zostały jeszcze zjednoczone."
   pfp_merge_usa_effect_form:0 "§YStany Zjednoczone§! są formowane przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_usa_effect_annex:0 "§YStany Zjednoczone§! anektują marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5012,7 +5012,7 @@
 
   # China
   pfp_merge_china:0 "Zjednoczyć Chiny"
-  pfp_merge_china_desc:0 "Przez ponad dwa tysiące lat prowincje Państwa Środka odpowiadały przed jednym dworem, spójne dzięki Niebiańskiemu Mandatowi i konfucjańskiemu porządkowi, który przeżył każdą dynastię. Każda nosi pamięć zjednoczonych Chin — rozbicie było katastrofą, nie przeznaczeniem. Najbardziej uprzemysłowione terytorium poprowadzi zjednoczenie, anektując pozostałe i przywracając Państwo Środka."
+  pfp_merge_china_desc:0 "Przez ponad dwa tysiące lat prowincje Państwa Środka odpowiadały przed jednym dworem, spójne dzięki Niebiańskiemu Mandatowi i konfucjańskiemu porządkowi, który przeżył każdą dynastię. Każda nosi pamięć zjednoczonych Chin — rozbicie było katastrofą, nie przeznaczeniem."
   pfp_merge_china_not_yet_formed_tt:0 "Chiny nie zostały jeszcze zjednoczone."
   pfp_merge_china_effect_form:0 "§YChiny§! są formowane przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_china_effect_annex:0 "§YChiny§! anektują marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5057,7 +5057,7 @@
 
   # East Africa
   pfp_merge_east_africa:0 "Zjednoczyć Afrykę Wschodnią"
-  pfp_merge_east_africa_desc:0 "Jedyna spośród narodów afrykańskich Etiopia odparła europejską armię pod Aduą — jej górscy wojownicy bronili ostatniego niekolonizowanego imperium kontynentu. Ziemie Rogu Afryki, panujące nad bramą między Morzem Czerwonym a Oceanem Indyjskim, leżą na dawnych szlakach łączących niegdyś Afrykę z całym światem. Zjednoczone, mogą stać się dominującą potęgą tej części kontynentu. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_east_africa_desc:0 "Jedyna spośród narodów afrykańskich Etiopia odparła europejską armię pod Aduą — jej górscy wojownicy bronili ostatniego niekolonizowanego imperium kontynentu. Ziemie Rogu Afryki, panujące nad bramą między Morzem Czerwonym a Oceanem Indyjskim, leżą na dawnych szlakach łączących niegdyś Afrykę z całym światem. Zjednoczone, mogą stać się dominującą potęgą tej części kontynentu."
   pfp_merge_east_africa_not_yet_formed_tt:0 "Afryka Wschodnia nie została jeszcze zjednoczona."
   pfp_merge_east_africa_effect_form:0 "§YAfryka Wschodnia§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_east_africa_effect_annex:0 "§YAfryka Wschodnia§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5092,7 +5092,7 @@
 
   # France
   pfp_merge_france:0 "Zjednoczyć Francję"
-  pfp_merge_france_desc:0 "Liberté, égalité, fraternité — ideały Republiki nie należą do żadnego konkretnego regionu; należą do całej Francji. Przemysłowa północ, naznaczona dwiema wielkimi wojnami toczonymi na jej ziemi, i słoneczne południe z korzeniami sięgającymi Galii rzymskiej, to dwie połowy jednej cywilizacji. Trójkolorowy proporzec powiewał nad obydwoma; powiewać będzie znowu. Najbardziej uprzemysłowione terytorium poprowadzi zjednoczenie, anektując drugie i przywracając la France."
+  pfp_merge_france_desc:0 "Liberté, égalité, fraternité — ideały Republiki nie należą do żadnego konkretnego regionu; należą do całej Francji. Przemysłowa północ, naznaczona dwiema wielkimi wojnami toczonymi na jej ziemi, i słoneczne południe z korzeniami sięgającymi Galii rzymskiej, to dwie połowy jednej cywilizacji. Trójkolorowy proporzec powiewał nad obydwoma; powiewać będzie znowu."
   pfp_merge_france_not_yet_formed_tt:0 "Francja nie została jeszcze zjednoczona."
   pfp_merge_france_effect_form:0 "§YFrancja§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_france_effect_annex:0 "§YFrancja§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5106,7 +5106,7 @@
 
   # Germany
   pfp_merge_germany:0 "Zjednoczyć Niemcy"
-  pfp_merge_germany_desc:0 "Bismarck wykuł naród niemiecki żelazem i krwią — potrzeba było dwóch katastrofalnych wojen, by go ponownie rozbić. Czy podzielony wzdłuż Renu, Łaby, czy dawnych granic Hohenzollernów, ziemie niemieckie dzielą jeden język, jedną kulturę i tysiąclecie splecionej historii sięgającej Świętego Cesarstwa Rzymskiego. Najbardziej uprzemysłowione terytorium poprowadzi zjednoczenie, anektując pozostałe i przywracając to, co wojny rozdarły."
+  pfp_merge_germany_desc:0 "Bismarck wykuł naród niemiecki żelazem i krwią — potrzeba było dwóch katastrofalnych wojen, by go ponownie rozbić. Czy podzielony wzdłuż Renu, Łaby, czy dawnych granic Hohenzollernów, ziemie niemieckie dzielą jeden język, jedną kulturę i tysiąclecie splecionej historii sięgającej Świętego Cesarstwa Rzymskiego."
   pfp_merge_germany_not_yet_formed_tt:0 "Niemcy nie zostały jeszcze zjednoczone."
   pfp_merge_germany_effect_form:0 "§YNiemcy§! są formowane przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_germany_effect_annex:0 "§YNiemcy§! anektują marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5120,7 +5120,7 @@
   pfp_merge_germany_requires_combo_tt:0 "Wymagana jest prawidłowa kombinacja niemieckich marionetek: §YNiemcy Zachodnie§! + §YNiemcy Wschodnie§!, §YPrusy§! + §YNiemcy Zachodnie§!, §YNiemcy Północne§! + §YNiemcy Południowe§!, lub §YPrusy§! + §YNiemcy Południowe§!.\n"
 
   pfp_merge_great_britain:0 "Zjednoczyć Wielką Brytanię"
-  pfp_merge_great_britain_desc:0 "Trzy narody zamieszkujące jedną wyspę połączone są Koroną od czasów Aktów Unii, lecz więzy między nimi sięgają głębiej niż jakikolwiek królewski dekret. Od węglowych dolin południowej Walii po stocznie Clyde i fabryki Midlands — te narody razem zbudowały imperium. Pora odbudować unię, na której to imperium zostało wzniesione. Najbardziej uprzemysłowione terytorium poprowadzi odbudowę, anektując pozostałe."
+  pfp_merge_great_britain_desc:0 "Trzy narody zamieszkujące jedną wyspę połączone są Koroną od czasów Aktów Unii, lecz więzy między nimi sięgają głębiej niż jakikolwiek królewski dekret. Od węglowych dolin południowej Walii po stocznie Clyde i fabryki Midlands — te narody razem zbudowały imperium. Pora odbudować unię, na której to imperium zostało wzniesione."
   pfp_merge_great_britain_not_yet_formed_tt:0 "Wielka Brytania nie została jeszcze zjednoczona."
   pfp_merge_great_britain_effect_form:0 "§YWielka Brytania§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_great_britain_effect_annex:0 "§YWielka Brytania§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5134,14 +5134,14 @@
   pfp_merge_great_britain_northern_ireland_effect_uk:0 "§YWielka Brytania§! zostaje przemianowana na §YWielką Brytanię i Irlandię Północną§!.\n"
 
   pfp_merge_iberia:0 "Zjednoczyć Iberię"
-  pfp_merge_iberia_desc:0 "Królestwa, które zapoczątkowały Epokę Odkryć z tej samej wypalonej słońcem półwyspy, podzieliły między sobą świat w Tordesillas. Ich wielowiekowa rywalizacja jest realna, lecz równie realne jest ich pokrewieństwo — te same drogi rzymskie łączą Lizbonę z Madrytem, te same atlantyckie wiatry ukształtowały obie korony. Zjednoczone jako Iberia, mogą ponownie promieniować prestiżem dawnego świata iberyjskiego. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując drugie."
+  pfp_merge_iberia_desc:0 "Królestwa, które zapoczątkowały Epokę Odkryć z tej samej wypalonej słońcem półwyspy, podzieliły między sobą świat w Tordesillas. Ich wielowiekowa rywalizacja jest realna, lecz równie realne jest ich pokrewieństwo — te same drogi rzymskie łączą Lizbonę z Madrytem, te same atlantyckie wiatry ukształtowały obie korony. Zjednoczone jako Iberia, mogą ponownie promieniować prestiżem dawnego świata iberyjskiego."
   pfp_merge_iberia_not_yet_formed_tt:0 "Iberia nie została jeszcze zjednoczona."
   pfp_merge_iberia_effect_form:0 "§YIberia§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_iberia_effect_annex:0 "§YIberia§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
   pfp_merge_iberia_effect_cores:0 "§YIberia§! zdobywa rdzenie i roszczenia anektowanych marionetkowych państw.\n"
 
   pfp_merge_italy:0 "Zjednoczyć Włochy"
-  pfp_merge_italy_desc:0 "Odkąd Dante pisał o jednych Włoszech, a Machiavelli śnił o władcy zdolnym je zjednoczyć, półwysep opiera się zjednoczeniu. Rozproszeni dziedzice cywilizacji rzymskiej — każdy dumny ze swojej przeszłości, lecz każdy niepełny bez pozostałych — czekali wystarczająco długo. Risorgimento było tylko pierwszą próbą; teraz można ją doprowadzić do końca. Najbardziej uprzemysłowione terytorium poprowadzi zjednoczenie, anektując pozostałe."
+  pfp_merge_italy_desc:0 "Odkąd Dante pisał o jednych Włoszech, a Machiavelli śnił o władcy zdolnym je zjednoczyć, półwysep opiera się zjednoczeniu. Rozproszeni dziedzice cywilizacji rzymskiej — każdy dumny ze swojej przeszłości, lecz każdy niepełny bez pozostałych — czekali wystarczająco długo. Risorgimento było tylko pierwszą próbą; teraz można ją doprowadzić do końca."
   pfp_merge_italy_not_yet_formed_tt:0 "Włochy nie zostały jeszcze zjednoczone."
   pfp_merge_italy_effect_form:0 "§YWłochy§! są formowane przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_italy_effect_annex:0 "§YWłochy§! anektują marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5154,13 +5154,13 @@
   pfp_merge_italy_sardinia_effect_annex:0 "§YWłochy§! anektują §YSardynię§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
 
   pfp_merge_japan:0 "Zjednoczyć Japonię"
-  pfp_merge_japan_desc:0 "Święte wyspy ojczyste tworzyły jeden naród od epoki starożytnych cesarzy. Ich podział jest aberracją, raną zadaną ludowi definiowanemu przez jedność. Przywrócenie wysp ojczystych to nie tylko akt polityczny — to wypełnienie kokutai, samej istoty narodu. Najbardziej uprzemysłowione terytorium poprowadzi zjednoczenie, anektując pozostałe."
+  pfp_merge_japan_desc:0 "Święte wyspy ojczyste tworzyły jeden naród od epoki starożytnych cesarzy. Ich podział jest aberracją, raną zadaną ludowi definiowanemu przez jedność. Przywrócenie wysp ojczystych to nie tylko akt polityczny — to wypełnienie kokutai, samej istoty narodu."
   pfp_merge_japan_not_yet_formed_tt:0 "Japonia nie została jeszcze zjednoczona."
   pfp_merge_japan_effect_form:0 "§YJaponia§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_japan_effect_annex:0 "§YJaponia§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
   pfp_merge_japan_effect_cores:0 "§YJaponia§! zdobywa rdzenie i roszczenia anektowanych marionetkowych państw.\n"
   pfp_merge_yugoslavia:0 "Zjednoczyć Jugosławię"
-  pfp_merge_yugoslavia_desc:0 "Wykute z ruin imperiów osmańskiego i habsburskiego, południowosłowiańskie ludy — Južni Slaveni — były długo odrzucane jako marzyciele wierzący, że te ziemie mogą stać się jedną całością. Teraz marzenie jest w zasięgu ręki. Braterstwo i jedność — bratstvo i jedinstvo — będą czymś więcej niż hasłem. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_yugoslavia_desc:0 "Wykute z ruin imperiów osmańskiego i habsburskiego, południowosłowiańskie ludy — Južni Slaveni — były długo odrzucane jako marzyciele wierzący, że te ziemie mogą stać się jedną całością. Teraz marzenie jest w zasięgu ręki. Braterstwo i jedność — bratstvo i jedinstvo — będą czymś więcej niż hasłem."
   pfp_merge_yugoslavia_not_yet_formed_tt:0 "Jugosławia nie została jeszcze zjednoczona."
   pfp_merge_yugoslavia_effect_form:0 "§YJugosławia§! jest formowana przez marionetkowe państwo z największą liczbą fabryk.\n"
   pfp_merge_yugoslavia_effect_annex:0 "§YJugosławia§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5176,7 +5176,7 @@
   pfp_merge_yugoslavia_macedonia_effect_annex:0 "§YJugosławia§! anektuje §YMacedonię§!, zyskując jej rdzenie i możliwe do zrdzeniowania terytoria.\n"
 
   pfp_merge_western_russia:0 "Uformuj Zachodnią Rosję"
-  pfp_merge_western_russia_desc:0 "Wielkie rzeki zachodniej równiny — Wołga, Don, Dniepr — zawsze były tętnicami rosyjskiej cywilizacji, spinając ziemie podległe jednej władzy od czasów carów. Te terytoria nigdy naprawdę nie były odrębnymi narodami; były odłamkami rozbitej całości. Najbardziej uprzemysłowione terytorium poprowadzi odbudowę, kując je w zjednoczoną Zachodnią Rosję."
+  pfp_merge_western_russia_desc:0 "Wielkie rzeki zachodniej równiny — Wołga, Don, Dniepr — zawsze były tętnicami rosyjskiej cywilizacji, spinając ziemie podległe jednej władzy od czasów carów. Te terytoria nigdy naprawdę nie były odrębnymi narodami; były odłamkami rozbitej całości."
   pfp_merge_western_russia_not_yet_formed_tt:0 "Zachodnia Rosja jeszcze nie została uformowana."
   pfp_merge_western_russia_effect_form:0 "Najpotężniejszy z §YCentralna Rosja§!, §YPołudniowa Rosja§!, §YWołga§! i §YPółnocno-Zachodnia Rosja§! staje się §YZachodnią Rosją§!.\n"
   pfp_merge_western_russia_effect_annex:0 "§YZachodnia Rosja§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
@@ -5200,7 +5200,7 @@
   pfp_merge_western_russia_murmansk_effect_annex:0 "§YZachodnia Rosja§! anektuje §YMurmańsk§!, zyskując jego rdzenie i możliwe do zrdzeniowania terytoria.\n"
 
   pfp_merge_eastern_russia:0 "Uformuj Wschodnią Rosję"
-  pfp_merge_eastern_russia_desc:0 "Za Górami Uralu rozciąga się największy ciągły obszar lądowy świata — od kręgosłupa górskiego Azji aż po Władywostok na wybrzeżu Pacyfiku. Kolej Transsyberyjska została zbudowana, by tę rozległość uczynić rządzalną; teraz spoi te terytoria pod jedną władzą. Najbardziej uprzemysłowione terytorium poprowadzi unię, anektując pozostałe."
+  pfp_merge_eastern_russia_desc:0 "Za Górami Uralu rozciąga się największy ciągły obszar lądowy świata — od kręgosłupa górskiego Azji aż po Władywostok na wybrzeżu Pacyfiku. Kolej Transsyberyjska została zbudowana, by tę rozległość uczynić rządzalną; teraz spoi te terytoria pod jedną władzą."
   pfp_merge_eastern_russia_not_yet_formed_tt:0 "Wschodnia Rosja jeszcze nie została uformowana."
   pfp_merge_eastern_russia_effect_form:0 "Najpotężniejszy z §YUral§!, §YSyberia§! i §YDaleki Wschód Rosji§! staje się §YWschodnią Rosją§!.\n"
   pfp_merge_eastern_russia_effect_annex:0 "§YWschodnia Rosja§! anektuje marionetkowe państwa wymagane do zjednoczenia.\n"
