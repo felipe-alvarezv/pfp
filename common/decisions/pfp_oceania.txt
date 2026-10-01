@@ -105,28 +105,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 284 #Wellington
-				has_full_control_of_state = 285 #New South Wales
-				has_full_control_of_state = 517 #Victoria
-				has_full_control_of_state = 518 #Tasmania
-				has_full_control_of_state = 519 #South Australia
-				has_full_control_of_state = 520 #Northern Territory
-				has_full_control_of_state = 521 #Queensland
-				has_full_control_of_state = 522 #Western Australia
-				has_full_control_of_state = 674 #Central Australia
-				has_full_control_of_state = 723 #Canterbury
-				has_full_control_of_state = 870 #North West Australia
-				has_full_control_of_state = 871 #South West Australia
-				has_full_control_of_state = 872 #North Queensland
-				has_full_control_of_state = 873 #South West Queensland
-				has_full_control_of_state = 1074 #Central Western Australia
-				has_full_control_of_state = 1075 #West Queensland
-				has_full_control_of_state = 1079 #Auckland
-				has_full_control_of_state = 1080 #Marlborough
-				has_full_control_of_state = 1081 #Otago
-			}
-			NOT = { has_global_flag = pfp_oceania_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = {

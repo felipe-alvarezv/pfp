@@ -32,13 +32,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 229 #Azerbaijan
-				has_full_control_of_state = 230 #Armenia
-				has_full_control_of_state = 231 #Georgia
-				has_full_control_of_state = 826 #Abkhazia
-			}
-			NOT = { has_global_flag = pfp_transcaucasia_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 

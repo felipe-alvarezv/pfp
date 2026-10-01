@@ -81,22 +81,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 272 #Senegal
-				has_full_control_of_state = 515 #Southern Sahara
-				has_full_control_of_state = 556 #Bamako
-				has_full_control_of_state = 557 #Mauritania
-				has_full_control_of_state = 776 #Dahomey
-				has_full_control_of_state = 778 #Upper Volta
-				has_full_control_of_state = 779 #Ivory Coast
-				has_full_control_of_state = 780 #Guinea
-				has_full_control_of_state = 781 #Niger
-				has_full_control_of_state = 782 #Tombouctou
-				has_full_control_of_state = 786 #Mauritanian Desert
-				has_full_control_of_state = 898 #Gao
-				has_full_control_of_state = 899 #Kayues-Koulikoro
-			}
-			NOT = { has_global_flag = pfp_west_africa_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 

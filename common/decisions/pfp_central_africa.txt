@@ -40,15 +40,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 295 #Leopoldville
-				has_full_control_of_state = 538 #Coquilhatville
-				has_full_control_of_state = 718 #Stanleyville
-				has_full_control_of_state = 888 #Lusambo
-				has_full_control_of_state = 889 #Elisabethville
-				has_full_control_of_state = 890 #Costermansville
-			}
-			NOT = { has_global_flag = pfp_central_africa_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 

@@ -41,16 +41,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			tag = GER #Check if player is Germany
-			OR = {
-				has_full_control_of_state = 541 #Khomas
-				has_full_control_of_state = 546 #Tanganyika
-				has_full_control_of_state = 773 #Cameroon
-				has_full_control_of_state = 893 #Karas
-				has_full_control_of_state = 894 #Kunene
-				has_full_control_of_state = 895 #Otjozondjupa
-			}
-			NOT = { has_global_flag = pfp_mittelafrika_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 
