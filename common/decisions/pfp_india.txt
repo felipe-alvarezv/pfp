@@ -107,27 +107,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 423 #Southern Madras
-				has_full_control_of_state = 424 #Northern Madras
-				has_full_control_of_state = 425 #Mysore
-				has_full_control_of_state = 426 #Orissa
-				has_full_control_of_state = 427 #Hyderabad
-				has_full_control_of_state = 428 #Gujarat
-				has_full_control_of_state = 429 #Bombay
-				has_full_control_of_state = 433 #Rajahsthan
-				has_full_control_of_state = 436 #Central Provinces
-				has_full_control_of_state = 437 #Central India
-				has_full_control_of_state = 438 #United Provinces
-				has_full_control_of_state = 439 #Delhi
-				has_full_control_of_state = 982 #Madras States
-				has_full_control_of_state = 983 #Kolhapur and Deccan
-				has_full_control_of_state = 984 #Bastar
-				has_full_control_of_state = 986 #East Punjab
-				has_full_control_of_state = 989 #Bahawalpur
-				has_full_control_of_state = 991 #Gwalior
-			}
-			NOT = { has_global_flag = pfp_india_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 

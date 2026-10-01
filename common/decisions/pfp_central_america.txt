@@ -44,15 +44,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 304 #Panama
-				has_full_control_of_state = 312 #Honduras
-				has_full_control_of_state = 313 #Guatemala
-				has_full_control_of_state = 314 #El Salvador
-				has_full_control_of_state = 316 #Costa Rica
-				has_full_control_of_state = 317 #Nicaragua
-			}
-			NOT = { has_global_flag = pfp_central_america_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 

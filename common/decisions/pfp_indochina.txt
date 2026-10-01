@@ -56,18 +56,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 671 #Tonkin
-				has_full_control_of_state = 670 #Laos
-				has_full_control_of_state = 1069 #Lan Chang
-				has_full_control_of_state = 1017 #North Annam
-				has_full_control_of_state = 286 #South Annam
-				has_full_control_of_state = 1068 #Bassac
-				has_full_control_of_state = 741 #Cambodia
-				has_full_control_of_state = 1066 #Cochinchine
-				has_full_control_of_state = 1067 #Battambang
-			}
-			NOT = { has_global_flag = pfp_indochina_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = {

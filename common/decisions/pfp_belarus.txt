@@ -30,14 +30,7 @@ custom_trigger_tooltip = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 206 #Minsk
-				has_full_control_of_state = 194 #Mozyr
-				has_full_control_of_state = 204 #Bobruysk
-				has_full_control_of_state = 207 #Vitebsk
-				has_full_control_of_state = 241 #Gomel
-			}
-			NOT = { has_global_flag = pfp_belarus_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = {

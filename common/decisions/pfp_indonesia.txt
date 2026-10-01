@@ -49,17 +49,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 1050 #Atjeh
-				has_full_control_of_state = 1049 #Medan and Riouw
-				has_full_control_of_state = 1048 #Padang
-				has_full_control_of_state = 1047 #Bangka-Belitung
-				has_full_control_of_state = 672 #South Sumatra
-				has_full_control_of_state = 335 #West Java
-				has_full_control_of_state = 1058 #Batavia
-				has_full_control_of_state = 1051 #East Java
-			}
-			NOT = { has_global_flag = pfp_indonesia_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = {

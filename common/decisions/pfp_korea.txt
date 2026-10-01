@@ -39,11 +39,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 525 #Gyeonggi
-				has_full_control_of_state = 527 #Pyongan-Hwanghae
-			}
-			NOT = { has_global_flag = pfp_korea_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 

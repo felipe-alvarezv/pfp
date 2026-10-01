@@ -54,18 +54,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 292 #Nejd
-				has_full_control_of_state = 678 #Rub al Khali
-				has_full_control_of_state = 679 #Madinah
-				has_full_control_of_state = 854 #Jawf
-				has_full_control_of_state = 855 #Tabuk
-				has_full_control_of_state = 856 #Assir-Makkah
-				has_full_control_of_state = 857 #Al-Qassim
-				has_full_control_of_state = 858 #Najiran
-				has_full_control_of_state = 859 #Dammam
-			}
-			NOT = { has_global_flag = pfp_arabia_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = {

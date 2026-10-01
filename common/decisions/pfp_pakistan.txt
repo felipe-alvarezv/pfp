@@ -44,15 +44,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 443 #Sind
-				has_full_control_of_state = 444 #South Baluchistan
-				has_full_control_of_state = 445 #Sibi
-				has_full_control_of_state = 987 #Wazaristan
-				has_full_control_of_state = 988 #North Baluchistan
-				has_full_control_of_state = 1012 #Kalat
-			}
-			NOT = { has_global_flag = pfp_pakistan_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 

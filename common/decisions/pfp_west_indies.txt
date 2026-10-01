@@ -32,13 +32,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 315 #Cuba
-				has_full_control_of_state = 318 #Haiti
-				has_full_control_of_state = 319 #Dominican Republic
-				has_full_control_of_state = 689 #Jamaica
-			}
-			NOT = { has_global_flag = pfp_west_indies_flag }
+			always = no #Replaced by PPL merger system
 		}
 		highlight_states = {
 			highlight_state_targets = { 
