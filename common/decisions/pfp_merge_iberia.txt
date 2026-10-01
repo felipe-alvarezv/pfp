@@ -31,9 +31,9 @@ pfp_unification = {
 				tooltip = pfp_merge_iberia_not_yet_formed_tt
 				NOT = { has_global_flag = pfp_iberia_merged }
 			}
-			Q80 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_iberia_puppets_ready_tt
+				Q80 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -47,10 +47,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			Q81 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				Q81 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation

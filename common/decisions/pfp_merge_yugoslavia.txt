@@ -39,9 +39,9 @@ pfp_unification = {
 				tooltip = pfp_merge_yugoslavia_not_yet_formed_tt
 				NOT = { has_global_flag = pfp_yugoslavia_merged }
 			}
-			P86 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_yugoslavia_puppets_ready_tt
+				P86 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -55,10 +55,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P87 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P87 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -72,10 +69,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P88 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P88 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -89,10 +83,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P89 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P89 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation

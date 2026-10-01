@@ -44,9 +44,9 @@ pfp_unification = {
 				tooltip = pfp_merge_east_africa_not_yet_formed_tt
 				NOT = { has_global_flag = pfp_east_africa_merged }
 			}
-			Q55 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_east_africa_puppets_ready_tt
+				Q55 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -60,10 +60,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			Q56 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				Q56 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -77,10 +74,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			Q57 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				Q57 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -94,10 +88,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			Q58 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				Q58 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -111,10 +102,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			Q59 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				Q59 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation

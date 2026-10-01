@@ -39,9 +39,9 @@ pfp_unification = {
 				tooltip = pfp_merge_italy_not_yet_formed_tt
 				NOT = { has_global_flag = pfp_italy_merged }
 			}
-			P92 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_italy_puppets_ready_tt
+				P92 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -55,10 +55,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P93 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P93 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -72,10 +69,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P95 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P95 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -89,10 +83,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P96 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P96 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -106,10 +97,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P97 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P97 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation

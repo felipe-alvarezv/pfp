@@ -33,9 +33,9 @@ pfp_unification = {
 				tooltip = pfp_merge_western_russia_not_yet_formed_tt
 				NOT = { has_global_flag = pfp_western_russia_merged }
 			}
-			P39 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_russia_puppets_ready_tt
+				P39 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -49,10 +49,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P40 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P40 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -66,10 +63,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P42 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P42 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -83,10 +77,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P43 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P43 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -384,9 +375,9 @@ pfp_unification = {
 				tooltip = pfp_merge_eastern_russia_not_yet_formed_tt
 				NOT = { has_global_flag = pfp_eastern_russia_merged }
 			}
-			P44 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_eastern_russia_puppets_ready_tt
+				P44 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -400,10 +391,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P45 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P45 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
@@ -417,10 +405,7 @@ pfp_unification = {
 						}
 					}
 				}
-			}
-			P46 = {
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_ready_tt
+				P46 = {
 					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
