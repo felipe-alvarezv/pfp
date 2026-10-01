@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_kurdistan = {
 		allowed = {
 			NOT = {
@@ -24,7 +24,12 @@ pfp_category = {
 			}
 		}
 		visible = {
-			always = no #Replaced by PPL merger system
+			OR = {
+				has_full_control_of_state = 350 #Diyarbakir
+				has_full_control_of_state = 352 #Hakkari
+				has_full_control_of_state = 353 #Tunceli
+			}
+			NOT = { has_global_flag = pfp_kurdistan_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 

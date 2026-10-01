@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_himalayas = {
 		allowed = {
 			NOT = {
@@ -24,7 +24,12 @@ pfp_category = {
 			}
 		}
 		visible = {
-			always = no #Replaced by PPL merger system
+			OR = {
+				has_full_control_of_state = 322 #Nagqu
+				has_full_control_of_state = 757 #Shigatse
+				has_full_control_of_state = 758 #Ngari
+			}
+			NOT = { has_global_flag = pfp_himalayas_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
