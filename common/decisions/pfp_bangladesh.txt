@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_bangladesh = {
 		allowed = {
 			NOT = {
@@ -16,7 +16,8 @@ pfp_category = {
 			}
 		}
 		visible = {
-			always = no #Replaced by PPL merger system
+			has_full_control_of_state = 430 #East Bengal
+			NOT = { has_global_flag = pfp_bangladesh_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 430 } #East Bengal
