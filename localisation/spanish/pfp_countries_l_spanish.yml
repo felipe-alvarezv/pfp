@@ -5120,3 +5120,8 @@
   pfp_merge_north_africa_western_sahara_not_yet_absorbed_tt:0 "El Sáhara Occidental aún no ha sido absorbido en el Norte de África."
   pfp_merge_north_africa_western_sahara_requires_morocco_tt:0 "Marruecos debe ser absorbido primero en el Norte de África."
   pfp_merge_north_africa_western_sahara_effect_annex:0 "§YEl Norte de África§! anexa §YEl Sáhara Occidental§!, obteniendo sus núcleos y territorios incorporables.\n"
+
+  pfp_merge_north_africa_rif:0 "Absorber el Rif en el Norte de África"
+  pfp_merge_north_africa_rif_desc:0 "Arrimadas a la costa mediterránea del norte de Marruecos, las montañas del Rif albergaron una breve y feroz república que desafió a España y a Francia antes de ser aplastada en 1926. Sus clanes bereberes nunca han aceptado plenamente el dominio exterior. Incorporar el Rif al Norte de África es tanto un acto de reconciliación como de conquista."
+  pfp_merge_north_africa_rif_not_yet_absorbed_tt:0 "El Rif aún no ha sido absorbido en el Norte de África."
+  pfp_merge_north_africa_rif_effect_annex:0 "§YEl Norte de África§! anexa §YEl Rif§!, obteniendo sus núcleos y territorios incorporables.\n"

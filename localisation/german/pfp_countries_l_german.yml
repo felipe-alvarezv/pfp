@@ -5120,3 +5120,8 @@
   pfp_merge_north_africa_western_sahara_not_yet_absorbed_tt:0 "Die Westsahara wurde noch nicht in Nordafrika eingegliedert."
   pfp_merge_north_africa_western_sahara_requires_morocco_tt:0 "Marokko muss zuerst in Nordafrika eingegliedert werden."
   pfp_merge_north_africa_western_sahara_effect_annex:0 "§YNordafrika§! annektiert §YWestsahara§! und gewinnt seine Kerne und eingliederbaren Gebiete.\n"
+
+  pfp_merge_north_africa_rif:0 "Das Rif in Nordafrika eingliedern"
+  pfp_merge_north_africa_rif_desc:0 "Gedrückt an die Mittelmeerküste Nordmarokkos, boten die Rifberge einer kurzen und heftigen Republik Zuflucht, die sowohl Spanien als auch Frankreich trotz bevor sie 1926 niedergeschlagen wurde. Ihre Berberstämme haben die Fremdherrschaft nie vollständig akzeptiert. Das Rif in Nordafrika einzugliedern ist ebenso sehr ein Akt der Versöhnung wie der Eroberung."
+  pfp_merge_north_africa_rif_not_yet_absorbed_tt:0 "Das Rif wurde noch nicht in Nordafrika eingegliedert."
+  pfp_merge_north_africa_rif_effect_annex:0 "§YNordafrika§! annektiert §YDas Rif§! und gewinnt seine Kerne und eingliederbaren Gebiete.\n"

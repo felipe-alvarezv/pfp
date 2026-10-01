@@ -5120,3 +5120,8 @@
   pfp_merge_north_africa_western_sahara_not_yet_absorbed_tt:0 "서사하라는 아직 북아프리카에 흡수되지 않았습니다."
   pfp_merge_north_africa_western_sahara_requires_morocco_tt:0 "먼저 모로코를 북아프리카에 흡수해야 합니다."
   pfp_merge_north_africa_western_sahara_effect_annex:0 "§Y북아프리카§!가 §Y서사하라§!를 합병하여 핵심지와 편입 가능한 영토를 획득합니다.\n"
+
+  pfp_merge_north_africa_rif:0 "리프를 북아프리카에 흡수"
+  pfp_merge_north_africa_rif_desc:0 "모로코 북부 지중해 해안에 맞닿은 리프 산맥은 1926년 진압되기 전까지 스페인과 프랑스 양국에 저항한 짧고 치열한 공화국을 품었다. 그 베르베르 씨족들은 외부의 지배를 아직도 완전히 받아들이지 않고 있다. 리프를 북아프리카에 편입하는 것은 정복인 동시에 화해의 행위이다."
+  pfp_merge_north_africa_rif_not_yet_absorbed_tt:0 "리프는 아직 북아프리카에 흡수되지 않았습니다."
+  pfp_merge_north_africa_rif_effect_annex:0 "§Y북아프리카§!가 §Y리프§!를 합병하여 핵심지와 편입 가능한 영토를 획득합니다.\n"

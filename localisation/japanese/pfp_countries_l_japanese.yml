@@ -5120,3 +5120,8 @@
   pfp_merge_north_africa_western_sahara_not_yet_absorbed_tt:0 "西サハラはまだ北アフリカに吸収されていない。"
   pfp_merge_north_africa_western_sahara_requires_morocco_tt:0 "まずモロッコを北アフリカに吸収しなければならない。"
   pfp_merge_north_africa_western_sahara_effect_annex:0 "§Y北アフリカ§!は§Y西サハラ§!を併合し、そのコアと編入可能な領土を獲得する。\n"
+
+  pfp_merge_north_africa_rif:0 "リーフを北アフリカに吸収する"
+  pfp_merge_north_africa_rif_desc:0 "モロッコ北部の地中海沿岸に迫るリーフ山脈は、1926年に鎮圧されるまでスペインとフランスの両国に抵抗した短命にして激烈な共和国を育んだ。そのベルベル人の部族は外部の支配を未だ完全には受け入れていない。リーフを北アフリカに編入することは、征服であると同時に和解の行為でもある。"
+  pfp_merge_north_africa_rif_not_yet_absorbed_tt:0 "リーフはまだ北アフリカに吸収されていない。"
+  pfp_merge_north_africa_rif_effect_annex:0 "§Y北アフリカ§!は§Yリーフ§!を併合し、そのコアと編入可能な領土を獲得する。\n"

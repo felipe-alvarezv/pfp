@@ -5120,3 +5120,8 @@
   pfp_merge_north_africa_western_sahara_not_yet_absorbed_tt:0 "Sahara Zachodnia nie została jeszcze wchłonięta do Afryki Północnej."
   pfp_merge_north_africa_western_sahara_requires_morocco_tt:0 "Maroko musi być najpierw wchłonięte do Afryki Północnej."
   pfp_merge_north_africa_western_sahara_effect_annex:0 "§YAfryka Północna§! anektuje §YSaharę Zachodnią§!, zdobywając jej rdzenie i możliwe do włączenia terytoria.\n"
+
+  pfp_merge_north_africa_rif:0 "Wchłonąć Rif do Afryki Północnej"
+  pfp_merge_north_africa_rif_desc:0 "Wtłoczone w śródziemnomorskie wybrzeże północnego Maroka, góry Rif dały schronienie krótkiej i zaciętej republice, która stawiała opór zarówno Hiszpanii, jak i Francji, zanim została rozbita w 1926 roku. Jej berberyjskie klany nigdy w pełni nie zaakceptowały obcego panowania. Włączenie Rifu do Afryki Północnej jest zarówno aktem pojednania, jak i podboju."
+  pfp_merge_north_africa_rif_not_yet_absorbed_tt:0 "Rif nie został jeszcze wchłonięty do Afryki Północnej."
+  pfp_merge_north_africa_rif_effect_annex:0 "§YAfryka Północna§! anektuje §YRif§!, zdobywając jego rdzenie i możliwe do włączenia terytoria.\n"

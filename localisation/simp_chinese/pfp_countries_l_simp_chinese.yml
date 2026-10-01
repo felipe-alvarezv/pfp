@@ -5120,3 +5120,8 @@
   pfp_merge_north_africa_western_sahara_not_yet_absorbed_tt:0 "西撒哈拉尚未被并入北非。"
   pfp_merge_north_africa_western_sahara_requires_morocco_tt:0 "必须先将摩洛哥并入北非。"
   pfp_merge_north_africa_western_sahara_effect_annex:0 "§Y北非§!吞并§Y西撒哈拉§!，获得其核心与可并入领土。\n"
+
+  pfp_merge_north_africa_rif:0 "将里夫并入北非"
+  pfp_merge_north_africa_rif_desc:0 "里夫山脉紧贴摩洛哥北部的地中海海岸，曾孕育出一个短暂而激烈的共和国，在1926年被镇压之前同时抵抗着西班牙与法国。那里的柏柏尔人部族从未完全接受外部的统治。将里夫并入北非，既是征服，也是和解。"
+  pfp_merge_north_africa_rif_not_yet_absorbed_tt:0 "里夫尚未被并入北非。"
+  pfp_merge_north_africa_rif_effect_annex:0 "§Y北非§!吞并§Y里夫§!，获得其核心与可并入领土。\n"

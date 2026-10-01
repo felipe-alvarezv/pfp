@@ -5122,3 +5122,8 @@
   pfp_merge_north_africa_western_sahara_not_yet_absorbed_tt:0 "Western Sahara has not yet been absorbed into North Africa."
   pfp_merge_north_africa_western_sahara_requires_morocco_tt:0 "Morocco must first be absorbed into North Africa."
   pfp_merge_north_africa_western_sahara_effect_annex:0 "§YNorth Africa§! annexes §YWestern Sahara§!, gaining its cores and coreable territories.\n"
+
+  pfp_merge_north_africa_rif:0 "Absorb the Rif into North Africa"
+  pfp_merge_north_africa_rif_desc:0 "Pressed against the Mediterranean coast of northern Morocco, the Rif mountains sheltered a brief and fierce republic that defied both Spain and France before being crushed in 1926. Its Berber clans have never fully accepted outside rule. Bringing the Rif into North Africa is as much an act of reconciliation as conquest."
+  pfp_merge_north_africa_rif_not_yet_absorbed_tt:0 "The Rif has not yet been absorbed into North Africa."
+  pfp_merge_north_africa_rif_effect_annex:0 "§YNorth Africa§! annexes §YThe Rif§!, gaining its cores and coreable territories.\n"
