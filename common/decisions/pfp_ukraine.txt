@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_ukraine = {
 		allowed = {
 			NOT = {
@@ -54,7 +54,18 @@ pfp_category = {
 			}
 		}
 		visible = {
-			always = no #Replaced by PPL merger system
+			OR = {
+				has_full_control_of_state = 193 #Chernigov
+				has_full_control_of_state = 196 #Kherson
+				has_full_control_of_state = 197 #Mykolaiv
+				has_full_control_of_state = 200 #Zaporozhe
+				has_full_control_of_state = 201 #Zhytomyr
+				has_full_control_of_state = 202 #Kiev
+				has_full_control_of_state = 203 #Cherkasy
+				has_full_control_of_state = 226 #Dnipropetrovsk
+				has_full_control_of_state = 259 #Poltava
+			}
+			NOT = { has_global_flag = pfp_ukraine_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 

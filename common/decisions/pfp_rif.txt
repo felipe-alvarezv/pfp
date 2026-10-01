@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_rif = {
 		allowed = {
 			NOT = {
@@ -14,7 +14,10 @@ pfp_category = {
 			}
 		}
 		visible = {
-			always = no #Replaced by PPL merger system
+			OR = {
+				has_full_control_of_state = 290 #Spanish Africa
+			}
+			NOT = { has_global_flag = pfp_rif_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
