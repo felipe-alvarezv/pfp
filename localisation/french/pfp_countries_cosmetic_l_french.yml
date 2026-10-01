@@ -57,3 +57,13 @@
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "Afrique du Nord $OVERLORDADJ$"
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "Afrique du Nord $OVERLORDADJ$"
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "Afrique du Nord $OVERLORDADJ$"
+
+ PFP_WEST_AFRICA:0 "Afrique de l'Ouest"
+ PFP_WEST_AFRICA_DEF:0 "de l'Afrique de l'Ouest"
+ PFP_WEST_AFRICA_ADJ:0 "Ouest-Africain"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation:0 "Afrique de l'Ouest $OVERLORDADJ$"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_DEF:0 "de l'Afrique de l'Ouest $OVERLORDADJ$"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "Afrique de l'Ouest $OVERLORDADJ$"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted:0 "Afrique de l'Ouest $OVERLORDADJ$"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "de l'Afrique de l'Ouest $OVERLORDADJ$"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "Afrique de l'Ouest $OVERLORDADJ$"

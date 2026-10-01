@@ -57,3 +57,13 @@
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 북아프리카"
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 북아프리카"
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 북아프리카"
+
+ PFP_WEST_AFRICA:0 "서아프리카"
+ PFP_WEST_AFRICA_DEF:0 "서아프리카"
+ PFP_WEST_AFRICA_ADJ:0 "서아프리카의"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 서아프리카"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 서아프리카"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 서아프리카의"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 서아프리카"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 서아프리카"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 서아프리카의"

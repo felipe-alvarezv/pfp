@@ -57,3 +57,13 @@
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$北アフリカ"
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$北アフリカ"
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$北アフリカ"
+
+ PFP_WEST_AFRICA:0 "西アフリカ"
+ PFP_WEST_AFRICA_DEF:0 "西アフリカ"
+ PFP_WEST_AFRICA_ADJ:0 "西アフリカの"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$西アフリカ"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$西アフリカ"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$西アフリカの"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$西アフリカ"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$西アフリカ"
+ PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$西アフリカの"
