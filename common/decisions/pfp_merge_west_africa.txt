@@ -4,10 +4,10 @@
 # West Africa.
 #
 # Decision 1: pfp_merge_west_africa
-#   Requires all 13 core West African puppets as PFP subjects:
+#   Requires all 13 West African puppets:
 #   Niger (Q33), Mali (Q34), Nigeria (Q35), Togo (Q40), Dahomey (Q41),
-#   Gold Coast (Q42), Upper Volta (Q43), Ivory Coast (Q44), Sierra Leone (Q47),
-#   Senegal (Q49), Gambia (Q50), Guinea (Q46), Mauritania (Q52).
+#   Gold Coast (Q42), Upper Volta (Q43), Ivory Coast (Q44), Guinea (Q46),
+#   Sierra Leone (Q47), Senegal (Q49), Gambia (Q50), Mauritania (Q52).
 #   The puppet with the most total factories becomes West Africa.
 #
 # Follow-up decisions (available after West Africa is formed):

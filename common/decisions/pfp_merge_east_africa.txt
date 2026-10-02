@@ -4,16 +4,13 @@
 # East Africa.
 #
 # Decision 1: pfp_merge_east_africa
-#   Requires all 5 Horn of Africa puppets as PFP subjects:
+#   Requires all 9 East African puppets:
 #   Ethiopia (Q55), Eritrea (Q56), Djibouti (Q57), Somaliland (Q58),
-#   Somalia (Q59).
-#   The puppet with the most total factories + scaled manpower becomes
-#   East Africa.
+#   Somalia (Q59), Kenya (Q60), Uganda (Q61), Tanganyika (Q62),
+#   Sudan (Q31).
+#   The puppet with the most total factories becomes East Africa.
 #
-# Follow-up decisions (available after East Africa is formed, all independent):
-#   pfp_merge_east_africa_kenya        - Absorbs Kenya (Q60)
-#   pfp_merge_east_africa_uganda       - Absorbs Uganda (Q61)
-#   pfp_merge_east_africa_tanganyika   - Absorbs Tanganyika (Q62)
+# Follow-up decisions (available after East Africa is formed):
 #   pfp_merge_east_africa_ruanda_urundi - Absorbs Ruanda-Urundi (Q66)
 ###########################################################################
 
@@ -21,7 +18,8 @@ pfp_unification = {
 
 	# ----------------------------------------------------------------
 	# Ethiopia (Q55) + Eritrea (Q56) + Djibouti (Q57) +
-	# Somaliland (Q58) + Somalia (Q59) -> East Africa
+	# Somaliland (Q58) + Somalia (Q59) + Kenya (Q60) +
+	# Uganda (Q61) + Tanganyika (Q62) + Sudan (Q31) -> East Africa
 	# ----------------------------------------------------------------
 	pfp_merge_east_africa = {
 		icon = generic_nationalism
@@ -35,6 +33,10 @@ pfp_unification = {
 				Q57 = { is_subject_of = ROOT }
 				Q58 = { is_subject_of = ROOT }
 				Q59 = { is_subject_of = ROOT }
+				Q60 = { is_subject_of = ROOT }
+				Q61 = { is_subject_of = ROOT }
+				Q62 = { is_subject_of = ROOT }
+				Q31 = { is_subject_of = ROOT }
 			}
 		}
 
@@ -116,6 +118,62 @@ pfp_unification = {
 						}
 					}
 				}
+				Q60 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+				Q61 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+				Q62 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+				Q31 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
 			}
 		}
 
@@ -126,9 +184,8 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_east_africa_effect_annex
 			custom_effect_tooltip = pfp_merge_east_africa_effect_cores
 			hidden_effect = {
-				# Score = mil factories + civ factories
 				# Q55 Ethiopia initializes as default winner.
-				# Each subsequent tag wins if it strictly has a higher score.
+				# Each subsequent tag wins if it strictly has more factories.
 				Q55 = {
 					set_variable = { pfp_fac = num_of_military_factories }
 					add_to_variable = { pfp_fac = num_of_civilian_factories }
@@ -166,8 +223,39 @@ pfp_unification = {
 						save_global_event_target_as = pfp_east_africa_winner
 					}
 				}
+				Q60 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_east_africa_winner.pfp_fac } }
+						save_global_event_target_as = pfp_east_africa_winner
+					}
+				}
+				Q61 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_east_africa_winner.pfp_fac } }
+						save_global_event_target_as = pfp_east_africa_winner
+					}
+				}
+				Q62 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_east_africa_winner.pfp_fac } }
+						save_global_event_target_as = pfp_east_africa_winner
+					}
+				}
+				Q31 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_east_africa_winner.pfp_fac } }
+						save_global_event_target_as = pfp_east_africa_winner
+					}
+				}
 
-				# Transfer state cores/ownership from losers to winner
 				if = {
 					limit = { NOT = { event_target:pfp_east_africa_winner = { tag = Q55 } } }
 					every_state = {
@@ -223,54 +311,70 @@ pfp_unification = {
 						remove_contested_owner = Q59
 					}
 				}
+				if = {
+					limit = { NOT = { event_target:pfp_east_africa_winner = { tag = Q60 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q60  has_contested_owner = Q60 } }
+						add_core_of = event_target:pfp_east_africa_winner
+						add_contested_owner = event_target:pfp_east_africa_winner
+						remove_core_of = Q60
+						remove_claim_by = Q60
+						remove_contested_owner = Q60
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_east_africa_winner = { tag = Q61 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q61  has_contested_owner = Q61 } }
+						add_core_of = event_target:pfp_east_africa_winner
+						add_contested_owner = event_target:pfp_east_africa_winner
+						remove_core_of = Q61
+						remove_claim_by = Q61
+						remove_contested_owner = Q61
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_east_africa_winner = { tag = Q62 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q62  has_contested_owner = Q62 } }
+						add_core_of = event_target:pfp_east_africa_winner
+						add_contested_owner = event_target:pfp_east_africa_winner
+						remove_core_of = Q62
+						remove_claim_by = Q62
+						remove_contested_owner = Q62
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_east_africa_winner = { tag = Q31 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q31  has_contested_owner = Q31 } }
+						add_core_of = event_target:pfp_east_africa_winner
+						add_contested_owner = event_target:pfp_east_africa_winner
+						remove_core_of = Q31
+						remove_claim_by = Q31
+						remove_contested_owner = Q31
+					}
+				}
 
-				# Transfer pfp_possible_cores arrays, annex losers, set tag and flag
 				event_target:pfp_east_africa_winner = {
-					if = {
-						limit = { NOT = { tag = Q55 } }
-						for_each_loop = {
-							array = Q55.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = Q56 } }
-						for_each_loop = {
-							array = Q56.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = Q57 } }
-						for_each_loop = {
-							array = Q57.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = Q58 } }
-						for_each_loop = {
-							array = Q58.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = Q59 } }
-						for_each_loop = {
-							array = Q59.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
+					if = { limit = { NOT = { tag = Q55 } } for_each_loop = { array = Q55.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q56 } } for_each_loop = { array = Q56.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q57 } } for_each_loop = { array = Q57.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q58 } } for_each_loop = { array = Q58.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q59 } } for_each_loop = { array = Q59.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q60 } } for_each_loop = { array = Q60.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q61 } } for_each_loop = { array = Q61.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q62 } } for_each_loop = { array = Q62.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q31 } } for_each_loop = { array = Q31.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
 					if = { limit = { NOT = { tag = Q55 } } annex_country = { target = Q55 transfer_troops = yes } }
 					if = { limit = { NOT = { tag = Q56 } } annex_country = { target = Q56 transfer_troops = yes } }
 					if = { limit = { NOT = { tag = Q57 } } annex_country = { target = Q57 transfer_troops = yes } }
 					if = { limit = { NOT = { tag = Q58 } } annex_country = { target = Q58 transfer_troops = yes } }
 					if = { limit = { NOT = { tag = Q59 } } annex_country = { target = Q59 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q60 } } annex_country = { target = Q60 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q61 } } annex_country = { target = Q61 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q62 } } annex_country = { target = Q62 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q31 } } annex_country = { target = Q31 transfer_troops = yes } }
 					set_cosmetic_tag = PFP_EAST_AFRICA
 					set_country_flag = pfp_is_east_africa
 				}
@@ -284,231 +388,7 @@ pfp_unification = {
 	}
 
 	# ----------------------------------------------------------------
-	# Formed East Africa + Kenya (Q60) -> absorb Kenya into East Africa
-	# Follow-up: only available after pfp_merge_east_africa has fired
-	# ----------------------------------------------------------------
-	pfp_merge_east_africa_kenya = {
-		icon = generic_nationalism
-
-		visible = {
-			is_subject = no
-			has_global_flag = pfp_east_africa_merged
-			NOT = { has_global_flag = pfp_east_africa_absorbed_kenya }
-			Q60 = { is_subject_of = ROOT }
-		}
-
-		available = {
-			is_ai = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_kenya_not_yet_absorbed_tt
-				NOT = { has_global_flag = pfp_east_africa_absorbed_kenya }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_is_formed_tt
-				any_subject_country = { has_country_flag = pfp_is_east_africa }
-			}
-			Q60 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		complete_effect = {
-			custom_effect_tooltip = pfp_merge_east_africa_kenya_effect_annex
-			hidden_effect = {
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_east_africa }
-					save_global_event_target_as = pfp_east_africa_country
-					for_each_loop = {
-						array = Q60.pfp_possible_cores
-						value = pfp_temp_core_id
-						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-					}
-				}
-
-				every_state = {
-					limit = { OR = { is_owned_by = Q60  has_contested_owner = Q60 } }
-					add_core_of = event_target:pfp_east_africa_country
-					add_contested_owner = event_target:pfp_east_africa_country
-					remove_core_of = Q60
-					remove_claim_by = Q60
-					remove_contested_owner = Q60
-				}
-
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_east_africa }
-					annex_country = { target = Q60 transfer_troops = yes }
-				}
-
-				clear_global_event_target = pfp_east_africa_country
-				set_global_flag = pfp_east_africa_absorbed_kenya
-			}
-		}
-
-		ai_will_do = { factor = 0 }
-	}
-
-	# ----------------------------------------------------------------
-	# Formed East Africa + Uganda (Q61) -> absorb Uganda into East Africa
-	# Follow-up: only available after pfp_merge_east_africa has fired
-	# ----------------------------------------------------------------
-	pfp_merge_east_africa_uganda = {
-		icon = generic_nationalism
-
-		visible = {
-			is_subject = no
-			has_global_flag = pfp_east_africa_merged
-			NOT = { has_global_flag = pfp_east_africa_absorbed_uganda }
-			Q61 = { is_subject_of = ROOT }
-		}
-
-		available = {
-			is_ai = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_uganda_not_yet_absorbed_tt
-				NOT = { has_global_flag = pfp_east_africa_absorbed_uganda }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_is_formed_tt
-				any_subject_country = { has_country_flag = pfp_is_east_africa }
-			}
-			Q61 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		complete_effect = {
-			custom_effect_tooltip = pfp_merge_east_africa_uganda_effect_annex
-			hidden_effect = {
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_east_africa }
-					save_global_event_target_as = pfp_east_africa_country
-					for_each_loop = {
-						array = Q61.pfp_possible_cores
-						value = pfp_temp_core_id
-						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-					}
-				}
-
-				every_state = {
-					limit = { OR = { is_owned_by = Q61  has_contested_owner = Q61 } }
-					add_core_of = event_target:pfp_east_africa_country
-					add_contested_owner = event_target:pfp_east_africa_country
-					remove_core_of = Q61
-					remove_claim_by = Q61
-					remove_contested_owner = Q61
-				}
-
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_east_africa }
-					annex_country = { target = Q61 transfer_troops = yes }
-				}
-
-				clear_global_event_target = pfp_east_africa_country
-				set_global_flag = pfp_east_africa_absorbed_uganda
-			}
-		}
-
-		ai_will_do = { factor = 0 }
-	}
-
-	# ----------------------------------------------------------------
-	# Formed East Africa + Tanganyika (Q62) -> absorb into East Africa
-	# Follow-up: requires Kenya absorbed first (geographic link)
-	# ----------------------------------------------------------------
-	pfp_merge_east_africa_tanganyika = {
-		icon = generic_nationalism
-
-		visible = {
-			is_subject = no
-			has_global_flag = pfp_east_africa_merged
-			NOT = { has_global_flag = pfp_east_africa_absorbed_tanganyika }
-			Q62 = { is_subject_of = ROOT }
-		}
-
-		available = {
-			is_ai = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_tanganyika_not_yet_absorbed_tt
-				NOT = { has_global_flag = pfp_east_africa_absorbed_tanganyika }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_is_formed_tt
-				any_subject_country = { has_country_flag = pfp_is_east_africa }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_tanganyika_requires_kenya_tt
-				has_global_flag = pfp_east_africa_absorbed_kenya
-			}
-			Q62 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		complete_effect = {
-			custom_effect_tooltip = pfp_merge_east_africa_tanganyika_effect_annex
-			hidden_effect = {
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_east_africa }
-					save_global_event_target_as = pfp_east_africa_country
-					for_each_loop = {
-						array = Q62.pfp_possible_cores
-						value = pfp_temp_core_id
-						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-					}
-				}
-
-				every_state = {
-					limit = { OR = { is_owned_by = Q62  has_contested_owner = Q62 } }
-					add_core_of = event_target:pfp_east_africa_country
-					add_contested_owner = event_target:pfp_east_africa_country
-					remove_core_of = Q62
-					remove_claim_by = Q62
-					remove_contested_owner = Q62
-				}
-
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_east_africa }
-					annex_country = { target = Q62 transfer_troops = yes }
-				}
-
-				clear_global_event_target = pfp_east_africa_country
-				set_global_flag = pfp_east_africa_absorbed_tanganyika
-			}
-		}
-
-		ai_will_do = { factor = 0 }
-	}
-
-	# ----------------------------------------------------------------
 	# Formed East Africa + Ruanda-Urundi (Q66) -> absorb into East Africa
-	# Follow-up: only available after pfp_merge_east_africa has fired
 	# ----------------------------------------------------------------
 	pfp_merge_east_africa_ruanda_urundi = {
 		icon = generic_nationalism
@@ -573,79 +453,6 @@ pfp_unification = {
 
 				clear_global_event_target = pfp_east_africa_country
 				set_global_flag = pfp_east_africa_absorbed_ruanda_urundi
-			}
-		}
-
-		ai_will_do = { factor = 0 }
-	}
-
-	# ----------------------------------------------------------------
-	# Formed East Africa + Sudan (Q31) -> absorb Sudan into East Africa
-	# Follow-up: only available after pfp_merge_east_africa has fired
-	# ----------------------------------------------------------------
-	pfp_merge_east_africa_sudan = {
-		icon = generic_nationalism
-
-		visible = {
-			is_subject = no
-			has_global_flag = pfp_east_africa_merged
-			NOT = { has_global_flag = pfp_east_africa_absorbed_sudan }
-			Q31 = { is_subject_of = ROOT }
-		}
-
-		available = {
-			is_ai = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_sudan_not_yet_absorbed_tt
-				NOT = { has_global_flag = pfp_east_africa_absorbed_sudan }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_east_africa_is_formed_tt
-				any_subject_country = { has_country_flag = pfp_is_east_africa }
-			}
-			Q31 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		complete_effect = {
-			custom_effect_tooltip = pfp_merge_east_africa_sudan_effect_annex
-			hidden_effect = {
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_east_africa }
-					save_global_event_target_as = pfp_east_africa_country
-					for_each_loop = {
-						array = Q31.pfp_possible_cores
-						value = pfp_temp_core_id
-						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-					}
-				}
-
-				every_state = {
-					limit = { OR = { is_owned_by = Q31  has_contested_owner = Q31 } }
-					add_core_of = event_target:pfp_east_africa_country
-					add_contested_owner = event_target:pfp_east_africa_country
-					remove_core_of = Q31
-					remove_claim_by = Q31
-					remove_contested_owner = Q31
-				}
-
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_east_africa }
-					annex_country = { target = Q31 transfer_troops = yes }
-				}
-
-				clear_global_event_target = pfp_east_africa_country
-				set_global_flag = pfp_east_africa_absorbed_sudan
 			}
 		}
 

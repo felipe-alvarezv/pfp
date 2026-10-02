@@ -4,8 +4,8 @@
 # North Africa.
 #
 # Decision 1: pfp_merge_north_africa
-#   Requires all 5 core North African puppets as PFP subjects:
-#   Morocco (Q26), Algeria (Q27), Tunisia (Q28), Libya (Q29), Egypt (Q30).
+#   Requires Morocco (Q26), Algeria (Q27), Tunisia (Q28),
+#   Libya (Q29), and Egypt (Q30) as PFP subjects.
 #   The puppet with the most total factories becomes North Africa.
 #
 # Follow-up decisions (available after North Africa is formed):
@@ -16,8 +16,8 @@
 pfp_unification = {
 
 	# ----------------------------------------------------------------
-	# Morocco (Q26) + Algeria (Q27) + Tunisia (Q28) +
-	# Libya (Q29) + Egypt (Q30) -> North Africa
+	# Morocco (Q26) + Algeria (Q27) + Tunisia (Q28)
+	# + Libya (Q29) + Egypt (Q30) -> North Africa
 	# ----------------------------------------------------------------
 	pfp_merge_north_africa = {
 		icon = generic_nationalism
@@ -162,11 +162,10 @@ pfp_unification = {
 					}
 				}
 
-				# Transfer state cores/ownership from losers to winner
 				if = {
 					limit = { NOT = { event_target:pfp_north_africa_winner = { tag = Q26 } } }
 					every_state = {
-						limit = { OR = { is_owned_by = Q26  has_contested_owner = Q26 } }
+						limit = { OR = { is_owned_by = Q26 has_contested_owner = Q26 } }
 						add_core_of = event_target:pfp_north_africa_winner
 						add_contested_owner = event_target:pfp_north_africa_winner
 						remove_core_of = Q26
@@ -177,7 +176,7 @@ pfp_unification = {
 				if = {
 					limit = { NOT = { event_target:pfp_north_africa_winner = { tag = Q27 } } }
 					every_state = {
-						limit = { OR = { is_owned_by = Q27  has_contested_owner = Q27 } }
+						limit = { OR = { is_owned_by = Q27 has_contested_owner = Q27 } }
 						add_core_of = event_target:pfp_north_africa_winner
 						add_contested_owner = event_target:pfp_north_africa_winner
 						remove_core_of = Q27
@@ -188,7 +187,7 @@ pfp_unification = {
 				if = {
 					limit = { NOT = { event_target:pfp_north_africa_winner = { tag = Q28 } } }
 					every_state = {
-						limit = { OR = { is_owned_by = Q28  has_contested_owner = Q28 } }
+						limit = { OR = { is_owned_by = Q28 has_contested_owner = Q28 } }
 						add_core_of = event_target:pfp_north_africa_winner
 						add_contested_owner = event_target:pfp_north_africa_winner
 						remove_core_of = Q28
@@ -199,7 +198,7 @@ pfp_unification = {
 				if = {
 					limit = { NOT = { event_target:pfp_north_africa_winner = { tag = Q29 } } }
 					every_state = {
-						limit = { OR = { is_owned_by = Q29  has_contested_owner = Q29 } }
+						limit = { OR = { is_owned_by = Q29 has_contested_owner = Q29 } }
 						add_core_of = event_target:pfp_north_africa_winner
 						add_contested_owner = event_target:pfp_north_africa_winner
 						remove_core_of = Q29
@@ -210,7 +209,7 @@ pfp_unification = {
 				if = {
 					limit = { NOT = { event_target:pfp_north_africa_winner = { tag = Q30 } } }
 					every_state = {
-						limit = { OR = { is_owned_by = Q30  has_contested_owner = Q30 } }
+						limit = { OR = { is_owned_by = Q30 has_contested_owner = Q30 } }
 						add_core_of = event_target:pfp_north_africa_winner
 						add_contested_owner = event_target:pfp_north_africa_winner
 						remove_core_of = Q30
@@ -219,48 +218,12 @@ pfp_unification = {
 					}
 				}
 
-				# Transfer pfp_possible_cores arrays, annex losers, set tag and flag
 				event_target:pfp_north_africa_winner = {
-					if = {
-						limit = { NOT = { tag = Q26 } }
-						for_each_loop = {
-							array = Q26.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = Q27 } }
-						for_each_loop = {
-							array = Q27.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = Q28 } }
-						for_each_loop = {
-							array = Q28.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = Q29 } }
-						for_each_loop = {
-							array = Q29.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
-					if = {
-						limit = { NOT = { tag = Q30 } }
-						for_each_loop = {
-							array = Q30.pfp_possible_cores
-							value = pfp_temp_core_id
-							add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-						}
-					}
+					if = { limit = { NOT = { tag = Q26 } } for_each_loop = { array = Q26.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q27 } } for_each_loop = { array = Q27.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q28 } } for_each_loop = { array = Q28.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q29 } } for_each_loop = { array = Q29.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q30 } } for_each_loop = { array = Q30.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
 					if = { limit = { NOT = { tag = Q26 } } annex_country = { target = Q26 transfer_troops = yes } }
 					if = { limit = { NOT = { tag = Q27 } } annex_country = { target = Q27 transfer_troops = yes } }
 					if = { limit = { NOT = { tag = Q28 } } annex_country = { target = Q28 transfer_troops = yes } }
@@ -279,7 +242,7 @@ pfp_unification = {
 	}
 
 	# ----------------------------------------------------------------
-	# Formed North Africa + Western Sahara (Q53) -> absorb Western Sahara
+	# Formed North Africa + Western Sahara (Q53)
 	# ----------------------------------------------------------------
 	pfp_merge_north_africa_western_sahara = {
 		icon = generic_nationalism
@@ -329,7 +292,7 @@ pfp_unification = {
 				}
 
 				every_state = {
-					limit = { OR = { is_owned_by = Q53  has_contested_owner = Q53 } }
+					limit = { OR = { is_owned_by = Q53 has_contested_owner = Q53 } }
 					add_core_of = event_target:pfp_north_africa_country
 					add_contested_owner = event_target:pfp_north_africa_country
 					remove_core_of = Q53
@@ -351,7 +314,7 @@ pfp_unification = {
 	}
 
 	# ----------------------------------------------------------------
-	# Formed North Africa + Rif (Q73) -> absorb Rif
+	# Formed North Africa + Rif (Q73)
 	# ----------------------------------------------------------------
 	pfp_merge_north_africa_rif = {
 		icon = generic_nationalism
@@ -401,7 +364,7 @@ pfp_unification = {
 				}
 
 				every_state = {
-					limit = { OR = { is_owned_by = Q73  has_contested_owner = Q73 } }
+					limit = { OR = { is_owned_by = Q73 has_contested_owner = Q73 } }
 					add_core_of = event_target:pfp_north_africa_country
 					add_contested_owner = event_target:pfp_north_africa_country
 					remove_core_of = Q73
