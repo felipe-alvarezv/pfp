@@ -83,3 +83,8 @@
   PFP_SOUTH_AFRICA_ADJ:0 "Южноафриканский"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Южная Африка"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Южная Африка"
+  PFP_SCANDINAVIA:0 "Скандинавия"
+  PFP_SCANDINAVIA_DEF:0 "Скандинавия"
+  PFP_SCANDINAVIA_ADJ:0 "Скандинавский"
+  PFP_SCANDINAVIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Скандинавия"
+  PFP_SCANDINAVIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Скандинавия"

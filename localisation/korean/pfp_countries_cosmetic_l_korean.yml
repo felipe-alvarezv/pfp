@@ -83,3 +83,8 @@
   PFP_SOUTH_AFRICA_ADJ:0 "남아프리카"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 남아프리카"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 남아프리카"
+  PFP_SCANDINAVIA:0 "스칸디나비아"
+  PFP_SCANDINAVIA_DEF:0 "스칸디나비아"
+  PFP_SCANDINAVIA_ADJ:0 "스칸디나비아"
+  PFP_SCANDINAVIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 스칸디나비아"
+  PFP_SCANDINAVIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 스칸디나비아"

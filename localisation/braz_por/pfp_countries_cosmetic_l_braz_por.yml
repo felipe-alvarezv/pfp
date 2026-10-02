@@ -83,3 +83,8 @@
   PFP_SOUTH_AFRICA_ADJ:0 "sul-africano"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation:0 "África do Sul de $OVERLORD$"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "África do Sul de $OVERLORD$"
+  PFP_SCANDINAVIA:0 "Escandinávia"
+  PFP_SCANDINAVIA_DEF:0 "Escandinávia"
+  PFP_SCANDINAVIA_ADJ:0 "escandinavo"
+  PFP_SCANDINAVIA_pfp_autonomy_military_occupation:0 "Escandinávia de $OVERLORD$"
+  PFP_SCANDINAVIA_pfp_autonomy_military_occupation_painted:0 "Escandinávia de $OVERLORD$"

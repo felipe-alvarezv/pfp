@@ -83,3 +83,8 @@
   PFP_SOUTH_AFRICA_ADJ:0 "南非"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$南非"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$南非"
+  PFP_SCANDINAVIA:0 "斯堪的纳维亚"
+  PFP_SCANDINAVIA_DEF:0 "斯堪的纳维亚"
+  PFP_SCANDINAVIA_ADJ:0 "斯堪的纳维亚"
+  PFP_SCANDINAVIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$斯堪的纳维亚"
+  PFP_SCANDINAVIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$斯堪的纳维亚"
