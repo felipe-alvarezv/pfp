@@ -42,48 +42,12 @@ pfp_unification = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = pfp_merge_north_africa_puppets_ready_tt
-				Q26 = { is_subject_of = ROOT }
-				Q27 = { is_subject_of = ROOT }
-				Q28 = { is_subject_of = ROOT }
-				Q29 = { is_subject_of = ROOT }
-				Q30 = { is_subject_of = ROOT }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_subject_is_military_occupation_tt
 				Q26 = {
+					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
-				}
-				Q27 = {
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-				Q28 = {
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-				Q29 = {
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-				Q30 = {
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-				Q26 = {
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -93,6 +57,11 @@ pfp_unification = {
 					}
 				}
 				Q27 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -102,6 +71,11 @@ pfp_unification = {
 					}
 				}
 				Q28 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -111,6 +85,11 @@ pfp_unification = {
 					}
 				}
 				Q29 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -120,6 +99,11 @@ pfp_unification = {
 					}
 				}
 				Q30 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores

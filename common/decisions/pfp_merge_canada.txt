@@ -39,27 +39,12 @@ pfp_unification = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = pfp_merge_canada_puppets_ready_tt
-				P11 = { is_subject_of = ROOT }
-				P29 = { is_subject_of = ROOT }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_subject_is_military_occupation_tt
 				P11 = {
+					is_subject_of = ROOT
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
 					}
-				}
-				P29 = {
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-				P11 = {
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
@@ -69,6 +54,11 @@ pfp_unification = {
 					}
 				}
 				P29 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
 					NOT = {
 						any_state_in = {
 							array = THIS.pfp_possible_cores
