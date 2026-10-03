@@ -1,0 +1,88 @@
+#Scripted effect to release Saudi Arabia (Q85)
+pfp_release_saudi_arabia = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			292 = { add_contested_owner = Q85 } #Nejd
+			678 = { add_contested_owner = Q85 } #Rub al Khali
+			858 = { add_contested_owner = Q85 } #Najiran
+			856 = { add_contested_owner = Q85 } #Asir-Makkah
+			679 = { add_contested_owner = Q85 } #Madinah
+			859 = { add_contested_owner = Q85 } #Dammam
+			857 = { add_contested_owner = Q85 } #Al-Qassim
+			855 = { add_contested_owner = Q85 } #Tabuk
+			854 = { add_contested_owner = Q85 } #Jawf
+
+			#Add claims to formable puppet
+			292 = { add_claim_by = Q85 } #Nejd
+			678 = { add_claim_by = Q85 } #Rub al Khali
+			858 = { add_claim_by = Q85 } #Najiran
+			856 = { add_claim_by = Q85 } #Asir-Makkah
+			679 = { add_claim_by = Q85 } #Madinah
+			859 = { add_claim_by = Q85 } #Dammam
+			857 = { add_claim_by = Q85 } #Al-Qassim
+			855 = { add_claim_by = Q85 } #Tabuk
+			854 = { add_claim_by = Q85 } #Jawf
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = Q85 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q85
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q85
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q85 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			292 = { add_core_of = Q85 } #Nejd
+			678 = { add_core_of = Q85 } #Rub al Khali
+			858 = { add_core_of = Q85 } #Najiran
+			856 = { add_core_of = Q85 } #Asir-Makkah
+			679 = { add_core_of = Q85 } #Madinah
+			859 = { add_core_of = Q85 } #Dammam
+			857 = { add_core_of = Q85 } #Al-Qassim
+			855 = { add_core_of = Q85 } #Tabuk
+			854 = { add_core_of = Q85 } #Jawf
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = Q85 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q85
+					transfer_state_to = Q85
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q85
+					set_state_controller_to = Q85
+				}
+			}
+
+			Q85 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}
