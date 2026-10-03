@@ -179,3 +179,4 @@ Q79 = "countries/Q79.txt" #Transcarpathia
 Q80 = "countries/Q80.txt" #Spain
 Q81 = "countries/Q81.txt" #Portugal
 Q82 = "countries/Q82.txt" #Venezuela
+Q83 = "countries/Q83.txt" #Yemen
