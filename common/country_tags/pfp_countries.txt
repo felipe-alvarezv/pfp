@@ -185,3 +185,4 @@ Q85 = "countries/Q85.txt" #Saudi Arabia
 Q86 = "countries/Q86.txt" #Jordan
 Q87 = "countries/Q87.txt" #Palestine
 Q88 = "countries/Q88.txt" #Lebanon
+Q89 = "countries/Q89.txt" #Syria
