@@ -1,0 +1,64 @@
+#Scripted effect to release Honduras (Q91)
+pfp_release_honduras = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			312 = { add_contested_owner = Q91 } #Honduras
+
+			#Add claims to formable puppet
+			312 = { add_claim_by = Q91 } #Honduras
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = Q91 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q91
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q91
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q91 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			312 = { add_core_of = Q91 } #Honduras
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = Q91 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q91
+					transfer_state_to = Q91
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q91
+					set_state_controller_to = Q91
+				}
+			}
+
+			Q91 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

@@ -186,3 +186,7 @@ Q86 = "countries/Q86.txt" #Jordan
 Q87 = "countries/Q87.txt" #Palestine
 Q88 = "countries/Q88.txt" #Lebanon
 Q89 = "countries/Q89.txt" #Syria
+Q90 = "countries/Q90.txt" #Guatemala
+Q91 = "countries/Q91.txt" #Honduras
+Q92 = "countries/Q92.txt" #El Salvador
+Q93 = "countries/Q93.txt" #Nicaragua

@@ -12,11 +12,6 @@ pfp_category = {
 				tooltip = pfp_syria_required_states_damascus
 				has_full_control_of_state = 554 #Damascus
 			}
-			#Deir-az-Zur
-			custom_trigger_tooltip = {
-				tooltip = pfp_syria_required_states_deir-az-zur
-				has_full_control_of_state = 680 #Deir-az-Zur
-			}
 			#Aleppo
 			custom_trigger_tooltip = {
 				tooltip = pfp_syria_required_states_aleppo
@@ -26,7 +21,6 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 554 #Damascus
-				has_full_control_of_state = 680 #Deir-az-Zur
 				has_full_control_of_state = 677 #Aleppo
 			}
 			NOT = { has_global_flag = pfp_syria_flag }
@@ -34,7 +28,6 @@ pfp_category = {
 		highlight_states = {
 			highlight_state_targets = {
 				state = 554 #Damascus
-				state = 680 #Deir-az-Zur
 				state = 677 #Aleppo
 			}
 		}

@@ -95,8 +95,8 @@ recruit_character = Q89_fascism_leader
 
 #Syria Initial States
 add_to_array = { Q89.pfp_possible_cores = 554 } #Damascus
-add_to_array = { Q89.pfp_possible_cores = 680 } #Deir-az-Zur
 add_to_array = { Q89.pfp_possible_cores = 677 } #Aleppo
 
 #Syria Territories
+add_to_array = { Q89.pfp_possible_cores = 680 } #Deir-az-Zur
 add_to_array = { Q89.pfp_possible_cores = 799 } #Hatay

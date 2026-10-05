@@ -7,12 +7,10 @@ pfp_release_syria = {
 
 			#Add contestion to formable puppet
 			554 = { add_contested_owner = Q89 } #Damascus
-			680 = { add_contested_owner = Q89 } #Deir-az-Zur
 			677 = { add_contested_owner = Q89 } #Aleppo
 
 			#Add claims to formable puppet
 			554 = { add_claim_by = Q89 } #Damascus
-			680 = { add_claim_by = Q89 } #Deir-az-Zur
 			677 = { add_claim_by = Q89 } #Aleppo
 
 			#Set formable puppet as controller of contested state
@@ -38,7 +36,6 @@ pfp_release_syria = {
 		else = {
 			#Add cores to formable puppet
 			554 = { add_core_of = Q89 } #Damascus
-			680 = { add_core_of = Q89 } #Deir-az-Zur
 			677 = { add_core_of = Q89 } #Aleppo
 
 			#Set formable puppet as owner and controller of core state
