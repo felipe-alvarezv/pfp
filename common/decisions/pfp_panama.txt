@@ -1,0 +1,75 @@
+pfp_category = {
+	pfp_panama = {
+		allowed = {
+			NOT = {
+				original_tag = PAN #Panama
+			}
+		}
+		available = {
+			is_subject = no
+			#Panama
+			custom_trigger_tooltip = {
+				tooltip = pfp_panama_required_states_panama
+				has_full_control_of_state = 304 #Panama
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 304 #Panama
+				has_full_control_of_state = 685 #Panama Canal
+			}
+			NOT = { has_global_flag = pfp_panama_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 304 #Panama
+				state = 685 #Panama Canal
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_panama_transfer_capital
+			custom_effect_tooltip = pfp_panama_puppet
+			custom_effect_tooltip = pfp_panama_occupation_type
+			custom_effect_tooltip = pfp_panama_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				304 = { transfer_state_to = Q95 } #Panama
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = Q95
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = Q95 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+
+				#Set puppet ideology and overlord flag for military occupations
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_panama = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				Q95 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_panama_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
