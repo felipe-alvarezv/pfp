@@ -1,0 +1,7 @@
+#Bermuda
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 233 59 59 }
+color = rgb { 233 59 59 }
+color_ui = rgb { 233 59 59 }
