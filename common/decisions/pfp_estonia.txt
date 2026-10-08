@@ -1,0 +1,97 @@
+pfp_category = {
+	pfp_estonia = {
+		allowed = {
+			NOT = {
+				original_tag = EST #Estonia
+			}
+		}
+		available = {
+			is_subject = no
+			#Estonia
+			custom_trigger_tooltip = {
+				tooltip = pfp_estonia_required_states_harju
+				has_full_control_of_state = 812 #Harju
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_estonia_required_states_parnu
+				has_full_control_of_state = 13 #Parnu
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_estonia_required_states_saaremaa
+				has_full_control_of_state = 811 #Saaremaa
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_estonia_required_states_virumaa
+				has_full_control_of_state = 813 #Virumaa
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_estonia_required_states_tartu
+				has_full_control_of_state = 191 #Tartu
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 812 #Harju
+				has_full_control_of_state = 13 #Parnu
+				has_full_control_of_state = 811 #Saaremaa
+				has_full_control_of_state = 813 #Virumaa
+				has_full_control_of_state = 191 #Tartu
+			}
+			NOT = { has_global_flag = pfp_estonia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 812 #Harju
+				state = 13 #Parnu
+				state = 811 #Saaremaa
+				state = 813 #Virumaa
+				state = 191 #Tartu
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_estonia_transfer_capital
+			custom_effect_tooltip = pfp_estonia_puppet
+			custom_effect_tooltip = pfp_estonia_occupation_type
+			custom_effect_tooltip = pfp_estonia_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				812 = { transfer_state_to = R09 } #Harju
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = R09
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = R09 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+
+				#Set puppet ideology and overlord flag for military occupations
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_estonia = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				R09 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_estonia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

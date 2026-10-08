@@ -203,3 +203,7 @@ R04 = "countries/R04.txt" #British Antilles
 R05 = "countries/R05.txt" #Dutch Antilles
 R06 = "countries/R06.txt" #Trinidad and Tobago
 R07 = "countries/R07.txt" #Bermuda
+R08 = "countries/R08.txt" #Belize
+R09 = "countries/R09.txt" #Estonia
+R10 = "countries/R10.txt" #Latvia
+R11 = "countries/R11.txt" #Lithuania

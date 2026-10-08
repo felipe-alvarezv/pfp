@@ -1,0 +1,73 @@
+#Scripted effect to release Lithuania (R11)
+pfp_release_lithuania = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			11 = { add_contested_owner = R11 } #Kaunas
+			814 = { add_contested_owner = R11 } #Suduva
+			815 = { add_contested_owner = R11 } #Aukstaitija
+			189 = { add_contested_owner = R11 } #Zemaitija
+
+			#Add claims to formable puppet
+			11 = { add_claim_by = R11 } #Kaunas
+			814 = { add_claim_by = R11 } #Suduva
+			815 = { add_claim_by = R11 } #Aukstaitija
+			189 = { add_claim_by = R11 } #Zemaitija
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R11 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R11
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R11
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R11 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			11 = { add_core_of = R11 } #Kaunas
+			814 = { add_core_of = R11 } #Suduva
+			815 = { add_core_of = R11 } #Aukstaitija
+			189 = { add_core_of = R11 } #Zemaitija
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R11 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R11
+					transfer_state_to = R11
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R11
+					set_state_controller_to = R11
+				}
+			}
+
+			R11 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

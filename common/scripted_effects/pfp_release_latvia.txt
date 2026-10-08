@@ -1,0 +1,76 @@
+#Scripted effect to release Latvia (R10)
+pfp_release_latvia = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			808 = { add_contested_owner = R10 } #Riga
+			190 = { add_contested_owner = R10 } #Kurzeme
+			809 = { add_contested_owner = R10 } #Zemgale
+			810 = { add_contested_owner = R10 } #Latgale
+			12 = { add_contested_owner = R10 } #Vidzeme
+
+			#Add claims to formable puppet
+			808 = { add_claim_by = R10 } #Riga
+			190 = { add_claim_by = R10 } #Kurzeme
+			809 = { add_claim_by = R10 } #Zemgale
+			810 = { add_claim_by = R10 } #Latgale
+			12 = { add_claim_by = R10 } #Vidzeme
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R10 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R10
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R10
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R10 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			808 = { add_core_of = R10 } #Riga
+			190 = { add_core_of = R10 } #Kurzeme
+			809 = { add_core_of = R10 } #Zemgale
+			810 = { add_core_of = R10 } #Latgale
+			12 = { add_core_of = R10 } #Vidzeme
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R10 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R10
+					transfer_state_to = R10
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R10
+					set_state_controller_to = R10
+				}
+			}
+
+			R10 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}
