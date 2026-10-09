@@ -1,0 +1,88 @@
+#Scripted effect to release Burma (R16)
+pfp_release_burma = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			995 = { add_contested_owner = R16 } #Pegu
+			996 = { add_contested_owner = R16 } #Irrawaddy
+			997 = { add_contested_owner = R16 } #Arakan
+			994 = { add_contested_owner = R16 } #Tenasserim
+			288 = { add_contested_owner = R16 } #Magwe
+			640 = { add_contested_owner = R16 } #Mandalay
+			998 = { add_contested_owner = R16 } #Sagaing
+			999 = { add_contested_owner = R16 } #Federated Shan
+			993 = { add_contested_owner = R16 } #Kentung and Yawnghwe
+
+			#Add claims to formable puppet
+			995 = { add_claim_by = R16 } #Pegu
+			996 = { add_claim_by = R16 } #Irrawaddy
+			997 = { add_claim_by = R16 } #Arakan
+			994 = { add_claim_by = R16 } #Tenasserim
+			288 = { add_claim_by = R16 } #Magwe
+			640 = { add_claim_by = R16 } #Mandalay
+			998 = { add_claim_by = R16 } #Sagaing
+			999 = { add_claim_by = R16 } #Federated Shan
+			993 = { add_claim_by = R16 } #Kentung and Yawnghwe
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R16 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R16
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R16
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R16 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			995 = { add_core_of = R16 } #Pegu
+			996 = { add_core_of = R16 } #Irrawaddy
+			997 = { add_core_of = R16 } #Arakan
+			994 = { add_core_of = R16 } #Tenasserim
+			288 = { add_core_of = R16 } #Magwe
+			640 = { add_core_of = R16 } #Mandalay
+			998 = { add_core_of = R16 } #Sagaing
+			999 = { add_core_of = R16 } #Federated Shan
+			993 = { add_core_of = R16 } #Kentung and Yawnghwe
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R16 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R16
+					transfer_state_to = R16
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R16
+					set_state_controller_to = R16
+				}
+			}
+
+			R16 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

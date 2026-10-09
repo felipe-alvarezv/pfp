@@ -1,0 +1,129 @@
+pfp_category = {
+	pfp_burma = {
+		allowed = {
+			NOT = {
+				original_tag = BRM #Burma
+			}
+		}
+		available = {
+			is_subject = no
+			#Pegu
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_pegu
+				has_full_control_of_state = 995 #Pegu
+			}
+			#Irrawaddy
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_irrawaddy
+				has_full_control_of_state = 996 #Irrawaddy
+			}
+			#Arakan
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_arakan
+				has_full_control_of_state = 997 #Arakan
+			}
+			#Tenasserim
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_tenasserim
+				has_full_control_of_state = 994 #Tenasserim
+			}
+			#Magwe
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_magwe
+				has_full_control_of_state = 288 #Magwe
+			}
+			#Mandalay
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_mandalay
+				has_full_control_of_state = 640 #Mandalay
+			}
+			#Sagaing
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_sagaing
+				has_full_control_of_state = 998 #Sagaing
+			}
+			#Federated Shan
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_federated_shan
+				has_full_control_of_state = 999 #Federated Shan
+			}
+			#Kentung and Yawnghwe
+			custom_trigger_tooltip = {
+				tooltip = pfp_burma_required_states_kentung_and_yawnghwe
+				has_full_control_of_state = 993 #Kentung and Yawnghwe
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 995 #Pegu
+				has_full_control_of_state = 996 #Irrawaddy
+				has_full_control_of_state = 997 #Arakan
+				has_full_control_of_state = 994 #Tenasserim
+				has_full_control_of_state = 288 #Magwe
+				has_full_control_of_state = 640 #Mandalay
+				has_full_control_of_state = 998 #Sagaing
+				has_full_control_of_state = 999 #Federated Shan
+				has_full_control_of_state = 993 #Kentung and Yawnghwe
+			}
+			NOT = { has_global_flag = pfp_burma_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 995 #Pegu
+				state = 996 #Irrawaddy
+				state = 997 #Arakan
+				state = 994 #Tenasserim
+				state = 288 #Magwe
+				state = 640 #Mandalay
+				state = 998 #Sagaing
+				state = 999 #Federated Shan
+				state = 993 #Kentung and Yawnghwe
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_burma_transfer_capital
+			custom_effect_tooltip = pfp_burma_puppet
+			custom_effect_tooltip = pfp_burma_occupation_type
+			custom_effect_tooltip = pfp_burma_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				995 = { transfer_state_to = R16 } #Pegu
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = R16
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = R16 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+
+				#Set puppet ideology and overlord flag for military occupations
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_burma = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				R16 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_burma_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

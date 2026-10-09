@@ -1,0 +1,82 @@
+#Scripted effect to release Siam (R15)
+pfp_release_siam = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			1076 = { add_contested_owner = R15 } #Bangkok State
+			1078 = { add_contested_owner = R15 } #Easter Siam
+			868 = { add_contested_owner = R15 } #Isan
+			869 = { add_contested_owner = R15 } #Lanna
+			1077 = { add_contested_owner = R15 } #Central Siam
+			289 = { add_contested_owner = R15 } #Western Siam
+			724 = { add_contested_owner = R15 } #Southern Siam
+
+			#Add claims to formable puppet
+			1076 = { add_claim_by = R15 } #Bangkok State
+			1078 = { add_claim_by = R15 } #Easter Siam
+			868 = { add_claim_by = R15 } #Isan
+			869 = { add_claim_by = R15 } #Lanna
+			1077 = { add_claim_by = R15 } #Central Siam
+			289 = { add_claim_by = R15 } #Western Siam
+			724 = { add_claim_by = R15 } #Southern Siam
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R15 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R15
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R15
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R15 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			1076 = { add_core_of = R15 } #Bangkok State
+			1078 = { add_core_of = R15 } #Easter Siam
+			868 = { add_core_of = R15 } #Isan
+			869 = { add_core_of = R15 } #Lanna
+			1077 = { add_core_of = R15 } #Central Siam
+			289 = { add_core_of = R15 } #Western Siam
+			724 = { add_core_of = R15 } #Southern Siam
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R15 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R15
+					transfer_state_to = R15
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R15
+					set_state_controller_to = R15
+				}
+			}
+
+			R15 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

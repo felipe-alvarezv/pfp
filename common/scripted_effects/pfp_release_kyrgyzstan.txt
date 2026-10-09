@@ -1,0 +1,64 @@
+#Scripted effect to release Kyrgyzstan (R31)
+pfp_release_kyrgyzstan = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			732 = { add_contested_owner = R31 } #Pamir
+
+			#Add claims to formable puppet
+			732 = { add_claim_by = R31 } #Pamir
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R31 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R31
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R31
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R31 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			732 = { add_core_of = R31 } #Pamir
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R31 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R31
+					transfer_state_to = R31
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R31
+					set_state_controller_to = R31
+				}
+			}
+
+			R31 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

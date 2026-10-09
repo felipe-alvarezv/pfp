@@ -1,0 +1,79 @@
+#Scripted effect to release Malaysia (R17)
+pfp_release_malaysia = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			336 = { add_contested_owner = R17 } #Kuala Lumpur
+			1060 = { add_contested_owner = R17 } #Johor
+			1063 = { add_contested_owner = R17 } #Pahang
+			1064 = { add_contested_owner = R17 } #Perak
+			1062 = { add_contested_owner = R17 } #Kelantan-Terengganu
+			1061 = { add_contested_owner = R17 } #Perlis-Kedah
+
+			#Add claims to formable puppet
+			336 = { add_claim_by = R17 } #Kuala Lumpur
+			1060 = { add_claim_by = R17 } #Johor
+			1063 = { add_claim_by = R17 } #Pahang
+			1064 = { add_claim_by = R17 } #Perak
+			1062 = { add_claim_by = R17 } #Kelantan-Terengganu
+			1061 = { add_claim_by = R17 } #Perlis-Kedah
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R17 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R17
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R17
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R17 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			336 = { add_core_of = R17 } #Kuala Lumpur
+			1060 = { add_core_of = R17 } #Johor
+			1063 = { add_core_of = R17 } #Pahang
+			1064 = { add_core_of = R17 } #Perak
+			1062 = { add_core_of = R17 } #Kelantan-Terengganu
+			1061 = { add_core_of = R17 } #Perlis-Kedah
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R17 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R17
+					transfer_state_to = R17
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R17
+					set_state_controller_to = R17
+				}
+			}
+
+			R17 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

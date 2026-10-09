@@ -1,0 +1,97 @@
+#Scripted effect to release Kazakhstan (R30)
+pfp_release_kazakhstan = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			586 = { add_contested_owner = R30 } #Alma-Ata
+			589 = { add_contested_owner = R30 } #Ayaguz
+			588 = { add_contested_owner = R30 } #Semipalatinsk
+			882 = { add_contested_owner = R30 } #Pavlodar
+			590 = { add_contested_owner = R30 } #Akmolinsk
+			583 = { add_contested_owner = R30 } #Kostanay
+			881 = { add_contested_owner = R30 } #Karagandy
+			404 = { add_contested_owner = R30 } #Kyzyl Orda
+			402 = { add_contested_owner = R30 } #Akhtubinsk
+			857 = { add_contested_owner = R30 } #Ust Urt
+			407 = { add_contested_owner = R30 } #Ural'sk
+			406 = { add_contested_owner = R30 } #Guryev
+
+			#Add claims to formable puppet
+			586 = { add_claim_by = R30 } #Alma-Ata
+			589 = { add_claim_by = R30 } #Ayaguz
+			588 = { add_claim_by = R30 } #Semipalatinsk
+			882 = { add_claim_by = R30 } #Pavlodar
+			590 = { add_claim_by = R30 } #Akmolinsk
+			583 = { add_claim_by = R30 } #Kostanay
+			881 = { add_claim_by = R30 } #Karagandy
+			404 = { add_claim_by = R30 } #Kyzyl Orda
+			402 = { add_claim_by = R30 } #Akhtubinsk
+			857 = { add_claim_by = R30 } #Ust Urt
+			407 = { add_claim_by = R30 } #Ural'sk
+			406 = { add_claim_by = R30 } #Guryev
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R30 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R30
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R30
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R30 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			586 = { add_core_of = R30 } #Alma-Ata
+			589 = { add_core_of = R30 } #Ayaguz
+			588 = { add_core_of = R30 } #Semipalatinsk
+			882 = { add_core_of = R30 } #Pavlodar
+			590 = { add_core_of = R30 } #Akmolinsk
+			583 = { add_core_of = R30 } #Kostanay
+			881 = { add_core_of = R30 } #Karagandy
+			404 = { add_core_of = R30 } #Kyzyl Orda
+			402 = { add_core_of = R30 } #Akhtubinsk
+			857 = { add_core_of = R30 } #Ust Urt
+			407 = { add_core_of = R30 } #Ural'sk
+			406 = { add_core_of = R30 } #Guryev
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R30 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R30
+					transfer_state_to = R30
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R30
+					set_state_controller_to = R30
+				}
+			}
+
+			R30 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

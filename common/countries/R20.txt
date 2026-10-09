@@ -1,0 +1,7 @@
+#New Zealand
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d
+
+color = { 152 130 191 }
+color = rgb { 152 130 191 }
+color_ui = rgb { 152 130 191 }

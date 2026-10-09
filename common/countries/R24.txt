@@ -1,0 +1,7 @@
+#New Caledonia
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+
+color = rgb { 73 33 248 }
+color = rgb { 73 33 248 }
+color_ui = rgb { 73 33 248 }

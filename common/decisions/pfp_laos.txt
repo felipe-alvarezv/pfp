@@ -1,0 +1,80 @@
+pfp_category = {
+	pfp_laos = {
+		allowed = {
+			NOT = {
+				original_tag = VIN #Vietnam
+			}
+		}
+		available = {
+			is_subject = no
+			#Laos
+			custom_trigger_tooltip = {
+				tooltip = pfp_laos_required_states_laos
+				has_full_control_of_state = 670 #Laos
+			}
+			#Bassac
+			custom_trigger_tooltip = {
+				tooltip = pfp_laos_required_states_bassac
+				has_full_control_of_state = 1068 #Bassac
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 670 #Laos
+				has_full_control_of_state = 1068 #Bassac
+			}
+			NOT = { has_global_flag = pfp_laos_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 670 #Laos
+				state = 1068 #Bassac
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_laos_transfer_capital
+			custom_effect_tooltip = pfp_laos_puppet
+			custom_effect_tooltip = pfp_laos_occupation_type
+			custom_effect_tooltip = pfp_laos_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				670 = { transfer_state_to = R13 } #Laos
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = R13
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = R13 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+
+				#Set puppet ideology and overlord flag for military occupations
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_laos = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				R13 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_laos_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

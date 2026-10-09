@@ -1,0 +1,64 @@
+#Scripted effect to release Samoa (R26)
+pfp_release_samoa = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			726 = { add_contested_owner = R26 } #Samoa
+
+			#Add claims to formable puppet
+			726 = { add_claim_by = R26 } #Samoa
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R26 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R26
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R26
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R26 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			726 = { add_core_of = R26 } #Samoa
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R26 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R26
+					transfer_state_to = R26
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R26
+					set_state_controller_to = R26
+				}
+			}
+
+			R26 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,76 @@
+#Scripted effect to release Uzbekistan (R33)
+pfp_release_uzbekistan = {
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			405 = { add_contested_owner = R33 } #Tashkent
+			830 = { add_contested_owner = R33 } #Bukhara
+			585 = { add_contested_owner = R33 } #Navoi
+			823 = { add_contested_owner = R33 } #Karakalpakstan
+			831 = { add_contested_owner = R33 } #Khiva
+
+			#Add claims to formable puppet
+			405 = { add_claim_by = R33 } #Tashkent
+			830 = { add_claim_by = R33 } #Bukhara
+			585 = { add_claim_by = R33 } #Navoi
+			823 = { add_claim_by = R33 } #Karakalpakstan
+			831 = { add_claim_by = R33 } #Khiva
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = R33 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = R33
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = R33
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			R33 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			405 = { add_core_of = R33 } #Tashkent
+			830 = { add_core_of = R33 } #Bukhara
+			585 = { add_core_of = R33 } #Navoi
+			823 = { add_core_of = R33 } #Karakalpakstan
+			831 = { add_core_of = R33 } #Khiva
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = R33 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = {
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = R33
+					transfer_state_to = R33
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = R33
+					set_state_controller_to = R33
+				}
+			}
+
+			R33 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
+}
