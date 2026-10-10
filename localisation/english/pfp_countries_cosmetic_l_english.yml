@@ -778,3 +778,75 @@
   PFP_SCANDINAVIA_ADJ:0 "Scandinavian"
   PFP_SCANDINAVIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Scandinavia"
   PFP_SCANDINAVIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Scandinavia"
+
+  PFP_WESTERN_RUSSIA:0 "Western Russia"
+  PFP_WESTERN_RUSSIA_DEF:0 "Western Russia"
+  PFP_WESTERN_RUSSIA_ADJ:0 "Western Russian"
+
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Western Russia"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Western Russia"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Western Russian"
+
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Western Russia"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Western Russia"
+  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Western Russian"
+
+  PFP_EASTERN_RUSSIA:0 "Eastern Russia"
+  PFP_EASTERN_RUSSIA_DEF:0 "Eastern Russia"
+  PFP_EASTERN_RUSSIA_ADJ:0 "Eastern Russian"
+
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Eastern Russia"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Eastern Russia"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Eastern Russian"
+
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Eastern Russia"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Eastern Russia"
+  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Eastern Russian"
+
+  PFP_RUSSIA:0 "Russia"
+  PFP_RUSSIA_DEF:0 "Russia"
+  PFP_RUSSIA_ADJ:0 "Russian"
+
+  PFP_RUSSIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Russia"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Russia"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Russian"
+
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Russia"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Russia"
+  PFP_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Russian"
+
+  PFP_EASTERN_USA:0 "Eastern U.S.A."
+  PFP_EASTERN_USA_DEF:0 "Eastern U.S.A."
+  PFP_EASTERN_USA_ADJ:0 "Eastern American"
+
+  PFP_EASTERN_USA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Eastern U.S.A."
+  PFP_EASTERN_USA_pfp_autonomy_military_occupation_DEF:0 "Eastern U.S.A."
+  PFP_EASTERN_USA_pfp_autonomy_military_occupation_ADJ:0 "Eastern American"
+
+  PFP_EASTERN_USA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Eastern U.S.A."
+  PFP_EASTERN_USA_pfp_autonomy_military_occupation_painted_DEF:0 "Eastern U.S.A."
+  PFP_EASTERN_USA_pfp_autonomy_military_occupation_painted_ADJ:0 "Eastern American"
+
+  PFP_WESTERN_USA:0 "Western U.S.A."
+  PFP_WESTERN_USA_DEF:0 "Western U.S.A."
+  PFP_WESTERN_USA_ADJ:0 "Western American"
+
+  PFP_WESTERN_USA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Western U.S.A."
+  PFP_WESTERN_USA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Western U.S.A."
+  PFP_WESTERN_USA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Western American"
+
+  PFP_WESTERN_USA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ Western U.S.A."
+  PFP_WESTERN_USA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ Western U.S.A."
+  PFP_WESTERN_USA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ Western American"
+
+  PFP_USA:0 "United States"
+  PFP_USA_DEF:0 "United States"
+  PFP_USA_ADJ:0 "American"
+
+  PFP_USA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ United States"
+  PFP_USA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ United States"
+  PFP_USA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ American"
+
+  PFP_USA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ United States"
+  PFP_USA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ United States"
+  PFP_USA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ American"

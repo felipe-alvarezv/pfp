@@ -8,7 +8,17 @@ PFP_WESTERN_RUSSIA = {
 	color_ui = rgb { 34 139 34 }
 }
 
-PFP_USA = {
+PFP_WESTERN_USA = {
+	color = rgb { 209 141 40 }
+	color_ui = rgb { 209 141 40 }
+}
+
+PFP_EASTERN_USA = {
 	color = rgb { 67 123 237 }
 	color_ui = rgb { 67 123 237 }
+}
+
+PFP_USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
 }

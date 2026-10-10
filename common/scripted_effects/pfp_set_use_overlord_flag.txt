@@ -130,8 +130,13 @@ pfp_set_use_overlord_flag = {
             }
 
             else_if = {
-                limit = { has_country_flag = pfp_is_united_states }
+                limit = { has_country_flag = pfp_is_usa }
                 set_cosmetic_tag = PFP_USA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_united_states }
+                set_cosmetic_tag = PFP_EASTERN_USA
             }
 
             #Fascist Germany Cosmetic Tag

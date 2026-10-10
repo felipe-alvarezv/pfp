@@ -1,23 +1,105 @@
 ###########################################################################
 # MERGE DECISIONS - UNITED STATES
-# Allows the overlord to merge American puppet states into a unified USA.
-#
-# Decision 1: pfp_merge_usa
-#   Requires Northeastern U.S. (P20), Midwestern U.S. (P18), and
-#   Southern U.S. (P26) as PFP subjects.
-#   The puppet with the most total factories + scaled manpower annexes
-#   the other two and becomes the United States.
-#
-# Decision 2: pfp_merge_usa_rockies
-#   Follow-up available after the USA is formed.
-#   Requires Rockies U.S. (P23) as a PFP subject.
-#
-# Decision 3: pfp_merge_usa_pacific
-#   Follow-up available after the USA is formed.
-#   Requires Pacific U.S. (P21) as a PFP subject.
+# Three-step merge system:
+#   1. pfp_merge_western_usa: P21+P23 -> PFP_WESTERN_USA
+#   2. pfp_merge_usa: P18+P20+P26 -> PFP_EASTERN_USA
+#   3. pfp_merge_united_states: PFP_WESTERN_USA+PFP_EASTERN_USA -> PFP_USA
 ###########################################################################
 
 pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Pacific U.S. (P21) + Rockies U.S. (P23) -> Western United States
+	# ----------------------------------------------------------------
+	pfp_merge_western_usa = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_western_usa_merged }
+			OR = {
+				P21 = { is_subject_of = ROOT }
+				P23 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_usa_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_western_usa_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_western_usa_puppets_ready_tt
+				P21 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+				P23 = {
+					is_subject_of = ROOT
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+					NOT = {
+						any_state_in = {
+							array = THIS.pfp_possible_cores
+							is_owned_by = PREV
+							NOT = { is_core_of = PREV }
+						}
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_western_usa_effect_form
+			custom_effect_tooltip = pfp_merge_western_usa_effect_annex
+			custom_effect_tooltip = pfp_merge_western_usa_effect_cores
+			hidden_effect = {
+				P21 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P23 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+
+				P21 = { save_global_event_target_as = pfp_western_usa_winner }
+				if = { limit = { check_variable = { P23.pfp_fac > event_target:pfp_western_usa_winner.pfp_fac } } P23 = { save_global_event_target_as = pfp_western_usa_winner } }
+
+				if = {
+					limit = { NOT = { event_target:pfp_western_usa_winner = { tag = P21 } } }
+					every_state = { limit = { OR = { is_owned_by = P21 has_contested_owner = P21 } } add_core_of = event_target:pfp_western_usa_winner add_contested_owner = event_target:pfp_western_usa_winner remove_core_of = P21 remove_claim_by = P21 remove_contested_owner = P21 }
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_western_usa_winner = { tag = P23 } } }
+					every_state = { limit = { OR = { is_owned_by = P23 has_contested_owner = P23 } } add_core_of = event_target:pfp_western_usa_winner add_contested_owner = event_target:pfp_western_usa_winner remove_core_of = P23 remove_claim_by = P23 remove_contested_owner = P23 }
+				}
+
+				event_target:pfp_western_usa_winner = {
+					if = { limit = { NOT = { tag = P21 } } for_each_loop = { array = P21.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P23 } } for_each_loop = { array = P23.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P21 } } annex_country = { target = P21 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P23 } } annex_country = { target = P23 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_WESTERN_USA
+					set_country_flag = pfp_is_western_usa
+				}
+
+				clear_global_event_target = pfp_western_usa_winner
+				set_global_flag = pfp_western_usa_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
 
 	# ----------------------------------------------------------------
 	# Northeastern (P20) + Midwestern (P18) + Southern (P26) -> USA
@@ -177,7 +259,7 @@ pfp_unification = {
 					P20 = {
 						annex_country = { target = P18 transfer_troops = yes }
 						annex_country = { target = P26 transfer_troops = yes }
-						set_cosmetic_tag = PFP_USA
+						set_cosmetic_tag = PFP_EASTERN_USA
 						set_country_flag = pfp_is_united_states
 					}
 				}
@@ -219,7 +301,7 @@ pfp_unification = {
 					P18 = {
 						annex_country = { target = P20 transfer_troops = yes }
 						annex_country = { target = P26 transfer_troops = yes }
-						set_cosmetic_tag = PFP_USA
+						set_cosmetic_tag = PFP_EASTERN_USA
 						set_country_flag = pfp_is_united_states
 					}
 				}
@@ -260,7 +342,7 @@ pfp_unification = {
 					P26 = {
 						annex_country = { target = P20 transfer_troops = yes }
 						annex_country = { target = P18 transfer_troops = yes }
-						set_cosmetic_tag = PFP_USA
+						set_cosmetic_tag = PFP_EASTERN_USA
 						set_country_flag = pfp_is_united_states
 					}
 				}
@@ -273,36 +355,71 @@ pfp_unification = {
 	}
 
 	# ----------------------------------------------------------------
-	# Formed USA + Rockies U.S. (P23) -> absorb Rockies into USA
-	# Follow-up: only available after pfp_merge_usa has fired
+	# Western U.S.A. + Eastern U.S.A. -> United States (PFP_USA)
 	# ----------------------------------------------------------------
-	pfp_merge_usa_rockies = {
+	pfp_merge_united_states = {
 		icon = generic_nationalism
 
 		visible = {
 			is_subject = no
+			has_global_flag = pfp_western_usa_merged
 			has_global_flag = pfp_usa_merged
-			NOT = { has_global_flag = pfp_usa_absorbed_rockies }
-			P23 = { is_subject_of = ROOT }
+			NOT = { has_global_flag = pfp_united_states_merged }
+			OR = {
+				any_subject_country = { has_country_flag = pfp_is_western_usa }
+				any_subject_country = { has_country_flag = pfp_is_united_states }
+			}
 		}
 
 		available = {
 			is_ai = no
 			custom_trigger_tooltip = {
-				tooltip = pfp_merge_usa_rockies_not_yet_absorbed_tt
-				NOT = { has_global_flag = pfp_usa_absorbed_rockies }
+				tooltip = pfp_merge_united_states_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_united_states_merged }
 			}
 			custom_trigger_tooltip = {
-				tooltip = pfp_merge_usa_is_formed_tt
+				tooltip = pfp_merge_western_usa_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_western_usa }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_eastern_usa_is_formed_tt
 				any_subject_country = { has_country_flag = pfp_is_united_states }
 			}
-			P23 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_subject_is_military_occupation_tt
+				any_subject_country = {
+					has_country_flag = pfp_is_western_usa
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_subject_is_military_occupation_tt
+				any_subject_country = {
+					has_country_flag = pfp_is_united_states
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+				NOT = {
+					any_subject_country = {
+						has_country_flag = pfp_is_western_usa
+						any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } }
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_puppet_must_core_owned_territories_tt
+				NOT = {
+					any_subject_country = {
+						has_country_flag = pfp_is_united_states
+						any_state_in = { array = THIS.pfp_possible_cores is_owned_by = PREV NOT = { is_core_of = PREV } }
 					}
 				}
 			}
@@ -311,117 +428,80 @@ pfp_unification = {
 		fire_only_once = yes
 
 		complete_effect = {
-			custom_effect_tooltip = pfp_merge_usa_rockies_effect_annex
+			custom_effect_tooltip = pfp_merge_united_states_effect_form
+			custom_effect_tooltip = pfp_merge_united_states_effect_annex
+			custom_effect_tooltip = pfp_merge_united_states_effect_cores
 			hidden_effect = {
+				# Score both and initialize winner as western usa
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_western_usa }
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_usa_west
+					save_global_event_target_as = pfp_united_states_winner
+				}
 				every_subject_country = {
 					limit = { has_country_flag = pfp_is_united_states }
-					save_global_event_target_as = pfp_usa_country
-					for_each_loop = {
-						array = P23.pfp_possible_cores
-						value = pfp_temp_core_id
-						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_usa_east
+				}
+
+				# Eastern USA challenges western for winner
+				if = {
+					limit = { check_variable = { event_target:pfp_usa_east.pfp_fac > event_target:pfp_united_states_winner.pfp_fac } }
+					event_target:pfp_usa_east = { save_global_event_target_as = pfp_united_states_winner }
+				}
+
+				# Transfer western usa states if it is not the winner
+				if = {
+					limit = { NOT = { event_target:pfp_united_states_winner = { has_country_flag = pfp_is_western_usa } } }
+					every_state = {
+						limit = { OR = { is_owned_by = event_target:pfp_usa_west has_contested_owner = event_target:pfp_usa_west } }
+						add_core_of = event_target:pfp_united_states_winner
+						add_contested_owner = event_target:pfp_united_states_winner
+						remove_core_of = event_target:pfp_usa_west
+						remove_claim_by = event_target:pfp_usa_west
+						remove_contested_owner = event_target:pfp_usa_west
+					}
+					event_target:pfp_united_states_winner = {
+						for_each_loop = { array = event_target:pfp_usa_west.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+						annex_country = { target = event_target:pfp_usa_west transfer_troops = yes }
 					}
 				}
 
-				every_state = {
-					limit = { OR = { is_owned_by = P23  has_contested_owner = P23 } }
-					add_core_of = event_target:pfp_usa_country
-					add_contested_owner = event_target:pfp_usa_country
-					remove_core_of = P23
-					remove_claim_by = P23
-					remove_contested_owner = P23
+				# Transfer eastern usa states if it is not the winner
+				if = {
+					limit = { NOT = { event_target:pfp_united_states_winner = { has_country_flag = pfp_is_united_states } } }
+					every_state = {
+						limit = { OR = { is_owned_by = event_target:pfp_usa_east has_contested_owner = event_target:pfp_usa_east } }
+						add_core_of = event_target:pfp_united_states_winner
+						add_contested_owner = event_target:pfp_united_states_winner
+						remove_core_of = event_target:pfp_usa_east
+						remove_claim_by = event_target:pfp_usa_east
+						remove_contested_owner = event_target:pfp_usa_east
+					}
+					event_target:pfp_united_states_winner = {
+						for_each_loop = { array = event_target:pfp_usa_east.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+						annex_country = { target = event_target:pfp_usa_east transfer_troops = yes }
+					}
 				}
 
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_united_states }
-					annex_country = { target = P23 transfer_troops = yes }
+				event_target:pfp_united_states_winner = {
+					set_cosmetic_tag = PFP_USA
+					set_country_flag = pfp_is_usa
+					set_country_flag = pfp_is_united_states
 				}
 
-				clear_global_event_target = pfp_usa_country
-
-				set_global_flag = pfp_usa_absorbed_rockies
+				clear_global_event_target = pfp_usa_west
+				clear_global_event_target = pfp_usa_east
+				clear_global_event_target = pfp_united_states_winner
+				set_global_flag = pfp_united_states_merged
 			}
 		}
 
 		ai_will_do = { factor = 0 }
 	}
 
-	# ----------------------------------------------------------------
-	# Formed USA + Pacific U.S. (P21) -> absorb Pacific into USA
-	# Follow-up: only available after pfp_merge_usa has fired
-	# ----------------------------------------------------------------
-	pfp_merge_usa_pacific = {
-		icon = generic_nationalism
-
-		visible = {
-			is_subject = no
-			has_global_flag = pfp_usa_merged
-			NOT = { has_global_flag = pfp_usa_absorbed_pacific }
-			P21 = { is_subject_of = ROOT }
-		}
-
-		available = {
-			is_ai = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_usa_pacific_not_yet_absorbed_tt
-				NOT = { has_global_flag = pfp_usa_absorbed_pacific }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_usa_is_formed_tt
-				any_subject_country = { has_country_flag = pfp_is_united_states }
-			}
-			custom_trigger_tooltip = {
-				tooltip = pfp_merge_usa_pacific_requires_rockies_tt
-				has_global_flag = pfp_usa_absorbed_rockies
-			}
-			P21 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		complete_effect = {
-			custom_effect_tooltip = pfp_merge_usa_pacific_effect_annex
-			hidden_effect = {
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_united_states }
-					save_global_event_target_as = pfp_usa_country
-					for_each_loop = {
-						array = P21.pfp_possible_cores
-						value = pfp_temp_core_id
-						add_to_array = { pfp_possible_cores = pfp_temp_core_id }
-					}
-				}
-
-				every_state = {
-					limit = { OR = { is_owned_by = P21  has_contested_owner = P21 } }
-					add_core_of = event_target:pfp_usa_country
-					add_contested_owner = event_target:pfp_usa_country
-					remove_core_of = P21
-					remove_claim_by = P21
-					remove_contested_owner = P21
-				}
-
-				every_subject_country = {
-					limit = { has_country_flag = pfp_is_united_states }
-					annex_country = { target = P21 transfer_troops = yes }
-				}
-
-				clear_global_event_target = pfp_usa_country
-
-				set_global_flag = pfp_usa_absorbed_pacific
-			}
-		}
-
-		ai_will_do = { factor = 0 }
-	}
 
 }

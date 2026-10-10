@@ -4988,6 +4988,7 @@
   pfp_merge_western_russia_puppets_ready_tt:0 "§YCentral Russia§!, §YSouthern Russia§!, §YVolga§!, §YNorthwestern Russia§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
   pfp_merge_eastern_russia_puppets_ready_tt:0 "§YUrals§!, §YSiberia§!, §YFar East Russia§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
   pfp_merge_usa_puppets_ready_tt:0 "§YNortheastern U.S.§!, §YMidwestern U.S.§!, §YSouthern U.S.§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
+  pfp_merge_western_usa_puppets_ready_tt:0 "§YPacific U.S.§!, §YRockies U.S.§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
   pfp_merge_west_africa_puppets_ready_tt:0 "§YNiger§!, §YMali§!, §YNigeria§!, §YTogo§!, §YDahomey§!, §YGold Coast§!, §YUpper Volta§!, §YIvory Coast§!, §YGuinea§!, §YSierra Leone§!, §YSenegal§!, §YGambia§!, §YMauritania§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
   pfp_merge_yugoslavia_puppets_ready_tt:0 "§YCroatia§!, §YSlovenia§!, §YBosnia-Herzegovina§!, §YSerbia§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
   pfp_merge_puppet_must_core_owned_territories_tt:0 "Must have cored all currently occupied coreable territories."
@@ -5007,24 +5008,29 @@
   pfp_merge_canada_quebec_effect_annex:0 "§YCanada§! annexes §YQuebec§!, gaining its cores and coreable territories.\n"
 
   # United States
-  pfp_merge_usa:0 "Unite the United States"
+  pfp_merge_western_usa:0 "Unite the Western United States"
+  pfp_merge_western_usa_desc:0 "The Pacific coast and the Rocky Mountain ranges were always the wild, untamed western edge of the American experiment — from the sun-bleached shores of California to the snow-capped peaks of the Cascades. Before the continent can be reunited, the west must first speak with one voice."
+  pfp_merge_western_usa_not_yet_formed_tt:0 "The Western United States has not yet been unified."
+  pfp_merge_western_usa_effect_form:0 "§YWestern United States§! is formed by the puppet with the most factories.\n"
+  pfp_merge_western_usa_effect_annex:0 "§YWestern United States§! annexes the puppets required for its unification.\n"
+  pfp_merge_western_usa_effect_cores:0 "§YWestern United States§! gains the cores and claims of the annexed puppets.\n"
+
+  pfp_merge_usa:0 "Unite the Eastern United States"
   pfp_merge_usa_desc:0 "From the factories and ports of the northeast to the fields and cities of the south and the great industrial heartland of the midwest, these three regions were the pillars of the most powerful nation the world had ever seen. The Union was preserved once before at enormous cost; it can be rebuilt again."
-  pfp_merge_usa_not_yet_formed_tt:0 "The United States has not yet been reunified."
-  pfp_merge_usa_effect_form:0 "§YUnited States§! is formed by the puppet with the most factories.\n"
-  pfp_merge_usa_effect_annex:0 "§YUnited States§! annexes the puppets required for its unification.\n"
-  pfp_merge_usa_effect_cores:0 "§YUnited States§! gains the cores and claims of the annexed puppets.\n"
+  pfp_merge_usa_not_yet_formed_tt:0 "The Eastern United States has not yet been reunified."
+  pfp_merge_usa_effect_form:0 "§YEastern U.S.A.§! is formed by the puppet with the most factories.\n"
+  pfp_merge_usa_effect_annex:0 "§YEastern U.S.A.§! annexes the puppets required for its unification.\n"
+  pfp_merge_usa_effect_cores:0 "§YEastern U.S.A.§! gains the cores and claims of the annexed puppets.\n"
 
-  pfp_merge_usa_rockies:0 "Absorb the Rockies into the United States"
-  pfp_merge_usa_rockies_desc:0 "The Rocky Mountains marked the edge of the old frontier — the wall of peaks that tested every expedition pushing west from the Mississippi. With the core United States restored, we extend our reach into the high territories and bring the Rocky Mountain west back under the American banner."
-  pfp_merge_usa_is_formed_tt:0 "A unified United States exists among our puppets."
-  pfp_merge_usa_rockies_not_yet_absorbed_tt:0 "The Rockies have not yet been absorbed into the United States."
-  pfp_merge_usa_rockies_effect_annex:0 "§YThe United States§! annexes §YRockies U.S.§!, gaining its cores and coreable territories.\n"
+  pfp_merge_western_usa_is_formed_tt:0 "Western U.S.A. has been formed."
+  pfp_merge_eastern_usa_is_formed_tt:0 "Eastern U.S.A. has been formed."
 
-  pfp_merge_usa_pacific:0 "Absorb the Pacific into the United States"
-  pfp_merge_usa_pacific_desc:0 "California's gold rush built cities overnight; the Pacific Northwest's forests fed a continent. The Pacific coast was always where America's restless westward expansion was fated to end, staring out across the world's largest ocean. Its incorporation completes the nation from sea to shining sea."
-  pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "The Pacific has not yet been absorbed into the United States."
-  pfp_merge_usa_pacific_effect_annex:0 "§YThe United States§! annexes §YPacific U.S.§!, gaining its cores and coreable territories.\n"
-  pfp_merge_usa_pacific_requires_rockies_tt:0 "The Rocky Mountains must first be absorbed into the United States."
+  pfp_merge_united_states:0 "Unite the United States"
+  pfp_merge_united_states_desc:0 "From the sun-scorched deserts of the Southwest to the industrial corridors of the Northeast, from the golden fields of the Midwest to the bayous of the Deep South, America was never just one region — it was all of them. The East and West have each proven their strength. Now they must prove they are one nation."
+  pfp_merge_united_states_not_yet_formed_tt:0 "The United States has not yet been formed."
+  pfp_merge_united_states_effect_form:0 "§YUnited States§! is formed by the puppet with the most factories.\n"
+  pfp_merge_united_states_effect_annex:0 "§YUnited States§! annexes the puppets required for its unification.\n"
+  pfp_merge_united_states_effect_cores:0 "§YUnited States§! gains the cores and claims of the annexed puppets.\n"
 
   # China
   pfp_merge_china:0 "Unite China"
@@ -5079,15 +5085,24 @@
   pfp_merge_east_africa_effect_annex:0 "§YEast Africa§! annexes the puppets required for its unification.\n"
   pfp_merge_east_africa_effect_cores:0 "§YEast Africa§! gains the cores and claims of the annexed puppets.\n"
   pfp_merge_east_africa_is_formed_tt:0 "A unified East Africa exists among our puppets."
-
-
-
+
+
+
+
+
+
+
+
+
+
 
   pfp_merge_east_africa_ruanda_urundi:0 "Absorb Ruanda-Urundi into East Africa"
   pfp_merge_east_africa_ruanda_urundi_desc:0 "Tucked into the highlands above the Congo basin, this is one of the most densely settled territories in Africa — small in area but significant in geography, wedged between the Great Lakes and the Rift Valley escarpment. Its incorporation closes the gap in our Central African frontier."
   pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "Ruanda-Urundi has not yet been absorbed into East Africa."
   pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§YEast Africa§! annexes §YRuanda-Urundi§!, gaining its cores and coreable territories.\n"
-
+
+
+
 
   pfp_merge_north_africa:0 "Unite North Africa"
   pfp_merge_north_africa_desc:0 "From the Atlas Mountains of Morocco to the banks of the Nile, the North African coast has been the crossroads of Mediterranean civilization for four thousand years. Once united under Rome and the great Islamic caliphates, the Maghreb and the Nile Valley share a common heritage that colonial borders have long divided. Their unification would forge a power capable of reshaping the entire Mediterranean world."
@@ -5096,9 +5111,13 @@
   pfp_merge_north_africa_effect_annex:0 "§YNorth Africa§! annexes the puppets required for its unification.\n"
   pfp_merge_north_africa_effect_cores:0 "§YNorth Africa§! gains the cores and claims of the annexed puppets.\n"
   pfp_merge_north_africa_is_formed_tt:0 "A unified North Africa exists among our puppets."
-
-
-
+
+
+
+
+
+
+
 
   pfp_merge_north_africa_western_sahara:0 "Absorb Western Sahara into North Africa"
   pfp_merge_north_africa_western_sahara_desc:0 "Stretching into the Sahara from the Atlantic shore, this vast and sparsely inhabited territory guards the western approaches to the Maghreb. Its absorption anchors North Africa's Atlantic flank and secures the southern desert frontier."

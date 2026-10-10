@@ -4992,6 +4992,7 @@
   pfp_merge_western_russia_puppets_ready_tt:0 "§YCentral Russia§!, §YSouthern Russia§!, §YVolga§!, §YNorthwestern Russia§!:\nÉ uma ocupação militar de [ROOT.GetName].\nDeve ter incorporado todos os territórios ocupados atualmente que podem se tornar núcleos."
   pfp_merge_eastern_russia_puppets_ready_tt:0 "§YUrals§!, §YSiberia§!, §YFar East Russia§!:\nÉ uma ocupação militar de [ROOT.GetName].\nDeve ter incorporado todos os territórios ocupados atualmente que podem se tornar núcleos."
   pfp_merge_usa_puppets_ready_tt:0 "§YNortheastern U.S.§!, §YMidwestern U.S.§!, §YSouthern U.S.§!:\nÉ uma ocupação militar de [ROOT.GetName].\nDeve ter incorporado todos os territórios ocupados atualmente que podem se tornar núcleos."
+  pfp_merge_western_usa_puppets_ready_tt:0 "§YEU Pacífico§!, §YEU Rochosas§!:\nÉ uma ocupação militar de [ROOT.GetName].\nDeve ter incorporado todos os territórios ocupados atualmente que podem se tornar núcleos."
   pfp_merge_west_africa_puppets_ready_tt:0 "§YNiger§!, §YMali§!, §YNigeria§!, §YTogo§!, §YDahomey§!, §YGold Coast§!, §YUpper Volta§!, §YIvory Coast§!, §YGuinea§!, §YSierra Leone§!, §YSenegal§!, §YGambia§!, §YMauritania§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
   pfp_merge_yugoslavia_puppets_ready_tt:0 "§YCroatia§!, §YSlovenia§!, §YBosnia-Herzegovina§!, §YSerbia§!:\nÉ uma ocupação militar de [ROOT.GetName].\nDeve ter incorporado todos os territórios ocupados atualmente que podem se tornar núcleos."
   # Canada
@@ -5005,24 +5006,31 @@
   pfp_merge_canada_quebec_effect_annex:0 "§YCanadá§! anexa §YQuebec§!, obtendo seus núcleos e territórios nucleáveis.\n"
 
   # United States
-  pfp_merge_usa:0 "Unir os Estados Unidos"
+  pfp_merge_western_usa:0 "Unir os Estados Unidos Ocidentais"
+  pfp_merge_western_usa_desc:0 "A costa do Pacífico e as Montanhas Rochosas sempre foram o limite selvagem e indômito do experimento americano — das praias ensolaradas da Califórnia aos picos cobertos de neve das Cascades. Antes que o continente possa ser reunificado, o oeste deve primeiro falar com uma só voz."
+  pfp_merge_western_usa_not_yet_formed_tt:0 "Os Estados Unidos Ocidentais ainda não foram unificados."
+  pfp_merge_western_usa_effect_form:0 "§YEstados Unidos Ocidentais§! são formados pelo fantoche com mais fábricas.\n"
+  pfp_merge_western_usa_effect_annex:0 "§YEstados Unidos Ocidentais§! anexam os fantoches necessários para sua unificação.\n"
+  pfp_merge_western_usa_effect_cores:0 "§YEstados Unidos Ocidentais§! ganham os núcleos e reivindicações dos fantoches anexados.\n"
+
+  pfp_merge_usa:0 "Unir os EUA Orientais"
   pfp_merge_usa_desc:0 "Das fábricas e portos do nordeste aos campos e cidades do sul, passando pelo grande coração industrial do meio-oeste, essas três regiões foram os pilares da nação mais poderosa que o mundo já conheceu. A União foi preservada uma vez a um enorme custo; ela pode ser reconstruída."
   pfp_merge_usa_not_yet_formed_tt:0 "Os Estados Unidos ainda não foram reunificados."
-  pfp_merge_usa_effect_form:0 "§YEstados Unidos§! são formados pelo fantoche com mais fábricas.\n"
-  pfp_merge_usa_effect_annex:0 "§YEstados Unidos§! anexam os fantoches necessários para sua unificação.\n"
-  pfp_merge_usa_effect_cores:0 "§YEstados Unidos§! ganham os núcleos e reivindicações dos fantoches anexados.\n"
+  pfp_merge_usa_effect_form:0 "§YEUA Orientais§! são formados pelo fantoche com mais fábricas.\n"
+  pfp_merge_usa_effect_annex:0 "§YEUA Orientais§! anexam os fantoches necessários para sua unificação.\n"
+  pfp_merge_usa_effect_cores:0 "§YEUA Orientais§! ganham os núcleos e reivindicações dos fantoches anexados.\n"
 
-  pfp_merge_usa_rockies:0 "Absorver as Rochosas nos Estados Unidos"
-  pfp_merge_usa_rockies_desc:0 "As Montanhas Rochosas marcavam o limite da antiga fronteira — o muro de picos que testava cada expedição que avançava para o oeste a partir do Mississippi. Com os Estados Unidos centrais restaurados, estendemos nosso alcance a esses altos territórios e trazemos o oeste das Rochosas de volta à bandeira americana."
-  pfp_merge_usa_is_formed_tt:0 "Um Estados Unidos unificado existe entre nossos fantoches."
-  pfp_merge_usa_rockies_not_yet_absorbed_tt:0 "As Rochosas ainda não foram absorvidas pelos Estados Unidos."
-  pfp_merge_usa_rockies_effect_annex:0 "§YOs Estados Unidos§! anexam §YEUA Rochosas§!, ganhando seus núcleos e territórios nucleáveis.\n"
+  pfp_merge_western_usa_is_formed_tt:0 "Os EUA Ocidentais foram formados."
+  pfp_merge_eastern_usa_is_formed_tt:0 "Os EUA Orientais foram formados."
 
-  pfp_merge_usa_pacific:0 "Absorver o Pacífico nos Estados Unidos"
-  pfp_merge_usa_pacific_desc:0 "A corrida do ouro californiana construiu cidades da noite para o dia; as florestas do noroeste do Pacífico alimentaram um continente. A costa do Pacífico sempre foi onde a incansável expansão para o oeste da América estava destinada a terminar, contemplando o maior oceano do mundo. Sua incorporação completa a nação de mar a mar."
-  pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "O Pacífico ainda não foi absorvido pelos Estados Unidos."
-  pfp_merge_usa_pacific_effect_annex:0 "§YOs Estados Unidos§! anexam §YEUA Pacífico§!, ganhando seus núcleos e territórios nucleáveis.\n"
-  pfp_merge_usa_pacific_requires_rockies_tt:0 "As Montanhas Rochosas devem primeiro ser absorvidas pelos Estados Unidos."
+  pfp_merge_united_states:0 "Unir os Estados Unidos"
+  pfp_merge_united_states_desc:0 "Dos desertos abrasados do sudoeste aos corredores industriais do nordeste, dos campos dourados do Centro-Oeste aos pântanos do Sul profundo, a América nunca foi apenas uma região — ela foi todas elas. O Leste e o Oeste cada um provou a sua força. Agora devem provar que são uma única nação."
+  pfp_merge_united_states_not_yet_formed_tt:0 "Os Estados Unidos ainda não foram formados."
+  pfp_merge_united_states_effect_form:0 "§YEstados Unidos§! são formados pelo fantoche com mais fábricas.\n"
+  pfp_merge_united_states_effect_annex:0 "§YEstados Unidos§! anexam os fantoches necessários para sua unificação.\n"
+  pfp_merge_united_states_effect_cores:0 "§YEstados Unidos§! ganham os núcleos e reivindicações dos fantoches anexados.\n"
+
+
 
   # China
   pfp_merge_china:0 "Unificar a China"
@@ -5077,15 +5085,28 @@
   pfp_merge_east_africa_effect_annex:0 "§YÁfrica Oriental§! anexa os fantoches necessários para sua unificação.\n"
   pfp_merge_east_africa_effect_cores:0 "§YÁfrica Oriental§! ganha os núcleos e reivindicações dos fantoches anexados.\n"
   pfp_merge_east_africa_is_formed_tt:0 "Uma África Oriental unificada existe entre os nossos fantoches."
-
-
-
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   pfp_merge_east_africa_ruanda_urundi:0 "Absorver Ruanda-Urundi pela África Oriental"
   pfp_merge_east_africa_ruanda_urundi_desc:0 "Encravado nas terras altas acima da bacia do Congo, este é um dos territórios mais densamente habitados da África — pequeno em área mas significativo geograficamente, encaixado entre os Grandes Lagos e o escarpamento do Vale do Rift. Sua incorporação fecha a lacuna em nossa fronteira na África Central."
   pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "Ruanda-Urundi ainda não foi absorvido pela África Oriental."
   pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§YA África Oriental§! anexa §YRuanda-Urundi§!, ganhando seus núcleos e territórios anexáveis.\n"
-
+
+
+
+
 
   pfp_merge_north_africa:0 "Unificar o Norte da África"
   pfp_merge_north_africa_desc:0 "From the Atlas Mountains of Morocco to the banks of the Nile, the North African coast has been the crossroads of Mediterranean civilization for four thousand years. Once united under Rome and the great Islamic caliphates, the Maghreb and the Nile Valley share a common heritage that colonial borders have long divided. Their unification would forge a power capable of reshaping the entire Mediterranean world."
@@ -5094,9 +5115,16 @@
   pfp_merge_north_africa_effect_annex:0 "§YO Norte da África§! anexa os fantoches necessários para sua unificação.\n"
   pfp_merge_north_africa_effect_cores:0 "§YO Norte da África§! obtém os núcleos e reivindicações dos fantoches anexados.\n"
   pfp_merge_north_africa_is_formed_tt:0 "Um Norte da África unificado existe entre nossos fantoches."
-
-
-
+
+
+
+
+
+
+
+
+
+
 
   pfp_merge_north_africa_western_sahara:0 "Absorver o Saara Ocidental no Norte da África"
   pfp_merge_north_africa_western_sahara_desc:0 "Estendendo-se pelo Saara a partir da orla atlântica, este vasto território escassamente habitado guarda as aproximações ocidentais do Magrebe. Sua absorção ancora o flanco atlântico do Norte da África e assegura a fronteira desértica meridional."

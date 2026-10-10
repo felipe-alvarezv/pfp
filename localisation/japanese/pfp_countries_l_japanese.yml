@@ -4991,6 +4991,7 @@
   pfp_merge_north_africa_puppets_ready_tt:0 "§YMorocco§!, §YAlgeria§!, §YTunisia§!, §YLibya§!, §YEgypt§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
   pfp_merge_western_russia_puppets_ready_tt:0 "§YCentral Russia§!, §YSouthern Russia§!, §YVolga§!, §YNorthwestern Russia§!:\n[ROOT.GetName]の軍事占領です。\n現在占領中のすべての核化可能な領土を核化している必要があります。"
   pfp_merge_eastern_russia_puppets_ready_tt:0 "§YUrals§!, §YSiberia§!, §YFar East Russia§!:\n[ROOT.GetName]の軍事占領です。\n現在占領中のすべての核化可能な領土を核化している必要があります。"
+  pfp_merge_western_usa_puppets_ready_tt:0 "§Y米国太平洋§!、§Y米国ロッキー§!:\n[ROOT.GetName]の軍事占領下にあること。\n現在占領中のコア化可能な全領土をコア化済みであること。"
   pfp_merge_usa_puppets_ready_tt:0 "§YNortheastern U.S.§!, §YMidwestern U.S.§!, §YSouthern U.S.§!:\n[ROOT.GetName]の軍事占領です。\n現在占領中のすべての核化可能な領土を核化している必要があります。"
   pfp_merge_west_africa_puppets_ready_tt:0 "§YNiger§!, §YMali§!, §YNigeria§!, §YTogo§!, §YDahomey§!, §YGold Coast§!, §YUpper Volta§!, §YIvory Coast§!, §YGuinea§!, §YSierra Leone§!, §YSenegal§!, §YGambia§!, §YMauritania§!:\nIs a Military Occupation of [ROOT.GetName].\nMust have cored all currently occupied coreable territories."
   pfp_merge_yugoslavia_puppets_ready_tt:0 "§YCroatia§!, §YSlovenia§!, §YBosnia-Herzegovina§!, §YSerbia§!:\n[ROOT.GetName]の軍事占領です。\n現在占領中のすべての核化可能な領土を核化している必要があります。"
@@ -5005,24 +5006,31 @@
   pfp_merge_canada_quebec_effect_annex:0 "§Yカナダ§!は§Yケベック§!を併合し、そのコアと核化可能な領土を獲得します。\n"
 
   # United States
+  pfp_merge_western_usa:0 "西部合衆国を統一する"
+  pfp_merge_western_usa_desc:0 "太平洋岸とロッキー山脈は、常にアメリカという実験の野性的で手つかずの西の端だった——カリフォルニアの日に焼けた海岸から、カスケード山脈の雪に覆われた峰々まで。大陸が再統一されるには、まず西部が一つの声で語らなければならない。"
+  pfp_merge_western_usa_not_yet_formed_tt:0 "西部合衆国はまだ統一されていません。"
+  pfp_merge_western_usa_effect_form:0 "§Y西部合衆国§!は最も多くの工場を持つ傀儡によって形成されます。\n"
+  pfp_merge_western_usa_effect_annex:0 "§Y西部合衆国§!はその統一に必要な傀儡を併合します。\n"
+  pfp_merge_western_usa_effect_cores:0 "§Y西部合衆国§!は併合した傀儡のコアと領有権を獲得します。\n"
+
   pfp_merge_usa:0 "アメリカを統一する"
   pfp_merge_usa_desc:0 "北東部の工場と港湾から南部の農地と都市、そして中西部の偉大な工業の中心地へ——これら三つの地域は、世界が見たことのない最強の国家を支える柱だった。連邦はかつて莫大な代償を払って守られた。再び築くことができる。"
-  pfp_merge_usa_not_yet_formed_tt:0 "アメリカ合衆国はまだ再統一されていません。"
-  pfp_merge_usa_effect_form:0 "§Yアメリカ合衆国§!は最も多くの工場を持つ傀儡によって形成されます。\n"
-  pfp_merge_usa_effect_annex:0 "§Yアメリカ合衆国§!はその統一に必要な傀儡を併合します。\n"
-  pfp_merge_usa_effect_cores:0 "§Yアメリカ合衆国§!は併合された傀儡のコアと権益を獲得します。\n"
+  pfp_merge_usa_not_yet_formed_tt:0 "東部アメリカ合衆国はまだ統一されていません。"
+  pfp_merge_usa_effect_form:0 "§Y東部アメリカ合衆国§!は最も多くの工場を持つ傀儡によって形成されます。\n"
+  pfp_merge_usa_effect_annex:0 "§Y東部アメリカ合衆国§!はその統一に必要な傀儡を併合します。\n"
+  pfp_merge_usa_effect_cores:0 "§Y東部アメリカ合衆国§!は併合された傀儡のコアと権益を獲得します。\n"
 
-  pfp_merge_usa_rockies:0 "ロッキー山脈をアメリカ合衆国に吸収する"
-  pfp_merge_usa_rockies_desc:0 "ロッキー山脈はかつての開拓地の境界——ミシシッピ川から西へ進む遠征隊を試した峰々の壁だった。アメリカ合衆国の中核が回復された今、この高地へと手を伸ばし、ロッキー山脈西部をアメリカの旗の下に取り戻す。"
-  pfp_merge_usa_is_formed_tt:0 "統一されたアメリカ合衆国が我々の傀儡の中に存在しています。"
-  pfp_merge_usa_rockies_not_yet_absorbed_tt:0 "ロッキー山脈はまだアメリカ合衆国に吸収されていません。"
-  pfp_merge_usa_rockies_effect_annex:0 "§Yアメリカ合衆国§!は§Y米国ロッキー§!を併合し、そのコアとコア化可能な領土を獲得します。\n"
+  pfp_merge_western_usa_is_formed_tt:0 "西部アメリカ合衆国が形成されました。"
+  pfp_merge_eastern_usa_is_formed_tt:0 "東部アメリカ合衆国が形成されました。"
 
-  pfp_merge_usa_pacific:0 "太平洋地域をアメリカ合衆国に吸収する"
-  pfp_merge_usa_pacific_desc:0 "カリフォルニアのゴールドラッシュは一夜にして都市を築き、太平洋岸北西部の森林は大陸を養った。太平洋岸は常に、アメリカの西への飽くなき拡大が終わる運命にある場所であり、世界最大の大洋を見渡している。その組み込みにより、国家は「海から輝く海まで」を完成させる。"
-  pfp_merge_usa_pacific_not_yet_absorbed_tt:0 "太平洋地域はまだアメリカ合衆国に吸収されていません。"
-  pfp_merge_usa_pacific_effect_annex:0 "§Yアメリカ合衆国§!は§Y米国太平洋§!を併合し、そのコアとコア化可能な領土を獲得します。\n"
-  pfp_merge_usa_pacific_requires_rockies_tt:0 "ロッキー山脈をまずアメリカ合衆国に吸収する必要があります。"
+  pfp_merge_united_states:0 "アメリカ合衆国を形成する"
+  pfp_merge_united_states_desc:0 "南西部の焦げた砂漠から北東部の工業地帯まで、中西部の金色の笥から深南部の山沢地帯まで、アメリカは決して一つの地域ではなかった—それはすべての地域であった。東部と西部はそれぞれその力を証明した。今こそ、一つの国家であることを証明する時だ。"
+  pfp_merge_united_states_not_yet_formed_tt:0 "アメリカ合衆国はまだ形成されていません。"
+  pfp_merge_united_states_effect_form:0 "§Yアメリカ合衆国§!は最も多くの工場を持つ傀儡によって形成されます。\n"
+  pfp_merge_united_states_effect_annex:0 "§Yアメリカ合衆国§!はその統一に必要な傀儡を併合します。\n"
+  pfp_merge_united_states_effect_cores:0 "§Yアメリカ合衆国§!は併合した傀儡のコアと領有権を獲得します。\n"
+
+
 
   # China
   pfp_merge_china:0 "中国を統一する"
@@ -5077,15 +5085,28 @@
   pfp_merge_east_africa_effect_annex:0 "§Y東アフリカ§!はその統一に必要な傀儡を併合します。\n"
   pfp_merge_east_africa_effect_cores:0 "§Y東アフリカ§!は併合された傀儡のコアと権益を獲得します。\n"
   pfp_merge_east_africa_is_formed_tt:0 "統一された東アフリカが我々の傀儡の中に存在します。"
-
-
-
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   pfp_merge_east_africa_ruanda_urundi:0 "ルアンダ・ウルンジを東アフリカに吸収する"
   pfp_merge_east_africa_ruanda_urundi_desc:0 "コンゴ盆地上の高地に抱かれ、アフリカで最も人口密度の高い地域の一つ——面積は小さいが、大湖とリフトバレーの断崖の間に位置し地理的に重要だ。その組み込みにより、中部アフリカの国境の空白が埋まる。"
   pfp_merge_east_africa_ruanda_urundi_not_yet_absorbed_tt:0 "ルアンダ・ウルンジはまだ東アフリカに吸収されていません。"
   pfp_merge_east_africa_ruanda_urundi_effect_annex:0 "§Y東アフリカ§!は§Yルアンダ・ウルンジ§!を併合し、そのコアと編入可能な領土を獲得します。\n"
-
+
+
+
+
 
   pfp_merge_north_africa:0 "北アフリカを統一する"
   pfp_merge_north_africa_desc:0 "From the Atlas Mountains of Morocco to the banks of the Nile, the North African coast has been the crossroads of Mediterranean civilization for four thousand years. Once united under Rome and the great Islamic caliphates, the Maghreb and the Nile Valley share a common heritage that colonial borders have long divided. Their unification would forge a power capable of reshaping the entire Mediterranean world."
@@ -5094,9 +5115,16 @@
   pfp_merge_north_africa_effect_annex:0 "§Y北アフリカ§!はその統一に必要な傀儡を併合する。\n"
   pfp_merge_north_africa_effect_cores:0 "§Y北アフリカ§!は併合された傀儡のコアと領有権を獲得する。\n"
   pfp_merge_north_africa_is_formed_tt:0 "統一された北アフリカが我々の傀儡の中に存在する。"
-
-
-
+
+
+
+
+
+
+
+
+
+
 
   pfp_merge_north_africa_western_sahara:0 "西サハラを北アフリカに吸収する"
   pfp_merge_north_africa_western_sahara_desc:0 "大西洋岸からサハラへと広がるこの広大で人口希薄な地域は、マグレブへの西側アプローチを守っている。その吸収により、北アフリカの大西洋側側面が固定され、南部砂漠国境が確保される。"
