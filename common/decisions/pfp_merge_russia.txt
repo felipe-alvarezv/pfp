@@ -605,6 +605,7 @@ pfp_unification = {
 				event_target:pfp_russia_winner = {
 					set_cosmetic_tag = PFP_RUSSIA
 					set_country_flag = pfp_is_russia
+					set_country_flag = pfp_is_western_russia
 				}
 
 				clear_global_event_target = pfp_russia_west

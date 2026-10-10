@@ -90,9 +90,7 @@ pfp_category = {
 				has_full_control_of_state = 931 #Cumbria
 			}
 		}
-		visible = {
-			always = no #Replaced by PFP merger system
-		}
+		visible = { always = no } #Replaced by PFP merger system
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 120 #Scottish Highlands

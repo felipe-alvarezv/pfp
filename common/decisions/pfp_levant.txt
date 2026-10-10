@@ -37,9 +37,7 @@ pfp_category = {
 				has_full_control_of_state = 680 #Deir-Az-Zur
 			}
 		}
-		visible = {
-			always = no #Replaced by PPL merger system
-		}
+		visible = { always = no } #Replaced by PFP merger system
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 454 #Palestine

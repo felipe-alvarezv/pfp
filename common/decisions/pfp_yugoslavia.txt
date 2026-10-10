@@ -34,9 +34,7 @@ pfp_category = {
                 has_full_control_of_state = 764 #West Banat
             }
         }
-        visible = {
-            always = no #Replaced by PFP merger system
-        }
+        visible = { always = no } #Replaced by PFP merger system
         highlight_states = {
             highlight_state_targets = { 
                 state = 45 #Vojvodina
