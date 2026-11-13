@@ -52,10 +52,10 @@ pfp_category = {
 				tooltip = pfp_kazakhstan_required_states_akhtubinsk
 				has_full_control_of_state = 402 #Akhtubinsk
 			}
-			#Ust Urt (857)
+			#Ust Urt (587)
 			custom_trigger_tooltip = {
 				tooltip = pfp_kazakhstan_required_states_ust_urt
-				has_full_control_of_state = 857 #Ust Urt
+				has_full_control_of_state = 587 #Ust Urt
 			}
 			#Ural'sk (407)
 			custom_trigger_tooltip = {
@@ -79,7 +79,7 @@ pfp_category = {
 				has_full_control_of_state = 881 #Karagandy
 				has_full_control_of_state = 404 #Kyzyl Orda
 				has_full_control_of_state = 402 #Akhtubinsk
-				has_full_control_of_state = 857 #Ust Urt
+				has_full_control_of_state = 587 #Ust Urt
 				has_full_control_of_state = 407 #Ural'sk
 				has_full_control_of_state = 406 #Guryev
 			}
@@ -96,7 +96,7 @@ pfp_category = {
 				state = 881 #Karagandy
 				state = 404 #Kyzyl Orda
 				state = 402 #Akhtubinsk
-				state = 857 #Ust Urt
+				state = 587 #Ust Urt
 				state = 407 #Ural'sk
 				state = 406 #Guryev
 			}

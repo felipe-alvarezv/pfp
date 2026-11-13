@@ -1,0 +1,138 @@
+###########################################################################
+# MERGE DECISIONS - GUIANA
+# Allows the overlord to merge the three Guianas into a unified Guiana.
+#
+# Decision 1: pfp_merge_guiana
+#   Requires Guyana (R35), Suriname (R36), and Guyane (R37) as PFP subjects.
+#   The puppet with the most total factories becomes Guiana.
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Guyana (R35) + Suriname (R36) + Guyane (R37) -> Guiana
+	# ----------------------------------------------------------------
+	pfp_merge_guiana = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_guiana_merged }
+			OR = {
+				R35 = { is_subject_of = ROOT }
+				R36 = { is_subject_of = ROOT }
+				R37 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_guiana_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_guiana_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_guiana_puppets_ready_tt
+				R35 = { is_subject_of = ROOT }
+				R36 = { is_subject_of = ROOT }
+				R37 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				R35 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R36 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R37 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				R35 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R36 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R37 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_guiana_effect_form
+			custom_effect_tooltip = pfp_merge_guiana_effect_annex
+			custom_effect_tooltip = pfp_merge_guiana_effect_cores
+			hidden_effect = {
+				R35 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_guiana_winner
+				}
+				R36 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_guiana_winner.pfp_fac } }
+						save_global_event_target_as = pfp_guiana_winner
+					}
+				}
+				R37 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_guiana_winner.pfp_fac } }
+						save_global_event_target_as = pfp_guiana_winner
+					}
+				}
+
+				# Transfer state cores/ownership from losers to winner
+				if = {
+					limit = { NOT = { event_target:pfp_guiana_winner = { tag = R35 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R35  has_contested_owner = R35 } }
+						add_core_of = event_target:pfp_guiana_winner
+						add_contested_owner = event_target:pfp_guiana_winner
+						remove_core_of = R35
+						remove_claim_by = R35
+						remove_contested_owner = R35
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_guiana_winner = { tag = R36 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R36  has_contested_owner = R36 } }
+						add_core_of = event_target:pfp_guiana_winner
+						add_contested_owner = event_target:pfp_guiana_winner
+						remove_core_of = R36
+						remove_claim_by = R36
+						remove_contested_owner = R36
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_guiana_winner = { tag = R37 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R37  has_contested_owner = R37 } }
+						add_core_of = event_target:pfp_guiana_winner
+						add_contested_owner = event_target:pfp_guiana_winner
+						remove_core_of = R37
+						remove_claim_by = R37
+						remove_contested_owner = R37
+					}
+				}
+
+				# Transfer pfp_possible_cores arrays, annex losers, set tag and flag
+				event_target:pfp_guiana_winner = {
+					if = { limit = { NOT = { tag = R35 } } for_each_loop = { array = R35.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R36 } } for_each_loop = { array = R36.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R37 } } for_each_loop = { array = R37.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R35 } } annex_country = { target = R35 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R36 } } annex_country = { target = R36 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R37 } } annex_country = { target = R37 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_GUIANA
+					set_country_flag = pfp_is_guiana
+				}
+
+				clear_global_event_target = pfp_guiana_winner
+				set_global_flag = pfp_guiana_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

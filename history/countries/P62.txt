@@ -94,7 +94,7 @@ recruit_character = P62_democratic_leader
 recruit_character = P62_neutrality_leader
 recruit_character = P62_fascism_leader
 
-#Northern France Initial Territories
+#Northern France Initial States
 add_to_array = { P62.pfp_possible_cores = 16 } #Ile de France
 add_to_array = { P62.pfp_possible_cores = 17 } #Franche-Comte
 add_to_array = { P62.pfp_possible_cores = 18 } #Champagne

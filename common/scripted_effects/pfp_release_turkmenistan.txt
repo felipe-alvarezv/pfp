@@ -8,12 +8,10 @@ pfp_release_turkmenistan = {
 			#Add contestion to formable puppet
 			584 = { add_contested_owner = R34 } #Ashkhabad
 			832 = { add_contested_owner = R34 } #Tashauz
-			1007 = { add_contested_owner = R34 } #Maymanah
 
 			#Add claims to formable puppet
 			584 = { add_claim_by = R34 } #Ashkhabad
 			832 = { add_claim_by = R34 } #Tashauz
-			1007 = { add_claim_by = R34 } #Maymanah
 
 			#Set formable puppet as controller of contested state
 			every_state = {
@@ -39,7 +37,6 @@ pfp_release_turkmenistan = {
 			#Add cores to formable puppet
 			584 = { add_core_of = R34 } #Ashkhabad
 			832 = { add_core_of = R34 } #Tashauz
-			1007 = { add_core_of = R34 } #Maymanah
 
 			#Set formable puppet as owner and controller of core state
 			every_state = {

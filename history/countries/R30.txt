@@ -103,6 +103,6 @@ add_to_array = { R30.pfp_possible_cores = 583 } #Kostanay
 add_to_array = { R30.pfp_possible_cores = 881 } #Karagandy
 add_to_array = { R30.pfp_possible_cores = 404 } #Kyzyl Orda
 add_to_array = { R30.pfp_possible_cores = 402 } #Akhtubinsk
-add_to_array = { R30.pfp_possible_cores = 857 } #Ust Urt
+add_to_array = { R30.pfp_possible_cores = 587 } #Ust Urt
 add_to_array = { R30.pfp_possible_cores = 407 } #Ural'sk
 add_to_array = { R30.pfp_possible_cores = 406 } #Guryev

@@ -94,7 +94,7 @@ recruit_character = P40_democratic_leader
 recruit_character = P40_neutrality_leader
 recruit_character = P40_fascism_leader
 
-#Southern Russia Initial Territories
+#Southern Russia Initial States
 add_to_array = { P40.pfp_possible_cores = 217 } #Stalingrad
 add_to_array = { P40.pfp_possible_cores = 218 } #Rostov
 add_to_array = { P40.pfp_possible_cores = 236 } #Astrakhan

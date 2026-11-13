@@ -1,0 +1,736 @@
+###########################################################################
+# MERGE DECISIONS - WEST INDIES
+# Allows the overlord to merge West Indian puppet states into a unified
+# West Indies.
+#
+# Decision 1: pfp_merge_west_indies
+#   Requires Cuba (Q99), Dominican Republic (Q98), and Haiti (Q97).
+#   The puppet with the most total factories becomes the West Indies.
+#
+# Follow-up decisions (available after West Indies is formed):
+#   pfp_merge_west_indies_jamaica        - Absorbs Jamaica (Q96)
+#   pfp_merge_west_indies_bahamas        - Absorbs Bahamas (R01)
+#   pfp_merge_west_indies_puerto_rico    - Absorbs Puerto Rico (R02)
+#   pfp_merge_west_indies_french_antilles - Absorbs French Antilles (R03)
+#   pfp_merge_west_indies_british_antilles - Absorbs British Antilles (R04)
+#   pfp_merge_west_indies_dutch_antilles - Absorbs Dutch Antilles (R05)
+#   pfp_merge_west_indies_trinidad       - Absorbs Trinidad & Tobago (R06)
+#   pfp_merge_west_indies_bermuda        - Absorbs Bermuda (R07)
+#   pfp_merge_west_indies_belize         - Absorbs Belize (R08)
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Cuba (Q99) + Dominican Republic (Q98) + Haiti (Q97) -> West Indies
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_west_indies_merged }
+			OR = {
+				Q97 = { is_subject_of = ROOT }
+				Q98 = { is_subject_of = ROOT }
+				Q99 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_west_indies_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_puppets_ready_tt
+				Q97 = { is_subject_of = ROOT }
+				Q98 = { is_subject_of = ROOT }
+				Q99 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				Q97 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q98 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q99 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				Q97 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q98 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q99 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_effect_form
+			custom_effect_tooltip = pfp_merge_west_indies_effect_annex
+			custom_effect_tooltip = pfp_merge_west_indies_effect_cores
+			hidden_effect = {
+				# Each subsequent puppet wins if it strictly has more factories.
+				Q97 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_west_indies_winner
+				}
+				Q98 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_west_indies_winner.pfp_fac } }
+						save_global_event_target_as = pfp_west_indies_winner
+					}
+				}
+				Q99 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_west_indies_winner.pfp_fac } }
+						save_global_event_target_as = pfp_west_indies_winner
+					}
+				}
+
+				# Transfer state cores/ownership from losers to winner
+				if = {
+					limit = { NOT = { event_target:pfp_west_indies_winner = { tag = Q97 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q97  has_contested_owner = Q97 } }
+						add_core_of = event_target:pfp_west_indies_winner
+						add_contested_owner = event_target:pfp_west_indies_winner
+						remove_core_of = Q97
+						remove_claim_by = Q97
+						remove_contested_owner = Q97
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_west_indies_winner = { tag = Q98 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q98  has_contested_owner = Q98 } }
+						add_core_of = event_target:pfp_west_indies_winner
+						add_contested_owner = event_target:pfp_west_indies_winner
+						remove_core_of = Q98
+						remove_claim_by = Q98
+						remove_contested_owner = Q98
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_west_indies_winner = { tag = Q99 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q99  has_contested_owner = Q99 } }
+						add_core_of = event_target:pfp_west_indies_winner
+						add_contested_owner = event_target:pfp_west_indies_winner
+						remove_core_of = Q99
+						remove_claim_by = Q99
+						remove_contested_owner = Q99
+					}
+				}
+
+				# Transfer pfp_possible_cores arrays, annex losers, set tag and flag
+				event_target:pfp_west_indies_winner = {
+					if = { limit = { NOT = { tag = Q97 } } for_each_loop = { array = Q97.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q98 } } for_each_loop = { array = Q98.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q99 } } for_each_loop = { array = Q99.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q97 } } annex_country = { target = Q97 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q98 } } annex_country = { target = Q98 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q99 } } annex_country = { target = Q99 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_WEST_INDIES
+					set_country_flag = pfp_is_west_indies
+				}
+
+				clear_global_event_target = pfp_west_indies_winner
+				set_global_flag = pfp_west_indies_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Jamaica (Q96)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_jamaica = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_jamaica }
+			Q96 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_jamaica_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_jamaica }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			Q96 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_jamaica_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = Q96.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q96  has_contested_owner = Q96 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = Q96
+					remove_claim_by = Q96
+					remove_contested_owner = Q96
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = Q96 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_jamaica
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Bahamas (R01)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_bahamas = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_bahamas }
+			R01 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_bahamas_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_bahamas }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			R01 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_bahamas_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = R01.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R01  has_contested_owner = R01 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = R01
+					remove_claim_by = R01
+					remove_contested_owner = R01
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = R01 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_bahamas
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Puerto Rico (R02)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_puerto_rico = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_puerto_rico }
+			R02 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_puerto_rico_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_puerto_rico }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			R02 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_puerto_rico_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = R02.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R02  has_contested_owner = R02 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = R02
+					remove_claim_by = R02
+					remove_contested_owner = R02
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = R02 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_puerto_rico
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: French Antilles (R03)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_french_antilles = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_french_antilles }
+			R03 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_french_antilles_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_french_antilles }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			R03 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_french_antilles_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = R03.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R03  has_contested_owner = R03 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = R03
+					remove_claim_by = R03
+					remove_contested_owner = R03
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = R03 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_french_antilles
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: British Antilles (R04)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_british_antilles = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_british_antilles }
+			R04 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_british_antilles_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_british_antilles }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			R04 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_british_antilles_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = R04.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R04  has_contested_owner = R04 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = R04
+					remove_claim_by = R04
+					remove_contested_owner = R04
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = R04 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_british_antilles
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Dutch Antilles (R05)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_dutch_antilles = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_dutch_antilles }
+			R05 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_dutch_antilles_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_dutch_antilles }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			R05 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_dutch_antilles_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = R05.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R05  has_contested_owner = R05 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = R05
+					remove_claim_by = R05
+					remove_contested_owner = R05
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = R05 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_dutch_antilles
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Trinidad & Tobago (R06)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_trinidad = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_trinidad }
+			R06 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_trinidad_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_trinidad }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			R06 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_trinidad_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = R06.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R06  has_contested_owner = R06 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = R06
+					remove_claim_by = R06
+					remove_contested_owner = R06
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = R06 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_trinidad
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Bermuda (R07)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_bermuda = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_bermuda }
+			R07 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_bermuda_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_bermuda }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			R07 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_bermuda_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = R07.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R07  has_contested_owner = R07 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = R07
+					remove_claim_by = R07
+					remove_contested_owner = R07
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = R07 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_bermuda
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Belize (R08)
+	# ----------------------------------------------------------------
+	pfp_merge_west_indies_belize = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_west_indies_merged
+			NOT = { has_global_flag = pfp_west_indies_absorbed_belize }
+			R08 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_belize_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_west_indies_absorbed_belize }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_west_indies_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_west_indies }
+			}
+			R08 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_west_indies_belize_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					save_global_event_target_as = pfp_west_indies_country
+					for_each_loop = { array = R08.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R08  has_contested_owner = R08 } }
+					add_core_of = event_target:pfp_west_indies_country
+					add_contested_owner = event_target:pfp_west_indies_country
+					remove_core_of = R08
+					remove_claim_by = R08
+					remove_contested_owner = R08
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_west_indies }
+					annex_country = { target = R08 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_west_indies_country
+				set_global_flag = pfp_west_indies_absorbed_belize
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

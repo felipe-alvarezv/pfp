@@ -40,141 +40,38 @@ pfp_unification = {
 				tooltip = pfp_merge_japan_not_yet_formed_tt
 				NOT = { has_global_flag = pfp_japan_merged }
 			}
-			P99 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_japan_puppets_ready_tt
+				P99 = { is_subject_of = ROOT }
+				Q01 = { is_subject_of = ROOT }
+				Q02 = { is_subject_of = ROOT }
+				Q03 = { is_subject_of = ROOT }
+				Q04 = { is_subject_of = ROOT }
+				Q05 = { is_subject_of = ROOT }
+				Q06 = { is_subject_of = ROOT }
+				Q07 = { is_subject_of = ROOT }
 			}
-			Q01 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				P99 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q01 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q02 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q03 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q04 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q05 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q06 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q07 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
 			}
-			Q02 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
-			}
-			Q03 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
-			}
-			Q04 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
-			}
-			Q05 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
-			}
-			Q06 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
-			}
-			Q07 = {
-				is_subject_of = ROOT
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
-					OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted }
-				}
-				custom_trigger_tooltip = {
-					tooltip = pfp_merge_puppet_must_core_owned_territories_tt
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				P99 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q01 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q02 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q03 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q04 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q05 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q06 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q07 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
 			}
 		}
 

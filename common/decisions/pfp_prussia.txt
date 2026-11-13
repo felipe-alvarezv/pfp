@@ -64,6 +64,7 @@ pfp_category = {
 				has_full_control_of_state = 763 #Konigsberg
 			}
 			NOT = { has_global_flag = pfp_prussia_flag }
+			NOT = { P32 = { exists = yes } } #Mutually exclusive with East Germany
 		}
 		highlight_states = {
 			highlight_state_targets = { 

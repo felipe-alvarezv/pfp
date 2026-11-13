@@ -103,3 +103,9 @@ add_to_array = { Q85.pfp_possible_cores = 859 } #Dammam
 add_to_array = { Q85.pfp_possible_cores = 857 } #Al-Qassim
 add_to_array = { Q85.pfp_possible_cores = 855 } #Tabuk
 add_to_array = { Q85.pfp_possible_cores = 854 } #Jawf
+
+#Saudi Arabia Territories
+add_to_array = { Q85.pfp_possible_cores = 1014 } #Bahrain
+add_to_array = { Q85.pfp_possible_cores = 765 } #Qatar
+add_to_array = { Q85.pfp_possible_cores = 958 } #Abu Dhabi
+add_to_array = { Q85.pfp_possible_cores = 1013 } #Musandam

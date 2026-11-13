@@ -14,10 +14,7 @@ pfp_category = {
 			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 304 #Panama
-				has_full_control_of_state = 685 #Panama Canal
-			}
+			has_full_control_of_state = 304 #Panama
 			NOT = { has_global_flag = pfp_panama_flag }
 		}
 		highlight_states = {

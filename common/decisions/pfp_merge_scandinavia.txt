@@ -39,48 +39,21 @@ pfp_unification = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = pfp_merge_scandinavia_puppets_ready_tt
-				P65 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
-				P74 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
-				P61 = {
-					is_subject_of = ROOT
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
-					NOT = {
-						any_state_in = {
-							array = THIS.pfp_possible_cores
-							is_owned_by = PREV
-							NOT = { is_core_of = PREV }
-						}
-					}
-				}
+				P65 = { is_subject_of = ROOT }
+				P74 = { is_subject_of = ROOT }
+				P61 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				P65 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				P74 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				P61 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				P65 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				P74 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				P61 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
 			}
 		}
 
@@ -91,7 +64,6 @@ pfp_unification = {
 			custom_effect_tooltip = pfp_merge_scandinavia_effect_annex
 			custom_effect_tooltip = pfp_merge_scandinavia_effect_cores
 			hidden_effect = {
-				# P65 Norway initializes as default winner.
 				# Each subsequent tag wins if it strictly has more factories.
 				P65 = {
 					set_variable = { pfp_fac = num_of_military_factories }
@@ -196,7 +168,7 @@ pfp_unification = {
 			P83 = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted
@@ -265,7 +237,7 @@ pfp_unification = {
 			P85 = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
-					tooltip = pfp_merge_subject_is_military_occupation_tt
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
 					OR = {
 						has_autonomy_state = pfp_autonomy_military_occupation
 						has_autonomy_state = pfp_autonomy_military_occupation_painted

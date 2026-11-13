@@ -1,0 +1,80 @@
+pfp_category = {
+	pfp_north_korea = {
+		allowed = {
+			NOT = {
+				original_tag = KOR #Korea
+			}
+		}
+		available = {
+			is_subject = no
+			#Pyongan-Hwanghae (527)
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_korea_required_states_pyongan_hwanghae
+				has_full_control_of_state = 527 #Pyongan-Hwanghae
+			}
+			#Hamgyong (1028)
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_korea_required_states_hamgyong
+				has_full_control_of_state = 1028 #Hamgyong
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 527 #Pyongan-Hwanghae
+				has_full_control_of_state = 1028 #Hamgyong
+			}
+			NOT = { has_global_flag = pfp_north_korea_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527 #Pyongan-Hwanghae
+				state = 1028 #Hamgyong
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_north_korea_transfer_capital
+			custom_effect_tooltip = pfp_north_korea_puppet
+			custom_effect_tooltip = pfp_north_korea_occupation_type
+			custom_effect_tooltip = pfp_north_korea_state_controller
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				#Transfer control and ownership of capital to formable puppet
+				527 = { transfer_state_to = R38 } #Pyongan-Hwanghae
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = R38
+
+				#Code to assign generic portraits and set puppet color
+				set_temp_variable = { pfp_portrait_tag = R38 }
+				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_color = yes
+
+				#Set puppet ideology and overlord flag for military occupations
+				var:pfp_portrait_tag = {
+					pfp_set_puppet_ideology = yes
+					if = {
+						limit = {
+							OR = {
+								has_autonomy_state = pfp_autonomy_military_occupation
+								has_autonomy_state = pfp_autonomy_military_occupation_painted
+							}
+						}
+						pfp_set_use_overlord_flag = yes
+					}
+				}
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_north_korea = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				R38 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_north_korea_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

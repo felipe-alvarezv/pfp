@@ -1,0 +1,140 @@
+###########################################################################
+# MERGE DECISIONS - TRANSCAUCASIA
+# Allows the overlord to merge Transcaucasian puppet states into a unified
+# Transcaucasia.
+#
+# Decision 1: pfp_merge_transcaucasia
+#   Requires Georgia (R27), Armenia (R28), and Azerbaijan (R29).
+#   The puppet with the most total factories becomes Transcaucasia.
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Georgia (R27) + Armenia (R28) + Azerbaijan (R29) -> Transcaucasia
+	# ----------------------------------------------------------------
+	pfp_merge_transcaucasia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_transcaucasia_merged }
+			OR = {
+				R27 = { is_subject_of = ROOT }
+				R28 = { is_subject_of = ROOT }
+				R29 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_transcaucasia_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_transcaucasia_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_transcaucasia_puppets_ready_tt
+				R27 = { is_subject_of = ROOT }
+				R28 = { is_subject_of = ROOT }
+				R29 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				R27 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R28 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R29 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				R27 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R28 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R29 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_transcaucasia_effect_form
+			custom_effect_tooltip = pfp_merge_transcaucasia_effect_annex
+			custom_effect_tooltip = pfp_merge_transcaucasia_effect_cores
+			hidden_effect = {
+				# Each subsequent puppet wins if it strictly has more factories.
+				R27 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_transcaucasia_winner
+				}
+				R28 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_transcaucasia_winner.pfp_fac } }
+						save_global_event_target_as = pfp_transcaucasia_winner
+					}
+				}
+				R29 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_transcaucasia_winner.pfp_fac } }
+						save_global_event_target_as = pfp_transcaucasia_winner
+					}
+				}
+
+				# Transfer state cores/ownership from losers to winner
+				if = {
+					limit = { NOT = { event_target:pfp_transcaucasia_winner = { tag = R27 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R27  has_contested_owner = R27 } }
+						add_core_of = event_target:pfp_transcaucasia_winner
+						add_contested_owner = event_target:pfp_transcaucasia_winner
+						remove_core_of = R27
+						remove_claim_by = R27
+						remove_contested_owner = R27
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_transcaucasia_winner = { tag = R28 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R28  has_contested_owner = R28 } }
+						add_core_of = event_target:pfp_transcaucasia_winner
+						add_contested_owner = event_target:pfp_transcaucasia_winner
+						remove_core_of = R28
+						remove_claim_by = R28
+						remove_contested_owner = R28
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_transcaucasia_winner = { tag = R29 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R29  has_contested_owner = R29 } }
+						add_core_of = event_target:pfp_transcaucasia_winner
+						add_contested_owner = event_target:pfp_transcaucasia_winner
+						remove_core_of = R29
+						remove_claim_by = R29
+						remove_contested_owner = R29
+					}
+				}
+
+				# Transfer pfp_possible_cores arrays, annex losers, set tag and flag
+				event_target:pfp_transcaucasia_winner = {
+					if = { limit = { NOT = { tag = R27 } } for_each_loop = { array = R27.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R28 } } for_each_loop = { array = R28.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R29 } } for_each_loop = { array = R29.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R27 } } annex_country = { target = R27 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R28 } } annex_country = { target = R28 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R29 } } annex_country = { target = R29 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_TRANSCAUCASIA
+					set_country_flag = pfp_is_transcaucasia
+				}
+
+				clear_global_event_target = pfp_transcaucasia_winner
+				set_global_flag = pfp_transcaucasia_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

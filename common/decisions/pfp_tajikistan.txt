@@ -12,23 +12,14 @@ pfp_category = {
 				tooltip = pfp_tajikistan_required_states_dushanbe
 				has_full_control_of_state = 742 #Dushanbe
 			}
-			#Qataghan (1005)
-			custom_trigger_tooltip = {
-				tooltip = pfp_tajikistan_required_states_qataghan
-				has_full_control_of_state = 1005 #Qataghan
-			}
 		}
 		visible = {
-			OR = {
-				has_full_control_of_state = 742 #Dushanbe
-				has_full_control_of_state = 1005 #Qataghan
-			}
+			has_full_control_of_state = 742 #Dushanbe
 			NOT = { has_global_flag = pfp_tajikistan_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
 				state = 742 #Dushanbe
-				state = 1005 #Qataghan
 			}
 		}
 		icon = generic_military

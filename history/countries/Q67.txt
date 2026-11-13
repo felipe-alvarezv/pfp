@@ -97,4 +97,6 @@ recruit_character = Q67_fascism_leader
 add_to_array = { Q67.pfp_possible_cores = 540 } #Luanda
 add_to_array = { Q67.pfp_possible_cores = 891 } #Zambesi
 add_to_array = { Q67.pfp_possible_cores = 892 } #South West Angola
+
+#Angola Territories
 add_to_array = { Q67.pfp_possible_cores = 796 } #Cabinda

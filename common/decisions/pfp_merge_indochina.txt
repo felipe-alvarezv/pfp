@@ -1,0 +1,403 @@
+###########################################################################
+# MERGE DECISIONS - INDOCHINA
+# Allows the overlord to merge Indochinese puppet states into a unified
+# Indochina, then absorb additional Southeast Asian puppets.
+#
+# Decision 1: pfp_merge_indochina
+#   Requires Vietnam (R12), Laos (R13), and Cambodia (R14).
+#   The puppet with the most total factories becomes Indochina.
+#
+# Follow-up decisions (available after Indochina is formed):
+#   pfp_merge_indochina_siam     - Absorbs Siam (R15)
+#   pfp_merge_indochina_burma    - Absorbs Burma (R16)
+#   pfp_merge_indochina_malaysia - Absorbs Malaysia (R17)
+#   pfp_merge_indochina_singapore - Absorbs Singapore (R18)
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Vietnam (R12) + Laos (R13) + Cambodia (R14) -> Indochina
+	# ----------------------------------------------------------------
+	pfp_merge_indochina = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_indochina_merged }
+			OR = {
+				R12 = { is_subject_of = ROOT }
+				R13 = { is_subject_of = ROOT }
+				R14 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_indochina_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_puppets_ready_tt
+				R12 = { is_subject_of = ROOT }
+				R13 = { is_subject_of = ROOT }
+				R14 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				R12 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R13 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R14 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				R12 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R13 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R14 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_indochina_effect_form
+			custom_effect_tooltip = pfp_merge_indochina_effect_annex
+			custom_effect_tooltip = pfp_merge_indochina_effect_cores
+			hidden_effect = {
+				R12 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_indochina_winner
+				}
+				R13 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_indochina_winner.pfp_fac } }
+						save_global_event_target_as = pfp_indochina_winner
+					}
+				}
+				R14 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_indochina_winner.pfp_fac } }
+						save_global_event_target_as = pfp_indochina_winner
+					}
+				}
+
+				if = {
+					limit = { NOT = { event_target:pfp_indochina_winner = { tag = R12 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R12  has_contested_owner = R12 } }
+						add_core_of = event_target:pfp_indochina_winner
+						add_contested_owner = event_target:pfp_indochina_winner
+						remove_core_of = R12
+						remove_claim_by = R12
+						remove_contested_owner = R12
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_indochina_winner = { tag = R13 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R13  has_contested_owner = R13 } }
+						add_core_of = event_target:pfp_indochina_winner
+						add_contested_owner = event_target:pfp_indochina_winner
+						remove_core_of = R13
+						remove_claim_by = R13
+						remove_contested_owner = R13
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_indochina_winner = { tag = R14 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R14  has_contested_owner = R14 } }
+						add_core_of = event_target:pfp_indochina_winner
+						add_contested_owner = event_target:pfp_indochina_winner
+						remove_core_of = R14
+						remove_claim_by = R14
+						remove_contested_owner = R14
+					}
+				}
+
+				event_target:pfp_indochina_winner = {
+					if = { limit = { NOT = { tag = R12 } } for_each_loop = { array = R12.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R13 } } for_each_loop = { array = R13.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R14 } } for_each_loop = { array = R14.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R12 } } annex_country = { target = R12 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R13 } } annex_country = { target = R13 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R14 } } annex_country = { target = R14 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_INDOCHINA
+					set_country_flag = pfp_is_indochina
+				}
+
+				clear_global_event_target = pfp_indochina_winner
+				set_global_flag = pfp_indochina_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Siam (R15)
+	# ----------------------------------------------------------------
+	pfp_merge_indochina_siam = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_indochina_merged
+			NOT = { has_global_flag = pfp_indochina_absorbed_siam }
+			R15 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_siam_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_indochina_absorbed_siam }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_indochina }
+			}
+			R15 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_indochina_siam_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_indochina }
+					save_global_event_target_as = pfp_indochina_country
+					for_each_loop = { array = R15.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R15  has_contested_owner = R15 } }
+					add_core_of = event_target:pfp_indochina_country
+					add_contested_owner = event_target:pfp_indochina_country
+					remove_core_of = R15
+					remove_claim_by = R15
+					remove_contested_owner = R15
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_indochina }
+					annex_country = { target = R15 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_indochina_country
+				set_global_flag = pfp_indochina_absorbed_siam
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Burma (R16)
+	# ----------------------------------------------------------------
+	pfp_merge_indochina_burma = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_indochina_merged
+			NOT = { has_global_flag = pfp_indochina_absorbed_burma }
+			R16 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_burma_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_indochina_absorbed_burma }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_indochina }
+			}
+			R16 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_indochina_burma_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_indochina }
+					save_global_event_target_as = pfp_indochina_country
+					for_each_loop = { array = R16.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R16  has_contested_owner = R16 } }
+					add_core_of = event_target:pfp_indochina_country
+					add_contested_owner = event_target:pfp_indochina_country
+					remove_core_of = R16
+					remove_claim_by = R16
+					remove_contested_owner = R16
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_indochina }
+					annex_country = { target = R16 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_indochina_country
+				set_global_flag = pfp_indochina_absorbed_burma
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Malaysia (R17)
+	# ----------------------------------------------------------------
+	pfp_merge_indochina_malaysia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_indochina_merged
+			NOT = { has_global_flag = pfp_indochina_absorbed_malaysia }
+			R17 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_malaysia_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_indochina_absorbed_malaysia }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_indochina }
+			}
+			R17 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_indochina_malaysia_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_indochina }
+					save_global_event_target_as = pfp_indochina_country
+					for_each_loop = { array = R17.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R17  has_contested_owner = R17 } }
+					add_core_of = event_target:pfp_indochina_country
+					add_contested_owner = event_target:pfp_indochina_country
+					remove_core_of = R17
+					remove_claim_by = R17
+					remove_contested_owner = R17
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_indochina }
+					annex_country = { target = R17 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_indochina_country
+				set_global_flag = pfp_indochina_absorbed_malaysia
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Singapore (R18)
+	# ----------------------------------------------------------------
+	pfp_merge_indochina_singapore = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_indochina_merged
+			NOT = { has_global_flag = pfp_indochina_absorbed_singapore }
+			R18 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_singapore_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_indochina_absorbed_singapore }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_indochina_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_indochina }
+			}
+			R18 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_indochina_singapore_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_indochina }
+					save_global_event_target_as = pfp_indochina_country
+					for_each_loop = { array = R18.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = R18  has_contested_owner = R18 } }
+					add_core_of = event_target:pfp_indochina_country
+					add_contested_owner = event_target:pfp_indochina_country
+					remove_core_of = R18
+					remove_claim_by = R18
+					remove_contested_owner = R18
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_indochina }
+					annex_country = { target = R18 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_indochina_country
+				set_global_flag = pfp_indochina_absorbed_singapore
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

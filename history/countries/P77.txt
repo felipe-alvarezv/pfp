@@ -93,15 +93,17 @@ recruit_character = P77_democratic_leader
 recruit_character = P77_neutrality_leader
 recruit_character = P77_fascism_leader
 
-#States to add to the integration array
+#Austria Initial States
 add_to_array = { P77.pfp_possible_cores = 4 } #Lower Austria
-add_to_array = { P77.pfp_possible_cores = 39 } #Alto Adige
-add_to_array = { P77.pfp_possible_cores = 102 } #North Slovenia
 add_to_array = { P77.pfp_possible_cores = 152 } #Upper Austria
 add_to_array = { P77.pfp_possible_cores = 153 } #Tyrol
-add_to_array = { P77.pfp_possible_cores = 736 } #Litorale
 add_to_array = { P77.pfp_possible_cores = 848 } #Vorarlberg
-add_to_array = { P77.pfp_possible_cores = 850 } #Trentino
-add_to_array = { P77.pfp_possible_cores = 853 } #Ljubljana
 add_to_array = { P77.pfp_possible_cores = 975 } #Burgenland
 add_to_array = { P77.pfp_possible_cores = 976 } #Steiermark-Kärnten
+
+#Austria Territories
+add_to_array = { P77.pfp_possible_cores = 39 } #Alto Adige
+add_to_array = { P77.pfp_possible_cores = 102 } #North Slovenia
+add_to_array = { P77.pfp_possible_cores = 736 } #Litorale
+add_to_array = { P77.pfp_possible_cores = 850 } #Trentino
+add_to_array = { P77.pfp_possible_cores = 853 } #Ljubljana

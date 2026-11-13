@@ -139,6 +139,161 @@ pfp_set_use_overlord_flag = {
                 set_cosmetic_tag = PFP_EASTERN_USA
             }
 
+            else_if = {
+                limit = { has_country_flag = pfp_is_arabia }
+                set_cosmetic_tag = PFP_ARABIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_western_usa }
+                set_cosmetic_tag = PFP_WESTERN_USA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_uk }
+                set_cosmetic_tag = PFP_UK
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_great_britain }
+                set_cosmetic_tag = PFP_GREAT_BRITAIN
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_france }
+                set_cosmetic_tag = PFP_FRANCE
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_germany }
+                set_cosmetic_tag = PFP_GERMANY
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_iberia }
+                set_cosmetic_tag = PFP_IBERIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_italy }
+                set_cosmetic_tag = PFP_ITALY
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_japan }
+                set_cosmetic_tag = PFP_JAPAN
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_yugoslavia }
+                set_cosmetic_tag = PFP_YUGOSLAVIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_russia }
+                set_cosmetic_tag = PFP_RUSSIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_western_russia }
+                set_cosmetic_tag = PFP_WESTERN_RUSSIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_eastern_russia }
+                set_cosmetic_tag = PFP_EASTERN_RUSSIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_china }
+                set_cosmetic_tag = PFP_CHINA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_north_africa }
+                set_cosmetic_tag = PFP_NORTH_AFRICA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_west_africa }
+                set_cosmetic_tag = PFP_WEST_AFRICA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_central_africa }
+                set_cosmetic_tag = PFP_CENTRAL_AFRICA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_east_africa }
+                set_cosmetic_tag = PFP_EAST_AFRICA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_south_africa }
+                set_cosmetic_tag = PFP_SOUTH_AFRICA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_scandinavia }
+                set_cosmetic_tag = PFP_SCANDINAVIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_baltic }
+                set_cosmetic_tag = PFP_BALTIC
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_central_america }
+                set_cosmetic_tag = PFP_CENTRAL_AMERICA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_west_indies }
+                set_cosmetic_tag = PFP_WEST_INDIES
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_transcaucasia }
+                set_cosmetic_tag = PFP_TRANSCAUCASIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_turkestan }
+                set_cosmetic_tag = PFP_TURKESTAN
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_indochina }
+                set_cosmetic_tag = PFP_INDOCHINA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_australasia }
+                set_cosmetic_tag = PFP_AUSTRALASIA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_levant }
+                set_cosmetic_tag = PFP_LEVANT
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_mittelafrika }
+                set_cosmetic_tag = PFP_MITTELAFRIKA
+            }
+            else_if = {
+                limit = { has_country_flag = pfp_is_korea }
+                set_cosmetic_tag = PFP_KOREA
+            }
+
+            else_if = {
+                limit = { has_country_flag = pfp_is_guiana }
+                set_cosmetic_tag = PFP_GUIANA
+            }
+
+
             #Fascist Germany Cosmetic Tag
             else_if = {
                 limit = {

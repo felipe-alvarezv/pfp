@@ -94,7 +94,7 @@ recruit_character = P46_democratic_leader
 recruit_character = P46_neutrality_leader
 recruit_character = P46_fascism_leader
 
-#Far Eastern Russia Initial Territories
+#Far Eastern Russia Initial States
 add_to_array = { P46.pfp_possible_cores = 408 } #Vladivostok
 add_to_array = { P46.pfp_possible_cores = 409 } #Khabarovsk
 add_to_array = { P46.pfp_possible_cores = 560 } #Nikolayevsk

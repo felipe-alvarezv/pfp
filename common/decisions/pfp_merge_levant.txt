@@ -1,0 +1,162 @@
+###########################################################################
+# MERGE DECISIONS - LEVANT
+# Allows the overlord to merge Levantine puppet states into a unified
+# Levant.
+#
+# Decision 1: pfp_merge_levant
+#   Requires Jordan (Q86), Palestine (Q87), Lebanon (Q88), and Syria (Q89).
+#   The puppet with the most total factories becomes the Levant.
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Jordan (Q86) + Palestine (Q87) + Lebanon (Q88) + Syria (Q89) -> Levant
+	# ----------------------------------------------------------------
+	pfp_merge_levant = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_levant_merged }
+			OR = {
+				Q86 = { is_subject_of = ROOT }
+				Q87 = { is_subject_of = ROOT }
+				Q88 = { is_subject_of = ROOT }
+				Q89 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_levant_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_levant_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_levant_puppets_ready_tt
+				Q86 = { is_subject_of = ROOT }
+				Q87 = { is_subject_of = ROOT }
+				Q88 = { is_subject_of = ROOT }
+				Q89 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				Q86 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q87 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q88 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q89 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				Q86 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q87 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q88 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q89 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_levant_effect_form
+			custom_effect_tooltip = pfp_merge_levant_effect_annex
+			custom_effect_tooltip = pfp_merge_levant_effect_cores
+			hidden_effect = {
+				Q86 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_levant_winner
+				}
+				Q87 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_levant_winner.pfp_fac } }
+						save_global_event_target_as = pfp_levant_winner
+					}
+				}
+				Q88 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_levant_winner.pfp_fac } }
+						save_global_event_target_as = pfp_levant_winner
+					}
+				}
+				Q89 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_levant_winner.pfp_fac } }
+						save_global_event_target_as = pfp_levant_winner
+					}
+				}
+
+				if = {
+					limit = { NOT = { event_target:pfp_levant_winner = { tag = Q86 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q86  has_contested_owner = Q86 } }
+						add_core_of = event_target:pfp_levant_winner
+						add_contested_owner = event_target:pfp_levant_winner
+						remove_core_of = Q86
+						remove_claim_by = Q86
+						remove_contested_owner = Q86
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_levant_winner = { tag = Q87 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q87  has_contested_owner = Q87 } }
+						add_core_of = event_target:pfp_levant_winner
+						add_contested_owner = event_target:pfp_levant_winner
+						remove_core_of = Q87
+						remove_claim_by = Q87
+						remove_contested_owner = Q87
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_levant_winner = { tag = Q88 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q88  has_contested_owner = Q88 } }
+						add_core_of = event_target:pfp_levant_winner
+						add_contested_owner = event_target:pfp_levant_winner
+						remove_core_of = Q88
+						remove_claim_by = Q88
+						remove_contested_owner = Q88
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_levant_winner = { tag = Q89 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q89  has_contested_owner = Q89 } }
+						add_core_of = event_target:pfp_levant_winner
+						add_contested_owner = event_target:pfp_levant_winner
+						remove_core_of = Q89
+						remove_claim_by = Q89
+						remove_contested_owner = Q89
+					}
+				}
+
+				event_target:pfp_levant_winner = {
+					if = { limit = { NOT = { tag = Q86 } } for_each_loop = { array = Q86.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q87 } } for_each_loop = { array = Q87.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q88 } } for_each_loop = { array = Q88.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q89 } } for_each_loop = { array = Q89.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q86 } } annex_country = { target = Q86 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q87 } } annex_country = { target = Q87 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q88 } } annex_country = { target = Q88 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q89 } } annex_country = { target = Q89 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_LEVANT
+					set_country_flag = pfp_is_levant
+				}
+
+				clear_global_event_target = pfp_levant_winner
+				set_global_flag = pfp_levant_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

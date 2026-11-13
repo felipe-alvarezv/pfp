@@ -7,11 +7,9 @@ pfp_release_tajikistan = {
 
 			#Add contestion to formable puppet
 			742 = { add_contested_owner = R32 } #Dushanbe
-			1005 = { add_contested_owner = R32 } #Qataghan
 
 			#Add claims to formable puppet
 			742 = { add_claim_by = R32 } #Dushanbe
-			1005 = { add_claim_by = R32 } #Qataghan
 
 			#Set formable puppet as controller of contested state
 			every_state = {
@@ -36,7 +34,6 @@ pfp_release_tajikistan = {
 		else = {
 			#Add cores to formable puppet
 			742 = { add_core_of = R32 } #Dushanbe
-			1005 = { add_core_of = R32 } #Qataghan
 
 			#Set formable puppet as owner and controller of core state
 			every_state = {

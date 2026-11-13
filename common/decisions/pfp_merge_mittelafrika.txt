@@ -1,0 +1,667 @@
+###########################################################################
+# MERGE DECISIONS - MITTELAFRIKA
+# Allows the overlord to merge the former German African colonies into a
+# unified Mittelafrika, then absorb additional African puppets.
+#
+# Decision 1: pfp_merge_mittelafrika
+#   Requires Cameroon (Q36), Tanganyika (Q62), and South West Africa (Q71).
+#   The puppet with the most total factories becomes Mittelafrika.
+#
+# Follow-up decisions (available after Mittelafrika is formed):
+#   pfp_merge_mittelafrika_togo              - Absorbs Togo (Q40)
+#   pfp_merge_mittelafrika_ruanda_urundi     - Absorbs Ruanda-Urundi (Q66)
+#   pfp_merge_mittelafrika_gabon             - Absorbs Gabon (Q38)
+#   pfp_merge_mittelafrika_congo_brazzaville - Absorbs Congo-Brazzaville (Q39)
+#   pfp_merge_mittelafrika_northern_rhodesia - Absorbs Northern Rhodesia (Q63)
+#   pfp_merge_mittelafrika_southern_rhodesia - Absorbs Southern Rhodesia (Q69)
+#   pfp_merge_mittelafrika_angola            - Absorbs Angola (Q67)
+#   pfp_merge_mittelafrika_mozambique        - Absorbs Mozambique (Q68)
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Cameroon (Q36) + Tanganyika (Q62) + South West Africa (Q71) -> Mittelafrika
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_mittelafrika_merged }
+			OR = {
+				Q36 = { is_subject_of = ROOT }
+				Q62 = { is_subject_of = ROOT }
+				Q71 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_puppets_ready_tt
+				Q36 = { is_subject_of = ROOT }
+				Q62 = { is_subject_of = ROOT }
+				Q71 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				Q36 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q62 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q71 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				Q36 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q62 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				Q71 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_effect_form
+			custom_effect_tooltip = pfp_merge_mittelafrika_effect_annex
+			custom_effect_tooltip = pfp_merge_mittelafrika_effect_cores
+			hidden_effect = {
+				Q36 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_mittelafrika_winner
+				}
+				Q62 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_mittelafrika_winner.pfp_fac } }
+						save_global_event_target_as = pfp_mittelafrika_winner
+					}
+				}
+				Q71 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_mittelafrika_winner.pfp_fac } }
+						save_global_event_target_as = pfp_mittelafrika_winner
+					}
+				}
+
+				if = {
+					limit = { NOT = { event_target:pfp_mittelafrika_winner = { tag = Q36 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q36  has_contested_owner = Q36 } }
+						add_core_of = event_target:pfp_mittelafrika_winner
+						add_contested_owner = event_target:pfp_mittelafrika_winner
+						remove_core_of = Q36
+						remove_claim_by = Q36
+						remove_contested_owner = Q36
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_mittelafrika_winner = { tag = Q62 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q62  has_contested_owner = Q62 } }
+						add_core_of = event_target:pfp_mittelafrika_winner
+						add_contested_owner = event_target:pfp_mittelafrika_winner
+						remove_core_of = Q62
+						remove_claim_by = Q62
+						remove_contested_owner = Q62
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_mittelafrika_winner = { tag = Q71 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = Q71  has_contested_owner = Q71 } }
+						add_core_of = event_target:pfp_mittelafrika_winner
+						add_contested_owner = event_target:pfp_mittelafrika_winner
+						remove_core_of = Q71
+						remove_claim_by = Q71
+						remove_contested_owner = Q71
+					}
+				}
+
+				event_target:pfp_mittelafrika_winner = {
+					if = { limit = { NOT = { tag = Q36 } } for_each_loop = { array = Q36.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q62 } } for_each_loop = { array = Q62.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q71 } } for_each_loop = { array = Q71.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = Q36 } } annex_country = { target = Q36 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q62 } } annex_country = { target = Q62 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = Q71 } } annex_country = { target = Q71 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_MITTELAFRIKA
+					set_country_flag = pfp_is_mittelafrika
+				}
+
+				clear_global_event_target = pfp_mittelafrika_winner
+				set_global_flag = pfp_mittelafrika_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Togo (Q40)
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika_togo = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_mittelafrika_merged
+			NOT = { has_global_flag = pfp_mittelafrika_absorbed_togo }
+			Q40 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_togo_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_absorbed_togo }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_mittelafrika }
+			}
+			Q40 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_togo_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					save_global_event_target_as = pfp_mittelafrika_country
+					for_each_loop = { array = Q40.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q40  has_contested_owner = Q40 } }
+					add_core_of = event_target:pfp_mittelafrika_country
+					add_contested_owner = event_target:pfp_mittelafrika_country
+					remove_core_of = Q40
+					remove_claim_by = Q40
+					remove_contested_owner = Q40
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					annex_country = { target = Q40 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_mittelafrika_country
+				set_global_flag = pfp_mittelafrika_absorbed_togo
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Ruanda-Urundi (Q66)
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika_ruanda_urundi = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_mittelafrika_merged
+			NOT = { has_global_flag = pfp_mittelafrika_absorbed_ruanda_urundi }
+			Q66 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_ruanda_urundi_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_absorbed_ruanda_urundi }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_mittelafrika }
+			}
+			Q66 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_ruanda_urundi_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					save_global_event_target_as = pfp_mittelafrika_country
+					for_each_loop = { array = Q66.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q66  has_contested_owner = Q66 } }
+					add_core_of = event_target:pfp_mittelafrika_country
+					add_contested_owner = event_target:pfp_mittelafrika_country
+					remove_core_of = Q66
+					remove_claim_by = Q66
+					remove_contested_owner = Q66
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					annex_country = { target = Q66 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_mittelafrika_country
+				set_global_flag = pfp_mittelafrika_absorbed_ruanda_urundi
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Gabon (Q38)
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika_gabon = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_mittelafrika_merged
+			NOT = { has_global_flag = pfp_mittelafrika_absorbed_gabon }
+			Q38 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_gabon_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_absorbed_gabon }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_mittelafrika }
+			}
+			Q38 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_gabon_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					save_global_event_target_as = pfp_mittelafrika_country
+					for_each_loop = { array = Q38.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q38  has_contested_owner = Q38 } }
+					add_core_of = event_target:pfp_mittelafrika_country
+					add_contested_owner = event_target:pfp_mittelafrika_country
+					remove_core_of = Q38
+					remove_claim_by = Q38
+					remove_contested_owner = Q38
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					annex_country = { target = Q38 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_mittelafrika_country
+				set_global_flag = pfp_mittelafrika_absorbed_gabon
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Congo-Brazzaville (Q39)
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika_congo_brazzaville = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_mittelafrika_merged
+			NOT = { has_global_flag = pfp_mittelafrika_absorbed_congo_brazzaville }
+			Q39 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_congo_brazzaville_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_absorbed_congo_brazzaville }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_mittelafrika }
+			}
+			Q39 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_congo_brazzaville_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					save_global_event_target_as = pfp_mittelafrika_country
+					for_each_loop = { array = Q39.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q39  has_contested_owner = Q39 } }
+					add_core_of = event_target:pfp_mittelafrika_country
+					add_contested_owner = event_target:pfp_mittelafrika_country
+					remove_core_of = Q39
+					remove_claim_by = Q39
+					remove_contested_owner = Q39
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					annex_country = { target = Q39 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_mittelafrika_country
+				set_global_flag = pfp_mittelafrika_absorbed_congo_brazzaville
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Northern Rhodesia (Q63)
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika_northern_rhodesia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_mittelafrika_merged
+			NOT = { has_global_flag = pfp_mittelafrika_absorbed_northern_rhodesia }
+			Q63 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_northern_rhodesia_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_absorbed_northern_rhodesia }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_mittelafrika }
+			}
+			Q63 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_northern_rhodesia_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					save_global_event_target_as = pfp_mittelafrika_country
+					for_each_loop = { array = Q63.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q63  has_contested_owner = Q63 } }
+					add_core_of = event_target:pfp_mittelafrika_country
+					add_contested_owner = event_target:pfp_mittelafrika_country
+					remove_core_of = Q63
+					remove_claim_by = Q63
+					remove_contested_owner = Q63
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					annex_country = { target = Q63 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_mittelafrika_country
+				set_global_flag = pfp_mittelafrika_absorbed_northern_rhodesia
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Southern Rhodesia (Q69)
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika_southern_rhodesia = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_mittelafrika_merged
+			NOT = { has_global_flag = pfp_mittelafrika_absorbed_southern_rhodesia }
+			Q69 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_southern_rhodesia_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_absorbed_southern_rhodesia }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_mittelafrika }
+			}
+			Q69 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_southern_rhodesia_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					save_global_event_target_as = pfp_mittelafrika_country
+					for_each_loop = { array = Q69.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q69  has_contested_owner = Q69 } }
+					add_core_of = event_target:pfp_mittelafrika_country
+					add_contested_owner = event_target:pfp_mittelafrika_country
+					remove_core_of = Q69
+					remove_claim_by = Q69
+					remove_contested_owner = Q69
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					annex_country = { target = Q69 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_mittelafrika_country
+				set_global_flag = pfp_mittelafrika_absorbed_southern_rhodesia
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Angola (Q67)
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika_angola = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_mittelafrika_merged
+			NOT = { has_global_flag = pfp_mittelafrika_absorbed_angola }
+			Q67 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_angola_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_absorbed_angola }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_mittelafrika }
+			}
+			Q67 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_angola_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					save_global_event_target_as = pfp_mittelafrika_country
+					for_each_loop = { array = Q67.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q67  has_contested_owner = Q67 } }
+					add_core_of = event_target:pfp_mittelafrika_country
+					add_contested_owner = event_target:pfp_mittelafrika_country
+					remove_core_of = Q67
+					remove_claim_by = Q67
+					remove_contested_owner = Q67
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					annex_country = { target = Q67 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_mittelafrika_country
+				set_global_flag = pfp_mittelafrika_absorbed_angola
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ----------------------------------------------------------------
+	# Follow-up: Absorb Mozambique (Q68)
+	# ----------------------------------------------------------------
+	pfp_merge_mittelafrika_mozambique = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			has_global_flag = pfp_mittelafrika_merged
+			NOT = { has_global_flag = pfp_mittelafrika_absorbed_mozambique }
+			Q68 = { is_subject_of = ROOT }
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_mozambique_not_yet_absorbed_tt
+				NOT = { has_global_flag = pfp_mittelafrika_absorbed_mozambique }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_mittelafrika_is_formed_tt
+				any_subject_country = { has_country_flag = pfp_is_mittelafrika }
+			}
+			Q68 = {
+				is_subject_of = ROOT
+				custom_trigger_tooltip = {
+					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+					OR = {
+						has_autonomy_state = pfp_autonomy_military_occupation
+						has_autonomy_state = pfp_autonomy_military_occupation_painted
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_mittelafrika_mozambique_effect_annex
+			hidden_effect = {
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					save_global_event_target_as = pfp_mittelafrika_country
+					for_each_loop = { array = Q68.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } }
+				}
+				every_state = {
+					limit = { OR = { is_owned_by = Q68  has_contested_owner = Q68 } }
+					add_core_of = event_target:pfp_mittelafrika_country
+					add_contested_owner = event_target:pfp_mittelafrika_country
+					remove_core_of = Q68
+					remove_claim_by = Q68
+					remove_contested_owner = Q68
+				}
+				every_subject_country = {
+					limit = { has_country_flag = pfp_is_mittelafrika }
+					annex_country = { target = Q68 transfer_troops = yes }
+				}
+				clear_global_event_target = pfp_mittelafrika_country
+				set_global_flag = pfp_mittelafrika_absorbed_mozambique
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

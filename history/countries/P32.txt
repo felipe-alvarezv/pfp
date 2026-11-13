@@ -94,7 +94,7 @@ recruit_character = P32_democratic_leader
 recruit_character = P32_neutrality_leader
 recruit_character = P32_fascism_leader
 
-#States to add to the integration array
+#East Germany Initial States
 add_to_array = { P32.pfp_possible_cores = 60 } #Thuringen
 add_to_array = { P32.pfp_possible_cores = 61 } #Mecklenburg
 add_to_array = { P32.pfp_possible_cores = 62 } #Vorpommern

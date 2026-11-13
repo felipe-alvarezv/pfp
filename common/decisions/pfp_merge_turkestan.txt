@@ -1,0 +1,192 @@
+###########################################################################
+# MERGE DECISIONS - TURKESTAN
+# Allows the overlord to merge Central Asian puppet states into a unified
+# Turkestan.
+#
+# Decision 1: pfp_merge_turkestan
+#   Requires Kazakhstan (R30), Kyrgyzstan (R31), Tajikistan (R32),
+#   Uzbekistan (R33), and Turkmenistan (R34).
+#   The puppet with the most total factories becomes Turkestan.
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Kazakhstan (R30) + Kyrgyzstan (R31) + Tajikistan (R32)
+	# + Uzbekistan (R33) + Turkmenistan (R34) -> Turkestan
+	# ----------------------------------------------------------------
+	pfp_merge_turkestan = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_turkestan_merged }
+			OR = {
+				R30 = { is_subject_of = ROOT }
+				R31 = { is_subject_of = ROOT }
+				R32 = { is_subject_of = ROOT }
+				R33 = { is_subject_of = ROOT }
+				R34 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_turkestan_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_turkestan_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_turkestan_puppets_ready_tt
+				R30 = { is_subject_of = ROOT }
+				R31 = { is_subject_of = ROOT }
+				R32 = { is_subject_of = ROOT }
+				R33 = { is_subject_of = ROOT }
+				R34 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				R30 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R31 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R32 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R33 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R34 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				R30 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R31 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R32 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R33 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				R34 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_turkestan_effect_form
+			custom_effect_tooltip = pfp_merge_turkestan_effect_annex
+			custom_effect_tooltip = pfp_merge_turkestan_effect_cores
+			hidden_effect = {
+				# Each subsequent puppet wins if it strictly has more factories.
+				R30 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					save_global_event_target_as = pfp_turkestan_winner
+				}
+				R31 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_turkestan_winner.pfp_fac } }
+						save_global_event_target_as = pfp_turkestan_winner
+					}
+				}
+				R32 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_turkestan_winner.pfp_fac } }
+						save_global_event_target_as = pfp_turkestan_winner
+					}
+				}
+				R33 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_turkestan_winner.pfp_fac } }
+						save_global_event_target_as = pfp_turkestan_winner
+					}
+				}
+				R34 = {
+					set_variable = { pfp_fac = num_of_military_factories }
+					add_to_variable = { pfp_fac = num_of_civilian_factories }
+					if = {
+						limit = { check_variable = { pfp_fac > event_target:pfp_turkestan_winner.pfp_fac } }
+						save_global_event_target_as = pfp_turkestan_winner
+					}
+				}
+
+				# Transfer state cores/ownership from losers to winner
+				if = {
+					limit = { NOT = { event_target:pfp_turkestan_winner = { tag = R30 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R30  has_contested_owner = R30 } }
+						add_core_of = event_target:pfp_turkestan_winner
+						add_contested_owner = event_target:pfp_turkestan_winner
+						remove_core_of = R30
+						remove_claim_by = R30
+						remove_contested_owner = R30
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_turkestan_winner = { tag = R31 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R31  has_contested_owner = R31 } }
+						add_core_of = event_target:pfp_turkestan_winner
+						add_contested_owner = event_target:pfp_turkestan_winner
+						remove_core_of = R31
+						remove_claim_by = R31
+						remove_contested_owner = R31
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_turkestan_winner = { tag = R32 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R32  has_contested_owner = R32 } }
+						add_core_of = event_target:pfp_turkestan_winner
+						add_contested_owner = event_target:pfp_turkestan_winner
+						remove_core_of = R32
+						remove_claim_by = R32
+						remove_contested_owner = R32
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_turkestan_winner = { tag = R33 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R33  has_contested_owner = R33 } }
+						add_core_of = event_target:pfp_turkestan_winner
+						add_contested_owner = event_target:pfp_turkestan_winner
+						remove_core_of = R33
+						remove_claim_by = R33
+						remove_contested_owner = R33
+					}
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_turkestan_winner = { tag = R34 } } }
+					every_state = {
+						limit = { OR = { is_owned_by = R34  has_contested_owner = R34 } }
+						add_core_of = event_target:pfp_turkestan_winner
+						add_contested_owner = event_target:pfp_turkestan_winner
+						remove_core_of = R34
+						remove_claim_by = R34
+						remove_contested_owner = R34
+					}
+				}
+
+				# Transfer pfp_possible_cores arrays, annex losers, set tag and flag
+				event_target:pfp_turkestan_winner = {
+					if = { limit = { NOT = { tag = R30 } } for_each_loop = { array = R30.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R31 } } for_each_loop = { array = R31.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R32 } } for_each_loop = { array = R32.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R33 } } for_each_loop = { array = R33.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R34 } } for_each_loop = { array = R34.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = R30 } } annex_country = { target = R30 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R31 } } annex_country = { target = R31 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R32 } } annex_country = { target = R32 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R33 } } annex_country = { target = R33 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = R34 } } annex_country = { target = R34 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_TURKESTAN
+					set_country_flag = pfp_is_turkestan
+				}
+
+				clear_global_event_target = pfp_turkestan_winner
+				set_global_flag = pfp_turkestan_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

@@ -17,17 +17,11 @@ pfp_category = {
 				tooltip = pfp_turkmenistan_required_states_tashauz
 				has_full_control_of_state = 832 #Tashauz
 			}
-			#Maymanah (1007)
-			custom_trigger_tooltip = {
-				tooltip = pfp_turkmenistan_required_states_maymanah
-				has_full_control_of_state = 1007 #Maymanah
-			}
 		}
 		visible = {
 			OR = {
 				has_full_control_of_state = 584 #Ashkhabad
 				has_full_control_of_state = 832 #Tashauz
-				has_full_control_of_state = 1007 #Maymanah
 			}
 			NOT = { has_global_flag = pfp_turkmenistan_flag }
 		}
@@ -35,7 +29,6 @@ pfp_category = {
 			highlight_state_targets = {
 				state = 584 #Ashkhabad
 				state = 832 #Tashauz
-				state = 1007 #Maymanah
 			}
 		}
 		icon = generic_military

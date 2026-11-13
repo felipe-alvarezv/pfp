@@ -15,7 +15,7 @@ pfp_release_kazakhstan = {
 			881 = { add_contested_owner = R30 } #Karagandy
 			404 = { add_contested_owner = R30 } #Kyzyl Orda
 			402 = { add_contested_owner = R30 } #Akhtubinsk
-			857 = { add_contested_owner = R30 } #Ust Urt
+			587 = { add_contested_owner = R30 } #Ust Urt
 			407 = { add_contested_owner = R30 } #Ural'sk
 			406 = { add_contested_owner = R30 } #Guryev
 
@@ -29,7 +29,7 @@ pfp_release_kazakhstan = {
 			881 = { add_claim_by = R30 } #Karagandy
 			404 = { add_claim_by = R30 } #Kyzyl Orda
 			402 = { add_claim_by = R30 } #Akhtubinsk
-			857 = { add_claim_by = R30 } #Ust Urt
+			587 = { add_claim_by = R30 } #Ust Urt
 			407 = { add_claim_by = R30 } #Ural'sk
 			406 = { add_claim_by = R30 } #Guryev
 
@@ -64,7 +64,7 @@ pfp_release_kazakhstan = {
 			881 = { add_core_of = R30 } #Karagandy
 			404 = { add_core_of = R30 } #Kyzyl Orda
 			402 = { add_core_of = R30 } #Akhtubinsk
-			857 = { add_core_of = R30 } #Ust Urt
+			587 = { add_core_of = R30 } #Ust Urt
 			407 = { add_core_of = R30 } #Ural'sk
 			406 = { add_core_of = R30 } #Guryev
 
