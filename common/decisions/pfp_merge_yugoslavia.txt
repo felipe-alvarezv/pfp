@@ -1,4 +1,4 @@
-###########################################################################
+﻿###########################################################################
 # MERGE DECISIONS - YUGOSLAVIA
 # Allows the overlord to merge Yugoslav puppet states into a unified
 # Yugoslavia.
@@ -48,10 +48,10 @@ pfp_unification = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-				P86 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				P87 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				P88 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				P89 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				P86 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				P87 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				P88 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				P89 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
 			}
 			custom_trigger_tooltip = {
 				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
@@ -148,10 +148,7 @@ pfp_unification = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 		}
@@ -213,10 +210,7 @@ pfp_unification = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 		}

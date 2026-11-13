@@ -2,9 +2,6 @@
   COUNTRY_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$$NONIDEOLOGY$"
   COUNTRY_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$$NONIDEOLOGYDEF$"
   COUNTRY_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$$NONIDEOLOGYADJ$"
-  COUNTRY_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$$NONIDEOLOGY$"
-  COUNTRY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$$NONIDEOLOGYDEF$"
-  COUNTRY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$$NONIDEOLOGYADJ$"
 
   ## PFP MERGED NATIONS ##
 
@@ -19,9 +16,6 @@
   PFP_CANADA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 加拿大"
   PFP_CANADA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 加拿大"
 
-  PFP_CANADA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 加拿大"
-  PFP_CANADA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 加拿大"
-  PFP_CANADA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 加拿大"
 
   PFP_CHINA:0 "中国"
   PFP_CHINA_DEF:0 "中国"
@@ -31,9 +25,6 @@
   PFP_CHINA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 中国"
   PFP_CHINA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 中国"
 
-  PFP_CHINA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 中国"
-  PFP_CHINA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 中国"
-  PFP_CHINA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 中国"
 
   PFP_EAST_AFRICA:0 "东非"
   PFP_EAST_AFRICA_DEF:0 "东非"
@@ -43,9 +34,6 @@
   PFP_EAST_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 东非"
   PFP_EAST_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 东非"
 
-  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 东非"
-  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 东非"
-  PFP_EAST_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 东非"
 
   PFP_NORTH_AFRICA:0 "北非"
   PFP_NORTH_AFRICA_DEF:0 "北非"
@@ -55,9 +43,6 @@
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$北非"
   PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$北非"
 
-  PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$北非"
-  PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$北非"
-  PFP_NORTH_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$北非"
 
  PFP_WEST_AFRICA:0 "西非"
  PFP_WEST_AFRICA_DEF:0 "西非"
@@ -65,9 +50,6 @@
  PFP_WEST_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$西非"
  PFP_WEST_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$西非"
  PFP_WEST_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$西非的"
- PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$西非"
- PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$西非"
- PFP_WEST_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$西非的"
   PFP_CENTRAL_AFRICA:0 "中非"
   PFP_CENTRAL_AFRICA_DEF:0 "中非"
   PFP_CENTRAL_AFRICA_ADJ:0 "中非"
@@ -76,27 +58,18 @@
   PFP_CENTRAL_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 中非"
   PFP_CENTRAL_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 中非"
 
-  PFP_CENTRAL_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 中非"
-  PFP_CENTRAL_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 中非"
-  PFP_CENTRAL_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 中非"
   PFP_SOUTH_AFRICA:0 "南非"
   PFP_SOUTH_AFRICA_DEF:0 "南非"
   PFP_SOUTH_AFRICA_ADJ:0 "南非"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$南非"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$南非"
   PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$南非"
-  PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$南非"
-  PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$南非"
-  PFP_SOUTH_AFRICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$南非"
   PFP_SCANDINAVIA:0 "斯堪的纳维亚"
   PFP_SCANDINAVIA_DEF:0 "斯堪的纳维亚"
   PFP_SCANDINAVIA_ADJ:0 "斯堪的纳维亚"
   PFP_SCANDINAVIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$斯堪的纳维亚"
   PFP_SCANDINAVIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$斯堪的纳维亚"
   PFP_SCANDINAVIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$斯堪的纳维亚"
-  PFP_SCANDINAVIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$斯堪的纳维亚"
-  PFP_SCANDINAVIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$斯堪的纳维亚"
-  PFP_SCANDINAVIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$斯堪的纳维亚"
 
   PFP_BALTIC:0 "波罗的海三国"
   PFP_BALTIC_DEF:0 "波罗的海三国"
@@ -106,9 +79,6 @@
   PFP_BALTIC_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$波罗的海三国"
   PFP_BALTIC_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$波罗的海"
 
-  PFP_BALTIC_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$波罗的海三国"
-  PFP_BALTIC_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$波罗的海三国"
-  PFP_BALTIC_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$波罗的海"
   PFP_CENTRAL_AMERICA:0 "中美洲"
   PFP_CENTRAL_AMERICA_DEF:0 "中美洲"
   PFP_CENTRAL_AMERICA_ADJ:0 "中美洲"
@@ -117,9 +87,6 @@
   PFP_CENTRAL_AMERICA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$中美洲"
   PFP_CENTRAL_AMERICA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$中美洲"
 
-  PFP_CENTRAL_AMERICA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$中美洲"
-  PFP_CENTRAL_AMERICA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$中美洲"
-  PFP_CENTRAL_AMERICA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$中美洲"
   PFP_WEST_INDIES:0 "西印度群岛"
   PFP_WEST_INDIES_DEF:0 "西印度群岛"
   PFP_WEST_INDIES_ADJ:0 "西印度"
@@ -128,63 +95,42 @@
   PFP_WEST_INDIES_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$西印度群岛"
   PFP_WEST_INDIES_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$西印度"
 
-  PFP_WEST_INDIES_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$西印度群岛"
-  PFP_WEST_INDIES_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$西印度群岛"
-  PFP_WEST_INDIES_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$西印度"
   PFP_TRANSCAUCASIA:0 "外高加索"
   PFP_TRANSCAUCASIA_DEF:0 "外高加索"
   PFP_TRANSCAUCASIA_ADJ:0 "外高加索"
   PFP_TRANSCAUCASIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$外高加索"
   PFP_TRANSCAUCASIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$外高加索"
   PFP_TRANSCAUCASIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$外高加索"
-  PFP_TRANSCAUCASIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$外高加索"
-  PFP_TRANSCAUCASIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$外高加索"
-  PFP_TRANSCAUCASIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$外高加索"
   PFP_TURKESTAN:0 "突厥斯坦"
   PFP_TURKESTAN_DEF:0 "突厥斯坦"
   PFP_TURKESTAN_ADJ:0 "突厥斯坦"
   PFP_TURKESTAN_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$突厥斯坦"
   PFP_TURKESTAN_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$突厥斯坦"
   PFP_TURKESTAN_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$突厥斯坦"
-  PFP_TURKESTAN_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$突厥斯坦"
-  PFP_TURKESTAN_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$突厥斯坦"
-  PFP_TURKESTAN_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$突厥斯坦"
   PFP_INDOCHINA:0 "印度支那"
   PFP_INDOCHINA_DEF:0 "印度支那"
   PFP_INDOCHINA_ADJ:0 "印度支那"
   PFP_INDOCHINA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$印度支那"
   PFP_INDOCHINA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$印度支那"
   PFP_INDOCHINA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$印度支那"
-  PFP_INDOCHINA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$印度支那"
-  PFP_INDOCHINA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$印度支那"
-  PFP_INDOCHINA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$印度支那"
   PFP_AUSTRALASIA:0 "澳大拉西亚"
   PFP_AUSTRALASIA_DEF:0 "澳大拉西亚"
   PFP_AUSTRALASIA_ADJ:0 "澳大拉西亚"
   PFP_AUSTRALASIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$澳大拉西亚"
   PFP_AUSTRALASIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$澳大拉西亚"
   PFP_AUSTRALASIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$澳大拉西亚"
-  PFP_AUSTRALASIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$澳大拉西亚"
-  PFP_AUSTRALASIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$澳大拉西亚"
-  PFP_AUSTRALASIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$澳大拉西亚"
   PFP_LEVANT:0 "黎凡特"
   PFP_LEVANT_DEF:0 "黎凡特"
   PFP_LEVANT_ADJ:0 "黎凡特"
   PFP_LEVANT_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$黎凡特"
   PFP_LEVANT_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$黎凡特"
   PFP_LEVANT_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$黎凡特"
-  PFP_LEVANT_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$黎凡特"
-  PFP_LEVANT_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$黎凡特"
-  PFP_LEVANT_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$黎凡特"
   PFP_MITTELAFRIKA:0 "中非"
   PFP_MITTELAFRIKA_DEF:0 "中非"
   PFP_MITTELAFRIKA_ADJ:0 "中非"
   PFP_MITTELAFRIKA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$中非"
   PFP_MITTELAFRIKA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$中非"
   PFP_MITTELAFRIKA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$中非"
-  PFP_MITTELAFRIKA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$中非"
-  PFP_MITTELAFRIKA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$中非"
-  PFP_MITTELAFRIKA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$中非"
 
 
 
@@ -197,9 +143,6 @@
   PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 西俄罗斯"
   PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 西俄罗斯的"
 
-  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 西俄罗斯"
-  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 西俄罗斯"
-  PFP_WESTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 西俄罗斯的"
 
   PFP_EASTERN_RUSSIA:0 "东俄罗斯"
   PFP_EASTERN_RUSSIA_DEF:0 "东俄罗斯"
@@ -209,9 +152,6 @@
   PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 东俄罗斯"
   PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 东俄罗斯的"
 
-  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 东俄罗斯"
-  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 东俄罗斯"
-  PFP_EASTERN_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 东俄罗斯的"
 
   PFP_RUSSIA:0 "俄罗斯"
   PFP_RUSSIA_DEF:0 "俄罗斯"
@@ -221,9 +161,6 @@
   PFP_RUSSIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 俄罗斯"
   PFP_RUSSIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 俄罗斯的"
 
-  PFP_RUSSIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 俄罗斯"
-  PFP_RUSSIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 俄罗斯"
-  PFP_RUSSIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 俄罗斯的"
 
   PFP_EASTERN_USA:0 "东部美国"
   PFP_EASTERN_USA_DEF:0 "东部美国"
@@ -233,9 +170,6 @@
   PFP_EASTERN_USA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 东部美国"
   PFP_EASTERN_USA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 东部美国的"
 
-  PFP_EASTERN_USA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 东部美国"
-  PFP_EASTERN_USA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 东部美国"
-  PFP_EASTERN_USA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 东部美国的"
 
   PFP_WESTERN_USA:0 "西部美国"
   PFP_WESTERN_USA_DEF:0 "西部美国"
@@ -245,9 +179,6 @@
   PFP_WESTERN_USA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 西部美国"
   PFP_WESTERN_USA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 西部美国的"
 
-  PFP_WESTERN_USA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 西部美国"
-  PFP_WESTERN_USA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 西部美国"
-  PFP_WESTERN_USA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 西部美国的"
 
   PFP_USA:0 "美利坚合众国"
   PFP_USA_DEF:0 "美利坚合众国"
@@ -257,9 +188,6 @@
   PFP_USA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 美利坚合众国"
   PFP_USA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 美国的"
 
-  PFP_USA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 美利坚合众国"
-  PFP_USA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 美利坚合众国"
-  PFP_USA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 美国的"
 
   PFP_GREAT_BRITAIN:0 "英山"
   PFP_GREAT_BRITAIN_DEF:0 "英山"
@@ -269,9 +197,6 @@
   PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 英山"
   PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 英国的"
 
-  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 英山"
-  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 英山"
-  PFP_GREAT_BRITAIN_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 英国的"
 
 
   PFP_UK:0 "英联王国"
@@ -282,9 +207,6 @@
   PFP_UK_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 英联王国"
   PFP_UK_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 英国的"
 
-  PFP_UK_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 英联王国"
-  PFP_UK_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 英联王国"
-  PFP_UK_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 英国的"
 
 
   PFP_FRANCE:0 "法国"
@@ -295,9 +217,6 @@
   PFP_FRANCE_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 法国"
   PFP_FRANCE_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 法国的"
 
-  PFP_FRANCE_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 法国"
-  PFP_FRANCE_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 法国"
-  PFP_FRANCE_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 法国的"
 
 
   PFP_GERMANY:0 "德国"
@@ -308,9 +227,6 @@
   PFP_GERMANY_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 德国"
   PFP_GERMANY_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 德国的"
 
-  PFP_GERMANY_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 德国"
-  PFP_GERMANY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 德国"
-  PFP_GERMANY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 德国的"
 
 
   PFP_IBERIA:0 "伊比利亚"
@@ -321,9 +237,6 @@
   PFP_IBERIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 伊比利亚"
   PFP_IBERIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 伊比利亚的"
 
-  PFP_IBERIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 伊比利亚"
-  PFP_IBERIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 伊比利亚"
-  PFP_IBERIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 伊比利亚的"
 
 
   PFP_ITALY:0 "意大利"
@@ -334,9 +247,6 @@
   PFP_ITALY_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 意大利"
   PFP_ITALY_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 意大利的"
 
-  PFP_ITALY_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 意大利"
-  PFP_ITALY_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 意大利"
-  PFP_ITALY_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 意大利的"
 
 
   PFP_JAPAN:0 "日本"
@@ -347,9 +257,6 @@
   PFP_JAPAN_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 日本"
   PFP_JAPAN_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 日本的"
 
-  PFP_JAPAN_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 日本"
-  PFP_JAPAN_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 日本"
-  PFP_JAPAN_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 日本的"
 
 
   PFP_YUGOSLAVIA:0 "南斯拉夫"
@@ -360,9 +267,6 @@
   PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 南斯拉夫"
   PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 南斯拉夫的"
 
-  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 南斯拉夫"
-  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 南斯拉夫"
-  PFP_YUGOSLAVIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 南斯拉夫的"
 
   PFP_ARABIA:0 "阿拉伯"
   PFP_ARABIA_DEF:0 "阿拉伯"
@@ -372,9 +276,6 @@
   PFP_ARABIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 阿拉伯"
   PFP_ARABIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 阿拉伯的"
 
-  PFP_ARABIA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$ 阿拉伯"
-  PFP_ARABIA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$ 阿拉伯"
-  PFP_ARABIA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$ 阿拉伯的"
 
   PFP_KOREA:0 "朝鲜"
   PFP_KOREA_DEF:0 "朝鲜"
@@ -384,9 +285,6 @@
   PFP_KOREA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$朝鲜"
   PFP_KOREA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$朝鲜的"
 
-  PFP_KOREA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$朝鲜"
-  PFP_KOREA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$朝鲜"
-  PFP_KOREA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$朝鲜的"
 
   PFP_GUIANA:0 "圭亚那"
   PFP_GUIANA_DEF:0 "圭亚那"
@@ -396,8 +294,5 @@
   PFP_GUIANA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$圭亚那"
   PFP_GUIANA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$圭亚那的"
 
-  PFP_GUIANA_pfp_autonomy_military_occupation_painted:0 "$OVERLORDADJ$圭亚那"
-  PFP_GUIANA_pfp_autonomy_military_occupation_painted_DEF:0 "$OVERLORDADJ$圭亚那"
-  PFP_GUIANA_pfp_autonomy_military_occupation_painted_ADJ:0 "$OVERLORDADJ$圭亚那的"
 
-
+

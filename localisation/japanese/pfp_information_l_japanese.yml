@@ -11,9 +11,6 @@ l_japanese:
 	pfp_management_option_disabled:0 "無効"
 
 	pfp_management_window:0 "管理メニューを開く"
-	pfp_management_use_overlord_color:0 "宗主国色の傀儡国家表示を切り替え"
-	pfp_management_use_overlord_color_desc:0 "この決定は、傀儡国家が宗主国と同じ色を持つかどうかを有効または無効にします。"
-	pfp_management_use_overlord_color_tooltip:0 "プレイヤーが支配するすべての国は平和状態にある。"
 
 	pfp_management_use_overlord_flag:0 "宗主国旗の傀儡国家表示を切り替え"
 	pfp_management_use_overlord_flag_desc:0 "この決定は、傀儡国家が宗主国と同じ旗を持つかどうかを有効または無効にします。"
@@ -34,7 +31,6 @@ l_japanese:
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "軍事占領"
-	pfp_autonomy_military_occupation_painted:0 "軍事占領"
 
 	pfp_management_textbox_title:0 "PFP管理"
 	pfp_management_textbox_view_puppets:0 "傀儡国家を表示"

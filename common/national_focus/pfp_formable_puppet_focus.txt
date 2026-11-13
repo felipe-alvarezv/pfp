@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
     id = pfp_formable_puppet_focus
     country = {
         factor = 0
@@ -6,11 +6,6 @@ focus_tree = {
         modifier = {
             add = 100
             has_autonomy_state = pfp_autonomy_military_occupation
-        }
-
-        modifier = {
-            add = 100
-            has_autonomy_state = pfp_autonomy_military_occupation_painted
         }
     }
     reset_on_civilwar = no

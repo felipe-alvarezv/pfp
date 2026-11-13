@@ -1,4 +1,4 @@
-###########################################################################
+﻿###########################################################################
 # MERGE DECISIONS - CENTRAL AMERICA
 # Allows the overlord to merge Central American puppet states into a
 # unified Central America.
@@ -51,12 +51,12 @@ pfp_unification = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-				Q90 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				Q91 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				Q92 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				Q93 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				Q94 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				Q95 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				Q90 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				Q91 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				Q92 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				Q93 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				Q94 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				Q95 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
 			}
 			custom_trigger_tooltip = {
 				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
@@ -244,10 +244,7 @@ pfp_unification = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 		}

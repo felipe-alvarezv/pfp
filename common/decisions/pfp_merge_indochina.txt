@@ -1,4 +1,4 @@
-###########################################################################
+﻿###########################################################################
 # MERGE DECISIONS - INDOCHINA
 # Allows the overlord to merge Indochinese puppet states into a unified
 # Indochina, then absorb additional Southeast Asian puppets.
@@ -46,9 +46,9 @@ pfp_unification = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-				R12 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				R13 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
-				R14 = { is_subject_of = ROOT  OR = { has_autonomy_state = pfp_autonomy_military_occupation  has_autonomy_state = pfp_autonomy_military_occupation_painted } }
+				R12 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				R13 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				R14 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
 			}
 			custom_trigger_tooltip = {
 				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
@@ -167,10 +167,7 @@ pfp_unification = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 		}
@@ -232,10 +229,7 @@ pfp_unification = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 		}
@@ -297,10 +291,7 @@ pfp_unification = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 		}
@@ -362,10 +353,7 @@ pfp_unification = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 		}

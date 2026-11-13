@@ -1,4 +1,4 @@
-scripted_gui = {
+﻿scripted_gui = {
 	#PFP Management Window
 	pfp_management_gui = {
 		window_name = "pfp_management_window"
@@ -17,10 +17,7 @@ scripted_gui = {
 				}
 				num_subjects > 0
 				any_subject_country = {
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 			pfp_state_transfer_option_button_click_enabled = {
@@ -43,12 +40,7 @@ scripted_gui = {
 				set_country_flag = pfp_view_puppets_window
 
 				every_subject_country = {
-					limit = {
-						OR = {
-							has_autonomy_state = pfp_autonomy_military_occupation
-							has_autonomy_state = pfp_autonomy_military_occupation_painted
-						}
-					}
+					limit = { has_autonomy_state = pfp_autonomy_military_occupation }
 					add_to_array = {
 						array = ROOT.pfp_view_puppets_gridbox_array
 						value = THIS.id
@@ -355,10 +347,7 @@ scripted_gui = {
 						AND = {
 							owner = { 
 								is_subject_of = ROOT
-								OR = {
-									has_autonomy_state = pfp_autonomy_military_occupation
-									has_autonomy_state = pfp_autonomy_military_occupation_painted
-								}
+								has_autonomy_state = pfp_autonomy_military_occupation
 							}
 							THIS = { is_owned_and_controlled_by = owner }
 						}

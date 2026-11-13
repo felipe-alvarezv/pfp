@@ -11,9 +11,6 @@ l_french:
 	pfp_management_option_disabled:0 "Désactivé"
 
 	pfp_management_window:0 "Ouvrir le menu de gestion"
-	pfp_management_use_overlord_color:0 "Basculer les marionnettes aux couleurs du suzerain"
-	pfp_management_use_overlord_color_desc:0 "Cette décision active ou désactive le fait que les marionnettes aient la même couleur que leur suzerain."
-	pfp_management_use_overlord_color_tooltip:0 "Tous les pays sont en paix."
 
 	pfp_management_use_overlord_flag:0 "Basculer les marionnettes au drapeau du suzerain"
 	pfp_management_use_overlord_flag_desc:0 "Cette décision active ou désactive le fait que les marionnettes aient le même drapeau que leur suzerain."
@@ -34,7 +31,6 @@ l_french:
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "Occupation militaire"
-	pfp_autonomy_military_occupation_painted:0 "Occupation militaire"
 
 	pfp_management_textbox_title:0 "Gestion PFP"
 	pfp_management_textbox_view_puppets:0 "Voir les marionnettes"

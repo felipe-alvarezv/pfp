@@ -11,9 +11,6 @@ l_german:
 	pfp_management_option_disabled:0 "Deaktiviert"
 
 	pfp_management_window:0 "Verwaltungsmenü öffnen"
-	pfp_management_use_overlord_color:0 "Vasallen in Oberherrn-Farbe umschalten"
-	pfp_management_use_overlord_color_desc:0 "Diese Entscheidung aktiviert oder deaktiviert, dass Marionettenstaaten die gleiche Farbe wie ihr Oberherr haben."
-	pfp_management_use_overlord_color_tooltip:0 "Alle vom Spieler kontrollierten Länder befinden sich im Frieden."
 
 	pfp_management_use_overlord_flag:0 "Vasallen in Oberherrn-Flagge umschalten"
 	pfp_management_use_overlord_flag_desc:0 "Diese Entscheidung aktiviert oder deaktiviert, dass Marionettenstaaten die gleiche Flagge wie ihr Oberherr haben."
@@ -34,7 +31,6 @@ l_german:
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "Militärbesatzung"
-	pfp_autonomy_military_occupation_painted:0 "Militärbesatzung"
 
 	pfp_management_textbox_title:0 "PFP Verwaltung"
 	pfp_management_textbox_view_puppets:0 "Marionetten anzeigen"

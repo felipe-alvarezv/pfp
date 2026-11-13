@@ -11,9 +11,6 @@ l_korean:
 	pfp_management_option_disabled:0 "비활성화"
 
 	pfp_management_window:0 "관리 메뉴 열기"
-	pfp_management_use_overlord_color:0 "종주국 색상 괴뢰국가 표시 전환"
-	pfp_management_use_overlord_color_desc:0 "이 결정은 괴뢰국가가 종주국과 같은 색상을 갖는 것을 활성화하거나 비활성화합니다."
-	pfp_management_use_overlord_color_tooltip:0 "플레이어가 지배하는 모든 국가는 평화 상태입니다."
 
 	pfp_management_use_overlord_flag:0 "종주국 국기 괴뢰국가 표시 전환"
 	pfp_management_use_overlord_flag_desc:0 "이 결정은 괴뢰국가가 종주국과 같은 국기를 갖는 것을 활성화하거나 비활성화합니다."
@@ -34,7 +31,6 @@ l_korean:
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "군사 점령"
-	pfp_autonomy_military_occupation_painted:0 "군사 점령"
 
 	pfp_management_textbox_title:0 "PFP 관리"
 	pfp_management_textbox_view_puppets:0 "괴뢰국가 보기"

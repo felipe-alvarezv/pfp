@@ -1,16 +1,7 @@
-#Effect to set the type of autonomy depending on the use of the overlord color
+#Effect to set the autonomy type for formable puppets
 pfp_set_autonomy_color = {
-    if = {
-        limit = { has_global_flag = pfp_use_overlord_color } #If use overlord color is enabled
-        var:pfp_portrait_tag  = {
-            set_temp_variable = { target_military_occupation = THIS }
-            overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } }
-        }
-    }
-    else = { #If use overlord color is disabled
-        var:pfp_portrait_tag  = {
-            set_temp_variable = { target_military_occupation = THIS }
-            overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation_painted } }
-        }
+    var:pfp_portrait_tag  = {
+        set_temp_variable = { target_military_occupation = THIS }
+        overlord = { set_autonomy = { target = target_military_occupation autonomy_state = pfp_autonomy_military_occupation } }
     }
 }

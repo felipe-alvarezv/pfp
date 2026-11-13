@@ -1,4 +1,4 @@
-###########################################################################
+﻿###########################################################################
 # MERGE DECISIONS - GERMANY
 # Allows the overlord to merge German puppet states into a unified Germany.
 #
@@ -54,11 +54,11 @@ pfp_unification = {
 			# Each present subject must have military occupation autonomy
 			custom_trigger_tooltip = {
 				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-				OR = { NOT = { P19 = { is_subject_of = ROOT } } P19 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
-				OR = { NOT = { P25 = { is_subject_of = ROOT } } P25 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
-				OR = { NOT = { P31 = { is_subject_of = ROOT } } P31 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
-				OR = { NOT = { P32 = { is_subject_of = ROOT } } P32 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
-				OR = { NOT = { P33 = { is_subject_of = ROOT } } P33 = { OR = { has_autonomy_state = pfp_autonomy_military_occupation has_autonomy_state = pfp_autonomy_military_occupation_painted } } }
+				OR = { NOT = { P19 = { is_subject_of = ROOT } } P19 = { has_autonomy_state = pfp_autonomy_military_occupation } }
+				OR = { NOT = { P25 = { is_subject_of = ROOT } } P25 = { has_autonomy_state = pfp_autonomy_military_occupation } }
+				OR = { NOT = { P31 = { is_subject_of = ROOT } } P31 = { has_autonomy_state = pfp_autonomy_military_occupation } }
+				OR = { NOT = { P32 = { is_subject_of = ROOT } } P32 = { has_autonomy_state = pfp_autonomy_military_occupation } }
+				OR = { NOT = { P33 = { is_subject_of = ROOT } } P33 = { has_autonomy_state = pfp_autonomy_military_occupation } }
 			}
 			custom_trigger_tooltip = {
 				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
@@ -207,10 +207,7 @@ pfp_unification = {
 				is_subject_of = ROOT
 				custom_trigger_tooltip = {
 					tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
-					OR = {
-						has_autonomy_state = pfp_autonomy_military_occupation
-						has_autonomy_state = pfp_autonomy_military_occupation_painted
-					}
+					has_autonomy_state = pfp_autonomy_military_occupation
 				}
 			}
 		}

@@ -11,9 +11,6 @@ l_simp_chinese:
 	pfp_management_option_disabled:0 "已禁用"
 
 	pfp_management_window:0 "打开管理菜单"
-	pfp_management_use_overlord_color:0 "切换宗主国彩色傀儡"
-	pfp_management_use_overlord_color_desc:0 "此决定启用或禁用傀儡国家拥有与其宗主国相同的颜色。"
-	pfp_management_use_overlord_color_tooltip:0 "所有玩家控制的国家均处于和平状态。"
 
 	pfp_management_use_overlord_flag:0 "切换宗主国旗帜傀儡"
 	pfp_management_use_overlord_flag_desc:0 "此决定启用或禁用傀儡国家拥有与其宗主国相同的旗帜。"
@@ -34,7 +31,6 @@ l_simp_chinese:
 	pfp_default_puppet_leader:0 "Military Governor"
 
 	pfp_autonomy_military_occupation:0 "军事占领"
-	pfp_autonomy_military_occupation_painted:0 "军事占领"
 
 	pfp_management_textbox_title:0 "PFP管理"
 	pfp_management_textbox_view_puppets:0 "查看傀儡"

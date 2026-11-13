@@ -25,19 +25,6 @@ defined_text = {
 }
 
 defined_text = {
-    name = pfp_use_overlord_color_status
-    text = {
-        trigger = {
-            has_global_flag = pfp_use_overlord_color
-        }
-        localization_key = pfp_management_option_enabled
-    }
-    text = {
-        localization_key = pfp_management_option_disabled
-    }
-}
-
-defined_text = {
     name = pfp_puppet_core_resistance_status
     text = {
         trigger = {
