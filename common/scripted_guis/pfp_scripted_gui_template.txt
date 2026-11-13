@@ -1,4 +1,4 @@
-﻿scripted_gui = {
+scripted_gui = {
 	#PFP Management Window
 	pfp_management_gui = {
 		window_name = "pfp_management_window"

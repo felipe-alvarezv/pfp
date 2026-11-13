@@ -1,4 +1,4 @@
-﻿characters={
+characters={
 	Q77_communism_leader={
 		name="Military Governor"
 		portraits={
