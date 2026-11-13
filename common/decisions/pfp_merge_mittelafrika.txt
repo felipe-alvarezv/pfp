@@ -28,6 +28,7 @@ pfp_unification = {
 
 		visible = {
 			is_subject = no
+			original_tag = GER
 			NOT = { has_global_flag = pfp_mittelafrika_merged }
 			OR = {
 				Q36 = { is_subject_of = ROOT }
