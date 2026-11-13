@@ -1,4 +1,4 @@
-﻿#Bechuanaland
+#Bechuanaland
 Q70 = {
 	male = {
 		names = {

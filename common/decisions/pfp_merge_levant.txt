@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - LEVANT
 # Allows the overlord to merge Levantine puppet states into a unified
 # Levant.

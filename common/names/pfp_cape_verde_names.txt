@@ -1,4 +1,4 @@
-﻿#Cape Verde
+#Cape Verde
 Q51 = {
 	male = {
 		names = {

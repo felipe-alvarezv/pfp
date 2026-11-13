@@ -1,4 +1,4 @@
-﻿#Gabon
+#Gabon
 Q38 = {
 	male = {
 		names = {

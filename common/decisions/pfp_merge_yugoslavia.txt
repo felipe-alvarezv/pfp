@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - YUGOSLAVIA
 # Allows the overlord to merge Yugoslav puppet states into a unified
 # Yugoslavia.

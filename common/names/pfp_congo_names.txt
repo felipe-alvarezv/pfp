@@ -1,4 +1,4 @@
-﻿#Congo
+#Congo
 Q65 = {
 	male = {
 		names = {

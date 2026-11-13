@@ -1,4 +1,4 @@
-﻿#Ruanda-Urundi
+#Ruanda-Urundi
 Q66 = {
 	male = {
 		names = {

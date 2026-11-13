@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - WEST INDIES
 # Allows the overlord to merge West Indian puppet states into a unified
 # West Indies.

@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - EAST AFRICA
 # Allows the overlord to merge East African puppet states into a unified
 # East Africa.

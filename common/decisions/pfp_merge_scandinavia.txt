@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - SCANDINAVIA
 # Allows the overlord to merge Scandinavian puppet states into a unified
 # Scandinavia.

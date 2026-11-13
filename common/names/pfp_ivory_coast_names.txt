@@ -1,4 +1,4 @@
-﻿#Ivory Coast
+#Ivory Coast
 Q44 = {
 	male = {
 		names = {

@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - ARABIA
 # Allows the overlord to merge Arabian puppet states into a unified Arabia.
 #

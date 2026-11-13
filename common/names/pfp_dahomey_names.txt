@@ -1,4 +1,4 @@
-﻿#Dahomey
+#Dahomey
 Q41 = {
 	male = {
 		names = {

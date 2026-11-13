@@ -1,4 +1,4 @@
-﻿#Nyasaland
+#Nyasaland
 Q64 = {
 	male = {
 		names = {

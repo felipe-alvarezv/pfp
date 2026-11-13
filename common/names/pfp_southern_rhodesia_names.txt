@@ -1,4 +1,4 @@
-﻿#Southern Rhodesia
+#Southern Rhodesia
 Q69 = {
 	male = {
 		names = {

@@ -1,4 +1,4 @@
-﻿#Djibouti
+#Djibouti
 Q57 = {
 	male = {
 		names = {

@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - ITALY
 # Allows the overlord to merge Italian puppet states into a unified Italy.
 #

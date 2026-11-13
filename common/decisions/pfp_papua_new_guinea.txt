@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
 	pfp_papua_new_guinea = {
 		allowed = {
 			NOT = {

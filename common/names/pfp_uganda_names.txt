@@ -1,4 +1,4 @@
-﻿#Uganda
+#Uganda
 Q61 = {
 	male = {
 		names = {

@@ -1,4 +1,4 @@
-﻿#Western Sahara
+#Western Sahara
 Q53 = {
 	male = {
 		names = {

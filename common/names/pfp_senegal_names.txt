@@ -1,4 +1,4 @@
-﻿#Senegal
+#Senegal
 Q49 = {
 	male = {
 		names = {

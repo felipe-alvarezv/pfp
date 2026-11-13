@@ -1,4 +1,4 @@
-﻿#######################################################################
+#######################################################################
 # MERGE DECISIONS - CANADA
 # Allows the overlord to merge Canadian puppet states into a unified Canada.
 #

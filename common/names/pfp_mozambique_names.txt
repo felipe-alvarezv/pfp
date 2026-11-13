@@ -1,4 +1,4 @@
-﻿#Mozambique
+#Mozambique
 Q68 = {
 	male = {
 		names = {

@@ -1,4 +1,4 @@
-﻿#Northern Rhodesia
+#Northern Rhodesia
 Q63 = {
 	male = {
 		names = {

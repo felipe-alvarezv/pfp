@@ -1,4 +1,4 @@
-﻿#South West Africa
+#South West Africa
 Q71 = {
 	male = {
 		names = {

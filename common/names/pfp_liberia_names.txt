@@ -1,4 +1,4 @@
-﻿#Liberia
+#Liberia
 Q45 = {
 	male = {
 		names = {

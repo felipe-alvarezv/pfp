@@ -1,4 +1,4 @@
-﻿#Equatorial Guinea
+#Equatorial Guinea
 Q54 = {
 	male = {
 		names = {

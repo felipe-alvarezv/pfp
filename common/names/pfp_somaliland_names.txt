@@ -1,4 +1,4 @@
-﻿#Somaliland
+#Somaliland
 Q58 = {
 	male = {
 		names = {

@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - MITTELAFRIKA
 # Allows the overlord to merge the former German African colonies into a
 # unified Mittelafrika, then absorb additional African puppets.

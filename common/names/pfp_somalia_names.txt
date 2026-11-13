@@ -1,4 +1,4 @@
-﻿#Somalia
+#Somalia
 Q59 = {
 	male = {
 		names = {

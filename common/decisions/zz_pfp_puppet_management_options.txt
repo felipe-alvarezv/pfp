@@ -1,4 +1,4 @@
-﻿pfp_puppet_management = {
+pfp_puppet_management = {
 	#Decision to show PFP GUI
     pfp_management_window = {
 		icon = generic_industry

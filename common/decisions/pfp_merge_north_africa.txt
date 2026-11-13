@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - NORTH AFRICA
 # Allows the overlord to merge North African puppet states into a unified
 # North Africa.

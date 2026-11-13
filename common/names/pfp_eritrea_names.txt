@@ -1,4 +1,4 @@
-﻿#Eritrea
+#Eritrea
 Q56 = {
 	male = {
 		names = {

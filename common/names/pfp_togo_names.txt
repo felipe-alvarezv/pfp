@@ -1,4 +1,4 @@
-﻿#Togo
+#Togo
 Q40 = {
 	male = {
 		names = {

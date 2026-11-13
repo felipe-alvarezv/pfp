@@ -1,4 +1,4 @@
-﻿#Congo-Brazzaville
+#Congo-Brazzaville
 Q39 = {
 	male = {
 		names = {

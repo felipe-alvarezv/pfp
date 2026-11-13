@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - SOUTH AFRICA
 # Allows the overlord to merge Southern African puppet states into a
 # unified South Africa.

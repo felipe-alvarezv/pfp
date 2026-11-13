@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - AUSTRALASIA
 # Allows the overlord to merge Australasian puppet states into a unified
 # Australasia, then absorb additional Pacific puppets.

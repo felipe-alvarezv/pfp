@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - TURKESTAN
 # Allows the overlord to merge Central Asian puppet states into a unified
 # Turkestan.

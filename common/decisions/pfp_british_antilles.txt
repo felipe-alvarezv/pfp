@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
 	pfp_british_antilles = {
 		allowed = {
 			NOT = {

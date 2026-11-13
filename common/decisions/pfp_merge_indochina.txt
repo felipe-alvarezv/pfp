@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - INDOCHINA
 # Allows the overlord to merge Indochinese puppet states into a unified
 # Indochina, then absorb additional Southeast Asian puppets.

@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - KOREA
 # Allows the overlord to merge North Korea and South Korea into a unified
 # Korea.

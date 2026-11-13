@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - GERMANY
 # Allows the overlord to merge German puppet states into a unified Germany.
 #

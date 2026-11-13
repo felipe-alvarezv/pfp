@@ -1,4 +1,4 @@
-﻿#Cameroon
+#Cameroon
 Q36 = {
 	male = {
 		names = {

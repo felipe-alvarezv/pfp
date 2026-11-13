@@ -1,4 +1,4 @@
-﻿#Tanganyika
+#Tanganyika
 Q62 = {
 	male = {
 		names = {

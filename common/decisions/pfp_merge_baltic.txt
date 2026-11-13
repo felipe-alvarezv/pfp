@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - BALTIC STATES
 # Allows the overlord to merge Baltic puppet states into a unified
 # Baltic States.

@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - JAPAN
 # Allows the overlord to merge Japanese puppet states into a unified Japan.
 #

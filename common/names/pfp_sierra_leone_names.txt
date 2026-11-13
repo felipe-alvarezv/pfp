@@ -1,4 +1,4 @@
-﻿#Sierra Leone
+#Sierra Leone
 Q47 = {
 	male = {
 		names = {

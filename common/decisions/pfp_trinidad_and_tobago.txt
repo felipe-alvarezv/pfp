@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
 	pfp_trinidad_and_tobago = {
 		allowed = {
 			NOT = {

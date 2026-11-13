@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - TRANSCAUCASIA
 # Allows the overlord to merge Transcaucasian puppet states into a unified
 # Transcaucasia.

@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - IBERIA
 # Allows the overlord to merge Iberian puppet states into a unified Iberia.
 #

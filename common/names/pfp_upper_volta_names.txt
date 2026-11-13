@@ -1,4 +1,4 @@
-﻿#Upper Volta
+#Upper Volta
 Q43 = {
 	male = {
 		names = {

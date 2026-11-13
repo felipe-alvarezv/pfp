@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - GUIANA
 # Allows the overlord to merge the three Guianas into a unified Guiana.
 #

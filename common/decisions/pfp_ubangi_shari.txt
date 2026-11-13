@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
 	pfp_ubangi_shari = {
 		allowed = {
 			NOT = {

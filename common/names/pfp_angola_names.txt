@@ -1,4 +1,4 @@
-﻿#Angola
+#Angola
 Q67 = {
 	male = {
 		names = {

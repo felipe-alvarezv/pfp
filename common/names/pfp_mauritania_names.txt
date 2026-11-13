@@ -1,4 +1,4 @@
-﻿#Mauritania
+#Mauritania
 Q52 = {
 	male = {
 		names = {

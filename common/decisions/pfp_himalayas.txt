@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
 	pfp_himalayas = {
 		allowed = {
 			NOT = {
@@ -23,14 +23,7 @@
 				has_full_control_of_state = 758 #Ngari
 			}
 		}
-		visible = {
-			OR = {
-				has_full_control_of_state = 322 #Nagqu
-				has_full_control_of_state = 757 #Shigatse
-				has_full_control_of_state = 758 #Ngari
-			}
-			NOT = { has_global_flag = pfp_himalayas_flag }
-		}
+		visible = { always = no } #Removed - redundant with Tibet puppet
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 322 #Nagqu

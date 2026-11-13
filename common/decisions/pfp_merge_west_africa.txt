@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - WEST AFRICA
 # Allows the overlord to merge West African puppet states into a unified
 # West Africa.

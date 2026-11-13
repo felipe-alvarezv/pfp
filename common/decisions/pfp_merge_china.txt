@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - CHINA
 # Allows the overlord to merge Chinese puppet states into a unified China.
 #

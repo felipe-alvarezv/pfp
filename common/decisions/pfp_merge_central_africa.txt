@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - CENTRAL AFRICA
 # Allows the overlord to merge Central African puppet states into a unified
 # Central Africa.

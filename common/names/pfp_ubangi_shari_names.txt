@@ -1,4 +1,4 @@
-﻿#Ubangi-Shari
+#Ubangi-Shari
 Q37 = {
 	male = {
 		names = {

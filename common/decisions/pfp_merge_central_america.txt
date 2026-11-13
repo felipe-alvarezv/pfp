@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - CENTRAL AMERICA
 # Allows the overlord to merge Central American puppet states into a
 # unified Central America.

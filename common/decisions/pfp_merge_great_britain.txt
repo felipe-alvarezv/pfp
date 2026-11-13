@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - GREAT BRITAIN
 # Allows the overlord to merge British puppet states into a unified nation.
 #

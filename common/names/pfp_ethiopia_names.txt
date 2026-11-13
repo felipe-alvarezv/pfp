@@ -1,4 +1,4 @@
-﻿#Ethiopia
+#Ethiopia
 Q55 = {
 	male = {
 		names = {

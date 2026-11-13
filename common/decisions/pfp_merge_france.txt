@@ -1,4 +1,4 @@
-﻿###########################################################################
+###########################################################################
 # MERGE DECISIONS - FRANCE
 # Allows the overlord to merge French puppet states into a unified France.
 #
