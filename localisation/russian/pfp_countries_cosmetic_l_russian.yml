@@ -259,6 +259,15 @@
 
 
 
+  PFP_ILLYRIA:0 "Иллирия"
+  PFP_ILLYRIA_DEF:0 "Иллирии"
+  PFP_ILLYRIA_ADJ:0 "Иллирийский"
+
+  PFP_ILLYRIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Иллирия"
+  PFP_ILLYRIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Иллирия"
+  PFP_ILLYRIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Иллирийский"
+
+
   PFP_YUGOSLAVIA:0 "Югославия"
   PFP_YUGOSLAVIA_DEF:0 "Югославии"
   PFP_YUGOSLAVIA_ADJ:0 "Югославский"

@@ -949,6 +949,15 @@
 
 
 
+  PFP_ILLYRIA:0 "Illyria"
+  PFP_ILLYRIA_DEF:0 "Illyria"
+  PFP_ILLYRIA_ADJ:0 "Illyrian"
+
+  PFP_ILLYRIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ Illyria"
+  PFP_ILLYRIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ Illyria"
+  PFP_ILLYRIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ Illyrian"
+
+
   PFP_YUGOSLAVIA:0 "Yugoslavia"
   PFP_YUGOSLAVIA_DEF:0 "Yugoslavia"
   PFP_YUGOSLAVIA_ADJ:0 "Yugoslav"

@@ -259,6 +259,15 @@
 
 
 
+  PFP_ILLYRIA:0 "イリュリア"
+  PFP_ILLYRIA_DEF:0 "イリュリア"
+  PFP_ILLYRIA_ADJ:0 "イリュリアの"
+
+  PFP_ILLYRIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ イリュリア"
+  PFP_ILLYRIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ イリュリア"
+  PFP_ILLYRIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ イリュリアの"
+
+
   PFP_YUGOSLAVIA:0 "ユーゴスラビア"
   PFP_YUGOSLAVIA_DEF:0 "ユーゴスラビア"
   PFP_YUGOSLAVIA_ADJ:0 "ユーゴスラビアの"

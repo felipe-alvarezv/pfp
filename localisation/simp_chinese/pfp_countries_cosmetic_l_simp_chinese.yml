@@ -259,6 +259,15 @@
 
 
 
+  PFP_ILLYRIA:0 "伊利里亚"
+  PFP_ILLYRIA_DEF:0 "伊利里亚"
+  PFP_ILLYRIA_ADJ:0 "伊利里亚的"
+
+  PFP_ILLYRIA_pfp_autonomy_military_occupation:0 "$OVERLORDADJ$ 伊利里亚"
+  PFP_ILLYRIA_pfp_autonomy_military_occupation_DEF:0 "$OVERLORDADJ$ 伊利里亚"
+  PFP_ILLYRIA_pfp_autonomy_military_occupation_ADJ:0 "$OVERLORDADJ$ 伊利里亚的"
+
+
   PFP_YUGOSLAVIA:0 "南斯拉夫"
   PFP_YUGOSLAVIA_DEF:0 "南斯拉夫"
   PFP_YUGOSLAVIA_ADJ:0 "南斯拉夫的"

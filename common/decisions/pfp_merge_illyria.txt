@@ -1,0 +1,94 @@
+###########################################################################
+# MERGE DECISIONS - ILLYRIA
+# Allows the overlord to merge Croatian and Bosnian puppet states into a
+# unified Illyria.
+#
+# Decision 1: pfp_merge_illyria
+#   Requires Croatia (P86) and Bosnia-Herzegovina (P88) as PFP subjects.
+#   The puppet with the most total factories becomes Illyria (PFP_ILLYRIA).
+###########################################################################
+
+pfp_unification = {
+
+	# ----------------------------------------------------------------
+	# Croatia + Bosnia-Herzegovina -> Illyria
+	# ----------------------------------------------------------------
+	pfp_merge_illyria = {
+		icon = generic_nationalism
+
+		visible = {
+			is_subject = no
+			NOT = { has_global_flag = pfp_illyria_merged }
+			OR = {
+				P86 = { is_subject_of = ROOT }
+				P88 = { is_subject_of = ROOT }
+			}
+		}
+
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_illyria_not_yet_formed_tt
+				NOT = { has_global_flag = pfp_illyria_merged }
+			}
+			custom_trigger_tooltip = {
+				tooltip = pfp_merge_illyria_puppets_ready_tt
+				P86 = { is_subject_of = ROOT }
+				P88 = { is_subject_of = ROOT }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_subject_is_military_occupation_tt INDENT = "   " }
+				P86 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+				P88 = { is_subject_of = ROOT  has_autonomy_state = pfp_autonomy_military_occupation }
+			}
+			custom_trigger_tooltip = {
+				tooltip = { localization_key = pfp_merge_puppet_must_core_owned_territories_tt INDENT = "   " }
+				P86 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+				P88 = { is_subject_of = ROOT  NOT = { any_state_in = { array = THIS.pfp_possible_cores  is_owned_by = PREV  NOT = { is_core_of = PREV } } } }
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = pfp_merge_illyria_effect_form
+			custom_effect_tooltip = pfp_merge_illyria_effect_annex
+			custom_effect_tooltip = pfp_merge_illyria_effect_cores
+			hidden_effect = {
+				# Score = mil factories + civ factories
+				P86 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+				P88 = { set_variable = { pfp_fac = num_of_military_factories } add_to_variable = { pfp_fac = num_of_civilian_factories } }
+
+				# Initialize winner with P86, then linear challenge
+				P86 = { save_global_event_target_as = pfp_illyria_winner }
+				if = { limit = { check_variable = { P88.pfp_fac > event_target:pfp_illyria_winner.pfp_fac } } P88 = { save_global_event_target_as = pfp_illyria_winner } }
+
+				# Transfer state cores/ownership from non-winner to winner
+				if = {
+					limit = { NOT = { event_target:pfp_illyria_winner = { tag = P86 } } }
+					every_state = { limit = { OR = { is_owned_by = P86 has_contested_owner = P86 } } add_core_of = event_target:pfp_illyria_winner add_contested_owner = event_target:pfp_illyria_winner remove_core_of = P86 remove_claim_by = P86 remove_contested_owner = P86 }
+				}
+				if = {
+					limit = { NOT = { event_target:pfp_illyria_winner = { tag = P88 } } }
+					every_state = { limit = { OR = { is_owned_by = P88 has_contested_owner = P88 } } add_core_of = event_target:pfp_illyria_winner add_contested_owner = event_target:pfp_illyria_winner remove_core_of = P88 remove_claim_by = P88 remove_contested_owner = P88 }
+				}
+
+				# Transfer pfp_possible_cores arrays, annex non-winners, set tag and flag
+				event_target:pfp_illyria_winner = {
+					if = { limit = { NOT = { tag = P86 } } for_each_loop = { array = P86.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P88 } } for_each_loop = { array = P88.pfp_possible_cores value = pfp_temp_core_id add_to_array = { pfp_possible_cores = pfp_temp_core_id } } }
+					if = { limit = { NOT = { tag = P86 } } annex_country = { target = P86 transfer_troops = yes } }
+					if = { limit = { NOT = { tag = P88 } } annex_country = { target = P88 transfer_troops = yes } }
+					set_cosmetic_tag = PFP_ILLYRIA
+					set_country_flag = pfp_is_illyria
+				}
+
+				clear_global_event_target = pfp_illyria_winner
+				set_global_flag = pfp_illyria_merged
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+}

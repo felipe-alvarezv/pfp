@@ -185,6 +185,11 @@ pfp_set_use_overlord_flag = {
             }
 
             else_if = {
+                limit = { has_country_flag = pfp_is_illyria }
+                set_cosmetic_tag = PFP_ILLYRIA
+            }
+
+            else_if = {
                 limit = { has_country_flag = pfp_is_yugoslavia }
                 set_cosmetic_tag = PFP_YUGOSLAVIA
             }
